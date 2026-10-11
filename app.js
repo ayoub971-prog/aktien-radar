@@ -1,0 +1,497 @@
+/* Aktien-Radar - statische PWA, liest data/quotes.json und data/news.json (per GitHub-Action aktualisiert) */
+(function () {
+'use strict';
+var REPO = 'ayoub971-prog/aktien-radar';
+var SECTOR_ORDER = ['Halbleiter/Hardware', 'Software/KI', 'Energie', 'Industrie/Luftfahrt', 'Finanzen', 'Rohstoffe/Gold', 'Konsum/Internet', 'Gesundheit', 'ETFs/Indizes', 'Sonstige'];
+var TAGS = [
+  { n: 'Quartalszahlen', re: /quartalszahl|quartalsergebnis|quartalsbericht|jahreszahlen|halbjahreszahlen|geschäftszahlen|\bearnings\b|quarterly results|\bq[1-4]\b.{0,12}(results|earnings|revenue)|(results|earnings) for (the )?(first|second|third|fourth)|\bumsatz\b|\bbilanz\b/i },
+  { n: 'Gewinnwarnung', re: /gewinnwarnung|profit warning|senkt (die |seine |ihre )?(prognose|ziele)|cuts? (its )?(outlook|guidance|forecast)|lowers? (its )?(outlook|guidance)|warns? (of|on) (profit|earnings|sales)/i },
+  { n: 'Übernahme', re: /übernahme|übernimmt|fusion|akquisition|\bacquires?\b|\bacquisition\b|\bmerger\b|\btakeover\b|\bbuyout\b|\bkauft\b.{0,30}(firma|unternehmen|startup)/i },
+  { n: 'Klage', re: /\bklage\b|\bklagen\b|verklagt|\blawsuit\b|\bsues?\b|\bsued\b|kartell|antitrust|ermittlung|investigation|\bprobe\b|strafe|\bsettlement\b|\bsec charges\b/i },
+  { n: 'Zoll', re: /\bzoll\b|\bzölle\b|\bzöllen\b|\btariffs?\b|handelskrieg|handelskonflikt|trade war|exportkontroll|export controls?|sanktion|sanctions?|embargo/i },
+  { n: 'Zinsentscheid', re: /zinsentscheid|zinssenkung|zinserhöhung|leitzins|\bfed\b|\bfomc\b|\bsnb\b|\bezb\b|\becb\b|interest rates?|rate (cut|hike|decision)|powell|notenbank|nationalbank|federal reserve/i },
+  { n: 'Rückruf', re: /rückruf|rückrufaktion|\brecalls?\b/i },
+  { n: 'Prognose', re: /prognose|ausblick|\bguidance\b|\bforecast\b|\boutlook\b/i },
+  { n: 'Upgrade/Downgrade', re: /\bupgrades?\b|\bdowngrades?\b|hochgestuft|abgestuft|heraufgestuft|herabgestuft|kaufempfehlung|kursziel|price target|\boutperform\b|\bunderperform\b|\boverweight\b|\bunderweight\b|analyst/i }
+];
+var NEW_GAP_MS = 30 * 60 * 1000;
+var DAY = 86400000;
+
+/* ---------- Hilfen ---------- */
+function $(id) { return document.getElementById(id); }
+function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
+var errCount = 0;
+function showErr(msg, kind) {
+  try {
+    var b = $('errBanner'); if (!b) return;
+    if (errCount >= 4) return; errCount++;
+    var d = document.createElement('div'); d.className = 'banner' + (kind === 'warn' ? '' : ' err'); d.textContent = msg; b.appendChild(d);
+  } catch (e) {}
+}
+window.addEventListener('error', function (e) { showErr('Fehler: ' + (e && e.message ? e.message : 'unbekannt')); });
+window.addEventListener('unhandledrejection', function (e) { showErr('Fehler: ' + (e && e.reason && e.reason.message ? e.reason.message : String(e && e.reason))); });
+
+var store = {};
+function lsGet(k) { try { var v = localStorage.getItem(k); return v === null ? (store[k] === undefined ? null : store[k]) : v; } catch (e) { return store[k] === undefined ? null : store[k]; } }
+function lsSet(k, v) { store[k] = v; try { localStorage.setItem(k, v); } catch (e) {} }
+function loadState() {
+  var s = null; try { s = JSON.parse(lsGet('ar.state') || 'null'); } catch (e) {}
+  if (!s || typeof s !== 'object') s = {};
+  s.hidden = s.hidden instanceof Array ? s.hidden : []; s.custom = s.custom instanceof Array ? s.custom : [];
+  s.order = s.order instanceof Array ? s.order : []; s.sec = s.sec && typeof s.sec === 'object' ? s.sec : {};
+  s.sort = s.sort || 'eigene';
+  return s;
+}
+var S = loadState();
+function saveState() { lsSet('ar.state', JSON.stringify(S)); }
+
+function fmtNum(x, d) {
+  if (x == null || isNaN(x)) return '-';
+  try { return new Intl.NumberFormat('de-CH', { minimumFractionDigits: d, maximumFractionDigits: d }).format(x); } catch (e) { return Number(x).toFixed(d); }
+}
+function fmtPrice(x) { return fmtNum(x, Math.abs(x) < 10 ? 3 : 2); }
+function fmtSigned(x, d) { if (x == null || isNaN(x)) return '-'; return (x > 0 ? '+' : (x < 0 ? '-' : '')) + fmtNum(Math.abs(x), d); }
+function ago(iso) {
+  if (!iso) return 'unbekannt';
+  var t = Date.parse(iso); if (isNaN(t)) return 'unbekannt';
+  var m = Math.round((Date.now() - t) / 60000);
+  if (m < 1) return 'gerade eben';
+  if (m < 60) return 'vor ' + m + ' Min';
+  var h = Math.round(m / 60); if (h < 24) return 'vor ' + h + ' Std';
+  var d = Math.round(h / 24); if (d === 1) return 'gestern';
+  return 'vor ' + d + ' Tagen';
+}
+function fmtDT(iso) {
+  var t = Date.parse(iso || ''); if (isNaN(t)) return '-';
+  try { return new Date(t).toLocaleString('de-CH', { weekday: 'short', day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit' }); } catch (e) { return iso; }
+}
+function tagsFor(title) { var r = []; for (var i = 0; i < TAGS.length; i++) if (TAGS[i].re.test(title)) r.push(TAGS[i].n); return r; }
+
+/* ---------- Daten ---------- */
+var DEF = null, Q = null, N = null, CAT = null, dataErrors = [];
+function getJSON(url) {
+  return fetch(url, { cache: 'no-cache' }).then(function (r) {
+    if (!r.ok) throw new Error(url + ' (HTTP ' + r.status + ')');
+    return r.json();
+  });
+}
+function loadData() {
+  var jobs = [
+    getJSON('watchlist.json').then(function (d) { DEF = d; lsSet('ar.cache.wl', JSON.stringify(d)); }),
+    getJSON('data/quotes.json').then(function (d) { Q = d; lsSet('ar.cache.q', JSON.stringify(d)); }),
+    getJSON('data/news.json').then(function (d) { N = d; try { localStorage.setItem('ar.cache.n', JSON.stringify(d)); } catch (e) {} })
+  ];
+  return Promise.all(jobs.map(function (j, i) { return j.then(function () { return null; }, function (e) { return { i: i, e: e }; }); })).then(function (res) {
+    dataErrors = [];
+    var keys = ['ar.cache.wl', 'ar.cache.q', 'ar.cache.n'];
+    for (var k = 0; k < res.length; k++) {
+      if (res[k]) {
+        var cached = null; try { cached = JSON.parse(lsGet(keys[res[k].i]) || 'null'); } catch (e) {}
+        if (cached) { if (res[k].i === 0) DEF = DEF || cached; if (res[k].i === 1) Q = Q || cached; if (res[k].i === 2) N = N || cached; }
+        dataErrors.push((cached ? 'Zeige zuletzt gespeicherte Daten. ' : 'Keine Daten. ') + 'Grund: ' + res[k].e.message);
+      }
+    }
+    if (!DEF) DEF = { sectors: SECTOR_ORDER, stocks: [], market_topics: [] };
+    if (!Q) Q = { quotes: {}, generated_at: null };
+    if (!N) N = { items: [], generated_at: null };
+    prepNews();
+  });
+}
+var byId = {};
+function prepNews() {
+  var it = N.items || [];
+  for (var i = 0; i < it.length; i++) { it[i]._t = Date.parse(it[i].published) || 0; it[i]._tags = tagsFor(it[i].title); }
+  it.sort(function (a, b) { return b._t - a._t; });
+}
+
+/* ---------- Watchlist (Standard + lokal) ---------- */
+function stockList() {
+  var out = [], seen = {}, i;
+  var defs = (DEF && DEF.stocks) || [];
+  for (i = 0; i < defs.length; i++) {
+    var d = defs[i];
+    if (S.hidden.indexOf(d.symbol) >= 0) continue;
+    out.push({ symbol: d.symbol, name: d.name, sector: S.sec[d.symbol] || d.sector || 'Sonstige', custom: false }); seen[d.symbol] = 1;
+  }
+  for (i = 0; i < S.custom.length; i++) {
+    var c = S.custom[i]; if (seen[c.symbol]) continue;
+    out.push({ symbol: c.symbol, name: c.name || c.symbol, sector: S.sec[c.symbol] || c.sector || 'Sonstige', custom: true }); seen[c.symbol] = 1;
+  }
+  return out;
+}
+function orderedList() {
+  var l = stockList(), pos = {}, i;
+  for (i = 0; i < S.order.length; i++) pos[S.order[i]] = i;
+  var base = {}; for (i = 0; i < l.length; i++) base[l[i].symbol] = i;
+  l.sort(function (a, b) {
+    var pa = pos[a.symbol] === undefined ? 100000 + base[a.symbol] : pos[a.symbol];
+    var pb = pos[b.symbol] === undefined ? 100000 + base[b.symbol] : pos[b.symbol];
+    return pa - pb;
+  });
+  return l;
+}
+function quoteOf(sym) { return Q && Q.quotes ? Q.quotes[sym] : null; }
+
+/* ---------- Neu-Markierung ---------- */
+var baseline = 0;
+function initBaseline() {
+  var now = Date.now(), last = parseInt(lsGet('ar.last') || '0', 10), base = parseInt(lsGet('ar.base') || '0', 10);
+  if (!last || !base) base = now;                      // erster Besuch: nichts als neu markieren
+  else if (now - last > NEW_GAP_MS) base = last;       // neuer Besuch: alles seit dem letzten Besuch ist neu
+  lsSet('ar.base', String(base)); lsSet('ar.last', String(now)); baseline = base;
+}
+function touchLast() { lsSet('ar.last', String(Date.now())); }
+function isNew(it) { return it._t > baseline; }
+function newCount(sym) {
+  var it = N.items || [], c = 0;
+  for (var i = 0; i < it.length; i++) { if (it[i]._t <= baseline) break; if (it[i].symbols && it[i].symbols.indexOf(sym) >= 0) c++; }
+  return c;
+}
+
+/* ---------- Darstellung ---------- */
+function sparkSvg(q, w, h) {
+  var pts = q && q.spark_day && q.spark_day.length >= 8 ? q.spark_day : (q && q.spark_5d && q.spark_5d.length >= 2 ? q.spark_5d : null);
+  var up = q && q.change != null ? q.change >= 0 : true, col = up ? '#38c172' : '#ef5350';
+  if (!pts) return '<svg class="spark" viewBox="0 0 100 32" aria-hidden="true"></svg>';
+  var day = pts === q.spark_day, mn = Math.min.apply(null, pts), mx = Math.max.apply(null, pts);
+  if (day && q.prev_close != null) { mn = Math.min(mn, q.prev_close); mx = Math.max(mx, q.prev_close); }
+  var rg = mx - mn || 1, d = [], i;
+  for (i = 0; i < pts.length; i++) d.push((i / (pts.length - 1) * 100).toFixed(1) + ',' + (30 - (pts[i] - mn) / rg * 28).toFixed(1));
+  var base = day && q.prev_close != null ? '<line x1="0" x2="100" y1="' + (30 - (q.prev_close - mn) / rg * 28).toFixed(1) + '" y2="' + (30 - (q.prev_close - mn) / rg * 28).toFixed(1) + '" stroke="#6b7076" stroke-width="1" stroke-dasharray="3 3" vector-effect="non-scaling-stroke"/>' : '';
+  return '<svg class="spark" viewBox="0 0 100 32" preserveAspectRatio="none" aria-hidden="true">' + base + '<polyline fill="none" stroke="' + col + '" stroke-width="1.8" vector-effect="non-scaling-stroke" stroke-linejoin="round" points="' + d.join(' ') + '"/></svg>';
+}
+function chgPill(q) {
+  if (!q || q.change_pct == null) return '<span class="chg flat">-</span>';
+  var cls = q.change_pct > 0.005 ? 'up' : (q.change_pct < -0.005 ? 'down' : 'flat');
+  return '<span class="chg ' + cls + '">' + fmtSigned(q.change_pct, 2) + ' %</span>';
+}
+var MV_UP = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="5,15 12,8 19,15"/></svg>';
+var MV_DN = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="5,9 12,16 19,9"/></svg>';
+
+function rowHtml(s, showMove) {
+  var q = quoteOf(s.symbol), nn = newCount(s.symbol);
+  var right, sub;
+  if (q) {
+    right = '<div class="p">' + fmtPrice(q.price) + '</div>' + chgPill(q);
+    sub = '<span>' + (q.currency || '') + ' ' + fmtSigned(q.change, Math.abs(q.price) < 10 ? 3 : 2) + '</span><span>Kurs ' + esc(ago(q.market_time)) + '</span>' + (q.stale ? '<span class="pill warn">Kurs veraltet</span>' : '') + (nn ? '<span class="new">' + nn + ' neu</span>' : '');
+  } else {
+    right = '<span class="pill warn">wartet</span>';
+    sub = '<span>Daten werden beim nächsten Update geladen (siehe Liste)</span>';
+  }
+  var mv = showMove ? '<div class="mv"><button class="small" data-mv="up" data-s="' + esc(s.symbol) + '" aria-label="Nach oben">' + MV_UP + '</button><button class="small" data-mv="down" data-s="' + esc(s.symbol) + '" aria-label="Nach unten">' + MV_DN + '</button></div>' : '';
+  return '<a class="row" href="#/s/' + encodeURIComponent(s.symbol) + '"><div class="l"><b>' + esc(s.symbol) + '</b><span>' + esc(s.name) + '</span></div>' + (q ? sparkSvg(q) : '<div></div>') + '<div class="r" style="display:flex;align-items:center;justify-content:flex-end"><div>' + right + '</div>' + mv + '</div><div class="sub">' + sub + '</div></a>';
+}
+
+function statusLine() {
+  var qa = Q && Q.generated_at, na = N && N.generated_at;
+  var old = qa && (Date.now() - Date.parse(qa) > 3 * 3600 * 1000);
+  var h = '<p class="tiny">Kurse: Stand ' + esc(ago(qa)) + ' | Nachrichten: Stand ' + esc(ago(na)) + ' | Quelle Yahoo Finance, ggf. 15 Min verzögert</p>';
+  if (old) h += '<div class="banner">Die Daten sind älter als 3 Stunden. Die automatische Aktualisierung auf GitHub hat sich verspätet (kommt vor) oder ist ausgefallen. Es wird der letzte bekannte Stand gezeigt.</div>';
+  for (var i = 0; i < dataErrors.length; i++) h += '<div class="banner err">' + esc(dataErrors[i]) + '</div>';
+  if (Q && Q.errors && Q.errors.length) h += '<div class="banner">Beim letzten Update ohne Kurs: ' + esc(Q.errors.map(function (e) { return e.symbol; }).join(', ')) + '</div>';
+  return h;
+}
+
+function viewHome() {
+  var list = stockList(), h = '';
+  h += '<div class="bar"><select id="sortSel" aria-label="Sortierung">' +
+    '<option value="eigene">Eigene Reihenfolge</option><option value="az">Name A-Z</option><option value="sektor">Nach Sektor</option><option value="tag">Tagesveränderung</option></select>' +
+    '<button id="reloadBtn" class="small">Aktualisieren</button></div>';
+  h += statusLine();
+  var mode = S.sort, i;
+  if (!list.length) h += '<p class="muted">Die Liste ist leer. Unter "Liste" kannst du Aktien hinzufügen.</p>';
+  if (mode === 'az') {
+    list.sort(function (a, b) { return a.name.toLowerCase() < b.name.toLowerCase() ? -1 : 1; });
+    for (i = 0; i < list.length; i++) h += rowHtml(list[i], false);
+  } else if (mode === 'tag') {
+    list.sort(function (a, b) {
+      var qa = quoteOf(a.symbol), qb = quoteOf(b.symbol);
+      var pa = qa && qa.change_pct != null ? qa.change_pct : -1e9, pb = qb && qb.change_pct != null ? qb.change_pct : -1e9;
+      return pb - pa;
+    });
+    for (i = 0; i < list.length; i++) h += rowHtml(list[i], false);
+  } else if (mode === 'sektor') {
+    var groups = {}, order = SECTOR_ORDER.slice();
+    for (i = 0; i < list.length; i++) { var sc = list[i].sector; if (order.indexOf(sc) < 0) order.push(sc); (groups[sc] = groups[sc] || []).push(list[i]); }
+    for (var g = 0; g < order.length; g++) {
+      var gl = groups[order[g]]; if (!gl) continue;
+      gl.sort(function (a, b) { return a.name.toLowerCase() < b.name.toLowerCase() ? -1 : 1; });
+      h += '<div class="sector">' + esc(order[g]) + '</div>';
+      for (i = 0; i < gl.length; i++) h += rowHtml(gl[i], false);
+    }
+  } else {
+    list = orderedList();
+    for (i = 0; i < list.length; i++) h += rowHtml(list[i], true);
+    h += '<p class="tiny">Mit den Pfeilen rechts änderst du die Reihenfolge.</p>';
+  }
+  $('view').innerHTML = h;
+  $('sortSel').value = mode;
+  $('sortSel').onchange = function () { S.sort = $('sortSel').value; saveState(); route(); };
+  $('reloadBtn').onclick = function () { reload(true); };
+}
+
+function newsHtml(it, showSyms) {
+  var h = '<div class="news"><div class="m">' + (isNew(it) ? '<span class="new">Neu</span>' : '') + '<span>' + esc(it.source) + '</span><span>' + esc(ago(it.published)) + '</span>';
+  if (showSyms && it.symbols) for (var s = 0; s < it.symbols.length && s < 3; s++) h += '<span class="sym">' + esc(it.symbols[s]) + '</span>';
+  h += '</div><a class="t" href="' + esc(it.link) + '" target="_blank" rel="noopener noreferrer">' + esc(it.title) + '</a><div class="m">';
+  for (var t = 0; t < it._tags.length; t++) h += '<span class="tag">' + esc(it._tags[t]) + '</span>';
+  return h + '</div></div>';
+}
+
+function viewDetail(sym) {
+  var l = stockList(), s = null, i;
+  for (i = 0; i < l.length; i++) if (l[i].symbol === sym) s = l[i];
+  if (!s) { var defs = (DEF && DEF.stocks) || []; for (i = 0; i < defs.length; i++) if (defs[i].symbol === sym) s = { symbol: sym, name: defs[i].name }; }
+  if (!s) { $('view').innerHTML = '<a class="back" href="#/">Zurück</a><p class="muted">Aktie nicht gefunden.</p>'; return; }
+  var q = quoteOf(sym), h = '<a class="back" href="#/">Zurück zur Liste</a><h2 style="margin-top:4px">' + esc(s.name) + '</h2><div class="muted">' + esc(sym) + (q && q.exchange ? ' - ' + esc(q.exchange) : '') + '</div>';
+  if (q) {
+    h += '<div class="big">' + fmtPrice(q.price) + ' <span style="font-size:18px" class="muted">' + esc(q.currency || '') + '</span></div>';
+    h += '<div style="margin:6px 0">' + chgPill(q) + ' <span class="muted">' + fmtSigned(q.change, Math.abs(q.price) < 10 ? 3 : 2) + '</span></div>';
+    h += '<div class="card" style="padding:8px"><svg viewBox="0 0 100 32" preserveAspectRatio="none" style="width:100%;height:110px;display:block">' + sparkSvg(q).replace(/^<svg[^>]*>/, '').replace(/<\/svg>$/, '') + '</svg><div class="tiny" style="padding:4px 6px">' + (q.spark_day && q.spark_day.length >= 8 ? 'Verlauf des letzten Handelstags (gestrichelt: Vortagesschluss)' : 'Verlauf der letzten 5 Handelstage') + '</div></div>';
+    h += '<div class="kv"><div><span>Vortagesschluss</span>' + fmtPrice(q.prev_close) + '</div><div><span>Letzter Kurs</span>' + esc(fmtDT(q.market_time)) + '</div><div><span>52 Wochen Hoch</span>' + fmtPrice(q.high52) + '</div><div><span>52 Wochen Tief</span>' + fmtPrice(q.low52) + '</div><div><span>Daten geholt</span>' + esc(ago(q.fetched_at)) + '</div><div><span>Sektor</span>' + esc(s.sector || '-') + '</div></div>';
+    if (q.stale) h += '<div class="banner">Kurs konnte beim letzten Update nicht geholt werden: ' + esc(q.error || '') + '</div>';
+  } else h += '<div class="banner">Für diese Aktie gibt es noch keine Daten. Sie werden geladen, sobald sie in der Standardliste im Repo steht (siehe Liste).</div>';
+  h += '<p style="margin:10px 0"><a class="pill" href="https://finance.yahoo.com/quote/' + encodeURIComponent(sym) + '" target="_blank" rel="noopener noreferrer">Auf Yahoo Finance öffnen</a></p>';
+  var items = (N.items || []).filter(function (x) { return x.symbols && x.symbols.indexOf(sym) >= 0; });
+  var nn = items.filter(isNew).length;
+  h += '<h2>Meldungen (' + items.length + (nn ? ', ' + nn + ' neu' : '') + ')</h2><p class="tiny">Neueste zuerst. Zuordnung per Suchbegriff (Firmenname), nicht jede Meldung betrifft die Aktie direkt.</p>';
+  if (!items.length) h += '<p class="muted">Keine Meldungen gefunden.</p>';
+  for (i = 0; i < items.length && i < 60; i++) h += newsHtml(items[i], false);
+  $('view').innerHTML = h;
+  window.scrollTo(0, 0);
+}
+
+var nf = { sym: '', tag: '', q: '', only: false, limit: 60 };
+function viewNews() {
+  var list = stockList(), h = '<h2 style="margin-top:6px">Alle Nachrichten</h2>';
+  h += '<div class="bar"><select id="fSym"><option value="">Alle Aktien</option>';
+  var sorted = list.slice().sort(function (a, b) { return a.name.toLowerCase() < b.name.toLowerCase() ? -1 : 1; });
+  for (var i = 0; i < sorted.length; i++) h += '<option value="' + esc(sorted[i].symbol) + '">' + esc(sorted[i].name) + ' (' + esc(sorted[i].symbol) + ')</option>';
+  h += '</select></div><div class="bar"><select id="fTag"><option value="">Alle Themen</option>';
+  for (i = 0; i < TAGS.length; i++) h += '<option value="' + esc(TAGS[i].n) + '">' + esc(TAGS[i].n) + '</option>';
+  h += '</select></div><div class="bar"><input type="search" id="fQ" placeholder="Suchen in Titeln" autocomplete="off"></div>';
+  h += '<div class="bar"><label class="chk"><input type="checkbox" id="fNew"> Nur neue seit dem letzten Besuch</label><span style="flex:1"></span><button class="small" id="readBtn">Alle als gelesen</button></div>';
+  h += '<p class="tiny" id="nCount"></p><div id="nList"></div>';
+  $('view').innerHTML = h;
+  $('fSym').value = nf.sym; $('fTag').value = nf.tag; $('fQ').value = nf.q; $('fNew').checked = nf.only;
+  function upd() { nf.sym = $('fSym').value; nf.tag = $('fTag').value; nf.q = $('fQ').value; nf.only = $('fNew').checked; nf.limit = 60; fillNews(list); }
+  $('fSym').onchange = upd; $('fTag').onchange = upd; $('fNew').onchange = upd; $('fQ').oninput = upd;
+  $('readBtn').onclick = function () { baseline = Date.now(); lsSet('ar.base', String(baseline)); fillNews(list); };
+  fillNews(list);
+}
+function fillNews(list) {
+  var have = {}, i; for (i = 0; i < list.length; i++) have[list[i].symbol] = 1;
+  var q = nf.q.toLowerCase().replace(/^\s+|\s+$/g, '');
+  var res = (N.items || []).filter(function (x) {
+    if (!x.symbols || !x.symbols.length) return false;
+    var inList = false; for (var k = 0; k < x.symbols.length; k++) if (have[x.symbols[k]]) inList = true;
+    if (!inList) return false;
+    if (nf.sym && x.symbols.indexOf(nf.sym) < 0) return false;
+    if (nf.tag && x._tags.indexOf(nf.tag) < 0) return false;
+    if (nf.only && !isNew(x)) return false;
+    if (q && (x.title + ' ' + x.source).toLowerCase().indexOf(q) < 0) return false;
+    return true;
+  });
+  var h = '';
+  for (i = 0; i < res.length && i < nf.limit; i++) h += newsHtml(res[i], true);
+  if (res.length > nf.limit) h += '<p style="text-align:center"><button id="moreBtn">Mehr anzeigen</button></p>';
+  if (!res.length) h = '<p class="muted">Keine Meldungen für diese Auswahl.</p>';
+  $('nCount').textContent = res.length + ' Meldungen, neueste zuerst. Nachrichten: Stand ' + ago(N.generated_at) + '.';
+  $('nList').innerHTML = h;
+  if ($('moreBtn')) $('moreBtn').onclick = function () { nf.limit += 60; fillNews(list); };
+}
+
+var mf = { topic: '', q: '', limit: 60 };
+function viewMarkt() {
+  var topics = (DEF && DEF.market_topics) || [], h = '<h2 style="margin-top:6px">Marktweit</h2><p class="tiny">Themen, die viele Aktien betreffen können: Zölle, Zinsen, Notenbanken, KI-Chips, Exportkontrollen.</p>';
+  h += '<div class="bar"><select id="mTopic"><option value="">Alle Themen</option>';
+  for (var i = 0; i < topics.length; i++) h += '<option value="' + esc(topics[i].topic) + '">' + esc(topics[i].label) + '</option>';
+  h += '</select></div><div class="bar"><input type="search" id="mQ" placeholder="Suchen in Titeln" autocomplete="off"></div><p class="tiny" id="mCount"></p><div id="mList"></div>';
+  $('view').innerHTML = h;
+  $('mTopic').value = mf.topic; $('mQ').value = mf.q;
+  function fill() {
+    var q = mf.q.toLowerCase();
+    var res = (N.items || []).filter(function (x) { return x.topic && (!mf.topic || x.topic === mf.topic) && (!q || (x.title + ' ' + x.source).toLowerCase().indexOf(q) >= 0); });
+    var out = '';
+    for (var k = 0; k < res.length && k < mf.limit; k++) out += newsHtml(res[k], false);
+    if (res.length > mf.limit) out += '<p style="text-align:center"><button id="mMore">Mehr anzeigen</button></p>';
+    if (!res.length) out = '<p class="muted">Keine Meldungen.</p>';
+    $('mCount').textContent = res.length + ' Meldungen, neueste zuerst.';
+    $('mList').innerHTML = out;
+    if ($('mMore')) $('mMore').onclick = function () { mf.limit += 60; fill(); };
+  }
+  $('mTopic').onchange = function () { mf.topic = $('mTopic').value; mf.limit = 60; fill(); };
+  $('mQ').oninput = function () { mf.q = $('mQ').value; mf.limit = 60; fill(); };
+  fill();
+}
+
+/* ---------- Liste verwalten ---------- */
+var addMsg = '';
+function loadCatalog() {
+  if (CAT) return Promise.resolve(CAT);
+  return getJSON('data/catalog.json').then(function (d) { CAT = d.items || []; return CAT; }, function () { CAT = []; return CAT; });
+}
+function searchStocks(term) {
+  var t = term.toLowerCase().replace(/^\s+|\s+$/g, ''), out = [], seen = {};
+  if (t.length < 1) return out;
+  var pool = [], i, defs = (DEF && DEF.stocks) || [];
+  for (i = 0; i < defs.length; i++) pool.push({ s: defs[i].symbol, n: defs[i].name, sec: defs[i].sector });
+  pool = pool.concat(CAT || []);
+  var scored = [];
+  for (i = 0; i < pool.length; i++) {
+    var p = pool[i]; if (seen[p.s]) continue;
+    var sl = p.s.toLowerCase(), nl = (p.n || '').toLowerCase(), sc = -1;
+    if (sl === t) sc = 0; else if (sl.indexOf(t) === 0) sc = 1; else if (nl.indexOf(t) === 0) sc = 2; else if (nl.indexOf(t) >= 0) sc = 3; else if (sl.indexOf(t) >= 0) sc = 4;
+    if (sc >= 0) { seen[p.s] = 1; scored.push({ sc: sc, p: p }); }
+  }
+  scored.sort(function (a, b) { return a.sc - b.sc || (a.p.n < b.p.n ? -1 : 1); });
+  for (i = 0; i < scored.length && i < 8; i++) out.push(scored[i].p);
+  return out;
+}
+function inList(sym) { var l = stockList(); for (var i = 0; i < l.length; i++) if (l[i].symbol.toUpperCase() === sym.toUpperCase()) return true; return false; }
+function addStock(sym, name, sector) {
+  sym = String(sym).replace(/\s+/g, '').toUpperCase();
+  if (!/^[A-Z0-9^.=\-]{1,16}$/.test(sym)) { addMsg = 'Ungültiges Kürzel.'; return; }
+  var hi = S.hidden.indexOf(sym);
+  if (hi >= 0) { S.hidden.splice(hi, 1); addMsg = sym + ' ist wieder in der Liste.'; }
+  else if (inList(sym)) { addMsg = sym + ' ist schon in der Liste.'; return; }
+  else {
+    var isDef = false, defs = (DEF && DEF.stocks) || [];
+    for (var i = 0; i < defs.length; i++) if (defs[i].symbol === sym) isDef = true;
+    if (!isDef) S.custom.push({ symbol: sym, name: name || sym, sector: sector || 'Sonstige' });
+    addMsg = sym + ' hinzugefügt.' + (quoteOf(sym) || isDef ? '' : ' Daten werden beim nächsten Update geladen (siehe unten, "Daten anfordern").');
+  }
+  S.order = S.order.filter(function (x) { return x !== sym; }); S.order.push(sym);
+  saveState();
+}
+function pendingList() { return stockList().filter(function (s) { return !quoteOf(s.symbol); }); }
+function exportPayload() {
+  var add = pendingList().map(function (s) { return { symbol: s.symbol, name: s.name, sector: s.sector }; });
+  var defs = (DEF && DEF.stocks) || [], rem = [];
+  for (var i = 0; i < S.hidden.length; i++) rem.push(S.hidden[i]);
+  return { add: add, remove: rem };
+}
+function sectorOptions(sel) {
+  var o = '', secs = SECTOR_ORDER;
+  for (var i = 0; i < secs.length; i++) o += '<option' + (secs[i] === sel ? ' selected' : '') + '>' + esc(secs[i]) + '</option>';
+  return o;
+}
+function viewList() {
+  var h = '<h2 style="margin-top:6px">Aktie hinzufügen</h2><p class="tiny">Suche nach Name oder Kürzel (Auswahl aus ca. 500 US-Aktien plus deine Liste). Andere Börsen: Kürzel direkt eingeben, z. B. NESN.SW.</p>';
+  h += '<input type="search" id="aq" placeholder="z. B. Nvidia oder NVDA" autocomplete="off" autocapitalize="none"><div id="ares"></div>';
+  if (addMsg) h += '<div class="banner" style="border-color:#2e6b44;background:#13261a;color:#9be3b3">' + esc(addMsg) + '</div>';
+  var list = orderedList();
+  h += '<h2>Meine Liste (' + list.length + ')</h2>';
+  for (var i = 0; i < list.length; i++) {
+    var s = list[i];
+    h += '<div class="res" style="align-items:flex-start"><div style="min-width:0"><b>' + esc(s.symbol) + '</b><span>' + esc(s.name) + (quoteOf(s.symbol) ? '' : ' - noch ohne Daten') + '</span>' +
+      '<select data-sec="' + esc(s.symbol) + '" style="margin-top:6px;padding:6px 8px;font-size:14px">' + sectorOptions(s.sector) + '</select></div>' +
+      '<div style="display:flex;gap:6px;align-items:center"><button class="small" data-mv="up" data-s="' + esc(s.symbol) + '" aria-label="Nach oben">' + MV_UP + '</button><button class="small" data-mv="down" data-s="' + esc(s.symbol) + '" aria-label="Nach unten">' + MV_DN + '</button><button class="small danger" data-del="' + esc(s.symbol) + '">Entfernen</button></div></div>';
+  }
+  var pend = pendingList();
+  h += '<h2>Daten anfordern</h2><div class="card">';
+  if (pend.length || S.hidden.length) {
+    h += '<p class="tiny" style="margin-top:0">' + (pend.length ? 'Neu hinzugefügt, aber noch ohne Daten: <b>' + esc(pend.map(function (p) { return p.symbol; }).join(', ')) + '</b>. ' : '') + 'Die Kurse und Nachrichten holt eine GitHub-Action. Damit sie neue Aktien kennt, muss die Änderung ins Repo (watchlist.json). Ohne Server und ohne Zugangsdaten auf dem Handy geht das so:</p>';
+  } else h += '<p class="tiny" style="margin-top:0">Alle Aktien in deiner Liste haben Daten. Wenn du etwas hinzufügst, das noch keine Daten hat, erscheinen hier die Wege dafür.</p>';
+  h += '<p class="tiny"><b>Weg 1 (ohne Mika):</b> "Per GitHub anfordern" öffnet ein vorbereitetes Issue. Du musst auf github.com angemeldet sein und "Submit new issue" tippen. Eine Action trägt die Aktien ein und holt sofort die Daten (ca. 1 bis 2 Minuten, dann hier "Aktualisieren").</p>';
+  h += '<p class="tiny"><b>Weg 2:</b> "Watchlist exportieren" teilt den Stand per Teilen-Menü (z. B. an Mika), der ihn ins Repo einträgt.</p>';
+  h += '<div style="display:flex;gap:8px;flex-wrap:wrap"><a class="pill" id="ghLink" target="_blank" rel="noopener noreferrer" style="padding:10px 16px;color:var(--text)">Per GitHub anfordern</a><button id="expBtn" class="primary">Watchlist exportieren</button></div><p class="tiny" id="expMsg"></p></div>';
+  h += '<h2>Anzeige</h2><p><button id="resetBtn" class="danger">Standardliste wiederherstellen</button></p><p class="tiny">Setzt entfernte Aktien, eigene Reihenfolge und eigene Sektoren zurück und löscht lokal hinzugefügte Aktien.</p>';
+  $('view').innerHTML = h;
+  var aq = $('aq');
+  function showRes() {
+    var r = searchStocks(aq.value), o = '';
+    for (var k = 0; k < r.length; k++) {
+      var already = inList(r[k].s);
+      o += '<div class="res"><div style="min-width:0"><b>' + esc(r[k].s) + '</b><span>' + esc(r[k].n) + ' - ' + esc(r[k].sec || '') + '</span></div><button class="small primary" data-add="' + esc(r[k].s) + '" data-n="' + esc(r[k].n) + '" data-sec="' + esc(r[k].sec || 'Sonstige') + '"' + (already ? ' disabled' : '') + '>' + (already ? 'In Liste' : 'Hinzufügen') + '</button></div>';
+    }
+    var t = aq.value.replace(/\s+/g, '');
+    if (t && /^[A-Za-z0-9^.=\-]{1,16}$/.test(t) && !inList(t)) o += '<div class="res"><div><b>' + esc(t.toUpperCase()) + '</b><span>Kürzel direkt hinzufügen (Name und Sektor frei wählbar)</span><input type="text" id="dName" placeholder="Name (optional)" style="margin-top:6px;padding:6px 8px"><select id="dSec" style="margin-top:6px;padding:6px 8px">' + sectorOptions('Sonstige') + '</select></div><button class="small primary" id="dAdd" data-sym="' + esc(t) + '">Hinzufügen</button></div>';
+    $('ares').innerHTML = o;
+  }
+  loadCatalog().then(function () { if (aq.value) showRes(); });
+  aq.oninput = showRes;
+  $('ares').onclick = function (e) {
+    var b = e.target; while (b && b !== this && !b.getAttribute('data-add') && b.id !== 'dAdd') b = b.parentNode;
+    if (!b || b === this) return;
+    if (b.id === 'dAdd') addStock(b.getAttribute('data-sym'), $('dName').value, $('dSec').value);
+    else addStock(b.getAttribute('data-add'), b.getAttribute('data-n'), b.getAttribute('data-sec'));
+    viewList();
+  };
+  var payload = exportPayload(), json = JSON.stringify(payload);
+  $('ghLink').href = 'https://github.com/' + REPO + '/issues/new?title=' + encodeURIComponent('Watchlist: Änderung') + '&body=' + encodeURIComponent('Bitte nicht ändern, wird automatisch verarbeitet:\n\n' + json);
+  $('expBtn').onclick = function () {
+    var text = 'Aktien-Radar: Watchlist-Änderung für watchlist.json\n' + json;
+    function copyFallback() {
+      try { navigator.clipboard.writeText(text).then(function () { $('expMsg').textContent = 'In die Zwischenablage kopiert. Jetzt bei Mika einfügen.'; }, function () { $('expMsg').textContent = 'Teilen nicht möglich. Text: ' + text; }); }
+      catch (e) { $('expMsg').textContent = 'Teilen nicht möglich. Text: ' + text; }
+    }
+    if (navigator.share) { navigator.share({ title: 'Aktien-Radar Watchlist', text: text }).then(function () { $('expMsg').textContent = 'Geteilt.'; }, function (e) { if (e && e.name !== 'AbortError') copyFallback(); }); }
+    else copyFallback();
+  };
+  $('resetBtn').onclick = function () { if (confirm('Standardliste wiederherstellen? Eigene Änderungen gehen verloren.')) { S.hidden = []; S.custom = []; S.order = []; S.sec = {}; saveState(); addMsg = ''; viewList(); } };
+}
+
+/* ---------- Ereignisse (Reihenfolge, Entfernen, Sektor) ---------- */
+function move(sym, dir) {
+  var l = orderedList().map(function (x) { return x.symbol; }), i = l.indexOf(sym), j = i + (dir === 'up' ? -1 : 1);
+  if (i < 0 || j < 0 || j >= l.length) return;
+  var t = l[i]; l[i] = l[j]; l[j] = t; S.order = l; saveState();
+}
+document.addEventListener('click', function (e) {
+  var b = e.target; while (b && b !== document && !(b.getAttribute && (b.getAttribute('data-mv') || b.getAttribute('data-del')))) b = b.parentNode;
+  if (!b || b === document) return;
+  var sym = b.getAttribute('data-s') || b.getAttribute('data-del');
+  if (b.getAttribute('data-mv')) { e.preventDefault(); e.stopPropagation(); move(sym, b.getAttribute('data-mv')); route(); }
+  else if (b.getAttribute('data-del')) {
+    if (!confirm(sym + ' aus der Liste entfernen?')) return;
+    var ci = -1; for (var i = 0; i < S.custom.length; i++) if (S.custom[i].symbol === sym) ci = i;
+    if (ci >= 0) S.custom.splice(ci, 1); else if (S.hidden.indexOf(sym) < 0) S.hidden.push(sym);
+    S.order = S.order.filter(function (x) { return x !== sym; });
+    saveState(); addMsg = sym + ' entfernt.'; route();
+  }
+}, true);
+document.addEventListener('change', function (e) {
+  var t = e.target; if (t && t.getAttribute && t.getAttribute('data-sec') && t.tagName === 'SELECT') { S.sec[t.getAttribute('data-sec')] = t.value; saveState(); }
+});
+
+/* ---------- Routing ---------- */
+function setTab(t) {
+  var a = document.querySelectorAll('#tabs a');
+  for (var i = 0; i < a.length; i++) a[i].className = a[i].getAttribute('data-t') === t ? 'on' : '';
+}
+function route() {
+  var h = location.hash || '#/', m;
+  try {
+    if ((m = /^#\/s\/(.+)$/.exec(h))) { setTab('home'); viewDetail(decodeURIComponent(m[1])); }
+    else if (h === '#/news') { setTab('news'); viewNews(); }
+    else if (h === '#/markt') { setTab('markt'); viewMarkt(); }
+    else if (h === '#/liste') { setTab('liste'); viewList(); }
+    else { setTab('home'); viewHome(); }
+  } catch (err) { showErr('Anzeige-Fehler: ' + err.message); }
+  updatePill();
+}
+window.addEventListener('hashchange', function () { route(); window.scrollTo(0, 0); });
+function updatePill() {
+  var p = $('netPill'), on = navigator.onLine !== false, qa = Q && Q.generated_at;
+  p.textContent = (on ? 'Online' : 'Offline') + (qa ? ' - Stand ' + ago(qa) : '');
+  p.className = 'pill' + (on ? '' : ' warn');
+}
+var lastLoad = 0, loading = false;
+function reload(manual) {
+  if (loading) return; loading = true;
+  var b = $('reloadBtn'); if (b) b.textContent = 'Lade...';
+  loadData().then(function () { lastLoad = Date.now(); loading = false; if (manual || !/^#\/(liste|s\/)/.test(location.hash)) route(); else updatePill(); }, function (e) { loading = false; showErr('Laden fehlgeschlagen: ' + e.message); });
+}
+window.addEventListener('online', function () { reload(false); });
+window.addEventListener('offline', updatePill);
+document.addEventListener('visibilitychange', function () { if (document.visibilityState === 'visible') { touchLast(); if (Date.now() - lastLoad > 2 * 60 * 1000) reload(false); } });
+setInterval(function () { touchLast(); if (document.visibilityState === 'visible' && Date.now() - lastLoad > 5 * 60 * 1000) reload(false); updatePill(); }, 60000);
+
+/* ---------- Start ---------- */
+initBaseline();
+loadData().then(function () { lastLoad = Date.now(); route(); }, function (e) { showErr('Start fehlgeschlagen: ' + e.message); });
+if ('serviceWorker' in navigator && /^https?:$/.test(location.protocol)) {
+  navigator.serviceWorker.register('sw.js').catch(function (e) { showErr('Offline-Modus nicht verfügbar: ' + e.message, 'warn'); });
+}
+})();

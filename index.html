@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="de-CH">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Aktien-Radar</title>
+<meta name="theme-color" content="#101214">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Aktien-Radar">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<style>
+@font-face{font-family:'Fraunces';font-style:normal;font-weight:500 700;font-display:swap;src:url(fonts/Fraunces-latin.woff2) format('woff2')}
+@font-face{font-family:'Outfit';font-style:normal;font-weight:400 700;font-display:swap;src:url(fonts/Outfit-latin.woff2) format('woff2')}
+:root{color-scheme:dark;--bg:#101214;--panel:#191c1f;--panel2:#202428;--text:#f6f0e7;--muted:#b7bdc4;--accent:#e8a04a;--line:#33383d;--up:#38c172;--down:#ef5350;--upbg:#1f5a34;--downbg:#8f2a2a}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html{background:var(--bg)}
+body{margin:0;background:var(--bg);color:var(--text);font:16px Outfit,system-ui,-apple-system,sans-serif;min-height:100vh;min-height:100dvh;padding-bottom:calc(76px + env(safe-area-inset-bottom))}
+a{color:inherit;text-decoration:none}
+button,select,input{font:inherit;color:var(--text)}
+button{cursor:pointer;border:1px solid var(--line);border-radius:999px;padding:10px 16px;background:var(--panel2);font-weight:600}
+button.primary{background:var(--accent);border-color:var(--accent);color:#17130e}
+button.small{padding:6px 12px;font-size:14px}
+button.danger{border-color:#7a3030;color:#ff9a96}
+button:disabled{opacity:.45}
+select,input[type=search],input[type=text]{background:var(--panel2);border:1px solid var(--line);border-radius:14px;padding:10px 12px;width:100%}
+.hidden{display:none!important}
+.wrap{max-width:640px;margin:0 auto;padding:calc(12px + env(safe-area-inset-top)) 14px 14px}
+header.top{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:8px}
+h1{font:600 28px Fraunces,Georgia,serif;margin:0;color:var(--accent)}
+h2{font:600 22px Fraunces,Georgia,serif;margin:18px 0 8px}
+h3{font:600 14px Outfit,sans-serif;margin:16px 0 6px;color:var(--accent);text-transform:uppercase;letter-spacing:.08em}
+.pill{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:3px 10px;font-size:13px;color:var(--muted);white-space:nowrap}
+.pill.warn{border-color:#8a6a2a;color:#ffd48a}
+.muted{color:var(--muted)}.tiny{font-size:13px;color:var(--muted);line-height:1.4}
+.banner{border:1px solid #8a6a2a;background:#2a2112;color:#ffd48a;border-radius:14px;padding:10px 12px;margin:8px 0;font-size:14px;line-height:1.4}
+.banner.err{border-color:#7a3030;background:#2b1515;color:#ffb4b0}
+.bar{display:flex;gap:8px;align-items:center;margin:8px 0}
+.bar select{flex:1}
+.row{display:grid;grid-template-columns:minmax(0,1fr) 78px auto;gap:10px;align-items:center;padding:12px 4px;border-bottom:1px solid var(--line)}
+.row .l b{font-size:19px;display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.row .l span{display:block;color:var(--muted);font-size:14px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.row .r{text-align:right}.row .r .p{font-weight:600;font-size:19px}
+.chg{display:inline-block;min-width:84px;text-align:center;border-radius:9px;padding:3px 8px;font-weight:600;font-size:15px;margin-top:3px}
+.chg.up{background:var(--upbg)}.chg.down{background:var(--downbg)}.chg.flat{background:#3a3f44}
+.sub{grid-column:1/-1;display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-top:-6px;font-size:13px;color:var(--muted)}
+.new{background:var(--accent);color:#17130e;border-radius:999px;padding:1px 8px;font-size:12px;font-weight:700}
+.sector{position:sticky;top:0;background:var(--bg);color:var(--accent);font-weight:600;font-size:14px;text-transform:uppercase;letter-spacing:.08em;padding:14px 4px 6px;border-bottom:1px solid var(--line);z-index:2}
+.spark{width:78px;height:30px;display:block}
+.mv{display:flex;flex-direction:column;gap:4px;margin-left:6px}
+.mv button{padding:2px 8px;border-radius:8px;line-height:1}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:14px;margin:10px 0}
+.news{border-bottom:1px solid var(--line);padding:12px 2px}
+.news a.t{display:block;font-weight:600;font-size:16.5px;line-height:1.3;margin:4px 0}
+.news .m{font-size:13px;color:var(--muted);display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.tag{border:1px solid #6b5230;color:var(--accent);border-radius:999px;padding:0 8px;font-size:12px;font-weight:600}
+.sym{border:1px solid var(--line);border-radius:8px;padding:0 6px;font-size:12px;color:var(--text)}
+.big{font:600 40px Fraunces,Georgia,serif;margin:6px 0 0}
+.kv{display:grid;grid-template-columns:1fr 1fr;gap:8px 12px;margin-top:10px;font-size:14px}.kv span{color:var(--muted);display:block;font-size:12px}
+nav.tabs{position:fixed;left:0;right:0;bottom:0;z-index:50;max-width:640px;margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr);background:rgba(16,18,20,.97);border-top:1px solid var(--line);padding:6px 6px calc(6px + env(safe-area-inset-bottom))}
+nav.tabs a{text-align:center;padding:8px 2px;border-radius:12px;font-size:13px;color:var(--muted);font-weight:600}
+nav.tabs a svg{display:block;margin:0 auto 2px;width:22px;height:22px;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+nav.tabs a.on{color:var(--accent);background:var(--panel)}
+.chk{display:flex;align-items:center;gap:8px;font-size:14px}.chk input{width:20px;height:20px;accent-color:var(--accent)}
+.res{display:flex;justify-content:space-between;gap:8px;align-items:center;padding:9px 2px;border-bottom:1px solid var(--line)}
+.res b{font-size:17px}.res span{display:block;color:var(--muted);font-size:13px}
+.disc{font-size:12.5px;color:var(--muted);line-height:1.4;margin:16px 2px}
+.back{display:inline-block;margin:4px 0 6px;color:var(--accent);font-weight:600}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="top"><h1>Aktien-Radar</h1><span class="pill" id="netPill">Laden...</span></header>
+<div id="errBanner"></div>
+<main id="view"><p class="muted">Lade Daten...</p></main>
+<p class="disc">Hinweis: Etiketten (z. B. Quartalszahlen, Zoll) sind reine Stichwort-Treffer im Titel. Sie sind keine Kursprognose und keine Anlageberatung. Kurse können bis zu 15 Minuten verzögert sein. Quellen: Yahoo Finance, Google News.</p>
+</div>
+<nav class="tabs" id="tabs">
+<a href="#/" data-t="home"><svg viewBox="0 0 24 24"><polyline points="3,17 9,11 13,15 21,6"/><polyline points="15,6 21,6 21,12"/></svg>Aktien</a>
+<a href="#/news" data-t="news"><svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="3"/><line x1="8" y1="9" x2="16" y2="9"/><line x1="8" y1="13" x2="16" y2="13"/><line x1="8" y1="17" x2="12" y2="17"/></svg>Nachrichten</a>
+<a href="#/markt" data-t="markt"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4" ry="9"/><line x1="3" y1="12" x2="21" y2="12"/></svg>Marktweit</a>
+<a href="#/liste" data-t="liste"><svg viewBox="0 0 24 24"><line x1="5" y1="7" x2="19" y2="7"/><line x1="5" y1="12" x2="19" y2="12"/><line x1="5" y1="17" x2="19" y2="17"/></svg>Liste</a>
+</nav>
+<noscript><p class="banner err" style="margin:14px">Diese App braucht JavaScript.</p></noscript>
+<script src="app.js"></script>
+</body>
+</html>
