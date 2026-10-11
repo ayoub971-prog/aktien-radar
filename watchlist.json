@@ -1,48 +1,303 @@
 {
   "version": 1,
-  "sectors": ["Halbleiter/Hardware", "Software/KI", "Energie", "Industrie/Luftfahrt", "Finanzen", "Rohstoffe/Gold", "Konsum/Internet", "Gesundheit", "ETFs/Indizes", "Sonstige"],
+  "sectors": [
+    "Halbleiter/Hardware",
+    "Software/KI",
+    "Energie",
+    "Industrie/Luftfahrt",
+    "Finanzen",
+    "Rohstoffe/Gold",
+    "Konsum/Internet",
+    "Gesundheit",
+    "ETFs/Indizes",
+    "Sonstige"
+  ],
   "stocks": [
-    {"symbol": "TSM", "name": "Taiwan Semiconductor", "sector": "Halbleiter/Hardware", "q_de": "TSMC Aktie", "q_en": "TSMC Taiwan Semiconductor stock"},
-    {"symbol": "005930.KS", "name": "Samsung Electronics", "sector": "Halbleiter/Hardware", "q_de": "Samsung Electronics Aktie", "q_en": "Samsung Electronics stock"},
-    {"symbol": "HY9H.MU", "name": "SK Hynix", "sector": "Halbleiter/Hardware", "q_de": "SK Hynix Aktie", "q_en": "SK Hynix stock"},
-    {"symbol": "AVGO", "name": "Broadcom", "sector": "Halbleiter/Hardware", "q_de": "Broadcom Aktie", "q_en": "Broadcom stock"},
-    {"symbol": "ASML", "name": "ASML Holding", "sector": "Halbleiter/Hardware", "q_de": "ASML Aktie", "q_en": "ASML stock"},
-    {"symbol": "INTC", "name": "Intel", "sector": "Halbleiter/Hardware", "q_de": "Intel Aktie", "q_en": "Intel stock"},
-    {"symbol": "MSFT", "name": "Microsoft", "sector": "Software/KI", "q_de": "Microsoft Aktie", "q_en": "Microsoft stock"},
-    {"symbol": "PLTR", "name": "Palantir", "sector": "Software/KI", "q_de": "Palantir Aktie", "q_en": "Palantir stock"},
-    {"symbol": "IBM", "name": "IBM", "sector": "Software/KI", "q_de": "IBM Aktie", "q_en": "IBM stock"},
-    {"symbol": "OEF", "name": "iShares S&P 100 ETF", "sector": "ETFs/Indizes", "type": "etf", "q_de": "S&P 100 ETF", "q_en": "iShares S&P 100 ETF OEF"},
-    {"symbol": "NOW", "name": "ServiceNow", "sector": "Software/KI", "q_de": "ServiceNow Aktie", "q_en": "ServiceNow stock"},
-    {"symbol": "META", "name": "Meta Platforms", "sector": "Konsum/Internet", "q_de": "Meta Platforms Aktie", "q_en": "Meta Platforms stock"},
-    {"symbol": "AMZN", "name": "Amazon", "sector": "Konsum/Internet", "q_de": "Amazon Aktie", "q_en": "Amazon stock"},
-    {"symbol": "MRVL", "name": "Marvell Technology", "sector": "Halbleiter/Hardware", "q_de": "Marvell Technology Aktie", "q_en": "Marvell Technology stock"},
-    {"symbol": "^GSPC", "name": "S&P 500", "sector": "ETFs/Indizes", "type": "index", "q_de": "S&P 500 Wall Street", "q_en": "S&P 500 index Wall Street"},
-    {"symbol": "SFTBY", "name": "SoftBank Group", "sector": "Software/KI", "q_de": "SoftBank Group Aktie", "q_en": "SoftBank Group stock"},
-    {"symbol": "GLW", "name": "Corning", "sector": "Halbleiter/Hardware", "q_de": "Corning Aktie", "q_en": "Corning stock"},
-    {"symbol": "AMAT", "name": "Applied Materials", "sector": "Halbleiter/Hardware", "q_de": "Applied Materials Aktie", "q_en": "Applied Materials stock"},
-    {"symbol": "ARM", "name": "Arm Holdings", "sector": "Halbleiter/Hardware", "q_de": "Arm Holdings Aktie", "q_en": "Arm Holdings stock"},
-    {"symbol": "HOOD", "name": "Robinhood Markets", "sector": "Finanzen", "q_de": "Robinhood Aktie", "q_en": "Robinhood Markets stock"},
-    {"symbol": "WNRG.SW", "name": "SPDR MSCI World Energy ETF", "sector": "ETFs/Indizes", "type": "etf", "q_de": "SPDR MSCI World Energy ETF", "q_en": "SPDR MSCI World Energy UCITS ETF"},
-    {"symbol": "BE", "name": "Bloom Energy", "sector": "Energie", "q_de": "Bloom Energy Aktie", "q_en": "Bloom Energy stock"},
-    {"symbol": "HYLN", "name": "Hyliion Holdings", "sector": "Energie", "q_de": "Hyliion Aktie", "q_en": "Hyliion stock"},
-    {"symbol": "SMEGF", "name": "Siemens Energy", "sector": "Energie", "q_de": "Siemens Energy Aktie", "q_en": "Siemens Energy stock"},
-    {"symbol": "OKLO", "name": "Oklo", "sector": "Energie", "q_de": "Oklo Aktie", "q_en": "Oklo stock"},
-    {"symbol": "RYCEY", "name": "Rolls-Royce", "sector": "Industrie/Luftfahrt", "q_de": "Rolls-Royce Aktie", "q_en": "Rolls-Royce Holdings stock"},
-    {"symbol": "GEV", "name": "GE Vernova", "sector": "Energie", "q_de": "GE Vernova Aktie", "q_en": "GE Vernova stock"},
-    {"symbol": "GE", "name": "GE Aerospace", "sector": "Industrie/Luftfahrt", "q_de": "GE Aerospace Aktie", "q_en": "GE Aerospace stock"},
-    {"symbol": "013A.F", "name": "JD.com", "sector": "Konsum/Internet", "q_de": "JD.com Aktie", "q_en": "JD.com stock"},
-    {"symbol": "BRK-B", "name": "Berkshire Hathaway", "sector": "Finanzen", "q_de": "Berkshire Hathaway Aktie", "q_en": "Berkshire Hathaway stock"},
-    {"symbol": "0VR3.L", "name": "ZKB Gold ETF", "sector": "Rohstoffe/Gold", "type": "etf", "q_de": "Goldpreis aktuell", "q_en": "gold price today"},
-    {"symbol": "BKW.SW", "name": "BKW AG", "sector": "Energie", "q_de": "BKW AG Aktie", "q_en": "BKW AG stock"},
-    {"symbol": "UBSG.SW", "name": "UBS Group", "sector": "Finanzen", "q_de": "UBS Group Aktie", "q_en": "UBS Group stock"}
+    {
+      "symbol": "TSM",
+      "name": "Taiwan Semiconductor",
+      "sector": "Halbleiter/Hardware",
+      "q_de": "TSMC Aktie",
+      "q_en": "TSMC Taiwan Semiconductor stock"
+    },
+    {
+      "symbol": "005930.KS",
+      "name": "Samsung Electronics",
+      "sector": "Halbleiter/Hardware",
+      "q_de": "Samsung Electronics Aktie",
+      "q_en": "Samsung Electronics stock"
+    },
+    {
+      "symbol": "HY9H.MU",
+      "name": "SK Hynix",
+      "sector": "Halbleiter/Hardware",
+      "q_de": "SK Hynix Aktie",
+      "q_en": "SK Hynix stock"
+    },
+    {
+      "symbol": "AVGO",
+      "name": "Broadcom",
+      "sector": "Halbleiter/Hardware",
+      "q_de": "Broadcom Aktie",
+      "q_en": "Broadcom stock"
+    },
+    {
+      "symbol": "ASML",
+      "name": "ASML Holding",
+      "sector": "Halbleiter/Hardware",
+      "q_de": "ASML Aktie",
+      "q_en": "ASML stock"
+    },
+    {
+      "symbol": "INTC",
+      "name": "Intel",
+      "sector": "Halbleiter/Hardware",
+      "q_de": "Intel Aktie",
+      "q_en": "Intel stock"
+    },
+    {
+      "symbol": "MSFT",
+      "name": "Microsoft",
+      "sector": "Software/KI",
+      "q_de": "Microsoft Aktie",
+      "q_en": "Microsoft stock"
+    },
+    {
+      "symbol": "PLTR",
+      "name": "Palantir",
+      "sector": "Software/KI",
+      "q_de": "Palantir Aktie",
+      "q_en": "Palantir stock"
+    },
+    {
+      "symbol": "IBM",
+      "name": "IBM",
+      "sector": "Software/KI",
+      "q_de": "IBM Aktie",
+      "q_en": "IBM stock"
+    },
+    {
+      "symbol": "OEF",
+      "name": "iShares S&P 100 ETF",
+      "sector": "ETFs/Indizes",
+      "type": "etf",
+      "q_de": "S&P 100 ETF",
+      "q_en": "iShares S&P 100 ETF OEF"
+    },
+    {
+      "symbol": "NOW",
+      "name": "ServiceNow",
+      "sector": "Software/KI",
+      "q_de": "ServiceNow Aktie",
+      "q_en": "ServiceNow stock"
+    },
+    {
+      "symbol": "META",
+      "name": "Meta Platforms",
+      "sector": "Konsum/Internet",
+      "q_de": "Meta Platforms Aktie",
+      "q_en": "Meta Platforms stock"
+    },
+    {
+      "symbol": "AMZN",
+      "name": "Amazon",
+      "sector": "Konsum/Internet",
+      "q_de": "Amazon Aktie",
+      "q_en": "Amazon stock"
+    },
+    {
+      "symbol": "MRVL",
+      "name": "Marvell Technology",
+      "sector": "Halbleiter/Hardware",
+      "q_de": "Marvell Technology Aktie",
+      "q_en": "Marvell Technology stock"
+    },
+    {
+      "symbol": "^GSPC",
+      "name": "S&P 500",
+      "sector": "ETFs/Indizes",
+      "type": "index",
+      "q_de": "S&P 500 Wall Street",
+      "q_en": "S&P 500 index Wall Street"
+    },
+    {
+      "symbol": "SFTBY",
+      "name": "SoftBank Group",
+      "sector": "Software/KI",
+      "q_de": "SoftBank Group Aktie",
+      "q_en": "SoftBank Group stock"
+    },
+    {
+      "symbol": "GLW",
+      "name": "Corning",
+      "sector": "Halbleiter/Hardware",
+      "q_de": "Corning Aktie",
+      "q_en": "Corning stock"
+    },
+    {
+      "symbol": "AMAT",
+      "name": "Applied Materials",
+      "sector": "Halbleiter/Hardware",
+      "q_de": "Applied Materials Aktie",
+      "q_en": "Applied Materials stock"
+    },
+    {
+      "symbol": "ARM",
+      "name": "Arm Holdings",
+      "sector": "Halbleiter/Hardware",
+      "q_de": "Arm Holdings Aktie",
+      "q_en": "Arm Holdings stock"
+    },
+    {
+      "symbol": "HOOD",
+      "name": "Robinhood Markets",
+      "sector": "Finanzen",
+      "q_de": "Robinhood Aktie",
+      "q_en": "Robinhood Markets stock"
+    },
+    {
+      "symbol": "WNRG.SW",
+      "name": "SPDR MSCI World Energy ETF",
+      "sector": "ETFs/Indizes",
+      "type": "etf",
+      "q_de": "SPDR MSCI World Energy ETF",
+      "q_en": "SPDR MSCI World Energy UCITS ETF"
+    },
+    {
+      "symbol": "BE",
+      "name": "Bloom Energy",
+      "sector": "Energie",
+      "q_de": "Bloom Energy Aktie",
+      "q_en": "Bloom Energy stock"
+    },
+    {
+      "symbol": "HYLN",
+      "name": "Hyliion Holdings",
+      "sector": "Energie",
+      "q_de": "Hyliion Aktie",
+      "q_en": "Hyliion stock"
+    },
+    {
+      "symbol": "SMEGF",
+      "name": "Siemens Energy",
+      "sector": "Energie",
+      "q_de": "Siemens Energy Aktie",
+      "q_en": "Siemens Energy stock"
+    },
+    {
+      "symbol": "OKLO",
+      "name": "Oklo",
+      "sector": "Energie",
+      "q_de": "Oklo Aktie",
+      "q_en": "Oklo stock"
+    },
+    {
+      "symbol": "RYCEY",
+      "name": "Rolls-Royce",
+      "sector": "Industrie/Luftfahrt",
+      "q_de": "Rolls-Royce Aktie",
+      "q_en": "Rolls-Royce Holdings stock"
+    },
+    {
+      "symbol": "GEV",
+      "name": "GE Vernova",
+      "sector": "Energie",
+      "q_de": "GE Vernova Aktie",
+      "q_en": "GE Vernova stock"
+    },
+    {
+      "symbol": "GE",
+      "name": "GE Aerospace",
+      "sector": "Industrie/Luftfahrt",
+      "q_de": "GE Aerospace Aktie",
+      "q_en": "GE Aerospace stock"
+    },
+    {
+      "symbol": "013A.F",
+      "name": "JD.com",
+      "sector": "Konsum/Internet",
+      "q_de": "JD.com Aktie",
+      "q_en": "JD.com stock"
+    },
+    {
+      "symbol": "BRK-B",
+      "name": "Berkshire Hathaway",
+      "sector": "Finanzen",
+      "q_de": "Berkshire Hathaway Aktie",
+      "q_en": "Berkshire Hathaway stock"
+    },
+    {
+      "symbol": "0VR3.L",
+      "name": "ZKB Gold ETF",
+      "sector": "Rohstoffe/Gold",
+      "type": "etf",
+      "q_de": "Goldpreis aktuell",
+      "q_en": "gold price today"
+    },
+    {
+      "symbol": "BKW.SW",
+      "name": "BKW AG",
+      "sector": "Energie",
+      "q_de": "BKW AG Aktie",
+      "q_en": "BKW AG stock"
+    },
+    {
+      "symbol": "UBSG.SW",
+      "name": "UBS Group",
+      "sector": "Finanzen",
+      "q_de": "UBS Group Aktie",
+      "q_en": "UBS Group stock"
+    },
+    {
+      "symbol": "NVDA",
+      "name": "Nvidia",
+      "sector": "Halbleiter/Hardware",
+      "q_de": "Nvidia Aktie",
+      "q_en": "Nvidia stock"
+    }
   ],
   "market_topics": [
-    {"topic": "Zölle", "label": "Zölle und Handel", "q_de": "Zölle Börse Handelskonflikt", "q_en": "tariffs stocks trade war"},
-    {"topic": "Zinsen", "label": "Zinsen und Notenbanken", "q_de": "Fed Zinsentscheid Börse", "q_en": "Federal Reserve interest rate decision stocks"},
-    {"topic": "SNB", "label": "SNB und Schweiz", "q_de": "SNB Nationalbank Zinsen Franken", "q_en": "Swiss National Bank rate decision franc"},
-    {"topic": "KI-Chips", "label": "KI und Chips", "q_de": "KI Chips Nvidia Halbleiter Börse", "q_en": "AI chips semiconductor stocks"},
-    {"topic": "Exportkontrollen", "label": "Exportkontrollen", "q_de": "Exportkontrollen Chips China", "q_en": "chip export controls China"},
-    {"topic": "Wall Street", "label": "Wall Street und Märkte", "q_de": "Wall Street Börse aktuell", "q_en": "Wall Street stocks today"},
-    {"topic": "Schweizer Börse", "label": "Schweizer Börse", "q_de": "SMI Schweizer Börse", "q_en": "Swiss stocks SMI"}
+    {
+      "topic": "Zölle",
+      "label": "Zölle und Handel",
+      "q_de": "Zölle Börse Handelskonflikt",
+      "q_en": "tariffs stocks trade war"
+    },
+    {
+      "topic": "Zinsen",
+      "label": "Zinsen und Notenbanken",
+      "q_de": "Fed Zinsentscheid Börse",
+      "q_en": "Federal Reserve interest rate decision stocks"
+    },
+    {
+      "topic": "SNB",
+      "label": "SNB und Schweiz",
+      "q_de": "SNB Nationalbank Zinsen Franken",
+      "q_en": "Swiss National Bank rate decision franc"
+    },
+    {
+      "topic": "KI-Chips",
+      "label": "KI und Chips",
+      "q_de": "KI Chips Nvidia Halbleiter Börse",
+      "q_en": "AI chips semiconductor stocks"
+    },
+    {
+      "topic": "Exportkontrollen",
+      "label": "Exportkontrollen",
+      "q_de": "Exportkontrollen Chips China",
+      "q_en": "chip export controls China"
+    },
+    {
+      "topic": "Wall Street",
+      "label": "Wall Street und Märkte",
+      "q_de": "Wall Street Börse aktuell",
+      "q_en": "Wall Street stocks today"
+    },
+    {
+      "topic": "Schweizer Börse",
+      "label": "Schweizer Börse",
+      "q_de": "SMI Schweizer Börse",
+      "q_en": "Swiss stocks SMI"
+    }
   ]
 }
