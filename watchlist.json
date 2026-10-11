@@ -247,13 +247,6 @@
       "sector": "Finanzen",
       "q_de": "UBS Group Aktie",
       "q_en": "UBS Group stock"
-    },
-    {
-      "symbol": "NVDA",
-      "name": "Nvidia",
-      "sector": "Halbleiter/Hardware",
-      "q_de": "Nvidia Aktie",
-      "q_en": "Nvidia stock"
     }
   ],
   "market_topics": [
