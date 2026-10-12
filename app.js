@@ -61,6 +61,7 @@ function ago(iso) {
   var d = Math.round(h / 24); if (d === 1) return 'gestern';
   return 'vor ' + d + ' Tagen';
 }
+function fmtD(iso) { var t = Date.parse(iso || ''); if (isNaN(t)) return '-'; try { return new Date(t).toLocaleDateString('de-CH', { weekday: 'short', day: '2-digit', month: '2-digit', year: 'numeric' }); } catch (e) { return iso.slice(0, 10); } }
 function fmtDT(iso) {
   var t = Date.parse(iso || ''); if (isNaN(t)) return '-';
   try { return new Date(t).toLocaleString('de-CH', { weekday: 'short', day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit' }); } catch (e) { return iso; }
@@ -81,6 +82,9 @@ function loadData() {
     getJSON('data/quotes.json').then(function (d) { Q = d; lsSet('ar.cache.q', JSON.stringify(d)); }),
     getJSON('data/news.json').then(function (d) { N = d; try { localStorage.setItem('ar.cache.n', JSON.stringify(d)); } catch (e) {} })
   ];
+  var ij = getJSON('data/insights.json').then(function (d) { I = d; try { localStorage.setItem('ar.cache.i', JSON.stringify(d)); } catch (e) {} },
+    function () { if (!I) { try { I = JSON.parse(localStorage.getItem('ar.cache.i') || 'null'); } catch (e) {} } });
+  jobs.push(ij.then(function () {}, function () {}));
   return Promise.all(jobs.map(function (j, i) { return j.then(function () { return null; }, function (e) { return { i: i, e: e }; }); })).then(function (res) {
     dataErrors = [];
     var keys = ['ar.cache.wl', 'ar.cache.q', 'ar.cache.n'];
@@ -97,7 +101,7 @@ function loadData() {
     prepNews();
   });
 }
-var byId = {};
+var byId = {}, I = null;
 function prepNews() {
   var it = N.items || [];
   for (var i = 0; i < it.length; i++) { it[i]._t = Date.parse(it[i].published) || 0; it[i]._tags = tagsFor(it[i].title); }
@@ -251,14 +255,56 @@ function viewDetail(sym) {
     h += '<div class="kv"><div><span>Vortagesschluss</span>' + fmtPrice(q.prev_close) + '</div><div><span>Letzter Kurs</span>' + esc(fmtDT(q.market_time)) + '</div><div><span>52 Wochen Hoch</span>' + fmtPrice(q.high52) + '</div><div><span>52 Wochen Tief</span>' + fmtPrice(q.low52) + '</div><div><span>Daten geholt</span>' + esc(ago(q.fetched_at)) + '</div><div><span>Sektor</span>' + esc(s.sector || '-') + '</div></div>';
     if (q.stale) h += '<div class="banner">Kurs konnte beim letzten Update nicht geholt werden: ' + esc(q.error || '') + '</div>';
   } else h += '<div class="banner">Für diese Aktie gibt es noch keine Daten. Sie werden geladen, sobald sie in der Standardliste im Repo steht (siehe Liste).</div>';
-  h += '<p style="margin:10px 0"><a class="pill" href="https://finance.yahoo.com/quote/' + encodeURIComponent(sym) + '" target="_blank" rel="noopener noreferrer">Auf Yahoo Finance öffnen</a></p>';
+  h += insightsHtml(sym, q);
+  h += '<p style="margin:10px 0"><button id="dReload">Aktualisieren</button> <a class="pill" href="https://finance.yahoo.com/quote/' + encodeURIComponent(sym) + '" target="_blank" rel="noopener noreferrer">Auf Yahoo Finance öffnen</a></p>';
   var items = (N.items || []).filter(function (x) { return x.symbols && x.symbols.indexOf(sym) >= 0; });
   var nn = items.filter(isNew).length;
   h += '<h2>Meldungen (' + items.length + (nn ? ', ' + nn + ' neu' : '') + ')</h2><p class="tiny">Neueste zuerst. Zuordnung per Suchbegriff (Firmenname), nicht jede Meldung betrifft die Aktie direkt.</p>';
   if (!items.length) h += '<p class="muted">Keine Meldungen gefunden.</p>';
   for (i = 0; i < items.length && i < 60; i++) h += newsHtml(items[i], false);
   $('view').innerHTML = h;
+  if ($('dReload')) $('dReload').onclick = function () { reload(true); };
   window.scrollTo(0, 0);
+}
+function insightsHtml(sym, q) {
+  var x = I && I.stocks ? I.stocks[sym] : null, h = '', i;
+  var cur = (q && q.currency) || '';
+  h += '<div class="card ins"><h3 style="margin-top:0">Kurz-Zusammenfassung</h3>';
+  if (!x) h += '<p class="muted">keine Daten</p>';
+  else {
+    for (i = 0; i < x.summary.text.length; i++) h += '<p class="sumt">' + esc(x.summary.text[i]) + '</p>';
+    if (x.summary.bullets.length) {
+      h += '<ul class="sumb">';
+      for (i = 0; i < x.summary.bullets.length; i++) { var b = x.summary.bullets[i]; h += '<li><a href="' + esc(b.link) + '" target="_blank" rel="noopener noreferrer">' + esc(b.title) + '</a> <span class="tiny">' + esc(b.source) + ', ' + esc(ago(b.published)) + '</span></li>'; }
+      h += '</ul>';
+    }
+    h += '<p class="tiny">Automatisch aus den Schlagzeilen ausgewählt (seriöse Quellen bevorzugt, ohne KI-Text). Schlagzeilen in Originalsprache.</p>';
+  }
+  h += '</div><div class="card ins"><h3 style="margin-top:0">Analysten</h3>';
+  var a = x && x.analyst ? x.analyst : {};
+  if (a.consensus) {
+    var c = a.consensus, t = c.kaufen + c.halten + c.verkaufen;
+    h += '<div class="cons"><span class="cb" style="flex:' + c.kaufen + '"></span><span class="ch" style="flex:' + c.halten + '"></span><span class="cs" style="flex:' + c.verkaufen + '"></span></div>';
+    h += '<div class="kv"><div><span>Kaufen</span>' + c.kaufen + '</div><div><span>Halten</span>' + c.halten + '</div><div><span>Verkaufen</span>' + c.verkaufen + '</div><div><span>Analysten total</span>' + t + '</div></div>';
+  } else h += '<p class="muted">Empfehlungen: keine Daten</p>';
+  if (a.target) {
+    var g = a.target;
+    h += '<div class="kv"><div><span>Ø Kursziel</span>' + fmtPrice(g.mean) + ' ' + esc(cur) + '</div><div><span>Potenzial</span>' + (g.upside_pct == null ? 'keine Daten' : '<b class="' + (g.upside_pct >= 0 ? 'up' : 'down') + '">' + fmtSigned(g.upside_pct, 1) + ' %</b>') + '</div><div><span>Höchstes Ziel</span>' + (g.high ? fmtPrice(g.high) : 'keine Daten') + '</div><div><span>Tiefstes Ziel</span>' + (g.low ? fmtPrice(g.low) : 'keine Daten') + '</div></div>';
+  } else h += '<p class="muted">Kursziele: keine Daten</p>';
+  h += '<div class="kv"><div><span>Nächste Quartalszahlen</span>' + (a.next_earnings ? esc(fmtD(a.next_earnings)) : 'keine Daten') + '</div></div>';
+  if (a.changes && a.changes.length) {
+    h += '<h3>Hoch-/Herabstufungen (letzte 4 Monate)</h3><ul class="sumb">';
+    for (i = 0; i < a.changes.length; i++) { var ch = a.changes[i];
+      h += '<li><b>' + esc(ch.firm) + '</b>: ' + esc(ch.action) + (ch.to ? ' (' + (ch.from && ch.from !== ch.to ? esc(ch.from) + ' → ' : '') + esc(ch.to) + ')' : '') + (ch.pt ? ', ' + esc(ch.pt_action || 'Kursziel') + ' ' + (ch.pt_prior ? fmtPrice(ch.pt_prior) + ' → ' : '') + fmtPrice(ch.pt) : '') + ' <span class="tiny">' + esc(fmtD(ch.date)) + '</span></li>'; }
+    h += '</ul>';
+  }
+  if (x && x.analyst_news && x.analyst_news.length) {
+    h += '<h3>Analysten in den News</h3><ul class="sumb">';
+    for (i = 0; i < x.analyst_news.length; i++) { var n = x.analyst_news[i]; h += '<li><a href="' + esc(n.link) + '" target="_blank" rel="noopener noreferrer">' + esc(n.title) + '</a> <span class="tiny">' + esc(n.source) + ', ' + esc(ago(n.published)) + '</span></li>'; }
+    h += '</ul>';
+  }
+  h += '<p class="tiny">Quelle: Yahoo Finance (Konsens der Banken/Analysten)' + (x && x.analyst_at ? ', Stand ' + esc(ago(x.analyst_at)) : '') + '. Keine Anlageberatung.</p></div>';
+  return h;
 }
 
 var nf = { sym: '', tag: '', q: '', only: false, limit: 60 };
@@ -485,8 +531,9 @@ function reload(manual) {
 }
 window.addEventListener('online', function () { reload(false); });
 window.addEventListener('offline', updatePill);
-document.addEventListener('visibilitychange', function () { if (document.visibilityState === 'visible') { touchLast(); if (Date.now() - lastLoad > 2 * 60 * 1000) reload(false); } });
-setInterval(function () { touchLast(); if (document.visibilityState === 'visible' && Date.now() - lastLoad > 5 * 60 * 1000) reload(false); updatePill(); }, 60000);
+// Akku schonen: kein Timer/Polling. Neu geladen wird nur beim Öffnen, beim Zurückholen in den Vordergrund und per Knopf.
+document.addEventListener('visibilitychange', function () { touchLast(); if (document.visibilityState === 'visible') { if (Date.now() - lastLoad > 30 * 1000) reload(false); else updatePill(); } });
+window.addEventListener('pageshow', function (e) { if (e.persisted && Date.now() - lastLoad > 30 * 1000) reload(false); });
 
 /* ---------- Start ---------- */
 initBaseline();

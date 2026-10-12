@@ -7,6 +7,9 @@ import xml.etree.ElementTree as ET
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone, timedelta
 from email.utils import parsedate_to_datetime
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from quality import item_quality
+import insights
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
@@ -218,6 +221,9 @@ def merge_news(batches, old_items):
     for b in batches:
         for i in b:
             put(i)
+    for v in list(by.values()):   # Quellenfilter: Clickbait/unserioese Quellen raus
+        v["q"] = item_quality(v)
+    by = {k: v for k, v in by.items() if v["q"] > 0}
     cutoff = iso(NOW - timedelta(days=KEEP_DAYS))
     res = [v for v in by.values() if v["published"] >= cutoff and v["published"] <= iso(NOW + timedelta(hours=2))]
     res.sort(key=lambda x: x["published"], reverse=True)
@@ -283,6 +289,21 @@ def main():
         with open(path, "w", encoding="utf-8") as f:
             json.dump(doc, f, ensure_ascii=False, separators=(",", ":"))
     dump(qpath, qdoc); dump(npath, ndoc)
+    # Analysten + Kurz-Zusammenfassung
+    ipath = os.path.join(ROOT, "data", "insights.json")
+    oldi = load_json(ipath, {}).get("stocks", {})
+    adata, aerrs = insights.fetch_analysts(stocks, quotes, NOW)
+    ist = {}
+    for s in stocks:
+        sym = s["symbol"]
+        a = adata.get(sym)
+        a_at = iso(NOW) if a is not None else None
+        if a is None and sym in oldi and oldi[sym].get("analyst"):
+            a = oldi[sym]["analyst"]; a_at = oldi[sym].get("analyst_at")   # letzter bekannter Stand, mit Datum
+        ist[sym] = {"summary": insights.summarize(sym, items, NOW, a, s, (quotes.get(sym) or {}).get("currency")), "analyst": a or {}, "analyst_at": a_at,
+                    "analyst_news": insights.analyst_news(sym, items, s)}
+    dump(ipath, {"generated_at": iso(NOW), "source": "Yahoo Finance quoteSummary (Analysten), Nachrichten extraktiv zusammengefasst", "stocks": ist, "errors": aerrs})
+    print("Analysten: %d/%d mit Daten" % (sum(1 for v in ist.values() if v["analyst"].get("consensus") or v["analyst"].get("target")), len(stocks)))
     print("Fertig: %d/%d Kurse, %d Meldungen, %d Fehler" % (len([q for q in quotes.values() if not q.get("stale")]), len(stocks), len(items), len(errors)))
     if len(quotes) == 0:
         sys.exit(2)

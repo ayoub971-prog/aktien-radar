@@ -1,6 +1,6 @@
 // Aktien-Radar Service Worker: App-Huelle aus dem Cache, data/*.json zuerst vom Netz (sonst letzter Stand)
-var CACHE = 'aktien-radar-shell-v1';
-var DATA = 'aktien-radar-data-v1';
+var CACHE = 'aktien-radar-shell-v2';
+var DATA = 'aktien-radar-data-v2';
 var CORE = ['./', './index.html', './app.js', './manifest.webmanifest', './watchlist.json',
   './icon.svg', './icon-192.png', './icon-512.png', './icon-maskable-512.png', './apple-touch-icon.png',
   './fonts/Fraunces-latin.woff2', './fonts/Outfit-latin.woff2'];

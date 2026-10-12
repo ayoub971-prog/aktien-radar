@@ -13,7 +13,7 @@ jobs:
     # nur der Repo-Besitzer, nur Issues mit Titel "Watchlist:"
     if: github.event.issue.user.login == github.repository_owner && startsWith(github.event.issue.title, 'Watchlist:')
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -29,7 +29,7 @@ jobs:
         run: |
           git config user.name "aktien-radar-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add watchlist.json data/quotes.json data/news.json
+          git add watchlist.json data/quotes.json data/news.json data/insights.json
           if git diff --cached --quiet; then echo "keine Aenderung"; exit 0; fi
           git commit -m "Watchlist per Issue #${{ github.event.issue.number }} aktualisiert"
           git pull --rebase -q
