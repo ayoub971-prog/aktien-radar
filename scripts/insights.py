@@ -56,6 +56,17 @@ def iso_ts(ts):
 ACTION_DE = {"up": "hochgestuft", "down": "abgestuft", "init": "neu aufgenommen", "main": "bestätigt", "reit": "bestätigt"}
 PT_DE = {"Raises": "Kursziel erhöht", "Lowers": "Kursziel gesenkt", "Maintains": "Kursziel bestätigt", "Announces": "Kursziel neu"}
 
+GRADES = {"buy": "Kaufen", "strong buy": "Stark kaufen", "outperform": "Besser als Markt", "market outperform": "Besser als Markt",
+          "sector outperform": "Besser als Sektor", "overweight": "Übergewichten", "positive": "Positiv", "accumulate": "Aufstocken", "add": "Aufstocken",
+          "hold": "Halten", "neutral": "Neutral", "equal-weight": "Marktgewichten", "equal weight": "Marktgewichten", "market perform": "Wie der Markt",
+          "sector perform": "Wie der Sektor", "sector weight": "Sektorgewichten", "in-line": "Im Rahmen", "peer perform": "Wie Vergleichsgruppe",
+          "sell": "Verkaufen", "strong sell": "Stark verkaufen", "underperform": "Schlechter als Markt", "underweight": "Untergewichten",
+          "reduce": "Reduzieren", "negative": "Negativ", "sector underperform": "Schlechter als Sektor", "market underperform": "Schlechter als Markt",
+          "long-term buy": "Langfristig kaufen", "speculative buy": "Spekulativ kaufen", "mixed": "Gemischt"}
+def grade(g):
+    if not g: return None
+    return GRADES.get(g.strip().lower(), g)
+
 def analyst_from(res, price, now):
     out = {}
     rt = ((res.get("recommendationTrend") or {}).get("trend") or [])
@@ -80,7 +91,7 @@ def analyst_from(res, price, now):
     for x in sorted(hist, key=lambda x: x.get("epochGradeDate") or 0, reverse=True):
         t = x.get("epochGradeDate") or 0
         if t < cutoff or len(ch) >= 8: break
-        ch.append({"date": iso_ts(t), "firm": x.get("firm"), "from": x.get("fromGrade") or None, "to": x.get("toGrade") or None,
+        ch.append({"date": iso_ts(t), "firm": x.get("firm"), "from": grade(x.get("fromGrade")), "to": grade(x.get("toGrade")),
                    "action": ACTION_DE.get(x.get("action"), x.get("action")), "pt_action": PT_DE.get(x.get("priceTargetAction")) or None,
                    "pt": x.get("currentPriceTarget") or None, "pt_prior": x.get("priorPriceTarget") or None})
     if ch: out["changes"] = ch
@@ -165,6 +176,7 @@ def summarize(sym, items, now, analyst=None, stock=None, currency=None):
         # Rang: Qualitaet zaehlt stark, Aktualitaet faellt ueber ~2 Tage ab
         score = q * 1.0 + 2.0 / (1 + age_h / 18.0)
         if ANALYST_RE.search(i["title"]): score += 0.4
+        if i.get("official"): score += 1.5
         mine.append((score, age_h, i))
     mine.sort(key=lambda x: -x[0])
     picked, seen = [], []
@@ -174,7 +186,7 @@ def summarize(sym, items, now, analyst=None, stock=None, currency=None):
         if any(len(tk & s) / float(len(tk | s)) > 0.45 for s in seen): continue
         seen.append(tk); picked.append(i)
         if len(picked) >= 4: break
-    picked.sort(key=lambda i: i["published"], reverse=True)
+    picked.sort(key=lambda i: (1 if i.get("official") else 0, i["published"]), reverse=True)   # offizielle zuerst
     recent = [x for x in mine if x[1] <= 48]
     themes = {}
     for _, _, i in recent:
@@ -201,7 +213,7 @@ def summarize(sym, items, now, analyst=None, stock=None, currency=None):
         if tg and tg.get("upside_pct") is not None:
             s += "; Ø Kursziel %s %s (%s%.1f %% zum Kurs)" % (fmt(tg["mean"]), currency or "", "+" if tg["upside_pct"] >= 0 else "", tg["upside_pct"])
         lines.append(s + ".")
-    bullets = [{"title": i["title"], "source": i["source"], "published": i["published"], "link": i["link"], "q": i.get("q")} for i in picked]
+    bullets = [{"title": i["title"], "title_de": i.get("title_de"), "official": i.get("official"), "source": i["source"], "published": i["published"], "link": i["link"], "q": i.get("q")} for i in picked]
     return {"text": lines, "bullets": bullets, "themes": top_t}
 
 def fmt(x):
@@ -222,6 +234,6 @@ def analyst_news(sym, items, stock=None, limit=5):
     rel = relevance_re(stock) if stock else None
     for i in items:
         if sym in (i.get("symbols") or []) and (i.get("q") or 0) >= 2 and ANALYST_RE.search(i["title"]) and (not rel or rel.search(i["title"])) and not actor(rel, i["title"]):
-            out.append({"title": i["title"], "source": i["source"], "published": i["published"], "link": i["link"]})
+            out.append({"title": i["title"], "title_de": i.get("title_de"), "source": i["source"], "published": i["published"], "link": i["link"]})
             if len(out) >= limit: break
     return out

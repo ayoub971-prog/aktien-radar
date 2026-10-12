@@ -9,7 +9,7 @@ from datetime import datetime, timezone, timedelta
 from email.utils import parsedate_to_datetime
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from quality import item_quality
-import insights
+import insights, official, translate
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
@@ -208,6 +208,10 @@ def merge_news(batches, old_items):
             by[k] = i
             return
         cur["symbols"] = sorted(set(cur.get("symbols", [])) | set(i.get("symbols", [])))
+        if i.get("official") and not cur.get("official"):
+            for k in ("official", "form", "desc", "title_de"):
+                if i.get(k): cur[k] = i[k]
+            cur["source"], cur["link"] = i["source"], i["link"]
         if i.get("topic") and not cur.get("topic"):
             cur["topic"] = i["topic"]
         if i["published"] > cur["published"]:
@@ -222,7 +226,7 @@ def merge_news(batches, old_items):
         for i in b:
             put(i)
     for v in list(by.values()):   # Quellenfilter: Clickbait/unserioese Quellen raus
-        v["q"] = item_quality(v)
+        v["q"] = 3 if v.get("official") else item_quality(v)
     by = {k: v for k, v in by.items() if v["q"] > 0}
     cutoff = iso(NOW - timedelta(days=KEEP_DAYS))
     res = [v for v in by.values() if v["published"] >= cutoff and v["published"] <= iso(NOW + timedelta(hours=2))]
@@ -278,12 +282,22 @@ def main():
         for e in errs:
             errors.append({"symbol": "markt:" + t["topic"], "what": "news", "error": e})
     old_items = oldn.get("items", []) if isinstance(oldn, dict) else []
-    items = merge_news(batches + mbatches, old_items)
+    sec, e1 = official.sec_items(stocks, NOW)
+    ir, e2 = official.ir_items(stocks, gnews)
+    for e in e1 + e2: errors.append(e)
+    print("Offiziell: %d SEC, %d Firmen-Mitteilungen" % (len(sec), len(ir)))
+    items = merge_news(batches + mbatches + [sec, ir], old_items)
+    tr = translate.translate_all([i["title"] for i in items if not i.get("official") == "sec"], os.path.join(ROOT, "data", "translations.json"))
+    for i in items:
+        if i.get("official") != "sec":
+            de = tr.get(i["title"])
+            if de: i["title_de"] = de
+            else: i.pop("title_de", None)
     ok_news = sum(1 for b in batches if b) + sum(1 for b in mbatches if b)
     if ok_news == 0 and old_items:
         print("Keine neuen Nachrichten erhalten, behalte alte Daten", file=sys.stderr)
     qdoc = {"generated_at": iso(NOW), "source": "Yahoo Finance (chart API v8), Kurse koennen bis zu 15 Min verzoegert sein", "quotes": quotes, "errors": [e for e in errors if e["what"] == "quote"]}
-    ndoc = {"generated_at": iso(NOW), "source": "Yahoo Finance RSS, Google News RSS", "items": items, "errors": [e for e in errors if e["what"] == "news"]}
+    ndoc = {"generated_at": iso(NOW), "source": "Yahoo Finance RSS, Google News RSS", "items": items, "errors": [e for e in errors if e["what"] in ("news", "official")]}
     os.makedirs(os.path.join(ROOT, "data"), exist_ok=True)
     def dump(path, doc):
         with open(path, "w", encoding="utf-8") as f:

@@ -104,7 +104,7 @@ function loadData() {
 var byId = {}, I = null;
 function prepNews() {
   var it = N.items || [];
-  for (var i = 0; i < it.length; i++) { it[i]._t = Date.parse(it[i].published) || 0; it[i]._tags = tagsFor(it[i].title); }
+  for (var i = 0; i < it.length; i++) { it[i]._t = Date.parse(it[i].published) || 0; it[i]._tags = tagsFor(it[i].title + ' ' + (it[i].title_de || '')); }
   it.sort(function (a, b) { return b._t - a._t; });
 }
 
@@ -234,10 +234,12 @@ function viewHome() {
   $('reloadBtn').onclick = function () { reload(true); };
 }
 
+function offBadge(it) { return it.official ? '<span class="offb">Offiziell' + (it.official === 'sec' ? ' · SEC' : '') + '</span>' : ''; }
+function origLine(it) { return it.title_de && it.title_de !== it.title ? '<div class="orig">' + esc(it.title) + '</div>' : ''; }
 function newsHtml(it, showSyms) {
-  var h = '<div class="news"><div class="m">' + (isNew(it) ? '<span class="new">Neu</span>' : '') + '<span>' + esc(it.source) + '</span><span>' + esc(ago(it.published)) + '</span>';
+  var h = '<div class="news' + (it.official ? ' off' : '') + '"><div class="m">' + offBadge(it) + (isNew(it) ? '<span class="new">Neu</span>' : '') + '<span>' + esc(it.source) + '</span><span>' + esc(ago(it.published)) + '</span>';
   if (showSyms && it.symbols) for (var s = 0; s < it.symbols.length && s < 3; s++) h += '<span class="sym">' + esc(it.symbols[s]) + '</span>';
-  h += '</div><a class="t" href="' + esc(it.link) + '" target="_blank" rel="noopener noreferrer">' + esc(it.title) + '</a><div class="m">';
+  h += '</div><a class="t" href="' + esc(it.link) + '" target="_blank" rel="noopener noreferrer">' + esc(it.title_de || it.title) + '</a>' + origLine(it) + '<div class="m">';
   for (var t = 0; t < it._tags.length; t++) h += '<span class="tag">' + esc(it._tags[t]) + '</span>';
   return h + '</div></div>';
 }
@@ -258,8 +260,10 @@ function viewDetail(sym) {
   h += insightsHtml(sym, q);
   h += '<p style="margin:10px 0"><button id="dReload">Aktualisieren</button> <a class="pill" href="https://finance.yahoo.com/quote/' + encodeURIComponent(sym) + '" target="_blank" rel="noopener noreferrer">Auf Yahoo Finance öffnen</a></p>';
   var items = (N.items || []).filter(function (x) { return x.symbols && x.symbols.indexOf(sym) >= 0; });
+  var wk = Date.now() - 7 * DAY;   // offizielle Meldungen der letzten 7 Tage zuerst, sonst neueste zuerst
+  items = items.filter(function (x) { return x.official && x._t >= wk; }).concat(items.filter(function (x) { return !(x.official && x._t >= wk); }));
   var nn = items.filter(isNew).length;
-  h += '<h2>Meldungen (' + items.length + (nn ? ', ' + nn + ' neu' : '') + ')</h2><p class="tiny">Neueste zuerst. Zuordnung per Suchbegriff (Firmenname), nicht jede Meldung betrifft die Aktie direkt.</p>';
+  h += '<h2>Meldungen (' + items.length + (nn ? ', ' + nn + ' neu' : '') + ')</h2><p class="tiny">Offizielle Mitteilungen der letzten 7 Tage oben, sonst neueste zuerst. Zuordnung per Suchbegriff (Firmenname), nicht jede Meldung betrifft die Aktie direkt.</p>';
   if (!items.length) h += '<p class="muted">Keine Meldungen gefunden.</p>';
   for (i = 0; i < items.length && i < 60; i++) h += newsHtml(items[i], false);
   $('view').innerHTML = h;
@@ -275,10 +279,10 @@ function insightsHtml(sym, q) {
     for (i = 0; i < x.summary.text.length; i++) h += '<p class="sumt">' + esc(x.summary.text[i]) + '</p>';
     if (x.summary.bullets.length) {
       h += '<ul class="sumb">';
-      for (i = 0; i < x.summary.bullets.length; i++) { var b = x.summary.bullets[i]; h += '<li><a href="' + esc(b.link) + '" target="_blank" rel="noopener noreferrer">' + esc(b.title) + '</a> <span class="tiny">' + esc(b.source) + ', ' + esc(ago(b.published)) + '</span></li>'; }
+      for (i = 0; i < x.summary.bullets.length; i++) { var b = x.summary.bullets[i]; h += '<li>' + offBadge(b) + ' <a href="' + esc(b.link) + '" target="_blank" rel="noopener noreferrer">' + esc(b.title_de || b.title) + '</a>' + origLine(b) + ' <span class="tiny">' + esc(b.source) + ', ' + esc(ago(b.published)) + '</span></li>'; }
       h += '</ul>';
     }
-    h += '<p class="tiny">Automatisch aus den Schlagzeilen ausgewählt (seriöse Quellen bevorzugt, ohne KI-Text). Schlagzeilen in Originalsprache.</p>';
+    h += '<p class="tiny">Automatisch aus den Schlagzeilen ausgewählt (offizielle und seriöse Quellen bevorzugt), automatisch ins Deutsche übersetzt.</p>';
   }
   h += '</div><div class="card ins"><h3 style="margin-top:0">Analysten</h3>';
   var a = x && x.analyst ? x.analyst : {};
@@ -300,7 +304,7 @@ function insightsHtml(sym, q) {
   }
   if (x && x.analyst_news && x.analyst_news.length) {
     h += '<h3>Analysten in den News</h3><ul class="sumb">';
-    for (i = 0; i < x.analyst_news.length; i++) { var n = x.analyst_news[i]; h += '<li><a href="' + esc(n.link) + '" target="_blank" rel="noopener noreferrer">' + esc(n.title) + '</a> <span class="tiny">' + esc(n.source) + ', ' + esc(ago(n.published)) + '</span></li>'; }
+    for (i = 0; i < x.analyst_news.length; i++) { var n = x.analyst_news[i]; h += '<li><a href="' + esc(n.link) + '" target="_blank" rel="noopener noreferrer">' + esc(n.title_de || n.title) + '</a>' + origLine(n) + ' <span class="tiny">' + esc(n.source) + ', ' + esc(ago(n.published)) + '</span></li>'; }
     h += '</ul>';
   }
   h += '<p class="tiny">Quelle: Yahoo Finance (Konsens der Banken/Analysten)' + (x && x.analyst_at ? ', Stand ' + esc(ago(x.analyst_at)) : '') + '. Keine Anlageberatung.</p></div>';
@@ -335,7 +339,7 @@ function fillNews(list) {
     if (nf.sym && x.symbols.indexOf(nf.sym) < 0) return false;
     if (nf.tag && x._tags.indexOf(nf.tag) < 0) return false;
     if (nf.only && !isNew(x)) return false;
-    if (q && (x.title + ' ' + x.source).toLowerCase().indexOf(q) < 0) return false;
+    if (q && (x.title + ' ' + (x.title_de || '') + ' ' + x.source).toLowerCase().indexOf(q) < 0) return false;
     return true;
   });
   var h = '';
@@ -357,7 +361,7 @@ function viewMarkt() {
   $('mTopic').value = mf.topic; $('mQ').value = mf.q;
   function fill() {
     var q = mf.q.toLowerCase();
-    var res = (N.items || []).filter(function (x) { return x.topic && (!mf.topic || x.topic === mf.topic) && (!q || (x.title + ' ' + x.source).toLowerCase().indexOf(q) >= 0); });
+    var res = (N.items || []).filter(function (x) { return x.topic && (!mf.topic || x.topic === mf.topic) && (!q || (x.title + ' ' + (x.title_de || '') + ' ' + x.source).toLowerCase().indexOf(q) >= 0); });
     var out = '';
     for (var k = 0; k < res.length && k < mf.limit; k++) out += newsHtml(res[k], false);
     if (res.length > mf.limit) out += '<p style="text-align:center"><button id="mMore">Mehr anzeigen</button></p>';
