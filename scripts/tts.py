@@ -4,7 +4,7 @@ Neu erzeugt wird nur, wenn sich der Text geaendert hat (Hash in data/audio/index
 Gratis-Limits: Pausen zwischen Aufrufen; bei Kontingentfehler (429) Abbruch, alte Dateien bleiben."""
 import base64, hashlib, json, os, re, subprocess, sys, tempfile, time, urllib.request, urllib.error
 API = "https://generativelanguage.googleapis.com/v1beta"
-MODELS = ["gemini-2.5-flash-preview-tts", "gemini-2.5-pro-preview-tts"]
+MODELS = ["gemini-2.5-flash-preview-tts"]   # pro-tts hat kein Gratis-Kontingent
 VOICE = os.environ.get("TTS_VOICE", "Kore")
 STYLE = "Lies den folgenden deutschen Text warm, ruhig und natürlich vor, wie ein freundlicher Nachrichtensprecher:\n\n"
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -48,6 +48,8 @@ def main():
             (idx["stocks"].get(s, {}).get("hash") != thash(v["vorlesetext"]) or not os.path.exists(os.path.join(AUD, fname(s))))]
     log("%d faellig, max %d Aufrufe" % (len(jobs), mx))
     if not key: log("kein GEMINI_API_KEY"); return
+    if subprocess.run(["which", "ffmpeg"], capture_output=True).returncode: log("ffmpeg fehlt"); return
+    if time.time() < idx.get("quota_until", 0): log("Kontingent-Pause bis", time.strftime("%H:%MZ", time.gmtime(idx["quota_until"]))); return
     calls, model, status = 0, None, idx.get("status", "")
     for s in jobs:
         if calls >= mx: break
@@ -62,7 +64,7 @@ def main():
                 model, ok, status = m, True, "ok"; log("%s ok (%s, %ss)" % (s, m, dur)); break
             except Exception as e:
                 code, t = err_text(e); log("%s %s: %s" % (s, m, t))
-                if code == 429: status = "quota: " + t; break
+                if code == 429: status = "quota: " + t; idx["quota_until"] = time.time() + 3600; break
         if not ok and status.startswith("quota"): log("Kontingent erschoepft, Abbruch (alte Audios bleiben)"); break
     idx.update({"voice": VOICE, "status": status, "checked_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())})
     for s in list(idx["stocks"]):

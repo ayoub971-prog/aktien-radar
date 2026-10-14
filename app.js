@@ -88,6 +88,7 @@ function loadData() {
   var aj = getJSON('data/ai.json').then(function (d) { AI = d; try { localStorage.setItem('ar.cache.ai', JSON.stringify(d)); } catch (e) {} },
     function () { if (!AI) { try { AI = JSON.parse(localStorage.getItem('ar.cache.ai') || 'null'); } catch (e) {} } });
   jobs.push(aj.then(function () {}, function () {}));
+  jobs.push(getJSON('data/audio/index.json').then(function (d) { AUD = d; }, function () {}));
   return Promise.all(jobs.map(function (j, i) { return j.then(function () { return null; }, function (e) { return { i: i, e: e }; }); })).then(function (res) {
     dataErrors = []; disTitles = null;
     var keys = ['ar.cache.wl', 'ar.cache.q', 'ar.cache.n'];
@@ -337,12 +338,21 @@ function aiHtml(sym, s) {
 }
 /* Player: Satzweise (iOS pausiert/fortsetzt speechSynthesis unzuverlässig). Position pro Aktie in localStorage. */
 var P = { sym: null, sents: [], idx: 0, playing: false, id: null, tok: 0 };
+var AUD = null, AEL = null;   // Gemini-Stimme: data/audio/index.json + ein <audio>-Element
+function audioFor(sym, sp) {
+  var e = AUD && AUD.stocks && AUD.stocks[sym];
+  return (sp.ai && e && e.file && e.id && e.id === sp.id) ? e : null;   // nur wenn zur aktuellen Zusammenfassung passend
+}
+function aEl() { if (!AEL) { AEL = new Audio(); AEL.preload = 'none'; } return AEL; }
+function fmtT(s) { s = Math.max(0, Math.floor(s || 0)); return Math.floor(s / 60) + ':' + ('0' + s % 60).slice(-2); }
 function splitSents(t) { return (t.match(/[^.!?]+(?:[.!?]+(?=\s|$)|$)/g) || [t]).map(function (x) { return x.trim(); }).filter(function (x) { return x.length > 1; }); }
 function posGet(sym) { try { return JSON.parse(lsGet('ar.tts.' + sym) || 'null'); } catch (e) { return null; } }
 function posSet(sym, o) { lsSet('ar.tts.' + sym, JSON.stringify(o)); }
 function pickVoice() {
   var ss = window.speechSynthesis; if (!ss) return null;
   var v = ss.getVoices().filter(function (x) { return /^de/i.test(x.lang); });
+  var good = function (x) { return /premium|enhanced|erweitert|neural|natural/i.test(x.name + ' ' + (x.voiceURI || '')); };
+  var hq = v.filter(good); if (hq.length) v = hq.concat(v.filter(function (x) { return !good(x); }));
   var fem = ['anna', 'petra', 'helena', 'marlene', 'vicki', 'katja', 'seraphina', 'leni', 'sandy', 'shelley', 'flo', 'google deutsch'];
   for (var f = 0; f < fem.length; f++) for (var i = 0; i < v.length; i++) if (v[i].name.toLowerCase().indexOf(fem[f]) >= 0 && /ch/i.test(v[i].lang)) return v[i];
   for (f = 0; f < fem.length; f++) for (i = 0; i < v.length; i++) if (v[i].name.toLowerCase().indexOf(fem[f]) >= 0) return v[i];
@@ -351,13 +361,27 @@ function pickVoice() {
 function plUI() {
   if (!$('pl')) return;
   var st = posGet(P.sym) || {}, resumable = !P.playing && P.idx > 0 && P.idx < P.sents.length;
+  if (P.audio) resumable = !P.playing && P.t > 0;
   $('plPlay').textContent = P.playing ? '▶ Läuft' : (resumable ? '▶ Weiter' : '▶ Vorlesen');
   $('plPlay').disabled = P.playing;
   $('plPause').hidden = !P.playing; $('plStop').hidden = !(P.playing || resumable);
   $('plNew').hidden = !!st.heard;
+  if (P.audio) { $('plInfo').textContent = 'Gemini-Stimme' + (P.playing || resumable ? ' · ' + fmtT(P.t) + (P.audio.dur ? ' / ' + fmtT(P.audio.dur) : '') : ''); return; }
   $('plInfo').textContent = !window.speechSynthesis ? 'Vorlesen wird von diesem Browser nicht unterstützt.' : (P.playing || resumable ? 'Satz ' + Math.min(P.idx + 1, P.sents.length) + ' von ' + P.sents.length : '');
 }
-function plSave() { var st = posGet(P.sym) || {}; posSet(P.sym, { id: P.id, idx: P.idx, heard: !!st.heard }); }
+function plSave() { var st = posGet(P.sym) || {}; posSet(P.sym, { id: P.id, idx: P.idx, t: P.t || 0, heard: !!st.heard }); }
+function plAudioPlay() {
+  var a = aEl(), src = 'data/audio/' + encodeURIComponent(P.audio.file) + '?v=' + P.audio.hash, tok = ++P.tok, last = 0;
+  if (a.dataset.src !== src) { a.src = src; a.dataset.src = src; }
+  var seek = function () { try { if (Math.abs(a.currentTime - P.t) > 1) a.currentTime = P.t; } catch (e) {} };
+  a.onloadedmetadata = seek;
+  a.ontimeupdate = function () { if (tok !== P.tok) return; P.t = a.currentTime; if (P.t - last > 2 || P.t < last) { last = P.t; plSave(); plUI(); } };
+  a.onended = function () { if (tok !== P.tok) return; P.playing = false; P.t = 0; posSet(P.sym, { id: P.id, idx: 0, t: 0, heard: true }); plUI(); };
+  a.onerror = function () { if (tok !== P.tok) return; P.audio = null; P.playing = true; plSpeak(); };   // Datei fehlt: Geraetestimme
+  seek();
+  var pr = a.play(); if (pr && pr.catch) pr.catch(function () { if (tok !== P.tok) return; P.playing = false; plUI(); });
+  plUI();
+}
 function plSpeak() {
   var ss = window.speechSynthesis; if (!ss) return;
   if (P.idx >= P.sents.length) { P.playing = false; P.idx = 0; posSet(P.sym, { id: P.id, idx: 0, heard: true }); plUI(); return; }
@@ -367,7 +391,7 @@ function plSpeak() {
   u.onerror = function () { if (tok !== P.tok) return; P.playing = false; plUI(); };
   ss.speak(u); plUI();
 }
-function plStopSpeech() { P.tok++; try { window.speechSynthesis && window.speechSynthesis.cancel(); } catch (e) {} }
+function plStopSpeech() { P.tok++; try { if (AEL) AEL.pause(); } catch (e) {} try { window.speechSynthesis && window.speechSynthesis.cancel(); } catch (e) {} }
 function bindPlayer(sym) {
   if (!$('pl')) return;
   var s = null, l = stockList(); for (var i = 0; i < l.length; i++) if (l[i].symbol === sym) s = l[i];
@@ -375,14 +399,19 @@ function bindPlayer(sym) {
   if (P.playing && P.sym === sym && P.id === sp.id) { plUI(); }
   else {
     if (P.playing) plStopSpeech();
-    P = { sym: sym, sents: splitSents(sp.text), idx: 0, playing: false, id: sp.id, tok: P.tok };
+    P = { sym: sym, sents: splitSents(sp.text), idx: 0, t: 0, playing: false, id: sp.id, tok: P.tok, audio: audioFor(sym, sp) };
     var st = posGet(sym);
-    if (st && st.id === sp.id) P.idx = Math.min(st.idx || 0, P.sents.length);
+    if (st && st.id === sp.id) { P.idx = Math.min(st.idx || 0, P.sents.length); P.t = +st.t || 0; }
     else posSet(sym, { id: sp.id, idx: 0, heard: false });   // neuere Zusammenfassung: alte Position verwerfen
   }
-  $('plPlay').onclick = function () { if (!window.speechSynthesis) return; plStopSpeech(); if (P.idx >= P.sents.length) P.idx = 0; P.playing = true; plSpeak(); };
+  $('plPlay').onclick = function () {
+    plStopSpeech(); P.playing = true;
+    if (P.audio) return plAudioPlay();
+    if (!window.speechSynthesis) { P.playing = false; return; }
+    if (P.idx >= P.sents.length) P.idx = 0; plSpeak();
+  };
   $('plPause').onclick = function () { P.playing = false; plStopSpeech(); plSave(); plUI(); };
-  $('plStop').onclick = function () { P.playing = false; plStopSpeech(); P.idx = 0; plSave(); plUI(); };
+  $('plStop').onclick = function () { P.playing = false; plStopSpeech(); P.idx = 0; P.t = 0; if (AEL) try { AEL.currentTime = 0; } catch (e) {} plSave(); plUI(); };
   plUI();
 }
 window.addEventListener('hashchange', function () { if (P.playing && location.hash.indexOf(encodeURIComponent(P.sym)) < 0 && location.hash.indexOf(P.sym) < 0) { P.playing = false; plStopSpeech(); plSave(); } });

@@ -1,6 +1,6 @@
 // Aktien-Radar Service Worker: index.html/app.js/css zuerst vom Netz (Cache nur offline), data/*.json zuerst vom Netz (sonst letzter Stand)
-var CACHE = 'aktien-radar-shell-v5';
-var DATA = 'aktien-radar-data-v5';
+var CACHE = 'aktien-radar-shell-v6';
+var DATA = 'aktien-radar-data-v6';
 var CORE = ['./', './index.html', './app.js', './manifest.webmanifest', './watchlist.json',
   './icon.svg', './icon-192.png', './icon-512.png', './icon-maskable-512.png', './apple-touch-icon.png',
   './fonts/Fraunces-latin.woff2', './fonts/Outfit-latin.woff2'];
@@ -20,6 +20,7 @@ self.addEventListener('fetch', function (e) {
   if (e.request.method !== 'GET') return;
   var u = new URL(e.request.url);
   if (u.origin !== location.origin) return;
+  if (/\/data\/audio\//.test(u.pathname)) return;   // Gemini-Audio direkt vom Netz (Range-Anfragen, immer aktuell)
   if (isData(u)) {
     e.respondWith(fetch(e.request).then(function (r) {
       if (r && r.ok) { var copy = r.clone(); caches.open(DATA).then(function (c) { c.put(u.pathname, copy); }); }
