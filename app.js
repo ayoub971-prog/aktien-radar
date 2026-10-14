@@ -661,6 +661,17 @@ window.addEventListener('pageshow', function (e) { if (e.persisted && Date.now()
 initBaseline();
 loadData().then(function () { lastLoad = Date.now(); route(); }, function (e) { showErr('Start fehlgeschlagen: ' + e.message); });
 if ('serviceWorker' in navigator && /^https?:$/.test(location.protocol)) {
-  navigator.serviceWorker.register('sw.js').catch(function (e) { showErr('Offline-Modus nicht verfügbar: ' + e.message, 'warn'); });
+  var hadCtrl = !!navigator.serviceWorker.controller;
+  navigator.serviceWorker.addEventListener('controllerchange', function () {
+    // neue App-Version hat uebernommen: einmal neu laden (Schutz gegen Endlosschleife)
+    if (!hadCtrl) return;
+    var last = 0; try { last = +sessionStorage.getItem('ar.swReload') || 0; } catch (e) {}
+    if (Date.now() - last < 30000) return;
+    try { sessionStorage.setItem('ar.swReload', String(Date.now())); } catch (e) {}
+    location.reload();
+  });
+  navigator.serviceWorker.register('sw.js', { updateViaCache: 'none' }).then(function (reg) {
+    document.addEventListener('visibilitychange', function () { if (document.visibilityState === 'visible') reg.update().catch(function () {}); });
+  }).catch(function (e) { showErr('Offline-Modus nicht verfügbar: ' + e.message, 'warn'); });
 }
 })();

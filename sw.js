@@ -1,6 +1,6 @@
-// Aktien-Radar Service Worker: App-Huelle aus dem Cache, data/*.json zuerst vom Netz (sonst letzter Stand)
-var CACHE = 'aktien-radar-shell-v4';
-var DATA = 'aktien-radar-data-v4';
+// Aktien-Radar Service Worker: index.html/app.js/css zuerst vom Netz (Cache nur offline), data/*.json zuerst vom Netz (sonst letzter Stand)
+var CACHE = 'aktien-radar-shell-v5';
+var DATA = 'aktien-radar-data-v5';
 var CORE = ['./', './index.html', './app.js', './manifest.webmanifest', './watchlist.json',
   './icon.svg', './icon-192.png', './icon-512.png', './icon-maskable-512.png', './apple-touch-icon.png',
   './fonts/Fraunces-latin.woff2', './fonts/Outfit-latin.woff2'];
@@ -14,6 +14,7 @@ self.addEventListener('activate', function (e) {
     return Promise.all(keys.filter(function (k) { return k !== CACHE && k !== DATA; }).map(function (k) { return caches.delete(k); }));
   }).then(function () { return self.clients.claim(); }));
 });
+function isShell(u) { return u.pathname.slice(-1) === '/' || /\.(html|js|css|webmanifest)$/.test(u.pathname); }
 function isData(u) { return /\/data\/[^\/]+\.json$/.test(u.pathname) || /\/watchlist\.json$/.test(u.pathname); }
 self.addEventListener('fetch', function (e) {
   if (e.request.method !== 'GET') return;
@@ -27,6 +28,15 @@ self.addEventListener('fetch', function (e) {
       return caches.open(DATA).then(function (c) { return c.match(u.pathname); }).then(function (hit) {
         return hit || new Response('{"error":"offline"}', { status: 503, headers: { 'content-type': 'application/json' } });
       });
+    }));
+    return;
+  }
+  if (isShell(u)) {   // network-first: immer neueste App, Cache nur als Offline-Rueckfall
+    e.respondWith(fetch(e.request, { cache: 'no-cache' }).then(function (r) {
+      if (r && r.ok) { var copy = r.clone(); caches.open(CACHE).then(function (c) { c.put(e.request, copy); }); }
+      return r;
+    }).catch(function () {
+      return caches.match(e.request, { ignoreSearch: true }).then(function (hit) { return hit || caches.match('./index.html'); });
     }));
     return;
   }
