@@ -9,6 +9,9 @@ on:
       ai_max_calls:
         description: 'Max. KI-Aufrufe in diesem Lauf'
         default: '12'
+      tts_max_calls:
+        description: 'Max. Gemini-Stimme-Aufrufe in diesem Lauf'
+        default: '3'
 permissions:
   contents: write
 concurrency:
@@ -29,12 +32,19 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           AI_MAX_CALLS: ${{ inputs.ai_max_calls || '12' }}
         run: python scripts/fetch_data.py
+      - name: Gemini-Vorlesestimme (MP3)
+        continue-on-error: true
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          TTS_MAX_CALLS: ${{ inputs.tts_max_calls || '3' }}
+        run: python scripts/tts.py
       - name: Aenderungen committen
         run: |
           git config user.name "aktien-radar-bot"
           git config user.email "actions@users.noreply.github.com"
           git add data/quotes.json data/news.json data/insights.json data/translations.json
           if [ -f data/ai.json ]; then git add data/ai.json; fi
+          if [ -d data/audio ]; then git add data/audio; fi
           if git diff --cached --quiet; then echo "keine Aenderung"; exit 0; fi
           git commit -m "Daten $(date -u +%Y-%m-%dT%H:%MZ)"
           git pull --rebase -q
