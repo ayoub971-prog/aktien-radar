@@ -9,7 +9,7 @@ from datetime import datetime, timezone, timedelta
 from email.utils import parsedate_to_datetime
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from quality import item_quality
-import insights, official, translate
+import insights, official, translate, ai_summary
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
@@ -317,6 +317,10 @@ def main():
         ist[sym] = {"summary": insights.summarize(sym, items, NOW, a, s, (quotes.get(sym) or {}).get("currency")), "analyst": a or {}, "analyst_at": a_at,
                     "analyst_news": insights.analyst_news(sym, items, s)}
     dump(ipath, {"generated_at": iso(NOW), "source": "Yahoo Finance quoteSummary (Analysten), Nachrichten extraktiv zusammengefasst", "stocks": ist, "errors": aerrs})
+    try:
+        ai_summary.run(stocks, items, ist, insights.relevance_re, os.path.join(ROOT, "data", "ai.json"), NOW)
+    except Exception as e:
+        print("KI-Zusammenfassung FEHLER (App nutzt extraktive Zusammenfassung): %s" % str(e)[:200], file=sys.stderr)
     print("Analysten: %d/%d mit Daten" % (sum(1 for v in ist.values() if v["analyst"].get("consensus") or v["analyst"].get("target")), len(stocks)))
     print("Fertig: %d/%d Kurse, %d Meldungen, %d Fehler" % (len([q for q in quotes.values() if not q.get("stale")]), len(stocks), len(items), len(errors)))
     if len(quotes) == 0:
