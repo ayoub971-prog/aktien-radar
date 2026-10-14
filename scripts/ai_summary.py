@@ -23,7 +23,7 @@ SOURCES = {
     "faz": "deutsche Tageszeitung", "frankfurter allgemeine": "deutsche Tageszeitung", "nikkei": "japanische Wirtschaftszeitung",
     "the globe and mail": "kanadische Tageszeitung", "morningstar": "Fondsanalyse- und Researchhaus", "investor's business daily": "US-Börsenzeitung",
     "the economist": "britisches Wirtschaftsmagazin", "forbes": "US-Wirtschaftsmagazin", "fortune": "US-Wirtschaftsmagazin",
-    "yahoo finanzen": "Finanzportal, bündelt Meldungen verschiedener Anbieter", "yahoo": "Yahoo Finance, Finanzportal, bündelt Meldungen und Analystenbewertungen",
+    "yahoo finanzen": "Finanzportal, bündelt Meldungen verschiedener Anbieter", "yahoo": "Finanzportal, bündelt Meldungen und Analystenbewertungen",
     "finanzen.ch": "Schweizer Finanzportal", "finanzen.net": "deutsches Finanzportal", "finanzen.at": "österreichisches Finanzportal",
     "tradingview": "Chart- und Börsenplattform", "investing.com": "Finanzportal", "wallstreet online": "deutsches Börsenportal",
     "wallstreet-online": "deutsches Börsenportal", "seeking alpha": "US-Plattform mit Anlegerbeiträgen", "marketscreener": "Finanzportal",
@@ -54,6 +54,7 @@ Strenge Regeln:
 - Bei Widersprüchen beide Seiten neutral: "X berichtet ..., Y dagegen ...". Keine Seite bevorzugen.
 - Keine eigene Meinung, keine Wertung, keine Empfehlung, keine Prognose.
 - Nur Schlagzeilen sind bekannt: formuliere vorsichtig ("berichtet", "meldet"), nicht als Tatsache.
+- Übersetze Fachbegriffe korrekt (z.B. "memory" bei Chips = Speicherchips, "guidance" = Prognose).
 - Risiken und Negatives zuerst prüfen: Klagen, Ermittlungen, Bussen, Regulierung/Recht, Herabstufungen, gesenkte Prognosen, Kursrückgänge.
 Antworte NUR mit JSON in genau dieser Form:
 {{"kurzueberblick":[{{"text":"...","quelle":"Name","nr":1}}],
@@ -62,9 +63,10 @@ Antworte NUR mit JSON in genau dieser Form:
  "analysten":[{{"text":"...","quelle":"Name"}}],
  "vorlesetext":"..."}}
 - "nr" ist die Nummer der verwendeten Meldung (Feld "nr"), bei Analystendaten weglassen.
+- In kurzueberblick, risiken, widersprueche und analysten Zahlen als Ziffern schreiben (z.B. "578 USD", "+29,9 %"), kurz und sachlich.
 - kurzueberblick: 2-4 wichtigste Punkte. risiken: leer [], wenn nichts Negatives in den Meldungen steht. widersprueche: leer [], wenn sich keine Quellen widersprechen.
 - analysten: aus den Analystendaten (Quelle "Yahoo Finance") und Analysten-Meldungen.
-- vorlesetext: natürlich gesprochenes Deutsch, 140-220 Wörter (60-90 Sekunden), ganze Sätze, keine Listen, keine Abkürzungen wie "Mio." oder "%" (schreibe "Prozent", "Millionen"), Quellen beim Namen nennen. Reihenfolge: kurzer Überblick, dann Risiken und Rechtliches (falls keine: "In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden."), dann Widersprüche, dann Analysten. Letzter Satz genau: "Keine Anlageberatung."
+- vorlesetext: natürlich gesprochenes Deutsch, 140-220 Wörter (60-90 Sekunden), ganze Sätze, keine Listen, keine Abkürzungen wie "Mio.", "USD" oder "%" (schreibe "Prozent", "Millionen", "Dollar"), Zahlen gerundet, Quellen beim Namen nennen. Reihenfolge: kurzer Überblick, dann Risiken und Rechtliches (falls keine: "In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden."), dann Widersprüche, dann Analysten. Letzter Satz genau: "Keine Anlageberatung."
 
 DATEN (JSON):
 {data}"""
@@ -114,11 +116,13 @@ def build_input(stock, items, analyst, analyst_news, rel_re, now):
             "analysten_meldungen": [{"quelle": x["source"], "titel": x.get("title_de") or x["title"]} for x in (analyst_news or [])]}
 
 def clean(o, inp=None):
-    by = {m["nr"]: m["titel"] for m in (inp or {}).get("meldungen", [])}
+    by = {m["nr"]: m for m in (inp or {}).get("meldungen", [])}
     def tit(e, r):
         try: n = int(e.get("nr"))
         except Exception: return
-        if n in by: r["titel"] = by[n]
+        if n in by:
+            r["titel"] = by[n]["titel"]
+            if by[n].get("desc") and by[n]["quelle"].lower() == r["quelle"].lower(): r["desc"] = by[n]["desc"]
     def lst(x): return x if isinstance(x, list) else []
     out = {"kurzueberblick": [], "risiken": [], "widersprueche": [], "analysten": []}
     for k in ("kurzueberblick", "risiken", "analysten"):
@@ -200,6 +204,8 @@ def run(stocks, items, insights_by_sym, rel_fn, path, now, log=print):
                 errors.append({"symbol": sym, "what": "ai", "error": t}); break
             except Exception as e:
                 log("KI FEHLER %-10s %s %s" % (sym, m, err_text(e)))
+                if isinstance(e, ValueError) and not getattr(call, "_retried", None) == sym:
+                    call._retried = sym; continue        # kaputtes JSON: einmal neu versuchen
                 errors.append({"symbol": sym, "what": "ai", "error": err_text(e)}); break
             finally:
                 time.sleep(SLEEP_S)

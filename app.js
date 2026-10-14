@@ -85,8 +85,11 @@ function loadData() {
   var ij = getJSON('data/insights.json').then(function (d) { I = d; try { localStorage.setItem('ar.cache.i', JSON.stringify(d)); } catch (e) {} },
     function () { if (!I) { try { I = JSON.parse(localStorage.getItem('ar.cache.i') || 'null'); } catch (e) {} } });
   jobs.push(ij.then(function () {}, function () {}));
+  var aj = getJSON('data/ai.json').then(function (d) { AI = d; try { localStorage.setItem('ar.cache.ai', JSON.stringify(d)); } catch (e) {} },
+    function () { if (!AI) { try { AI = JSON.parse(localStorage.getItem('ar.cache.ai') || 'null'); } catch (e) {} } });
+  jobs.push(aj.then(function () {}, function () {}));
   return Promise.all(jobs.map(function (j, i) { return j.then(function () { return null; }, function (e) { return { i: i, e: e }; }); })).then(function (res) {
-    dataErrors = [];
+    dataErrors = []; disTitles = null;
     var keys = ['ar.cache.wl', 'ar.cache.q', 'ar.cache.n'];
     for (var k = 0; k < res.length; k++) {
       if (res[k]) {
@@ -101,7 +104,7 @@ function loadData() {
     prepNews();
   });
 }
-var byId = {}, I = null;
+var byId = {}, I = null, AI = null;
 function prepNews() {
   var it = N.items || [];
   for (var i = 0; i < it.length; i++) { it[i]._t = Date.parse(it[i].published) || 0; it[i]._tags = tagsFor(it[i].title + ' ' + (it[i].title_de || '')); }
@@ -237,9 +240,9 @@ function viewHome() {
 function offBadge(it) { return it.official ? '<span class="offb">Offiziell' + (it.official === 'sec' ? ' · SEC' : '') + '</span>' : ''; }
 function origLine(it) { return it.title_de && it.title_de !== it.title ? '<div class="orig">' + esc(it.title) + '</div>' : ''; }
 function newsHtml(it, showSyms) {
-  var h = '<div class="news' + (it.official ? ' off' : '') + '"><div class="m">' + offBadge(it) + (isNew(it) ? '<span class="new">Neu</span>' : '') + '<span>' + esc(it.source) + '</span><span>' + esc(ago(it.published)) + '</span>';
+  var h = '<div class="news' + (it.official ? ' off' : '') + '"><div class="m">' + offBadge(it) + (isNew(it) ? '<span class="new">Neu</span>' : '') + '<span>' + esc(it.source) + '</span><span>' + esc(ago(it.published)) + '</span>' + (disputed(it) ? '<span class="dis">Die Quellen sind sich uneinig</span>' : '');
   if (showSyms && it.symbols) for (var s = 0; s < it.symbols.length && s < 3; s++) h += '<span class="sym">' + esc(it.symbols[s]) + '</span>';
-  h += '</div><a class="t" href="' + esc(it.link) + '" target="_blank" rel="noopener noreferrer">' + esc(it.title_de || it.title) + '</a>' + origLine(it) + '<div class="m">';
+  h += '</div><a class="t" href="' + esc(it.link) + '" target="_blank" rel="noopener noreferrer">' + esc(it.title_de || it.title) + '</a>' + origLine(it) + (srcDesc(it.source, it.official) ? '<div class="sdesc">' + esc(it.source) + ': ' + esc(srcDesc(it.source, it.official)) + '</div>' : '') + '<div class="m">';
   for (var t = 0; t < it._tags.length; t++) h += '<span class="tag">' + esc(it._tags[t]) + '</span>';
   return h + '</div></div>';
 }
@@ -253,10 +256,11 @@ function viewDetail(sym) {
   if (q) {
     h += '<div class="big">' + fmtPrice(q.price) + ' <span style="font-size:18px" class="muted">' + esc(q.currency || '') + '</span></div>';
     h += '<div style="margin:6px 0">' + chgPill(q) + ' <span class="muted">' + fmtSigned(q.change, Math.abs(q.price) < 10 ? 3 : 2) + '</span></div>';
+    h += aiHtml(sym, s);
     h += '<div class="card" style="padding:8px"><svg viewBox="0 0 100 32" preserveAspectRatio="none" style="width:100%;height:110px;display:block">' + sparkSvg(q).replace(/^<svg[^>]*>/, '').replace(/<\/svg>$/, '') + '</svg><div class="tiny" style="padding:4px 6px">' + (q.spark_day && q.spark_day.length >= 8 ? 'Verlauf des letzten Handelstags (gestrichelt: Vortagesschluss)' : 'Verlauf der letzten 5 Handelstage') + '</div></div>';
     h += '<div class="kv"><div><span>Vortagesschluss</span>' + fmtPrice(q.prev_close) + '</div><div><span>Letzter Kurs</span>' + esc(fmtDT(q.market_time)) + '</div><div><span>52 Wochen Hoch</span>' + fmtPrice(q.high52) + '</div><div><span>52 Wochen Tief</span>' + fmtPrice(q.low52) + '</div><div><span>Daten geholt</span>' + esc(ago(q.fetched_at)) + '</div><div><span>Sektor</span>' + esc(s.sector || '-') + '</div></div>';
     if (q.stale) h += '<div class="banner">Kurs konnte beim letzten Update nicht geholt werden: ' + esc(q.error || '') + '</div>';
-  } else h += '<div class="banner">Für diese Aktie gibt es noch keine Daten. Sie werden geladen, sobald sie in der Standardliste im Repo steht (siehe Liste).</div>';
+  } else h += aiHtml(sym, s) + '<div class="banner">Für diese Aktie gibt es noch keine Daten. Sie werden geladen, sobald sie in der Standardliste im Repo steht (siehe Liste).</div>';
   h += insightsHtml(sym, q);
   h += '<p style="margin:10px 0"><button id="dReload">Aktualisieren</button> <a class="pill" href="https://finance.yahoo.com/quote/' + encodeURIComponent(sym) + '" target="_blank" rel="noopener noreferrer">Auf Yahoo Finance öffnen</a></p>';
   var items = (N.items || []).filter(function (x) { return x.symbols && x.symbols.indexOf(sym) >= 0; });
@@ -268,8 +272,122 @@ function viewDetail(sym) {
   for (i = 0; i < items.length && i < 60; i++) h += newsHtml(items[i], false);
   $('view').innerHTML = h;
   if ($('dReload')) $('dReload').onclick = function () { reload(true); };
+  bindPlayer(sym);
   window.scrollTo(0, 0);
 }
+/* ---------- KI-Zusammenfassung (journalistisch) + Vorlesen ---------- */
+var SRC_JS = { 'reuters': 'internationale Nachrichtenagentur', 'bloomberg': 'US-Finanznachrichtendienst', "barron's": 'US-Finanzmagazin', 'yahoo': 'Finanzportal, bündelt Meldungen verschiedener Anbieter', 'cnbc': 'US-Wirtschaftssender', 'finanzen.net': 'deutsches Finanzportal', 'finanzen.ch': 'Schweizer Finanzportal' };
+function srcMap() { return (AI && AI.sources) || SRC_JS; }
+function srcDesc(src, official) {
+  if (official === 'sec') return 'Pflichtmeldung bei der US-Börsenaufsicht SEC';
+  if (official) return 'Mitteilung der Firma selbst';
+  var m = srcMap(), s = String(src || '').toLowerCase(), ks = Object.keys(m).sort(function (a, b) { return b.length - a.length; });
+  for (var i = 0; i < ks.length; i++) if (s.indexOf(ks[i]) >= 0) return m[ks[i]];
+  return '';
+}
+function aiOf(sym) { return AI && AI.stocks ? AI.stocks[sym] : null; }
+var disTitles = null;
+function disputed(it) {
+  if (!disTitles) { disTitles = {}; var st = (AI && AI.stocks) || {};
+    for (var k in st) { var w = st[k].widersprueche || []; for (var i = 0; i < w.length; i++) for (var j = 0; j < w[i].seiten.length; j++) if (w[i].seiten[j].titel) disTitles[w[i].seiten[j].titel] = 1; } }
+  return !!disTitles[it.title];
+}
+function srcSpan(e) {
+  if (!e.quelle) return '';
+  var d = e.desc || srcDesc(e.quelle);
+  return ' <span class="src">' + esc(e.quelle) + (d && d.toLowerCase().indexOf(e.quelle.toLowerCase()) < 0 ? ', ' + esc(d) : (d ? '' : '')) + '</span>';
+}
+function stmtList(arr, cls) {
+  var h = '<ul class="sumb ' + (cls || '') + '">';
+  for (var i = 0; i < arr.length; i++) h += '<li>' + (arr[i].rechtlich ? '<span class="law">Rechtliches</span> ' : '') + esc(arr[i].text) + srcSpan(arr[i]) + '</li>';
+  return h + '</ul>';
+}
+function fallbackSpeech(sym, s) {
+  var x = I && I.stocks ? I.stocks[sym] : null, t = (s && s.name ? s.name + '. ' : '');
+  if (x && x.summary) {
+    t += x.summary.text.join(' ').replace(/×/g, ' mal').replace(/Ø/g, 'durchschnittliches').replace(/%/g, 'Prozent').replace(/Std\./g, 'Stunden') + ' ';
+    var b = x.summary.bullets || [];
+    for (var i = 0; i < b.length && i < 4; i++) { var d = srcDesc(b[i].source, b[i].official); t += (b[i].official ? 'Mitteilung der Firma: ' : 'Laut ' + b[i].source + (d ? ', ' + d : '') + ': ') + (b[i].title_de || b[i].title).replace(/[.!?]*$/, '.') + ' '; }
+  } else t += 'Noch keine Zusammenfassung vorhanden. ';
+  return t + 'Keine Anlageberatung.';
+}
+function speechFor(sym, s) {
+  var a = aiOf(sym);
+  if (a && a.vorlesetext) return { text: a.vorlesetext, id: a.id || a.generated_at, ai: true };
+  var t = fallbackSpeech(sym, s); return { text: t, id: 'x' + hashStr(t), ai: false };
+}
+function hashStr(t) { var h = 0; for (var i = 0; i < t.length; i++) h = (h * 31 + t.charCodeAt(i)) | 0; return (h >>> 0).toString(36); }
+function aiHtml(sym, s) {
+  var a = aiOf(sym), h = '<div class="card ai"><h3 style="margin-top:0">Zusammenfassung der Quellen</h3>';
+  h += '<div class="player" id="pl"><button id="plPlay" class="primary">▶ Vorlesen</button><button id="plPause" hidden>❚❚ Pause</button><button id="plStop" hidden>■ Stop</button><span id="plNew" class="new" hidden>Neu</span><span id="plInfo" class="tiny"></span></div>';
+  if (!a) {
+    h += '<p class="tiny">Die KI-Zusammenfassung ist für diese Aktie noch nicht erstellt. Vorgelesen wird die einfache Zusammenfassung aus den Schlagzeilen.</p></div>';
+    return h;
+  }
+  h += '<div class="risk"><h3>Risiken und Negatives</h3>' + (a.risiken && a.risiken.length ? stmtList(a.risiken) : '<p class="sumt">In den vorliegenden Meldungen nichts gefunden.</p>') + '</div>';
+  h += '<h3>Kurzüberblick</h3>' + stmtList(a.kurzueberblick || []);
+  if (a.widersprueche && a.widersprueche.length) {
+    h += '<h3>Widersprüche zwischen Quellen</h3>';
+    for (var i = 0; i < a.widersprueche.length; i++) { var w = a.widersprueche[i];
+      h += '<div class="wid"><span class="dis">Die Quellen sind sich uneinig</span> <b>' + esc(w.thema) + '</b>' + stmtList(w.seiten.map(function (x) { return { text: x.text, quelle: x.quelle, desc: x.desc }; })) + '</div>'; }
+  } else h += '<h3>Widersprüche zwischen Quellen</h3><p class="sumt">Keine Widersprüche in den vorliegenden Meldungen.</p>';
+  if (a.analysten && a.analysten.length) h += '<h3>Analysten</h3>' + stmtList(a.analysten);
+  h += '<p class="tiny">Von einer KI (Google Gemini) neutral aus ' + (a.n_meldungen || 'den') + ' Schlagzeilen und den Analystendaten zusammengefasst, Stand ' + esc(ago(a.generated_at)) + '. Nur Schlagzeilen ausgewertet, Fehler möglich. Keine Anlageberatung.</p></div>';
+  return h;
+}
+/* Player: Satzweise (iOS pausiert/fortsetzt speechSynthesis unzuverlässig). Position pro Aktie in localStorage. */
+var P = { sym: null, sents: [], idx: 0, playing: false, id: null, tok: 0 };
+function splitSents(t) { return (t.match(/[^.!?]+(?:[.!?]+(?=\s|$)|$)/g) || [t]).map(function (x) { return x.trim(); }).filter(function (x) { return x.length > 1; }); }
+function posGet(sym) { try { return JSON.parse(lsGet('ar.tts.' + sym) || 'null'); } catch (e) { return null; } }
+function posSet(sym, o) { lsSet('ar.tts.' + sym, JSON.stringify(o)); }
+function pickVoice() {
+  var ss = window.speechSynthesis; if (!ss) return null;
+  var v = ss.getVoices().filter(function (x) { return /^de/i.test(x.lang); });
+  var fem = ['anna', 'petra', 'helena', 'marlene', 'vicki', 'katja', 'seraphina', 'leni', 'sandy', 'shelley', 'flo', 'google deutsch'];
+  for (var f = 0; f < fem.length; f++) for (var i = 0; i < v.length; i++) if (v[i].name.toLowerCase().indexOf(fem[f]) >= 0 && /ch/i.test(v[i].lang)) return v[i];
+  for (f = 0; f < fem.length; f++) for (i = 0; i < v.length; i++) if (v[i].name.toLowerCase().indexOf(fem[f]) >= 0) return v[i];
+  return v[0] || null;
+}
+function plUI() {
+  if (!$('pl')) return;
+  var st = posGet(P.sym) || {}, resumable = !P.playing && P.idx > 0 && P.idx < P.sents.length;
+  $('plPlay').textContent = P.playing ? '▶ Läuft' : (resumable ? '▶ Weiter' : '▶ Vorlesen');
+  $('plPlay').disabled = P.playing;
+  $('plPause').hidden = !P.playing; $('plStop').hidden = !(P.playing || resumable);
+  $('plNew').hidden = !!st.heard;
+  $('plInfo').textContent = !window.speechSynthesis ? 'Vorlesen wird von diesem Browser nicht unterstützt.' : (P.playing || resumable ? 'Satz ' + Math.min(P.idx + 1, P.sents.length) + ' von ' + P.sents.length : '');
+}
+function plSave() { var st = posGet(P.sym) || {}; posSet(P.sym, { id: P.id, idx: P.idx, heard: !!st.heard }); }
+function plSpeak() {
+  var ss = window.speechSynthesis; if (!ss) return;
+  if (P.idx >= P.sents.length) { P.playing = false; P.idx = 0; posSet(P.sym, { id: P.id, idx: 0, heard: true }); plUI(); return; }
+  var tok = ++P.tok, u = new SpeechSynthesisUtterance(P.sents[P.idx]), v = pickVoice();
+  u.lang = v ? v.lang : 'de-DE'; if (v) u.voice = v; u.rate = 0.95;
+  u.onend = function () { if (tok !== P.tok || !P.playing) return; P.idx++; plSave(); plSpeak(); };
+  u.onerror = function () { if (tok !== P.tok) return; P.playing = false; plUI(); };
+  ss.speak(u); plUI();
+}
+function plStopSpeech() { P.tok++; try { window.speechSynthesis && window.speechSynthesis.cancel(); } catch (e) {} }
+function bindPlayer(sym) {
+  if (!$('pl')) return;
+  var s = null, l = stockList(); for (var i = 0; i < l.length; i++) if (l[i].symbol === sym) s = l[i];
+  var sp = speechFor(sym, s);
+  if (P.playing && P.sym === sym && P.id === sp.id) { plUI(); }
+  else {
+    if (P.playing) plStopSpeech();
+    P = { sym: sym, sents: splitSents(sp.text), idx: 0, playing: false, id: sp.id, tok: P.tok };
+    var st = posGet(sym);
+    if (st && st.id === sp.id) P.idx = Math.min(st.idx || 0, P.sents.length);
+    else posSet(sym, { id: sp.id, idx: 0, heard: false });   // neuere Zusammenfassung: alte Position verwerfen
+  }
+  $('plPlay').onclick = function () { if (!window.speechSynthesis) return; plStopSpeech(); if (P.idx >= P.sents.length) P.idx = 0; P.playing = true; plSpeak(); };
+  $('plPause').onclick = function () { P.playing = false; plStopSpeech(); plSave(); plUI(); };
+  $('plStop').onclick = function () { P.playing = false; plStopSpeech(); P.idx = 0; plSave(); plUI(); };
+  plUI();
+}
+window.addEventListener('hashchange', function () { if (P.playing && location.hash.indexOf(encodeURIComponent(P.sym)) < 0 && location.hash.indexOf(P.sym) < 0) { P.playing = false; plStopSpeech(); plSave(); } });
+document.addEventListener('visibilitychange', function () { if (document.hidden && P.playing) { P.playing = false; plStopSpeech(); plSave(); plUI(); } });
+
 function insightsHtml(sym, q) {
   var x = I && I.stocks ? I.stocks[sym] : null, h = '', i;
   var cur = (q && q.currency) || '';
