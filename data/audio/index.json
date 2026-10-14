@@ -27,8 +27,35 @@
    "model": "gemini-2.5-flash-preview-tts",
    "dur": 75.9,
    "at": "2026-10-14T09:08:04Z"
+  },
+  "AVGO": {
+   "file": "AVGO.mp3",
+   "hash": "c6082aa2b35c36bb",
+   "id": "3ef96cf087",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
+   "dur": 75.9,
+   "at": "2026-10-14T09:15:36Z"
+  },
+  "ASML": {
+   "file": "ASML.mp3",
+   "hash": "32d9a2eda06c8704",
+   "id": "f85185a7d5",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
+   "dur": 67.2,
+   "at": "2026-10-14T09:16:30Z"
+  },
+  "INTC": {
+   "file": "INTC.mp3",
+   "hash": "a0844f4faf7600db",
+   "id": "d7fd8eb2d1",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
+   "dur": 91.7,
+   "at": "2026-10-14T09:17:31Z"
   }
  },
  "status": "ok",
- "checked_at": "2026-10-14T09:08:04Z"
+ "checked_at": "2026-10-14T09:17:31Z"
 }
