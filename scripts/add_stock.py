@@ -20,14 +20,33 @@ def search(q):
     try: return json.loads(fd.http_get(url, tries=3)).get("quotes", [])
     except Exception as e: print("Suche fehlgeschlagen:", e); return []
 
+OTC = {"PNK", "OQX", "OQB", "OID", "OEM", "OGM"}
+SUFFIX = re.compile(r"\b(ag|se|sa|s\.a\.|n|inc|inc\.|corp|corporation|co|co\.|company|ltd|ltd\.|limited|plc|nv|n\.v\.|holding|holdings|group|gmbh|asa|ab|oyj|spa|s\.p\.a\.|class [abc])\b\.?", re.I)
+def norm(t):
+    t = (t or "").lower().replace("é", "e").replace("ä", "a").replace("ö", "o").replace("ü", "u")
+    t = re.sub(r"[,.()]", " ", t); t = SUFFIX.sub(" ", t)
+    t = re.sub(r"\s+", " ", t).strip()
+    return re.sub(r"(\s[a-z])+$", "", t).strip()
+
+def pick(q, cands):
+    nq = norm(q); qs = q.upper().replace(" ", "")
+    nm = lambda c: norm(c.get("shortname") or c.get("longname"))
+    sc = lambda c: float(c.get("score") or 0)
+    tiers = [
+        [c for c in cands if nm(c) == nq and c.get("exchange") not in OTC],
+        [c for c in cands if c["symbol"].upper() == qs],
+        [c for c in cands if nm(c) == nq],
+        [c for c in cands if c.get("exchange") not in OTC and "." not in qs],
+        cands]
+    for t in tiers:
+        if t: return max(t, key=sc)
+
 def main():
     q = re.sub(r"\s+", " ", os.environ.get("QUERY", "")).strip()
     if not Q_RE.match(q): return out("Ungültige Eingabe: %r" % q[:40])
     cands = [c for c in search(q) if (c.get("quoteType") or "").upper() in OK_TYPES and SYM_RE.match(c.get("symbol", ""))]
-    exact = [c for c in cands if c["symbol"].upper() == q.upper().replace(" ", "")]
-    if exact: c = exact[0]
-    elif cands: c = cands[0]  # Yahoo sortiert nach Relevanz (Hauptbörse zuerst)
-    else: return out("Nichts gefunden für %r." % q)
+    if not cands: return out("Nichts gefunden für %r." % q)
+    c = pick(q, cands)
     sym = c["symbol"]
     path = os.path.join(ROOT, "watchlist.json"); wl = json.load(open(path, encoding="utf-8"))
     have = {s["symbol"].upper() for s in wl["stocks"]}

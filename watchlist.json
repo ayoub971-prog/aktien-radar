@@ -261,13 +261,6 @@
       "sector": "Konsum/Internet",
       "q_de": "BYD Aktie",
       "q_en": "BYD Company stock"
-    },
-    {
-      "symbol": "SHL.DE",
-      "name": "Siemens Healthineers AG",
-      "sector": "Gesundheit",
-      "q_de": "Siemens Healthineers AG Aktie",
-      "q_en": "Siemens Healthineers AG stock"
     }
   ],
   "market_topics": [
