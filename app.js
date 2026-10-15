@@ -253,7 +253,7 @@ function viewDetail(sym) {
   for (i = 0; i < l.length; i++) if (l[i].symbol === sym) s = l[i];
   if (!s) { var defs = (DEF && DEF.stocks) || []; for (i = 0; i < defs.length; i++) if (defs[i].symbol === sym) s = { symbol: sym, name: defs[i].name }; }
   if (!s) { $('view').innerHTML = '<a class="back" href="#/">Zurück</a><p class="muted">Aktie nicht gefunden.</p>'; return; }
-  var q = quoteOf(sym), h = '<a class="back" href="#/">Zurück zur Liste</a><h2 style="margin-top:4px">' + esc(s.name) + '</h2><div class="muted">' + esc(sym) + (q && q.exchange ? ' - ' + esc(q.exchange) : '') + '</div>';
+  var q = quoteOf(sym), h = '<a class="back" href="' + backHash() + '">Zurück zur Liste</a><h2 style="margin-top:4px">' + esc(s.name) + '</h2><div class="muted">' + esc(sym) + (q && q.exchange ? ' - ' + esc(q.exchange) : '') + '</div>';
   if (q) {
     h += '<div class="big">' + fmtPrice(q.price) + ' <span style="font-size:18px" class="muted">' + esc(q.currency || '') + '</span></div>';
     h += '<div style="margin:6px 0">' + chgPill(q) + ' <span class="muted">' + fmtSigned(q.change, Math.abs(q.price) < 10 ? 3 : 2) + '</span></div>';
@@ -271,6 +271,7 @@ function viewDetail(sym) {
   h += '<h2>Meldungen (' + items.length + (nn ? ', ' + nn + ' neu' : '') + ')</h2><p class="tiny">Offizielle Mitteilungen der letzten 7 Tage oben, sonst neueste zuerst. Zuordnung per Suchbegriff (Firmenname), nicht jede Meldung betrifft die Aktie direkt.</p>';
   if (!items.length) h += '<p class="muted">Keine Meldungen gefunden.</p>';
   for (i = 0; i < items.length && i < 60; i++) h += newsHtml(items[i], false);
+  h += '<a class="back backBottom" href="' + backHash() + '">← Zurück zur Liste</a>';
   $('view').innerHTML = h;
   if ($('dReload')) $('dReload').onclick = function () { reload(true); };
   bindPlayer(sym);
@@ -668,7 +669,37 @@ function route() {
   } catch (err) { showErr('Anzeige-Fehler: ' + err.message); }
   updatePill();
 }
-window.addEventListener('hashchange', function () { route(); window.scrollTo(0, 0); });
+/* ---------- Zurück zur Liste: Position merken ---------- */
+var POS_KEY = 'ar_lastpos';
+function getPos() { try { return JSON.parse(sessionStorage.getItem(POS_KEY) || localStorage.getItem(POS_KEY) || 'null'); } catch (e) { return null; } }
+function backHash() { var p = getPos(); return p && p.view === '#/liste' ? '#/liste' : '#/'; }
+document.addEventListener('click', function (e) {
+  var a = e.target && e.target.closest ? e.target.closest('a.row') : null;
+  if (!a) return;
+  var m = /#\/s\/(.+)$/.exec(a.getAttribute('href') || '');
+  if (!m) return;
+  var v = location.hash === '#/liste' ? '#/liste' : '#/';
+  var d = JSON.stringify({ sym: decodeURIComponent(m[1]), y: window.scrollY || 0, view: v });
+  try { sessionStorage.setItem(POS_KEY, d); localStorage.setItem(POS_KEY, d); } catch (er) {}
+}, true);
+function restorePos(tries) {
+  var p = getPos(), h = location.hash || '#/';
+  if (h === '#') h = '#/';
+  if (!p || p.view !== h) { window.scrollTo(0, 0); return; }
+  var rows = document.querySelectorAll('#view a.row'), el = null;
+  for (var i = 0; i < rows.length; i++) if (rows[i].getAttribute('href') === '#/s/' + encodeURIComponent(p.sym)) { el = rows[i]; break; }
+  if (!el) { if ((tries || 0) < 20) setTimeout(function () { restorePos((tries || 0) + 1); }, 150); else window.scrollTo(0, p.y || 0); return; }
+  window.scrollTo(0, p.y || 0);
+  var r = el.getBoundingClientRect();
+  if (r.top < 60 || r.bottom > window.innerHeight - 90) window.scrollTo(0, Math.max(0, window.scrollY + r.top - window.innerHeight / 3));
+  el.classList.add('rowFlash');
+  setTimeout(function () { el.classList.remove('rowFlash'); }, 1800);
+}
+window.addEventListener('hashchange', function () {
+  route();
+  var h = location.hash || '#/';
+  if (h === '#/' || h === '#' || h === '#/liste') restorePos(0); else window.scrollTo(0, 0);
+});
 function updatePill() {
   var p = $('netPill'), on = navigator.onLine !== false, qa = Q && Q.generated_at;
   p.textContent = (on ? 'Online' : 'Offline') + (qa ? ' - Stand ' + ago(qa) : '');
