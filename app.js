@@ -92,6 +92,16 @@ function loadData() {
   var aj = getJSON('data/ai.json').then(function (d) { AI = d; try { localStorage.setItem('ar.cache.ai', JSON.stringify(d)); } catch (e) {} },
     function () { if (!AI) { try { AI = JSON.parse(localStorage.getItem('ar.cache.ai') || 'null'); } catch (e) {} } });
   jobs.push(aj.then(function () {}, function () {}));
+  // Per Kurzbefehl hinzugefügte Aktien automatisch einblenden (auch wenn früher entfernt)
+  jobs.push(getJSON('data/added.json').then(function (d) {
+    var it = (d && d.items) || [], last = S.addSeen || 0, mx = last, ch = false;
+    for (var i = 0; i < it.length; i++) {
+      if (!(it[i].at > last)) continue; mx = Math.max(mx, it[i].at);
+      var hi = S.hidden.indexOf(it[i].symbol); if (hi >= 0) { S.hidden.splice(hi, 1); ch = true; }
+      if (S.order.length && S.order.indexOf(it[i].symbol) < 0) { S.order.push(it[i].symbol); ch = true; }
+    }
+    if (mx !== last || ch) { S.addSeen = mx; saveState(); }
+  }, function () {}));
   jobs.push(getJSON('data/audio/index.json').then(function (d) { AUD = d; }, function () {}));
   return Promise.all(jobs.map(function (j, i) { return j.then(function () { return null; }, function (e) { return { i: i, e: e }; }); })).then(function (res) {
     dataErrors = []; disTitles = null;

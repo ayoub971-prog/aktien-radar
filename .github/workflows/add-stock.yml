@@ -1,0 +1,41 @@
+name: Aktie hinzufuegen (Kurzbefehl)
+on:
+  repository_dispatch:
+    types: [add-stock]
+permissions:
+  contents: write
+concurrency:
+  group: aktien-radar-daten
+  cancel-in-progress: false
+jobs:
+  add:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Aktie suchen und eintragen
+        env:
+          QUERY: ${{ github.event.client_payload.query }}
+        run: python scripts/add_stock.py
+      - name: Daten und KI-Zusammenfassung holen
+        env:
+          SEC_USER_AGENT: ${{ vars.SEC_USER_AGENT }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          AI_MAX_CALLS: '3'
+        run: |
+          if [ "$(cat /tmp/changed)" = "1" ]; then python scripts/fetch_data.py; fi
+      - name: Committen
+        run: |
+          git config user.name "aktien-radar-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add watchlist.json data/added.json data/quotes.json data/news.json data/insights.json data/translations.json 2>/dev/null || true
+          if [ -f data/ai.json ]; then git add data/ai.json; fi
+          if git diff --cached --quiet; then echo "keine Aenderung"; exit 0; fi
+          git commit -m "Aktie per Kurzbefehl: $(head -c 80 /tmp/summary.md)"
+          git pull --rebase -q
+          git push
+      - name: Ergebnis
+        run: cat /tmp/summary.md >> "$GITHUB_STEP_SUMMARY"
