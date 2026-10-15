@@ -1,6 +1,6 @@
 // Aktien-Radar Service Worker: index.html/app.js/css zuerst vom Netz (Cache nur offline), data/*.json zuerst vom Netz (sonst letzter Stand)
-var CACHE = 'aktien-radar-shell-v8';
-var DATA = 'aktien-radar-data-v8';
+var CACHE = 'aktien-radar-shell-v9';
+var DATA = 'aktien-radar-data-v9';
 var CORE = ['./', './index.html', './app.js', './manifest.webmanifest', './watchlist.json',
   './icon.svg', './icon-192.png', './icon-512.png', './icon-maskable-512.png', './apple-touch-icon.png',
   './fonts/Fraunces-latin.woff2', './fonts/Outfit-latin.woff2'];

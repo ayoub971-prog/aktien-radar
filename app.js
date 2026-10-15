@@ -261,7 +261,7 @@ function viewDetail(sym) {
     h += '<div class="card" style="padding:8px"><svg viewBox="0 0 100 32" preserveAspectRatio="none" style="width:100%;height:110px;display:block">' + sparkSvg(q).replace(/^<svg[^>]*>/, '').replace(/<\/svg>$/, '') + '</svg><div class="tiny" style="padding:4px 6px">' + (q.spark_day && q.spark_day.length >= 8 ? 'Verlauf des letzten Handelstags (gestrichelt: Vortagesschluss)' : 'Verlauf der letzten 5 Handelstage') + '</div></div>';
     h += '<div class="kv"><div><span>Vortagesschluss</span>' + fmtPrice(q.prev_close) + '</div><div><span>Letzter Kurs</span>' + esc(fmtDT(q.market_time)) + '</div><div><span>52 Wochen Hoch</span>' + fmtPrice(q.high52) + '</div><div><span>52 Wochen Tief</span>' + fmtPrice(q.low52) + '</div><div><span>Daten geholt</span>' + esc(ago(q.fetched_at)) + '</div><div><span>Sektor</span>' + esc(s.sector || '-') + '</div></div>';
     if (q.stale) h += '<div class="banner">Kurs konnte beim letzten Update nicht geholt werden: ' + esc(q.error || '') + '</div>';
-  } else h += aiHtml(sym, s) + '<div class="banner">Für diese Aktie gibt es noch keine Daten. Sie werden geladen, sobald sie in der Standardliste im Repo steht (siehe Liste).</div>';
+  } else h += aiHtml(sym, s) + '<div class="banner">Für diese Aktie gibt es noch keine Kurse und Nachrichten. Tippe auf den Knopf, dann auf GitHub unten auf "Create" bzw. "Submit new issue". Nach etwa 2 bis 5 Minuten sind die Daten da (dann oben "Aktualisieren"). Du kannst auch einfach Mika schreiben.<br><a class="pill" target="_blank" rel="noopener noreferrer" style="display:inline-block;margin-top:10px;padding:10px 16px;color:var(--text)" href="' + reqLink([{ symbol: s.symbol, name: s.name, sector: s.sector }]) + '">Daten für ' + esc(s.symbol) + ' anfordern</a></div>';
   h += insightsHtml(sym, q);
   h += '<p style="margin:10px 0"><button id="dReload">Aktualisieren</button> <a class="pill" href="https://finance.yahoo.com/quote/' + encodeURIComponent(sym) + '" target="_blank" rel="noopener noreferrer">Auf Yahoo Finance öffnen</a></p>';
   var items = (N.items || []).filter(function (x) { return x.symbols && x.symbols.indexOf(sym) >= 0; });
@@ -564,6 +564,7 @@ function addStock(sym, name, sector) {
   S.order = S.order.filter(function (x) { return x !== sym; }); S.order.push(sym);
   saveState();
 }
+function reqLink(add) { return 'https://github.com/' + REPO + '/issues/new?title=' + encodeURIComponent('Watchlist: ' + add.map(function (a) { return a.symbol; }).join(', ')) + '&body=' + encodeURIComponent('Bitte nicht ändern, wird automatisch verarbeitet:\n\n' + JSON.stringify({ add: add, remove: [] })); }
 function pendingList() { return stockList().filter(function (s) { return !quoteOf(s.symbol); }); }
 function exportPayload() {
   var add = pendingList().map(function (s) { return { symbol: s.symbol, name: s.name, sector: s.sector }; });
@@ -591,10 +592,10 @@ function viewList() {
   var pend = pendingList();
   h += '<h2>Daten anfordern</h2><div class="card">';
   if (pend.length || S.hidden.length) {
-    h += '<p class="tiny" style="margin-top:0">' + (pend.length ? 'Neu hinzugefügt, aber noch ohne Daten: <b>' + esc(pend.map(function (p) { return p.symbol; }).join(', ')) + '</b>. ' : '') + 'Die Kurse und Nachrichten holt eine GitHub-Action. Damit sie neue Aktien kennt, muss die Änderung ins Repo (watchlist.json). Ohne Server und ohne Zugangsdaten auf dem Handy geht das so:</p>';
+    h += '<p class="tiny" style="margin-top:0">' + (pend.length ? 'Neu hinzugefügt, aber noch ohne Daten: <b>' + esc(pend.map(function (p) { return p.symbol; }).join(', ')) + '</b>. ' : '') + 'Die Kurse und Nachrichten holt eine GitHub-Action. Damit sie neue Aktien kennt, muss sie davon erfahren. Ohne Server und ohne Zugangsdaten auf dem Handy geht das so:</p>';
   } else h += '<p class="tiny" style="margin-top:0">Alle Aktien in deiner Liste haben Daten. Wenn du etwas hinzufügst, das noch keine Daten hat, erscheinen hier die Wege dafür.</p>';
   h += '<p class="tiny"><b>Weg 1 (ohne Mika):</b> "Per GitHub anfordern" öffnet ein vorbereitetes Issue. Du musst auf github.com angemeldet sein und "Submit new issue" tippen. Eine Action trägt die Aktien ein und holt sofort die Daten (ca. 1 bis 2 Minuten, dann hier "Aktualisieren").</p>';
-  h += '<p class="tiny"><b>Weg 2:</b> "Watchlist exportieren" teilt den Stand per Teilen-Menü (z. B. an Mika), der ihn ins Repo einträgt.</p>';
+  h += '<p class="tiny"><b>Weg 2:</b> "Watchlist exportieren" teilt den Stand per Teilen-Menü (z. B. an Mika), der sie einträgt.</p>';
   h += '<div style="display:flex;gap:8px;flex-wrap:wrap"><a class="pill" id="ghLink" target="_blank" rel="noopener noreferrer" style="padding:10px 16px;color:var(--text)">Per GitHub anfordern</a><button id="expBtn" class="primary">Watchlist exportieren</button></div><p class="tiny" id="expMsg"></p></div>';
   h += '<h2>Anzeige</h2><p><button id="resetBtn" class="danger">Standardliste wiederherstellen</button></p><p class="tiny">Setzt entfernte Aktien, eigene Reihenfolge und eigene Sektoren zurück und löscht lokal hinzugefügte Aktien.</p>';
   $('view').innerHTML = h;
