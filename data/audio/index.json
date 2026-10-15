@@ -3,12 +3,12 @@
  "stocks": {
   "TSM": {
    "file": "TSM.mp3",
-   "hash": "9ec6bce7a5cba6ac",
-   "id": "18b0bd36df",
+   "hash": "7d80c0ebccb24465",
+   "id": "b89144ed26",
    "voice": "Kore",
    "model": "gemini-2.5-flash-preview-tts",
-   "dur": 78.3,
-   "at": "2026-10-15T08:02:46Z"
+   "dur": 75.9,
+   "at": "2026-10-15T10:36:50Z"
   },
   "005930.KS": {
    "file": "005930.KS.mp3",
@@ -92,7 +92,7 @@
    "at": "2026-10-15T10:01:42Z"
   }
  },
- "status": "ok",
- "checked_at": "2026-10-15T10:01:42Z",
- "quota_until": 1792048502.5029547
+ "status": "quota: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usa",
+ "checked_at": "2026-10-15T10:37:15Z",
+ "quota_until": 1792064235.362559
 }
