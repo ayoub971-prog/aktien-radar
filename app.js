@@ -205,6 +205,7 @@ function viewHome() {
   h += '<div class="bar"><select id="sortSel" aria-label="Sortierung">' +
     '<option value="eigene">Eigene Reihenfolge</option><option value="az">Name A-Z</option><option value="sektor">Nach Sektor</option><option value="tag">Tagesveränderung</option></select>' +
     '<button id="reloadBtn" class="small">Aktualisieren</button></div>';
+  h += '<div class="srch"><input type="search" id="hq" placeholder="Aktie suchen…" autocomplete="off" autocapitalize="none" autocorrect="off" spellcheck="false"><button id="hqX" type="button" aria-label="Suche löschen" hidden>×</button></div>';
   h += statusLine();
   var mode = S.sort, i;
   if (!list.length) h += '<p class="muted">Die Liste ist leer. Unter "Liste" kannst du Aktien hinzufügen.</p>';
@@ -236,6 +237,26 @@ function viewHome() {
   $('sortSel').value = mode;
   $('sortSel').onchange = function () { S.sort = $('sortSel').value; saveState(); route(); };
   $('reloadBtn').onclick = function () { reload(true); };
+  var hq = $('hq');
+  try { hq.value = sessionStorage.getItem('ar_q') || ''; } catch (e) {}
+  hq.oninput = function () { try { sessionStorage.setItem('ar_q', hq.value); } catch (e) {} homeFilter(); };
+  $('hqX').onclick = function () { hq.value = ''; hq.oninput(); hq.focus(); };
+  homeFilter();
+}
+function homeFilter() {
+  var hq = $('hq'); if (!hq) return;
+  var q = hq.value.trim().toLowerCase(), rows = document.querySelectorAll('#view a.row'), n = 0, i;
+  $('hqX').hidden = !q;
+  for (i = 0; i < rows.length; i++) {
+    var b = rows[i].querySelector('.l b'), sp = rows[i].querySelector('.l span');
+    var t = ((b ? b.textContent : '') + ' ' + (sp ? sp.textContent : '')).toLowerCase();
+    var ok = !q || t.indexOf(q) >= 0; rows[i].style.display = ok ? '' : 'none'; if (ok) n++;
+  }
+  var secs = document.querySelectorAll('#view .sector');
+  for (i = 0; i < secs.length; i++) { var e = secs[i].nextElementSibling, any = false; while (e && e.classList.contains('row')) { if (e.style.display !== 'none') any = true; e = e.nextElementSibling; } secs[i].style.display = any ? '' : 'none'; }
+  var m = $('hqNone');
+  if (q && !n) { if (!m) { m = document.createElement('p'); m.id = 'hqNone'; m.className = 'muted'; hq.parentNode.parentNode.insertBefore(m, hq.parentNode.nextSibling); } m.textContent = 'Keine Aktie gefunden für «' + hq.value.trim() + '».'; }
+  else if (m) m.parentNode.removeChild(m);
 }
 
 function offBadge(it) { return it.official ? '<span class="offb">Offiziell' + (it.official === 'sec' ? ' · SEC' : '') + '</span>' : ''; }
