@@ -40,6 +40,10 @@ function loadState() {
   s.hidden = s.hidden instanceof Array ? s.hidden : []; s.custom = s.custom instanceof Array ? s.custom : [];
   s.order = s.order instanceof Array ? s.order : []; s.sec = s.sec && typeof s.sec === 'object' ? s.sec : {};
   s.sort = s.sort || 'eigene';
+  // Alias: lokal per Kürzel hinzugefügtes BYD/BYDDY -> 1211.HK (Standardliste)
+  var AL = { 'BYD': '1211.HK', 'BYDDY': '1211.HK', 'BYDDF': '1211.HK' };
+  s.custom = s.custom.filter(function (c) { var t = AL[String(c.symbol).toUpperCase()] || (/^byd\b/i.test(c.name || '') && String(c.symbol).toUpperCase() !== '1211.HK' ? '1211.HK' : null); if (!t) return true; s.order = s.order.map(function (o) { return o === c.symbol ? t : o; }); return false; });
+  s.order = s.order.filter(function (o, i) { return s.order.indexOf(o) === i; });
   return s;
 }
 var S = loadState();

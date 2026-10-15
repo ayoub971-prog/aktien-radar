@@ -254,6 +254,13 @@
       "sector": "Finanzen",
       "q_de": "UBS Group Aktie",
       "q_en": "UBS Group stock"
+    },
+    {
+      "symbol": "1211.HK",
+      "name": "BYD",
+      "sector": "Konsum/Internet",
+      "q_de": "BYD Aktie",
+      "q_en": "BYD Company stock"
     }
   ],
   "market_topics": [
