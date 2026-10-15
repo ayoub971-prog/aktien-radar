@@ -12,12 +12,12 @@
   },
   "005930.KS": {
    "file": "005930.KS.mp3",
-   "hash": "c74ff81552ceb905",
-   "id": "b5c4b01b23",
+   "hash": "cc0e4272363001ae",
+   "id": "f4f140a2aa",
    "voice": "Kore",
    "model": "gemini-2.5-flash-preview-tts",
-   "dur": 80.6,
-   "at": "2026-10-15T09:17:10Z"
+   "dur": 124.1,
+   "at": "2026-10-15T11:58:57Z"
   },
   "HY9H.MU": {
    "file": "HY9H.MU.mp3",
@@ -93,6 +93,6 @@
   }
  },
  "status": "quota: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usa",
- "checked_at": "2026-10-15T10:37:15Z",
- "quota_until": 1792064235.362559
+ "checked_at": "2026-10-15T11:59:22Z",
+ "quota_until": 1792069162.5392482
 }
