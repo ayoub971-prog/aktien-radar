@@ -63,9 +63,36 @@
    "model": "gemini-2.5-flash-preview-tts",
    "dur": 91.7,
    "at": "2026-10-15T09:19:04Z"
+  },
+  "IBM": {
+   "file": "IBM.mp3",
+   "hash": "b83a3e9084767af7",
+   "id": "09d5a5811e",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
+   "dur": 84.1,
+   "at": "2026-10-15T09:59:44Z"
+  },
+  "NOW": {
+   "file": "NOW.mp3",
+   "hash": "24e9a70cacf89593",
+   "id": "114db79fde",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
+   "dur": 78.5,
+   "at": "2026-10-15T10:00:39Z"
+  },
+  "META": {
+   "file": "META.mp3",
+   "hash": "943f80ca0469f187",
+   "id": "4c7ba0c33e",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
+   "dur": 81.4,
+   "at": "2026-10-15T10:01:42Z"
   }
  },
  "status": "ok",
- "checked_at": "2026-10-15T09:19:04Z",
+ "checked_at": "2026-10-15T10:01:42Z",
  "quota_until": 1792048502.5029547
 }
