@@ -21,6 +21,13 @@
       "q_en": "TSMC Taiwan Semiconductor stock"
     },
     {
+      "symbol": "NVDA",
+      "name": "Nvidia",
+      "sector": "Halbleiter/Hardware",
+      "q_de": "Nvidia Aktie",
+      "q_en": "Nvidia NVDA stock"
+    },
+    {
       "symbol": "005930.KS",
       "name": "Samsung Electronics",
       "sector": "Halbleiter/Hardware",
