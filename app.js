@@ -272,6 +272,7 @@ function viewDetail(sym) {
   if (!items.length) h += '<p class="muted">Keine Meldungen gefunden.</p>';
   for (i = 0; i < items.length && i < 60; i++) h += newsHtml(items[i], false);
   h += '<a class="back backBottom" href="' + backHash() + '">← Zurück zur Liste</a>';
+  h += '<div style="height:70px"></div><a class="backFloat" href="' + backHash() + '">← Zurück zur Liste</a>';
   $('view').innerHTML = h;
   if ($('dReload')) $('dReload').onclick = function () { reload(true); };
   bindPlayer(sym);
@@ -322,6 +323,7 @@ function hashStr(t) { var h = 0; for (var i = 0; i < t.length; i++) h = (h * 31 
 function aiHtml(sym, s) {
   var a = aiOf(sym), h = '<div class="card ai"><h3 style="margin-top:0">Zusammenfassung der Quellen</h3>';
   h += '<div class="player" id="pl"><button id="plPlay" class="primary">▶ Vorlesen</button><button id="plPause" hidden>❚❚ Pause</button><button id="plStop" hidden>■ Stop</button><span id="plNew" class="new" hidden>Neu</span><span id="plInfo" class="tiny"></span></div>';
+  h += '<a class="backTop" href="' + backHash() + '">← Zurück zur Aktie in der Liste</a>';
   if (!a) {
     h += '<p class="tiny">Die KI-Zusammenfassung ist für diese Aktie noch nicht erstellt. Vorgelesen wird die einfache Zusammenfassung aus den Schlagzeilen.</p></div>';
     return h;
