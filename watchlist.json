@@ -261,13 +261,6 @@
       "sector": "Konsum/Internet",
       "q_de": "BYD Aktie",
       "q_en": "BYD Company stock"
-    },
-    {
-      "symbol": "SIE.DE",
-      "name": "SIEMENS AG                    N",
-      "sector": "Industrie/Luftfahrt",
-      "q_de": "SIEMENS AG                    N Aktie",
-      "q_en": "SIEMENS AG                    N stock"
     }
   ],
   "market_topics": [

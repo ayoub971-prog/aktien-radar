@@ -54,7 +54,10 @@ def main():
         meta = fd.chart(sym, "1d", "15m")["meta"]
         if meta.get("regularMarketPrice") is None: raise RuntimeError("kein Kurs")
     except Exception as e: return out("%s: kein Kurs bei Yahoo (%s)." % (sym, str(e)[:80]))
-    name = re.sub(r"[\r\n\t]+", " ", (c.get("shortname") or c.get("longname") or meta.get("shortName") or sym))[:60]
+    name = re.sub(r"\s+", " ", (c.get("shortname") or c.get("longname") or meta.get("shortName") or sym)).strip()
+    name = re.sub(r"(\s[A-Z])+$", "", name).strip()
+    if name.isupper() and len(name) > 4: name = " ".join(w if len(w) <= 3 else w.capitalize() for w in name.split())
+    name = name[:60]
     changed = False
     if sym.upper() not in have:
         if len(wl["stocks"]) >= MAX_TOTAL: return out("Liste ist voll (%d)." % MAX_TOTAL)
