@@ -293,6 +293,7 @@ function viewDetail(sym) {
     h += '<div class="big">' + fmtPrice(q.price) + ' <span style="font-size:18px" class="muted">' + esc(q.currency || '') + '</span></div>';
     h += '<div style="margin:6px 0">' + chgPill(q) + ' <span class="muted">' + fmtSigned(q.change, Math.abs(q.price) < 10 ? 3 : 2) + '</span></div>';
     h += aiHtml(sym, s);
+    h += askHtml(s);
     h += '<div class="card" style="padding:8px"><svg viewBox="0 0 100 32" preserveAspectRatio="none" style="width:100%;height:110px;display:block">' + sparkSvg(q).replace(/^<svg[^>]*>/, '').replace(/<\/svg>$/, '') + '</svg><div class="tiny" style="padding:4px 6px">' + (q.spark_day && q.spark_day.length >= 8 ? 'Verlauf des letzten Handelstags (gestrichelt: Vortagesschluss)' : 'Verlauf der letzten 5 Handelstage') + '</div></div>';
     h += '<div class="kv"><div><span>Vortagesschluss</span>' + fmtPrice(q.prev_close) + '</div><div><span>Letzter Kurs</span>' + esc(fmtDT(q.market_time)) + '</div><div><span>52 Wochen Hoch</span>' + fmtPrice(q.high52) + '</div><div><span>52 Wochen Tief</span>' + fmtPrice(q.low52) + '</div><div><span>Daten geholt</span>' + esc(ago(q.fetched_at)) + '</div><div><span>Sektor</span>' + esc(s.sector || '-') + '</div></div>';
     if (q.stale) h += '<div class="banner">Kurs konnte beim letzten Update nicht geholt werden: ' + esc(q.error || '') + '</div>';
@@ -311,6 +312,7 @@ function viewDetail(sym) {
   $('view').innerHTML = h;
   if ($('dReload')) $('dReload').onclick = function () { reload(true); };
   bindPlayer(sym);
+  bindAsk(s);
   window.scrollTo(0, 0);
 }
 /* ---------- KI-Zusammenfassung (journalistisch) + Vorlesen ---------- */
@@ -359,6 +361,7 @@ function aiHtml(sym, s) {
   var a = aiOf(sym), h = '<div class="card ai"><h3 style="margin-top:0">Zusammenfassung der Quellen</h3>';
   h += '<div class="player" id="pl"><button id="plPlay" class="primary">▶ Vorlesen</button><button id="plPause" hidden>❚❚ Pause</button><button id="plStop" hidden>■ Stop</button><span id="plNew" class="new" hidden>Neu</span><span id="plInfo" class="tiny"></span></div>';
   h += '<a class="backTop" href="' + backHash() + '">← Zurück zur Aktie in der Liste</a>';
+  h += '<button type="button" id="askJump" style="display:block;width:100%;margin:8px 0 4px">💬 Frage zu dieser Aktie stellen</button>';
   if (!a) {
     h += '<p class="tiny">Die KI-Zusammenfassung ist für diese Aktie noch nicht erstellt. Vorgelesen wird die einfache Zusammenfassung aus den Schlagzeilen.</p></div>';
     return h;
@@ -632,6 +635,7 @@ function viewList() {
   h += '<p class="tiny"><b>Weg 1 (ohne Mika):</b> "Per GitHub anfordern" öffnet ein vorbereitetes Issue. Du musst auf github.com angemeldet sein und "Submit new issue" tippen. Eine Action trägt die Aktien ein und holt sofort die Daten (ca. 1 bis 2 Minuten, dann hier "Aktualisieren").</p>';
   h += '<p class="tiny"><b>Weg 2:</b> "Watchlist exportieren" teilt den Stand per Teilen-Menü (z. B. an Mika), der sie einträgt.</p>';
   h += '<div style="display:flex;gap:8px;flex-wrap:wrap"><a class="pill" id="ghLink" target="_blank" rel="noopener noreferrer" style="padding:10px 16px;color:var(--text)">Per GitHub anfordern</a><button id="expBtn" class="primary">Watchlist exportieren</button></div><p class="tiny" id="expMsg"></p></div>';
+  h += '<h2>Fragen (Gemini)</h2><div class="card"><p class="tiny" style="margin-top:0">' + (askKey() ? 'Ein Gemini-Schlüssel ist auf diesem Gerät gespeichert' + (askKeySrc() === 'lehrerin' ? ' (von der Lehrerin übernommen)' : '') + '. Er bleibt nur auf diesem Gerät.' : 'Für „Fragen“ braucht es einmalig deinen Gemini-Schlüssel. Er wird nur auf diesem Gerät gespeichert, nie im Code oder im Internet.') + '</p><input type="password" id="gkIn" placeholder="Gemini-Schlüssel einfügen" autocomplete="off" autocapitalize="none" spellcheck="false"><p style="margin:8px 0 0"><button id="gkSave" class="primary small">Speichern</button> ' + (lsGet('ar.gkey') ? '<button id="gkDel" class="small danger">Schlüssel löschen</button>' : '') + '</p><p class="tiny" id="gkMsg"></p></div>';
   h += '<h2>Anzeige</h2><p><button id="resetBtn" class="danger">Standardliste wiederherstellen</button></p><p class="tiny">Setzt entfernte Aktien, eigene Reihenfolge und eigene Sektoren zurück und löscht lokal hinzugefügte Aktien.</p>';
   $('view').innerHTML = h;
   var aq = $('aq');
@@ -665,6 +669,8 @@ function viewList() {
     if (navigator.share) { navigator.share({ title: 'Aktien-Radar Watchlist', text: text }).then(function () { $('expMsg').textContent = 'Geteilt.'; }, function (e) { if (e && e.name !== 'AbortError') copyFallback(); }); }
     else copyFallback();
   };
+  $('gkSave').onclick = function () { var v = $('gkIn').value.trim(); if (!/^[A-Za-z0-9_\-]{20,}$/.test(v)) { $('gkMsg').textContent = 'Das sieht nicht wie ein Gemini-Schlüssel aus.'; return; } lsSet('ar.gkey', v); viewList(); };
+  if ($('gkDel')) $('gkDel').onclick = function () { try { localStorage.removeItem('ar.gkey'); } catch (e) {} viewList(); };
   $('resetBtn').onclick = function () { if (confirm('Standardliste wiederherstellen? Eigene Änderungen gehen verloren.')) { S.hidden = []; S.custom = []; S.order = []; S.sec = {}; saveState(); addMsg = ''; viewList(); } };
 }
 
@@ -772,4 +778,110 @@ if ('serviceWorker' in navigator && /^https?:$/.test(location.protocol)) {
     document.addEventListener('visibilitychange', function () { if (document.visibilityState === 'visible') reg.update().catch(function () {}); });
   }).catch(function (e) { showErr('Offline-Modus nicht verfügbar: ' + e.message, 'warn'); });
 }
+/* ---------- Fragen zur Aktie (Gemini + Google-Suche) ----------
+   Schlüssel nur auf dem Gerät: eigener (ar.gkey) oder der Lehrerin (gleiche Herkunft ayoub971-prog.github.io). */
+var ASK_MODELS = ['gemini-3.5-flash-lite', 'gemini-2.5-flash'];
+var askMem = null;
+function lehrerinKey() { try { var v = localStorage.getItem('lehrerin.key'); return v ? JSON.parse(v) : ''; } catch (e) { return ''; } }
+function askKeySrc() { return lsGet('ar.gkey') ? 'eigen' : (lehrerinKey() || askMem ? 'lehrerin' : ''); }
+function askKey() { return lsGet('ar.gkey') || lehrerinKey() || askMem || ''; }
+// Lehrerin speichert den Schlüssel zusätzlich in IndexedDB 'lehrerin-kv' (gleiche Herkunft)
+(function () { try { var r = indexedDB.open('lehrerin-kv'); r.onupgradeneeded = function () { try { r.transaction.abort(); } catch (e) {} };
+  r.onsuccess = function () { var d = r.result; try { if (!d.objectStoreNames.contains('kv')) { d.close(); return; } var g = d.transaction('kv').objectStore('kv').get('key'); g.onsuccess = function () { if (g.result) askMem = String(g.result); d.close(); }; } catch (e) { d.close(); } }; } catch (e) {} })();
+function askHtml(s) {
+  return '<div class="card" id="askCard"><div class="h" style="font-weight:700;color:var(--accent);letter-spacing:.06em;font-size:14px">FRAGEN ZU ' + esc(s.name.toUpperCase()) + '</div>' +
+    '<p class="tiny" style="margin:4px 0 8px">z. B. „Was sagt UBS?“ oder „Was schreibt Reuters?“ – gesucht wird im Internet, mit Quellen.</p>' +
+    '<div style="display:flex;gap:8px"><input type="search" id="askIn" placeholder="Deine Frage …" autocomplete="off" style="flex:1"><button id="askMic" aria-label="Sprechen">🎤</button></div>' +
+    '<p style="margin:8px 0 0"><button id="askGo" class="primary">Fragen</button> <button id="askSpeak" hidden>▶ Vorlesen</button></p><p class="tiny" id="askHint"></p><div id="askOut"></div></div>';
+}
+function askErr(e) {
+  if (e && e.message === 'NOKEY') return 'Für „Fragen“ fehlt der Gemini-Schlüssel. Unten im Reiter „Liste“ bei „Fragen (Gemini)“ einmal eintragen.';
+  if (e && (e.status === 400 || e.status === 401 || e.status === 403)) return 'Der Gemini-Schlüssel ist ungültig oder gesperrt. Bitte im Reiter „Liste“ einen neuen eintragen.';
+  if (e && e.status === 429) return 'Gemini ist im Moment ausgelastet (Gratis-Kontingent). Bitte in ein paar Minuten nochmals.';
+  return 'Die Frage ging nicht durch: ' + ((e && e.message) || 'unbekannter Fehler');
+}
+function askGemini(body) {
+  var k = askKey(); if (!k) return Promise.reject(new Error('NOKEY'));
+  var i = 0;
+  function go() {
+    return fetch('https://generativelanguage.googleapis.com/v1beta/models/' + ASK_MODELS[i] + ':generateContent', { method: 'POST', headers: { 'Content-Type': 'application/json', 'x-goog-api-key': k }, body: JSON.stringify(body) })
+      .then(function (r) { return r.json().then(function (j) { if (!r.ok) { var e = new Error((j.error && j.error.message) || ('HTTP ' + r.status)); e.status = r.status; throw e; } return j; }); })
+      .catch(function (e) { if (i < ASK_MODELS.length - 1 && (e.status === 404 || (e.status === 400 && /model|tool|search/i.test(e.message)))) { i++; return go(); } throw e; });
+  }
+  return go();
+}
+function askLinkify(t) { return esc(t).replace(/\*\*([^*]+)\*\*/g, '<b>$1</b>').replace(/\n/g, '<br>'); }
+function bindAsk(s) {
+  if (!$('askGo')) return;
+  if ($('askJump')) $('askJump').onclick = function () { $('askCard').scrollIntoView({ behavior: 'smooth', block: 'start' }); setTimeout(function () { $('askIn').focus(); }, 400); };
+  var last = '';
+  $('askGo').onclick = function () {
+    var qq = $('askIn').value.trim(); if (!qq) { $('askHint').textContent = 'Schreib oder sprich zuerst eine Frage.'; return; }
+    $('askHint').textContent = 'Ich suche im Internet …'; $('askOut').innerHTML = ''; $('askSpeak').hidden = true; $('askGo').disabled = true;
+    var today = new Date().toISOString().slice(0, 10);
+    var prompt = 'Heute ist ' + today + '. Es geht um die Aktie ' + s.name + ' (Kürzel ' + s.symbol + ').\nFrage des Nutzers: "' + qq + '"\n\n' +
+      'Suche mit Google nach aktuellen, seriösen Quellen dazu (z. B. was eine genannte Bank, ein Analyst oder ein Medium über ' + s.name + ' geschrieben hat). ' +
+      'Antworte auf Deutsch (Schweizer Rechtschreibung, kein ß), sachlich und journalistisch, höchstens 8 Sätze. Nenne bei jeder Aussage, WER es WANN gesagt hat (Datum). ' +
+      'Erfinde nichts: Schreibe nur, was in den gefundenen Quellen steht. Kursziele und Ratings nur nennen, wenn sie in einer Quelle stehen. ' +
+      'Wenn du nichts Passendes findest, schreibe genau: „Dazu habe ich keine verlässliche Quelle gefunden.“ Keine Anlageberatung.';
+    askGemini({ contents: [{ role: 'user', parts: [{ text: prompt }] }], tools: [{ google_search: {} }], generationConfig: { temperature: 0.2, maxOutputTokens: 900 } })
+      .then(function (j) {
+        var c = j.candidates && j.candidates[0], txt = c && c.content && c.content.parts ? c.content.parts.map(function (p) { return p.text || ''; }).join('').trim() : '';
+        var gm = (c && c.groundingMetadata) || {}, ch = gm.groundingChunks || [], seen = {}, src = [];
+        for (var i = 0; i < ch.length; i++) { var w = ch[i].web; if (w && w.uri && !seen[w.uri]) { seen[w.uri] = 1; src.push(w); } }
+        if (!txt) txt = 'Dazu habe ich keine verlässliche Quelle gefunden.';
+        if (!src.length && !/keine verlässliche Quelle/.test(txt)) txt = 'Dazu habe ich keine verlässliche Quelle gefunden. (Die Suche lieferte keine überprüfbaren Links, darum zeige ich keine Antwort.)';
+        last = txt;
+        var h = '<div style="margin-top:10px;line-height:1.5">' + askLinkify(txt) + '</div>';
+        if (src.length) { h += '<div class="tiny" style="margin-top:8px"><b>Quellen:</b>'; for (i = 0; i < src.length && i < 8; i++) h += '<br>' + (i + 1) + '. <a href="' + esc(src[i].uri) + '" target="_blank" rel="noopener noreferrer">' + esc(src[i].title || src[i].uri) + '</a>'; h += '</div>'; }
+        h += '<p class="tiny">Zusammenfassung aus einer Internetsuche mit Gemini. Bitte die Quellen prüfen. Keine Anlageberatung.</p>';
+        $('askOut').innerHTML = h; $('askHint').textContent = ''; $('askSpeak').hidden = false;
+      }, function (e) { $('askHint').textContent = askErr(e); })
+      .then(function () { $('askGo').disabled = false; });
+  };
+  $('askIn').onkeydown = function (e) { if (e.key === 'Enter') { e.preventDefault(); $('askGo').onclick(); } };
+  $('askSpeak').onclick = function () {
+    var ss = window.speechSynthesis; if (!ss) return;
+    if (ss.speaking) { ss.cancel(); $('askSpeak').textContent = '▶ Vorlesen'; return; }
+    try { if (P.playing) { P.playing = false; plStopSpeech(); plSave(); plUI(); } } catch (e) {}
+    var u = new SpeechSynthesisUtterance(last.replace(/\*\*/g, '')); u.lang = 'de-CH'; var v = pickVoice(); if (v) { u.voice = v; u.lang = v.lang; }
+    u.onend = u.onerror = function () { $('askSpeak') && ($('askSpeak').textContent = '▶ Vorlesen'); };
+    ss.cancel(); ss.speak(u); $('askSpeak').textContent = '■ Stop';
+  };
+  var mr = null, recog = null;
+  $('askMic').onclick = function () {
+    var btn = $('askMic');
+    if (mr && mr.state === 'recording') { mr.stop(); return; }
+    if (recog) { recog.stop(); return; }
+    var IOS = /iPhone|iPad|iPod/.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+    var SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+    if (SR && !IOS) {
+      recog = new SR(); recog.lang = 'de-CH'; recog.interimResults = true;
+      recog.onresult = function (e) { var t = ''; for (var i = 0; i < e.results.length; i++) t += e.results[i][0].transcript; $('askIn').value = t; };
+      recog.onend = function () { recog = null; btn.textContent = '🎤'; if ($('askIn').value.trim()) $('askGo').onclick(); };
+      recog.onerror = function (e) { $('askHint').textContent = 'Spracheingabe ging nicht (' + e.error + '). Du kannst auch tippen.'; };
+      recog.start(); btn.textContent = '⏹'; $('askHint').textContent = 'Ich höre zu …'; return;
+    }
+    if (!(navigator.mediaDevices && navigator.mediaDevices.getUserMedia && window.MediaRecorder)) { $('askHint').textContent = 'Tippe auf das 🎤 der iPhone-Tastatur.'; return; }
+    if (!askKey()) { $('askHint').textContent = askErr(new Error('NOKEY')); return; }
+    navigator.mediaDevices.getUserMedia({ audio: true }).then(function (stream) {
+      var type = ['audio/mp4', 'audio/webm;codecs=opus', 'audio/webm'].filter(function (t) { return MediaRecorder.isTypeSupported && MediaRecorder.isTypeSupported(t); })[0] || '';
+      mr = type ? new MediaRecorder(stream, { mimeType: type }) : new MediaRecorder(stream); var parts = [];
+      mr.ondataavailable = function (e) { if (e.data && e.data.size) parts.push(e.data); };
+      mr.onstop = function () {
+        stream.getTracks().forEach(function (t) { t.stop(); }); btn.textContent = '🎤';
+        var mime = (mr.mimeType || type || 'audio/mp4').split(';')[0], blob = new Blob(parts, { type: mime }); mr = null;
+        if (blob.size < 800) { $('askHint').textContent = 'Ich habe nichts gehört.'; return; }
+        $('askHint').textContent = 'Wird erkannt …';
+        var fr = new FileReader(); fr.onload = function () {
+          askGemini({ contents: [{ role: 'user', parts: [{ inlineData: { mimeType: mime, data: String(fr.result).split(',')[1] } }, { text: 'Schreib genau auf, was in dieser Aufnahme auf Deutsch (evtl. Schweizerdeutsch) gesagt wird, in Hochdeutsch. Gib NUR den Text zurück. Wenn nichts Verständliches gesagt wird, gib „-“ zurück.' }] }], generationConfig: { temperature: 0, maxOutputTokens: 200 } })
+            .then(function (j) { var t = ((j.candidates && j.candidates[0] && j.candidates[0].content.parts[0].text) || '').trim().replace(/^["„“]|["“”]$/g, ''); if (!t || t === '-') { $('askHint').textContent = 'Ich habe dich nicht verstanden. Nochmals?'; return; } $('askIn').value = t; $('askGo').onclick(); }, function (e) { $('askHint').textContent = askErr(e); });
+        }; fr.readAsDataURL(blob);
+      };
+      mr.start(250); btn.textContent = '⏹'; $('askHint').textContent = 'Ich höre zu … (zum Beenden ⏹ antippen)';
+      setTimeout(function () { if (mr && mr.state === 'recording') mr.stop(); }, 20000);
+    }, function () { $('askHint').textContent = 'Das Mikrofon ist nicht erlaubt. Bitte in den iPhone-Einstellungen › Safari › Mikrofon erlauben.'; });
+  };
+}
+
 })();
