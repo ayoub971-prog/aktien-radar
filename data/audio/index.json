@@ -3,12 +3,12 @@
  "stocks": {
   "TSM": {
    "file": "TSM.mp3",
-   "hash": "beb00da82a1ad6b5",
-   "id": "8bb90337ef",
+   "hash": "48afcbf3a469829c",
+   "id": "afaf980d6e",
    "voice": "Kore",
    "model": "gemini-2.5-flash-preview-tts",
-   "dur": 72.7,
-   "at": "2026-10-16T08:02:25Z"
+   "dur": 68.6,
+   "at": "2026-10-16T08:38:11Z"
   },
   "005930.KS": {
    "file": "005930.KS.mp3",
@@ -30,21 +30,21 @@
   },
   "AVGO": {
    "file": "AVGO.mp3",
-   "hash": "92d85c8e6dd08db1",
-   "id": "5065f36aaf",
+   "hash": "87f1508d3acbefcc",
+   "id": "19539b8b26",
    "voice": "Kore",
    "model": "gemini-2.5-flash-preview-tts",
-   "dur": 80.9,
-   "at": "2026-10-15T19:54:09Z"
+   "dur": 57.0,
+   "at": "2026-10-16T08:38:57Z"
   },
   "ASML": {
    "file": "ASML.mp3",
-   "hash": "3acf8ab8c771f5bc",
-   "id": "5f9b98bb27",
+   "hash": "f7cd27be3c59f9c9",
+   "id": "b591026172",
    "voice": "Kore",
    "model": "gemini-2.5-flash-preview-tts",
-   "dur": 89.1,
-   "at": "2026-10-15T08:40:29Z"
+   "dur": 80.8,
+   "at": "2026-10-16T08:40:18Z"
   },
   "INTC": {
    "file": "INTC.mp3",
@@ -93,6 +93,6 @@
   }
  },
  "status": "ok",
- "checked_at": "2026-10-16T08:04:31Z",
+ "checked_at": "2026-10-16T08:40:18Z",
  "quota_until": 1792134807.8833346
 }
