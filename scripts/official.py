@@ -30,14 +30,24 @@ JUNK = _re.compile(r"career|\bjobs?\b|engineer|manager|specialist|technician|int
 
 def iso(dt): return dt.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
+def auto_cik(ua, log=print):
+    """Ticker -> CIK aus der offiziellen SEC-Liste, damit jede neu hinzugefuegte US-Aktie automatisch Berichte bekommt."""
+    try:
+        req = urllib.request.Request("https://www.sec.gov/files/company_tickers.json", headers={"User-Agent": ua, "Accept-Encoding": "identity"})
+        with urllib.request.urlopen(req, timeout=25) as r: d = json.loads(r.read())
+        return {str(v["ticker"]).upper().replace("-", "."): int(v["cik_str"]) for v in d.values()}
+    except Exception as e:
+        log("SEC Tickerliste nicht geladen: %s" % e); return {}
+
 def sec_items(stocks, now, log=print):
     ua = os.environ.get("SEC_USER_AGENT", "").strip()
     if "@" not in ua:
         return [], [{"symbol": "*", "what": "official", "error": "SEC_USER_AGENT fehlt (SEC verlangt Kontakt-E-Mail)"}]
     out, errs = [], []
     cutoff = (now - timedelta(days=90)).strftime("%Y-%m-%d")
+    auto = auto_cik(ua, log)
     for s in stocks:
-        sym = s["symbol"]; cik = CIK.get(sym)
+        sym = s["symbol"]; cik = CIK.get(sym) or auto.get(sym.upper().replace("-", "."))  # neue US-Aktien automatisch
         if not cik: continue
         try:
             req = urllib.request.Request("https://data.sec.gov/submissions/CIK%010d.json" % cik, headers={"User-Agent": ua, "Accept-Encoding": "identity"})
