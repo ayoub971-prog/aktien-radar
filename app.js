@@ -305,7 +305,7 @@ function viewDetail(sym) {
   var nn = items.filter(isNew).length;
   h += '<h2>Meldungen (' + items.length + (nn ? ', ' + nn + ' neu' : '') + ')</h2><p class="tiny">Offizielle Mitteilungen der letzten 7 Tage oben, sonst neueste zuerst. Zuordnung per Suchbegriff (Firmenname), nicht jede Meldung betrifft die Aktie direkt.</p>';
   if (!items.length) h += '<p class="muted">Keine Meldungen gefunden.</p>';
-  for (i = 0; i < items.length && i < 60; i++) h += newsHtml(items[i], false);
+  var shown = 0; for (i = 0; i < items.length; i++) { if (items[i].official || shown < 60) { h += newsHtml(items[i], false); if (!items[i].official) shown++; } }
   h += '<a class="back backBottom" href="' + backHash() + '">← Zurück zur Liste</a>';
   h += '<div style="height:70px"></div><a class="backFloat" href="' + backHash() + '">← Zurück zur Liste</a>';
   $('view').innerHTML = h;
