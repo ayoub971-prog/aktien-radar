@@ -1,0 +1,528 @@
+<!doctype html><html lang="de-CH"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex">
+<title>Aktien-Radar – Bauanleitung</title><style>
+body{margin:0;background:#101214;color:#f6f0e7;font:16px -apple-system,system-ui,sans-serif}
+.top{position:sticky;top:0;background:#101214;padding:12px;border-bottom:1px solid #33383d}
+button{width:100%;font-size:22px;font-weight:700;padding:16px;border:0;border-radius:16px;background:#e8a04a;color:#17130e}
+#msg{text-align:center;margin-top:8px;min-height:1.2em;color:#9be3b3;font-weight:600}
+textarea{display:block;box-sizing:border-box;width:calc(100% - 24px);margin:12px;height:75vh;background:#191c1f;color:#f6f0e7;border:1px solid #33383d;border-radius:12px;padding:10px;font:13px/1.45 ui-monospace,Menlo,monospace}
+</style></head><body>
+<div class="top"><button id="cp">📋 Alles kopieren</button><div id="msg"></div></div>
+<textarea id="t" readonly># Aktien-Radar – Bauanleitung (Master-Prompt)
+
+*Stand: 16. Oktober 2026, App-Version mit Service-Worker-Cache v17. Erstellt aus dem tatsächlichen Code und den Daten des Repos. Keine Schlüssel, keine persönlichen Daten.*
+
+&gt; **Anweisung an die KI, die diese App nachbauen soll:** Baue die hier beschriebene App genau so nach. Halte dich an Texte, Beschriftungen, Reihenfolgen, Regeln und Datenformate. Erfinde keine Daten. Wo etwas nicht geholt werden kann, zeige ehrlich „keine Daten“ oder eine Fehlermeldung. Alle sichtbaren Texte sind Deutsch (Schweiz, „ss“ statt „ss“).
+
+---
+
+## 1. Zweck und Benutzer
+
+- **Benutzer:** eine Person in der Schweiz, spricht Deutsch und kein Englisch. Benutzt fast nur ein **iPhone** (Safari und App-Symbol auf dem Home-Bildschirm).
+- **Zweck:** Kurse, Nachrichten, offizielle Mitteilungen, Analystenmeinungen und eine kurze, seriöse, neutrale KI-Zusammenfassung zu den eigenen Aktien. Alles auf Deutsch, auch zum Vorlesen.
+- **Grundsätze:**
+  - Kurz, sachlich, journalistisch. Keine Meinung, keine Empfehlung, keine Prognose. Immer „Keine Anlageberatung“.
+  - Jede Aussage mit Quelle (Name und kurze Beschreibung der Quelle, z. B. „Reuters, internationale Nachrichtenagentur“).
+  - Nichts erfinden. Fehlt etwas: „keine Daten“.
+  - Akku schonen: **kein Timer, kein Polling**. Daten werden nur geladen beim Öffnen, beim Zurückholen in den Vordergrund (frühestens 30 s nach dem letzten Laden), wenn das Netz zurückkommt und per Knopf „Aktualisieren“.
+  - Keine Werbung, kein Tracking, keine Anmeldung. Nur kostenlose Quellen.
+  - Dunkles Design, grosse Schrift, gut mit dem Daumen bedienbar.
+
+## 2. Architektur
+
+### 2.1 Überblick
+
+- **Statische Progressive Web App (PWA)** auf **GitHub Pages**: `index.html` (mit CSS), `app.js` (reines JavaScript ohne Framework, in einer IIFE mit `&#x27;use strict&#x27;`), `sw.js` (Service Worker), `manifest.webmanifest`, Symbole, Schriften (Fraunces für Titel, Outfit für Text, lokal als woff2).
+- **Datenpipeline** mit **GitHub Actions** (Python 3.12, nur Standardbibliothek, plus ffmpeg für Audio). Sie holt die Daten, schreibt JSON-Dateien in `data/` und committet sie. Die App liest nur diese JSON-Dateien. Es gibt keinen eigenen Server.
+- Die Hash-Navigation (`#/…`) steuert die Ansichten.
+
+### 2.2 Manifest
+
+`name`/`short_name` „Aktien-Radar“, `lang` „de-CH“, `start_url` und `scope` „./“, `display` „standalone“, Hintergrund und Theme `#101214`. Symbole: 192 px, 512 px, maskable 512 px, SVG. Dazu `apple-touch-icon.png`.
+
+### 2.3 Farben und Stil (CSS-Variablen)
+
+`--bg:#101214; --panel:#191c1f; --panel2:#202428; --text:#f6f0e7; --muted:#b7bdc4; --accent:#e8a04a (Orange); --line:#33383d; --up:#38c172; --down:#ef5350; --upbg:#1f5a34; --downbg:#8f2a2a`.
+
+- Schrift: 16 px Outfit. Knöpfe sind rund (Pillenform), der Hauptknopf ist orange.
+- Der Body hat unten `padding-bottom: calc(76px + env(safe-area-inset-bottom))`, damit nichts hinter der Tab-Leiste verschwindet.
+
+### 2.4 Service Worker (`sw.js`)
+
+- Zwei Caches mit Versionsnummer: `aktien-radar-shell-vNN` und `aktien-radar-data-vNN` (aktuell **v17**). **Bei jeder Änderung an der App die Nummer erhöhen.** Beim Aktivieren werden alle anderen Caches gelöscht, danach folgen `skipWaiting()` und `clients.claim()`.
+- **Install:** Kernteile vorladen (`./`, `index.html`, `app.js`, Manifest, `watchlist.json`, Symbole, Schriften), mit `cache: &#x27;reload&#x27;`.
+- **Hülle (HTML/JS/CSS/Manifest): network-first** mit `cache: &#x27;no-cache&#x27;`. Der Cache dient nur als Offline-Rückfall.
+- **Daten (`data/*.json`, `watchlist.json`): network-first.** Offline wird der letzte Stand aus dem Daten-Cache geliefert, sonst die Antwort 503 `{&quot;error&quot;:&quot;offline&quot;}`.
+- **`data/audio/`** wird nie gecacht (direkt vom Netz, wegen Range-Anfragen).
+- Fremde Herkunft (z. B. die Gemini-API) läuft nicht über den Service Worker.
+- In der App: registrieren mit `updateViaCache: &#x27;none&#x27;`. Beim Zurückholen in den Vordergrund `reg.update()`. Bei `controllerchange` einmal neu laden, höchstens alle 30 s (Schutz gegen eine Endlosschleife).
+
+### 2.5 GitHub Actions
+
+1. **„Daten aktualisieren“** (`update.yml`), Zeitplan (UTC):
+```
+- cron: &#x27;7,27,47 5-22 * * 1-5&#x27;   # Werktags tagsueber alle 20 Min (UTC)
+- cron: &#x27;17 0-4,23 * * 1-5&#x27;       # Werktags nachts stuendlich
+- cron: &#x27;17 * * * 0,6&#x27;            # Wochenende stuendlich
+```
+   Zusätzlich manuell mit den Eingaben `ai_max_calls` (Standard 12) und `tts_max_calls` (Standard 3). Rechte `contents: write`, Concurrency-Gruppe `aktien-radar-daten`, maximal 25 Minuten.
+   - **Schritte:** `python scripts/fetch_data.py` (Kurse, News, Offizielles, Übersetzung, Analysten, KI-Zusammenfassung). Danach `python scripts/tts.py` (Gemini-Stimme als MP3, `continue-on-error`). Danach die geänderten JSON-Dateien und Audios committen, `git pull --rebase` und pushen.
+2. **„Aktie hinzufügen (Kurzbefehl)“** (`add-stock.yml`): wird durch `repository_dispatch` mit dem Typ `add-stock` und `client_payload.query` ausgelöst. Danach laufen `scripts/add_stock.py`, `fetch_data.py` (nur wenn eine Aktie neu ist; `AI_MAX_CALLS=3`) und der Commit. Gleiche Concurrency-Gruppe.
+3. **„Watchlist ändern (per Issue)“** (`watchlist-issue.yml`): Läuft nur, wenn der Repo-Besitzer ein Issue öffnet, dessen Titel mit `Watchlist:` beginnt. Dann folgen `scripts/apply_issue.py` (JSON `{&quot;add&quot;:[…],&quot;remove&quot;:[…]}` aus dem Issue-Text), `fetch_data.py` und der Commit. Am Schluss kommt ein Kommentar mit dem Ergebnis, und das Issue wird geschlossen.
+
+### 2.6 Datendateien und Formate
+
+- **`watchlist.json`** (Standardliste):
+  - `{&quot;version&quot;:1,&quot;sectors&quot;:[…10 Sektoren…],&quot;stocks&quot;:[{&quot;symbol&quot;,&quot;name&quot;,&quot;sector&quot;,&quot;q_de&quot;,&quot;q_en&quot;, optional &quot;type&quot;:&quot;etf&quot;|&quot;index&quot;}],&quot;market_topics&quot;:[{&quot;topic&quot;,&quot;label&quot;,&quot;q_de&quot;,&quot;q_en&quot;}]}`.
+  - `q_de`/`q_en` sind die Suchbegriffe für Google News (z. B. „Nvidia Aktie“ / „Nvidia NVDA stock“).
+- **`data/quotes.json`:**
+  - `{&quot;generated_at&quot;,&quot;source&quot;,&quot;quotes&quot;:{SYM:{symbol,name,long_name,currency,exchange,price,prev_close,change,change_pct,market_time,high52,low52,spark_day[≤60],spark_5d[≤60],fetched_at,stale}},&quot;errors&quot;:[{symbol,what:&quot;quote&quot;,error}]}`.
+  - Schlägt ein Kurs fehl, bleibt der alte Wert mit `stale:true` und `error`.
+- **`data/news.json`:**
+  - `{&quot;generated_at&quot;,&quot;source&quot;,&quot;items&quot;:[{title,title_de?,link,source,published(ISO UTC),via,symbols[],topic?,official?:&quot;sec&quot;|&quot;ir&quot;,form?,desc?,q(0–3),id}],&quot;errors&quot;:[…]}`.
+  - Normale Meldungen bleiben 14 Tage, höchstens 3000 Stück. Offizielle Mitteilungen bleiben immer (SEC 90 Tage, Firmenmitteilungen 14 Tage).
+- **`data/insights.json`:**
+  - `{&quot;generated_at&quot;,&quot;source&quot;,&quot;stocks&quot;:{SYM:{&quot;summary&quot;:{&quot;text&quot;:[…],&quot;bullets&quot;:[…]},&quot;analyst&quot;:{consensus:{kaufen,halten,verkaufen,stark_kaufen,stark_verkaufen},target:{mean,high,low,upside_pct},next_earnings,changes:[{firm,action,from,to,pt,pt_prior,pt_action,date}]},&quot;analyst_at&quot;,&quot;analyst_news&quot;:[…]}},&quot;errors&quot;:[…]}`.
+- **`data/ai.json`:**
+  - `{&quot;generated_at&quot;,&quot;model&quot;,&quot;source&quot;,&quot;stocks&quot;:{SYM:{kurzueberblick:[{text,quelle,desc?,titel?}],risiken:[{text,quelle,desc?,titel?,rechtlich}],widersprueche:[{thema,seiten:[{quelle,text,desc,titel?}]}],analysten:[…],vorlesetext,generated_at,model,input_hash,n_meldungen,id}},&quot;errors&quot;,&quot;pending&quot;,&quot;sources&quot;:{name:beschreibung}}`.
+- **`data/audio/index.json`** und `data/audio/&lt;SYM&gt;.mp3`:
+  - `{&quot;voice&quot;:&quot;Kore&quot;,&quot;status&quot;,&quot;checked_at&quot;,&quot;quota_until&quot;,&quot;stocks&quot;:{SYM:{file,hash,id,voice,model,dur,at}}}`.
+- **`data/translations.json`:** Cache `{Originaltitel: deutscher Titel}`.
+- **`data/catalog.json`:** Suchindex für „Aktie hinzufügen“, `{&quot;source&quot;,&quot;items&quot;:[{&quot;s&quot;:Kürzel,&quot;n&quot;:Name,&quot;sec&quot;:Sektor}]}` (S&amp;P 500 aus Wikipedia plus Watchlist).
+- **`data/added.json`:** per Kurzbefehl hinzugefügte Aktien, `{&quot;items&quot;:[{symbol,name,at(Unixzeit)}]}`.
+
+### 2.7 Lokaler Speicher in der App (nur auf dem Gerät)
+
+- **`ar.state`** = `{hidden:[entfernte Standard-Aktien], custom:[eigene {symbol,name,sector}], order:[Reihenfolge], sec:{Kürzel:eigener Sektor}, sort:&quot;eigene&quot;|&quot;az&quot;|&quot;sektor&quot;|&quot;tag&quot;, addSeen:Unixzeit}`.
+- **Weitere Schlüssel:**
+  - `ar.cache.*`: letzte Daten.
+  - `ar.tts.&lt;SYM&gt;`: Vorleseposition `{id,idx,t,heard}`.
+  - `ar.last`/`ar.base`: Zeitpunkte für die Markierung „neu“.
+  - `ar_lastpos`: zuletzt geöffnete Aktie und Scrollposition, in sessionStorage und localStorage.
+  - `ar_q`: Suchbegriff, in sessionStorage.
+  - `ar.gkey`: eigener Gemini-Schlüssel.
+- **Neu-Markierung:** Beim ersten Besuch ist nichts neu. Liegt der letzte Besuch mehr als 30 Minuten zurück, gilt alles seit diesem Besuch als neu.
+
+## 3. Aktuelle Aktienliste (35 Werte)
+
+| # | Kürzel (Yahoo) | Name | Sektor | Börse | Währung |
+|---|---|---|---|---|---|
+| 1 | TSM | Taiwan Semiconductor | Halbleiter/Hardware | NYSE | USD |
+| 2 | NVDA | Nvidia | Halbleiter/Hardware | NasdaqGS | USD |
+| 3 | 005930.KS | Samsung Electronics | Halbleiter/Hardware | KSE | KRW |
+| 4 | HY9H.MU | SK Hynix | Halbleiter/Hardware | Munich | EUR |
+| 5 | AVGO | Broadcom | Halbleiter/Hardware | NasdaqGS | USD |
+| 6 | ASML | ASML Holding | Halbleiter/Hardware | NasdaqGS | USD |
+| 7 | INTC | Intel | Halbleiter/Hardware | NasdaqGS | USD |
+| 8 | MSFT | Microsoft | Software/KI | NasdaqGS | USD |
+| 9 | PLTR | Palantir | Software/KI | NasdaqGS | USD |
+| 10 | IBM | IBM | Software/KI | NYSE | USD |
+| 11 | OEF | iShares S&amp;P 100 ETF | ETFs/Indizes | NYSEArca | USD |
+| 12 | NOW | ServiceNow | Software/KI | NYSE | USD |
+| 13 | META | Meta Platforms | Konsum/Internet | NasdaqGS | USD |
+| 14 | AMZN | Amazon | Konsum/Internet | NasdaqGS | USD |
+| 15 | MRVL | Marvell Technology | Halbleiter/Hardware | NasdaqGS | USD |
+| 16 | ^GSPC | S&amp;P 500 | ETFs/Indizes | SNP | USD |
+| 17 | SFTBY | SoftBank Group | Software/KI | OTC Markets OTCPK | USD |
+| 18 | GLW | Corning | Halbleiter/Hardware | NYSE | USD |
+| 19 | AMAT | Applied Materials | Halbleiter/Hardware | NasdaqGS | USD |
+| 20 | ARM | Arm Holdings | Halbleiter/Hardware | NasdaqGS | USD |
+| 21 | HOOD | Robinhood Markets | Finanzen | NasdaqGS | USD |
+| 22 | WNRG.SW | SPDR MSCI World Energy ETF | ETFs/Indizes | Swiss | USD |
+| 23 | BE | Bloom Energy | Energie | NYSE | USD |
+| 24 | HYLN | Hyliion Holdings | Energie | NYSE American | USD |
+| 25 | SMEGF | Siemens Energy | Energie | OTC Markets OTCQX | USD |
+| 26 | OKLO | Oklo | Energie | NYSE | USD |
+| 27 | RYCEY | Rolls-Royce | Industrie/Luftfahrt | OTC Markets OTCPK | USD |
+| 28 | GEV | GE Vernova | Energie | NYSE | USD |
+| 29 | GE | GE Aerospace | Industrie/Luftfahrt | NYSE | USD |
+| 30 | 013A.F | JD.com | Konsum/Internet | Frankfurt | EUR |
+| 31 | BRK-B | Berkshire Hathaway | Finanzen | NYSE | USD |
+| 32 | 0VR3.L | ZKB Gold ETF | Rohstoffe/Gold | LSE | CHF |
+| 33 | BKW.SW | BKW AG | Energie | Swiss | CHF |
+| 34 | UBSG.SW | UBS Group | Finanzen | Swiss | CHF |
+| 35 | 1211.HK | BYD | Konsum/Internet | HKSE | HKD |
+
+**Sektoren in dieser Reihenfolge:** Halbleiter/Hardware, Software/KI, Energie, Industrie/Luftfahrt, Finanzen, Rohstoffe/Gold, Konsum/Internet, Gesundheit, ETFs/Indizes, Sonstige.
+
+**Marktweite Themen (Reiter „Marktweit“):**
+- **Zölle und Handel** (Zölle): Suche DE „Zölle Börse Handelskonflikt“, EN „tariffs stocks trade war“
+- **Zinsen und Notenbanken** (Zinsen): Suche DE „Fed Zinsentscheid Börse“, EN „Federal Reserve interest rate decision stocks“
+- **SNB und Schweiz** (SNB): Suche DE „SNB Nationalbank Zinsen Franken“, EN „Swiss National Bank rate decision franc“
+- **KI und Chips** (KI-Chips): Suche DE „KI Chips Nvidia Halbleiter Börse“, EN „AI chips semiconductor stocks“
+- **Exportkontrollen** (Exportkontrollen): Suche DE „Exportkontrollen Chips China“, EN „chip export controls China“
+- **Wall Street und Märkte** (Wall Street): Suche DE „Wall Street Börse aktuell“, EN „Wall Street stocks today“
+- **Schweizer Börse** (Schweizer Börse): Suche DE „SMI Schweizer Börse“, EN „Swiss stocks SMI“
+
+**Alias in der App:** Ein lokal eingetipptes „BYD“, „BYDDY“ oder „BYDDF“ (oder ein Name, der mit „BYD“ beginnt) wird automatisch durch **1211.HK** ersetzt. Das echte Kürzel „BYD“ an der New Yorker Börse wäre Boyd Gaming.
+
+## 4. Bildschirme und Bedienung
+
+### 4.1 Rahmen (immer sichtbar)
+
+- **Kopf:** Titel „Aktien-Radar“ (Fraunces, orange). Rechts eine Pille mit „Online - Stand vor X Min“ bzw. „Offline …“.
+- **Fehlerbanner** unter dem Kopf.
+- **Fusszeile:** „Hinweis: Etiketten (z. B. Quartalszahlen, Zoll) sind reine Stichwort-Treffer im Titel. Sie sind keine Kursprognose und keine Anlageberatung. Kurse können bis zu 15 Minuten verzögert sein. Quellen: Yahoo Finance, Google News.“
+- **Tab-Leiste unten** (fest, 4 Reiter mit Symbol und Text): **Aktien** (`#/`), **Nachrichten** (`#/news`), **Marktweit** (`#/markt`), **Liste** (`#/liste`). Der aktive Reiter ist orange.
+- **Zeitangaben:** „vor X Min / Std / Tagen“. Zahlenformat de-CH (1’016.30).
+
+### 4.2 Reiter „Aktien“ (Startseite, `#/`)
+
+1. **Obere Leiste:**
+   - **Auswahlfeld „Sortierung“** mit „Eigene Reihenfolge“, „Name A-Z“, „Nach Sektor“ (Sektor-Überschriften, darin A-Z) und „Tagesveränderung“ (grösste Gewinner zuerst). Die Wahl wird gespeichert.
+   - Rechts der Knopf **„Aktualisieren“**. Er lädt die Daten neu und zeigt dabei „Lade...“.
+2. **Suchleiste** (darunter, volle Breite):
+   - Platzhalter **„Aktie suchen…“**.
+   - Filtert schon beim Tippen nach Kürzel oder Name, ohne Gross-/Kleinschreibung.
+   - Rechts ein **„×“** zum Löschen. Das eingebaute iOS-Löschzeichen ist ausgeblendet.
+   - Passt zu jeder Sortierung. Sektor-Überschriften ohne Treffer werden ausgeblendet. Ohne Treffer: „Keine Aktie gefunden für «…»“.
+   - Der Suchbegriff bleibt in der Sitzung erhalten (sessionStorage).
+3. **Statuszeile:** „Kurse: Stand … | Nachrichten: Stand … | Quelle Yahoo Finance, ggf. 15 Min verzögert“.
+   - Sind die Daten älter als 3 Stunden, kommt ein Banner, dass die automatische Aktualisierung verspätet ist und der letzte Stand gezeigt wird.
+   - Ein Banner listet Aktien ohne Kurs beim letzten Update.
+4. **Aktienzeilen** (ganze Zeile antippbar, führt zu `#/s/&lt;Kürzel&gt;`):
+   - Links: Kürzel fett, darunter der Name.
+   - Mitte: Mini-Kurve des letzten Handelstags (gestrichelt = Vortagesschluss), sonst der letzten 5 Tage. Grün beim Plus, rot beim Minus.
+   - Rechts: Kurs und eine farbige Pille mit der Veränderung in %.
+   - Unterzeile: Währung und Veränderung, „Kurs vor X Std“, „Kurs veraltet“, „N neu“ (neue Meldungen).
+   - Bei „Eigene Reihenfolge“ rechts die Pfeile ▲/▼ zum Verschieben. Darunter: „Mit den Pfeilen rechts änderst du die Reihenfolge.“
+5. **Zurück an die richtige Stelle:**
+   - Beim Antippen einer Zeile merkt sich die App Kürzel, Scrollposition und Ansicht (`#/` oder `#/liste`).
+   - Beim Zurückkehren (alle Zurück-Knöpfe und der Reiter „Aktien“) scrollt die App an die alte Position. Sie sorgt dafür, dass die Zeile sichtbar ist (sonst etwa ein Drittel von oben) und gibt ihr 1,8 s lang einen orangen Rahmen.
+   - Das funktioniert auch nach einem Neuladen.
+
+### 4.3 Detailseite einer Aktie (`#/s/&lt;Kürzel&gt;`)
+
+**Von oben nach unten:**
+1. **Link „Zurück zur Liste“** (orange Text).
+2. **Kopf:** Name (gross), darunter „Kürzel - Börse“. Danach der Kurs gross mit Währung, dann die Veränderungspille und die Veränderung absolut.
+3. **Karte „Zusammenfassung der Quellen“:**
+   - **Player:**
+     - Knopf **„▶ Vorlesen“** (orange). Beim Abspielen zeigt er „▶ Läuft“ und ist gesperrt. Nach einer Pause zeigt er „▶ Weiter“.
+     - **„❚❚ Pause“** und **„■ Stop“** sind nur sichtbar, wenn das sinnvoll ist.
+     - Abzeichen **„Neu“**, solange die aktuelle Zusammenfassung noch nicht ganz gehört wurde.
+     - Info-Text: **„Satz x von y“** (Gerätestimme) bzw. „Gemini-Stimme · 0:42 / 1:34“.
+     - Die Position wird pro Aktie gespeichert und verworfen, sobald eine neuere Zusammenfassung vorliegt.
+   - **Grosser oranger Knopf „← Zurück zur Aktie in der Liste“** direkt unter dem Player.
+   - **Knopf „🤖 KI fragen“** (volle Breite). Er scrollt weich zur Chat-Karte und setzt den Cursor ins Feld.
+   - **Box „Risiken und Negatives“** (rot umrandet, immer zuerst). Einträge mit dem Etikett „Rechtliches“ bei rechtlichen Themen. Wenn leer: „In den vorliegenden Meldungen nichts gefunden.“
+   - **„Kurzüberblick“:** 2–4 Punkte, jeweils mit Quelle (Name, Beschreibung, Original-Titel).
+   - **„Widersprüche zwischen Quellen“:** je Thema „Die Quellen sind sich uneinig“ mit beiden Seiten. Wenn leer: „Keine Widersprüche in den vorliegenden Meldungen.“
+   - **„Analysten“** (falls vorhanden).
+   - Fusszeile: „Von einer KI (Google Gemini) neutral aus N Schlagzeilen und den Analystendaten zusammengefasst, Stand …. Nur Schlagzeilen ausgewertet, Fehler möglich. Keine Anlageberatung.“
+   - Fehlt die KI-Zusammenfassung: „Die KI-Zusammenfassung ist für diese Aktie noch nicht erstellt. Vorgelesen wird die einfache Zusammenfassung aus den Schlagzeilen.“
+4. **Chat-Karte „🤖 KI FRAGEN ZU &lt;NAME&gt;“** (siehe 4.4).
+5. **Kurvenkarte** (110 px hoch). Text: „Verlauf des letzten Handelstags (gestrichelt: Vortagesschluss)“ bzw. „Verlauf der letzten 5 Handelstage“.
+6. **Kennzahlen** (2 Spalten): Vortagesschluss, Letzter Kurs (Datum und Zeit), 52 Wochen Hoch, 52 Wochen Tief, Daten geholt, Sektor. Bei einem veralteten Kurs ein Banner mit dem Fehler.
+7. **Karte „Kurz-Zusammenfassung“** (ohne KI, aus den Schlagzeilen):
+   - Zwei Sätze, z. B. „117 Meldungen zur Firma in den letzten 48 Std., davon 13 aus Top-Quellen. Themen: …“ und „Analysten: 20× Kaufen, 1× Halten, 0× Verkaufen; Ø Kursziel … (+41.6 % zum Kurs).“
+   - Bis zu 4 ausgewählte Schlagzeilen (offizielle zuerst), jeweils mit Link, Original-Titel, Quelle und Alter.
+8. **Karte „Analysten“:**
+   - Balken Kaufen/Halten/Verkaufen (grün/grau/rot) und die Zahlen dazu.
+   - Ø Kursziel, Potenzial in %, höchstes und tiefstes Ziel, „Nächste Quartalszahlen“.
+   - „Hoch-/Herabstufungen (letzte 4 Monate)“, höchstens 8. Die Aktionen sind übersetzt: hochgestuft, abgestuft, neu aufgenommen, bestätigt, Kursziel erhöht/gesenkt. Die Ratings ebenfalls, z. B. Kaufen, Übergewichten.
+   - „Analysten in den News“.
+   - Quelle: „Yahoo Finance (Konsens der Banken/Analysten), Stand …. Keine Anlageberatung.“
+9. Knopf **„Aktualisieren“** und die Pille **„Auf Yahoo Finance öffnen“**.
+10. **„Meldungen (N, x neu)“:** „Offizielle Mitteilungen der letzten 7 Tage oben, sonst neueste zuerst. Zuordnung per Suchbegriff (Firmenname), nicht jede Meldung betrifft die Aktie direkt.“
+    - Jede Meldung zeigt Abzeichen (**„Offiziell“** bzw. **„Offiziell · SEC“**, „Neu“), Quelle, Alter und gegebenenfalls „Die Quellen sind sich uneinig“.
+    - Darunter der deutsche Titel als Link, kleiner der Original-Titel, die Quellenbeschreibung (bei SEC: „Pflichtmeldung bei der US-Börsenaufsicht SEC“, bei Firmenmitteilungen: „Mitteilung der Firma selbst“) und die Themen-Etiketten.
+    - Angezeigt werden höchstens 60 normale Meldungen. **Offizielle Mitteilungen erscheinen immer**, also auch über diese Grenze hinaus.
+11. **Unten:** grosser umrandeter Knopf „← Zurück zur Liste“. Dazu ein **schwebender oranger Knopf „← Zurück zur Liste“**, fest knapp über der Tab-Leiste (`bottom: calc(72px + safe-area)`), immer sichtbar auf der Detailseite. Ein Platzhalter von 70 px sorgt dafür, dass er nichts verdeckt.
+
+**Aktie ohne Daten:**
+- Statt Kurs und Kennzahlen kommt der Hinweis: „Für diese Aktie gibt es noch keine Kurse und Nachrichten. Tippe auf den Knopf, dann auf GitHub unten auf &quot;Create&quot; bzw. &quot;Submit new issue&quot;. Nach etwa 2 bis 5 Minuten sind die Daten da (dann oben &quot;Aktualisieren&quot;). Du kannst auch einfach Mika schreiben.“
+- Dazu der Knopf **„Daten für &lt;Kürzel&gt; anfordern“**. Er öffnet ein vorausgefülltes GitHub-Issue mit dem Titel „Watchlist: &lt;Kürzel&gt;“ und dem Text „Bitte nicht ändern, wird automatisch verarbeitet:“ plus JSON.
+
+**Vorlesen, technisch:**
+- Gibt es in `data/audio/index.json` eine MP3 zur aktuellen Zusammenfassung (gleiche `id`), wird die **Gemini-Stimme** abgespielt. Sie läuft über ein `&lt;audio&gt;`-Element und lässt sich spulen und fortsetzen.
+- Fehlt die Datei oder schlägt sie fehl: **Gerätestimme** (`speechSynthesis`).
+  - **Satzweise**, weil iOS das Pausieren unzuverlässig macht. Tempo 0,95.
+  - Stimmenwahl: deutsche Stimmen. Premium/Enhanced/Neural bevorzugt, dann weibliche Namen (Anna, Petra, Helena, Marlene, Vicki, Katja, Seraphina, Leni, Sandy, Shelley, Flo, Google Deutsch), Schweizer Varianten zuerst.
+- Vorgelesen wird der `vorlesetext` der KI. Fehlt er, eine einfache Zusammenfassung aus den Schlagzeilen, die mit „Keine Anlageberatung.“ endet.
+- Das Vorlesen stoppt bei einem Seitenwechsel auf eine andere Aktie und wenn die App in den Hintergrund geht.
+
+### 4.4 Chat „🤖 KI fragen“ (nur auf der Detailseite)
+
+- **Text oben:** „Frag alles zu dieser Aktie, z. B. „Warum hat die Firma Probleme?“, „Was sagt UBS?“ oder „Was bedeutet das?“. Danach kannst du nachfragen („Warum?“, „Ich will mehr wissen“). Die KI sucht im Internet und nennt Quellen.“
+- **Gesprächsverlauf** in der Karte: die eigenen Fragen rechtsbündig in grauen Blasen, die Antworten als Text, darunter „Quellen:“ mit nummerierten Links. Darunter: „Antworten von Gemini. Bitte Quellen prüfen. Keine Anlageberatung.“
+- **Eingabe:** Feld „Deine Frage …“ und Knopf **🎤**. Darunter die Knöpfe **„Fragen“** (orange), **„▶ Vorlesen“** (liest die letzte Antwort vor; während des Vorlesens „■ Stop“) und **„Neues Gespräch“**. Die Eingabetaste sendet ebenfalls.
+- Der **Verlauf wird pro Aktie im Speicher gehalten**, bis die App geschlossen wird. Mitgeschickt werden die letzten 12 Beiträge (ohne Fehlermeldungen).
+- **Ablauf:**
+  - Die Frage erscheint sofort im Verlauf. Darunter „🤖 Denke nach … 3 s“ mit Sekundenzähler, und die App scrollt automatisch zur neuesten Stelle.
+  - Der Knopf „Fragen“ ist während der Anfrage gesperrt.
+  - **Zeitlimit 45 s** (AbortController plus Promise.race).
+  - Unter der Karte bleiben 80 px Abstand, damit der schwebende Knopf nichts verdeckt.
+- **Gemini-Aufruf:** `POST https://generativelanguage.googleapis.com/v1beta/models/&lt;Modell&gt;:generateContent`, der Schlüssel **nur im Header** `x-goog-api-key`, nie in der URL.
+  - Modelle der Reihe nach: `gemini-3.5-flash-lite`, dann `gemini-2.5-flash` (Wechsel bei 404 oder einem 400-Fehler zu Modell oder Tool).
+  - Mit `tools:[{google_search:{}}]`, `temperature 0.2`, `maxOutputTokens 900`.
+  - Die Quellen kommen aus `groundingMetadata.groundingChunks[].web.uri/title`.
+- **Ohne Internetsuche (wichtig):**
+  - Laut Google ist die Google-Suche im **Gratis-Kontingent nicht verfügbar**.
+  - Kommt 429 oder ein Fehler zu search/ground/quota/billing, fragt die App automatisch **ohne Suche** nochmals.
+  - Diese Anfrage nutzt **nur die bis zu 40 neuesten Meldungen der App zu dieser Aktie** als nummeriertes Material. Die Antwort trägt Belegnummern [n], die passenden Meldungen erscheinen als Quellen.
+  - Hinweis zur Antwort: „(Ohne Internetsuche: Mit dem Gratis-Schlüssel erlaubt Google keine Suche, darum stammt die Antwort nur aus den Meldungen, die die App gesammelt hat.)“
+- **Antwort ohne Links:** Die Antwort wird gezeigt, mit dem Hinweis „(Hinweis: Gemini hat zu dieser Antwort keine Links mitgeliefert. Bitte mit Vorsicht lesen.)“.
+- **Mikrofon:**
+  - Ausserhalb von iOS: Web Speech API (`de-CH`).
+  - Auf dem iPhone: Aufnahme mit `getUserMedia` und `MediaRecorder` (iOS: `audio/mp4`), höchstens 20 s, mit ⏹ beenden. Danach schreibt Gemini die Aufnahme auf (Prompt unten), und die Frage wird automatisch gesendet.
+- **Fehlermeldungen** (rot im Chat, ⚠️):
+  - Schlüssel fehlt: „Es fehlt der Gemini-Schlüssel auf diesem iPhone. Tippe unten auf „Schlüssel eintragen“ und füge ihn einmal ein.“ Dazu der Knopf **„Schlüssel eintragen“**. Er springt zu `#/liste`, scrollt zum Schlüsselfeld und setzt dort den Cursor.
+  - Schlüssel ungültig (400 API key / 401 / 403): „Der Gemini-Schlüssel wird abgelehnt (Fehler N). …“ plus derselbe Knopf.
+  - Kontingent (429/quota): „Gemini-Kontingent erschöpft (Fehler 429). Das Gratis-Kontingent ist für den Moment aufgebraucht. Bitte später nochmals versuchen.“
+  - Zeitüberschreitung: „Gemini hat nach 45 Sekunden nicht geantwortet. Bitte nochmals versuchen (evtl. ist die Verbindung schwach).“
+  - Kein Netz: „Keine Verbindung zu Gemini (…). Bitte Internet prüfen und nochmals versuchen.“
+  - Sonst: „Gemini meldet Fehler &lt;Code&gt;: &lt;Meldung&gt;“.
+  - Unerwartete Programmfehler: „Interner Fehler: …“.
+  - Mikrofon verboten: „Das Mikrofon ist nicht erlaubt. Bitte in den iPhone-Einstellungen › Safari › Mikrofon erlauben.“
+- **Schlüsselsuche:** Die App nimmt zuerst einen eigenen Schlüssel (`ar.gkey`). Danach den Schlüssel einer anderen App auf derselben Herkunft (`localStorage &#x27;lehrerin.key&#x27;` bzw. IndexedDB `lehrerin-kv`, nur lesend; eine dabei neu angelegte, leere Datenbank wird sofort wieder verworfen).
+  - Hinweis: Auf dem iPhone hat jede App auf dem Home-Bildschirm einen **eigenen Speicher**. Darum braucht es dort meist einmal das eigene Schlüsselfeld.
+
+### 4.5 Reiter „Nachrichten“ (`#/news`)
+
+- Titel „Alle Nachrichten“.
+- Filter: „Alle Aktien“ (oder eine Aktie, A-Z), „Alle Themen“ (Etiketten), Suchfeld „Suchen in Titeln“, Häkchen „Nur neue seit dem letzten Besuch“, Knopf **„Alle als gelesen“**.
+- Darunter „N Meldungen, neueste zuerst. Nachrichten: Stand …“. Je 60 Stück, dazu „Mehr anzeigen“.
+- Es erscheinen nur Meldungen zu Aktien, die in der eigenen Liste stehen, jeweils mit Kürzel-Abzeichen (höchstens 3).
+- **Etiketten** (Stichwort-Regeln, Deutsch und Englisch): Quartalszahlen, Gewinnwarnung, Übernahme, Klage, Zoll, Zinsentscheid, Rückruf, Prognose, Upgrade/Downgrade.
+
+### 4.6 Reiter „Marktweit“ (`#/markt`)
+
+- Titel „Marktweit“ und der Text „Themen, die viele Aktien betreffen können: Zölle, Zinsen, Notenbanken, KI-Chips, Exportkontrollen.“
+- Auswahl „Alle Themen“ bzw. ein Thema, Suchfeld, Liste mit „Mehr anzeigen“.
+
+### 4.7 Reiter „Liste“ (`#/liste`)
+
+1. **„Aktie hinzufügen“:**
+   - Text: „Suche nach Name oder Kürzel (Auswahl aus ca. 500 US-Aktien plus deine Liste). Andere Börsen: Kürzel direkt eingeben, z. B. NESN.SW.“
+   - Suchfeld „z. B. Nvidia oder NVDA“. Bis zu 8 Treffer, sortiert nach: exaktes Kürzel, Kürzel beginnt mit …, Name beginnt mit …, Name enthält ….
+   - Jeder Treffer mit dem Knopf „Hinzufügen“.
+   - Zusätzlich „Kürzel direkt hinzufügen (Name und Sektor frei wählbar)“ mit den Feldern Name und Sektor.
+   - Rückmeldung: „&lt;Kürzel&gt; hinzugefügt.“ (bei einer Aktie ohne Daten zusätzlich: „Daten werden beim nächsten Update geladen (siehe unten, &quot;Daten anfordern&quot;).“), „ist schon in der Liste“ oder „ist wieder in der Liste“.
+2. **„Meine Liste (N)“:** pro Aktie Kürzel, Name (bei Bedarf „- noch ohne Daten“), Auswahlfeld Sektor, Pfeile ▲/▼ und **„Entfernen“** (rot). Entfernte Standard-Aktien werden nur lokal ausgeblendet.
+3. **„Daten anfordern“** (Karte):
+   - Erklärung, welche Aktien noch keine Daten haben.
+   - **„Per GitHub anfordern“** öffnet ein vorbereitetes Issue „Watchlist: Änderung“.
+   - **„Watchlist exportieren“** öffnet das Teilen-Menü bzw. kopiert in die Zwischenablage.
+4. **„Fragen (Gemini)“** (Karte):
+   - Schlüsselfeld (Passwortfeld „Gemini-Schlüssel einfügen“), Knopf „Speichern“ (Prüfung: mindestens 20 Zeichen A–Z, 0–9, _ oder -) und „Schlüssel löschen“.
+   - Text: „Für „Fragen“ braucht es einmalig deinen Gemini-Schlüssel. Er wird nur auf diesem Gerät gespeichert, nie im Code oder im Internet.“ bzw. „Ein Gemini-Schlüssel ist auf diesem Gerät gespeichert (von der Lehrerin übernommen). Er bleibt nur auf diesem Gerät.“
+5. **„Anzeige“:** Knopf **„Standardliste wiederherstellen“** (rot, mit Rückfrage). Er setzt Ausblendungen, Reihenfolge und Sektoren zurück und löscht die lokal hinzugefügten Aktien.
+
+**Automatisch eingeblendet:** Steht in `data/added.json` eine Aktie mit einem neueren Zeitstempel als `addSeen`, macht die App ihre Ausblendung rückgängig und hängt sie an die eigene Reihenfolge an. Neue Aktien der Standardliste erscheinen ohnehin automatisch.
+
+### 4.8 Aktie per iPhone-Kurzbefehl hinzufügen (ohne die App)
+
+- **Kurzbefehl:** „Nach Eingabe fragen“ (Text, „Welche Aktie?“), dann „Inhalte von URL abrufen“, dann „Mitteilung anzeigen“ („Aktie gemeldet, in 5 Minuten da“).
+- **Anfrage:** `POST https://api.github.com/repos/&lt;besitzer&gt;/aktien-radar/dispatches`
+  - Header: `Authorization: Bearer &lt;GITHUB_TOKEN_PLATZHALTER&gt;`, `Accept: application/vnd.github+json`.
+  - JSON: `{&quot;event_type&quot;:&quot;add-stock&quot;,&quot;client_payload&quot;:{&quot;query&quot;:&quot;&lt;Eingabe&gt;&quot;}}`.
+- **`scripts/add_stock.py`:**
+  - Prüft die Eingabe streng: 1–40 Zeichen, nur Buchstaben (auch Umlaute), Ziffern und `^ . = &amp; &#x27; -` sowie Leerzeichen. Sonst „Ungültige Eingabe“.
+  - Sucht bei Yahoo (`/v1/finance/search`) und lässt nur EQUITY oder ETF zu.
+  - **Auswahl:**
+    1. Der bereinigte Name ist gleich der Eingabe, und die Börse ist keine OTC-Börse (PNK/OQX/OQB/OID/OEM/OGM), bei mehreren der höchste Yahoo-Score.
+    2. Das Kürzel ist genau gleich der Eingabe.
+    3. Der Name ist gleich, auch an einer OTC-Börse.
+    4. Der beste Treffer, der keine OTC-Börse ist.
+    5. Der beste Treffer überhaupt.
+    - Beim Bereinigen werden Endungen wie AG, SE, SA, Inc, Corp, Co, Company, Ltd, Limited, plc, NV, Holding(s), Group und einzelne Buchstaben am Ende entfernt.
+  - Prüft den Kurs über die Chart-API, macht Namen in Grossbuchstaben lesbar (Siemens AG) und bestimmt den Sektor.
+  - Höchstens 80 Aktien in der Liste.
+  - Schreibt `watchlist.json` und `data/added.json`. Danach holt der Ablauf die Daten mit der KI-Zusammenfassung.
+- **Beispiele:**
+
+  | Eingabe | Ergebnis |
+  |---|---|
+  | Siemens | SIE.DE |
+  | Nestle | NESN.SW |
+  | Rheinmetall | RHM.DE |
+  | BYD | 1211.HK |
+  | Roche | RO.SW |
+  | UBS | UBSG.SW |
+  | Logitech | LOGN.SW |
+  | NVDA | NVDA |
+
+## 5. Datenquellen und Abruf (alle kostenlos)
+
+| Was | Quelle | Wie |
+|---|---|---|
+| Kurse, Tageskurve, 5-Tage-Kurve, 52 Wochen | Yahoo Finance chart API v8 | `https://query1|query2.finance.yahoo.com/v8/finance/chart/&lt;SYM&gt;?range=1d&amp;interval=15m` und `range=5d&amp;interval=60m`; je höchstens 60 Punkte; 5 parallel |
+| News pro Aktie | Yahoo Finance RSS | `https://feeds.finance.yahoo.com/rss/2.0/headline?s=&lt;SYM&gt;&amp;region=US&amp;lang=en-US`, höchstens 15 |
+| News pro Aktie | Google News RSS | `https://news.google.com/rss/search?q=&lt;q_de|q_en&gt; when:2d` (DE: hl=de, gl=CH; EN: hl=en-US, gl=US), je höchstens 12. Bei weniger als 8 Meldungen zusätzlich `when:14d` (je höchstens 8). Endung „ - Quelle“ aus dem Titel entfernen |
+| Marktweite Themen | Google News RSS | wie oben mit den Themen-Suchbegriffen, 2d, sonst 14d |
+| Offizielle US-Pflichtmeldungen | SEC EDGAR | `https://data.sec.gov/submissions/CIK##########.json`, Formulare der letzten 90 Tage, höchstens 6 pro Firma, 0,15 s Pause (höchstens 10/s). Die CIK steht fest für bekannte Firmen und kommt sonst automatisch aus der offiziellen SEC-Tickerliste. **User-Agent mit Kontakt-E-Mail ist Pflicht** (Variable `SEC_USER_AGENT`) |
+| Firmen-Medienmitteilungen | Google News RSS `site:&lt;Firmen-Domain&gt;` | 30 Tage, höchstens 6. Stellenanzeigen und Ähnliches werden ausgefiltert |
+| Analysten (Konsens, Kursziele, Hoch-/Herabstufungen der letzten 120 Tage, nächste Quartalszahlen) | Yahoo quoteSummary | Cookie und Crumb (`fc.yahoo.com`, `/v1/test/getcrumb`), Module `recommendationTrend, financialData, upgradeDowngradeHistory, calendarEvents` |
+| Übersetzung der Titel | Google-Translate-Web-Endpunkt | `https://translate.googleapis.com/translate_a/t?client=gtx&amp;sl=auto&amp;tl=de&amp;format=text`, 40 pro Paket, Cache in `translations.json` |
+| KI-Zusammenfassung, Vorlesestimme, Chat | Google Gemini API (Gratis-Kontingent) | siehe Abschnitt 6 |
+| Suchindex | Wikipedia S&amp;P 500 plus Watchlist | `scripts/build_catalog.py` |
+
+**SEC-Titel auf Deutsch:** `&lt;Firma&gt;: &lt;Formular&gt;` plus, bei 8-K, die Punkte. Formulare:
+- 8-K → „Wichtige Mitteilung (8-K)“
+- 10-Q → „Quartalsbericht (10-Q)“
+- 10-K → „Jahresbericht (10-K)“
+- 6-K → „Mitteilung ausländischer Firma (6-K)“
+- 20-F → „Jahresbericht ausländischer Firma (20-F)“
+- 8-K/A → „Wichtige Mitteilung, korrigiert (8-K/A)“
+- 10-Q/A → „Quartalsbericht, korrigiert (10-Q/A)“
+
+8-K-Punkte: 1.01 = wichtiger Vertrag, 2.02 = Geschäftszahlen, 2.01 = Kauf/Verkauf von Firmenteilen, 5.02 = Wechsel im Management, 7.01 = Information an Investoren, 8.01 = sonstige wichtige Ereignisse, 5.07 = Abstimmung Generalversammlung, 2.05 = Restrukturierung, 1.02 = Vertrag beendet, 2.03 = neue Finanzierung/Schulden, 3.02 = Aktienverkauf, 5.03 = Statutenänderung.
+
+**Quellen-Qualität** (`quality.py`):
+- 3 = seriös oder Primärquelle (Reuters, Bloomberg, NZZ, FuW, Handelszeitung, PR Newswire …), 2 = solide Finanzportale (Yahoo, finanzen.ch, MarketScreener …), 1 = unbekannt, 0 = aussortiert.
+- Aussortiert werden die Liste BAD (u. a. Motley Fool, Zacks, Benzinga, Simply Wall St, TipRanks, MarketBeat, nasdaq.com, msn) und Titel mit Clickbait-Mustern („should you“, „buy now“, „millionaire“, „Kursrakete“ …).
+- Ebenfalls aussortiert: Junk-Muster (Kurs- und Chartseiten, Kanzlei-Aufrufe für Sammelklagen) und Titel in nichtlateinischer Schrift.
+- Offizielle Mitteilungen bekommen immer Qualität 3.
+- Gleiche Titel werden zusammengeführt (normalisierter Schlüssel). Offizielle Daten haben dabei Vorrang.
+
+## 6. Gemini-Prompts (wörtlich aus dem Code)
+
+### 6.1 KI-Zusammenfassung pro Aktie (`scripts/ai_summary.py`)
+
+- **Modelle der Reihe nach** (das erste verfügbare gewinnt): gemini-3.5-flash-lite, gemini-3.1-flash-lite, gemini-2.5-flash-lite, gemini-flash-lite-latest, gemini-2.5-flash.
+- **Einstellungen:** `responseMimeType: application/json`, `temperature 0.2`, `maxOutputTokens 2500`. Höchstens 12 Aufrufe pro Lauf, 6 s Pause.
+- **Neu erstellt** wird nur, wenn sich die Eingabe geändert hat (Hash über die Titel und den Konsens) und die letzte Zusammenfassung mindestens 2 Stunden alt ist. Die ältesten oder fehlenden kommen zuerst.
+- **Eingabe:** bis zu 25 Meldungen der letzten 5 Tage, deren Titel die Firma nennen (offizielle immer), dazu Analystendaten und Analysten-Meldungen.
+- **Fehlerbehandlung:**
+  - 404 oder „not supported“: nächstes Modell.
+  - 429 mit Tageslimit: nächstes Modell; sonst 30 s warten.
+  - Kaputtes JSON: einmal neu versuchen.
+- **Nachbearbeitung:** „ss“ wird zu „ss“, `vorlesetext` endet immer mit „Keine Anlageberatung.“, Quellenbeschreibungen werden ergänzt.
+
+```
+Du bist eine neutrale Wirtschaftsjournalistin. Schreibe auf Deutsch (Schweizer Rechtschreibung, also &quot;ss&quot; statt &quot;ß&quot;) eine Zusammenfassung zur Aktie {name} ({sym}).
+Strenge Regeln:
+- Verwende NUR die unten gelieferten Meldungen und Analystendaten. Erfinde nichts, keine Zahlen, die nicht in den Daten stehen.
+- Jede Aussage nennt ihre Quelle mit Namen und kurzer Beschreibung, z.B. &quot;Laut Reuters, einer internationalen Nachrichtenagentur, ...&quot;. Nutze die mitgelieferte Beschreibung (&quot;desc&quot;). Fehlt sie, beschreibe die Quelle nur, wenn sie eindeutig bekannt ist, sonst nur den Namen.
+- Bei Widersprüchen beide Seiten neutral: &quot;X berichtet ..., Y dagegen ...&quot;. Keine Seite bevorzugen.
+- Keine eigene Meinung, keine Wertung, keine Empfehlung, keine Prognose.
+- Nur Schlagzeilen sind bekannt: formuliere vorsichtig (&quot;berichtet&quot;, &quot;meldet&quot;), nicht als Tatsache.
+- Übersetze Fachbegriffe korrekt (z.B. &quot;memory&quot; bei Chips = Speicherchips, &quot;guidance&quot; = Prognose).
+- Risiken und Negatives zuerst prüfen: Klagen, Ermittlungen, Bussen, Regulierung/Recht, Herabstufungen, gesenkte Prognosen, Kursrückgänge.
+Antworte NUR mit JSON in genau dieser Form:
+{&quot;kurzueberblick&quot;:[{&quot;text&quot;:&quot;...&quot;,&quot;quelle&quot;:&quot;Name&quot;,&quot;nr&quot;:1}],
+ &quot;risiken&quot;:[{&quot;text&quot;:&quot;...&quot;,&quot;quelle&quot;:&quot;Name&quot;,&quot;nr&quot;:3,&quot;rechtlich&quot;:true|false}],
+ &quot;widersprueche&quot;:[{&quot;thema&quot;:&quot;...&quot;,&quot;seiten&quot;:[{&quot;quelle&quot;:&quot;Name&quot;,&quot;text&quot;:&quot;...&quot;,&quot;nr&quot;:4},{&quot;quelle&quot;:&quot;Name&quot;,&quot;text&quot;:&quot;...&quot;,&quot;nr&quot;:7}]}],
+ &quot;analysten&quot;:[{&quot;text&quot;:&quot;...&quot;,&quot;quelle&quot;:&quot;Name&quot;}],
+ &quot;vorlesetext&quot;:&quot;...&quot;}
+- &quot;nr&quot; ist die Nummer der verwendeten Meldung (Feld &quot;nr&quot;), bei Analystendaten weglassen.
+- In kurzueberblick, risiken, widersprueche und analysten Zahlen als Ziffern schreiben (z.B. &quot;578 USD&quot;, &quot;+29,9 %&quot;), kurz und sachlich.
+- kurzueberblick: 2-4 wichtigste Punkte. risiken: leer [], wenn nichts Negatives in den Meldungen steht. widersprueche: leer [], wenn sich keine Quellen widersprechen.
+- analysten: aus den Analystendaten (Quelle &quot;Yahoo Finance&quot;) und Analysten-Meldungen.
+- vorlesetext: natürlich gesprochenes Deutsch, 140-220 Wörter (60-90 Sekunden), ganze Sätze, keine Listen, keine Abkürzungen wie &quot;Mio.&quot;, &quot;USD&quot; oder &quot;%&quot; (schreibe &quot;Prozent&quot;, &quot;Millionen&quot;, &quot;Dollar&quot;), Zahlen gerundet, Quellen beim Namen nennen. Reihenfolge: kurzer Überblick, dann Risiken und Rechtliches (falls keine: &quot;In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden.&quot;), dann Widersprüche, dann Analysten. Letzter Satz genau: &quot;Keine Anlageberatung.&quot;
+
+DATEN (JSON):
+{data}
+```
+
+### 6.2 Vorlesestimme (`scripts/tts.py`)
+
+- Modell `gemini-2.5-flash-preview-tts`, Stimme **Kore**, Ausgabe PCM 24 kHz mono. Daraus macht ffmpeg eine MP3 mit 48 kbit/s.
+- Höchstens 3 Aufrufe pro Lauf, 25 s Pause. Bei 429 eine Stunde Pause (`quota_until`), die alten Dateien bleiben.
+- Neu erstellt wird nur, wenn sich der Text geändert hat (Hash).
+- Stil-Prompt vor dem Text:
+
+```
+Lies den folgenden deutschen Text warm, ruhig und natürlich vor, wie ein freundlicher Nachrichtensprecher:
+```
+
+### 6.3 Chat „KI fragen“ (`app.js`, Systemanweisung)
+
+```
+    var sys = &#x27;Heute ist &#x27; + today + &#x27;. Du hilfst einem Privatanleger aus der Schweiz, die Aktie &#x27; + s.name + &#x27; (Kürzel &#x27; + s.symbol + &#x27;) zu verstehen. Alle Fragen beziehen sich auf diese Firma, ausser er sagt etwas anderes. &#x27; +
+      &#x27;Suche für jede Antwort mit Google nach aktuellen, seriösen Quellen. Antworte auf Deutsch (Schweizer Rechtschreibung, kein ß), kurz, klar und einfach, wie ein guter Journalist: höchstens 6 kurze Sätze, schwierige Wörter kurz erklären. &#x27; +
+      &#x27;Nenne bei Fakten, wer es wann gesagt hat (mit Datum). Erfinde nichts: nur, was in den gefundenen Quellen steht. Bei Nachfragen wie „Warum?“ oder „Ich will mehr wissen“ beziehe dich auf das bisherige Gespräch. &#x27; +
+      &#x27;Wenn du nichts Verlässliches findest, schreibe genau: „Dazu habe ich keine verlässliche Quelle gefunden.“ Keine Kauf- oder Verkaufsempfehlung.&#x27;;
+```
+
+Ersatz ohne Internetsuche:
+
+```
+        var sys2 = sys.replace(/Suche für jede Antwort mit Google[^.]*\./, &#x27;&#x27;) + &#x27; Du hast KEINE Internetsuche. Nutze NUR die nummerierten MELDUNGEN unten und setze nach jeder Aussage die Nummer in eckigen Klammern, z. B. [3]. Steht die Antwort nicht in den Meldungen, schreibe genau: „Dazu habe ich in den Meldungen der App nichts gefunden.“\n\nMELDUNGEN:\n&#x27; +
+          mat.map(function (m) { return &#x27;[&#x27; + m.n + &#x27;] &#x27; + m.d + &#x27; – &#x27; + m.src + &#x27;: &#x27; + m.t; }).join(&#x27;\n&#x27;);
+```
+
+### 6.4 Spracheingabe (Abschrift)
+
+```
+Schreib genau auf, was in dieser Aufnahme auf Deutsch (evtl. Schweizerdeutsch) gesagt wird, in Hochdeutsch. Gib NUR den Text zurück. Wenn nichts Verständliches gesagt wird, gib „-“ zurück.
+```
+
+## 7. Übersetzungs- und Sprachregeln
+
+- Alle sichtbaren Texte sind Deutsch (de-CH), „ss“ statt „ss“ in KI-Texten. Zahlen im Format de-CH, Datum lokal.
+- Englische und andere fremde Titel werden automatisch übersetzt und als `title_de` gezeigt, der Originaltitel klein darunter. Fällt die Übersetzung aus, bleibt der Originaltitel. Titel, die schon deutsch sind, bleiben.
+- SEC-Titel baut der Code selbst auf Deutsch (keine Maschinenübersetzung).
+- **Fachbegriffe** im KI-Prompt: memory = Speicherchips, guidance = Prognose usw.
+- **Vorlesetext:** ausgeschriebene Wörter („Prozent“, „Millionen“, „Dollar“), gerundete Zahlen, keine Listen.
+- **Analysten-Ratings** übersetzt: Buy = Kaufen, Overweight = Übergewichten, Outperform = Besser als Markt usw.
+
+## 8. Fehlerbehandlung
+
+- **Pipeline:**
+  - Jeder Abruf ist einzeln abgesichert (3 Versuche mit wachsender Pause, kein neuer Versuch bei 400/401/403/404).
+  - Fehler landen in `errors` der jeweiligen JSON-Datei.
+  - Alte Kurse bleiben mit `stale:true`, und alte Analystendaten bleiben mit ihrem Datum.
+  - Fällt die KI aus, bleibt der letzte Stand, und die App zeigt die einfache Zusammenfassung.
+  - Ohne einen einzigen Kurs endet der Lauf mit Exit-Code 2.
+  - Schlüssel werden nie ausgegeben.
+- **App:**
+  - Banner bei Ladefehlern („Start fehlgeschlagen“, „Laden fehlgeschlagen“, „Anzeige-Fehler: …“).
+  - Hinweis, wenn die Daten älter als 3 Stunden sind.
+  - Offline-Pille. Offline wird der letzte Stand aus dem Speicher gezeigt.
+  - Ohne JavaScript: „Diese App braucht JavaScript.“
+- **Chat:** siehe 4.4. Jeder Fehler erscheint sichtbar im Gesprächsverlauf.
+
+## 9. Geheimnisse und Einstellungen (nur Platzhalter)
+
+**Nirgends im Code, in URLs oder in Dateien darf ein Schlüssel stehen.**
+
+| Platzhalter | Art | Wo eintragen (macht der Besitzer selbst) |
+|---|---|---|
+| `GEMINI_API_KEY` | GitHub Actions **Secret** | GitHub → Repo → Settings → Secrets and variables → Actions → New repository secret |
+| `SEC_USER_AGENT` | GitHub Actions **Variable**, Wert z. B. `Aktien-Radar &lt;deine E-Mail&gt;` | dieselbe Seite, Reiter „Variables“ |
+| Gemini-Schlüssel für „KI fragen“ | nur auf dem Gerät (localStorage `ar.gkey`) | in der App: Reiter „Liste“ → „Fragen (Gemini)“ → einfügen → „Speichern“ |
+| `&lt;GITHUB_TOKEN_PLATZHALTER&gt;` für den Kurzbefehl | Fine-grained Token, nur für dieses Repo, Recht „Contents: Read and write“, Ablauf 1 Jahr | github.com → Settings → Developer settings → Fine-grained tokens; nur in den iPhone-Kurzbefehl einfügen |
+
+Die Gemini-Schlüssel erstellt man im Google AI Studio. Ein Schlüssel, der einmal in einem Chat oder im Code stand, sollte ersetzt werden.
+
+## 10. Testcheckliste
+
+1. **Seite lädt** auf dem iPhone (Safari und Home-Bildschirm): Kopf, Statuszeile, alle Aktien mit Kurs und Kurve, keine roten Banner.
+2. **Sortierung:** alle 4 Arten. Pfeile ▲/▼ verschieben die Aktie und bleiben nach einem Neuladen erhalten.
+3. **Suchleiste:** „nvid“ zeigt nur NVDA, „ubs“ nur UBSG.SW, × löscht. Funktioniert mit „Nach Sektor“. Ohne Treffer kommt der passende Hinweis.
+4. **Zurück an die Stelle:** weit nach unten scrollen und eine Aktie öffnen. Mit dem Link oben, dem orangen Knopf, dem schwebenden Knopf, dem Knopf ganz unten und dem Reiter „Aktien“ zurück. Die Aktie ist jedes Mal sichtbar und kurz umrahmt, auch nach einem Neuladen.
+5. **Detailseite:** alle Karten vorhanden. „Risiken und Negatives“ steht zuerst. Quellen haben Beschreibungen. SEC-Meldungen zeigen „Offiziell · SEC“ (z. B. bei NVDA, MSFT, IBM) mit deutschem Titel.
+6. **Vorlesen:**
+   - Mit Gemini-MP3: Zeitanzeige, Pause, Weiter, Stop.
+   - Ohne MP3: Gerätestimme mit „Satz x von y“.
+   - Die Position bleibt nach dem Schliessen erhalten. „Neu“ verschwindet nach dem ganzen Anhören.
+   - Wechsel der Aktie oder der App in den Hintergrund stoppt das Vorlesen.
+7. **KI fragen:**
+   - Ohne Schlüssel: rote Meldung mit dem Knopf „Schlüssel eintragen“, der zum Feld springt.
+   - Mit Schlüssel: „Denke nach …“, Antwort mit Quellen, Autoscroll.
+   - Die Nachfrage „Warum?“ nutzt den Verlauf.
+   - Geprüft mit nachgestellten Antworten: Erfolg, 429 (Ersatz ohne Suche mit [n]-Belegen), 400 „Suche nicht erlaubt“, ungültiger Schlüssel, 503, kein Netz und mehr als 45 s (Zeitlimit).
+   - Getestet mit einem echten Tippen auf „Fragen“ und mit der Eingabetaste. Mikrofon auf dem iPhone, Vorlesen der Antwort.
+8. **Liste:**
+   - Aktie suchen und hinzufügen. Kürzel direkt (z. B. NESN.SW). Entfernen, Sektor ändern, Standardliste wiederherstellen.
+   - Eine neue Aktie ohne Daten zeigt den Knopf „Daten … anfordern“.
+9. **Kurzbefehl/Dispatch:**
+   - `repository_dispatch` mit „Siemens“: nach etwa 2 Minuten steht SIE.DE mit Kurs und KI-Zusammenfassung in der App.
+   - Eine unsinnige Eingabe (z. B. `&lt;script&gt;`) wird abgelehnt, und nichts ändert sich.
+10. **Pipeline-Protokoll:** keine Meldung „SEC_USER_AGENT fehlt“. Kurse für alle Aktien, KI-Aufrufe ohne Fehler, Commit erfolgt.
+11. **Service Worker:** nach dem Hochladen der neuen Version (Cache-Nummer erhöht) zeigt die App nach einmaligem Schliessen und Öffnen die neue Version. Offline bleibt der letzte Stand sichtbar.
+12. **Sicherheit:** Volltextsuche im Repo nach Google-Schlüsseln, GitHub-Tokens und E-Mail-Adressen ergibt nichts.
+
+---
+
+*Keine Anlageberatung. Kurse können bis zu 15 Minuten verzögert sein.*
+</textarea>
+<script>
+(function(){var t=document.getElementById('t'),m=document.getElementById('msg'),b=document.getElementById('cp');
+function ok(){m.textContent='Kopiert ✓';b.textContent='✓ Kopiert';setTimeout(function(){b.textContent='📋 Alles kopieren'},2500)}
+function fb(){try{var a=document.createElement('textarea');a.value=t.value;a.setAttribute('readonly','');a.style.position='fixed';a.style.top='0';a.style.opacity='0';a.style.fontSize='16px';document.body.appendChild(a);
+ var r=document.createRange();r.selectNodeContents(a);var s=window.getSelection();s.removeAllRanges();s.addRange(r);a.setSelectionRange(0,a.value.length);
+ var done=document.execCommand('copy');document.body.removeChild(a);if(done)ok();else m.textContent='Kopieren ging nicht. Bitte lange in den Text tippen › Alles auswählen › Kopieren.'}catch(e){m.textContent='Kopieren ging nicht. Bitte lange in den Text tippen › Alles auswählen › Kopieren.'}}
+b.onclick=function(){if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(ok,fb)}else fb()};})();
+</script></body></html>
