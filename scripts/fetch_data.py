@@ -229,9 +229,14 @@ def merge_news(batches, old_items):
         v["q"] = 3 if v.get("official") else item_quality(v)
     by = {k: v for k, v in by.items() if v["q"] > 0}
     cutoff = iso(NOW - timedelta(days=KEEP_DAYS))
-    res = [v for v in by.values() if v["published"] >= cutoff and v["published"] <= iso(NOW + timedelta(hours=2))]
+    cut_sec = iso(NOW - timedelta(days=90))
+    future = iso(NOW + timedelta(hours=2))
+    # Offizielle Mitteilungen (SEC 90 Tage, Firmen KEEP_DAYS) immer behalten, nur normale Meldungen begrenzen
+    off = [v for v in by.values() if v.get("official") and v["published"] <= future and v["published"] >= (cut_sec if v.get("official") == "sec" else cutoff)]
+    res = [v for v in by.values() if not v.get("official") and v["published"] >= cutoff and v["published"] <= future]
     res.sort(key=lambda x: x["published"], reverse=True)
-    res = res[:MAX_NEWS]
+    res = res[:MAX_NEWS] + off
+    res.sort(key=lambda x: x["published"], reverse=True)
     for v in res:
         v["id"] = hashlib.sha1(norm_key(v["title"]).encode()).hexdigest()[:12]
     return res
