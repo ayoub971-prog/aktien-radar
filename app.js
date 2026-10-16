@@ -361,7 +361,7 @@ function aiHtml(sym, s) {
   var a = aiOf(sym), h = '<div class="card ai"><h3 style="margin-top:0">Zusammenfassung der Quellen</h3>';
   h += '<div class="player" id="pl"><button id="plPlay" class="primary">▶ Vorlesen</button><button id="plPause" hidden>❚❚ Pause</button><button id="plStop" hidden>■ Stop</button><span id="plNew" class="new" hidden>Neu</span><span id="plInfo" class="tiny"></span></div>';
   h += '<a class="backTop" href="' + backHash() + '">← Zurück zur Aktie in der Liste</a>';
-  h += '<button type="button" id="askJump" style="display:block;width:100%;margin:8px 0 4px">💬 Frage zu dieser Aktie stellen</button>';
+  h += '<button type="button" id="askJump" style="display:block;width:100%;margin:8px 0 4px">🤖 KI fragen</button>';
   if (!a) {
     h += '<p class="tiny">Die KI-Zusammenfassung ist für diese Aktie noch nicht erstellt. Vorgelesen wird die einfache Zusammenfassung aus den Schlagzeilen.</p></div>';
     return h;
@@ -781,7 +781,7 @@ if ('serviceWorker' in navigator && /^https?:$/.test(location.protocol)) {
 /* ---------- Fragen zur Aktie (Gemini + Google-Suche) ----------
    Schlüssel nur auf dem Gerät: eigener (ar.gkey) oder der Lehrerin (gleiche Herkunft ayoub971-prog.github.io). */
 var ASK_MODELS = ['gemini-3.5-flash-lite', 'gemini-2.5-flash'];
-var askMem = null;
+var askMem = null, ASK_HIST = {};
 function lehrerinKey() { try { var v = localStorage.getItem('lehrerin.key'); return v ? JSON.parse(v) : ''; } catch (e) { return ''; } }
 function askKeySrc() { return lsGet('ar.gkey') ? 'eigen' : (lehrerinKey() || askMem ? 'lehrerin' : ''); }
 function askKey() { return lsGet('ar.gkey') || lehrerinKey() || askMem || ''; }
@@ -789,10 +789,10 @@ function askKey() { return lsGet('ar.gkey') || lehrerinKey() || askMem || ''; }
 (function () { try { var r = indexedDB.open('lehrerin-kv'); r.onupgradeneeded = function () { try { r.transaction.abort(); } catch (e) {} };
   r.onsuccess = function () { var d = r.result; try { if (!d.objectStoreNames.contains('kv')) { d.close(); return; } var g = d.transaction('kv').objectStore('kv').get('key'); g.onsuccess = function () { if (g.result) askMem = String(g.result); d.close(); }; } catch (e) { d.close(); } }; } catch (e) {} })();
 function askHtml(s) {
-  return '<div class="card" id="askCard"><div class="h" style="font-weight:700;color:var(--accent);letter-spacing:.06em;font-size:14px">FRAGEN ZU ' + esc(s.name.toUpperCase()) + '</div>' +
-    '<p class="tiny" style="margin:4px 0 8px">z. B. „Was sagt UBS?“ oder „Was schreibt Reuters?“ – gesucht wird im Internet, mit Quellen.</p>' +
+  return '<div class="card" id="askCard"><div class="h" style="font-weight:700;color:var(--accent);letter-spacing:.06em;font-size:14px">🤖 KI FRAGEN ZU ' + esc(s.name.toUpperCase()) + '</div>' +
+    '<p class="tiny" style="margin:4px 0 8px">Frag alles zu dieser Aktie, z. B. „Warum hat die Firma Probleme?“, „Was sagt UBS?“ oder „Was bedeutet das?“. Danach kannst du nachfragen („Warum?“, „Ich will mehr wissen“). Die KI sucht im Internet und nennt Quellen.</p><div id="askOut"></div>' +
     '<div style="display:flex;gap:8px"><input type="search" id="askIn" placeholder="Deine Frage …" autocomplete="off" style="flex:1"><button id="askMic" aria-label="Sprechen">🎤</button></div>' +
-    '<p style="margin:8px 0 0"><button id="askGo" class="primary">Fragen</button> <button id="askSpeak" hidden>▶ Vorlesen</button></p><p class="tiny" id="askHint"></p><div id="askOut"></div></div>';
+    '<p style="margin:8px 0 0"><button id="askGo" class="primary">Fragen</button> <button id="askSpeak" hidden>▶ Vorlesen</button></p><button id="askNew" class="small" hidden>Neues Gespräch</button></p><p class="tiny" id="askHint"></p></div>';
 }
 function askErr(e) {
   if (e && e.message === 'NOKEY') return 'Für „Fragen“ fehlt der Gemini-Schlüssel. Unten im Reiter „Liste“ bei „Fragen (Gemini)“ einmal eintragen.';
@@ -815,28 +815,44 @@ function bindAsk(s) {
   if (!$('askGo')) return;
   if ($('askJump')) $('askJump').onclick = function () { $('askCard').scrollIntoView({ behavior: 'smooth', block: 'start' }); setTimeout(function () { $('askIn').focus(); }, 400); };
   var last = '';
+  var hist = ASK_HIST[s.symbol] || (ASK_HIST[s.symbol] = []);
+  function render() {
+    var h = '';
+    for (var i = 0; i < hist.length; i++) {
+      var m = hist[i];
+      if (m.role === 'user') h += '<div style="margin:10px 0 0 30px;padding:8px 12px;border-radius:14px;background:var(--panel2);text-align:right">' + esc(m.text) + '</div>';
+      else {
+        h += '<div style="margin:10px 0;line-height:1.5">' + askLinkify(m.text) + '</div>';
+        if (m.src && m.src.length) { h += '<div class="tiny"><b>Quellen:</b>'; for (var k = 0; k < m.src.length && k < 8; k++) h += '<br>' + (k + 1) + '. <a href="' + esc(m.src[k].uri) + '" target="_blank" rel="noopener noreferrer">' + esc(m.src[k].title || m.src[k].uri) + '</a>'; h += '</div>'; }
+      }
+    }
+    if (hist.length) h += '<p class="tiny">Aus einer Internetsuche mit Gemini. Bitte Quellen prüfen. Keine Anlageberatung.</p>';
+    $('askOut').innerHTML = h; $('askNew').hidden = !hist.length;
+    var la = null; for (i = hist.length - 1; i >= 0; i--) if (hist[i].role === 'model') { la = hist[i]; break; }
+    last = la ? la.text : ''; $('askSpeak').hidden = !la;
+  }
+  render();
+  $('askNew').onclick = function () { hist.length = 0; render(); $('askIn').focus(); };
   $('askGo').onclick = function () {
     var qq = $('askIn').value.trim(); if (!qq) { $('askHint').textContent = 'Schreib oder sprich zuerst eine Frage.'; return; }
-    $('askHint').textContent = 'Ich suche im Internet …'; $('askOut').innerHTML = ''; $('askSpeak').hidden = true; $('askGo').disabled = true;
+    if (!askKey()) { $('askHint').textContent = askErr(new Error('NOKEY')); return; }
+    hist.push({ role: 'user', text: qq }); $('askIn').value = ''; render();
+    $('askHint').textContent = 'Ich suche im Internet …'; $('askGo').disabled = true;
     var today = new Date().toISOString().slice(0, 10);
-    var prompt = 'Heute ist ' + today + '. Es geht um die Aktie ' + s.name + ' (Kürzel ' + s.symbol + ').\nFrage des Nutzers: "' + qq + '"\n\n' +
-      'Suche mit Google nach aktuellen, seriösen Quellen dazu (z. B. was eine genannte Bank, ein Analyst oder ein Medium über ' + s.name + ' geschrieben hat). ' +
-      'Antworte auf Deutsch (Schweizer Rechtschreibung, kein ß), sachlich und journalistisch, höchstens 8 Sätze. Nenne bei jeder Aussage, WER es WANN gesagt hat (Datum). ' +
-      'Erfinde nichts: Schreibe nur, was in den gefundenen Quellen steht. Kursziele und Ratings nur nennen, wenn sie in einer Quelle stehen. ' +
-      'Wenn du nichts Passendes findest, schreibe genau: „Dazu habe ich keine verlässliche Quelle gefunden.“ Keine Anlageberatung.';
-    askGemini({ contents: [{ role: 'user', parts: [{ text: prompt }] }], tools: [{ google_search: {} }], generationConfig: { temperature: 0.2, maxOutputTokens: 900 } })
+    var sys = 'Heute ist ' + today + '. Du hilfst einem Privatanleger aus der Schweiz, die Aktie ' + s.name + ' (Kürzel ' + s.symbol + ') zu verstehen. Alle Fragen beziehen sich auf diese Firma, ausser er sagt etwas anderes. ' +
+      'Suche für jede Antwort mit Google nach aktuellen, seriösen Quellen. Antworte auf Deutsch (Schweizer Rechtschreibung, kein ß), kurz, klar und einfach, wie ein guter Journalist: höchstens 6 kurze Sätze, schwierige Wörter kurz erklären. ' +
+      'Nenne bei Fakten, wer es wann gesagt hat (mit Datum). Erfinde nichts: nur, was in den gefundenen Quellen steht. Bei Nachfragen wie „Warum?“ oder „Ich will mehr wissen“ beziehe dich auf das bisherige Gespräch. ' +
+      'Wenn du nichts Verlässliches findest, schreibe genau: „Dazu habe ich keine verlässliche Quelle gefunden.“ Keine Kauf- oder Verkaufsempfehlung.';
+    var contents = hist.slice(-12).map(function (m) { return { role: m.role, parts: [{ text: m.text }] }; });
+    askGemini({ systemInstruction: { parts: [{ text: sys }] }, contents: contents, tools: [{ google_search: {} }], generationConfig: { temperature: 0.2, maxOutputTokens: 900 } })
       .then(function (j) {
         var c = j.candidates && j.candidates[0], txt = c && c.content && c.content.parts ? c.content.parts.map(function (p) { return p.text || ''; }).join('').trim() : '';
         var gm = (c && c.groundingMetadata) || {}, ch = gm.groundingChunks || [], seen = {}, src = [];
         for (var i = 0; i < ch.length; i++) { var w = ch[i].web; if (w && w.uri && !seen[w.uri]) { seen[w.uri] = 1; src.push(w); } }
         if (!txt) txt = 'Dazu habe ich keine verlässliche Quelle gefunden.';
         if (!src.length && !/keine verlässliche Quelle/.test(txt)) txt = 'Dazu habe ich keine verlässliche Quelle gefunden. (Die Suche lieferte keine überprüfbaren Links, darum zeige ich keine Antwort.)';
-        last = txt;
-        var h = '<div style="margin-top:10px;line-height:1.5">' + askLinkify(txt) + '</div>';
-        if (src.length) { h += '<div class="tiny" style="margin-top:8px"><b>Quellen:</b>'; for (i = 0; i < src.length && i < 8; i++) h += '<br>' + (i + 1) + '. <a href="' + esc(src[i].uri) + '" target="_blank" rel="noopener noreferrer">' + esc(src[i].title || src[i].uri) + '</a>'; h += '</div>'; }
-        h += '<p class="tiny">Zusammenfassung aus einer Internetsuche mit Gemini. Bitte die Quellen prüfen. Keine Anlageberatung.</p>';
-        $('askOut').innerHTML = h; $('askHint').textContent = ''; $('askSpeak').hidden = false;
-      }, function (e) { $('askHint').textContent = askErr(e); })
+        hist.push({ role: 'model', text: txt, src: src }); $('askHint').textContent = ''; render();
+      }, function (e) { hist.pop(); $('askIn').value = qq; render(); $('askHint').textContent = askErr(e); })
       .then(function () { $('askGo').disabled = false; });
   };
   $('askIn').onkeydown = function (e) { if (e.key === 'Enter') { e.preventDefault(); $('askGo').onclick(); } };
