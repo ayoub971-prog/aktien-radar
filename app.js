@@ -781,7 +781,7 @@ if ('serviceWorker' in navigator && /^https?:$/.test(location.protocol)) {
 /* ---------- Fragen zur Aktie (Gemini + Google-Suche) ----------
    Schlüssel nur auf dem Gerät: eigener (ar.gkey) oder der Lehrerin (gleiche Herkunft ayoub971-prog.github.io). */
 var ASK_MODELS = ['gemini-3.5-flash-lite', 'gemini-2.5-flash'];
-var askMem = null, ASK_HIST = {};
+var askMem = null, ASK_HIST = {}, ASK_TIMEOUT = +(lsGet('ar.askto') || 45000);
 function lehrerinKey() { try { var v = localStorage.getItem('lehrerin.key'); return v ? JSON.parse(v) : ''; } catch (e) { return ''; } }
 function askKeySrc() { return lsGet('ar.gkey') ? 'eigen' : (lehrerinKey() || askMem ? 'lehrerin' : ''); }
 function askKey() { return lsGet('ar.gkey') || lehrerinKey() || askMem || ''; }
@@ -789,13 +789,14 @@ function askKey() { return lsGet('ar.gkey') || lehrerinKey() || askMem || ''; }
 (function () { try { var r = indexedDB.open('lehrerin-kv'); r.onupgradeneeded = function () { try { r.transaction.abort(); } catch (e) {} };
   r.onsuccess = function () { var d = r.result; try { if (!d.objectStoreNames.contains('kv')) { d.close(); return; } var g = d.transaction('kv').objectStore('kv').get('key'); g.onsuccess = function () { if (g.result) askMem = String(g.result); d.close(); }; } catch (e) { d.close(); } }; } catch (e) {} })();
 function askHtml(s) {
-  return '<div class="card" id="askCard"><div class="h" style="font-weight:700;color:var(--accent);letter-spacing:.06em;font-size:14px">🤖 KI FRAGEN ZU ' + esc(s.name.toUpperCase()) + '</div>' +
+  return '<div class="card" id="askCard" style="margin-bottom:80px;scroll-margin-top:12px"><div class="h" style="font-weight:700;color:var(--accent);letter-spacing:.06em;font-size:14px">🤖 KI FRAGEN ZU ' + esc(s.name.toUpperCase()) + '</div>' +
     '<p class="tiny" style="margin:4px 0 8px">Frag alles zu dieser Aktie, z. B. „Warum hat die Firma Probleme?“, „Was sagt UBS?“ oder „Was bedeutet das?“. Danach kannst du nachfragen („Warum?“, „Ich will mehr wissen“). Die KI sucht im Internet und nennt Quellen.</p><div id="askOut"></div>' +
     '<div style="display:flex;gap:8px"><input type="search" id="askIn" placeholder="Deine Frage …" autocomplete="off" style="flex:1"><button id="askMic" aria-label="Sprechen">🎤</button></div>' +
     '<p style="margin:8px 0 0"><button id="askGo" class="primary">Fragen</button> <button id="askSpeak" hidden>▶ Vorlesen</button></p><button id="askNew" class="small" hidden>Neues Gespräch</button></p><p class="tiny" id="askHint"></p></div>';
 }
 function askErr(e) {
   var st = e && e.status, m = (e && e.message) || '';
+  if (m === 'TIMEOUT') return 'Gemini hat nach 45 Sekunden nicht geantwortet. Bitte nochmals versuchen (evtl. ist die Verbindung schwach).';
   if (m === 'NOKEY') return 'Es fehlt der Gemini-Schlüssel auf diesem iPhone. Tippe unten auf „Schlüssel eintragen“ und füge ihn einmal ein.';
   if (st === 429 || /quota|exhausted|rate/i.test(m)) return 'Gemini-Kontingent erschöpft (Fehler ' + (st || '429') + '). Das Gratis-Kontingent ist für den Moment aufgebraucht. Bitte später nochmals versuchen.';
   if (st === 400 && /api key|API_KEY/i.test(m) || st === 401 || st === 403 && /key|permission|denied/i.test(m)) return 'Der Gemini-Schlüssel wird abgelehnt (Fehler ' + st + '). Bitte „Schlüssel eintragen“ und einen gültigen Schlüssel einfügen.';
@@ -814,7 +815,11 @@ function askGemini(body) {
   var k = askKey(); if (!k) return Promise.reject(new Error('NOKEY'));
   var i = 0;
   function go() {
-    return fetch('https://generativelanguage.googleapis.com/v1beta/models/' + ASK_MODELS[i] + ':generateContent', { method: 'POST', headers: { 'Content-Type': 'application/json', 'x-goog-api-key': k }, body: JSON.stringify(body) })
+    var ac = null; try { ac = new AbortController(); } catch (e) {}
+    var opt = { method: 'POST', headers: { 'Content-Type': 'application/json', 'x-goog-api-key': k }, body: JSON.stringify(body) }; if (ac) opt.signal = ac.signal;
+    var tm, timeout = new Promise(function (_, rej) { tm = setTimeout(function () { try { ac && ac.abort(); } catch (e) {} var e = new Error('TIMEOUT'); rej(e); }, ASK_TIMEOUT); });
+    return Promise.race([fetch('https://generativelanguage.googleapis.com/v1beta/models/' + ASK_MODELS[i] + ':generateContent', opt), timeout])
+      .then(function (r) { clearTimeout(tm); return r; }, function (e) { clearTimeout(tm); if (e && e.name === 'AbortError') e = new Error('TIMEOUT'); throw e; })
       .then(function (r) { return r.json().then(function (j) { if (!r.ok) { var e = new Error((j.error && j.error.message) || ('HTTP ' + r.status)); e.status = r.status; throw e; } return j; }); })
       .catch(function (e) { if (i < ASK_MODELS.length - 1 && (e.status === 404 || (e.status === 400 && /model|tool|search/i.test(e.message)))) { i++; return go(); } throw e; });
   }
@@ -826,11 +831,12 @@ function bindAsk(s) {
   if (!$('askGo')) return;
   if ($('askJump')) $('askJump').onclick = function () { $('askCard').scrollIntoView({ behavior: 'smooth', block: 'start' }); setTimeout(function () { $('askIn').focus(); }, 400); };
   var last = '';
-  var hist = ASK_HIST[s.symbol] || (ASK_HIST[s.symbol] = []);
+  var hist = ASK_HIST[s.symbol] || (ASK_HIST[s.symbol] = []), busy = false, busyIv = null;
   function render() {
     var h = '';
     for (var i = 0; i < hist.length; i++) {
       var m = hist[i];
+      if (m.err) { h += '<div style="margin:10px 0;padding:8px 12px;border-radius:12px;border:1px solid #7a3030;color:#ff9a96">⚠️ ' + esc(m.text) + (m.keyBtn ? '<br><button type="button" class="small primary askKeyB" style="margin-top:8px">Schlüssel eintragen</button>' : '') + '</div>'; continue; }
       if (m.role === 'user') h += '<div style="margin:10px 0 0 30px;padding:8px 12px;border-radius:14px;background:var(--panel2);text-align:right">' + esc(m.text) + '</div>';
       else {
         h += '<div style="margin:10px 0;line-height:1.5">' + askLinkify(m.text) + '</div>';
@@ -838,33 +844,41 @@ function bindAsk(s) {
       }
     }
     if (hist.length) h += '<p class="tiny">Antworten von Gemini. Bitte Quellen prüfen. Keine Anlageberatung.</p>';
+    if (busy) h += '<div id="askBusy" style="margin:10px 0;color:var(--accent);font-weight:600">🤖 Denke nach … <span class="tiny" id="askBusyT"></span></div>';
     $('askOut').innerHTML = h; $('askNew').hidden = !hist.length;
-    var la = null; for (i = hist.length - 1; i >= 0; i--) if (hist[i].role === 'model') { la = hist[i]; break; }
+    var kb = document.querySelectorAll('.askKeyB'); for (var q = 0; q < kb.length; q++) kb[q].onclick = askGoKey;
+    if (hist.length || busy) { var kids = $('askOut').children, lastEl = kids[kids.length - 1]; if (busy) lastEl = $('askBusy'); else { for (var z = kids.length - 1; z >= 0; z--) if (!/tiny/.test(kids[z].className)) { lastEl = kids[z]; break; } } if (lastEl && lastEl.scrollIntoView) setTimeout(function () { try { lastEl.scrollIntoView({ behavior: 'smooth', block: 'start' }); } catch (e) { lastEl.scrollIntoView(); } }, 50); }
+    var la = null; for (i = hist.length - 1; i >= 0; i--) if (hist[i].role === 'model' && !hist[i].err) { la = hist[i]; break; }
     last = la ? la.text : ''; $('askSpeak').hidden = !la;
   }
   render();
   $('askNew').onclick = function () { hist.length = 0; render(); $('askIn').focus(); };
-  $('askGo').onclick = function () {
+  $('askGo').onclick = function () { try { askRun(); } catch (ex) { busy = false; clearInterval(busyIv); $('askGo').disabled = false; hist.push({ role: 'model', err: true, text: 'Interner Fehler: ' + (ex && ex.message || ex) }); render(); } };
+  function askRun() {
     var qq = $('askIn').value.trim(); if (!qq) { $('askHint').textContent = 'Schreib oder sprich zuerst eine Frage.'; return; }
     if (!askKey()) { $('askHint').innerHTML = esc(askErr(new Error('NOKEY'))) + '<br><button type="button" id="askKeyBtn" class="small primary" style="margin-top:8px">Schlüssel eintragen</button>'; $('askKeyBtn').onclick = askGoKey; return; }
-    hist.push({ role: 'user', text: qq }); $('askIn').value = ''; render();
-    $('askHint').textContent = 'Ich suche im Internet …'; $('askGo').disabled = true;
+    hist.push({ role: 'user', text: qq }); $('askIn').value = ''; try { $('askIn').blur(); } catch (e) {}
+    busy = true; var t0 = Date.now(); render(); $('askHint').textContent = ''; $('askGo').disabled = true;
+    busyIv = setInterval(function () { var el = $('askBusyT'); if (el) el.textContent = Math.round((Date.now() - t0) / 1000) + ' s'; }, 1000);
     var today = new Date().toISOString().slice(0, 10);
     var sys = 'Heute ist ' + today + '. Du hilfst einem Privatanleger aus der Schweiz, die Aktie ' + s.name + ' (Kürzel ' + s.symbol + ') zu verstehen. Alle Fragen beziehen sich auf diese Firma, ausser er sagt etwas anderes. ' +
       'Suche für jede Antwort mit Google nach aktuellen, seriösen Quellen. Antworte auf Deutsch (Schweizer Rechtschreibung, kein ß), kurz, klar und einfach, wie ein guter Journalist: höchstens 6 kurze Sätze, schwierige Wörter kurz erklären. ' +
       'Nenne bei Fakten, wer es wann gesagt hat (mit Datum). Erfinde nichts: nur, was in den gefundenen Quellen steht. Bei Nachfragen wie „Warum?“ oder „Ich will mehr wissen“ beziehe dich auf das bisherige Gespräch. ' +
       'Wenn du nichts Verlässliches findest, schreibe genau: „Dazu habe ich keine verlässliche Quelle gefunden.“ Keine Kauf- oder Verkaufsempfehlung.';
-    var contents = hist.slice(-12).map(function (m) { return { role: m.role, parts: [{ text: m.text }] }; });
-    function show(txt, src, note) { hist.push({ role: 'model', text: txt + (note ? '\n\n' + note : ''), src: src }); $('askHint').innerHTML = ''; render(); }
-    function fail(e) { hist.pop(); $('askIn').value = qq; render(); $('askHint').innerHTML = esc(askErr(e)) + (askNeedsKeyBtn(e) ? '<br><button type="button" id="askKeyBtn" class="small primary" style="margin-top:8px">Schlüssel eintragen</button>' : ''); if ($('askKeyBtn')) $('askKeyBtn').onclick = askGoKey; }
+    var contents = hist.filter(function (m) { return !m.err; }).slice(-12).map(function (m) { return { role: m.role, parts: [{ text: m.text }] }; });
+    function show(txt, src, note) { busy = false; hist.push({ role: 'model', text: txt + (note ? '\n\n' + note : ''), src: src }); $('askHint').innerHTML = ''; render(); }
+    function fail(e) { busy = false; hist.push({ role: 'model', err: true, text: askErr(e), keyBtn: askNeedsKeyBtn(e) }); render(); }
     function textOf(j) { var c = j.candidates && j.candidates[0]; return { c: c, txt: c && c.content && c.content.parts ? c.content.parts.map(function (p) { return p.text || ''; }).join('').trim() : '' }; }
     askGemini({ systemInstruction: { parts: [{ text: sys }] }, contents: contents, tools: [{ google_search: {} }], generationConfig: { temperature: 0.2, maxOutputTokens: 900 } })
       .then(function (j) {
+        try {
         var r = textOf(j), gm = (r.c && r.c.groundingMetadata) || {}, ch = gm.groundingChunks || [], seen = {}, src = [];
         for (var i = 0; i < ch.length; i++) { var w = ch[i].web; if (w && w.uri && !seen[w.uri]) { seen[w.uri] = 1; src.push(w); } }
         if (!r.txt) return show('Dazu habe ich keine verlässliche Quelle gefunden.', []);
         show(r.txt, src, src.length ? '' : '(Hinweis: Gemini hat zu dieser Antwort keine Links mitgeliefert. Bitte mit Vorsicht lesen.)');
+        } catch (ex) { fail(ex); }
       }, function (e) {
+        try {
         if (!askSearchBlocked(e)) return fail(e);
         // Ohne Internetsuche: nur aus den gesammelten Meldungen der App antworten
         var mat = askMaterial(s.symbol);
@@ -877,9 +891,11 @@ function bindAsk(s) {
           (r.txt.match(/\[(\d{1,2})\]/g) || []).forEach(function (x) { var n = +x.replace(/\D/g, ''); if (mat[n - 1] && !used[n]) { used[n] = 1; src.push({ uri: mat[n - 1].uri, title: '[' + n + '] ' + mat[n - 1].src + ', ' + mat[n - 1].d + ': ' + mat[n - 1].t }); } });
           show(r.txt || 'Dazu habe ich in den Meldungen der App nichts gefunden.', src, '(Ohne Internetsuche: Mit dem Gratis-Schlüssel erlaubt Google keine Suche, darum stammt die Antwort nur aus den Meldungen, die die App gesammelt hat.)');
         }, fail);
+        } catch (ex) { fail(ex); }
       })
-      .then(function () { $('askGo').disabled = false; });
-  };
+      .then(null, function (ex) { fail(ex); })
+      .then(function () { busy = false; clearInterval(busyIv); var g = $('askGo'); if (g) g.disabled = false; if ($('askBusy')) render(); });
+  }
   $('askIn').onkeydown = function (e) { if (e.key === 'Enter') { e.preventDefault(); $('askGo').onclick(); } };
   $('askSpeak').onclick = function () {
     var ss = window.speechSynthesis; if (!ss) return;
