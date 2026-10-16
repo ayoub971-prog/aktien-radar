@@ -795,10 +795,20 @@ function askHtml(s) {
     '<p style="margin:8px 0 0"><button id="askGo" class="primary">Fragen</button> <button id="askSpeak" hidden>▶ Vorlesen</button></p><button id="askNew" class="small" hidden>Neues Gespräch</button></p><p class="tiny" id="askHint"></p></div>';
 }
 function askErr(e) {
-  if (e && e.message === 'NOKEY') return 'Für „Fragen“ fehlt der Gemini-Schlüssel. Unten im Reiter „Liste“ bei „Fragen (Gemini)“ einmal eintragen.';
-  if (e && (e.status === 400 || e.status === 401 || e.status === 403)) return 'Der Gemini-Schlüssel ist ungültig oder gesperrt. Bitte im Reiter „Liste“ einen neuen eintragen.';
-  if (e && e.status === 429) return 'Gemini ist im Moment ausgelastet (Gratis-Kontingent). Bitte in ein paar Minuten nochmals.';
-  return 'Die Frage ging nicht durch: ' + ((e && e.message) || 'unbekannter Fehler');
+  var st = e && e.status, m = (e && e.message) || '';
+  if (m === 'NOKEY') return 'Es fehlt der Gemini-Schlüssel auf diesem iPhone. Tippe unten auf „Schlüssel eintragen“ und füge ihn einmal ein.';
+  if (st === 429 || /quota|exhausted|rate/i.test(m)) return 'Gemini-Kontingent erschöpft (Fehler ' + (st || '429') + '). Das Gratis-Kontingent ist für den Moment aufgebraucht. Bitte später nochmals versuchen.';
+  if (st === 400 && /api key|API_KEY/i.test(m) || st === 401 || st === 403 && /key|permission|denied/i.test(m)) return 'Der Gemini-Schlüssel wird abgelehnt (Fehler ' + st + '). Bitte „Schlüssel eintragen“ und einen gültigen Schlüssel einfügen.';
+  if (!st) return 'Keine Verbindung zu Gemini (' + (m || 'Netzwerkfehler') + '). Bitte Internet prüfen und nochmals versuchen.';
+  return 'Gemini meldet Fehler ' + st + ': ' + m.slice(0, 200);
+}
+function askNeedsKeyBtn(e) { var st = e && e.status, m = (e && e.message) || ''; return m === 'NOKEY' || st === 401 || (st === 400 && /api key|API_KEY/i.test(m)) || (st === 403 && /key|permission|denied/i.test(m)); }
+// Gratis-Schlüssel: Google-Suche ist dort laut Google nicht verfügbar -> Fehler. Dann ohne Suche, mit den Meldungen der App.
+function askSearchBlocked(e) { var st = e && e.status, m = (e && e.message) || ''; return st === 429 || /search|ground|tool|billing|quota|limit|paid|not supported|not available/i.test(m) && (st === 400 || st === 403 || st === 429); }
+function askMaterial(sym) {
+  var it = ((N && N.items) || []).filter(function (x) { return x.symbols && x.symbols.indexOf(sym) >= 0; }).slice(0, 40), out = [];
+  for (var i = 0; i < it.length; i++) out.push({ n: i + 1, t: it[i].title_de || it[i].title, src: it[i].source || '', d: (it[i].published || '').slice(0, 10), uri: it[i].link });
+  return out;
 }
 function askGemini(body) {
   var k = askKey(); if (!k) return Promise.reject(new Error('NOKEY'));
@@ -810,6 +820,7 @@ function askGemini(body) {
   }
   return go();
 }
+function askGoKey() { location.hash = '#/liste'; setTimeout(function () { var g = $('gkIn'); if (g) { g.scrollIntoView({ block: 'center' }); g.focus(); } }, 400); }
 function askLinkify(t) { return esc(t).replace(/\*\*([^*]+)\*\*/g, '<b>$1</b>').replace(/\n/g, '<br>'); }
 function bindAsk(s) {
   if (!$('askGo')) return;
@@ -823,10 +834,10 @@ function bindAsk(s) {
       if (m.role === 'user') h += '<div style="margin:10px 0 0 30px;padding:8px 12px;border-radius:14px;background:var(--panel2);text-align:right">' + esc(m.text) + '</div>';
       else {
         h += '<div style="margin:10px 0;line-height:1.5">' + askLinkify(m.text) + '</div>';
-        if (m.src && m.src.length) { h += '<div class="tiny"><b>Quellen:</b>'; for (var k = 0; k < m.src.length && k < 8; k++) h += '<br>' + (k + 1) + '. <a href="' + esc(m.src[k].uri) + '" target="_blank" rel="noopener noreferrer">' + esc(m.src[k].title || m.src[k].uri) + '</a>'; h += '</div>'; }
+        if (m.src && m.src.length) { h += '<div class="tiny"><b>Quellen:</b>'; for (var k = 0; k < m.src.length && k < 8; k++) h += '<br>' + (/^\[/.test(m.src[k].title || '') ? '' : (k + 1) + '. ') + '<a href="' + esc(m.src[k].uri) + '" target="_blank" rel="noopener noreferrer">' + esc(m.src[k].title || m.src[k].uri) + '</a>'; h += '</div>'; }
       }
     }
-    if (hist.length) h += '<p class="tiny">Aus einer Internetsuche mit Gemini. Bitte Quellen prüfen. Keine Anlageberatung.</p>';
+    if (hist.length) h += '<p class="tiny">Antworten von Gemini. Bitte Quellen prüfen. Keine Anlageberatung.</p>';
     $('askOut').innerHTML = h; $('askNew').hidden = !hist.length;
     var la = null; for (i = hist.length - 1; i >= 0; i--) if (hist[i].role === 'model') { la = hist[i]; break; }
     last = la ? la.text : ''; $('askSpeak').hidden = !la;
@@ -835,7 +846,7 @@ function bindAsk(s) {
   $('askNew').onclick = function () { hist.length = 0; render(); $('askIn').focus(); };
   $('askGo').onclick = function () {
     var qq = $('askIn').value.trim(); if (!qq) { $('askHint').textContent = 'Schreib oder sprich zuerst eine Frage.'; return; }
-    if (!askKey()) { $('askHint').textContent = askErr(new Error('NOKEY')); return; }
+    if (!askKey()) { $('askHint').innerHTML = esc(askErr(new Error('NOKEY'))) + '<br><button type="button" id="askKeyBtn" class="small primary" style="margin-top:8px">Schlüssel eintragen</button>'; $('askKeyBtn').onclick = askGoKey; return; }
     hist.push({ role: 'user', text: qq }); $('askIn').value = ''; render();
     $('askHint').textContent = 'Ich suche im Internet …'; $('askGo').disabled = true;
     var today = new Date().toISOString().slice(0, 10);
@@ -844,15 +855,29 @@ function bindAsk(s) {
       'Nenne bei Fakten, wer es wann gesagt hat (mit Datum). Erfinde nichts: nur, was in den gefundenen Quellen steht. Bei Nachfragen wie „Warum?“ oder „Ich will mehr wissen“ beziehe dich auf das bisherige Gespräch. ' +
       'Wenn du nichts Verlässliches findest, schreibe genau: „Dazu habe ich keine verlässliche Quelle gefunden.“ Keine Kauf- oder Verkaufsempfehlung.';
     var contents = hist.slice(-12).map(function (m) { return { role: m.role, parts: [{ text: m.text }] }; });
+    function show(txt, src, note) { hist.push({ role: 'model', text: txt + (note ? '\n\n' + note : ''), src: src }); $('askHint').innerHTML = ''; render(); }
+    function fail(e) { hist.pop(); $('askIn').value = qq; render(); $('askHint').innerHTML = esc(askErr(e)) + (askNeedsKeyBtn(e) ? '<br><button type="button" id="askKeyBtn" class="small primary" style="margin-top:8px">Schlüssel eintragen</button>' : ''); if ($('askKeyBtn')) $('askKeyBtn').onclick = askGoKey; }
+    function textOf(j) { var c = j.candidates && j.candidates[0]; return { c: c, txt: c && c.content && c.content.parts ? c.content.parts.map(function (p) { return p.text || ''; }).join('').trim() : '' }; }
     askGemini({ systemInstruction: { parts: [{ text: sys }] }, contents: contents, tools: [{ google_search: {} }], generationConfig: { temperature: 0.2, maxOutputTokens: 900 } })
       .then(function (j) {
-        var c = j.candidates && j.candidates[0], txt = c && c.content && c.content.parts ? c.content.parts.map(function (p) { return p.text || ''; }).join('').trim() : '';
-        var gm = (c && c.groundingMetadata) || {}, ch = gm.groundingChunks || [], seen = {}, src = [];
+        var r = textOf(j), gm = (r.c && r.c.groundingMetadata) || {}, ch = gm.groundingChunks || [], seen = {}, src = [];
         for (var i = 0; i < ch.length; i++) { var w = ch[i].web; if (w && w.uri && !seen[w.uri]) { seen[w.uri] = 1; src.push(w); } }
-        if (!txt) txt = 'Dazu habe ich keine verlässliche Quelle gefunden.';
-        if (!src.length && !/keine verlässliche Quelle/.test(txt)) txt = 'Dazu habe ich keine verlässliche Quelle gefunden. (Die Suche lieferte keine überprüfbaren Links, darum zeige ich keine Antwort.)';
-        hist.push({ role: 'model', text: txt, src: src }); $('askHint').textContent = ''; render();
-      }, function (e) { hist.pop(); $('askIn').value = qq; render(); $('askHint').textContent = askErr(e); })
+        if (!r.txt) return show('Dazu habe ich keine verlässliche Quelle gefunden.', []);
+        show(r.txt, src, src.length ? '' : '(Hinweis: Gemini hat zu dieser Antwort keine Links mitgeliefert. Bitte mit Vorsicht lesen.)');
+      }, function (e) {
+        if (!askSearchBlocked(e)) return fail(e);
+        // Ohne Internetsuche: nur aus den gesammelten Meldungen der App antworten
+        var mat = askMaterial(s.symbol);
+        if (!mat.length) return fail(e);
+        $('askHint').textContent = 'Internetsuche nicht verfügbar – ich antworte aus den Meldungen der App …';
+        var sys2 = sys.replace(/Suche für jede Antwort mit Google[^.]*\./, '') + ' Du hast KEINE Internetsuche. Nutze NUR die nummerierten MELDUNGEN unten und setze nach jeder Aussage die Nummer in eckigen Klammern, z. B. [3]. Steht die Antwort nicht in den Meldungen, schreibe genau: „Dazu habe ich in den Meldungen der App nichts gefunden.“\n\nMELDUNGEN:\n' +
+          mat.map(function (m) { return '[' + m.n + '] ' + m.d + ' – ' + m.src + ': ' + m.t; }).join('\n');
+        return askGemini({ systemInstruction: { parts: [{ text: sys2 }] }, contents: contents, generationConfig: { temperature: 0.2, maxOutputTokens: 900 } }).then(function (j) {
+          var r = textOf(j), used = {}, src = [];
+          (r.txt.match(/\[(\d{1,2})\]/g) || []).forEach(function (x) { var n = +x.replace(/\D/g, ''); if (mat[n - 1] && !used[n]) { used[n] = 1; src.push({ uri: mat[n - 1].uri, title: '[' + n + '] ' + mat[n - 1].src + ', ' + mat[n - 1].d + ': ' + mat[n - 1].t }); } });
+          show(r.txt || 'Dazu habe ich in den Meldungen der App nichts gefunden.', src, '(Ohne Internetsuche: Mit dem Gratis-Schlüssel erlaubt Google keine Suche, darum stammt die Antwort nur aus den Meldungen, die die App gesammelt hat.)');
+        }, fail);
+      })
       .then(function () { $('askGo').disabled = false; });
   };
   $('askIn').onkeydown = function (e) { if (e.key === 'Enter') { e.preventDefault(); $('askGo').onclick(); } };
