@@ -30,30 +30,30 @@
   },
   "AVGO": {
    "file": "AVGO.mp3",
-   "hash": "87f1508d3acbefcc",
-   "id": "19539b8b26",
+   "hash": "02d70408c31a1904",
+   "id": "e247fc80f8",
    "voice": "Kore",
    "model": "gemini-2.5-flash-preview-tts",
-   "dur": 57.0,
-   "at": "2026-10-16T08:38:57Z"
+   "dur": 71.0,
+   "at": "2026-10-17T07:47:54Z"
   },
   "ASML": {
    "file": "ASML.mp3",
-   "hash": "f7cd27be3c59f9c9",
-   "id": "b591026172",
+   "hash": "c23fcfaca466caca",
+   "id": "f1c2afcb1f",
    "voice": "Kore",
    "model": "gemini-2.5-flash-preview-tts",
-   "dur": 80.8,
-   "at": "2026-10-16T08:40:18Z"
+   "dur": 94.4,
+   "at": "2026-10-17T07:49:06Z"
   },
   "INTC": {
    "file": "INTC.mp3",
-   "hash": "2c76081354c33ca5",
-   "id": "2f2ec436b1",
+   "hash": "702b42cd2b41b59a",
+   "id": "2ddd41c630",
    "voice": "Kore",
    "model": "gemini-2.5-flash-preview-tts",
-   "dur": 53.4,
-   "at": "2026-10-16T09:59:47Z"
+   "dur": 74.2,
+   "at": "2026-10-17T07:50:00Z"
   },
   "PLTR": {
    "file": "PLTR.mp3",
@@ -93,6 +93,6 @@
   }
  },
  "status": "ok",
- "checked_at": "2026-10-17T07:03:16Z",
+ "checked_at": "2026-10-17T07:50:00Z",
  "quota_until": 1792216259.357397
 }
