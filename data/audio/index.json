@@ -3,12 +3,12 @@
  "stocks": {
   "TSM": {
    "file": "TSM.mp3",
-   "hash": "d1e4dd7caf9d4f07",
-   "id": "ea457f9f7f",
+   "hash": "74d0fb01b8faecf6",
+   "id": "f5fc7bc383",
    "voice": "Kore",
    "model": "gemini-2.5-flash-preview-tts",
-   "dur": 82.8,
-   "at": "2026-10-17T07:01:29Z"
+   "dur": 83.8,
+   "at": "2026-10-17T08:49:42Z"
   },
   "005930.KS": {
    "file": "005930.KS.mp3",
@@ -21,12 +21,12 @@
   },
   "HY9H.MU": {
    "file": "HY9H.MU.mp3",
-   "hash": "d313dab3b311a270",
-   "id": "c91b04b607",
+   "hash": "4c495899c44a9615",
+   "id": "261319aa03",
    "voice": "Kore",
    "model": "gemini-2.5-flash-preview-tts",
-   "dur": 78.7,
-   "at": "2026-10-17T07:03:16Z"
+   "dur": 77.6,
+   "at": "2026-10-17T08:50:37Z"
   },
   "AVGO": {
    "file": "AVGO.mp3",
@@ -57,12 +57,12 @@
   },
   "PLTR": {
    "file": "PLTR.mp3",
-   "hash": "a5eda064c2a53ed2",
-   "id": "94364599ed",
+   "hash": "8657239041a278f3",
+   "id": "0cdbe0d5fe",
    "voice": "Kore",
    "model": "gemini-2.5-flash-preview-tts",
-   "dur": 88.5,
-   "at": "2026-10-16T09:20:08Z"
+   "dur": 111.2,
+   "at": "2026-10-17T08:51:44Z"
   },
   "IBM": {
    "file": "IBM.mp3",
@@ -93,6 +93,6 @@
   }
  },
  "status": "ok",
- "checked_at": "2026-10-17T07:50:00Z",
+ "checked_at": "2026-10-17T08:51:44Z",
  "quota_until": 1792216259.357397
 }
