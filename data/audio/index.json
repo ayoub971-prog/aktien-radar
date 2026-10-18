@@ -57,30 +57,30 @@
   },
   "PLTR": {
    "file": "PLTR.mp3",
-   "hash": "22cf41ede47c0818",
-   "id": "3e24a36ffe",
+   "hash": "60aa32e877520ae5",
+   "id": "ee33e00f62",
    "voice": "Kore",
    "model": "gemini-2.5-flash-preview-tts",
-   "dur": 89.9,
-   "at": "2026-10-18T05:50:01Z"
+   "dur": 76.7,
+   "at": "2026-10-18T10:47:47Z"
   },
   "IBM": {
    "file": "IBM.mp3",
-   "hash": "baa869b0289a3a57",
-   "id": "1b85eeef7f",
+   "hash": "7c3750c385ec9164",
+   "id": "8db91bee46",
    "voice": "Kore",
    "model": "gemini-2.5-flash-preview-tts",
-   "dur": 60.7,
-   "at": "2026-10-16T10:00:40Z"
+   "dur": 77.6,
+   "at": "2026-10-18T10:48:46Z"
   },
   "NOW": {
    "file": "NOW.mp3",
-   "hash": "24e9a70cacf89593",
-   "id": "114db79fde",
+   "hash": "9f485a12525f295b",
+   "id": "fe9d1664a9",
    "voice": "Kore",
    "model": "gemini-2.5-flash-preview-tts",
-   "dur": 78.5,
-   "at": "2026-10-15T10:00:39Z"
+   "dur": 78.0,
+   "at": "2026-10-18T10:49:39Z"
   },
   "META": {
    "file": "META.mp3",
@@ -93,6 +93,6 @@
   }
  },
  "status": "ok",
- "checked_at": "2026-10-18T09:50:40Z",
+ "checked_at": "2026-10-18T10:49:39Z",
  "quota_until": 1792310350.5742526
 }
