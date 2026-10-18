@@ -84,15 +84,33 @@
   },
   "META": {
    "file": "META.mp3",
-   "hash": "943f80ca0469f187",
-   "id": "4c7ba0c33e",
+   "hash": "481cb8cd23774738",
+   "id": "f7f7782781",
    "voice": "Kore",
    "model": "gemini-2.5-flash-preview-tts",
-   "dur": 81.4,
-   "at": "2026-10-15T10:01:42Z"
+   "dur": 62.9,
+   "at": "2026-10-18T11:44:19Z"
+  },
+  "AMZN": {
+   "file": "AMZN.mp3",
+   "hash": "684de764dc99c3c7",
+   "id": "1bab03d7fb",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
+   "dur": 66.6,
+   "at": "2026-10-18T11:45:09Z"
+  },
+  "MRVL": {
+   "file": "MRVL.mp3",
+   "hash": "fce18071a64f612b",
+   "id": "71cfb23128",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
+   "dur": 77.9,
+   "at": "2026-10-18T11:46:03Z"
   }
  },
  "status": "ok",
- "checked_at": "2026-10-18T10:49:39Z",
+ "checked_at": "2026-10-18T11:46:03Z",
  "quota_until": 1792310350.5742526
 }
