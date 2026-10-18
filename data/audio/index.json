@@ -92,7 +92,7 @@
    "at": "2026-10-15T10:01:42Z"
   }
  },
- "status": "ok",
- "checked_at": "2026-10-18T05:50:01Z",
- "quota_until": 1792299059.0489275
+ "status": "quota: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usa",
+ "checked_at": "2026-10-18T06:59:10Z",
+ "quota_until": 1792310350.5742526
 }
