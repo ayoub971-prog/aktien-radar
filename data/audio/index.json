@@ -57,12 +57,12 @@
   },
   "PLTR": {
    "file": "PLTR.mp3",
-   "hash": "60aa32e877520ae5",
-   "id": "ee33e00f62",
+   "hash": "cc5e2f8ae050fa91",
+   "id": "944a935fc0",
    "voice": "Kore",
    "model": "gemini-2.5-flash-preview-tts",
-   "dur": 76.7,
-   "at": "2026-10-18T10:47:47Z"
+   "dur": 64.8,
+   "at": "2026-10-19T04:50:05Z"
   },
   "IBM": {
    "file": "IBM.mp3",
@@ -110,7 +110,7 @@
    "at": "2026-10-18T11:46:03Z"
   }
  },
- "status": "ok",
- "checked_at": "2026-10-19T03:53:54Z",
- "quota_until": 1792381677.7864327
+ "status": "quota: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usa",
+ "checked_at": "2026-10-19T04:50:30Z",
+ "quota_until": 1792389030.6824567
 }
