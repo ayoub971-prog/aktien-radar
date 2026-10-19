@@ -3,30 +3,30 @@
  "stocks": {
   "TSM": {
    "file": "TSM.mp3",
-   "hash": "9eaa3bd1f7010c3c",
-   "id": "e98ad1685c",
+   "hash": "28545b0080dd3924",
+   "id": "51a454b3e6",
    "voice": "Kore",
    "model": "gemini-2.5-flash-preview-tts",
-   "dur": 66.7,
-   "at": "2026-10-19T15:58:17Z"
+   "dur": 49.7,
+   "at": "2026-10-19T18:40:55Z"
   },
   "005930.KS": {
    "file": "005930.KS.mp3",
-   "hash": "733afaed0b604f69",
-   "id": "4e77dd2fa3",
+   "hash": "1c7aae0b979165a9",
+   "id": "8cb8f25ae0",
    "voice": "Kore",
    "model": "gemini-2.5-flash-preview-tts",
-   "dur": 98.9,
-   "at": "2026-10-19T12:19:43Z"
+   "dur": 96.6,
+   "at": "2026-10-19T18:42:06Z"
   },
   "HY9H.MU": {
    "file": "HY9H.MU.mp3",
-   "hash": "e23704650cc8a1bb",
-   "id": "23834e25a9",
+   "hash": "6925c046c900d06b",
+   "id": "e5617ef305",
    "voice": "Kore",
    "model": "gemini-2.5-flash-preview-tts",
-   "dur": 81.9,
-   "at": "2026-10-19T09:11:06Z"
+   "dur": 104.6,
+   "at": "2026-10-19T18:43:14Z"
   },
   "AVGO": {
    "file": "AVGO.mp3",
@@ -110,7 +110,7 @@
    "at": "2026-10-18T11:46:03Z"
   }
  },
- "status": "quota: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usa",
- "checked_at": "2026-10-19T17:15:50Z",
+ "status": "ok",
+ "checked_at": "2026-10-19T18:43:14Z",
  "quota_until": 1792433750.2932682
 }
