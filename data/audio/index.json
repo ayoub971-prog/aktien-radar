@@ -39,21 +39,21 @@
   },
   "ASML": {
    "file": "ASML.mp3",
-   "hash": "ea47568b0a73cbfe",
-   "id": "5f6f930455",
+   "hash": "83fdcbe4c02e7687",
+   "id": "4449a95728",
    "voice": "Kore",
    "model": "gemini-2.5-flash-preview-tts",
-   "dur": 76.7,
-   "at": "2026-10-20T08:40:39Z"
+   "dur": 89.1,
+   "at": "2026-10-20T22:34:09Z"
   },
   "INTC": {
    "file": "INTC.mp3",
-   "hash": "31e2e4aeecf6cfcd",
-   "id": "bfb6ebdaf3",
+   "hash": "0f9fa86e25b3c0b7",
+   "id": "880f2f4487",
    "voice": "Kore",
    "model": "gemini-2.5-flash-preview-tts",
-   "dur": 85.9,
-   "at": "2026-10-20T10:01:04Z"
+   "dur": 88.4,
+   "at": "2026-10-20T22:35:12Z"
   },
   "PLTR": {
    "file": "PLTR.mp3",
@@ -110,7 +110,7 @@
    "at": "2026-10-18T11:46:03Z"
   }
  },
- "status": "ok",
- "checked_at": "2026-10-20T22:00:36Z",
- "quota_until": 1792532128.2547188
+ "status": "quota: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usa",
+ "checked_at": "2026-10-20T22:35:37Z",
+ "quota_until": 1792539337.9980247
 }
