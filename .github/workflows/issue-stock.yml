@@ -1,0 +1,50 @@
+name: Aktie per Issue (add/remove)
+on:
+  issues:
+    types: [opened, reopened]
+permissions:
+  contents: write
+  issues: write
+  actions: write
+concurrency:
+  group: aktien-radar-daten
+  cancel-in-progress: false
+jobs:
+  apply:
+    # NUR Issues von ayoub971-prog mit Titel "add: ..." oder "remove: ..."; alle anderen werden ignoriert
+    if: github.event.issue.user.login == 'ayoub971-prog' && (startsWith(github.event.issue.title, 'add:') || startsWith(github.event.issue.title, 'remove:'))
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Aktie suchen und Liste aendern
+        env:
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+        run: python scripts/issue_stock.py
+      - name: Committen
+        run: |
+          git config user.name "aktien-radar-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add watchlist.json data/added.json
+          if git diff --cached --quiet; then echo "keine Aenderung"; exit 0; fi
+          git commit -m "Liste per Issue #${{ github.event.issue.number }}"
+          git pull --rebase -q
+          git push
+      - name: Daten und Podcast neu holen
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ "$(cat /tmp/changed 2>/dev/null)" = "1" ]; then gh workflow run update.yml -R "$GITHUB_REPOSITORY" -f ai_max_calls=6; fi
+      - name: Antwort und schliessen
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          N: ${{ github.event.issue.number }}
+        run: |
+          [ -f /tmp/summary.md ] || echo "❌ Es ist ein Fehler aufgetreten. Bitte später nochmals versuchen." > /tmp/summary.md
+          gh issue comment "$N" -R "$GITHUB_REPOSITORY" --body-file /tmp/summary.md
+          if [ "$(cat /tmp/state 2>/dev/null)" = "ok" ]; then gh issue close "$N" -R "$GITHUB_REPOSITORY" -r completed; else gh issue close "$N" -R "$GITHUB_REPOSITORY" -r "not planned"; fi

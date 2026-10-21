@@ -93,7 +93,7 @@ function loadData() {
     function () { if (!AI) { try { AI = JSON.parse(localStorage.getItem('ar.cache.ai') || 'null'); } catch (e) {} } });
   jobs.push(aj.then(function () {}, function () {}));
   // Per Kurzbefehl hinzugefügte Aktien automatisch einblenden (auch wenn früher entfernt)
-  jobs.push(getJSON('data/added.json').then(function (d) {
+  jobs.push(getJSON('data/added.json').then(function (d) { ADDED = d;
     var it = (d && d.items) || [], last = S.addSeen || 0, mx = last, ch = false;
     for (var i = 0; i < it.length; i++) {
       if (!(it[i].at > last)) continue; mx = Math.max(mx, it[i].at);
@@ -216,7 +216,7 @@ function statusLine() {
 }
 
 function viewHome() {
-  var list = stockList(), h = podHtml();
+  var list = stockList(), h = podHtml() + pendHtml();
   h += '<div class="bar"><select id="sortSel" aria-label="Sortierung">' +
     '<option value="eigene">Eigene Reihenfolge</option><option value="az">Name A-Z</option><option value="sektor">Nach Sektor</option><option value="tag">Tagesveränderung</option></select>' +
     '<button id="reloadBtn" class="small">Aktualisieren</button></div>';
@@ -659,7 +659,7 @@ function sectorOptions(sel) {
   return o;
 }
 function viewList() {
-  var h = '<h2 style="margin-top:6px">Aktie hinzufügen</h2><p class="tiny">Suche nach Name oder Kürzel (Auswahl aus ca. 500 US-Aktien plus deine Liste). Andere Börsen: Kürzel direkt eingeben, z. B. NESN.SW.</p>';
+  var h = ghAddHtml() + '<h2 style="margin-top:6px">Nur auf diesem Gerät hinzufügen</h2><p class="tiny">Suche nach Name oder Kürzel (Auswahl aus ca. 500 US-Aktien plus deine Liste). Andere Börsen: Kürzel direkt eingeben, z. B. NESN.SW.</p>';
   h += '<input type="search" id="aq" placeholder="z. B. Nvidia oder NVDA" autocomplete="off" autocapitalize="none"><div id="ares"></div>';
   if (addMsg) h += '<div class="banner" style="border-color:#2e6b44;background:#13261a;color:#9be3b3">' + esc(addMsg) + '</div>';
   var list = orderedList();
@@ -668,7 +668,7 @@ function viewList() {
     var s = list[i];
     h += '<div class="res" style="align-items:flex-start"><div style="min-width:0"><b>' + esc(s.symbol) + '</b><span>' + esc(s.name) + (quoteOf(s.symbol) ? '' : ' - noch ohne Daten') + '</span>' +
       '<select data-sec="' + esc(s.symbol) + '" style="margin-top:6px;padding:6px 8px;font-size:14px">' + sectorOptions(s.sector) + '</select></div>' +
-      '<div style="display:flex;gap:6px;align-items:center"><button class="small" data-mv="up" data-s="' + esc(s.symbol) + '" aria-label="Nach oben">' + MV_UP + '</button><button class="small" data-mv="down" data-s="' + esc(s.symbol) + '" aria-label="Nach unten">' + MV_DN + '</button><button class="small danger" data-del="' + esc(s.symbol) + '">Entfernen</button></div></div>';
+      '<div style="display:flex;gap:6px;align-items:center"><button class="small" data-mv="up" data-s="' + esc(s.symbol) + '" aria-label="Nach oben">' + MV_UP + '</button><button class="small" data-mv="down" data-s="' + esc(s.symbol) + '" aria-label="Nach unten">' + MV_DN + '</button><button class="small danger" data-del="' + esc(s.symbol) + '">🗑 Entfernen</button></div></div>';
   }
   var pend = pendingList();
   h += '<h2>Daten anfordern</h2><div class="card">';
@@ -681,6 +681,7 @@ function viewList() {
   h += '<h2>Fragen (Gemini)</h2><div class="card"><p class="tiny" style="margin-top:0">' + (askKey() ? 'Ein Gemini-Schlüssel ist auf diesem Gerät gespeichert' + (askKeySrc() === 'lehrerin' ? ' (von der Lehrerin übernommen)' : '') + '. Er bleibt nur auf diesem Gerät.' : 'Für „Fragen“ braucht es einmalig deinen Gemini-Schlüssel. Er wird nur auf diesem Gerät gespeichert, nie im Code oder im Internet.') + '</p><input type="password" id="gkIn" placeholder="Gemini-Schlüssel einfügen" autocomplete="off" autocapitalize="none" spellcheck="false"><p style="margin:8px 0 0"><button id="gkSave" class="primary small">Speichern</button> ' + (lsGet('ar.gkey') ? '<button id="gkDel" class="small danger">Schlüssel löschen</button>' : '') + '</p><p class="tiny" id="gkMsg"></p></div>';
   h += '<h2>Anzeige</h2><p><button id="resetBtn" class="danger">Standardliste wiederherstellen</button></p><p class="tiny">Setzt entfernte Aktien, eigene Reihenfolge und eigene Sektoren zurück und löscht lokal hinzugefügte Aktien.</p>';
   $('view').innerHTML = h;
+  bindGhAdd();
   var aq = $('aq');
   function showRes() {
     var r = searchStocks(aq.value), o = '';
@@ -729,7 +730,9 @@ document.addEventListener('click', function (e) {
   var sym = b.getAttribute('data-s') || b.getAttribute('data-del');
   if (b.getAttribute('data-mv')) { e.preventDefault(); e.stopPropagation(); move(sym, b.getAttribute('data-mv')); route(); }
   else if (b.getAttribute('data-del')) {
-    if (!confirm(sym + ' aus der Liste entfernen?')) return;
+    var inDef = ((DEF && DEF.stocks) || []).some(function (x) { return x.symbol === sym; });
+    if (!confirm(inDef ? sym + ' dauerhaft entfernen?\n\nDanach öffnet sich GitHub: dort nur auf den grünen Knopf tippen.' : sym + ' aus der Liste entfernen?')) return;
+    if (inDef) { pendAdd('remove', sym); window.open(ghIssueUrl('remove: ' + sym), '_blank'); }
     var ci = -1; for (var i = 0; i < S.custom.length; i++) if (S.custom[i].symbol === sym) ci = i;
     if (ci >= 0) S.custom.splice(ci, 1); else if (S.hidden.indexOf(sym) < 0) S.hidden.push(sym);
     S.order = S.order.filter(function (x) { return x !== sym; });
@@ -1199,4 +1202,46 @@ function extraParts(sym, a) {
   return p;
 }
 function fxNote() { var f = Q && Q.fx; return f && f.date ? 'Alle Beträge in USD umgerechnet, Kurs vom ' + fmtYmd(f.date) + ' (EZB)' : ''; }
+/* ===== Aktie dauerhaft hinzufügen/entfernen per GitHub-Issue (kein Token nötig) ===== */
+function ghIssueUrl(title) {
+  return 'https://github.com/' + REPO + '/issues/new?labels=aktie&title=' + encodeURIComponent(title) +
+    '&body=' + encodeURIComponent('Wird automatisch verarbeitet. Einfach unten auf den grünen Knopf „Create“ bzw. „Submit new issue“ tippen. Die Antwort kommt hier als Kommentar.');
+}
+function pendGet() { try { return JSON.parse(lsGet('ar.pend') || '[]'); } catch (e) { return []; } }
+function pendSet(l) { lsSet('ar.pend', JSON.stringify(l)); }
+function pendAdd(op, q) { var l = pendGet().filter(function (p) { return !(p.op === op && p.q.toLowerCase() === q.toLowerCase()); }); l.push({ op: op, q: q, at: Date.now() }); pendSet(l); }
+var ADDED = null;
+function pendCheck() {
+  var l = pendGet(), now = Date.now(), defs = (DEF && DEF.stocks) || [], it = (ADDED && ADDED.items) || [];
+  l = l.filter(function (p) {
+    if (now - p.at > 6 * 3600e3) return false;
+    var ql = p.q.toLowerCase().replace(/[^a-z0-9]/g, '');
+    if (p.op === 'add') return !it.some(function (x) { return x.at * 1000 > p.at - 60e3 && (x.symbol.toLowerCase().replace(/[^a-z0-9]/g, '') === ql || x.name.toLowerCase().replace(/[^a-z0-9]/g, '').indexOf(ql) >= 0); });
+    return defs.some(function (s) { return s.symbol.toUpperCase() === p.q.toUpperCase(); });
+  });
+  pendSet(l); return l;
+}
+function pendHtml() {
+  var l = pendCheck(); if (!l.length) return '';
+  return l.map(function (p) {
+    var late = Date.now() - p.at > 20 * 60e3;
+    return '<div class="banner pend">' + (p.op === 'add' ? '⏳ <b>' + esc(p.q) + '</b> wird hinzugefügt … dauert ca. 5–10 Min.' : '⏳ <b>' + esc(p.q) + '</b> wird entfernt … dauert ca. 5 Min.') +
+      (late ? ' Dauert länger als üblich – <a href="https://github.com/' + REPO + '/issues?q=is%3Aissue" target="_blank" rel="noopener">Antwort auf GitHub ansehen</a>.' : '') + '</div>';
+  }).join('');
+}
+function ghAddHtml() {
+  return '<div class="card ghAdd"><h3 style="margin-top:0">➕ Aktie hinzufügen</h3><p class="tiny" style="margin-top:0">Gilt dauerhaft für alle Geräte. Danach öffnet sich GitHub: dort nur auf den grünen Knopf tippen.</p>' +
+    '<input type="text" id="ghq" placeholder="Name oder Kürzel, z. B. Apple" autocomplete="off" autocapitalize="words">' +
+    '<button type="button" id="ghAdd" class="podBtn" style="margin-top:8px">➕ Aktie hinzufügen</button>' + pendHtml() + '</div>';
+}
+function bindGhAdd() {
+  if (!$('ghAdd')) return;
+  $('ghAdd').onclick = function () {
+    var q = $('ghq').value.replace(/\s+/g, ' ').trim();
+    if (!q) { $('ghq').focus(); return; }
+    if (!/^[A-Za-z0-9ÄÖÜäöüéèàç^.=&' \-]{1,40}$/.test(q)) { alert('Bitte nur Name oder Kürzel (ohne Sonderzeichen).'); return; }
+    pendAdd('add', q); window.open(ghIssueUrl('add: ' + q), '_blank'); route();
+  };
+  $('ghq').onkeydown = function (e) { if (e.key === 'Enter') $('ghAdd').onclick(); };
+}
 })();

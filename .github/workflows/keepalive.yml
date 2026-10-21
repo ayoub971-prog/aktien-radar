@@ -1,0 +1,16 @@
+name: Keepalive (Zeitplan aktiv halten)
+# GitHub schaltet geplante Workflows nach 60 Tagen ohne Aktivitaet ab. Dieser Lauf schaltet sie monatlich wieder ein.
+on:
+  schedule:
+    - cron: '23 4 1,15 * *'
+  workflow_dispatch:
+permissions:
+  actions: write
+jobs:
+  keep:
+    runs-on: ubuntu-latest
+    steps:
+      - env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          for w in update.yml keepalive.yml; do gh api -X PUT "repos/$GITHUB_REPOSITORY/actions/workflows/$w/enable" && echo "$w aktiv"; done

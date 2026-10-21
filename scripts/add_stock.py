@@ -74,4 +74,5 @@ def main():
     with open(ap, "w", encoding="utf-8") as f: json.dump(ad, f, ensure_ascii=False, indent=1); f.write("\n")
     out("%s (%s): %s, Kurs %s %s" % (sym, name, "hinzugefügt" if changed else "schon in der Liste", meta.get("regularMarketPrice"), meta.get("currency")), True)
 
-main()
+if __name__ == "__main__":
+    main()
