@@ -13,7 +13,8 @@ def role(rel):
     t = _t(rel, "officerTitle"); r = []
     tl = t.lower()
     if re.fullmatch(r"(president,? (and|&) )?(chief executive officer|ceo)(,? (and|&) president)?", tl): r.append("Chef (CEO)")
-    elif re.fullmatch(r"(chief financial officer|cfo)(.{0,30})?", tl) and "chief financial" in tl or tl == "cfo": r.append("Finanzchef (CFO)")
+    elif re.fullmatch(r"chairman,? (and|&) (ceo|chief executive officer)", tl): r.append("Präsident und Chef (CEO)")
+    elif re.search(r"chief financial officer", tl) or tl == "cfo": r.append("Finanzchef (CFO)")
     elif t and tl not in ("see remarks", "see remarks below"): r.append(t)
     elif _t(rel, "isOfficer") in ("1", "true"): r.append("Manager")
     if _t(rel, "isDirector") in ("1", "true"): r.append("Verwaltungsrat")
