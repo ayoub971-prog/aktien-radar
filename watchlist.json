@@ -261,6 +261,13 @@
       "sector": "Konsum/Internet",
       "q_de": "BYD Aktie",
       "q_en": "BYD Company stock"
+    },
+    {
+      "symbol": "BNTX",
+      "name": "BioNTech SE",
+      "sector": "Gesundheit",
+      "q_de": "BioNTech SE Aktie",
+      "q_en": "BioNTech SE stock"
     }
   ],
   "market_topics": [
