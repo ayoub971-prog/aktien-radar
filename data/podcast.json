@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-21T10:07:10Z",
- "intro": "Willkommen beim Aktien-Radar, deinem Überblick über die neuesten Meldungen. Heute geht es um 34 Aktien aus deiner Liste. Alles stammt aus den gesammelten Meldungen und Analystendaten, nichts ist erfunden. Keine Anlageberatung.",
+ "generated_at": "2026-10-21T10:28:18Z",
+ "intro": "Willkommen beim Aktien-Radar, deinem Überblick über die neuesten Meldungen. Heute geht es um 35 Aktien aus deiner Liste. Alles stammt aus den gesammelten Meldungen und Analystendaten, nichts ist erfunden. Keine Anlageberatung.",
  "outro": "Das war der Aktien-Radar-Überblick. Die Quellen und Details findest du in der App bei jeder Aktie. Keine Anlageberatung.",
  "segments": [
   {
@@ -84,39 +84,39 @@
   {
    "symbol": "INTC",
    "name": "Intel",
-   "text": "Intel: In den vorliegenden Meldungen zeigen sich unterschiedliche Dynamiken rund um den Halbleiterkonzern. Laut Barron's, einem US-Finanzmagazin, erholte sich die Aktie zuletzt, nachdem die Chipbranche eine historische Verluststrähne durchlaufen hatte. Marketscreener.com, ein Finanzportal, berichtet zudem, dass die Papiere von positiven Analystenimpulsen profitierten. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden, allerdings verweist Investing.com darauf, dass die Aktie in einem steilen Abwärtstrend steht und bei einem Kurs von rund 93 Dollar als überverkauft gilt. Bei den Analystenbewertungen zeigt sich ein gemischtes Bild. So hat JPMorgan laut Yahoo Finance die Aktie von Untergewichten auf Neutral hochgestuft und ein Kursziel von 85 Dollar bestätigt, während TD Cowen das Kursziel auf 95 Dollar senkte und die Einstufung auf Halten beliess. Mizuho erhöhte das Kursziel zuvor auf 114 Dollar. Im operativen Geschäft gibt es laut Yahoo Finance Berichte darüber, dass Tesla aus einer Foundry-Vereinbarung ausgestiegen ist und der chinesische Konkurrent CXMT Fortschritte verzeichnet. Auf der anderen Seite ist das Unternehmen laut Barron's im Bereich industrieller Halbleiter positioniert. Zurück zu Intel: Wichtige Kennzahlen zeigen ein durchschnittliches Kursziel der Analysten von rund 117 Dollar bei einem prognostizierten Aufwärtspotenzial von rund 28 Prozent. Zu Insider-Käufen oder -Verkäufen liegen offizielle SEC-Meldungen vor, wobei Verkäufe von Insidern oft aus steuerlichen Gründen oder im Rahmen langfristiger Pläne stattfinden und nicht zwingend auf mangelndes Vertrauen hindeuten müssen. Aussagen von Führungskräften wurden in den aktuellen Berichten nicht direkt angeführt. Schliesslich bestehen Widersprüche zwischen den Meldungen, da einerseits von Fortschritten und Kursimporden die Rede ist, andererseits aber der Ausstieg von Partnern wie Tesla und Sorgen um den Wettbewerb im Chipsektor im Raum stehen. Keine Anlageberatung.",
-   "id": "9db640a9cf",
-   "generated_at": "2026-10-21T08:38:28Z",
+   "text": "Intel: Ein Überblick über die aktuellen Entwicklungen der Aktie zeigt gemäss MarketWatch, dass ein ehemaliger Skeptiker seine negative Einschätzung nach vier Jahren aufgibt. Laut Barron's gab es Kursbewegungen und Hochstufungen, während Yahoo Finance berichtet, dass Analysten wie JPMorgan die Aktie nach starker Managementführung höher bewerten. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden, allerdings wird von Barron's ein Marktwertverlust von 78 Milliarden Dollar erwähnt sowie von Yahoo Finance ein Wochenrückgang von 14 Prozent, der Ausstieg von Tesla aus einer Foundry-Vereinbarung und die Konkurrenz durch Nvidia im CPU-Geschäft. Analysten zeigen sich unterschiedlich gestimmt: TD Cowen bestätigt die Einstufung Halten und senkt das Kursziel auf 95 Dollar, JP Morgan stuft die Aktie von Untergewichten auf Neutral hoch mit einem bestätigten Kursziel von 85 Dollar, Mizuho bestätigt Neutral und erhöht das Kursziel auf 114 Dollar, Tigress Financial bestätigt Kaufen mit einem auf 145 Dollar erhöhten Kursziel und Piper Sandler nimmt die Aktie neu mit Neutral und einem Kursziel von 110 Dollar auf. Im Konsens gibt es laut Yahoo Finance 15 Kaufen-, 33 Halten-, 1 Stark Kaufen- und 1 Verkaufen-Empfehlung, bei einem durchschnittlichen Kursziel von 117 Dollar und einem Aufwärtspotenzial von 28 Prozent. Zurück zu Intel: Operativ ist die Firma laut Yahoo Finance in Zukunftsmärkten wie photonischen integrierten Schaltkreisen und industriellen Halbleitern positioniert, muss sich aber laut Berichten vor chinesischen Rivalen wie CXMT in Acht nehmen. Wichtige Kennzahlen sind das durchschnittliche Kursziel von 117 Dollar sowie das Kurspotenzial von 28 Prozent, was die Erwartungen der Analysten widerspiegelt. Bei den Insidern zeigt die SEC-Meldung, dass Lip Bu Tan als Chef und Verwaltungsrat 105263 Aktien im Wert von rund 10 Millionen Dollar kaufte; solche Insiderkäufe gelten oft als Vertrauensbeweis, während Verkäufe oft steuerlich oder langfristig geplant sind. Widersprüche zeigen sich bei finanzen.ch, wo einmal ein Kursplus am Abend gemeldet wird, während an anderer Stelle ein Fall am Nachmittag berichtet wird. Keine Anlageberatung.",
+   "id": "9e86531c75",
+   "generated_at": "2026-10-21T10:24:11Z",
    "audio": {
     "file": "INTC.mp3",
-    "hash": "ef98aa83857235b5",
-    "dur": 114.8,
-    "engine": "gemini"
+    "hash": "21b8d824c38991e5",
+    "dur": 163.9,
+    "engine": "edge"
    }
   },
   {
    "symbol": "MSFT",
    "name": "Microsoft",
-   "text": "Microsoft: In den vorliegenden Meldungen gibt es verschiedene Neuigkeiten zum Technologiekonzern. Laut Yahoo Finance, einem Finanzportal, das Meldungen und Analystenbewertungen bündelt, zieht sich Microsoft aus einem britischen Projekt für künstliche Intelligenz in Rechenzentren zurück, hält aber an einer Investition von 30 Milliarden US-Dollar in Grossbritannien fest. Investor's Business Daily, eine US-Börsenzeitung, berichtet, dass Boeing und Microsoft eine neue Plattform für künstliche Intelligenz in Flugzeugen vorstellen. Zudem meldet Yahoo Finance, dass Microsoft und Google stillgelegte Kernreaktoren für künstliche Intelligenz wieder in Betrieb nehmen. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Analysten haben ihre Bewertungen und Kursziele angepasst. Laut Yahoo Finance hat BMO Capital das Kursziel auf 600 Dollar erhöht und dies mit dem Wachstum des Cloud-Bereichs Azure begründet. Auch Bernstein, StoneX, die UBS, Citigroup und Mizuho haben ihre Kursziele angehoben. Zurück zu Microsoft: Die Firma macht auch abseits davon Schlagzeilen. Aufwertend wirkt laut Microsoft Source, einer Mitteilung der Firma selbst, die Zusammenarbeit mit Saint-Gobain sowie die Nutzung von Azure und künstlicher Intelligenz durch Birlasoft. Abwertend wirkt dagegen der bereits erwähnte Rückzug aus dem britischen Rechenzentrumsprojekt, wie Yahoo Finance meldet. Zu den wichtigen Kennzahlen gehört das durchschnittliche Kursziel von rund 600 Dollar laut Yahoo Finance, was ein potenzielles Kursplus von rund 13 Prozent signalisiert. Zu Insider-Käufen und -Verkäufen nennen die offiziellen Pflichtmeldungen bei der US-Börsenaufsicht SEC geplante Verkäufe der Finanzchefin Amy Hood im Wert von rund 4 Millionen Dollar sowie rund 21 Millionen Dollar. Solche Verkäufe basieren oft auf im Voraus festgelegten Plänen und sagen daher meist weniger aus als Käufe. Aussagen von Chefs liegen in den aktuellen Meldungen nicht vor. Schliesslich gibt es Widersprüche bezüglich Grossbritannien, da Yahoo Finance einerseits den Rückzug aus einem Rechenzentrum meldet, andererseits aber von fortgeführten Milliardeninvestitionen im Land berichtet. Keine Anlageberatung.",
-   "id": "60f4ebe3ce",
-   "generated_at": "2026-10-21T08:38:28Z",
+   "text": "Microsoft: Laut Microsoft Source arbeitet das Unternehmen im Bereich der Künstlichen Intelligenz mit dem britischen Gesundheitsdienst NHS zusammen und kooperiert mit Partnern wie Birlasoft. Gleichzeitig meldet Yahoo Finance, dass Microsoft sich aus einem britischen Rechenzentrumsprojekt zurückzieht, aber an anderen Investitionen in Grossbritannien festhält. Zudem haben Analysten wie BMO Capital ihre Kursziele für die Aktie nach oben angepasst. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden, allerdings verzeichnete die Aktie laut finan.ch Kursverluste und Morgan Stanley sieht neue Hürden. BMO Capital bestätigt die Einschätzung Besser als Markt und erhöht das Kursziel auf 600 Dollar, begründet dies mit dem Azure-Wachstum. Bernstein sieht das Kursziel bei 662 Dollar, StoneX bei 600 Dollar, die UBS bei 675 Dollar, die Citigroup bei 636 Dollar und Mizuho bei 600 Dollar. Was die Aktivitäten von Microsoft angeht, so wertet es positiv, dass das Unternehmen gemeinsam mit Boeing eine KI-Flugzeugplattform entwickelt und stillgelegte Kernreaktoren für KI reaktiviert. Auf der anderen Seite werten Beobachter die Einstellung des Nscale-Projekts und den Rückzug vom britischen Rechenzentrumsprojekt als abwertend. Zu den wichtigen Kennzahlen gehört das durchschnittliche Kursziel der Analysten von rund 600 Dollar. Bei den Insider-Geschäften zeigen Unterlagen der Börsenaufsicht, dass Finanzchefin Amy Hood im September und Oktober Aktien im Wert von rund 4 Millionen beziehungsweise rund 21 Millionen Dollar im Rahmen eines vorab festgelegten Plans verkauft hat. Solche Insider-Verkäufe sind oft planmässig und sagen weniger aus als Käufe, da sie häufig steuerlich motiviert sind. Zurück zu Microsoft: Aussagen von Vorstandschefs liegen in den aktuellen Berichten nicht vor. Zu Widersprüchen kommt es bei den Grossbritannien-Plänen, da einerseits ein Rückzug aus einem Rechenzentrum gemeldet wird, andererseits aber an einer grossen Gesamtinvestition festgehalten werden soll. Keine Anlageberatung.",
+   "id": "feb99f9f75",
+   "generated_at": "2026-10-21T10:24:11Z",
    "audio": {
     "file": "MSFT.mp3",
-    "hash": "ae6aa1810debca37",
-    "dur": 158.8,
+    "hash": "e44285f1c98fe378",
+    "dur": 150.6,
     "engine": "edge"
    }
   },
   {
    "symbol": "PLTR",
    "name": "Palantir",
-   "text": "Palantir: Die Software-Aktie steht derzeit in den Berichten verschiedener Finanzportale im Fokus. Laut Investor's Business Daily, einer US-Börsenzeitung, gehört das Unternehmen zu den KI-Software-Schrittmachern und führt Bestenlisten an. Finanzen.net, ein deutsches Finanzportal, meldet zudem, dass Cathie Woods Fonds ARK Aktien verkauft und umgeschichtet hat. Ausserdem berichtet Yahoo Finance, dass Palantir eine Knox-Partnerschaft unterzeichnet hat. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Bei den Analystenbewertungen zeigt sich ein gemischtes Bild. Die US-Plattform Seeking Alpha weist darauf hin, dass die Wall Street schrumpfende Margen erwartet, während ein Beobachter das Gegenteil sieht. Von der US-Plattform mit Anlegerbeiträgen wird ausserdem ein Wechsel von bullisch auf neutral gemeldet. Die Schweizer Grossbank UBS hat die Einstufung auf Kaufen belassen und das Kursziel auf 250 Dollar erhöht. Mizuho bestätigt die Einschätzung als besser als den Markt und nennt ein Kursziel von 245 Dollar. Barclays nahm die Beobachtung neu mit Übergewichten und einem Kursziel von 265 Dollar auf. Goldman Sachs stufte die Aktie auf Kaufen mit einem Kursziel von 230 Dollar hoch. Rosenblatt bestätigte Kaufen bei 225 Dollar, und DA Davidson erhöhte das Kursziel auf 250 Dollar bei unveränderter Kaufempfehlung. Zurück zu Palantir: Das Unternehmen ist im Bereich Künstliche Intelligenz aktiv und hat kürzlich eine Partnerschaft im Knox-Bereich besiegelt, während ETFs laut Yahoo Finance als Nettoverkäufer auftraten. Zu den Kennzahlen: Das durchschnittliche Kursziel liegt bei rund 206 Dollar, mit einem Höchstwert von 265 Dollar und einem Tiefstwert von 80 Dollar, was ein Kurspotenzial von rund 7 Prozent ergibt. Bezüglich Insider-Aktivitäten zeigen offizielle SEC-Meldungen mehrere geplante Verkäufe von Verwaltungsräten und Managern, wie etwa von Alexander D. Moore im Wert von rund 3,2 Millionen Dollar oder Ryan D. Taylor im Wert von rund 3,6 Millionen Dollar. Solche Insider-Verkäufe sind oft durch Pläne vorab festgelegt und sagen deshalb meist weniger aus als tatsächliche Käufe. Aussagen von Chefs liegen in den aktuellen Berichten keine vor. Zusammenfassend gibt es neben positiven Partnerschaften auch Umschichtungen von Grossinvestoren und unterschiedliche Analystenstimmen. Keine Anlageberatung.",
-   "id": "1ef58dc471",
-   "generated_at": "2026-10-21T08:38:28Z",
+   "text": "Palantir: In den aktuellen Berichten zeigt sich ein gemischtes Bild für den Software-Konzern. Laut Investor's Business Daily gehört Palantir zu den führenden Akteuren im Bereich der künstlichen Intelligenz und ist in wichtigen Bestenlisten vertreten. Vor den anstehenden Ergebnissen für das dritte Quartal, wie StoneX laut Investing.com UK berichtet, hält die Aktie ihre Position bei einer Einstufung auf Halten. Zu den Risiken und rechtlichen Themen gehört laut Investing.com, dass die HSBC die Aufnahme von Palantir in einen islamischen Fonds nach Bedenken von Investoren überprüft. Zudem hat der ARK-Fonds laut Finanzen.net seine Anteile reduziert und umgeschichtet. Ein Analyst von Seeking Alpha hat seine Einschätzung von bullisch auf neutral gesenkt. In den vorliegenden Meldungen wurden keine weiteren schwerwiegenden rechtlichen Probleme gefunden. Bei den Analystenbewertungen gibt es unterschiedliche Ansichten: Mizuho führt die Aktie mit der Einstufung Besser als Markt und einem Kursziel von 245 US-Dollar, Barclays vergibt die Einstufung Übergewichten mit einem Kursziel von 265 US-Dollar, und Goldman Sachs stufte die Aktie auf Kaufen mit einem Kursziel von 230 US-Dollar hoch. Rosenblatt bestätigte die Kaufempfehlung bei einem Kursziel von 225 US-Dollar, die UBS erhöhte das Kursziel auf 250 US-Dollar bei einer Kaufempfehlung, und DA Davidson bestätigte ebenfalls das Kursziel von 250 US-Dollar. Zurück zu Palantir: Das Unternehmen profitiert von neuen Partnerschaften wie der Knox-Partnerschaft, während auf der abwertenden Seite ETFs als Nettoverkäufer auftraten. Zu den wichtigen Kennzahlen zählt das durchschnittliche Kursziel der Analysten von rund 206 US-Dollar, welches das Analystenmittel abbildet. Bei den Insidern gab es laut MarketScreener Deutschland einen planmässigen Verkauf durch den Verwaltungsrat Alexander D. Moore im Wert von rund 3168000 US-Dollar. Solche Insiderverkäufe sind oft langfristig geplant oder dienen steuerlichen Zwecken und sagen daher weniger über das operative Geschäft aus als Käufe. Aussagen von Chefs liegen in den aktuellen Meldungen nicht vor. Zudem gibt es bei den Erwartungen an die Gewinnmargen einen Widerspruch unter Autoren auf Seeking Alpha, da einige schrumpfende Margen erwarten, während andere das Gegenteil annehmen. Keine Anlageberatung.",
+   "id": "1cbd63530e",
+   "generated_at": "2026-10-21T10:24:11Z",
    "audio": {
     "file": "PLTR.mp3",
-    "hash": "2d253475b64d8e17",
-    "dur": 179.7,
+    "hash": "93a0830a8a21b21d",
+    "dur": 171.3,
     "engine": "edge"
    }
   },
@@ -136,26 +136,26 @@
   {
    "symbol": "OEF",
    "name": "iShares S&P 100 ETF",
-   "text": "iShares S&P 100 ETF: Zum iShares S&P 100 ETF liegen aktuelle Meldungen vor, wie zum Beispiel die Veröffentlichung der Optionskette, über die Yahoo! Finance Canada, ein Finanzportal, welches Meldungen und Analystenbewertungen bündelt, berichtet. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Zu den Analysten-Bewertungen gibt es aktuell keine spezifischen Einträge. Zurück zu iShares S&P 100 ETF: Was die Aktivitäten betrifft, lassen sich den Berichten direkt keine neuen Produkte oder strategischen Projekte entnehmen. Auch wichtige Kennzahlen oder Insider-Käufe und -Verkäufe sowie Aussagen von Chefs wurden in den Quellen nicht genannt. Es liegen derzeit keine widersprüchlichen Berichte verschiedener Medien vor. Keine Anlageberatung.",
-   "id": "5a67b5648c",
-   "generated_at": "2026-10-21T08:38:28Z",
+   "text": "iShares S&P 100 ETF: Laut Finanzen.net, einem deutschen Finanzportal, wurden in einer Meldung Optionen und Marktdaten zum iShares S&P 100 ETF veröffentlicht. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Zurück zu iShares S&P 100 ETF: Es liegen aktuell keine Analystenbewertungen oder nennenswerten Unternehmensmeldungen vor. Keine Anlageberatung.",
+   "id": "4a81704f21",
+   "generated_at": "2026-10-21T10:24:11Z",
    "audio": {
     "file": "OEF.mp3",
-    "hash": "31a41e970ee20c11",
-    "dur": 58.8,
+    "hash": "016bb95b228c5d53",
+    "dur": 33.6,
     "engine": "edge"
    }
   },
   {
    "symbol": "NOW",
    "name": "ServiceNow",
-   "text": "ServiceNow: Die Aktie steht aktuell im Fokus von Analysten und neuen Partnerschaften. Laut einer Mitteilung der Firma selbst warnt eine Forschungsstudie von ServiceNow Sicherheitsverantwortliche vor einer unkontrollierten Gefährdung durch Agenten-KI in Unternehmen. Zudem hat Maybank das Resilient Operations Center mit ServiceNow erweitert, um ein ständiges Banking in Südostasien zu ermöglichen, und Simplify Alpha baut die Partnerschaft für zahlerspezifische Lösungen aus. ServiceNow wurde ausserdem im IDC MarketScape als führender Anbieter für KI-gestütztes IT-Service-Management ausgezeichnet. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden, ausser dass die Aktie laut AOL.com im Laufe eines Jahres um 20 Prozent gefallen ist. Analysten bewerten die Lage überwiegend positiv. Das durchschnittliche Kursziel liegt bei rund 153 US-Dollar, während das höchste Kursziel bei 266 US-Dollar genannt wird. StoneX hat das Kursziel auf 165 US-Dollar erhöht und die Einstufung auf Kaufen belassen, gestützt auf Fortschritte bei KI-Produkten. Piper Sandler bestätigte die Übergewichtung mit einem Kursziel von 175 US-Dollar wegen der starken KI-Nachfrage. Auch Mizuho, TD Cowen, Citigroup und Evercore ISI Group hoben ihre Kursziele an, und Bernstein vergab ein Rekordkursziel von 266 US-Dollar. Zurück zu ServiceNow: Zu den Insidern zeigen die SEC-Daten verschiedene Verkäufe, wie etwa von President Global Customer Ops Paul Fipps im Wert von rund 301'000 Dollar oder von Chief People and AI Enblmt. Off. Jacqueline P Canney im Wert von rund 1,1 Millionen Dollar. Solche Insider-Verkäufe können verschiedene private Gründe haben und sagen oft weniger aus als Käufe. Wichtige Kennzahlen umfassen das durchschnittliche Kursziel von rund 154 US-Dollar und das Rekordkursziel von 266 US-Dollar, welche die optimistischen Erwartungen von Analysten widerspiegeln. Keine Anlageberatung.",
-   "id": "a702b975db",
-   "generated_at": "2026-10-21T08:38:28Z",
+   "text": "ServiceNow: In den vorliegenden Meldungen gibt es einen kurzen Überblick über aktuelle Entwicklungen und Studien. ServiceNow hat eine Forschungsstudie veröffentlicht, die Sicherheitsverantwortliche vor den Risiken einer unkontrollierten Gefährdung durch Agenten-KI innerhalb von Unternehmen warnt. Zudem wurde das Unternehmen im IDC MarketScape als führender Anbieter für KI-gestütztes IT-Service-Management ausgezeichnet. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Zu den Analysten-Bewertungen: Laut Yahoo Finance gibt es zahlreiche positive Stimmen. StoneX bestätigte das Rating auf Kaufen und erhöhte das Kursziel auf 165 Dollar. Piper Sandler bestätigte das Votum Übergewichten mit einem Kursziel von 175 Dollar. Mizuho bekräftigte die Einschätzung Besser als Markt bei einem Kursziel von 170 Dollar. TD Cowen bestätigte die Einstufung auf Kaufen mit einem Kursziel von 165 Dollar. Citigroup bestätigte ebenfalls die Kaufempfehlung mit einem Kursziel von 170 Dollar. Die Evercore ISI Group bestätigte das Votum Besser als Markt und setzte das Kursziel auf 175 Dollar. Diese Anpassungen begründen die Analysten meist mit starken Fortschritten bei KI-Produkten und einer wachsenden Nachfrage nach künstlicher Intelligenz. Zurück zu ServiceNow: Was macht die Firma gerade? Maybank hat die Fähigkeiten ihres Resilient Operations Center mit ServiceNow erweitert, um ein ständig verfügbares Banking in Südostasien zu ermöglichen. Ausserdem hat Simplify Alpha seine Partnerschaft mit ServiceNow ausgebaut, um zahlerspezifische Lösungen zu entwickeln. Wichtige Kennzahlen zur Aktie: Das durchschnittliche Kursziel liegt bei rund 154 Dollar, während das höchste genannte Kursziel bei 266 Dollar und das tiefste bei 72 Dollar liegt. Der Median der Kursziele beträgt rund 159 Dollar, was ein geschätztes Aufwärtspotenzial von 2,8 Prozent ergibt. Zu den Insider-Verkäufen bei ServiceNow: Paul Fipps verkaufte 2034 Aktien im Wert von rund 301000 Dollar. Jacqueline P Canney veräusserte im Rahmen eines geplanten Plans 7847 Aktien im Wert von rund 1083000 Dollar. Paul Edward Chamberlain verkaufte 2700 Aktien im Wert von rund 366000 Dollar sowie im Rahmen eines weiteren Plans 1500 Aktien im Wert von rund 188000 Dollar. Generell gilt bei Insider-Transaktionen, dass Verkäufe oft weniger aussagen als Käufe, da sie beispielsweise durch Steuerzahlungen oder langfristig geplante Verkaufspläne motiviert sein können. Widersprüche wurden in den Meldungen nicht festgestellt. Keine Anlageberatung.",
+   "id": "158c3662ea",
+   "generated_at": "2026-10-21T10:24:11Z",
    "audio": {
     "file": "NOW.mp3",
-    "hash": "1e3bba529f9193c7",
-    "dur": 152.7,
+    "hash": "680587e20347f480",
+    "dur": 205.8,
     "engine": "edge"
    }
   },
@@ -444,12 +444,25 @@
     "dur": 154.1,
     "engine": "edge"
    }
+  },
+  {
+   "symbol": "AAPL",
+   "name": "Apple Inc.",
+   "text": "Apple Inc.: Yahoo Finance berichtet, dass das faltbare Telefon von Apple für 1.999 Dollar in den Handel kommen soll und die Bank of America einen schnelleren Weg zum iPhone Duo gefunden hat. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden, ausser dass die Apple-Aktie herabgestuft wurde und Analysten gegenüber dem iPhone-Hersteller vorsichtig werden. Zu den Analysten-Bewertungen mit Begründung: MoffettNathanson bestätigte das Rating Neutral und senkte das Kursziel auf 283 Dollar. Loop Capital stufte die Aktie auf Halten ab und senkte das Kursziel auf 330 Dollar. JP Morgan bestätigte das Rating Übergewichten und erhöhte das Kursziel auf 360 Dollar. Morgan Stanley bestätigte das Rating Übergewichten und senkte das Kursziel auf 355 Dollar, während ein anderer Bericht das Kursziel bei 360 Dollar bestätigte. Needham bestätigte das Rating Halten. Was die Firma gerade macht: Aufwertend wirkt, dass das faltbare Telefon in den Handel kommt und ein schnellerer Weg zum iPhone Duo gefunden wurde. Abwertend wirkt, dass die Apple-Aktie sinkt und vor einer Realitätsprüfung am 2. November steht. Als wichtige Kennzahl ist das durchschnittliche Kursziel von 328,35 Dollar zu nennen, welches das mittlere Kursziel aller befragten Analysten darstellt. Zu den Insider-Käufen und -Verkäufen: Ben Borders verkaufte 1.280 Aktien im Wert von rund 442.108 Dollar, Kevan Parekh verkaufte 1.392 Aktien im Wert von rund 480.315 Dollar, Jennifer Newstead verkaufte mehrfach Aktien im Wert von rund 796.492 Dollar bis rund 827.655 Dollar, Timothy D Cook verkaufte 191.753 Aktien im Wert von rund 63.845.841 Dollar, Deirdre O'brien verkaufte 46.389 Aktien im Wert von rund 15.466.923 Dollar und John Ternus verkaufte 25.412 Aktien im Wert von rund 8.460.740 Dollar. Solche Insider-Verkäufe basieren oft auf vorab festgelegten Plänen und sagen oft weniger aus als Käufe. Keine Aussagen von Chefs liegen vor. Es gibt keine Widersprüche zwischen den Quellen. Zurück zu Apple Inc.: Keine Anlageberatung.",
+   "id": "3e2ca81854",
+   "generated_at": "2026-10-21T10:24:11Z",
+   "audio": {
+    "file": "AAPL.mp3",
+    "hash": "5e1a97bcbde9817e",
+    "dur": 192.4,
+    "engine": "edge"
+   }
   }
  ],
- "with_audio": 34,
+ "with_audio": 35,
  "intro_audio": {
   "file": "_intro.mp3",
-  "hash": "30382c0ea2260322",
+  "hash": "773839e5bd586d24",
   "dur": 18.0,
   "engine": "edge"
  },
@@ -459,5 +472,5 @@
   "dur": 10.2,
   "engine": "edge"
  },
- "audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@018ed3366f54a01f8f1dda62d9ce843ad78b9a92/data/audio/"
+ "audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@6c38cd1b5b384787a22f269684da8c8ae0d58479/data/audio/"
 }
