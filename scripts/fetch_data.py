@@ -9,7 +9,7 @@ from datetime import datetime, timezone, timedelta
 from email.utils import parsedate_to_datetime
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from quality import item_quality
-import insights, official, translate, ai_summary, insider
+import insights, official, translate, ai_summary, insider, fx as fxm, copy
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
@@ -301,7 +301,11 @@ def main():
     ok_news = sum(1 for b in batches if b) + sum(1 for b in mbatches if b)
     if ok_news == 0 and old_items:
         print("Keine neuen Nachrichten erhalten, behalte alte Daten", file=sys.stderr)
-    qdoc = {"generated_at": iso(NOW), "source": "Yahoo Finance (chart API v8), Kurse koennen bis zu 15 Min verzoegert sein", "quotes": quotes, "errors": [e for e in errors if e["what"] == "quote"]}
+    quotes_local = {k: (dict(v, price=v["price"] / v["fx"], currency=v["orig_currency"]) if v.get("orig_currency") and v.get("fx") else dict(v)) for k, v in quotes.items()}
+    FX = fxm.load(os.path.join(ROOT, "data", "fx.json"), [q.get("currency") for q in quotes.values()])
+    quotes = {k: fxm.convert_quote(v, FX) for k, v in quotes.items()}
+    print("FX: Kurse vom %s, %d Waehrungen in USD umgerechnet" % (FX.get("date"), len({q.get("orig_currency") for q in quotes.values() if q.get("orig_currency")})))
+    qdoc = {"generated_at": iso(NOW), "fx": {"date": FX.get("date"), "source": FX.get("source")}, "source": "Yahoo Finance (chart API v8), Kurse koennen bis zu 15 Min verzoegert sein", "quotes": quotes, "errors": [e for e in errors if e["what"] == "quote"]}
     ndoc = {"generated_at": iso(NOW), "source": "Yahoo Finance RSS, Google News RSS", "items": items, "errors": [e for e in errors if e["what"] in ("news", "official")]}
     os.makedirs(os.path.join(ROOT, "data"), exist_ok=True)
     def dump(path, doc):
@@ -311,14 +315,16 @@ def main():
     # Analysten + Kurz-Zusammenfassung
     ipath = os.path.join(ROOT, "data", "insights.json")
     oldi = load_json(ipath, {}).get("stocks", {})
-    adata, aerrs = insights.fetch_analysts(stocks, quotes, NOW)
+    adata, aerrs = insights.fetch_analysts(stocks, quotes_local, NOW)
     ist = {}
     for s in stocks:
         sym = s["symbol"]
         a = adata.get(sym)
+        lcur = (quotes_local.get(sym) or {}).get("orig_currency") or (quotes_local.get(sym) or {}).get("currency")
+        if a is not None: a = fxm.convert_analyst(a, lcur, FX, (quotes_local.get(sym) or {}).get("price"))
         a_at = iso(NOW) if a is not None else None
         if a is None and sym in oldi and oldi[sym].get("analyst"):
-            a = oldi[sym]["analyst"]; a_at = oldi[sym].get("analyst_at")   # letzter bekannter Stand, mit Datum
+            a = fxm.convert_analyst(oldi[sym]["analyst"], lcur, FX, (quotes_local.get(sym) or {}).get("price")); a_at = oldi[sym].get("analyst_at")   # letzter bekannter Stand, mit Datum
         ist[sym] = {"summary": insights.summarize(sym, items, NOW, a, s, (quotes.get(sym) or {}).get("currency")), "analyst": a or {}, "analyst_at": a_at,
                     "analyst_news": insights.analyst_news(sym, items, s)}
     try:
@@ -328,6 +334,9 @@ def main():
     except Exception as e:
         print("Insider FEHLER: %s" % str(e)[:200], file=sys.stderr)
     dump(ipath, {"generated_at": iso(NOW), "source": "Yahoo Finance quoteSummary (Analysten), Nachrichten extraktiv zusammengefasst", "stocks": ist, "errors": aerrs})
+    ai_summary.FX_RATES = {c: round(v, 4) for c, v in (FX.get("per_usd") or {}).items() if c in ("EUR", "CHF", "HKD", "GBP", "KRW", "JPY", "CNY", "TWD", "SEK", "DKK", "NOK", "CAD", "AUD", "INR")}
+    ai_summary.NONUSD = {k for k, v in quotes.items() if v.get("orig_currency")}
+    ai_summary.KURS_USD = {k: round(v["price"], 2) for k, v in quotes.items() if isinstance(v.get("price"), (int, float))}
     try:
         ai_summary.run(stocks, items, ist, insights.relevance_re, os.path.join(ROOT, "data", "ai.json"), NOW)
     except Exception as e:

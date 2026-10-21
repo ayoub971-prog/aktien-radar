@@ -10,7 +10,7 @@ API = "https://generativelanguage.googleapis.com/v1beta"
 MODELS = ["gemini-3.5-flash-lite", "gemini-3.1-flash-lite", "gemini-2.5-flash-lite", "gemini-flash-lite-latest", "gemini-2.5-flash"]
 MAX_CALLS = int(os.environ.get("AI_MAX_CALLS", "12"))     # pro Lauf (Lauf alle 20 Min)
 MIN_AGE_H = float(os.environ.get("AI_MIN_AGE_H", "2"))    # fruehestens nach x Std neu, auch wenn neue Meldungen
-PROMPT_VERSION = 3   # erhoehen, wenn sich das Antwortformat aendert -> alle neu (gestaffelt)
+PROMPT_VERSION = 4   # erhoehen, wenn sich das Antwortformat aendert -> alle neu (gestaffelt)
 SLEEP_S = 6                                               # ~10 Anfragen/Min, unter dem Free-RPM
 
 # Kurzbeschreibungen bekannter Quellen (fuer Modell und App)
@@ -78,6 +78,7 @@ Antworte NUR mit JSON in genau dieser Form:
 - insider: NUR Erwähnungen von Insider-Käufen/-Verkäufen in den Meldungen oder Analysten-Meldungen (nicht die SEC-Daten wiederholen). Leer [], wenn nichts erwähnt wird.
 - chefs: Aussagen und Pläne von Chef (CEO), Finanzchef (CFO) oder Management aus den Meldungen (neue Produkte, Strategie, Aussagen bei der Zahlenvorlage). name und rolle nur, wenn genannt (sonst rolle allgemein, z. B. "Konzernchef"); datum = Datum der Meldung. "aussage": was gesagt oder angekündigt wurde, sinngemäss, nichts dazuerfinden. "bedeutung": ein Satz, was das für die Firma heissen kann, vorsichtig formuliert ("könnte", "laut ..."). Höchstens 4. Leer [], wenn keine Aussage in den Meldungen steht.
 - Beim Insider-Teil nur Personen und Beträge aus insider_sec oder den Meldungen nennen, Beträge auf Deutsch gerundet ("rund 4000 Dollar", "rund 7,6 Millionen Dollar"), keine englischen Wörter.
+- GELD NUR IN US-DOLLAR: Alle Geldbeträge (Kurse, Kursziele, Umsatz, Gewinn, Aufträge, Werte) ausschliesslich in US-Dollar nennen. Beträge in anderen Währungen (Euro, Franken, Hongkong-Dollar, Pfund, Won, Yen usw.) mit "wechselkurse_pro_usd" umrechnen (Betrag geteilt durch Kurs), sinnvoll runden und NUR den Dollarbetrag nennen, keine Doppelangabe. In Listenfeldern "USD" schreiben, im vorlesetext gesprochen ("rund 12 Millionen Dollar"). Analystendaten und kurs_usd sind bereits in USD. Prozentwerte unverändert lassen.
 - insider_sec in den DATEN: offizielle Pflichtmeldungen (Form 4) bei der US-Börsenaufsicht SEC; "geplant" = vorab festgelegter Verkaufsplan (10b5-1).
 - vorlesetext: wie ein seriöser, erklärender Finanz-Podcast, natürlich gesprochenes Deutsch, 220-380 Wörter, ganze Sätze, keine Listen, keine Abkürzungen wie "Mio.", "USD", "EPS" oder "%" (schreibe "Prozent", "Millionen", "Dollar", "Gewinn je Aktie"), Zahlen gerundet. Beginne mit dem Firmennamen ("{name}: ..."). Sag immer, wer was sagt ("Die UBS sagt zu {name} ...", "Laut Reuters ..."). Nenne den Firmennamen in der Mitte nochmals ("Zurück zu {name}: ..."). Reihenfolge: kurzer Überblick, Risiken und Rechtliches (falls keine: "In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden."), Analysten-Bewertungen mit Begründung, was die Firma gerade macht (was aufwertet, was abwertet), wichtige Kennzahlen kurz erklärt, Insider-Käufe und -Verkäufe (nur wenn in insider_sec oder Meldungen vorhanden: wer, Rolle, gekauft oder verkauft, ungefährer Wert; sag kurz, dass ein Verkauf oft weniger aussagt als ein Kauf, z. B. wegen Steuern oder geplanter Verkäufe), was die Chefs sagen (nur wenn vorhanden, immer mit Firmennamen: "Bei {name} sagt Chef ... "), Widersprüche. Letzter Satz genau: "Keine Anlageberatung."
 
@@ -106,6 +107,7 @@ def err_text(e):
         return "HTTP %s %s" % (e.code, msg[:160])
     return str(e)[:200]
 
+FX_RATES, KURS_USD, NONUSD = {}, {}, set()   # von fetch_data gesetzt
 def insider_input(lst):
     out = []
     for t in (lst or []):
@@ -133,7 +135,7 @@ def build_input(stock, items, analyst, analyst_news, rel_re, now, insider=None):
     if a.get("changes"): ad["aenderungen"] = a["changes"][:6]
     return {"aktie": stock.get("name"), "symbol": sym, "meldungen": news, "analystendaten_yahoo_finance": ad,
             "analysten_meldungen": [{"quelle": x["source"], "titel": x.get("title_de") or x["title"]} for x in (analyst_news or [])],
-            "insider_sec": insider_input(insider)}
+            "insider_sec": insider_input(insider), "wechselkurse_pro_usd": FX_RATES, "kurs_usd": KURS_USD.get(sym)}
 
 def clean(o, inp=None):
     by = {m["nr"]: m for m in (inp or {}).get("meldungen", [])}
@@ -229,7 +231,7 @@ def run(stocks, items, insights_by_sym, rel_fn, path, now, log=print):
         if c and c.get("generated_at"):
             age = (now - datetime.strptime(c["generated_at"], "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)).total_seconds() / 3600
         if age < MIN_AGE_H and c and c.get("v") == PROMPT_VERSION: continue
-        jobs.append((-age - (1e6 if not (c and c.get("v") == PROMPT_VERSION) and c else 0), sym, s, inp, h))
+        jobs.append((-age - (1e6 if not (c and c.get("v") == PROMPT_VERSION) and c else 0) - (1e5 if sym in NONUSD else 0), sym, s, inp, h))
     jobs.sort(key=lambda j: j[0])   # aelteste/fehlende zuerst
     if not key:
         log("KI: kein GEMINI_API_KEY, uebersprungen (%d waeren faellig)" % len(jobs))

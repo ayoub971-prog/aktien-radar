@@ -208,7 +208,7 @@ function rowHtml(s, showMove) {
 function statusLine() {
   var qa = Q && Q.generated_at, na = N && N.generated_at;
   var old = qa && (Date.now() - Date.parse(qa) > 3 * 3600 * 1000);
-  var h = '<p class="tiny">Kurse: Stand ' + esc(ago(qa)) + ' | Nachrichten: Stand ' + esc(ago(na)) + ' | Quelle Yahoo Finance, ggf. 15 Min verzögert</p>';
+  var h = '<p class="tiny">Kurse: Stand ' + esc(ago(qa)) + ' | Nachrichten: Stand ' + esc(ago(na)) + ' | Quelle Yahoo Finance, ggf. 15 Min verzögert' + (fxNote() ? '<br>' + esc(fxNote()) : '') + '</p>';
   if (old) h += '<div class="banner">Die Daten sind älter als 3 Stunden. Die automatische Aktualisierung auf GitHub hat sich verspätet (kommt vor) oder ist ausgefallen. Es wird der letzte bekannte Stand gezeigt.</div>';
   for (var i = 0; i < dataErrors.length; i++) h += '<div class="banner err">' + esc(dataErrors[i]) + '</div>';
   if (Q && Q.errors && Q.errors.length) h += '<div class="banner">Beim letzten Update ohne Kurs: ' + esc(Q.errors.map(function (e) { return e.symbol; }).join(', ')) + '</div>';
@@ -294,6 +294,7 @@ function viewDetail(sym) {
   if (q) {
     h += '<div class="big">' + fmtPrice(q.price) + ' <span style="font-size:18px" class="muted">' + esc(q.currency || '') + '</span></div>';
     h += '<div style="margin:6px 0">' + chgPill(q) + ' <span class="muted">' + fmtSigned(q.change, Math.abs(q.price) < 10 ? 3 : 2) + '</span></div>';
+    if (fxNote()) h += '<div class="tiny">' + esc(fxNote()) + (q.orig_currency ? ' (gehandelt in ' + esc(q.orig_currency) + ')' : '') + '</div>';
     h += aiHtml(sym, s);
     h += askHtml(s);
     h += '<div class="card" style="padding:8px"><svg viewBox="0 0 100 32" preserveAspectRatio="none" style="width:100%;height:110px;display:block">' + sparkSvg(q).replace(/^<svg[^>]*>/, '').replace(/<\/svg>$/, '') + '</svg><div class="tiny" style="padding:4px 6px">' + (q.spark_day && q.spark_day.length >= 8 ? 'Verlauf des letzten Handelstags (gestrichelt: Vortagesschluss)' : 'Verlauf der letzten 5 Handelstage') + '</div></div>';
@@ -904,7 +905,7 @@ function bindAsk(s) {
     busyIv = setInterval(function () { var el = $('askBusyT'); if (el) el.textContent = Math.round((Date.now() - t0) / 1000) + ' s'; }, 1000);
     var today = new Date().toISOString().slice(0, 10);
     var sys = 'Heute ist ' + today + '. Du hilfst einem Privatanleger aus der Schweiz, die Aktie ' + s.name + ' (Kürzel ' + s.symbol + ') zu verstehen. Alle Fragen beziehen sich auf diese Firma, ausser er sagt etwas anderes. ' +
-      'Suche für jede Antwort mit Google nach aktuellen, seriösen Quellen. Antworte auf Deutsch (Schweizer Rechtschreibung, kein ß), kurz, klar und einfach, wie ein guter Journalist: höchstens 6 kurze Sätze, schwierige Wörter kurz erklären. ' +
+      'Nenne alle Geldbeträge nur in US-Dollar (andere Währungen umrechnen, gerundet). Suche für jede Antwort mit Google nach aktuellen, seriösen Quellen. Antworte auf Deutsch (Schweizer Rechtschreibung, kein ß), kurz, klar und einfach, wie ein guter Journalist: höchstens 6 kurze Sätze, schwierige Wörter kurz erklären. ' +
       'Nenne bei Fakten, wer es wann gesagt hat (mit Datum). Erfinde nichts: nur, was in den gefundenen Quellen steht. Bei Nachfragen wie „Warum?“ oder „Ich will mehr wissen“ beziehe dich auf das bisherige Gespräch. ' +
       'Wenn du nichts Verlässliches findest, schreibe genau: „Dazu habe ich keine verlässliche Quelle gefunden.“ Keine Kauf- oder Verkaufsempfehlung.';
     var contents = hist.filter(function (m) { return !m.err; }).slice(-12).map(function (m) { return { role: m.role, parts: [{ text: m.text }] }; });
@@ -1165,11 +1166,11 @@ function txtPdf(what) {
   }, function () { return 'PDF-Werkzeug konnte nicht geladen werden (offline?).'; });
 }
 function fmtUsd(v) { if (!v) return ''; return v >= 1e6 ? (v / 1e6).toFixed(1).replace('.', ',') + ' Mio. USD' : Math.round(v).toLocaleString('de-CH') + ' USD'; }
-function fmtD(d) { return String(d || '').replace(/^(\d{4})-(\d\d)-(\d\d)$/, '$3.$2.$1'); }
+function fmtYmd(d) { return String(d || '').replace(/^(\d{4})-(\d\d)-(\d\d)$/, '$3.$2.$1'); }
 function insiderData(sym) { var x = I && I.stocks && I.stocks[sym]; return (x && x.insider) || []; }
 function insLine(t) {
   return (t.code === 'P' ? '🟢 ' : t.code === 'S' ? '🔴 ' : '') + t.wer + ' (' + t.rolle + '): ' + t.art + ' – ' + t.aktien.toLocaleString('de-CH') + ' Aktien' +
-    (t.wert ? ', ca. ' + fmtUsd(t.wert) : '') + ', ' + fmtD(t.datum) + (t.plan_10b5_1 ? ' · geplanter Verkauf (Plan 10b5-1)' : '');
+    (t.wert ? ', ca. ' + fmtUsd(t.wert) : '') + ', ' + fmtYmd(t.datum) + (t.plan_10b5_1 ? ' · geplanter Verkauf (Plan 10b5-1)' : '');
 }
 function insiderHtml(sym, a) {
   var l = insiderData(sym), rel = l.filter(function (t) { return t.relevant; }).slice(0, 8), rout = l.filter(function (t) { return !t.relevant; }).slice(0, 10);
@@ -1186,7 +1187,7 @@ function chefsHtml(a) {
   if (!a || !a.chefs || !a.chefs.length) return '';
   var h = '<h3>Was sagen die Chefs</h3>';
   a.chefs.forEach(function (c) {
-    h += '<div class="bew"><div><b>' + esc(c.name || c.rolle || 'Management') + '</b>' + (c.name && c.rolle ? ' <span class="tiny">' + esc(c.rolle) + '</span>' : '') + (c.datum ? ' <span class="tiny">' + esc(fmtD(c.datum)) + '</span>' : '') + '</div>' +
+    h += '<div class="bew"><div><b>' + esc(c.name || c.rolle || 'Management') + '</b>' + (c.name && c.rolle ? ' <span class="tiny">' + esc(c.rolle) + '</span>' : '') + (c.datum ? ' <span class="tiny">' + esc(fmtYmd(c.datum)) + '</span>' : '') + '</div>' +
       '<div class="sumt">' + esc(c.aussage) + '</div>' + (c.bedeutung ? '<div class="tiny">Bedeutung: ' + esc(c.bedeutung) + '</div>' : '') + '<div>' + srcSpan(c) + '</div></div>';
   });
   return h;
@@ -1194,7 +1195,8 @@ function chefsHtml(a) {
 function extraParts(sym, a) {
   var p = [], rel = insiderData(sym).filter(function (t) { return t.relevant; }).slice(0, 8);
   if (rel.length || (a && a.insider && a.insider.length)) p.push({ h: 'Insider-Käufe und -Verkäufe', t: rel.map(insLine).concat(((a && a.insider) || []).map(function (e) { return e.text + (e.quelle ? ' (' + e.quelle + ')' : ''); })).join('\n') + (rel.length ? '\nQuelle: SEC EDGAR, US-Börsenaufsicht (Form 4).' : '') });
-  if (a && a.chefs && a.chefs.length) p.push({ h: 'Was sagen die Chefs', t: a.chefs.map(function (c) { return (c.name || c.rolle || 'Management') + (c.name && c.rolle ? ' (' + c.rolle + ')' : '') + (c.datum ? ', ' + fmtD(c.datum) : '') + ': ' + c.aussage + (c.bedeutung ? ' Bedeutung: ' + c.bedeutung : '') + (c.quelle ? ' (' + c.quelle + ')' : ''); }).join('\n') });
+  if (a && a.chefs && a.chefs.length) p.push({ h: 'Was sagen die Chefs', t: a.chefs.map(function (c) { return (c.name || c.rolle || 'Management') + (c.name && c.rolle ? ' (' + c.rolle + ')' : '') + (c.datum ? ', ' + fmtYmd(c.datum) : '') + ': ' + c.aussage + (c.bedeutung ? ' Bedeutung: ' + c.bedeutung : '') + (c.quelle ? ' (' + c.quelle + ')' : ''); }).join('\n') });
   return p;
 }
+function fxNote() { var f = Q && Q.fx; return f && f.date ? 'Alle Beträge in USD umgerechnet, Kurs vom ' + fmtYmd(f.date) + ' (EZB)' : ''; }
 })();
