@@ -426,7 +426,7 @@ function plUI() {
   if (P.audio) resumable = !P.playing && P.t > 0;
   $('plPlay').textContent = P.playing ? '▶ Läuft' : (resumable ? '▶ Weiter' : '▶ Vorlesen');
   $('plPlay').disabled = P.playing;
-  $('plPause').hidden = !P.playing; $('plStop').hidden = !(P.playing || resumable);
+  $('plPause').hidden = !P.playing; $('plStop').hidden = !(P.playing || resumable); $('plStop').textContent = P.playing ? '■ Stop' : '↺ Von vorn';
   $('plNew').hidden = !!st.heard;
   if (P.audio) { $('plInfo').textContent = 'Gemini-Stimme' + (P.playing || resumable ? ' · ' + fmtT(P.t) + (P.audio.dur ? ' / ' + fmtT(P.audio.dur) : '') : ''); return; }
   $('plInfo').textContent = !window.speechSynthesis ? 'Vorlesen wird von diesem Browser nicht unterstützt.' : (P.playing || resumable ? 'Satz ' + Math.min(P.idx + 1, P.sents.length) + ' von ' + P.sents.length : '');
@@ -466,18 +466,36 @@ function bindPlayer(sym) {
     if (st && st.id === sp.id) { P.idx = Math.min(st.idx || 0, P.sents.length); P.t = +st.t || 0; }
     else posSet(sym, { id: sp.id, idx: 0, heard: false });   // neuere Zusammenfassung: alte Position verwerfen
   }
-  $('plPlay').onclick = function () {
-    plStopSpeech(); P.playing = true;
+  $('plPlay').onclick = plResume;
+  function plResume() {
+    if (typeof POD !== 'undefined' && POD.playing) podPause();
+    plStopSpeech(); P.playing = true; plMeta();
     if (P.audio) return plAudioPlay();
     if (!window.speechSynthesis) { P.playing = false; return; }
     if (P.idx >= P.sents.length) P.idx = 0; plSpeak();
+  }
+  function plPauseNow() { if (P.audio && AEL) { try { P.t = AEL.currentTime; } catch (e) {} } P.playing = false; plStopSpeech(); plSave(); plUI(); plMeta(); }
+  function plMeta() {
+    if (!('mediaSession' in navigator) || (typeof POD !== 'undefined' && POD.playing)) return;
+    try {
+      navigator.mediaSession.metadata = new MediaMetadata({ title: (s ? s.name : sym), artist: 'Aktien-Radar · Vorlesen' });
+      navigator.mediaSession.playbackState = P.playing ? 'playing' : 'paused';
+      navigator.mediaSession.setActionHandler('play', function () { if (!P.playing) plResume(); });
+      navigator.mediaSession.setActionHandler('pause', plPauseNow);
+      try { navigator.mediaSession.setActionHandler('stop', plPauseNow); } catch (e) {}
+      navigator.mediaSession.setActionHandler('previoustrack', null); navigator.mediaSession.setActionHandler('nexttrack', null);
+    } catch (e) {}
+  }
+  $('plPause').onclick = plPauseNow;
+  $('plStop').onclick = function () {
+    if (P.playing) return plPauseNow();   // Stop = sofort anhalten, Stelle bleibt
+    P.idx = 0; P.t = 0; if (AEL) try { AEL.currentTime = 0; } catch (e) {} plSave(); plUI();   // im Pausenzustand: von vorn
   };
-  $('plPause').onclick = function () { P.playing = false; plStopSpeech(); plSave(); plUI(); };
-  $('plStop').onclick = function () { P.playing = false; plStopSpeech(); P.idx = 0; P.t = 0; if (AEL) try { AEL.currentTime = 0; } catch (e) {} plSave(); plUI(); };
+  plMeta();
   plUI();
 }
 window.addEventListener('hashchange', function () { if (P.playing && location.hash.indexOf(encodeURIComponent(P.sym)) < 0 && location.hash.indexOf(P.sym) < 0) { P.playing = false; plStopSpeech(); plSave(); } });
-document.addEventListener('visibilitychange', function () { if (document.hidden && P.playing) { P.playing = false; plStopSpeech(); plSave(); plUI(); } });
+document.addEventListener('visibilitychange', function () { if (document.hidden && P.playing && !P.audio) { P.playing = false; plStopSpeech(); plSave(); plUI(); } });
 
 function insightsHtml(sym, q) {
   var x = I && I.stocks ? I.stocks[sym] : null, h = '', i;
@@ -982,12 +1000,12 @@ function podBuild() {
   segs.push({ sym: '_outro', name: 'Schluss', text: d.outro || 'Das war der Aktien-Radar-Überblick. Keine Anlageberatung.' });
   POD.segs = segs; POD.gen = (d.generated_at || '') + '|' + segs.map(function (x) { return x.sym; }).join(',');
 }
-function podSave() { lsSet('ar.pod', JSON.stringify({ gen: POD.gen, sym: POD.segs[POD.i] && POD.segs[POD.i].sym, si: POD.si, t: POD.t })); }
+function podSave() { var g = POD.segs[POD.i]; lsSet('ar.pod', JSON.stringify({ gen: POD.gen, sym: g && g.sym, h: g && hashStr(g.text + (g.audio ? g.audio.hash : '')), si: POD.si, t: POD.t })); }
 function podRestore() {
   var o = null; try { o = JSON.parse(lsGet('ar.pod') || 'null'); } catch (e) {}
   POD.i = 0; POD.si = 0; POD.t = 0;
   if (!o) return;
-  for (var i = 0; i < POD.segs.length; i++) if (POD.segs[i].sym === o.sym) { POD.i = i; if (o.gen === POD.gen) { POD.si = o.si || 0; POD.t = o.t || 0; } }
+  for (var i = 0; i < POD.segs.length; i++) if (POD.segs[i].sym === o.sym) { POD.i = i; var g = POD.segs[i]; if (o.h === hashStr(g.text + (g.audio ? g.audio.hash : ''))) { POD.si = o.si || 0; POD.t = o.t || 0; } }
 }
 function podUI() {
   var b = $('podBtn'); if (b) b.textContent = POD.playing ? '❚❚ Podcast pausieren' : ((POD.i > 0 || POD.si > 0 || POD.t > 0) ? '🎙 Podcast fortsetzen' : '🎙 Zusammenfassung Podcast');
@@ -1004,8 +1022,9 @@ function podMeta() {
   try {
     navigator.mediaSession.metadata = new MediaMetadata({ title: 'Jetzt: ' + (seg ? seg.name : ''), artist: 'Aktien-Radar Podcast', album: 'Zusammenfassung' });
     navigator.mediaSession.playbackState = POD.playing ? 'playing' : 'paused';
-    navigator.mediaSession.setActionHandler('play', function () { podPlay(); });
+    navigator.mediaSession.setActionHandler('play', function () { if (!POD.playing) podPlay(); });
     navigator.mediaSession.setActionHandler('pause', function () { podPause(); });
+    try { navigator.mediaSession.setActionHandler('stop', function () { podPause(); }); } catch (e) {}
     navigator.mediaSession.setActionHandler('previoustrack', function () { podJump(-1); });
     navigator.mediaSession.setActionHandler('nexttrack', function () { podJump(1); });
   } catch (e) {}
@@ -1041,7 +1060,7 @@ function podPlay() {
   if (P.playing) { plStopSpeech(); P.playing = false; try { plSave(); plUI(); } catch (e) {} }
   POD.playing = true; podRun();
 }
-function podPause() { if (!POD.playing) return; POD.playing = false; podHalt(); podSave(); podUI(); podMeta(); }
+function podPause() { if (!POD.playing) return; var g = POD.segs[POD.i]; if (g && g.audio && POD.el) { try { POD.t = POD.el.currentTime; } catch (e) {} } POD.playing = false; podHalt(); podSave(); podUI(); podMeta(); }
 function podJump(d) {
   var was = POD.playing; podHalt();
   POD.i = Math.max(0, Math.min(POD.segs.length - 1, POD.i + d)); POD.si = 0; POD.t = 0; podSave();
