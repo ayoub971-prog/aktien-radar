@@ -13,23 +13,23 @@
   },
   "005930.KS": {
    "file": "005930.KS.mp3",
-   "hash": "636a0ab86044b584",
-   "th": "ac3a8db436189352",
-   "id": "ac3a8db436",
+   "hash": "6006a773491345f9",
+   "th": "f89ea7bbff101a35",
+   "id": "f89ea7bbff",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
-   "dur": 178.8,
-   "at": "2026-10-21T11:18:12Z"
+   "dur": 158.2,
+   "at": "2026-10-21T13:30:59Z"
   },
   "HY9H.MU": {
    "file": "HY9H.MU.mp3",
-   "hash": "7346b1a43acbec41",
-   "th": "ce5846f8443828b8",
-   "id": "ce5846f844",
+   "hash": "aae6354375cf75c2",
+   "th": "cdf302e43c25aaf9",
+   "id": "cdf302e43c",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
-   "dur": 116.5,
-   "at": "2026-10-21T11:18:21Z"
+   "dur": 122.9,
+   "at": "2026-10-21T13:31:11Z"
   },
   "AVGO": {
    "file": "AVGO.mp3",
@@ -65,13 +65,13 @@
   },
   "PLTR": {
    "file": "PLTR.mp3",
-   "hash": "93a0830a8a21b21d",
-   "th": "1cbd63530eb3e809",
-   "id": "1cbd63530e",
+   "hash": "27433464d4918ae0",
+   "th": "5d6335c73b010d7b",
+   "id": "5d6335c73b",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
-   "dur": 171.3,
-   "at": "2026-10-21T10:27:07Z"
+   "dur": 169.2,
+   "at": "2026-10-21T13:31:39Z"
   },
   "IBM": {
    "file": "IBM.mp3",
@@ -85,13 +85,13 @@
   },
   "NOW": {
    "file": "NOW.mp3",
-   "hash": "680587e20347f480",
-   "th": "158c3662ea494de1",
-   "id": "158c3662ea",
+   "hash": "c4e691d0b46e3f83",
+   "th": "775c1cd3786f0b55",
+   "id": "775c1cd378",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
-   "dur": 205.8,
-   "at": "2026-10-21T10:27:23Z"
+   "dur": 175.0,
+   "at": "2026-10-21T13:31:53Z"
   },
   "META": {
    "file": "META.mp3",
@@ -286,13 +286,13 @@
   },
   "UBSG.SW": {
    "file": "UBSG.SW.mp3",
-   "hash": "49c8c0634934d036",
-   "th": "16e1ff9f1414cd41",
-   "id": "16e1ff9f14",
+   "hash": "8095add54d874bab",
+   "th": "f19ec8ed6bd32788",
+   "id": "f19ec8ed6b",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
-   "dur": 100.2,
-   "at": "2026-10-21T11:20:03Z"
+   "dur": 150.3,
+   "at": "2026-10-21T13:32:19Z"
   },
   "MSFT": {
    "file": "MSFT.mp3",
@@ -306,13 +306,13 @@
   },
   "OEF": {
    "file": "OEF.mp3",
-   "hash": "016bb95b228c5d53",
-   "th": "4a81704f21cf78e4",
-   "id": "4a81704f21",
+   "hash": "a8636f24b6145b5a",
+   "th": "5a4cb5e6e2b3137c",
+   "id": "5a4cb5e6e2",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
-   "dur": 33.6,
-   "at": "2026-10-21T10:27:46Z"
+   "dur": 42.4,
+   "at": "2026-10-21T13:32:22Z"
   },
   "013A.F": {
    "file": "013A.F.mp3",
@@ -336,13 +336,13 @@
   },
   "1211.HK": {
    "file": "1211.HK.mp3",
-   "hash": "a386697f3c27b00f",
-   "th": "166906921e8632ac",
-   "id": "166906921e",
+   "hash": "e71ac80a85e70599",
+   "th": "80b1df68a52345b1",
+   "id": "80b1df68a5",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
-   "dur": 140.5,
-   "at": "2026-10-21T11:20:39Z"
+   "dur": 187.1,
+   "at": "2026-10-21T13:32:55Z"
   },
   "SHL.DE": {
    "file": "SHL.DE.mp3",
@@ -387,14 +387,13 @@
   },
   "ABBN.SW": {
    "file": "ABBN.SW.mp3",
-   "hash": "dcb446c0610da121",
-   "th": "f62f8f1007e65889",
-   "engine": "gemini",
-   "id": "f62f8f1007",
-   "voice": "Kore",
-   "model": "gemini-2.5-flash-preview-tts",
-   "dur": 95.1,
-   "at": "2026-10-21T11:13:43Z"
+   "hash": "05c5c9606db20922",
+   "th": "44c5004d45c2b235",
+   "id": "44c5004d45",
+   "voice": "de-CH-LeniNeural",
+   "engine": "edge",
+   "dur": 185.2,
+   "at": "2026-10-21T13:33:22Z"
   },
   "STX": {
    "file": "STX.mp3",
@@ -407,10 +406,10 @@
    "at": "2026-10-21T11:23:18Z"
   }
  },
- "status": "ok",
- "checked_at": "2026-10-21T12:49:58Z",
- "quota_until": 1792585052.0654218,
- "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@896d80646a1d3eb03ee164dbaa2cfbf7bf8c1ca6/data/audio/",
+ "status": "quota: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usa",
+ "checked_at": "2026-10-21T13:33:22Z",
+ "quota_until": 1792593030.2947206,
+ "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@724e9a6ea6e002cd79b4743c827da49b6ba81894/data/audio/",
  "extra": {
   "intro": {
    "file": "_intro.mp3",
