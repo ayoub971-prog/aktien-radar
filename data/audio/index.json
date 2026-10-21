@@ -382,17 +382,28 @@
    "model": "gemini-2.5-flash-preview-tts",
    "dur": 152.3,
    "at": "2026-10-21T11:09:39Z"
+  },
+  "ABBN.SW": {
+   "file": "ABBN.SW.mp3",
+   "hash": "dcb446c0610da121",
+   "th": "f62f8f1007e65889",
+   "engine": "gemini",
+   "id": "f62f8f1007",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
+   "dur": 95.1,
+   "at": "2026-10-21T11:13:43Z"
   }
  },
  "status": "ok",
- "checked_at": "2026-10-21T11:09:41Z",
+ "checked_at": "2026-10-21T11:13:47Z",
  "quota_until": 1792580655.285675,
- "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@aff51882b8e56d21a9fbe9033ecc85f9c7523952/data/audio/",
+ "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@18efeb8ff30f344b27fd66fdb8ae4912afc4f151/data/audio/",
  "extra": {
   "intro": {
    "file": "_intro.mp3",
-   "hash": "773839e5bd586d24",
-   "th": "dc09ac1f8a356d2c",
+   "hash": "64822728771429a8",
+   "th": "3320a0980f8214fa",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "dur": 18.0

@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-21T11:09:42Z",
- "intro": "Willkommen beim Aktien-Radar, deinem Überblick über die neuesten Meldungen. Heute geht es um 35 Aktien aus deiner Liste. Alles stammt aus den gesammelten Meldungen und Analystendaten, nichts ist erfunden. Keine Anlageberatung.",
+ "generated_at": "2026-10-21T11:13:49Z",
+ "intro": "Willkommen beim Aktien-Radar, deinem Überblick über die neuesten Meldungen. Heute geht es um 36 Aktien aus deiner Liste. Alles stammt aus den gesammelten Meldungen und Analystendaten, nichts ist erfunden. Keine Anlageberatung.",
  "outro": "Das war der Aktien-Radar-Überblick. Die Quellen und Details findest du in der App bei jeder Aktie. Keine Anlageberatung.",
  "segments": [
   {
@@ -457,12 +457,25 @@
     "dur": 152.3,
     "engine": "gemini"
    }
+  },
+  {
+   "symbol": "ABBN.SW",
+   "name": "ABB LTD",
+   "text": "ABB LTD: Im aktuellen Überblick zeigt sich, dass ABB im dritten Quartal Rekordaufträge im Wert von 12 Milliarden Dollar verzeichnen konnte. Trotz Rekordmargen und einer höheren Prognose gab der Aktienkurs nach. Zudem wurde ein Joint Venture mit Mitsubishi Electric im Asien-Pazifik-Raum gegründet. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden, ausser dass die Aktien von ABB India nach einem globalen Mutter-Update um 6 Prozent fielen. Zu den Analysten-Bewertungen mit Begründung: Die Deutsche Bank Research stuft die Aktie auf Halten und belässt das Rating auf Neutral. Evercore ISI hält an seinem In-Line-Rating fest und kürzt das Kursziel auf rund 97 Dollar. Das durchschnittliche Kursziel der Analysten liegt bei rund 123 Dollar. Zurück zu ABB LTD: Was macht die Firma gerade? Aufwertend wirkt, dass ABB im dritten Quartal Rekordaufträge im Wert von 12 Milliarden Dollar erzielt hat und die US-Aufträge um 82 Prozent gestiegen sind. Abwertend wirkt, dass die ABB-Aktien nach den Quartalszahlen unter Druck gerieten. Wichtige Kennzahlen kurz erklärt: Der Auftragseingang erreichte 12 Milliarden Dollar, was den Gesamtwert neuer Aufträge misst und die zukünftige Geschäftsentwicklung zeigt. Die US-Aufträge stiegen um 82 Prozent, was die Nachfrageentwicklung auf dem amerikanischen Markt verdeutlicht. Keine Insider-Käufe oder -Verkäufe wurden in den Meldungen erwähnt. In den vorliegenden Meldungen gab es keine direkten Aussagen der Chefs. Keine Anlageberatung.",
+   "id": "f62f8f1007",
+   "generated_at": "2026-10-21T11:10:21Z",
+   "audio": {
+    "file": "ABBN.SW.mp3",
+    "hash": "dcb446c0610da121",
+    "dur": 95.1,
+    "engine": "gemini"
+   }
   }
  ],
- "with_audio": 35,
+ "with_audio": 36,
  "intro_audio": {
   "file": "_intro.mp3",
-  "hash": "773839e5bd586d24",
+  "hash": "64822728771429a8",
   "dur": 18.0,
   "engine": "edge"
  },
@@ -472,5 +485,5 @@
   "dur": 10.2,
   "engine": "edge"
  },
- "audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@aff51882b8e56d21a9fbe9033ecc85f9c7523952/data/audio/"
+ "audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@18efeb8ff30f344b27fd66fdb8ae4912afc4f151/data/audio/"
 }
