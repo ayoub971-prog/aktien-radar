@@ -268,6 +268,13 @@
       "sector": "Gesundheit",
       "q_de": "BioNTech SE Aktie",
       "q_en": "BioNTech SE stock"
+    },
+    {
+      "symbol": "ABBN.SW",
+      "name": "ABB LTD",
+      "sector": "Industrie/Luftfahrt",
+      "q_de": "ABB LTD Aktie",
+      "q_en": "ABB LTD stock"
     }
   ],
   "market_topics": [
