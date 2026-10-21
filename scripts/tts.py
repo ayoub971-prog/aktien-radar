@@ -12,6 +12,47 @@ AUD = os.path.join(ROOT, "data", "audio"); IDX = os.path.join(AUD, "index.json")
 def log(*a): print("TTS:", *a, flush=True)
 def fname(sym): return re.sub(r"[^A-Za-z0-9.\-]", "_", sym) + ".mp3"
 def thash(t): return hashlib.sha1((VOICE + "|" + t).encode()).hexdigest()[:16]
+def th(t): return hashlib.sha1(t.encode()).hexdigest()[:16]
+# ---- Gratis-Ersatz ohne Schluessel: edge-tts (Microsoft-Neuralstimmen) ----
+EDGE_VOICE = os.environ.get("EDGE_VOICE", "de-CH-LeniNeural")
+def edge_mp3(text, out):
+    import asyncio, edge_tts
+    raw = out + ".edge.mp3"
+    async def go(): await edge_tts.Communicate(text, EDGE_VOICE, rate="-5%").save(raw)
+    for i in range(3):
+        try: asyncio.run(go()); break
+        except Exception:
+            if i == 2: raise
+            time.sleep(3)
+    tmp = out + ".tmp.mp3"   # mono, 24 kbit/s: klein, fuer Sprache klar genug
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", raw, "-ac", "1", "-ar", "24000", "-codec:a", "libmp3lame", "-b:a", "24k", tmp], check=True)
+    os.replace(tmp, out); os.unlink(raw)
+    d = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", out], capture_output=True, text=True).stdout.strip()
+    return round(float(d or 0), 1)
+def edge_fill(idx, st, extra_texts):
+    try: import edge_tts  # noqa
+    except Exception: log("edge-tts fehlt"); return 0
+    n = 0
+    items = [(s, v["vorlesetext"], v.get("id") or v.get("generated_at")) for s, v in st.items() if v.get("vorlesetext")]
+    for s, text, vid in items:
+        e = idx["stocks"].get(s)
+        if e and (e.get("th") == th(text) or e.get("hash") == thash(text)) and os.path.exists(os.path.join(AUD, e["file"])): continue
+        try:
+            dur = edge_mp3(text, os.path.join(AUD, fname(s)))
+            idx["stocks"][s] = {"file": fname(s), "hash": th(EDGE_VOICE + text), "th": th(text), "id": vid, "voice": EDGE_VOICE,
+                                "engine": "edge", "dur": dur, "at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())}
+            n += 1; log("%s edge ok (%ss)" % (s, dur))
+        except Exception as ex: log("%s edge Fehler: %s" % (s, str(ex)[:150]))
+    ex_idx = idx.setdefault("extra", {})
+    for k, text in extra_texts.items():
+        e = ex_idx.get(k)
+        if e and e.get("th") == th(text) and os.path.exists(os.path.join(AUD, e["file"])): continue
+        try:
+            dur = edge_mp3(text, os.path.join(AUD, "_" + k + ".mp3"))
+            ex_idx[k] = {"file": "_" + k + ".mp3", "hash": th(EDGE_VOICE + text), "th": th(text), "voice": EDGE_VOICE, "engine": "edge", "dur": dur}
+            n += 1; log("%s edge ok" % k)
+        except Exception as e2: log("%s edge Fehler: %s" % (k, str(e2)[:150]))
+    return n
 def err_text(e):
     if isinstance(e, urllib.error.HTTPError):
         try: msg = json.loads(e.read()).get("error", {}).get("message", "")
@@ -46,11 +87,12 @@ def main():
     st = ai.get("stocks") or {}
     jobs = [s for s, v in st.items() if v.get("vorlesetext") and
             (idx["stocks"].get(s, {}).get("hash") != thash(v["vorlesetext"]) or not os.path.exists(os.path.join(AUD, fname(s))))]
-    log("%d faellig, max %d Aufrufe" % (len(jobs), mx))
-    if not key: log("kein GEMINI_API_KEY"); return
+    jobs = [s for s in jobs if not (idx["stocks"].get(s, {}).get("th") == th(st[s]["vorlesetext"]) and os.path.exists(os.path.join(AUD, fname(s))))]
+    log("%d faellig, max %d Gemini-Aufrufe" % (len(jobs), mx))
     if subprocess.run(["which", "ffmpeg"], capture_output=True).returncode: log("ffmpeg fehlt"); return
-    if time.time() < idx.get("quota_until", 0): log("Kontingent-Pause bis", time.strftime("%H:%MZ", time.gmtime(idx["quota_until"]))); return
     calls, model, status = 0, None, idx.get("status", "")
+    if not key: log("kein GEMINI_API_KEY"); jobs = []
+    elif time.time() < idx.get("quota_until", 0): log("Gemini-Kontingent-Pause bis", time.strftime("%H:%MZ", time.gmtime(idx["quota_until"]))); jobs = []
     for s in jobs:
         if calls >= mx: break
         v = st[s]; text = v["vorlesetext"]; ok = False
@@ -59,13 +101,17 @@ def main():
             calls += 1
             try:
                 dur = to_mp3(tts(m, text, key), os.path.join(AUD, fname(s)))
-                idx["stocks"][s] = {"file": fname(s), "hash": thash(text), "id": v.get("id") or v.get("generated_at"),
+                idx["stocks"][s] = {"file": fname(s), "hash": thash(text), "th": th(text), "engine": "gemini", "id": v.get("id") or v.get("generated_at"),
                                     "voice": VOICE, "model": m, "dur": dur, "at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())}
                 model, ok, status = m, True, "ok"; log("%s ok (%s, %ss)" % (s, m, dur)); break
             except Exception as e:
                 code, t = err_text(e); log("%s %s: %s" % (s, m, t))
                 if code == 429: status = "quota: " + t; idx["quota_until"] = time.time() + 3600; break
         if not ok and status.startswith("quota"): log("Kontingent erschoepft, Abbruch (alte Audios bleiben)"); break
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    import podcast
+    ne = edge_fill(idx, st, {"intro": podcast.intro_text(podcast.count_segments()), "outro": podcast.OUTRO})
+    log("edge-tts: %d neu" % ne)
     idx.update({"voice": VOICE, "status": status, "checked_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())})
     for s in list(idx["stocks"]):
         if s not in st: idx["stocks"].pop(s)

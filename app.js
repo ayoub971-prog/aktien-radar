@@ -405,6 +405,8 @@ function audioFor(sym, sp) {
   var e = AUD && AUD.stocks && AUD.stocks[sym];
   return (sp.ai && e && e.file && e.id && e.id === sp.id) ? e : null;   // nur wenn zur aktuellen Zusammenfassung passend
 }
+function audSrc(e) { var b = (AUD && AUD.base) || (POD.doc && POD.doc.audio_base) || 'data/audio/'; return b + encodeURIComponent(e.file) + '?v=' + e.hash; }
+function engName(e) { return e && e.engine === 'edge' ? 'MP3-Stimme' : 'Gemini-Stimme'; }
 function aEl() { if (!AEL) { AEL = new Audio(); AEL.preload = 'none'; } return AEL; }
 function fmtT(s) { s = Math.max(0, Math.floor(s || 0)); return Math.floor(s / 60) + ':' + ('0' + s % 60).slice(-2); }
 function splitSents(t) { return (t.match(/[^.!?]+(?:[.!?]+(?=\s|$)|$)/g) || [t]).map(function (x) { return x.trim(); }).filter(function (x) { return x.length > 1; }); }
@@ -428,12 +430,12 @@ function plUI() {
   $('plPlay').disabled = P.playing;
   $('plPause').hidden = !P.playing; $('plStop').hidden = !(P.playing || resumable); $('plStop').textContent = P.playing ? '■ Stop' : '↺ Von vorn';
   $('plNew').hidden = !!st.heard;
-  if (P.audio) { $('plInfo').textContent = 'Gemini-Stimme' + (P.playing || resumable ? ' · ' + fmtT(P.t) + (P.audio.dur ? ' / ' + fmtT(P.audio.dur) : '') : ''); return; }
+  if (P.audio) { $('plInfo').textContent = engName(P.audio) + (P.playing || resumable ? ' · ' + fmtT(P.t) + (P.audio.dur ? ' / ' + fmtT(P.audio.dur) : '') : ''); return; }
   $('plInfo').textContent = !window.speechSynthesis ? 'Vorlesen wird von diesem Browser nicht unterstützt.' : (P.playing || resumable ? 'Satz ' + Math.min(P.idx + 1, P.sents.length) + ' von ' + P.sents.length : '');
 }
 function plSave() { var st = posGet(P.sym) || {}; posSet(P.sym, { id: P.id, idx: P.idx, t: P.t || 0, heard: !!st.heard }); }
 function plAudioPlay() {
-  var a = aEl(), src = 'data/audio/' + encodeURIComponent(P.audio.file) + '?v=' + P.audio.hash, tok = ++P.tok, last = 0;
+  var a = aEl(), src = audSrc(P.audio), tok = ++P.tok, last = 0;
   if (a.dataset.src !== src) { a.src = src; a.dataset.src = src; }
   var seek = function () { try { if (Math.abs(a.currentTime - P.t) > 1) a.currentTime = P.t; } catch (e) {} };
   a.onloadedmetadata = seek;
@@ -996,8 +998,8 @@ function podBuild() {
     segs.push({ sym: s.symbol, name: s.name, text: text, audio: (x && au) ? au : null });
   }
   var n = segs.length;
-  segs.unshift({ sym: '_intro', name: 'Einleitung', text: d.intro || ('Willkommen beim Aktien-Radar. Heute geht es um ' + n + ' Aktien aus deiner Liste. Alles stammt aus den gesammelten Meldungen. Keine Anlageberatung.') });
-  segs.push({ sym: '_outro', name: 'Schluss', text: d.outro || 'Das war der Aktien-Radar-Überblick. Keine Anlageberatung.' });
+  segs.unshift({ sym: '_intro', name: 'Einleitung', audio: d.intro ? d.intro_audio || null : null, text: d.intro || ('Willkommen beim Aktien-Radar. Heute geht es um ' + n + ' Aktien aus deiner Liste. Alles stammt aus den gesammelten Meldungen. Keine Anlageberatung.') });
+  segs.push({ sym: '_outro', name: 'Schluss', audio: d.outro ? d.outro_audio || null : null, text: d.outro || 'Das war der Aktien-Radar-Überblick. Keine Anlageberatung.' });
   POD.segs = segs; POD.gen = (d.generated_at || '') + '|' + segs.map(function (x) { return x.sym; }).join(',');
 }
 function podSave() { var g = POD.segs[POD.i]; lsSet('ar.pod', JSON.stringify({ gen: POD.gen, sym: g && g.sym, h: g && hashStr(g.text + (g.audio ? g.audio.hash : '')), si: POD.si, t: POD.t })); }
@@ -1013,7 +1015,7 @@ function podUI() {
   var seg = POD.segs[POD.i];
   c.hidden = !POD.segs.length || (!POD.playing && POD.i === 0 && POD.si === 0 && !POD.t);
   if ($('podNow')) $('podNow').textContent = seg ? 'Jetzt: ' + seg.name : '';
-  if ($('podInfo')) $('podInfo').textContent = seg ? ((POD.i) + ' / ' + (POD.segs.length - 2) + ' Aktien · ' + (seg.audio ? 'Gemini-Stimme' : 'Gerätestimme')) : '';
+  if ($('podInfo')) $('podInfo').textContent = seg ? ((POD.i) + ' / ' + (POD.segs.length - 2) + ' Aktien · ' + (seg.audio ? engName(seg.audio) : 'Gerätestimme')) : '';
   if ($('podPP')) $('podPP').textContent = POD.playing ? '❚❚' : '▶';
 }
 function podMeta() {
@@ -1036,7 +1038,7 @@ function podRun() {
   podUI(); podMeta();
   if (seg.audio) {
     if (!POD.el) { POD.el = new Audio(); POD.el.preload = 'auto'; }
-    var a = POD.el, src = 'data/audio/' + encodeURIComponent(seg.audio.file) + '?v=' + seg.audio.hash, last = 0;
+    var a = POD.el, src = audSrc(seg.audio), last = 0;
     if (a.dataset.src !== src) { a.src = src; a.dataset.src = src; }
     var seek = function () { try { if (Math.abs(a.currentTime - POD.t) > 1) a.currentTime = POD.t; } catch (e) {} };
     a.onloadedmetadata = seek;

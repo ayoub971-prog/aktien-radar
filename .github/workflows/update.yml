@@ -32,14 +32,46 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           AI_MAX_CALLS: ${{ inputs.ai_max_calls || '12' }}
         run: python scripts/fetch_data.py
-      - name: Gemini-Vorlesestimme (MP3)
+      - name: Bisherige Audios holen (Branch audio)
+        continue-on-error: true
+        run: |
+          mkdir -p data/audio
+          if git fetch -q --depth=1 origin audio:refs/remotes/origin/audio; then git archive refs/remotes/origin/audio data/audio | tar -x; else echo "noch kein Audio-Branch"; fi
+      - name: Vorlesestimme (MP3, Gemini wo moeglich, sonst edge-tts)
         continue-on-error: true
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           TTS_MAX_CALLS: ${{ inputs.tts_max_calls || '3' }}
         run: |
           command -v ffmpeg || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null)
+          pip install -q edge-tts || echo "edge-tts nicht installierbar"
           python scripts/tts.py
+      - name: Audio veroeffentlichen (Branch audio, nur neuester Stand)
+        continue-on-error: true
+        run: |
+          python - > "$RUNNER_TEMP/keep.txt" <<'P'
+          import json, os
+          i = json.load(open('data/audio/index.json'))
+          fs = [x['file'] for x in i.get('stocks', {}).values()] + [x['file'] for x in (i.get('extra') or {}).values()]
+          print('\n'.join(p for p in ('data/audio/' + f for f in fs) if os.path.exists(p)))
+          P
+          export GIT_INDEX_FILE="$RUNNER_TEMP/aidx"
+          git read-tree --empty
+          xargs -a "$RUNNER_TEMP/keep.txt" git update-index --add
+          tree=$(git write-tree)
+          unset GIT_INDEX_FILE
+          old=$(git rev-parse -q --verify refs/remotes/origin/audio || true)
+          if [ -n "$old" ] && [ "$(git rev-parse "$old^{tree}")" = "$tree" ]; then sha=$old; else
+            sha=$(git -c user.name=aktien-radar-bot -c user.email=actions@users.noreply.github.com commit-tree "$tree" -m "Audio $(date -u +%FT%TZ)")
+            git push -f -q origin "$sha:refs/heads/audio"
+          fi
+          python - "$sha" <<'P'
+          import json, sys
+          p = 'data/audio/index.json'; i = json.load(open(p))
+          i['base'] = 'https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@%s/data/audio/' % sys.argv[1]
+          json.dump(i, open(p, 'w'), ensure_ascii=False, indent=1)
+          P
+          echo "Audio-Branch: $sha ($(wc -l < "$RUNNER_TEMP/keep.txt") Dateien)"
       - name: Podcast-Skript bauen
         continue-on-error: true
         run: python scripts/podcast.py
@@ -49,7 +81,7 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git add data/quotes.json data/news.json data/insights.json data/translations.json
           if [ -f data/ai.json ]; then git add data/ai.json; fi
-          if [ -d data/audio ]; then git add data/audio; fi
+          if [ -f data/audio/index.json ]; then git add data/audio/index.json; fi
           if [ -f data/podcast.json ]; then git add data/podcast.json; fi
           if git diff --cached --quiet; then echo "keine Aenderung"; exit 0; fi
           git commit -m "Daten $(date -u +%Y-%m-%dT%H:%MZ)"
