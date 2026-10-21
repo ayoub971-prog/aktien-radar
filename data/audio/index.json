@@ -3,24 +3,25 @@
  "stocks": {
   "TSM": {
    "file": "TSM.mp3",
-   "hash": "630e8cb234354a43",
-   "th": "1c00feeda35a1f9c",
+   "hash": "723306d2bbb6a90b",
+   "th": "f17babf171f4a566",
    "engine": "gemini",
-   "id": "1c00feeda3",
+   "id": "f17babf171",
    "voice": "Kore",
    "model": "gemini-2.5-flash-preview-tts",
-   "dur": 126.5,
-   "at": "2026-10-21T14:44:00Z"
+   "dur": 137.3,
+   "at": "2026-10-21T17:20:12Z"
   },
   "005930.KS": {
    "file": "005930.KS.mp3",
-   "hash": "6006a773491345f9",
-   "th": "f89ea7bbff101a35",
-   "id": "f89ea7bbff",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
-   "dur": 158.2,
-   "at": "2026-10-21T13:30:59Z"
+   "hash": "6141133f0d18ca6e",
+   "th": "2c84e04b32203683",
+   "engine": "gemini",
+   "id": "2c84e04b32",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
+   "dur": 123.1,
+   "at": "2026-10-21T17:21:22Z"
   },
   "HY9H.MU": {
    "file": "HY9H.MU.mp3",
@@ -35,13 +36,14 @@
   },
   "AVGO": {
    "file": "AVGO.mp3",
-   "hash": "be2c78c56ac6a936",
-   "th": "ee81b3b5b16408ed",
-   "id": "ee81b3b5b1",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
-   "dur": 176.6,
-   "at": "2026-10-21T15:20:39Z"
+   "hash": "5cc6744b198bafce",
+   "th": "e4849851861d708e",
+   "engine": "gemini",
+   "id": "e484985186",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
+   "dur": 85.9,
+   "at": "2026-10-21T17:22:25Z"
   },
   "ASML": {
    "file": "ASML.mp3",
@@ -55,13 +57,13 @@
   },
   "INTC": {
    "file": "INTC.mp3",
-   "hash": "9b3a4304955ec2d9",
-   "th": "e76a553ff6e3cb28",
-   "id": "e76a553ff6",
+   "hash": "28d3f68ff275d8df",
+   "th": "f9fb6c0aefd851ac",
+   "id": "f9fb6c0aef",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
-   "dur": 176.3,
-   "at": "2026-10-21T15:20:54Z"
+   "dur": 148.7,
+   "at": "2026-10-21T17:22:52Z"
   },
   "PLTR": {
    "file": "PLTR.mp3",
@@ -75,14 +77,13 @@
   },
   "IBM": {
    "file": "IBM.mp3",
-   "hash": "789edd15e9002018",
-   "th": "d5851433e91c54e9",
-   "engine": "gemini",
-   "id": "d5851433e9",
-   "voice": "Kore",
-   "model": "gemini-2.5-flash-preview-tts",
-   "dur": 125.1,
-   "at": "2026-10-21T14:45:02Z"
+   "hash": "533e73d22a6574cd",
+   "th": "f5ca42084742a79e",
+   "id": "f5ca420847",
+   "voice": "de-CH-LeniNeural",
+   "engine": "edge",
+   "dur": 186.3,
+   "at": "2026-10-21T17:23:09Z"
   },
   "NOW": {
    "file": "NOW.mp3",
@@ -146,23 +147,23 @@
   },
   "AMAT": {
    "file": "AMAT.mp3",
-   "hash": "799f59e8892869fb",
-   "th": "86e53c005182dc39",
-   "id": "86e53c0051",
+   "hash": "83fffc4fbce90ca6",
+   "th": "ab59ab91bc7cacc1",
+   "id": "ab59ab91bc",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
-   "dur": 206.3,
-   "at": "2026-10-21T14:46:02Z"
+   "dur": 193.4,
+   "at": "2026-10-21T17:23:24Z"
   },
   "ARM": {
    "file": "ARM.mp3",
-   "hash": "47156ad309170c40",
-   "th": "1929406633dc8916",
-   "id": "1929406633",
+   "hash": "aa7db77e7a2315df",
+   "th": "31ddf75263fd8c4b",
+   "id": "31ddf75263",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
-   "dur": 129.6,
-   "at": "2026-10-21T15:21:17Z"
+   "dur": 164.7,
+   "at": "2026-10-21T17:23:53Z"
   },
   "HOOD": {
    "file": "HOOD.mp3",
@@ -176,13 +177,13 @@
   },
   "WNRG.SW": {
    "file": "WNRG.SW.mp3",
-   "hash": "0f04b63c6d824825",
-   "th": "4d7762519d49f22b",
-   "id": "4d7762519d",
+   "hash": "c112e4604e487fd5",
+   "th": "bc24549e00c673d7",
+   "id": "bc24549e00",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
-   "dur": 95.6,
-   "at": "2026-10-21T10:05:18Z"
+   "dur": 92.9,
+   "at": "2026-10-21T17:24:13Z"
   },
   "BE": {
    "file": "BE.mp3",
@@ -216,13 +217,13 @@
   },
   "OKLO": {
    "file": "OKLO.mp3",
-   "hash": "263d32ed70a7a3c7",
-   "th": "094ef8884e3bbd37",
-   "id": "094ef8884e",
+   "hash": "d1ab0a1f9fe39b9e",
+   "th": "c1097a99a6af7d4d",
+   "id": "c1097a99a6",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
-   "dur": 156.0,
-   "at": "2026-10-21T14:46:25Z"
+   "dur": 176.1,
+   "at": "2026-10-21T17:24:39Z"
   },
   "RYCEY": {
    "file": "RYCEY.mp3",
@@ -296,13 +297,13 @@
   },
   "MSFT": {
    "file": "MSFT.mp3",
-   "hash": "c374610b234919e3",
-   "th": "74caade36b77dbd5",
-   "id": "74caade36b",
+   "hash": "1c154f4291ffadcb",
+   "th": "3b55ab0ded8ed2ef",
+   "id": "3b55ab0ded",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
-   "dur": 168.3,
-   "at": "2026-10-21T15:23:59Z"
+   "dur": 150.4,
+   "at": "2026-10-21T17:25:05Z"
   },
   "OEF": {
    "file": "OEF.mp3",
@@ -316,13 +317,13 @@
   },
   "013A.F": {
    "file": "013A.F.mp3",
-   "hash": "ec484986006325a8",
-   "th": "8b5154fddf2fe67f",
-   "id": "8b5154fddf",
+   "hash": "2679c34b6306a1b4",
+   "th": "c214ca19dfa1e1d5",
+   "id": "c214ca19df",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
-   "dur": 95.7,
-   "at": "2026-10-21T14:46:54Z"
+   "dur": 123.8,
+   "at": "2026-10-21T17:25:17Z"
   },
   "NVDA": {
    "file": "NVDA.mp3",
@@ -396,19 +397,19 @@
   },
   "STX": {
    "file": "STX.mp3",
-   "hash": "b6893bf8c7e2ebbb",
-   "th": "cf61e14d138137a3",
-   "id": "cf61e14d13",
+   "hash": "40fd67bf174a065f",
+   "th": "661f7e59aea8bfd4",
+   "id": "661f7e59ae",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
-   "dur": 238.7,
-   "at": "2026-10-21T14:47:20Z"
+   "dur": 155.1,
+   "at": "2026-10-21T17:25:44Z"
   }
  },
- "status": "quota: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usa",
- "checked_at": "2026-10-21T16:41:56Z",
+ "status": "ok",
+ "checked_at": "2026-10-21T17:25:44Z",
  "quota_until": 1792602398.2713037,
- "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@9a6cfbc94b484dc6ed3ba6e046bb9cff8e370290/data/audio/",
+ "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@186774c3b2eb95d8f7ddebdd72aa4ffc6f1ec907/data/audio/",
  "extra": {
   "intro": {
    "file": "_intro.mp3",
