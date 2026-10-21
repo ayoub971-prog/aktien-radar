@@ -371,17 +371,28 @@
    "engine": "edge",
    "dur": 192.4,
    "at": "2026-10-21T10:28:13Z"
+  },
+  "BNTX": {
+   "file": "BNTX.mp3",
+   "hash": "523b8e61bd024fa3",
+   "th": "acb77bd336cb8495",
+   "engine": "gemini",
+   "id": "acb77bd336",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
+   "dur": 152.3,
+   "at": "2026-10-21T11:09:39Z"
   }
  },
- "status": "quota: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usa",
- "checked_at": "2026-10-21T10:34:54Z",
+ "status": "ok",
+ "checked_at": "2026-10-21T11:09:41Z",
  "quota_until": 1792580655.285675,
- "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@d6ee1080e79b6e7b0df3f7829359f853e98c9ab2/data/audio/",
+ "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@aff51882b8e56d21a9fbe9033ecc85f9c7523952/data/audio/",
  "extra": {
   "intro": {
    "file": "_intro.mp3",
-   "hash": "30382c0ea2260322",
-   "th": "da905bcbb9dc49b7",
+   "hash": "773839e5bd586d24",
+   "th": "dc09ac1f8a356d2c",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "dur": 18.0

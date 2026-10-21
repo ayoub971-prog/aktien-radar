@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-21T10:34:56Z",
- "intro": "Willkommen beim Aktien-Radar, deinem Überblick über die neuesten Meldungen. Heute geht es um 34 Aktien aus deiner Liste. Alles stammt aus den gesammelten Meldungen und Analystendaten, nichts ist erfunden. Keine Anlageberatung.",
+ "generated_at": "2026-10-21T11:09:42Z",
+ "intro": "Willkommen beim Aktien-Radar, deinem Überblick über die neuesten Meldungen. Heute geht es um 35 Aktien aus deiner Liste. Alles stammt aus den gesammelten Meldungen und Analystendaten, nichts ist erfunden. Keine Anlageberatung.",
  "outro": "Das war der Aktien-Radar-Überblick. Die Quellen und Details findest du in der App bei jeder Aktie. Keine Anlageberatung.",
  "segments": [
   {
@@ -444,12 +444,25 @@
     "dur": 154.1,
     "engine": "edge"
    }
+  },
+  {
+   "symbol": "BNTX",
+   "name": "BioNTech SE",
+   "text": "BioNTech SE: Die Aktie der BioNTech SE steht aktuell im Fokus von Berichten und anstehenden Quartalszahlen. Laut boerse.de bereitet das Unternehmen die Veröffentlichung seiner Ergebnisse für das dritte Quartal 2026 am dritten November vor. Finanzen.net, ein deutsches Finanzportal, meldet dazu, dass sich die BioNTech-Aktie im Schatten von Moderna bewegt. Zudem berichtet Der Aktionär, ein deutsches Börsenmagazin, dass BioNTech um neues Vertrauen kämpfen muss. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Die Analystenbewertungen zeigen ein durchschnittliches Kursziel von 117.25 Dollar, wobei das höchste Ziel bei 144.44 Dollar und das tiefste bei 76.23 Dollar liegt. Der Konsens setzt sich aus 14 Mal Kaufen, 7 Mal Halten und 1 Mal Stark Kaufen zusammen. Canaccord Genuity bestätigte die Einstufung Kaufen mit einem Kursziel von 132.0 Dollar. Morgan Stanley bewertet das Papier mit Übergewichten und einem Kursziel von 114.0 Dollar. BMO Capital stufte die Aktie auf Wie der Markt ab und senkte das Kursziel auf 105.0 Dollar. Citigroup bestätigte die Einstufung Kaufen mit 125.0 Dollar und Evercore ISI Group setzte die Einschätzung Besser als Markt mit 130.0 Dollar fort. Was die Firma gerade macht, zeigt sich an positiven Projekten: Laut Yahoo Finance präsentiert BioNTech auf der ESMO 2026 den Fortschritt der Onkologie-Pipeline im Spätstadium sowie Daten zu neuartigen Kombinationen von Pumitamig, was aufwertend wirkt. Als abwertend gilt hingegen laut Finanzen.net, dass die Aktie im Schatten von Moderna steht, und laut Der Aktionär der Kampf um neues Vertrauen. Zurück zu BioNTech SE: Zu den Kennzahlen ist das durchschnittliche Kursziel von 117.25 Dollar zu nennen, welches den erwarteten Mittelwert der Analysten darstellt. Bei den Insider-Aktivitäten gab es offizielle Pflichtmeldungen über geplante Verkäufe: Chef Ugur Sahin hat im Zeitraum von September bis Oktober 2026 in mehreren Schritten Aktien im Gesamtwert von rund 38'723'616 Dollar verkauft. Solche Verkäufe basieren auf vorab festgelegten Plänen und sagen oft weniger über das Vertrauen aus als Käufe, da sie beispielsweise steuerlich motiviert sein können. Keine Anlageberatung.",
+   "id": "acb77bd336",
+   "generated_at": "2026-10-21T11:07:16Z",
+   "audio": {
+    "file": "BNTX.mp3",
+    "hash": "523b8e61bd024fa3",
+    "dur": 152.3,
+    "engine": "gemini"
+   }
   }
  ],
- "with_audio": 34,
+ "with_audio": 35,
  "intro_audio": {
   "file": "_intro.mp3",
-  "hash": "30382c0ea2260322",
+  "hash": "773839e5bd586d24",
   "dur": 18.0,
   "engine": "edge"
  },
@@ -459,5 +472,5 @@
   "dur": 10.2,
   "engine": "edge"
  },
- "audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@d6ee1080e79b6e7b0df3f7829359f853e98c9ab2/data/audio/"
+ "audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@aff51882b8e56d21a9fbe9033ecc85f9c7523952/data/audio/"
 }
