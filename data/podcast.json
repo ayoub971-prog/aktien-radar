@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-21T11:20:42Z",
- "intro": "Willkommen beim Aktien-Radar, deinem Überblick über die neuesten Meldungen. Heute geht es um 36 Aktien aus deiner Liste. Alles stammt aus den gesammelten Meldungen und Analystendaten, nichts ist erfunden. Keine Anlageberatung.",
+ "generated_at": "2026-10-21T11:23:23Z",
+ "intro": "Willkommen beim Aktien-Radar, deinem Überblick über die neuesten Meldungen. Heute geht es um 37 Aktien aus deiner Liste. Alles stammt aus den gesammelten Meldungen und Analystendaten, nichts ist erfunden. Keine Anlageberatung.",
  "outro": "Das war der Aktien-Radar-Überblick. Die Quellen und Details findest du in der App bei jeder Aktie. Keine Anlageberatung.",
  "segments": [
   {
@@ -470,13 +470,26 @@
     "dur": 95.1,
     "engine": "gemini"
    }
+  },
+  {
+   "symbol": "STX",
+   "name": "Seagate Technology Holdings PLC",
+   "text": "Seagate Technology Holdings PLC: Der folgende Beitrag fasst die aktuellen Entwicklungen rund um das Unternehmen zusammen. Laut Yahoo Finance, einem Finanzportal, das Meldungen und Analystenbewertungen bündelt, legte die Aktie um 2 Prozent zu, nachdem Morgan Stanley das Kursziel deutlich erhöht hatte. Auch Investing.com Canada, ebenfalls ein Finanzportal, meldet, dass anstehende Quartalszahlen eine nennenswerte Kursbewegung auslösen könnten. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Zu den Analysten-Bewertungen: Morgan Stanley bestätigte die Einstufung als Übergewichten und erhöhte das Kursziel auf 1200.0 Dollar, begründet mit dem aktuellen Ausverkauf bei Festplatten. Wells Fargo bestätigte ebenfalls die Einstufung als Übergewichten, senkte das Kursziel jedoch auf 865.0 Dollar. Argus Research bestätigte die Kaufen-Einstufung mit einem Kursziel von 900.0 Dollar. Barclays bestätigte die Einstufung als Übergewichten und hob das Kursziel auf 1250.0 Dollar an. JP Morgan tat esgleichen und erhöhte das Kursziel auf 1240.0 Dollar. Zurück zu Seagate Technology Holdings PLC: Aufwertend wirkt, dass MarketScreener Schweiz, ein Finanzportal, berichtet, die Aktie sei von Morgan Stanley zum Kaufen aufgerüstet worden, und Yahoo Finance auf stark explodierende Kurse im Branchenvergleich verweist. Abwertende Meldungen liegen keine vor. Bei den Kennzahlen liegt das durchschnittliche Kursziel laut Yahoo Finance bei 1114.5 Dollar, während das höchste Kursziel bei 1600.0 Dollar und das niedrigste bei 700.0 Dollar verortet wird. Das erwartete Kurspotenzial beträgt rund 65,1 Prozent. Zu den Insider-Verkäufen: Unter anderem verkaufte Chef William D Mosley Aktien im Wert von rund 10,3 Millionen Dollar, rund 17,4 Millionen Dollar sowie rund 75,6 Millionen Dollar. Zudem veräusserten Technikchef John Christopher Morris, Finanzchef Gianluca Romano und Vertriebschef Ban Seng Teh grössere Aktienpakete im Wert von rund 8,2 Millionen bis zu rund 41,2 Millionen Dollar. Generell ist zu beachten, dass Insider-Verkäufe oft weniger aussagekräftig sind als Käufe, da sie häufig steuerlich motiviert oder langfristig geplant sein können. Aussagen der Chefs liegen nicht vor. Widersprüche zwischen den Quellen wurden nicht festgestellt. Keine Anlageberatung.",
+   "id": "26734157b1",
+   "generated_at": "2026-10-21T11:21:13Z",
+   "audio": {
+    "file": "STX.mp3",
+    "hash": "d78f03086df3556c",
+    "dur": 187.2,
+    "engine": "edge"
+   }
   }
  ],
- "with_audio": 36,
+ "with_audio": 37,
  "intro_audio": {
   "file": "_intro.mp3",
-  "hash": "64822728771429a8",
-  "dur": 18.0,
+  "hash": "1181a937cdc88e0d",
+  "dur": 17.9,
   "engine": "edge"
  },
  "outro_audio": {
@@ -485,5 +498,5 @@
   "dur": 10.2,
   "engine": "edge"
  },
- "audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@1a93a39cefaa07cdecc6139faf2c65d9dcc77ecf/data/audio/"
+ "audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@54e4afe33302c668743cb84ddb86e2c56d6a5405/data/audio/"
 }
