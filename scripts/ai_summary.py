@@ -10,6 +10,7 @@ API = "https://generativelanguage.googleapis.com/v1beta"
 MODELS = ["gemini-3.5-flash-lite", "gemini-3.1-flash-lite", "gemini-2.5-flash-lite", "gemini-flash-lite-latest", "gemini-2.5-flash"]
 MAX_CALLS = int(os.environ.get("AI_MAX_CALLS", "12"))     # pro Lauf (Lauf alle 20 Min)
 MIN_AGE_H = float(os.environ.get("AI_MIN_AGE_H", "2"))    # fruehestens nach x Std neu, auch wenn neue Meldungen
+PROMPT_VERSION = 2   # erhoehen, wenn sich das Antwortformat aendert -> alle neu (gestaffelt)
 SLEEP_S = 6                                               # ~10 Anfragen/Min, unter dem Free-RPM
 
 # Kurzbeschreibungen bekannter Quellen (fuer Modell und App)
@@ -61,12 +62,18 @@ Antworte NUR mit JSON in genau dieser Form:
  "risiken":[{{"text":"...","quelle":"Name","nr":3,"rechtlich":true|false}}],
  "widersprueche":[{{"thema":"...","seiten":[{{"quelle":"Name","text":"...","nr":4}},{{"quelle":"Name","text":"...","nr":7}}]}}],
  "analysten":[{{"text":"...","quelle":"Name"}}],
+ "bewertungen":[{{"firma":"Bank/Analysehaus","datum":"JJJJ-MM-TT","rating":"...","kursziel":"350 USD","warum":"...","quelle":"Name","nr":5}}],
+ "firma_aktuell":{{"aufwertend":[{{"text":"...","quelle":"Name","nr":2}}],"abwertend":[{{"text":"...","quelle":"Name","nr":6}}]}},
+ "kennzahlen":[{{"name":"EBIT","wert":"+12 %","grund":"...","erklaerung":"...","wichtig":true|false,"quelle":"Name","nr":8}}],
  "vorlesetext":"..."}}
 - "nr" ist die Nummer der verwendeten Meldung (Feld "nr"), bei Analystendaten weglassen.
 - In kurzueberblick, risiken, widersprueche und analysten Zahlen als Ziffern schreiben (z.B. "578 USD", "+29,9 %"), kurz und sachlich.
 - kurzueberblick: 2-4 wichtigste Punkte. risiken: leer [], wenn nichts Negatives in den Meldungen steht. widersprueche: leer [], wenn sich keine Quellen widersprechen.
 - analysten: aus den Analystendaten (Quelle "Yahoo Finance") und Analysten-Meldungen.
-- vorlesetext: natürlich gesprochenes Deutsch, 140-220 Wörter (60-90 Sekunden), ganze Sätze, keine Listen, keine Abkürzungen wie "Mio.", "USD" oder "%" (schreibe "Prozent", "Millionen", "Dollar"), Zahlen gerundet, Quellen beim Namen nennen. Reihenfolge: kurzer Überblick, dann Risiken und Rechtliches (falls keine: "In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden."), dann Widersprüche, dann Analysten. Letzter Satz genau: "Keine Anlageberatung."
+- bewertungen: JEDE einzelne Analysten-Einstufung separat (aus "aenderungen" der Analystendaten und aus Analysten-Meldungen): firma, datum, rating (deutsch), kursziel (mit Währung, falls bekannt, sonst weglassen). "warum": höchstens 3 Sätze, WARUM die Bank so urteilt, mit den genannten Produkten oder Geschäftsbereichen – NUR wenn der Grund in einer Meldung steht, sonst "warum" weglassen. Höchstens 8, neueste zuerst.
+- firma_aktuell: was die Firma gerade macht (Produkte, Partner, Projekte, Pipeline wie Medikamente, neue Chips, Batterien, Aufträge). "aufwertend" = spricht für die Firma, "abwertend" = spricht gegen sie. Je höchstens 4, nur aus den Meldungen, jeweils mit Quelle und nr. Leer [], wenn nichts dazu in den Meldungen steht.
+- kennzahlen: NUR Kennzahlen, die in den Meldungen oder Analystendaten genannt werden (z. B. Umsatz, EBIT, Gewinn je Aktie/EPS, KGV, Dividende, Marge, Kursziel). "wert": Wert oder Veränderung wie genannt. "grund": ein Satz, warum (nur wenn genannt, sonst weglassen). "erklaerung": ein einfacher Satz, was die Kennzahl bedeutet und warum sie wichtig ist. "wichtig": true für besonders wichtige. Jede Kennzahl nur einmal. Leer [], wenn keine genannt wird.
+- vorlesetext: wie ein seriöser, erklärender Finanz-Podcast, natürlich gesprochenes Deutsch, 200-330 Wörter, ganze Sätze, keine Listen, keine Abkürzungen wie "Mio.", "USD", "EPS" oder "%" (schreibe "Prozent", "Millionen", "Dollar", "Gewinn je Aktie"), Zahlen gerundet. Beginne mit dem Firmennamen ("{name}: ..."). Sag immer, wer was sagt ("Die UBS sagt zu {name} ...", "Laut Reuters ..."). Nenne den Firmennamen in der Mitte nochmals ("Zurück zu {name}: ..."). Reihenfolge: kurzer Überblick, Risiken und Rechtliches (falls keine: "In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden."), Analysten-Bewertungen mit Begründung, was die Firma gerade macht (was aufwertet, was abwertet), wichtige Kennzahlen kurz erklärt, Widersprüche. Letzter Satz genau: "Keine Anlageberatung."
 
 DATEN (JSON):
 {data}"""
@@ -78,7 +85,7 @@ def _post(url, body, key, timeout=60):
 
 def call(model, prompt, key):
     body = {"contents": [{"role": "user", "parts": [{"text": prompt}]}],
-            "generationConfig": {"responseMimeType": "application/json", "temperature": 0.2, "maxOutputTokens": 2500}}
+            "generationConfig": {"responseMimeType": "application/json", "temperature": 0.2, "maxOutputTokens": 5000}}
     d = _post("%s/models/%s:generateContent" % (API, model), body, key)
     parts = (((d.get("candidates") or [{}])[0].get("content") or {}).get("parts") or [])
     txt = "".join(p.get("text", "") for p in parts if not p.get("thought"))
@@ -143,6 +150,32 @@ def clean(o, inp=None):
                     r = {"quelle": str(x.get("quelle") or ""), "text": str(x.get("text") or ""), "desc": describe(x.get("quelle"))}
                     tit(x, r); s.append(r)
             if len(s) >= 2: out["widersprueche"].append({"thema": str(w.get("thema") or ""), "seiten": s})
+    def ss(x): return str(x or "").strip().replace("ß", "ss")
+    def src(e, r):
+        q = ss(e.get("quelle")); r["quelle"] = q
+        d = describe(q) if q else None
+        if d: r["desc"] = d
+        tit(e, r)
+    out["bewertungen"] = []
+    for e in lst(o.get("bewertungen"))[:8]:
+        if not isinstance(e, dict) or not (e.get("firma") or e.get("rating")): continue
+        r = {k: ss(e.get(k)) for k in ("firma", "datum", "rating", "kursziel", "warum") if ss(e.get(k))}
+        src(e, r); out["bewertungen"].append(r)
+    fa = o.get("firma_aktuell") if isinstance(o.get("firma_aktuell"), dict) else {}
+    out["firma_aktuell"] = {}
+    for k in ("aufwertend", "abwertend"):
+        out["firma_aktuell"][k] = []
+        for e in lst(fa.get(k))[:4]:
+            if isinstance(e, dict) and e.get("text"):
+                r = {"text": ss(e["text"])}; src(e, r); out["firma_aktuell"][k].append(r)
+    out["kennzahlen"], seenk = [], set()
+    for e in lst(o.get("kennzahlen"))[:8]:
+        if not isinstance(e, dict) or not e.get("name") or not e.get("erklaerung"): continue
+        n = ss(e["name"])
+        if n.lower() in seenk: continue
+        seenk.add(n.lower())
+        r = {k: ss(e.get(k)) for k in ("name", "wert", "grund", "erklaerung") if ss(e.get(k))}
+        r["wichtig"] = bool(e.get("wichtig")); src(e, r); out["kennzahlen"].append(r)
     v = str(o.get("vorlesetext") or "").strip().replace("ß", "ss")
     if v and not v.rstrip().endswith("Keine Anlageberatung."): v = v.rstrip() + " Keine Anlageberatung."
     out["vorlesetext"] = v
@@ -166,14 +199,15 @@ def run(stocks, items, insights_by_sym, rel_fn, path, now, log=print):
         ins = insights_by_sym.get(sym) or {}
         inp = build_input(s, items, ins.get("analyst"), ins.get("analyst_news"), rel_fn(s), now)
         if not inp["meldungen"] and not inp["analystendaten_yahoo_finance"]: continue
-        h = hashlib.sha1(json.dumps({"n": [m["titel"] for m in inp["meldungen"]], "a": inp["analystendaten_yahoo_finance"].get("consensus")}, sort_keys=True).encode()).hexdigest()[:12]
+        h = hashlib.sha1(json.dumps({"v": PROMPT_VERSION, "n": [m["titel"] for m in inp["meldungen"]], "a": inp["analystendaten_yahoo_finance"].get("consensus"),
+                                     "c": [(c.get("firm"), c.get("date")) for c in (inp["analystendaten_yahoo_finance"].get("aenderungen") or [])]}, sort_keys=True).encode()).hexdigest()[:12]
         c = cache.get(sym)
         if c and c.get("input_hash") == h: continue
         age = 1e9
         if c and c.get("generated_at"):
             age = (now - datetime.strptime(c["generated_at"], "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)).total_seconds() / 3600
-        if age < MIN_AGE_H: continue
-        jobs.append((-age, sym, s, inp, h))
+        if age < MIN_AGE_H and c and c.get("v") == PROMPT_VERSION: continue
+        jobs.append((-age - (1e6 if not (c and c.get("v") == PROMPT_VERSION) and c else 0), sym, s, inp, h))
     jobs.sort(key=lambda j: j[0])   # aelteste/fehlende zuerst
     if not key:
         log("KI: kein GEMINI_API_KEY, uebersprungen (%d waeren faellig)" % len(jobs))
@@ -188,7 +222,7 @@ def run(stocks, items, insights_by_sym, rel_fn, path, now, log=print):
                 calls += 1
                 o, usage = call(m, prompt, key)
                 r = clean(o, inp)
-                r.update({"generated_at": now.strftime("%Y-%m-%dT%H:%M:%SZ"), "model": m, "input_hash": h,
+                r.update({"generated_at": now.strftime("%Y-%m-%dT%H:%M:%SZ"), "model": m, "input_hash": h, "v": PROMPT_VERSION,
                           "n_meldungen": len(inp["meldungen"])})
                 r["id"] = hashlib.sha1(r["vorlesetext"].encode()).hexdigest()[:10]
                 cache[sym] = r; model_ok = m; done = True

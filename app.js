@@ -103,6 +103,7 @@ function loadData() {
     if (mx !== last || ch) { S.addSeen = mx; saveState(); }
   }, function () {}));
   jobs.push(getJSON('data/audio/index.json').then(function (d) { AUD = d; }, function () {}));
+  jobs.push(podLoad());
   return Promise.all(jobs.map(function (j, i) { return j.then(function () { return null; }, function (e) { return { i: i, e: e }; }); })).then(function (res) {
     dataErrors = []; disTitles = null;
     var keys = ['ar.cache.wl', 'ar.cache.q', 'ar.cache.n'];
@@ -215,7 +216,7 @@ function statusLine() {
 }
 
 function viewHome() {
-  var list = stockList(), h = '';
+  var list = stockList(), h = podHtml();
   h += '<div class="bar"><select id="sortSel" aria-label="Sortierung">' +
     '<option value="eigene">Eigene Reihenfolge</option><option value="az">Name A-Z</option><option value="sektor">Nach Sektor</option><option value="tag">Tagesveränderung</option></select>' +
     '<button id="reloadBtn" class="small">Aktualisieren</button></div>';
@@ -256,6 +257,7 @@ function viewHome() {
   hq.oninput = function () { try { sessionStorage.setItem('ar_q', hq.value); } catch (e) {} homeFilter(); };
   $('hqX').onclick = function () { hq.value = ''; hq.oninput(); hq.focus(); };
   homeFilter();
+  bindPod();
 }
 function homeFilter() {
   var hq = $('hq'); if (!hq) return;
@@ -373,7 +375,26 @@ function aiHtml(sym, s) {
     for (var i = 0; i < a.widersprueche.length; i++) { var w = a.widersprueche[i];
       h += '<div class="wid"><span class="dis">Die Quellen sind sich uneinig</span> <b>' + esc(w.thema) + '</b>' + stmtList(w.seiten.map(function (x) { return { text: x.text, quelle: x.quelle, desc: x.desc }; })) + '</div>'; }
   } else h += '<h3>Widersprüche zwischen Quellen</h3><p class="sumt">Keine Widersprüche in den vorliegenden Meldungen.</p>';
-  if (a.analysten && a.analysten.length) h += '<h3>Analysten</h3>' + stmtList(a.analysten);
+  if (a.analysten && a.analysten.length && !(a.bewertungen && a.bewertungen.length)) h += '<h3>Analysten</h3>' + stmtList(a.analysten);
+  if (a.bewertungen && a.bewertungen.length) {
+    h += '<h3>Analysten-Bewertungen</h3>';
+    for (var bi = 0; bi < a.bewertungen.length; bi++) { var b = a.bewertungen[bi];
+      h += '<div class="bew"><div><b>' + esc(b.firma || 'Analyst') + '</b>' + (b.datum ? ' <span class="tiny">' + esc(String(b.datum).replace(/^(\d{4})-(\d\d)-(\d\d)$/, '$3.$2.$1')) + '</span>' : '') + '</div>' +
+        '<div>' + (b.rating ? '<span class="rat">' + esc(b.rating) + '</span>' : '') + (b.kursziel ? ' Kursziel <b>' + esc(b.kursziel) + '</b>' : '') + '</div>' +
+        (b.warum ? '<div class="sumt">' + esc(b.warum) + '</div>' : '') + '<div>' + srcSpan(b) + '</div></div>'; }
+  }
+  var fa = a.firma_aktuell || {};
+  if ((fa.aufwertend && fa.aufwertend.length) || (fa.abwertend && fa.abwertend.length)) {
+    h += '<h3>Was die Firma gerade macht</h3>';
+    if (fa.aufwertend && fa.aufwertend.length) h += '<div class="auf"><b>▲ Wertet auf</b>' + stmtList(fa.aufwertend) + '</div>';
+    if (fa.abwertend && fa.abwertend.length) h += '<div class="ab"><b>▼ Wertet ab</b>' + stmtList(fa.abwertend) + '</div>';
+  }
+  if (a.kennzahlen && a.kennzahlen.length) {
+    h += '<h3>Kennzahlen kurz erklärt</h3>';
+    for (var ki = 0; ki < a.kennzahlen.length; ki++) { var k = a.kennzahlen[ki];
+      h += '<div class="kz' + (k.wichtig ? ' wichtig' : '') + '"><div>' + (k.wichtig ? '🚨 ' : '') + '<b>' + esc(k.name) + '</b>' + (k.wert ? ': ' + esc(k.wert) : '') + '</div>' +
+        (k.grund ? '<div class="sumt">' + esc(k.grund) + '</div>' : '') + (k.erklaerung ? '<div class="tiny">Erklärt: ' + esc(k.erklaerung) + '</div>' : '') + '<div>' + srcSpan(k) + '</div></div>'; }
+  }
   h += '<p class="tiny">Von einer KI (Google Gemini) neutral aus ' + (a.n_meldungen || 'den') + ' Schlagzeilen und den Analystendaten zusammengefasst, Stand ' + esc(ago(a.generated_at)) + '. Nur Schlagzeilen ausgewertet, Fehler möglich. Keine Anlageberatung.</p></div>';
   return h;
 }
@@ -941,4 +962,103 @@ function bindAsk(s) {
   };
 }
 
+/* ===== Podcast: alle Aktien am Stück (data/podcast.json), Segment für Segment ===== */
+var POD = { doc: null, segs: [], i: 0, sents: [], si: 0, t: 0, playing: false, tok: 0, el: null, gen: null };
+function podLoad() {
+  return getJSON('data/podcast.json').then(function (d) { POD.doc = d; }, function () { POD.doc = null; });
+}
+function podBuild() {
+  var d = POD.doc || {}, map = {}, segs = [], l = orderedList(), i;
+  (d.segments || []).forEach(function (x) { map[x.symbol] = x; });
+  for (i = 0; i < l.length; i++) {
+    var s = l[i], x = map[s.symbol], sp = speechFor(s.symbol, s);
+    var text = x ? x.text : (sp.ai ? (sp.text.toLowerCase().indexOf(s.name.toLowerCase()) === 0 ? sp.text : s.name + ': ' + sp.text) : null);
+    if (!text) continue;
+    var au = audioFor(s.symbol, sp);
+    segs.push({ sym: s.symbol, name: s.name, text: text, audio: (x && au) ? au : null });
+  }
+  var n = segs.length;
+  segs.unshift({ sym: '_intro', name: 'Einleitung', text: d.intro || ('Willkommen beim Aktien-Radar. Heute geht es um ' + n + ' Aktien aus deiner Liste. Alles stammt aus den gesammelten Meldungen. Keine Anlageberatung.') });
+  segs.push({ sym: '_outro', name: 'Schluss', text: d.outro || 'Das war der Aktien-Radar-Überblick. Keine Anlageberatung.' });
+  POD.segs = segs; POD.gen = (d.generated_at || '') + '|' + segs.map(function (x) { return x.sym; }).join(',');
+}
+function podSave() { lsSet('ar.pod', JSON.stringify({ gen: POD.gen, sym: POD.segs[POD.i] && POD.segs[POD.i].sym, si: POD.si, t: POD.t })); }
+function podRestore() {
+  var o = null; try { o = JSON.parse(lsGet('ar.pod') || 'null'); } catch (e) {}
+  POD.i = 0; POD.si = 0; POD.t = 0;
+  if (!o) return;
+  for (var i = 0; i < POD.segs.length; i++) if (POD.segs[i].sym === o.sym) { POD.i = i; if (o.gen === POD.gen) { POD.si = o.si || 0; POD.t = o.t || 0; } }
+}
+function podUI() {
+  var b = $('podBtn'); if (b) b.textContent = POD.playing ? '❚❚ Podcast pausieren' : ((POD.i > 0 || POD.si > 0 || POD.t > 0) ? '🎙 Podcast fortsetzen' : '🎙 Zusammenfassung Podcast');
+  var c = $('podCtl'); if (!c) return;
+  var seg = POD.segs[POD.i];
+  c.hidden = !POD.segs.length || (!POD.playing && POD.i === 0 && POD.si === 0 && !POD.t);
+  if ($('podNow')) $('podNow').textContent = seg ? 'Jetzt: ' + seg.name : '';
+  if ($('podInfo')) $('podInfo').textContent = seg ? ((POD.i) + ' / ' + (POD.segs.length - 2) + ' Aktien · ' + (seg.audio ? 'Gemini-Stimme' : 'Gerätestimme')) : '';
+  if ($('podPP')) $('podPP').textContent = POD.playing ? '❚❚' : '▶';
+}
+function podMeta() {
+  if (!('mediaSession' in navigator)) return;
+  var seg = POD.segs[POD.i];
+  try {
+    navigator.mediaSession.metadata = new MediaMetadata({ title: 'Jetzt: ' + (seg ? seg.name : ''), artist: 'Aktien-Radar Podcast', album: 'Zusammenfassung' });
+    navigator.mediaSession.playbackState = POD.playing ? 'playing' : 'paused';
+    navigator.mediaSession.setActionHandler('play', function () { podPlay(); });
+    navigator.mediaSession.setActionHandler('pause', function () { podPause(); });
+    navigator.mediaSession.setActionHandler('previoustrack', function () { podJump(-1); });
+    navigator.mediaSession.setActionHandler('nexttrack', function () { podJump(1); });
+  } catch (e) {}
+}
+function podHalt() { POD.tok++; try { if (POD.el) POD.el.pause(); } catch (e) {} try { window.speechSynthesis && window.speechSynthesis.cancel(); } catch (e) {} }
+function podNext() { POD.i++; POD.si = 0; POD.t = 0; if (POD.i >= POD.segs.length) { POD.playing = false; POD.i = 0; podSave(); podUI(); podMeta(); return; } podSave(); podRun(); }
+function podRun() {
+  var seg = POD.segs[POD.i], tok = ++POD.tok; if (!seg) return;
+  podUI(); podMeta();
+  if (seg.audio) {
+    if (!POD.el) { POD.el = new Audio(); POD.el.preload = 'auto'; }
+    var a = POD.el, src = 'data/audio/' + encodeURIComponent(seg.audio.file) + '?v=' + seg.audio.hash, last = 0;
+    if (a.dataset.src !== src) { a.src = src; a.dataset.src = src; }
+    var seek = function () { try { if (Math.abs(a.currentTime - POD.t) > 1) a.currentTime = POD.t; } catch (e) {} };
+    a.onloadedmetadata = seek;
+    a.ontimeupdate = function () { if (tok !== POD.tok) return; POD.t = a.currentTime; if (Math.abs(POD.t - last) > 2) { last = POD.t; podSave(); } };
+    a.onended = function () { if (tok === POD.tok && POD.playing) podNext(); };
+    a.onerror = function () { if (tok !== POD.tok) return; seg.audio = null; POD.t = 0; podRun(); };
+    seek(); var pr = a.play(); if (pr && pr.catch) pr.catch(function () { if (tok !== POD.tok) return; POD.playing = false; podUI(); podMeta(); });
+    return;
+  }
+  var ss = window.speechSynthesis; if (!ss) { POD.playing = false; podUI(); return; }
+  POD.sents = splitSents(seg.text);
+  if (POD.si >= POD.sents.length) { podNext(); return; }
+  var u = new SpeechSynthesisUtterance(POD.sents[POD.si]), v = pickVoice();
+  u.lang = v ? v.lang : 'de-DE'; if (v) u.voice = v; u.rate = 0.95;
+  u.onend = function () { if (tok !== POD.tok || !POD.playing) return; POD.si++; podSave(); podRun(); };
+  u.onerror = function () { if (tok !== POD.tok) return; POD.playing = false; podUI(); podMeta(); };
+  ss.speak(u);
+}
+function podPlay() {
+  if (!POD.segs.length) podBuild();
+  if (P.playing) { plStopSpeech(); P.playing = false; try { plSave(); plUI(); } catch (e) {} }
+  POD.playing = true; podRun();
+}
+function podPause() { if (!POD.playing) return; POD.playing = false; podHalt(); podSave(); podUI(); podMeta(); }
+function podJump(d) {
+  var was = POD.playing; podHalt();
+  POD.i = Math.max(0, Math.min(POD.segs.length - 1, POD.i + d)); POD.si = 0; POD.t = 0; podSave();
+  if (was) { POD.playing = true; podRun(); } else { podUI(); podMeta(); }
+}
+function podHtml() {
+  return '<button type="button" id="podBtn" class="podBtn">🎙 Zusammenfassung Podcast</button>' +
+    '<div id="podCtl" class="podCtl" hidden><div><b id="podNow"></b> <span id="podInfo" class="tiny"></span></div>' +
+    '<div class="podRow"><button type="button" id="podPrev" aria-label="Vorherige Aktie">⏮</button><button type="button" id="podPP" class="primary" aria-label="Play/Pause">▶</button><button type="button" id="podNext" aria-label="Nächste Aktie">⏭</button></div></div>';
+}
+function bindPod() {
+  if (!$('podBtn')) return;
+  if (!POD.playing) { podBuild(); podRestore(); }
+  $('podBtn').onclick = function () { POD.playing ? podPause() : podPlay(); };
+  $('podPP').onclick = function () { POD.playing ? podPause() : podPlay(); };
+  $('podPrev').onclick = function () { podJump(-1); };
+  $('podNext').onclick = function () { podJump(1); };
+  podUI();
+}
 })();

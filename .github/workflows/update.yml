@@ -40,6 +40,9 @@ jobs:
         run: |
           command -v ffmpeg || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null)
           python scripts/tts.py
+      - name: Podcast-Skript bauen
+        continue-on-error: true
+        run: python scripts/podcast.py
       - name: Aenderungen committen
         run: |
           git config user.name "aktien-radar-bot"
@@ -47,6 +50,7 @@ jobs:
           git add data/quotes.json data/news.json data/insights.json data/translations.json
           if [ -f data/ai.json ]; then git add data/ai.json; fi
           if [ -d data/audio ]; then git add data/audio; fi
+          if [ -f data/podcast.json ]; then git add data/podcast.json; fi
           if git diff --cached --quiet; then echo "keine Aenderung"; exit 0; fi
           git commit -m "Daten $(date -u +%Y-%m-%dT%H:%MZ)"
           git pull --rebase -q
