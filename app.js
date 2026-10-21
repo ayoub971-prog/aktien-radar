@@ -361,7 +361,7 @@ function speechFor(sym, s) {
 function hashStr(t) { var h = 0; for (var i = 0; i < t.length; i++) h = (h * 31 + t.charCodeAt(i)) | 0; return (h >>> 0).toString(36); }
 function aiHtml(sym, s) {
   var a = aiOf(sym), h = '<div class="card ai"><h3 style="margin-top:0">Zusammenfassung der Quellen</h3>';
-  h += '<div class="player" id="pl"><button id="plPlay" class="primary">▶ Vorlesen</button><button id="plPause" hidden>❚❚ Pause</button><button id="plStop" hidden>■ Stop</button><span id="plNew" class="new" hidden>Neu</span><span id="plInfo" class="tiny"></span></div>';
+  h += '<div class="player" id="pl"><button id="plPlay" class="primary">▶ Vorlesen</button><button id="plPause" hidden>❚❚ Pause</button><button id="plStop" hidden>■ Stop</button><span id="plNew" class="new" hidden>Neu</span><span id="plInfo" class="tiny"></span>' + rateHtml() + '<button type="button" class="txtBtn" data-txt="' + esc(sym) + '">📄 Als Text / PDF</button></div>';
   h += '<a class="backTop" href="' + backHash() + '">← Zurück zur Aktie in der Liste</a>';
   h += '<button type="button" id="askJump" style="display:block;width:100%;margin:8px 0 4px">🤖 KI fragen</button>';
   if (!a) {
@@ -443,14 +443,14 @@ function plAudioPlay() {
   a.onended = function () { if (tok !== P.tok) return; P.playing = false; P.t = 0; posSet(P.sym, { id: P.id, idx: 0, t: 0, heard: true }); plUI(); };
   a.onerror = function () { if (tok !== P.tok) return; P.audio = null; P.playing = true; plSpeak(); };   // Datei fehlt: Geraetestimme
   seek();
-  var pr = a.play(); if (pr && pr.catch) pr.catch(function () { if (tok !== P.tok) return; P.playing = false; plUI(); });
+  applyRate(a); var pr = a.play(); if (pr && pr.catch) pr.catch(function () { if (tok !== P.tok) return; P.playing = false; plUI(); });
   plUI();
 }
 function plSpeak() {
   var ss = window.speechSynthesis; if (!ss) return;
   if (P.idx >= P.sents.length) { P.playing = false; P.idx = 0; posSet(P.sym, { id: P.id, idx: 0, heard: true }); plUI(); return; }
   var tok = ++P.tok, u = new SpeechSynthesisUtterance(P.sents[P.idx]), v = pickVoice();
-  u.lang = v ? v.lang : 'de-DE'; if (v) u.voice = v; u.rate = 0.95;
+  u.lang = v ? v.lang : 'de-DE'; if (v) u.voice = v; u.rate = speechRate();
   u.onend = function () { if (tok !== P.tok || !P.playing) return; P.idx++; plSave(); plSpeak(); };
   u.onerror = function () { if (tok !== P.tok) return; P.playing = false; plUI(); };
   ss.speak(u); plUI();
@@ -1045,14 +1045,14 @@ function podRun() {
     a.ontimeupdate = function () { if (tok !== POD.tok) return; POD.t = a.currentTime; if (Math.abs(POD.t - last) > 2) { last = POD.t; podSave(); } };
     a.onended = function () { if (tok === POD.tok && POD.playing) podNext(); };
     a.onerror = function () { if (tok !== POD.tok) return; seg.audio = null; POD.t = 0; podRun(); };
-    seek(); var pr = a.play(); if (pr && pr.catch) pr.catch(function () { if (tok !== POD.tok) return; POD.playing = false; podUI(); podMeta(); });
+    seek(); applyRate(a); var pr = a.play(); if (pr && pr.catch) pr.catch(function () { if (tok !== POD.tok) return; POD.playing = false; podUI(); podMeta(); });
     return;
   }
   var ss = window.speechSynthesis; if (!ss) { POD.playing = false; podUI(); return; }
   POD.sents = splitSents(seg.text);
   if (POD.si >= POD.sents.length) { podNext(); return; }
   var u = new SpeechSynthesisUtterance(POD.sents[POD.si]), v = pickVoice();
-  u.lang = v ? v.lang : 'de-DE'; if (v) u.voice = v; u.rate = 0.95;
+  u.lang = v ? v.lang : 'de-DE'; if (v) u.voice = v; u.rate = speechRate();
   u.onend = function () { if (tok !== POD.tok || !POD.playing) return; POD.si++; podSave(); podRun(); };
   u.onerror = function () { if (tok !== POD.tok) return; POD.playing = false; podUI(); podMeta(); };
   ss.speak(u);
@@ -1071,7 +1071,8 @@ function podJump(d) {
 function podHtml() {
   return '<button type="button" id="podBtn" class="podBtn">🎙 Zusammenfassung Podcast</button>' +
     '<div id="podCtl" class="podCtl" hidden><div><b id="podNow"></b> <span id="podInfo" class="tiny"></span></div>' +
-    '<div class="podRow"><button type="button" id="podPrev" aria-label="Vorherige Aktie">⏮</button><button type="button" id="podPP" class="primary" aria-label="Play/Pause">▶</button><button type="button" id="podNext" aria-label="Nächste Aktie">⏭</button></div></div>';
+    '<div class="podRow"><button type="button" id="podPrev" aria-label="Vorherige Aktie">⏮</button><button type="button" id="podPP" class="primary" aria-label="Play/Pause">▶</button><button type="button" id="podNext" aria-label="Nächste Aktie">⏭</button></div>' + rateHtml() + '</div>' +
+    '<button type="button" class="txtBtn" data-txt="pod">📄 Als Text / PDF</button>';
 }
 function bindPod() {
   if (!$('podBtn')) return;
@@ -1081,5 +1082,85 @@ function bindPod() {
   $('podPrev').onclick = function () { podJump(-1); };
   $('podNext').onclick = function () { podJump(1); };
   podUI();
+}
+/* ===== Tempo (alle Audios) ===== */
+var RATE = (function () { var r = parseFloat(lsGet('ar.rate')); return r >= 0.75 && r <= 2 ? r : 1; })();
+function applyRate(el) { if (!el) return; try { el.preservesPitch = true; el.webkitPreservesPitch = true; el.defaultPlaybackRate = RATE; el.playbackRate = RATE; } catch (e) {} }
+function speechRate() { return Math.min(2, 0.95 * RATE); }
+function rateFmt(r) { return (Math.round(r * 100) / 100).toString().replace('.', ',') + '×'; }
+function setRate(r) {
+  RATE = Math.max(0.75, Math.min(2, Math.round(r * 20) / 20)); lsSet('ar.rate', String(RATE));
+  applyRate(AEL); applyRate(POD.el);
+  var sl = document.querySelectorAll('.rateSl'), vl = document.querySelectorAll('.rateV'), i;
+  for (i = 0; i < sl.length; i++) sl[i].value = RATE;
+  for (i = 0; i < vl.length; i++) vl[i].textContent = rateFmt(RATE);
+}
+function rateHtml() {
+  return '<div class="rate"><div class="rateTop"><span class="tiny">Tempo</span> <b class="rateV">' + rateFmt(RATE) + '</b></div>' +
+    '<input type="range" class="rateSl" min="0.75" max="2" step="0.05" value="' + RATE + '" aria-label="Tempo">' +
+    '<div class="rateQ">' + [1, 1.25, 1.5, 2].map(function (r) { return '<button type="button" data-rate="' + r + '">' + rateFmt(r) + '</button>'; }).join('') + '</div></div>';
+}
+document.addEventListener('input', function (e) { if (e.target.classList && e.target.classList.contains('rateSl')) setRate(parseFloat(e.target.value)); });
+document.addEventListener('click', function (e) {
+  var b = e.target.closest && e.target.closest('[data-rate]'); if (b) { setRate(parseFloat(b.getAttribute('data-rate'))); return; }
+  var t = e.target.closest && e.target.closest('[data-txt]'); if (t) { txtMenu(t.getAttribute('data-txt')); }
+});
+/* ===== Als Text / PDF ===== */
+function txtDoc(what) {
+  if (what === 'pod') {
+    if (!POD.segs.length) podBuild();
+    return { title: 'Aktien-Radar Podcast', parts: POD.segs.map(function (g) { return { h: g.name, t: g.text }; }) };
+  }
+  var s = null, l = stockList(); for (var i = 0; i < l.length; i++) if (l[i].symbol === what) s = l[i];
+  return { title: (s ? s.name : what) + ' – Aktien-Radar', parts: [{ h: s ? s.name + ' (' + what + ')' : what, t: speechFor(what, s).text }] };
+}
+function txtPlain(d) { return d.title + '\n\n' + d.parts.map(function (p) { return p.h + '\n' + p.t; }).join('\n\n'); }
+function ovl(html) {
+  var o = document.createElement('div'); o.className = 'ovl'; o.innerHTML = '<div class="ovlIn">' + html + '</div>';
+  o.addEventListener('click', function (e) { if (e.target === o || (e.target.closest && e.target.closest('.ovlX'))) o.remove(); });
+  document.body.appendChild(o); return o;
+}
+function txtMenu(what) {
+  var o = ovl('<h3 style="margin-top:0">📄 Als Text / PDF</h3><button type="button" class="primary big" id="txShow">Text anzeigen</button><button type="button" class="big" id="txPdf">PDF speichern</button><button type="button" class="ovlX big">Abbrechen</button><p class="tiny" id="txMsg"></p>');
+  o.querySelector('#txShow').onclick = function () { o.remove(); txtShow(what); };
+  o.querySelector('#txPdf').onclick = function () { o.querySelector('#txMsg').textContent = 'PDF wird erstellt …'; txtPdf(what).then(function (m) { o.querySelector('#txMsg').textContent = m || ''; if (!m) o.remove(); }); };
+}
+function txtShow(what) {
+  var d = txtDoc(what), h = '<button type="button" class="primary big" id="txCopy">📋 Alles kopieren</button><p class="tiny" id="txOk"></p><h2>' + esc(d.title) + '</h2>';
+  d.parts.forEach(function (p) { h += '<h3>' + esc(p.h) + '</h3><p class="txP">' + esc(p.t) + '</p>'; });
+  h += '<button type="button" class="ovlX big">Schliessen</button>';
+  var o = ovl(h); o.classList.add('full');
+  o.querySelector('#txCopy').onclick = function () {
+    var t = txtPlain(d), ok = function () { o.querySelector('#txOk').textContent = '✓ Kopiert – jetzt z. B. in Notizen einfügen.'; };
+    var fb = function () { var ta = document.createElement('textarea'); ta.value = t; ta.setAttribute('readonly', ''); ta.style.position = 'fixed'; ta.style.top = '0'; ta.style.opacity = '0'; document.body.appendChild(ta); ta.focus(); ta.setSelectionRange(0, t.length); var r = false; try { r = document.execCommand('copy'); } catch (e) {} ta.remove(); r ? ok() : (o.querySelector('#txOk').textContent = 'Kopieren nicht möglich – Text lange drücken und „Alles auswählen“.'); };
+    if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(t).then(ok, fb); else fb();
+  };
+}
+var JSPDF = null;
+function loadJsPdf() {
+  if (JSPDF) return JSPDF;
+  JSPDF = new Promise(function (res, rej) { var s = document.createElement('script'); s.src = 'vendor/jspdf.umd.min.js'; s.onload = function () { res(window.jspdf.jsPDF); }; s.onerror = function () { JSPDF = null; rej(); }; document.head.appendChild(s); });
+  return JSPDF;
+}
+function pdfSafe(t) { return String(t).replace(/[\u2018\u2019\u201A]/g, "'").replace(/[\u201C\u201D\u201E«»]/g, '"').replace(/[\u2013\u2014]/g, '-').replace(/\u2026/g, '...').replace(/[^\x00-\xFF]/g, ''); }
+function txtPdf(what) {
+  var d = txtDoc(what);
+  return loadJsPdf().then(function (J) {
+    var doc = new J({ unit: 'mm', format: 'a4' }), W = 210, M = 18, y = M, LH = 6;
+    var line = function (txt, size, bold, gap) {
+      doc.setFont('helvetica', bold ? 'bold' : 'normal'); doc.setFontSize(size);
+      var ls = doc.splitTextToSize(pdfSafe(txt), W - 2 * M), lh = size * 0.45;
+      for (var i = 0; i < ls.length; i++) { if (y + lh > 297 - M) { doc.addPage(); y = M; } doc.text(ls[i], M, y); y += lh; }
+      y += gap || 0;
+    };
+    line(d.title, 20, true, 2);
+    line('Stand ' + new Date().toLocaleString('de-CH') + ' · Nur aus gesammelten Quellen zusammengefasst. Keine Anlageberatung.', 9, false, 6);
+    d.parts.forEach(function (p) { if (y > 297 - M - 30) { doc.addPage(); y = M; } doc.setDrawColor(31, 157, 85); doc.setLineWidth(0.6); doc.line(M, y - 4, W - M, y - 4); line(p.h, 14, true, 1); line(p.t, 11, false, 6); });
+    var name = (what === 'pod' ? 'Aktien-Radar-Podcast' : 'Aktien-Radar-' + what.replace(/[^A-Za-z0-9.-]/g, '_')) + '.pdf';
+    var blob = doc.output('blob'), file = null;
+    try { file = new File([blob], name, { type: 'application/pdf' }); } catch (e) {}
+    if (file && navigator.canShare && navigator.canShare({ files: [file] })) return navigator.share({ files: [file], title: d.title }).then(function () { return ''; }, function () { return 'Teilen abgebrochen.'; });
+    var a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = name; document.body.appendChild(a); a.click(); a.remove(); return '';
+  }, function () { return 'PDF-Werkzeug konnte nicht geladen werden (offline?).'; });
 }
 })();
