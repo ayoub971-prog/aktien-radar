@@ -25,13 +25,14 @@
   },
   "HY9H.MU": {
    "file": "HY9H.MU.mp3",
-   "hash": "89276e6d4746eed4",
-   "th": "69eb438486437fb8",
-   "id": "69eb438486",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
-   "dur": 118.1,
-   "at": "2026-10-21T07:09:43Z"
+   "hash": "b6af8a24a3599ea7",
+   "th": "6d310533752be6f6",
+   "engine": "gemini",
+   "id": "6d31053375",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
+   "dur": 120.3,
+   "at": "2026-10-21T08:09:44Z"
   },
   "AVGO": {
    "file": "AVGO.mp3",
@@ -176,13 +177,14 @@
   },
   "WNRG.SW": {
    "file": "WNRG.SW.mp3",
-   "hash": "7bb300da54c8b119",
-   "th": "4ac67ccfa3d69976",
-   "id": "4ac67ccfa3",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
-   "dur": 101.2,
-   "at": "2026-10-21T07:13:49Z"
+   "hash": "d3db3fd6c73735cf",
+   "th": "2855aaf08c2f7a6c",
+   "engine": "gemini",
+   "id": "2855aaf08c",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
+   "dur": 76.9,
+   "at": "2026-10-21T08:10:35Z"
   },
   "BE": {
    "file": "BE.mp3",
@@ -196,13 +198,14 @@
   },
   "HYLN": {
    "file": "HYLN.mp3",
-   "hash": "c36d2c7b1217728c",
-   "th": "d259735c57f056fd",
-   "id": "d259735c57",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
-   "dur": 122.3,
-   "at": "2026-10-21T07:14:11Z"
+   "hash": "f6b240ddc00e6bfb",
+   "th": "51b164f04d393c54",
+   "engine": "gemini",
+   "id": "51b164f04d",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
+   "dur": 84.2,
+   "at": "2026-10-21T08:11:36Z"
   },
   "SMEGF": {
    "file": "SMEGF.mp3",
@@ -216,33 +219,33 @@
   },
   "OKLO": {
    "file": "OKLO.mp3",
-   "hash": "bf14cbbe25fbd107",
-   "th": "b2852c3bc8a49a0d",
-   "id": "b2852c3bc8",
+   "hash": "7f38131c38012fe5",
+   "th": "e5ba450b6f2a0265",
+   "id": "e5ba450b6f",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
-   "dur": 168.4,
-   "at": "2026-10-21T07:14:48Z"
+   "dur": 152.9,
+   "at": "2026-10-21T08:11:58Z"
   },
   "RYCEY": {
    "file": "RYCEY.mp3",
-   "hash": "d8714c018f8de359",
-   "th": "850e371653e456a2",
-   "id": "850e371653",
+   "hash": "ce107c9c60b8dd30",
+   "th": "9d1a504e5af3d156",
+   "id": "9d1a504e5a",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
-   "dur": 113.9,
-   "at": "2026-10-21T07:15:03Z"
+   "dur": 116.5,
+   "at": "2026-10-21T08:12:13Z"
   },
   "GEV": {
    "file": "GEV.mp3",
-   "hash": "7a721c5822f89505",
-   "th": "2df4fab93df68811",
-   "id": "2df4fab93d",
+   "hash": "d53b179d7c8e0158",
+   "th": "0ece5927aca3d8f5",
+   "id": "0ece5927ac",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
-   "dur": 123.3,
-   "at": "2026-10-21T07:15:15Z"
+   "dur": 151.3,
+   "at": "2026-10-21T08:12:26Z"
   },
   "GE": {
    "file": "GE.mp3",
@@ -276,13 +279,13 @@
   },
   "BKW.SW": {
    "file": "BKW.SW.mp3",
-   "hash": "2d2567b0caefd3ab",
-   "th": "b87f17b4b3f4952c",
-   "id": "b87f17b4b3",
+   "hash": "a8dafd97e725cd75",
+   "th": "4d451cbc1205b13f",
+   "id": "4d451cbc12",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
-   "dur": 139.7,
-   "at": "2026-10-21T07:16:08Z"
+   "dur": 93.8,
+   "at": "2026-10-21T08:12:35Z"
   },
   "UBSG.SW": {
    "file": "UBSG.SW.mp3",
@@ -316,13 +319,13 @@
   },
   "013A.F": {
    "file": "013A.F.mp3",
-   "hash": "9c51989f819761fe",
-   "th": "22bf14e7edd3acdd",
-   "id": "22bf14e7ed",
+   "hash": "e259d919dddf255a",
+   "th": "401008d7573f144b",
+   "id": "401008d757",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
-   "dur": 120.8,
-   "at": "2026-10-21T07:16:50Z"
+   "dur": 106.5,
+   "at": "2026-10-21T08:12:45Z"
   },
   "NVDA": {
    "file": "NVDA.mp3",
@@ -366,9 +369,9 @@
   }
  },
  "status": "ok",
- "checked_at": "2026-10-21T07:53:35Z",
+ "checked_at": "2026-10-21T08:12:45Z",
  "quota_until": 1792566877.4018438,
- "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@ace995df1525397d6b024e5524df2fce003ec821/data/audio/",
+ "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@d995e95b63a3714833cc7d0f4d088f729a411835/data/audio/",
  "extra": {
   "intro": {
    "file": "_intro.mp3",
