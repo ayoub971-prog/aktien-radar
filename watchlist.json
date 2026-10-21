@@ -261,6 +261,13 @@
       "sector": "Konsum/Internet",
       "q_de": "BYD Aktie",
       "q_en": "BYD Company stock"
+    },
+    {
+      "symbol": "AAPL",
+      "name": "Apple Inc.",
+      "sector": "Software/KI",
+      "q_de": "Apple Inc. Aktie",
+      "q_en": "Apple Inc. stock"
     }
   ],
   "market_topics": [
