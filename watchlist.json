@@ -275,6 +275,13 @@
       "sector": "Industrie/Luftfahrt",
       "q_de": "ABB LTD Aktie",
       "q_en": "ABB LTD stock"
+    },
+    {
+      "symbol": "STX",
+      "name": "Seagate Technology Holdings PLC",
+      "sector": "Halbleiter/Hardware",
+      "q_de": "Seagate Technology Holdings PLC Aktie",
+      "q_en": "Seagate Technology Holdings PLC stock"
     }
   ],
   "market_topics": [
