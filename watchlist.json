@@ -282,6 +282,13 @@
       "sector": "Halbleiter/Hardware",
       "q_de": "Seagate Technology Holdings PLC Aktie",
       "q_en": "Seagate Technology Holdings PLC stock"
+    },
+    {
+      "symbol": "MU",
+      "name": "Micron Technology, Inc.",
+      "sector": "Halbleiter/Hardware",
+      "q_de": "Micron Technology, Inc. Aktie",
+      "q_en": "Micron Technology, Inc. stock"
     }
   ],
   "market_topics": [
