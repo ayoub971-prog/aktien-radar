@@ -731,7 +731,7 @@ document.addEventListener('click', function (e) {
   if (b.getAttribute('data-mv')) { e.preventDefault(); e.stopPropagation(); move(sym, b.getAttribute('data-mv')); route(); }
   else if (b.getAttribute('data-del')) {
     var inDef = ((DEF && DEF.stocks) || []).some(function (x) { return x.symbol === sym; });
-    if (!confirm(inDef ? sym + ' dauerhaft entfernen?\n\nDanach öffnet sich GitHub: dort nur auf den grünen Knopf tippen.' : sym + ' aus der Liste entfernen?')) return;
+    if (!confirm(inDef ? sym + ' dauerhaft entfernen?\n\nDanach öffnet sich GitHub: Tippe oben rechts auf „Abschicken“ (in Safari: grüner Knopf „Create“).' : sym + ' aus der Liste entfernen?')) return;
     if (inDef) { pendAdd('remove', sym); window.open(ghIssueUrl('remove: ' + sym), '_blank'); }
     var ci = -1; for (var i = 0; i < S.custom.length; i++) if (S.custom[i].symbol === sym) ci = i;
     if (ci >= 0) S.custom.splice(ci, 1); else if (S.hidden.indexOf(sym) < 0) S.hidden.push(sym);
@@ -1205,7 +1205,7 @@ function fxNote() { var f = Q && Q.fx; return f && f.date ? 'Alle Beträge in US
 /* ===== Aktie dauerhaft hinzufügen/entfernen per GitHub-Issue (kein Token nötig) ===== */
 function ghIssueUrl(title) {
   return 'https://github.com/' + REPO + '/issues/new?labels=aktie&title=' + encodeURIComponent(title) +
-    '&body=' + encodeURIComponent('Wird automatisch verarbeitet. Einfach unten auf den grünen Knopf „Create“ bzw. „Submit new issue“ tippen. Die Antwort kommt hier als Kommentar.');
+    '&body=' + encodeURIComponent('Wird automatisch verarbeitet. Tippe oben rechts auf „Abschicken“ (in Safari: grüner Knopf „Create“). Die Antwort kommt hier als Kommentar.');
 }
 function pendGet() { try { return JSON.parse(lsGet('ar.pend') || '[]'); } catch (e) { return []; } }
 function pendSet(l) { lsSet('ar.pend', JSON.stringify(l)); }
@@ -1230,7 +1230,7 @@ function pendHtml() {
   }).join('');
 }
 function ghAddHtml() {
-  return '<div class="card ghAdd"><h3 style="margin-top:0">➕ Aktie hinzufügen</h3><p class="tiny" style="margin-top:0">Gilt dauerhaft für alle Geräte. Danach öffnet sich GitHub: dort nur auf den grünen Knopf tippen.</p>' +
+  return '<div class="card ghAdd"><h3 style="margin-top:0">➕ Aktie hinzufügen</h3><p class="tiny" style="margin-top:0">Gilt dauerhaft für alle Geräte. Danach öffnet sich GitHub: Tippe oben rechts auf „Abschicken“ (in Safari: grüner Knopf „Create“).</p>' +
     '<input type="text" id="ghq" placeholder="Name oder Kürzel, z. B. Apple" autocomplete="off" autocapitalize="words">' +
     '<button type="button" id="ghAdd" class="podBtn" style="margin-top:8px">➕ Aktie hinzufügen</button>' + pendHtml() + '</div>';
 }
