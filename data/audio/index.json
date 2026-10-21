@@ -65,13 +65,14 @@
   },
   "PLTR": {
    "file": "PLTR.mp3",
-   "hash": "fb8a1e488da290d6",
-   "th": "150d430791cdb8e3",
-   "id": "150d430791",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
-   "dur": 180.6,
-   "at": "2026-10-21T16:06:51Z"
+   "hash": "1c810baa50ec74d3",
+   "th": "16388a00f65d63f9",
+   "engine": "gemini",
+   "id": "16388a00f6",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
+   "dur": 113.4,
+   "at": "2026-10-21T20:31:20Z"
   },
   "IBM": {
    "file": "IBM.mp3",
@@ -225,13 +226,14 @@
   },
   "RYCEY": {
    "file": "RYCEY.mp3",
-   "hash": "aa3e3e80dd8c7893",
-   "th": "71a5f68f704183da",
-   "id": "71a5f68f70",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
-   "dur": 115.0,
-   "at": "2026-10-21T15:22:32Z"
+   "hash": "4838f680466dae8f",
+   "th": "621fd4eff564f3fc",
+   "engine": "gemini",
+   "id": "621fd4eff5",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
+   "dur": 80.5,
+   "at": "2026-10-21T20:32:15Z"
   },
   "GEV": {
    "file": "GEV.mp3",
@@ -404,10 +406,10 @@
    "at": "2026-10-21T20:00:38Z"
   }
  },
- "status": "quota: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usa",
- "checked_at": "2026-10-21T20:00:38Z",
+ "status": "ok",
+ "checked_at": "2026-10-21T20:32:16Z",
  "quota_until": 1792614348.536133,
- "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@5036aac4ca62e19cbbfb03ea0abd26f551aa1da6/data/audio/",
+ "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@4990b2ec0a95307b4b8ce8d0759b4b50b2364e3b/data/audio/",
  "extra": {
   "intro": {
    "file": "_intro.mp3",
