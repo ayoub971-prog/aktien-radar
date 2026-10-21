@@ -10,7 +10,7 @@ API = "https://generativelanguage.googleapis.com/v1beta"
 MODELS = ["gemini-3.5-flash-lite", "gemini-3.1-flash-lite", "gemini-2.5-flash-lite", "gemini-flash-lite-latest", "gemini-2.5-flash"]
 MAX_CALLS = int(os.environ.get("AI_MAX_CALLS", "12"))     # pro Lauf (Lauf alle 20 Min)
 MIN_AGE_H = float(os.environ.get("AI_MIN_AGE_H", "2"))    # fruehestens nach x Std neu, auch wenn neue Meldungen
-PROMPT_VERSION = 2   # erhoehen, wenn sich das Antwortformat aendert -> alle neu (gestaffelt)
+PROMPT_VERSION = 3   # erhoehen, wenn sich das Antwortformat aendert -> alle neu (gestaffelt)
 SLEEP_S = 6                                               # ~10 Anfragen/Min, unter dem Free-RPM
 
 # Kurzbeschreibungen bekannter Quellen (fuer Modell und App)
@@ -65,6 +65,8 @@ Antworte NUR mit JSON in genau dieser Form:
  "bewertungen":[{{"firma":"Bank/Analysehaus","datum":"JJJJ-MM-TT","rating":"...","kursziel":"350 USD","warum":"...","quelle":"Name","nr":5}}],
  "firma_aktuell":{{"aufwertend":[{{"text":"...","quelle":"Name","nr":2}}],"abwertend":[{{"text":"...","quelle":"Name","nr":6}}]}},
  "kennzahlen":[{{"name":"EBIT","wert":"+12 %","grund":"...","erklaerung":"...","wichtig":true|false,"quelle":"Name","nr":8}}],
+ "insider":[{{"text":"...","quelle":"Name","nr":9}}],
+ "chefs":[{{"name":"Vorname Nachname","rolle":"Chef (CEO)","datum":"JJJJ-MM-TT","aussage":"...","bedeutung":"...","quelle":"Name","nr":10}}],
  "vorlesetext":"..."}}
 - "nr" ist die Nummer der verwendeten Meldung (Feld "nr"), bei Analystendaten weglassen.
 - In kurzueberblick, risiken, widersprueche und analysten Zahlen als Ziffern schreiben (z.B. "578 USD", "+29,9 %"), kurz und sachlich.
@@ -73,7 +75,10 @@ Antworte NUR mit JSON in genau dieser Form:
 - bewertungen: JEDE einzelne Analysten-Einstufung separat (aus "aenderungen" der Analystendaten und aus Analysten-Meldungen): firma, datum, rating (deutsch), kursziel (mit Währung, falls bekannt, sonst weglassen). "warum": höchstens 3 Sätze, WARUM die Bank so urteilt, mit den genannten Produkten oder Geschäftsbereichen – NUR wenn der Grund in einer Meldung steht, sonst "warum" weglassen. Höchstens 8, neueste zuerst.
 - firma_aktuell: was die Firma gerade macht (Produkte, Partner, Projekte, Pipeline wie Medikamente, neue Chips, Batterien, Aufträge). "aufwertend" = spricht für die Firma, "abwertend" = spricht gegen sie. Je höchstens 4, nur aus den Meldungen, jeweils mit Quelle und nr. Leer [], wenn nichts dazu in den Meldungen steht.
 - kennzahlen: NUR Kennzahlen, die in den Meldungen oder Analystendaten genannt werden (z. B. Umsatz, EBIT, Gewinn je Aktie/EPS, KGV, Dividende, Marge, Kursziel). "wert": Wert oder Veränderung wie genannt. "grund": ein Satz, warum (nur wenn genannt, sonst weglassen). "erklaerung": ein einfacher Satz, was die Kennzahl bedeutet und warum sie wichtig ist. "wichtig": true für besonders wichtige. Jede Kennzahl nur einmal. Leer [], wenn keine genannt wird.
-- vorlesetext: wie ein seriöser, erklärender Finanz-Podcast, natürlich gesprochenes Deutsch, 200-330 Wörter, ganze Sätze, keine Listen, keine Abkürzungen wie "Mio.", "USD", "EPS" oder "%" (schreibe "Prozent", "Millionen", "Dollar", "Gewinn je Aktie"), Zahlen gerundet. Beginne mit dem Firmennamen ("{name}: ..."). Sag immer, wer was sagt ("Die UBS sagt zu {name} ...", "Laut Reuters ..."). Nenne den Firmennamen in der Mitte nochmals ("Zurück zu {name}: ..."). Reihenfolge: kurzer Überblick, Risiken und Rechtliches (falls keine: "In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden."), Analysten-Bewertungen mit Begründung, was die Firma gerade macht (was aufwertet, was abwertet), wichtige Kennzahlen kurz erklärt, Widersprüche. Letzter Satz genau: "Keine Anlageberatung."
+- insider: NUR Erwähnungen von Insider-Käufen/-Verkäufen in den Meldungen oder Analysten-Meldungen (nicht die SEC-Daten wiederholen). Leer [], wenn nichts erwähnt wird.
+- chefs: Aussagen und Pläne von Chef (CEO), Finanzchef (CFO) oder Management aus den Meldungen (neue Produkte, Strategie, Aussagen bei der Zahlenvorlage). name und rolle nur, wenn genannt (sonst rolle allgemein, z. B. "Konzernchef"); datum = Datum der Meldung. "aussage": was gesagt oder angekündigt wurde, sinngemäss, nichts dazuerfinden. "bedeutung": ein Satz, was das für die Firma heissen kann, vorsichtig formuliert ("könnte", "laut ..."). Höchstens 4. Leer [], wenn keine Aussage in den Meldungen steht.
+- insider_sec in den DATEN: offizielle Pflichtmeldungen (Form 4) bei der US-Börsenaufsicht SEC; "geplant" = vorab festgelegter Verkaufsplan (10b5-1).
+- vorlesetext: wie ein seriöser, erklärender Finanz-Podcast, natürlich gesprochenes Deutsch, 220-380 Wörter, ganze Sätze, keine Listen, keine Abkürzungen wie "Mio.", "USD", "EPS" oder "%" (schreibe "Prozent", "Millionen", "Dollar", "Gewinn je Aktie"), Zahlen gerundet. Beginne mit dem Firmennamen ("{name}: ..."). Sag immer, wer was sagt ("Die UBS sagt zu {name} ...", "Laut Reuters ..."). Nenne den Firmennamen in der Mitte nochmals ("Zurück zu {name}: ..."). Reihenfolge: kurzer Überblick, Risiken und Rechtliches (falls keine: "In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden."), Analysten-Bewertungen mit Begründung, was die Firma gerade macht (was aufwertet, was abwertet), wichtige Kennzahlen kurz erklärt, Insider-Käufe und -Verkäufe (nur wenn in insider_sec oder Meldungen vorhanden: wer, Rolle, gekauft oder verkauft, ungefährer Wert; sag kurz, dass ein Verkauf oft weniger aussagt als ein Kauf, z. B. wegen Steuern oder geplanter Verkäufe), was die Chefs sagen (nur wenn vorhanden, immer mit Firmennamen: "Bei {name} sagt Chef ... "), Widersprüche. Letzter Satz genau: "Keine Anlageberatung."
 
 DATEN (JSON):
 {data}"""
@@ -85,7 +90,7 @@ def _post(url, body, key, timeout=60):
 
 def call(model, prompt, key):
     body = {"contents": [{"role": "user", "parts": [{"text": prompt}]}],
-            "generationConfig": {"responseMimeType": "application/json", "temperature": 0.2, "maxOutputTokens": 5000}}
+            "generationConfig": {"responseMimeType": "application/json", "temperature": 0.2, "maxOutputTokens": 6500}}
     d = _post("%s/models/%s:generateContent" % (API, model), body, key)
     parts = (((d.get("candidates") or [{}])[0].get("content") or {}).get("parts") or [])
     txt = "".join(p.get("text", "") for p in parts if not p.get("thought"))
@@ -100,7 +105,13 @@ def err_text(e):
         return "HTTP %s %s" % (e.code, msg[:160])
     return str(e)[:200]
 
-def build_input(stock, items, analyst, analyst_news, rel_re, now):
+def insider_input(lst):
+    out = []
+    for t in (lst or []):
+        if not t.get("relevant") or len(out) >= 8: continue
+        out.append({"wer": t["wer"], "rolle": t["rolle"], "art": t["art"], "aktien": t["aktien"], "wert_usd": t["wert"], "datum": t["datum"], "geplant": t.get("plan_10b5_1", False)})
+    return out
+def build_input(stock, items, analyst, analyst_news, rel_re, now, insider=None):
     sym = stock["symbol"]; cutoff = (now - timedelta(days=5)).strftime("%Y-%m-%dT%H:%M:%SZ")
     mine = [i for i in items if sym in (i.get("symbols") or []) and i["published"] >= cutoff and (i.get("q") or 0) >= 1
             and (i.get("official") or not rel_re or rel_re.search(i["title"]))]
@@ -120,7 +131,8 @@ def build_input(stock, items, analyst, analyst_news, rel_re, now):
     ad = {k: a[k] for k in ("consensus", "target", "next_earnings") if a.get(k)}
     if a.get("changes"): ad["aenderungen"] = a["changes"][:6]
     return {"aktie": stock.get("name"), "symbol": sym, "meldungen": news, "analystendaten_yahoo_finance": ad,
-            "analysten_meldungen": [{"quelle": x["source"], "titel": x.get("title_de") or x["title"]} for x in (analyst_news or [])]}
+            "analysten_meldungen": [{"quelle": x["source"], "titel": x.get("title_de") or x["title"]} for x in (analyst_news or [])],
+            "insider_sec": insider_input(insider)}
 
 def clean(o, inp=None):
     by = {m["nr"]: m for m in (inp or {}).get("meldungen", [])}
@@ -176,6 +188,14 @@ def clean(o, inp=None):
         seenk.add(n.lower())
         r = {k: ss(e.get(k)) for k in ("name", "wert", "grund", "erklaerung") if ss(e.get(k))}
         r["wichtig"] = bool(e.get("wichtig")); src(e, r); out["kennzahlen"].append(r)
+    out["insider"] = []
+    for e in lst(o.get("insider"))[:4]:
+        if isinstance(e, dict) and e.get("text"): r = {"text": ss(e["text"])}; src(e, r); out["insider"].append(r)
+    out["chefs"] = []
+    for e in lst(o.get("chefs"))[:4]:
+        if not isinstance(e, dict) or not e.get("aussage"): continue
+        r = {k: ss(e.get(k)) for k in ("name", "rolle", "datum", "aussage", "bedeutung") if ss(e.get(k))}
+        src(e, r); out["chefs"].append(r)
     v = str(o.get("vorlesetext") or "").strip().replace("ß", "ss")
     if v and not v.rstrip().endswith("Keine Anlageberatung."): v = v.rstrip() + " Keine Anlageberatung."
     out["vorlesetext"] = v
@@ -197,10 +217,11 @@ def run(stocks, items, insights_by_sym, rel_fn, path, now, log=print):
         sym = s["symbol"]
         if s.get("type") in ("index",) or sym.startswith("^") or sym.endswith("=F"): continue
         ins = insights_by_sym.get(sym) or {}
-        inp = build_input(s, items, ins.get("analyst"), ins.get("analyst_news"), rel_fn(s), now)
+        inp = build_input(s, items, ins.get("analyst"), ins.get("analyst_news"), rel_fn(s), now, ins.get("insider"))
         if not inp["meldungen"] and not inp["analystendaten_yahoo_finance"]: continue
         h = hashlib.sha1(json.dumps({"v": PROMPT_VERSION, "n": [m["titel"] for m in inp["meldungen"]], "a": inp["analystendaten_yahoo_finance"].get("consensus"),
-                                     "c": [(c.get("firm"), c.get("date")) for c in (inp["analystendaten_yahoo_finance"].get("aenderungen") or [])]}, sort_keys=True).encode()).hexdigest()[:12]
+                                     "c": [(c.get("firm"), c.get("date")) for c in (inp["analystendaten_yahoo_finance"].get("aenderungen") or [])],
+                                     "i": [(x["wer"], x["datum"], x["art"]) for x in inp["insider_sec"]]}, sort_keys=True).encode()).hexdigest()[:12]
         c = cache.get(sym)
         if c and c.get("input_hash") == h: continue
         age = 1e9

@@ -365,7 +365,7 @@ function aiHtml(sym, s) {
   h += '<a class="backTop" href="' + backHash() + '">← Zurück zur Aktie in der Liste</a>';
   h += '<button type="button" id="askJump" style="display:block;width:100%;margin:8px 0 4px">🤖 KI fragen</button>';
   if (!a) {
-    h += '<p class="tiny">Die KI-Zusammenfassung ist für diese Aktie noch nicht erstellt. Vorgelesen wird die einfache Zusammenfassung aus den Schlagzeilen.</p></div>';
+    h += '<p class="tiny">Die KI-Zusammenfassung ist für diese Aktie noch nicht erstellt. Vorgelesen wird die einfache Zusammenfassung aus den Schlagzeilen.</p>' + insiderHtml(sym, null) + '</div>';
     return h;
   }
   h += '<div class="risk"><h3>Risiken und Negatives</h3>' + (a.risiken && a.risiken.length ? stmtList(a.risiken) : '<p class="sumt">In den vorliegenden Meldungen nichts gefunden.</p>') + '</div>';
@@ -395,6 +395,7 @@ function aiHtml(sym, s) {
       h += '<div class="kz' + (k.wichtig ? ' wichtig' : '') + '"><div>' + (k.wichtig ? '🚨 ' : '') + '<b>' + esc(k.name) + '</b>' + (k.wert ? ': ' + esc(k.wert) : '') + '</div>' +
         (k.grund ? '<div class="sumt">' + esc(k.grund) + '</div>' : '') + (k.erklaerung ? '<div class="tiny">Erklärt: ' + esc(k.erklaerung) + '</div>' : '') + '<div>' + srcSpan(k) + '</div></div>'; }
   }
+  h += insiderHtml(sym, a) + chefsHtml(a);
   h += '<p class="tiny">Von einer KI (Google Gemini) neutral aus ' + (a.n_meldungen || 'den') + ' Schlagzeilen und den Analystendaten zusammengefasst, Stand ' + esc(ago(a.generated_at)) + '. Nur Schlagzeilen ausgewertet, Fehler möglich. Keine Anlageberatung.</p></div>';
   return h;
 }
@@ -1112,7 +1113,7 @@ function txtDoc(what) {
     return { title: 'Aktien-Radar Podcast', parts: POD.segs.map(function (g) { return { h: g.name, t: g.text }; }) };
   }
   var s = null, l = stockList(); for (var i = 0; i < l.length; i++) if (l[i].symbol === what) s = l[i];
-  return { title: (s ? s.name : what) + ' – Aktien-Radar', parts: [{ h: s ? s.name + ' (' + what + ')' : what, t: speechFor(what, s).text }] };
+  return { title: (s ? s.name : what) + ' – Aktien-Radar', parts: [{ h: s ? s.name + ' (' + what + ')' : what, t: speechFor(what, s).text }].concat(extraParts(what, aiOf(what))) };
 }
 function txtPlain(d) { return d.title + '\n\n' + d.parts.map(function (p) { return p.h + '\n' + p.t; }).join('\n\n'); }
 function ovl(html) {
@@ -1162,5 +1163,38 @@ function txtPdf(what) {
     if (file && navigator.canShare && navigator.canShare({ files: [file] })) return navigator.share({ files: [file], title: d.title }).then(function () { return ''; }, function () { return 'Teilen abgebrochen.'; });
     var a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = name; document.body.appendChild(a); a.click(); a.remove(); return '';
   }, function () { return 'PDF-Werkzeug konnte nicht geladen werden (offline?).'; });
+}
+function fmtUsd(v) { if (!v) return ''; return v >= 1e6 ? (v / 1e6).toFixed(1).replace('.', ',') + ' Mio. USD' : Math.round(v).toLocaleString('de-CH') + ' USD'; }
+function fmtD(d) { return String(d || '').replace(/^(\d{4})-(\d\d)-(\d\d)$/, '$3.$2.$1'); }
+function insiderData(sym) { var x = I && I.stocks && I.stocks[sym]; return (x && x.insider) || []; }
+function insLine(t) {
+  return (t.code === 'P' ? '🟢 ' : t.code === 'S' ? '🔴 ' : '') + t.wer + ' (' + t.rolle + '): ' + t.art + ' – ' + t.aktien.toLocaleString('de-CH') + ' Aktien' +
+    (t.wert ? ', ca. ' + fmtUsd(t.wert) : '') + ', ' + fmtD(t.datum) + (t.plan_10b5_1 ? ' · geplanter Verkauf (Plan 10b5-1)' : '');
+}
+function insiderHtml(sym, a) {
+  var l = insiderData(sym), rel = l.filter(function (t) { return t.relevant; }).slice(0, 8), rout = l.filter(function (t) { return !t.relevant; }).slice(0, 10);
+  var news = (a && a.insider) || [];
+  if (!rel.length && !rout.length && !news.length) return '';
+  var h = '<h3>Insider-Käufe und -Verkäufe</h3><p class="tiny">Insider sind Chefs, Verwaltungsräte und Grossaktionäre. Kaufen sie mit eigenem Geld Aktien, kann das Vertrauen in die Firma zeigen. Ein Verkauf sagt oft weniger, weil Insider auch wegen Steuern, Hauskauf oder vorab geplanter Verkaufspläne verkaufen.</p>';
+  if (rel.length) { h += '<ul class="sumb">'; rel.forEach(function (t) { h += '<li>' + esc(insLine(t)) + ' <a class="src" href="' + esc(t.link) + '" target="_blank" rel="noopener">SEC EDGAR, US-Börsenaufsicht (Form 4)</a></li>'; }); h += '</ul>'; }
+  else if (l.length) h += '<p class="sumt">In den SEC-Meldungen der letzten Monate keine echten Käufe oder Verkäufe, nur Routine.</p>';
+  if (rout.length) { h += '<details class="tiny"><summary>Routine (' + rout.length + '): Optionsausübungen, Steuer-Einbehalt, Zuteilungen – meist wenig aussagekräftig</summary><ul class="sumb">'; rout.forEach(function (t) { h += '<li>' + esc(insLine(t)) + '</li>'; }); h += '</ul></details>'; }
+  if (news.length) h += '<p class="tiny" style="margin-bottom:0">In Meldungen erwähnt:</p>' + stmtList(news);
+  return h;
+}
+function chefsHtml(a) {
+  if (!a || !a.chefs || !a.chefs.length) return '';
+  var h = '<h3>Was sagen die Chefs</h3>';
+  a.chefs.forEach(function (c) {
+    h += '<div class="bew"><div><b>' + esc(c.name || c.rolle || 'Management') + '</b>' + (c.name && c.rolle ? ' <span class="tiny">' + esc(c.rolle) + '</span>' : '') + (c.datum ? ' <span class="tiny">' + esc(fmtD(c.datum)) + '</span>' : '') + '</div>' +
+      '<div class="sumt">' + esc(c.aussage) + '</div>' + (c.bedeutung ? '<div class="tiny">Bedeutung: ' + esc(c.bedeutung) + '</div>' : '') + '<div>' + srcSpan(c) + '</div></div>';
+  });
+  return h;
+}
+function extraParts(sym, a) {
+  var p = [], rel = insiderData(sym).filter(function (t) { return t.relevant; }).slice(0, 8);
+  if (rel.length || (a && a.insider && a.insider.length)) p.push({ h: 'Insider-Käufe und -Verkäufe', t: rel.map(insLine).concat(((a && a.insider) || []).map(function (e) { return e.text + (e.quelle ? ' (' + e.quelle + ')' : ''); })).join('\n') + (rel.length ? '\nQuelle: SEC EDGAR, US-Börsenaufsicht (Form 4).' : '') });
+  if (a && a.chefs && a.chefs.length) p.push({ h: 'Was sagen die Chefs', t: a.chefs.map(function (c) { return (c.name || c.rolle || 'Management') + (c.name && c.rolle ? ' (' + c.rolle + ')' : '') + (c.datum ? ', ' + fmtD(c.datum) : '') + ': ' + c.aussage + (c.bedeutung ? ' Bedeutung: ' + c.bedeutung : '') + (c.quelle ? ' (' + c.quelle + ')' : ''); }).join('\n') });
+  return p;
 }
 })();

@@ -28,6 +28,7 @@ JUNK = _re.compile(r"career|\bjobs?\b|engineer|manager|specialist|technician|int
                    r"\b(shop|deals?|off plus|% off)\b|^investor relations$|^news( releases)?$|^press releases?$|^newsroom|all the latest news|"
                    r"^tag >|^events\b|details$|cookie|privacy|contact us|in [A-Z][a-z]+, [A-Z][a-z]+, (United States|Vereinigte)", _re.I)
 
+SUBS = {}   # sym -> (cik, recent filings), fuer insider.py
 def iso(dt): return dt.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
 def auto_cik(ua, log=print):
@@ -53,6 +54,7 @@ def sec_items(stocks, now, log=print):
             req = urllib.request.Request("https://data.sec.gov/submissions/CIK%010d.json" % cik, headers={"User-Agent": ua, "Accept-Encoding": "identity"})
             with urllib.request.urlopen(req, timeout=25) as r: d = json.loads(r.read())
             rc = d["filings"]["recent"]; n = 0
+            SUBS[sym] = (cik, rc)
             for i in range(len(rc["form"])):
                 f = rc["form"][i]
                 if rc["filingDate"][i] < cutoff: break

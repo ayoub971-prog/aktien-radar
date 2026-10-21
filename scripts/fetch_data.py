@@ -9,7 +9,7 @@ from datetime import datetime, timezone, timedelta
 from email.utils import parsedate_to_datetime
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from quality import item_quality
-import insights, official, translate, ai_summary
+import insights, official, translate, ai_summary, insider
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
@@ -321,6 +321,12 @@ def main():
             a = oldi[sym]["analyst"]; a_at = oldi[sym].get("analyst_at")   # letzter bekannter Stand, mit Datum
         ist[sym] = {"summary": insights.summarize(sym, items, NOW, a, s, (quotes.get(sym) or {}).get("currency")), "analyst": a or {}, "analyst_at": a_at,
                     "analyst_news": insights.analyst_news(sym, items, s)}
+    try:
+        ins = insider.run(stocks, official.SUBS, os.path.join(ROOT, "data", "insider.json"), NOW)
+        for sym in ist:
+            if sym in ins: ist[sym]["insider"] = ins[sym]
+    except Exception as e:
+        print("Insider FEHLER: %s" % str(e)[:200], file=sys.stderr)
     dump(ipath, {"generated_at": iso(NOW), "source": "Yahoo Finance quoteSummary (Analysten), Nachrichten extraktiv zusammengefasst", "stocks": ist, "errors": aerrs})
     try:
         ai_summary.run(stocks, items, ist, insights.relevance_re, os.path.join(ROOT, "data", "ai.json"), NOW)
