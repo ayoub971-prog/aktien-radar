@@ -237,13 +237,13 @@
   },
   "GEV": {
    "file": "GEV.mp3",
-   "hash": "faa4d1b2cab02352",
-   "th": "431f87eb7c21df9b",
-   "id": "431f87eb7c",
+   "hash": "f2f58be699ad25b9",
+   "th": "26a1bd2519111b96",
+   "id": "26a1bd2519",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
-   "dur": 207.0,
-   "at": "2026-10-21T17:59:34Z"
+   "dur": 173.5,
+   "at": "2026-10-21T20:37:37Z"
   },
   "GE": {
    "file": "GE.mp3",
@@ -407,9 +407,9 @@
   }
  },
  "status": "ok",
- "checked_at": "2026-10-21T20:32:16Z",
+ "checked_at": "2026-10-21T20:37:37Z",
  "quota_until": 1792614348.536133,
- "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@4990b2ec0a95307b4b8ce8d0759b4b50b2364e3b/data/audio/",
+ "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@2e51571fdce433ad52b22accb5383d2f4eef8e7a/data/audio/",
  "extra": {
   "intro": {
    "file": "_intro.mp3",
