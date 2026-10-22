@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T12:49:29Z",
+ "generated_at": "2026-10-22T13:36:18Z",
  "intro": "Willkommen beim Aktien-Radar, deinem Überblick über die neuesten Meldungen. Heute geht es um 38 Aktien aus deiner Liste. Alles stammt aus den gesammelten Meldungen und Analystendaten, nichts ist erfunden. Keine Anlageberatung.",
  "outro": "Das war der Aktien-Radar-Überblick. Die Quellen und Details findest du in der App bei jeder Aktie. Keine Anlageberatung.",
  "segments": [
@@ -175,14 +175,14 @@
   {
    "symbol": "AMZN",
    "name": "Amazon",
-   "text": "Amazon: Die Aktie steht im Fokus von Finanzmärkten und Analysten. Laut Yahoo Finance, einem Finanzportal, steht Amazon vor der Bekanntgabe der Quartalszahlen am 29. Oktober 2026, während Ausgaben für künstliche Intelligenz diskutiert werden. Laut The Globe and Mail, einer kanadischen Tageszeitung, hat Egerton Capital den Anteil von Amazon um 1,14 Millionen Aktien erhöht. Laut Yahoo Finance, einem Finanzportal, plant Amazon in der Weihnachtszeit die Einstellung von mehr als 300.000 Mitarbeitern. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden, ausser dass laut Yahoo Finance, einem Finanzportal, ein Rechenzentrumsplan am George-Washington-Campus aufgegeben wurde, Nvidia-Chips zum Teil ohne Strom in Lagern stehen und Rückerstattungen der US-Handelskommission anstehen. Analysten bewerten Amazon überwiegend positiv. Laut Yahoo Finance, einem Finanzportal, gibt es im Konsens 16 starke Kaufen-Empfehlungen und 58 Kaufen-Empfehlungen bei einem durchschnittlichen Kursziel von 331,72 Dollar. Morgan Stanley bestätigte die Einstufung als Übergewichten und erhöhte das Kursziel auf 350,00 Dollar, gestützt durch eine künstliche Intelligenz- und Energieoffensive. Zurück zu Amazon: Die Firma treibt verschiedene Projekte voran. Laut Barron's, einem US-Finanzmagazin, hat Amazon einen erweiterten Glasfaserpakt mit 3M geschlossen. Laut Yahoo Finance, einem Finanzportal, bietet die Automatisierung der Logistik langfristige Margensteigerungen, während ein Rechenzentrumsplan in Ashburn verworfen und stattdessen eine gemischt genutzte Vision verfolgt wird. Zu den wichtigen Kennzahlen gehört das durchschnittliche Kursziel von 331,72 Dollar sowie ein Kurspotenzial von 26,4 Prozent, was den von Analysten erwarteten mittleren Aktienkurs und den Abstand zum aktuellen Kurs misst. In den vorliegenden Meldungen wurden keine Insider-Käufe oder Insider-Verkäufe genannt. Keine Anlageberatung.",
-   "id": "d3758d6ec2",
-   "generated_at": "2026-10-22T08:42:47Z",
+   "text": "Amazon: Eine Zusammenfassung der aktuellen Finanz- und Marktlage. Laut der kanadischen Tageszeitung The Globe and Mail zeigen sich Analysten überwiegend optimistisch bezüglich der Aktie, während das Unternehmen in der Vorweihnachtszeit mehr als 300'000 Mitarbeiter einstellen will. Gleichzeitig wird von aufgegebenen Rechenzentrumsprojekten berichtet. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden, abgesehen von der Planänderung bei Rechenzentren. Zurück zu Amazon: Die Analystenbewertungen zeigen ein überwiegend positives Bild. Laut Yahoo Finance liegt das durchschnittliche Kursziel bei rund 332 Dollar, was ein Aufwärtspotenzial von rund 26 Prozent signalisiert. Morgan Stanley bestätigte die Einstufung als Übergewichten und erhöhte das Kursziel auf 350 Dollar. Wells Fargo und Cantor Fitzgerald passten ihre Kursziele auf rund 329 beziehungsweise 310 Dollar an, während Tigress Financial das Ziel auf rund 385 Dollar hob. TD Cowen bestätigte das Ziel bei 350 Dollar und Rosenblatt erhöhte es auf rund 360 Dollar. Was die Aktivitäten der Firma betrifft, so erhöht Egerton Capital den Anteil um 1,14 Millionen Aktien, wie The Globe and Mail meldet. Laut Yahoo Finance verspricht die Automatisierung der Logistik langfristige Margensteigerungen, während Barchart.com in neuen Bee AI Wearables einen potenziellen Wachstumstreiber sieht. Demgegenüber steht die von Yahoo Finance gemeldete Verwerfung von Rechenzentren in Ashburn. Als wichtige Kennzahlen sind das durchschnittliche Kursziel von rund 332 Dollar sowie das Aufwärtspotenzial von rund 26 Prozent zu nennen. Zu Insidern wird in den Meldungen der Zukauf von Egerton Capital hervorgehoben; es ist allgemein bekannt, dass Insiderverkäufe oft weniger Aussagekraft besitzen als Käufe, da sie häufig steuerlich oder durch vorher festgelegte Pläne begründet sind. Aussagen von Chefs liegen in den aktuellen Meldungen nicht vor. Schliesslich existieren leichte Widersprüche bezüglich der allgemeinen Analystenstimmung zwischen vorsichtigen und sehr optimistischen Einschätzungen. Keine Anlageberatung.",
+   "id": "9f307f6f93",
+   "generated_at": "2026-10-22T13:27:37Z",
    "audio": {
     "file": "AMZN.mp3",
-    "hash": "36aa92b0ac96c155",
-    "dur": 151.5,
-    "engine": "edge"
+    "hash": "c0d929cb82f2a79b",
+    "dur": 141.1,
+    "engine": "gemini"
    }
   },
   {
@@ -292,13 +292,13 @@
   {
    "symbol": "HYLN",
    "name": "Hyliion Holdings",
-   "text": "Hyliion Holdings steht derzeit im Fokus von Anlegerhinweisen und Analysteneinschätzungen. Laut GlobeNewswire, einem Verbreiter von Firmenmitteilungen, läuft in einer Woche eine wichtige Frist für Investoren ab. Auch The Globe and Mail, eine kanadische Tageszeitung, berichtet, dass die Kanzlei Kaplan Fox an die Frist für den Hauptkläger am 27. Oktober 2026 erinnert. Zudem ermutigt die Kanzlei Johnson Fistel laut WBOC TV Investoren dazu, sich vor diesem Termin zu melden. Zu den Risiken und Rechtlichem ist zu sagen, dass in den Meldungen auf diese anstehenden Fristen hingewiesen wird, was auf mögliche rechtliche Streitigkeiten hinweist. Bei den Analysten-Bewertungen zeigt sich ein überwiegend positives Bild. Laut Yahoo Finance liegt das durchschnittliche Kursziel bei rund 7,75 Dollar, wobei das höchste Ziel bei rund 10,0 Dollar und das tiefste bei rund 5,0 Dollar liegt. Northland Capital Markets stufte die Aktie im August auf Besser als Markt hoch und setzte ein Kursziel von rund 10,0 Dollar fest. Craig-Hallum nahm die Beobachtung im September neu mit Kaufen und einem Kursziel von rund 7,0 Dollar auf. Zurück zu Hyliion Holdings: Aktuelle Meldungen zu Produkten oder Projekten der Firma liegen in den Daten nicht vor. Wichtige Kennzahlen umfassen das mittlere Kursziel von rund 7,75 Dollar, welches die durchschnittliche Erwartung der Experten widerspiegelt. Bei den Insidergeschäften wird gemeldet, dass Verwaltungsrat Vincent T. Cubbage im August 2026 Aktien im Wert von rund 170'000 Dollar kaufte. Solche Insiderkäufe können ein Vertrauenssignal sein, während Verkäufe oft weniger aussagekräftig sind, da sie beispielsweise steuerlich motiviert sein können. Aussagen von Chefs liegen in den vorliegenden Daten nicht vor. Widersprüche zwischen den Berichten wurden keine gefunden. Keine Anlageberatung.",
-   "id": "905b71f175",
-   "generated_at": "2026-10-21T19:19:22Z",
+   "text": "Hyliion Holdings: In den vorliegenden Meldungen berichten verschiedene Quellen über Anlegerwarnungen und juristische Fristen. GlobeNewswire, ein Verbreiter von Firmenmitteilungen, meldet eine Aktionärswarnung von Bernstein. Zudem erinnern Medien wie The Globe and Mail, eine kanadische Tageszeitung, sowie WBOC TV Investoren an eine anstehende Frist für den Hauptkläger im Oktober 2026. Zu den Risiken und Rechtlichem: Mehrere Kanzleien und Meldungen weisen auf Fristen für Investoren hin, was auf rechtliche Auseinandersetzungen oder Untersuchungshinweise hindeutet. In den vorliegenden Meldungen wurden ansonsten keine weiteren operativen Risiken gefunden. Bei den Analysten-Bewertungen zeigt sich ein überwiegend positives Bild. Yahoo Finance verzeichnet insgesamt 5 positive Einstufungen und keine Verkaufsempfehlungen. Craig-Hallum stufte die Aktie am 29. September 2026 neu mit Kaufen und einem Kursziel von 7 Dollar ein, während Northland Capital Markets am 13. August 2026 die Einstufung auf Besser als Markt mit einem Kursziel von 10 Dollar hob. Zurück zu Hyliion Holdings: Konkrete neue Meldungen zu Produkten, Partnern oder Projekten liegen in den Berichten nicht vor. Wichtige Kennzahlen umfassen den aktuellen Aktienkurs von 3,27 Dollar sowie das durchschnittliche Kursziel der Analysten von 7,75 Dollar, welches das mittlere Kursziel der Experten widerspiegelt. Bei den Insidergeschäften kaufte der Verwaltungsrat Vincent T. Cubbage im August 2026 50000 Aktien im Wert von rund 170000 Dollar. Es ist zu beachten, dass Insiderverkäufe oft weniger aussagen als Käufe, da Verkäufe häufig steuerlich oder durch geplante Pläne motiviert sind, während Käufe starkes Vertrauen signalisieren können. Aussagen von Chefs oder dem Management liegen in den Meldungen keine vor. Widersprüche zwischen den Quellen wurden nicht festgestellt. Keine Anlageberatung.",
+   "id": "acbbad6578",
+   "generated_at": "2026-10-22T13:27:37Z",
    "audio": {
     "file": "HYLN.mp3",
-    "hash": "040590c0baf9adf6",
-    "dur": 138.3,
+    "hash": "60afa0caebd1f72f",
+    "dur": 143.3,
     "engine": "edge"
    }
   },
@@ -370,13 +370,13 @@
   {
    "symbol": "013A.F",
    "name": "JD.com",
-   "text": "JD.com: Laut Investing.com, einem Finanzportal, rutschte die Aktie von JD.com ab. Laut Investing.com Deutsch, einem Finanzportal, steht das Unternehmen unter Druck, weil Chinas Marktaufsicht führende E-Commerce-Konzerne zum Rapport zitiert hat. Yahoo Finance, ein Finanzportal, das Meldungen und Analystenbewertungen bündelt, meldet ausserdem, dass die Aktie angesichts eines Marktaufschwungs gefallen ist. Zurück zu JD.com: In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Die Analysten bewerten JD.com unterschiedlich. Barclays bestätigt die Einstufung auf Übergewichten und senkt das Kursziel auf 38 Dollar. B of A Securities bestätigt die Einstufung auf Kaufen und senkt das Kursziel auf 37 Dollar. Susquehanna bestätigt die Einstufung auf Neutral und senkt das Kursziel auf 30 Dollar. Daiwa Capital stuft die Aktie von Kaufen auf Halten ab. Was die Firma gerade macht, spiegelt sich in den Kursbewegungen wider: Laut Yahoo Finance fielen JD.com und PDD um 4 Prozent, Quiver Quantitative berichtet über fallende chinesische Internetaktien im Zuge eines breiteren Tech-Ausverkaufs, Finimize meldet zurückgehende asiatische ADRs, und Traders Union, ein Trading-Ratgeberportal, nennt einen jüngsten Aktienrückgang von 4,3 Prozent. In den vorliegenden Meldungen wurden keine Insider-Käufe oder Insider-Verkäufe erwähnt. Keine Anlageberatung.",
-   "id": "9c5c8d2bd0",
-   "generated_at": "2026-10-22T11:14:25Z",
+   "text": "JD.com: Die Aktie von JD.com geriet kürzlich im Rahmen eines breiteren Ausverkaufs bei chinesischen Technologiewerten unter Druck und verzeichnete Kursrückgänge. Laut Investing.com, einem Finanzportal, wurde die Aktie durch wachsende regulatorische Bedenken belastet. Zudem berichtete Investing.com Deutsch, ein weiteres Finanzportal, dass Chinas Marktaufsicht führende E-Commerce-Konzerne zum Rapport zitiert hat. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden, abgesehen von den erwähnten regulatorischen Schritten und Vorladungen in China. Bei den Analysten-Bewertungen zeigt sich folgendes Bild: Laut dem Finanzportal Yahoo Finance hat Barclays das Rating Übergewichten bestätigt und das Kursziel von 41 Dollar auf 38 Dollar gesenkt. B of A Securities bestätigte das Rating Kaufen und senkte das Kursziel von 38 Dollar auf 37 Dollar. Susquehanna bestätigte das Rating Neutral und senkte das Kursziel von 35 Dollar auf 30 Dollar. Zurück zu JD.com: Was macht die Firma gerade? Belastend wirken vor allem die staatlichen Vorladungen der Marktaufsicht in China und der jüngste Aktienrückgang um 4,3 Prozent, wie Traders Union, ein Trading-Ratgeberportal, meldet. Zu den wichtigen Kennzahlen ist der Rückgang des Hang-Seng-Indexes zu nennen, der laut Investing.com Deutsch um rund 3 Prozent nachgab, was die Markstimmung insgesamt widerspiegelt. In den vorliegenden Daten wurden keine Insider-Käufe oder Insider-Verkäufe gemeldet. Aussagen von Chefs oder dem Management liegen für diesen Zeitraum nicht vor. Zu Widersprüchen zwischen den verschiedenen Quellen kam es nicht. Keine Anlageberatung.",
+   "id": "796a6d75cc",
+   "generated_at": "2026-10-22T13:27:37Z",
    "audio": {
     "file": "013A.F.mp3",
-    "hash": "94b2cf14d8a4abcb",
-    "dur": 110.6,
+    "hash": "fbc7d3af0afb2b95",
+    "dur": 127.8,
     "engine": "edge"
    }
   },
@@ -409,13 +409,13 @@
   {
    "symbol": "BKW.SW",
    "name": "BKW AG",
-   "text": "BKW AG: Im Fokus stehen heute die jüngsten Entwicklungen an der Börse rund um das Unternehmen. Laut finanzen.ch, einem Schweizer Finanzportal, trennten sich Anleger am Donnerstagmittag vermehrt von BKW, nachdem die Aktie bereits am Vormittag mit negativen Vorzeichen aufgefallen war. Auch an einem früheren Vormittag wurde eine südwärts gerichtete Tendenz gemeldet. Auf der anderen Seite berichtete das Portal von positiven Impulsen, wie einer stabilen Tendenz am Mittwochmittag sowie Kursanstiegen am Nachmittag und einem festeren Verlauf an einem Dienstagnachmittag. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Betreffend der Analysten-Bewertungen zeigt sich ein gemischtes Bild: Das Konsens, gemeldet von Yahoo Finance, umfasst zwei Kaufempfehlungen, drei Halteeinstufungen sowie jeweils eine Verkaufsempfehlung, eine starke Kaufempfehlung und eine starke Verkaufsempfehlung. Das durchschnittliche Kursziel wird auf rund 176 US-Dollar beziffert, wobei das höchste Ziel bei rund 206 US-Dollar und das tiefste bei rund 140 US-Dollar liegt. Der aktuelle Kurs der BKW Aktie bewegt sich bei rund 145 US-Dollar. Zurück zu BKW AG: Was macht das Unternehmen aktuell? Die Nachrichtenlage konzentriert sich primär auf die täglichen Kursbewegungen und Marktlaunen an den Börsen, während spezifische Produktlaunches oder Partnerschaften in den aktuellen Meldungen nicht erwähnt werden. Zu wichtigen Kennzahlen ist zu sagen, dass das durchschnittliche Kursziel von rund 176 US-Dollar den von Experten erwarteten Mittelwert darstellt, während der aktuelle Kurs von rund 145 US-Dollar den tatsächlichen Marktpreis anzeigt. Insider-Käufe oder Verkäufe wurden in den offiziellen Meldungen für diesen Zeitraum nicht verzeichnet. Aussagen von Chefs oder dem Management liegen ebenfalls keine vor. Widersprüchliche Berichte zwischen den verschiedenen tagesaktuellen Meldungen sind nicht erkennbar, da die Berichte lediglich aufeinanderfolgende Kursverläufe und Stimmungen dokumentieren. Keine Anlageberatung.",
-   "id": "d54a290ba6",
-   "generated_at": "2026-10-22T11:14:25Z",
+   "text": "BKW AG: Das Schweizer Finanzportal finanzen.ch berichtet über Kursbewegungen bei der BKW Aktie, bei der sich Anleger am Donnerstagmittag vermehrt getrennt haben. Zudem zeigte sich das Unternehmen am Vormittag mit negativen Vorzeichen und tendierte am Vormittag südwärts, während es am Nachmittag wieder anziehen konnte und am Mittwochmittag eine stabile Tendenz aufwies. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Laut Yahoo Finance liegt das Konsensrating bei fünf analysierenden Experten aus zwei Kaufempfehlungen, drei Halteempfehlungen, einer Verkaufsempfehlung, einer starken Kaufempfehlung sowie einer starken Verkaufsempfehlung. Das durchschnittliche Kursziel beträgt rund 176 Dollar, wobei das hohe Kursziel bei rund 206 Dollar und das niedrige Kursziel bei rund 140 Dollar liegt, was ein Aufwärtspotenzial von rund 21,4 Prozent eröffnet. Zurück zu BKW AG: Auf der operativen Seite zeigen die Meldungen sowohl abwertende Tendenzen durch Verkäufe von Anlegern am Donnerstagmittag, negative Vorzeichen am Vormittag und eine südliche Tendenz am Vormittag als auch aufwertende Phasen mit einem Anziehen am Nachmittag und einer stabilen Tendenz am Mittwochmittag. Bei den Kennzahlen sticht das durchschnittliche Kursziel von rund 176 Dollar sowie das Aufwärtspotenzial von rund 21,4 Prozent besonders hervor, während der Median der Kursziele bei rund 170 Dollar liegt. Insider-Käufe oder Insider-Verkäufe wurden in den Daten nicht gemeldet. Aussagen von Chefs oder dem Management liegen in den aktuellen Berichten keine vor. Widersprüche zwischen den verschiedenen Quellen wurden nicht festgestellt. Keine Anlageberatung.",
+   "id": "bb6860a084",
+   "generated_at": "2026-10-22T13:27:37Z",
    "audio": {
     "file": "BKW.SW.mp3",
-    "hash": "a15adf1c9b525c55",
-    "dur": 149.9,
+    "hash": "5fcf16da7c5ec79a",
+    "dur": 125.0,
     "engine": "edge"
    }
   },
@@ -435,13 +435,13 @@
   {
    "symbol": "1211.HK",
    "name": "BYD",
-   "text": "BYD zeigt sich derzeit in einer widersprüchlichen Verfassung. Laut Wallstreet Online, einem deutschen Börsenportal, erobert der Konzern Europa und verzeichnet steigende Autozulassungen, während die Aktie gleichzeitig unter Druck gerät. Zudem sorgt laut finanzen.ch, einem Schweizer Finanzportal, der Einstieg von Star-Investor Michael Burry für Aufsehen. Auf der anderen Seite meldet boerse.de, ebenfalls ein deutsches Börsenportal, dass die Aktie ein neues Zwölfmonatstief erreicht hat. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Laut Yahoo Finance, einem Finanzportal, das Meldungen und Analystenbewertungen bündelt, empfehlen von 31 Analysten insgesamt 4 Experten den starken Kauf und 22 den Kauf, während 5 Analysten zum Halten raten und niemand zum Verkauf rät. Das durchschnittliche Kursziel liegt bei rund 15,74 Dollar, was ein Aufwärtspotenzial von rund 83,3 Prozent signalisiert. Laut sharedeals.de sehen Analysten zudem ein enormes Potenzial für ein Comeback der Aktie. Zurück zu BYD: Das Unternehmen baut seine Präsenz in der Europäischen Union aus, da die Autozulassungen laut Seeking Alpha, einer US-Plattform mit Anlegerbeiträgen, den achten Monat in Folge steigen. Ausserdem erweitert Nexteer laut Yahoo Finance seine Präsenz in Brasilien mit einer neuen Anlage in Camaçari, um die BYD-Produktion zu unterstützen. Laut Investify geht Hubco davon aus, dass ein neues BYD-Werk Mitte Dezember in Betrieb gehen wird und bis zu 1.500 monatliche Verkäufe anstrebt. Ausserdem senkt BYD laut news.lavx.hu den Preis für das Modell Seagull für das Jahr 2027 auf rund 9.800 Dollar und fügt eine Ladezeit von fünf Minuten hinzu. Zu den wichtigen Kennzahlen gehört das durchschnittliche Kursziel der Analysten von rund 15,74 Dollar, was den von Experten erwarteten fairen Wert widerspiegelt. Das höchste Kursziel liegt bei rund 19,25 Dollar und das niedrigste bei rund 11,27 Dollar. In den vorliegenden Meldungen wurden keine Insider-Käufe oder Insider-Verkäufe erwähnt. Keine Anlageberatung.",
-   "id": "7b5b3c0073",
-   "generated_at": "2026-10-22T11:14:25Z",
+   "text": "BYD: Die Aktie steht derzeit im Fokus von Medien und Investoren. Laut dem Schweizer Finanzportal finanzen.ch ist Star-Investor Michael Burry bei BYD eingestiegen. Gleichzeitig melden verschiedene Quellen, dass BYD seine Präsenz in Europa und Südkorea ausbaut. Zurück zu BYD: Auf der Risikoseite verzeichnet das deutsche Börsenportal boerse.de ein neues Zwölf-Monats-Tief der Aktie, und JournalArta berichtet über einen Kursrückgang von rund drei Prozent sowie einen überverkauften Markt. Das südkoreanische Blatt Seoul Economic Daily weist zudem auf eine sinkende Nachfrage in China hin. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Zu den Analysten-Bewertungen meldet Yahoo Finance einen Konsens von insgesamt sechsundzwanzig Analysten, wobei die Mehrheit zum Kauf rät; das durchschnittliche Kursziel liegt bei rund fünfzehn Dollar und einundsiebzig Cent. Was die Firma gerade macht, zeigt sich an positiven Projekten: Seeking Alpha berichtet über steigende Autozulassungen in der Europäischen Union, und Investify meldet ein neues Werk in Pakistan sowie den geplanten Start eines Werks im Dezember. Negativ werten Beobachter laut boerse.de, dass die Aktie unter der Zwanzig-Tage-Linie notiert. Als wichtige Kennzahlen nennt das Konsensmodell ein durchschnittliches Kursziel von rund fünfzehn Dollar und einundsiebzig Cent sowie ein Aufwärtspotenzial von rund dreiundachtzig Prozent, was die Erwartung steigender Kurse widerspiegelt. Insider-Käufe oder -Verkäufe wurden in den aktuellen Meldungen nicht erwähnt. Aussagen von Chefs oder dem Management liegen für diesen Zeitraum nicht vor. Widersprüche zwischen den Quellen wurden in den Berichten nicht festgestellt. Keine Anlageberatung.",
+   "id": "be2a9b060a",
+   "generated_at": "2026-10-22T13:27:37Z",
    "audio": {
     "file": "1211.HK.mp3",
-    "hash": "eda0a4cd81501cb7",
-    "dur": 163.0,
+    "hash": "550ef0ce81a20126",
+    "dur": 128.3,
     "engine": "edge"
    }
   },
@@ -511,5 +511,5 @@
   "dur": 10.2,
   "engine": "edge"
  },
- "audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@b3a5c97de664de7b29b732fdd5f7e0efe2b88bad/data/audio/"
+ "audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@41d5659bf9349fcb02a00bf8d8e5baa3fa0bd2ae/data/audio/"
 }
