@@ -24,13 +24,14 @@
   },
   "HY9H.MU": {
    "file": "HY9H.MU.mp3",
-   "hash": "f36833da2100027e",
-   "th": "3ddfb8f85b188d56",
-   "id": "3ddfb8f85b",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
-   "dur": 139.3,
-   "at": "2026-10-22T01:50:09Z"
+   "hash": "4ad9f1928013c294",
+   "th": "5fb80c87fcf8ea9a",
+   "engine": "gemini",
+   "id": "5fb80c87fc",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
+   "dur": 80.5,
+   "at": "2026-10-22T08:13:09Z"
   },
   "AVGO": {
    "file": "AVGO.mp3",
@@ -157,13 +158,14 @@
   },
   "ARM": {
    "file": "ARM.mp3",
-   "hash": "5e053106068f7c36",
-   "th": "bb8c0e501704abe4",
-   "id": "bb8c0e5017",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
-   "dur": 187.4,
-   "at": "2026-10-22T04:48:33Z"
+   "hash": "10b1630662a27adb",
+   "th": "c05c7baf2126bdda",
+   "engine": "gemini",
+   "id": "c05c7baf21",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
+   "dur": 175.9,
+   "at": "2026-10-22T08:15:17Z"
   },
   "HOOD": {
    "file": "HOOD.mp3",
@@ -187,13 +189,14 @@
   },
   "BE": {
    "file": "BE.mp3",
-   "hash": "4b17d4a06a9bfa40",
-   "th": "9d8752b0a52240d3",
-   "id": "9d8752b0a5",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
-   "dur": 204.2,
-   "at": "2026-10-22T04:48:51Z"
+   "hash": "7f5f98f443bfbd9d",
+   "th": "06190c5e94be71e1",
+   "engine": "gemini",
+   "id": "06190c5e94",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
+   "dur": 101.3,
+   "at": "2026-10-22T08:16:40Z"
   },
   "HYLN": {
    "file": "HYLN.mp3",
@@ -227,43 +230,43 @@
   },
   "RYCEY": {
    "file": "RYCEY.mp3",
-   "hash": "a7307b45df355f48",
-   "th": "1b80224c71357c5c",
-   "id": "1b80224c71",
+   "hash": "d379002c0dfe28f9",
+   "th": "b0c10dceda4041e9",
+   "id": "b0c10dceda",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
-   "dur": 109.8,
-   "at": "2026-10-22T03:54:16Z"
+   "dur": 105.0,
+   "at": "2026-10-22T08:16:53Z"
   },
   "GEV": {
    "file": "GEV.mp3",
-   "hash": "b225ac3a20f2b559",
-   "th": "2c993dfdf999c1f8",
-   "id": "2c993dfdf9",
+   "hash": "2edf1b031cdc0703",
+   "th": "be231dd973efab6a",
+   "id": "be231dd973",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
-   "dur": 160.2,
-   "at": "2026-10-22T04:49:03Z"
+   "dur": 162.3,
+   "at": "2026-10-22T08:17:13Z"
   },
   "GE": {
    "file": "GE.mp3",
-   "hash": "3ff7fb1e1c6f2dd2",
-   "th": "b43358d23415ade1",
-   "id": "b43358d234",
+   "hash": "f34302e05a0c511b",
+   "th": "7e273a0707e51516",
+   "id": "7e273a0707",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
-   "dur": 186.0,
-   "at": "2026-10-22T04:49:17Z"
+   "dur": 164.7,
+   "at": "2026-10-22T08:17:24Z"
   },
   "BRK-B": {
    "file": "BRK-B.mp3",
-   "hash": "09f26cc7bddef88e",
-   "th": "18286849cc699074",
-   "id": "18286849cc",
+   "hash": "d160ad1aa3e57c45",
+   "th": "aa7534a24f28ca2a",
+   "id": "aa7534a24f",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
-   "dur": 121.9,
-   "at": "2026-10-22T04:49:28Z"
+   "dur": 142.9,
+   "at": "2026-10-22T08:17:47Z"
   },
   "0VR3.L": {
    "file": "0VR3.L.mp3",
@@ -307,13 +310,13 @@
   },
   "OEF": {
    "file": "OEF.mp3",
-   "hash": "fd8c9833a5f8e14e",
-   "th": "30eb4d2c42a4f026",
-   "id": "30eb4d2c42",
+   "hash": "08edf4b1619b0825",
+   "th": "d5290a33574f1e2b",
+   "id": "d5290a3357",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
-   "dur": 36.8,
-   "at": "2026-10-22T04:49:31Z"
+   "dur": 76.9,
+   "at": "2026-10-22T08:17:55Z"
   },
   "013A.F": {
    "file": "013A.F.mp3",
@@ -407,19 +410,19 @@
   },
   "MU": {
    "file": "MU.mp3",
-   "hash": "b72f474e1118febd",
-   "th": "9ab50ba88b58cca7",
-   "id": "9ab50ba88b",
+   "hash": "668c82969e50928a",
+   "th": "82a875003e571ede",
+   "id": "82a875003e",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
-   "dur": 169.2,
-   "at": "2026-10-22T04:49:56Z"
+   "dur": 159.8,
+   "at": "2026-10-22T08:18:13Z"
   }
  },
  "status": "ok",
- "checked_at": "2026-10-22T07:26:08Z",
+ "checked_at": "2026-10-22T08:18:13Z",
  "quota_until": 1792650968.0777655,
- "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@ad2f571c9374225de5617a740f72529ed9183c03/data/audio/",
+ "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@edc946e63b44fc7d4ec64730aefbcda3068e1c1a/data/audio/",
  "extra": {
   "intro": {
    "file": "_intro.mp3",
