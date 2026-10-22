@@ -134,13 +134,14 @@
   },
   "GLW": {
    "file": "GLW.mp3",
-   "hash": "bf90bf471bcaa03e",
-   "th": "e5f04c63218922b0",
-   "id": "e5f04c6321",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
-   "dur": 143.4,
-   "at": "2026-10-22T17:41:55Z"
+   "hash": "fff0a324a8530a37",
+   "th": "d6a821cb7c11fd7d",
+   "engine": "gemini",
+   "id": "d6a821cb7c",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
+   "dur": 108.1,
+   "at": "2026-10-22T20:59:16Z"
   },
   "AMAT": {
    "file": "AMAT.mp3",
@@ -214,13 +215,13 @@
   },
   "OKLO": {
    "file": "OKLO.mp3",
-   "hash": "1bd3fc0a10a0dddb",
-   "th": "56818f42e5ff7cba",
-   "id": "56818f42e5",
+   "hash": "fa916d9680849e61",
+   "th": "1e570de50944a3ae",
+   "id": "1e570de509",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
-   "dur": 149.9,
-   "at": "2026-10-22T18:16:24Z"
+   "dur": 138.0,
+   "at": "2026-10-22T20:59:56Z"
   },
   "RYCEY": {
    "file": "RYCEY.mp3",
@@ -424,9 +425,9 @@
   }
  },
  "status": "quota: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usa",
- "checked_at": "2026-10-22T20:19:25Z",
- "quota_until": 1792701791.0572605,
- "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@0c7ba7f489de5dfc172eb10429ea1ce200589348/data/audio/",
+ "checked_at": "2026-10-22T20:59:56Z",
+ "quota_until": 1792706381.5810556,
+ "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@436cd952ef8f7554dbe2a2200946ce0ef24f6548/data/audio/",
  "extra": {
   "intro": {
    "file": "_intro.mp3",
