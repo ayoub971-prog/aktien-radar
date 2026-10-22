@@ -64,23 +64,25 @@
   },
   "PLTR": {
    "file": "PLTR.mp3",
-   "hash": "cf7f1dd31f8f4f41",
-   "th": "c1933a5e28fb3539",
-   "id": "c1933a5e28",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
-   "dur": 147.2,
-   "at": "2026-10-21T22:35:24Z"
+   "hash": "522b56f23e8776a5",
+   "th": "6668719fbeac9596",
+   "engine": "gemini",
+   "id": "6668719fbe",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
+   "dur": 114.8,
+   "at": "2026-10-22T07:21:58Z"
   },
   "IBM": {
    "file": "IBM.mp3",
-   "hash": "4c0a84879e56fdd3",
-   "th": "bb31f493d2fa3c62",
-   "id": "bb31f493d2",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
-   "dur": 149.3,
-   "at": "2026-10-22T03:53:50Z"
+   "hash": "026f77db443b87e3",
+   "th": "b00eaf741d9b7327",
+   "engine": "gemini",
+   "id": "b00eaf741d",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
+   "dur": 174.6,
+   "at": "2026-10-22T07:23:45Z"
   },
   "NOW": {
    "file": "NOW.mp3",
@@ -94,13 +96,14 @@
   },
   "META": {
    "file": "META.mp3",
-   "hash": "23080c31e3cbef2a",
-   "th": "e5f7857aaf9c0bed",
-   "id": "e5f7857aaf",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
-   "dur": 121.8,
-   "at": "2026-10-22T04:48:18Z"
+   "hash": "be693e1e6bc278cb",
+   "th": "4ce5d6e6f4fe4218",
+   "engine": "gemini",
+   "id": "4ce5d6e6f4",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
+   "dur": 130.2,
+   "at": "2026-10-22T07:24:59Z"
   },
   "AMZN": {
    "file": "AMZN.mp3",
@@ -114,13 +117,13 @@
   },
   "MRVL": {
    "file": "MRVL.mp3",
-   "hash": "20eff561d67a7aeb",
-   "th": "7427224ccae7db46",
-   "id": "7427224cca",
+   "hash": "550fec285ff39650",
+   "th": "39a10f58b9ec470f",
+   "id": "39a10f58b9",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
-   "dur": 143.7,
-   "at": "2026-10-22T03:54:06Z"
+   "dur": 133.2,
+   "at": "2026-10-22T07:25:17Z"
   },
   "SFTBY": {
    "file": "SFTBY.mp3",
@@ -164,14 +167,13 @@
   },
   "HOOD": {
    "file": "HOOD.mp3",
-   "hash": "a2d1da4493f97f74",
-   "th": "84933c188b071aef",
-   "engine": "gemini",
-   "id": "84933c188b",
-   "voice": "Kore",
-   "model": "gemini-2.5-flash-preview-tts",
-   "dur": 150.1,
-   "at": "2026-10-22T02:50:31Z"
+   "hash": "99783210de3c55a6",
+   "th": "0a460eb3ddb38123",
+   "id": "0a460eb3dd",
+   "voice": "de-CH-LeniNeural",
+   "engine": "edge",
+   "dur": 155.4,
+   "at": "2026-10-22T07:25:28Z"
   },
   "WNRG.SW": {
    "file": "WNRG.SW.mp3",
@@ -285,13 +287,13 @@
   },
   "UBSG.SW": {
    "file": "UBSG.SW.mp3",
-   "hash": "689c6bbd9f65bb25",
-   "th": "e9e2744b9238cb1e",
-   "id": "e9e2744b92",
+   "hash": "1568c55bc187074a",
+   "th": "a662102cf1b305d4",
+   "id": "a662102cf1",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
-   "dur": 112.5,
-   "at": "2026-10-22T02:50:55Z"
+   "dur": 143.9,
+   "at": "2026-10-22T07:25:49Z"
   },
   "MSFT": {
    "file": "MSFT.mp3",
@@ -325,13 +327,13 @@
   },
   "NVDA": {
    "file": "NVDA.mp3",
-   "hash": "59e2801140144cd9",
-   "th": "35c4c349590d6eac",
-   "id": "35c4c34959",
+   "hash": "b4ed5768e1135bb7",
+   "th": "35724df91db910e1",
+   "id": "35724df91d",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
-   "dur": 134.2,
-   "at": "2026-10-22T04:49:41Z"
+   "dur": 169.6,
+   "at": "2026-10-22T07:25:58Z"
   },
   "1211.HK": {
    "file": "1211.HK.mp3",
@@ -375,13 +377,13 @@
   },
   "BNTX": {
    "file": "BNTX.mp3",
-   "hash": "24f71ff6ec09fe1b",
-   "th": "5959a11f1dc73aed",
-   "id": "5959a11f1d",
+   "hash": "89ac8a7ed4ce7b73",
+   "th": "24dc711db4a15a83",
+   "id": "24dc711db4",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
-   "dur": 175.4,
-   "at": "2026-10-22T03:55:40Z"
+   "dur": 150.9,
+   "at": "2026-10-22T07:26:08Z"
   },
   "ABBN.SW": {
    "file": "ABBN.SW.mp3",
@@ -414,10 +416,10 @@
    "at": "2026-10-22T04:49:56Z"
   }
  },
- "status": "quota: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usa",
- "checked_at": "2026-10-22T06:19:42Z",
+ "status": "ok",
+ "checked_at": "2026-10-22T07:26:08Z",
  "quota_until": 1792650968.0777655,
- "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@8c27c6c68c92a50e03e5b33da27a22d478d8dc66/data/audio/",
+ "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@ad2f571c9374225de5617a740f72529ed9183c03/data/audio/",
  "extra": {
   "intro": {
    "file": "_intro.mp3",
