@@ -2,7 +2,7 @@
 (function () {
 'use strict';
 var REPO = 'ayoub971-prog/aktien-radar';
-var APP_VERSION = 'v29';
+var APP_VERSION = 'v30';
 var SECTOR_ORDER = ['Halbleiter/Hardware', 'Software/KI', 'Energie', 'Industrie/Luftfahrt', 'Finanzen', 'Rohstoffe/Gold', 'Konsum/Internet', 'Gesundheit', 'ETFs/Indizes', 'Sonstige'];
 var TAGS = [
   { n: 'Quartalszahlen', re: /quartalszahl|quartalsergebnis|quartalsbericht|jahreszahlen|halbjahreszahlen|geschäftszahlen|\bearnings\b|quarterly results|\bq[1-4]\b.{0,12}(results|earnings|revenue)|(results|earnings) for (the )?(first|second|third|fourth)|\bumsatz\b|\bbilanz\b/i },
@@ -835,6 +835,21 @@ if ('serviceWorker' in navigator && /^https?:$/.test(location.protocol)) {
     document.addEventListener('visibilitychange', function () { if (document.visibilityState === 'visible') reg.update().catch(function () {}); });
   }).catch(function (e) { showErr('Offline-Modus nicht verfügbar: ' + e.message, 'warn'); });
 }
+/* ---------- Versionsprüfung: alte Home-Bildschirm-App selbst reparieren ---------- */
+function verCheck() {
+  if (!/^https?:$/.test(location.protocol)) return;
+  fetch('version.json?t=' + Date.now(), { cache: 'no-store' }).then(function (r) { return r.ok ? r.json() : null; }).then(function (v) {
+    if (!v || !v.version || v.version === APP_VERSION) return;
+    var k = 'ar.verfix.' + v.version; if (lsGet(k)) return;   // nur einmal pro Version
+    lsSet(k, '1');
+    var p = [];
+    if (window.caches) p.push(caches.keys().then(function (ks) { return Promise.all(ks.map(function (x) { return caches.delete(x); })); }));
+    if (navigator.serviceWorker) p.push(navigator.serviceWorker.getRegistrations().then(function (rs) { return Promise.all(rs.map(function (r) { return r.unregister(); })); }));
+    Promise.all(p).catch(function () {}).then(function () { location.replace(location.pathname + '?v=' + encodeURIComponent(v.version) + location.hash); });
+  }).catch(function () {});
+}
+verCheck();
+document.addEventListener('visibilitychange', function () { if (document.visibilityState === 'visible') verCheck(); });
 /* ---------- Fragen zur Aktie (Gemini + Google-Suche) ----------
    Schlüssel nur auf dem Gerät: eigener (ar.gkey) oder der Lehrerin (gleiche Herkunft ayoub971-prog.github.io). */
 var ASK_MODELS = ['gemini-3.5-flash-lite', 'gemini-2.5-flash'];
@@ -1313,8 +1328,20 @@ function bindSel() {
   if ($('selNone')) $('selNone').onclick = function () { SELNOW = []; selMark(); };
   selMark();
 }
+var LP = null, LPDONE = 0;
+document.addEventListener('touchstart', function (e) {
+  var r = e.target.closest && e.target.closest('#view a.row'); if (!r || SELMODE || e.target.closest('[data-mv]')) return;
+  var sym = rowSym(r);
+  LP = setTimeout(function () { LP = null; LPDONE = Date.now(); SELMODE = true; SELNOW = [sym]; try { navigator.vibrate && navigator.vibrate(20); } catch (x) {} route(); }, 550);
+}, { passive: true });
+['touchend', 'touchmove', 'touchcancel'].forEach(function (t) { document.addEventListener(t, function () { if (LP) { clearTimeout(LP); LP = null; } }, { passive: true }); });
+document.addEventListener('contextmenu', function (e) { if (e.target.closest && e.target.closest('#view a.row')) e.preventDefault(); });
+function selHead() { location.hash = '#/'; SELMODE = !SELMODE; if (SELMODE) SELNOW = selSaved(); route(); window.scrollTo(0, 0); }
+document.addEventListener('DOMContentLoaded', function () {});
+(function () { var h = document.querySelector('header.top'); if (!h || $('selHead')) return; var bt = document.createElement('button'); bt.id = 'selHead'; bt.type = 'button'; bt.className = 'small'; bt.textContent = '☑'; bt.title = 'Aktien auswählen'; bt.setAttribute('aria-label', 'Aktien für Podcast auswählen'); bt.onclick = selHead; h.insertBefore(bt, $('netPill')); })();
 document.addEventListener('click', function (e) {
   if (!SELMODE) return;
+  if (Date.now() - LPDONE < 800) { e.preventDefault(); e.stopPropagation(); return; }
   var r = e.target.closest && e.target.closest('#view a.row'); if (!r) return;
   if (e.target.closest('[data-mv]')) return;
   e.preventDefault(); e.stopPropagation();
