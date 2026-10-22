@@ -2,7 +2,7 @@
 (function () {
 'use strict';
 var REPO = 'ayoub971-prog/aktien-radar';
-var APP_VERSION = 'v28';
+var APP_VERSION = 'v29';
 var SECTOR_ORDER = ['Halbleiter/Hardware', 'Software/KI', 'Energie', 'Industrie/Luftfahrt', 'Finanzen', 'Rohstoffe/Gold', 'Konsum/Internet', 'Gesundheit', 'ETFs/Indizes', 'Sonstige'];
 var TAGS = [
   { n: 'Quartalszahlen', re: /quartalszahl|quartalsergebnis|quartalsbericht|jahreszahlen|halbjahreszahlen|geschäftszahlen|\bearnings\b|quarterly results|\bq[1-4]\b.{0,12}(results|earnings|revenue)|(results|earnings) for (the )?(first|second|third|fourth)|\bumsatz\b|\bbilanz\b/i },
@@ -226,7 +226,7 @@ function statusLine() {
 }
 
 function viewHome() {
-  var list = stockList(), h = podHtml() + pendHtml();
+  var list = stockList(), h = podHtml() + selHtml() + pendHtml();
   h += '<div class="bar"><select id="sortSel" aria-label="Sortierung">' +
     '<option value="eigene">Eigene Reihenfolge</option><option value="az">Name A-Z</option><option value="sektor">Nach Sektor</option><option value="tag">Tagesveränderung</option></select>' +
     '<button id="reloadBtn" class="small">Aktualisieren</button></div>';
@@ -267,7 +267,7 @@ function viewHome() {
   hq.oninput = function () { try { sessionStorage.setItem('ar_q', hq.value); } catch (e) {} homeFilter(); };
   $('hqX').onclick = function () { hq.value = ''; hq.oninput(); hq.focus(); };
   homeFilter();
-  bindPod();
+  bindPod(); bindSel();
 }
 function homeFilter() {
   var hq = $('hq'); if (!hq) return;
@@ -1018,43 +1018,50 @@ function podBuild() {
     var s = l[i], x = map[s.symbol], sp = speechFor(s.symbol, s);
     var text = x ? x.text : (sp.ai ? (sp.text.toLowerCase().indexOf(s.name.toLowerCase()) === 0 ? sp.text : s.name + ': ' + sp.text) : null);
     if (!text) continue;
+    if (POD.sel && POD.sel.indexOf(s.symbol) < 0) continue;
     var au = audioFor(s.symbol, sp);
     segs.push({ sym: s.symbol, name: s.name, text: text, audio: (x && au) ? au : null });
   }
   var n = segs.length;
+  POD.off = POD.sel ? 0 : 1; POD.tail = POD.sel ? 0 : 1;
+  if (POD.sel) { POD.segs = segs; POD.gen = 'sel|' + (d.generated_at || '') + '|' + segs.map(function (x) { return x.sym; }).join(','); return; }   // Auswahl: nur MP3-Abschnitte, ohne Intro/Outro
   segs.unshift({ sym: '_intro', name: 'Einleitung', audio: d.intro ? d.intro_audio || null : null, text: d.intro || ('Willkommen beim Aktien-Radar. Heute geht es um ' + n + ' Aktien aus deiner Liste. Alles stammt aus den gesammelten Meldungen. Keine Anlageberatung.') });
   segs.push({ sym: '_outro', name: 'Schluss', audio: d.outro ? d.outro_audio || null : null, text: d.outro || 'Das war der Aktien-Radar-Überblick. Keine Anlageberatung.' });
   POD.segs = segs; POD.gen = (d.generated_at || '') + '|' + segs.map(function (x) { return x.sym; }).join(',');
 }
-function podSave() { var g = POD.segs[POD.i]; lsSet('ar.pod', JSON.stringify({ gen: POD.gen, doc: (POD.doc && POD.doc.generated_at) || '', sym: g && g.sym, h: g && hashStr(g.text + (g.audio ? g.audio.hash : '')), si: POD.si, t: POD.t })); }
+function podKey() { return POD.sel ? 'ar.pod.sel' : 'ar.pod'; }
+function podSave() { var g = POD.segs[POD.i]; lsSet(podKey(), JSON.stringify({ gen: POD.gen, doc: (POD.doc && POD.doc.generated_at) || '', sym: g && g.sym, h: g && hashStr(g.text + (g.audio ? g.audio.hash : '')), si: POD.si, t: POD.t })); }
 function podRestore() {
-  var o = null; try { o = JSON.parse(lsGet('ar.pod') || 'null'); } catch (e) {}
+  var o = null; try { o = JSON.parse(lsGet(podKey()) || 'null'); } catch (e) {}
   POD.i = 0; POD.si = 0; POD.t = 0;
   if (!o) return;
   // Nur weitermachen, wenn es derselbe Podcast ist und er mitten drin war; sonst von vorn.
   if (!POD.doc || o.doc !== POD.doc.generated_at) return;
   var last = -1; for (var k = 0; k < POD.segs.length; k++) if (POD.segs[k].sym === o.sym) last = k;
-  if (last < 0 || last >= POD.segs.length - 2) return;   // letzte Aktie oder Schluss: neu beginnen
+  if (last < 0 || last >= POD.segs.length - 1 - (POD.tail || 0)) return;   // letzte Aktie oder Schluss: neu beginnen
+  if (POD.sel && o.gen !== POD.gen) return;
   for (var i = 0; i < POD.segs.length; i++) if (POD.segs[i].sym === o.sym) { POD.i = i; var g = POD.segs[i]; if (o.h === hashStr(g.text + (g.audio ? g.audio.hash : ''))) { POD.si = o.si || 0; POD.t = o.t || 0; } }
 }
 function podUI() {
-  var b = $('podBtn'); if (b) b.textContent = POD.playing ? '❚❚ Podcast pausieren' : ((POD.i > 0 || POD.si > 0 || POD.t > 0) ? '🎙 Podcast fortsetzen' : '🎙 Podcast starten');
+  var b = $('podBtn'); if (b) b.textContent = POD.sel ? '🎙 Ganzer Podcast' : POD.playing ? '❚❚ Podcast pausieren' : ((POD.i > 0 || POD.si > 0 || POD.t > 0) ? '🎙 Podcast fortsetzen' : '🎙 Podcast starten');
   var c = $('podCtl'); if (!c) return;
   var seg = POD.segs[POD.i];
-  c.hidden = !POD.segs.length || (!POD.playing && POD.i === 0 && POD.si === 0 && !POD.t);
-  if ($('podNow')) $('podNow').textContent = seg ? 'Jetzt: ' + seg.name : '';
-  if ($('podInfo')) $('podInfo').textContent = seg ? (Math.max(1, Math.min(POD.i, POD.segs.length - 2)) + ' / ' + (POD.segs.length - 2) + ' Aktien · ' + (seg.audio ? engName(seg.audio) : 'Gerätestimme')) : '';
+  c.hidden = !POD.segs.length || (!POD.sel && !POD.playing && POD.i === 0 && POD.si === 0 && !POD.t);
+  if ($('podNow')) $('podNow').textContent = seg ? 'Jetzt: ' + seg.name + (POD.sel ? ' · ' + podPos() + ' / ' + podTotal() + ' (Auswahl)' : '') : '';
+  if ($('podInfo')) $('podInfo').textContent = seg ? (podPos() + ' / ' + podTotal() + (POD.sel ? ' (Auswahl) · ' : ' Aktien · ') + (seg.audio ? engName(seg.audio) : 'Gerätestimme')) : '';
   if ($('podPP')) $('podPP').textContent = POD.playing ? '❚❚' : '▶';
   if ($('podNewHint')) $('podNewHint').hidden = !podNewReady();
   var dv = POD.doc && POD.doc.generated_at ? new Date(POD.doc.generated_at).toLocaleString('de-CH', { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' }) : '';
   if ($('podVer')) $('podVer').textContent = dv ? 'Podcast vom ' + dv : '';
   var ps = $('podStartNote'); if (ps) ps.textContent = dv ? 'Podcast vom ' + dv + ((POD.i > 0 || POD.si > 0 || POD.t > 0) ? ' · bei ' + (POD.segs[POD.i] ? POD.segs[POD.i].name : '') : '') : '';
 }
+function podTotal() { return POD.segs.length - (POD.off || 0) - (POD.tail || 0); }
+function podPos() { return Math.max(1, Math.min(POD.i - (POD.off || 0) + 1, podTotal())); }
 function podMeta() {
   if (!('mediaSession' in navigator)) return;
   var seg = POD.segs[POD.i];
   try {
-    navigator.mediaSession.metadata = new MediaMetadata({ title: 'Jetzt: ' + (seg ? seg.name : ''), artist: 'Aktien-Radar Podcast', album: 'Zusammenfassung' });
+    navigator.mediaSession.metadata = new MediaMetadata({ title: 'Jetzt: ' + (seg ? seg.name : ''), artist: POD.sel ? 'Aktien-Radar · Auswahl ' + podPos() + '/' + podTotal() : 'Aktien-Radar Podcast', album: 'Zusammenfassung' });
     navigator.mediaSession.playbackState = POD.playing ? 'playing' : 'paused';
     navigator.mediaSession.setActionHandler('play', function () { if (!POD.playing) podPlay(); });
     navigator.mediaSession.setActionHandler('pause', function () { podPause(); });
@@ -1109,7 +1116,10 @@ function podHtml() {
 function bindPod() {
   if (!$('podBtn')) return;
   if (!POD.playing) { podBuild(); podRestore(); }
-  $('podBtn').onclick = function () { POD.playing ? podPause() : podPlay(); };
+  $('podBtn').onclick = function () {
+    if (POD.sel) { podHalt(); POD.playing = false; POD.sel = null; podBuild(); podRestore(); return podPlay(); }   // zurück zum ganzen Podcast
+    POD.playing ? podPause() : podPlay();
+  };
   $('podPP').onclick = function () { POD.playing ? podPause() : podPlay(); };
   $('podPrev').onclick = function () { podJump(-1); };
   $('podNext').onclick = function () { podJump(1); };
@@ -1272,4 +1282,44 @@ function bindGhAdd() {
   };
   $('ghq').onkeydown = function (e) { if (e.key === 'Enter') $('ghAdd').onclick(); };
 }
+/* ===== Auswahl: nur bestimmte Aktien als Podcast ===== */
+var SELMODE = false, SELNOW = [];
+function selSaved() { try { return JSON.parse(lsGet('ar.sel') || '[]'); } catch (e) { return []; } }
+function selHtml() {
+  var sv = selSaved().filter(function (x) { return !!quoteOf(x) || true; });
+  return '<div class="selRow"><button type="button" id="selTog" class="small">' + (SELMODE ? '✕ Auswahl beenden' : '☑ Auswählen') + '</button>' +
+    (!SELMODE && sv.length ? '<button type="button" id="selMine" class="small">▶ Meine Auswahl (' + sv.length + ')</button>' : '') + '</div>' +
+    (SELMODE ? '<p class="tiny" style="margin:4px 0 8px">Tippe auf die Aktien, die du hören willst.</p><div id="selBar" class="selBar"><button type="button" id="selPlay" class="podBtn" style="margin:0">▶ Auswahl abspielen (<span id="selN">0</span>)</button><button type="button" id="selNone" class="small">Alle abwählen</button></div>' : '');
+}
+function selMark() {
+  var rows = document.querySelectorAll('#view a.row');
+  for (var i = 0; i < rows.length; i++) { var sym = rowSym(rows[i]); rows[i].classList.toggle('selOn', SELMODE && SELNOW.indexOf(sym) >= 0); rows[i].classList.toggle('selMode', SELMODE); }
+  if ($('selN')) $('selN').textContent = SELNOW.length;
+  if ($('selPlay')) $('selPlay').disabled = !SELNOW.length;
+}
+function rowSym(r) { var m = (r.getAttribute('href') || '').match(/#\/s\/(.+)$/); return m ? decodeURIComponent(m[1]) : ''; }
+function selPlayList(list) {
+  if (!list.length) return;
+  lsSet('ar.sel', JSON.stringify(list));
+  podHalt(); POD.playing = false; POD.sel = list.slice(); podBuild(); podRestore();
+  if (!POD.segs.length) { alert('Für diese Aktien gibt es noch keinen Bericht.'); POD.sel = null; podBuild(); return; }
+  SELMODE = false; route(); podPlay();
+}
+function bindSel() {
+  if (!$('selTog')) return;
+  $('selTog').onclick = function () { SELMODE = !SELMODE; if (SELMODE) SELNOW = selSaved(); route(); };
+  if ($('selMine')) $('selMine').onclick = function () { selPlayList(selSaved()); };
+  if ($('selPlay')) $('selPlay').onclick = function () { var l = orderedList().map(function (x) { return x.symbol; }).filter(function (x) { return SELNOW.indexOf(x) >= 0; }); selPlayList(l); };
+  if ($('selNone')) $('selNone').onclick = function () { SELNOW = []; selMark(); };
+  selMark();
+}
+document.addEventListener('click', function (e) {
+  if (!SELMODE) return;
+  var r = e.target.closest && e.target.closest('#view a.row'); if (!r) return;
+  if (e.target.closest('[data-mv]')) return;
+  e.preventDefault(); e.stopPropagation();
+  var sym = rowSym(r), k = SELNOW.indexOf(sym);
+  if (k >= 0) SELNOW.splice(k, 1); else SELNOW.push(sym);
+  selMark();
+}, true);
 })();
