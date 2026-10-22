@@ -289,6 +289,13 @@
       "sector": "Halbleiter/Hardware",
       "q_de": "Micron Technology, Inc. Aktie",
       "q_en": "Micron Technology, Inc. stock"
+    },
+    {
+      "symbol": "DRO.AX",
+      "name": "DroneShield Limited",
+      "sector": "Industrie/Luftfahrt",
+      "q_de": "DroneShield Limited Aktie",
+      "q_en": "DroneShield Limited stock"
     }
   ],
   "market_topics": [
