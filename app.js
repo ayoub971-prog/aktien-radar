@@ -80,6 +80,15 @@ function getJSON(url) {
     return r.json();
   });
 }
+/* Audio-Sitzung: Podcast, Audioliste und Vorlesetexte werden nur beim Öffnen der App übernommen (Kaltstart oder
+   nach >10 Min im Hintergrund ohne Wiedergabe). Kurse/News laden weiter normal. */
+var SNAPWANT = { pod: true, aud: true, ai: true }, SNAP_AI = null, LAT = { pod: null, aud: null }, hiddenAt = 0;
+document.addEventListener('visibilitychange', function () {
+  if (document.hidden) { hiddenAt = Date.now(); return; }
+  // Sperrbildschirm zählt nie als „geschlossen“: Läuft Audio oder ist der Podcast mitten drin pausiert, bleibt alles fest.
+  var busy = (POD.playing || POD.i > 0 || POD.si > 0 || POD.t > 0) || (P.playing || (P.sym && (P.idx > 0 || P.t > 0)));
+  if (hiddenAt && Date.now() - hiddenAt > (+lsGet('ar.snapms') || 10 * 60e3) && !busy) SNAPWANT = { pod: true, aud: true, ai: true };
+}, true);
 function loadData() {
   var jobs = [
     getJSON('watchlist.json').then(function (d) { DEF = d; lsSet('ar.cache.wl', JSON.stringify(d)); }),
@@ -89,7 +98,7 @@ function loadData() {
   var ij = getJSON('data/insights.json').then(function (d) { I = d; try { localStorage.setItem('ar.cache.i', JSON.stringify(d)); } catch (e) {} },
     function () { if (!I) { try { I = JSON.parse(localStorage.getItem('ar.cache.i') || 'null'); } catch (e) {} } });
   jobs.push(ij.then(function () {}, function () {}));
-  var aj = getJSON('data/ai.json').then(function (d) { AI = d; try { localStorage.setItem('ar.cache.ai', JSON.stringify(d)); } catch (e) {} },
+  var aj = getJSON('data/ai.json').then(function (d) { AI = d; if (SNAPWANT.ai || !SNAP_AI) { SNAP_AI = d; SNAPWANT.ai = false; } try { localStorage.setItem('ar.cache.ai', JSON.stringify(d)); } catch (e) {} },
     function () { if (!AI) { try { AI = JSON.parse(localStorage.getItem('ar.cache.ai') || 'null'); } catch (e) {} } });
   jobs.push(aj.then(function () {}, function () {}));
   // Per Kurzbefehl hinzugefügte Aktien automatisch einblenden (auch wenn früher entfernt)
@@ -102,7 +111,7 @@ function loadData() {
     }
     if (mx !== last || ch) { S.addSeen = mx; saveState(); }
   }, function () {}));
-  jobs.push(getJSON('data/audio/index.json').then(function (d) { AUD = d; }, function () {}));
+  jobs.push(getJSON('data/audio/index.json').then(function (d) { LAT.aud = d; if (SNAPWANT.aud || !AUD) { AUD = d; SNAPWANT.aud = false; } }, function () {}));
   jobs.push(podLoad());
   return Promise.all(jobs.map(function (j, i) { return j.then(function () { return null; }, function (e) { return { i: i, e: e }; }); })).then(function (res) {
     dataErrors = []; disTitles = null;
@@ -355,7 +364,7 @@ function fallbackSpeech(sym, s) {
   return t + 'Keine Anlageberatung.';
 }
 function speechFor(sym, s) {
-  var a = aiOf(sym);
+  var a = (SNAP_AI && SNAP_AI.stocks && SNAP_AI.stocks[sym]) || aiOf(sym);   // Audio-Text: fester Stand dieser Sitzung
   if (a && a.vorlesetext) return { text: a.vorlesetext, id: a.id || a.generated_at, ai: true };
   var t = fallbackSpeech(sym, s); return { text: t, id: 'x' + hashStr(t), ai: false };
 }
@@ -990,7 +999,15 @@ function bindAsk(s) {
 /* ===== Podcast: alle Aktien am Stück (data/podcast.json), Segment für Segment ===== */
 var POD = { doc: null, segs: [], i: 0, sents: [], si: 0, t: 0, playing: false, tok: 0, el: null, gen: null };
 function podLoad() {
-  return getJSON('data/podcast.json').then(function (d) { POD.doc = d; }, function () { POD.doc = null; });
+  return getJSON('data/podcast.json').then(function (d) { LAT.pod = d; if (SNAPWANT.pod || !POD.doc) { POD.doc = d; POD.segs = []; SNAPWANT.pod = false; } }, function () {});
+}
+function podNewReady() { return !!(LAT.pod && POD.doc && LAT.pod.generated_at && LAT.pod.generated_at !== POD.doc.generated_at); }
+function podPreload() {
+  for (var j = POD.i + 1; j < POD.segs.length; j++) if (POD.segs[j].audio) {
+    var src = audSrc(POD.segs[j].audio);
+    if (!POD.pre || POD.pre.dataset.src !== src) { POD.pre = new Audio(); POD.pre.preload = 'auto'; POD.pre.muted = true; POD.pre.src = src; POD.pre.dataset.src = src; try { POD.pre.load(); } catch (e) {} }
+    return;
+  }
 }
 function podBuild() {
   var d = POD.doc || {}, map = {}, segs = [], l = orderedList(), i;
@@ -1022,6 +1039,7 @@ function podUI() {
   if ($('podNow')) $('podNow').textContent = seg ? 'Jetzt: ' + seg.name : '';
   if ($('podInfo')) $('podInfo').textContent = seg ? ((POD.i) + ' / ' + (POD.segs.length - 2) + ' Aktien · ' + (seg.audio ? engName(seg.audio) : 'Gerätestimme')) : '';
   if ($('podPP')) $('podPP').textContent = POD.playing ? '❚❚' : '▶';
+  if ($('podNewHint')) $('podNewHint').hidden = !podNewReady();
 }
 function podMeta() {
   if (!('mediaSession' in navigator)) return;
@@ -1050,7 +1068,7 @@ function podRun() {
     a.ontimeupdate = function () { if (tok !== POD.tok) return; POD.t = a.currentTime; if (Math.abs(POD.t - last) > 2) { last = POD.t; podSave(); } };
     a.onended = function () { if (tok === POD.tok && POD.playing) podNext(); };
     a.onerror = function () { if (tok !== POD.tok) return; seg.audio = null; POD.t = 0; podRun(); };
-    seek(); applyRate(a); var pr = a.play(); if (pr && pr.catch) pr.catch(function () { if (tok !== POD.tok) return; POD.playing = false; podUI(); podMeta(); });
+    seek(); applyRate(a); var pr = a.play(); podPreload(); if (pr && pr.catch) pr.catch(function () { if (tok !== POD.tok) return; POD.playing = false; podUI(); podMeta(); });
     return;
   }
   var ss = window.speechSynthesis; if (!ss) { POD.playing = false; podUI(); return; }
@@ -1076,7 +1094,7 @@ function podJump(d) {
 function podHtml() {
   return '<button type="button" id="podBtn" class="podBtn">🎙 Zusammenfassung Podcast</button>' +
     '<div id="podCtl" class="podCtl" hidden><div><b id="podNow"></b> <span id="podInfo" class="tiny"></span></div>' +
-    '<div class="podRow"><button type="button" id="podPrev" aria-label="Vorherige Aktie">⏮</button><button type="button" id="podPP" class="primary" aria-label="Play/Pause">▶</button><button type="button" id="podNext" aria-label="Nächste Aktie">⏭</button></div>' + rateHtml() + '</div>' +
+    '<div id="podNewHint" class="tiny" hidden>🆕 Neuer Podcast bereit, wird beim nächsten Öffnen geladen.</div><div class="podRow"><button type="button" id="podPrev" aria-label="Vorherige Aktie">⏮</button><button type="button" id="podPP" class="primary" aria-label="Play/Pause">▶</button><button type="button" id="podNext" aria-label="Nächste Aktie">⏭</button></div>' + rateHtml() + '</div>' +
     '<button type="button" class="txtBtn" data-txt="pod">📄 Als Text / PDF</button>';
 }
 function bindPod() {
