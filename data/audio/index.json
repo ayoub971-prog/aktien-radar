@@ -14,14 +14,14 @@
   },
   "005930.KS": {
    "file": "005930.KS.mp3",
-   "hash": "4f07ef9bcce908d7",
-   "th": "25d14e39fe3f960e",
+   "hash": "24eec82665f4a558",
+   "th": "c546ce52f6979fba",
    "engine": "gemini",
-   "id": "25d14e39fe",
+   "id": "c546ce52f6",
    "voice": "Kore",
    "model": "gemini-2.5-flash-preview-tts",
-   "dur": 125.8,
-   "at": "2026-10-22T01:02:02Z"
+   "dur": 96.3,
+   "at": "2026-10-22T03:51:38Z"
   },
   "HY9H.MU": {
    "file": "HY9H.MU.mp3",
@@ -35,13 +35,14 @@
   },
   "AVGO": {
    "file": "AVGO.mp3",
-   "hash": "b11067186a129500",
-   "th": "c1ab582e027c2bd4",
-   "id": "c1ab582e02",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
-   "dur": 141.6,
-   "at": "2026-10-22T01:02:41Z"
+   "hash": "691d502da5bc5c21",
+   "th": "c8f51701845003c3",
+   "engine": "gemini",
+   "id": "c8f5170184",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
+   "dur": 151.7,
+   "at": "2026-10-22T03:52:52Z"
   },
   "ASML": {
    "file": "ASML.mp3",
@@ -55,13 +56,13 @@
   },
   "INTC": {
    "file": "INTC.mp3",
-   "hash": "bb20479c877837e1",
-   "th": "4a018c7847fb6b95",
-   "id": "4a018c7847",
+   "hash": "518a5f5519c86197",
+   "th": "2e2fc301d2319e70",
+   "id": "2e2fc301d2",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
-   "dur": 141.2,
-   "at": "2026-10-22T01:03:08Z"
+   "dur": 148.5,
+   "at": "2026-10-22T03:53:37Z"
   },
   "PLTR": {
    "file": "PLTR.mp3",
@@ -75,13 +76,13 @@
   },
   "IBM": {
    "file": "IBM.mp3",
-   "hash": "6a2aef7e358f15c0",
-   "th": "bb35fb155486374f",
-   "id": "bb35fb1554",
+   "hash": "4c0a84879e56fdd3",
+   "th": "bb31f493d2fa3c62",
+   "id": "bb31f493d2",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
-   "dur": 242.7,
-   "at": "2026-10-22T01:03:29Z"
+   "dur": 149.3,
+   "at": "2026-10-22T03:53:50Z"
   },
   "NOW": {
    "file": "NOW.mp3",
@@ -116,13 +117,13 @@
   },
   "MRVL": {
    "file": "MRVL.mp3",
-   "hash": "ffc8b21116a55b59",
-   "th": "f0935667ba863970",
-   "id": "f0935667ba",
+   "hash": "20eff561d67a7aeb",
+   "th": "7427224ccae7db46",
+   "id": "7427224cca",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
-   "dur": 195.4,
-   "at": "2026-10-21T23:46:28Z"
+   "dur": 143.7,
+   "at": "2026-10-22T03:54:06Z"
   },
   "SFTBY": {
    "file": "SFTBY.mp3",
@@ -228,14 +229,13 @@
   },
   "RYCEY": {
    "file": "RYCEY.mp3",
-   "hash": "4838f680466dae8f",
-   "th": "621fd4eff564f3fc",
-   "engine": "gemini",
-   "id": "621fd4eff5",
-   "voice": "Kore",
-   "model": "gemini-2.5-flash-preview-tts",
-   "dur": 80.5,
-   "at": "2026-10-21T20:32:15Z"
+   "hash": "a7307b45df355f48",
+   "th": "1b80224c71357c5c",
+   "id": "1b80224c71",
+   "voice": "de-CH-LeniNeural",
+   "engine": "edge",
+   "dur": 109.8,
+   "at": "2026-10-22T03:54:16Z"
   },
   "GEV": {
    "file": "GEV.mp3",
@@ -269,23 +269,23 @@
   },
   "0VR3.L": {
    "file": "0VR3.L.mp3",
-   "hash": "088f0d6a02021420",
-   "th": "ccf1e7fe65ccde8b",
-   "id": "ccf1e7fe65",
+   "hash": "846bea9eb8cabb77",
+   "th": "ae40fb45d72ac361",
+   "id": "ae40fb45d7",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
-   "dur": 96.3,
-   "at": "2026-10-22T01:03:51Z"
+   "dur": 65.2,
+   "at": "2026-10-22T03:54:24Z"
   },
   "BKW.SW": {
    "file": "BKW.SW.mp3",
-   "hash": "9fb9270bd31a6e1d",
-   "th": "0a976d1d594b007e",
-   "id": "0a976d1d59",
+   "hash": "9714e28132b04b0c",
+   "th": "dd17fec95defc287",
+   "id": "dd17fec95d",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
-   "dur": 112.1,
-   "at": "2026-10-21T23:13:59Z"
+   "dur": 98.7,
+   "at": "2026-10-22T03:54:33Z"
   },
   "UBSG.SW": {
    "file": "UBSG.SW.mp3",
@@ -299,13 +299,13 @@
   },
   "MSFT": {
    "file": "MSFT.mp3",
-   "hash": "7f26d59701fa3dc8",
-   "th": "940175e03671e864",
-   "id": "940175e036",
+   "hash": "82e57602eeb30c79",
+   "th": "009e898c64b32df6",
+   "id": "009e898c64",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
-   "dur": 183.9,
-   "at": "2026-10-22T01:04:11Z"
+   "dur": 165.1,
+   "at": "2026-10-22T03:54:51Z"
   },
   "OEF": {
    "file": "OEF.mp3",
@@ -319,13 +319,13 @@
   },
   "013A.F": {
    "file": "013A.F.mp3",
-   "hash": "e9625c429ebd3b58",
-   "th": "ade866a7e8a7bea5",
-   "id": "ade866a7e8",
+   "hash": "129050fddd0972b9",
+   "th": "2202f894247011c6",
+   "id": "2202f89424",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
-   "dur": 160.2,
-   "at": "2026-10-22T01:04:24Z"
+   "dur": 95.7,
+   "at": "2026-10-22T03:55:00Z"
   },
   "NVDA": {
    "file": "NVDA.mp3",
@@ -339,13 +339,13 @@
   },
   "1211.HK": {
    "file": "1211.HK.mp3",
-   "hash": "71525e686e8a5780",
-   "th": "3a8a3175ea21bb06",
-   "id": "3a8a3175ea",
+   "hash": "2f8c7dcde8691007",
+   "th": "4965bd82b946611c",
+   "id": "4965bd82b9",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
-   "dur": 146.3,
-   "at": "2026-10-22T01:04:44Z"
+   "dur": 168.1,
+   "at": "2026-10-22T03:55:23Z"
   },
   "SHL.DE": {
    "file": "SHL.DE.mp3",
@@ -379,13 +379,13 @@
   },
   "BNTX": {
    "file": "BNTX.mp3",
-   "hash": "28710bf2c951da80",
-   "th": "866b52b19239992f",
-   "id": "866b52b192",
+   "hash": "24f71ff6ec09fe1b",
+   "th": "5959a11f1dc73aed",
+   "id": "5959a11f1d",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
-   "dur": 173.9,
-   "at": "2026-10-21T21:18:36Z"
+   "dur": 175.4,
+   "at": "2026-10-22T03:55:40Z"
   },
   "ABBN.SW": {
    "file": "ABBN.SW.mp3",
@@ -418,10 +418,10 @@
    "at": "2026-10-22T01:52:40Z"
   }
  },
- "status": "ok",
- "checked_at": "2026-10-22T02:50:55Z",
- "quota_until": 1792634547.0986302,
- "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@ec3b947606f898f40eb9b4854e0e1c425a0a3a2d/data/audio/",
+ "status": "quota: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usa",
+ "checked_at": "2026-10-22T03:55:40Z",
+ "quota_until": 1792644798.0586047,
+ "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@3d820d78d6b50d0964f745c0b598d0cfa5751094/data/audio/",
  "extra": {
   "intro": {
    "file": "_intro.mp3",
