@@ -2,6 +2,7 @@
 (function () {
 'use strict';
 var REPO = 'ayoub971-prog/aktien-radar';
+var APP_VERSION = 'v28';
 var SECTOR_ORDER = ['Halbleiter/Hardware', 'Software/KI', 'Energie', 'Industrie/Luftfahrt', 'Finanzen', 'Rohstoffe/Gold', 'Konsum/Internet', 'Gesundheit', 'ETFs/Indizes', 'Sonstige'];
 var TAGS = [
   { n: 'Quartalszahlen', re: /quartalszahl|quartalsergebnis|quartalsbericht|jahreszahlen|halbjahreszahlen|geschäftszahlen|\bearnings\b|quarterly results|\bq[1-4]\b.{0,12}(results|earnings|revenue)|(results|earnings) for (the )?(first|second|third|fourth)|\bumsatz\b|\bbilanz\b/i },
@@ -217,7 +218,7 @@ function rowHtml(s, showMove) {
 function statusLine() {
   var qa = Q && Q.generated_at, na = N && N.generated_at;
   var old = qa && (Date.now() - Date.parse(qa) > 3 * 3600 * 1000);
-  var h = '<p class="tiny">Kurse: Stand ' + esc(ago(qa)) + ' | Nachrichten: Stand ' + esc(ago(na)) + ' | Quelle Yahoo Finance, ggf. 15 Min verzögert' + (fxNote() ? '<br>' + esc(fxNote()) : '') + '</p>';
+  var h = '<p class="tiny">Kurse: Stand ' + esc(ago(qa)) + ' | Nachrichten: Stand ' + esc(ago(na)) + ' | Quelle Yahoo Finance, ggf. 15 Min verzögert | App ' + APP_VERSION + (fxNote() ? '<br>' + esc(fxNote()) : '') + '</p>';
   if (old) h += '<div class="banner">Die Daten sind älter als 3 Stunden. Die automatische Aktualisierung auf GitHub hat sich verspätet (kommt vor) oder ist ausgefallen. Es wird der letzte bekannte Stand gezeigt.</div>';
   for (var i = 0; i < dataErrors.length; i++) h += '<div class="banner err">' + esc(dataErrors[i]) + '</div>';
   if (Q && Q.errors && Q.errors.length) h += '<div class="banner">Beim letzten Update ohne Kurs: ' + esc(Q.errors.map(function (e) { return e.symbol; }).join(', ')) + '</div>';
@@ -830,6 +831,7 @@ if ('serviceWorker' in navigator && /^https?:$/.test(location.protocol)) {
     location.reload();
   });
   navigator.serviceWorker.register('sw.js', { updateViaCache: 'none' }).then(function (reg) {
+    try { reg.update(); } catch (e) {}
     document.addEventListener('visibilitychange', function () { if (document.visibilityState === 'visible') reg.update().catch(function () {}); });
   }).catch(function (e) { showErr('Offline-Modus nicht verfügbar: ' + e.message, 'warn'); });
 }
@@ -1024,22 +1026,29 @@ function podBuild() {
   segs.push({ sym: '_outro', name: 'Schluss', audio: d.outro ? d.outro_audio || null : null, text: d.outro || 'Das war der Aktien-Radar-Überblick. Keine Anlageberatung.' });
   POD.segs = segs; POD.gen = (d.generated_at || '') + '|' + segs.map(function (x) { return x.sym; }).join(',');
 }
-function podSave() { var g = POD.segs[POD.i]; lsSet('ar.pod', JSON.stringify({ gen: POD.gen, sym: g && g.sym, h: g && hashStr(g.text + (g.audio ? g.audio.hash : '')), si: POD.si, t: POD.t })); }
+function podSave() { var g = POD.segs[POD.i]; lsSet('ar.pod', JSON.stringify({ gen: POD.gen, doc: (POD.doc && POD.doc.generated_at) || '', sym: g && g.sym, h: g && hashStr(g.text + (g.audio ? g.audio.hash : '')), si: POD.si, t: POD.t })); }
 function podRestore() {
   var o = null; try { o = JSON.parse(lsGet('ar.pod') || 'null'); } catch (e) {}
   POD.i = 0; POD.si = 0; POD.t = 0;
   if (!o) return;
+  // Nur weitermachen, wenn es derselbe Podcast ist und er mitten drin war; sonst von vorn.
+  if (!POD.doc || o.doc !== POD.doc.generated_at) return;
+  var last = -1; for (var k = 0; k < POD.segs.length; k++) if (POD.segs[k].sym === o.sym) last = k;
+  if (last < 0 || last >= POD.segs.length - 2) return;   // letzte Aktie oder Schluss: neu beginnen
   for (var i = 0; i < POD.segs.length; i++) if (POD.segs[i].sym === o.sym) { POD.i = i; var g = POD.segs[i]; if (o.h === hashStr(g.text + (g.audio ? g.audio.hash : ''))) { POD.si = o.si || 0; POD.t = o.t || 0; } }
 }
 function podUI() {
-  var b = $('podBtn'); if (b) b.textContent = POD.playing ? '❚❚ Podcast pausieren' : ((POD.i > 0 || POD.si > 0 || POD.t > 0) ? '🎙 Podcast fortsetzen' : '🎙 Zusammenfassung Podcast');
+  var b = $('podBtn'); if (b) b.textContent = POD.playing ? '❚❚ Podcast pausieren' : ((POD.i > 0 || POD.si > 0 || POD.t > 0) ? '🎙 Podcast fortsetzen' : '🎙 Podcast starten');
   var c = $('podCtl'); if (!c) return;
   var seg = POD.segs[POD.i];
   c.hidden = !POD.segs.length || (!POD.playing && POD.i === 0 && POD.si === 0 && !POD.t);
   if ($('podNow')) $('podNow').textContent = seg ? 'Jetzt: ' + seg.name : '';
-  if ($('podInfo')) $('podInfo').textContent = seg ? ((POD.i) + ' / ' + (POD.segs.length - 2) + ' Aktien · ' + (seg.audio ? engName(seg.audio) : 'Gerätestimme')) : '';
+  if ($('podInfo')) $('podInfo').textContent = seg ? (Math.max(1, Math.min(POD.i, POD.segs.length - 2)) + ' / ' + (POD.segs.length - 2) + ' Aktien · ' + (seg.audio ? engName(seg.audio) : 'Gerätestimme')) : '';
   if ($('podPP')) $('podPP').textContent = POD.playing ? '❚❚' : '▶';
   if ($('podNewHint')) $('podNewHint').hidden = !podNewReady();
+  var dv = POD.doc && POD.doc.generated_at ? new Date(POD.doc.generated_at).toLocaleString('de-CH', { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' }) : '';
+  if ($('podVer')) $('podVer').textContent = dv ? 'Podcast vom ' + dv : '';
+  var ps = $('podStartNote'); if (ps) ps.textContent = dv ? 'Podcast vom ' + dv + ((POD.i > 0 || POD.si > 0 || POD.t > 0) ? ' · bei ' + (POD.segs[POD.i] ? POD.segs[POD.i].name : '') : '') : '';
 }
 function podMeta() {
   if (!('mediaSession' in navigator)) return;
@@ -1092,9 +1101,9 @@ function podJump(d) {
   if (was) { POD.playing = true; podRun(); } else { podUI(); podMeta(); }
 }
 function podHtml() {
-  return '<button type="button" id="podBtn" class="podBtn">🎙 Zusammenfassung Podcast</button>' +
+  return '<button type="button" id="podBtn" class="podBtn">🎙 Podcast starten</button><div id="podStartNote" class="tiny" style="margin:-4px 0 8px;text-align:center"></div>' +
     '<div id="podCtl" class="podCtl" hidden><div><b id="podNow"></b> <span id="podInfo" class="tiny"></span></div>' +
-    '<div id="podNewHint" class="tiny" hidden>🆕 Neuer Podcast bereit, wird beim nächsten Öffnen geladen.</div><div class="podRow"><button type="button" id="podPrev" aria-label="Vorherige Aktie">⏮</button><button type="button" id="podPP" class="primary" aria-label="Play/Pause">▶</button><button type="button" id="podNext" aria-label="Nächste Aktie">⏭</button></div>' + rateHtml() + '</div>' +
+    '<div id="podNewHint" class="tiny" hidden>🆕 Neuer Podcast bereit, wird beim nächsten Öffnen geladen.</div><div id="podVer" class="tiny"></div><div class="podRow"><button type="button" id="podPrev" aria-label="Vorherige Aktie">⏮</button><button type="button" id="podPP" class="primary" aria-label="Play/Pause">▶</button><button type="button" id="podNext" aria-label="Nächste Aktie">⏭</button></div><button type="button" id="podRestart" class="small" style="margin-top:6px">↺ Von vorn</button>' + rateHtml() + '</div>' +
     '<button type="button" class="txtBtn" data-txt="pod">📄 Als Text / PDF</button>';
 }
 function bindPod() {
@@ -1104,6 +1113,7 @@ function bindPod() {
   $('podPP').onclick = function () { POD.playing ? podPause() : podPlay(); };
   $('podPrev').onclick = function () { podJump(-1); };
   $('podNext').onclick = function () { podJump(1); };
+  $('podRestart').onclick = function () { var was = POD.playing; podHalt(); POD.i = 0; POD.si = 0; POD.t = 0; podSave(); if (was) { POD.playing = true; podRun(); } else { podUI(); podMeta(); } };
   podUI();
 }
 /* ===== Tempo (alle Audios) ===== */
