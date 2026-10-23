@@ -65,13 +65,13 @@
   },
   "PLTR": {
    "file": "PLTR.mp3",
-   "hash": "ebf41fb7299023ea",
-   "th": "f4be32cd11ab1b16",
-   "id": "f4be32cd11",
+   "hash": "c67a49905e24b210",
+   "th": "3c62af8a0de7c332",
+   "id": "3c62af8a0d",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
-   "dur": 222.0,
-   "at": "2026-10-23T19:54:23Z"
+   "dur": 226.3,
+   "at": "2026-10-23T22:34:03Z"
   },
   "IBM": {
    "file": "IBM.mp3",
@@ -165,13 +165,13 @@
   },
   "HOOD": {
    "file": "HOOD.mp3",
-   "hash": "6575e38d0ec765df",
-   "th": "c3ee3ca4f6f83d10",
-   "id": "c3ee3ca4f6",
+   "hash": "78df1ec6e9641337",
+   "th": "d13950b9d73939da",
+   "id": "d13950b9d7",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
-   "dur": 274.4,
-   "at": "2026-10-23T19:22:56Z"
+   "dur": 155.5,
+   "at": "2026-10-23T22:34:21Z"
   },
   "WNRG.SW": {
    "file": "WNRG.SW.mp3",
@@ -235,13 +235,13 @@
   },
   "GEV": {
    "file": "GEV.mp3",
-   "hash": "03e316cb4a2e0ae7",
-   "th": "9c54ddaf217e8db7",
-   "id": "9c54ddaf21",
+   "hash": "fe8d30a2ac422e2b",
+   "th": "0e4617f342eda567",
+   "id": "0e4617f342",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
-   "dur": 175.2,
-   "at": "2026-10-23T19:54:45Z"
+   "dur": 136.6,
+   "at": "2026-10-23T22:34:35Z"
   },
   "GE": {
    "file": "GE.mp3",
@@ -375,13 +375,13 @@
   },
   "BNTX": {
    "file": "BNTX.mp3",
-   "hash": "376cb554ffb128dd",
-   "th": "dbd4e0c781314f02",
-   "id": "dbd4e0c781",
+   "hash": "ac16670e78346e24",
+   "th": "a505f815cb2df078",
+   "id": "a505f815cb",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
-   "dur": 146.0,
-   "at": "2026-10-23T19:23:28Z"
+   "dur": 138.4,
+   "at": "2026-10-23T22:34:57Z"
   },
   "ABBN.SW": {
    "file": "ABBN.SW.mp3",
@@ -425,9 +425,9 @@
   }
  },
  "status": "quota: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usa",
- "checked_at": "2026-10-23T22:00:19Z",
+ "checked_at": "2026-10-23T22:34:57Z",
  "quota_until": 1792796280.0070572,
- "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@5db7550b079a4d55d992efb387d1d10d0a30317e/data/audio/",
+ "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@958785c8932a7ad15a6aba88ce7cf5feffa4eeb5/data/audio/",
  "extra": {
   "intro": {
    "file": "_intro.mp3",
