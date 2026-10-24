@@ -47,13 +47,14 @@
   },
   "ASML": {
    "file": "ASML.mp3",
-   "hash": "8348cac4a7235349",
-   "th": "60f9e17fae54f292",
-   "id": "60f9e17fae",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
-   "dur": 139.5,
-   "at": "2026-10-24T04:51:17Z"
+   "hash": "e38253793fd7b7a0",
+   "th": "d56009a81d960f80",
+   "engine": "gemini",
+   "id": "d56009a81d",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
+   "dur": 157.7,
+   "at": "2026-10-24T07:50:34Z"
   },
   "INTC": {
    "file": "INTC.mp3",
@@ -208,13 +209,14 @@
   },
   "SMEGF": {
    "file": "SMEGF.mp3",
-   "hash": "95747e678dbcff3d",
-   "th": "851f0c9105024062",
-   "id": "851f0c9105",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
-   "dur": 102.8,
-   "at": "2026-10-24T01:58:51Z"
+   "hash": "8137688b0f5da7f1",
+   "th": "889fd8eb0c14187a",
+   "engine": "gemini",
+   "id": "889fd8eb0c",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
+   "dur": 90.9,
+   "at": "2026-10-24T07:51:34Z"
   },
   "OKLO": {
    "file": "OKLO.mp3",
@@ -258,13 +260,14 @@
   },
   "BRK-B": {
    "file": "BRK-B.mp3",
-   "hash": "c9f3ebd9f54aca20",
-   "th": "59d91316fe2a1561",
-   "id": "59d91316fe",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
-   "dur": 122.6,
-   "at": "2026-10-24T02:53:11Z"
+   "hash": "1f6742c8403a548a",
+   "th": "801b200a09c99f1f",
+   "engine": "gemini",
+   "id": "801b200a09",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
+   "dur": 142.2,
+   "at": "2026-10-24T07:52:41Z"
   },
   "0VR3.L": {
    "file": "0VR3.L.mp3",
@@ -308,13 +311,13 @@
   },
   "OEF": {
    "file": "OEF.mp3",
-   "hash": "a707978e1af78dcb",
-   "th": "9df885df8cd709da",
-   "id": "9df885df8c",
+   "hash": "ce01025b4fdb17ee",
+   "th": "228043fc9a441f4b",
+   "id": "228043fc9a",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
-   "dur": 81.0,
-   "at": "2026-10-24T04:53:13Z"
+   "dur": 92.4,
+   "at": "2026-10-24T07:52:48Z"
   },
   "013A.F": {
    "file": "013A.F.mp3",
@@ -408,13 +411,13 @@
   },
   "MU": {
    "file": "MU.mp3",
-   "hash": "cacca84bbee86268",
-   "th": "64a635010635e945",
-   "id": "64a6350106",
+   "hash": "1436c7e530e38f23",
+   "th": "b9d19f8e0615be30",
+   "id": "b9d19f8e06",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
-   "dur": 171.1,
-   "at": "2026-10-24T03:55:15Z"
+   "dur": 156.3,
+   "at": "2026-10-24T07:52:55Z"
   },
   "DRO.AX": {
    "file": "DRO.AX.mp3",
@@ -428,9 +431,9 @@
   }
  },
  "status": "ok",
- "checked_at": "2026-10-24T07:08:05Z",
+ "checked_at": "2026-10-24T07:52:55Z",
  "quota_until": 1792824757.6226008,
- "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@38eb4a851f7052cf4898b358aefa93a7c2efd914/data/audio/",
+ "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@74f03acc73fac3c8cdf6fdf12c62f3d23830f029/data/audio/",
  "extra": {
   "intro": {
    "file": "_intro.mp3",
