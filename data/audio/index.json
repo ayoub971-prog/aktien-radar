@@ -47,23 +47,24 @@
   },
   "ASML": {
    "file": "ASML.mp3",
-   "hash": "44318213ccb65ed9",
-   "th": "fa6594d9713e690f",
-   "id": "fa6594d971",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
-   "dur": 184.9,
-   "at": "2026-10-24T10:50:24Z"
+   "hash": "bf5b1f866624833e",
+   "th": "4bfc5c5af78ad12c",
+   "engine": "gemini",
+   "id": "4bfc5c5af7",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
+   "dur": 163.3,
+   "at": "2026-10-24T14:01:41Z"
   },
   "INTC": {
    "file": "INTC.mp3",
-   "hash": "e0f6625f0c6c0e8d",
-   "th": "5e0368dbb241edb3",
-   "id": "5e0368dbb2",
+   "hash": "f81b8c4846c6ddf9",
+   "th": "f8f8dafcd9f89fe8",
+   "id": "f8f8dafcd9",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
-   "dur": 97.8,
-   "at": "2026-10-24T10:50:35Z"
+   "dur": 156.4,
+   "at": "2026-10-24T14:02:22Z"
   },
   "PLTR": {
    "file": "PLTR.mp3",
@@ -210,13 +211,13 @@
   },
   "SMEGF": {
    "file": "SMEGF.mp3",
-   "hash": "0f4e5fd05355e822",
-   "th": "2682edb81d59a6ed",
-   "id": "2682edb81d",
+   "hash": "7ebfaa81bfd00d5b",
+   "th": "b7dc56662531a5aa",
+   "id": "b7dc566625",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
-   "dur": 116.7,
-   "at": "2026-10-24T10:51:27Z"
+   "dur": 101.3,
+   "at": "2026-10-24T14:02:33Z"
   },
   "OKLO": {
    "file": "OKLO.mp3",
@@ -240,13 +241,13 @@
   },
   "GEV": {
    "file": "GEV.mp3",
-   "hash": "2c58c2580baa14d8",
-   "th": "8089f27c01032236",
-   "id": "8089f27c01",
+   "hash": "ee8b81a3db5eab1b",
+   "th": "7a06057c6277388f",
+   "id": "7a06057c62",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
-   "dur": 183.4,
-   "at": "2026-10-24T09:54:14Z"
+   "dur": 196.7,
+   "at": "2026-10-24T14:02:45Z"
   },
   "GE": {
    "file": "GE.mp3",
@@ -260,13 +261,13 @@
   },
   "BRK-B": {
    "file": "BRK-B.mp3",
-   "hash": "0e5cc28ab1a7576f",
-   "th": "2933879b34f61402",
-   "id": "2933879b34",
+   "hash": "46c30f99ef7bcf88",
+   "th": "85b76cbbe57b30f8",
+   "id": "85b76cbbe5",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
-   "dur": 151.8,
-   "at": "2026-10-24T10:51:51Z"
+   "dur": 134.7,
+   "at": "2026-10-24T14:02:57Z"
   },
   "0VR3.L": {
    "file": "0VR3.L.mp3",
@@ -280,13 +281,13 @@
   },
   "BKW.SW": {
    "file": "BKW.SW.mp3",
-   "hash": "d2e33090f50f9e37",
-   "th": "ed7b4873c910c11f",
-   "id": "ed7b4873c9",
+   "hash": "20c6c13153463ee3",
+   "th": "99b231bc5e6ce8f0",
+   "id": "99b231bc5e",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
-   "dur": 118.5,
-   "at": "2026-10-24T03:54:01Z"
+   "dur": 126.7,
+   "at": "2026-10-24T14:03:09Z"
   },
   "UBSG.SW": {
    "file": "UBSG.SW.mp3",
@@ -400,23 +401,23 @@
   },
   "STX": {
    "file": "STX.mp3",
-   "hash": "74efb011820f4934",
-   "th": "9a20c8cae79010d0",
-   "id": "9a20c8cae7",
+   "hash": "724dc232395ba883",
+   "th": "94a024a649942402",
+   "id": "94a024a649",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
-   "dur": 167.1,
-   "at": "2026-10-24T10:52:03Z"
+   "dur": 170.7,
+   "at": "2026-10-24T14:03:24Z"
   },
   "MU": {
    "file": "MU.mp3",
-   "hash": "5908233638466e45",
-   "th": "73fa8efc8288f86b",
-   "id": "73fa8efc82",
+   "hash": "ee2a76bcd3e7d51a",
+   "th": "35542f1722260132",
+   "id": "35542f1722",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
-   "dur": 150.0,
-   "at": "2026-10-24T10:52:15Z"
+   "dur": 130.4,
+   "at": "2026-10-24T14:03:31Z"
   },
   "DRO.AX": {
    "file": "DRO.AX.mp3",
@@ -429,10 +430,10 @@
    "at": "2026-10-23T21:18:36Z"
   }
  },
- "status": "ok",
- "checked_at": "2026-10-24T13:04:46Z",
- "quota_until": 1792846301.4843853,
- "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@adc4ce11b289705d7f5a3041a52cca65e2065099/data/audio/",
+ "status": "quota: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usa",
+ "checked_at": "2026-10-24T14:03:31Z",
+ "quota_until": 1792854126.6326263,
+ "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@847c92b51d98c53976e7424f92218962456f0d87/data/audio/",
  "extra": {
   "intro": {
    "file": "_intro.mp3",
