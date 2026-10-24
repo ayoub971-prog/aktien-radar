@@ -24,13 +24,13 @@
   },
   "HY9H.MU": {
    "file": "HY9H.MU.mp3",
-   "hash": "83848c9f7594b7cf",
-   "th": "6f6dd34330e2fd85",
-   "id": "6f6dd34330",
+   "hash": "2b1ed85c44acf5a0",
+   "th": "a388ab07c3519459",
+   "id": "a388ab07c3",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
-   "dur": 83.9,
-   "at": "2026-10-24T16:51:56Z"
+   "dur": 121.0,
+   "at": "2026-10-24T19:43:38Z"
   },
   "AVGO": {
    "file": "AVGO.mp3",
@@ -218,13 +218,13 @@
   },
   "OKLO": {
    "file": "OKLO.mp3",
-   "hash": "9166582248cc4f4c",
-   "th": "d9631eb589b14a29",
-   "id": "d9631eb589",
+   "hash": "238942614f795658",
+   "th": "95b9d2d7c8514036",
+   "id": "95b9d2d7c8",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
-   "dur": 156.5,
-   "at": "2026-10-24T13:04:03Z"
+   "dur": 136.4,
+   "at": "2026-10-24T19:43:49Z"
   },
   "RYCEY": {
    "file": "RYCEY.mp3",
@@ -248,13 +248,13 @@
   },
   "GE": {
    "file": "GE.mp3",
-   "hash": "4a6b8a786b23e717",
-   "th": "efe663e2cfd626ca",
-   "id": "efe663e2cf",
+   "hash": "431ddb891c9302ef",
+   "th": "37657d748ee930ed",
+   "id": "37657d748e",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
-   "dur": 212.7,
-   "at": "2026-10-24T16:53:04Z"
+   "dur": 178.2,
+   "at": "2026-10-24T19:44:01Z"
   },
   "BRK-B": {
    "file": "BRK-B.mp3",
@@ -428,9 +428,9 @@
   }
  },
  "status": "quota: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usa",
- "checked_at": "2026-10-24T18:59:19Z",
+ "checked_at": "2026-10-24T19:44:01Z",
  "quota_until": 1792871832.229899,
- "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@88300cbeffcbef891c5b2b88e1dfd28fc7b5f048/data/audio/",
+ "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@825ee1d841bfdd6d485c89f842b7b7f00ef95baf/data/audio/",
  "extra": {
   "intro": {
    "file": "_intro.mp3",
