@@ -165,13 +165,13 @@
   },
   "HOOD": {
    "file": "HOOD.mp3",
-   "hash": "b2618191d86f610b",
-   "th": "0de97453349fde0c",
-   "id": "0de9745334",
+   "hash": "afcc457f63dda560",
+   "th": "6eaed7e019d92616",
+   "id": "6eaed7e019",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
-   "dur": 154.5,
-   "at": "2026-10-25T19:45:39Z"
+   "dur": 206.0,
+   "at": "2026-10-25T22:44:40Z"
   },
   "WNRG.SW": {
    "file": "WNRG.SW.mp3",
@@ -286,13 +286,13 @@
   },
   "UBSG.SW": {
    "file": "UBSG.SW.mp3",
-   "hash": "a027d3a7c308e59c",
-   "th": "81acca1ec51de988",
-   "id": "81acca1ec5",
+   "hash": "069f61d3fb98bc06",
+   "th": "179b3d5a150d37c6",
+   "id": "179b3d5a15",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
-   "dur": 130.3,
-   "at": "2026-10-25T15:53:54Z"
+   "dur": 111.6,
+   "at": "2026-10-25T22:44:50Z"
   },
   "MSFT": {
    "file": "MSFT.mp3",
@@ -427,9 +427,9 @@
   }
  },
  "status": "quota: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usa",
- "checked_at": "2026-10-25T21:52:22Z",
+ "checked_at": "2026-10-25T22:44:50Z",
  "quota_until": 1792968554.1183474,
- "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@e745c80d25abc7e29d8770f2ca21101b09180f6d/data/audio/",
+ "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@581b04be5ebd18021b13a903cba254f1dda2b7cf/data/audio/",
  "extra": {
   "intro": {
    "file": "_intro.mp3",
