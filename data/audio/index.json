@@ -3,14 +3,14 @@
  "stocks": {
   "TSM": {
    "file": "TSM.mp3",
-   "hash": "ff6f2304a70e8cb0",
-   "th": "2837ccc5e56fdf1f",
+   "hash": "6e9bdd474fac868e",
+   "th": "3743cf6c4a4f3d4b",
    "engine": "gemini",
-   "id": "2837ccc5e5",
+   "id": "3743cf6c4a",
    "voice": "Kore",
    "model": "gemini-2.5-flash-preview-tts",
-   "dur": 143.1,
-   "at": "2026-10-24T22:48:24Z"
+   "dur": 142.7,
+   "at": "2026-10-25T14:49:31Z"
   },
   "005930.KS": {
    "file": "005930.KS.mp3",
@@ -44,14 +44,14 @@
   },
   "ASML": {
    "file": "ASML.mp3",
-   "hash": "62cd527c2c2249ec",
-   "th": "4c5934b02ed7933a",
+   "hash": "93abfd8c9d02f436",
+   "th": "51aa12f8a0c310e9",
    "engine": "gemini",
-   "id": "4c5934b02e",
+   "id": "51aa12f8a0",
    "voice": "Kore",
    "model": "gemini-2.5-flash-preview-tts",
-   "dur": 118.7,
-   "at": "2026-10-24T22:49:23Z"
+   "dur": 120.4,
+   "at": "2026-10-25T14:50:31Z"
   },
   "INTC": {
    "file": "INTC.mp3",
@@ -76,14 +76,14 @@
   },
   "IBM": {
    "file": "IBM.mp3",
-   "hash": "7a059985a9644e18",
-   "th": "5b4d6c15cbf5c568",
+   "hash": "97c7839697659a56",
+   "th": "024d81c75830aa1c",
    "engine": "gemini",
-   "id": "5b4d6c15cb",
+   "id": "024d81c758",
    "voice": "Kore",
    "model": "gemini-2.5-flash-preview-tts",
-   "dur": 104.0,
-   "at": "2026-10-25T09:52:33Z"
+   "dur": 124.9,
+   "at": "2026-10-25T14:51:42Z"
   },
   "NOW": {
    "file": "NOW.mp3",
@@ -169,13 +169,13 @@
   },
   "HOOD": {
    "file": "HOOD.mp3",
-   "hash": "daaaef609b51bcf2",
-   "th": "deecf11d7ad32087",
-   "id": "deecf11d7a",
+   "hash": "35c88b4d4c2f4de9",
+   "th": "7a67cce48aa76f5e",
+   "id": "7a67cce48a",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
-   "dur": 187.1,
-   "at": "2026-10-25T11:50:40Z"
+   "dur": 155.8,
+   "at": "2026-10-25T14:52:00Z"
   },
   "WNRG.SW": {
    "file": "WNRG.SW.mp3",
@@ -249,13 +249,13 @@
   },
   "GE": {
    "file": "GE.mp3",
-   "hash": "5a968a5a183c7e62",
-   "th": "d7510c01dd6655cc",
-   "id": "d7510c01dd",
+   "hash": "e8a304c757862f10",
+   "th": "341301dc32901092",
+   "id": "341301dc32",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
-   "dur": 184.7,
-   "at": "2026-10-24T22:52:30Z"
+   "dur": 189.6,
+   "at": "2026-10-25T14:52:23Z"
   },
   "BRK-B": {
    "file": "BRK-B.mp3",
@@ -428,10 +428,10 @@
    "at": "2026-10-23T21:18:36Z"
   }
  },
- "status": "quota: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usa",
- "checked_at": "2026-10-25T13:51:24Z",
+ "status": "ok",
+ "checked_at": "2026-10-25T14:52:23Z",
  "quota_until": 1792936948.6761675,
- "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@7ad285f998a4a6e08256500cfda79c8e8c4973a2/data/audio/",
+ "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@ca6df7fcb9b2ac0f84aac7d6ef811be2b9d40454/data/audio/",
  "extra": {
   "intro": {
    "file": "_intro.mp3",
