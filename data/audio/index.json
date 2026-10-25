@@ -68,24 +68,25 @@
   },
   "PLTR": {
    "file": "PLTR.mp3",
-   "hash": "6b196d812dbcb449",
-   "th": "a716371ff75096b2",
+   "hash": "9511009f41a4edb4",
+   "th": "c624d2ef2e53f3a9",
    "engine": "gemini",
-   "id": "a716371ff7",
+   "id": "c624d2ef2e",
    "voice": "Kore",
    "model": "gemini-2.5-flash-preview-tts",
-   "dur": 117.8,
-   "at": "2026-10-25T07:05:37Z"
+   "dur": 135.0,
+   "at": "2026-10-25T09:51:23Z"
   },
   "IBM": {
    "file": "IBM.mp3",
-   "hash": "ce35245dc37300f6",
-   "th": "b22321d3f687aed7",
-   "id": "b22321d3f6",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
-   "dur": 173.5,
-   "at": "2026-10-25T01:04:04Z"
+   "hash": "7a059985a9644e18",
+   "th": "5b4d6c15cbf5c568",
+   "engine": "gemini",
+   "id": "5b4d6c15cb",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
+   "dur": 104.0,
+   "at": "2026-10-25T09:52:33Z"
   },
   "NOW": {
    "file": "NOW.mp3",
@@ -110,14 +111,13 @@
   },
   "AMZN": {
    "file": "AMZN.mp3",
-   "hash": "85b7e3a953899f7a",
-   "th": "3de4fd39ddef7eb4",
-   "engine": "gemini",
-   "id": "3de4fd39dd",
-   "voice": "Kore",
-   "model": "gemini-2.5-flash-preview-tts",
-   "dur": 178.8,
-   "at": "2026-10-25T07:07:08Z"
+   "hash": "f7e69e915fb0b908",
+   "th": "b2a0090746fa55d1",
+   "id": "b2a0090746",
+   "voice": "de-CH-LeniNeural",
+   "engine": "edge",
+   "dur": 215.9,
+   "at": "2026-10-25T09:53:24Z"
   },
   "MRVL": {
    "file": "MRVL.mp3",
@@ -152,14 +152,13 @@
   },
   "AMAT": {
    "file": "AMAT.mp3",
-   "hash": "bba334752915a6b3",
-   "th": "1dac9e127e9f3dc9",
-   "engine": "gemini",
-   "id": "1dac9e127e",
-   "voice": "Kore",
-   "model": "gemini-2.5-flash-preview-tts",
-   "dur": 168.1,
-   "at": "2026-10-25T07:08:33Z"
+   "hash": "0220ec866d19a24a",
+   "th": "4c916be952c5fb95",
+   "id": "4c916be952",
+   "voice": "de-CH-LeniNeural",
+   "engine": "edge",
+   "dur": 197.9,
+   "at": "2026-10-25T09:53:39Z"
   },
   "ARM": {
    "file": "ARM.mp3",
@@ -265,13 +264,13 @@
   },
   "BRK-B": {
    "file": "BRK-B.mp3",
-   "hash": "ac13b5170b6d7bab",
-   "th": "6470546523ef705b",
-   "id": "6470546523",
+   "hash": "27b87f0f7fc2d2c9",
+   "th": "4a1c6339db79910a",
+   "id": "4a1c6339db",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
-   "dur": 125.9,
-   "at": "2026-10-25T07:08:47Z"
+   "dur": 112.7,
+   "at": "2026-10-25T09:53:49Z"
   },
   "0VR3.L": {
    "file": "0VR3.L.mp3",
@@ -305,23 +304,23 @@
   },
   "MSFT": {
    "file": "MSFT.mp3",
-   "hash": "4a1702994412d16a",
-   "th": "eb7edeea8222d4ed",
-   "id": "eb7edeea82",
+   "hash": "bfaa7c790b000b71",
+   "th": "42bd8e779f02d884",
+   "id": "42bd8e779f",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
-   "dur": 159.4,
-   "at": "2026-10-25T07:08:59Z"
+   "dur": 184.5,
+   "at": "2026-10-25T09:54:04Z"
   },
   "OEF": {
    "file": "OEF.mp3",
-   "hash": "9f41f9360bd4ce8f",
-   "th": "f14488d814e1a82d",
-   "id": "f14488d814",
+   "hash": "f66db2ae9b715cce",
+   "th": "80da8ec9097cbbda",
+   "id": "80da8ec909",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
-   "dur": 51.1,
-   "at": "2026-10-25T07:09:05Z"
+   "dur": 87.1,
+   "at": "2026-10-25T09:54:10Z"
   },
   "013A.F": {
    "file": "013A.F.mp3",
@@ -335,13 +334,13 @@
   },
   "NVDA": {
    "file": "NVDA.mp3",
-   "hash": "bcc0aa0882133f2d",
-   "th": "03e83ba3473f32c8",
-   "id": "03e83ba347",
+   "hash": "1b3e99f8dd82db57",
+   "th": "ec3dc5aa5223be55",
+   "id": "ec3dc5aa52",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
-   "dur": 169.5,
-   "at": "2026-10-25T07:09:22Z"
+   "dur": 177.9,
+   "at": "2026-10-25T09:54:23Z"
   },
   "1211.HK": {
    "file": "1211.HK.mp3",
@@ -435,10 +434,10 @@
    "at": "2026-10-23T21:18:36Z"
   }
  },
- "status": "ok",
- "checked_at": "2026-10-25T08:53:49Z",
- "quota_until": 1792904056.3173528,
- "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@a252ed5c59d5e3bbb4a8b742a439278f186c2b5f/data/audio/",
+ "status": "quota: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usa",
+ "checked_at": "2026-10-25T09:54:23Z",
+ "quota_until": 1792925578.2465513,
+ "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@96f81ee03e01b0ec825ebf9b33de88476c957e63/data/audio/",
  "extra": {
   "intro": {
    "file": "_intro.mp3",
