@@ -2,7 +2,7 @@
 (function () {
 'use strict';
 var REPO = 'ayoub971-prog/aktien-radar';
-var APP_VERSION = 'v30';
+var APP_VERSION = 'v31';
 var SECTOR_ORDER = ['Halbleiter/Hardware', 'Software/KI', 'Energie', 'Industrie/Luftfahrt', 'Finanzen', 'Rohstoffe/Gold', 'Konsum/Internet', 'Gesundheit', 'ETFs/Indizes', 'Sonstige'];
 var TAGS = [
   { n: 'Quartalszahlen', re: /quartalszahl|quartalsergebnis|quartalsbericht|jahreszahlen|halbjahreszahlen|geschäftszahlen|\bearnings\b|quarterly results|\bq[1-4]\b.{0,12}(results|earnings|revenue)|(results|earnings) for (the )?(first|second|third|fourth)|\bumsatz\b|\bbilanz\b/i },
