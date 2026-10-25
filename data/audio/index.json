@@ -121,14 +121,13 @@
   },
   "MRVL": {
    "file": "MRVL.mp3",
-   "hash": "e6e095caccccf657",
-   "th": "90aeee67f9184419",
-   "engine": "gemini",
-   "id": "90aeee67f9",
-   "voice": "Kore",
-   "model": "gemini-2.5-flash-preview-tts",
-   "dur": 149.0,
-   "at": "2026-10-25T07:55:12Z"
+   "hash": "c657ad1a807c3998",
+   "th": "97df11b3b413bb1f",
+   "id": "97df11b3b4",
+   "voice": "de-CH-LeniNeural",
+   "engine": "edge",
+   "dur": 150.2,
+   "at": "2026-10-25T10:49:19Z"
   },
   "SFTBY": {
    "file": "SFTBY.mp3",
@@ -294,13 +293,13 @@
   },
   "UBSG.SW": {
    "file": "UBSG.SW.mp3",
-   "hash": "a74a35f648f7ab9a",
-   "th": "38610ab4fc45324c",
-   "id": "38610ab4fc",
+   "hash": "e58b2a7545116835",
+   "th": "f37ffa16102a449a",
+   "id": "f37ffa1610",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
-   "dur": 129.3,
-   "at": "2026-10-25T07:56:11Z"
+   "dur": 111.5,
+   "at": "2026-10-25T10:49:28Z"
   },
   "MSFT": {
    "file": "MSFT.mp3",
@@ -385,13 +384,13 @@
   },
   "BNTX": {
    "file": "BNTX.mp3",
-   "hash": "dc6e33e80464c715",
-   "th": "64ba5dfe0bd2c6b6",
-   "id": "64ba5dfe0b",
+   "hash": "a30cfe8f0d434258",
+   "th": "af9eefb8b8ec1545",
+   "id": "af9eefb8b8",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
-   "dur": 206.9,
-   "at": "2026-10-25T07:56:37Z"
+   "dur": 188.0,
+   "at": "2026-10-25T10:49:43Z"
   },
   "ABBN.SW": {
    "file": "ABBN.SW.mp3",
@@ -415,13 +414,13 @@
   },
   "MU": {
    "file": "MU.mp3",
-   "hash": "eb6ce85363f69331",
-   "th": "f3e691e651979c55",
-   "id": "f3e691e651",
+   "hash": "ff85ed98c2959164",
+   "th": "1a12a193f41f0584",
+   "id": "1a12a193f4",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
-   "dur": 181.2,
-   "at": "2026-10-25T07:56:51Z"
+   "dur": 228.1,
+   "at": "2026-10-25T10:50:02Z"
   },
   "DRO.AX": {
    "file": "DRO.AX.mp3",
@@ -435,9 +434,9 @@
   }
  },
  "status": "quota: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usa",
- "checked_at": "2026-10-25T09:54:23Z",
+ "checked_at": "2026-10-25T10:50:02Z",
  "quota_until": 1792925578.2465513,
- "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@96f81ee03e01b0ec825ebf9b33de88476c957e63/data/audio/",
+ "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@40306bedf2de4923a1c2767339b8f79a6bab507b/data/audio/",
  "extra": {
   "intro": {
    "file": "_intro.mp3",
