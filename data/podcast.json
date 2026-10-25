@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T04:54:32Z",
+ "generated_at": "2026-10-25T05:48:36Z",
  "intro": "Willkommen beim Aktien-Radar, deinem Überblick über die neuesten Meldungen. Heute geht es um 39 Aktien aus deiner Liste. Alles stammt aus den gesammelten Meldungen und Analystendaten, nichts ist erfunden. Keine Anlageberatung.",
  "outro": "Das war der Aktien-Radar-Überblick. Die Quellen und Details findest du in der App bei jeder Aktie. Keine Anlageberatung.",
  "segments": [
@@ -344,14 +344,14 @@
   {
    "symbol": "GEV",
    "name": "GE Vernova",
-   "text": "GE Vernova steht derzeit stark im Fokus von Investoren und Medien. Nach Berichten von Barron's geriet die Aktie des Unternehmens kürzlich im Zuge von Ängsten rund um die KI-Finanzierung und das Unternehmen Meta unter massiven Druck und verzeichnete einen Kursrückgang von rund zehn Prozent. Dabei rutschte das Papier auf ein Sechsmonatstief und zeitweise unter die zweihundert Tage Linie, wie boerse.de meldet. Positiver bewertet wird hingegen die operative Entwicklung, denn laut einer Mitteilung der Firma selbst sicherte sich GE Vernova einen neuen Auftrag zur Stärkung der regionalen Energiekapazität in Côte d'Ivoire. Auch netzunabhängige Kraftwerksprojekte spielen laut Yahoo Finance eine Rolle. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden, allerdings weisen Analysten auf mögliche Margenrisiken bis zum Jahr zweitausend sieben hin. Zurück zu GE Vernova: Analysten blicken überwiegend positiv auf das Papier. So gibt es laut Daten von Yahoo Finance zahlreiche Kaufempfehlungen und das durchschnittliche Kursziel der Experten liegt bei rund eintausendzweihundertdreiundzwanzig Dollar. Unter anderem haben Analysehäuser wie Susquehanna, Guggenheim und JP Morgan ihre Einschätzungen aktualisiert, wobei Susquehanna und JP Morgan ihre Kursziele auf eintausendzweihundertsiebzig beziehungsweise eintausendhunderfünfzig Dollar angepasst haben. Guggenheim bestätigt das Kursziel bei eintausendvierhundertfünfzig Dollar. Wichtige Kennzahlen wie der grosse Auftragsbestand von rund einhundertsechsundsiebzig Milliarden Dollar stehen im Zentrum der Aufmerksamkeit, da dieser laut AOL Punkt com bei den anstehenden Quartalszahlen auf dem Prüfstand steht. Insider-Käufe oder Verkäufe wurden in den aktuellen Berichten nicht dokumentiert. Aussagen des Managements zu konkreten Strategien lagen für diesen Zeitraum nicht vor. Widersprüchliche Berichte zwischen den verschiedenen Medienquellen gab es bezüglich der Bewertung nicht, allerdings bleibt abzuwarten, ob die jüngsten Bestellungen im Bereich künstliche Intelligenz die Aktie bereits vollständig bewerten. Keine Anlageberatung.",
-   "id": "b41dbff747",
-   "generated_at": "2026-10-25T01:45:42Z",
+   "text": "GE Vernova: Die Aktie des Unternehmens stand zuletzt im Fokus von Berichten über Kursrückgänge und Sorgen im Zusammenhang mit der Finanzierung von Künstlicher Intelligenz. Marktbeobachter richten den Blick dabei auf anstehende Quartalsergebnisse und einen grossen Auftragsbestand. Laut GE Vernova, der Mitteilung der Firma selbst, erhielt das Unternehmen einen neuen Auftrag zur Stärkung der regionalen Energiekapazität in Côte d’Ivoire. Das US-Finanzmagazin Barron's meldete, dass die Aktie um 10 Prozent gefallen sei, was mit Ängsten vor der Finanzierung im Bereich Künstlicher Intelligenz begründet wurde. Die kanadische Tageszeitung The Globe and Mail berichtete zudem, dass GE Vernova beim sogenannten KI-Power-Boom von schlechtesten auf den ersten Platz eingestuft wurde. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Zu den Analysten-Bewertungen gehört das Finanzportal Yahoo Finance, welches einen Konsens aus 31 Kaufempfehlungen, 7 Halteempfehlungen und 6 starken Kaufempfehlungen anzeigt. Das durchschnittliche Kursziel liegt bei rund 1224 Dollar. Zurück zu GE Vernova: Das Unternehmen arbeitet an Energieprojekten und verzeichnet Aufträge im Zusammenhang mit der steigenden Nachfrage nach Strom. Als wichtige Kennzahl ist das durchschnittliche Kursziel der Analysten von rund 1224 Dollar zu nennen, welches die Markterwartungen widerspiegelt. Insider-Käufe oder -Verkäufe wurden in den aktuellen Meldungen nicht separat aufgeführt. Aussagen des Managements liegen aus den analysierten Berichten direkt nicht vor. Widersprüche zwischen den Quellen wurden in den Daten nicht festgestellt. Keine Anlageberatung.",
+   "id": "78974c636d",
+   "generated_at": "2026-10-25T05:46:31Z",
    "audio": {
     "file": "GEV.mp3",
-    "hash": "b26f28c3ae9176f0",
-    "dur": 146.7,
-    "engine": "edge"
+    "hash": "9ff197f51ce8077c",
+    "dur": 97.2,
+    "engine": "gemini"
    }
   },
   {
@@ -524,5 +524,5 @@
   "dur": 10.2,
   "engine": "edge"
  },
- "audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@9650331e3a31b97caadbcc5b4601210752acf73a/data/audio/"
+ "audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@c2cd76ae7bcab91bdc9a315187a56d35daf0347c/data/audio/"
 }
