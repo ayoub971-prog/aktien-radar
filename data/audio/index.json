@@ -3,13 +3,14 @@
  "stocks": {
   "TSM": {
    "file": "TSM.mp3",
-   "hash": "b9179b1c6a635b56",
-   "th": "837a5119095d632f",
-   "id": "837a511909",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
-   "dur": 138.9,
-   "at": "2026-10-25T16:51:45Z"
+   "hash": "987f5a0a1abd8aa9",
+   "th": "4ba4d4b67c7173b3",
+   "engine": "gemini",
+   "id": "4ba4d4b67c",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
+   "dur": 136.9,
+   "at": "2026-10-25T20:46:46Z"
   },
   "005930.KS": {
    "file": "005930.KS.mp3",
@@ -308,13 +309,14 @@
   },
   "OEF": {
    "file": "OEF.mp3",
-   "hash": "aeccd7f12932a84f",
-   "th": "884ec6f50a8fab9d",
-   "id": "884ec6f50a",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
-   "dur": 93.4,
-   "at": "2026-10-25T13:03:34Z"
+   "hash": "0d86cfe5a12f166b",
+   "th": "e6a411f7f7e1e141",
+   "engine": "gemini",
+   "id": "e6a411f7f7",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
+   "dur": 65.5,
+   "at": "2026-10-25T20:47:41Z"
   },
   "013A.F": {
    "file": "013A.F.mp3",
@@ -427,10 +429,10 @@
    "at": "2026-10-25T17:47:56Z"
   }
  },
- "status": "quota: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usa",
- "checked_at": "2026-10-25T19:45:39Z",
+ "status": "ok",
+ "checked_at": "2026-10-25T20:47:42Z",
  "quota_until": 1792958288.5950437,
- "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@4a88110244e3b280e1c6632609eab5900fe45519/data/audio/",
+ "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@29e96d6c77f012cb3c61105ce486f7e8a276e1ed/data/audio/",
  "extra": {
   "intro": {
    "file": "_intro.mp3",
