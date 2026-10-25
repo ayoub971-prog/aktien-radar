@@ -163,13 +163,14 @@
   },
   "ARM": {
    "file": "ARM.mp3",
-   "hash": "cb9b27ff0946ccc4",
-   "th": "3991e60d9266f5e5",
-   "id": "3991e60d92",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
-   "dur": 189.4,
-   "at": "2026-10-24T18:58:34Z"
+   "hash": "f23cb9301686a700",
+   "th": "18cc553589a9ad3a",
+   "engine": "gemini",
+   "id": "18cc553589",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
+   "dur": 114.1,
+   "at": "2026-10-25T08:51:40Z"
   },
   "HOOD": {
    "file": "HOOD.mp3",
@@ -193,13 +194,14 @@
   },
   "BE": {
    "file": "BE.mp3",
-   "hash": "1d363b039d01f104",
-   "th": "b0f3822f630dd676",
-   "id": "b0f3822f63",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
-   "dur": 195.1,
-   "at": "2026-10-25T03:55:32Z"
+   "hash": "e6e0e3a1b728dfdc",
+   "th": "cec373959e100f76",
+   "engine": "gemini",
+   "id": "cec373959e",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
+   "dur": 112.7,
+   "at": "2026-10-25T08:52:42Z"
   },
   "HYLN": {
    "file": "HYLN.mp3",
@@ -343,13 +345,14 @@
   },
   "1211.HK": {
    "file": "1211.HK.mp3",
-   "hash": "3eaf607d7b0b1127",
-   "th": "6994da5299a3112d",
-   "id": "6994da5299",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
-   "dur": 137.8,
-   "at": "2026-10-24T20:51:34Z"
+   "hash": "04f58fa02e7d6ad1",
+   "th": "c0ccc55bbe7f392b",
+   "engine": "gemini",
+   "id": "c0ccc55bbe",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
+   "dur": 127.5,
+   "at": "2026-10-25T08:53:49Z"
   },
   "SHL.DE": {
    "file": "SHL.DE.mp3",
@@ -433,9 +436,9 @@
   }
  },
  "status": "ok",
- "checked_at": "2026-10-25T07:56:51Z",
+ "checked_at": "2026-10-25T08:53:49Z",
  "quota_until": 1792904056.3173528,
- "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@44852eb0f11a201b16993021a12127e712cd6e64/data/audio/",
+ "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@a252ed5c59d5e3bbb4a8b742a439278f186c2b5f/data/audio/",
  "extra": {
   "intro": {
    "file": "_intro.mp3",
