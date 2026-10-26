@@ -1,21 +1,34 @@
 {
-"generated_at": "2026-10-26T12:54:57Z",
+"generated_at": "2026-10-26T15:20:04Z",
 "universe": 520,
-"ai_model": "gemini-3.5-flash-lite",
+"ai_model": null,
 "sources": [
 "Wikipedia (S&P 500, Nasdaq-100)",
-"Yahoo Finance",
-"Google Gemini (Kurztexte Frische Zahlen)"
+"Yahoo Finance"
 ],
 "lists": {
 "potenzial": [
 {
 "symbol": "OKLO",
 "name": "Oklo Inc.",
-"price_usd": 26.35,
+"price_usd": 26.69,
 "mine": true,
-"metric": "+161,7 % bis Kursziel",
-"reason": "Ø Kursziel von 19 Analysten: 68.95 USD. "
+"metric": "+157,4 % bis Kursziel",
+"reason": "Ø Kursziel von 19 Analysten: 68.95 USD. ",
+"d": {
+"upside": 157.4,
+"target_usd": 68.95,
+"analysts": 19,
+"m1": -28.1,
+"m3": -32.6
+},
+"say": "Zur Aktie Oklo. Oklo kostet im Moment sechsundzwanzig Dollar und neunundsechzig Cent. Das durchschnittliche Kursziel von neunzehn Analysten für Oklo liegt bei achtundsechzig Dollar und fünfundneunzig Cent. Bis dahin wären es plus einhundertsiebenundfünfzig Komma vier Prozent. Der Kurs von Oklo veränderte sich im letzten Monat um minus achtundzwanzig Komma eins Prozent und in drei Monaten um minus zweiunddreissig Komma sechs Prozent. Oklo ist schon auf deiner Liste. Das war die Aktie Oklo.",
+"audio": {
+"file": "ent/potenzial_OKLO.mp3",
+"hash": "838ce757fcfc5c8f",
+"dur": 38.3,
+"engine": "edge"
+}
 },
 {
 "symbol": "005930.KS",
@@ -23,87 +36,131 @@
 "price_usd": 160.82,
 "mine": true,
 "metric": "+124,8 % bis Kursziel",
-"reason": "Ø Kursziel von 36 Analysten: 361.59 USD. "
+"reason": "Ø Kursziel von 36 Analysten: 361.59 USD. ",
+"d": {
+"upside": 124.8,
+"target_usd": 361.59,
+"analysts": 36,
+"m1": -24.5,
+"m3": -15.2
+},
+"say": "Zur Aktie Samsung Electronics. Samsung Electronics kostet im Moment einhundertsechzig Dollar und zweiundachtzig Cent. Das durchschnittliche Kursziel von sechsunddreissig Analysten für Samsung Electronics liegt bei dreihunderteinundsechzig Dollar und neunundfünfzig Cent. Bis dahin wären es plus einhundertvierundzwanzig Komma acht Prozent. Der Kurs von Samsung Electronics veränderte sich im letzten Monat um minus vierundzwanzig Komma fünf Prozent und in drei Monaten um minus fünfzehn Komma zwei Prozent. Samsung Electronics ist schon auf deiner Liste. Das war die Aktie Samsung Electronics.",
+"audio": {
+"file": "ent/potenzial_005930.KS.mp3",
+"hash": "20b3ad2d36a2591c",
+"dur": 45.4,
+"engine": "edge"
+}
 },
 {
 "symbol": "FLEX",
 "name": "Flex Ltd.",
-"price_usd": 76.55,
+"price_usd": 78.28,
 "mine": false,
-"metric": "+107,6 % bis Kursziel",
-"reason": "Ø Kursziel von 10 Analysten: 158.90 USD. "
+"metric": "+102,7 % bis Kursziel",
+"reason": "Ø Kursziel von 10 Analysten: 158.90 USD. ",
+"d": {
+"upside": 102.7,
+"target_usd": 158.9,
+"analysts": 10,
+"m1": -30.7,
+"m3": -30.9
+},
+"say": "Zur Aktie Flex. Flex kostet im Moment achtundsiebzig Dollar und achtundzwanzig Cent. Das durchschnittliche Kursziel von zehn Analysten für Flex liegt bei einhundertachtundfünfzig Dollar und neunzig Cent. Bis dahin wären es plus einhundertzwei Komma sieben Prozent. Der Kurs von Flex veränderte sich im letzten Monat um minus dreissig Komma sieben Prozent und in drei Monaten um minus dreissig Komma neun Prozent. Das war die Aktie Flex.",
+"audio": {
+"file": "ent/potenzial_FLEX.mp3",
+"hash": "eb1373313964799a",
+"dur": 34.5,
+"engine": "edge"
+}
 },
 {
 "symbol": "NRG",
 "name": "NRG Energy, Inc.",
-"price_usd": 92.31,
+"price_usd": 93.07,
 "mine": false,
-"metric": "+93,9 % bis Kursziel",
-"reason": "Ø Kursziel von 18 Analysten: 179.00 USD. "
+"metric": "+92,4 % bis Kursziel",
+"reason": "Ø Kursziel von 18 Analysten: 179.00 USD. ",
+"d": {
+"upside": 92.4,
+"target_usd": 179.0,
+"analysts": 18,
+"m1": -4.1,
+"m3": -27.0
 },
-{
-"symbol": "COHR",
-"name": "Coherent Corp.",
-"price_usd": 209.29,
-"mine": false,
-"metric": "+88,6 % bis Kursziel",
-"reason": "Ø Kursziel von 24 Analysten: 394.79 USD. "
+"say": "Zur Aktie NRG Energy. NRG Energy kostet im Moment dreiundneunzig Dollar und sieben Cent. Das durchschnittliche Kursziel von achtzehn Analysten für NRG Energy liegt bei einhundertneunundsiebzig Dollar. Bis dahin wären es plus zweiundneunzig Komma vier Prozent. Der Kurs von NRG Energy veränderte sich im letzten Monat um minus vier Komma eins Prozent und in drei Monaten um minus siebenundzwanzig Prozent. Das war die Aktie NRG Energy.",
+"audio": {
+"file": "ent/potenzial_NRG.mp3",
+"hash": "17c660eb41aa603b",
+"dur": 34.9,
+"engine": "edge"
+}
 },
 {
 "symbol": "ORCL",
 "name": "Oracle Corporation",
-"price_usd": 126.16,
+"price_usd": 127.09,
 "mine": false,
-"metric": "+87,5 % bis Kursziel",
-"reason": "Ø Kursziel von 41 Analysten: 236.54 USD. "
+"metric": "+85,9 % bis Kursziel",
+"reason": "Ø Kursziel von 41 Analysten: 236.54 USD. ",
+"d": {
+"upside": 85.9,
+"target_usd": 236.54,
+"analysts": 41,
+"m1": -4.2,
+"m3": 5.9
+},
+"say": "Zur Aktie Oracle. Oracle kostet im Moment einhundertsiebenundzwanzig Dollar und neun Cent. Das durchschnittliche Kursziel von einundvierzig Analysten für Oracle liegt bei zweihundertsechsunddreissig Dollar und vierundfünfzig Cent. Bis dahin wären es plus fünfundachtzig Komma neun Prozent. Der Kurs von Oracle veränderte sich im letzten Monat um minus vier Komma zwei Prozent und in drei Monaten um plus fünf Komma neun Prozent. Das war die Aktie Oracle.",
+"audio": {
+"file": "ent/potenzial_ORCL.mp3",
+"hash": "841935899b554ccb",
+"dur": 35.0,
+"engine": "edge"
+}
 },
 {
 "symbol": "APP",
 "name": "AppLovin Corporation",
-"price_usd": 260.25,
+"price_usd": 260.4,
 "mine": false,
 "metric": "+81,2 % bis Kursziel",
-"reason": "Ø Kursziel von 31 Analysten: 471.69 USD. "
+"reason": "Ø Kursziel von 31 Analysten: 471.69 USD. ",
+"d": {
+"upside": 81.2,
+"target_usd": 471.69,
+"analysts": 31,
+"m1": -15.5,
+"m3": -37.7
+},
+"say": "Zur Aktie AppLovin. AppLovin kostet im Moment zweihundertsechzig Dollar und vierzig Cent. Das durchschnittliche Kursziel von einunddreissig Analysten für AppLovin liegt bei vierhunderteinundsiebzig Dollar und neunundsechzig Cent. Bis dahin wären es plus einundachtzig Komma zwei Prozent. Der Kurs von AppLovin veränderte sich im letzten Monat um minus fünfzehn Komma fünf Prozent und in drei Monaten um minus siebenunddreissig Komma sieben Prozent. Das war die Aktie AppLovin.",
+"audio": {
+"file": "ent/potenzial_APP.mp3",
+"hash": "164de148d023eecc",
+"dur": 36.6,
+"engine": "edge"
+}
 },
 {
-"symbol": "FIX",
-"name": "Comfort Systems USA, Inc.",
-"price_usd": 1160.86,
+"symbol": "COHR",
+"name": "Coherent Corp.",
+"price_usd": 220.4,
 "mine": false,
-"metric": "+80,5 % bis Kursziel",
-"reason": "Ø Kursziel von 8 Analysten: 2095.12 USD. "
+"metric": "+78,8 % bis Kursziel",
+"reason": "Ø Kursziel von 24 Analysten: 394.79 USD. ",
+"d": {
+"upside": 78.8,
+"target_usd": 394.79,
+"analysts": 24,
+"m1": -22.0,
+"m3": -9.4
 },
-{
-"symbol": "MU",
-"name": "Micron Technology, Inc.",
-"price_usd": 877.55,
-"mine": true,
-"metric": "+78,0 % bis Kursziel",
-"reason": "Ø Kursziel von 45 Analysten: 1561.91 USD. "
-},
-{
-"symbol": "WDC",
-"name": "Western Digital Corporation",
-"price_usd": 343.67,
-"mine": false,
-"metric": "+77,5 % bis Kursziel",
-"reason": "Ø Kursziel von 24 Analysten: 610.04 USD. "
-},
-{
-"symbol": "STX",
-"name": "Seagate Technology Holdings plc",
-"price_usd": 630.49,
-"mine": true,
-"metric": "+77,1 % bis Kursziel",
-"reason": "Ø Kursziel von 24 Analysten: 1116.58 USD. "
-},
-{
-"symbol": "HWM",
-"name": "Howmet Aerospace Inc.",
-"price_usd": 185.91,
-"mine": false,
-"metric": "+74,6 % bis Kursziel",
-"reason": "Ø Kursziel von 20 Analysten: 324.55 USD. "
+"say": "Zur Aktie Coherent. Coherent kostet im Moment zweihundertzwanzig Dollar und vierzig Cent. Das durchschnittliche Kursziel von vierundzwanzig Analysten für Coherent liegt bei dreihundertvierundneunzig Dollar und neunundsiebzig Cent. Bis dahin wären es plus achtundsiebzig Komma acht Prozent. Der Kurs von Coherent veränderte sich im letzten Monat um minus zweiundzwanzig Prozent und in drei Monaten um minus neun Komma vier Prozent. Das war die Aktie Coherent.",
+"audio": {
+"file": "ent/potenzial_COHR.mp3",
+"hash": "31be623eae5effda",
+"dur": 35.4,
+"engine": "edge"
+}
 },
 {
 "symbol": "1211.HK",
@@ -111,879 +168,2835 @@
 "price_usd": 9.03,
 "mine": true,
 "metric": "+73,4 % bis Kursziel",
-"reason": "Ø Kursziel von 26 Analysten: 15.65 USD. "
+"reason": "Ø Kursziel von 26 Analysten: 15.65 USD. ",
+"d": {
+"upside": 73.4,
+"target_usd": 15.65,
+"analysts": 26,
+"m1": -8.9,
+"m3": -21.2
+},
+"say": "Zur Aktie BYD Limited. BYD Limited kostet im Moment neun Dollar und drei Cent. Das durchschnittliche Kursziel von sechsundzwanzig Analysten für BYD Limited liegt bei fünfzehn Dollar und fünfundsechzig Cent. Bis dahin wären es plus dreiundsiebzig Komma vier Prozent. Der Kurs von BYD Limited veränderte sich im letzten Monat um minus acht Komma neun Prozent und in drei Monaten um minus einundzwanzig Komma zwei Prozent. BYD Limited ist schon auf deiner Liste. Das war die Aktie BYD Limited.",
+"audio": {
+"file": "ent/potenzial_1211.HK.mp3",
+"hash": "ab864d86eae0b24e",
+"dur": 42.7,
+"engine": "edge"
+}
+},
+{
+"symbol": "WDC",
+"name": "Western Digital Corporation",
+"price_usd": 353.44,
+"mine": false,
+"metric": "+72,5 % bis Kursziel",
+"reason": "Ø Kursziel von 24 Analysten: 610.04 USD. ",
+"d": {
+"upside": 72.5,
+"target_usd": 610.04,
+"analysts": 24,
+"m1": -22.1,
+"m3": -23.8,
+"earn": {
+"t": 1792699200,
+"act": 4.64,
+"est": 4.0978,
+"sur": 13.2,
+"cur": "USD",
+"fx": 1.0
+}
+},
+"say": "Zur Aktie Western Digital. Western Digital kostet im Moment dreihundertdreiundfünfzig Dollar und vierundvierzig Cent. Das durchschnittliche Kursziel von vierundzwanzig Analysten für Western Digital liegt bei sechshundertzehn Dollar und vier Cent. Bis dahin wären es plus zweiundsiebzig Komma fünf Prozent. Der Kurs von Western Digital veränderte sich im letzten Monat um minus zweiundzwanzig Komma eins Prozent und in drei Monaten um minus dreiundzwanzig Komma acht Prozent. Das war die Aktie Western Digital.",
+"audio": {
+"file": "ent/potenzial_WDC.mp3",
+"hash": "cb737a906272a5c3",
+"dur": 38.7,
+"engine": "edge"
+}
+},
+{
+"symbol": "MU",
+"name": "Micron Technology, Inc.",
+"price_usd": 907.14,
+"mine": true,
+"metric": "+72,2 % bis Kursziel",
+"reason": "Ø Kursziel von 45 Analysten: 1561.91 USD. ",
+"d": {
+"upside": 72.2,
+"target_usd": 1561.91,
+"analysts": 45,
+"m1": -13.9,
+"m3": 10.5
+},
+"say": "Zur Aktie Micron Technology. Micron Technology kostet im Moment neunhundertsieben Dollar und vierzehn Cent. Das durchschnittliche Kursziel von fünfundvierzig Analysten für Micron Technology liegt bei eintausendfünfhunderteinundsechzig Dollar und einundneunzig Cent. Bis dahin wären es plus zweiundsiebzig Komma zwei Prozent. Der Kurs von Micron Technology veränderte sich im letzten Monat um minus dreizehn Komma neun Prozent und in drei Monaten um plus zehn Komma fünf Prozent. Micron Technology ist schon auf deiner Liste. Das war die Aktie Micron Technology.",
+"audio": {
+"file": "ent/potenzial_MU.mp3",
+"hash": "ae4aae0a8d9cfc6f",
+"dur": 43.9,
+"engine": "edge"
+}
+},
+{
+"symbol": "STX",
+"name": "Seagate Technology Holdings plc",
+"price_usd": 651.38,
+"mine": true,
+"metric": "+71,1 % bis Kursziel",
+"reason": "Ø Kursziel von 24 Analysten: 1116.58 USD. ",
+"d": {
+"upside": 71.1,
+"target_usd": 1116.58,
+"analysts": 24,
+"m1": -29.4,
+"m3": -12.9
+},
+"say": "Zur Aktie Seagate Technology. Seagate Technology kostet im Moment sechshunderteinundfünfzig Dollar und achtunddreissig Cent. Das durchschnittliche Kursziel von vierundzwanzig Analysten für Seagate Technology liegt bei eintausendeinhundertsechzehn Dollar und achtundfünfzig Cent. Bis dahin wären es plus einundsiebzig Komma eins Prozent. Der Kurs von Seagate Technology veränderte sich im letzten Monat um minus neunundzwanzig Komma vier Prozent und in drei Monaten um minus zwölf Komma neun Prozent. Seagate Technology ist schon auf deiner Liste. Das war die Aktie Seagate Technology.",
+"audio": {
+"file": "ent/potenzial_STX.mp3",
+"hash": "6bd7ccf327f0efc2",
+"dur": 44.4,
+"engine": "edge"
+}
 },
 {
 "symbol": "SNDK",
 "name": "Sandisk Corporation",
-"price_usd": 1238.03,
+"price_usd": 1262.1,
 "mine": false,
-"metric": "+73,2 % bis Kursziel",
-"reason": "Ø Kursziel von 24 Analysten: 2143.83 USD. "
+"metric": "+69,5 % bis Kursziel",
+"reason": "Ø Kursziel von 24 Analysten: 2143.83 USD. ",
+"d": {
+"upside": 69.5,
+"target_usd": 2143.83,
+"analysts": 24,
+"m1": -26.3,
+"m3": 15.2
+},
+"say": "Zur Aktie Sandisk. Sandisk kostet im Moment eintausendzweihundertzweiundsechzig Dollar und zehn Cent. Das durchschnittliche Kursziel von vierundzwanzig Analysten für Sandisk liegt bei zweitausendeinhundertdreiundvierzig Dollar und dreiundachtzig Cent. Bis dahin wären es plus neunundsechzig Komma fünf Prozent. Der Kurs von Sandisk veränderte sich im letzten Monat um minus sechsundzwanzig Komma drei Prozent und in drei Monaten um plus fünfzehn Komma zwei Prozent. Das war die Aktie Sandisk.",
+"audio": {
+"file": "ent/potenzial_SNDK.mp3",
+"hash": "1f280971580800f9",
+"dur": 37.6,
+"engine": "edge"
+}
 },
 {
-"symbol": "VRT",
-"name": "Vertiv Holdings Co",
-"price_usd": 194.32,
+"symbol": "HWM",
+"name": "Howmet Aerospace Inc.",
+"price_usd": 193.05,
 "mine": false,
-"metric": "+71,4 % bis Kursziel",
-"reason": "Ø Kursziel von 28 Analysten: 333.00 USD. "
+"metric": "+68,1 % bis Kursziel",
+"reason": "Ø Kursziel von 20 Analysten: 324.55 USD. ",
+"d": {
+"upside": 68.1,
+"target_usd": 324.55,
+"analysts": 20,
+"m1": -15.5,
+"m3": -32.5
+},
+"say": "Zur Aktie Howmet Aerospace. Howmet Aerospace kostet im Moment einhundertdreiundneunzig Dollar und fünf Cent. Das durchschnittliche Kursziel von zwanzig Analysten für Howmet Aerospace liegt bei dreihundertvierundzwanzig Dollar und fünfundfünfzig Cent. Bis dahin wären es plus achtundsechzig Komma eins Prozent. Der Kurs von Howmet Aerospace veränderte sich im letzten Monat um minus fünfzehn Komma fünf Prozent und in drei Monaten um minus zweiunddreissig Komma fünf Prozent. Das war die Aktie Howmet Aerospace.",
+"audio": {
+"file": "ent/potenzial_HWM.mp3",
+"hash": "af699625fe4b7625",
+"dur": 39.4,
+"engine": "edge"
+}
 },
 {
 "symbol": "ALB",
 "name": "Albemarle Corporation",
-"price_usd": 93.67,
+"price_usd": 94.83,
 "mine": false,
-"metric": "+66,9 % bis Kursziel",
-"reason": "Ø Kursziel von 21 Analysten: 156.35 USD. Mizuho stuft hoch auf Besser als Markt (14.10.2026)."
+"metric": "+64,8 % bis Kursziel",
+"reason": "Ø Kursziel von 21 Analysten: 156.35 USD. Mizuho stuft hoch auf Besser als Markt (14.10.2026).",
+"d": {
+"upside": 64.8,
+"target_usd": 156.35,
+"analysts": 21,
+"m1": -11.7,
+"m3": -16.2,
+"changes": [
+{
+"t": 1791971018,
+"firm": "Mizuho",
+"a": "up",
+"to": "Besser als Markt"
+}
+]
+},
+"say": "Zur Aktie Albemarle. Albemarle kostet im Moment vierundneunzig Dollar und dreiundachtzig Cent. Das durchschnittliche Kursziel von einundzwanzig Analysten für Albemarle liegt bei einhundertsechsundfünfzig Dollar und fünfunddreissig Cent. Bis dahin wären es plus vierundsechzig Komma acht Prozent. Mizuho hat Albemarle am vierzehnten Oktober hochgestuft auf Besser als Markt. Der Kurs von Albemarle veränderte sich im letzten Monat um minus elf Komma sieben Prozent und in drei Monaten um minus sechzehn Komma zwei Prozent. Das war die Aktie Albemarle.",
+"audio": {
+"file": "ent/potenzial_ALB.mp3",
+"hash": "f61a5d2c6442cbca",
+"dur": 42.6,
+"engine": "edge"
+}
 },
 {
-"symbol": "AKAM",
-"name": "Akamai Technologies, Inc.",
-"price_usd": 93.53,
+"symbol": "FIX",
+"name": "Comfort Systems USA, Inc.",
+"price_usd": 1253.27,
 "mine": false,
-"metric": "+65,7 % bis Kursziel",
-"reason": "Ø Kursziel von 22 Analysten: 154.96 USD. Raymond James stuft hoch auf Stark kaufen (20.10.2026)."
+"metric": "+67,0 % bis Kursziel",
+"reason": "Ø Kursziel von 8 Analysten: 2095.12 USD. ",
+"d": {
+"upside": 67.0,
+"target_usd": 2095.12,
+"analysts": 8,
+"m1": -24.4,
+"m3": -22.9,
+"earn": {
+"t": 1792699200,
+"act": 13.91,
+"est": 12.85102,
+"sur": 8.2,
+"cur": "USD",
+"fx": 1.0
+}
+},
+"say": "Zur Aktie Comfort Systems USA. Comfort Systems USA kostet im Moment eintausendzweihundertdreiundfünfzig Dollar und siebenundzwanzig Cent. Das durchschnittliche Kursziel von acht Analysten für Comfort Systems USA liegt bei zweitausendfünfundneunzig Dollar und zwölf Cent. Bis dahin wären es plus siebenundsechzig Prozent. Der Kurs von Comfort Systems USA veränderte sich im letzten Monat um minus vierundzwanzig Komma vier Prozent und in drei Monaten um minus zweiundzwanzig Komma neun Prozent. Das war die Aktie Comfort Systems USA.",
+"audio": {
+"file": "ent/potenzial_FIX.mp3",
+"hash": "d9de9955731a9de8",
+"dur": 42.8,
+"engine": "edge"
+}
 },
 {
-"symbol": "WYNN",
-"name": "Wynn Resorts, Limited",
-"price_usd": 72.73,
+"symbol": "VRT",
+"name": "Vertiv Holdings Co",
+"price_usd": 200.21,
 "mine": false,
-"metric": "+67,3 % bis Kursziel",
-"reason": "Ø Kursziel von 20 Analysten: 121.65 USD. "
+"metric": "+65,9 % bis Kursziel",
+"reason": "Ø Kursziel von 28 Analysten: 333.00 USD. ",
+"d": {
+"upside": 65.9,
+"target_usd": 333.0,
+"analysts": 28,
+"m1": -17.9,
+"m3": -25.7
 },
-{
-"symbol": "AMAT",
-"name": "Applied Materials, Inc.",
-"price_usd": 377.24,
-"mine": true,
-"metric": "+66,4 % bis Kursziel",
-"reason": "Ø Kursziel von 36 Analysten: 627.83 USD. "
+"say": "Zur Aktie Vertiv. Vertiv kostet im Moment zweihundert Dollar und einundzwanzig Cent. Das durchschnittliche Kursziel von achtundzwanzig Analysten für Vertiv liegt bei dreihundertdreiunddreissig Dollar. Bis dahin wären es plus fünfundsechzig Komma neun Prozent. Der Kurs von Vertiv veränderte sich im letzten Monat um minus siebzehn Komma neun Prozent und in drei Monaten um minus fünfundzwanzig Komma sieben Prozent. Das war die Aktie Vertiv.",
+"audio": {
+"file": "ent/potenzial_VRT.mp3",
+"hash": "2e9ddac1e1326da3",
+"dur": 34.2,
+"engine": "edge"
+}
 },
 {
 "symbol": "TMUS",
 "name": "T-Mobile US, Inc.",
-"price_usd": 146.54,
+"price_usd": 146.65,
 "mine": false,
-"metric": "+61,6 % bis Kursziel",
-"reason": "Ø Kursziel von 25 Analysten: 236.84 USD. Raymond James stuft hoch auf Besser als Markt (12.10.2026)."
-},
+"metric": "+61,5 % bis Kursziel",
+"reason": "Ø Kursziel von 25 Analysten: 236.84 USD. Raymond James stuft hoch auf Besser als Markt (12.10.2026).",
+"d": {
+"upside": 61.5,
+"target_usd": 236.84,
+"analysts": 25,
+"m1": -11.9,
+"m3": -19.6,
+"changes": [
 {
-"symbol": "AVGO",
-"name": "Broadcom Inc.",
-"price_usd": 321.68,
-"mine": true,
-"metric": "+64,5 % bis Kursziel",
-"reason": "Ø Kursziel von 48 Analysten: 529.10 USD. "
+"t": 1791799726,
+"firm": "Raymond James",
+"a": "up",
+"to": "Besser als Markt"
+}
+]
 },
-{
-"symbol": "AXON",
-"name": "Axon Enterprise, Inc.",
-"price_usd": 420.37,
-"mine": false,
-"metric": "+62,2 % bis Kursziel",
-"reason": "Ø Kursziel von 19 Analysten: 681.68 USD. "
+"say": "Zur Aktie T-Mobile US. T-Mobile US kostet im Moment einhundertsechsundvierzig Dollar und fünfundsechzig Cent. Das durchschnittliche Kursziel von fünfundzwanzig Analysten für T-Mobile US liegt bei zweihundertsechsunddreissig Dollar und vierundachtzig Cent. Bis dahin wären es plus einundsechzig Komma fünf Prozent. Raymond James hat T-Mobile US am zwölften Oktober hochgestuft auf Besser als Markt. Der Kurs von T-Mobile US veränderte sich im letzten Monat um minus elf Komma neun Prozent und in drei Monaten um minus neunzehn Komma sechs Prozent. Das war die Aktie T-Mobile US.",
+"audio": {
+"file": "ent/potenzial_TMUS.mp3",
+"hash": "08fc33794f7c4bdb",
+"dur": 45.0,
+"engine": "edge"
+}
 },
 {
 "symbol": "FSLR",
 "name": "First Solar, Inc.",
-"price_usd": 171.99,
+"price_usd": 169.59,
 "mine": false,
-"metric": "+59,1 % bis Kursziel",
-"reason": "Ø Kursziel von 30 Analysten: 273.67 USD. Truist Securities stuft hoch auf Kaufen (12.10.2026)."
-},
+"metric": "+61,4 % bis Kursziel",
+"reason": "Ø Kursziel von 30 Analysten: 273.67 USD. Truist Securities stuft hoch auf Kaufen (12.10.2026).",
+"d": {
+"upside": 61.4,
+"target_usd": 273.67,
+"analysts": 30,
+"m1": -2.0,
+"m3": -16.3,
+"changes": [
 {
-"symbol": "CIEN",
-"name": "Ciena Corporation",
-"price_usd": 320.26,
-"mine": false,
-"metric": "+60,2 % bis Kursziel",
-"reason": "Ø Kursziel von 20 Analysten: 512.99 USD. "
+"t": 1791800735,
+"firm": "Truist Securities",
+"a": "up",
+"to": "Kaufen"
+}
+]
 },
-{
-"symbol": "KLAC",
-"name": "KLA Corporation",
-"price_usd": 145.61,
-"mine": false,
-"metric": "+59,6 % bis Kursziel",
-"reason": "Ø Kursziel von 26 Analysten: 232.38 USD. "
+"say": "Zur Aktie First Solar. First Solar kostet im Moment einhundertneunundsechzig Dollar und neunundfünfzig Cent. Das durchschnittliche Kursziel von dreissig Analysten für First Solar liegt bei zweihundertdreiundsiebzig Dollar und siebenundsechzig Cent. Bis dahin wären es plus einundsechzig Komma vier Prozent. Truist Securities hat First Solar am zwölften Oktober hochgestuft auf Kaufen. Der Kurs von First Solar veränderte sich im letzten Monat um minus zwei Prozent und in drei Monaten um minus sechzehn Komma drei Prozent. Das war die Aktie First Solar.",
+"audio": {
+"file": "ent/potenzial_FSLR.mp3",
+"hash": "a86cd05c8ab31bb2",
+"dur": 42.7,
+"engine": "edge"
+}
 },
 {
 "symbol": "CHTR",
 "name": "Charter Communications, Inc.",
-"price_usd": 108.61,
+"price_usd": 105.6,
 "mine": false,
-"metric": "+59,4 % bis Kursziel",
-"reason": "Ø Kursziel von 18 Analysten: 173.17 USD. "
+"metric": "+63,8 % bis Kursziel",
+"reason": "Ø Kursziel von 18 Analysten: 173.17 USD. ",
+"d": {
+"upside": 63.8,
+"target_usd": 173.17,
+"analysts": 18,
+"m1": -5.1,
+"m3": -24.5
+},
+"say": "Zur Aktie Charter Communications. Charter Communications kostet im Moment einhundertfünf Dollar und sechzig Cent. Das durchschnittliche Kursziel von achtzehn Analysten für Charter Communications liegt bei einhundertdreiundsiebzig Dollar und siebzehn Cent. Bis dahin wären es plus dreiundsechzig Komma acht Prozent. Der Kurs von Charter Communications veränderte sich im letzten Monat um minus fünf Komma eins Prozent und in drei Monaten um minus vierundzwanzig Komma fünf Prozent. Das war die Aktie Charter Communications.",
+"audio": {
+"file": "ent/potenzial_CHTR.mp3",
+"hash": "2a23e2eb32530c18",
+"dur": 40.5,
+"engine": "edge"
+}
 },
 {
-"symbol": "Q",
-"name": "Qnity Electronics, Inc.",
-"price_usd": 109.83,
+"symbol": "AKAM",
+"name": "Akamai Technologies, Inc.",
+"price_usd": 97.42,
 "mine": false,
-"metric": "+58,6 % bis Kursziel",
-"reason": "Ø Kursziel von 10 Analysten: 174.20 USD. "
+"metric": "+59,1 % bis Kursziel",
+"reason": "Ø Kursziel von 22 Analysten: 154.96 USD. Raymond James stuft hoch auf Stark kaufen (20.10.2026).",
+"d": {
+"upside": 59.1,
+"target_usd": 154.96,
+"analysts": 22,
+"m1": -10.6,
+"m3": -12.8,
+"changes": [
+{
+"t": 1792491693,
+"firm": "Raymond James",
+"a": "up",
+"to": "Stark kaufen"
+}
+]
+},
+"say": "Zur Aktie Akamai Technologies. Akamai Technologies kostet im Moment siebenundneunzig Dollar und zweiundvierzig Cent. Das durchschnittliche Kursziel von zweiundzwanzig Analysten für Akamai Technologies liegt bei einhundertvierundfünfzig Dollar und sechsundneunzig Cent. Bis dahin wären es plus neunundfünfzig Komma eins Prozent. Raymond James hat Akamai Technologies am zwanzigsten Oktober hochgestuft auf Stark kaufen. Der Kurs von Akamai Technologies veränderte sich im letzten Monat um minus zehn Komma sechs Prozent und in drei Monaten um minus zwölf Komma acht Prozent. Das war die Aktie Akamai Technologies.",
+"audio": {
+"file": "ent/potenzial_AKAM.mp3",
+"hash": "1481c32e5b730fba",
+"dur": 46.8,
+"engine": "edge"
+}
 },
 {
-"symbol": "LRCX",
-"name": "Lam Research Corporation",
-"price_usd": 230.1,
+"symbol": "WYNN",
+"name": "Wynn Resorts, Limited",
+"price_usd": 75.06,
 "mine": false,
-"metric": "+58,2 % bis Kursziel",
-"reason": "Ø Kursziel von 30 Analysten: 364.03 USD. "
+"metric": "+61,9 % bis Kursziel",
+"reason": "Ø Kursziel von 20 Analysten: 121.65 USD. ",
+"d": {
+"upside": 61.9,
+"target_usd": 121.65,
+"analysts": 20,
+"m1": -6.8,
+"m3": -24.2
+},
+"say": "Zur Aktie Wynn Resorts, Limited. Wynn Resorts, Limited kostet im Moment fünfundsiebzig Dollar und sechs Cent. Das durchschnittliche Kursziel von zwanzig Analysten für Wynn Resorts, Limited liegt bei einhunderteinundzwanzig Dollar und fünfundsechzig Cent. Bis dahin wären es plus einundsechzig Komma neun Prozent. Der Kurs von Wynn Resorts, Limited veränderte sich im letzten Monat um minus sechs Komma acht Prozent und in drei Monaten um minus vierundzwanzig Komma zwei Prozent. Das war die Aktie Wynn Resorts, Limited.",
+"audio": {
+"file": "ent/potenzial_WYNN.mp3",
+"hash": "c04a0c8e8cd05bd7",
+"dur": 44.7,
+"engine": "edge"
+}
+},
+{
+"symbol": "AMAT",
+"name": "Applied Materials, Inc.",
+"price_usd": 388.33,
+"mine": true,
+"metric": "+61,5 % bis Kursziel",
+"reason": "Ø Kursziel von 36 Analysten: 627.83 USD. ",
+"d": {
+"upside": 61.5,
+"target_usd": 627.83,
+"analysts": 36,
+"m1": -20.2,
+"m3": -18.5
+},
+"say": "Zur Aktie Applied Materials. Applied Materials kostet im Moment dreihundertachtundachtzig Dollar und dreiunddreissig Cent. Das durchschnittliche Kursziel von sechsunddreissig Analysten für Applied Materials liegt bei sechshundertsiebenundzwanzig Dollar und dreiundachtzig Cent. Bis dahin wären es plus einundsechzig Komma fünf Prozent. Der Kurs von Applied Materials veränderte sich im letzten Monat um minus zwanzig Komma zwei Prozent und in drei Monaten um minus achtzehn Komma fünf Prozent. Applied Materials ist schon auf deiner Liste. Das war die Aktie Applied Materials.",
+"audio": {
+"file": "ent/potenzial_AMAT.mp3",
+"hash": "377808885c21917b",
+"dur": 44.3,
+"engine": "edge"
+}
+},
+{
+"symbol": "AXON",
+"name": "Axon Enterprise, Inc.",
+"price_usd": 422.95,
+"mine": false,
+"metric": "+61,2 % bis Kursziel",
+"reason": "Ø Kursziel von 19 Analysten: 681.68 USD. ",
+"d": {
+"upside": 61.2,
+"target_usd": 681.68,
+"analysts": 19,
+"m1": -0.4,
+"m3": -22.8
+},
+"say": "Zur Aktie Axon Enterprise. Axon Enterprise kostet im Moment vierhundertzweiundzwanzig Dollar und fünfundneunzig Cent. Das durchschnittliche Kursziel von neunzehn Analysten für Axon Enterprise liegt bei sechshunderteinundachtzig Dollar und achtundsechzig Cent. Bis dahin wären es plus einundsechzig Komma zwei Prozent. Der Kurs von Axon Enterprise veränderte sich im letzten Monat um minus null Komma vier Prozent und in drei Monaten um minus zweiundzwanzig Komma acht Prozent. Das war die Aktie Axon Enterprise.",
+"audio": {
+"file": "ent/potenzial_AXON.mp3",
+"hash": "dab07e61d8646911",
+"dur": 40.3,
+"engine": "edge"
+}
+},
+{
+"symbol": "AVGO",
+"name": "Broadcom Inc.",
+"price_usd": 330.72,
+"mine": true,
+"metric": "+59,8 % bis Kursziel",
+"reason": "Ø Kursziel von 48 Analysten: 529.10 USD. ",
+"d": {
+"upside": 59.8,
+"target_usd": 529.1,
+"analysts": 48,
+"m1": -5.4,
+"m3": -13.2
+},
+"say": "Zur Aktie Broadcom. Broadcom kostet im Moment dreihundertdreissig Dollar und zweiundsiebzig Cent. Das durchschnittliche Kursziel von achtundvierzig Analysten für Broadcom liegt bei fünfhundertneunundzwanzig Dollar und zehn Cent. Bis dahin wären es plus neunundfünfzig Komma acht Prozent. Der Kurs von Broadcom veränderte sich im letzten Monat um minus fünf Komma vier Prozent und in drei Monaten um minus dreizehn Komma zwei Prozent. Broadcom ist schon auf deiner Liste. Das war die Aktie Broadcom.",
+"audio": {
+"file": "ent/potenzial_AVGO.mp3",
+"hash": "f7688b80b1d10edc",
+"dur": 38.9,
+"engine": "edge"
+}
+},
+{
+"symbol": "RDDT",
+"name": "Reddit, Inc.",
+"price_usd": 135.26,
+"mine": false,
+"metric": "+55,8 % bis Kursziel",
+"reason": "Ø Kursziel von 33 Analysten: 212.95 USD. ",
+"d": {
+"upside": 55.8,
+"target_usd": 212.95,
+"analysts": 33,
+"m1": -5.4,
+"m3": -24.2
+},
+"say": "Zur Aktie Reddit. Reddit kostet im Moment einhundertfünfunddreissig Dollar und sechsundzwanzig Cent. Das durchschnittliche Kursziel von dreiunddreissig Analysten für Reddit liegt bei zweihundertzwölf Dollar und fünfundneunzig Cent. Bis dahin wären es plus fünfundfünfzig Komma acht Prozent. Der Kurs von Reddit veränderte sich im letzten Monat um minus fünf Komma vier Prozent und in drei Monaten um minus vierundzwanzig Komma zwei Prozent. Das war die Aktie Reddit.",
+"audio": {
+"file": "ent/potenzial_RDDT.mp3",
+"hash": "07f58386283c2339",
+"dur": 35.5,
+"engine": "edge"
+}
+},
+{
+"symbol": "KLAC",
+"name": "KLA Corporation",
+"price_usd": 150.54,
+"mine": false,
+"metric": "+54,2 % bis Kursziel",
+"reason": "Ø Kursziel von 26 Analysten: 232.38 USD. ",
+"d": {
+"upside": 54.2,
+"target_usd": 232.38,
+"analysts": 26,
+"m1": -20.4,
+"m3": -21.1
+},
+"say": "Zur Aktie KLA. KLA kostet im Moment einhundertfünfzig Dollar und vierundfünfzig Cent. Das durchschnittliche Kursziel von sechsundzwanzig Analysten für KLA liegt bei zweihundertzweiunddreissig Dollar und achtunddreissig Cent. Bis dahin wären es plus vierundfünfzig Komma zwei Prozent. Der Kurs von KLA veränderte sich im letzten Monat um minus zwanzig Komma vier Prozent und in drei Monaten um minus einundzwanzig Komma eins Prozent. Das war die Aktie KLA.",
+"audio": {
+"file": "ent/potenzial_KLAC.mp3",
+"hash": "9f9dc804d5cb65cb",
+"dur": 36.3,
+"engine": "edge"
+}
 },
 {
 "symbol": "MPWR",
 "name": "Monolithic Power Systems, Inc.",
-"price_usd": 1140.12,
+"price_usd": 1168.09,
 "mine": false,
-"metric": "+57,9 % bis Kursziel",
-"reason": "Ø Kursziel von 15 Analysten: 1799.80 USD. "
+"metric": "+54,0 % bis Kursziel",
+"reason": "Ø Kursziel von 15 Analysten: 1799.80 USD. ",
+"d": {
+"upside": 54.0,
+"target_usd": 1799.8,
+"analysts": 15,
+"m1": -13.6,
+"m3": -8.9
+},
+"say": "Zur Aktie Monolithic Power Systems. Monolithic Power Systems kostet im Moment eintausendeinhundertachtundsechzig Dollar und neun Cent. Das durchschnittliche Kursziel von fünfzehn Analysten für Monolithic Power Systems liegt bei eintausendsiebenhundertneunundneunzig Dollar und achtzig Cent. Bis dahin wären es plus vierundfünfzig Prozent. Der Kurs von Monolithic Power Systems veränderte sich im letzten Monat um minus dreizehn Komma sechs Prozent und in drei Monaten um minus acht Komma neun Prozent. Das war die Aktie Monolithic Power Systems.",
+"audio": {
+"file": "ent/potenzial_MPWR.mp3",
+"hash": "f6eff9359ce59448",
+"dur": 42.0,
+"engine": "edge"
+}
+},
+{
+"symbol": "Q",
+"name": "Qnity Electronics, Inc.",
+"price_usd": 113.67,
+"mine": false,
+"metric": "+53,1 % bis Kursziel",
+"reason": "Ø Kursziel von 10 Analysten: 174.20 USD. ",
+"d": {
+"upside": 53.1,
+"target_usd": 174.2,
+"analysts": 10,
+"m1": -9.0,
+"m3": -11.1
+},
+"say": "Zur Aktie Qnity Electronics. Qnity Electronics kostet im Moment einhundertdreizehn Dollar und siebenundsechzig Cent. Das durchschnittliche Kursziel von zehn Analysten für Qnity Electronics liegt bei einhundertvierundsiebzig Dollar und zwanzig Cent. Bis dahin wären es plus dreiundfünfzig Komma eins Prozent. Der Kurs von Qnity Electronics veränderte sich im letzten Monat um minus neun Prozent und in drei Monaten um minus elf Komma eins Prozent. Das war die Aktie Qnity Electronics.",
+"audio": {
+"file": "ent/potenzial_Q.mp3",
+"hash": "c4ac8a1259566953",
+"dur": 37.9,
+"engine": "edge"
+}
+},
+{
+"symbol": "CIEN",
+"name": "Ciena Corporation",
+"price_usd": 335.06,
+"mine": false,
+"metric": "+52,6 % bis Kursziel",
+"reason": "Ø Kursziel von 20 Analysten: 512.99 USD. ",
+"d": {
+"upside": 52.6,
+"target_usd": 512.99,
+"analysts": 20,
+"m1": -2.7,
+"m3": -4.4
+},
+"say": "Zur Aktie Ciena. Ciena kostet im Moment dreihundertfünfunddreissig Dollar und sechs Cent. Das durchschnittliche Kursziel von zwanzig Analysten für Ciena liegt bei fünfhundertzwölf Dollar und neunundneunzig Cent. Bis dahin wären es plus zweiundfünfzig Komma sechs Prozent. Der Kurs von Ciena veränderte sich im letzten Monat um minus zwei Komma sieben Prozent und in drei Monaten um minus vier Komma vier Prozent. Das war die Aktie Ciena.",
+"audio": {
+"file": "ent/potenzial_CIEN.mp3",
+"hash": "e80a507d3c26d2e6",
+"dur": 34.3,
+"engine": "edge"
+}
 },
 {
 "symbol": "GNRC",
 "name": "Generac Holdings Inc.",
-"price_usd": 186.92,
+"price_usd": 191.61,
 "mine": false,
-"metric": "+53,2 % bis Kursziel",
-"reason": "Ø Kursziel von 18 Analysten: 286.44 USD. Keybanc stuft hoch auf Übergewichten (08.10.2026)."
+"metric": "+49,3 % bis Kursziel",
+"reason": "Ø Kursziel von 18 Analysten: 286.44 USD. Keybanc stuft hoch auf Übergewichten (08.10.2026).",
+"d": {
+"upside": 49.3,
+"target_usd": 286.44,
+"analysts": 18,
+"m1": -6.6,
+"m3": -2.0,
+"changes": [
+{
+"t": 1791454210,
+"firm": "Keybanc",
+"a": "up",
+"to": "Übergewichten"
+}
+]
+},
+"say": "Zur Aktie Generac. Generac kostet im Moment einhunderteinundneunzig Dollar und einundsechzig Cent. Das durchschnittliche Kursziel von achtzehn Analysten für Generac liegt bei zweihundertsechsundachtzig Dollar und vierundvierzig Cent. Bis dahin wären es plus neunundvierzig Komma drei Prozent. Keybanc hat Generac am achten Oktober hochgestuft auf Übergewichten. Der Kurs von Generac veränderte sich im letzten Monat um minus sechs Komma sechs Prozent und in drei Monaten um minus zwei Prozent. Das war die Aktie Generac.",
+"audio": {
+"file": "ent/potenzial_GNRC.mp3",
+"hash": "08ff524ee1bf2e46",
+"dur": 40.1,
+"engine": "edge"
+}
 }
 ],
 "wachstum": [
 {
 "symbol": "MRNA",
 "name": "Moderna, Inc.",
-"price_usd": 200.1,
+"price_usd": 197.84,
 "mine": false,
-"metric": "+259,7 % in 3 Mt.",
-"reason": "Kurs in 3 Monaten +259,7 %, im letzten Monat +9,9 %."
+"metric": "+254,4 % in 3 Mt.",
+"reason": "Kurs in 3 Monaten +254,4 %, im letzten Monat +0,2 %.",
+"d": {
+"upside": -30.0,
+"target_usd": 138.37,
+"analysts": 19,
+"m1": 0.2,
+"m3": 254.4
+},
+"say": "Zur Aktie Moderna. Moderna kostet im Moment einhundertsiebenundneunzig Dollar und vierundachtzig Cent. Der Kurs von Moderna veränderte sich im letzten Monat um plus null Komma zwei Prozent und in drei Monaten um plus zweihundertvierundfünfzig Komma vier Prozent. Zum Vergleich: Das durchschnittliche Kursziel der Analysten für Moderna liegt bei einhundertachtunddreissig Dollar und siebenunddreissig Cent. Das war die Aktie Moderna.",
+"audio": {
+"file": "ent/wachstum_MRNA.mp3",
+"hash": "28775be9e62f6f53",
+"dur": 32.3,
+"engine": "edge"
+}
 },
 {
 "symbol": "P",
 "name": "Everpure, Inc.",
-"price_usd": 123.33,
+"price_usd": 131.38,
 "mine": false,
-"metric": "+66,2 % in 3 Mt.",
-"reason": "Kurs in 3 Monaten +66,2 %, im letzten Monat +12,5 %."
+"metric": "+79,9 % in 3 Mt.",
+"reason": "Kurs in 3 Monaten +79,9 %, im letzten Monat +1,5 %.",
+"d": {
+"upside": 14.9,
+"target_usd": 151.11,
+"analysts": 19,
+"m1": 1.5,
+"m3": 79.9
 },
-{
-"symbol": "VEEV",
-"name": "Veeva Systems Inc.",
-"price_usd": 323.04,
-"mine": false,
-"metric": "+66,1 % in 3 Mt.",
-"reason": "Kurs in 3 Monaten +66,1 %, im letzten Monat +19,3 %."
-},
-{
-"symbol": "ACN",
-"name": "Accenture plc",
-"price_usd": 249.37,
-"mine": false,
-"metric": "+61,9 % in 3 Mt.",
-"reason": "Kurs in 3 Monaten +61,9 %, im letzten Monat +35,9 %."
-},
-{
-"symbol": "IT",
-"name": "Gartner, Inc.",
-"price_usd": 230.28,
-"mine": false,
-"metric": "+56,2 % in 3 Mt.",
-"reason": "Kurs in 3 Monaten +56,2 %, im letzten Monat +29,0 %."
-},
-{
-"symbol": "PTC",
-"name": "PTC Inc.",
-"price_usd": 193.8,
-"mine": false,
-"metric": "+54,8 % in 3 Mt.",
-"reason": "Kurs in 3 Monaten +54,8 %, im letzten Monat +38,0 %."
-},
-{
-"symbol": "CRL",
-"name": "Charles River Laboratories International, Inc.",
-"price_usd": 345.37,
-"mine": false,
-"metric": "+54,0 % in 3 Mt.",
-"reason": "Kurs in 3 Monaten +54,0 %, im letzten Monat +24,5 %."
-},
-{
-"symbol": "NOW",
-"name": "ServiceNow, Inc.",
-"price_usd": 158.96,
-"mine": true,
-"metric": "+50,6 % in 3 Mt.",
-"reason": "Kurs in 3 Monaten +50,6 %, im letzten Monat +12,9 %."
-},
-{
-"symbol": "CTSH",
-"name": "Cognizant Technology Solutions Corporation",
-"price_usd": 70.54,
-"mine": false,
-"metric": "+49,9 % in 3 Mt.",
-"reason": "Kurs in 3 Monaten +49,9 %, im letzten Monat +19,3 %."
+"say": "Zur Aktie Everpure. Everpure kostet im Moment einhunderteinunddreissig Dollar und achtunddreissig Cent. Der Kurs von Everpure veränderte sich im letzten Monat um plus eins Komma fünf Prozent und in drei Monaten um plus neunundsiebzig Komma neun Prozent. Zum Vergleich: Das durchschnittliche Kursziel der Analysten für Everpure liegt bei einhunderteinundfünfzig Dollar und elf Cent. Das war die Aktie Everpure.",
+"audio": {
+"file": "ent/wachstum_P.mp3",
+"hash": "58ace6b195687bda",
+"dur": 31.2,
+"engine": "edge"
+}
 },
 {
 "symbol": "PLTR",
 "name": "Palantir Technologies Inc.",
-"price_usd": 196.75,
+"price_usd": 198.85,
 "mine": true,
-"metric": "+49,6 % in 3 Mt.",
-"reason": "Kurs in 3 Monaten +49,6 %, im letzten Monat +2,6 %."
+"metric": "+60,9 % in 3 Mt.",
+"reason": "Kurs in 3 Monaten +60,9 %, im letzten Monat +6,0 %.",
+"d": {
+"upside": 3.9,
+"target_usd": 206.66,
+"analysts": 26,
+"m1": 6.0,
+"m3": 60.9,
+"changes": [
+{
+"t": 1791454865,
+"firm": "Goldman Sachs",
+"a": "up",
+"to": "Kaufen"
+}
+]
+},
+"say": "Zur Aktie Palantir Technologies. Palantir Technologies kostet im Moment einhundertachtundneunzig Dollar und fünfundachtzig Cent. Der Kurs von Palantir Technologies veränderte sich im letzten Monat um plus sechs Prozent und in drei Monaten um plus sechzig Komma neun Prozent. Zum Vergleich: Das durchschnittliche Kursziel der Analysten für Palantir Technologies liegt bei zweihundertsechs Dollar und sechsundsechzig Cent. Goldman Sachs hat Palantir Technologies am achten Oktober hochgestuft auf Kaufen. Palantir Technologies ist schon auf deiner Liste. Das war die Aktie Palantir Technologies.",
+"audio": {
+"file": "ent/wachstum_PLTR.mp3",
+"hash": "cf8b3a0bf26d549f",
+"dur": 45.8,
+"engine": "edge"
+}
 },
 {
-"symbol": "APA",
-"name": "APA Corporation",
-"price_usd": 51.9,
+"symbol": "VEEV",
+"name": "Veeva Systems Inc.",
+"price_usd": 321.5,
 "mine": false,
-"metric": "+49,4 % in 3 Mt.",
-"reason": "Kurs in 3 Monaten +49,4 %, im letzten Monat +18,8 %."
+"metric": "+59,6 % in 3 Mt.",
+"reason": "Kurs in 3 Monaten +59,6 %, im letzten Monat +14,7 %.",
+"d": {
+"upside": -6.3,
+"target_usd": 300.56,
+"analysts": 27,
+"m1": 14.7,
+"m3": 59.6
 },
-{
-"symbol": "RVTY",
-"name": "Revvity, Inc.",
-"price_usd": 158.77,
-"mine": false,
-"metric": "+46,9 % in 3 Mt.",
-"reason": "Kurs in 3 Monaten +46,9 %, im letzten Monat +11,7 %."
+"say": "Zur Aktie Veeva Systems. Veeva Systems kostet im Moment dreihunderteinundzwanzig Dollar und fünfzig Cent. Der Kurs von Veeva Systems veränderte sich im letzten Monat um plus vierzehn Komma sieben Prozent und in drei Monaten um plus neunundfünfzig Komma sechs Prozent. Zum Vergleich: Das durchschnittliche Kursziel der Analysten für Veeva Systems liegt bei dreihundert Dollar und sechsundfünfzig Cent. Das war die Aktie Veeva Systems.",
+"audio": {
+"file": "ent/wachstum_VEEV.mp3",
+"hash": "5d81383afbfc5e89",
+"dur": 33.3,
+"engine": "edge"
+}
 },
 {
 "symbol": "MPC",
 "name": "Marathon Petroleum Corporation",
-"price_usd": 457.22,
+"price_usd": 471.3,
 "mine": false,
-"metric": "+46,4 % in 3 Mt.",
-"reason": "Kurs in 3 Monaten +46,4 %, im letzten Monat +17,7 %."
+"metric": "+54,0 % in 3 Mt.",
+"reason": "Kurs in 3 Monaten +54,0 %, im letzten Monat +21,0 %.",
+"d": {
+"upside": -2.8,
+"target_usd": 458.72,
+"analysts": 18,
+"m1": 21.0,
+"m3": 54.0
+},
+"say": "Zur Aktie Marathon Petroleum. Marathon Petroleum kostet im Moment vierhunderteinundsiebzig Dollar und dreissig Cent. Der Kurs von Marathon Petroleum veränderte sich im letzten Monat um plus einundzwanzig Prozent und in drei Monaten um plus vierundfünfzig Prozent. Zum Vergleich: Das durchschnittliche Kursziel der Analysten für Marathon Petroleum liegt bei vierhundertachtundfünfzig Dollar und zweiundsiebzig Cent. Das war die Aktie Marathon Petroleum.",
+"audio": {
+"file": "ent/wachstum_MPC.mp3",
+"hash": "c93f4df7400cfefc",
+"dur": 34.1,
+"engine": "edge"
+}
 },
 {
-"symbol": "ZBRA",
-"name": "Zebra Technologies Corporation",
-"price_usd": 386.45,
+"symbol": "PTC",
+"name": "PTC Inc.",
+"price_usd": 193.88,
 "mine": false,
-"metric": "+46,1 % in 3 Mt.",
-"reason": "Kurs in 3 Monaten +46,1 %, im letzten Monat +4,2 %."
+"metric": "+52,1 % in 3 Mt.",
+"reason": "Kurs in 3 Monaten +52,1 %, im letzten Monat +38,8 %.",
+"d": {
+"upside": 3.7,
+"target_usd": 201.0,
+"analysts": 15,
+"m1": 38.8,
+"m3": 52.1,
+"changes": [
+{
+"t": 1791308457,
+"firm": "Oppenheimer",
+"a": "down",
+"to": "Perform"
 },
 {
-"symbol": "CRM",
-"name": "Salesforce, Inc.",
-"price_usd": 248.57,
+"t": 1791284282,
+"firm": "BMO Capital",
+"a": "down",
+"to": "Wie der Markt"
+},
+{
+"t": 1791227482,
+"firm": "Rosenblatt",
+"a": "down",
+"to": "Neutral"
+}
+]
+},
+"say": "Zur Aktie PTC. PTC kostet im Moment einhundertdreiundneunzig Dollar und achtundachtzig Cent. Der Kurs von PTC veränderte sich im letzten Monat um plus achtunddreissig Komma acht Prozent und in drei Monaten um plus zweiundfünfzig Komma eins Prozent. Zum Vergleich: Das durchschnittliche Kursziel der Analysten für PTC liegt bei zweihunderteins Dollar. Oppenheimer hat PTC am sechsten Oktober abgestuft auf Perform. BMO Capital hat PTC am sechsten Oktober abgestuft auf Wie der Markt. Das war die Aktie PTC.",
+"audio": {
+"file": "ent/wachstum_PTC.mp3",
+"hash": "ba3515cf4dd2d89d",
+"dur": 41.8,
+"engine": "edge"
+}
+},
+{
+"symbol": "ACN",
+"name": "Accenture plc",
+"price_usd": 246.85,
 "mine": false,
-"metric": "+43,2 % in 3 Mt.",
-"reason": "Kurs in 3 Monaten +43,2 %, im letzten Monat +4,6 %."
+"metric": "+49,9 % in 3 Mt.",
+"reason": "Kurs in 3 Monaten +49,9 %, im letzten Monat +41,5 %.",
+"d": {
+"upside": -7.5,
+"target_usd": 227.99,
+"analysts": 24,
+"m1": 41.5,
+"m3": 49.9,
+"changes": [
+{
+"t": 1792574586,
+"firm": "Baird",
+"a": "down",
+"to": "Neutral"
+}
+]
+},
+"say": "Zur Aktie Accenture. Accenture kostet im Moment zweihundertsechsundvierzig Dollar und fünfundachtzig Cent. Der Kurs von Accenture veränderte sich im letzten Monat um plus einundvierzig Komma fünf Prozent und in drei Monaten um plus neunundvierzig Komma neun Prozent. Zum Vergleich: Das durchschnittliche Kursziel der Analysten für Accenture liegt bei zweihundertsiebenundzwanzig Dollar und neunundneunzig Cent. Baird hat Accenture am einundzwanzigsten Oktober abgestuft auf Neutral. Das war die Aktie Accenture.",
+"audio": {
+"file": "ent/wachstum_ACN.mp3",
+"hash": "bfcdbb21d27c5fb0",
+"dur": 38.7,
+"engine": "edge"
+}
+},
+{
+"symbol": "IT",
+"name": "Gartner, Inc.",
+"price_usd": 231.56,
+"mine": false,
+"metric": "+48,6 % in 3 Mt.",
+"reason": "Kurs in 3 Monaten +48,6 %, im letzten Monat +24,7 %.",
+"d": {
+"upside": -16.3,
+"target_usd": 193.77,
+"analysts": 13,
+"m1": 24.7,
+"m3": 48.6
+},
+"say": "Zur Aktie Gartner. Gartner kostet im Moment zweihunderteinunddreissig Dollar und sechsundfünfzig Cent. Der Kurs von Gartner veränderte sich im letzten Monat um plus vierundzwanzig Komma sieben Prozent und in drei Monaten um plus achtundvierzig Komma sechs Prozent. Zum Vergleich: Das durchschnittliche Kursziel der Analysten für Gartner liegt bei einhundertdreiundneunzig Dollar und siebenundsiebzig Cent. Das war die Aktie Gartner.",
+"audio": {
+"file": "ent/wachstum_IT.mp3",
+"hash": "10e913da3db1acf3",
+"dur": 31.8,
+"engine": "edge"
+}
+},
+{
+"symbol": "CRL",
+"name": "Charles River Laboratories International, Inc.",
+"price_usd": 356.45,
+"mine": false,
+"metric": "+48,3 % in 3 Mt.",
+"reason": "Kurs in 3 Monaten +48,3 %, im letzten Monat +21,0 %.",
+"d": {
+"upside": -11.6,
+"target_usd": 314.2,
+"analysts": 15,
+"m1": 21.0,
+"m3": 48.3
+},
+"say": "Zur Aktie Charles River Laboratories International. Charles River Laboratories International kostet im Moment dreihundertsechsundfünfzig Dollar und fünfundvierzig Cent. Der Kurs von Charles River Laboratories International veränderte sich im letzten Monat um plus einundzwanzig Prozent und in drei Monaten um plus achtundvierzig Komma drei Prozent. Zum Vergleich: Das durchschnittliche Kursziel der Analysten für Charles River Laboratories International liegt bei dreihundertvierzehn Dollar und zwanzig Cent. Das war die Aktie Charles River Laboratories International.",
+"audio": {
+"file": "ent/wachstum_CRL.mp3",
+"hash": "e4b0d386f3794053",
+"dur": 43.0,
+"engine": "edge"
+}
+},
+{
+"symbol": "APA",
+"name": "APA Corporation",
+"price_usd": 51.55,
+"mine": false,
+"metric": "+47,6 % in 3 Mt.",
+"reason": "Kurs in 3 Monaten +47,6 %, im letzten Monat +21,8 %.",
+"d": {
+"upside": -5.4,
+"target_usd": 48.72,
+"analysts": 25,
+"m1": 21.8,
+"m3": 47.6
+},
+"say": "Zur Aktie APA. APA kostet im Moment einundfünfzig Dollar und fünfundfünfzig Cent. Der Kurs von APA veränderte sich im letzten Monat um plus einundzwanzig Komma acht Prozent und in drei Monaten um plus siebenundvierzig Komma sechs Prozent. Zum Vergleich: Das durchschnittliche Kursziel der Analysten für APA liegt bei achtundvierzig Dollar und zweiundsiebzig Cent. Das war die Aktie APA.",
+"audio": {
+"file": "ent/wachstum_APA.mp3",
+"hash": "9c448bb341b49033",
+"dur": 31.0,
+"engine": "edge"
+}
+},
+{
+"symbol": "RVTY",
+"name": "Revvity, Inc.",
+"price_usd": 161.44,
+"mine": false,
+"metric": "+44,8 % in 3 Mt.",
+"reason": "Kurs in 3 Monaten +44,8 %, im letzten Monat +6,9 %.",
+"d": {
+"upside": -8.5,
+"target_usd": 147.53,
+"analysts": 15,
+"m1": 6.9,
+"m3": 44.8
+},
+"say": "Zur Aktie Revvity. Revvity kostet im Moment einhunderteinundsechzig Dollar und vierundvierzig Cent. Der Kurs von Revvity veränderte sich im letzten Monat um plus sechs Komma neun Prozent und in drei Monaten um plus vierundvierzig Komma acht Prozent. Zum Vergleich: Das durchschnittliche Kursziel der Analysten für Revvity liegt bei einhundertsiebenundvierzig Dollar und dreiundfünfzig Cent. Das war die Aktie Revvity.",
+"audio": {
+"file": "ent/wachstum_RVTY.mp3",
+"hash": "ae966d129a2cbb3b",
+"dur": 31.1,
+"engine": "edge"
+}
 },
 {
 "symbol": "CRWD",
 "name": "CrowdStrike Holdings, Inc.",
-"price_usd": 257.57,
+"price_usd": 262.32,
 "mine": false,
-"metric": "+43,0 % in 3 Mt.",
-"reason": "Kurs in 3 Monaten +43,0 %, im letzten Monat -1,9 %."
+"metric": "+44,2 % in 3 Mt.",
+"reason": "Kurs in 3 Monaten +44,2 %, im letzten Monat +1,1 %.",
+"d": {
+"upside": -5.7,
+"target_usd": 247.25,
+"analysts": 50,
+"m1": 1.1,
+"m3": 44.2
 },
-{
-"symbol": "WDAY",
-"name": "Workday, Inc.",
-"price_usd": 209.99,
-"mine": false,
-"metric": "+42,3 % in 3 Mt.",
-"reason": "Kurs in 3 Monaten +42,3 %, im letzten Monat +9,2 %."
-},
-{
-"symbol": "ILMN",
-"name": "Illumina, Inc.",
-"price_usd": 269.42,
-"mine": false,
-"metric": "+42,2 % in 3 Mt.",
-"reason": "Kurs in 3 Monaten +42,2 %, im letzten Monat +5,5 %."
+"say": "Zur Aktie CrowdStrike. CrowdStrike kostet im Moment zweihundertzweiundsechzig Dollar und zweiunddreissig Cent. Der Kurs von CrowdStrike veränderte sich im letzten Monat um plus eins Komma eins Prozent und in drei Monaten um plus vierundvierzig Komma zwei Prozent. Zum Vergleich: Das durchschnittliche Kursziel der Analysten für CrowdStrike liegt bei zweihundertsiebenundvierzig Dollar und fünfundzwanzig Cent. Das war die Aktie CrowdStrike.",
+"audio": {
+"file": "ent/wachstum_CRWD.mp3",
+"hash": "81fe208a131f469e",
+"dur": 33.2,
+"engine": "edge"
+}
 },
 {
 "symbol": "VLO",
 "name": "Valero Energy Corporation",
-"price_usd": 419.28,
+"price_usd": 427.78,
 "mine": false,
-"metric": "+37,5 % in 3 Mt.",
-"reason": "Kurs in 3 Monaten +37,5 %, im letzten Monat +11,6 %."
+"metric": "+43,1 % in 3 Mt.",
+"reason": "Kurs in 3 Monaten +43,1 %, im letzten Monat +9,8 %.",
+"d": {
+"upside": -1.2,
+"target_usd": 423.53,
+"analysts": 19,
+"m1": 9.8,
+"m3": 43.1,
+"changes": [
+{
+"t": 1792788139,
+"firm": "Freedom Broker",
+"a": "down",
+"to": "Verkaufen"
+}
+],
+"earn": {
+"t": 1792672200,
+"act": 23.9,
+"est": 21.23476,
+"sur": 12.6,
+"cur": "USD",
+"fx": 1.0
+}
+},
+"say": "Zur Aktie Valero Energy. Valero Energy kostet im Moment vierhundertsiebenundzwanzig Dollar und achtundsiebzig Cent. Der Kurs von Valero Energy veränderte sich im letzten Monat um plus neun Komma acht Prozent und in drei Monaten um plus dreiundvierzig Komma eins Prozent. Zum Vergleich: Das durchschnittliche Kursziel der Analysten für Valero Energy liegt bei vierhundertdreiundzwanzig Dollar und dreiundfünfzig Cent. Freedom Broker hat Valero Energy am dreiundzwanzigsten Oktober abgestuft auf Verkaufen. Das war die Aktie Valero Energy.",
+"audio": {
+"file": "ent/wachstum_VLO.mp3",
+"hash": "405b6100b724bbfd",
+"dur": 40.2,
+"engine": "edge"
+}
+},
+{
+"symbol": "ILMN",
+"name": "Illumina, Inc.",
+"price_usd": 273.39,
+"mine": false,
+"metric": "+41,7 % in 3 Mt.",
+"reason": "Kurs in 3 Monaten +41,7 %, im letzten Monat +0,5 %.",
+"d": {
+"upside": -8.6,
+"target_usd": 248.9,
+"analysts": 20,
+"m1": 0.5,
+"m3": 41.7
+},
+"say": "Zur Aktie Illumina. Illumina kostet im Moment zweihundertdreiundsiebzig Dollar und neununddreissig Cent. Der Kurs von Illumina veränderte sich im letzten Monat um plus null Komma fünf Prozent und in drei Monaten um plus einundvierzig Komma sieben Prozent. Zum Vergleich: Das durchschnittliche Kursziel der Analysten für Illumina liegt bei zweihundertachtundvierzig Dollar und neunzig Cent. Das war die Aktie Illumina.",
+"audio": {
+"file": "ent/wachstum_ILMN.mp3",
+"hash": "5b3feeab8d14ff6e",
+"dur": 31.3,
+"engine": "edge"
+}
+},
+{
+"symbol": "NOW",
+"name": "ServiceNow, Inc.",
+"price_usd": 156.07,
+"mine": true,
+"metric": "+41,0 % in 3 Mt.",
+"reason": "Kurs in 3 Monaten +41,0 %, im letzten Monat +18,7 %.",
+"d": {
+"upside": 0.5,
+"target_usd": 156.54,
+"analysts": 46,
+"m1": 18.7,
+"m3": 41.0
+},
+"say": "Zur Aktie ServiceNow. ServiceNow kostet im Moment einhundertsechsundfünfzig Dollar und sieben Cent. Der Kurs von ServiceNow veränderte sich im letzten Monat um plus achtzehn Komma sieben Prozent und in drei Monaten um plus einundvierzig Prozent. Zum Vergleich: Das durchschnittliche Kursziel der Analysten für ServiceNow liegt bei einhundertsechsundfünfzig Dollar und vierundfünfzig Cent. ServiceNow ist schon auf deiner Liste. Das war die Aktie ServiceNow.",
+"audio": {
+"file": "ent/wachstum_NOW.mp3",
+"hash": "8bf3b1c0fe988239",
+"dur": 34.6,
+"engine": "edge"
+}
 },
 {
 "symbol": "PSX",
 "name": "Phillips 66",
-"price_usd": 283.18,
+"price_usd": 289.4,
 "mine": false,
-"metric": "+36,3 % in 3 Mt.",
-"reason": "Kurs in 3 Monaten +36,3 %, im letzten Monat +10,4 %."
+"metric": "+40,6 % in 3 Mt.",
+"reason": "Kurs in 3 Monaten +40,6 %, im letzten Monat +14,1 %.",
+"d": {
+"upside": -1.4,
+"target_usd": 285.74,
+"analysts": 19,
+"m1": 14.1,
+"m3": 40.6,
+"changes": [
+{
+"t": 1791458284,
+"firm": "Mizuho",
+"a": "down",
+"to": "Neutral"
+}
+]
+},
+"say": "Zur Aktie Phillips 66. Phillips 66 kostet im Moment zweihundertneunundachtzig Dollar und vierzig Cent. Der Kurs von Phillips 66 veränderte sich im letzten Monat um plus vierzehn Komma eins Prozent und in drei Monaten um plus vierzig Komma sechs Prozent. Zum Vergleich: Das durchschnittliche Kursziel der Analysten für Phillips 66 liegt bei zweihundertfünfundachtzig Dollar und vierundsiebzig Cent. Mizuho hat Phillips 66 am achten Oktober abgestuft auf Neutral. Das war die Aktie Phillips 66.",
+"audio": {
+"file": "ent/wachstum_PSX.mp3",
+"hash": "785a428becd1f283",
+"dur": 41.6,
+"engine": "edge"
+}
 },
 {
-"symbol": "MSFT",
-"name": "Microsoft Corporation",
-"price_usd": 524.51,
-"mine": true,
-"metric": "+34,8 % in 3 Mt.",
-"reason": "Kurs in 3 Monaten +34,8 %, im letzten Monat +4,8 %."
+"symbol": "CTSH",
+"name": "Cognizant Technology Solutions Corporation",
+"price_usd": 69.25,
+"mine": false,
+"metric": "+37,6 % in 3 Mt.",
+"reason": "Kurs in 3 Monaten +37,6 %, im letzten Monat +22,0 %.",
+"d": {
+"upside": -3.1,
+"target_usd": 67.1,
+"analysts": 25,
+"m1": 22.0,
+"m3": 37.6
+},
+"say": "Zur Aktie Cognizant Technology Solutions. Cognizant Technology Solutions kostet im Moment neunundsechzig Dollar und fünfundzwanzig Cent. Der Kurs von Cognizant Technology Solutions veränderte sich im letzten Monat um plus zweiundzwanzig Prozent und in drei Monaten um plus siebenunddreissig Komma sechs Prozent. Zum Vergleich: Das durchschnittliche Kursziel der Analysten für Cognizant Technology Solutions liegt bei siebenundsechzig Dollar und zehn Cent. Das war die Aktie Cognizant Technology Solutions.",
+"audio": {
+"file": "ent/wachstum_CTSH.mp3",
+"hash": "ab1be42b229b4049",
+"dur": 38.3,
+"engine": "edge"
+}
+},
+{
+"symbol": "ZBRA",
+"name": "Zebra Technologies Corporation",
+"price_usd": 390.32,
+"mine": false,
+"metric": "+37,2 % in 3 Mt.",
+"reason": "Kurs in 3 Monaten +37,2 %, im letzten Monat +5,0 %.",
+"d": {
+"upside": 6.3,
+"target_usd": 414.85,
+"analysts": 15,
+"m1": 5.0,
+"m3": 37.2
+},
+"say": "Zur Aktie Zebra Technologies. Zebra Technologies kostet im Moment dreihundertneunzig Dollar und zweiunddreissig Cent. Der Kurs von Zebra Technologies veränderte sich im letzten Monat um plus fünf Prozent und in drei Monaten um plus siebenunddreissig Komma zwei Prozent. Zum Vergleich: Das durchschnittliche Kursziel der Analysten für Zebra Technologies liegt bei vierhundertvierzehn Dollar und fünfundachtzig Cent. Das war die Aktie Zebra Technologies.",
+"audio": {
+"file": "ent/wachstum_ZBRA.mp3",
+"hash": "a47f604877835174",
+"dur": 34.4,
+"engine": "edge"
+}
+},
+{
+"symbol": "CRM",
+"name": "Salesforce, Inc.",
+"price_usd": 246.53,
+"mine": false,
+"metric": "+35,9 % in 3 Mt.",
+"reason": "Kurs in 3 Monaten +35,9 %, im letzten Monat +8,5 %.",
+"d": {
+"upside": 16.4,
+"target_usd": 286.14,
+"analysts": 54,
+"m1": 8.5,
+"m3": 35.9,
+"changes": [
+{
+"t": 1791801566,
+"firm": "B of A Securities",
+"a": "up",
+"to": "Kaufen"
+}
+]
+},
+"say": "Zur Aktie Salesforce. Salesforce kostet im Moment zweihundertsechsundvierzig Dollar und dreiundfünfzig Cent. Der Kurs von Salesforce veränderte sich im letzten Monat um plus acht Komma fünf Prozent und in drei Monaten um plus fünfunddreissig Komma neun Prozent. Zum Vergleich: Das durchschnittliche Kursziel der Analysten für Salesforce liegt bei zweihundertsechsundachtzig Dollar und vierzehn Cent. B of A Securities hat Salesforce am zwölften Oktober hochgestuft auf Kaufen. Das war die Aktie Salesforce.",
+"audio": {
+"file": "ent/wachstum_CRM.mp3",
+"hash": "47bc90b5ba3e8d3a",
+"dur": 38.8,
+"engine": "edge"
+}
 },
 {
 "symbol": "TWLO",
 "name": "Twilio Inc.",
-"price_usd": 261.79,
+"price_usd": 262.12,
 "mine": false,
-"metric": "+34,6 % in 3 Mt.",
-"reason": "Kurs in 3 Monaten +34,6 %, im letzten Monat -9,9 %."
+"metric": "+34,9 % in 3 Mt.",
+"reason": "Kurs in 3 Monaten +34,9 %, im letzten Monat -8,7 %.",
+"d": {
+"upside": 4.6,
+"target_usd": 274.44,
+"analysts": 29,
+"m1": -8.7,
+"m3": 34.9
+},
+"say": "Zur Aktie Twilio. Twilio kostet im Moment zweihundertzweiundsechzig Dollar und zwölf Cent. Der Kurs von Twilio veränderte sich im letzten Monat um minus acht Komma sieben Prozent und in drei Monaten um plus vierunddreissig Komma neun Prozent. Zum Vergleich: Das durchschnittliche Kursziel der Analysten für Twilio liegt bei zweihundertvierundsiebzig Dollar und vierundvierzig Cent. Das war die Aktie Twilio.",
+"audio": {
+"file": "ent/wachstum_TWLO.mp3",
+"hash": "0462c48d9fb02852",
+"dur": 30.3,
+"engine": "edge"
+}
 },
 {
-"symbol": "SWKS",
-"name": "Skyworks Solutions, Inc.",
-"price_usd": 83.43,
-"mine": false,
-"metric": "+31,5 % in 3 Mt.",
-"reason": "Kurs in 3 Monaten +31,5 %, im letzten Monat -8,8 %."
+"symbol": "MSFT",
+"name": "Microsoft Corporation",
+"price_usd": 528.41,
+"mine": true,
+"metric": "+34,3 % in 3 Mt.",
+"reason": "Kurs in 3 Monaten +34,3 %, im letzten Monat +3,8 %.",
+"d": {
+"upside": 13.8,
+"target_usd": 601.73,
+"analysts": 53,
+"m1": 3.8,
+"m3": 34.3
+},
+"say": "Zur Aktie Microsoft. Microsoft kostet im Moment fünfhundertachtundzwanzig Dollar und einundvierzig Cent. Der Kurs von Microsoft veränderte sich im letzten Monat um plus drei Komma acht Prozent und in drei Monaten um plus vierunddreissig Komma drei Prozent. Zum Vergleich: Das durchschnittliche Kursziel der Analysten für Microsoft liegt bei sechshunderteins Dollar und dreiundsiebzig Cent. Microsoft ist schon auf deiner Liste. Das war die Aktie Microsoft.",
+"audio": {
+"file": "ent/wachstum_MSFT.mp3",
+"hash": "51e85702869933d2",
+"dur": 35.4,
+"engine": "edge"
+}
 },
 {
-"symbol": "IQV",
-"name": "IQVIA Holdings Inc.",
-"price_usd": 279.36,
-"mine": false,
-"metric": "+31,0 % in 3 Mt.",
-"reason": "Kurs in 3 Monaten +31,0 %, im letzten Monat +4,3 %."
-},
+"symbol": "MRVL",
+"name": "Marvell Technology, Inc.",
+"price_usd": 234.02,
+"mine": true,
+"metric": "+34,1 % in 3 Mt.",
+"reason": "Kurs in 3 Monaten +34,1 %, im letzten Monat -7,1 %.",
+"d": {
+"upside": 45.8,
+"target_usd": 341.44,
+"analysts": 43,
+"m1": -7.1,
+"m3": 34.1,
+"changes": [
 {
-"symbol": "EL",
-"name": "The Estée Lauder Companies Inc.",
-"price_usd": 108.67,
-"mine": false,
-"metric": "+30,6 % in 3 Mt.",
-"reason": "Kurs in 3 Monaten +30,6 %, im letzten Monat +10,0 %."
+"t": 1791379972,
+"firm": "TD Cowen",
+"a": "up",
+"to": "Kaufen"
+}
+]
+},
+"say": "Zur Aktie Marvell Technology. Marvell Technology kostet im Moment zweihundertvierunddreissig Dollar und zwei Cent. Der Kurs von Marvell Technology veränderte sich im letzten Monat um minus sieben Komma eins Prozent und in drei Monaten um plus vierunddreissig Komma eins Prozent. Zum Vergleich: Das durchschnittliche Kursziel der Analysten für Marvell Technology liegt bei dreihunderteinundvierzig Dollar und vierundvierzig Cent. TD Cowen hat Marvell Technology am siebten Oktober hochgestuft auf Kaufen. Marvell Technology ist schon auf deiner Liste. Das war die Aktie Marvell Technology.",
+"audio": {
+"file": "ent/wachstum_MRVL.mp3",
+"hash": "9789936c11789903",
+"dur": 44.8,
+"engine": "edge"
+}
 },
 {
 "symbol": "COP",
 "name": "ConocoPhillips",
-"price_usd": 150.8,
+"price_usd": 150.57,
 "mine": false,
-"metric": "+30,5 % in 3 Mt.",
-"reason": "Kurs in 3 Monaten +30,5 %, im letzten Monat +17,7 %."
+"metric": "+32,0 % in 3 Mt.",
+"reason": "Kurs in 3 Monaten +32,0 %, im letzten Monat +19,5 %.",
+"d": {
+"upside": 0.5,
+"target_usd": 151.27,
+"analysts": 26,
+"m1": 19.5,
+"m3": 32.0
+},
+"say": "Zur Aktie ConocoPhillips. ConocoPhillips kostet im Moment einhundertfünfzig Dollar und siebenundfünfzig Cent. Der Kurs von ConocoPhillips veränderte sich im letzten Monat um plus neunzehn Komma fünf Prozent und in drei Monaten um plus zweiunddreissig Prozent. Zum Vergleich: Das durchschnittliche Kursziel der Analysten für ConocoPhillips liegt bei einhunderteinundfünfzig Dollar und siebenundzwanzig Cent. Das war die Aktie ConocoPhillips.",
+"audio": {
+"file": "ent/wachstum_COP.mp3",
+"hash": "5f9ae35ea1a24953",
+"dur": 33.0,
+"engine": "edge"
+}
 },
 {
-"symbol": "ULTA",
-"name": "Ulta Beauty, Inc.",
-"price_usd": 624.46,
+"symbol": "WDAY",
+"name": "Workday, Inc.",
+"price_usd": 210.67,
 "mine": false,
-"metric": "+30,0 % in 3 Mt.",
-"reason": "Kurs in 3 Monaten +30,0 %, im letzten Monat +14,8 %."
+"metric": "+31,9 % in 3 Mt.",
+"reason": "Kurs in 3 Monaten +31,9 %, im letzten Monat +11,7 %.",
+"d": {
+"upside": -0.3,
+"target_usd": 209.25,
+"analysts": 37,
+"m1": 11.7,
+"m3": 31.9,
+"changes": [
+{
+"t": 1792154864,
+"firm": "Keybanc",
+"a": "down",
+"to": "Wie der Sektor"
+}
+]
+},
+"say": "Zur Aktie Workday. Workday kostet im Moment zweihundertzehn Dollar und siebenundsechzig Cent. Der Kurs von Workday veränderte sich im letzten Monat um plus elf Komma sieben Prozent und in drei Monaten um plus einunddreissig Komma neun Prozent. Zum Vergleich: Das durchschnittliche Kursziel der Analysten für Workday liegt bei zweihundertneun Dollar und fünfundzwanzig Cent. Keybanc hat Workday am sechzehnten Oktober abgestuft auf Wie der Sektor. Das war die Aktie Workday.",
+"audio": {
+"file": "ent/wachstum_WDAY.mp3",
+"hash": "b18f6658c1ce9faa",
+"dur": 36.0,
+"engine": "edge"
+}
 },
 {
-"symbol": "HAS",
-"name": "Hasbro, Inc.",
-"price_usd": 117.44,
+"symbol": "SWKS",
+"name": "Skyworks Solutions, Inc.",
+"price_usd": 83.97,
 "mine": false,
-"metric": "+29,6 % in 3 Mt.",
-"reason": "Kurs in 3 Monaten +29,6 %, im letzten Monat +35,7 %."
+"metric": "+29,8 % in 3 Mt.",
+"reason": "Kurs in 3 Monaten +29,8 %, im letzten Monat -4,1 %.",
+"d": {
+"upside": -7.8,
+"target_usd": 77.51,
+"analysts": 17,
+"m1": -4.1,
+"m3": 29.8,
+"changes": [
+{
+"t": 1791304717,
+"firm": "B. Riley Securities",
+"a": "up",
+"to": "Kaufen"
+}
+]
+},
+"say": "Zur Aktie Skyworks Solutions. Skyworks Solutions kostet im Moment dreiundachtzig Dollar und siebenundneunzig Cent. Der Kurs von Skyworks Solutions veränderte sich im letzten Monat um minus vier Komma eins Prozent und in drei Monaten um plus neunundzwanzig Komma acht Prozent. Zum Vergleich: Das durchschnittliche Kursziel der Analysten für Skyworks Solutions liegt bei siebenundsiebzig Dollar und einundfünfzig Cent. B. Riley Securities hat Skyworks Solutions am sechsten Oktober hochgestuft auf Kaufen. Das war die Aktie Skyworks Solutions.",
+"audio": {
+"file": "ent/wachstum_SWKS.mp3",
+"hash": "576e4a5a87bb0604",
+"dur": 41.6,
+"engine": "edge"
+}
+},
+{
+"symbol": "HPE",
+"name": "Hewlett Packard Enterprise Company",
+"price_usd": 58.83,
+"mine": false,
+"metric": "+29,0 % in 3 Mt.",
+"reason": "Kurs in 3 Monaten +29,0 %, im letzten Monat -6,1 %.",
+"d": {
+"upside": 21.9,
+"target_usd": 71.74,
+"analysts": 21,
+"m1": -6.1,
+"m3": 29.0,
+"changes": [
+{
+"t": 1791983618,
+"firm": "Barclays",
+"a": "down",
+"to": "Marktgewichten"
+}
+]
+},
+"say": "Zur Aktie Hewlett Packard Enterprise. Hewlett Packard Enterprise kostet im Moment achtundfünfzig Dollar und dreiundachtzig Cent. Der Kurs von Hewlett Packard Enterprise veränderte sich im letzten Monat um minus sechs Komma eins Prozent und in drei Monaten um plus neunundzwanzig Prozent. Zum Vergleich: Das durchschnittliche Kursziel der Analysten für Hewlett Packard Enterprise liegt bei einundsiebzig Dollar und vierundsiebzig Cent. Barclays hat Hewlett Packard Enterprise am vierzehnten Oktober abgestuft auf Marktgewichten. Das war die Aktie Hewlett Packard Enterprise.",
+"audio": {
+"file": "ent/wachstum_HPE.mp3",
+"hash": "dd14a78c9e269b25",
+"dur": 42.9,
+"engine": "edge"
+}
+},
+{
+"symbol": "TSLA",
+"name": "Tesla, Inc.",
+"price_usd": 396.45,
+"mine": false,
+"metric": "+29,0 % in 3 Mt.",
+"reason": "Kurs in 3 Monaten +29,0 %, im letzten Monat +10,9 %.",
+"d": {
+"upside": 2.8,
+"target_usd": 407.22,
+"analysts": 39,
+"m1": 10.9,
+"m3": 29.0,
+"changes": [
+{
+"t": 1793019956,
+"firm": "Barclays",
+"a": "up",
+"to": "Übergewichten"
+},
+{
+"t": 1792694505,
+"firm": "CLSA",
+"a": "up",
+"to": "Halten"
+},
+{
+"t": 1792687381,
+"firm": "BNP Paribas",
+"a": "up",
+"to": "Neutral"
+}
+],
+"earn": {
+"t": 1792612800,
+"act": 0.48,
+"est": 0.45114,
+"sur": 6.4,
+"cur": "USD",
+"fx": 1.0
+}
+},
+"say": "Zur Aktie Tesla. Tesla kostet im Moment dreihundertsechsundneunzig Dollar und fünfundvierzig Cent. Der Kurs von Tesla veränderte sich im letzten Monat um plus zehn Komma neun Prozent und in drei Monaten um plus neunundzwanzig Prozent. Zum Vergleich: Das durchschnittliche Kursziel der Analysten für Tesla liegt bei vierhundertsieben Dollar und zweiundzwanzig Cent. Barclays hat Tesla am sechsundzwanzigsten Oktober hochgestuft auf Übergewichten. CLSA hat Tesla am zweiundzwanzigsten Oktober hochgestuft auf Halten. Das war die Aktie Tesla.",
+"audio": {
+"file": "ent/wachstum_TSLA.mp3",
+"hash": "141919fbd8e2c939",
+"dur": 41.9,
+"engine": "edge"
+}
+},
+{
+"symbol": "EL",
+"name": "The Estée Lauder Companies Inc.",
+"price_usd": 108.85,
+"mine": false,
+"metric": "+28,4 % in 3 Mt.",
+"reason": "Kurs in 3 Monaten +28,4 %, im letzten Monat +13,9 %.",
+"d": {
+"upside": 1.1,
+"target_usd": 110.05,
+"analysts": 28,
+"m1": 13.9,
+"m3": 28.4
+},
+"say": "Zur Aktie The Estée Lauder Companies. The Estée Lauder Companies kostet im Moment einhundertacht Dollar und fünfundachtzig Cent. Der Kurs von The Estée Lauder Companies veränderte sich im letzten Monat um plus dreizehn Komma neun Prozent und in drei Monaten um plus achtundzwanzig Komma vier Prozent. Zum Vergleich: Das durchschnittliche Kursziel der Analysten für The Estée Lauder Companies liegt bei einhundertzehn Dollar und fünf Cent. Das war die Aktie The Estée Lauder Companies.",
+"audio": {
+"file": "ent/wachstum_EL.mp3",
+"hash": "d03f6bf049985f7f",
+"dur": 36.5,
+"engine": "edge"
+}
 },
 {
 "symbol": "NTAP",
 "name": "NetApp, Inc.",
-"price_usd": 215.48,
+"price_usd": 222.7,
 "mine": false,
-"metric": "+26,9 % in 3 Mt.",
-"reason": "Kurs in 3 Monaten +26,9 %, im letzten Monat +9,8 %."
+"metric": "+27,6 % in 3 Mt.",
+"reason": "Kurs in 3 Monaten +27,6 %, im letzten Monat +8,9 %.",
+"d": {
+"upside": -5.0,
+"target_usd": 211.69,
+"analysts": 16,
+"m1": 8.9,
+"m3": 27.6,
+"changes": [
+{
+"t": 1791984106,
+"firm": "Barclays",
+"a": "down",
+"to": "Marktgewichten"
 },
 {
-"symbol": "ISRG",
-"name": "Intuitive Surgical, Inc.",
-"price_usd": 452.29,
+"t": 1791368001,
+"firm": "Evercore ISI Group",
+"a": "up",
+"to": "Besser als Markt"
+}
+]
+},
+"say": "Zur Aktie NetApp. NetApp kostet im Moment zweihundertzweiundzwanzig Dollar und siebzig Cent. Der Kurs von NetApp veränderte sich im letzten Monat um plus acht Komma neun Prozent und in drei Monaten um plus siebenundzwanzig Komma sechs Prozent. Zum Vergleich: Das durchschnittliche Kursziel der Analysten für NetApp liegt bei zweihundertelf Dollar und neunundsechzig Cent. Barclays hat NetApp am vierzehnten Oktober abgestuft auf Marktgewichten. Evercore ISI Group hat NetApp am siebten Oktober hochgestuft auf Besser als Markt. Das war die Aktie NetApp.",
+"audio": {
+"file": "ent/wachstum_NTAP.mp3",
+"hash": "65c774f6301939f0",
+"dur": 43.0,
+"engine": "edge"
+}
+},
+{
+"symbol": "LITE",
+"name": "Lumentum Holdings Inc.",
+"price_usd": 820.12,
 "mine": false,
-"metric": "+26,8 % in 3 Mt.",
-"reason": "Kurs in 3 Monaten +26,8 %, im letzten Monat +13,6 %."
+"metric": "+25,9 % in 3 Mt.",
+"reason": "Kurs in 3 Monaten +25,9 %, im letzten Monat -10,9 %.",
+"d": {
+"upside": 41.7,
+"target_usd": 1165.03,
+"analysts": 27,
+"m1": -10.9,
+"m3": 25.9
+},
+"say": "Zur Aktie Lumentum. Lumentum kostet im Moment achthundertzwanzig Dollar und zwölf Cent. Der Kurs von Lumentum veränderte sich im letzten Monat um minus zehn Komma neun Prozent und in drei Monaten um plus fünfundzwanzig Komma neun Prozent. Zum Vergleich: Das durchschnittliche Kursziel der Analysten für Lumentum liegt bei eintausendeinhundertfünfundsechzig Dollar und drei Cent. Das war die Aktie Lumentum.",
+"audio": {
+"file": "ent/wachstum_LITE.mp3",
+"hash": "17a7a4ee4e4836cc",
+"dur": 31.3,
+"engine": "edge"
+}
 }
 ],
 "zahlen": [
 {
 "symbol": "HAS",
 "name": "Hasbro, Inc.",
-"price_usd": 117.44,
+"price_usd": 117.67,
 "mine": false,
 "metric": "Gewinn +56,6 % vs. Erwartung",
 "reason": "Zahlen vom 20.10.2026: Gewinn je Aktie 2.90 USD, über der Erwartung (1.85).",
+"d": {
+"upside": 0.0,
+"target_usd": 117.77,
+"analysts": 13,
+"m1": 31.6,
+"m3": 22.2,
+"earn": {
+"t": 1792499400,
+"act": 2.9,
+"est": 1.85178,
+"sur": 56.6,
+"cur": "USD",
+"fx": 1.0
+}
+},
 "beat": true,
-"ai": "Hasbro meldete am 20.10.2026 einen Gewinn je Aktie von 2.90 USD und übertraf damit die Erwartungen von 1.85 USD. Die Aktie verzeichnete daraufhin Kursgewinne und positive Reaktionen im Handelsumfeld."
+"say": "Zur Aktie Hasbro. Hasbro kostet im Moment einhundertsiebzehn Dollar und siebenundsechzig Cent. Hasbro hat am zwanzigsten Oktober Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag über der Erwartung der Analysten: zwei Dollar und neunzig Cent statt erwartet ein Dollar und fünfundachtzig Cent. Das ist eine Abweichung von plus sechsundfünfzig Komma sechs Prozent. Der Kurs von Hasbro veränderte sich im letzten Monat um plus einunddreissig Komma sechs Prozent und in drei Monaten um plus zweiundzwanzig Komma zwei Prozent. Das war die Aktie Hasbro.",
+"audio": {
+"file": "ent/zahlen_HAS.mp3",
+"hash": "8568aafa65865fe3",
+"dur": 42.6,
+"engine": "edge"
+}
 },
 {
 "symbol": "TFC",
 "name": "Truist Financial Corporation",
-"price_usd": 48.44,
+"price_usd": 48.98,
 "mine": false,
 "metric": "Gewinn -53,8 % vs. Erwartung",
 "reason": "Zahlen vom 16.10.2026: Gewinn je Aktie 0.56 USD, unter der Erwartung (1.21).",
+"d": {
+"upside": 8.8,
+"target_usd": 53.19,
+"analysts": 19,
+"m1": 4.0,
+"m3": -7.6,
+"earn": {
+"t": 1792153800,
+"act": 0.56,
+"est": 1.21286,
+"sur": -53.8,
+"cur": "USD",
+"fx": 1.0
+}
+},
 "beat": false,
-"ai": "Truist Financial Corporation verzeichnete am 16.10.2026 einen Gewinn je Aktie von 0.56 USD, was unter den Erwartungen von 1.21 USD lag. Zudem gab es Schlagzeilen über den Wechsel eines Beraterteams zu Raymond James."
+"say": "Zur Aktie Truist Financial. Truist Financial kostet im Moment achtundvierzig Dollar und achtundneunzig Cent. Truist Financial hat am sechzehnten Oktober Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag unter der Erwartung der Analysten: null Dollar und sechsundfünfzig Cent statt erwartet ein Dollar und einundzwanzig Cent. Das ist eine Abweichung von minus dreiundfünfzig Komma acht Prozent. Der Kurs von Truist Financial veränderte sich im letzten Monat um plus vier Prozent und in drei Monaten um minus sieben Komma sechs Prozent. Das war die Aktie Truist Financial.",
+"audio": {
+"file": "ent/zahlen_TFC.mp3",
+"hash": "0306c6428debf4f5",
+"dur": 44.2,
+"engine": "edge"
+}
 },
 {
 "symbol": "ELV",
 "name": "Elevance Health, Inc.",
-"price_usd": 439.95,
+"price_usd": 431.58,
 "mine": false,
 "metric": "Gewinn +48,9 % vs. Erwartung",
 "reason": "Zahlen vom 21.10.2026: Gewinn je Aktie 6.99 USD, über der Erwartung (4.69).",
+"d": {
+"upside": 11.6,
+"target_usd": 481.48,
+"analysts": 21,
+"m1": 9.4,
+"m3": 11.9,
+"earn": {
+"t": 1792585800,
+"act": 6.99,
+"est": 4.69479,
+"sur": 48.9,
+"cur": "USD",
+"fx": 1.0
+}
+},
 "beat": true,
-"ai": "Elevance Health erzielte am 21.10.2026 einen Gewinn je Aktie von 6.99 USD und lag damit über der Prognose von 4.69 USD. Der Quartalsbericht unterstreicht unter anderem die Expansion im Bereich Carelon und angehobene Aussichten."
+"say": "Zur Aktie Elevance Health. Elevance Health kostet im Moment vierhunderteinunddreissig Dollar und achtundfünfzig Cent. Elevance Health hat am einundzwanzigsten Oktober Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag über der Erwartung der Analysten: sechs Dollar und neunundneunzig Cent statt erwartet vier Dollar und neunundsechzig Cent. Das ist eine Abweichung von plus achtundvierzig Komma neun Prozent. Der Kurs von Elevance Health veränderte sich im letzten Monat um plus neun Komma vier Prozent und in drei Monaten um plus elf Komma neun Prozent. Das war die Aktie Elevance Health.",
+"audio": {
+"file": "ent/zahlen_ELV.mp3",
+"hash": "4f6ee011674d0158",
+"dur": 45.4,
+"engine": "edge"
+}
 },
 {
 "symbol": "BE",
 "name": "Bloom Energy Corporation",
-"price_usd": 193.3,
+"price_usd": 209.51,
 "mine": true,
 "metric": "Gewinn +39,2 % vs. Erwartung",
 "reason": "Zahlen vom 22.10.2026: Gewinn je Aktie 0.94 USD, über der Erwartung (0.68).",
+"d": {
+"upside": 35.5,
+"target_usd": 284.77,
+"analysts": 26,
+"m1": -20.3,
+"m3": 25.6,
+"earn": {
+"t": 1792699200,
+"act": 0.94,
+"est": 0.67552,
+"sur": 39.2,
+"cur": "USD",
+"fx": 1.0
+}
+},
 "beat": true,
-"ai": "Bloom Energy Corporation wies am 22.10.2026 einen Gewinn je Aktie von 0.94 USD aus und übertraf die Erwartung von 0.68 USD. Das Unternehmen hob zudem seine Prognose für 2026 an."
+"say": "Zur Aktie Bloom Energy. Bloom Energy kostet im Moment zweihundertneun Dollar und einundfünfzig Cent. Bloom Energy hat am zweiundzwanzigsten Oktober Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag über der Erwartung der Analysten: null Dollar und vierundneunzig Cent statt erwartet null Dollar und achtundsechzig Cent. Das ist eine Abweichung von plus neununddreissig Komma zwei Prozent. Der Kurs von Bloom Energy veränderte sich im letzten Monat um minus zwanzig Komma drei Prozent und in drei Monaten um plus fünfundzwanzig Komma sechs Prozent. Bloom Energy ist schon auf deiner Liste. Das war die Aktie Bloom Energy.",
+"audio": {
+"file": "ent/zahlen_BE.mp3",
+"hash": "bbd705e0fa0df530",
+"dur": 47.7,
+"engine": "edge"
+}
 },
 {
 "symbol": "META",
 "name": "Meta Platforms, Inc.",
-"price_usd": 642.62,
+"price_usd": 642.43,
 "mine": true,
 "metric": "Gewinn -29,9 % vs. Erwartung",
 "reason": "Zahlen vom 21.10.2026: Gewinn je Aktie 3.83 USD, unter der Erwartung (5.46).",
+"d": {
+"upside": 31.1,
+"target_usd": 844.77,
+"analysts": 58,
+"m1": -10.2,
+"m3": 8.3,
+"earn": {
+"t": 1792612800,
+"act": 3.83,
+"est": 5.46478,
+"sur": -29.9,
+"cur": "USD",
+"fx": 1.0
+}
+},
 "beat": false,
-"ai": "Meta Platforms verfehlte am 21.10.2026 mit einem Gewinn je Aktie von 3.83 USD die Analystenerwartungen von 5.46 USD. Das Unternehmen kündigte zudem grosse Aktien- und Finanzierungspläne im Zusammenhang mit seinen KI-Investitionen an."
+"say": "Zur Aktie Meta Platforms. Meta Platforms kostet im Moment sechshundertzweiundvierzig Dollar und dreiundvierzig Cent. Meta Platforms hat am einundzwanzigsten Oktober Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag unter der Erwartung der Analysten: drei Dollar und dreiundachtzig Cent statt erwartet fünf Dollar und sechsundvierzig Cent. Das ist eine Abweichung von minus neunundzwanzig Komma neun Prozent. Der Kurs von Meta Platforms veränderte sich im letzten Monat um minus zehn Komma zwei Prozent und in drei Monaten um plus acht Komma drei Prozent. Meta Platforms ist schon auf deiner Liste. Das war die Aktie Meta Platforms.",
+"audio": {
+"file": "ent/zahlen_META.mp3",
+"hash": "5620ecec46daa86a",
+"dur": 50.5,
+"engine": "edge"
+}
 },
 {
 "symbol": "DECK",
 "name": "Deckers Outdoor Corporation",
-"price_usd": 81.09,
+"price_usd": 80.48,
 "mine": false,
 "metric": "Gewinn +28,7 % vs. Erwartung",
 "reason": "Zahlen vom 22.10.2026: Gewinn je Aktie 2.31 USD, über der Erwartung (1.79).",
+"d": {
+"upside": 22.0,
+"target_usd": 98.19,
+"analysts": 21,
+"m1": 2.7,
+"m3": -22.6,
+"changes": [
+{
+"t": 1792747072,
+"firm": "Piper Sandler",
+"a": "down",
+"to": "Untergewichten"
+}
+],
+"earn": {
+"t": 1792699200,
+"act": 2.31,
+"est": 1.79478,
+"sur": 28.7,
+"cur": "USD",
+"fx": 1.0
+}
+},
 "beat": true,
-"ai": "Deckers Outdoor Corporation übertraf am 22.10.2026 mit einem Gewinn je Aktie von 2.31 USD die Erwartung von 1.79 USD. Zudem hob das Unternehmen seine Gewinnprognose an."
+"say": "Zur Aktie Deckers Outdoor. Deckers Outdoor kostet im Moment achtzig Dollar und achtundvierzig Cent. Deckers Outdoor hat am zweiundzwanzigsten Oktober Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag über der Erwartung der Analysten: zwei Dollar und einunddreissig Cent statt erwartet ein Dollar und neunundsiebzig Cent. Das ist eine Abweichung von plus achtundzwanzig Komma sieben Prozent. Der Kurs von Deckers Outdoor veränderte sich im letzten Monat um plus zwei Komma sieben Prozent und in drei Monaten um minus zweiundzwanzig Komma sechs Prozent. Das war die Aktie Deckers Outdoor.",
+"audio": {
+"file": "ent/zahlen_DECK.mp3",
+"hash": "252c1ead731e6d73",
+"dur": 44.4,
+"engine": "edge"
+}
 },
 {
 "symbol": "RTX",
 "name": "RTX Corporation",
-"price_usd": 191.01,
+"price_usd": 195.32,
 "mine": false,
 "metric": "Gewinn +27,0 % vs. Erwartung",
 "reason": "Zahlen vom 20.10.2026: Gewinn je Aktie 2.26 USD, über der Erwartung (1.78).",
+"d": {
+"upside": 17.3,
+"target_usd": 229.17,
+"analysts": 23,
+"m1": 4.1,
+"m3": -10.7,
+"earn": {
+"t": 1792499400,
+"act": 2.26,
+"est": 1.7791,
+"sur": 27.0,
+"cur": "USD",
+"fx": 1.0
+}
+},
 "beat": true,
-"ai": "RTX Corporation meldete am 20.10.2026 einen Gewinn je Aktie von 2.26 USD und übertraf damit die Erwartung von 1.78 USD. Das Unternehmen profitiert laut Berichten von einem wachsenden Auftragsbestand im Verteidigungssektor."
+"say": "Zur Aktie RTX. RTX kostet im Moment einhundertfünfundneunzig Dollar und zweiunddreissig Cent. RTX hat am zwanzigsten Oktober Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag über der Erwartung der Analysten: zwei Dollar und sechsundzwanzig Cent statt erwartet ein Dollar und achtundsiebzig Cent. Das ist eine Abweichung von plus siebenundzwanzig Prozent. Der Kurs von RTX veränderte sich im letzten Monat um plus vier Komma eins Prozent und in drei Monaten um minus zehn Komma sieben Prozent. Das war die Aktie RTX.",
+"audio": {
+"file": "ent/zahlen_RTX.mp3",
+"hash": "3bfe294fdaf4e0c3",
+"dur": 42.8,
+"engine": "edge"
+}
 },
 {
 "symbol": "TRV",
 "name": "The Travelers Companies, Inc.",
-"price_usd": 398.28,
+"price_usd": 398.85,
 "mine": false,
 "metric": "Gewinn +23,5 % vs. Erwartung",
 "reason": "Zahlen vom 16.10.2026: Gewinn je Aktie 9.18 USD, über der Erwartung (7.43).",
+"d": {
+"upside": -6.0,
+"target_usd": 375.08,
+"analysts": 24,
+"m1": 9.8,
+"m3": 0.4,
+"earn": {
+"t": 1792153800,
+"act": 9.18,
+"est": 7.4334,
+"sur": 23.5,
+"cur": "USD",
+"fx": 1.0
+}
+},
 "beat": true,
-"ai": "The Travelers Companies erzielte am 16.10.2026 einen Gewinn je Aktie von 9.18 USD und übertraf die Erwartungen von 7.43 USD. Die Aktie zeigte sich im Zuge solider Underwriting-Ergebnisse stark."
+"say": "Zur Aktie The Travelers Companies. The Travelers Companies kostet im Moment dreihundertachtundneunzig Dollar und fünfundachtzig Cent. The Travelers Companies hat am sechzehnten Oktober Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag über der Erwartung der Analysten: neun Dollar und achtzehn Cent statt erwartet sieben Dollar und dreiundvierzig Cent. Das ist eine Abweichung von plus dreiundzwanzig Komma fünf Prozent. Der Kurs von The Travelers Companies veränderte sich im letzten Monat um plus neun Komma acht Prozent und in drei Monaten um plus null Komma vier Prozent. Das war die Aktie The Travelers Companies.",
+"audio": {
+"file": "ent/zahlen_TRV.mp3",
+"hash": "bb89a5d2272ba41f",
+"dur": 48.1,
+"engine": "edge"
+}
 },
 {
 "symbol": "COF",
 "name": "Capital One Financial Corporation",
-"price_usd": 201.34,
+"price_usd": 203.53,
 "mine": false,
 "metric": "Gewinn +21,6 % vs. Erwartung",
 "reason": "Zahlen vom 20.10.2026: Gewinn je Aktie 6.69 USD, über der Erwartung (5.50).",
+"d": {
+"upside": 25.1,
+"target_usd": 254.55,
+"analysts": 22,
+"m1": 3.6,
+"m3": -4.2,
+"earn": {
+"t": 1792526400,
+"act": 6.69,
+"est": 5.50252,
+"sur": 21.6,
+"cur": "USD",
+"fx": 1.0
+}
+},
 "beat": true,
-"ai": "Capital One Financial Corporation meldete am 20.10.2026 einen Gewinn je Aktie von 6.69 USD und übertraf damit die Erwartungen von 5.50 USD. Nach diesen Quartalszahlen verzeichnete die Aktie Kursgewinne."
+"say": "Zur Aktie Capital One Financial. Capital One Financial kostet im Moment zweihundertdrei Dollar und dreiundfünfzig Cent. Capital One Financial hat am zwanzigsten Oktober Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag über der Erwartung der Analysten: sechs Dollar und neunundsechzig Cent statt erwartet fünf Dollar und fünfzig Cent. Das ist eine Abweichung von plus einundzwanzig Komma sechs Prozent. Der Kurs von Capital One Financial veränderte sich im letzten Monat um plus drei Komma sechs Prozent und in drei Monaten um minus vier Komma zwei Prozent. Das war die Aktie Capital One Financial.",
+"audio": {
+"file": "ent/zahlen_COF.mp3",
+"hash": "59ab544297933355",
+"dur": 46.4,
+"engine": "edge"
+}
 },
 {
 "symbol": "LVS",
 "name": "Las Vegas Sands Corp.",
-"price_usd": 35.68,
+"price_usd": 36.55,
 "mine": false,
 "metric": "Gewinn -21,0 % vs. Erwartung",
 "reason": "Zahlen vom 21.10.2026: Gewinn je Aktie 0.54 USD, unter der Erwartung (0.68).",
+"d": {
+"upside": 37.0,
+"target_usd": 50.09,
+"analysts": 19,
+"m1": -5.8,
+"m3": -24.3,
+"earn": {
+"t": 1792612800,
+"act": 0.54,
+"est": 0.6834,
+"sur": -21.0,
+"cur": "USD",
+"fx": 1.0
+}
+},
 "beat": false,
-"ai": "Las Vegas Sands verfehlte am 21.10.2026 mit einem Gewinn je Aktie von 0.54 USD die Erwartungen von 0.68 USD. Grund für das Verfehlen waren laut Berichten ein schwächeres Premium-Spielesegment und höhere Kosten."
+"say": "Zur Aktie Las Vegas Sands. Las Vegas Sands kostet im Moment sechsunddreissig Dollar und fünfundfünfzig Cent. Las Vegas Sands hat am einundzwanzigsten Oktober Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag unter der Erwartung der Analysten: null Dollar und vierundfünfzig Cent statt erwartet null Dollar und achtundsechzig Cent. Das ist eine Abweichung von minus einundzwanzig Prozent. Der Kurs von Las Vegas Sands veränderte sich im letzten Monat um minus fünf Komma acht Prozent und in drei Monaten um minus vierundzwanzig Komma drei Prozent. Das war die Aktie Las Vegas Sands.",
+"audio": {
+"file": "ent/zahlen_LVS.mp3",
+"hash": "50afdb20c647dbad",
+"dur": 45.8,
+"engine": "edge"
+}
 },
 {
 "symbol": "AXP",
 "name": "American Express Company",
-"price_usd": 313.22,
+"price_usd": 315.24,
 "mine": false,
 "metric": "Gewinn +20,4 % vs. Erwartung",
 "reason": "Zahlen vom 23.10.2026: Gewinn je Aktie 5.42 USD, über der Erwartung (4.50).",
+"d": {
+"upside": 16.9,
+"target_usd": 368.72,
+"analysts": 25,
+"m1": 2.9,
+"m3": -6.3,
+"earn": {
+"t": 1792758600,
+"act": 5.42,
+"est": 4.50016,
+"sur": 20.4,
+"cur": "USD",
+"fx": 1.0
+}
+},
 "beat": true,
-"ai": "American Express meldete am 23.10.2026 einen Gewinn je Aktie von 5.42 USD und übertraf damit die Erwartung von 4.50 USD. Zu den Neuerungen zählt zudem die Einführung einer Airbnb-Gutschrift."
+"say": "Zur Aktie American Express. American Express kostet im Moment dreihundertfünfzehn Dollar und vierundzwanzig Cent. American Express hat am dreiundzwanzigsten Oktober Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag über der Erwartung der Analysten: fünf Dollar und zweiundvierzig Cent statt erwartet vier Dollar und fünfzig Cent. Das ist eine Abweichung von plus zwanzig Komma vier Prozent. Der Kurs von American Express veränderte sich im letzten Monat um plus zwei Komma neun Prozent und in drei Monaten um minus sechs Komma drei Prozent. Das war die Aktie American Express.",
+"audio": {
+"file": "ent/zahlen_AXP.mp3",
+"hash": "1203c64a27356d7f",
+"dur": 46.3,
+"engine": "edge"
+}
 },
 {
 "symbol": "LUV",
 "name": "Southwest Airlines Co.",
-"price_usd": 41.75,
+"price_usd": 42.77,
 "mine": false,
 "metric": "Gewinn +14,2 % vs. Erwartung",
 "reason": "Zahlen vom 21.10.2026: Gewinn je Aktie 0.66 USD, über der Erwartung (0.58).",
+"d": {
+"upside": 15.5,
+"target_usd": 49.32,
+"analysts": 23,
+"m1": 1.2,
+"m3": -7.6,
+"earn": {
+"t": 1792612800,
+"act": 0.66,
+"est": 0.5779,
+"sur": 14.2,
+"cur": "USD",
+"fx": 1.0
+}
+},
 "beat": true,
-"ai": "Southwest Airlines erzielte am 21.10.2026 einen Gewinn je Aktie von 0.66 USD und lag über der Erwartung von 0.58 USD. Trotz des Gewinns senkte das Unternehmen jedoch den Ausblick wegen steigender Treibstoffkosten."
+"say": "Zur Aktie Southwest Airlines. Southwest Airlines kostet im Moment zweiundvierzig Dollar und siebenundsiebzig Cent. Southwest Airlines hat am einundzwanzigsten Oktober Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag über der Erwartung der Analysten: null Dollar und sechsundsechzig Cent statt erwartet null Dollar und achtundfünfzig Cent. Das ist eine Abweichung von plus vierzehn Komma zwei Prozent. Der Kurs von Southwest Airlines veränderte sich im letzten Monat um plus eins Komma zwei Prozent und in drei Monaten um minus sieben Komma sechs Prozent. Das war die Aktie Southwest Airlines.",
+"audio": {
+"file": "ent/zahlen_LUV.mp3",
+"hash": "10082542986e60c3",
+"dur": 46.3,
+"engine": "edge"
+}
 },
 {
 "symbol": "ISRG",
 "name": "Intuitive Surgical, Inc.",
-"price_usd": 452.29,
+"price_usd": 453.97,
 "mine": false,
 "metric": "Gewinn +13,6 % vs. Erwartung",
 "reason": "Zahlen vom 20.10.2026: Gewinn je Aktie 3.00 USD, über der Erwartung (2.64).",
+"d": {
+"upside": 5.4,
+"target_usd": 478.3,
+"analysts": 30,
+"m1": 9.5,
+"m3": 25.5,
+"earn": {
+"t": 1792526400,
+"act": 3.0,
+"est": 2.64065,
+"sur": 13.6,
+"cur": "USD",
+"fx": 1.0
+}
+},
 "beat": true,
-"ai": "Intuitive Surgical wies am 20.10.2026 einen Gewinn je Aktie von 3.00 USD aus und übertraf die Prognose von 2.64 USD. Berichte wiesen gleichzeitig auf ein verlangsamtes Wachstum bei da-Vinci-Installationen in den USA hin."
+"say": "Zur Aktie Intuitive Surgical. Intuitive Surgical kostet im Moment vierhundertdreiundfünfzig Dollar und siebenundneunzig Cent. Intuitive Surgical hat am zwanzigsten Oktober Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag über der Erwartung der Analysten: drei Dollar statt erwartet zwei Dollar und vierundsechzig Cent. Das ist eine Abweichung von plus dreizehn Komma sechs Prozent. Der Kurs von Intuitive Surgical veränderte sich im letzten Monat um plus neun Komma fünf Prozent und in drei Monaten um plus fünfundzwanzig Komma fünf Prozent. Das war die Aktie Intuitive Surgical.",
+"audio": {
+"file": "ent/zahlen_ISRG.mp3",
+"hash": "7f36c1f9406f13a0",
+"dur": 46.5,
+"engine": "edge"
+}
 },
 {
 "symbol": "UNH",
 "name": "UnitedHealth Group Incorporated",
-"price_usd": 418.09,
+"price_usd": 412.25,
 "mine": false,
 "metric": "Gewinn +13,3 % vs. Erwartung",
 "reason": "Zahlen vom 13.10.2026: Gewinn je Aktie 4.69 USD, über der Erwartung (4.14).",
+"d": {
+"upside": 16.0,
+"target_usd": 478.12,
+"analysts": 25,
+"m1": 9.1,
+"m3": -3.9,
+"earn": {
+"t": 1791894600,
+"act": 4.69,
+"est": 4.14082,
+"sur": 13.3,
+"cur": "USD",
+"fx": 1.0
+}
+},
 "beat": true,
-"ai": "UnitedHealth Group meldete am 13.10.2026 einen Gewinn je Aktie von 4.69 USD und übertraf damit die Erwartung von 4.14 USD. Das Unternehmen hob in diesem Zusammenhang seine Prognose an."
+"say": "Zur Aktie UnitedHealth Group. UnitedHealth Group kostet im Moment vierhundertzwölf Dollar und fünfundzwanzig Cent. UnitedHealth Group hat am dreizehnten Oktober Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag über der Erwartung der Analysten: vier Dollar und neunundsechzig Cent statt erwartet vier Dollar und vierzehn Cent. Das ist eine Abweichung von plus dreizehn Komma drei Prozent. Der Kurs von UnitedHealth Group veränderte sich im letzten Monat um plus neun Komma eins Prozent und in drei Monaten um minus drei Komma neun Prozent. Das war die Aktie UnitedHealth Group.",
+"audio": {
+"file": "ent/zahlen_UNH.mp3",
+"hash": "6f719e9465ad61d2",
+"dur": 45.7,
+"engine": "edge"
+}
 },
 {
 "symbol": "WDC",
 "name": "Western Digital Corporation",
-"price_usd": 343.67,
+"price_usd": 353.44,
 "mine": false,
 "metric": "Gewinn +13,2 % vs. Erwartung",
 "reason": "Zahlen vom 22.10.2026: Gewinn je Aktie 4.64 USD, über der Erwartung (4.10).",
+"d": {
+"upside": 72.5,
+"target_usd": 610.04,
+"analysts": 24,
+"m1": -22.1,
+"m3": -23.8,
+"earn": {
+"t": 1792699200,
+"act": 4.64,
+"est": 4.0978,
+"sur": 13.2,
+"cur": "USD",
+"fx": 1.0
+}
+},
 "beat": true,
-"ai": "Western Digital Corporation erzielte am 22.10.2026 einen Gewinn je Aktie von 4.64 USD und übertraf die Erwartung von 4.10 USD. Die Berichterstattung hob dabei die anhaltende Dynamik im Bereich der KI-Speicher hervor."
+"say": "Zur Aktie Western Digital. Western Digital kostet im Moment dreihundertdreiundfünfzig Dollar und vierundvierzig Cent. Western Digital hat am zweiundzwanzigsten Oktober Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag über der Erwartung der Analysten: vier Dollar und vierundsechzig Cent statt erwartet vier Dollar und zehn Cent. Das ist eine Abweichung von plus dreizehn Komma zwei Prozent. Der Kurs von Western Digital veränderte sich im letzten Monat um minus zweiundzwanzig Komma eins Prozent und in drei Monaten um minus dreiundzwanzig Komma acht Prozent. Das war die Aktie Western Digital.",
+"audio": {
+"file": "ent/zahlen_WDC.mp3",
+"hash": "2a32167f60149bc3",
+"dur": 46.3,
+"engine": "edge"
+}
 },
 {
 "symbol": "NEM",
 "name": "Newmont Corporation",
-"price_usd": 108.87,
+"price_usd": 109.48,
 "mine": false,
 "metric": "Gewinn +13,0 % vs. Erwartung",
 "reason": "Zahlen vom 22.10.2026: Gewinn je Aktie 2.20 USD, über der Erwartung (1.95).",
+"d": {
+"upside": 23.9,
+"target_usd": 135.62,
+"analysts": 21,
+"m1": -5.7,
+"m3": 19.6,
+"changes": [
+{
+"t": 1792700106,
+"firm": "Freedom Broker",
+"a": "down",
+"to": "Halten"
+}
+],
+"earn": {
+"t": 1792699200,
+"act": 2.2,
+"est": 1.94635,
+"sur": 13.0,
+"cur": "USD",
+"fx": 1.0
+}
+},
 "beat": true,
-"ai": "Newmont Corporation wies am 22.10.2026 einen Gewinn je Aktie von 2.20 USD aus und übertraf damit die Erwartung von 1.95 USD. Der Quartalsgewinn profitierte von höheren Goldpreisen und starken Verkäufen."
+"say": "Zur Aktie Newmont. Newmont kostet im Moment einhundertneun Dollar und achtundvierzig Cent. Newmont hat am zweiundzwanzigsten Oktober Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag über der Erwartung der Analysten: zwei Dollar und zwanzig Cent statt erwartet ein Dollar und fünfundneunzig Cent. Das ist eine Abweichung von plus dreizehn Prozent. Der Kurs von Newmont veränderte sich im letzten Monat um minus fünf Komma sieben Prozent und in drei Monaten um plus neunzehn Komma sechs Prozent. Das war die Aktie Newmont.",
+"audio": {
+"file": "ent/zahlen_NEM.mp3",
+"hash": "9ebddc4066f13501",
+"dur": 41.4,
+"engine": "edge"
+}
 },
 {
 "symbol": "NVR",
 "name": "NVR, Inc.",
-"price_usd": 5983.68,
+"price_usd": 5897.0,
 "mine": false,
 "metric": "Gewinn -13,0 % vs. Erwartung",
 "reason": "Zahlen vom 22.10.2026: Gewinn je Aktie 89.45 USD, unter der Erwartung (102.77).",
+"d": {
+"upside": 6.1,
+"target_usd": 6262.0,
+"analysts": 6,
+"m1": -5.9,
+"m3": -8.8,
+"earn": {
+"t": 1792672200,
+"act": 89.45,
+"est": 102.77263,
+"sur": -13.0,
+"cur": "USD",
+"fx": 1.0
+}
+},
 "beat": false,
-"ai": "NVR verfehlte am 22.10.2026 mit einem Gewinn je Aktie von 89.45 USD die Analystenerwartungen von 102.77 USD. Belastet wurde das Quartal durch niedrigere Verkäufe und Margendruck."
+"say": "Zur Aktie NVR. NVR kostet im Moment fünftausendachthundertsiebenundneunzig Dollar. NVR hat am zweiundzwanzigsten Oktober Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag unter der Erwartung der Analysten: neunundachtzig Dollar und fünfundvierzig Cent statt erwartet einhundertzwei Dollar und siebenundsiebzig Cent. Das ist eine Abweichung von minus dreizehn Prozent. Der Kurs von NVR veränderte sich im letzten Monat um minus fünf Komma neun Prozent und in drei Monaten um minus acht Komma acht Prozent. Das war die Aktie NVR.",
+"audio": {
+"file": "ent/zahlen_NVR.mp3",
+"hash": "b547b2349ad94b2e",
+"dur": 43.9,
+"engine": "edge"
+}
 },
 {
 "symbol": "CB",
 "name": "Chubb Limited",
-"price_usd": 355.11,
+"price_usd": 356.79,
 "mine": false,
 "metric": "Gewinn +12,7 % vs. Erwartung",
 "reason": "Zahlen vom 20.10.2026: Gewinn je Aktie 7.66 USD, über der Erwartung (6.80).",
+"d": {
+"upside": 4.2,
+"target_usd": 371.48,
+"analysts": 23,
+"m1": 7.7,
+"m3": -1.9,
+"earn": {
+"t": 1792526400,
+"act": 7.66,
+"est": 6.79825,
+"sur": 12.7,
+"cur": "USD",
+"fx": 1.0
+}
+},
 "beat": true,
-"ai": "Chubb Limited meldete am 20.10.2026 einen Gewinn je Aktie von 7.66 USD und übertraf die Erwartungen von 6.80 USD. Die Ergebnisse wurden durch eine solide Underwriting-Disziplin und weltweite Diversifikation gestützt."
+"say": "Zur Aktie Chubb Limited. Chubb Limited kostet im Moment dreihundertsechsundfünfzig Dollar und neunundsiebzig Cent. Chubb Limited hat am zwanzigsten Oktober Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag über der Erwartung der Analysten: sieben Dollar und sechsundsechzig Cent statt erwartet sechs Dollar und achtzig Cent. Das ist eine Abweichung von plus zwölf Komma sieben Prozent. Der Kurs von Chubb Limited veränderte sich im letzten Monat um plus sieben Komma sieben Prozent und in drei Monaten um minus eins Komma neun Prozent. Das war die Aktie Chubb Limited.",
+"audio": {
+"file": "ent/zahlen_CB.mp3",
+"hash": "4131ae9aa87def83",
+"dur": 43.5,
+"engine": "edge"
+}
 },
 {
 "symbol": "VLO",
 "name": "Valero Energy Corporation",
-"price_usd": 419.28,
+"price_usd": 427.78,
 "mine": false,
 "metric": "Gewinn +12,6 % vs. Erwartung",
 "reason": "Zahlen vom 22.10.2026: Gewinn je Aktie 23.90 USD, über der Erwartung (21.23).",
+"d": {
+"upside": -1.2,
+"target_usd": 423.53,
+"analysts": 19,
+"m1": 9.8,
+"m3": 43.1,
+"changes": [
+{
+"t": 1792788139,
+"firm": "Freedom Broker",
+"a": "down",
+"to": "Verkaufen"
+}
+],
+"earn": {
+"t": 1792672200,
+"act": 23.9,
+"est": 21.23476,
+"sur": 12.6,
+"cur": "USD",
+"fx": 1.0
+}
+},
 "beat": true,
-"ai": "Valero Energy Corporation erzielte am 22.10.2026 einen Gewinn je Aktie von 23.90 USD und übertraf damit die Erwartung von 21.23 USD. Das Unternehmen profitierte von engen Kraftstoffmärkten und starken Quartalsrekorden."
+"say": "Zur Aktie Valero Energy. Valero Energy kostet im Moment vierhundertsiebenundzwanzig Dollar und achtundsiebzig Cent. Valero Energy hat am zweiundzwanzigsten Oktober Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag über der Erwartung der Analysten: dreiundzwanzig Dollar und neunzig Cent statt erwartet einundzwanzig Dollar und dreiundzwanzig Cent. Das ist eine Abweichung von plus zwölf Komma sechs Prozent. Der Kurs von Valero Energy veränderte sich im letzten Monat um plus neun Komma acht Prozent und in drei Monaten um plus dreiundvierzig Komma eins Prozent. Das war die Aktie Valero Energy.",
+"audio": {
+"file": "ent/zahlen_VLO.mp3",
+"hash": "38c46ec78860c18c",
+"dur": 45.9,
+"engine": "edge"
+}
 },
 {
 "symbol": "DOW",
 "name": "Dow Inc.",
-"price_usd": 32.61,
+"price_usd": 34.02,
 "mine": false,
 "metric": "Gewinn +11,5 % vs. Erwartung",
 "reason": "Zahlen vom 22.10.2026: Gewinn je Aktie 0.71 USD, über der Erwartung (0.64).",
+"d": {
+"upside": 2.2,
+"target_usd": 34.76,
+"analysts": 17,
+"m1": 22.0,
+"m3": 17.9,
+"changes": [
+{
+"t": 1792406288,
+"firm": "B of A Securities",
+"a": "up",
+"to": "Neutral"
+}
+],
+"earn": {
+"t": 1792672200,
+"act": 0.71,
+"est": 0.6368,
+"sur": 11.5,
+"cur": "USD",
+"fx": 1.0
+}
+},
 "beat": true,
-"ai": "Dow Inc. wies am 22.10.2026 einen Gewinn je Aktie von 0.71 USD aus und übertraf leicht die Erwartung von 0.64 USD. Die Zahlen trugen zu einer positiven Einschätzung der Margenerholung bei."
+"say": "Zur Aktie Dow. Dow kostet im Moment vierunddreissig Dollar und zwei Cent. Dow hat am zweiundzwanzigsten Oktober Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag über der Erwartung der Analysten: null Dollar und einundsiebzig Cent statt erwartet null Dollar und vierundsechzig Cent. Das ist eine Abweichung von plus elf Komma fünf Prozent. Der Kurs von Dow veränderte sich im letzten Monat um plus zweiundzwanzig Prozent und in drei Monaten um plus siebzehn Komma neun Prozent. Das war die Aktie Dow.",
+"audio": {
+"file": "ent/zahlen_DOW.mp3",
+"hash": "a47601a728556879",
+"dur": 39.6,
+"engine": "edge"
+}
 },
 {
 "symbol": "BLK",
 "name": "BlackRock, Inc.",
-"price_usd": 1118.25,
+"price_usd": 1132.63,
 "mine": false,
 "metric": "Gewinn +11,4 % vs. Erwartung",
 "reason": "Zahlen vom 14.10.2026: Gewinn je Aktie 15.93 USD, über der Erwartung (14.30).",
-"beat": true
+"d": {
+"upside": 19.3,
+"target_usd": 1351.0,
+"analysts": 17,
+"m1": 5.7,
+"m3": 3.2,
+"changes": [
+{
+"t": 1792504883,
+"firm": "TD Cowen",
+"a": "up",
+"to": "Kaufen"
+}
+],
+"earn": {
+"t": 1791981000,
+"act": 15.93,
+"est": 14.30163,
+"sur": 11.4,
+"cur": "USD",
+"fx": 1.0
+}
+},
+"beat": true,
+"say": "Zur Aktie BlackRock. BlackRock kostet im Moment eintausendeinhundertzweiunddreissig Dollar und dreiundsechzig Cent. BlackRock hat am vierzehnten Oktober Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag über der Erwartung der Analysten: fünfzehn Dollar und dreiundneunzig Cent statt erwartet vierzehn Dollar und dreissig Cent. Das ist eine Abweichung von plus elf Komma vier Prozent. Der Kurs von BlackRock veränderte sich im letzten Monat um plus fünf Komma sieben Prozent und in drei Monaten um plus drei Komma zwei Prozent. Das war die Aktie BlackRock.",
+"audio": {
+"file": "ent/zahlen_BLK.mp3",
+"hash": "2c04f75dd369d388",
+"dur": 43.4,
+"engine": "edge"
+}
 },
 {
 "symbol": "GE",
 "name": "GE Aerospace",
-"price_usd": 285.64,
+"price_usd": 290.61,
 "mine": true,
 "metric": "Gewinn +11,4 % vs. Erwartung",
 "reason": "Zahlen vom 20.10.2026: Gewinn je Aktie 2.25 USD, über der Erwartung (2.02).",
-"beat": true
+"d": {
+"upside": 30.3,
+"target_usd": 378.43,
+"analysts": 21,
+"m1": -8.7,
+"m3": -20.1,
+"earn": {
+"t": 1792499400,
+"act": 2.25,
+"est": 2.01994,
+"sur": 11.4,
+"cur": "USD",
+"fx": 1.0
+}
+},
+"beat": true,
+"say": "Zur Aktie GE Aerospace. GE Aerospace kostet im Moment zweihundertneunzig Dollar und einundsechzig Cent. GE Aerospace hat am zwanzigsten Oktober Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag über der Erwartung der Analysten: zwei Dollar und fünfundzwanzig Cent statt erwartet zwei Dollar und zwei Cent. Das ist eine Abweichung von plus elf Komma vier Prozent. Der Kurs von GE Aerospace veränderte sich im letzten Monat um minus acht Komma sieben Prozent und in drei Monaten um minus zwanzig Komma eins Prozent. GE Aerospace ist schon auf deiner Liste. Das war die Aktie GE Aerospace.",
+"audio": {
+"file": "ent/zahlen_GE.mp3",
+"hash": "4976ba2791af1eee",
+"dur": 48.9,
+"engine": "edge"
+}
 },
 {
 "symbol": "SYF",
 "name": "Synchrony Financial",
-"price_usd": 73.64,
+"price_usd": 75.15,
 "mine": false,
 "metric": "Gewinn +11,4 % vs. Erwartung",
 "reason": "Zahlen vom 20.10.2026: Gewinn je Aktie 2.68 USD, über der Erwartung (2.40).",
-"beat": true
+"d": {
+"upside": 16.7,
+"target_usd": 87.54,
+"analysts": 24,
+"m1": 5.1,
+"m3": -2.6,
+"changes": [
+{
+"t": 1792592584,
+"firm": "Evercore ISI Group",
+"a": "down",
+"to": "Im Rahmen"
+}
+],
+"earn": {
+"t": 1792499400,
+"act": 2.68,
+"est": 2.40491,
+"sur": 11.4,
+"cur": "USD",
+"fx": 1.0
+}
+},
+"beat": true,
+"say": "Zur Aktie Synchrony Financial. Synchrony Financial kostet im Moment fünfundsiebzig Dollar und fünfzehn Cent. Synchrony Financial hat am zwanzigsten Oktober Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag über der Erwartung der Analysten: zwei Dollar und achtundsechzig Cent statt erwartet zwei Dollar und vierzig Cent. Das ist eine Abweichung von plus elf Komma vier Prozent. Der Kurs von Synchrony Financial veränderte sich im letzten Monat um plus fünf Komma eins Prozent und in drei Monaten um minus zwei Komma sechs Prozent. Das war die Aktie Synchrony Financial.",
+"audio": {
+"file": "ent/zahlen_SYF.mp3",
+"hash": "665e0204390ff6c9",
+"dur": 45.2,
+"engine": "edge"
+}
 },
 {
 "symbol": "URI",
 "name": "United Rentals, Inc.",
-"price_usd": 1098.88,
+"price_usd": 1115.72,
 "mine": false,
 "metric": "Gewinn +10,9 % vs. Erwartung",
 "reason": "Zahlen vom 21.10.2026: Gewinn je Aktie 15.55 USD, über der Erwartung (14.03).",
-"beat": true
+"d": {
+"upside": 15.8,
+"target_usd": 1292.24,
+"analysts": 21,
+"m1": 6.9,
+"m3": 2.2,
+"earn": {
+"t": 1792612800,
+"act": 15.55,
+"est": 14.02809,
+"sur": 10.9,
+"cur": "USD",
+"fx": 1.0
+}
+},
+"beat": true,
+"say": "Zur Aktie United Rentals. United Rentals kostet im Moment eintausendeinhundertfünfzehn Dollar und zweiundsiebzig Cent. United Rentals hat am einundzwanzigsten Oktober Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag über der Erwartung der Analysten: fünfzehn Dollar und fünfundfünfzig Cent statt erwartet vierzehn Dollar und drei Cent. Das ist eine Abweichung von plus zehn Komma neun Prozent. Der Kurs von United Rentals veränderte sich im letzten Monat um plus sechs Komma neun Prozent und in drei Monaten um plus zwei Komma zwei Prozent. Das war die Aktie United Rentals.",
+"audio": {
+"file": "ent/zahlen_URI.mp3",
+"hash": "c54a3d24ff81dfa0",
+"dur": 46.8,
+"engine": "edge"
+}
 },
 {
 "symbol": "RF",
 "name": "Regions Financial Corporation",
-"price_usd": 28.47,
+"price_usd": 28.73,
 "mine": false,
 "metric": "Gewinn +10,5 % vs. Erwartung",
 "reason": "Zahlen vom 16.10.2026: Gewinn je Aktie 0.73 USD, über der Erwartung (0.66).",
-"beat": true
+"d": {
+"upside": 8.5,
+"target_usd": 31.14,
+"analysts": 21,
+"m1": 5.4,
+"m3": -8.1,
+"earn": {
+"t": 1792153800,
+"act": 0.73,
+"est": 0.66052,
+"sur": 10.5,
+"cur": "USD",
+"fx": 1.0
+}
+},
+"beat": true,
+"say": "Zur Aktie Regions Financial. Regions Financial kostet im Moment achtundzwanzig Dollar und dreiundsiebzig Cent. Regions Financial hat am sechzehnten Oktober Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag über der Erwartung der Analysten: null Dollar und dreiundsiebzig Cent statt erwartet null Dollar und sechsundsechzig Cent. Das ist eine Abweichung von plus zehn Komma fünf Prozent. Der Kurs von Regions Financial veränderte sich im letzten Monat um plus fünf Komma vier Prozent und in drei Monaten um minus acht Komma eins Prozent. Das war die Aktie Regions Financial.",
+"audio": {
+"file": "ent/zahlen_RF.mp3",
+"hash": "e56c392bb372eb62",
+"dur": 45.4,
+"engine": "edge"
+}
 },
 {
 "symbol": "DHR",
 "name": "Danaher Corporation",
-"price_usd": 230.5,
+"price_usd": 233.53,
 "mine": false,
 "metric": "Gewinn +10,0 % vs. Erwartung",
 "reason": "Zahlen vom 21.10.2026: Gewinn je Aktie 2.11 USD, über der Erwartung (1.92).",
-"beat": true
+"d": {
+"upside": 11.1,
+"target_usd": 259.19,
+"analysts": 21,
+"m1": 2.7,
+"m3": 17.3,
+"earn": {
+"t": 1792585800,
+"act": 2.11,
+"est": 1.91786,
+"sur": 10.0,
+"cur": "USD",
+"fx": 1.0
+}
+},
+"beat": true,
+"say": "Zur Aktie Danaher. Danaher kostet im Moment zweihundertdreiunddreissig Dollar und dreiundfünfzig Cent. Danaher hat am einundzwanzigsten Oktober Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag über der Erwartung der Analysten: zwei Dollar und elf Cent statt erwartet ein Dollar und zweiundneunzig Cent. Das ist eine Abweichung von plus zehn Prozent. Der Kurs von Danaher veränderte sich im letzten Monat um plus zwei Komma sieben Prozent und in drei Monaten um plus siebzehn Komma drei Prozent. Das war die Aktie Danaher.",
+"audio": {
+"file": "ent/zahlen_DHR.mp3",
+"hash": "c900238e253009a5",
+"dur": 40.7,
+"engine": "edge"
+}
 },
 {
 "symbol": "NOC",
 "name": "Northrop Grumman Corporation",
-"price_usd": 551.44,
+"price_usd": 560.05,
 "mine": false,
 "metric": "Gewinn +9,9 % vs. Erwartung",
 "reason": "Zahlen vom 20.10.2026: Gewinn je Aktie 7.89 USD, über der Erwartung (7.18).",
-"beat": true
+"d": {
+"upside": 12.9,
+"target_usd": 632.08,
+"analysts": 24,
+"m1": 10.7,
+"m3": 2.0,
+"changes": [
+{
+"t": 1792575243,
+"firm": "Baird",
+"a": "up",
+"to": "Besser als Markt"
+}
+],
+"earn": {
+"t": 1792499400,
+"act": 7.89,
+"est": 7.18018,
+"sur": 9.9,
+"cur": "USD",
+"fx": 1.0
+}
+},
+"beat": true,
+"say": "Zur Aktie Northrop Grumman. Northrop Grumman kostet im Moment fünfhundertsechzig Dollar und fünf Cent. Northrop Grumman hat am zwanzigsten Oktober Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag über der Erwartung der Analysten: sieben Dollar und neunundachtzig Cent statt erwartet sieben Dollar und achtzehn Cent. Das ist eine Abweichung von plus neun Komma neun Prozent. Der Kurs von Northrop Grumman veränderte sich im letzten Monat um plus zehn Komma sieben Prozent und in drei Monaten um plus zwei Prozent. Das war die Aktie Northrop Grumman.",
+"audio": {
+"file": "ent/zahlen_NOC.mp3",
+"hash": "e704166f3c56371d",
+"dur": 43.3,
+"engine": "edge"
+}
 },
 {
 "symbol": "ASML",
 "name": "ASML Holding N.V.",
-"price_usd": 1571.8,
+"price_usd": 1605.08,
 "mine": true,
 "metric": "Gewinn +9,9 % vs. Erwartung",
 "reason": "Zahlen vom 14.10.2026: Gewinn je Aktie 11.82 EUR, über der Erwartung (10.76).",
-"beat": true
+"d": {
+"upside": 33.5,
+"target_usd": 2145.14,
+"analysts": 17,
+"m1": -9.4,
+"m3": 1.4,
+"earn": {
+"t": 1791981000,
+"act": 11.8193,
+"est": 10.75815,
+"sur": 9.9,
+"cur": "EUR",
+"fx": null
+}
+},
+"beat": true,
+"say": "Zur Aktie ASML. ASML kostet im Moment eintausendsechshundertfünf Dollar und acht Cent. ASML hat am vierzehnten Oktober Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag über der Erwartung der Analysten. Das ist eine Abweichung von plus neun Komma neun Prozent. Der Kurs von ASML veränderte sich im letzten Monat um minus neun Komma vier Prozent und in drei Monaten um plus eins Komma vier Prozent. ASML ist schon auf deiner Liste. Das war die Aktie ASML.",
+"audio": {
+"file": "ent/zahlen_ASML.mp3",
+"hash": "0527787d61400830",
+"dur": 40.5,
+"engine": "edge"
+}
 },
 {
 "symbol": "ABBN.SW",
 "name": "ABB Ltd",
-"price_usd": 83.68,
+"price_usd": 84.38,
 "mine": true,
 "metric": "Gewinn -9,2 % vs. Erwartung",
 "reason": "Zahlen vom 20.10.2026: Gewinn je Aktie 0.75 USD, unter der Erwartung (0.83).",
-"beat": false
+"d": {
+"upside": 19.1,
+"target_usd": 100.59,
+"analysts": 27,
+"m1": -12.8,
+"m3": -8.8,
+"earn": {
+"t": 1792510200,
+"act": 0.7494,
+"est": 0.82538,
+"sur": -9.2,
+"cur": "USD",
+"fx": 1.0
+}
+},
+"beat": false,
+"say": "Zur Aktie ABB. ABB kostet im Moment vierundachtzig Dollar und achtunddreissig Cent. ABB hat am zwanzigsten Oktober Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag unter der Erwartung der Analysten: null Dollar und fünfundsiebzig Cent statt erwartet null Dollar und dreiundachtzig Cent. Das ist eine Abweichung von minus neun Komma zwei Prozent. Der Kurs von ABB veränderte sich im letzten Monat um minus zwölf Komma acht Prozent und in drei Monaten um minus acht Komma acht Prozent. ABB ist schon auf deiner Liste. Das war die Aktie ABB.",
+"audio": {
+"file": "ent/zahlen_ABBN.SW.mp3",
+"hash": "5847070270b87275",
+"dur": 44.7,
+"engine": "edge"
+}
 },
 {
 "symbol": "TDY",
 "name": "Teledyne Technologies Incorporated",
-"price_usd": 625.41,
+"price_usd": 651.85,
 "mine": false,
 "metric": "Gewinn +9,0 % vs. Erwartung",
 "reason": "Zahlen vom 21.10.2026: Gewinn je Aktie 6.72 USD, über der Erwartung (6.17).",
-"beat": true
+"d": {
+"upside": 17.8,
+"target_usd": 769.25,
+"analysts": 12,
+"m1": 6.6,
+"m3": 0.2,
+"earn": {
+"t": 1792585800,
+"act": 6.72,
+"est": 6.16553,
+"sur": 9.0,
+"cur": "USD",
+"fx": 1.0
+}
+},
+"beat": true,
+"say": "Zur Aktie Teledyne Technologies. Teledyne Technologies kostet im Moment sechshunderteinundfünfzig Dollar und fünfundachtzig Cent. Teledyne Technologies hat am einundzwanzigsten Oktober Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag über der Erwartung der Analysten: sechs Dollar und zweiundsiebzig Cent statt erwartet sechs Dollar und siebzehn Cent. Das ist eine Abweichung von plus neun Prozent. Der Kurs von Teledyne Technologies veränderte sich im letzten Monat um plus sechs Komma sechs Prozent und in drei Monaten um plus null Komma zwei Prozent. Das war die Aktie Teledyne Technologies.",
+"audio": {
+"file": "ent/zahlen_TDY.mp3",
+"hash": "d65d0f720a0b4dec",
+"dur": 46.3,
+"engine": "edge"
+}
 }
 ],
 "gegenteil": [
 {
 "symbol": "META",
 "name": "Meta Platforms, Inc.",
-"price_usd": 642.62,
+"price_usd": 642.43,
 "mine": true,
-"metric": "-13,6 % in 1 Mt.",
-"reason": "Kurs im letzten Monat -13,6 %. Zahlen vom 21.10.2026 unter Erwartung (3.83 statt 5.46)."
+"metric": "-10,2 % in 1 Mt.",
+"reason": "Kurs im letzten Monat -10,2 %. Zahlen vom 21.10.2026 unter Erwartung (3.83 statt 5.46).",
+"d": {
+"upside": 31.1,
+"target_usd": 844.77,
+"analysts": 58,
+"m1": -10.2,
+"m3": 8.3,
+"earn": {
+"t": 1792612800,
+"act": 3.83,
+"est": 5.46478,
+"sur": -29.9,
+"cur": "USD",
+"fx": 1.0
+}
 },
-{
-"symbol": "LVS",
-"name": "Las Vegas Sands Corp.",
-"price_usd": 35.68,
-"mine": false,
-"metric": "-9,0 % in 1 Mt.",
-"reason": "Kurs im letzten Monat -9,0 %. Zahlen vom 21.10.2026 unter Erwartung (0.54 statt 0.68)."
+"say": "Zur Aktie Meta Platforms. Meta Platforms kostet im Moment sechshundertzweiundvierzig Dollar und dreiundvierzig Cent. Der Kurs von Meta Platforms veränderte sich im letzten Monat um minus zehn Komma zwei Prozent und in drei Monaten um plus acht Komma drei Prozent. Meta Platforms hat am einundzwanzigsten Oktober Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag unter der Erwartung der Analysten: drei Dollar und dreiundachtzig Cent statt erwartet fünf Dollar und sechsundvierzig Cent. Das ist eine Abweichung von minus neunundzwanzig Komma neun Prozent. Meta Platforms ist schon auf deiner Liste. Das war die Aktie Meta Platforms.",
+"audio": {
+"file": "ent/gegenteil_META.mp3",
+"hash": "b72438b78ca4dc95",
+"dur": 50.5,
+"engine": "edge"
+}
 },
 {
 "symbol": "TFC",
 "name": "Truist Financial Corporation",
-"price_usd": 48.44,
+"price_usd": 48.98,
 "mine": false,
-"metric": "+3,1 % in 1 Mt.",
-"reason": "Zahlen vom 16.10.2026 unter Erwartung (0.56 statt 1.21)."
+"metric": "+4,0 % in 1 Mt.",
+"reason": "Zahlen vom 16.10.2026 unter Erwartung (0.56 statt 1.21).",
+"d": {
+"upside": 8.8,
+"target_usd": 53.19,
+"analysts": 19,
+"m1": 4.0,
+"m3": -7.6,
+"earn": {
+"t": 1792153800,
+"act": 0.56,
+"est": 1.21286,
+"sur": -53.8,
+"cur": "USD",
+"fx": 1.0
+}
 },
-{
-"symbol": "ARM",
-"name": "Arm Holdings plc",
-"price_usd": 210.33,
-"mine": true,
-"metric": "-36,8 % in 1 Mt.",
-"reason": "Kurs im letzten Monat -36,8 %."
-},
-{
-"symbol": "SFTBY",
-"name": "SoftBank Group Corp.",
-"price_usd": 13.42,
-"mine": true,
-"metric": "-36,6 % in 1 Mt.",
-"reason": "Kurs im letzten Monat -36,6 %."
-},
-{
-"symbol": "GL",
-"name": "Globe Life Inc.",
-"price_usd": 154.79,
-"mine": false,
-"metric": "-8,3 % in 1 Mt.",
-"reason": "Kurs im letzten Monat -8,3 %. Zahlen vom 21.10.2026 unter Erwartung (4.84 statt 4.89). Piper Sandler stuft ab auf Neutral (23.10.2026). Piper Sandler stuft ab auf Neutral (23.10.2026)."
-},
-{
-"symbol": "MOS",
-"name": "The Mosaic Company",
-"price_usd": 17.84,
-"mine": false,
-"metric": "-26,8 % in 1 Mt.",
-"reason": "Kurs im letzten Monat -26,8 %. RBC Capital stuft ab auf Wie der Sektor (05.10.2026)."
+"say": "Zur Aktie Truist Financial. Truist Financial kostet im Moment achtundvierzig Dollar und achtundneunzig Cent. Der Kurs von Truist Financial veränderte sich im letzten Monat um plus vier Prozent und in drei Monaten um minus sieben Komma sechs Prozent. Truist Financial hat am sechzehnten Oktober Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag unter der Erwartung der Analysten: null Dollar und sechsundfünfzig Cent statt erwartet ein Dollar und einundzwanzig Cent. Das ist eine Abweichung von minus dreiundfünfzig Komma acht Prozent. Das war die Aktie Truist Financial.",
+"audio": {
+"file": "ent/gegenteil_TFC.mp3",
+"hash": "5a77c6087d72a289",
+"dur": 44.2,
+"engine": "edge"
+}
 },
 {
 "symbol": "ABBN.SW",
 "name": "ABB Ltd",
-"price_usd": 83.68,
+"price_usd": 84.38,
 "mine": true,
-"metric": "-13,6 % in 1 Mt.",
-"reason": "Kurs im letzten Monat -13,6 %. Zahlen vom 20.10.2026 unter Erwartung (0.75 statt 0.83)."
+"metric": "-12,8 % in 1 Mt.",
+"reason": "Kurs im letzten Monat -12,8 %. Zahlen vom 20.10.2026 unter Erwartung (0.75 statt 0.83).",
+"d": {
+"upside": 19.1,
+"target_usd": 100.59,
+"analysts": 27,
+"m1": -12.8,
+"m3": -8.8,
+"earn": {
+"t": 1792510200,
+"act": 0.7494,
+"est": 0.82538,
+"sur": -9.2,
+"cur": "USD",
+"fx": 1.0
+}
+},
+"say": "Zur Aktie ABB. ABB kostet im Moment vierundachtzig Dollar und achtunddreissig Cent. Der Kurs von ABB veränderte sich im letzten Monat um minus zwölf Komma acht Prozent und in drei Monaten um minus acht Komma acht Prozent. ABB hat am zwanzigsten Oktober Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag unter der Erwartung der Analysten: null Dollar und fünfundsiebzig Cent statt erwartet null Dollar und dreiundachtzig Cent. Das ist eine Abweichung von minus neun Komma zwei Prozent. ABB ist schon auf deiner Liste. Das war die Aktie ABB.",
+"audio": {
+"file": "ent/gegenteil_ABBN.SW.mp3",
+"hash": "68d090623b028bb4",
+"dur": 44.7,
+"engine": "edge"
+}
 },
 {
-"symbol": "OKLO",
-"name": "Oklo Inc.",
-"price_usd": 26.35,
-"mine": true,
-"metric": "-32,1 % in 1 Mt.",
-"reason": "Kurs im letzten Monat -32,1 %."
+"symbol": "LVS",
+"name": "Las Vegas Sands Corp.",
+"price_usd": 36.55,
+"mine": false,
+"metric": "-5,8 % in 1 Mt.",
+"reason": "Zahlen vom 21.10.2026 unter Erwartung (0.54 statt 0.68).",
+"d": {
+"upside": 37.0,
+"target_usd": 50.09,
+"analysts": 19,
+"m1": -5.8,
+"m3": -24.3,
+"earn": {
+"t": 1792612800,
+"act": 0.54,
+"est": 0.6834,
+"sur": -21.0,
+"cur": "USD",
+"fx": 1.0
+}
+},
+"say": "Zur Aktie Las Vegas Sands. Las Vegas Sands kostet im Moment sechsunddreissig Dollar und fünfundfünfzig Cent. Der Kurs von Las Vegas Sands veränderte sich im letzten Monat um minus fünf Komma acht Prozent und in drei Monaten um minus vierundzwanzig Komma drei Prozent. Las Vegas Sands hat am einundzwanzigsten Oktober Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag unter der Erwartung der Analysten: null Dollar und vierundfünfzig Cent statt erwartet null Dollar und achtundsechzig Cent. Das ist eine Abweichung von minus einundzwanzig Prozent. Das war die Aktie Las Vegas Sands.",
+"audio": {
+"file": "ent/gegenteil_LVS.mp3",
+"hash": "1228cc79463e9e23",
+"dur": 45.8,
+"engine": "edge"
+}
 },
 {
 "symbol": "FLEX",
 "name": "Flex Ltd.",
-"price_usd": 76.55,
+"price_usd": 78.28,
 "mine": false,
-"metric": "-31,8 % in 1 Mt.",
-"reason": "Kurs im letzten Monat -31,8 %."
+"metric": "-30,7 % in 1 Mt.",
+"reason": "Kurs im letzten Monat -30,7 %.",
+"d": {
+"upside": 102.7,
+"target_usd": 158.9,
+"analysts": 10,
+"m1": -30.7,
+"m3": -30.9
 },
-{
-"symbol": "SNDK",
-"name": "Sandisk Corporation",
-"price_usd": 1238.03,
-"mine": false,
-"metric": "-31,8 % in 1 Mt.",
-"reason": "Kurs im letzten Monat -31,8 %."
+"say": "Zur Aktie Flex. Flex kostet im Moment achtundsiebzig Dollar und achtundzwanzig Cent. Der Kurs von Flex veränderte sich im letzten Monat um minus dreissig Komma sieben Prozent und in drei Monaten um minus dreissig Komma neun Prozent. Das war die Aktie Flex.",
+"audio": {
+"file": "ent/gegenteil_FLEX.mp3",
+"hash": "ff3b344442166d2d",
+"dur": 21.2,
+"engine": "edge"
+}
 },
 {
 "symbol": "STX",
 "name": "Seagate Technology Holdings plc",
-"price_usd": 630.49,
+"price_usd": 651.38,
 "mine": true,
-"metric": "-31,8 % in 1 Mt.",
-"reason": "Kurs im letzten Monat -31,8 %."
+"metric": "-29,4 % in 1 Mt.",
+"reason": "Kurs im letzten Monat -29,4 %.",
+"d": {
+"upside": 71.1,
+"target_usd": 1116.58,
+"analysts": 24,
+"m1": -29.4,
+"m3": -12.9
+},
+"say": "Zur Aktie Seagate Technology. Seagate Technology kostet im Moment sechshunderteinundfünfzig Dollar und achtunddreissig Cent. Der Kurs von Seagate Technology veränderte sich im letzten Monat um minus neunundzwanzig Komma vier Prozent und in drei Monaten um minus zwölf Komma neun Prozent. Seagate Technology ist schon auf deiner Liste. Das war die Aktie Seagate Technology.",
+"audio": {
+"file": "ent/gegenteil_STX.mp3",
+"hash": "85fb606cd8b62928",
+"dur": 29.4,
+"engine": "edge"
+}
 },
 {
-"symbol": "COHR",
-"name": "Coherent Corp.",
-"price_usd": 209.29,
+"symbol": "OKLO",
+"name": "Oklo Inc.",
+"price_usd": 26.69,
+"mine": true,
+"metric": "-28,1 % in 1 Mt.",
+"reason": "Kurs im letzten Monat -28,1 %.",
+"d": {
+"upside": 157.4,
+"target_usd": 68.95,
+"analysts": 19,
+"m1": -28.1,
+"m3": -32.6
+},
+"say": "Zur Aktie Oklo. Oklo kostet im Moment sechsundzwanzig Dollar und neunundsechzig Cent. Der Kurs von Oklo veränderte sich im letzten Monat um minus achtundzwanzig Komma eins Prozent und in drei Monaten um minus zweiunddreissig Komma sechs Prozent. Oklo ist schon auf deiner Liste. Das war die Aktie Oklo.",
+"audio": {
+"file": "ent/gegenteil_OKLO.mp3",
+"hash": "90ce12d765aaaa59",
+"dur": 24.7,
+"engine": "edge"
+}
+},
+{
+"symbol": "GL",
+"name": "Globe Life Inc.",
+"price_usd": 158.06,
 "mine": false,
-"metric": "-30,4 % in 1 Mt.",
-"reason": "Kurs im letzten Monat -30,4 %."
+"metric": "-5,2 % in 1 Mt.",
+"reason": "Zahlen vom 21.10.2026 unter Erwartung (4.84 statt 4.89). Piper Sandler stuft ab auf Neutral (23.10.2026). Piper Sandler stuft ab auf Neutral (23.10.2026).",
+"d": {
+"upside": 19.0,
+"target_usd": 187.82,
+"analysts": 11,
+"m1": -5.2,
+"m3": -11.8,
+"changes": [
+{
+"t": 1792774836,
+"firm": "Piper Sandler",
+"a": "down",
+"to": "Neutral"
 },
 {
-"symbol": "BE",
-"name": "Bloom Energy Corporation",
-"price_usd": 193.3,
-"mine": true,
-"metric": "-29,8 % in 1 Mt.",
-"reason": "Kurs im letzten Monat -29,8 %."
+"t": 1792747872,
+"firm": "Piper Sandler",
+"a": "down",
+"to": "Neutral"
+}
+],
+"earn": {
+"t": 1792612800,
+"act": 4.84,
+"est": 4.89367,
+"sur": -1.1,
+"cur": "USD",
+"fx": 1.0
+}
+},
+"say": "Zur Aktie Globe Life. Globe Life kostet im Moment einhundertachtundfünfzig Dollar und sechs Cent. Der Kurs von Globe Life veränderte sich im letzten Monat um minus fünf Komma zwei Prozent und in drei Monaten um minus elf Komma acht Prozent. Globe Life hat am einundzwanzigsten Oktober Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag unter der Erwartung der Analysten: vier Dollar und vierundachtzig Cent statt erwartet vier Dollar und neunundachtzig Cent. Das ist eine Abweichung von minus eins Komma eins Prozent. Piper Sandler hat Globe Life am dreiundzwanzigsten Oktober abgestuft auf Neutral. Piper Sandler hat Globe Life am dreiundzwanzigsten Oktober abgestuft auf Neutral. Das war die Aktie Globe Life.",
+"audio": {
+"file": "ent/gegenteil_GL.mp3",
+"hash": "f52a9f23b3c5ac9c",
+"dur": 56.1,
+"engine": "edge"
+}
 },
 {
-"symbol": "INTC",
-"name": "Intel Corporation",
-"price_usd": 86.96,
+"symbol": "SFTBY",
+"name": "SoftBank Group Corp.",
+"price_usd": 14.06,
 "mine": true,
-"metric": "-29,1 % in 1 Mt.",
-"reason": "Kurs im letzten Monat -29,1 %."
+"metric": "-26,8 % in 1 Mt.",
+"reason": "Kurs im letzten Monat -26,8 %.",
+"d": {
+"upside": 6.1,
+"target_usd": 14.94,
+"analysts": 2,
+"m1": -26.8,
+"m3": -9.6
+},
+"say": "Zur Aktie SoftBank Group. SoftBank Group kostet im Moment vierzehn Dollar und sechs Cent. Der Kurs von SoftBank Group veränderte sich im letzten Monat um minus sechsundzwanzig Komma acht Prozent und in drei Monaten um minus neun Komma sechs Prozent. SoftBank Group ist schon auf deiner Liste. Das war die Aktie SoftBank Group.",
+"audio": {
+"file": "ent/gegenteil_SFTBY.mp3",
+"hash": "dc40f293b90907fd",
+"dur": 26.8,
+"engine": "edge"
+}
 },
 {
-"symbol": "HYLN",
-"name": "Hyliion Holdings Corp.",
-"price_usd": 2.95,
+"symbol": "SKYD",
+"name": "Skydance Corporation",
+"price_usd": 7.55,
+"mine": false,
+"metric": "-26,6 % in 1 Mt.",
+"reason": "Kurs im letzten Monat -26,6 %.",
+"d": {
+"upside": 19.2,
+"target_usd": 9.01,
+"analysts": 17,
+"m1": -26.6,
+"m3": -6.4,
+"changes": [
+{
+"t": 1792761000,
+"firm": "JP Morgan",
+"a": "up",
+"to": "Neutral"
+}
+]
+},
+"say": "Zur Aktie Skydance. Skydance kostet im Moment sieben Dollar und fünfundfünfzig Cent. Der Kurs von Skydance veränderte sich im letzten Monat um minus sechsundzwanzig Komma sechs Prozent und in drei Monaten um minus sechs Komma vier Prozent. Das war die Aktie Skydance.",
+"audio": {
+"file": "ent/gegenteil_SKYD.mp3",
+"hash": "256279e7f0c341c0",
+"dur": 22.2,
+"engine": "edge"
+}
+},
+{
+"symbol": "SNDK",
+"name": "Sandisk Corporation",
+"price_usd": 1262.1,
+"mine": false,
+"metric": "-26,3 % in 1 Mt.",
+"reason": "Kurs im letzten Monat -26,3 %.",
+"d": {
+"upside": 69.5,
+"target_usd": 2143.83,
+"analysts": 24,
+"m1": -26.3,
+"m3": 15.2
+},
+"say": "Zur Aktie Sandisk. Sandisk kostet im Moment eintausendzweihundertzweiundsechzig Dollar und zehn Cent. Der Kurs von Sandisk veränderte sich im letzten Monat um minus sechsundzwanzig Komma drei Prozent und in drei Monaten um plus fünfzehn Komma zwei Prozent. Das war die Aktie Sandisk.",
+"audio": {
+"file": "ent/gegenteil_SNDK.mp3",
+"hash": "7f8559097989e699",
+"dur": 22.9,
+"engine": "edge"
+}
+},
+{
+"symbol": "005930.KS",
+"name": "Samsung Electronics Co., Ltd.",
+"price_usd": 160.82,
 "mine": true,
-"metric": "-28,7 % in 1 Mt.",
-"reason": "Kurs im letzten Monat -28,7 %."
+"metric": "-24,5 % in 1 Mt.",
+"reason": "Kurs im letzten Monat -24,5 %.",
+"d": {
+"upside": 124.8,
+"target_usd": 361.59,
+"analysts": 36,
+"m1": -24.5,
+"m3": -15.2
+},
+"say": "Zur Aktie Samsung Electronics. Samsung Electronics kostet im Moment einhundertsechzig Dollar und zweiundachtzig Cent. Der Kurs von Samsung Electronics veränderte sich im letzten Monat um minus vierundzwanzig Komma fünf Prozent und in drei Monaten um minus fünfzehn Komma zwei Prozent. Samsung Electronics ist schon auf deiner Liste. Das war die Aktie Samsung Electronics.",
+"audio": {
+"file": "ent/gegenteil_005930.KS.mp3",
+"hash": "4887bddb58b6bb39",
+"dur": 29.8,
+"engine": "edge"
+}
 },
 {
 "symbol": "FIX",
 "name": "Comfort Systems USA, Inc.",
-"price_usd": 1160.86,
+"price_usd": 1253.27,
 "mine": false,
-"metric": "-28,6 % in 1 Mt.",
-"reason": "Kurs im letzten Monat -28,6 %."
+"metric": "-24,4 % in 1 Mt.",
+"reason": "Kurs im letzten Monat -24,4 %.",
+"d": {
+"upside": 67.0,
+"target_usd": 2095.12,
+"analysts": 8,
+"m1": -24.4,
+"m3": -22.9,
+"earn": {
+"t": 1792699200,
+"act": 13.91,
+"est": 12.85102,
+"sur": 8.2,
+"cur": "USD",
+"fx": 1.0
+}
 },
-{
-"symbol": "WDC",
-"name": "Western Digital Corporation",
-"price_usd": 343.67,
-"mine": false,
-"metric": "-27,4 % in 1 Mt.",
-"reason": "Kurs im letzten Monat -27,4 %."
-},
-{
-"symbol": "MGM",
-"name": "MGM Resorts International",
-"price_usd": 28.06,
-"mine": false,
-"metric": "-25,9 % in 1 Mt.",
-"reason": "Kurs im letzten Monat -25,9 %."
-},
-{
-"symbol": "LRCX",
-"name": "Lam Research Corporation",
-"price_usd": 230.1,
-"mine": false,
-"metric": "-25,1 % in 1 Mt.",
-"reason": "Kurs im letzten Monat -25,1 %."
-},
-{
-"symbol": "DELL",
-"name": "Dell Technologies Inc.",
-"price_usd": 456.44,
-"mine": false,
-"metric": "-17,0 % in 1 Mt.",
-"reason": "Kurs im letzten Monat -17,0 %. Barclays stuft ab auf Marktgewichten (14.10.2026)."
+"say": "Zur Aktie Comfort Systems USA. Comfort Systems USA kostet im Moment eintausendzweihundertdreiundfünfzig Dollar und siebenundzwanzig Cent. Der Kurs von Comfort Systems USA veränderte sich im letzten Monat um minus vierundzwanzig Komma vier Prozent und in drei Monaten um minus zweiundzwanzig Komma neun Prozent. Das war die Aktie Comfort Systems USA.",
+"audio": {
+"file": "ent/gegenteil_FIX.mp3",
+"hash": "36f0872c1c058099",
+"dur": 29.0,
+"engine": "edge"
+}
 },
 {
 "symbol": "PTC",
 "name": "PTC Inc.",
-"price_usd": 193.8,
+"price_usd": 193.88,
 "mine": false,
-"metric": "+38,0 % in 1 Mt.",
-"reason": "Oppenheimer stuft ab auf Perform (06.10.2026). BMO Capital stuft ab auf Wie der Markt (06.10.2026)."
+"metric": "+38,8 % in 1 Mt.",
+"reason": "Oppenheimer stuft ab auf Perform (06.10.2026). BMO Capital stuft ab auf Wie der Markt (06.10.2026).",
+"d": {
+"upside": 3.7,
+"target_usd": 201.0,
+"analysts": 15,
+"m1": 38.8,
+"m3": 52.1,
+"changes": [
+{
+"t": 1791308457,
+"firm": "Oppenheimer",
+"a": "down",
+"to": "Perform"
 },
 {
-"symbol": "CMG",
-"name": "Chipotle Mexican Grill, Inc.",
-"price_usd": 27.52,
+"t": 1791284282,
+"firm": "BMO Capital",
+"a": "down",
+"to": "Wie der Markt"
+},
+{
+"t": 1791227482,
+"firm": "Rosenblatt",
+"a": "down",
+"to": "Neutral"
+}
+]
+},
+"say": "Zur Aktie PTC. PTC kostet im Moment einhundertdreiundneunzig Dollar und achtundachtzig Cent. Der Kurs von PTC veränderte sich im letzten Monat um plus achtunddreissig Komma acht Prozent und in drei Monaten um plus zweiundfünfzig Komma eins Prozent. Oppenheimer hat PTC am sechsten Oktober abgestuft auf Perform. BMO Capital hat PTC am sechsten Oktober abgestuft auf Wie der Markt. Das war die Aktie PTC.",
+"audio": {
+"file": "ent/gegenteil_PTC.mp3",
+"hash": "fdb753c07399417c",
+"dur": 34.6,
+"engine": "edge"
+}
+},
+{
+"symbol": "HYLN",
+"name": "Hyliion Holdings Corp.",
+"price_usd": 3.01,
+"mine": true,
+"metric": "-24,0 % in 1 Mt.",
+"reason": "Kurs im letzten Monat -24,0 %.",
+"d": {
+"upside": 157.0,
+"target_usd": 7.75,
+"analysts": 4,
+"m1": -24.0,
+"m3": -15.0
+},
+"say": "Zur Aktie Hyliion. Hyliion kostet im Moment drei Dollar und eins Cent. Der Kurs von Hyliion veränderte sich im letzten Monat um minus vierundzwanzig Prozent und in drei Monaten um minus fünfzehn Prozent. Hyliion ist schon auf deiner Liste. Das war die Aktie Hyliion.",
+"audio": {
+"file": "ent/gegenteil_HYLN.mp3",
+"hash": "d68b6d24e6297f46",
+"dur": 22.4,
+"engine": "edge"
+}
+},
+{
+"symbol": "LRCX",
+"name": "Lam Research Corporation",
+"price_usd": 239.22,
 "mine": false,
-"metric": "-15,9 % in 1 Mt.",
-"reason": "Kurs im letzten Monat -15,9 %. TD Cowen stuft ab auf Halten (21.10.2026)."
+"metric": "-23,9 % in 1 Mt.",
+"reason": "Kurs im letzten Monat -23,9 %.",
+"d": {
+"upside": 52.0,
+"target_usd": 364.03,
+"analysts": 30,
+"m1": -23.9,
+"m3": -11.3,
+"earn": {
+"t": 1792612800,
+"act": 2.2,
+"est": 2.17953,
+"sur": 0.9,
+"cur": "USD",
+"fx": 1.0
+}
+},
+"say": "Zur Aktie Lam Research. Lam Research kostet im Moment zweihundertneununddreissig Dollar und zweiundzwanzig Cent. Der Kurs von Lam Research veränderte sich im letzten Monat um minus dreiundzwanzig Komma neun Prozent und in drei Monaten um minus elf Komma drei Prozent. Das war die Aktie Lam Research.",
+"audio": {
+"file": "ent/gegenteil_LRCX.mp3",
+"hash": "94bfd1db8c5ff95d",
+"dur": 23.7,
+"engine": "edge"
+}
 },
 {
 "symbol": "NVR",
 "name": "NVR, Inc.",
-"price_usd": 5983.68,
+"price_usd": 5897.0,
 "mine": false,
-"metric": "-4,1 % in 1 Mt.",
-"reason": "Zahlen vom 22.10.2026 unter Erwartung (89.45 statt 102.77)."
+"metric": "-5,9 % in 1 Mt.",
+"reason": "Zahlen vom 22.10.2026 unter Erwartung (89.45 statt 102.77).",
+"d": {
+"upside": 6.1,
+"target_usd": 6262.0,
+"analysts": 6,
+"m1": -5.9,
+"m3": -8.8,
+"earn": {
+"t": 1792672200,
+"act": 89.45,
+"est": 102.77263,
+"sur": -13.0,
+"cur": "USD",
+"fx": 1.0
+}
 },
-{
-"symbol": "UAL",
-"name": "United Airlines Holdings, Inc.",
-"price_usd": 97.93,
-"mine": false,
-"metric": "-11,6 % in 1 Mt.",
-"reason": "Kurs im letzten Monat -11,6 %. Zahlen vom 20.10.2026 unter Erwartung (2.54 statt 2.57)."
+"say": "Zur Aktie NVR. NVR kostet im Moment fünftausendachthundertsiebenundneunzig Dollar. Der Kurs von NVR veränderte sich im letzten Monat um minus fünf Komma neun Prozent und in drei Monaten um minus acht Komma acht Prozent. NVR hat am zweiundzwanzigsten Oktober Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag unter der Erwartung der Analysten: neunundachtzig Dollar und fünfundvierzig Cent statt erwartet einhundertzwei Dollar und siebenundsiebzig Cent. Das ist eine Abweichung von minus dreizehn Prozent. Das war die Aktie NVR.",
+"audio": {
+"file": "ent/gegenteil_NVR.mp3",
+"hash": "da3b752629344e7e",
+"dur": 43.9,
+"engine": "edge"
+}
 },
 {
 "symbol": "HY9H.MU",
@@ -991,40 +3004,1443 @@
 "price_usd": 973.79,
 "mine": true,
 "metric": "-22,7 % in 1 Mt.",
-"reason": "Kurs im letzten Monat -22,7 %."
+"reason": "Kurs im letzten Monat -22,7 %.",
+"d": {
+"m1": -22.7,
+"m3": 3.8
+},
+"say": "Zur Aktie SK Hynix. SK Hynix kostet im Moment neunhundertdreiundsiebzig Dollar und neunundsiebzig Cent. Der Kurs von SK Hynix veränderte sich im letzten Monat um minus zweiundzwanzig Komma sieben Prozent und in drei Monaten um plus drei Komma acht Prozent. SK Hynix ist schon auf deiner Liste. Das war die Aktie SK Hynix.",
+"audio": {
+"file": "ent/gegenteil_HY9H.MU.mp3",
+"hash": "286bccb22bbf0af8",
+"dur": 27.2,
+"engine": "edge"
+}
+},
+{
+"symbol": "WDC",
+"name": "Western Digital Corporation",
+"price_usd": 353.44,
+"mine": false,
+"metric": "-22,1 % in 1 Mt.",
+"reason": "Kurs im letzten Monat -22,1 %.",
+"d": {
+"upside": 72.5,
+"target_usd": 610.04,
+"analysts": 24,
+"m1": -22.1,
+"m3": -23.8,
+"earn": {
+"t": 1792699200,
+"act": 4.64,
+"est": 4.0978,
+"sur": 13.2,
+"cur": "USD",
+"fx": 1.0
+}
+},
+"say": "Zur Aktie Western Digital. Western Digital kostet im Moment dreihundertdreiundfünfzig Dollar und vierundvierzig Cent. Der Kurs von Western Digital veränderte sich im letzten Monat um minus zweiundzwanzig Komma eins Prozent und in drei Monaten um minus dreiundzwanzig Komma acht Prozent. Das war die Aktie Western Digital.",
+"audio": {
+"file": "ent/gegenteil_WDC.mp3",
+"hash": "6a98b26a12ce6269",
+"dur": 25.1,
+"engine": "edge"
+}
+},
+{
+"symbol": "COHR",
+"name": "Coherent Corp.",
+"price_usd": 220.4,
+"mine": false,
+"metric": "-22,0 % in 1 Mt.",
+"reason": "Kurs im letzten Monat -22,0 %.",
+"d": {
+"upside": 78.8,
+"target_usd": 394.79,
+"analysts": 24,
+"m1": -22.0,
+"m3": -9.4
+},
+"say": "Zur Aktie Coherent. Coherent kostet im Moment zweihundertzwanzig Dollar und vierzig Cent. Der Kurs von Coherent veränderte sich im letzten Monat um minus zweiundzwanzig Prozent und in drei Monaten um minus neun Komma vier Prozent. Das war die Aktie Coherent.",
+"audio": {
+"file": "ent/gegenteil_COHR.mp3",
+"hash": "ae8b65f3fbea945a",
+"dur": 21.3,
+"engine": "edge"
+}
+},
+{
+"symbol": "INTC",
+"name": "Intel Corporation",
+"price_usd": 90.33,
+"mine": true,
+"metric": "-22,0 % in 1 Mt.",
+"reason": "Kurs im letzten Monat -22,0 %.",
+"d": {
+"upside": 29.4,
+"target_usd": 117.14,
+"analysts": 43,
+"m1": -22.0,
+"m3": 4.9,
+"changes": [
+{
+"t": 1792401919,
+"firm": "JP Morgan",
+"a": "up",
+"to": "Neutral"
+}
+]
+},
+"say": "Zur Aktie Intel. Intel kostet im Moment neunzig Dollar und dreiunddreissig Cent. Der Kurs von Intel veränderte sich im letzten Monat um minus zweiundzwanzig Prozent und in drei Monaten um plus vier Komma neun Prozent. Intel ist schon auf deiner Liste. Das war die Aktie Intel.",
+"audio": {
+"file": "ent/gegenteil_INTC.mp3",
+"hash": "5892d3dce1605067",
+"dur": 23.0,
+"engine": "edge"
+}
+},
+{
+"symbol": "ARM",
+"name": "Arm Holdings plc",
+"price_usd": 222.21,
+"mine": true,
+"metric": "-21,4 % in 1 Mt.",
+"reason": "Kurs im letzten Monat -21,4 %.",
+"d": {
+"upside": 30.2,
+"target_usd": 290.7,
+"analysts": 40,
+"m1": -21.4,
+"m3": -9.0
+},
+"say": "Zur Aktie Arm. Arm kostet im Moment zweihundertzweiundzwanzig Dollar und einundzwanzig Cent. Der Kurs von Arm veränderte sich im letzten Monat um minus einundzwanzig Komma vier Prozent und in drei Monaten um minus neun Prozent. Arm ist schon auf deiner Liste. Das war die Aktie Arm.",
+"audio": {
+"file": "ent/gegenteil_ARM.mp3",
+"hash": "14b7e9c4936ee485",
+"dur": 23.4,
+"engine": "edge"
+}
+},
+{
+"symbol": "DELL",
+"name": "Dell Technologies Inc.",
+"price_usd": 471.28,
+"mine": false,
+"metric": "-13,3 % in 1 Mt.",
+"reason": "Kurs im letzten Monat -13,3 %. Barclays stuft ab auf Marktgewichten (14.10.2026).",
+"d": {
+"upside": 25.6,
+"target_usd": 593.0,
+"analysts": 25,
+"m1": -13.3,
+"m3": 20.2,
+"changes": [
+{
+"t": 1791983533,
+"firm": "Barclays",
+"a": "down",
+"to": "Marktgewichten"
+}
+]
+},
+"say": "Zur Aktie Dell Technologies. Dell Technologies kostet im Moment vierhunderteinundsiebzig Dollar und achtundzwanzig Cent. Der Kurs von Dell Technologies veränderte sich im letzten Monat um minus dreizehn Komma drei Prozent und in drei Monaten um plus zwanzig Komma zwei Prozent. Barclays hat Dell Technologies am vierzehnten Oktober abgestuft auf Marktgewichten. Das war die Aktie Dell Technologies.",
+"audio": {
+"file": "ent/gegenteil_DELL.mp3",
+"hash": "3adefec78ca7e1a2",
+"dur": 30.8,
+"engine": "edge"
+}
+},
+{
+"symbol": "TER",
+"name": "Teradyne, Inc.",
+"price_usd": 316.91,
+"mine": false,
+"metric": "-20,9 % in 1 Mt.",
+"reason": "Kurs im letzten Monat -20,9 %.",
+"d": {
+"upside": 39.9,
+"target_usd": 445.47,
+"analysts": 15,
+"m1": -20.9,
+"m3": -1.1
+},
+"say": "Zur Aktie Teradyne. Teradyne kostet im Moment dreihundertsechzehn Dollar und einundneunzig Cent. Der Kurs von Teradyne veränderte sich im letzten Monat um minus zwanzig Komma neun Prozent und in drei Monaten um minus eins Komma eins Prozent. Das war die Aktie Teradyne.",
+"audio": {
+"file": "ent/gegenteil_TER.mp3",
+"hash": "0674844d6bf6d0a3",
+"dur": 21.7,
+"engine": "edge"
+}
 },
 {
 "symbol": "KLAC",
 "name": "KLA Corporation",
-"price_usd": 145.61,
+"price_usd": 150.54,
 "mine": false,
-"metric": "-22,5 % in 1 Mt.",
-"reason": "Kurs im letzten Monat -22,5 %."
+"metric": "-20,4 % in 1 Mt.",
+"reason": "Kurs im letzten Monat -20,4 %.",
+"d": {
+"upside": 54.2,
+"target_usd": 232.38,
+"analysts": 26,
+"m1": -20.4,
+"m3": -21.1
+},
+"say": "Zur Aktie KLA. KLA kostet im Moment einhundertfünfzig Dollar und vierundfünfzig Cent. Der Kurs von KLA veränderte sich im letzten Monat um minus zwanzig Komma vier Prozent und in drei Monaten um minus einundzwanzig Komma eins Prozent. Das war die Aktie KLA.",
+"audio": {
+"file": "ent/gegenteil_KLAC.mp3",
+"hash": "696c9a5497e84a4b",
+"dur": 22.1,
+"engine": "edge"
+}
+},
+{
+"symbol": "BE",
+"name": "Bloom Energy Corporation",
+"price_usd": 209.51,
+"mine": true,
+"metric": "-20,3 % in 1 Mt.",
+"reason": "Kurs im letzten Monat -20,3 %.",
+"d": {
+"upside": 35.5,
+"target_usd": 284.77,
+"analysts": 26,
+"m1": -20.3,
+"m3": 25.6,
+"earn": {
+"t": 1792699200,
+"act": 0.94,
+"est": 0.67552,
+"sur": 39.2,
+"cur": "USD",
+"fx": 1.0
+}
+},
+"say": "Zur Aktie Bloom Energy. Bloom Energy kostet im Moment zweihundertneun Dollar und einundfünfzig Cent. Der Kurs von Bloom Energy veränderte sich im letzten Monat um minus zwanzig Komma drei Prozent und in drei Monaten um plus fünfundzwanzig Komma sechs Prozent. Bloom Energy ist schon auf deiner Liste. Das war die Aktie Bloom Energy.",
+"audio": {
+"file": "ent/gegenteil_BE.mp3",
+"hash": "7370fc09a8729530",
+"dur": 26.1,
+"engine": "edge"
+}
+},
+{
+"symbol": "AMAT",
+"name": "Applied Materials, Inc.",
+"price_usd": 388.33,
+"mine": true,
+"metric": "-20,2 % in 1 Mt.",
+"reason": "Kurs im letzten Monat -20,2 %.",
+"d": {
+"upside": 61.5,
+"target_usd": 627.83,
+"analysts": 36,
+"m1": -20.2,
+"m3": -18.5
+},
+"say": "Zur Aktie Applied Materials. Applied Materials kostet im Moment dreihundertachtundachtzig Dollar und dreiunddreissig Cent. Der Kurs von Applied Materials veränderte sich im letzten Monat um minus zwanzig Komma zwei Prozent und in drei Monaten um minus achtzehn Komma fünf Prozent. Applied Materials ist schon auf deiner Liste. Das war die Aktie Applied Materials.",
+"audio": {
+"file": "ent/gegenteil_AMAT.mp3",
+"hash": "c827da714b4acf92",
+"dur": 29.3,
+"engine": "edge"
+}
+},
+{
+"symbol": "SMCI",
+"name": "Super Micro Computer, Inc.",
+"price_usd": 33.39,
+"mine": false,
+"metric": "-20,1 % in 1 Mt.",
+"reason": "Kurs im letzten Monat -20,1 %.",
+"d": {
+"upside": 29.8,
+"target_usd": 43.27,
+"analysts": 15,
+"m1": -20.1,
+"m3": 17.4
+},
+"say": "Zur Aktie Super Micro Computer. Super Micro Computer kostet im Moment dreiunddreissig Dollar und neununddreissig Cent. Der Kurs von Super Micro Computer veränderte sich im letzten Monat um minus zwanzig Komma eins Prozent und in drei Monaten um plus siebzehn Komma vier Prozent. Das war die Aktie Super Micro Computer.",
+"audio": {
+"file": "ent/gegenteil_SMCI.mp3",
+"hash": "52e14be2d8417645",
+"dur": 25.7,
+"engine": "edge"
+}
+},
+{
+"symbol": "UAL",
+"name": "United Airlines Holdings, Inc.",
+"price_usd": 101.71,
+"mine": false,
+"metric": "-8,7 % in 1 Mt.",
+"reason": "Kurs im letzten Monat -8,7 %. Zahlen vom 20.10.2026 unter Erwartung (2.54 statt 2.57).",
+"d": {
+"upside": 47.5,
+"target_usd": 150.09,
+"analysts": 23,
+"m1": -8.7,
+"m3": -17.7,
+"earn": {
+"t": 1792526400,
+"act": 2.54,
+"est": 2.5729,
+"sur": -1.3,
+"cur": "USD",
+"fx": 1.0
+}
+},
+"say": "Zur Aktie United Airlines. United Airlines kostet im Moment einhunderteins Dollar und einundsiebzig Cent. Der Kurs von United Airlines veränderte sich im letzten Monat um minus acht Komma sieben Prozent und in drei Monaten um minus siebzehn Komma sieben Prozent. United Airlines hat am zwanzigsten Oktober Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag unter der Erwartung der Analysten: zwei Dollar und vierundfünfzig Cent statt erwartet zwei Dollar und siebenundfünfzig Cent. Das ist eine Abweichung von minus eins Komma drei Prozent. Das war die Aktie United Airlines.",
+"audio": {
+"file": "ent/gegenteil_UAL.mp3",
+"hash": "2388a2b645d26f3d",
+"dur": 45.7,
+"engine": "edge"
+}
 },
 {
 "symbol": "HOOD",
 "name": "Robinhood Markets, Inc.",
-"price_usd": 95.07,
+"price_usd": 94.05,
 "mine": true,
-"metric": "-22,5 % in 1 Mt.",
-"reason": "Kurs im letzten Monat -22,5 %."
+"metric": "-19,2 % in 1 Mt.",
+"reason": "Kurs im letzten Monat -19,2 %.",
+"d": {
+"upside": 43.1,
+"target_usd": 134.9,
+"analysts": 30,
+"m1": -19.2,
+"m3": 1.4
 },
-{
-"symbol": "IBKR",
-"name": "Interactive Brokers Group, Inc.",
-"price_usd": 80.28,
-"mine": false,
-"metric": "-12,3 % in 1 Mt.",
-"reason": "Kurs im letzten Monat -12,3 %. Zahlen vom 15.10.2026 unter Erwartung (0.67 statt 0.67)."
-},
-{
-"symbol": "SKYD",
-"name": "Skydance Corporation",
-"price_usd": 7.77,
-"mine": false,
-"metric": "-22,0 % in 1 Mt.",
-"reason": "Kurs im letzten Monat -22,0 %."
+"say": "Zur Aktie Robinhood Markets. Robinhood Markets kostet im Moment vierundneunzig Dollar und fünf Cent. Der Kurs von Robinhood Markets veränderte sich im letzten Monat um minus neunzehn Komma zwei Prozent und in drei Monaten um plus eins Komma vier Prozent. Robinhood Markets ist schon auf deiner Liste. Das war die Aktie Robinhood Markets.",
+"audio": {
+"file": "ent/gegenteil_HOOD.mp3",
+"hash": "45a8f92e310f4ff9",
+"dur": 27.8,
+"engine": "edge"
+}
 }
 ]
+},
+"intros": {
+"potenzial": {
+"say": "Entdecken, Liste Grösstes Potenzial. Kurz zum Lernen: Analysten von Banken setzen für eine Aktie ein Kursziel, also den Preis, den sie in etwa zwölf Monaten erwarten. Hier siehst du, wie weit der heutige Kurs unter dem Durchschnitt dieser Kursziele liegt, plus frische Hoch- oder Abstufungen. Ein Kursziel ist eine Meinung, keine Garantie. Alle Beträge in Dollar. Zum Lernen, keine Anlageberatung.",
+"audio": {
+"file": "ent/potenzial__intro.mp3",
+"hash": "0e17054a217d790e",
+"dur": 30.6,
+"engine": "edge"
+}
+},
+"wachstum": {
+"say": "Entdecken, Liste Stärkstes Wachstum. Kurz zum Lernen: Hier zählt, wie stark der Kurs in den letzten drei Monaten gestiegen ist. Das zeigt, was gerade gefragt ist, sagt aber nichts über die Zukunft. Nach starken Anstiegen kann es auch wieder fallen. Alle Beträge in Dollar. Zum Lernen, keine Anlageberatung.",
+"audio": {
+"file": "ent/wachstum__intro.mp3",
+"hash": "c921ef2c435ea029",
+"dur": 24.8,
+"engine": "edge"
+}
+},
+"zahlen": {
+"say": "Entdecken, Liste Frische Zahlen. Kurz zum Lernen: Firmen veröffentlichen jedes Quartal ihre Zahlen. Wichtig ist der Gewinn je Aktie im Vergleich zur Erwartung der Analysten. Liegt er darüber, spricht man von einer positiven Überraschung, liegt er darunter, von einer Enttäuschung. Alle Beträge in Dollar. Zum Lernen, keine Anlageberatung.",
+"audio": {
+"file": "ent/zahlen__intro.mp3",
+"hash": "65abbcac08891f1c",
+"dur": 25.9,
+"engine": "edge"
+}
+},
+"gegenteil": {
+"say": "Entdecken, Liste Gegenteil. Kurz zum Lernen: Hier stehen Aktien, die negativ aufgefallen sind, mit starken Kursverlusten im letzten Monat, Zahlen unter der Erwartung oder Abstufungen durch Analysten. Das heisst nicht automatisch, dass die Firma schlecht ist. Alle Beträge in Dollar. Zum Lernen, keine Anlageberatung.",
+"audio": {
+"file": "ent/gegenteil__intro.mp3",
+"hash": "513444f7fadd3a0a",
+"dur": 24.9,
+"engine": "edge"
+}
+}
+},
+"news": {
+"3dc89cf4633d": {
+"say": "Zur Aktie Broadcom. Yahoo Finance meldet am sechsundzwanzigsten Oktober: Meta kündigt Pläne an, bis zu fünfundneunzig Milliarden Dollar für den KI-Ausbau aufzubringen. Die Meldung betrifft auch Meta Platforms und Nvidia. Das war eine Meldung zu Broadcom.",
+"audio": {
+"file": "ent/news_3dc89cf4633d.mp3",
+"hash": "c9de41c432734a3c",
+"dur": 20.4,
+"engine": "edge"
+}
+},
+"736eca5c9bef": {
+"say": "Zur Aktie Broadcom. Münster Aktuell meldet am sechsundzwanzigsten Oktober: Meta will mit neuen Aktien Milliarden für KI-Ausbau beschaffen. Die Meldung betrifft auch Meta Platforms. Das war eine Meldung zu Broadcom.",
+"audio": {
+"file": "ent/news_736eca5c9bef.mp3",
+"hash": "e4df1f7999afd0e3",
+"dur": 18.4,
+"engine": "edge"
+}
+},
+"d199a791ec4e": {
+"say": "Zur Aktie Broadcom. Yahoo Finance meldet am sechsundzwanzigsten Oktober: Tech-Aktien steigen nach der Einreichung des Börsengangs von Anthropic: AlphaCheck. Die Meldung betrifft auch Meta Platforms und Nvidia. Das war eine Meldung zu Broadcom.",
+"audio": {
+"file": "ent/news_d199a791ec4e.mp3",
+"hash": "9bd82d4cddf0adec",
+"dur": 19.8,
+"engine": "edge"
+}
+},
+"966337cca592": {
+"say": "Zur Aktie Samsung Electronics. Yahoo Finance meldet am sechsundzwanzigsten Oktober: RAAAM Memory Technologies ernennt den ehemaligen Intel- und Samsung-Foundry-Manager Hong Hao zum strategischen Berater. Die Meldung betrifft auch Intel. Das war eine Meldung zu Samsung Electronics.",
+"audio": {
+"file": "ent/news_966337cca592.mp3",
+"hash": "1f26eb6a5b639c88",
+"dur": 23.2,
+"engine": "edge"
+}
+},
+"b659a6a59688": {
+"say": "Zur Aktie Nvidia. Yahoo Finance meldet am sechsundzwanzigsten Oktober: SpaceX schliesst mit Apollo einen GPU-Finanzierungsvertrag über vierzig Milliarden Dollar ab – Lieferungen werden im Jahr 2027 erwartet. Das war eine Meldung zu Nvidia.",
+"audio": {
+"file": "ent/news_b659a6a59688.mp3",
+"hash": "9571687a512a153f",
+"dur": 20.3,
+"engine": "edge"
+}
+},
+"3009ec99ce65": {
+"say": "Zur Aktie Samsung Electronics. Yahoo Finance meldet am sechsundzwanzigsten Oktober: Aktien steigen im Vorfeld der Tech-Gewinne und der Zentralbankaufrufe. Die Meldung betrifft auch Amazon und SK Hynix. Das war eine Meldung zu Samsung Electronics.",
+"audio": {
+"file": "ent/news_3009ec99ce65.mp3",
+"hash": "f0b4ea01dbdb2350",
+"dur": 21.1,
+"engine": "edge"
+}
+},
+"f51bc556dc32": {
+"say": "Zur Aktie GE Aerospace. Morningstar meldet am sechsundzwanzigsten Oktober: zwanzig neue vier-Sterne-Aktien diese Woche. Das war eine Meldung zu GE Aerospace.",
+"audio": {
+"file": "ent/news_f51bc556dc32.mp3",
+"hash": "7fde65a784e9645d",
+"dur": 14.4,
+"engine": "edge"
+}
+},
+"d2c1c5b1754b": {
+"say": "Zur Aktie ServiceNow. Yahoo Finance meldet am sechsundzwanzigsten Oktober: ServiceNow (NOW) profitiert weiterhin von geschäftskritischer Software. Das war eine Meldung zu ServiceNow.",
+"audio": {
+"file": "ent/news_d2c1c5b1754b.mp3",
+"hash": "f2f9aa4c1fa40301",
+"dur": 15.3,
+"engine": "edge"
+}
+},
+"c517ac93eaa6": {
+"say": "Zur Aktie Micron Technology. Yahoo Finance meldet am sechsundzwanzigsten Oktober: Die Bank of America behält ihre Kaufempfehlung für Micron nach Updates zu Speicherangebot und Technologie bei. Das war eine Meldung zu Micron Technology.",
+"audio": {
+"file": "ent/news_c517ac93eaa6.mp3",
+"hash": "4bcb5dc5e38697fd",
+"dur": 18.9,
+"engine": "edge"
+}
+},
+"2800cfe01a90": {
+"say": "Zur Aktie Applied Materials. Investing.com meldet am sechsundzwanzigsten Oktober: Wie überfüllt sind die Hardware- und Chip-Aktien im vierten Quartal?. Das war eine Meldung zu Applied Materials.",
+"audio": {
+"file": "ent/news_2800cfe01a90.mp3",
+"hash": "86ef6ff93ff82bfd",
+"dur": 17.0,
+"engine": "edge"
+}
+},
+"921bafe99672": {
+"say": "Zur Aktie Meta Platforms. Yahoo Finance meldet am sechsundzwanzigsten Oktober: Meta finanziert ihren KI-Ausbau, Musk nimmt Chip-Schulden in Höhe von vierzig Milliarden Dollar auf und führt den Börsengang von Anthropic durch. Das war eine Meldung zu Meta Platforms.",
+"audio": {
+"file": "ent/news_921bafe99672.mp3",
+"hash": "60ebd8d1db36d48d",
+"dur": 20.8,
+"engine": "edge"
+}
+},
+"e649f5a248d8": {
+"say": "Zur Aktie Meta Platforms. Investing.com meldet am sechsundzwanzigsten Oktober: Ives von Wedbush bekräftigt die Outperformance der Meta-Aktie im Hinblick auf den KI-Finanzierungsplan. Das war eine Meldung zu Meta Platforms.",
+"audio": {
+"file": "ent/news_e649f5a248d8.mp3",
+"hash": "3e50215792b41e9a",
+"dur": 18.9,
+"engine": "edge"
+}
+},
+"16964e7809f0": {
+"say": "Zur Aktie SK Hynix. marketscreener.com meldet am sechsundzwanzigsten Oktober: Tranchen-Update zum Aktienrückkaufplan von SK hynix Inc., bekannt gegeben am neunzehn. August 2026. Das war eine Meldung zu SK Hynix.",
+"audio": {
+"file": "ent/news_16964e7809f0.mp3",
+"hash": "328abf0233a90017",
+"dur": 21.6,
+"engine": "edge"
+}
+},
+"5c06051e6a3d": {
+"say": "Zur Aktie Micron Technology. Yahoo Finanzen Deutschland meldet am sechsundzwanzigsten Oktober: Meta plant Aktienverkäufe für knapp einhundert Milliarden Dollar. Das war eine Meldung zu Micron Technology.",
+"audio": {
+"file": "ent/news_5c06051e6a3d.mp3",
+"hash": "c32e9e0259f53f1e",
+"dur": 16.9,
+"engine": "edge"
+}
+},
+"7e05f5997327": {
+"say": "Zur Aktie Meta Platforms. boerse.de meldet am sechsundzwanzigsten Oktober: Meta plant Aktienverkäufe für knapp einhundert Milliarden Dollar. Das war eine Meldung zu Meta Platforms.",
+"audio": {
+"file": "ent/news_7e05f5997327.mp3",
+"hash": "ae8627895f01d711",
+"dur": 16.2,
+"engine": "edge"
+}
+},
+"d2a6416c06b9": {
+"say": "Zur Aktie Amazon. FinanzNachrichten.de meldet am sechsundzwanzigsten Oktober: Arc Digitech Private Limited: ProfitPath führt ProfitDesk ein, um Amazon FBA-Verkäufern dabei zu helfen, ihren FBA-Betrieb an einem Ort zu optimieren. Das war eine Meldung zu Amazon.",
+"audio": {
+"file": "ent/news_d2a6416c06b9.mp3",
+"hash": "e6ad422c7de35649",
+"dur": 22.1,
+"engine": "edge"
+}
+},
+"446e74150dbd": {
+"say": "Zur Aktie Siemens Energy. Manager Magazin meldet am sechsundzwanzigsten Oktober: Börse: Dax im Plus, Bayer Aktie und Siemens Energy mit Kursrallye. Das war eine Meldung zu Siemens Energy.",
+"audio": {
+"file": "ent/news_446e74150dbd.mp3",
+"hash": "1cb19c71f9eb798b",
+"dur": 15.6,
+"engine": "edge"
+}
+},
+"45f194f9bdaa": {
+"say": "Zur Aktie Nvidia. Yahoo Finance meldet am sechsundzwanzigsten Oktober: Aktienmarkt heute: Dow steigt, während die Ölpreise fallen; Tesla teilt Rallye dazu (Live-Berichterstattung). Das war eine Meldung zu Nvidia.",
+"audio": {
+"file": "ent/news_45f194f9bdaa.mp3",
+"hash": "6ae484f821afc61d",
+"dur": 17.4,
+"engine": "edge"
+}
+},
+"e512c261748e": {
+"say": "Zur Aktie Arm. Investing.com meldet am sechsundzwanzigsten Oktober: StoneX bekräftigt, dass die Aktien von Arm Holdings aufgrund von Versorgungssorgen beibehalten werden. Das war eine Meldung zu Arm.",
+"audio": {
+"file": "ent/news_e512c261748e.mp3",
+"hash": "9ad0428111ee9476",
+"dur": 16.8,
+"engine": "edge"
+}
+},
+"0fc078d75b40": {
+"say": "Zur Aktie Nvidia. Yahoo Finance meldet am sechsundzwanzigsten Oktober: Honeywell setzt industrielle KI-Plattform in der Dangote-Raffinerie in Nigeria ein. Das war eine Meldung zu Nvidia.",
+"audio": {
+"file": "ent/news_0fc078d75b40.mp3",
+"hash": "eb2e48676fdd1699",
+"dur": 15.2,
+"engine": "edge"
+}
+},
+"7378103184ab": {
+"say": "Zur Aktie SK Hynix. StreetInsider meldet am sechsundzwanzigsten Oktober: Die Aktien von SK Hynix steigen aufgrund des Sonderdividendenüberlegungsberichts. Das war eine Meldung zu SK Hynix.",
+"audio": {
+"file": "ent/news_7378103184ab.mp3",
+"hash": "e5ce7e651b4865d7",
+"dur": 16.4,
+"engine": "edge"
+}
+},
+"53fa33a28f3f": {
+"say": "Zur Aktie Micron Technology. The Globe and Mail meldet am sechsundzwanzigsten Oktober: Micron hat gerade ein Monsterquartal geliefert, aber die Aktie stürzt ab. Der Grund liegt auf der Hand. Die Meldung betrifft auch Nvidia. Das war eine Meldung zu Micron Technology.",
+"audio": {
+"file": "ent/news_53fa33a28f3f.mp3",
+"hash": "e79b1f052a7fe9d6",
+"dur": 22.5,
+"engine": "edge"
+}
+},
+"123fae1c0921": {
+"say": "Zur Aktie Meta Platforms. Yahoo Finance meldet am sechsundzwanzigsten Oktober: Meta-Aktien erholen sich, da das Unternehmen einen KI-Finanzierungsplan in Höhe von fünfunddreissig Milliarden Dollar ankündigt. Das war eine Meldung zu Meta Platforms.",
+"audio": {
+"file": "ent/news_123fae1c0921.mp3",
+"hash": "f29a83bccbecaa07",
+"dur": 19.7,
+"engine": "edge"
+}
+},
+"a115b2d9f82e": {
+"say": "Zur Aktie Meta Platforms. Telecompaper meldet am sechsundzwanzigsten Oktober: Meta kündigt Pläne an, neue Aktien im Wert von bis zu fünfundneunzig Milliarden Dollar zu verkaufen, um KI-Pläne zu finanzieren. Das war eine Meldung zu Meta Platforms.",
+"audio": {
+"file": "ent/news_a115b2d9f82e.mp3",
+"hash": "6c8ffe4c3b901aeb",
+"dur": 19.8,
+"engine": "edge"
+}
+},
+"da3cd25bfe55": {
+"say": "Zur Aktie Amazon. TradingView meldet am sechsundzwanzigsten Oktober: UBS sieht vierzig Prozent Aufwärtspotenzial für die AMZN-Aktie – AWS-Margen stehen im Mittelpunkt vor Gewinnen. Die Meldung betrifft auch UBS Group. Das war eine Meldung zu Amazon.",
+"audio": {
+"file": "ent/news_da3cd25bfe55.mp3",
+"hash": "f8b402d8d41f7804",
+"dur": 20.6,
+"engine": "edge"
+}
+},
+"3bcfbd336000": {
+"say": "Zur Aktie Nvidia. Wallstreet Online meldet am sechsundzwanzigsten Oktober: vierzig Milliarden Dollar für KI-Chips: NVIDIA legt zu. Das war eine Meldung zu Nvidia.",
+"audio": {
+"file": "ent/news_3bcfbd336000.mp3",
+"hash": "40cd1fa3541186e9",
+"dur": 14.2,
+"engine": "edge"
+}
+},
+"8d53948d1830": {
+"say": "Zur Aktie Amazon. stock3 meldet am sechsundzwanzigsten Oktober: (drei⁺) MICROSOFT und AMAZON. Die Meldung betrifft auch Microsoft. Das war eine Meldung zu Amazon.",
+"audio": {
+"file": "ent/news_8d53948d1830.mp3",
+"hash": "4ef7f6baf70537b4",
+"dur": 15.1,
+"engine": "edge"
+}
+},
+"7e16ec1b558f": {
+"say": "Zur Aktie Amazon. Yahoo Finance meldet am sechsundzwanzigsten Oktober: Der Börsengangsantrag von Anthropic zeigt, dass vierhundertdreissig Milliarden Dollar an KI-Computing gebunden sind: Chart des Tages. Die Meldung betrifft auch Broadcom und Microsoft. Das war eine Meldung zu Amazon.",
+"audio": {
+"file": "ent/news_7e16ec1b558f.mp3",
+"hash": "884ccd5fc0a95723",
+"dur": 23.4,
+"engine": "edge"
+}
+},
+"b7d4aac75806": {
+"say": "Zur Aktie Rolls-Royce. Bristol Live meldet am sechsundzwanzigsten Oktober: „Weihnachten kommt früh“ für Verteidigungsunternehmen vor dem Budget. Das war eine Meldung zu Rolls-Royce.",
+"audio": {
+"file": "ent/news_b7d4aac75806.mp3",
+"hash": "de033e8ddc79c865",
+"dur": 14.3,
+"engine": "edge"
+}
+},
+"a1c2ab461542": {
+"say": "Zur Aktie Bloom Energy. Trefis meldet am sechsundzwanzigsten Oktober: Warum ist die Aktie von Bloom Energy gefallen?. Das war eine Meldung zu Bloom Energy.",
+"audio": {
+"file": "ent/news_a1c2ab461542.mp3",
+"hash": "337c3ffdff0d701f",
+"dur": 12.6,
+"engine": "edge"
+}
+},
+"5bcf627c5a61": {
+"say": "Zur Aktie Meta Platforms. Yahoo Finance meldet am sechsundzwanzigsten Oktober: Meta hat im Jahr 2026 aufgehört, Aktien zurückzukaufen. Jetzt verkauft es bis zu fünfundneunzig Milliarden Dollar davon. Das war eine Meldung zu Meta Platforms.",
+"audio": {
+"file": "ent/news_5bcf627c5a61.mp3",
+"hash": "bed8f144d67ae13f",
+"dur": 21.7,
+"engine": "edge"
+}
+},
+"a48c246a783e": {
+"say": "Zur Aktie Oklo. Yahoo Finance meldet am sechsundzwanzigsten Oktober: Tesla hochgestuft, Block herabgestuft: Die Top-Analysten der Wall Street sagen. Das war eine Meldung zu Oklo.",
+"audio": {
+"file": "ent/news_a48c246a783e.mp3",
+"hash": "a3315330451084bb",
+"dur": 15.1,
+"engine": "edge"
+}
+},
+"15028cd2f19b": {
+"say": "Zur Aktie Palantir. Investor-Verlag meldet am sechsundzwanzigsten Oktober: Palantir-Aktie im Fokus: KI-Boom treibt Kurs zum Rekordhoch. Das war eine Meldung zu Palantir.",
+"audio": {
+"file": "ent/news_15028cd2f19b.mp3",
+"hash": "ebed9e334b4d2026",
+"dur": 15.5,
+"engine": "edge"
+}
+},
+"b53e69d03bdc": {
+"say": "Zur Aktie Bloom Energy. Timothy Sykes meldet am sechsundzwanzigsten Oktober: Bloom Energy-Aktie zieht nach enormem Gewinnanstieg bullische Ziele. Das war eine Meldung zu Bloom Energy.",
+"audio": {
+"file": "ent/news_b53e69d03bdc.mp3",
+"hash": "170de2f5cb27de77",
+"dur": 14.6,
+"engine": "edge"
+}
+},
+"31781d3e574a": {
+"say": "Zur Aktie SK Hynix. Timothy Sykes meldet am sechsundzwanzigsten Oktober: SKHY-Aktie schwankt, da China-Strategie und KI-Nachfrage kollidieren. Das war eine Meldung zu SK Hynix.",
+"audio": {
+"file": "ent/news_31781d3e574a.mp3",
+"hash": "6f8e101f8bf5cc7e",
+"dur": 16.5,
+"engine": "edge"
+}
+},
+"81c93317fb01": {
+"say": "Zur Aktie Nvidia. Finanzen.net meldet am sechsundzwanzigsten Oktober: Aktien von Nebius, CoreWeave & IREN unter Druck: Musk stellt Finanzierung in Frage. Das war eine Meldung zu Nvidia.",
+"audio": {
+"file": "ent/news_81c93317fb01.mp3",
+"hash": "b347edd0292eb3c0",
+"dur": 16.3,
+"engine": "edge"
+}
+},
+"d3be00763445": {
+"say": "Zur Aktie Amazon. Yahoo Finance meldet am sechsundzwanzigsten Oktober: Vergessen Sie Alphabet und Microsoft: Ist Amazon das intelligenteste KI-Spiel vor Gewinnen?. Die Meldung betrifft auch Microsoft. Das war eine Meldung zu Amazon.",
+"audio": {
+"file": "ent/news_d3be00763445.mp3",
+"hash": "3c3054817fde90ea",
+"dur": 19.8,
+"engine": "edge"
+}
+},
+"4feaa862f22b": {
+"say": "Zur Aktie Nvidia. Yahoo Finance meldet am sechsundzwanzigsten Oktober: Bedrock Robotics sammelt sechshundert Millionen Dollar der Serie C, um autonome Baumaschinen an US-Standorten zu skalieren. Das war eine Meldung zu Nvidia.",
+"audio": {
+"file": "ent/news_4feaa862f22b.mp3",
+"hash": "2639d798ec46fce6",
+"dur": 18.0,
+"engine": "edge"
+}
+},
+"9de69809f110": {
+"say": "Zur Aktie Applied Materials. Investing.com meldet am sechsundzwanzigsten Oktober: Welche US-amerikanischen Large-Cap-Aktien bieten derzeit einen echten Kaufwert bei Kursrückgängen?. Das war eine Meldung zu Applied Materials.",
+"audio": {
+"file": "ent/news_9de69809f110.mp3",
+"hash": "6e223bdc2cc2c0a2",
+"dur": 18.4,
+"engine": "edge"
+}
+},
+"63308bba7d8e": {
+"say": "Zur Aktie Amazon. Yahoo Finance meldet am sechsundzwanzigsten Oktober: Oracle könnte eine riesige KI-Chance haben. Hier ist, wohin die Aktie gehen könnte. Die Meldung betrifft auch Microsoft. Das war eine Meldung zu Amazon.",
+"audio": {
+"file": "ent/news_63308bba7d8e.mp3",
+"hash": "4911be62a396cfb7",
+"dur": 19.2,
+"engine": "edge"
+}
+},
+"ccae40c05e0e": {
+"say": "Zur Aktie Hyliion. GlobeNewswire meldet am sechsundzwanzigsten Oktober: FRIST-ALARM für Flotek Industries, Inc. (FTK),. Das war eine Meldung zu Hyliion.",
+"audio": {
+"file": "ent/news_ccae40c05e0e.mp3",
+"hash": "f800ae2f47297501",
+"dur": 13.9,
+"engine": "edge"
+}
+},
+"82b87f62a6ca": {
+"say": "Zur Aktie Nvidia. Seeking Alpha meldet am sechsundzwanzigsten Oktober: Nvidia oder AMD bei diesem Rückgang? Wählen Sie das Sicherste (NASDAQ:AMD). Das war eine Meldung zu Nvidia.",
+"audio": {
+"file": "ent/news_82b87f62a6ca.mp3",
+"hash": "58cfc678159193c1",
+"dur": 15.6,
+"engine": "edge"
+}
+},
+"58161c9b6956": {
+"say": "Zur Aktie Robinhood Markets. Traders Union meldet am sechsundzwanzigsten Oktober: Die Robinhood-Prognosemärkte werden bis 2028 die Kryptoeinnahmen überholen. Das war eine Meldung zu Robinhood Markets.",
+"audio": {
+"file": "ent/news_58161c9b6956.mp3",
+"hash": "165870f23c375070",
+"dur": 18.1,
+"engine": "edge"
+}
+},
+"68b1f9287c7a": {
+"say": "Zur Aktie Meta Platforms. Investor's Business Daily meldet am sechsundzwanzigsten Oktober: Meta plant, Eigenkapital in Höhe von bis zu fünfundneunzig Milliarden Dollar aufzubringen, um die KI voranzutreiben. Das war eine Meldung zu Meta Platforms.",
+"audio": {
+"file": "ent/news_68b1f9287c7a.mp3",
+"hash": "e2f9b8766c38b2be",
+"dur": 19.9,
+"engine": "edge"
+}
+},
+"8893fe544163": {
+"say": "Zur Aktie Broadcom. SuaraGarut.ID meldet am sechsundzwanzigsten Oktober: Meta plant Aktienausgabe über fünfundneunzig Milliarden Dollar für KI. Die Meldung betrifft auch Meta Platforms. Das war eine Meldung zu Broadcom.",
+"audio": {
+"file": "ent/news_8893fe544163.mp3",
+"hash": "3b47d3b6714e0772",
+"dur": 19.4,
+"engine": "edge"
+}
+},
+"82cc1a60d007": {
+"say": "Zur Aktie Amazon. FinanzNachrichten.de meldet am sechsundzwanzigsten Oktober: Kundenplus weit über Erwartung: Verizon nach SpaceX-Hammer: Amazon-Milliarden und höhere Gewinnziele. Das war eine Meldung zu Amazon.",
+"audio": {
+"file": "ent/news_82cc1a60d007.mp3",
+"hash": "6683532bb75b42e2",
+"dur": 18.7,
+"engine": "edge"
+}
+},
+"fbd4c834ef3e": {
+"say": "Zur Aktie Broadcom. FinanceFeeds meldet am sechsundzwanzigsten Oktober: Meta-Aktie: sechshundertfünfunddreissig Dollar nach einem fünfunddreissig-Milliarden-Dollar-Aktienangebot mit Nvidia, AMD und Broadcom im Buch – Bulle achthundertfünfzig Dollar, Bär fünfhundertachtzig Dollar. Das war eine Meldung zu Broadcom.",
+"audio": {
+"file": "ent/news_fbd4c834ef3e.mp3",
+"hash": "52611baf48b392f3",
+"dur": 23.2,
+"engine": "edge"
+}
+},
+"aaec6a6b4948": {
+"say": "Zur Aktie UBS Group. Investing.com meldet am sechsundzwanzigsten Oktober: Ross Stores steigt, da UBS die Aktien aufgrund besserer Umsatzaussichten auf „Kaufen“ hochstuft. Das war eine Meldung zu UBS Group.",
+"audio": {
+"file": "ent/news_aaec6a6b4948.mp3",
+"hash": "b801a86c5b75527e",
+"dur": 18.0,
+"engine": "edge"
+}
+},
+"da6ddd7f93c1": {
+"say": "Zur Aktie Amazon. Investor's Business Daily meldet am sechsundzwanzigsten Oktober: Futures steigen; Musk-Warnung, Meta-Neuigkeiten im Fokus. Die Meldung betrifft auch Microsoft. Das war eine Meldung zu Amazon.",
+"audio": {
+"file": "ent/news_da6ddd7f93c1.mp3",
+"hash": "a7a24bde87a4098d",
+"dur": 18.5,
+"engine": "edge"
+}
+},
+"8be436a7dd5c": {
+"say": "Zur Aktie Nvidia. Yahoo Finance meldet am sechsundzwanzigsten Oktober: Ocean Power Technologies und Stratum unterzeichnen Absichtserklärung zum Test eines Offshore-Rechenzentrums mit erneuerbarer Energie. Das war eine Meldung zu Nvidia.",
+"audio": {
+"file": "ent/news_8be436a7dd5c.mp3",
+"hash": "ae65c9d05d21b1ad",
+"dur": 18.7,
+"engine": "edge"
+}
+},
+"36025643e9be": {
+"say": "Zur Aktie Meta Platforms. The Business Times meldet am sechsundzwanzigsten Oktober: Meta will bis zu fünfundneunzig Milliarden Dollar an Eigenkapital aufbringen, um die kostspielige KI-Erweiterung zu finanzieren. Das war eine Meldung zu Meta Platforms.",
+"audio": {
+"file": "ent/news_36025643e9be.mp3",
+"hash": "dbef3b4466e25827",
+"dur": 19.8,
+"engine": "edge"
+}
+},
+"6b33b8d8a87d": {
+"say": "Zur Aktie Nvidia. Yahoo Finance meldet am sechsundzwanzigsten Oktober: Elon Musk prognostiziert, dass viele Neoclouds einen „Tod auf Guppy-Niveau“ erleiden werden. Das war eine Meldung zu Nvidia.",
+"audio": {
+"file": "ent/news_6b33b8d8a87d.mp3",
+"hash": "df5cf67c798ff5b6",
+"dur": 15.8,
+"engine": "edge"
+}
+},
+"13cb70acb26c": {
+"say": "Zur Aktie Meta Platforms. The Information meldet am sechsundzwanzigsten Oktober: Meta plant, durch Aktienverkäufe bis zu fünfundneunzig Milliarden Dollar für KI aufzubringen. Das war eine Meldung zu Meta Platforms.",
+"audio": {
+"file": "ent/news_13cb70acb26c.mp3",
+"hash": "8d786e688a6c2433",
+"dur": 17.8,
+"engine": "edge"
+}
+},
+"45d3a74940c0": {
+"say": "Zur Aktie Robinhood Markets. TradingView meldet am sechsundzwanzigsten Oktober: HOODs Prognosemärkte werden den Umsatz bis 2028 um eins Komma sieben Milliarden Dollar steigern und Krypto übertreffen: Bernstein. Das war eine Meldung zu Robinhood Markets.",
+"audio": {
+"file": "ent/news_45d3a74940c0.mp3",
+"hash": "82d594e68bc9fdac",
+"dur": 22.2,
+"engine": "edge"
+}
+},
+"53717461c049": {
+"say": "Zur Aktie Robinhood Markets. TradingView meldet am sechsundzwanzigsten Oktober: HOOD prognostiziert, dass die Märkte bis 2028 einen Umsatzzuwachs von eins Komma sieben Milliarden Dollar erzielen werden, der Krypto übertreffen wird: Bernstein. Das war eine Meldung zu Robinhood Markets.",
+"audio": {
+"file": "ent/news_53717461c049.mp3",
+"hash": "f03b9276892bf00e",
+"dur": 23.4,
+"engine": "edge"
+}
+},
+"ee58ec56aacd": {
+"say": "Zur Aktie Broadcom. Yahoo Finance meldet am sechsundzwanzigsten Oktober: Meta-Aktie sinkt aufgrund massiver Aktienemission im Wert von fünfunddreissig Milliarden Dollar – bis zu sechzig Milliarden Dollar mehr sind geplant. Die Meldung betrifft auch Meta Platforms und Nvidia. Das war eine Meldung zu Broadcom.",
+"audio": {
+"file": "ent/news_ee58ec56aacd.mp3",
+"hash": "7abdfcc4547a94db",
+"dur": 24.1,
+"engine": "edge"
+}
+},
+"a6a12de2473c": {
+"say": "Zur Aktie Broadcom. Yahoo! Finance Canada meldet am sechsundzwanzigsten Oktober: Sektor-Update: Tech-Aktien steigen vorbörslich am Montag. Die Meldung betrifft auch SK Hynix und Meta Platforms. Das war eine Meldung zu Broadcom.",
+"audio": {
+"file": "ent/news_a6a12de2473c.mp3",
+"hash": "292cb9e4f5c0fd9e",
+"dur": 20.1,
+"engine": "edge"
+}
+},
+"26a76f69e296": {
+"say": "Zur Aktie ABB LTD. finanzen.ch meldet am sechsundzwanzigsten Oktober: Idorsia Aktie News: Idorsia gewinnt am Mittag an Fahrt. Das war eine Meldung zu ABB LTD.",
+"audio": {
+"file": "ent/news_26a76f69e296.mp3",
+"hash": "2a56dcb6f61cda4d",
+"dur": 15.0,
+"engine": "edge"
+}
+},
+"4279d30e08d5": {
+"say": "Zur Aktie Intel. Finbold meldet am sechsundzwanzigsten Oktober: Wall-Street-Analysten identifizieren Intels letzten Auslöser für die Rückeroberung von einhundert Dollar. Das war eine Meldung zu Intel.",
+"audio": {
+"file": "ent/news_4279d30e08d5.mp3",
+"hash": "f8b34e86ab822a0c",
+"dur": 16.0,
+"engine": "edge"
+}
+},
+"a4312eead1ce": {
+"say": "Zur Aktie Nvidia. Yahoo Finance meldet am sechsundzwanzigsten Oktober: Neoclouds stehen vor dem „Tod auf Guppy-Niveau“, warnt Elon Musk. Warum CoreWeave und Nebius überleben werden. Die Meldung betrifft auch UBS Group. Das war eine Meldung zu Nvidia.",
+"audio": {
+"file": "ent/news_a4312eead1ce.mp3",
+"hash": "65f4974ce5d4ade6",
+"dur": 21.6,
+"engine": "edge"
+}
+},
+"6d453cf64353": {
+"say": "Zur Aktie ASML. Yahoo Finance meldet am sechsundzwanzigsten Oktober: Laut ING widersetzen sich die Niederlande dem europäischen Technologietrend, da der Chiphersteller auf dem KI-Boom reitet. Das war eine Meldung zu ASML.",
+"audio": {
+"file": "ent/news_6d453cf64353.mp3",
+"hash": "d2482ab0b8c2168a",
+"dur": 18.4,
+"engine": "edge"
+}
+},
+"5b418e6d6191": {
+"say": "Zur Aktie Siemens Energy. Wallstreet Online meldet am sechsundzwanzigsten Oktober: Siemens Energy gewinnt vier Komma sieben Prozent nach jüngstem Ausverkauf. Das war eine Meldung zu Siemens Energy.",
+"audio": {
+"file": "ent/news_5b418e6d6191.mp3",
+"hash": "8dd053f7451a6b16",
+"dur": 15.8,
+"engine": "edge"
+}
+},
+"f4903b9f63f2": {
+"say": "Zur Aktie Taiwan Semiconductor. Yahoo Finance meldet am sechsundzwanzigsten Oktober: Die Aktie von Taiwan Semiconductor Manufacturing (TSM) erscheint im Vergleich zum Cashflow teuer. Das war eine Meldung zu Taiwan Semiconductor.",
+"audio": {
+"file": "ent/news_f4903b9f63f2.mp3",
+"hash": "4b54f040d9b4469e",
+"dur": 19.2,
+"engine": "edge"
+}
+},
+"79132d5ba53a": {
+"say": "Zur Aktie Berkshire Hathaway. Seeking Alpha meldet am sechsundzwanzigsten Oktober: Berkshire Hathaway erreicht ein Allzeithoch, da der RSI sein stärkstes überkauftes Signal seit 2024 anzeigt. Das war eine Meldung zu Berkshire Hathaway.",
+"audio": {
+"file": "ent/news_79132d5ba53a.mp3",
+"hash": "34d163000de3d1a2",
+"dur": 20.4,
+"engine": "edge"
+}
+},
+"a1515f670ff5": {
+"say": "Zur Aktie Palantir. Finanzen.net meldet am sechsundzwanzigsten Oktober: Aktien Frankfurt: Dax erholt sich. Das war eine Meldung zu Palantir.",
+"audio": {
+"file": "ent/news_a1515f670ff5.mp3",
+"hash": "318cc75ce999e30a",
+"dur": 13.4,
+"engine": "edge"
+}
+},
+"96ede44a0f4e": {
+"say": "Zur Aktie Amazon. About Amazon meldet am sechsundzwanzigsten Oktober: Einige der Ankündigungen von Amazon für das dritte Quartal 2026, von neuen Geräten bis hin zu KI-Durchbrüchen. Das war eine Meldung zu Amazon.",
+"audio": {
+"file": "ent/news_96ede44a0f4e.mp3",
+"hash": "c698a514bd40f663",
+"dur": 18.7,
+"engine": "edge"
+}
+},
+"749faaad24e9": {
+"say": "Zur Aktie Amazon. Morningstar meldet am sechsundzwanzigsten Oktober: Amazon-Aktie vor Quartalszahlen kaufen, verkaufen - oder ist sie fair bewertet?. Das war eine Meldung zu Amazon.",
+"audio": {
+"file": "ent/news_749faaad24e9.mp3",
+"hash": "ea22d7ecc90a3601",
+"dur": 15.4,
+"engine": "edge"
+}
+},
+"9737b9e8297e": {
+"say": "Zur Aktie Amazon. Yahoo Finance meldet am sechsundzwanzigsten Oktober: Die Hochsaison im dritten Quartal steht vor der Tür: Starke Beats, himmelhohe KI-Prüfung. Die Meldung betrifft auch Meta Platforms und Microsoft. Das war eine Meldung zu Amazon.",
+"audio": {
+"file": "ent/news_9737b9e8297e.mp3",
+"hash": "ef33e12daffcb18a",
+"dur": 21.5,
+"engine": "edge"
+}
+},
+"6ca895886a06": {
+"say": "Zur Aktie ZKB Gold ETF. The Globe and Mail meldet am sechsundzwanzigsten Oktober: Ein sechzehn-Prozent-Monat für Goldminenarbeiter gibt den Gehalt, die Kosten und die Nebenprodukte wieder in die Hand. Das war eine Meldung zu ZKB Gold ETF.",
+"audio": {
+"file": "ent/news_6ca895886a06.mp3",
+"hash": "bdb73b7265e492a4",
+"dur": 20.0,
+"engine": "edge"
+}
+},
+"7c7ea2085f35": {
+"say": "Zur Aktie Amazon. Yahoo Finance meldet am sechsundzwanzigsten Oktober: Die Fed + Technologie, Ölgewinne = eine aufregende Woche für Anleger. Die Meldung betrifft auch Intel und Microsoft. Das war eine Meldung zu Amazon.",
+"audio": {
+"file": "ent/news_7c7ea2085f35.mp3",
+"hash": "ac19d3878a817d23",
+"dur": 18.8,
+"engine": "edge"
+}
+},
+"278d843850d6": {
+"say": "Zur Aktie Siemens Energy. Der Aktionär meldet am sechsundzwanzigsten Oktober: Siemens Energy: Aktie an der DAX-Spitze – Talfahrt beendet?. Das war eine Meldung zu Siemens Energy.",
+"audio": {
+"file": "ent/news_278d843850d6.mp3",
+"hash": "07554d91e7595d6f",
+"dur": 14.7,
+"engine": "edge"
+}
+},
+"87c983c0f896": {
+"say": "Zur Aktie Broadcom. Tech Funding News meldet am sechsundzwanzigsten Oktober: Nvidia, AMD und Broadcom haben Meta-Aktien im Wert von fünf Milliarden Dollar im Auge: Wird die KI-Finanzierung kreislauforientiert?. Das war eine Meldung zu Broadcom.",
+"audio": {
+"file": "ent/news_87c983c0f896.mp3",
+"hash": "4cc3d337a01c375f",
+"dur": 19.8,
+"engine": "edge"
+}
+},
+"aea5b91fc210": {
+"say": "Zur Aktie SK Hynix. TradingView meldet am sechsundzwanzigsten Oktober: Die Aktien von Micron, SanDisk und SK Hynix steigen, da die Nachfrage nach KI-Speichern im Mittelpunkt steht. Das war eine Meldung zu SK Hynix.",
+"audio": {
+"file": "ent/news_aea5b91fc210.mp3",
+"hash": "cf8b193a46592172",
+"dur": 18.0,
+"engine": "edge"
+}
+},
+"d491f93cf9f3": {
+"say": "Zur Aktie Broadcom. Yahoo Finance meldet am sechsundzwanzigsten Oktober: Meta sammelt noch mehr Geld, um den KI-Ausbau zu finanzieren – bis zu fünfundneunzig Milliarden Dollar. Die Meldung betrifft auch Meta Platforms und Nvidia. Das war eine Meldung zu Broadcom.",
+"audio": {
+"file": "ent/news_d491f93cf9f3.mp3",
+"hash": "734c658ec7a3da6d",
+"dur": 20.8,
+"engine": "edge"
+}
+},
+"9897aa82ebe3": {
+"say": "Zur Aktie GE Vernova. Yahoo Finance meldet am sechsundzwanzigsten Oktober: Die Erträge von Crescent Energy (CRGY) werden voraussichtlich steigen: Was Sie vor der Veröffentlichung nächste Woche wissen sollten. Das war eine Meldung zu GE Vernova.",
+"audio": {
+"file": "ent/news_9897aa82ebe3.mp3",
+"hash": "348d280b41a52775",
+"dur": 20.2,
+"engine": "edge"
+}
+},
+"ff958bb7a70b": {
+"say": "Zur Aktie ASML. Yahoo Finance meldet am sechsundzwanzigsten Oktober: ASML meldet Transaktionen im Rahmen seines aktuellen Aktienrückkaufprogramms. Das war eine Meldung zu ASML.",
+"audio": {
+"file": "ent/news_ff958bb7a70b.mp3",
+"hash": "4dc904e1102f80e5",
+"dur": 16.4,
+"engine": "edge"
+}
+},
+"b6c89cde1815": {
+"say": "Zur Aktie Intel. Yahoo Finance meldet am sechsundzwanzigsten Oktober: Nagare Labs verlässt die Tarnung, um den Speicherengpass der KI zu überwinden. Das war eine Meldung zu Intel.",
+"audio": {
+"file": "ent/news_b6c89cde1815.mp3",
+"hash": "4c2b52e45e0591e4",
+"dur": 14.6,
+"engine": "edge"
+}
+},
+"77c2b7be94ce": {
+"say": "Zur Aktie Microsoft. Yahoo Finance meldet am sechsundzwanzigsten Oktober: Narmi führt den Microsoft dreihundertfünfundsechzig Copilot Connector ein, der Kundenfinanzdaten sicher in bestehende Bankworkflows integriert. Das war eine Meldung zu Microsoft.",
+"audio": {
+"file": "ent/news_77c2b7be94ce.mp3",
+"hash": "fa172dbbfd591f2d",
+"dur": 20.5,
+"engine": "edge"
+}
+},
+"8f51381793ae": {
+"say": "Zur Aktie Microsoft. Yahoo Finance meldet am sechsundzwanzigsten Oktober: Semperis vertieft die Microsoft-Sicherheitszusammenarbeit durch die Integration der Lightning-Plattform mit Microsoft Sentinel und Security Copilot. Das war eine Meldung zu Microsoft.",
+"audio": {
+"file": "ent/news_8f51381793ae.mp3",
+"hash": "91c5c4b76d4353ad",
+"dur": 20.6,
+"engine": "edge"
+}
+},
+"c7d179f4e390": {
+"say": "Zur Aktie IBM. Yahoo Finance meldet am sechsundzwanzigsten Oktober: Cohesity Data Cloud ist die erste Cloud-Wiederherstellungsmethode, die für die Interoperabilität mit IBM Terraform Self-Managed validiert wurde. Das war eine Meldung zu IBM.",
+"audio": {
+"file": "ent/news_c7d179f4e390.mp3",
+"hash": "3addd2ec480bdfb8",
+"dur": 19.8,
+"engine": "edge"
+}
+},
+"b6646eb4d259": {
+"say": "Zur Aktie Siemens Energy. Wallstreet Online meldet am sechsundzwanzigsten Oktober: Börsen Update Europa - sechsundzwanzig.zehn. - MDAX stark +eins Komma vier Prozent. Das war eine Meldung zu Siemens Energy.",
+"audio": {
+"file": "ent/news_b6646eb4d259.mp3",
+"hash": "6546ba5a5606c9f6",
+"dur": 18.6,
+"engine": "edge"
+}
+},
+"af9ac442bd74": {
+"say": "Zur Aktie UBS Group. Quiver Quantitative meldet am sechsundzwanzigsten Oktober: BANK OF MARIN BAN ($BMRC) veröffentlicht Ergebnisse für das dritte Quartal 2026. Das war eine Meldung zu UBS Group.",
+"audio": {
+"file": "ent/news_af9ac442bd74.mp3",
+"hash": "6eeef06c1aed1ced",
+"dur": 19.1,
+"engine": "edge"
+}
+},
+"0898fec8e90d": {
+"say": "Zur Aktie Microsoft. Microsoft Source meldet am sechsundzwanzigsten Oktober: Wie Engagement tatsächlich aussieht. Das war eine Meldung zu Microsoft.",
+"audio": {
+"file": "ent/news_0898fec8e90d.mp3",
+"hash": "9137f9651246c980",
+"dur": 13.4,
+"engine": "edge"
+}
+},
+"61c5829ce996": {
+"say": "Zur Aktie Taiwan Semiconductor. Der Aktionär meldet am sechsundzwanzigsten Oktober: SUSS MicroTec: einhundert Prozent-Chance nach Kurshalbierung. Das war eine Meldung zu Taiwan Semiconductor.",
+"audio": {
+"file": "ent/news_61c5829ce996.mp3",
+"hash": "dd3746b8e5caa597",
+"dur": 16.3,
+"engine": "edge"
+}
+},
+"6c9e08ae442a": {
+"say": "Zur Aktie Micron Technology. Seeking Alpha meldet am sechsundzwanzigsten Oktober: Micron: Ich war vorher pessimistisch, aber dieser Aufruf könnte noch kontroverser sein (Upgrade) (MU). Das war eine Meldung zu Micron Technology.",
+"audio": {
+"file": "ent/news_6c9e08ae442a.mp3",
+"hash": "5218676967cffaf1",
+"dur": 19.3,
+"engine": "edge"
+}
+},
+"4f5073552ff7": {
+"say": "Zur Aktie Broadcom. TradingView meldet am sechsundzwanzigsten Oktober: Der fünfunddreissig-Milliarden-Dollar-Aktienverkauf von Meta zieht Nvidia, AMD und Broadcom an. Das war eine Meldung zu Broadcom.",
+"audio": {
+"file": "ent/news_4f5073552ff7.mp3",
+"hash": "8c08a85c25c93420",
+"dur": 16.4,
+"engine": "edge"
+}
+},
+"2ed0c04f9599": {
+"say": "Zur Aktie Broadcom. Der Aktionär meldet am sechsundzwanzigsten Oktober: Meta: Irrer KI-Push – Nvidia, AMD und Broadcom wollen mitziehen. Das war eine Meldung zu Broadcom.",
+"audio": {
+"file": "ent/news_2ed0c04f9599.mp3",
+"hash": "03becb065c3b4194",
+"dur": 14.9,
+"engine": "edge"
+}
+},
+"7b9801b4adf5": {
+"say": "Zur Aktie Broadcom. FinanzNachrichten.de meldet am sechsundzwanzigsten Oktober: Microsoft hilft: Seagate wittert eine Chance: Dieses Problem bremst die KI-Branche. Die Meldung betrifft auch Microsoft und Seagate Technology PLC. Das war eine Meldung zu Broadcom.",
+"audio": {
+"file": "ent/news_7b9801b4adf5.mp3",
+"hash": "d06699f2169318df",
+"dur": 23.2,
+"engine": "edge"
+}
+},
+"e4f23490de06": {
+"say": "Zur Aktie SK Hynix. StocksToTrade meldet am sechsundzwanzigsten Oktober: Die SKHY-Aktie erholt sich, da Chinas Upgrade-Plan die KI-Hoffnungen weckt. Das war eine Meldung zu SK Hynix.",
+"audio": {
+"file": "ent/news_e4f23490de06.mp3",
+"hash": "94495eceb1b9c165",
+"dur": 16.6,
+"engine": "edge"
+}
+},
+"0d809bf568a4": {
+"say": "Zur Aktie SK Hynix. Timothy Sykes meldet am sechsundzwanzigsten Oktober: SKHY-Aktie schwankt, da China-Wetten und KI-Nachfrage kollidieren. Das war eine Meldung zu SK Hynix.",
+"audio": {
+"file": "ent/news_0d809bf568a4.mp3",
+"hash": "4da79562a0a90cc7",
+"dur": 16.3,
+"engine": "edge"
+}
+},
+"abe87be3c5bf": {
+"say": "Zur Aktie Intel. Yahoo Finance meldet am sechsundzwanzigsten Oktober: Kann die Micron-Aktie um dreissig Prozent fallen?. Die Meldung betrifft auch Micron Technology. Das war eine Meldung zu Intel.",
+"audio": {
+"file": "ent/news_abe87be3c5bf.mp3",
+"hash": "4a98931644775d9d",
+"dur": 16.6,
+"engine": "edge"
+}
+},
+"f20ce530e4b7": {
+"say": "Zur Aktie Amazon. Yahoo Finance meldet am sechsundzwanzigsten Oktober: Eine ungeklärte Frage steht unter Metas Muse Bet. Die Meldung betrifft auch Meta Platforms und Microsoft. Das war eine Meldung zu Amazon.",
+"audio": {
+"file": "ent/news_f20ce530e4b7.mp3",
+"hash": "c3bdd0f84525d2e6",
+"dur": 18.2,
+"engine": "edge"
+}
+},
+"2bda3f7356e5": {
+"say": "Zur Aktie Microsoft. Barron's meldet am sechsundzwanzigsten Oktober: Die Microsoft-Aktie war ein Hit an der Wall Street. Warum massive KI-Ausgaben kein Problem darstellen. Das war eine Meldung zu Microsoft.",
+"audio": {
+"file": "ent/news_2bda3f7356e5.mp3",
+"hash": "f5abc4963058abe9",
+"dur": 17.7,
+"engine": "edge"
+}
+},
+"1f717f559554": {
+"say": "Zur Aktie Broadcom. Barchart.com meldet am sechsundzwanzigsten Oktober: Broadcom ist auf einem sechs-Monats-Tief – ist die AVGO-Aktie zu günstig?. Das war eine Meldung zu Broadcom.",
+"audio": {
+"file": "ent/news_1f717f559554.mp3",
+"hash": "3a2f4b23d3032317",
+"dur": 15.1,
+"engine": "edge"
+}
+},
+"f074e0536917": {
+"say": "Zur Aktie BioNTech. GoingPublic.de meldet am sechsundzwanzigsten Oktober: BioNTech und Qiagen dominieren. Das war eine Meldung zu BioNTech.",
+"audio": {
+"file": "ent/news_f074e0536917.mp3",
+"hash": "566f6f87aefedcb8",
+"dur": 13.3,
+"engine": "edge"
+}
+},
+"bef15c567ac7": {
+"say": "Zur Aktie GE Vernova. TradingView meldet am sechsundzwanzigsten Oktober: GE Vernova Inc. wird voraussichtlich einen Gewinn von drei Komma neun sieben Dollar pro Aktie ausweisen – Gewinnvorschau. Das war eine Meldung zu GE Vernova.",
+"audio": {
+"file": "ent/news_bef15c567ac7.mp3",
+"hash": "47c9b16d71be2c01",
+"dur": 18.0,
+"engine": "edge"
+}
+},
+"1360fbe8d9af": {
+"say": "Zur Aktie Broadcom. Wallstreet Online meldet am sechsundzwanzigsten Oktober: Seagate wittert eine Chance: Dieses Problem bremst die KI-Branche. Die Meldung betrifft auch Seagate Technology PLC. Das war eine Meldung zu Broadcom.",
+"audio": {
+"file": "ent/news_1360fbe8d9af.mp3",
+"hash": "5629c6097418263e",
+"dur": 19.7,
+"engine": "edge"
+}
+},
+"42b490d55145": {
+"say": "Zur Aktie Samsung Electronics. Yahoo Finance meldet am sechsundzwanzigsten Oktober: SAMSUNG SDI liefert eins GWh in den USA hergestelltes ESS an Alpha Omega Power. Das war eine Meldung zu Samsung Electronics.",
+"audio": {
+"file": "ent/news_42b490d55145.mp3",
+"hash": "033563794dc8f981",
+"dur": 18.2,
+"engine": "edge"
+}
+},
+"a9b90ece21b2": {
+"say": "Zur Aktie Broadcom. Quartz meldet am sechsundzwanzigsten Oktober: Meta beschafft etwa fünfunddreissig Milliarden Dollar an Aktien für KI, wobei Nvidia und AMD als potenzielle Käufer gelten. Das war eine Meldung zu Broadcom.",
+"audio": {
+"file": "ent/news_a9b90ece21b2.mp3",
+"hash": "6efabec3b93c7d3a",
+"dur": 18.4,
+"engine": "edge"
+}
+},
+"c74954b0e0d9": {
+"say": "Zur Aktie Oklo. Der Aktionär meldet am sechsundzwanzigsten Oktober: Söllner: eintausend-%-Chance IonQ, Rocket Lab, Okla?! SpaceX-Attacke auf Nebius; Nvidia, Tesla, Palantir. Die Meldung betrifft auch Palantir. Das war eine Meldung zu Oklo.",
+"audio": {
+"file": "ent/news_c74954b0e0d9.mp3",
+"hash": "38290310c5381386",
+"dur": 22.8,
+"engine": "edge"
+}
+},
+"84b99effe2cc": {
+"say": "Zur Aktie Applied Materials. Seeking Alpha meldet am sechsundzwanzigsten Oktober: Der Zusammenbruch von Applied Materials ist ein Geschenk, da langlebige Investitionsausgaben auf kühlende KI-Stimmen treffen. Das war eine Meldung zu Applied Materials.",
+"audio": {
+"file": "ent/news_84b99effe2cc.mp3",
+"hash": "acfc6e1e90c32232",
+"dur": 19.6,
+"engine": "edge"
+}
+},
+"8eeacc029eed": {
+"say": "Zur Aktie Microsoft. Investing.com meldet am sechsundzwanzigsten Oktober: Scotiabank erhöht Kursziel für Microsoft-Aktie aufgrund der Wachstumsaussichten für Azure. Das war eine Meldung zu Microsoft.",
+"audio": {
+"file": "ent/news_8eeacc029eed.mp3",
+"hash": "0ab7565efd846e26",
+"dur": 17.7,
+"engine": "edge"
+}
+},
+"1baa0ffb6952": {
+"say": "Zur Aktie Broadcom. Wallstreet Online meldet am sechsundzwanzigsten Oktober: Meta – Nvidia, AMD und Broadcom steigen ein?. Das war eine Meldung zu Broadcom.",
+"audio": {
+"file": "ent/news_1baa0ffb6952.mp3",
+"hash": "b972d36e296cc8e8",
+"dur": 13.6,
+"engine": "edge"
+}
+},
+"be941ac8d359": {
+"say": "Zur Aktie ZKB Gold ETF. USA Today meldet am sechsundzwanzigsten Oktober: Goldpreis heute am sechsundzwanzig. Oktober 2026. Das war eine Meldung zu ZKB Gold ETF.",
+"audio": {
+"file": "ent/news_be941ac8d359.mp3",
+"hash": "738498e8b04a80c8",
+"dur": 18.6,
+"engine": "edge"
+}
+},
+"ce12db94b558": {
+"say": "Zur Aktie Marvell Technology. Quiver Quantitative meldet am sechsundzwanzigsten Oktober: Fondsaktualisierung: siebenhundertzwanzigtausendvierhunderteinunddreissig MARVELL TECHNOLOGY (MRVL)-Aktien wurden der GF FUND MANAGEMENT CO. LTD hinzugefügt. Portfolio. Das war eine Meldung zu Marvell Technology.",
+"audio": {
+"file": "ent/news_ce12db94b558.mp3",
+"hash": "29bf16310f49464c",
+"dur": 26.8,
+"engine": "edge"
+}
+},
+"17926f2936fa": {
+"say": "Zur Aktie Taiwan Semiconductor. Yahoo Finance meldet am sechsundzwanzigsten Oktober: Ist TSMC (TSM) ein Kauf, da Wall-Street-Analysten optimistisch sind?. Das war eine Meldung zu Taiwan Semiconductor.",
+"audio": {
+"file": "ent/news_17926f2936fa.mp3",
+"hash": "024e1f53f3cca945",
+"dur": 17.6,
+"engine": "edge"
+}
+},
+"cf5d86b59f29": {
+"say": "Zur Aktie Palantir. Yahoo Finance Singapore meldet am sechsundzwanzigsten Oktober: Broker empfehlen eine Investition in Palantir Technologies (PLTR): Lesen Sie dies, bevor Sie eine Wette platzieren. Das war eine Meldung zu Palantir.",
+"audio": {
+"file": "ent/news_cf5d86b59f29.mp3",
+"hash": "bb6aa3966ac4d5e2",
+"dur": 19.7,
+"engine": "edge"
+}
+},
+"9473b32cd01d": {
+"say": "Zur Aktie Microsoft. Investopedia meldet am sechsundzwanzigsten Oktober: Hier erfahren Sie, wie stark sich die Microsoft-Aktie nach den Gewinnen bewegt. Das war eine Meldung zu Microsoft.",
+"audio": {
+"file": "ent/news_9473b32cd01d.mp3",
+"hash": "8f6bae6e5f966991",
+"dur": 15.4,
+"engine": "edge"
+}
+},
+"de004c88f591": {
+"say": "Zur Aktie Broadcom. Yahoo Finance meldet am sechsundzwanzigsten Oktober: Der Preis von SMH ist stark gestiegen, aber die Auszahlung liegt immer noch unter dem Niveau von 2022. Die Meldung betrifft auch Micron Technology und Taiwan Semiconductor. Das war eine Meldung zu Broadcom.",
+"audio": {
+"file": "ent/news_de004c88f591.mp3",
+"hash": "10b461668d0bfc1a",
+"dur": 23.8,
+"engine": "edge"
+}
+},
+"6ef93179f4eb": {
+"say": "Zur Aktie Meta Platforms. MarketScreener Schweiz meldet am sechsundzwanzigsten Oktober: Meta legt Aktien- und Vorzugsaktienangebote im Volumen von fünfunddreissig Milliarden Dollar auf und plant potenzielles ATM-Aktienangebot über sechzig Milliarden Dollar. Das war eine Meldung zu Meta Platforms.",
+"audio": {
+"file": "ent/news_6ef93179f4eb.mp3",
+"hash": "a25d52d8ff75eb07",
+"dur": 23.8,
+"engine": "edge"
+}
+},
+"127e38dd4bdb": {
+"say": "Zur Aktie Amazon. Yahoo Finance meldet am sechsundzwanzigsten Oktober: Die zehn grössten Aktien geraten ins Wanken, und das zieht den S&P fünfhundert nach unten. Die Meldung betrifft auch Broadcom und Meta Platforms. Das war eine Meldung zu Amazon.",
+"audio": {
+"file": "ent/news_127e38dd4bdb.mp3",
+"hash": "5b67fc8def98d736",
+"dur": 20.7,
+"engine": "edge"
+}
+},
+"dfaab2080c53": {
+"say": "Zur Aktie ZKB Gold ETF. tixio - Nachrichten meldet am sechsundzwanzigsten Oktober: Kurse: sechsundzwanzig.zehn.2026: Goldpreis dreitausendfünfhundertachtundachtzig,fünfundneunzig €/Feinunze (dreizehn:neunzehn Uhr). Das war eine Meldung zu ZKB Gold ETF.",
+"audio": {
+"file": "ent/news_dfaab2080c53.mp3",
+"hash": "a92a5435af3dce2e",
+"dur": 25.3,
+"engine": "edge"
+}
+},
+"5f9323b6d6e8": {
+"say": "Zur Aktie Broadcom. Yahoo Finance meldet am sechsundzwanzigsten Oktober: Update: Meta bringt fünfunddreissig-Milliarden-Dollar-Aktien und Vorzugsangebote auf den Markt; Plant potenzielles Geldautomaten-Aktienangebot im Wert von sechzig Milliarden Dollar. Das war eine Meldung zu Broadcom.",
+"audio": {
+"file": "ent/news_5f9323b6d6e8.mp3",
+"hash": "11791d47e509c60e",
+"dur": 22.4,
+"engine": "edge"
+}
+},
+"7c5c226876be": {
+"say": "Zur Aktie Meta Platforms. MarketScreener Deutschland meldet am sechsundzwanzigsten Oktober: Meta: Milliardenschwere Kapitalerhöhung für KI-Ausbau. Das war eine Meldung zu Meta Platforms.",
+"audio": {
+"file": "ent/news_7c5c226876be.mp3",
+"hash": "22b45bc3d9c7d151",
+"dur": 16.7,
+"engine": "edge"
+}
+},
+"258fd388e5ac": {
+"say": "Zur Aktie Broadcom. Yahoo Finance meldet am sechsundzwanzigsten Oktober: Meta startet Aktienangebot im Wert von fünfunddreissig Milliarden Dollar und plant ein weiteres sechzig-Milliarden-Dollar-Programm im Jahr 2027: Nvidia, AMD und Broadcom planen eine Investition von bis zu fünf Milliarden Dollar. Die Meldung betrifft auch Nvidia. Das war eine Meldung zu Broadcom.",
+"audio": {
+"file": "ent/news_258fd388e5ac.mp3",
+"hash": "bee0808f0d010047",
+"dur": 29.9,
+"engine": "edge"
+}
+},
+"e53f03ec3fcc": {
+"say": "Zur Aktie Palantir. TheStreet meldet am sechsundzwanzigsten Oktober: Palantir bringt seine KI in ein unerwartetes neues Geschäft. Das war eine Meldung zu Palantir.",
+"audio": {
+"file": "ent/news_e53f03ec3fcc.mp3",
+"hash": "d0f3eef6fb229fe1",
+"dur": 14.2,
+"engine": "edge"
+}
+},
+"6218bb3881c5": {
+"say": "Zur Aktie GE Vernova. Yahoo Finance meldet am sechsundzwanzigsten Oktober: Zacks Branchenausblick hebt GE Vernova, Constellation Energy und Montauk Renewables hervor. Das war eine Meldung zu GE Vernova.",
+"audio": {
+"file": "ent/news_6218bb3881c5.mp3",
+"hash": "9e89d1b08c970ed4",
+"dur": 17.6,
+"engine": "edge"
+}
+},
+"00c057d7643d": {
+"say": "Zur Aktie Amazon. Yahoo Finance meldet am sechsundzwanzigsten Oktober: Bereiten Sie sich auf die Q3-Ergebnisse von Amazon (AMZN) vor: Wall-Street-Schätzungen für wichtige Kennzahlen. Das war eine Meldung zu Amazon.",
+"audio": {
+"file": "ent/news_00c057d7643d.mp3",
+"hash": "d3a6e1896df4b704",
+"dur": 18.5,
+"engine": "edge"
+}
+},
+"6b20451458c4": {
+"say": "Zur Aktie Intel. Yahoo Finance Singapore meldet am sechsundzwanzigsten Oktober: Erschliessung des Q3-Potenzials von Intel (INTC): Untersuchung von Wall-Street-Schätzungen auf Schlüsselkennzahlen. Das war eine Meldung zu Intel.",
+"audio": {
+"file": "ent/news_6b20451458c4.mp3",
+"hash": "e4d3bb4b11f62c5b",
+"dur": 18.8,
+"engine": "edge"
+}
+},
+"a4b33bfaeb19": {
+"say": "Zur Aktie Broadcom. Handelsblatt meldet am sechsundzwanzigsten Oktober: KI: Meta sammelt bis zu fünfundneunzig Milliarden für KI-Entwicklung ein. Das war eine Meldung zu Broadcom.",
+"audio": {
+"file": "ent/news_a4b33bfaeb19.mp3",
+"hash": "524415aadd7511f3",
+"dur": 15.3,
+"engine": "edge"
+}
+}
 }
 }

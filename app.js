@@ -2,7 +2,7 @@
 (function () {
 'use strict';
 var REPO = 'ayoub971-prog/aktien-radar';
-var APP_VERSION = 'v32';
+var APP_VERSION = 'v33';
 var SECTOR_ORDER = ['Halbleiter/Hardware', 'Software/KI', 'Energie', 'Industrie/Luftfahrt', 'Finanzen', 'Rohstoffe/Gold', 'Konsum/Internet', 'Gesundheit', 'ETFs/Indizes', 'Sonstige'];
 var TAGS = [
   { n: 'Quartalszahlen', re: /quartalszahl|quartalsergebnis|quartalsbericht|jahreszahlen|halbjahreszahlen|geschäftszahlen|\bearnings\b|quarterly results|\bq[1-4]\b.{0,12}(results|earnings|revenue)|(results|earnings) for (the )?(first|second|third|fourth)|\bumsatz\b|\bbilanz\b/i },
@@ -554,7 +554,7 @@ function insightsHtml(sym, q) {
 
 var nf = { sym: '', tag: '', q: '', only: false, limit: 60 };
 function viewNews() {
-  var list = stockList(), h = '<h2 style="margin-top:6px">Alle Nachrichten</h2>';
+  var list = stockList(), h = '<h2 style="margin-top:6px">Alle Nachrichten</h2><div id="newsPod"></div>';
   h += '<div class="bar"><select id="fSym"><option value="">Alle Aktien</option>';
   var sorted = list.slice().sort(function (a, b) { return a.name.toLowerCase() < b.name.toLowerCase() ? -1 : 1; });
   for (var i = 0; i < sorted.length; i++) h += '<option value="' + esc(sorted[i].symbol) + '">' + esc(sorted[i].name) + ' (' + esc(sorted[i].symbol) + ')</option>';
@@ -590,6 +590,8 @@ function fillNews(list) {
   $('nCount').textContent = res.length + ' Meldungen, neueste zuerst. Nachrichten: Stand ' + ago(N.generated_at) + '.';
   $('nList').innerHTML = h;
   if ($('moreBtn')) $('moreBtn').onclick = function () { nf.limit += 60; fillNews(list); };
+  NEWSRES = res; var nd = $('nList').querySelectorAll('.news'); for (i = 0; i < nd.length && i < res.length; i++) { nd[i].setAttribute('data-esym', res[i].id || ''); if (ESEL && ENT_CTX === 'news') { nd[i].classList.add('selMode'); if (ESELNOW.indexOf(res[i].id) >= 0) nd[i].classList.add('selOn'); } }
+  newsPod();
 }
 
 var mf = { topic: '', q: '', limit: 60 };
@@ -1360,10 +1362,10 @@ function entUsd(x) { return x == null ? '–' : x.toLocaleString('de-CH', { mini
 function entInList(sym) { return ((DEF && DEF.stocks) || []).some(function (s) { return s.symbol.toUpperCase() === sym.toUpperCase(); }); }
 function entPend(sym) { return pendGet().some(function (p) { return p.op === 'add' && p.q.toUpperCase() === sym.toUpperCase(); }); }
 function viewEntdecken() {
-  var v = $('view');
+  var v = $('view'); if (ENT_CTX === 'news') { ESEL = false; ESELNOW = []; ENT_CTX = ENT_TAB; }
   if (!ENT) {
     v.innerHTML = '<h2>Entdecken</h2><p class="tiny">Lade …</p>';
-    getJSON('data/entdecken.json?t=' + Math.floor(Date.now() / 600e3)).then(function (d) { ENT = d || { lists: {} }; if (location.hash === '#/entdecken') viewEntdecken(); })
+    getJSON('data/entdecken.json?t=' + Math.floor(Date.now() / 600e3)).then(function (d) { ENT = d || { lists: {} }; if (ENTWANT || !ENS.doc) { ENS.doc = ENT; ENS.segs = []; ENTWANT = false; } if (location.hash === '#/entdecken') viewEntdecken(); })
       ['catch'](function () { ENT = { lists: {}, err: 1 }; if (location.hash === '#/entdecken') viewEntdecken(); });
     return;
   }
@@ -1371,17 +1373,192 @@ function viewEntdecken() {
   var h = '<h2>Entdecken</h2><div class="entChips">' + ENT_LISTS.map(function (l) { return '<button type="button" class="entChip' + (l[0] === cur[0] ? ' on' : '') + '" data-ent="' + l[0] + '">' + l[1] + '</button>'; }).join('') + '</div>';
   h += '<p class="tiny">' + esc(cur[2]) + (ENT.generated_at ? ' Stand: ' + new Date(ENT.generated_at).toLocaleString('de-CH', { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' }) + '.' : '') +
     (ENT.universe ? ' Aus ' + ENT.universe + ' Aktien (S&P 500, Nasdaq-100, deine Liste).' : '') + '</p>';
+  h += entPodHtml(cur[0], items.length);
   if (!items.length) h += '<div class="banner">' + (ENT.err ? 'Die Entdecken-Daten konnten nicht geladen werden.' : 'Für diese Liste gibt es im Moment keine Daten.') + '</div>';
   h += items.map(function (x, i) {
     var inL = entInList(x.symbol), pend = entPend(x.symbol);
     var btn = inL ? '<span class="pill">✓ auf deiner Liste</span>' : pend ? '<span class="pill">⏳ wird hinzugefügt</span>' : '<button type="button" class="small entAdd" data-add="' + esc(x.symbol) + '">+ auf Liste</button>';
-    return '<div class="erow"><div class="eTop"><div class="eL"><b>' + (i + 1) + '. ' + esc(x.name) + '</b><span>' + esc(x.symbol) + '</span></div><div class="eR"><b>' + entUsd(x.price_usd) + '</b><span class="eM">' + esc(x.metric) + '</span></div></div>' +
+    return '<div class="erow' + (ESEL ? ' selMode' + (ESELNOW.indexOf(x.symbol) >= 0 ? ' selOn' : '') : '') + '" data-esym="' + esc(x.symbol) + '"><div class="eTop"><div class="eL"><b>' + (i + 1) + '. ' + esc(x.name) + '</b><span>' + esc(x.symbol) + '</span></div><div class="eR"><b>' + entUsd(x.price_usd) + '</b><span class="eM">' + esc(x.metric) + '</span></div></div>' +
       '<div class="eWhy">' + esc(x.reason) + (x.ai ? '<div class="eAi">' + esc(x.ai) + ' <span class="tag">KI</span></div>' : '') + '</div><div class="eAct">' + (inL ? '<a class="small" href="#/s/' + encodeURIComponent(x.symbol) + '">Details ›</a>' : '') + btn + '</div></div>';
   }).join('');
   h += '<p class="disc">Zum Lernen, keine Anlageberatung. Quellen: ' + esc((ENT.sources || ['Yahoo Finance']).join(', ')) + '. Kurse ggf. verzögert, alle Beträge in USD. Nur tatsächlich abgerufene Daten; fehlt etwas, wird es nicht gezeigt.</p>';
   v.innerHTML = h; window.scrollTo(0, 0);
   var c = v.querySelectorAll('[data-ent]'); for (var i = 0; i < c.length; i++) c[i].onclick = function () { ENT_TAB = this.getAttribute('data-ent'); try { localStorage.setItem('ar.entTab', ENT_TAB); } catch (e) {} viewEntdecken(); };
   var a = v.querySelectorAll('[data-add]'); for (var j = 0; j < a.length; j++) a[j].onclick = function () { var q = this.getAttribute('data-add'); pendAdd('add', q); window.open(ghIssueUrl('add: ' + q), '_blank'); viewEntdecken(); };
+  ENT_CTX = cur[0]; bindEntPod(cur[0]);
+}
+
+/* ===== Entdecken-Podcast: gleiche Logik wie Startseite, eigener Stand; nutzt dasselbe <audio>-Element (POD.el) ===== */
+var ENS = { doc: null, k: null, segs: [], i: 0, si: 0, t: 0, playing: false, tok: 0, sel: null, gen: '' }, ENTWANT = false, ESEL = false, ESELNOW = [], entHid = 0;
+function entBusy() { return ENS.playing || ENS.i > 0 || ENS.si > 0 || ENS.t > 0; }
+document.addEventListener('visibilitychange', function () {
+  if (document.hidden) { entHid = Date.now(); return; }
+  var busy = entBusy() || POD.playing || POD.i > 0 || POD.t > 0 || P.playing;
+  if (entHid && Date.now() - entHid > (+lsGet('ar.snapms') || 10 * 60e3) && !busy) { ENTWANT = true; ENT = null; if (location.hash === '#/entdecken') viewEntdecken(); }
+}, true);
+var ENT_CTX = 'potenzial', NEWSRES = [], ENEWS_CAP = (+lsGet('ar.newsCap') || 30);
+function entName(k) { if (k === 'news') return 'Nachrichten'; var l = ENT_LISTS.filter(function (x) { return x[0] === k; })[0]; return l ? l[1] : k; }
+function entSrc(a) { var b = (ENS.doc && ENS.doc.audio_base) || 'data/audio/'; return b + a.file.split('/').map(encodeURIComponent).join('/') + '?v=' + a.hash; }
+function newsSay(x) {
+  var defs = (DEF && DEF.stocks) || [], nm = null;
+  for (var i = 0; i < (x.symbols || []).length && !nm; i++) for (var j = 0; j < defs.length; j++) if (defs[j].symbol === x.symbols[i] && x.symbols[i].charAt(0) !== '^') { nm = defs[j].name; break; }
+  nm = nm || 'deinem Markt';
+  var t = (x.title_de || x.title || '').replace(/ß/g, 'ss').replace(/(US\$|\$)\s?([\d.,]+)\s*(Mrd\.?|Milliarden|Mio\.?|Millionen|bn)?/g, function (m, c, n, u) { return n + ' ' + (u ? ({ 'Mrd': 'Milliarden', 'Mrd.': 'Milliarden', 'bn': 'Milliarden', 'Mio': 'Millionen', 'Mio.': 'Millionen' }[u] || u) + ' ' : '') + 'Dollar'; })
+    .replace(/\bUS-Dollar\b|\bUSD\b/g, 'Dollar').replace(/[\d.,]+\s*(Mrd\.?|Milliarden|Mio\.?|Millionen)?\s*(Euro|EUR|€|CHF|Franken|Pfund|£)|(€|£|CHF)\s?[\d.,]+\s*(Mrd\.?|Mio\.?|Milliarden|Millionen)?/g, 'ein Betrag in Fremdwährung');
+  return 'Zur Aktie ' + nm + '. ' + (x.source || 'Eine Quelle') + ' meldet: ' + t.replace(/[.\s]+$/, '') + '. Das war eine Meldung zu ' + nm + '.';
+}
+function entBuild(k, sel) {
+  if (k === 'news') {
+    var nm = (ENS.doc && ENS.doc.news) || {}, src = NEWSRES.filter(function (x) { return !sel || sel.indexOf(x.id) >= 0; }).slice(0, sel ? 999 : ENEWS_CAP);
+    ENS.k = k; ENS.sel = sel || null;
+    ENS.segs = src.map(function (x) { var a = nm[x.id]; return { sym: x.id, name: (x.title_de || x.title || '').slice(0, 70), text: a && a.say ? a.say : newsSay(x), audio: a && a.audio || null }; });
+    ENS.gen = 'news|' + ENS.segs.map(function (x) { return x.sym; }).join(',');
+    return;
+  }
+  var d = ENS.doc || {}, items = ((d.lists || {})[k] || []).filter(function (x) { return x.say && (!sel || sel.indexOf(x.symbol) >= 0); });
+  var segs = items.map(function (x) { return { sym: x.symbol, name: x.name, text: x.say, audio: x.audio || null }; });
+  var it = (d.intros || {})[k];
+  if (!sel && it && it.say && segs.length) segs.unshift({ sym: '_intro', name: 'Erklärung: ' + entName(k), text: it.say, audio: it.audio || null });
+  ENS.k = k; ENS.sel = sel || null; ENS.segs = segs; ENS.gen = (d.generated_at || '') + '|' + k + '|' + segs.map(function (x) { return x.sym; }).join(',');
+}
+function entSave() { var g = ENS.segs[ENS.i]; lsSet('ar.ent.pod', JSON.stringify({ gen: ENS.gen, sym: g && g.sym, si: ENS.si, t: ENS.t })); }
+function entRestore() {
+  ENS.i = 0; ENS.si = 0; ENS.t = 0;
+  var o = null; try { o = JSON.parse(lsGet('ar.ent.pod') || 'null'); } catch (e) {}
+  if (!o || o.gen !== ENS.gen) return;
+  for (var i = 0; i < ENS.segs.length - 1; i++) if (ENS.segs[i].sym === o.sym) { ENS.i = i; ENS.si = o.si || 0; ENS.t = o.t || 0; }
+}
+function entHalt() { ENS.tok++; try { if (POD.el && POD.el.dataset.owner === 'ent') POD.el.pause(); } catch (e) {} try { if (!POD.playing && !P.playing) window.speechSynthesis && window.speechSynthesis.cancel(); } catch (e) {} }
+function entPause() { if (!ENS.playing) return; var g = ENS.segs[ENS.i]; if (g && g.audio && POD.el) { try { ENS.t = POD.el.currentTime; } catch (e) {} } ENS.playing = false; entHalt(); entSave(); entUI(); entMeta(); }
+function entPreload() {
+  for (var j = ENS.i + 1; j < ENS.segs.length; j++) if (ENS.segs[j].audio) {
+    var src = entSrc(ENS.segs[j].audio);
+    if (!ENS.pre || ENS.pre.dataset.src !== src) { ENS.pre = new Audio(); ENS.pre.preload = 'auto'; ENS.pre.muted = true; ENS.pre.src = src; ENS.pre.dataset.src = src; try { ENS.pre.load(); } catch (e) {} }
+    return;
+  }
+}
+function entNext() { ENS.i++; ENS.si = 0; ENS.t = 0; if (ENS.i >= ENS.segs.length) { ENS.playing = false; ENS.i = 0; entSave(); entUI(); entMeta(); return; } entSave(); entRun(); }
+function entRun() {
+  var seg = ENS.segs[ENS.i], tok = ++ENS.tok; if (!seg) return;
+  entUI(); entMeta();
+  if (seg.audio) {
+    if (!POD.el) { POD.el = new Audio(); POD.el.preload = 'auto'; }
+    var a = POD.el, src = entSrc(seg.audio), last = 0;
+    a.dataset.owner = 'ent';
+    if (a.dataset.src !== src) { a.src = src; a.dataset.src = src; }
+    var seek = function () { try { if (Math.abs(a.currentTime - ENS.t) > 1) a.currentTime = ENS.t; } catch (e) {} };
+    a.onloadedmetadata = seek;
+    a.ontimeupdate = function () { if (tok !== ENS.tok) return; ENS.t = a.currentTime; if (Math.abs(ENS.t - last) > 2) { last = ENS.t; entSave(); } };
+    a.onended = function () { if (tok === ENS.tok && ENS.playing) entNext(); };
+    a.onerror = function () { if (tok !== ENS.tok) return; seg.audio = null; ENS.t = 0; entRun(); };
+    seek(); applyRate(a); var pr = a.play(); entPreload(); if (pr && pr.catch) pr.catch(function () { if (tok !== ENS.tok) return; ENS.playing = false; entUI(); entMeta(); });
+    return;
+  }
+  var ss = window.speechSynthesis; if (!ss) { ENS.playing = false; entUI(); return; }
+  var sents = splitSents(seg.text);
+  if (ENS.si >= sents.length) { entNext(); return; }
+  var u = new SpeechSynthesisUtterance(sents[ENS.si]), v = pickVoice();
+  u.lang = v ? v.lang : 'de-DE'; if (v) u.voice = v; u.rate = speechRate();
+  u.onend = function () { if (tok !== ENS.tok || !ENS.playing) return; ENS.si++; entSave(); entRun(); };
+  u.onerror = function () { if (tok !== ENS.tok) return; ENS.playing = false; entUI(); entMeta(); };
+  ss.speak(u);
+}
+function entPlay() {
+  if (!ENS.segs.length) return;
+  if (POD.playing) podPause();
+  if (P.playing) { plStopSpeech(); P.playing = false; try { plSave(); plUI(); } catch (e) {} }
+  ENS.playing = true; entRun();
+}
+function entJump(d) { var was = ENS.playing; entHalt(); ENS.i = Math.max(0, Math.min(ENS.segs.length - 1, ENS.i + d)); ENS.si = 0; ENS.t = 0; entSave(); if (was) { ENS.playing = true; entRun(); } else { entUI(); entMeta(); } }
+function entPos() { var off = ENS.segs[0] && ENS.segs[0].sym === '_intro' ? 1 : 0; return { p: Math.max(1, ENS.i - off + 1), n: ENS.segs.length - off }; }
+function entMeta() {
+  if (!('mediaSession' in navigator)) return;
+  var seg = ENS.segs[ENS.i], q = entPos();
+  try {
+    navigator.mediaSession.metadata = new MediaMetadata({ title: 'Jetzt: ' + (seg ? seg.name : ''), artist: 'Aktien-Radar · Entdecken ' + entName(ENS.k) + (ENS.sel ? ' · Auswahl' : '') + ' ' + q.p + '/' + q.n, album: 'Entdecken' });
+    navigator.mediaSession.playbackState = ENS.playing ? 'playing' : 'paused';
+    navigator.mediaSession.setActionHandler('play', function () { if (!ENS.playing) entPlay(); });
+    navigator.mediaSession.setActionHandler('pause', function () { entPause(); });
+    try { navigator.mediaSession.setActionHandler('stop', function () { entPause(); }); } catch (e) {}
+    navigator.mediaSession.setActionHandler('previoustrack', function () { entJump(-1); });
+    navigator.mediaSession.setActionHandler('nexttrack', function () { entJump(1); });
+  } catch (e) {}
+}
+function entUI() {
+  var cur = ENT_CTX, same = ENS.k === cur && !ENS.sel, b = $('entPodBtn');
+  if (b) b.textContent = same && ENS.playing ? '❚❚ Podcast pausieren' : same && (ENS.i > 0 || ENS.si > 0 || ENS.t > 0) ? '🎙 Podcast fortsetzen' : '🎙 Podcast: ' + entName(cur);
+  var c = $('entCtl'); if (!c) return;
+  var seg = ENS.segs[ENS.i], q = entPos();
+  c.hidden = !ENS.segs.length || (!ENS.playing && ENS.i === 0 && !ENS.si && !ENS.t && !ENS.sel);
+  if ($('entNow')) $('entNow').textContent = seg ? 'Jetzt: ' + seg.name : '';
+  if ($('entInfo')) $('entInfo').textContent = seg ? entName(ENS.k) + (ENS.sel ? ' (Auswahl)' : '') + ' · ' + q.p + ' / ' + q.n + ' · ' + (seg.audio ? (ENS.playing || ENS.t ? fmtT(ENS.t) + (seg.audio.dur ? ' / ' + fmtT(seg.audio.dur) : '') + ' · ' : '') + 'MP3-Stimme' : 'Gerätestimme') : '';
+  if ($('entPP')) $('entPP').textContent = ENS.playing ? '❚❚' : '▶';
+  if ($('entSelN')) $('entSelN').textContent = ESELNOW.length;
+  if ($('entSelPlay')) $('entSelPlay').disabled = !ESELNOW.length;
+}
+setInterval(function () { if (ENS.playing && $('entInfo')) entUI(); }, 1000);
+function entPodHtml(k, n) {
+  if (!n) return '';
+  var dv = ENS.doc && ENS.doc.generated_at ? new Date(ENS.doc.generated_at).toLocaleString('de-CH', { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' }) : '';
+  var newer = ENT && ENS.doc && ENT.generated_at !== ENS.doc.generated_at;
+  return '<button type="button" id="entPodBtn" class="podBtn">🎙 Podcast</button><div class="tiny" style="margin:-4px 0 8px;text-align:center">' + (dv ? 'Audio vom ' + dv : '') + (newer ? ' · 🆕 Neuer Stand wird beim nächsten Öffnen geladen.' : '') + '</div>' +
+    '<div id="entCtl" class="podCtl" hidden><div><b id="entNow"></b> <span id="entInfo" class="tiny"></span></div><div class="podRow"><button type="button" id="entPrev" aria-label="Vorherige Aktie">⏮</button><button type="button" id="entPP" class="primary" aria-label="Play/Pause">▶</button><button type="button" id="entNext" aria-label="Nächste Aktie">⏭</button></div><button type="button" id="entRestart" class="small" style="margin-top:6px">↺ Von vorn</button>' + rateHtml() + '</div>' +
+    (k === 'news' ? '<div class="bar"><label class="tiny">Vorlesen: <select id="newsCap">' + [10, 30, 60].map(function (c) { return '<option value="' + c + '"' + (c === ENEWS_CAP ? ' selected' : '') + '>neueste ' + c + '</option>'; }).join('') + '</select></label></div>' : '') +
+    '<div class="selRow"><button type="button" id="entSelTog" class="small">' + (ESEL ? '✕ Auswahl beenden' : '☑ Auswählen') + '</button><button type="button" class="small" data-txt="ent">📄 Als Text / PDF</button></div>' +
+    (ESEL ? '<p class="tiny" style="margin:4px 0 8px">Tippe auf die Aktien, die du hören willst.</p><div class="selBar"><button type="button" id="entSelPlay" class="podBtn" style="margin:0">▶ Auswahl abspielen (<span id="entSelN">0</span>)</button><button type="button" id="entSelNone" class="small">Alle abwählen</button></div>' : '');
+}
+function bindEntPod(k) {
+  if (!$('entPodBtn')) return;
+  if (!ENS.playing && (k === 'news' || !(ENS.k === k && !ENS.sel && ENS.segs.length))) { entBuild(k); entRestore(); }
+  $('entPodBtn').onclick = function () {
+    if (ENS.k !== k || ENS.sel) { entHalt(); ENS.playing = false; entBuild(k); entRestore(); return entPlay(); }
+    ENS.playing ? entPause() : entPlay();
+  };
+  $('entPP').onclick = function () { ENS.playing ? entPause() : entPlay(); };
+  $('entPrev').onclick = function () { entJump(-1); };
+  $('entNext').onclick = function () { entJump(1); };
+  $('entRestart').onclick = function () { var was = ENS.playing; entHalt(); ENS.i = 0; ENS.si = 0; ENS.t = 0; entSave(); if (was) { ENS.playing = true; entRun(); } else { entUI(); entMeta(); } };
+  var rer = function () { if (k === 'news') newsPod(); else viewEntdecken(); };
+  if ($('newsCap')) $('newsCap').onchange = function () { ENEWS_CAP = +this.value; lsSet('ar.newsCap', String(ENEWS_CAP)); if (!(ENS.k === 'news' && ENS.playing)) { entBuild('news'); entRestore(); } entUI(); };
+  $('entSelTog').onclick = function () { ESEL = !ESEL; if (!ESEL) ESELNOW = []; rer(); };
+  if ($('entSelNone')) $('entSelNone').onclick = function () { ESELNOW = []; rer(); };
+  if ($('entSelPlay')) $('entSelPlay').onclick = function () {
+    var order = (k === 'news' ? NEWSRES.map(function (x) { return x.id; }) : (((ENS.doc || {}).lists || {})[k] || []).map(function (x) { return x.symbol; })).filter(function (s) { return ESELNOW.indexOf(s) >= 0; });
+    entHalt(); ENS.playing = false; entBuild(k, order); ESEL = false; ESELNOW = []; rer(); entPlay();
+  };
+  var rows = document.querySelectorAll(k === 'news' ? '#nList .news[data-esym]' : '#view .erow');
+  for (var i = 0; i < rows.length; i++) rows[i].addEventListener('click', function (e) {
+    if (!ESEL) return;
+    if (k === 'news') e.preventDefault(); else if (e.target.closest && e.target.closest('button,a')) return;
+    var s = this.getAttribute('data-esym'), j = ESELNOW.indexOf(s); if (j >= 0) ESELNOW.splice(j, 1); else ESELNOW.push(s);
+    this.classList.toggle('selOn', j < 0); entUI();
+  });
+  entUI();
+}
+// Startseiten-Podcast oder Vorlesen startet: Entdecken pausieren (ein Audio zur Zeit)
+var _podPlay0 = podPlay; podPlay = function () { if (ENS.playing) entPause(); if (POD.el) POD.el.dataset.owner = 'pod'; return _podPlay0.apply(this, arguments); };
+var _plAP0 = plAudioPlay; plAudioPlay = function () { if (ENS.playing) entPause(); if (POD.el) POD.el.dataset.owner = ''; return _plAP0.apply(this, arguments); };
+var _plSp0 = plSpeak; plSpeak = function () { if (ENS.playing) entPause(); return _plSp0.apply(this, arguments); };
+var _txtDoc0 = txtDoc; txtDoc = function (what) {
+  if (what !== 'ent') return _txtDoc0(what);
+  if (ENT_CTX === 'news') { if (!(ENS.k === 'news' && ENS.segs.length)) entBuild('news'); return { title: 'Aktien-Radar Nachrichten', parts: ENS.segs.map(function (g) { return { h: g.name, t: g.text }; }) }; }
+  var k = ENT_TAB, d = ENS.doc || ENT || {}, items = (d.lists || {})[k] || [], it = (d.intros || {})[k];
+  return { title: 'Aktien-Radar Entdecken: ' + entName(k), parts: (it && it.say ? [{ h: 'Erklärung', t: it.say }] : []).concat(items.map(function (x) { return { h: x.name + ' (' + x.symbol + ')', t: x.say || x.reason }; })) };
+};
+
+function entLoad(cb) {
+  if (ENS.doc) return cb();
+  getJSON('data/entdecken.json?t=' + Math.floor(Date.now() / 600e3)).then(function (d) { if (!ENT) ENT = d; if (!ENS.doc) { ENS.doc = d; ENTWANT = false; } cb(); }, function () { ENS.doc = { lists: {} }; cb(); });
+}
+function newsPod() {
+  var b = $('newsPod'); if (!b) return;
+  if (ENT_CTX !== 'news') { ESEL = false; ESELNOW = []; }
+  ENT_CTX = 'news';
+  entLoad(function () {
+    if (!$('newsPod')) return;
+    b.innerHTML = entPodHtml('news', NEWSRES.length);
+    bindEntPod('news');
+  });
 }
 
 })();

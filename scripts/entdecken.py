@@ -128,7 +128,10 @@ def main():
         time.sleep(0.25)
     R = list(rows.values())
     def item(r, metric, reason):
-        return {"symbol": r["symbol"], "name": r["name"], "price_usd": r["price_usd"], "mine": r["mine"], "metric": metric, "reason": reason}
+        d = {k: r[k] for k in ("upside", "target_usd", "analysts", "m1", "m3") if r.get(k) is not None}
+        if r.get("changes"): d["changes"] = r["changes"]
+        if r.get("earn"): d["earn"] = dict(r["earn"], fx=r["fx"] if r["earn"].get("cur") == q[r["symbol"]].get("currency") else (1.0 if r["earn"].get("cur") == "USD" else None))
+        return {"symbol": r["symbol"], "name": r["name"], "price_usd": r["price_usd"], "mine": r["mine"], "metric": metric, "reason": reason, "d": d}
     def chtxt(r):
         return " ".join("%s %s (%s)." % (c["firm"], "stuft hoch" + (" auf " + c["to"] if c["to"] else "") if c["a"] == "up" else "stuft ab" + (" auf " + c["to"] if c["to"] else ""), d_ch(c["t"])) for c in r["changes"][:2])
     pot = sorted([r for r in R if r.get("upside") is not None and r.get("analysts", 0) >= 8], key=lambda r: -(r["upside"] + 3 * sum(1 if c["a"] == "up" else -1 for c in r["changes"])))[:N]
