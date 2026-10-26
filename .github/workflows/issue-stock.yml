@@ -31,7 +31,7 @@ jobs:
           git add watchlist.json data/added.json
           if git diff --cached --quiet; then echo "keine Aenderung"; exit 0; fi
           git commit -m "Liste per Issue #${{ github.event.issue.number }}"
-          git pull --rebase -q
+          git pull --rebase --autostash -q
           git push
       - name: Daten und Podcast neu holen
         if: always()

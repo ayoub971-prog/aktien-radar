@@ -35,7 +35,7 @@ jobs:
           if [ -f data/ai.json ]; then git add data/ai.json; fi
           if git diff --cached --quiet; then echo "keine Aenderung"; exit 0; fi
           git commit -m "Aktie per Kurzbefehl: $(head -c 80 /tmp/summary.md)"
-          git pull --rebase -q
+          git pull --rebase --autostash -q
           git push
       - name: Ergebnis
         run: cat /tmp/summary.md >> "$GITHUB_STEP_SUMMARY"

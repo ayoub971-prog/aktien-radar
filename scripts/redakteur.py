@@ -9,7 +9,7 @@ CACHE = os.path.join(ROOT, "data", "redakteur.json")
 API = "https://generativelanguage.googleapis.com/v1beta"
 MODELS = ["gemini-3.5-flash-lite", "gemini-3.1-flash-lite", "gemini-2.5-flash-lite", "gemini-flash-lite-latest", "gemini-2.5-flash"]
 VERSION = 1
-MAX_CALLS = int(os.environ.get("RED_MAX_CALLS", "40"))
+MAX_CALLS = int(os.environ.get("RED_MAX_CALLS", "60"))
 STATE = {"calls": 0, "models": list(MODELS), "dead": False, "log": []}
 
 P_EDIT = """Du bist Redakteur:in eines Schweizer Börsen-Podcasts (Hochdeutsch für die Schweiz).
@@ -69,7 +69,12 @@ def _call(prompt, key):
             txt = "".join(p.get("text", "") for p in parts if not p.get("thought"))
             mm = re.search(r"\{.*\}", txt, re.S)
             time.sleep(4)
-            if mm: return (json.loads(mm.group(0)).get("t") or {})
+            if mm:
+                raw = mm.group(0)
+                try: return (json.loads(raw, strict=False).get("t") or {})
+                except ValueError:
+                    raw = re.sub(r'\\(u[0-9a-fA-F]{4}|["\\/bfnrt])|\\', lambda x: x.group(0) if x.group(1) else '', raw)
+                    return (json.loads(raw, strict=False).get("t") or {})
             STATE["log"].append("%s: kein JSON" % m)
         except urllib.error.HTTPError as e:
             try: msg = json.loads(e.read()).get("error", {}).get("message", "")

@@ -65,5 +65,5 @@ jobs:
           for f in data/entdecken.json data/audio/ent/index.json data/redakteur.json; do [ -f $f ] && git add $f; done
           if git diff --cached --quiet; then echo "keine Aenderung"; exit 0; fi
           git commit -m "Daten $(date -u +%Y-%m-%dT%H:%MZ)"
-          git pull --rebase -q
+          git pull --rebase --autostash -q
           git push
