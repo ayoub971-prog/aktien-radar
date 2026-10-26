@@ -599,7 +599,7 @@ function viewMarkt() {
   var topics = (DEF && DEF.market_topics) || [], h = '<h2 style="margin-top:6px">Marktweit</h2><p class="tiny">Themen, die viele Aktien betreffen können: Zölle, Zinsen, Notenbanken, KI-Chips, Exportkontrollen.</p>';
   h += '<div class="bar"><select id="mTopic"><option value="">Alle Themen</option>';
   for (var i = 0; i < topics.length; i++) h += '<option value="' + esc(topics[i].topic) + '">' + esc(topics[i].label) + '</option>';
-  h += '</select></div><div class="bar"><input type="search" id="mQ" placeholder="Suchen in Titeln" autocomplete="off"></div><p class="tiny" id="mCount"></p><div id="mList"></div>';
+  h += '</select></div><div class="bar"><input type="search" id="mQ" placeholder="Suchen in Titeln" autocomplete="off"></div><p class="tiny" id="mCount"></p><div id="newsPod"></div><div id="mList"></div>';
   $('view').innerHTML = h;
   $('mTopic').value = mf.topic; $('mQ').value = mf.q;
   function fill() {
@@ -612,6 +612,9 @@ function viewMarkt() {
     $('mCount').textContent = res.length + ' Meldungen, neueste zuerst.';
     $('mList').innerHTML = out;
     if ($('mMore')) $('mMore').onclick = function () { mf.limit += 60; fill(); };
+    NEWSRES = res; var nd = $('mList').querySelectorAll('.news');
+    for (var j = 0; j < nd.length && j < res.length; j++) { nd[j].setAttribute('data-esym', res[j].id || ''); if (ESEL && ENT_CTX === 'markt') { nd[j].classList.add('selMode'); if (ESELNOW.indexOf(res[j].id) >= 0) nd[j].classList.add('selOn'); } }
+    marktPod();
   }
   $('mTopic').onchange = function () { mf.topic = $('mTopic').value; mf.limit = 60; fill(); };
   $('mQ').oninput = function () { mf.q = $('mQ').value; mf.limit = 60; fill(); };
@@ -1362,7 +1365,7 @@ function entUsd(x) { return x == null ? '–' : x.toLocaleString('de-CH', { mini
 function entInList(sym) { return ((DEF && DEF.stocks) || []).some(function (s) { return s.symbol.toUpperCase() === sym.toUpperCase(); }); }
 function entPend(sym) { return pendGet().some(function (p) { return p.op === 'add' && p.q.toUpperCase() === sym.toUpperCase(); }); }
 function viewEntdecken() {
-  var v = $('view'); if (ENT_CTX === 'news') { ESEL = false; ESELNOW = []; ENT_CTX = ENT_TAB; }
+  var v = $('view'); if (NL(ENT_CTX)) { ESEL = false; ESELNOW = []; ENT_CTX = ENT_TAB; }
   if (!ENT) {
     v.innerHTML = '<h2>Entdecken</h2><p class="tiny">Lade …</p>';
     getJSON('data/entdecken.json?t=' + Math.floor(Date.now() / 600e3)).then(function (d) { ENT = d || { lists: {} }; if (ENTWANT || !ENS.doc) { ENS.doc = ENT; ENS.segs = []; ENTWANT = false; } if (location.hash === '#/entdecken') viewEntdecken(); })
@@ -1397,22 +1400,25 @@ document.addEventListener('visibilitychange', function () {
   if (entHid && Date.now() - entHid > (+lsGet('ar.snapms') || 10 * 60e3) && !busy) { ENTWANT = true; ENT = null; if (location.hash === '#/entdecken') viewEntdecken(); }
 }, true);
 var ENT_CTX = 'potenzial', NEWSRES = [], ENEWS_CAP = (+lsGet('ar.newsCap') || 30);
-function entName(k) { if (k === 'news') return 'Nachrichten'; var l = ENT_LISTS.filter(function (x) { return x[0] === k; })[0]; return l ? l[1] : k; }
+function NL(k) { return k === 'news' || k === 'markt'; }
+function topicLabel(t) { var a = (DEF && DEF.market_topics) || []; for (var i = 0; i < a.length; i++) if (a[i].topic === t) return a[i].label; return t || 'Markt'; }
+function entName(k) { if (k === 'news') return 'Nachrichten'; if (k === 'markt') return 'Marktweit'; var l = ENT_LISTS.filter(function (x) { return x[0] === k; })[0]; return l ? l[1] : k; }
 function entSrc(a) { var b = (ENS.doc && ENS.doc.audio_base) || 'data/audio/'; return b + a.file.split('/').map(encodeURIComponent).join('/') + '?v=' + a.hash; }
-function newsSay(x) {
+function newsSay(x, mk) {
   var defs = (DEF && DEF.stocks) || [], nm = null;
   for (var i = 0; i < (x.symbols || []).length && !nm; i++) for (var j = 0; j < defs.length; j++) if (defs[j].symbol === x.symbols[i] && x.symbols[i].charAt(0) !== '^') { nm = defs[j].name; break; }
   nm = nm || 'deinem Markt';
   var t = (x.title_de || x.title || '').replace(/ß/g, 'ss').replace(/(US\$|\$)\s?([\d.,]+)\s*(Mrd\.?|Milliarden|Mio\.?|Millionen|bn)?/g, function (m, c, n, u) { return n + ' ' + (u ? ({ 'Mrd': 'Milliarden', 'Mrd.': 'Milliarden', 'bn': 'Milliarden', 'Mio': 'Millionen', 'Mio.': 'Millionen' }[u] || u) + ' ' : '') + 'Dollar'; })
     .replace(/\bUS-Dollar\b|\bUSD\b/g, 'Dollar').replace(/[\d.,]+\s*(Mrd\.?|Milliarden|Mio\.?|Millionen)?\s*(Euro|EUR|€|CHF|Franken|Pfund|£)|(€|£|CHF)\s?[\d.,]+\s*(Mrd\.?|Mio\.?|Milliarden|Millionen)?/g, 'ein Betrag in Fremdwährung');
+  if (mk) { var tl = topicLabel(x.topic); return 'Zum Thema ' + tl + '. ' + (x.source || 'Eine Quelle') + ' meldet: ' + t.replace(/[.\s]+$/, '') + '. Das war eine Meldung zum Thema ' + tl + '.'; }
   return 'Zur Aktie ' + nm + '. ' + (x.source || 'Eine Quelle') + ' meldet: ' + t.replace(/[.\s]+$/, '') + '. Das war eine Meldung zu ' + nm + '.';
 }
 function entBuild(k, sel) {
-  if (k === 'news') {
-    var nm = (ENS.doc && ENS.doc.news) || {}, src = NEWSRES.filter(function (x) { return !sel || sel.indexOf(x.id) >= 0; }).slice(0, sel ? 999 : ENEWS_CAP);
+  if (NL(k)) {
+    var nm = (ENS.doc && ENS.doc[k]) || {}, src = NEWSRES.filter(function (x) { return !sel || sel.indexOf(x.id) >= 0; }).slice(0, sel ? 999 : ENEWS_CAP);
     ENS.k = k; ENS.sel = sel || null;
-    ENS.segs = src.map(function (x) { var a = nm[x.id]; return { sym: x.id, name: (x.title_de || x.title || '').slice(0, 70), text: a && a.say ? a.say : newsSay(x), audio: a && a.audio || null }; });
-    ENS.gen = 'news|' + ENS.segs.map(function (x) { return x.sym; }).join(',');
+    ENS.segs = src.map(function (x) { var a = nm[x.id]; return { sym: x.id, name: (x.title_de || x.title || '').slice(0, 70), text: a && a.say ? a.say : newsSay(x, k === 'markt'), audio: a && a.audio || null }; });
+    ENS.gen = k + '|' + ENS.segs.map(function (x) { return x.sym; }).join(',');
     return;
   }
   var d = ENS.doc || {}, items = ((d.lists || {})[k] || []).filter(function (x) { return x.say && (!sel || sel.indexOf(x.symbol) >= 0); });
@@ -1503,13 +1509,13 @@ function entPodHtml(k, n) {
   var newer = ENT && ENS.doc && ENT.generated_at !== ENS.doc.generated_at;
   return '<button type="button" id="entPodBtn" class="podBtn">🎙 Podcast</button><div class="tiny" style="margin:-4px 0 8px;text-align:center">' + (dv ? 'Audio vom ' + dv : '') + (newer ? ' · 🆕 Neuer Stand wird beim nächsten Öffnen geladen.' : '') + '</div>' +
     '<div id="entCtl" class="podCtl" hidden><div><b id="entNow"></b> <span id="entInfo" class="tiny"></span></div><div class="podRow"><button type="button" id="entPrev" aria-label="Vorherige Aktie">⏮</button><button type="button" id="entPP" class="primary" aria-label="Play/Pause">▶</button><button type="button" id="entNext" aria-label="Nächste Aktie">⏭</button></div><button type="button" id="entRestart" class="small" style="margin-top:6px">↺ Von vorn</button>' + rateHtml() + '</div>' +
-    (k === 'news' ? '<div class="bar"><label class="tiny">Vorlesen: <select id="newsCap">' + [10, 30, 60].map(function (c) { return '<option value="' + c + '"' + (c === ENEWS_CAP ? ' selected' : '') + '>neueste ' + c + '</option>'; }).join('') + '</select></label></div>' : '') +
+    (NL(k) ? '<div class="bar"><label class="tiny">Vorlesen: <select id="newsCap">' + [10, 30, 60].map(function (c) { return '<option value="' + c + '"' + (c === ENEWS_CAP ? ' selected' : '') + '>neueste ' + c + '</option>'; }).join('') + '</select></label></div>' : '') +
     '<div class="selRow"><button type="button" id="entSelTog" class="small">' + (ESEL ? '✕ Auswahl beenden' : '☑ Auswählen') + '</button><button type="button" class="small" data-txt="ent">📄 Als Text / PDF</button></div>' +
     (ESEL ? '<p class="tiny" style="margin:4px 0 8px">Tippe auf die Aktien, die du hören willst.</p><div class="selBar"><button type="button" id="entSelPlay" class="podBtn" style="margin:0">▶ Auswahl abspielen (<span id="entSelN">0</span>)</button><button type="button" id="entSelNone" class="small">Alle abwählen</button></div>' : '');
 }
 function bindEntPod(k) {
   if (!$('entPodBtn')) return;
-  if (!ENS.playing && (k === 'news' || !(ENS.k === k && !ENS.sel && ENS.segs.length))) { entBuild(k); entRestore(); }
+  if (!ENS.playing && (NL(k) || !(ENS.k === k && !ENS.sel && ENS.segs.length))) { entBuild(k); entRestore(); }
   $('entPodBtn').onclick = function () {
     if (ENS.k !== k || ENS.sel) { entHalt(); ENS.playing = false; entBuild(k); entRestore(); return entPlay(); }
     ENS.playing ? entPause() : entPlay();
@@ -1518,18 +1524,18 @@ function bindEntPod(k) {
   $('entPrev').onclick = function () { entJump(-1); };
   $('entNext').onclick = function () { entJump(1); };
   $('entRestart').onclick = function () { var was = ENS.playing; entHalt(); ENS.i = 0; ENS.si = 0; ENS.t = 0; entSave(); if (was) { ENS.playing = true; entRun(); } else { entUI(); entMeta(); } };
-  var rer = function () { if (k === 'news') newsPod(); else viewEntdecken(); };
-  if ($('newsCap')) $('newsCap').onchange = function () { ENEWS_CAP = +this.value; lsSet('ar.newsCap', String(ENEWS_CAP)); if (!(ENS.k === 'news' && ENS.playing)) { entBuild('news'); entRestore(); } entUI(); };
+  var rer = function () { if (k === 'markt') marktPod(); else if (k === 'news') newsPod(); else viewEntdecken(); };
+  if ($('newsCap')) $('newsCap').onchange = function () { ENEWS_CAP = +this.value; lsSet('ar.newsCap', String(ENEWS_CAP)); if (!(ENS.k === k && ENS.playing)) { entBuild(k); entRestore(); } entUI(); };
   $('entSelTog').onclick = function () { ESEL = !ESEL; if (!ESEL) ESELNOW = []; rer(); };
   if ($('entSelNone')) $('entSelNone').onclick = function () { ESELNOW = []; rer(); };
   if ($('entSelPlay')) $('entSelPlay').onclick = function () {
-    var order = (k === 'news' ? NEWSRES.map(function (x) { return x.id; }) : (((ENS.doc || {}).lists || {})[k] || []).map(function (x) { return x.symbol; })).filter(function (s) { return ESELNOW.indexOf(s) >= 0; });
+    var order = (NL(k) ? NEWSRES.map(function (x) { return x.id; }) : (((ENS.doc || {}).lists || {})[k] || []).map(function (x) { return x.symbol; })).filter(function (s) { return ESELNOW.indexOf(s) >= 0; });
     entHalt(); ENS.playing = false; entBuild(k, order); ESEL = false; ESELNOW = []; rer(); entPlay();
   };
-  var rows = document.querySelectorAll(k === 'news' ? '#nList .news[data-esym]' : '#view .erow');
-  for (var i = 0; i < rows.length; i++) rows[i].addEventListener('click', function (e) {
+  var rows = document.querySelectorAll(NL(k) ? (k === 'markt' ? '#mList' : '#nList') + ' .news[data-esym]' : '#view .erow');
+  for (var i = 0; i < rows.length; i++) if (!rows[i]._eb && (rows[i]._eb = 1)) rows[i].addEventListener('click', function (e) {
     if (!ESEL) return;
-    if (k === 'news') e.preventDefault(); else if (e.target.closest && e.target.closest('button,a')) return;
+    if (NL(k)) e.preventDefault(); else if (e.target.closest && e.target.closest('button,a')) return;
     var s = this.getAttribute('data-esym'), j = ESELNOW.indexOf(s); if (j >= 0) ESELNOW.splice(j, 1); else ESELNOW.push(s);
     this.classList.toggle('selOn', j < 0); entUI();
   });
@@ -1541,7 +1547,7 @@ var _plAP0 = plAudioPlay; plAudioPlay = function () { if (ENS.playing) entPause(
 var _plSp0 = plSpeak; plSpeak = function () { if (ENS.playing) entPause(); return _plSp0.apply(this, arguments); };
 var _txtDoc0 = txtDoc; txtDoc = function (what) {
   if (what !== 'ent') return _txtDoc0(what);
-  if (ENT_CTX === 'news') { if (!(ENS.k === 'news' && ENS.segs.length)) entBuild('news'); return { title: 'Aktien-Radar Nachrichten', parts: ENS.segs.map(function (g) { return { h: g.name, t: g.text }; }) }; }
+  if (NL(ENT_CTX)) { if (!(ENS.k === ENT_CTX && ENS.segs.length)) entBuild(ENT_CTX); return { title: 'Aktien-Radar ' + entName(ENT_CTX), parts: ENS.segs.map(function (g) { return { h: g.name, t: g.text }; }) }; }
   var k = ENT_TAB, d = ENS.doc || ENT || {}, items = (d.lists || {})[k] || [], it = (d.intros || {})[k];
   return { title: 'Aktien-Radar Entdecken: ' + entName(k), parts: (it && it.say ? [{ h: 'Erklärung', t: it.say }] : []).concat(items.map(function (x) { return { h: x.name + ' (' + x.symbol + ')', t: x.say || x.reason }; })) };
 };
@@ -1558,6 +1564,17 @@ function newsPod() {
     if (!$('newsPod')) return;
     b.innerHTML = entPodHtml('news', NEWSRES.length);
     bindEntPod('news');
+  });
+}
+
+function marktPod() {
+  var b = $('newsPod'); if (!b) return;
+  if (ENT_CTX !== 'markt') { ESEL = false; ESELNOW = []; }
+  ENT_CTX = 'markt';
+  entLoad(function () {
+    if (!$('newsPod') || !$('mList')) return;
+    b.innerHTML = entPodHtml('markt', NEWSRES.length);
+    bindEntPod('markt');
   });
 }
 

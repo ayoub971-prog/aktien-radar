@@ -146,6 +146,23 @@ def news_script(it, names, fx):
     if len(syms) > 1: t += " Die Meldung betrifft auch " + " und ".join(clean(names[s]) for s in syms[1:3]) + "."
     t += " Das war eine Meldung zu %s." % n
     return re.sub(r"\s+", " ", t)
+MARKT_N = int(os.environ.get("MARKT_AUDIO_N", "60"))
+def markt_items():
+    try:
+        wl = json.load(open(os.path.join(ROOT, "watchlist.json"))); nw = json.load(open(os.path.join(ROOT, "data", "news.json")))
+        fx = json.load(open(os.path.join(ROOT, "data", "fx.json"))).get("per_usd") or {}
+    except Exception: return {}
+    lab = {t["topic"]: t["label"] for t in wl.get("market_topics", [])}
+    its = [x for x in nw.get("items") or [] if x.get("id") and x.get("topic")]
+    its.sort(key=lambda x: x.get("published") or "", reverse=True)
+    out = {}
+    for it in its[:MARKT_N]:
+        tl = lab.get(it["topic"], it["topic"])
+        title = re.sub(r"\s+-\s+[\w.\- ]+$", "", (it.get("title_de") or it.get("title") or "").strip()).replace("ß", "ss")
+        pub = datetime.strptime(it["published"][:19], "%Y-%m-%dT%H:%M:%S").replace(tzinfo=timezone.utc).timestamp() if it.get("published") else None
+        t = "Zum Thema %s. %s meldet%s: %s. Das war eine Meldung zum Thema %s." % (tl, it.get("source") or "Eine Quelle", (" " + datum(pub)) if pub else "", money(title, fx).rstrip(". "), tl)
+        out[it["id"]] = {"say": re.sub(r"\s+", " ", t)}
+    return out
 def news_items():
     try:
         wl = json.load(open(os.path.join(ROOT, "watchlist.json"))); nw = json.load(open(os.path.join(ROOT, "data", "news.json")))
@@ -189,6 +206,11 @@ def main():
     doc["news"] = news_items()
     for i_, x in doc["news"].items():
         f = "news_" + re.sub(r"[^A-Za-z0-9]", "_", i_) + ".mp3"; want[f] = x
+        e = idx["files"].get(f)
+        if not (e and e.get("h") == th(x["say"]) and os.path.exists(os.path.join(DIR, f))): jobs.append((f, x))
+    doc["markt"] = markt_items()
+    for i_, x in doc["markt"].items():
+        f = "markt_" + re.sub(r"[^A-Za-z0-9]", "_", i_) + ".mp3"; want[f] = x
         e = idx["files"].get(f)
         if not (e and e.get("h") == th(x["say"]) and os.path.exists(os.path.join(DIR, f))): jobs.append((f, x))
     print("Entdecken-Audio: %d Texte, %d neu" % (len(want), len(jobs)))
