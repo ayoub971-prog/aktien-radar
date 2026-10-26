@@ -10,6 +10,8 @@ API = "https://generativelanguage.googleapis.com/v1beta"
 MODELS = ["gemini-3.5-flash-lite", "gemini-3.1-flash-lite", "gemini-2.5-flash-lite", "gemini-flash-lite-latest", "gemini-2.5-flash"]
 VERSION = 1
 MAX_CALLS = int(os.environ.get("RED_MAX_CALLS", "60"))
+BUDGET = float(os.environ.get("RED_BUDGET", "420"))
+T0 = time.time()
 STATE = {"calls": 0, "models": list(MODELS), "dead": False, "log": []}
 
 P_EDIT = """Du bist Redakteur:in eines Schweizer Börsen-Podcasts (Hochdeutsch für die Schweiz).
@@ -57,14 +59,14 @@ def _clean(t):
 
 def _call(prompt, key):
     while STATE["models"] and not STATE["dead"]:
-        if STATE["calls"] >= MAX_CALLS: STATE["dead"] = True; break
+        if STATE["calls"] >= MAX_CALLS or time.time() - T0 > BUDGET: STATE["dead"] = True; STATE["log"].append("Budget erreicht"); break
         m = STATE["models"][0]; STATE["calls"] += 1
         body = {"contents": [{"role": "user", "parts": [{"text": prompt}]}],
                 "generationConfig": {"responseMimeType": "application/json", "temperature": 0.25, "maxOutputTokens": 16000}}
         req = urllib.request.Request("%s/models/%s:generateContent" % (API, m), data=json.dumps(body).encode(),
                                      headers={"Content-Type": "application/json", "x-goog-api-key": key})
         try:
-            with urllib.request.urlopen(req, timeout=120) as r: d = json.loads(r.read())
+            with urllib.request.urlopen(req, timeout=60) as r: d = json.loads(r.read())
             parts = (((d.get("candidates") or [{}])[0].get("content") or {}).get("parts") or [])
             txt = "".join(p.get("text", "") for p in parts if not p.get("thought"))
             mm = re.search(r"\{.*\}", txt, re.S)
@@ -83,7 +85,7 @@ def _call(prompt, key):
             if e.code in (404, 400): STATE["models"].pop(0); continue
             if e.code == 429:
                 if "per day" in msg.lower() or "PerDay" in msg: STATE["models"].pop(0); continue
-                time.sleep(35); continue
+                time.sleep(20); continue
             time.sleep(5)
         except Exception as e:
             STATE["log"].append("%s %s" % (m, str(e)[:100])); time.sleep(5)

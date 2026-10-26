@@ -14,6 +14,8 @@ permissions:
 concurrency:
   group: aktien-radar-daten
   cancel-in-progress: false
+env:
+  PYTHONUNBUFFERED: "1"
 jobs:
   sendung:
     runs-on: ubuntu-latest
