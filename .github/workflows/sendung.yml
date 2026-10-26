@@ -44,7 +44,7 @@ jobs:
         run: |
           git config user.name "aktien-radar-bot"
           git config user.email "actions@users.noreply.github.com"
-          for f in data/sendung.json data/audio/sendung/index.json data/audio/index.json data/audio/ent/index.json data/podcast.json data/entdecken.json; do [ -f $f ] && git add $f; done
+          for f in data/sendung.json data/audio/sendung/index.json data/audio/index.json data/audio/ent/index.json data/podcast.json data/entdecken.json data/redakteur.json; do [ -f $f ] && git add $f; done
           if git diff --cached --quiet; then echo "keine Aenderung"; exit 0; fi
           git commit -m "Sendung $(date -u +%Y-%m-%dT%H:%MZ)"
           git pull --rebase -q

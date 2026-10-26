@@ -147,32 +147,49 @@ def news_script(it, names, fx):
     t += " Das war eine Meldung zu %s." % n
     return re.sub(r"\s+", " ", t)
 MARKT_N = int(os.environ.get("MARKT_AUDIO_N", "60"))
-def markt_items():
+# ---- v35: Nachrichten/Marktweit als Sammel-Folgen (je Aktie, je Thema, plus "neueste"), von der Redakteur-KI geschrieben ----
+DIG_DAYS = 4
+def _ts(it):
+    try: return datetime.strptime(it["published"][:19], "%Y-%m-%dT%H:%M:%S").replace(tzinfo=timezone.utc).timestamp()
+    except Exception: return None
+def _title(it, de_only=False):
+    t = (it.get("title_de") or ("" if de_only else it.get("title")) or "").strip()
+    t = re.sub(r"\s+-\s+[\w.\- ]+$", "", t).replace("ß", "ss")
+    return re.sub(r"^(ROUNDUP|ANALYSE|KORREKTUR|EILMELDUNG|WDH)\s*\d*\s*[:/]\s*", "", t).rstrip(" .:")
+def _src(its):
+    return json.dumps([{"quelle": x.get("source"), "datum": (x.get("published") or "")[:10], "titel": x.get("title"), "titel_de": x.get("title_de")} for x in its], ensure_ascii=False)
+def _draft(head, tail, its, fx, de_only):
+    parts = [head]
+    for x in its:
+        t = _title(x, de_only)
+        if not t: continue
+        pub = _ts(x)
+        parts.append("%s berichtete%s: «%s»." % (x.get("source") or "Eine Quelle", (" " + datum(pub)) if pub else "", money(t, fx)))
+    parts.append(tail)
+    return re.sub(r"\s+", " ", " ".join(parts))
+def digests():
     try:
         wl = json.load(open(os.path.join(ROOT, "watchlist.json"))); nw = json.load(open(os.path.join(ROOT, "data", "news.json")))
         fx = json.load(open(os.path.join(ROOT, "data", "fx.json"))).get("per_usd") or {}
-    except Exception: return {}
+    except Exception: return {}, {}, []
+    names = {s["symbol"]: clean(s["name"]) for s in wl.get("stocks", []) if not s["symbol"].startswith("^") and "=" not in s["symbol"]}
     lab = {t["topic"]: t["label"] for t in wl.get("market_topics", [])}
-    its = [x for x in nw.get("items") or [] if x.get("id") and x.get("topic")]
+    its = [x for x in nw.get("items") or [] if x.get("id")]
     its.sort(key=lambda x: x.get("published") or "", reverse=True)
-    out = {}
-    for it in its[:MARKT_N]:
-        tl = lab.get(it["topic"], it["topic"])
-        title = re.sub(r"\s+-\s+[\w.\- ]+$", "", (it.get("title_de") or it.get("title") or "").strip()).replace("ß", "ss")
-        pub = datetime.strptime(it["published"][:19], "%Y-%m-%dT%H:%M:%S").replace(tzinfo=timezone.utc).timestamp() if it.get("published") else None
-        t = "Zum Thema %s. %s meldet%s: %s. Das war eine Meldung zum Thema %s." % (tl, it.get("source") or "Eine Quelle", (" " + datum(pub)) if pub else "", money(title, fx).rstrip(". "), tl)
-        out[it["id"]] = {"say": re.sub(r"\s+", " ", t)}
-    return out
-def news_items():
-    try:
-        wl = json.load(open(os.path.join(ROOT, "watchlist.json"))); nw = json.load(open(os.path.join(ROOT, "data", "news.json")))
-        fx = json.load(open(os.path.join(ROOT, "data", "fx.json"))).get("per_usd") or {}
-    except Exception: return {}
-    names = {s["symbol"]: s["name"] for s in wl.get("stocks", []) if not s["symbol"].startswith("^") and "=" not in s["symbol"]}
-    its = [x for x in nw.get("items") or [] if x.get("id") and any(s in names for s in x.get("symbols") or [])]
-    its.sort(key=lambda x: x.get("published") or "", reverse=True)
-    return {x["id"]: {"say": news_script(x, names, fx)} for x in its[:NEWS_N]}
-
+    lim = time.time() - DIG_DAYS * 86400
+    news = [x for x in its if any(s in names for s in x.get("symbols") or [])]
+    markt = [x for x in its if x.get("topic")]
+    jobs = []   # (gruppe, key, name, head, tail, items)
+    jobs.append(("news", "latest", "Die neuesten 30 Meldungen", "Die neuesten Meldungen zu den Aktien auf deiner Liste.", "Das waren die neuesten Meldungen zu deiner Liste.", news[:30]))
+    for sym, n in names.items():
+        l = [x for x in news if sym in (x.get("symbols") or []) and (_ts(x) or 0) >= lim][:6]
+        if l: jobs.append(("news", sym, n, "Neuigkeiten zu %s." % n, "Das waren die Meldungen zu %s." % n, l))
+    jobs.append(("markt", "latest", "Die neuesten 20 Marktmeldungen", "Die neuesten Meldungen vom Gesamtmarkt.", "Das waren die neuesten Marktmeldungen.", markt[:20]))
+    for tp, tl in lab.items():
+        l = [x for x in markt if x.get("topic") == tp and (_ts(x) or 0) >= lim][:8]
+        if l: jobs.append(("markt", tp, tl, "Zum Thema %s." % tl, "Das war das Thema %s." % tl, l))
+    red = [{"id": "%s:%s" % (g, k), "src": _src(l), "draft": _draft(h, t, l, fx, False), "fb": _draft(h, t, l, fx, True)} for g, k, n, h, t, l in jobs]
+    return jobs, red, fx
 def edge_mp3(text, out):
     import asyncio, subprocess, edge_tts
     raw = out + ".edge.mp3"
@@ -183,7 +200,7 @@ def edge_mp3(text, out):
             if i == 2: raise
             time.sleep(3)
     tmp = out + ".tmp.mp3"
-    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", raw, "-ac", "1", "-ar", "24000", "-codec:a", "libmp3lame", "-b:a", "24k", tmp], check=True)
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", raw, "-ac", "1", "-ar", "24000", "-codec:a", "libmp3lame", "-b:a", "24k", "-write_xing", "0", "-id3v2_version", "0", tmp], check=True)
     os.replace(tmp, out); os.unlink(raw)
     d = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", out], capture_output=True, text=True).stdout.strip()
     return round(float(d or 0), 1)
@@ -203,14 +220,29 @@ def main():
             f = fname(k, s); want[f] = x
             e = idx["files"].get(f)
             if not (e and e.get("h") == th(x["say"]) and os.path.exists(os.path.join(DIR, f))): jobs.append((f, x))
-    doc["news"] = news_items()
-    for i_, x in doc["news"].items():
-        f = "news_" + re.sub(r"[^A-Za-z0-9]", "_", i_) + ".mp3"; want[f] = x
-        e = idx["files"].get(f)
-        if not (e and e.get("h") == th(x["say"]) and os.path.exists(os.path.join(DIR, f))): jobs.append((f, x))
-    doc["markt"] = markt_items()
-    for i_, x in doc["markt"].items():
-        f = "markt_" + re.sub(r"[^A-Za-z0-9]", "_", i_) + ".mp3"; want[f] = x
+    # Redakteur-KI: Listen-Texte und Sammel-Folgen
+    import redakteur
+    fx = {}
+    try: fx = json.load(open(os.path.join(ROOT, "data", "fx.json"))).get("per_usd") or {}
+    except Exception: pass
+    conv = lambda t: money(t, fx)
+    lred = []
+    for k, items in (doc.get("lists") or {}).items():
+        for x in items:
+            src = json.dumps({"name": x.get("name"), "kurs_usd": x.get("price_usd"), "daten": x.get("d"), "ki_zusammenfassung": x.get("ai"), "auf_liste": bool(x.get("mine"))}, ensure_ascii=False)
+            lred.append({"id": "list:%s:%s" % (k, x["symbol"]), "src": src, "draft": x["say"], "x": x, "keep": False})
+    jobs_d, dred, _ = digests()
+    out = redakteur.edit(dred + lred, conv=conv)
+    for r in lred: r["x"]["say"] = out.get(r["id"], r["x"]["say"])
+    jobs[:] = [(f, x) for f, x in want.items() if not (idx["files"].get(f) and idx["files"][f].get("h") == th(x["say"]) and os.path.exists(os.path.join(DIR, f)))]
+    doc.pop("news", None); doc.pop("markt", None)
+    doc["news_dig"] = {"latest": None, "stocks": {}}; doc["markt_dig"] = {"latest": None, "topics": {}}
+    for (g, k, n, h, t, l), r in zip(jobs_d, dred):
+        x = {"name": n, "say": out.get(r["id"]) or r["fb"], "ids": [i["id"] for i in l], "n": len(l)}
+        d = doc[g + "_dig"]
+        if k == "latest": d["latest"] = x
+        else: d["stocks" if g == "news" else "topics"][k] = x
+        f = "%s_%s.mp3" % ("dn" if g == "news" else "dm", re.sub(r"[^A-Za-z0-9]", "_", k)); want[f] = x
         e = idx["files"].get(f)
         if not (e and e.get("h") == th(x["say"]) and os.path.exists(os.path.join(DIR, f))): jobs.append((f, x))
     print("Entdecken-Audio: %d Texte, %d neu" % (len(want), len(jobs)))

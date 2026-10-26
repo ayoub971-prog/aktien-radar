@@ -2,7 +2,7 @@
 (function () {
 'use strict';
 var REPO = 'ayoub971-prog/aktien-radar';
-var APP_VERSION = 'v34';
+var APP_VERSION = 'v35';
 var SECTOR_ORDER = ['Halbleiter/Hardware', 'Software/KI', 'Energie', 'Industrie/Luftfahrt', 'Finanzen', 'Rohstoffe/Gold', 'Konsum/Internet', 'Gesundheit', 'ETFs/Indizes', 'Sonstige'];
 var TAGS = [
   { n: 'Quartalszahlen', re: /quartalszahl|quartalsergebnis|quartalsbericht|jahreszahlen|halbjahreszahlen|geschäftszahlen|\bearnings\b|quarterly results|\bq[1-4]\b.{0,12}(results|earnings|revenue)|(results|earnings) for (the )?(first|second|third|fourth)|\bumsatz\b|\bbilanz\b/i },
@@ -443,7 +443,7 @@ function plUI() {
   $('plPause').hidden = !P.playing; $('plStop').hidden = !(P.playing || resumable); $('plStop').textContent = P.playing ? '■ Stop' : '↺ Von vorn';
   $('plNew').hidden = !!st.heard;
   if (P.audio) { $('plInfo').textContent = engName(P.audio) + (P.playing || resumable ? ' · ' + fmtT(P.t) + (P.audio.dur ? ' / ' + fmtT(P.audio.dur) : '') : ''); return; }
-  $('plInfo').textContent = !window.speechSynthesis ? 'Vorlesen wird von diesem Browser nicht unterstützt.' : (P.playing || resumable ? 'Satz ' + Math.min(P.idx + 1, P.sents.length) + ' von ' + P.sents.length : '');
+  $('plInfo').textContent = 'Noch kein Audio für diese Zusammenfassung, es kommt mit dem nächsten Update.'; $('plPlay').disabled = true;
 }
 function plSave() { var st = posGet(P.sym) || {}; posSet(P.sym, { id: P.id, idx: P.idx, t: P.t || 0, heard: !!st.heard }); }
 function plAudioPlay() {
@@ -453,7 +453,7 @@ function plAudioPlay() {
   a.onloadedmetadata = seek;
   a.ontimeupdate = function () { if (tok !== P.tok) return; P.t = a.currentTime; if (P.t - last > 2 || P.t < last) { last = P.t; plSave(); plUI(); } };
   a.onended = function () { if (tok !== P.tok) return; P.playing = false; P.t = 0; posSet(P.sym, { id: P.id, idx: 0, t: 0, heard: true }); plUI(); };
-  a.onerror = function () { if (tok !== P.tok) return; P.audio = null; P.playing = true; plSpeak(); };   // Datei fehlt: Geraetestimme
+  a.onerror = function () { if (tok !== P.tok) return; P.audio = null; P.playing = false; plUI(); };   // Datei fehlt: noch kein Audio
   seek();
   applyRate(a); var pr = a.play(); if (pr && pr.catch) pr.catch(function () { if (tok !== P.tok) return; P.playing = false; plUI(); });
   plUI();
@@ -485,8 +485,7 @@ function bindPlayer(sym) {
     if (typeof POD !== 'undefined' && POD.playing) podPause();
     plStopSpeech(); P.playing = true; plMeta();
     if (P.audio) return plAudioPlay();
-    if (!window.speechSynthesis) { P.playing = false; return; }
-    if (P.idx >= P.sents.length) P.idx = 0; plSpeak();
+    P.playing = false; plUI();   // v35: keine Gerätestimme (stoppt bei Sperre)
   }
   function plPauseNow() { if (P.audio && AEL) { try { P.t = AEL.currentTime; } catch (e) {} } P.playing = false; plStopSpeech(); plSave(); plUI(); plMeta(); }
   function plMeta() {
@@ -1046,9 +1045,10 @@ function podBuild() {
   }
   var n = segs.length;
   POD.off = POD.sel ? 0 : 1; POD.tail = POD.sel ? 0 : 1;
-  if (POD.sel) { POD.segs = segs; POD.gen = 'sel|' + (d.generated_at || '') + '|' + segs.map(function (x) { return x.sym; }).join(','); return; }   // Auswahl: nur MP3-Abschnitte, ohne Intro/Outro
+  if (POD.sel) { POD.segs = segs = segs.filter(function (x) { return x.audio; }); POD.gen = 'sel|' + (d.generated_at || '') + '|' + segs.map(function (x) { return x.sym; }).join(','); return; }   // Auswahl: nur MP3-Abschnitte, ohne Intro/Outro
   segs.unshift({ sym: '_intro', name: 'Einleitung', audio: d.intro ? d.intro_audio || null : null, text: d.intro || ('Willkommen beim Aktien-Radar. Heute geht es um ' + n + ' Aktien aus deiner Liste. Alles stammt aus den gesammelten Meldungen. Keine Anlageberatung.') });
   segs.push({ sym: '_outro', name: 'Schluss', audio: d.outro ? d.outro_audio || null : null, text: d.outro || 'Das war der Aktien-Radar-Überblick. Keine Anlageberatung.' });
+  segs = segs.filter(function (x) { return x.audio; }); POD.off = segs[0] && segs[0].sym === '_intro' ? 1 : 0; POD.tail = segs.length && segs[segs.length - 1].sym === '_outro' ? 1 : 0;
   POD.segs = segs; POD.gen = (d.generated_at || '') + '|' + segs.map(function (x) { return x.sym; }).join(',');
 }
 function podKey() { return POD.sel ? 'ar.pod.sel' : 'ar.pod'; }
@@ -1070,7 +1070,7 @@ function podUI() {
   var seg = POD.segs[POD.i];
   c.hidden = !POD.segs.length || (!POD.sel && !POD.playing && POD.i === 0 && POD.si === 0 && !POD.t);
   if ($('podNow')) $('podNow').textContent = seg ? 'Jetzt: ' + seg.name + (POD.sel ? ' · ' + podPos() + ' / ' + podTotal() + ' (Auswahl)' : '') : '';
-  if ($('podInfo')) $('podInfo').textContent = seg ? (podPos() + ' / ' + podTotal() + (POD.sel ? ' (Auswahl) · ' : ' Aktien · ') + (seg.audio ? engName(seg.audio) : 'Gerätestimme')) : '';
+  if ($('podInfo')) $('podInfo').textContent = seg ? (podPos() + ' / ' + podTotal() + (POD.sel ? ' (Auswahl) · ' : ' Aktien · ') + (seg.audio ? engName(seg.audio) : 'noch kein Audio')) : '';
   if ($('podPP')) $('podPP').textContent = POD.playing ? '❚❚' : '▶';
   if ($('podNewHint')) $('podNewHint').hidden = !podNewReady();
   var dv = POD.doc && POD.doc.generated_at ? new Date(POD.doc.generated_at).toLocaleString('de-CH', { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' }) : '';
@@ -1094,36 +1094,95 @@ function podMeta() {
 }
 function podHalt() { POD.tok++; try { if (POD.el) POD.el.pause(); } catch (e) {} try { window.speechSynthesis && window.speechSynthesis.cancel(); } catch (e) {} }
 function podNext() { POD.i++; POD.si = 0; POD.t = 0; if (POD.i >= POD.segs.length) { POD.playing = false; POD.i = 0; podSave(); podUI(); podMeta(); return; } podSave(); podRun(); }
+/* ===== v35: eine durchgehende MP3 pro Wiedergabeliste (läuft auch bei gesperrtem Bildschirm) ===== */
+var CATS = {}, CATP = {}, CATK = [];
+var BR1 = [0, 32, 40, 48, 56, 64, 80, 96, 112, 128, 160, 192, 224, 256, 320], BR2 = [0, 8, 16, 24, 32, 40, 48, 56, 64, 80, 96, 112, 128, 144, 160];
+function mp3Frames(buf) {   // MP3-Rahmen ohne ID3/Xing-Kopf, dazu exakte Dauer
+  var b = new Uint8Array(buf), p = 0, n = b.length, out = [], dur = 0, start = -1, first = true;
+  if (n > 10 && b[0] === 0x49 && b[1] === 0x44 && b[2] === 0x33) p = 10 + ((b[6] & 127) << 21 | (b[7] & 127) << 14 | (b[8] & 127) << 7 | (b[9] & 127)) + ((b[5] & 16) ? 10 : 0);
+  function cut() { if (start >= 0) { out.push(b.subarray(start, p)); start = -1; } }
+  while (p + 4 <= n) {
+    if (b[p] !== 0xFF || (b[p + 1] & 0xE0) !== 0xE0) { cut(); p++; continue; }
+    var ver = (b[p + 1] >> 3) & 3, lay = (b[p + 1] >> 1) & 3, bri = b[p + 2] >> 4, sri = (b[p + 2] >> 2) & 3, pad = (b[p + 2] >> 1) & 1;
+    if (lay !== 1 || ver === 1 || bri === 0 || bri === 15 || sri === 3) { cut(); p++; continue; }
+    var m1 = ver === 3, br = (m1 ? BR1 : BR2)[bri] * 1000, sr = [44100, 48000, 32000][sri] / (m1 ? 1 : (ver === 2 ? 2 : 4));
+    var len = Math.floor((m1 ? 144 : 72) * br / sr) + pad; if (len < 8 || p + len > n) break;
+    if (first) {
+      first = false; var mono = (b[p + 3] >> 6) === 3, q = p + 4 + (m1 ? (mono ? 17 : 32) : (mono ? 9 : 17));
+      var tag = String.fromCharCode(b[q], b[q + 1], b[q + 2], b[q + 3]), vb = String.fromCharCode(b[p + 36], b[p + 37], b[p + 38], b[p + 39]);
+      if (tag === 'Xing' || tag === 'Info' || vb === 'VBRI') { cut(); p += len; continue; }
+    }
+    if (start < 0) start = p;
+    dur += (m1 ? 1152 : 576) / sr; p += len;
+  }
+  cut();
+  return { parts: out, dur: dur };
+}
+function catBuild(key, urls) {
+  if (CATS[key]) return Promise.resolve(CATS[key]);
+  if (CATP[key]) return CATP[key];
+  CATP[key] = Promise.all(urls.map(function (u) {
+    if (!u) return null;
+    return fetch(u).then(function (r) { if (!r.ok) throw new Error(r.status); return r.arrayBuffer(); }).then(mp3Frames, function () { return null; });
+  })).then(function (fr) {
+    var parts = [], offs = [], durs = [], t = 0;
+    fr.forEach(function (f) { offs.push(t); var d = f && f.dur > 0.2 ? f.dur : 0; durs.push(d); if (d) { parts = parts.concat(f.parts); t += d; } });
+    var c = { url: URL.createObjectURL(new Blob(parts, { type: 'audio/mpeg' })), offs: offs, durs: durs, total: t };
+    CATS[key] = c; CATK.push(key); delete CATP[key];
+    while (CATK.length > 3) { var old = CATK.shift(); if (CATS[old] && (!POD.el || POD.el.dataset.src !== CATS[old].url)) { try { URL.revokeObjectURL(CATS[old].url); } catch (e) {} delete CATS[old]; } else CATK.push(old), CATK.length > 6 && CATK.shift(); }
+    return c;
+  }, function (e) { delete CATP[key]; throw e; });
+  return CATP[key];
+}
+function catIdx(c, ct) { var j = c.offs.length - 1; while (j > 0 && (c.offs[j] > ct + 0.05 || !c.durs[j])) j--; return j; }
+// o: owner, segs, src(audio), i, t, ok(), pos(j,t), next(), end(), blocked(), curI()
+function catRun(o) {
+  if (!POD.el) { POD.el = new Audio(); POD.el.preload = 'auto'; }
+  var a = POD.el; a.dataset.owner = o.owner;
+  var urls = o.segs.map(function (s) { return s.audio ? o.src(s.audio) : null; }), key = o.owner + '|' + urls.join('|'), c = CATS[key];
+  function whole() {
+    if (!c.durs[o.i]) { var j = o.i; while (j < c.durs.length && !c.durs[j]) j++; if (j >= c.durs.length) return o.end(); o.i = j; o.t = 0; }
+    var target = c.offs[o.i] + Math.min(o.t || 0, Math.max(0, c.durs[o.i] - 0.5));
+    if (a.dataset.src !== c.url) { a.src = c.url; a.dataset.src = c.url; }
+    var seek = function () { try { if (Math.abs(a.currentTime - target) > 0.4) a.currentTime = target; } catch (e) {} };
+    a.onloadedmetadata = seek;
+    a.ontimeupdate = function () { if (!o.ok()) return; var ct = a.currentTime, j = catIdx(c, ct); o.pos(j, Math.max(0, ct - c.offs[j])); };
+    a.onended = function () { if (o.ok()) o.end(); };
+    a.onerror = function () { if (!o.ok()) return; delete CATS[key]; o.blocked(); };
+    seek(); applyRate(a); var pr = a.play(); if (pr && pr.catch) pr.catch(function () { if (o.ok()) o.blocked(); });
+    o.pos(o.i, o.t || 0);
+  }
+  if (c) return whole();
+  var seg = o.segs[o.i]; if (!seg || !seg.audio) return o.next();
+  var src = urls[o.i], t0 = o.t || 0;
+  if (a.dataset.src !== src) { a.src = src; a.dataset.src = src; }
+  var seek = function () { try { if (Math.abs(a.currentTime - t0) > 1) a.currentTime = t0; } catch (e) {} };
+  a.onloadedmetadata = seek;
+  a.ontimeupdate = function () { if (o.ok()) o.pos(o.i, a.currentTime); };
+  a.onended = function () { if (o.ok()) o.next(); };
+  a.onerror = function () { if (o.ok()) { seg.audio = null; o.next(); } };
+  seek(); applyRate(a); var pr = a.play(); if (pr && pr.catch) pr.catch(function () { if (o.ok()) o.blocked(); });
+  catBuild(key, urls).then(function (cc) {
+    if (!o.ok() || a.dataset.owner !== o.owner || a.paused || a.dataset.src !== src) return;
+    c = cc; o.i = o.curI(); o.t = a.currentTime; whole();
+  }, function () {});
+}
+function catSaver(save) { var last = 0; return function () { var n = Date.now(); if (n - last > 2000) { last = n; save(); } }; }
+var podSv = catSaver(function () { podSave(); });
 function podRun() {
   var seg = POD.segs[POD.i], tok = ++POD.tok; if (!seg) return;
   podUI(); podMeta();
-  if (seg.audio) {
-    if (!POD.el) { POD.el = new Audio(); POD.el.preload = 'auto'; }
-    var a = POD.el, src = audSrc(seg.audio), last = 0;
-    if (a.dataset.src !== src) { a.src = src; a.dataset.src = src; }
-    var seek = function () { try { if (Math.abs(a.currentTime - POD.t) > 1) a.currentTime = POD.t; } catch (e) {} };
-    a.onloadedmetadata = seek;
-    a.ontimeupdate = function () { if (tok !== POD.tok) return; POD.t = a.currentTime; if (Math.abs(POD.t - last) > 2) { last = POD.t; podSave(); } };
-    a.onended = function () { if (tok === POD.tok && POD.playing) podNext(); };
-    a.onerror = function () { if (tok !== POD.tok) return; seg.audio = null; POD.t = 0; podRun(); };
-    seek(); applyRate(a); var pr = a.play(); podPreload(); if (pr && pr.catch) pr.catch(function () { if (tok !== POD.tok) return; POD.playing = false; podUI(); podMeta(); });
-    return;
-  }
-  var ss = window.speechSynthesis; if (!ss) { POD.playing = false; podUI(); return; }
-  POD.sents = splitSents(seg.text);
-  if (POD.si >= POD.sents.length) { podNext(); return; }
-  var u = new SpeechSynthesisUtterance(POD.sents[POD.si]), v = pickVoice();
-  u.lang = v ? v.lang : 'de-DE'; if (v) u.voice = v; u.rate = speechRate();
-  u.onend = function () { if (tok !== POD.tok || !POD.playing) return; POD.si++; podSave(); podRun(); };
-  u.onerror = function () { if (tok !== POD.tok) return; POD.playing = false; podUI(); podMeta(); };
-  ss.speak(u);
+  catRun({ owner: 'pod', segs: POD.segs, src: audSrc, i: POD.i, t: POD.t, ok: function () { return tok === POD.tok && POD.playing; },
+    pos: function (j, t) { if (j !== POD.i) { POD.i = j; POD.si = 0; POD.t = t; podSave(); podUI(); podMeta(); } POD.t = t; podSv(); },
+    next: function () { podNext(); }, end: function () { POD.playing = false; POD.i = 0; POD.t = 0; podSave(); podUI(); podMeta(); },
+    blocked: function () { POD.playing = false; podUI(); podMeta(); }, curI: function () { return POD.i; } });
 }
 function podPlay() {
   if (!POD.segs.length) podBuild();
   if (P.playing) { plStopSpeech(); P.playing = false; try { plSave(); plUI(); } catch (e) {} }
   POD.playing = true; podRun();
 }
-function podPause() { if (!POD.playing) return; var g = POD.segs[POD.i]; if (g && g.audio && POD.el) { try { POD.t = POD.el.currentTime; } catch (e) {} } POD.playing = false; podHalt(); podSave(); podUI(); podMeta(); }
+function podPause() { if (!POD.playing) return; var g = POD.segs[POD.i]; POD.playing = false; podHalt(); podSave(); podUI(); podMeta(); }
 function podJump(d) {
   var was = POD.playing; podHalt();
   POD.i = Math.max(0, Math.min(POD.segs.length - 1, POD.i + d)); POD.si = 0; POD.t = 0; podSave();
@@ -1415,15 +1474,23 @@ function newsSay(x, mk) {
   return 'Zur Aktie ' + nm + '. ' + (x.source || 'Eine Quelle') + ' meldet: ' + t.replace(/[.\s]+$/, '') + '. Das war eine Meldung zu ' + nm + '.';
 }
 function entBuild(k, sel) {
-  if (NL(k)) {
-    var nm = (ENS.doc && ENS.doc[k]) || {}, src = NEWSRES.filter(function (x) { return !sel || sel.indexOf(x.id) >= 0; }).slice(0, sel ? 999 : ENEWS_CAP);
-    ENS.k = k; ENS.sel = sel || null;
-    ENS.segs = src.map(function (x) { var a = nm[x.id]; return { sym: x.id, name: (x.title_de || x.title || '').slice(0, 70), text: a && a.say ? a.say : newsSay(x, k === 'markt'), audio: a && a.audio || null }; });
-    ENS.gen = k + '|' + ENS.segs.map(function (x) { return x.sym; }).join(',');
+  if (NL(k)) {   // v35: Sammel-Folgen (neueste / je Aktie / je Thema), alle als MP3
+    var D = (ENS.doc || {})[k === 'news' ? 'news_dig' : 'markt_dig'] || {}, G = (k === 'news' ? D.stocks : D.topics) || {}, keys = [], segs = [];
+    var fs = k === 'news' ? nf.sym : mf.topic, filt = k === 'news' ? (nf.sym || nf.tag || nf.q || nf.only) : (mf.topic || mf.q);
+    var src = sel ? NEWSRES.filter(function (x) { return sel.indexOf(x.id) >= 0; }) : NEWSRES;
+    if (!sel && !filt && D.latest) segs.push({ sym: 'latest', name: D.latest.name, text: D.latest.say, audio: D.latest.audio || null });
+    if (sel || filt) {
+      if (fs && !sel) keys = G[fs] ? [fs] : [];
+      else src.forEach(function (x) { (k === 'news' ? (x.symbols || []) : [x.topic]).forEach(function (g) { if (G[g] && keys.indexOf(g) < 0) keys.push(g); }); });
+      keys.forEach(function (g) { var d = G[g]; segs.push({ sym: g, name: d.name + ' · ' + d.n + (d.n === 1 ? ' Meldung' : ' Meldungen'), text: d.say, audio: d.audio || null }); });
+    }
+    ENS.k = k; ENS.sel = sel || null; ENS.missing = segs.filter(function (x) { return !x.audio; }).length;
+    ENS.segs = segs.filter(function (x) { return x.audio; });
+    ENS.gen = k + '|' + ((ENS.doc || {}).generated_at || '') + '|' + ENS.segs.map(function (x) { return x.sym; }).join(',');
     return;
   }
   var d = ENS.doc || {}, items = ((d.lists || {})[k] || []).filter(function (x) { return x.say && (!sel || sel.indexOf(x.symbol) >= 0); });
-  var segs = items.map(function (x) { return { sym: x.symbol, name: x.name, text: x.say, audio: x.audio || null }; });
+  var segs = items.filter(function (x) { return x.audio; }).map(function (x) { return { sym: x.symbol, name: x.name, text: x.say, audio: x.audio }; });
   var it = (d.intros || {})[k];
   if (!sel && it && it.say && segs.length) segs.unshift({ sym: '_intro', name: 'Erklärung: ' + entName(k), text: it.say, audio: it.audio || null });
   ENS.k = k; ENS.sel = sel || null; ENS.segs = segs; ENS.gen = (d.generated_at || '') + '|' + k + '|' + segs.map(function (x) { return x.sym; }).join(',');
@@ -1433,10 +1500,10 @@ function entRestore() {
   ENS.i = 0; ENS.si = 0; ENS.t = 0;
   var o = null; try { o = JSON.parse(lsGet('ar.ent.pod') || 'null'); } catch (e) {}
   if (!o || o.gen !== ENS.gen) return;
-  for (var i = 0; i < ENS.segs.length - 1; i++) if (ENS.segs[i].sym === o.sym) { ENS.i = i; ENS.si = o.si || 0; ENS.t = o.t || 0; }
+  for (var i = 0; i < ENS.segs.length; i++) if (ENS.segs[i].sym === o.sym) { ENS.i = i; ENS.si = o.si || 0; ENS.t = o.t || 0; }
 }
 function entHalt() { ENS.tok++; try { if (POD.el && POD.el.dataset.owner === 'ent') POD.el.pause(); } catch (e) {} try { if (!POD.playing && !P.playing) window.speechSynthesis && window.speechSynthesis.cancel(); } catch (e) {} }
-function entPause() { if (!ENS.playing) return; var g = ENS.segs[ENS.i]; if (g && g.audio && POD.el) { try { ENS.t = POD.el.currentTime; } catch (e) {} } ENS.playing = false; entHalt(); entSave(); entUI(); entMeta(); }
+function entPause() { if (!ENS.playing) return; var g = ENS.segs[ENS.i]; ENS.playing = false; entHalt(); entSave(); entUI(); entMeta(); }
 function entPreload() {
   for (var j = ENS.i + 1; j < ENS.segs.length; j++) if (ENS.segs[j].audio) {
     var src = entSrc(ENS.segs[j].audio);
@@ -1445,30 +1512,14 @@ function entPreload() {
   }
 }
 function entNext() { ENS.i++; ENS.si = 0; ENS.t = 0; if (ENS.i >= ENS.segs.length) { ENS.playing = false; ENS.i = 0; entSave(); entUI(); entMeta(); return; } entSave(); entRun(); }
+var entSv = catSaver(function () { entSave(); });
 function entRun() {
   var seg = ENS.segs[ENS.i], tok = ++ENS.tok; if (!seg) return;
   entUI(); entMeta();
-  if (seg.audio) {
-    if (!POD.el) { POD.el = new Audio(); POD.el.preload = 'auto'; }
-    var a = POD.el, src = entSrc(seg.audio), last = 0;
-    a.dataset.owner = 'ent';
-    if (a.dataset.src !== src) { a.src = src; a.dataset.src = src; }
-    var seek = function () { try { if (Math.abs(a.currentTime - ENS.t) > 1) a.currentTime = ENS.t; } catch (e) {} };
-    a.onloadedmetadata = seek;
-    a.ontimeupdate = function () { if (tok !== ENS.tok) return; ENS.t = a.currentTime; if (Math.abs(ENS.t - last) > 2) { last = ENS.t; entSave(); } };
-    a.onended = function () { if (tok === ENS.tok && ENS.playing) entNext(); };
-    a.onerror = function () { if (tok !== ENS.tok) return; seg.audio = null; ENS.t = 0; entRun(); };
-    seek(); applyRate(a); var pr = a.play(); entPreload(); if (pr && pr.catch) pr.catch(function () { if (tok !== ENS.tok) return; ENS.playing = false; entUI(); entMeta(); });
-    return;
-  }
-  var ss = window.speechSynthesis; if (!ss) { ENS.playing = false; entUI(); return; }
-  var sents = splitSents(seg.text);
-  if (ENS.si >= sents.length) { entNext(); return; }
-  var u = new SpeechSynthesisUtterance(sents[ENS.si]), v = pickVoice();
-  u.lang = v ? v.lang : 'de-DE'; if (v) u.voice = v; u.rate = speechRate();
-  u.onend = function () { if (tok !== ENS.tok || !ENS.playing) return; ENS.si++; entSave(); entRun(); };
-  u.onerror = function () { if (tok !== ENS.tok) return; ENS.playing = false; entUI(); entMeta(); };
-  ss.speak(u);
+  catRun({ owner: 'ent', segs: ENS.segs, src: entSrc, i: ENS.i, t: ENS.t, ok: function () { return tok === ENS.tok && ENS.playing; },
+    pos: function (j, t) { if (j !== ENS.i) { ENS.i = j; ENS.si = 0; ENS.t = t; entSave(); entUI(); entMeta(); } ENS.t = t; entSv(); },
+    next: function () { entNext(); }, end: function () { ENS.playing = false; ENS.i = 0; ENS.t = 0; entSave(); entUI(); entMeta(); },
+    blocked: function () { ENS.playing = false; entUI(); entMeta(); }, curI: function () { return ENS.i; } });
 }
 function entPlay() {
   if (!ENS.segs.length) return;
@@ -1493,12 +1544,12 @@ function entMeta() {
 }
 function entUI() {
   var cur = ENT_CTX, same = ENS.k === cur && !ENS.sel, b = $('entPodBtn');
-  if (b) b.textContent = same && ENS.playing ? '❚❚ Podcast pausieren' : same && (ENS.i > 0 || ENS.si > 0 || ENS.t > 0) ? '🎙 Podcast fortsetzen' : '🎙 Podcast: ' + entName(cur);
+  if (b) b.textContent = ENS.k === cur && !ENS.sel && !ENS.segs.length ? '🎙 Noch kein Audio für diese Auswahl' : same && ENS.playing ? '❚❚ Podcast pausieren' : same && (ENS.i > 0 || ENS.si > 0 || ENS.t > 0) ? '🎙 Podcast fortsetzen' : '🎙 Podcast: ' + entName(cur);
   var c = $('entCtl'); if (!c) return;
   var seg = ENS.segs[ENS.i], q = entPos();
   c.hidden = !ENS.segs.length || (!ENS.playing && ENS.i === 0 && !ENS.si && !ENS.t && !ENS.sel);
   if ($('entNow')) $('entNow').textContent = seg ? 'Jetzt: ' + seg.name : '';
-  if ($('entInfo')) $('entInfo').textContent = seg ? entName(ENS.k) + (ENS.sel ? ' (Auswahl)' : '') + ' · ' + q.p + ' / ' + q.n + ' · ' + (seg.audio ? (ENS.playing || ENS.t ? fmtT(ENS.t) + (seg.audio.dur ? ' / ' + fmtT(seg.audio.dur) : '') + ' · ' : '') + 'MP3-Stimme' : 'Gerätestimme') : '';
+  if ($('entInfo')) $('entInfo').textContent = seg ? entName(ENS.k) + (ENS.sel ? ' (Auswahl)' : '') + ' · ' + q.p + ' / ' + q.n + ' · ' + (seg.audio ? (ENS.playing || ENS.t ? fmtT(ENS.t) + (seg.audio.dur ? ' / ' + fmtT(seg.audio.dur) : '') + ' · ' : '') + 'MP3-Stimme' : 'noch kein Audio') : '';
   if ($('entPP')) $('entPP').textContent = ENS.playing ? '❚❚' : '▶';
   if ($('entSelN')) $('entSelN').textContent = ESELNOW.length;
   if ($('entSelPlay')) $('entSelPlay').disabled = !ESELNOW.length;
@@ -1510,7 +1561,7 @@ function entPodHtml(k, n) {
   var newer = ENT && ENS.doc && ENT.generated_at !== ENS.doc.generated_at;
   return '<button type="button" id="entPodBtn" class="podBtn">🎙 Podcast</button><div class="tiny" style="margin:-4px 0 8px;text-align:center">' + (dv ? 'Audio vom ' + dv : '') + (newer ? ' · 🆕 Neuer Stand wird beim nächsten Öffnen geladen.' : '') + '</div>' +
     '<div id="entCtl" class="podCtl" hidden><div><b id="entNow"></b> <span id="entInfo" class="tiny"></span></div><div class="podRow"><button type="button" id="entPrev" aria-label="Vorherige Aktie">⏮</button><button type="button" id="entPP" class="primary" aria-label="Play/Pause">▶</button><button type="button" id="entNext" aria-label="Nächste Aktie">⏭</button></div><button type="button" id="entRestart" class="small" style="margin-top:6px">↺ Von vorn</button>' + rateHtml() + '</div>' +
-    (NL(k) ? '<div class="bar"><label class="tiny">Vorlesen: <select id="newsCap">' + [10, 30, 60].map(function (c) { return '<option value="' + c + '"' + (c === ENEWS_CAP ? ' selected' : '') + '>neueste ' + c + '</option>'; }).join('') + '</select></label></div>' : '') +
+    (NL(k) ? '<p class="tiny" style="margin:4px 0 8px">' + (k === 'news' ? 'Ohne Filter: die neuesten 30 Meldungen als eine Folge. Mit Filter: eine Folge je Aktie.' : 'Ohne Filter: die neuesten 20 Marktmeldungen. Mit Filter: eine Folge je Thema.') + '</p>' : '') +
     '<div class="selRow"><button type="button" id="entSelTog" class="small">' + (ESEL ? '✕ Auswahl beenden' : '☑ Auswählen') + '</button><button type="button" class="small" data-txt="ent">📄 Als Text / PDF</button></div>' +
     (ESEL ? '<p class="tiny" style="margin:4px 0 8px">Tippe auf die Aktien, die du hören willst.</p><div class="selBar"><button type="button" id="entSelPlay" class="podBtn" style="margin:0">▶ Auswahl abspielen (<span id="entSelN">0</span>)</button><button type="button" id="entSelNone" class="small">Alle abwählen</button></div>' : '');
 }
@@ -1587,32 +1638,16 @@ function snSave() { if (!SN.ep) return; var m = snPosAll(); m[SN.ep.id] = { i: S
 function snSel(ep) { snHalt(); SN.playing = false; SN.ep = ep; var p = snPosAll()[ep.id] || {}; SN.i = Math.min(p.i || 0, ep.chapters.length - 1); SN.t = p.t || 0; }
 function snSrc(a) { var b = (SN.doc && SN.doc.audio_base) || 'data/audio/'; return b + a.file; }
 function snHalt() { SN.tok++; try { if (POD.el && POD.el.dataset.owner === 'sn') POD.el.pause(); } catch (e) {} try { if (!POD.playing && !ENS.playing && !P.playing) window.speechSynthesis && window.speechSynthesis.cancel(); } catch (e) {} }
-function snPause() { if (!SN.playing) return; var c = SN.ep.chapters[SN.i]; if (c && c.audio && POD.el) { try { SN.t = POD.el.currentTime; } catch (e) {} } SN.playing = false; snHalt(); snSave(); snUI(); snMeta(); }
+function snPause() { if (!SN.playing) return; var c = SN.ep.chapters[SN.i]; SN.playing = false; snHalt(); snSave(); snUI(); snMeta(); }
 function snNext() { SN.i++; SN.t = 0; if (SN.i >= SN.ep.chapters.length) { SN.playing = false; SN.i = 0; snSave(); snUI(); snMeta(); return; } snSave(); snRun(); }
+var snSv = catSaver(function () { snSave(); snUI(); });
 function snRun() {
   var c = SN.ep && SN.ep.chapters[SN.i], tok = ++SN.tok; if (!c) return;
   snUI(); snMeta();
-  if (c.audio) {
-    if (!POD.el) { POD.el = new Audio(); POD.el.preload = 'auto'; }
-    var a = POD.el, src = snSrc(c.audio), last = 0; a.dataset.owner = 'sn';
-    if (a.dataset.src !== src) { a.src = src; a.dataset.src = src; }
-    var seek = function () { try { if (Math.abs(a.currentTime - SN.t) > 1) a.currentTime = SN.t; } catch (e) {} };
-    a.onloadedmetadata = seek;
-    a.ontimeupdate = function () { if (tok !== SN.tok) return; SN.t = a.currentTime; if (Math.abs(SN.t - last) > 2) { last = SN.t; snSave(); snUI(); } };
-    a.onended = function () { if (tok === SN.tok && SN.playing) snNext(); };
-    a.onerror = function () { if (tok !== SN.tok) return; c.audio = null; SN.t = 0; snRun(); };
-    seek(); applyRate(a); var pr = a.play();
-    if (pr && pr.catch) pr.catch(function () { if (tok !== SN.tok) return; SN.playing = false; snUI(); snMeta(); });
-    var n = SN.ep.chapters[SN.i + 1]; if (n && n.audio) { try { var l = document.createElement('link'); l.rel = 'prefetch'; l.href = snSrc(n.audio); document.head.appendChild(l); } catch (e) {} }
-    return;
-  }
-  var ss = window.speechSynthesis; if (!ss) { SN.playing = false; snUI(); return; }
-  var sents = splitSents(c.say), si = Math.floor(SN.t) || 0;
-  if (si >= sents.length) { snNext(); return; }
-  var u = new SpeechSynthesisUtterance(sents[si]), v = pickVoice(); u.lang = v ? v.lang : 'de-DE'; if (v) u.voice = v; u.rate = speechRate();
-  u.onend = function () { if (tok !== SN.tok || !SN.playing) return; SN.t = si + 1; snSave(); snRun(); };
-  u.onerror = function () { if (tok !== SN.tok) return; SN.playing = false; snUI(); };
-  ss.speak(u);
+  catRun({ owner: 'sn', segs: SN.ep.chapters, src: snSrc, i: SN.i, t: SN.t, ok: function () { return tok === SN.tok && SN.playing; },
+    pos: function (j, t) { if (j !== SN.i) { SN.i = j; SN.t = t; snSave(); snUI(); snMeta(); } SN.t = t; snSv(); },
+    next: function () { snNext(); }, end: function () { SN.playing = false; SN.i = 0; SN.t = 0; snSave(); snUI(); snMeta(); },
+    blocked: function () { SN.playing = false; snUI(); snMeta(); }, curI: function () { return SN.i; } });
 }
 function snPlay() {
   if (!SN.ep) return;

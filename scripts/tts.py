@@ -25,7 +25,7 @@ def edge_mp3(text, out):
             if i == 2: raise
             time.sleep(3)
     tmp = out + ".tmp.mp3"   # mono, 24 kbit/s: klein, fuer Sprache klar genug
-    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", raw, "-ac", "1", "-ar", "24000", "-codec:a", "libmp3lame", "-b:a", "24k", tmp], check=True)
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", raw, "-ac", "1", "-ar", "24000", "-codec:a", "libmp3lame", "-b:a", "24k", "-write_xing", "0", "-id3v2_version", "0", tmp], check=True)
     os.replace(tmp, out); os.unlink(raw)
     d = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", out], capture_output=True, text=True).stdout.strip()
     return round(float(d or 0), 1)
@@ -36,11 +36,11 @@ def edge_fill(idx, st, extra_texts):
     items = [(s, v["vorlesetext"], v.get("id") or v.get("generated_at")) for s, v in st.items() if v.get("vorlesetext")]
     for s, text, vid in items:
         e = idx["stocks"].get(s)
-        if e and (e.get("th") == th(text) or e.get("hash") == thash(text)) and os.path.exists(os.path.join(AUD, e["file"])): continue
+        if e and e.get("br") == 24 and (e.get("th") == th(text) or e.get("hash") == thash(text)) and os.path.exists(os.path.join(AUD, e["file"])): continue
         try:
             dur = edge_mp3(text, os.path.join(AUD, fname(s)))
             idx["stocks"][s] = {"file": fname(s), "hash": th(EDGE_VOICE + text), "th": th(text), "id": vid, "voice": EDGE_VOICE,
-                                "engine": "edge", "dur": dur, "at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())}
+                                "engine": "edge", "br": 24, "text": text, "dur": dur, "at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())}
             n += 1; log("%s edge ok (%ss)" % (s, dur))
         except Exception as ex: log("%s edge Fehler: %s" % (s, str(ex)[:150]))
     ex_idx = idx.setdefault("extra", {})
@@ -73,7 +73,7 @@ def to_mp3(pcm, out):
     with tempfile.NamedTemporaryFile(suffix=".pcm", delete=False) as f: f.write(pcm); src = f.name
     tmp = out + ".tmp.mp3"
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "s16le", "-ar", "24000", "-ac", "1", "-i", src,
-                    "-codec:a", "libmp3lame", "-b:a", "48k", tmp], check=True)
+                    "-codec:a", "libmp3lame", "-b:a", "24k", "-write_xing", "0", "-id3v2_version", "0", tmp], check=True)
     os.replace(tmp, out); os.unlink(src)
     return round(len(pcm) / 48000.0, 1)
 def main():
@@ -85,9 +85,21 @@ def main():
     try: idx = json.load(open(IDX))
     except Exception: idx = {"voice": VOICE, "stocks": {}}
     st = ai.get("stocks") or {}
+    # v35: Redakteur-KI (klare ganze Saetze + Faktencheck), Ergebnis nur fuer Audio/Podcast
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    try:
+        import redakteur
+        red = [{"id": "pod:" + s_, "src": json.dumps({k: v for k, v in a.items() if k not in ("vorlesetext", "id", "generated_at")}, ensure_ascii=False)[:5000],
+                "draft": a["vorlesetext"]} for s_, a in st.items() if a.get("vorlesetext")]
+        import ent_tts
+        try: fx = json.load(open(os.path.join(ROOT, "data", "fx.json"))).get("per_usd") or {}
+        except Exception: fx = {}
+        out = redakteur.edit(red, keep_last=False, conv=lambda t: ent_tts.money(t, fx))
+        st = {s_: dict(a, vorlesetext=out.get("pod:" + s_, a.get("vorlesetext"))) if a.get("vorlesetext") else a for s_, a in st.items()}
+    except Exception as ex: log("Redakteur Fehler:", str(ex)[:150])
     jobs = [s for s, v in st.items() if v.get("vorlesetext") and
-            (idx["stocks"].get(s, {}).get("hash") != thash(v["vorlesetext"]) or not os.path.exists(os.path.join(AUD, fname(s))))]
-    jobs = [s for s in jobs if not (idx["stocks"].get(s, {}).get("th") == th(st[s]["vorlesetext"]) and os.path.exists(os.path.join(AUD, fname(s))))]
+            (idx["stocks"].get(s, {}).get("hash") != thash(v["vorlesetext"]) or idx["stocks"].get(s, {}).get("br") != 24 or not os.path.exists(os.path.join(AUD, fname(s))))]
+    jobs = [s for s in jobs if not (idx["stocks"].get(s, {}).get("br") == 24 and idx["stocks"].get(s, {}).get("th") == th(st[s]["vorlesetext"]) and os.path.exists(os.path.join(AUD, fname(s))))]
     log("%d faellig, max %d Gemini-Aufrufe" % (len(jobs), mx))
     if subprocess.run(["which", "ffmpeg"], capture_output=True).returncode: log("ffmpeg fehlt"); return
     calls, model, status = 0, None, idx.get("status", "")
@@ -102,7 +114,7 @@ def main():
             try:
                 dur = to_mp3(tts(m, text, key), os.path.join(AUD, fname(s)))
                 idx["stocks"][s] = {"file": fname(s), "hash": thash(text), "th": th(text), "engine": "gemini", "id": v.get("id") or v.get("generated_at"),
-                                    "voice": VOICE, "model": m, "dur": dur, "at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())}
+                                    "voice": VOICE, "model": m, "br": 24, "text": text, "dur": dur, "at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())}
                 model, ok, status = m, True, "ok"; log("%s ok (%s, %ss)" % (s, m, dur)); break
             except Exception as e:
                 code, t = err_text(e); log("%s %s: %s" % (s, m, t))

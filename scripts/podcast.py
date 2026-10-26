@@ -33,7 +33,8 @@ def main():
     for s in wl.get("stocks", []):
         a = st.get(s["symbol"])
         if not a or not a.get("vorlesetext"): continue
-        txt = a["vorlesetext"]; name = s.get("name") or s["symbol"]
+        x0 = aus.get(s["symbol"]) or {}
+        txt = x0["text"] if x0.get("text") and x0.get("id") == a.get("id") else a["vorlesetext"]; name = s.get("name") or s["symbol"]
         seg = {"symbol": s["symbol"], "name": name, "text": with_name(name, txt), "id": a.get("id"), "generated_at": a.get("generated_at")}
         x = aus.get(s["symbol"])
         if matches(x, txt):

@@ -62,7 +62,7 @@ jobs:
           if [ -f data/ai.json ]; then git add data/ai.json; fi
           if [ -f data/audio/index.json ]; then git add data/audio/index.json; fi
           if [ -f data/podcast.json ]; then git add data/podcast.json; fi
-          for f in data/entdecken.json data/audio/ent/index.json; do [ -f $f ] && git add $f; done
+          for f in data/entdecken.json data/audio/ent/index.json data/redakteur.json; do [ -f $f ] && git add $f; done
           if git diff --cached --quiet; then echo "keine Aenderung"; exit 0; fi
           git commit -m "Daten $(date -u +%Y-%m-%dT%H:%MZ)"
           git pull --rebase -q

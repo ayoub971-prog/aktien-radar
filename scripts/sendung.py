@@ -291,6 +291,19 @@ def build(kind, now):
     chapters.append({"name": "Begriff: " + w, "say": "Zum Lernen, der Begriff des Tages: %s. %s" % (w, l)})
     chapters.append({"name": "Schluss", "say": "Das war %s vom Aktien-Radar. Die Quellen findest du in der App bei jeder Aktie, den ganzen Text über den Knopf Als Text. Bis %s." % ("der Wochenrückblick" if kind == "woche" else "die Sendung", "nächste Woche" if kind == "woche" else "morgen")})
     for c in chapters: c["say"] = sx(c["say"])
+    # v35: Redakteur-KI + Faktencheck fuer alle inhaltlichen Kapitel
+    try:
+        import redakteur
+        chd = {x["symbol"]: x for x in CH}; red = []
+        for c in chapters:
+            if c["name"] in ("Begrüssung", "Schluss", "Andere Aktien mit Chancen") or c["name"].startswith("Begriff:"): continue
+            sy = c.get("sym"); q = Q.get(sy) or {}
+            src = {"daten": data.get(sy), "kurs": {k: q.get(k) for k in ("price", "currency", "change_pct", "price_usd") if k in q} if q else None,
+                   "analysten": (chd.get(sy) or {}).get("d"), "kurs_usd": (chd.get(sy) or {}).get("price_usd")}
+            red.append({"id": "sn:%s:%s" % (kind, c["name"]), "src": json.dumps(src, ensure_ascii=False), "draft": c["say"], "keep": False, "c": c})
+        out = redakteur.edit(red, conv=lambda t: T.money(t, fx))
+        for r in red: r["c"]["say"] = sx(out.get(r["id"]) or r["c"]["say"])
+    except Exception as ex: print("Redakteur Fehler", str(ex)[:150])
     eid = loc.strftime("%Y-%m-%d") + ("-w" if kind == "woche" else "-t")
     return {"id": eid, "kind": kind, "date": loc.strftime("%Y-%m-%d"), "title": ep_title, "generated_at": now.strftime("%Y-%m-%dT%H:%M:%SZ"),
             "writer": "Gemini (Gratis-Kontingent) %d Firmen, Rest Vorlage" % used_ai if used_ai else "Vorlage aus den Daten", "chapters": chapters}
