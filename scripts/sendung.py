@@ -103,7 +103,7 @@ def gemini(prompt):
             print("Gemini Fehler", m, A.err_text(e) if hasattr(A, "err_text") else e)
     return None
 
-PROMPT = """Du schreibst Sprechtexte fuer einen deutschsprachigen Aktien-Podcast (Schweiz, schreibe "ss" statt "ß"). Zuhoerer ist Anfaenger.
+PROMPT = """Du schreibst Sprechtexte fuer einen deutschsprachigen Aktien-Podcast (Schweiz: schreibe korrekte Umlaute ä ö ü, aber "ss" statt "ß"). Zuhoerer ist Anfaenger.
 Regeln: Verwende NUR die Fakten aus den Schlagzeilen unten. Nichts erfinden, keine eigenen Zahlen, keine Kursziele, keine Prognosen.
 Schwerpunkt: Produkte, Markteinfuehrungen, Partner, Auftraege, Projekte, Pipeline. Kursmeldungen ohne Firmenbezug weglassen.
 Pro Aktie 3 bis 6 kurze Saetze, beginne mit "Zur Aktie NAME." und nenne den Namen mindestens dreimal. Englische Schlagzeilen auf Deutsch zusammenfassen.
@@ -213,7 +213,10 @@ def build(kind, now):
         if o and isinstance(o, dict) and o.get("text"):
             t = sx(o["text"])
             bad = [d for d in re.findall(r"\d+", t) if d not in src_nums[s]]
-            if not bad and t.count(n.split()[0]) >= 2: txt = [T.money(t, fx)]; used_ai += 1
+            if not bad and t.count(n.split()[0]) >= 2:
+                w = {"staerkt": "Meine Einordnung aus diesen Meldungen: Sie könnten %s eher stärken." % n, "schwaecht": "Meine Einordnung aus diesen Meldungen: Sie könnten %s eher schwächen." % n}.get(o.get("wirkung"), "Ob das %s stärkt oder schwächt, ist aus den Meldungen noch unklar." % n)
+                if re.search(r"stärk|schwäch|unklar", t[-160:]): w = ""
+                txt = [T.money(t, fx), w] if w else [T.money(t, fx)]; used_ai += 1
             else: print("KI-Text verworfen", s, bad[:3])
         if not txt: txt = stock_block(s, n, per.get(s, []), fx, kind == "woche", I.get(s), Q.get(s), AI.get(s))
         if kind == "woche":
