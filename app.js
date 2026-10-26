@@ -2,7 +2,7 @@
 (function () {
 'use strict';
 var REPO = 'ayoub971-prog/aktien-radar';
-var APP_VERSION = 'v31';
+var APP_VERSION = 'v32';
 var SECTOR_ORDER = ['Halbleiter/Hardware', 'Software/KI', 'Energie', 'Industrie/Luftfahrt', 'Finanzen', 'Rohstoffe/Gold', 'Konsum/Internet', 'Gesundheit', 'ETFs/Indizes', 'Sonstige'];
 var TAGS = [
   { n: 'Quartalszahlen', re: /quartalszahl|quartalsergebnis|quartalsbericht|jahreszahlen|halbjahreszahlen|geschäftszahlen|\bearnings\b|quarterly results|\bq[1-4]\b.{0,12}(results|earnings|revenue)|(results|earnings) for (the )?(first|second|third|fourth)|\bumsatz\b|\bbilanz\b/i },
@@ -765,6 +765,7 @@ function route() {
     else if (h === '#/news') { setTab('news'); viewNews(); }
     else if (h === '#/markt') { setTab('markt'); viewMarkt(); }
     else if (h === '#/liste') { setTab('liste'); viewList(); }
+    else if (h === '#/entdecken') { setTab('entdecken'); viewEntdecken(); }
     else { setTab('home'); viewHome(); }
   } catch (err) { showErr('Anzeige-Fehler: ' + err.message); }
   updatePill();
@@ -1349,4 +1350,38 @@ document.addEventListener('click', function (e) {
   if (k >= 0) SELNOW.splice(k, 1); else SELNOW.push(sym);
   selMark();
 }, true);
+/* ===== Entdecken: auffaellige Aktien aus S&P 500 + Nasdaq-100 + Liste (data/entdecken.json, von GitHub Actions) ===== */
+var ENT = null, ENT_TAB = (function () { try { return localStorage.getItem('ar.entTab') || 'potenzial'; } catch (e) { return 'potenzial'; } })();
+var ENT_LISTS = [['potenzial', 'Grösstes Potenzial', 'Abstand zum Ø Kursziel der Analysten (mind. 8 Analysten), plus Hoch-/Abstufungen der letzten 3 Wochen.'],
+  ['wachstum', 'Stärkstes Wachstum', 'Kursentwicklung der letzten 3 Monate.'],
+  ['zahlen', 'Frische Zahlen', 'Quartalszahlen der letzten 3 Wochen: Gewinn je Aktie gegenüber der Erwartung der Analysten.'],
+  ['gegenteil', 'Gegenteil', 'Grösste Verlierer im letzten Monat, Zahlen unter Erwartung, Abstufungen.']];
+function entUsd(x) { return x == null ? '–' : x.toLocaleString('de-CH', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + ' USD'; }
+function entInList(sym) { return ((DEF && DEF.stocks) || []).some(function (s) { return s.symbol.toUpperCase() === sym.toUpperCase(); }); }
+function entPend(sym) { return pendGet().some(function (p) { return p.op === 'add' && p.q.toUpperCase() === sym.toUpperCase(); }); }
+function viewEntdecken() {
+  var v = $('view');
+  if (!ENT) {
+    v.innerHTML = '<h2>Entdecken</h2><p class="tiny">Lade …</p>';
+    getJSON('data/entdecken.json?t=' + Math.floor(Date.now() / 600e3)).then(function (d) { ENT = d || { lists: {} }; if (location.hash === '#/entdecken') viewEntdecken(); })
+      ['catch'](function () { ENT = { lists: {}, err: 1 }; if (location.hash === '#/entdecken') viewEntdecken(); });
+    return;
+  }
+  var cur = ENT_LISTS.filter(function (l) { return l[0] === ENT_TAB; })[0] || ENT_LISTS[0], items = (ENT.lists || {})[cur[0]] || [];
+  var h = '<h2>Entdecken</h2><div class="entChips">' + ENT_LISTS.map(function (l) { return '<button type="button" class="entChip' + (l[0] === cur[0] ? ' on' : '') + '" data-ent="' + l[0] + '">' + l[1] + '</button>'; }).join('') + '</div>';
+  h += '<p class="tiny">' + esc(cur[2]) + (ENT.generated_at ? ' Stand: ' + new Date(ENT.generated_at).toLocaleString('de-CH', { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' }) + '.' : '') +
+    (ENT.universe ? ' Aus ' + ENT.universe + ' Aktien (S&P 500, Nasdaq-100, deine Liste).' : '') + '</p>';
+  if (!items.length) h += '<div class="banner">' + (ENT.err ? 'Die Entdecken-Daten konnten nicht geladen werden.' : 'Für diese Liste gibt es im Moment keine Daten.') + '</div>';
+  h += items.map(function (x, i) {
+    var inL = entInList(x.symbol), pend = entPend(x.symbol);
+    var btn = inL ? '<span class="pill">✓ auf deiner Liste</span>' : pend ? '<span class="pill">⏳ wird hinzugefügt</span>' : '<button type="button" class="small entAdd" data-add="' + esc(x.symbol) + '">+ auf Liste</button>';
+    return '<div class="erow"><div class="eTop"><div class="eL"><b>' + (i + 1) + '. ' + esc(x.name) + '</b><span>' + esc(x.symbol) + '</span></div><div class="eR"><b>' + entUsd(x.price_usd) + '</b><span class="eM">' + esc(x.metric) + '</span></div></div>' +
+      '<div class="eWhy">' + esc(x.reason) + (x.ai ? '<div class="eAi">' + esc(x.ai) + ' <span class="tag">KI</span></div>' : '') + '</div><div class="eAct">' + (inL ? '<a class="small" href="#/s/' + encodeURIComponent(x.symbol) + '">Details ›</a>' : '') + btn + '</div></div>';
+  }).join('');
+  h += '<p class="disc">Zum Lernen, keine Anlageberatung. Quellen: ' + esc((ENT.sources || ['Yahoo Finance']).join(', ')) + '. Kurse ggf. verzögert, alle Beträge in USD. Nur tatsächlich abgerufene Daten; fehlt etwas, wird es nicht gezeigt.</p>';
+  v.innerHTML = h; window.scrollTo(0, 0);
+  var c = v.querySelectorAll('[data-ent]'); for (var i = 0; i < c.length; i++) c[i].onclick = function () { ENT_TAB = this.getAttribute('data-ent'); try { localStorage.setItem('ar.entTab', ENT_TAB); } catch (e) {} viewEntdecken(); };
+  var a = v.querySelectorAll('[data-add]'); for (var j = 0; j < a.length; j++) a[j].onclick = function () { var q = this.getAttribute('data-add'); pendAdd('add', q); window.open(ghIssueUrl('add: ' + q), '_blank'); viewEntdecken(); };
+}
+
 })();

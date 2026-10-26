@@ -1,0 +1,33 @@
+name: Entdecken aktualisieren
+on:
+  schedule:
+    - cron: '35 12,21 * * 1-5'   # werktags 2x (UTC), nach US-Boersenstart und -schluss
+    - cron: '35 10 * * 6'         # Samstag 1x
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: aktien-radar-daten
+  cancel-in-progress: false
+jobs:
+  entdecken:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Entdecken-Listen bauen (Yahoo, optional 1 Gemini-Aufruf)
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python scripts/entdecken.py
+      - name: Committen
+        run: |
+          git config user.name "aktien-radar-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/entdecken.json
+          if git diff --cached --quiet; then echo "keine Aenderung"; exit 0; fi
+          git commit -m "Entdecken $(date -u +%Y-%m-%dT%H:%MZ)"
+          git pull --rebase -q
+          git push

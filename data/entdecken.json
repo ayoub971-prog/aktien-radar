@@ -1,0 +1,1009 @@
+{
+"generated_at": "2026-10-26T12:47:51Z",
+"universe": 520,
+"ai_model": null,
+"sources": [
+"Wikipedia (S&P 500, Nasdaq-100)",
+"Yahoo Finance"
+],
+"lists": {
+"potenzial": [
+{
+"symbol": "OKLO",
+"name": "Oklo Inc.",
+"price_usd": 26.35,
+"mine": true,
+"metric": "+161,7 % bis Kursziel",
+"reason": "Ø Kursziel von 19 Analysten: 68.95 USD. "
+},
+{
+"symbol": "005930.KS",
+"name": "Samsung Electronics Co., Ltd.",
+"price_usd": 160.82,
+"mine": true,
+"metric": "+124,8 % bis Kursziel",
+"reason": "Ø Kursziel von 36 Analysten: 361.59 USD. "
+},
+{
+"symbol": "FLEX",
+"name": "Flex Ltd.",
+"price_usd": 76.55,
+"mine": false,
+"metric": "+107,6 % bis Kursziel",
+"reason": "Ø Kursziel von 10 Analysten: 158.90 USD. "
+},
+{
+"symbol": "NRG",
+"name": "NRG Energy, Inc.",
+"price_usd": 92.31,
+"mine": false,
+"metric": "+93,9 % bis Kursziel",
+"reason": "Ø Kursziel von 18 Analysten: 179.00 USD. "
+},
+{
+"symbol": "COHR",
+"name": "Coherent Corp.",
+"price_usd": 209.29,
+"mine": false,
+"metric": "+88,6 % bis Kursziel",
+"reason": "Ø Kursziel von 24 Analysten: 394.79 USD. "
+},
+{
+"symbol": "ORCL",
+"name": "Oracle Corporation",
+"price_usd": 126.16,
+"mine": false,
+"metric": "+87,5 % bis Kursziel",
+"reason": "Ø Kursziel von 41 Analysten: 236.54 USD. "
+},
+{
+"symbol": "APP",
+"name": "AppLovin Corporation",
+"price_usd": 260.25,
+"mine": false,
+"metric": "+81,2 % bis Kursziel",
+"reason": "Ø Kursziel von 31 Analysten: 471.69 USD. "
+},
+{
+"symbol": "FIX",
+"name": "Comfort Systems USA, Inc.",
+"price_usd": 1160.86,
+"mine": false,
+"metric": "+80,5 % bis Kursziel",
+"reason": "Ø Kursziel von 8 Analysten: 2095.12 USD. "
+},
+{
+"symbol": "MU",
+"name": "Micron Technology, Inc.",
+"price_usd": 877.55,
+"mine": true,
+"metric": "+78,0 % bis Kursziel",
+"reason": "Ø Kursziel von 45 Analysten: 1561.91 USD. "
+},
+{
+"symbol": "WDC",
+"name": "Western Digital Corporation",
+"price_usd": 343.67,
+"mine": false,
+"metric": "+77,5 % bis Kursziel",
+"reason": "Ø Kursziel von 24 Analysten: 610.04 USD. "
+},
+{
+"symbol": "STX",
+"name": "Seagate Technology Holdings plc",
+"price_usd": 630.49,
+"mine": true,
+"metric": "+77,1 % bis Kursziel",
+"reason": "Ø Kursziel von 24 Analysten: 1116.58 USD. "
+},
+{
+"symbol": "HWM",
+"name": "Howmet Aerospace Inc.",
+"price_usd": 185.91,
+"mine": false,
+"metric": "+74,6 % bis Kursziel",
+"reason": "Ø Kursziel von 20 Analysten: 324.55 USD. "
+},
+{
+"symbol": "1211.HK",
+"name": "BYD Company Limited",
+"price_usd": 9.03,
+"mine": true,
+"metric": "+73,4 % bis Kursziel",
+"reason": "Ø Kursziel von 26 Analysten: 15.65 USD. "
+},
+{
+"symbol": "SNDK",
+"name": "Sandisk Corporation",
+"price_usd": 1238.03,
+"mine": false,
+"metric": "+73,2 % bis Kursziel",
+"reason": "Ø Kursziel von 24 Analysten: 2143.83 USD. "
+},
+{
+"symbol": "VRT",
+"name": "Vertiv Holdings Co",
+"price_usd": 194.32,
+"mine": false,
+"metric": "+71,4 % bis Kursziel",
+"reason": "Ø Kursziel von 28 Analysten: 333.00 USD. "
+},
+{
+"symbol": "ALB",
+"name": "Albemarle Corporation",
+"price_usd": 93.67,
+"mine": false,
+"metric": "+66,9 % bis Kursziel",
+"reason": "Ø Kursziel von 21 Analysten: 156.35 USD. Mizuho stuft hoch auf Besser als Markt (14.10.2026)."
+},
+{
+"symbol": "AKAM",
+"name": "Akamai Technologies, Inc.",
+"price_usd": 93.53,
+"mine": false,
+"metric": "+65,7 % bis Kursziel",
+"reason": "Ø Kursziel von 22 Analysten: 154.96 USD. Raymond James stuft hoch auf Stark kaufen (20.10.2026)."
+},
+{
+"symbol": "WYNN",
+"name": "Wynn Resorts, Limited",
+"price_usd": 72.73,
+"mine": false,
+"metric": "+67,3 % bis Kursziel",
+"reason": "Ø Kursziel von 20 Analysten: 121.65 USD. "
+},
+{
+"symbol": "AMAT",
+"name": "Applied Materials, Inc.",
+"price_usd": 377.24,
+"mine": true,
+"metric": "+66,4 % bis Kursziel",
+"reason": "Ø Kursziel von 36 Analysten: 627.83 USD. "
+},
+{
+"symbol": "TMUS",
+"name": "T-Mobile US, Inc.",
+"price_usd": 146.54,
+"mine": false,
+"metric": "+61,6 % bis Kursziel",
+"reason": "Ø Kursziel von 25 Analysten: 236.84 USD. Raymond James stuft hoch auf Besser als Markt (12.10.2026)."
+},
+{
+"symbol": "AVGO",
+"name": "Broadcom Inc.",
+"price_usd": 321.68,
+"mine": true,
+"metric": "+64,5 % bis Kursziel",
+"reason": "Ø Kursziel von 48 Analysten: 529.10 USD. "
+},
+{
+"symbol": "AXON",
+"name": "Axon Enterprise, Inc.",
+"price_usd": 420.37,
+"mine": false,
+"metric": "+62,2 % bis Kursziel",
+"reason": "Ø Kursziel von 19 Analysten: 681.68 USD. "
+},
+{
+"symbol": "FSLR",
+"name": "First Solar, Inc.",
+"price_usd": 171.99,
+"mine": false,
+"metric": "+59,1 % bis Kursziel",
+"reason": "Ø Kursziel von 30 Analysten: 273.67 USD. Truist Securities stuft hoch auf Kaufen (12.10.2026)."
+},
+{
+"symbol": "CIEN",
+"name": "Ciena Corporation",
+"price_usd": 320.26,
+"mine": false,
+"metric": "+60,2 % bis Kursziel",
+"reason": "Ø Kursziel von 20 Analysten: 512.99 USD. "
+},
+{
+"symbol": "KLAC",
+"name": "KLA Corporation",
+"price_usd": 145.61,
+"mine": false,
+"metric": "+59,6 % bis Kursziel",
+"reason": "Ø Kursziel von 26 Analysten: 232.38 USD. "
+},
+{
+"symbol": "CHTR",
+"name": "Charter Communications, Inc.",
+"price_usd": 108.61,
+"mine": false,
+"metric": "+59,4 % bis Kursziel",
+"reason": "Ø Kursziel von 18 Analysten: 173.17 USD. "
+},
+{
+"symbol": "Q",
+"name": "Qnity Electronics, Inc.",
+"price_usd": 109.83,
+"mine": false,
+"metric": "+58,6 % bis Kursziel",
+"reason": "Ø Kursziel von 10 Analysten: 174.20 USD. "
+},
+{
+"symbol": "LRCX",
+"name": "Lam Research Corporation",
+"price_usd": 230.1,
+"mine": false,
+"metric": "+58,2 % bis Kursziel",
+"reason": "Ø Kursziel von 30 Analysten: 364.03 USD. "
+},
+{
+"symbol": "MPWR",
+"name": "Monolithic Power Systems, Inc.",
+"price_usd": 1140.12,
+"mine": false,
+"metric": "+57,9 % bis Kursziel",
+"reason": "Ø Kursziel von 15 Analysten: 1799.80 USD. "
+},
+{
+"symbol": "GNRC",
+"name": "Generac Holdings Inc.",
+"price_usd": 186.92,
+"mine": false,
+"metric": "+53,2 % bis Kursziel",
+"reason": "Ø Kursziel von 18 Analysten: 286.44 USD. Keybanc stuft hoch auf Übergewichten (08.10.2026)."
+}
+],
+"wachstum": [
+{
+"symbol": "MRNA",
+"name": "Moderna, Inc.",
+"price_usd": 200.1,
+"mine": false,
+"metric": "+259,7 % in 3 Mt.",
+"reason": "Kurs in 3 Monaten +259,7 %, im letzten Monat +9,9 %."
+},
+{
+"symbol": "P",
+"name": "Everpure, Inc.",
+"price_usd": 123.33,
+"mine": false,
+"metric": "+66,2 % in 3 Mt.",
+"reason": "Kurs in 3 Monaten +66,2 %, im letzten Monat +12,5 %."
+},
+{
+"symbol": "VEEV",
+"name": "Veeva Systems Inc.",
+"price_usd": 323.04,
+"mine": false,
+"metric": "+66,1 % in 3 Mt.",
+"reason": "Kurs in 3 Monaten +66,1 %, im letzten Monat +19,3 %."
+},
+{
+"symbol": "ACN",
+"name": "Accenture plc",
+"price_usd": 249.37,
+"mine": false,
+"metric": "+61,9 % in 3 Mt.",
+"reason": "Kurs in 3 Monaten +61,9 %, im letzten Monat +35,9 %."
+},
+{
+"symbol": "IT",
+"name": "Gartner, Inc.",
+"price_usd": 230.28,
+"mine": false,
+"metric": "+56,2 % in 3 Mt.",
+"reason": "Kurs in 3 Monaten +56,2 %, im letzten Monat +29,0 %."
+},
+{
+"symbol": "PTC",
+"name": "PTC Inc.",
+"price_usd": 193.8,
+"mine": false,
+"metric": "+54,8 % in 3 Mt.",
+"reason": "Kurs in 3 Monaten +54,8 %, im letzten Monat +38,0 %."
+},
+{
+"symbol": "CRL",
+"name": "Charles River Laboratories International, Inc.",
+"price_usd": 345.37,
+"mine": false,
+"metric": "+54,0 % in 3 Mt.",
+"reason": "Kurs in 3 Monaten +54,0 %, im letzten Monat +24,5 %."
+},
+{
+"symbol": "NOW",
+"name": "ServiceNow, Inc.",
+"price_usd": 158.96,
+"mine": true,
+"metric": "+50,6 % in 3 Mt.",
+"reason": "Kurs in 3 Monaten +50,6 %, im letzten Monat +12,9 %."
+},
+{
+"symbol": "CTSH",
+"name": "Cognizant Technology Solutions Corporation",
+"price_usd": 70.54,
+"mine": false,
+"metric": "+49,9 % in 3 Mt.",
+"reason": "Kurs in 3 Monaten +49,9 %, im letzten Monat +19,3 %."
+},
+{
+"symbol": "PLTR",
+"name": "Palantir Technologies Inc.",
+"price_usd": 196.75,
+"mine": true,
+"metric": "+49,6 % in 3 Mt.",
+"reason": "Kurs in 3 Monaten +49,6 %, im letzten Monat +2,6 %."
+},
+{
+"symbol": "APA",
+"name": "APA Corporation",
+"price_usd": 51.9,
+"mine": false,
+"metric": "+49,4 % in 3 Mt.",
+"reason": "Kurs in 3 Monaten +49,4 %, im letzten Monat +18,8 %."
+},
+{
+"symbol": "RVTY",
+"name": "Revvity, Inc.",
+"price_usd": 158.77,
+"mine": false,
+"metric": "+46,9 % in 3 Mt.",
+"reason": "Kurs in 3 Monaten +46,9 %, im letzten Monat +11,7 %."
+},
+{
+"symbol": "MPC",
+"name": "Marathon Petroleum Corporation",
+"price_usd": 457.22,
+"mine": false,
+"metric": "+46,4 % in 3 Mt.",
+"reason": "Kurs in 3 Monaten +46,4 %, im letzten Monat +17,7 %."
+},
+{
+"symbol": "ZBRA",
+"name": "Zebra Technologies Corporation",
+"price_usd": 386.45,
+"mine": false,
+"metric": "+46,1 % in 3 Mt.",
+"reason": "Kurs in 3 Monaten +46,1 %, im letzten Monat +4,2 %."
+},
+{
+"symbol": "CRM",
+"name": "Salesforce, Inc.",
+"price_usd": 248.57,
+"mine": false,
+"metric": "+43,2 % in 3 Mt.",
+"reason": "Kurs in 3 Monaten +43,2 %, im letzten Monat +4,6 %."
+},
+{
+"symbol": "CRWD",
+"name": "CrowdStrike Holdings, Inc.",
+"price_usd": 257.57,
+"mine": false,
+"metric": "+43,0 % in 3 Mt.",
+"reason": "Kurs in 3 Monaten +43,0 %, im letzten Monat -1,9 %."
+},
+{
+"symbol": "WDAY",
+"name": "Workday, Inc.",
+"price_usd": 209.99,
+"mine": false,
+"metric": "+42,3 % in 3 Mt.",
+"reason": "Kurs in 3 Monaten +42,3 %, im letzten Monat +9,2 %."
+},
+{
+"symbol": "ILMN",
+"name": "Illumina, Inc.",
+"price_usd": 269.42,
+"mine": false,
+"metric": "+42,2 % in 3 Mt.",
+"reason": "Kurs in 3 Monaten +42,2 %, im letzten Monat +5,5 %."
+},
+{
+"symbol": "VLO",
+"name": "Valero Energy Corporation",
+"price_usd": 419.28,
+"mine": false,
+"metric": "+37,5 % in 3 Mt.",
+"reason": "Kurs in 3 Monaten +37,5 %, im letzten Monat +11,6 %."
+},
+{
+"symbol": "PSX",
+"name": "Phillips 66",
+"price_usd": 283.18,
+"mine": false,
+"metric": "+36,3 % in 3 Mt.",
+"reason": "Kurs in 3 Monaten +36,3 %, im letzten Monat +10,4 %."
+},
+{
+"symbol": "MSFT",
+"name": "Microsoft Corporation",
+"price_usd": 524.51,
+"mine": true,
+"metric": "+34,8 % in 3 Mt.",
+"reason": "Kurs in 3 Monaten +34,8 %, im letzten Monat +4,8 %."
+},
+{
+"symbol": "TWLO",
+"name": "Twilio Inc.",
+"price_usd": 261.79,
+"mine": false,
+"metric": "+34,6 % in 3 Mt.",
+"reason": "Kurs in 3 Monaten +34,6 %, im letzten Monat -9,9 %."
+},
+{
+"symbol": "SWKS",
+"name": "Skyworks Solutions, Inc.",
+"price_usd": 83.43,
+"mine": false,
+"metric": "+31,5 % in 3 Mt.",
+"reason": "Kurs in 3 Monaten +31,5 %, im letzten Monat -8,8 %."
+},
+{
+"symbol": "IQV",
+"name": "IQVIA Holdings Inc.",
+"price_usd": 279.36,
+"mine": false,
+"metric": "+31,0 % in 3 Mt.",
+"reason": "Kurs in 3 Monaten +31,0 %, im letzten Monat +4,3 %."
+},
+{
+"symbol": "EL",
+"name": "The Estée Lauder Companies Inc.",
+"price_usd": 108.67,
+"mine": false,
+"metric": "+30,6 % in 3 Mt.",
+"reason": "Kurs in 3 Monaten +30,6 %, im letzten Monat +10,0 %."
+},
+{
+"symbol": "COP",
+"name": "ConocoPhillips",
+"price_usd": 150.8,
+"mine": false,
+"metric": "+30,5 % in 3 Mt.",
+"reason": "Kurs in 3 Monaten +30,5 %, im letzten Monat +17,7 %."
+},
+{
+"symbol": "ULTA",
+"name": "Ulta Beauty, Inc.",
+"price_usd": 624.46,
+"mine": false,
+"metric": "+30,0 % in 3 Mt.",
+"reason": "Kurs in 3 Monaten +30,0 %, im letzten Monat +14,8 %."
+},
+{
+"symbol": "HAS",
+"name": "Hasbro, Inc.",
+"price_usd": 117.44,
+"mine": false,
+"metric": "+29,6 % in 3 Mt.",
+"reason": "Kurs in 3 Monaten +29,6 %, im letzten Monat +35,7 %."
+},
+{
+"symbol": "NTAP",
+"name": "NetApp, Inc.",
+"price_usd": 215.48,
+"mine": false,
+"metric": "+26,9 % in 3 Mt.",
+"reason": "Kurs in 3 Monaten +26,9 %, im letzten Monat +9,8 %."
+},
+{
+"symbol": "ISRG",
+"name": "Intuitive Surgical, Inc.",
+"price_usd": 452.29,
+"mine": false,
+"metric": "+26,8 % in 3 Mt.",
+"reason": "Kurs in 3 Monaten +26,8 %, im letzten Monat +13,6 %."
+}
+],
+"zahlen": [
+{
+"symbol": "HAS",
+"name": "Hasbro, Inc.",
+"price_usd": 117.44,
+"mine": false,
+"metric": "Gewinn +56,6 % vs. Erwartung",
+"reason": "Zahlen vom 20.10.2026: Gewinn je Aktie 2.90 USD, über der Erwartung (1.85).",
+"beat": true
+},
+{
+"symbol": "TFC",
+"name": "Truist Financial Corporation",
+"price_usd": 48.44,
+"mine": false,
+"metric": "Gewinn -53,8 % vs. Erwartung",
+"reason": "Zahlen vom 16.10.2026: Gewinn je Aktie 0.56 USD, unter der Erwartung (1.21).",
+"beat": false
+},
+{
+"symbol": "ELV",
+"name": "Elevance Health, Inc.",
+"price_usd": 439.95,
+"mine": false,
+"metric": "Gewinn +48,9 % vs. Erwartung",
+"reason": "Zahlen vom 21.10.2026: Gewinn je Aktie 6.99 USD, über der Erwartung (4.69).",
+"beat": true
+},
+{
+"symbol": "BE",
+"name": "Bloom Energy Corporation",
+"price_usd": 193.3,
+"mine": true,
+"metric": "Gewinn +39,2 % vs. Erwartung",
+"reason": "Zahlen vom 22.10.2026: Gewinn je Aktie 0.94 USD, über der Erwartung (0.68).",
+"beat": true
+},
+{
+"symbol": "META",
+"name": "Meta Platforms, Inc.",
+"price_usd": 642.62,
+"mine": true,
+"metric": "Gewinn -29,9 % vs. Erwartung",
+"reason": "Zahlen vom 21.10.2026: Gewinn je Aktie 3.83 USD, unter der Erwartung (5.46).",
+"beat": false
+},
+{
+"symbol": "DECK",
+"name": "Deckers Outdoor Corporation",
+"price_usd": 81.09,
+"mine": false,
+"metric": "Gewinn +28,7 % vs. Erwartung",
+"reason": "Zahlen vom 22.10.2026: Gewinn je Aktie 2.31 USD, über der Erwartung (1.79).",
+"beat": true
+},
+{
+"symbol": "RTX",
+"name": "RTX Corporation",
+"price_usd": 191.01,
+"mine": false,
+"metric": "Gewinn +27,0 % vs. Erwartung",
+"reason": "Zahlen vom 20.10.2026: Gewinn je Aktie 2.26 USD, über der Erwartung (1.78).",
+"beat": true
+},
+{
+"symbol": "TRV",
+"name": "The Travelers Companies, Inc.",
+"price_usd": 398.28,
+"mine": false,
+"metric": "Gewinn +23,5 % vs. Erwartung",
+"reason": "Zahlen vom 16.10.2026: Gewinn je Aktie 9.18 USD, über der Erwartung (7.43).",
+"beat": true
+},
+{
+"symbol": "COF",
+"name": "Capital One Financial Corporation",
+"price_usd": 201.34,
+"mine": false,
+"metric": "Gewinn +21,6 % vs. Erwartung",
+"reason": "Zahlen vom 20.10.2026: Gewinn je Aktie 6.69 USD, über der Erwartung (5.50).",
+"beat": true
+},
+{
+"symbol": "LVS",
+"name": "Las Vegas Sands Corp.",
+"price_usd": 35.68,
+"mine": false,
+"metric": "Gewinn -21,0 % vs. Erwartung",
+"reason": "Zahlen vom 21.10.2026: Gewinn je Aktie 0.54 USD, unter der Erwartung (0.68).",
+"beat": false
+},
+{
+"symbol": "AXP",
+"name": "American Express Company",
+"price_usd": 313.22,
+"mine": false,
+"metric": "Gewinn +20,4 % vs. Erwartung",
+"reason": "Zahlen vom 23.10.2026: Gewinn je Aktie 5.42 USD, über der Erwartung (4.50).",
+"beat": true
+},
+{
+"symbol": "LUV",
+"name": "Southwest Airlines Co.",
+"price_usd": 41.75,
+"mine": false,
+"metric": "Gewinn +14,2 % vs. Erwartung",
+"reason": "Zahlen vom 21.10.2026: Gewinn je Aktie 0.66 USD, über der Erwartung (0.58).",
+"beat": true
+},
+{
+"symbol": "ISRG",
+"name": "Intuitive Surgical, Inc.",
+"price_usd": 452.29,
+"mine": false,
+"metric": "Gewinn +13,6 % vs. Erwartung",
+"reason": "Zahlen vom 20.10.2026: Gewinn je Aktie 3.00 USD, über der Erwartung (2.64).",
+"beat": true
+},
+{
+"symbol": "UNH",
+"name": "UnitedHealth Group Incorporated",
+"price_usd": 418.09,
+"mine": false,
+"metric": "Gewinn +13,3 % vs. Erwartung",
+"reason": "Zahlen vom 13.10.2026: Gewinn je Aktie 4.69 USD, über der Erwartung (4.14).",
+"beat": true
+},
+{
+"symbol": "WDC",
+"name": "Western Digital Corporation",
+"price_usd": 343.67,
+"mine": false,
+"metric": "Gewinn +13,2 % vs. Erwartung",
+"reason": "Zahlen vom 22.10.2026: Gewinn je Aktie 4.64 USD, über der Erwartung (4.10).",
+"beat": true
+},
+{
+"symbol": "NEM",
+"name": "Newmont Corporation",
+"price_usd": 108.87,
+"mine": false,
+"metric": "Gewinn +13,0 % vs. Erwartung",
+"reason": "Zahlen vom 22.10.2026: Gewinn je Aktie 2.20 USD, über der Erwartung (1.95).",
+"beat": true
+},
+{
+"symbol": "NVR",
+"name": "NVR, Inc.",
+"price_usd": 5983.68,
+"mine": false,
+"metric": "Gewinn -13,0 % vs. Erwartung",
+"reason": "Zahlen vom 22.10.2026: Gewinn je Aktie 89.45 USD, unter der Erwartung (102.77).",
+"beat": false
+},
+{
+"symbol": "CB",
+"name": "Chubb Limited",
+"price_usd": 355.11,
+"mine": false,
+"metric": "Gewinn +12,7 % vs. Erwartung",
+"reason": "Zahlen vom 20.10.2026: Gewinn je Aktie 7.66 USD, über der Erwartung (6.80).",
+"beat": true
+},
+{
+"symbol": "VLO",
+"name": "Valero Energy Corporation",
+"price_usd": 419.28,
+"mine": false,
+"metric": "Gewinn +12,6 % vs. Erwartung",
+"reason": "Zahlen vom 22.10.2026: Gewinn je Aktie 23.90 USD, über der Erwartung (21.23).",
+"beat": true
+},
+{
+"symbol": "DOW",
+"name": "Dow Inc.",
+"price_usd": 32.61,
+"mine": false,
+"metric": "Gewinn +11,5 % vs. Erwartung",
+"reason": "Zahlen vom 22.10.2026: Gewinn je Aktie 0.71 USD, über der Erwartung (0.64).",
+"beat": true
+},
+{
+"symbol": "BLK",
+"name": "BlackRock, Inc.",
+"price_usd": 1118.25,
+"mine": false,
+"metric": "Gewinn +11,4 % vs. Erwartung",
+"reason": "Zahlen vom 14.10.2026: Gewinn je Aktie 15.93 USD, über der Erwartung (14.30).",
+"beat": true
+},
+{
+"symbol": "GE",
+"name": "GE Aerospace",
+"price_usd": 285.64,
+"mine": true,
+"metric": "Gewinn +11,4 % vs. Erwartung",
+"reason": "Zahlen vom 20.10.2026: Gewinn je Aktie 2.25 USD, über der Erwartung (2.02).",
+"beat": true
+},
+{
+"symbol": "SYF",
+"name": "Synchrony Financial",
+"price_usd": 73.64,
+"mine": false,
+"metric": "Gewinn +11,4 % vs. Erwartung",
+"reason": "Zahlen vom 20.10.2026: Gewinn je Aktie 2.68 USD, über der Erwartung (2.40).",
+"beat": true
+},
+{
+"symbol": "URI",
+"name": "United Rentals, Inc.",
+"price_usd": 1098.88,
+"mine": false,
+"metric": "Gewinn +10,9 % vs. Erwartung",
+"reason": "Zahlen vom 21.10.2026: Gewinn je Aktie 15.55 USD, über der Erwartung (14.03).",
+"beat": true
+},
+{
+"symbol": "RF",
+"name": "Regions Financial Corporation",
+"price_usd": 28.47,
+"mine": false,
+"metric": "Gewinn +10,5 % vs. Erwartung",
+"reason": "Zahlen vom 16.10.2026: Gewinn je Aktie 0.73 USD, über der Erwartung (0.66).",
+"beat": true
+},
+{
+"symbol": "DHR",
+"name": "Danaher Corporation",
+"price_usd": 230.5,
+"mine": false,
+"metric": "Gewinn +10,0 % vs. Erwartung",
+"reason": "Zahlen vom 21.10.2026: Gewinn je Aktie 2.11 USD, über der Erwartung (1.92).",
+"beat": true
+},
+{
+"symbol": "NOC",
+"name": "Northrop Grumman Corporation",
+"price_usd": 551.44,
+"mine": false,
+"metric": "Gewinn +9,9 % vs. Erwartung",
+"reason": "Zahlen vom 20.10.2026: Gewinn je Aktie 7.89 USD, über der Erwartung (7.18).",
+"beat": true
+},
+{
+"symbol": "ASML",
+"name": "ASML Holding N.V.",
+"price_usd": 1571.8,
+"mine": true,
+"metric": "Gewinn +9,9 % vs. Erwartung",
+"reason": "Zahlen vom 14.10.2026: Gewinn je Aktie 11.82 EUR, über der Erwartung (10.76).",
+"beat": true
+},
+{
+"symbol": "ABBN.SW",
+"name": "ABB Ltd",
+"price_usd": 83.73,
+"mine": true,
+"metric": "Gewinn -9,2 % vs. Erwartung",
+"reason": "Zahlen vom 20.10.2026: Gewinn je Aktie 0.75 USD, unter der Erwartung (0.83).",
+"beat": false
+},
+{
+"symbol": "TDY",
+"name": "Teledyne Technologies Incorporated",
+"price_usd": 625.41,
+"mine": false,
+"metric": "Gewinn +9,0 % vs. Erwartung",
+"reason": "Zahlen vom 21.10.2026: Gewinn je Aktie 6.72 USD, über der Erwartung (6.17).",
+"beat": true
+}
+],
+"gegenteil": [
+{
+"symbol": "META",
+"name": "Meta Platforms, Inc.",
+"price_usd": 642.62,
+"mine": true,
+"metric": "-13,6 % in 1 Mt.",
+"reason": "Kurs im letzten Monat -13,6 %. Zahlen vom 21.10.2026 unter Erwartung (3.83 statt 5.46)."
+},
+{
+"symbol": "LVS",
+"name": "Las Vegas Sands Corp.",
+"price_usd": 35.68,
+"mine": false,
+"metric": "-9,0 % in 1 Mt.",
+"reason": "Kurs im letzten Monat -9,0 %. Zahlen vom 21.10.2026 unter Erwartung (0.54 statt 0.68)."
+},
+{
+"symbol": "TFC",
+"name": "Truist Financial Corporation",
+"price_usd": 48.44,
+"mine": false,
+"metric": "+3,1 % in 1 Mt.",
+"reason": "Zahlen vom 16.10.2026 unter Erwartung (0.56 statt 1.21)."
+},
+{
+"symbol": "ARM",
+"name": "Arm Holdings plc",
+"price_usd": 210.33,
+"mine": true,
+"metric": "-36,8 % in 1 Mt.",
+"reason": "Kurs im letzten Monat -36,8 %."
+},
+{
+"symbol": "SFTBY",
+"name": "SoftBank Group Corp.",
+"price_usd": 13.42,
+"mine": true,
+"metric": "-36,6 % in 1 Mt.",
+"reason": "Kurs im letzten Monat -36,6 %."
+},
+{
+"symbol": "GL",
+"name": "Globe Life Inc.",
+"price_usd": 154.79,
+"mine": false,
+"metric": "-8,3 % in 1 Mt.",
+"reason": "Kurs im letzten Monat -8,3 %. Zahlen vom 21.10.2026 unter Erwartung (4.84 statt 4.89). Piper Sandler stuft ab auf Neutral (23.10.2026). Piper Sandler stuft ab auf Neutral (23.10.2026)."
+},
+{
+"symbol": "MOS",
+"name": "The Mosaic Company",
+"price_usd": 17.84,
+"mine": false,
+"metric": "-26,8 % in 1 Mt.",
+"reason": "Kurs im letzten Monat -26,8 %. RBC Capital stuft ab auf Wie der Sektor (05.10.2026)."
+},
+{
+"symbol": "ABBN.SW",
+"name": "ABB Ltd",
+"price_usd": 83.73,
+"mine": true,
+"metric": "-13,5 % in 1 Mt.",
+"reason": "Kurs im letzten Monat -13,5 %. Zahlen vom 20.10.2026 unter Erwartung (0.75 statt 0.83)."
+},
+{
+"symbol": "OKLO",
+"name": "Oklo Inc.",
+"price_usd": 26.35,
+"mine": true,
+"metric": "-32,1 % in 1 Mt.",
+"reason": "Kurs im letzten Monat -32,1 %."
+},
+{
+"symbol": "FLEX",
+"name": "Flex Ltd.",
+"price_usd": 76.55,
+"mine": false,
+"metric": "-31,8 % in 1 Mt.",
+"reason": "Kurs im letzten Monat -31,8 %."
+},
+{
+"symbol": "SNDK",
+"name": "Sandisk Corporation",
+"price_usd": 1238.03,
+"mine": false,
+"metric": "-31,8 % in 1 Mt.",
+"reason": "Kurs im letzten Monat -31,8 %."
+},
+{
+"symbol": "STX",
+"name": "Seagate Technology Holdings plc",
+"price_usd": 630.49,
+"mine": true,
+"metric": "-31,8 % in 1 Mt.",
+"reason": "Kurs im letzten Monat -31,8 %."
+},
+{
+"symbol": "COHR",
+"name": "Coherent Corp.",
+"price_usd": 209.29,
+"mine": false,
+"metric": "-30,4 % in 1 Mt.",
+"reason": "Kurs im letzten Monat -30,4 %."
+},
+{
+"symbol": "BE",
+"name": "Bloom Energy Corporation",
+"price_usd": 193.3,
+"mine": true,
+"metric": "-29,8 % in 1 Mt.",
+"reason": "Kurs im letzten Monat -29,8 %."
+},
+{
+"symbol": "INTC",
+"name": "Intel Corporation",
+"price_usd": 86.96,
+"mine": true,
+"metric": "-29,1 % in 1 Mt.",
+"reason": "Kurs im letzten Monat -29,1 %."
+},
+{
+"symbol": "HYLN",
+"name": "Hyliion Holdings Corp.",
+"price_usd": 2.95,
+"mine": true,
+"metric": "-28,7 % in 1 Mt.",
+"reason": "Kurs im letzten Monat -28,7 %."
+},
+{
+"symbol": "FIX",
+"name": "Comfort Systems USA, Inc.",
+"price_usd": 1160.86,
+"mine": false,
+"metric": "-28,6 % in 1 Mt.",
+"reason": "Kurs im letzten Monat -28,6 %."
+},
+{
+"symbol": "WDC",
+"name": "Western Digital Corporation",
+"price_usd": 343.67,
+"mine": false,
+"metric": "-27,4 % in 1 Mt.",
+"reason": "Kurs im letzten Monat -27,4 %."
+},
+{
+"symbol": "MGM",
+"name": "MGM Resorts International",
+"price_usd": 28.06,
+"mine": false,
+"metric": "-25,9 % in 1 Mt.",
+"reason": "Kurs im letzten Monat -25,9 %."
+},
+{
+"symbol": "LRCX",
+"name": "Lam Research Corporation",
+"price_usd": 230.1,
+"mine": false,
+"metric": "-25,1 % in 1 Mt.",
+"reason": "Kurs im letzten Monat -25,1 %."
+},
+{
+"symbol": "DELL",
+"name": "Dell Technologies Inc.",
+"price_usd": 456.44,
+"mine": false,
+"metric": "-17,0 % in 1 Mt.",
+"reason": "Kurs im letzten Monat -17,0 %. Barclays stuft ab auf Marktgewichten (14.10.2026)."
+},
+{
+"symbol": "PTC",
+"name": "PTC Inc.",
+"price_usd": 193.8,
+"mine": false,
+"metric": "+38,0 % in 1 Mt.",
+"reason": "Oppenheimer stuft ab auf Perform (06.10.2026). BMO Capital stuft ab auf Wie der Markt (06.10.2026)."
+},
+{
+"symbol": "CMG",
+"name": "Chipotle Mexican Grill, Inc.",
+"price_usd": 27.52,
+"mine": false,
+"metric": "-15,9 % in 1 Mt.",
+"reason": "Kurs im letzten Monat -15,9 %. TD Cowen stuft ab auf Halten (21.10.2026)."
+},
+{
+"symbol": "NVR",
+"name": "NVR, Inc.",
+"price_usd": 5983.68,
+"mine": false,
+"metric": "-4,1 % in 1 Mt.",
+"reason": "Zahlen vom 22.10.2026 unter Erwartung (89.45 statt 102.77)."
+},
+{
+"symbol": "UAL",
+"name": "United Airlines Holdings, Inc.",
+"price_usd": 97.93,
+"mine": false,
+"metric": "-11,6 % in 1 Mt.",
+"reason": "Kurs im letzten Monat -11,6 %. Zahlen vom 20.10.2026 unter Erwartung (2.54 statt 2.57)."
+},
+{
+"symbol": "HY9H.MU",
+"name": "SK Hynix Inc",
+"price_usd": 973.79,
+"mine": true,
+"metric": "-22,7 % in 1 Mt.",
+"reason": "Kurs im letzten Monat -22,7 %."
+},
+{
+"symbol": "KLAC",
+"name": "KLA Corporation",
+"price_usd": 145.61,
+"mine": false,
+"metric": "-22,5 % in 1 Mt.",
+"reason": "Kurs im letzten Monat -22,5 %."
+},
+{
+"symbol": "HOOD",
+"name": "Robinhood Markets, Inc.",
+"price_usd": 95.07,
+"mine": true,
+"metric": "-22,5 % in 1 Mt.",
+"reason": "Kurs im letzten Monat -22,5 %."
+},
+{
+"symbol": "IBKR",
+"name": "Interactive Brokers Group, Inc.",
+"price_usd": 80.28,
+"mine": false,
+"metric": "-12,3 % in 1 Mt.",
+"reason": "Kurs im letzten Monat -12,3 %. Zahlen vom 15.10.2026 unter Erwartung (0.67 statt 0.67)."
+},
+{
+"symbol": "SKYD",
+"name": "Skydance Corporation",
+"price_usd": 7.77,
+"mine": false,
+"metric": "-22,0 % in 1 Mt.",
+"reason": "Kurs im letzten Monat -22,0 %."
+}
+]
+}
+}

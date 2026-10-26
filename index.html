@@ -66,7 +66,7 @@ h3{font:600 14px Outfit,sans-serif;margin:16px 0 6px;color:var(--accent);text-tr
 .sym{border:1px solid var(--line);border-radius:8px;padding:0 6px;font-size:12px;color:var(--text)}
 .big{font:600 40px Fraunces,Georgia,serif;margin:6px 0 0}
 .kv{display:grid;grid-template-columns:1fr 1fr;gap:8px 12px;margin-top:10px;font-size:14px}.kv span{color:var(--muted);display:block;font-size:12px}
-nav.tabs{position:fixed;left:0;right:0;bottom:0;z-index:50;max-width:640px;margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr);background:rgba(16,18,20,.97);border-top:1px solid var(--line);padding:6px 6px calc(6px + env(safe-area-inset-bottom))}
+nav.tabs{position:fixed;left:0;right:0;bottom:0;z-index:50;max-width:640px;margin:0 auto;display:grid;grid-template-columns:repeat(5,1fr);background:rgba(16,18,20,.97);border-top:1px solid var(--line);padding:6px 6px calc(6px + env(safe-area-inset-bottom))}
 nav.tabs a{text-align:center;padding:8px 2px;border-radius:12px;font-size:13px;color:var(--muted);font-weight:600}
 nav.tabs a svg{display:block;margin:0 auto 2px;width:22px;height:22px;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
 nav.tabs a.on{color:var(--accent);background:var(--panel)}
@@ -103,6 +103,11 @@ nav.tabs a{font-size:15px;min-height:56px;padding:8px 2px}nav.tabs a svg{width:2
 a.row.selMode{padding-left:48px}a.row.selMode::before{width:28px;height:28px;margin-top:-14px;line-height:28px}a.row.selOn::before{line-height:28px}
 header.top{flex-wrap:wrap;row-gap:6px}header.top .pill{font-size:14px}
 .backFloat{bottom:calc(84px + env(safe-area-inset-bottom));font-size:17px}.selBar{bottom:calc(84px + env(safe-area-inset-bottom))}
+.entChips{display:flex;flex-wrap:wrap;gap:8px;margin:6px 0 10px}.entChip{font-size:16px;padding:10px 14px}.entChip.on{background:var(--accent);border-color:var(--accent);color:#17130e}
+.erow{border-bottom:1px solid var(--line);padding:14px 2px}.eTop{display:flex;justify-content:space-between;gap:10px}.eL{min-width:0}.eL b{display:block;font-size:20px;line-height:1.25}.eL span{color:var(--muted);font-size:16px}
+.eR{text-align:right;white-space:nowrap}.eR b{display:block;font-size:20px}.eM{display:block;font-weight:700;color:var(--accent);font-size:16px}.eWhy{font-size:17px;line-height:1.45;margin:6px 0}.eAi{margin-top:4px;color:var(--muted)}
+.eAct{display:flex;gap:10px;align-items:center;justify-content:flex-end}.eAct a.small{padding:10px 14px;color:var(--accent);font-weight:600}
+nav.tabs a{font-size:14px;padding:8px 0}@media (max-width:380px){nav.tabs a{font-size:12.5px;letter-spacing:-.2px}}
 </style>
 </head>
 <body>
@@ -117,6 +122,7 @@ header.top{flex-wrap:wrap;row-gap:6px}header.top .pill{font-size:14px}
 <a href="#/news" data-t="news"><svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="3"/><line x1="8" y1="9" x2="16" y2="9"/><line x1="8" y1="13" x2="16" y2="13"/><line x1="8" y1="17" x2="12" y2="17"/></svg>Nachrichten</a>
 <a href="#/markt" data-t="markt"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4" ry="9"/><line x1="3" y1="12" x2="21" y2="12"/></svg>Marktweit</a>
 <a href="#/liste" data-t="liste"><svg viewBox="0 0 24 24"><line x1="5" y1="7" x2="19" y2="7"/><line x1="5" y1="12" x2="19" y2="12"/><line x1="5" y1="17" x2="19" y2="17"/></svg>Liste</a>
+<a href="#/entdecken" data-t="entdecken"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="16" y1="16" x2="21" y2="21"/></svg>Entdecken</a>
 </nav>
 <noscript><p class="banner err" style="margin:14px">Diese App braucht JavaScript.</p></noscript>
 <script src="app.js"></script>
