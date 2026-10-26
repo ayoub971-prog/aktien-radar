@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Branch "audio" = nur aktuelle MP3s (Startseite data/audio/*.mp3 + Entdecken data/audio/ent/*.mp3), per jsDelivr ausgeliefert.
+# Branch "audio" = nur aktuelle MP3s (Startseite data/audio/*.mp3 + Entdecken data/audio/ent/*.mp3 + Sendung data/audio/sendung/*.mp3), per jsDelivr ausgeliefert.
 set -e
 python3 - > "$RUNNER_TEMP/keep.txt" <<'P'
 import json, os
@@ -11,6 +11,10 @@ except Exception: pass
 try:
     e = json.load(open('data/audio/ent/index.json'))
     fs += ['data/audio/ent/' + f for f in e.get('files', {})] + ['data/audio/ent/index.json']
+except Exception: pass
+try:
+    e = json.load(open('data/audio/sendung/index.json'))
+    fs += ['data/audio/sendung/' + f for f in e.get('files', {})] + ['data/audio/sendung/index.json']
 except Exception: pass
 print('\n'.join(p for p in fs if os.path.exists(p)))
 P
@@ -27,7 +31,7 @@ fi
 python3 - "$sha" <<'P'
 import json, sys
 base = 'https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@%s/data/audio/' % sys.argv[1]
-for p, k in (('data/audio/index.json', 'base'), ('data/podcast.json', 'audio_base'), ('data/entdecken.json', 'audio_base')):
+for p, k in (('data/audio/index.json', 'base'), ('data/podcast.json', 'audio_base'), ('data/entdecken.json', 'audio_base'), ('data/sendung.json', 'audio_base')):
     try: i = json.load(open(p))
     except Exception: continue
     i[k] = base; json.dump(i, open(p, 'w'), ensure_ascii=False, indent=1 if p.endswith('index.json') else 0)

@@ -1,0 +1,51 @@
+name: Sendung (Podcast-Episode)
+on:
+  schedule:
+    - cron: '30 4 * * 1-5'   # werktags 05:30/06:30 Zuerich
+    - cron: '0 7 * * 6'      # Samstag Wochenrueckblick
+  workflow_dispatch:
+    inputs:
+      kind:
+        description: 'tag oder woche (leer = automatisch)'
+        required: false
+        default: ''
+permissions:
+  contents: write
+concurrency:
+  group: aktien-radar-daten
+  cancel-in-progress: false
+jobs:
+  sendung:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Bisherige Audios holen (Branch audio)
+        continue-on-error: true
+        run: |
+          mkdir -p data/audio
+          if git fetch -q --depth=1 origin audio:refs/remotes/origin/audio; then git archive refs/remotes/origin/audio data/audio | tar -x; else echo "noch kein Audio-Branch"; fi
+      - name: Werkzeuge
+        run: |
+          command -v ffmpeg || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null)
+          pip install -q edge-tts
+      - name: Episode bauen (Daten + optional 1 Gemini-Aufruf + edge-tts)
+        timeout-minutes: 25
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          SENDUNG_KIND: ${{ github.event.inputs.kind }}
+        run: python scripts/sendung.py
+      - name: Audio veroeffentlichen (Branch audio)
+        run: bash scripts/audio_publish.sh
+      - name: Committen
+        run: |
+          git config user.name "aktien-radar-bot"
+          git config user.email "actions@users.noreply.github.com"
+          for f in data/sendung.json data/audio/sendung/index.json data/audio/index.json data/audio/ent/index.json data/podcast.json data/entdecken.json; do [ -f $f ] && git add $f; done
+          if git diff --cached --quiet; then echo "keine Aenderung"; exit 0; fi
+          git commit -m "Sendung $(date -u +%Y-%m-%dT%H:%MZ)"
+          git pull --rebase -q
+          git push
