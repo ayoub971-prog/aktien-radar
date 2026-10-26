@@ -176,7 +176,7 @@ def news_items():
 def edge_mp3(text, out):
     import asyncio, subprocess, edge_tts
     raw = out + ".edge.mp3"
-    async def go(): await edge_tts.Communicate(text, VOICE, rate="-5%").save(raw)
+    async def go(): await asyncio.wait_for(edge_tts.Communicate(text, VOICE, rate="-5%").save(raw), 90)
     for i in range(3):
         try: asyncio.run(go()); break
         except Exception:
