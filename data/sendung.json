@@ -1,6 +1,213 @@
 {
 "episodes": [
 {
+"id": "2026-10-26-w",
+"kind": "woche",
+"date": "2026-10-26",
+"title": "Wochenrückblick, Montag, sechsundzwanzigsten Oktober",
+"generated_at": "2026-10-26T19:16:02Z",
+"writer": "Gemini (Gratis-Kontingent) 16 Firmen, Rest Vorlage",
+"chapters": [
+{
+"name": "Begrüssung",
+"say": "Willkommen zum Wochenrückblick vom Aktien-Radar, heute Montag, sechsundzwanzigsten Oktober. Wir gehen deine Aktien einzeln durch: Kurs der Woche in Dollar, neue Bewertungen von Banken und die wichtigsten Firmen-Meldungen. Danach der Kalender der Quartalszahlen für nächste Woche und ein Begriff zum Lernen. Kurz vorweg: Alles stammt aus gesammelten Daten und Schlagzeilen, Beträge nenne ich in Dollar. Das ist keine Anlageberatung.",
+"audio": {
+"file": "sendung/2026-10-26-w_00.mp3",
+"hash": "fa4629de498ede43",
+"dur": 30.9
+}
+},
+{
+"name": "Meta",
+"sym": "META",
+"say": "Zur Aktie Meta. Meta plant ein Aktienangebot im Wert von fünfunddreissig Milliarden Dollar, um den KI-Ausbau voranzutreiben. Dabei strebt Meta einen Gesamtplan von fünfundneunzig Milliarden Dollar für KI-Investitionen an. Zudem hat Meta neue Tools für Administratoren eingeführt, die Communities im Forum aufbauen. Der Kurs von Meta veränderte sich in den letzten fünf Handelstagen um minus neun Komma zwei Prozent auf sechshunderteinunddreissig Dollar und fünfundsechzig Cent. UBS bestätigt, Empfehlung Kaufen, Kursziel achthundertzweiundneunzig Dollar nach vorher achthundertvierundachtzig Dollar. Citigroup bestätigt, Empfehlung Kaufen, Kursziel neunhundertfünf Dollar nach vorher achthundertfünfundneunzig Dollar. DA Davidson bestätigt, Empfehlung Kaufen, Kursziel achthundert Dollar nach vorher siebenhundert Dollar. BMO Capital bestätigt, Empfehlung Wie der Markt, Kursziel sechshundertfünfundachtzig Dollar nach vorher fünfhundertachtzig Dollar. Das durchschnittliche Kursziel für Meta liegt bei achthundertvierundvierzig Dollar und siebenundsiebzig Cent. Das war Meta.",
+"audio": {
+"file": "sendung/2026-10-26-w_01.mp3",
+"hash": "f6c6a91fafef45dc",
+"dur": 79.4
+}
+},
+{
+"name": "Microsoft",
+"sym": "MSFT",
+"say": "Zur Aktie Microsoft. Microsoft bietet sechzigtausend Mitarbeitern Buyout-Angebote an und strebt Entlassungen an, um die Kosten für den KI-Ausbau zu senken. Ausserdem arbeiten Boehringer Ingelheim und Microsoft zusammen, um die patientenzentrierte und KI-gestützte klinische Entwicklung voranzutreiben. Schliesslich starten UnternehmerTUM Accelerator, Microsoft, Infineon Technologies und NVIDIA ein physisches KI-Wachstumslabor für europäische Startups. Der Kurs von Microsoft veränderte sich in den letzten fünf Handelstagen um plus null Komma zwei Prozent auf fünfhundertzweiunddreissig Dollar und vierundachtzig Cent. Oppenheimer bestätigt, Empfehlung Besser als Markt, Kursziel sechshundertfünfundzwanzig Dollar nach vorher fünfhundertsiebzig Dollar. Truist Securities bestätigt, Empfehlung Kaufen, Kursziel sechshundert Dollar nach vorher fünfhundertfünfundsiebzig Dollar. Scotiabank bestätigt, Empfehlung Besser als Sektor, Kursziel sechshundertfünfundzwanzig Dollar nach vorher sechshundertfünfzehn Dollar. Guggenheim bestätigt, Empfehlung Kaufen, Kursziel fünfhundertsechsundachtzig Dollar. Das durchschnittliche Kursziel für Microsoft liegt bei sechshunderteins Dollar und dreiundsiebzig Cent. Das war Microsoft.",
+"audio": {
+"file": "sendung/2026-10-26-w_02.mp3",
+"hash": "b0f5b00d4fc9368e",
+"dur": 89.5
+}
+},
+{
+"name": "Amazon",
+"sym": "AMZN",
+"say": "Zur Aktie Amazon. Amazon hat für das dritte Quartal 2026 verschiedene Ankündigungen von neuen Geräten bis hin zu KI-Durchbrüchen gemacht. Der KI-Boom bringt zudem das Amazon-Geschäft AWS an die Kapazitätsgrenze. Amazon steht ausserdem vor einem Gewinntest im Zusammenhang mit der Automatisierung und einer möglichen Ausstiegsstrategie. Der Kurs von Amazon veränderte sich in den letzten fünf Handelstagen um minus fünf Komma neun Prozent auf zweihundertachtundvierzig Dollar und siebzig Cent. Diese Woche gab es zu Amazon keine neuen Bewertungen von Banken in den Daten. Das durchschnittliche Kursziel für Amazon liegt bei dreihunderteinunddreissig Dollar und zweiundsiebzig Cent. Das war Amazon.",
+"audio": {
+"file": "sendung/2026-10-26-w_03.mp3",
+"hash": "7dcf2fc72b14305d",
+"dur": 51.9
+}
+},
+{
+"name": "Bloom Energy",
+"sym": "BE",
+"say": "Zur Aktie Bloom Energy. Bloom Energy hat Rekordergebnisse für das dritte Quartal geliefert und seine Prognose beziehungsweise Aussichten erhöht. Die Analystenmeinungen zu Bloom Energy sind jedoch gemischt. Der Kurs von Bloom Energy veränderte sich in den letzten fünf Handelstagen um minus acht Komma sechs Prozent auf zweihundertacht Dollar und fünfunddreissig Cent. Barclays bestätigt, Empfehlung Marktgewichten, Kursziel dreihundertsechzehn Dollar nach vorher dreihundertacht Dollar. Wells Fargo bestätigt, Empfehlung Marktgewichten, Kursziel einhundertzweiundachtzig Dollar nach vorher einhundertsechsundsiebzig Dollar. JP Morgan bestätigt, Empfehlung Übergewichten, Kursziel zweihundertzweiundneunzig Dollar nach vorher dreihundertvierzehn Dollar. RBC Capital bestätigt, Empfehlung Besser als Markt, Kursziel dreihundertfünfunddreissig Dollar. Das durchschnittliche Kursziel für Bloom Energy liegt bei zweihundertvierundachtzig Dollar und siebenundsiebzig Cent. Das war Bloom Energy.",
+"audio": {
+"file": "sendung/2026-10-26-w_04.mp3",
+"hash": "5fd427db6d45af42",
+"dur": 72.5
+}
+},
+{
+"name": "SK Hynix",
+"sym": "HY9H.MU",
+"say": "Zur Aktie SK Hynix. SK Hynix steht vor einer der grössten Sonderausschüttungen der Chipbranche. Konkret plant SK Hynix eine Sonderdividende in Höhe von zwölf Milliarden Dollar aus der Kioxia-Investition. Die Aktie von SK Hynix erholt sich aktuell und die Umsatztrends helfen Anlegern bei der Entscheidungsfindung im Bereich künstliche Intelligenz. Der Kurs von SK Hynix veränderte sich in den letzten fünf Handelstagen um plus fünf Komma eins Prozent auf neunhundertdreiundsiebzig Dollar und sechsunddreissig Cent. Diese Woche gab es zu SK Hynix keine neuen Bewertungen von Banken in den Daten. Das war SK Hynix.",
+"audio": {
+"file": "sendung/2026-10-26-w_05.mp3",
+"hash": "0ccfad726574ffad",
+"dur": 46.7
+}
+},
+{
+"name": "Nvidia",
+"sym": "NVDA",
+"say": "Zur Aktie Nvidia. ServiceNow bietet gemeinsam mit Nvidia den branchenweit ersten Personal Agent und die Durchsetzung von Richtlinien für Unternehmen an, wodurch die KI-Governance erweitert wird. Nvidia gilt als Hauptnutzniesser des globalen Ausbaus der KI-Infrastruktur. Ausserdem gibt es einen Nvidia-Verpackungsdeal, der OSAT-Aktien in den Fokus rückt, sowie Pläne von Meta, Nvidia, AMD und Broadcom für Investitionen. Der Kurs von Nvidia veränderte sich in den letzten fünf Handelstagen um minus null Komma acht Prozent auf zweihundertsechzehn Dollar und siebenunddreissig Cent. Needham bestätigt, Empfehlung Kaufen, Kursziel dreihundert Dollar. Das durchschnittliche Kursziel für Nvidia liegt bei dreihundertachtundzwanzig Dollar und fünfundneunzig Cent. Das war Nvidia.",
+"audio": {
+"file": "sendung/2026-10-26-w_06.mp3",
+"hash": "3c391ea6061de7ef",
+"dur": 57.0
+}
+},
+{
+"name": "UBS",
+"sym": "UBSG.SW",
+"say": "Zur Aktie UBS. Die UBS lädt zur Präsentation der Ergebnisse des dritten Quartals 2026 ein. Zudem hat die UBS Anteile an dreihundertsechzig ONE WAM erworben. Laut einer Gewerkschaft könnte ein Umzug der UBS jedoch bis zu zwölftausend Arbeitsplätze in der Schweiz gefährden. Der Kurs von UBS veränderte sich in den letzten fünf Handelstagen um minus null Komma eins Prozent auf sechsundvierzig Dollar und siebzig Cent. Diese Woche gab es zu UBS keine neuen Bewertungen von Banken in den Daten. Das durchschnittliche Kursziel für UBS liegt bei vierundfünfzig Dollar und einunddreissig Cent. Das war UBS.",
+"audio": {
+"file": "sendung/2026-10-26-w_07.mp3",
+"hash": "0e7c4c70efe58558",
+"dur": 47.6
+}
+},
+{
+"name": "Intel",
+"sym": "INTC",
+"say": "Zur Aktie Intel. Intel hat die Crescent Island GPU D-Serie für Agentic AI vorgestellt. Ciscó, Dell, HPE, Intel und Microsoft beschleunigen zudem gemeinsam die Rechenzentrumsautomatisierung im Rahmen des IPMI-Marktes. Ausserdem profitiert Intel von Branchenentwicklungen wie der Flip-Chip-Technologie für KI, 5G und 3D-Paketierung. Der Kurs von Intel veränderte sich in den letzten fünf Handelstagen um minus null Komma acht Prozent auf zweiundneunzig Dollar und zwei Cent. RBC Capital bestätigt, Empfehlung Wie der Sektor, Kursziel einhundert Dollar. New Street Research hochgestuft, Empfehlung Kaufen, Kursziel einhundertfünfundzwanzig Dollar. Susquehanna bestätigt, Empfehlung Neutral, Kursziel einhundertfünf Dollar nach vorher einhundertfünfzehn Dollar. Das durchschnittliche Kursziel für Intel liegt bei einhundertsiebzehn Dollar und vierzehn Cent. Das war Intel.",
+"audio": {
+"file": "sendung/2026-10-26-w_08.mp3",
+"hash": "10b1396617688145",
+"dur": 68.7
+}
+},
+{
+"name": "Broadcom",
+"sym": "AVGO",
+"say": "Zur Aktie Broadcom. Es gibt eine riesige, ungewöhnliche Call-Option-Aktivität bei Broadcom, die zeigt, dass die Anleger optimistisch sind. Broadcom wird zudem in globalen Marktberichten für kundenspezifische ASICs und Designdienste im Zusammenhang mit KI und 5G genannt. Ausserdem erwägt Broadcom zusammen mit Meta, Nvidia und AMD Investitionen. Der Kurs von Broadcom veränderte sich in den letzten fünf Handelstagen um minus zwei Komma sieben Prozent auf dreihunderteinunddreissig Dollar und vier Cent. Tigress Financial neu aufgenommen, Empfehlung Kaufen, Kursziel sechshundert Dollar. Das durchschnittliche Kursziel für Broadcom liegt bei fünfhundertneunundzwanzig Dollar und zehn Cent. Das war Broadcom.",
+"audio": {
+"file": "sendung/2026-10-26-w_09.mp3",
+"hash": "6ef8edfa72d6d868",
+"dur": 54.1
+}
+},
+{
+"name": "Micron",
+"sym": "MU",
+"say": "Zur Aktie Micron. Micron hat laut eigenen Angaben festgestellt, dass KI die Entwicklungzeit für Rechenzentren-SSDs um sechzig Prozent verkürzt hat. Zudem hat Micron eine neue Geschäftsstrategie vorgestellt. Es gibt neue SCA-Verträge und Form-vier-Meldungen zu Micron. Der Kurs von Micron veränderte sich in den letzten fünf Handelstagen um minus null Komma drei Prozent auf neunhundertdreizehn Dollar und acht Cent. Rosenblatt bestätigt, Empfehlung Kaufen, Kursziel eintausendneunhundert Dollar. Needham bestätigt, Empfehlung Kaufen, Kursziel eintausendsechshundertfünfzig Dollar. Das durchschnittliche Kursziel für Micron liegt bei eintausendfünfhunderteinundsechzig Dollar und einundneunzig Cent. Das war Micron.",
+"audio": {
+"file": "sendung/2026-10-26-w_10.mp3",
+"hash": "b26da268d5e14444",
+"dur": 55.5
+}
+},
+{
+"name": "Palantir",
+"sym": "PLTR",
+"say": "Zur Aktie Palantir. Palantir beschleunigt die Bereitstellung von Sovereign AI für eine neue Welle von Kunden. Palantir bringt seine KI zudem in ein unerwartetes neues Geschäft. Anleger und Broker blicken optimistisch auf das wachsende KI-Softwaregeschäft von Palantir. Der Kurs von Palantir veränderte sich in den letzten fünf Handelstagen um plus zwei Komma vier Prozent auf einhundertneunundneunzig Dollar und siebzig Cent. Piper Sandler bestätigt, Empfehlung Übergewichten, Kursziel zweihunderteinunddreissig Dollar nach vorher zweihundertdreissig Dollar. Citigroup bestätigt, Empfehlung Kaufen, Kursziel zweihundertfünfzig Dollar nach vorher zweihundertfünfundvierzig Dollar. Das durchschnittliche Kursziel für Palantir liegt bei zweihundertsechs Dollar und sechsundsechzig Cent. Das war Palantir.",
+"audio": {
+"file": "sendung/2026-10-26-w_11.mp3",
+"hash": "8714a7d4cd9ca284",
+"dur": 59.4
+}
+},
+{
+"name": "Robinhood",
+"sym": "HOOD",
+"say": "Zur Aktie Robinhood. Robinhood legt nach einer DFSA-Genehmigung ein Startziel für den Nahen Osten im Jahr 2027 fest. Analysten blicken auf das Produktwachstum von Robinhood in Hinblick auf die Quartalszahlen. Ausserdem gab es Insiderverkäufe von Robinhood-Aktien. Der Kurs von Robinhood veränderte sich in den letzten fünf Handelstagen um minus sieben Prozent auf dreiundneunzig Dollar und sechs Cent. Rosenblatt neu aufgenommen, Empfehlung Kaufen, Kursziel einhundertfünfunddreissig Dollar. Needham bestätigt, Empfehlung Kaufen, Kursziel einhundertsechsundzwanzig Dollar nach vorher einhundertdreiundzwanzig Dollar. JP Morgan bestätigt, Empfehlung Neutral, Kursziel einhundertfünfzehn Dollar nach vorher einhundertdrei Dollar. Das durchschnittliche Kursziel für Robinhood liegt bei einhundertvierunddreissig Dollar und neunzig Cent. Das war Robinhood.",
+"audio": {
+"file": "sendung/2026-10-26-w_12.mp3",
+"hash": "8e76a61a7815ef31",
+"dur": 64.6
+}
+},
+{
+"name": "Berkshire Hathaway",
+"sym": "BRK-B",
+"say": "Zur Aktie Berkshire Hathaway. Die Aktien von Berkshire Hathaway haben neue Allzeithochs erreicht und Rekordwerte verzeichnet. Berkshire Hathaway gleicht damit frühere Ausstiegsverluste aus, da Anleger Schutz vor dem Ausverkauf von KI-Aktien suchen. Der Kurs von Berkshire Hathaway veränderte sich in den letzten fünf Handelstagen um plus zwei Komma drei Prozent auf fünfhundertsiebenundvierzig Dollar und achtundfünfzig Cent. UBS bestätigt, Empfehlung Kaufen, Kursziel sechshundertachtundzwanzig Dollar nach vorher sechshundertvier Dollar. Das durchschnittliche Kursziel für Berkshire Hathaway liegt bei fünfhundertfünfundfünfzig Dollar und siebenundsechzig Cent. Das war Berkshire Hathaway.",
+"audio": {
+"file": "sendung/2026-10-26-w_13.mp3",
+"hash": "e88d85fe324039e0",
+"dur": 50.1
+}
+},
+{
+"name": "BioNTech",
+"sym": "BNTX",
+"say": "Zur Aktie BioNTech. BioNTech und DualityBiologics haben bekannt gegeben, dass ihre globale klinische Phase-drei-Studie DYNASTY-Breast02 für das Brustkrebsmedikament beziehungsweise die Therapie gegen metastasierten HR+/HER2-low-Brustkrebs den primären Endpunkt erreicht hat. In der Studie zu diesem Krebswirkstoff wurden allerdings auch schwere und tödliche Ereignisse gemeldet. Der Kurs von BioNTech veränderte sich in den letzten fünf Handelstagen um minus zwei Komma eins Prozent auf sechsundachtzig Dollar und fünfundneunzig Cent. Diese Woche gab es zu BioNTech keine neuen Bewertungen von Banken in den Daten. Das durchschnittliche Kursziel für BioNTech liegt bei einhundertsechzehn Dollar und dreiundfünfzig Cent. Das war BioNTech.",
+"audio": {
+"file": "sendung/2026-10-26-w_14.mp3",
+"hash": "7eac60831ce91724",
+"dur": 54.6
+}
+},
+{
+"name": "BYD",
+"sym": "1211.HK",
+"say": "Zur Aktie BYD. Eagers Automotive hat das BYD-Joint-Venture vollständig übernommen und die restlichen beziehungsweise verbleibenden Anteile gekauft. BYD plant zudem weitere europäische Fabriken, um den Marktanteil auszubauen. Das Werk in Brasilien soll ebenfalls wachsen. Der Kurs von BYD veränderte sich in den letzten fünf Handelstagen um minus vier Komma zwei Prozent auf neun Dollar und drei Cent. Diese Woche gab es zu BYD keine neuen Bewertungen von Banken in den Daten. Das durchschnittliche Kursziel für BYD liegt bei fünfzehn Dollar und vierundsechzig Cent. Das war BYD.",
+"audio": {
+"file": "sendung/2026-10-26-w_15.mp3",
+"hash": "143270e31ced57ee",
+"dur": 48.1
+}
+},
+{
+"name": "Samsung Electronics",
+"sym": "005930.KS",
+"say": "Zur Aktie Samsung Electronics. Samsung Electronics hat die Samsung Week 2026 in dreiundsechzig Ländern gestartet. Der Samsung Art Store hat zudem eine kuratierte Sammlung der Art Basel Paris 2026 enthüllt. Samsung Electronics wird darüber hinaus in Marktberichten zu ASIC-Designdiensten und Flip-Chip-Technologien genannt. Der Kurs von Samsung Electronics veränderte sich in den letzten fünf Handelstagen um plus null Komma vier Prozent auf einhundertsechzig Dollar und zweiundsiebzig Cent. Diese Woche gab es zu Samsung Electronics keine neuen Bewertungen von Banken in den Daten. Das durchschnittliche Kursziel für Samsung Electronics liegt bei dreihunderteinundsechzig Dollar und sechsunddreissig Cent. Das war Samsung Electronics.",
+"audio": {
+"file": "sendung/2026-10-26-w_16.mp3",
+"hash": "db20295014ca9908",
+"dur": 57.9
+}
+},
+{
+"name": "Quartalszahlen nächste Woche",
+"say": "Quartalszahlen nächste Woche. Diese Firmen aus deiner Liste melden ihre Quartalszahlen. Zur Aktie Palantir: Zahlen Montag, am zweiten November. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von null Dollar und einundvierzig Cent. Beim Umsatz erwarten sie rund zwei Komma zwei Milliarden Dollar. Zur Aktie BioNTech: Zahlen Dienstag, am dritten November. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von null Dollar und sechsundsiebzig Cent. Beim Umsatz erwarten sie rund eins Milliarden Dollar. Zur Aktie Arm: Zahlen Mittwoch, am vierten November. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von null Dollar und achtundvierzig Cent. Beim Umsatz erwarten sie rund eins Komma vier Milliarden Dollar. Zur Aktie Oklo: Zahlen Freitag, am sechsten November. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von minus null Dollar und sechsundzwanzig Cent. Beim Umsatz erwarten sie rund eins Komma eins Millionen Dollar. Zur Aktie Berkshire Hathaway: Zahlen Samstag, am siebten November. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von sechs Dollar und vierzehn Cent.",
+"audio": {
+"file": "sendung/2026-10-26-w_17.mp3",
+"hash": "646aec0a68abdaa7",
+"dur": 86.8
+}
+},
+{
+"name": "Begriff: Freier Cashflow",
+"say": "Zum Lernen, der Begriff des Tages: Freier Cashflow. Der freie Cashflow ist das Geld, das nach allen Ausgaben und Investitionen wirklich übrig bleibt. Damit kann eine Firma Schulden abbauen, Aktien zurückkaufen oder Dividenden zahlen.",
+"audio": {
+"file": "sendung/2026-10-26-w_18.mp3",
+"hash": "362fff8fc4ef59e0",
+"dur": 17.8
+}
+},
+{
+"name": "Schluss",
+"say": "Das war der Wochenrückblick vom Aktien-Radar. Die Quellen findest du in der App bei jeder Aktie, den ganzen Text über den Knopf Als Text. Bis nächste Woche.",
+"audio": {
+"file": "sendung/2026-10-26-w_19.mp3",
+"hash": "a47779957ec83468",
+"dur": 12.4
+}
+}
+],
+"dur": 1105.5
+},
+{
 "id": "2026-10-26-t",
 "kind": "tag",
 "date": "2026-10-26",
@@ -157,8 +364,8 @@
 "dur": 574.3
 }
 ],
-"generated_at": "2026-10-26T19:14:27Z",
+"generated_at": "2026-10-26T19:16:02Z",
 "voice": "de-CH-LeniNeural",
 "source": "Yahoo Finance, SEC EDGAR, Schlagzeilen (Google News u.a.); Text: Gemini Gratis-Kontingent oder Vorlage",
-"audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@62fc26982d1e900236afb608bd76edd8a587692c/data/audio/"
+"audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@e1d33b9f38cb0cd91888b3ae1846922affcc0ae7/data/audio/"
 }
