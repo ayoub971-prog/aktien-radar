@@ -110,6 +110,7 @@ Pro Aktie 3 bis 6 kurze Saetze, beginne mit "Zur Aktie NAME." und nenne den Name
 Sage am Ende in einem Satz vorsichtig, ob die Meldungen die Firma eher staerken, eher schwaechen oder ob es unklar ist ("koennte staerken"), mit kurzer Begruendung aus den Meldungen.
 Wenn die Schlagzeilen zu duenn sind, sag das ehrlich. Zahlen nur genau so, wie sie in den Schlagzeilen stehen.
 Antworte als JSON: {{"SYMBOL": {{"text": "...", "wirkung": "staerkt|schwaecht|unklar"}}}}
+Eintraege mit "andere_aktie": true sind Aktien ausserhalb der Liste: erklaere dort kurz das Produkt, den Partner oder den Auftrag aus der Schlagzeile und warum das fuer die Firma wichtig sein koennte. Keine Kursziele nennen.
 Daten:
 {data}"""
 
@@ -152,6 +153,43 @@ def week_extra(s, n, q, ins, fx, now):
         if v: p.append("Das durchschnittliche Kursziel für %s liegt bei %s." % (n, T.dollar(v)))
     return p
 
+CHANCE = r"contract|order|award|launch|unveil|introduc|new product|partner|agreement|deal|selected|wins|auftrag|vertrag|produkt|lanc|partnerschaft|bestell"
+def chances(names, now, days, cap=6):
+    """Nicht-Watchlist-Aktien aus Entdecken: Upside >= 30 %, >= 8 Analysten, frische Produkt-/Auftragsmeldung (Yahoo-RSS)."""
+    E = J("data/entdecken.json"); seen = set(); cands = []
+    for L in (E.get("lists") or {}).values():
+        for x in L:
+            d = x.get("d") or {}; s = x.get("symbol")
+            if s in seen or s in names or x.get("mine"): continue
+            if (d.get("upside") or 0) >= 30 and (d.get("analysts") or 0) >= 8 and d.get("target_usd") and x.get("price_usd"):
+                seen.add(s); cands.append(x)
+    cands.sort(key=lambda x: -x["d"]["upside"]); cands = cands[:30]
+    try:
+        from insights import Yahoo
+        y = Yahoo(); y.login()
+    except Exception as e:
+        print("Chancen: Yahoo fehlt", e); return []
+    from email.utils import parsedate_to_datetime
+    import html as H
+    cut = now - timedelta(days=days); out = []
+    for x in cands:
+        try:
+            t = y.get("https://feeds.finance.yahoo.com/rss/2.0/headline?s=%s&region=US&lang=en-US" % x["symbol"]).decode("utf-8", "ignore")
+        except Exception: continue
+        hs = []
+        for it in re.findall(r"<item>(.*?)</item>", t, re.S):
+            ti = re.search(r"<title>(.*?)</title>", it, re.S); pd = re.search(r"<pubDate>(.*?)</pubDate>", it)
+            if not ti or not pd: continue
+            ti = H.unescape(re.sub(r"<!\[CDATA\[|\]\]>", "", ti.group(1))).strip()
+            try: dt = parsedate_to_datetime(pd.group(1))
+            except Exception: continue
+            if dt >= cut and re.search(CHANCE, ti, re.I): hs.append({"titel": ti, "datum": dt.strftime("%Y-%m-%d")})
+        if hs: x["_news"] = hs[:4]; out.append(x)
+        if len(out) >= cap: break
+        time.sleep(0.2)
+    print("Chancen:", [x["symbol"] for x in out])
+    return out
+
 def build(kind, now):
     wl = J("watchlist.json"); Q = J("data/quotes.json").get("quotes", {}); N = J("data/news.json").get("items", [])
     I = J("data/insights.json").get("stocks", {}); AI = J("data/ai.json").get("stocks", {}); fx = J("data/fx.json").get("per_usd", {})
@@ -179,9 +217,9 @@ def build(kind, now):
     ep_title = ("Wochenrückblick, " if kind == "woche" else "Morgen-Sendung, ") + tag(loc)
     # Kapitel 1: Begruessung
     if kind == "woche":
-        intro = "Willkommen zum Wochenrückblick vom Aktien-Radar, heute %s. Wir gehen deine Aktien einzeln durch: Kurs der Woche in Dollar, neue Bewertungen von Banken und die wichtigsten Firmen-Meldungen. Danach der Kalender der Quartalszahlen für nächste Woche und ein Begriff zum Lernen." % tag(loc)
+        intro = "Willkommen zum Wochenrückblick vom Aktien-Radar, heute %s. Wir gehen deine Aktien einzeln durch: Kurs der Woche in Dollar, neue Bewertungen von Banken und die wichtigsten Firmen-Meldungen. Danach Andere Aktien mit Chancen, der Kalender der Quartalszahlen für nächste Woche und ein Begriff zum Lernen." % tag(loc)
     else:
-        intro = "Guten Morgen und willkommen zur Sendung vom Aktien-Radar, heute %s. Zuerst ein kurzer Blick auf den Markt, dann die Firmen aus deiner Liste mit neuen Meldungen zu Produkten, Partnern und Projekten, danach die Quartalszahlen dieser Woche und zum Schluss ein Begriff zum Lernen." % tag(loc)
+        intro = "Guten Morgen und willkommen zur Sendung vom Aktien-Radar, heute %s. Zuerst ein kurzer Blick auf den Markt, dann die Firmen aus deiner Liste mit neuen Meldungen zu Produkten, Partnern und Projekten, danach Andere Aktien mit Chancen, die Quartalszahlen dieser Woche und zum Schluss ein Begriff zum Lernen." % tag(loc)
     intro += " Kurz vorweg: Alles stammt aus gesammelten Daten und Schlagzeilen, Beträge nenne ich in Dollar. Das ist keine Anlageberatung."
     chapters.append({"name": "Begrüssung", "say": intro})
     # Kapitel 2: Markt
@@ -202,8 +240,11 @@ def build(kind, now):
         order = sorted(names, key=lambda s: -len(per.get(s, [])))
         pick = order[:16]
     else:
-        pick = sorted(prod, key=lambda s: -len(prod[s]))[:10]
+        pick = sorted(prod, key=lambda s: -len(prod[s]))[:8]
     data = {s: {"name": names[s], "schlagzeilen": [{"quelle": x.get("source"), "datum": (x.get("published") or "")[:10], "titel": title_of(x), "original": x.get("title")} for x in per.get(s, [])[:5]]} for s in pick if per.get(s)}
+    CH = chances(set(names), now, 7 if kind == "woche" else 4, 8 if kind == "woche" else 5)
+    for x in CH:
+        data[x["symbol"]] = {"name": T.clean(x["name"]), "andere_aktie": True, "schlagzeilen": [{"datum": h["datum"], "original": h["titel"]} for h in x["_news"]]}
     g = gemini(PROMPT.format(data=json.dumps(data, ensure_ascii=False))) if data else None
     src_nums = {s: set(re.findall(r"\d+", json.dumps(data.get(s, {}), ensure_ascii=False))) for s in pick}
     used_ai = 0
@@ -223,6 +264,20 @@ def build(kind, now):
             txt = [txt[0] if txt[0].startswith("Zur Aktie") else "Zur Aktie %s." % n] + week_extra(s, n, Q.get(s), I.get(s), fx, now) + (txt[1:] if txt[0].startswith("Zur Aktie") and len(txt) > 1 else txt if not txt[0].startswith("Zur Aktie") else [])
         txt.append("Das war %s." % n)
         chapters.append({"name": n, "sym": s, "say": sx(" ".join(txt))})
+    if CH:
+        chapters.append({"name": "Andere Aktien mit Chancen", "say": "Jetzt Andere Aktien mit Chancen. Das sind Aktien, die nicht auf deiner Liste sind. Bedingung: mindestens acht Analysten, ein durchschnittliches Kursziel mindestens dreissig Prozent über dem Kurs, und eine frische Meldung zu einem Produkt, einem Partner oder einem Auftrag. Das ist keine Kaufempfehlung."})
+    for x in CH:
+        s = x["symbol"]; n = T.clean(x["name"]); d = x["d"]
+        head = "Zur Aktie %s. %s Analysten verfolgen %s. Ihr durchschnittliches Kursziel liegt bei %s, das sind %s über dem aktuellen Kurs von %s." % (n, T.words(d["analysts"]).capitalize(), n, T.dollar(d["target_usd"]), T.pct(d["upside"]).replace("plus ", ""), T.dollar(x["price_usd"]))
+        o = (g or {}).get(s) if isinstance(g, dict) else None; body = None
+        nums = set(re.findall(r"\d+", json.dumps(data[s], ensure_ascii=False)))
+        if o and isinstance(o, dict) and o.get("text"):
+            t = sx(o["text"]); t = re.sub(r"^Zur Aktie [^.]*\.\s*", "", t)
+            if not [z for z in re.findall(r"\d+", t) if z not in nums]: body = T.money(t, fx); used_ai += 1
+        if not body:
+            body = " ".join("Yahoo Finance meldet %s: %s." % (T.datum(datetime.strptime(h["datum"], "%Y-%m-%d").timestamp()), h["titel"].rstrip(". ")) for h in x["_news"][:2]) + " Die Meldung ist auf Englisch, die Details stehen im Original."
+        why = " Die genaue Begründung der Analysten steht nicht in den Daten; das Kursziel ist ein Durchschnitt, keine Garantie."
+        chapters.append({"name": "Chance: " + n, "sym": s, "say": sx(head + " " + body + why + " Das war " + n + ".")})
     if not pick: chapters.append({"name": "Firmen", "say": "Heute gibt es in den Daten keine neuen Meldungen zu Produkten, Partnern oder Projekten deiner Firmen."})
     # Quartalszahlen
     E = earn_info(list(names), now)
