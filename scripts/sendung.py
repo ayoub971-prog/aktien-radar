@@ -238,11 +238,11 @@ def build(kind, now):
     # Aktien-Kapitel
     if kind == "woche":
         order = sorted(names, key=lambda s: -len(per.get(s, [])))
-        pick = order[:16]
+        pick = order[:10]
     else:
         pick = sorted(prod, key=lambda s: -len(prod[s]))[:6]
     data = {s: {"name": names[s], "schlagzeilen": [{"quelle": x.get("source"), "datum": (x.get("published") or "")[:10], "titel": title_of(x), "original": x.get("title")} for x in per.get(s, [])[:5]]} for s in pick if per.get(s)}
-    CH = chances(set(names), now, 7 if kind == "woche" else 4, 8 if kind == "woche" else 4)
+    CH = chances(set(names), now, 7 if kind == "woche" else 4, 6 if kind == "woche" else 4)
     for x in CH:
         data[x["symbol"]] = {"name": T.clean(x["name"]), "andere_aktie": True, "schlagzeilen": [{"datum": h["datum"], "original": h["titel"]} for h in x["_news"]]}
     g = gemini(PROMPT.format(data=json.dumps(data, ensure_ascii=False))) if data else None
