@@ -1,10 +1,11 @@
 {
-"generated_at": "2026-10-26T12:47:51Z",
+"generated_at": "2026-10-26T12:54:57Z",
 "universe": 520,
-"ai_model": null,
+"ai_model": "gemini-3.5-flash-lite",
 "sources": [
 "Wikipedia (S&P 500, Nasdaq-100)",
-"Yahoo Finance"
+"Yahoo Finance",
+"Google Gemini (Kurztexte Frische Zahlen)"
 ],
 "lists": {
 "potenzial": [
@@ -499,7 +500,8 @@
 "mine": false,
 "metric": "Gewinn +56,6 % vs. Erwartung",
 "reason": "Zahlen vom 20.10.2026: Gewinn je Aktie 2.90 USD, über der Erwartung (1.85).",
-"beat": true
+"beat": true,
+"ai": "Hasbro meldete am 20.10.2026 einen Gewinn je Aktie von 2.90 USD und übertraf damit die Erwartungen von 1.85 USD. Die Aktie verzeichnete daraufhin Kursgewinne und positive Reaktionen im Handelsumfeld."
 },
 {
 "symbol": "TFC",
@@ -508,7 +510,8 @@
 "mine": false,
 "metric": "Gewinn -53,8 % vs. Erwartung",
 "reason": "Zahlen vom 16.10.2026: Gewinn je Aktie 0.56 USD, unter der Erwartung (1.21).",
-"beat": false
+"beat": false,
+"ai": "Truist Financial Corporation verzeichnete am 16.10.2026 einen Gewinn je Aktie von 0.56 USD, was unter den Erwartungen von 1.21 USD lag. Zudem gab es Schlagzeilen über den Wechsel eines Beraterteams zu Raymond James."
 },
 {
 "symbol": "ELV",
@@ -517,7 +520,8 @@
 "mine": false,
 "metric": "Gewinn +48,9 % vs. Erwartung",
 "reason": "Zahlen vom 21.10.2026: Gewinn je Aktie 6.99 USD, über der Erwartung (4.69).",
-"beat": true
+"beat": true,
+"ai": "Elevance Health erzielte am 21.10.2026 einen Gewinn je Aktie von 6.99 USD und lag damit über der Prognose von 4.69 USD. Der Quartalsbericht unterstreicht unter anderem die Expansion im Bereich Carelon und angehobene Aussichten."
 },
 {
 "symbol": "BE",
@@ -526,7 +530,8 @@
 "mine": true,
 "metric": "Gewinn +39,2 % vs. Erwartung",
 "reason": "Zahlen vom 22.10.2026: Gewinn je Aktie 0.94 USD, über der Erwartung (0.68).",
-"beat": true
+"beat": true,
+"ai": "Bloom Energy Corporation wies am 22.10.2026 einen Gewinn je Aktie von 0.94 USD aus und übertraf die Erwartung von 0.68 USD. Das Unternehmen hob zudem seine Prognose für 2026 an."
 },
 {
 "symbol": "META",
@@ -535,7 +540,8 @@
 "mine": true,
 "metric": "Gewinn -29,9 % vs. Erwartung",
 "reason": "Zahlen vom 21.10.2026: Gewinn je Aktie 3.83 USD, unter der Erwartung (5.46).",
-"beat": false
+"beat": false,
+"ai": "Meta Platforms verfehlte am 21.10.2026 mit einem Gewinn je Aktie von 3.83 USD die Analystenerwartungen von 5.46 USD. Das Unternehmen kündigte zudem grosse Aktien- und Finanzierungspläne im Zusammenhang mit seinen KI-Investitionen an."
 },
 {
 "symbol": "DECK",
@@ -544,7 +550,8 @@
 "mine": false,
 "metric": "Gewinn +28,7 % vs. Erwartung",
 "reason": "Zahlen vom 22.10.2026: Gewinn je Aktie 2.31 USD, über der Erwartung (1.79).",
-"beat": true
+"beat": true,
+"ai": "Deckers Outdoor Corporation übertraf am 22.10.2026 mit einem Gewinn je Aktie von 2.31 USD die Erwartung von 1.79 USD. Zudem hob das Unternehmen seine Gewinnprognose an."
 },
 {
 "symbol": "RTX",
@@ -553,7 +560,8 @@
 "mine": false,
 "metric": "Gewinn +27,0 % vs. Erwartung",
 "reason": "Zahlen vom 20.10.2026: Gewinn je Aktie 2.26 USD, über der Erwartung (1.78).",
-"beat": true
+"beat": true,
+"ai": "RTX Corporation meldete am 20.10.2026 einen Gewinn je Aktie von 2.26 USD und übertraf damit die Erwartung von 1.78 USD. Das Unternehmen profitiert laut Berichten von einem wachsenden Auftragsbestand im Verteidigungssektor."
 },
 {
 "symbol": "TRV",
@@ -562,7 +570,8 @@
 "mine": false,
 "metric": "Gewinn +23,5 % vs. Erwartung",
 "reason": "Zahlen vom 16.10.2026: Gewinn je Aktie 9.18 USD, über der Erwartung (7.43).",
-"beat": true
+"beat": true,
+"ai": "The Travelers Companies erzielte am 16.10.2026 einen Gewinn je Aktie von 9.18 USD und übertraf die Erwartungen von 7.43 USD. Die Aktie zeigte sich im Zuge solider Underwriting-Ergebnisse stark."
 },
 {
 "symbol": "COF",
@@ -571,7 +580,8 @@
 "mine": false,
 "metric": "Gewinn +21,6 % vs. Erwartung",
 "reason": "Zahlen vom 20.10.2026: Gewinn je Aktie 6.69 USD, über der Erwartung (5.50).",
-"beat": true
+"beat": true,
+"ai": "Capital One Financial Corporation meldete am 20.10.2026 einen Gewinn je Aktie von 6.69 USD und übertraf damit die Erwartungen von 5.50 USD. Nach diesen Quartalszahlen verzeichnete die Aktie Kursgewinne."
 },
 {
 "symbol": "LVS",
@@ -580,7 +590,8 @@
 "mine": false,
 "metric": "Gewinn -21,0 % vs. Erwartung",
 "reason": "Zahlen vom 21.10.2026: Gewinn je Aktie 0.54 USD, unter der Erwartung (0.68).",
-"beat": false
+"beat": false,
+"ai": "Las Vegas Sands verfehlte am 21.10.2026 mit einem Gewinn je Aktie von 0.54 USD die Erwartungen von 0.68 USD. Grund für das Verfehlen waren laut Berichten ein schwächeres Premium-Spielesegment und höhere Kosten."
 },
 {
 "symbol": "AXP",
@@ -589,7 +600,8 @@
 "mine": false,
 "metric": "Gewinn +20,4 % vs. Erwartung",
 "reason": "Zahlen vom 23.10.2026: Gewinn je Aktie 5.42 USD, über der Erwartung (4.50).",
-"beat": true
+"beat": true,
+"ai": "American Express meldete am 23.10.2026 einen Gewinn je Aktie von 5.42 USD und übertraf damit die Erwartung von 4.50 USD. Zu den Neuerungen zählt zudem die Einführung einer Airbnb-Gutschrift."
 },
 {
 "symbol": "LUV",
@@ -598,7 +610,8 @@
 "mine": false,
 "metric": "Gewinn +14,2 % vs. Erwartung",
 "reason": "Zahlen vom 21.10.2026: Gewinn je Aktie 0.66 USD, über der Erwartung (0.58).",
-"beat": true
+"beat": true,
+"ai": "Southwest Airlines erzielte am 21.10.2026 einen Gewinn je Aktie von 0.66 USD und lag über der Erwartung von 0.58 USD. Trotz des Gewinns senkte das Unternehmen jedoch den Ausblick wegen steigender Treibstoffkosten."
 },
 {
 "symbol": "ISRG",
@@ -607,7 +620,8 @@
 "mine": false,
 "metric": "Gewinn +13,6 % vs. Erwartung",
 "reason": "Zahlen vom 20.10.2026: Gewinn je Aktie 3.00 USD, über der Erwartung (2.64).",
-"beat": true
+"beat": true,
+"ai": "Intuitive Surgical wies am 20.10.2026 einen Gewinn je Aktie von 3.00 USD aus und übertraf die Prognose von 2.64 USD. Berichte wiesen gleichzeitig auf ein verlangsamtes Wachstum bei da-Vinci-Installationen in den USA hin."
 },
 {
 "symbol": "UNH",
@@ -616,7 +630,8 @@
 "mine": false,
 "metric": "Gewinn +13,3 % vs. Erwartung",
 "reason": "Zahlen vom 13.10.2026: Gewinn je Aktie 4.69 USD, über der Erwartung (4.14).",
-"beat": true
+"beat": true,
+"ai": "UnitedHealth Group meldete am 13.10.2026 einen Gewinn je Aktie von 4.69 USD und übertraf damit die Erwartung von 4.14 USD. Das Unternehmen hob in diesem Zusammenhang seine Prognose an."
 },
 {
 "symbol": "WDC",
@@ -625,7 +640,8 @@
 "mine": false,
 "metric": "Gewinn +13,2 % vs. Erwartung",
 "reason": "Zahlen vom 22.10.2026: Gewinn je Aktie 4.64 USD, über der Erwartung (4.10).",
-"beat": true
+"beat": true,
+"ai": "Western Digital Corporation erzielte am 22.10.2026 einen Gewinn je Aktie von 4.64 USD und übertraf die Erwartung von 4.10 USD. Die Berichterstattung hob dabei die anhaltende Dynamik im Bereich der KI-Speicher hervor."
 },
 {
 "symbol": "NEM",
@@ -634,7 +650,8 @@
 "mine": false,
 "metric": "Gewinn +13,0 % vs. Erwartung",
 "reason": "Zahlen vom 22.10.2026: Gewinn je Aktie 2.20 USD, über der Erwartung (1.95).",
-"beat": true
+"beat": true,
+"ai": "Newmont Corporation wies am 22.10.2026 einen Gewinn je Aktie von 2.20 USD aus und übertraf damit die Erwartung von 1.95 USD. Der Quartalsgewinn profitierte von höheren Goldpreisen und starken Verkäufen."
 },
 {
 "symbol": "NVR",
@@ -643,7 +660,8 @@
 "mine": false,
 "metric": "Gewinn -13,0 % vs. Erwartung",
 "reason": "Zahlen vom 22.10.2026: Gewinn je Aktie 89.45 USD, unter der Erwartung (102.77).",
-"beat": false
+"beat": false,
+"ai": "NVR verfehlte am 22.10.2026 mit einem Gewinn je Aktie von 89.45 USD die Analystenerwartungen von 102.77 USD. Belastet wurde das Quartal durch niedrigere Verkäufe und Margendruck."
 },
 {
 "symbol": "CB",
@@ -652,7 +670,8 @@
 "mine": false,
 "metric": "Gewinn +12,7 % vs. Erwartung",
 "reason": "Zahlen vom 20.10.2026: Gewinn je Aktie 7.66 USD, über der Erwartung (6.80).",
-"beat": true
+"beat": true,
+"ai": "Chubb Limited meldete am 20.10.2026 einen Gewinn je Aktie von 7.66 USD und übertraf die Erwartungen von 6.80 USD. Die Ergebnisse wurden durch eine solide Underwriting-Disziplin und weltweite Diversifikation gestützt."
 },
 {
 "symbol": "VLO",
@@ -661,7 +680,8 @@
 "mine": false,
 "metric": "Gewinn +12,6 % vs. Erwartung",
 "reason": "Zahlen vom 22.10.2026: Gewinn je Aktie 23.90 USD, über der Erwartung (21.23).",
-"beat": true
+"beat": true,
+"ai": "Valero Energy Corporation erzielte am 22.10.2026 einen Gewinn je Aktie von 23.90 USD und übertraf damit die Erwartung von 21.23 USD. Das Unternehmen profitierte von engen Kraftstoffmärkten und starken Quartalsrekorden."
 },
 {
 "symbol": "DOW",
@@ -670,7 +690,8 @@
 "mine": false,
 "metric": "Gewinn +11,5 % vs. Erwartung",
 "reason": "Zahlen vom 22.10.2026: Gewinn je Aktie 0.71 USD, über der Erwartung (0.64).",
-"beat": true
+"beat": true,
+"ai": "Dow Inc. wies am 22.10.2026 einen Gewinn je Aktie von 0.71 USD aus und übertraf leicht die Erwartung von 0.64 USD. Die Zahlen trugen zu einer positiven Einschätzung der Margenerholung bei."
 },
 {
 "symbol": "BLK",
@@ -747,7 +768,7 @@
 {
 "symbol": "ABBN.SW",
 "name": "ABB Ltd",
-"price_usd": 83.73,
+"price_usd": 83.68,
 "mine": true,
 "metric": "Gewinn -9,2 % vs. Erwartung",
 "reason": "Zahlen vom 20.10.2026: Gewinn je Aktie 0.75 USD, unter der Erwartung (0.83).",
@@ -823,10 +844,10 @@
 {
 "symbol": "ABBN.SW",
 "name": "ABB Ltd",
-"price_usd": 83.73,
+"price_usd": 83.68,
 "mine": true,
-"metric": "-13,5 % in 1 Mt.",
-"reason": "Kurs im letzten Monat -13,5 %. Zahlen vom 20.10.2026 unter Erwartung (0.75 statt 0.83)."
+"metric": "-13,6 % in 1 Mt.",
+"reason": "Kurs im letzten Monat -13,6 %. Zahlen vom 20.10.2026 unter Erwartung (0.75 statt 0.83)."
 },
 {
 "symbol": "OKLO",
