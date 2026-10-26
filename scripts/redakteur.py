@@ -95,6 +95,17 @@ def _call(prompt, key):
 def _fmt(rows, field):
     return "\n\n".join("### id: %s\nQUELLE: %s\n%s: %s" % (r["id"], r["src"], field, r[field]) for r in rows)
 
+MON = "Januar|Februar|März|April|Mai|Juni|Juli|August|September|Oktober|November|Dezember"
+def _ord(w):
+    w = w.lower()
+    for a, b in (("eins", "ersten"), ("drei", "dritten"), ("sieben", "siebten"), ("acht", "achten")):
+        if w.endswith(a) and not w.endswith("zwanzig"): return w[:-len(a)] + b
+    return w + ("sten" if w.endswith("ig") else "ten")
+def _dates(t):
+    """'sechsundzwanzig. Oktober' / '26. Oktober' -> 'sechsundzwanzigsten Oktober'."""
+    t = re.sub(r"\b([a-zäöü]{3,})\. (%s)\b" % MON, lambda m: _ord(m.group(1)) + " " + m.group(2), t)
+    return t
+
 def edit(items, key=None, batch=12, keep_last=True, conv=None):
     """items: [{id, src, draft}] -> {id: text}. conv: Funktion fuer Zahlen->Worte (z.B. ent_tts.money)."""
     key = key if key is not None else os.environ.get("GEMINI_API_KEY", "")
@@ -134,6 +145,7 @@ def edit(items, key=None, batch=12, keep_last=True, conv=None):
         l = c["last"].get(it["id"]) if it.get("keep", keep_last) else None
         fb = it.get("fb", it["draft"])
         out[it["id"]] = l["t"] if l else _clean(conv(fb) if conv else fb)
+    out = {k: _dates(v) for k, v in out.items()}
     _save(c)
     print("Redakteur: %s, Aufrufe %d %s" % (stat, STATE["calls"], "; ".join(STATE["log"][-3:])))
     return out
