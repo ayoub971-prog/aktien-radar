@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T08:14:45Z",
+ "generated_at": "2026-10-27T08:55:27Z",
  "intro": "Willkommen beim Aktien-Radar, deinem Überblick über die neuesten Meldungen. Heute geht es um 39 Aktien aus deiner Liste. Alles stammt aus den gesammelten Meldungen und Analystendaten, nichts ist erfunden. Keine Anlageberatung.",
  "outro": "Das war der Aktien-Radar-Überblick. Die Quellen und Details findest du in der App bei jeder Aktie. Keine Anlageberatung.",
  "segments": [
@@ -45,14 +45,14 @@
   {
    "symbol": "HY9H.MU",
    "name": "SK Hynix",
-   "text": "SK Hynix steht derzeit stark im Fokus der Märkte. Laut Bloomberg plant das Unternehmen eine Sonderdividende in Höhe von zwölf Milliarden Dollar aus Gewinnen von Kioxia, was den Aktienkurs zuletzt beflügelt hat. Zudem profitiert der Konzern gemäss Yahoo Finance von einer robusten Nachfrage nach KI-Speichern und einem verlängerten Speicher-Upcycle. Die Tochtergesellschaft Solidigm hat zudem die Prüfung eines möglichen Börsengangs eingestellt, um sich auf langfristiges Wachstum und den Shareholder Value zu konzentrieren. Während finanzen.ch auf möglichen Druck aus China hinweist, der die Aktie belasten könnte, bewertet Onvista das Papier aufgrund der niedrigen Bewertung als kaufenswert. RBC unterstreicht ebenfalls die positiven Aussichten durch den Speicher-Aufschwung. Für das dritte Quartal wird ein Gewinn je Aktie von sechs Dollar erwartet, was die Profitabilität des Unternehmens unterstreicht. Zudem treibt SK Hynix seinen Aktienrückkaufplan weiter voran. Es liegen keine Hinweise auf Insider-Aktivitäten oder Aussagen der Unternehmensführung vor. Dies stellt keine Anlageberatung dar.",
-   "id": "3fe95e75c6",
-   "generated_at": "2026-10-27T06:16:51Z",
+   "text": "SK Hynix steht derzeit stark im Fokus der Finanzmärkte. Laut der kanadischen Tageszeitung The Globe and Mail schliesst SK Hynix einen Aktienrückkauf im Wert von vierzig Billionen KRW ab und erhöht den Anteil der Staatsanleihen auf drei Komma fünf Prozent. Gemäss dem US-Finanznachrichtendienst Bloomberg.com plant SK Hynix zudem eine Dividende von zwölf Milliarden Dollar aus Kioxia-Gewinnen, was den Kurs auf ein Zweiwochenhoch treibt. Die indische Wirtschaftszeitung The Economic Times meldet, dass südkoreanische Aktien um über vier Prozent steigen, angetrieben durch eine KI-Chip-Rallye und anstehende Ergebnisse. Das Schweizer Finanzportal finanzen.ch verweist auf Druck aus China und stellt die Frage, ob die Aktien von Samsung und SK Hynix ins Wanken geraten. Zu den Analystenbewertungen: Laut Yahoo Finance profitiert SK Hynix von einem längeren Speicher-Upcycle. Zurück zu SK Hynix: Zudem sieht ein Analyst eine viel grössere Volumenstory für Micron und SK Hynix im Bereich der Robotik-Speicher. Was macht das Unternehmen selbst? Solidigm stellt die Prüfung eines möglichen Börsengangs ein und bekräftigt sein Engagement für langfristiges Wachstum und Shareholder Value. Ausserdem treibt SK Hynix Einblicke in die Gestaltung zukünftiger KI-Infrastrukturen voran. Wichtige Kennzahlen im Überblick sind der abgeschlossene Aktienrückkauf im Wert von vierzig Billionen KRW, die geplante Dividende von zwölf Milliarden Dollar sowie ein erwarteter Gewinn je Aktie von sechs Dollar für das dritte Quartal, wobei der Gewinn je Aktie die Profitabilität eines Unternehmens bezogen auf eine einzelne Aktie zeigt. Insider-Käufe oder -Verkäufe sowie Aussagen von Chefs wurden in den Berichten nicht genannt. Widersprüche zwischen den Meldungen gibt es keine.",
+   "id": "ff9ddcb3ae",
+   "generated_at": "2026-10-27T08:46:04Z",
    "audio": {
     "file": "HY9H.MU.mp3",
-    "hash": "ddf501e0fca41948",
-    "dur": 79.4,
-    "engine": "edge"
+    "hash": "af765fc55855b6de",
+    "dur": 110.6,
+    "engine": "gemini"
    }
   },
   {
@@ -84,14 +84,14 @@
   {
    "symbol": "INTC",
    "name": "Intel",
-   "text": "Intel: Bei Intel gibt es spannende Neuigkeiten. Der Chiphersteller übernimmt das Unternehmen Classiq Technologies für zwei Komma drei Milliarden Dollar, um eine umfassende Quantencomputing-Plattform aufzubauen. An der Börse sorgte zudem eine Hochstufung durch das Analysehaus New Street für Aufmerksamkeit, was den Aktienkurs um fünf Prozent steigen liess. Als Grund für die positive Einschätzung wird ein Mangel an Server-CPUs genannt, der die Trendwende bei Intel unterstützen soll. Zurück zu Intel: Laut Marktanalysten könnte eine starke Nachfrage im Serverbereich ein schwächeres Quartal im PC-Geschäft ausgleichen. Bei den Analystenmeinungen zeigt sich ein gemischtes Bild: Von den Experten empfehlen vierzehn den Kauf, einer einen starken Kauf, zweiunddreissig raten zum Halten und einer zum Verkauf. Das durchschnittliche Kursziel liegt bei einhundertachtzehn Dollar, was einem potenziellen Kursgewinn von dreissig Komma eins Prozent entspricht. Die Kursziele der verschiedenen Häuser reichen dabei von fünfundachtzig Dollar bei JP Morgan bis zu einhundertfünfundfünfzig Dollar bei KeyBanc. Zudem gab es Insider-Aktivitäten: Lip Bu Tan, der als Chef und Verwaltungsrat tätig ist, hat Aktien im Wert von rund zehn Millionen Dollar erworben.",
-   "id": "744c580438",
-   "generated_at": "2026-10-26T22:58:31Z",
+   "text": "Intel sorgt mit aktuellen Geschäftszahlen und Übernahmen für Gesprächsstoff an den Märkten. Laut www.marketscreener.com hat die Intel Corporation eine endgültige Vereinbarung zur Übernahme von Classiq Technologies für zwei Komma drei Milliarden Dollar abgeschlossen, um eine Full-Stack-Quantencomputing-Plattform zu schaffen. Gleichzeitig verzeichnet die Aktie Kursgewinne infolge einer Hochstufung durch New Street Research und anhaltender Diskussionen über einen Mangel an Server-CPUs, wie Yahoo Finance berichtet. Auch Investing.com UK weist darauf hin, dass Anleger ihren Blick auf die anstehenden Quartalszahlen von Intel richten. Als Risiko bezeichnet das Nachrichtenportal AOL.com das Unternehmen in einer Meldung als wahre Strukturfalle der Big Tech. Zu den Analystenbewertungen: New Street Research stufte Intel von Neutral auf Kaufen hoch und nannte ein Kursziel von einhundertfünfundzwanzig Dollar. Zurück zu Intel: RBC Capital bestätigte die Bewertung wie der Sektor mit einem Kursziel von einhundert Dollar. Susquehanna bestätigte das Neutral-Rating und senkte das Kursziel von einhundertfünfzehn auf einhundertfünf Dollar. TD Cowen bestätigte das Halten-Rating und senkte das Kursziel von einhundertfünfzehn auf fünfundneunzig Dollar. JP Morgan stufte Intel von Untergewichten auf Neutral hoch und beliess das Kursziel bei fünfundachtzig Dollar. Mizuho bestätigte das Neutral-Rating und erhöhte das Kursziel von zweiundneunzig auf einhundertvierzehn Dollar. KeyBanc behält die Übergewichtung mit einem Kursziel von einhundertfünfundfünfzig Dollar bei, und RBC bekräftigt die Bewertung mit Blick auf die Nachfrage nach Künstlicher Intelligenz und Fortschritte in der Giesserei. Direkte Aussagen von Chefs oder Widersprüche in den Quellen liegen für diesen Zeitraum nicht vor.",
+   "id": "bdec5be52a",
+   "generated_at": "2026-10-27T08:46:04Z",
    "audio": {
     "file": "INTC.mp3",
-    "hash": "537cf9f59cf5019e",
-    "dur": 85.5,
-    "engine": "edge"
+    "hash": "0eca1544536ec5dd",
+    "dur": 106.3,
+    "engine": "gemini"
    }
   },
   {
@@ -110,39 +110,39 @@
   {
    "symbol": "PLTR",
    "name": "Palantir",
-   "text": "Palantir steht aktuell im Zeichen neuer Partnerschaften und anstehender Quartalszahlen. Das Unternehmen beschleunigt die Bereitstellung von souveräner Künstlicher Intelligenz für neue Kunden und hat Aplos Data in den Status Vanguard: Elite erhoben. Vor der Veröffentlichung der Quartalszahlen am zweiten November preist der Optionsmarkt laut Investing.com eine Kursbewegung von zehn Prozent ein. Zu den Risiken zählt ein zwischenzeitlicher Kursrückgang von sechsunddreissig Prozent in diesem Jahr, trotz eines Kursanstiegs von siebzehn Prozent. Zurück zu Palantir: Zudem hat ein ETF laut Yahoo Finance am Donnerstag Palantir-Aktien im Wert von dreissig Komma eins Millionen Dollar verkauft. Analysten zeigen sich mehrheitlich optimistisch: Das durchschnittliche Kursziel von sechsundzwanzig Analysten liegt bei zweihundertacht Dollar. So stufen Häuser wie Piper Sandler, Citigroup, Mizuho, Barclays, Goldman Sachs und Rosenblatt die Aktie mit Kurszielen zwischen zweihundertfünfundzwanzig und zweihundertfünfundsechzig Dollar positiv ein. Neben den technologischen Fortschritten und dem Einstieg von Burke Wealth in die Aktie berichtet TheStreet von einem ungewöhnlichen Vorstoss in ein neues Geschäftsfeld in Korea. Dies stellt keine Anlageberatung dar.",
-   "id": "d71ff957cd",
-   "generated_at": "2026-10-26T22:58:31Z",
+   "text": "Palantir steht vor spannenden Wochen. Nach Angaben von Investing.com Deutsch preist der Optionsmarkt rund um die anstehenden Quartalszahlen am zweiten November eine grössere Kursbewegung von rund zehn Prozent ein. Das Unternehmen baut laut einer Mitteilung der Firma selbst seine Marktpräsenz durch die Partnerschaft mit Vanguard Elite in den Vereinigten Staaten weiter aus. Das Portal TheStreet berichtet, dass das Unternehmen seine Künstliche Intelligenz in neue Geschäftsbereiche trägt, während Burke Wealth laut Yahoo Finance wegen des beschleunigten Wachstums von Software im Bereich der Künstlichen Intelligenz eine neue Position eröffnet hat. Als Risiken und negative Punkte werden in den vorliegenden Meldungen spekulative Leerverkäufe von Michael Burry sowie der Verkauf von Palantir-Aktien im Wert von rund dreissig Komma eins Millionen Dollar durch den iShares Tech-Software ETF genannt. Bei den Analystenbewertungen zeigt sich ein überwiegend positives Bild. Zurück zu Palantir: Die Citigroup bestätigt ihre Kaufempfehlung mit einem Kursziel von rund zweihundertfünfzig Dollar, nachdem sie das Ziel zuvor angehoben hatte. Goldman Sachs stufte die Aktie auf Kaufen mit einem Kursziel von rund zweihundertdreissig Dollar hoch. Piper Sandler bestätigte die Übergewichten-Empfehlung und setzte das Kursziel auf rund zweihunderteinunddreissig Dollar. Mizuho bestätigte ebenfalls die Einstufung und erhöhte das Kursziel auf rund zweihundertfünfundvierzig Dollar. Barclays nahm die Beobachtung mit einem Kursziel von rund zweihundertfünfundsechzig Dollar neu auf, und Rosenblatt bestätigte die Kaufempfehlung bei einem Kursziel von rund zweihundertfünfundzwanzig Dollar. Das durchschnittliche Kursziel aller Analysten liegt bei rund zweihundertsieben Dollar, wobei die Spanne von rund achtzig Dollar bis zweihundertfünfundsechzig Dollar reicht.",
+   "id": "3083311656",
+   "generated_at": "2026-10-27T08:46:04Z",
    "audio": {
     "file": "PLTR.mp3",
-    "hash": "1f79e4b49add8dbd",
-    "dur": 88.1,
-    "engine": "edge"
+    "hash": "f0a31f66a745998f",
+    "dur": 96.4,
+    "engine": "gemini"
    }
   },
   {
    "symbol": "IBM",
    "name": "IBM",
-   "text": "IBM zeigt sich aktuell in einem spannenden Umfeld. Waehrend der Konzern seine Software-Erträge steigern konnte und neue KI-Initiativen vorantreibt, sorgte der Konzernchef mit kritischen Aussagen zu den hohen Ausgaben fuer Kuenstliche Intelligenz fuer Aufsehen. Er betonte, dass offene KI-Modelle bereits neunzig Prozent der Leistung von Frontier-Modellen erreichen, weshalb sich die zehnfachen Kosten fuer Letztere oft nicht lohnen. Diese Haltung zur Kosteneffizienz belastete kurzzeitig den Aktienkurs und rueckte auch die Risiken fuer ETFs in den Fokus. Analysten reagierten auf die juengsten Quartalszahlen mit Anpassungen ihrer Kursziele. Zurück zu IBM: So stufen Jefferies und Citigroup die Aktie mit einem Kursziel von jeweils zweihundertachtzig Dollar auf Kaufen ein, waehrend die UBS mit zweihundertdreiundvierzig Dollar neutral bleibt. Morgan Stanley bewertet das Papier mit Marktgewichten bei zweihundertvierzig Dollar, BMO Capital mit Wie der Markt bei zweihundertfünfundsechzig Dollar und Barclays mit Uebergewichten bei zweihundertsiebenundsiebzig Dollar. Im Durchschnitt liegt das Kursziel der Experten bei zweihundertsiebenundfünfzig Dollar. Operativ setzt IBM auf Innovation: Die Partnerschaft mit Scuderia Ferrari HP fuer ein KI-gestuetztes Fan-Erlebnis wurde erweitert, die Cohesity Data Cloud wurde fuer die Interoperabilitaet mit IBM Terraform Self-Managed validiert und der neue IBM Integration Intelligence Hub soll KI-Agenten mehr Kontext bieten. Ein Blick auf die Insider-Aktivitaeten zeigt, dass Senior Vice President Robert David Thomas fünfundzwanzigtausend Aktien im Wert von rund fünf Komma acht Millionen Dollar veraeussert hat.",
-   "id": "ea1d30ad5d",
-   "generated_at": "2026-10-26T22:58:31Z",
+   "text": "IBM baut sein Geschaeft mit kuenstlicher Intelligenz und Cloud-Diensten kontinuierlich aus und stellte Kuerzlich neue Sicherheits- und Verwaltungstools fuer KI-Agenten vor. Laut dem Nachrichtenportal AOL.com koennte zudem das Engagement im Bereich des Quantencomputings ein wichtiger Katalysator fuer die zukuenftige Entwicklung sein. Gleichzeitig sorgte der Konzernchef mit kritischen Aeusserungen zu den extrem hohen Ausgaben fuer kuenstliche Intelligenz kurzzeitig fuer Kursbelastungen, wie Yahoo Finance berichtet. In den vorliegenden Meldungen wurden keine rechtlichen Probleme gefunden; lediglich von JournalArta wurde ein kurzer, leichter Kursrueckgang von null Komma eins Prozent nach einer ueberkauften Aktie erwaehnt, und laut bloomingbit gehört IBM zu den Unternehmen, die sich gegen die Tokenisierung von Aktien aussprechen. Analysten blicken konstruktiv auf die Aktie: Laut dem Finanzportal Yahoo Finance raten fünfzehn Analysten zum Kaufen, elf zum Halten und drei zum Verkaufen. Zurück zu IBM: Die Bankhaeuser Jefferies, UBS, Citigroup, Morgan Stanley, BMO Capital und Barclays haben Kursziele festgelegt, wobei die Kursziele zwischen zweihundertvierzig Dollar und zweihundertachtzig Dollar liegen. Operativ zeigt sich das Unternehmen aktiv, indem es neue Identitaets- und Sicherheitstools fuer KI-Agenten einführte und die Zusammenarbeit mit Scuderia Ferrari HP bei KI-gestuetzten Fan-Erlebnissen erweiterte, während die Cohesity Data Cloud für die Interoperabilität validiert wurde. Belastend wirkt hingegen laut bloomingbit, dass sich IBM gegen die Tokenisierung bestimmter Aktien ausspricht. Zu den wichtigen Kennzahlen gehoert das durchschnittliche Analysten-Kursziel von zweihundertsiebenundfünfzig Dollar sowie das jaehrliche Marktwachstum im Bereich der IT-Resilienz-Orchestrierung von +vierzehn Komma zwei Prozent, angetrieben durch Microsoft, IBM, Broadcom und ServiceNow. Widerspruechliche Berichte verschiedener Quellen lagen nicht vor.",
+   "id": "92840cb363",
+   "generated_at": "2026-10-27T08:46:04Z",
    "audio": {
     "file": "IBM.mp3",
-    "hash": "70dd69bcfa5d2d57",
-    "dur": 98.0,
-    "engine": "gemini"
+    "hash": "6e4eb96f26b8b3d3",
+    "dur": 136.7,
+    "engine": "edge"
    }
   },
   {
    "symbol": "OEF",
    "name": "iShares S&P 100 ETF",
-   "text": "iShares S&P 100 ETF: Beim iShares S&P einhundert ETF, kurz OEF, gibt es derzeit vor allem technische Impulse. Wie das Finanzportal Finanzen.net berichtet, stehen aktuelle Daten und Optionen-Ketten des Fonds im Zentrum des Interesses. Ergaenzend dazu analysiert Stock Traders Daily die Bedeutung von preissensitiven Allokationen fuer diesen Indexfonds. Der aktuelle Kurs des ETFs liegt bei dreihundertachtzig Dollar. Zu diesem Wertpapier liegen derzeit keine Analystenbewertungen mit konkreten Kurszielen vor, ebenso wenig gibt es Meldungen zu Insider-Aktivitaeten oder Aussagen der Geschaeftsfuehrung. Es wurden keine Risiken oder widerspruechliche Informationen in den Berichten festgestellt. Dies ist keine Anlageberatung.",
-   "id": "ab80baaf5a",
-   "generated_at": "2026-10-26T22:58:31Z",
+   "text": "iShares S&P 100 ETF: iShares NASDAQ einhundert ETF und verwandte Anlageprodukte werden durch aktuelle Berichte beleuchtet. Laut Finanzen.net, einem deutschen Finanzportal, verzeichnete der iShares NASDAQ einhundert ETF Kursverluste, während in einer anderen Meldung von Finanzen.net berichtet wird, dass sich der Kurs des iShares NASDAQ einhundert ETF fester entwickelt. Zudem meldet Finanzen.net, dass sich Anleger vermehrt von iShares NASDAQ einhundert ETF trennen. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Zu Analysten-Bewertungen liegen derzeit keine Daten vor. Zurück zu iShares S&P 100 ETF: Was die Aktivitäten betrifft, berichtet Börse Online, ein deutsches Börsenmagazin, über einen ETF-Split bei Amundi, während Finanzen.net meldet, dass sich Anleger vermehrt von iShares NASDAQ einhundert ETF trennen. Kennzahlen wurden in den aktuellen Meldungen nicht genannt. Es liegen keine Berichte über Insider-Käufe oder Insider-Verkäufe vor. Auch Aussagen von Chefs oder dem Management sind in den Daten nicht enthalten. Widersprüche zeigen sich bei den Berichten zur Kursentwicklung iShares NASDAQ einhundert ETF, da Finanzen.net sowohl Kursverluste als auch eine festere Kursentwicklung meldet. Keine Anlageberatung.",
+   "id": "38e886ff23",
+   "generated_at": "2026-10-27T08:46:04Z",
    "audio": {
     "file": "OEF.mp3",
-    "hash": "13b3ae6961bb96eb",
-    "dur": 53.4,
+    "hash": "419dd185a660eb7a",
+    "dur": 91.0,
     "engine": "edge"
    }
   },
@@ -175,13 +175,13 @@
   {
    "symbol": "AMZN",
    "name": "Amazon",
-   "text": "Amazon: Vor den anstehenden Quartalszahlen von Amazon richten Analysten und Medien ihren Blick auf die Entwicklung im Cloud-Bereich. Das Unternehmen bereitet sich zudem auf das Weihnachtsgeschäft vor und stellt dafür dreihunderttausend Arbeitskräfte zu einem Stundenlohn ab zwanzig Dollar ein. Gleichzeitig unterstreichen Einreichungen zum Partnerunternehmen Anthropic finanzielle Zusagen in Höhe von einhundertzehn Milliarden Dollar. Während Beobachter einen ins Stocken geratenen Handel bei Werten rund um Künstliche Intelligenz feststellen, gibt es unterschiedliche Berichte zur Strategie von Anthropic: Einerseits ist das Start-up für fast die Hälfte seines Umsatzes von Partnern wie Amazon abhängig, andererseits mietet es eigene Rechenzentren an, um diese Abhängigkeit zu verringern. Zurück zu Amazon: Die UBS hat das Kursziel für Amazon auf dreihundertachtundvierzig Dollar angehoben und die Einstufung auf Kaufen belassen, da sie mit besseren Margen und höheren Ergebnissen in der Cloud-Sparte Amazon Web Services rechnet. Weitere Analysten wie Morgan Stanley, Wells Fargo, Cantor Fitzgerald, Tigress Financial und TD Cowen bewerten die Aktie ebenfalls positiv. Im dritten Quartal 2026 hat Amazon zudem neue Geräte und Fortschritte im Bereich der Künstlichen Intelligenz präsentiert. Dies stellt keine Anlageberatung dar.",
-   "id": "2f7dcb0301",
-   "generated_at": "2026-10-26T22:58:31Z",
+   "text": "Amazon steht aktuell im Zeichen der bevorstehenden Quartalszahlen, die von Anlegern und Analysten mit grossem Interesse erwartet werden. Ein kurzer Überblick zeigt, dass die Märkte gespannt auf die Berichte der Tech-Riesen blicken und insbesondere die Margen des Cloud-Geschäfts im Fokus stehen. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden, allerdings wird darauf hingewiesen, dass das Partnerunternehmen Anthropic Rechenzentren mietet, um seine Abhängigkeit von Anbietern wie Amazon zu verringern, während gleichzeitig Berichte von einem ins Stocken geratenen KI-Handel sprechen. Zu den Analysten-Bewertungen mit Begründung: Die UBS hob kürzlich das Kursziel für Amazon aufgrund positiver Margenaussichten im Bereich Amazon Web Services auf dreihundertachtundvierzig Dollar an und bestätigte die Einstufung als Kaufen. Weitere Analysehäuser wie Morgan Stanley, Wells Fargo, Cantor Fitzgerald, Tigress Financial und TD Cowen haben ebenfalls Anpassungen vorgenommen, wobei das durchschnittliche Kursziel aller Experten bei rund dreihundertzweiunddreissig Dollar liegt. Zurück zu Amazon: Die Firma treibt ihre Geschäfte voran, indem sie für das Weihnachtsgeschäft dreihunderttausend Mitarbeiter mit einem Einstiegslohn von zwanzig Dollar pro Stunde einstellt. Zudem profitiert das Unternehmen laut Berichten davon, dass Probleme beim Konkurrenten Target Kunden zu Amazon lenken, und hat laut About Amazon neue Geräte sowie KI-Durchbrüche angekündigt. Als dämpfend wird gewertet, dass der breitere KI-Handel zeitweise ins Stocken gerät. Zu den wichtigen Kennzahlen gehört das durchschnittliche Kursziel von rund dreihundertzweiunddreissig Dollar sowie der starke Analystenkonsens mit achtundfünfzig Kaufempfehlungen. Bezüglich Insider-Aktivitäten gab es diverse Verkäufe von Führungskräften wie dem Chef Andrew Jassy, dem AWS-Chef Matthew Garman oder dem Finanzchef Brian Olsavsky, die sich in einem Rahmen von rund sechshunderttausend bis über fünf Millionen Dollar bewegten. Solche Insider-Verkäufe basieren oft auf vorab festgelegten Plänen und sagen in der Regel weniger aus als gezielte Käufe. Aussagen von Chefs liegen in den aktuellen Meldungen nicht vor. Zu den Widersprüchen: Während TradingView meldet, dass Amazon-Aktien wegen Zusagen von Anthropic in Höhe von einhundertzehn Milliarden Dollar steigen, berichtet Yahoo Finance gleichzeitig, dass Anthropic seine Abhängigkeit durch das Anmieten eigener Rechenzentren verringern will. Keine Anlageberatung.",
+   "id": "8bb09b07bd",
+   "generated_at": "2026-10-27T08:46:04Z",
    "audio": {
     "file": "AMZN.mp3",
-    "hash": "454b192551ae8bcd",
-    "dur": 90.6,
+    "hash": "41e1cb459b8760b7",
+    "dur": 168.0,
     "engine": "edge"
    }
   },
@@ -279,13 +279,13 @@
   {
    "symbol": "BE",
    "name": "Bloom Energy",
-   "text": "Bloom Energy hat für das dritte Quartal 2026 Rekordergebnisse gemeldet und die Prognose für das Gesamtjahr bereits zum dritten Mal angehoben. Trotz dieser starken operativen Zahlen fiel die Aktie zeitweise, da Investoren Bedenken hinsichtlich des Cashflows und der Cashflow-Umrechnung äusserten. In der Folge kehrte sich dieser Ausverkauf jedoch um und die Aktie legte um sieben Prozent zu. Analysten bewerten die Lage unterschiedlich: Während Bernstein SocGen und Evercore ISI das Unternehmen aufgrund der Margenstärke und der Wachstumsaussichten positiv hervorheben, gibt es ein gemischtes Bild bei den Kurszielen. So erhöhte Barclays das Ziel auf dreihundertsechzehn Dollar und Wells Fargo auf einhundertzweiundachtzig Dollar, während JP Morgan das Kursziel auf zweihundertzweiundneunzig Dollar senkte. RBC Capital und Morgan Stanley bestätigten ihre Ziele bei dreihundertfünfunddreissig Dollar. Das durchschnittliche Kursziel der Analysten liegt bei zweihundertfünfundachtzig Dollar. Dies stellt keine Anlageberatung dar.",
-   "id": "0b4f2f71e5",
-   "generated_at": "2026-10-26T22:58:31Z",
+   "text": "Bloom Energy verzeichnete im dritten Quartal des Jahres 2026 Rekordergebnisse und hob in diesem Zuge die Prognose für das Gesamtjahr an, was laut The Globe and Mail bereits die dritte Anhebung der Jahresprognose darstellt. Diese Entwicklung ist für die Aktie von Bedeutung, da starke operative Zahlen und angehobene Aussichten grundsätzlich das Vertrauen der Anleger stärken können. Dennoch geriet die Aktie laut The Globe and Mail nach den Quartalszahlen zeitweise unter Druck und notiert deutlich unter ihrem Rekordwert, während Yahoo Finance gleichzeitig von einem anfänglichen Ausverkauf berichtet, der sich jedoch im Anschluss wieder in Kursgewinne umkehrte. Auf Analystenseite gibt es laut Yahoo Finance insgesamt fünf starke Kaufempfehlungen, fünfzehn Kaufempfehlungen, dreizehn Halten-Einstufungen und eine Verkaufsempfehlung, wobei das durchschnittliche Kursziel der Analysten bei zweihundertfünfundachtzig Dollar liegt, mit Höchstwerten von dreihundertachtzig Dollar und Tiefstwerten von einhundertzwei Dollar. Zurück zu Bloom Energy: Verschiedene Banken haben ihre Einschätzungen aktualisiert: Barclays bestätigte ihre Einschätzung und erhöhte das Kursziel auf dreihundertsechzehn Dollar, Wells Fargo hob das Kursziel auf einhundertzweiundachtzig Dollar an, JP Morgan bestätigte die Übergewichtung, senkte jedoch das Kursziel auf zweihundertzweiundneunzig Dollar, RBC Capital bestätigte ein Kursziel von dreihundertfünfunddreissig Dollar und Morgan Stanley erhöhte das Kursziel ebenfalls auf dreihundertfünfunddreissig Dollar. Zusätzlichen Rückenwind gab es laut Investing.com Nigeria durch Bernstein SocGen, die das Kursziel wegen Margenstärke erhöhten, während Evercore ISI ihre Einstufung mit Blick auf starke Wachstumsaussichten bestätigte. In den Berichten wurden keine Angaben zu Insider-Käufen oder -Verkäufen sowie keine direkten Aussagen des Managements gefunden. Keine Anlageberatung.",
+   "id": "793cebaaba",
+   "generated_at": "2026-10-27T08:46:04Z",
    "audio": {
     "file": "BE.mp3",
-    "hash": "3f98fd42f6583cd7",
-    "dur": 73.4,
+    "hash": "e9ce01cdb46dcd22",
+    "dur": 128.4,
     "engine": "edge"
    }
   },
@@ -305,26 +305,26 @@
   {
    "symbol": "SMEGF",
    "name": "Siemens Energy",
-   "text": "Siemens Energy: Die Aktie von Siemens Energy zeigt nach einer Phase der Schwäche wieder Lebenszeichen und hat sich an die Spitze des DAX gesetzt. Zuvor war der Kurs um zwölf Prozent eingebrochen und hatte ein neues Sechs-Monats-Tief erreicht, was bei Anlegern für Alarmstimmung sorgte. Aktuell treibt die Kursrallye den DAX an, wobei Marktbeobachter jedoch kritisch hinterfragen, ob diese Gegenbewegung ohne neue Unternehmensmeldungen nachhaltig ist oder lediglich eine kurze Atempause darstellt. Der aktuelle Aktienkurs liegt bei einhundertvierzig Dollar. Konkrete neue Analystenbewertungen oder Insidergeschäfte liegen für diesen Zeitraum nicht vor. Es bleibt abzuwarten, ob sich aus dieser Erholung eine echte Trendwende entwickelt. Dies stellt keine Anlageberatung dar.",
-   "id": "94a6e6aafa",
-   "generated_at": "2026-10-26T22:58:31Z",
+   "text": "Siemens Energy zeigt an den Börsen eine dynamische Entwicklung zwischen deutlichen Kursverlusten und anschliessenden Erholungen. Laut der Tageszeitung WELT konnte sich das Unternehmen nach einem jüngsten Ausverkauf erholen und zeigt positive Signale im Handel, während das Börsenportal Wallstreet Online zuvor über einen Einbruch der Aktie um zwölf Prozent auf ein neues sechs-Monats-Tief berichtete, was im Forum für Alarmstimmung sorgte. Als mögliches Risiko führt Yahoo Finance an, dass die Aktie von Siemens Energy hinsichtlich des Cashflows über dem fairen Wert zu liegen scheint. Operativ treibt das Unternehmen seine Zukunft voran und geht laut marketscreener.com eine Partnerschaft mit japanischen Unternehmen ein, um Fusionsenergietechnologie zu entwickeln. Zurück zu Siemens Energy: Zudem wurden laut finanzen.ch Zahlen zum jüngsten Quartal vermeldet, und Wallstreet Online berichtete über einen Kursgewinn von vier Komma sieben Prozent nach dem jüngsten Ausverkauf. Als wichtige Kennzahl wird der aktuelle Kurs von einhundertfünfundvierzig Dollar genannt, welcher den aktuellen Wert an der Börse anzeigt. In den vorliegenden Meldungen wurden keine Insider-Käufe oder -Verkäufe sowie keine Aussagen von Chefs oder dem Management erwähnt. Widersprüche zwischen den verschiedenen Berichten wurden nicht festgestellt. Keine Anlageberatung.",
+   "id": "2a981b0869",
+   "generated_at": "2026-10-27T08:46:04Z",
    "audio": {
     "file": "SMEGF.mp3",
-    "hash": "c456f66fa5fc1d0e",
-    "dur": 54.3,
+    "hash": "7a3dc497e9fefd36",
+    "dur": 91.7,
     "engine": "edge"
    }
   },
   {
    "symbol": "OKLO",
    "name": "Oklo",
-   "text": "Oklo steht derzeit im Fokus von Analysten und Investoren. Das Unternehmen verzeichnet laut Berichten trotz eines echten technischen Meilensteins deutliche Kursrückgänge im laufenden Jahr und liegt weit von früheren Höchstständen entfernt, was eine spürbare Diskrepanz zwischen der wissenschaftlichen Entwicklung und der Kursentwicklung an der Börse zeigt. TD Cowen verweist auf eine hohe Unsicherheit bei den Kosten und der Umsetzung, was zu einer Einstufung mit dem Rating Halten und einem Kursziel von sechsundzwanzig Dollar führt. Bei den Analystenbewertungen zeigt sich ein gemischtes Bild mit einem Konsens-Rating aus dreizehn Kaufempfehlungen, zehn Halteempfehlungen, einer Verkaufsempfehlung, fünf starken Kaufempfehlungen und einer starken Verkaufsempfehlung. Zurück zu Oklo: Das durchschnittliche Kursziel liegt bei sechsundsechzig Komma acht Dollar, während das bisherige Kursziel von Truist Securities auf einunddreissig Dollar, von der Citigroup auf dreiunddreissig Dollar, von Barclays auf neunundfünfzig Dollar, von Piper Sandler auf neunundvierzig Dollar und von der UBS auf einundvierzig Dollar angepasst wurde. Das Unternehmen treibt seine technischen Pläne voran und bereitet sich auf die Finanzergebnisse des dritten Quartals 2026 vor, wobei Kostenunsicherheiten und die schwache Kursentwicklung belastend wirken. Zu den wichtigen Kennzahlen gehört neben dem durchschnittlichen Kursziel von sechsundsechzig Komma acht Dollar auch der Median der Kursziele von siebzig Komma fünf Dollar. Bezüglich möglicher Widersprüche berichten einige Quellen über technische Meilensteine, während andere die erheblichen Kostenunsicherheiten und Umsetzungshürden in den Vordergrund stellen.",
-   "id": "91e78b9865",
-   "generated_at": "2026-10-26T22:13:42Z",
+   "text": "Oklo gibt Anlass zu neuen Marktdiskussionen, da das Unternehmen laut einer Mitteilung der Firma selbst den Termin für die Finanzergebnisse des dritten Quartals 2026 sowie eine Telefonkonferenz zu Geschäftsaktualisierungen bekannt gab. Laut TradingView nahm TD Cowen die Bewertung der Aktie neu auf und vergab ein Halten-Rating mit einem Kursziel von sechsundzwanzig Dollar. Laut Investing.com verkauften ausserdem verschiedene Insider wie der Stabschef Aktien im Wert von rund einundvierzigtausendeinhundertneunundzwanzig bis sechsundsechzigtausenddreihundertsiebenundsechzig Dollar. Zurück zu Oklo: Die Analystenbewertungen zeigen ein gemischtes Bild. TD Cowen bewertet die Aktie mit Halten und einem Kursziel von sechsundzwanzig Dollar, begründet dies laut Investing.com jedoch mit Kostenunsicherheiten sowie hohen Unsicherheiten bei der Umsetzung. Truist Securities vergab ein Halten-Rating mit einem Kursziel von einunddreissig Dollar. Citigroup vergab eine neutrale Einstufung bei einem Kursziel von dreiunddreissig Dollar. Barclays vergab die Übergewichten-Empfehlung mit einem Kursziel von neunundfünfzig Dollar. Piper Sandler vergab ebenfalls das Übergewichten-Rating bei einem Kursziel von neunundvierzig Dollar, und die UBS vergab die neutrale Bewertung mit einem Kursziel von einundvierzig Dollar. Der Konsens von Yahoo Finance weist insgesamt fünf starke Käufe, dreizehn Käufe, zehn Halten, eins Verkauf und eins starken Verkauf aus, wobei das durchschnittliche Kursziel bei sechsundsechzig Komma acht Dollar liegt. Was die Firma gerade macht, sorgt für Gesprächsstoff: AOL.com berichtet von einem technischen Meilenstein des Unternehmens. Demgegenüber steht laut Investing.com die genannte Kosten- und Umsetzungsunsicherheit. Wichtige Kennzahlen umfassen das durchschnittliche Kursziel von sechsundsechzig Komma acht Dollar, das höchste Kursziel von einhundertzweiundzwanzig Dollar sowie das niedrigste Kursziel von vierzehn Dollar. Zu den Insider-Aktivitäten ist zu erwähnen, dass Führungskräfte Aktienverkäufe im Bereich von rund einundvierzigtausendeinhundertneunundzwanzig bis sechsundsechzigtausenddreihundertsiebenundsechzig Dollar vornahmen. Keine Anlageberatung.",
+   "id": "76de54f65b",
+   "generated_at": "2026-10-27T08:46:04Z",
    "audio": {
     "file": "OKLO.mp3",
-    "hash": "6c1072de8513c927",
-    "dur": 108.5,
+    "hash": "3644b559f21b3fb7",
+    "dur": 153.0,
     "engine": "edge"
    }
   },
@@ -370,13 +370,13 @@
   {
    "symbol": "013A.F",
    "name": "JD.com",
-   "text": "JD.com: Laut TradingView, einer Chart- und Boersenplattform, fielen die Aktien von JD.com sieben Sitzungen in Folge. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Zu den Analysten-Bewertungen: Laut Yahoo! Finance Canada hat Barclays das Rating Uebergewichten bestaetigt und das Kursziel auf achtunddreissig Dollar gesenkt. B of A Securities bestaetigte das Rating Kaufen und senkte das Kursziel auf siebenunddreissig Dollar, waehrend Susquehanna das Rating Neutral bestaetigte und das Kursziel auf dreissig Dollar senkte. Barclays hatte zuvor im Juli 2026 ebenfalls das Rating Uebergewichten bei einem Kursziel von einundvierzig Dollar bestaetigt. Zurueck zu JD.com: Aktuelle Meldungen zu spezifischen Projekten oder Produkten der Firma liegen in den Daten nicht vor, ebenso wenig wie nennenswerte Insider-Kaeufe oder konkrete Aussagen von Chefs. Widersprueche zwischen den verschiedenen Quellen wurden nicht festgestellt. Keine Anlageberatung.",
-   "id": "cb565d60d0",
-   "generated_at": "2026-10-26T21:07:25Z",
+   "text": "JD.com: Die Aktien von JD.com fielen laut der Chart- und Boersenplattform TradingView sieben Boersensitzungen in Folge. Bei den Analystenbewertungen gibt es neue Anpassungen. Laut dem Finanzportal Yahoo! Finance Canada hat Barclays die Einstufung auf Uebergewichten bestaetigt, aber das Kursziel auf achtunddreissig Dollar gesenkt. B of A Securities bestaetigte die Einstufung auf Kaufen und senkte das Kursziel auf siebenunddreissig Dollar. Auch Susquehanna passte die Einschaetzung an, bestaetigte die Einstufung auf Neutral und senkte das Kursziel auf dreissig Dollar. Zu den wichtigen Kennzahlen gehoert der aktuelle Aktienkurs von fünfundzwanzig Komma vier fünf Dollar, waehrend die Kursziele als Prognosen der Analysten fuer den zukuenftigen Aktienkurs dienen.",
+   "id": "bd51780d2c",
+   "generated_at": "2026-10-27T08:46:04Z",
    "audio": {
     "file": "013A.F.mp3",
-    "hash": "b1b71e05b6de778d",
-    "dur": 73.7,
+    "hash": "6a103fc5a5622d98",
+    "dur": 52.7,
     "engine": "edge"
    }
   },
@@ -396,13 +396,13 @@
   {
    "symbol": "0VR3.L",
    "name": "ZKB Gold ETF",
-   "text": "ZKB Gold ETF: Der Goldpreis ist zum Wochenbeginn auf ein Drei-Monats-Tief gefallen, da die Anleger auf die bevorstehende Sitzung der US-Notenbank blicken. Laut Berichten aus Indien ziehen sich die Preise von ihren Rekordhochs zurück, wobei Juweliere trotz der vorsichtigen Marktstimmung ein gesundes Umsatzwachstum für das Diwali-Fest erwarten. Ein stärkerer Dollar belastet den Goldpreis zusätzlich. Der aktuelle Kurs liegt bei eintausendeinhunderteinundneunzig,siebenundsechzig Dollar. In den Medienberichten finden sich widersprüchliche Angaben zur kurzfristigen Preisentwicklung vor der Notenbanksitzung, da einige Quellen von steigenden, andere von sinkenden Preisen berichten. Investitionsmöglichkeiten in Gold reichen von physischem Schmuck bis hin zu digitalen Goldprodukten oder Gold-ETFs. Diese Informationen dienen nicht als Anlageberatung.",
-   "id": "3894095b29",
-   "generated_at": "2026-10-27T04:46:13Z",
+   "text": "ZKB Gold ETF: Top-Gold-ETFs wurden laut Livemint, einer indischen Wirtschaftszeitung, nach eins-, drei- und fünf-Jahres-Renditen im Hinblick auf Dhanteras 2026 betrachtet, während The Economic Times, ebenfalls eine indische Wirtschaftszeitung, verschiedene Möglichkeiten, an Dhanteras und Diwali in Gold zu investieren, darunter Gold-ETFs, aufführt. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Zu Analysten-Bewertungen liegen keine Daten vor. Was die wirtschaftlichen Aktivitäten betrifft, berichtet The Economic Times, dass sich Anleger im Rahmen von Festivitäten wie Dhanteras und Diwali vermehrt mit Investitionsmöglichkeiten in Gold-ETFs beschäftigen. In den vorliegenden Daten wurden keine spezifischen Kennzahlen oder Insider-Transaktionen genannt. Auch Aussagen von Unternehmenschefs liegen nicht vor. Es wurden keine widersprüchlichen Berichte festgestellt. Keine Anlageberatung.",
+   "id": "0d2bb2c739",
+   "generated_at": "2026-10-27T08:46:04Z",
    "audio": {
     "file": "0VR3.L.mp3",
-    "hash": "746daad304ddd187",
-    "dur": 57.0,
+    "hash": "d4d3d5c8ea9dc9c0",
+    "dur": 66.3,
     "engine": "edge"
    }
   },
@@ -524,5 +524,5 @@
   "dur": 10.2,
   "engine": "edge"
  },
- "audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@893ff609a1b1209fc21343784f6984189b62cb5f/data/audio/"
+ "audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@323ef81ee8781cc87c3789e04e85bb0087c8daf9/data/audio/"
 }
