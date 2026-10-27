@@ -63,15 +63,15 @@
   },
   "INTC": {
    "file": "INTC.mp3",
-   "hash": "07f64fcc59e3c144",
-   "th": "cde63db038415664",
+   "hash": "537cf9f59cf5019e",
+   "th": "d46030d8fb680403",
    "id": "744c580438",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Intel: In den vorliegenden Meldungen gibt es spannende Neuigkeiten rund um den Chiphersteller. Laut Investor Relations der Intel Corporation, einer Mitteilung der Firma selbst, übernimmt Intel das Unternehmen Classiq, um eine Full-Stack-Quantencomputing-Plattform aufzubauen. Gemäss www.marketscreener.com, einem Finanzportal, beläuft sich die Übernahmesumme für Classiq Technologies auf zwei Komma drei Milliarden Dollar. Zudem berichtet Yahoo Finance, ein Finanzportal, dass die Aktie um fünf Prozent gestiegen ist, nachdem das Analysehaus New Street die Aktie hochgestuft und auf einen Server-CPU-Mangel hingewiesen hat. Laut Seeking Alpha, einer US-Plattform mit Anlegerbeiträgen, könnte eine starke Serverstärke im dritten Quartal ein schwaches PC-Quartal leicht ausgleichen. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Betreffend der Analystenbewertungen zeigt sich folgendes Bild: Laut Yahoo Finance liegt das durchschnittliche Kursziel bei einhundertachtzehn Dollar, mit einem Höchstwert von zweihundert Dollar und einem Tiefstwert von achtzig Dollar. Der potenzielle Kursgewinn wird auf dreissig Komma eins Prozent beziffert. Im Konsens empfehlen vierzehn Analysten den Kauf, eins empfiehlt einen starken Kauf, zweiunddreissig raten zum Halten und eins zum Verkauf. Das Analysehaus RBC Capital bestätigt seine Einstufung Wie der Sektor mit einem Kursziel von einhundert Dollar. New Street Research stuft die Aktie auf Kaufen hoch und nennt ein Kursziel von einhundertfünfundzwanzig Dollar, begründet durch einen Mangel an Server-CPUs, welcher die Trendwende verstärkt. Susquehanna bestätigt die neutrale Einschätzung und senkt das Kursziel auf einhundertfünf Dollar. TD Cowen belässt das Rating auf Halten und setzt das Kursziel auf fünfundneunzig Dollar. JP Morgan hebt das Rating auf Neutral an bei einem bestätigten Kursziel von fünfundachtzig Dollar. Mizuho bestätigt die neutrale Haltung und erhöht das Kursziel auf einhundertvierzehn Dollar. KeyBanc behält die Übergewichtung mit einem Ziel von einhundertfünfundfünfzig Dollar bei. Zurück zu Intel: Die Firma treibt ihre Projekte aktiv voran. Neben der erwähnten Übernahme von Classiq Technologies profitiert das Unternehmen laut New Street von einem Server-CPU-Mangel, der die Trendwende unterstützt. Bei den Kennzahlen sticht das durchschnittliche Kursziel von einhundertachtzehn Dollar und das Aufwärtspotenzial von dreissig Komma eins Prozent hervor. Bezüglich Insider-Aktivitäten wird in den Meldungen erwähnt, dass Lip Bu Tan als Chef und Verwaltungsrat Aktien im Wert von rund zehn Millionen Dollar kaufte. Man muss hierbei beachten, dass Verkäufe oft weniger aussagen als Käufe, da Verkäufe auch steuerlich motiviert sein können. Keine Anlageberatung.",
-   "dur": 196.7,
-   "at": "2026-10-26T23:09:24Z"
+   "text": "Bei Intel gibt es spannende Neuigkeiten. Der Chiphersteller übernimmt das Unternehmen Classiq Technologies für zwei Komma drei Milliarden Dollar, um eine umfassende Quantencomputing-Plattform aufzubauen. An der Börse sorgte zudem eine Hochstufung durch das Analysehaus New Street für Aufmerksamkeit, was den Aktienkurs um fünf Prozent steigen liess. Als Grund für die positive Einschätzung wird ein Mangel an Server-CPUs genannt, der die Trendwende bei Intel unterstützen soll. Laut Marktanalysten könnte eine starke Nachfrage im Serverbereich ein schwächeres Quartal im PC-Geschäft ausgleichen. Bei den Analystenmeinungen zeigt sich ein gemischtes Bild: Von den Experten empfehlen vierzehn den Kauf, einer einen starken Kauf, zweiunddreissig raten zum Halten und einer zum Verkauf. Das durchschnittliche Kursziel liegt bei einhundertachtzehn Dollar, was einem potenziellen Kursgewinn von dreissig Komma eins Prozent entspricht. Die Kursziele der verschiedenen Häuser reichen dabei von fünfundachtzig Dollar bei JP Morgan bis zu einhundertfünfundfünfzig Dollar bei KeyBanc. Zudem gab es Insider-Aktivitäten: Lip Bu Tan, der als Chef und Verwaltungsrat tätig ist, hat Aktien im Wert von rund zehn Millionen Dollar erworben.",
+   "dur": 85.5,
+   "at": "2026-10-27T04:12:14Z"
   },
   "PLTR": {
    "file": "PLTR.mp3",
@@ -508,9 +508,9 @@
   }
  },
  "status": "quota: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usa",
- "checked_at": "2026-10-27T03:00:08Z",
- "quota_until": 1793073586.5609462,
- "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@b6cf8d50bb810f2fcd832c25822543e7c670e476/data/audio/",
+ "checked_at": "2026-10-27T04:12:14Z",
+ "quota_until": 1793077922.9027216,
+ "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@967d93dbd557b5768fadfde2fd614ec000eceeed/data/audio/",
  "extra": {
   "intro": {
    "file": "_intro.mp3",
