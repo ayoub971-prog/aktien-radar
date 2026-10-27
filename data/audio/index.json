@@ -3,15 +3,16 @@
  "stocks": {
   "TSM": {
    "file": "TSM.mp3",
-   "hash": "2e82e304d905c8f6",
-   "th": "384127785b40d753",
-   "id": "545f1dd397",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
+   "hash": "1b87a216a5e79a09",
+   "th": "bc93b62407361e39",
+   "engine": "gemini",
+   "id": "15d9b83ad7",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
    "br": 24,
-   "text": "Die vorliegenden Meldungen und Analysen zeichnen ein gemischtes Bild für Taiwan Semiconductor. Laut AOL.com, einem Nachrichtenportal, verzeichnete das Unternehmen einen Rekordgewinn, woraufhin die Aktie dennoch fiel, da sich der Markt Sorgen machte. Laut Investing.com Deutsch, einem Finanzportal, reagiert Taiwan Semiconductor mit einem massiven Kapazitätsaufbau auf den KI-Boom. Zudem entkräftet das Unternehmen laut Seeking Alpha, einer US-Plattform mit Anlegerbeiträgen, irrationale KI-Befürchtungen, da die Preismacht zunimmt. Dennoch weist Yahoo Finance, ein Finanzportal, darauf hin, dass die Aktie im Vergleich zum Cashflow teuer erscheint. Analysten bewerten Taiwan Semiconductor überwiegend optimistisch. Laut den Daten von Yahoo Finance empfehlen sechsundzwanzig Analysten die Aktie, aufgeteilt in sechs starke Käufe, zwanzig Käufe und eins Halten, bei null Verkaufsempfehlungen. Barclays bestätigte kürzlich das Rating Übergewichten und erhöhte das Kursziel auf sechshundertsiebzig Dollar. Needham erhöhte das Kursziel auf fünfhundertsechzig Dollar bei einer Kaufempfehlung, während DA Davidson das Kursziel bei fünfhundert Dollar bestätigte. Stifel nahm die Aktie neu mit einem Kursziel von fünfhundertfünfzehn Dollar auf, und Bernstein hob das Kursziel auf fünfhundertvierundfünfzig Dollar an. Das Unternehmen profitiert laut Yahoo Finance von der weltweiten Nachfrage nach künstlicher Intelligenz und 5G bei kundenspezifischen System-on-Chip-anwendungsspezifischen integrierten Schaltkreisen sowie von 3D-Paketierung in der Flip-Chip-Technologie. Auf der anderen Seite bewertet Yahoo Finance die Aktie im Vergleich zum Cashflow als teuer. Das Management reagiert aktiv auf den KI-Boom und baut Kapazitäten aus.",
-   "dur": 123.8,
-   "at": "2026-10-26T23:09:02Z"
+   "text": "Taiwan Semiconductor steht derzeit stark im Fokus der Finanzmaerkte. Laut Investing.com baut das Unternehmen seine Kapazitaeten massiv aus, um auf den anhaltenden Boom im Bereich der Kuenstlichen Intelligenz zu reagieren. Zudem berichten TradingView und Yahoo Finance, dass Taiwan Semiconductor Preiserhoehungen von bis zu zwanzig Prozent fuer fortschrittliche Chipverpackungen plant. Seeking Alpha betont in diesem Zusammenhang, dass das Unternehmen irrationale Befuerchtungen rund um den KI-Sektor entkraeftet, da die Preismacht des Konzerns zunimmt. Waehrend die Analysten die Aktie mehrheitlich positiv bewerten, weist Yahoo Finance darauf hin, dass die Bewertung im Vergleich zum Cashflow als teuer erscheinen kann. Die Expertenmeinungen sind optimistisch: So bestaetigte Barclays die Einstufung als Ubergewichten mit einem Kursziel von sechshundertsiebzig Dollar, waehrend DA Davidson die Aktie mit Kaufen und einem Kursziel von fünfhundert Dollar bewertet. Needham erhoehte das Kursziel auf fünfhundertsechzig Dollar bei einer Kaufen-Einstufung. Stifel nahm die Beobachtung mit einem Kaufen-Rating und einem Kursziel von fünfhundertfünfzehn Dollar auf, und Bernstein stuft den Titel mit Besser als Markt bei einem Kursziel von fünfhundertvierundfünfzig Dollar ein. Das durchschnittliche Kursziel liegt bei fünfhundertvierundachtzig Dollar, was ein Aufwaertspotenzial von siebenunddreissig Komma sieben Prozent signalisiert. Bei den Insider-Aktivitaeten zeigen sich Fuehrungskraefte zuversichtlich: Laut SEC-Pflichtmeldungen erwarb der Vizepraesident Lipen Yuan Aktien im Wert von rund dreitausendeinhundertsechsundsiebzig Dollar. Da es sich um Kaeufe handelt, werten Marktbeobachter dies oft als Signal des Vertrauens in die eigene Firma. Bitte beachten Sie, dass dies keine Anlageberatung darstellt.",
+   "dur": 104.4,
+   "at": "2026-10-27T05:43:54Z"
   },
   "005930.KS": {
    "file": "005930.KS.mp3",
@@ -112,15 +113,16 @@
   },
   "META": {
    "file": "META.mp3",
-   "hash": "143a615f0ee93cf0",
-   "th": "7cc2487a3b4858aa",
+   "hash": "0fc57c709d5cb3f6",
+   "th": "81b31cca90ca74ae",
+   "engine": "gemini",
    "id": "4fd2aad580",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
    "br": 24,
-   "text": "Meta Platforms: Meta Platforms plant eine historische Kapitalerhöhung von bis zu fünfundneunzig Milliarden Dollar, um die massiven Investitionen in künstliche Intelligenz zu finanzieren, wie Reuters meldet. Das Vorhaben umfasst ein initiales Aktienangebot von fünfunddreissig Milliarden Dollar. Zuvor hatten laut The Globe and Mail enttäuschende Quartalszahlen und Sorgen über die endlosen Ausgaben für künstliche Intelligenz zu deutlichen Kursverlusten bei der Aktie geführt. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Bei den Analystenbewertungen zeigt sich ein überwiegend positives Bild. Die UBS bestätigt die Einstufung als Kaufen und erhöht das Kursziel auf achthundertzweiundneunzig Dollar. Auch die Citigroup bekräftigt die Kaufempfehlung und setzt das Ziel auf neunhundertfünf Dollar. DA Davidson erhöht das Kursziel auf achthundert Dollar bei einer Kaufempfehlung. BMO Capital bestätigt die Einstufung als Wie der Markt mit einem erhöhten Ziel von sechshundertfünfundachtzig Dollar. Die Evercore ISI Group hält an der Einschätzung Besser als Markt fest und nennt ein Ziel von achthundertsiebzig Dollar. Mizuho bestätigt ebenfalls die Einstufung Besser als Markt und hebt das Kursziel kräftig auf neunhundertfünfzig Dollar an. Als Begründung verweisen Analysten auf die strategischen Schritte im KI-Bereich und die Nachfrage nach den Angeboten des Technologiekonzerns. Zurück zu Meta Platforms: Operativ hat das Unternehmen neue Werkzeuge für Administratoren von Communities vorgestellt und treibt die Finanzierung des künftigen Wachstums voran. Laut MarketWatch könnten Grosskonzerne wie Nvidia, AMD und Broadcom Anteile im Rahmen des grossen Aktienangebots erwerben. Auf der abwertenden Seite steht der deutliche Kursrückgang nach den Quartalszahlen und der anfängliche Abwärtsdruck durch die Ankündigung der Kapitalerhöhung, wie das Handelsblatt und Investor's Business Daily berichten. Zu den wichtigen Kennzahlen gehört das durchschnittliche Kursziel der Analysten von rund achthundertfünfundvierzig Dollar und das höchste Kursziel von rund eintausendfünfzig Dollar, was ein theoretisches Aufwärtspotenzial von rund vierunddreissig Prozent signalisiert. Bei den Insider-Transaktionen gab es diverse Verkäufe, die allerdings grösstenteils über vorab festgelegte Pläne abgewickelt wurden. So veräusserte Chief Operating Officer Javier Olivan im September und Oktober wiederholt Aktienpakete im Wert von jewils rund eins Komma eins Millionen Dollar. Chef Mark Zuckerberg verkaufte im September planmässig Aktien im Wert von rund einundzwanzig Millionen Dollar, und Chief Product Officer Christopher K Cox trennte sich im selben Monat von Aktienpaketen im Wert von rund vierzehn Millionen Dollar und rund neunundzwanzig Millionen Dollar. Solche Insider-Verkäufe basieren oft auf langfristigen Plänen oder steuerlichen Gründen und sind daher weniger aussagekräftig als Insider-Käufe. Aussagen des Managements zu den jüngsten Plänen liegen in den aktuellen Meldungen nicht vor. Widersprüche zwischen den berichtenden Medien und Analysten sind nicht erkennbar. Keine Anlageberatung.",
-   "dur": 218.3,
-   "at": "2026-10-27T04:56:31Z"
+   "text": "Meta Platforms plant eine historische Kapitalerhöhung von bis zu fünfundneunzig Milliarden Dollar, um die massiven Investitionen in künstliche Intelligenz zu finanzieren. Das Vorhaben umfasst ein initiales Aktienangebot von fünfunddreissig Milliarden Dollar. Zuvor hatten enttäuschende Quartalszahlen und Sorgen über die hohen Ausgaben für künstliche Intelligenz zu deutlichen Kursverlusten geführt. Analysten bewerten die Aktie weiterhin mehrheitlich positiv. So bestätigen die UBS, die Citigroup und DA Davidson ihre Kaufempfehlungen mit Kurszielen von achthundertzweiundneunzig Dollar, neunhundertfünf Dollar beziehungsweise achthundert Dollar. Die Evercore ISI Group und Mizuho stufen die Aktie als besser als der Markt ein, mit Kurszielen von achthundertsiebzig Dollar und neunhundertfünfzig Dollar. BMO Capital sieht die Aktie wie der Markt und setzt das Ziel auf sechshundertfünfundachtzig Dollar. Operativ treibt Meta das Wachstum durch neue Werkzeuge für Community-Administratoren voran. Laut Berichten könnten Grosskonzerne wie Nvidia, AMD und Broadcom Anteile im Rahmen des Aktienangebots erwerben. Das durchschnittliche Kursziel der Analysten liegt bei rund achthundertsechsundvierzig Dollar, während das höchste Ziel eintausendfünfzig Dollar beträgt. Dies stellt keine Anlageberatung dar.",
+   "dur": 75.6,
+   "at": "2026-10-27T05:44:49Z"
   },
   "AMZN": {
    "file": "AMZN.mp3",
@@ -400,15 +402,15 @@
   },
   "1211.HK": {
    "file": "1211.HK.mp3",
-   "hash": "d45ef33d3fef08ec",
-   "th": "e274eede0551374b",
-   "id": "53ac28dd2a",
+   "hash": "b7366518999b1e1a",
+   "th": "a2d6b5f3ad155a5d",
+   "id": "93566e3f2a",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "BYD: Die Aktie steht derzeit im Fokus verschiedener Marktentwicklungen und Analystenberichte. Laut CNBC TV18 stellt die Expansion von BYD nach Südkorea die Dominanz von Hyundai im eigenen Land infrage, wobei auch Servicelücken drohen. Zudem berichtet Investing.com Australia, dass das australische Unternehmen Eagers Auto die verbleibenden Anteile am BYD-Joint-Venture übernimmt. Auf der Risikoseite gibt es Herabstufungen: Laut marketscreener.com stuft JP Morgan BYD auf Untergewichtet herab und senkt das Kursziel, wobei in den vorliegenden Meldungen ansonsten keine rechtlichen Probleme gefunden wurden. Analysten zeigen sich im Konsens überwiegend optimistisch mit zahlreichen Kaufempfehlungen, während JP Morgan skeptischer agiert und Kursziele in verschiedenen Landeswährungen anpasst, umgerechnet rund zehn Dollar beziehungsweise rund acht Dollar. Zurück zu BYD: Das Unternehmen treibt seine Strategie voran, indem es laut marketscreener.com weitere europäische Fabriken plant, um den Marktanteil auszubauen und Zölle zu umgehen. Zu den wichtigen Kennzahlen gehört das von Yahoo Finance genannte durchschnittliche Kursziel von rund fünfzehn Dollar und fünfzig Cent, während das obere Ende bei rund neunzehn Dollar und das untere Ende bei rund acht Dollar liegt. Diese Werte fassen die Schätzungen der Analysten für den zukünftigen Kurs zusammen. Insider-Transaktionen wurden in den aktuellen Meldungen nicht separat aufgeführt. Aussagen des Managements zu neuen Plänen oder direkten Strategien liegen für diesen Zeitraum nicht vor. Schliesslich zeigen sich bei den Berichten leichte Widersprüche bezüglich der exakten Währungsausrichtung der Kurszielsenkungen durch JP Morgan, die einmal in Yuan und einmal in Hongkong-Dollar genannt wurden.",
-   "dur": 125.6,
-   "at": "2026-10-26T22:32:45Z"
+   "text": "Die Aktie von BYD steht aktuell im Fokus von Expansionsplänen und unterschiedlichen Analystenmeinungen. Das Unternehmen plant den Bau weiterer europäischer Fabriken, um Marktanteile auszubauen und EU-Zölle zu umgehen. Gleichzeitig fordert die Expansion nach Südkorea die dortige Dominanz von Hyundai heraus, wobei Medienberichte auf mögliche Servicelücken hinweisen. Analyst JP Morgan hat die Aktie auf untergewichtet herabgestuft und das Kursziel auf sieben Komma sechs fünf Dollar angepasst. Demgegenüber stehen im Konsens von Yahoo Finance vier starke Kaufempfehlungen, zweiundzwanzig Kaufempfehlungen und fünf Halteempfehlungen. Operativ hat Eagers Automotive die verbleibenden Anteile an einem Joint-Venture übernommen. Das durchschnittliche Analysten-Kursziel liegt bei fünfzehn Komma fünf eins Dollar. Zudem stieg der Betriebsgewinn von Deutsch Motors aufgrund von BYD-Verkäufen um fünfundzwanzig Prozent. Bei der Kursentwicklung zeigen sich widersprüchliche Berichte: Während einige Quellen von Kursverlusten am Montagnachmittag berichten, verweisen andere auf Kursgewinne nach der Joint-Venture-Übernahme. Dies stellt keine Anlageberatung dar.",
+   "dur": 82.7,
+   "at": "2026-10-27T05:45:22Z"
   },
   "SHL.DE": {
    "file": "SHL.DE.mp3",
@@ -508,9 +510,9 @@
   }
  },
  "status": "quota: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usa",
- "checked_at": "2026-10-27T04:56:50Z",
- "quota_until": 1793077922.9027216,
- "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@20991f3a28d28df7a320814359db0ec3f5cc18ea/data/audio/",
+ "checked_at": "2026-10-27T05:45:22Z",
+ "quota_until": 1793083514.9086032,
+ "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@11565ff16ae721ec58ae424026058e8e3e59aebe/data/audio/",
  "extra": {
   "intro": {
    "file": "_intro.mp3",
