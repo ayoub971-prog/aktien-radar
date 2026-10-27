@@ -172,15 +172,16 @@
   },
   "AMAT": {
    "file": "AMAT.mp3",
-   "hash": "f451a0c12c49aed2",
-   "th": "2604ba8923bc87db",
+   "hash": "ac895feaf396ecf6",
+   "th": "3318f077b523c443",
+   "engine": "gemini",
    "id": "23ea8537ae",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
    "br": 24,
-   "text": "Applied Materials: Der US-Konzern Applied Materials rückt durch den Ausbau einer strategischen Beteiligung in den Fokus. Laut Bloomberg.com, einem US-Finanznachrichtendienst, erhöht das Unternehmen seine Beteiligung an dem niederländischen Chiphersteller BE Semiconductor auf rund zwanzig Prozent. Wie Yahoo Finance, ein Finanzportal, das Meldungen und Analystenbewertungen bündelt, berichtet, steht dieser Schritt im Zusammenhang mit einem Vorstoss im Bereich der künstlichen Intelligenz. Zurück zu Applied Materials: In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Dennoch weisen Berichte von MarketWatch darauf hin, dass die Aktie im Vergleich zur Konkurrenz schwächer tendierte, und Yahoo Finance nennt einen generellen Ausverkauf von Halbleiterausrüstung als Herausforderung für das Unternehmen. Analysten blicken überwiegend positiv auf die Aktie. Der Analystenkonsens bei Yahoo Finance zeigt neununddreissig Kaufempfehlungen und sechs Halteempfehlungen. Das durchschnittliche Kursziel liegt bei rund sechshundertachtundzwanzig Dollar. Needham bewertet die Aktie mit Kaufen und einem Kursziel von fünfhundertachtzig Dollar. Die Evercore ISI Group bestätigt die Einstufung Besser als Markt mit einem Kursziel von fünfhundertneunzig Dollar. RBC Capital bestätigt die Einstufung Besser als Markt mit einem Kursziel von sechshundert Dollar. Morgan Stanley führt die Aktie mit Marktgewichten und einem Kursziel von fünfhundertdreiundsechzig Dollar. Die UBS bewertet das Papier mit Kaufen und einem Kursziel von sechshundertfünfundneunzig Dollar, während Mizuho die Einstufung Besser als Markt mit einem Kursziel von fünfhundertneunzig Dollar bestätigt. Was die Aktivitäten der Firma betrifft, so wertet die Erhöhung der Beteiligung an BE Semiconductor für künstliche Intelligenz die Position des Unternehmens auf. Belastend wirken dagegen die allgemeine Marktherausforderung im Halbleitersektor sowie die zeitweise schwächere Kursentwicklung im Vergleich zur Konkurrenz. Als wichtige Kennzahlen sind das durchschnittliche Kursziel von rund sechshundertachtundzwanzig Dollar sowie die Höchst- und Tiefstziele von neunhundert Dollar beziehungsweise dreihundertachtundfünfzig Dollar zu nennen. Zu den Insider-Transaktionen liegen Daten der US-Börsenaufsicht SEC vor. Demnach verkaufte Adam Sanders als Corp. Controller und CAO siebenhundertfünfundzwanzig Aktien im Wert von rund dreihundertfünfundneunzigtausend Dollar. Verwaltungsrat Judy Bruner veräusserte eintausend Aktien im Wert von rund vierhundertfünfundsechzigtausend Dollar. Finanzchef Brice Hill verkaufte siebentausendfünfhundert Aktien im Wert von rund drei Komma sechs Millionen Dollar, und Konzernchef Gary E Dickerson trennte sich von achtundsiebzigtausenddreihunderteinundzwanzig Aktien im Wert von rund fünfundfünfzig Komma sechs Millionen Dollar. Generell ist zu beachten, dass Insider-Verkäufe oft weniger aussagekräftig sind als Käufe, da sie häufig durch steuerliche Gründe oder geplante Verkaufspläne motiviert sein können. Keine Anlageberatung.",
-   "dur": 211.3,
-   "at": "2026-10-27T21:24:30Z"
+   "text": "Der US-Konzern Applied Materials rückt durch den Ausbau einer strategischen Beteiligung in den Fokus. Laut dem US-Finanznachrichtendienst Bloomberg.com erhöht das Unternehmen seine Beteiligung an dem niederländischen Chiphersteller BE Semiconductor auf rund zwanzig Prozent. Wie das Finanzportal Yahoo Finance berichtet, steht dieser Schritt im Zusammenhang mit einem Vorstoss im Bereich der künstlichen Intelligenz. Berichte von MarketWatch weisen darauf hin, dass die Aktie im Vergleich zur Konkurrenz schwächer tendierte, und Yahoo Finance nennt einen generellen Ausverkauf von Halbleiterausrüstung als Herausforderung für das Unternehmen. Analysten blicken überwiegend positiv auf die Aktie. Der Analystenkonsens bei Yahoo Finance zeigt neununddreissig Kaufempfehlungen und sechs Halteempfehlungen. Das durchschnittliche Kursziel liegt bei sechshundertachtundzwanzig Dollar. Needham bewertet die Aktie mit Kaufen und einem Kursziel von fünfhundertachtzig Dollar. Die Evercore ISI Group bestätigt die Einstufung Besser als Markt mit einem Kursziel von fünfhundertneunzig Dollar. RBC Capital bestätigt die Einstufung Besser als Markt mit einem Kursziel von sechshundert Dollar. Morgan Stanley führt die Aktie mit Marktgewichten und einem Kursziel von fünfhundertdreiundsechzig Dollar. Die UBS bewertet das Papier mit Kaufen und einem Kursziel von sechshundertfünfundneunzig Dollar, während Mizuho die Einstufung Besser als Markt mit einem Kursziel von fünfhundertneunzig Dollar bestätigt. Was die Aktivitäten der Firma betrifft, so wertet die Erhöhung der Beteiligung an BE Semiconductor für künstliche Intelligenz die Position des Unternehmens auf. Belastend wirken dagegen die allgemeine Marktherausforderung im Halbleitersektor sowie die zeitweise schwächere Kursentwicklung im Vergleich zur Konkurrenz. Als wichtige Kennzahlen sind das durchschnittliche Kursziel von sechshundertachtundzwanzig Dollar sowie die Höchst- und Tiefstziele von neunhundert Dollar beziehungsweise dreihundertachtundfünfzig Dollar zu nennen.",
+   "dur": 116.1,
+   "at": "2026-10-27T23:23:04Z"
   },
   "ARM": {
    "file": "ARM.mp3",
@@ -507,10 +508,10 @@
    "at": "2026-10-27T14:41:34Z"
   }
  },
- "status": "quota: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usa",
- "checked_at": "2026-10-27T22:45:41Z",
+ "status": "ok",
+ "checked_at": "2026-10-27T23:23:05Z",
  "quota_until": 1793142132.7071447,
- "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@515ff9bf7f3550732d4960c4cb009b7844792aca/data/audio/",
+ "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@ed7c3466c96a84b10d5c3fc7d93612b4d2850e4c/data/audio/",
  "extra": {
   "intro": {
    "file": "_intro.mp3",
