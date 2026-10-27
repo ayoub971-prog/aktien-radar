@@ -1,6 +1,171 @@
 {
 "episodes": [
 {
+"id": "2026-10-27-t",
+"kind": "tag",
+"date": "2026-10-27",
+"title": "Morgen-Sendung, Dienstag, siebenundzwanzigsten Oktober",
+"generated_at": "2026-10-27T05:02:34Z",
+"writer": "Gemini (Gratis-Kontingent) 10 Firmen, Rest Vorlage",
+"chapters": [
+{
+"name": "Begrüssung",
+"say": "Guten Morgen und willkommen zur Sendung vom Aktien-Radar, heute Dienstag, siebenundzwanzigsten Oktober. Zuerst ein kurzer Blick auf den Markt, dann die Firmen aus deiner Liste mit neuen Meldungen zu Produkten, Partnern und Projekten, danach Andere Aktien mit Chancen, die Quartalszahlen dieser Woche und zum Schluss ein Begriff zum Lernen. Kurz vorweg: Alles stammt aus gesammelten Daten und Schlagzeilen, Beträge nenne ich in Dollar. Das ist keine Anlageberatung.",
+"audio": {
+"file": "sendung/2026-10-27-t_00.mp3",
+"hash": "5e3c9794055dc511",
+"dur": 32.0
+}
+},
+{
+"name": "Markt kurz",
+"say": "Der Markt kurz. Der S und P fünfhundert, der Index der fünfhundert grossen US-Firmen, stand zuletzt bei plus null Komma sieben Prozent gegenüber dem Vortag. In deiner Liste am stärksten: Siemens Energy mit plus zehn Komma neun Prozent, Arm mit plus sechs Komma zwei Prozent, Rolls-Royce mit plus fünf Komma sieben Prozent. Am schwächsten: Robinhood mit minus zwei Komma drei Prozent, Meta mit minus eins Komma neun Prozent. Zum Thema KI-Chips meldet Bloomberg.com: Asiatische Chip-Aktien steigen, da der Börsengang von Anthropic die KI-Wetten neu entfacht. Zum Thema Zinsen meldet Yonhap News Agency: Seouler Aktien werden am Dienstag fast vier Prozent höher gehandelt. Morgen über neuen KI-Optimismus.",
+"audio": {
+"file": "sendung/2026-10-27-t_01.mp3",
+"hash": "81a08907cd5d3c93",
+"dur": 55.9
+}
+},
+{
+"name": "Meta",
+"sym": "META",
+"say": "Zur Aktie von Meta. Das Unternehmen plant ein Aktienangebot im Wert von fünfunddreissig Milliarden Dollar, um den Ausbau der Künstlichen Intelligenz voranzutreiben. Insgesamt sammelt Meta Plattformen fünfundneunzig Milliarden Dollar für KI-Investitionen ein. Zudem könnte eine neue Wandelanleihe von Meta eine Rendite von mehr als sechs Prozent erzielen. Diese Meldungen könnten die Position von Meta stärken. Das war Meta.",
+"audio": {
+"file": "sendung/2026-10-27-t_02.mp3",
+"hash": "2ad2c975c314bf11",
+"dur": 32.9
+}
+},
+{
+"name": "Microsoft",
+"sym": "MSFT",
+"say": "Zur Aktie von Microsoft. Microsoft bietet etwa sechzig null Mitarbeitern Buyout-Angebote an, was fast dreissig Prozent der Belegschaft entspricht. Mit diesen Massnahmen möchte das Unternehmen die Kosten für den laufenden KI-Umstieg senken. Diese Massnahmen könnten Microsoft eher stärken. Das war Microsoft.",
+"audio": {
+"file": "sendung/2026-10-27-t_03.mp3",
+"hash": "e397c5137f449088",
+"dur": 24.3
+}
+},
+{
+"name": "Amazon",
+"sym": "AMZN",
+"say": "Zur Aktie von Amazon. Amazon hat im dritten Quartal 2026 verschiedene Neuerungen angekündigt, die von neuen Geräten bis hin zu KI-Durchbrüchen reichen. Der anhaltende KI-Boom bringt das Cloud-Geschäft AWS an die Kapazitätsgrenze. Gleichzeitig verringert der Partner Anthropic seine Abhängigkeit von Amazon, indem er eigene Rechenzentren mietet. Diese Entwicklungen könnten Amazon eher stärken. Das war Amazon.",
+"audio": {
+"file": "sendung/2026-10-27-t_04.mp3",
+"hash": "426255b6470a05e7",
+"dur": 33.5
+}
+},
+{
+"name": "SK Hynix",
+"sym": "HY9H.MU",
+"say": "Zur Aktie von SK Hynix. Eine weltweite KI-Chip-Rallye beflügelt südkoreanische Aktien und lässt SK Hynix stark steigen. Zudem gab es Meldungen zu einer Sonderdividende des Unternehmens. Warum die Aktie aktuell so stark steigt, beschäftigt derzeit den Markt. Diese Nachrichten könnten SK Hynix eher stärken. Das war SK Hynix.",
+"audio": {
+"file": "sendung/2026-10-27-t_05.mp3",
+"hash": "8a52537b7afafaee",
+"dur": 28.0
+}
+},
+{
+"name": "Broadcom",
+"sym": "AVGO",
+"say": "Zur Aktie von Broadcom. Banken und Blackstone gaben eine Finanzierungsstruktur über dreiundsechzig Milliarden Dollar bekannt, um in Partnerschaft mit Broadcom KI-Rechenkapazitäten zu ermöglichen. Broadcom arbeitet mit der Wall Street zusammen, um diesen Deal für die KI-Hardware von Anthropic abzuschliessen. CEO Hock Tan intervenierte persönlich, um diesen Anthropic-Debt-Deal zu besiegeln. Diese Meldungen könnten Broadcom eher stärken. Das war Broadcom.",
+"audio": {
+"file": "sendung/2026-10-27-t_06.mp3",
+"hash": "d1abf89d2035f186",
+"dur": 34.6
+}
+},
+{
+"name": "Intel",
+"sym": "INTC",
+"say": "Zur Aktie von Intel. Intel hat eine endgültige Vereinbarung zur Übernahme von Classiq Technologies für zwei Komma drei Milliarden Dollar getroffen. Durch diesen Zukauf möchte Intel eine Full-Stack-Quantencomputing-Plattform schaffen. Zusätzlich beschleunigen Firmen wie Intel die Rechenzentrumsautomatisierung im Rahmen des IPMI-Marktes. Diese Nachrichten könnten Intel eher stärken. Das war Intel.",
+"audio": {
+"file": "sendung/2026-10-27-t_07.mp3",
+"hash": "a2ba220d9435ce2c",
+"dur": 30.7
+}
+},
+{
+"name": "Andere Aktien mit Chancen",
+"say": "Jetzt Andere Aktien mit Chancen. Das sind Aktien, die nicht auf deiner Liste sind. Bedingung: mindestens acht Analysten, ein durchschnittliches Kursziel mindestens dreissig Prozent über dem Kurs, und eine frische Meldung zu einem Produkt, einem Partner oder einem Auftrag. Das ist keine Kaufempfehlung.",
+"audio": {
+"file": "sendung/2026-10-27-t_08.mp3",
+"hash": "8e596fb7a1452bc2",
+"dur": 21.7
+}
+},
+{
+"name": "Chance: Oracle",
+"sym": "ORCL",
+"say": "Zur Aktie Oracle. Einundvierzig Analysten verfolgen Oracle. Ihr durchschnittliches Kursziel liegt bei zweihundertfünfunddreissig Dollar und achtzig Cent, das sind siebenundachtzig Komma eins Prozent über dem aktuellen Kurs von einhundertsechsundzwanzig Dollar und sechs Cent. Oracle hat neue KI-Agent-Ready Fusion Applications Setup und Configuration eingeführt, um Implementierungen zu beschleunigen. Zudem wurden Cloud-basierte Fusion Agentic Applications für die Lieferkette und für die Kundenerfahrung vorgestellt. Dies könnte für das Unternehmen wichtig sein, da es neue KI-gestützte Arbeitsweisen über Oracle Fusion Applications ermöglicht und die Effizienz steigert. Die genaue Begründung der Analysten steht nicht in den Daten; das Kursziel ist ein Durchschnitt, keine Garantie. Das war Oracle.",
+"audio": {
+"file": "sendung/2026-10-27-t_09.mp3",
+"hash": "7a539a08634376c7",
+"dur": 58.9
+}
+},
+{
+"name": "Chance: Axon Enterprise",
+"sym": "AXON",
+"say": "Zur Aktie Axon Enterprise. neunzehn Analysten verfolgen Axon Enterprise. Ihr durchschnittliches Kursziel liegt bei sechshundertachtzig Dollar, das sind sechzig Komma zwei Prozent über dem aktuellen Kurs von vierhundertfünfundzwanzig Dollar. Axon Enterprise hat die Body fünf enthüllt, obwohl die Aktie im Jahr 2026 tiefer notiert. Die Vorstellung der Body fünf ist für die Firma wichtig, da neue Hardware-Produkte das Kerngeschäft mit Behörden und Sicherheitsdiensten stärken koennten. Die genaue Begruendung der Analysten steht nicht in den Daten; das Kursziel ist ein Durchschnitt und keine Garantie. Das war Axon Enterprise.",
+"audio": {
+"file": "sendung/2026-10-27-t_10.mp3",
+"hash": "851142f9f85ded7b",
+"dur": 48.3
+}
+},
+{
+"name": "Chance: Akamai Technologies",
+"sym": "AKAM",
+"say": "Zur Aktie Akamai Technologies. Zweiundzwanzig Analysten verfolgen Akamai Technologies. Ihr durchschnittliches Kursziel liegt bei einhundertvierundfünfzig Dollar und sechsundneunzig Cent, das sind siebenundfünfzig Komma drei Prozent über dem aktuellen Kurs von achtundneunzig Dollar und fünfzig Cent. Bei Akamai wächst das Auftragsbuch spürbar an, womit die Aktie für eine Wachstumenwicklung positioniert ist. Ein volles Auftragsbuch ist für Akamai wichtig, da dies eine solide Basis für zukünftige Umsätze im Bereich der Cloud- und Netzwerkinfrastruktur bietet. Die genaue Begründung der Analysten steht nicht in den Daten; das Kursziel ist ein Durchschnitt, keine Garantie. Das war Akamai Technologies.",
+"audio": {
+"file": "sendung/2026-10-27-t_11.mp3",
+"hash": "8eecde7b89bbbc36",
+"dur": 51.1
+}
+},
+{
+"name": "Chance: Generac",
+"sym": "GNRC",
+"say": "Zur Aktie Generac. achtzehn Analysten verfolgen Generac. Ihr durchschnittliches Kursziel liegt bei zweihundertsechsundachtzig Dollar, das sind einundfünfzig Komma vier Prozent ueber dem aktuellen Kurs von einhundertneunundachtzig Dollar. Generac steht vor den Ergebnissen des dritten Quartals 2026, wobei Fragen im Raum stehen, ob ein Amazon-KI-Deal zu einem starken Quartalsergebnis beitragen kann. Eine solche Partnerschaft mit Amazon im KI-Bereich koennte fuer Generac wichtig sein, um zusaetzliche Nachfrage fuer Energieloesungen und Notstromaggregate zu generieren. Die genaue Begruendung der Analysten steht nicht in den Daten; das Kursziel ist ein Durchschnitt und keine Garantie. Das war Generac.",
+"audio": {
+"file": "sendung/2026-10-27-t_12.mp3",
+"hash": "f06692a87df53280",
+"dur": 51.5
+}
+},
+{
+"name": "Quartalszahlen diese Woche",
+"say": "Quartalszahlen diese Woche. Diese Firmen aus deiner Liste melden ihre Quartalszahlen. Zur Aktie Corning: Zahlen Dienstag, am siebenundzwanzigsten Oktober. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von null Dollar und achtundachtzig Cent. Beim Umsatz erwarten sie rund fünf Milliarden Dollar. Zur Aktie Robinhood: Zahlen Dienstag, am siebenundzwanzigsten Oktober. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von null Dollar und vierundsechzig Cent. Beim Umsatz erwarten sie rund eins Komma vier Milliarden Dollar. Zur Aktie Seagate Technology: Zahlen Dienstag, am siebenundzwanzigsten Oktober. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von sieben Dollar und dreiundvierzig Cent. Beim Umsatz erwarten sie rund vier Komma zwei Milliarden Dollar. Zur Aktie Samsung Electronics: Zahlen Mittwoch, am achtundzwanzigsten Oktober. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von zehn Dollar und fünfunddreissig Cent. Beim Umsatz erwarten sie rund einhundertsiebenundvierzig Komma acht Milliarden Dollar. Zur Aktie UBS: Zahlen Mittwoch, am achtundzwanzigsten Oktober. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von null Dollar und einundneunzig Cent. Beim Umsatz erwarten sie rund dreizehn Komma eins Milliarden Dollar. Zur Aktie GE Vernova: Zahlen Mittwoch, am achtundzwanzigsten Oktober. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von vier Dollar. Beim Umsatz erwarten sie rund zwölf Milliarden Dollar. Zur Aktie Microsoft: Zahlen Mittwoch, am achtundzwanzigsten Oktober. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von vier Dollar und zweiundsiebzig Cent. Beim Umsatz erwarten sie rund neunzig Komma sieben Milliarden Dollar. Zur Aktie ServiceNow: Zahlen Mittwoch, am achtundzwanzigsten Oktober. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von ein Dollar und zwei Cent. Beim Umsatz erwarten sie rund vier Komma eins Milliarden Dollar. Zur Aktie BYD: Zahlen Donnerstag, am neunundzwanzigsten Oktober. Beim Umsatz erwarten sie rund vierunddreissig Komma sechs Milliarden Dollar. Zur Aktie Amazon: Zahlen Donnerstag, am neunundzwanzigsten Oktober. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von ein Dollar und neunundneunzig Cent. Beim Umsatz erwarten sie rund zweihundertzwei Komma zwei Milliarden Dollar. Zur Aktie Intel: Zahlen Donnerstag, am neunundzwanzigsten Oktober. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von null Dollar und vierzig Cent. Beim Umsatz erwarten sie rund sechzehn Komma fünf Milliarden Dollar.",
+"audio": {
+"file": "sendung/2026-10-27-t_13.mp3",
+"hash": "82154db7ef8090db",
+"dur": 193.1
+}
+},
+{
+"name": "Begriff: Marktkapitalisierung",
+"say": "Zum Lernen, der Begriff des Tages: Marktkapitalisierung. Die Marktkapitalisierung ist der Börsenwert einer Firma: Aktienkurs mal Zahl der Aktien. Sie zeigt, wie gross eine Firma an der Börse ist, nicht wie viel sie verdient.",
+"audio": {
+"file": "sendung/2026-10-27-t_14.mp3",
+"hash": "fd2d7e9460f7ac4a",
+"dur": 17.6
+}
+},
+{
+"name": "Schluss",
+"say": "Das war die Sendung vom Aktien-Radar. Die Quellen findest du in der App bei jeder Aktie, den ganzen Text über den Knopf Als Text. Bis morgen.",
+"audio": {
+"file": "sendung/2026-10-27-t_15.mp3",
+"hash": "cc4bc23e3e69d9dd",
+"dur": 11.5
+}
+}
+],
+"dur": 725.6
+},
+{
 "id": "2026-10-26-t",
 "kind": "tag",
 "date": "2026-10-26",
@@ -166,8 +331,8 @@
 "dur": 729.9
 }
 ],
-"generated_at": "2026-10-26T21:50:15Z",
+"generated_at": "2026-10-27T05:02:34Z",
 "voice": "de-CH-LeniNeural",
 "source": "Yahoo Finance, SEC EDGAR, Schlagzeilen (Google News u.a.); Text: Gemini Gratis-Kontingent oder Vorlage",
-"audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@364407edcb142b5e36ecf2a79b905ebd6313b2c4/data/audio/"
+"audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@20991f3a28d28df7a320814359db0ec3f5cc18ea/data/audio/"
 }
