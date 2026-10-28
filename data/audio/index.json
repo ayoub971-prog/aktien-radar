@@ -75,16 +75,15 @@
   },
   "PLTR": {
    "file": "PLTR.mp3",
-   "hash": "f88aca93a50da552",
-   "th": "f74a57c73d8ebe3f",
-   "engine": "gemini",
+   "hash": "a22b7bf053bab755",
+   "th": "5dd5cbe234325253",
    "id": "5bd757787a",
-   "voice": "Kore",
-   "model": "gemini-2.5-flash-preview-tts",
+   "voice": "de-CH-LeniNeural",
+   "engine": "edge",
    "br": 24,
-   "text": "Palantir: Die vorliegenden Meldungen zur Aktie von Palantir zeigen ein gemischtes Bild aus starken Wachstumserwartungen und diskutierten Risiken. Laut Barron's, einem US-Finanzmagazin, wird das Wachstum des Unternehmens zwar als unaufhaltsam beschrieben, es wird jedoch auch auf ein grosses Risiko hingewiesen. Wie Investing.com India, ein Finanzportal, berichtet, behält RBC Capital das Aktienrating von Palantir aufgrund von Bewertungsbedenken bei. Zudem meldet Yahoo Finance, ein Finanzportal, dass die Aktie im Zuge von allgemeinen Marktgewinnen gesunken ist. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden, ausser den erwähnten Bewertungsbedenken und allgemeinen Marktvolatilitäten. Bei den Analysten-Bewertungen zeigt sich ein diverses Bild: Rosenblatt bestätigt das Rating Kaufen und erhöht das Kursziel auf zweihundertsechzig Dollar. Piper Sandler bestätigt das Rating Übergewichten mit einem Kursziel von zweihunderteinunddreissig Dollar. Citigroup bestätigt Kaufen mit einem Kursziel von zweihundertfünfzig Dollar. Mizuho bestätigt Besser als Markt mit einem Kursziel von zweihundertfünfundvierzig Dollar. Barclays nimmt die Aktie neu mit Übergewichten und einem Kursziel von zweihundertfünfundsechzig Dollar auf, während Goldman Sachs die Aktie auf Kaufen mit einem Kursziel von zweihundertdreissig Dollar hochstuft. Im Konsens ergibt sich laut Yahoo Finance ein durchschnittliches Kursziel von rund zweihundertneun Dollar, was einem Potenzial von rund sechs Komma zwei Prozent entspricht. Zurück zu Palantir: The Globe and Mail, eine kanadische Tageszeitung, meldet eine neue Kaufempfehlung für den Technologieriesen, während Yahoo Finance berichtet, dass börsengehandelte Fonds am sechsundzwanzigsten Oktober Nettoverkäufer der Aktie waren. Zu den wichtigsten Kennzahlen gehört das durchschnittliche Kursziel von zweihundertneun Dollar sowie ein maximales Kursziel von zweihundertfünfundsechzig Dollar und ein tiefstes Kursziel von achtzig Dollar. Bei den Insidern zeigen die Pflichtmeldungen diverse geplante Verkäufe, wie etwa durch den Verwaltungsrat Alexander D. Moore im Wert von rund drei Komma zwei Millionen Dollar oder den Manager Ryan D. Taylor im Wert von rund drei Komma sechs Millionen Dollar. Solche Insider-Verkäufe basieren oft auf vorab festgelegten Verkaufsplänen oder steuerlichen Gründen und sagen daher meist weniger aus als tatsächliche Käufe. Bei Palantir sagt der Verteidigungschef laut Investing.com India, dass Fortschritte in der künstlichen Intelligenz China zu einer Invasion in Taiwan zwingen könnten, was laut Berichten die geopolitische Dimension der Technologie unterstreicht. Keine Anlageberatung.",
-   "dur": 155.2,
-   "at": "2026-10-28T22:48:36Z"
+   "text": "Bei der Aktie von Palantir zeigt sich derzeit ein gemischtes Bild zwischen einer starken Wachstumsdynamik und einer kritischen Bewertung. Während das US-Finanzmagazin Barron's das Wachstum des Unternehmens als unaufhaltsam einstuft, warnt es gleichzeitig vor einem grossen Risiko. Das Finanzportal Investing.com India berichtet zudem, dass RBC Capital aufgrund von Bewertungsbedenken am bestehenden Aktienrating festhält. Auch am Markt zeigt sich Bewegung: Yahoo Finance meldet, dass die Aktie von Palantir im Zuge allgemeiner Marktgewinne zuletzt nachgegeben hat. Analysten blicken dennoch mehrheitlich positiv auf den Titel. So hat Rosenblatt das Kursziel auf zweihundertsechzig Dollar angehoben, während Citigroup das Ziel auf zweihundertfünfzig Dollar und Mizuho auf zweihundertfünfundvierzig Dollar nach oben korrigierten. Barclays nahm die Aktie mit einem Kursziel von zweihundertfünfundsechzig Dollar neu in die Bewertung auf, und Goldman Sachs stufte den Titel auf Kaufen mit einem Ziel von zweihundertdreissig Dollar hoch. Im Konsens liegt das durchschnittliche Kursziel bei zweihundertneun Dollar. Während die kanadische Tageszeitung The Globe and Mail eine neue Kaufempfehlung ausspricht, zeigen Daten von Yahoo Finance, dass börsengehandelte Fonds am sechsundzwanzigsten Oktober als Nettoverkäufer auftraten. Die Spanne der Analystenziele reicht dabei von einem Tiefstwert von achtzig Dollar bis zu einem Höchstwert von zweihundertfünfundsechzig Dollar.",
+   "dur": 101.7,
+   "at": "2026-10-28T23:57:52Z"
   },
   "IBM": {
    "file": "IBM.mp3",
@@ -511,9 +510,9 @@
   }
  },
  "status": "quota: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usa",
- "checked_at": "2026-10-28T23:27:05Z",
+ "checked_at": "2026-10-28T23:57:52Z",
  "quota_until": 1793233598.5710201,
- "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@2ed663f0791c20cfeb6d7ada636e4c02da353cf4/data/audio/",
+ "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@70552b3b1235032be5970eb993708246e247f0f3/data/audio/",
  "extra": {
   "intro": {
    "file": "_intro.mp3",
