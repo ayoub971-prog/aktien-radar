@@ -28,16 +28,16 @@
   },
   "HY9H.MU": {
    "file": "HY9H.MU.mp3",
-   "hash": "5706ea5df91ed6e9",
-   "th": "de217ea1c6ebef1a",
+   "hash": "48cc7b6a56e6f6ff",
+   "th": "85edea4e41839386",
    "engine": "gemini",
-   "id": "e4bfbe07e8",
+   "id": "27751d6167",
    "voice": "Kore",
    "model": "gemini-2.5-flash-preview-tts",
    "br": 24,
-   "text": "SK Hynix steht derzeit stark im Fokus der Anleger, getrieben durch einen wiederbelebten Optimismus rund um das Thema Künstliche Intelligenz sowie positive Gewinnerwartungen. Wie die Nachrichtenagentur Yonhap berichtet, sorgte diese Entwicklung für deutliche Kursgewinne. Das Unternehmen hat zudem einen Aktienrückkauf im Wert von rund dreissig Komma eins Milliarden Dollar abgeschlossen, wodurch der Anteil der eigenen Aktien stieg. Berichte über geplante Aktionärsrenditen von insgesamt fünfundsiebzig Milliarden Dollar, inklusive einer möglichen Dividende von zwölf Milliarden Dollar, stützen das Interesse zusätzlich. Operativ läuft es ebenfalls rund: Die Tochtergesellschaft Solidigm verhandelt laut Yahoo Finance über eine Investition von fünfundvierzig Milliarden Dollar in ein US-amerikanisches Chipwerk, und das Unternehmen beliefert erfolgreich Tier-eins-Kunden mit Speicherchips. Als wichtige Kennzahl sticht der Anstieg des vierteljährlichen Betriebsgewinns um sechshundertdreissig Prozent hervor, was die operative Profitabilität vor Zinsen und Steuern unterstreicht. Als potenzielles Risiko weist das Schweizer Finanzportal finanzen.ch auf Druck aus China hin, der die Aktien von Unternehmen wie SK Hynix belasten könnte. Es handelt sich hierbei um keine Anlageberatung.",
-   "dur": 78.5,
-   "at": "2026-10-28T01:20:22Z"
+   "text": "SK Hynix: SK Hynix hat aktuelle Geschäftszahlen vorgelegt und damit für grosse Aufmerksamkeit gesorgt. Laut SK hynix, einer Mitteilung der Firma selbst, gab das Unternehmen seine Finanzergebnisse für das dritte Quartal bekannt. Gemäss Yonhap News Agency verzeichnete SK Hynix im dritten Quartal einen Rekordgewinn, was auf einen Superzyklus bei KI-Chips zurückzuführen ist. Ausserdem berichtete das WSJ, eine US-Wirtschaftszeitung, dass SK Hynix nach den starken Ergebnissen Pläne für eine Aktionärsrendite in Höhe von fünfundsiebzig Milliarden Dollar vorstellt. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Zu den Analysten-Bewertungen liegen derzeit keine neuen Daten vor. Zurück zu SK Hynix: Die Firma profitiert massiv von der starken Nachfrage nach KI-Chips und treibt den entsprechenden Handel an den Börsen kräftig an. Zu den wichtigen Kennzahlen gehört der Umsatz, der im dritten Quartal laut Investing.com Canada bei über einhundert Billionen lag, angetrieben durch den Boom bei Künstlicher Intelligenz. Der Umsatz misst die Gesamteinnahmen aus dem Verkauf von Produkten und Dienstleistungen und zeigt das geschäftliche Volumen. Zudem wird eine Marge von achtzig Prozent genannt, was laut derselben Quelle auf die hohe Nachfrage und das profitable Geschäft mit KI-Chips zurückzuführen ist. Die Marge gibt an, wie viel Prozent vom Umsatz als Gewinn übrig bleiben, und ist ein zentrales Mass für die Effizienz. Insider-Käufe oder -Verkäufe wurden in den Berichten nicht erwähnt. Auch Aussagen von Chefs liegen in den aktuellen Meldungen nicht vor. Widersprüche zwischen den Berichten gab es keine. Keine Anlageberatung.",
+   "dur": 104.3,
+   "at": "2026-10-28T05:05:43Z"
   },
   "AVGO": {
    "file": "AVGO.mp3",
@@ -514,9 +514,9 @@
   }
  },
  "status": "ok",
- "checked_at": "2026-10-28T04:04:53Z",
+ "checked_at": "2026-10-28T05:05:43Z",
  "quota_until": 1793154101.5008335,
- "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@f53e7b28cf635a2de01003b72f0a5f7b779b9618/data/audio/",
+ "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@06e368368184c591e8f3638ffa78c85f48dc8b8b/data/audio/",
  "extra": {
   "intro": {
    "file": "_intro.mp3",
