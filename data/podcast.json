@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T05:50:15Z",
+ "generated_at": "2026-10-28T06:27:56Z",
  "intro": "Willkommen beim Aktien-Radar, deinem Überblick über die neuesten Meldungen. Heute geht es um 39 Aktien aus deiner Liste. Alles stammt aus den gesammelten Meldungen und Analystendaten, nichts ist erfunden. Keine Anlageberatung.",
  "outro": "Das war der Aktien-Radar-Überblick. Die Quellen und Details findest du in der App bei jeder Aktie. Keine Anlageberatung.",
  "segments": [
@@ -422,13 +422,13 @@
   {
    "symbol": "UBSG.SW",
    "name": "UBS Group",
-   "text": "UBS Group: Die Aktie der UBS Group steht derzeit im Fokus der Marktbeobachter, da das Unternehmen vor der Veroeffentlichung der Quartalszahlen eine Zwischenbilanz zieht und sich die Integration der Credit Suisse auf der Zielgeraden befindet. Mit Blick auf den breiteren Markt weist die UBS darauf hin, dass Technologieaktien im Bereich der kuenstlichen Intelligenz aufgrund des gestiegenen Zinsniveaus kuenftig wieder staerker nach klassischen Bewertungsregeln beurteilt werden koennten. Gleichzeitig gab es personelle Abgaenge, da UBS-Teams mit einem verwalteten Vermoegen von eins Komma eins Milliarden Dollar zu Rockefeller Capital gewechselt sind. Die Analysteneinschaetzungen zur Aktie praesentieren sich gemischt. Zurück zu UBS Group: Waehrend die UBS bei Broadcom ein Kursziel von vierhundertsiebzig Dollar bestaetigte, senkte sie das Rating fuer HubSpot aufgrund einer ungleichmaessigen Nachfrage und der beginnenden Monetarisierung von kuenstlicher Intelligenz. Insgesamt liegt das durchschnittliche Kursziel der Analysten bei vierundfünfzig Komma eins fünf Dollar. Waehrend der Abschluss der Credit Suisse-Integration positiv bewertet wird, wirkt der Abgang von Vermoegensteams eher daempfend auf das Bild. Dies stellt keine Anlageberatung dar.",
-   "id": "165029cc17",
-   "generated_at": "2026-10-28T01:12:01Z",
+   "text": "UBS Group: Die Grossbank UBS Group hat ihre Ergebnisse für das dritte Quartal 2026 präsentiert. Das Institut meldete einen Nettogewinn von zwei Komma sieben Milliarden Dollar sowie eine RoCET1-Quote von vierzehn Komma acht Prozent. Während die Bank eine anhaltend starke Kundendynamik verzeichnet und die Integration der Credit Suisse auf die Zielgerade einbiegt, gab es bei den Berichten zum Nettogewinn leichte Diskrepanzen: Während einige Quellen von einer Erfüllung der Erwartungen bei zwei Komma sieben Milliarden Dollar sprechen, nennen andere einen Wert von zwei Komma sieben Milliarden Dollar, der leicht unter den Prognosen lag. Das Aktienrückkaufprogramm soll bis Anfang 2027 abgeschlossen sein. Analysten sehen für die Aktie ein durchschnittliches Kursziel von vierundfünfzig Komma eins fünf Dollar, was einem Aufwärtspotenzial von fünfzehn Komma fünf Prozent entspricht. Zudem gab es Abgänge von UBS-Teams, die Vermögenswerte in Höhe von eins Komma eins Milliarden Dollar verwalteten. Diese Zusammenfassung dient der Information und stellt keine Anlageberatung dar.",
+   "id": "ca56639579",
+   "generated_at": "2026-10-28T06:19:11Z",
    "audio": {
     "file": "UBSG.SW.mp3",
-    "hash": "2b815cb5d7407c42",
-    "dur": 81.3,
+    "hash": "e19039eba3b01f3b",
+    "dur": 76.6,
     "engine": "edge"
    }
   },
@@ -524,5 +524,5 @@
   "dur": 10.2,
   "engine": "edge"
  },
- "audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@eb14e3fb60de2683bf9b6e04567925fc0098cac9/data/audio/"
+ "audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@184d5c90ec11de3a174b1e7bd955648fdf3b0b10/data/audio/"
 }
