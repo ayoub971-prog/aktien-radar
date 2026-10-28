@@ -51,15 +51,15 @@
   },
   "ASML": {
    "file": "ASML.mp3",
-   "hash": "74b2234c0028e4ca",
-   "th": "d6b7503ed9f1ae17",
-   "id": "78262b5d0d",
+   "hash": "d6aa0404470908d7",
+   "th": "52654aec35535eac",
+   "id": "f9b74d64f0",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Die Aktie von ASML Holding steht derzeit im Fokus verschiedener Finanzportale und Analysten. Laut Yahoo Finance profitiert das Unternehmen von einer starken Nachfrage nach EUV-Technologie und höheren Prognosen. Gleichzeitig berichtet das FinanzNachrichten.de Portal, dass Analysten die Aktie neu durchrechnen und der Markt viel zu pessimistisch sei, wodurch die Aktie so günstig wie selten erscheine. Laut Finbold zahlt ASML Holding bereits in der nächsten Woche Dividenden an die Anleger aus. Als Risiken oder rechtliche Probleme werden in den vorliegenden Meldungen keine direkten Klagen oder Bussen genannt, jedoch warnt das Portal Broker-Test.de vor einer technischen Überdehnung, die das Korrekturrisiko erhöhe. Zu den Analysten-Bewertungen: Laut Yahoo Finance gibt es insgesamt fünfundvierzig Einstufungen, wobei die Mehrheit zum Kauf rät. Das durchschnittliche Kursziel liegt bei rund zweitausendeinhundertachtunddreissig Dollar, während das höchste Kursziel bei rund zweitausendachthundertdreiunddreissig Dollar und das niedrigste bei rund achthundertzweiundsechzig Dollar angesiedelt wird. Unter anderem hat JP Morgan die Einstufung auf Übergewichten belassen und das Kursziel auf zweitausenddreihundertfünfzig Dollar angepasst. Was die Firma gerade macht, zeigt sich an der starken EUV-Nachfrage und angehobenen Prognosen, was als aufwertend gewertet wird, während die technische Überdehnung als abwertend gilt. Wichtige Kennzahlen sind vor allem das durchschnittliche Kursziel von rund zweitausendeinhundertachtunddreissig Dollar, welches die Erwartungen der Analysten für den künftigen Kurs bündelt. Insider-Kaeufe oder -Verkäufe wurden in den aktuellen Meldungen nicht separat aufgeführt. Aussagen von Chefs oder dem Management liegen ebenfalls nicht vor. Widersprüche zwischen den berücksichtigten Quellen gibt es derzeit keine.",
-   "dur": 129.2,
-   "at": "2026-10-28T17:03:10Z"
+   "text": "ASML Holding: Die Aktie steht im Fokus verschiedener Finanzportale und Analystenberichte. Laut Yahoo Finance, einem Finanzportal, das Meldungen und Analystenbewertungen bündelt, verzeichnete ASML Holding am sechsundzwanzigsten Oktober Netto-ETF-Käufe in Höhe von rund zweiunddreissig Komma neun Millionen Dollar. Ausserdem berichtet Yahoo Finance, dass ASML Holding von einer starken EUV-Nachfrage und höheren Prognosen profitiert. Laut Wallstreet Online, einem deutschen Börsenportal, rechnen Analysten die Aktie neu durch und schätzen den Markt als viel zu pessimistisch ein, wodurch die Aktie so günstig wie selten sei. Broker-Test.de meldet jedoch, dass eine technische Überdehnung das Korrekturrisiko erhöht. Zurück zu ASML Holding: In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Die Analystenbewertungen zeigen ein überwiegend positives Bild. Laut Yahoo Finance gibt es sieben starke Kaufempfehlungen, achtunddreissig Kaufempfehlungen, zwei Halteempfehlungen, eins Verkaufsempfehlung und keine starke Verkaufsempfehlung. Das durchschnittliche Kursziel liegt bei rund zweitausendeinhundertneununddreissig,siebenundachtzig Dollar, was ein Aufwärtspotenzial von rund achtundzwanzig Komma sieben Prozent bedeutet. Die UBS AG stufte die Aktie am siebenundzwanzigsten Oktober mit Kaufen ein, wie Finanzen.net berichtet. JP Morgan bestätigte am fünfzehnten Oktober die Einstufung Übergewichten und senkte das Kursziel auf rund zweitausenddreihundertfünfzig Dollar. Wells Fargo bestätigte am sechzehnten Juli die Einstufung Übergewichten und erhöhte das Kursziel auf rund zweitausendfünfhundert Dollar. RBC Capital bestätigte am sechzehnten Juli die Einstufung Besser als Markt und erhöhte das Kursziel auf rund zweitausendeinhundert Dollar. Bernstein bestätigte am sechsten Juli ebenfalls die Einstufung Besser als Markt und erhöhte das Kursziel auf rund zweitausendsechshundertdreiundzwanzig Dollar. Was die Firma gerade macht, zeigen die starken EUV-Nachfragen und die optimierten Prognosen, welche laut Yahoo Finance positiv aufgewertet werden, während die von Broker-Test.de genannte technische Überdehnung als abwertend eingestuft werden kann. Zu den wichtigen Kennzahlen gehört das durchschnittliche Kursziel von rund zweitausendeinhundertneununddreissig,siebenundachtzig Dollar, das das Mittel der Analystenerwartungen widerspiegelt. Das höchste Kursziel liegt bei rund zweitausendachthundertfünfunddreissig,vierzig Dollar und das niedrigste bei rund achthundertdreiundsechzig Dollar. In den vorliegenden Meldungen wurden keine Insider-Käufe oder Insider-Verkäufe erwähnt. Auch Aussagen von Chefs sind in den aktuellen Meldungen nicht enthalten. Es liegen keine Widersprüche zwischen den berücksichtigten Quellen vor. Keine Anlageberatung.",
+   "dur": 197.8,
+   "at": "2026-10-28T22:16:56Z"
   },
   "INTC": {
    "file": "INTC.mp3",
@@ -508,9 +508,9 @@
   }
  },
  "status": "quota: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usa",
- "checked_at": "2026-10-28T21:28:49Z",
+ "checked_at": "2026-10-28T22:16:56Z",
  "quota_until": 1793226388.759044,
- "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@f32b97bb40eda36892a89455430480071d12dba1/data/audio/",
+ "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@2ae543dd6a7281c547857051e2c18ce682e62d18/data/audio/",
  "extra": {
   "intro": {
    "file": "_intro.mp3",
