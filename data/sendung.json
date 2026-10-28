@@ -5,150 +5,101 @@
 "kind": "tag",
 "date": "2026-10-28",
 "title": "Morgen-Sendung, Mittwoch, achtundzwanzigsten Oktober",
-"generated_at": "2026-10-28T05:12:05Z",
-"writer": "Vorlage aus den Daten",
+"generated_at": "2026-10-28T21:48:17Z",
+"writer": "Gemini (Gratis-Kontingent) 6 Firmen, Rest Vorlage",
 "chapters": [
 {
 "name": "Begrüssung",
-"say": "Guten Morgen und willkommen zur Sendung vom Aktien-Radar, heute Mittwoch, achtundzwanzigsten Oktober. Zuerst ein kurzer Blick auf den Markt, dann die Firmen aus deiner Liste mit neuen Meldungen zu Produkten, Partnern und Projekten, danach Andere Aktien mit Chancen, die Quartalszahlen dieser Woche und zum Schluss ein Begriff zum Lernen. Kurz vorweg: Alles stammt aus gesammelten Daten und Schlagzeilen, Beträge nenne ich in Dollar. Das ist keine Anlageberatung.",
+"say": "Guten Morgen und willkommen zur Sendung vom Aktien-Radar, heute Mittwoch, achtundzwanzigsten Oktober. Zuerst ein kurzer Blick auf den Markt, dann die Firmen aus deiner Liste mit neuen Meldungen zu Produkten, Partnern und Projekten, danach die Quartalszahlen dieser Woche und zum Schluss ein Begriff zum Lernen. Kurz vorweg: Alles stammt aus gesammelten Daten und Schlagzeilen, Beträge nenne ich in Dollar. Das ist keine Anlageberatung.",
 "audio": {
 "file": "sendung/2026-10-28-t_00.mp3",
-"hash": "0ea78e2a0bdafd26",
-"dur": 31.8
+"hash": "edc0016057d8e909",
+"dur": 30.0
 }
 },
 {
 "name": "Markt kurz",
-"say": "Der Markt kurz. Der S und P fünfhundert, der Index der fünfhundert grossen US-Firmen, stand zuletzt bei plus null Komma sechs Prozent gegenüber dem Vortag. In deiner Liste am stärksten: Hyliion mit plus zehn Komma vier Prozent, Samsung Electronics mit plus acht Komma drei Prozent, Bloom Energy mit plus sieben Komma zwei Prozent. Am schwächsten: ServiceNow mit minus zwei Komma eins Prozent, Meta mit minus eins Komma sechs Prozent. Zum Thema Exportkontrollen meldet Reuters: EXKLUSIV: Laut Quellen beginnt Chinas CXMT trotz schlechter Erträge mit der Produktion fortschrittlicher KI-Speicher. Zum Thema Wall Street meldet Bloomberg.com: Asiatische Aktien dürften aufgrund des wiederauflebenden KI-Optimismus zulegen: Markets Wrap.",
+"say": "Der Markt kurz. Der S und P fünfhundert, der Index der fünfhundert grossen US-Firmen, stand zuletzt bei plus null Komma drei Prozent gegenüber dem Vortag. In deiner Liste am stärksten: SK Hynix mit plus zehn Komma sieben Prozent, Samsung Electronics mit plus neun Prozent, Micron mit plus fünf Komma neun Prozent. Am schwächsten: Robinhood mit minus drei Komma drei Prozent, ServiceNow mit minus drei Prozent. Zum Thema Zinsen meldet Handelsblatt: Dow Jones, S&P fünfhundert, Nasdaq: US-Börsen schliessen leicht im Plus – Anleger halten sich zurück. Zum Thema Zinsen meldet Reuters: Die Wall Street endet im Plus, da die Fed den Leitzins stabil hält und der Fokus auf den Gewinnen liegt.",
 "audio": {
 "file": "sendung/2026-10-28-t_01.mp3",
-"hash": "51dcef4a034b6570",
-"dur": 58.1
-}
-},
-{
-"name": "Meta",
-"sym": "META",
-"say": "Zur Aktie von Meta. Barron's berichtete am siebenundzwanzigsten Oktober über den Kursrückgang der siebenundzwanzig-Milliarden-Dollar-Anleihe für Rechenzentren des Unternehmens. The Globe and Mail thematisierte am selben Tag den Kursrückgang der Aktie trotz starker Zahlen für das dritte Quartal und stellte die Frage, ob Anleger den Dip kaufen sollten. Zudem gab es Berichte über eine gerichtliche Anfechtung eines Aktiendeals von Mark Zuckerberg sowie der Meta-Restrukturierung. Des Weiteren wurde bekannt, dass Nvidia einen Teil des Eigenkapitals von Meta im Wert von drei Milliarden Dollar übernimmt, was Auswirkungen auf Broadcom haben könnte. Ob diese Meldungen Meta insgesamt stärken oder schwächen, lässt sich aus den Schlagzeilen allein nicht sicher sagen.",
-"audio": {
-"file": "sendung/2026-10-28-t_02.mp3",
-"hash": "b8caff721090f770",
-"dur": 52.4
-}
-},
-{
-"name": "Microsoft",
-"sym": "MSFT",
-"say": "Zur Aktie von Microsoft. Barron's meldete am siebenundzwanzigsten Oktober, dass das Unternehmen sechzigtausend Mitarbeitern einen freiwilligen Ausstieg anbietet, um Kosten für den KI-Ausbau zu senken. Yahoo Finance berichtete am gleichen Tag über Marktberichte zur künstlichen Intelligenz in der Pharmakovigilanz, bei denen Microsoft neben Partnern wie Oracle und Google als Akteur genannt wird, der die Automatisierung vorantreibt. Dabei werden jährliche Wachstumsraten von neunzehn Komma sechs Prozent bis 2030 sowie zwanzig Komma zwei Prozent für KI-basierte Plattformen zur Arzneimittelsicherheit prognostiziert. Ob diese Meldungen Microsoft stärken oder schwächen, lässt sich aus den Schlagzeilen allein nicht sicher sagen.",
-"audio": {
-"file": "sendung/2026-10-28-t_03.mp3",
-"hash": "e737831172dfedaf",
-"dur": 52.1
+"hash": "6f9a2b36041c2976",
+"dur": 53.8
 }
 },
 {
 "name": "SK Hynix",
 "sym": "HY9H.MU",
-"say": "Zur Aktie von SK Hynix. Die Yonhap News Agency meldete am achtundzwanzigsten Oktober, dass der Chip-Hersteller im dritten Quartal einen Rekordgewinn im Zuge des KI-Chip-Superzyklus verzeichnete. Das Handelsblatt und die Financial Times bestätigten, dass der Nvidia-Zulieferer seinen Gewinn vervielfacht hat, getrieben durch die stark steigende Nachfrage nach KI-Chips. Auch andere Quellen wie Yahoo Finance und Investing.com berichteten über diesen Rekordgewinn und den deutlichen Kursanstieg der Aktie. Ob diese Meldungen SK Hynix nachhaltig stärken oder schwächen, lässt sich aus den Schlagzeilen allein nicht sicher sagen.",
+"say": "Zur Aktie SK Hynix. Der Speicherchip-Hersteller SK Hynix hat im dritten Quartal seine Ziele übertroffen und einen Rekordgewinn verzeichnet. Ausserdem lieferte SK Hynix grossartige Neuigkeiten für Micron-Investoren. Die Gewinne von SK Hynix steigen angesichts der stark steigenden Nachfrage nach KI-Chips. Meine Einordnung aus diesen Meldungen: Sie könnten SK Hynix eher stärken. Das war SK Hynix.",
 "audio": {
-"file": "sendung/2026-10-28-t_04.mp3",
-"hash": "e731a9a9f657ff63",
-"dur": 44.2
+"file": "sendung/2026-10-28-t_02.mp3",
+"hash": "e48a2c8dbbe50660",
+"dur": 32.7
+}
+},
+{
+"name": "Microsoft",
+"sym": "MSFT",
+"say": "Zur Aktie Microsoft. Der Technologiekonzern Microsoft ist stark ins neue Geschäftsjahr gestartet. Die entsprechenden Ergebnisse von Microsoft stehen auf der Investor-Relations-Website zur Verfügung. Zudem stand Microsoft im Fokus von Berichten über KI-Investoren gemeinsam mit Meta und Google. Meine Einordnung aus diesen Meldungen: Sie könnten Microsoft eher stärken. Das war Microsoft.",
+"audio": {
+"file": "sendung/2026-10-28-t_03.mp3",
+"hash": "771891a9aa4259c1",
+"dur": 30.8
 }
 },
 {
 "name": "Robinhood",
 "sym": "HOOD",
-"say": "Zur Aktie von Robinhood. MarketWatch berichtete am siebenundzwanzigsten Oktober, dass Einzelhändler zwar bei Chip-Aktien zugreifen, Robinhood jedoch unter dem Kryptomarkt leidet. Yahoo Finance meldete einen Rekordwert von sechzehn Komma vier Milliarden Veranstaltungsverträgen sowie die Hinzufügung eines vierzehn. Geschäftsbereichs mit einem Volumen von einhundert Millionen Dollar. Zudem wurde eine strategische Partnerschaft mit Ripple bekannt gegeben, um die nächste Generation des Finanzwesens voranzutreiben. Gleichzeitig meldete Investing.com South Africa, dass die Aktien aufgrund fehlender Umsätze im dritten Quartal fielen, obwohl der Gewinn pro Aktie die Erwartungen übertraf. Ob diese Meldungen Robinhood stärken oder schwächen, lässt sich aus den Schlagzeilen allein nicht sicher sagen.",
+"say": "Zur Aktie Robinhood. Robinhood wird sich laut Analysen auf Prognosemärkten und neuen Angeboten erholen. Die neue Kette von Robinhood steigert die Krypto-Einnahmen trotz fehlendem Gewinn im dritten Quartal. Zusätzlich hat Ripple den Deal mit Robinhood auf RLUSD, Prime Brokerage und Treasury Services erweitert. Meine Einordnung aus diesen Meldungen: Sie könnten Robinhood eher stärken. Das war Robinhood.",
+"audio": {
+"file": "sendung/2026-10-28-t_04.mp3",
+"hash": "7401d2f8c8f68685",
+"dur": 31.6
+}
+},
+{
+"name": "UBS",
+"sym": "UBSG.SW",
+"say": "Zur Aktie UBS. Die UBS hat ein Rekord-Investment-Bank-Quartal im dritten Quartal verzeichnet. Dennoch waren UBS-Investoren nach den Drittquartalszahlen auf dem Rückzug. Die UBS veröffentlichte ausserdem eine Analyse mit einer Buy-Note für die Deutsche Bank-Aktie und bewertet Welltower mit einem Kaufrating. Meine Einordnung aus diesen Meldungen: Sie könnten UBS eher stärken. Das war UBS.",
 "audio": {
 "file": "sendung/2026-10-28-t_05.mp3",
-"hash": "cdf1e0e9bb87a326",
-"dur": 56.9
+"hash": "e1c2a980e79171b5",
+"dur": 31.1
 }
 },
 {
-"name": "Broadcom",
-"sym": "AVGO",
-"say": "Zur Aktie von Broadcom. SEC EDGAR meldete am siebenundzwanzigsten Oktober eine wichtige Mitteilung über neue Finanzierungen und Schulden. Das Unternehmen selbst informierte über neue Verbesserungen für TrueSource Spring Enterprise, die Kunden bei der Bewertung ihres Open-Source-Sicherheitsstatus unterstützen. Morningstar berichtete zudem, dass eine neue Finanzierungsvereinbarung mit Anthropic die optimistische Prognose für die Aktie bestätigt. Gleichzeitig wurde in Medienberichten erwähnt, dass Nvidias Einstieg bei Meta Auswirkungen auf Broadcom haben könnte. Ob diese Meldungen Broadcom stärken oder schwächen, lässt sich aus den Schlagzeilen allein nicht sicher sagen.",
+"name": "Meta",
+"sym": "META",
+"say": "Zur Aktie Meta. Mark Zuckerbergs Meta-Plattformen meldeten das erste Mal seit 2012 einen negativen freien Cashflow. Meta arbeitet mit fünf US-Universitäten zusammen, um medizinische und wissenschaftliche Durchbrüche zu beschleunigen. Zusätzlich enthüllte Meta den Investoren seine Hardware-Strategie. Meine Einordnung aus diesen Meldungen: Sie könnten Meta eher stärken. Das war Meta.",
 "audio": {
 "file": "sendung/2026-10-28-t_06.mp3",
-"hash": "267a58875f9a8193",
-"dur": 47.6
+"hash": "f3b8bcc53ba5764f",
+"dur": 31.7
 }
 },
 {
-"name": "Corning",
-"sym": "GLW",
-"say": "Zur Aktie Corning. The Globe and Mail berichtete am achtundzwanzigsten Oktober, dass Corning zu den Top-Empfehlungen der Analysten im Bereich Industriegüter zählt. Barron's hob am siebenundzwanzigsten Oktober hervor, dass die Erträge von Corning genau das sein könnten, was Aktien aus dem Bereich der optischen Netzwerke derzeit benötigen. Zudem analysierte Investing.com am achtundzwanzigsten Oktober die jüngsten Quartalsergebnisse und die nächsten wichtigen Katalysatoren für das Unternehmen. Während Truist das Kursziel für die Aktie aufgrund der Bewertung auf einhundertfünfundsiebzig Dollar senkte, übertraf Corning im dritten Quartal 2026 die Marktschätzungen, was jedoch zu einem Kursrückgang von eins Komma eins Prozent auf aktuell einhundertsechsundzwanzig Dollar führte. Ob diese Nachrichten die Aktie langfristig stützen oder belasten, bleibt abzuwarten. Das war Corning.",
+"name": "GE Vernova",
+"sym": "GEV",
+"say": "Zur Aktie GE Vernova. GE Vernova treibt den Netzausbau mit einem neun-Milliarden-Dollar-Trench-Deal und der Übernahme der Trench Group voran, womit GE Vernova auch die Umsatzprognose anhebt. Die Bestellungen von GE Vernova zeigen, dass die Nachfrage nach KI-Energie weiterhin hoch ist. Zwar wurden laut Berichten neue Bestellungen verpasst, aber die Übernahme und die Prognoseanhebung stützen das Geschäft. Meine Einordnung aus diesen Meldungen: Sie könnten GE Vernova eher stärken. Das war GE Vernova.",
 "audio": {
 "file": "sendung/2026-10-28-t_07.mp3",
-"hash": "acf1abeab529c819",
-"dur": 63.3
-}
-},
-{
-"name": "Andere Aktien mit Chancen",
-"say": "Jetzt Andere Aktien mit Chancen. Das sind Aktien, die nicht auf deiner Liste sind. Bedingung: mindestens acht Analysten, ein durchschnittliches Kursziel mindestens dreissig Prozent über dem Kurs, und eine frische Meldung zu einem Produkt, einem Partner oder einem Auftrag. Das ist keine Kaufempfehlung.",
-"audio": {
-"file": "sendung/2026-10-28-t_08.mp3",
-"hash": "8e596fb7a1452bc2",
-"dur": 21.7
-}
-},
-{
-"name": "Chance: Oracle",
-"sym": "ORCL",
-"say": "Zur Aktie Oracle. Aktuell verfolgen einundvierzig Analysten das Unternehmen. Das durchschnittliche Kursziel liegt bei zweihundertsechsunddreissig Dollar, was einem Aufwärtspotenzial von achtzig Komma sieben Prozent gegenüber dem aktuellen Kurs von einhunderteinunddreissig Dollar entspricht. Aktuelle Marktberichte vom siebenundzwanzigsten Oktober unterstreichen die wachsende Bedeutung von künstlicher Intelligenz in der Pharmakovigilanz, wobei Oracle neben Microsoft, Google und anderen Unternehmen als wichtiger Akteur bei der Automatisierung genannt wird. Zudem baut Oracle seine Cloud-Infrastruktur durch neue Partnerschaften mit Google, OpenAI und Cerebras weiter aus, was den Kurs zuletzt stützte. Bitte beachten Sie, dass das Kursziel lediglich einen Durchschnittswert darstellt und keine Garantie für die zukünftige Entwicklung ist. Das war Oracle.",
-"audio": {
-"file": "sendung/2026-10-28-t_09.mp3",
-"hash": "e19bbffcb0a87293",
-"dur": 60.0
-}
-},
-{
-"name": "Chance: T-Mobile US",
-"sym": "TMUS",
-"say": "Zur Aktie T-Mobile US. Insgesamt fünfundzwanzig Analysten beobachten das Unternehmen und sehen ein durchschnittliches Kursziel von zweihundertsiebenunddreissig Dollar. Dies entspricht einem Potenzial von einundsechzig Komma drei Prozent zum aktuellen Kurs von einhundertsiebenundvierzig Dollar. Am siebenundzwanzigsten Oktober wurde über die Netzwerkauszeichnungen des Unternehmens sowie die Einführung von T-Mix berichtet, was die Marktposition des Mobilfunkanbieters unterstreicht. Raymond James stufte die Aktie zudem auf Besser als Markt hoch. Denken Sie daran, dass Analystenschätzungen Durchschnittswerte sind und keine Anlageempfehlung darstellen. Das war T-Mobile US.",
-"audio": {
-"file": "sendung/2026-10-28-t_10.mp3",
-"hash": "fa889fd98ba02636",
-"dur": 48.9
-}
-},
-{
-"name": "Chance: Axon Enterprise",
-"sym": "AXON",
-"say": "Zur Aktie Axon Enterprise. neunzehn Analysten begleiten das Unternehmen und setzen ein durchschnittliches Kursziel von sechshundertachtzig Dollar, was neunundfünfzig Komma acht Prozent über dem aktuellen Kurs von vierhundertsechsundzwanzig Dollar liegt. Am siebenundzwanzigsten Oktober stellte das Unternehmen das neue Produkt Body fünf vor, wobei Analysten gleichzeitig die Bewertung des Unternehmens im Kontext des Hypes um künstliche Intelligenz in der Polizeiarbeit diskutieren. Ein weiterer Bericht vom sechsundzwanzigsten Oktober analysierte die langfristigen Perspektiven bis 2030, nachdem die Aktie im Jahr 2026 bisher sechsundzwanzig Prozent an Wert verloren hat. Das Kursziel ist ein Durchschnittswert und keine Garantie für die Kursentwicklung. Das war Axon Enterprise.",
-"audio": {
-"file": "sendung/2026-10-28-t_11.mp3",
-"hash": "e254632e21915ae9",
-"dur": 57.3
-}
-},
-{
-"name": "Chance: Vertiv",
-"sym": "VRT",
-"say": "Zur Aktie Vertiv. Achtundzwanzig Analysten verfolgen Vertiv. Ihr durchschnittliches Kursziel liegt bei dreihundertdreiunddreissig Dollar, das sind neunundfünfzig Komma sieben Prozent über dem aktuellen Kurs von zweihundertacht Dollar und sechsundfünfzig Cent. Yahoo Finance meldet am achtundzwanzigsten Oktober: Ranking vier AI Power Stocks By Balance Sheet After the Sell-off: Vertiv, GE Vernova, Bloom Energy, and Plug Power. Yahoo Finance meldet am siebenundzwanzigsten Oktober: Is Vertiv Holdings Co (VRT) Undervalued As Q3 Growth And AI Launches Draw Focus?. Die Meldung ist auf Englisch, die Details stehen im Original. Die genaue Begründung der Analysten steht nicht in den Daten; das Kursziel ist ein Durchschnitt, keine Garantie. Das war Vertiv.",
-"audio": {
-"file": "sendung/2026-10-28-t_12.mp3",
-"hash": "6495509fdc615923",
-"dur": 58.6
+"hash": "92811f84e44adca4",
+"dur": 38.0
 }
 },
 {
 "name": "Quartalszahlen diese Woche",
-"say": "Quartalszahlen diese Woche. Diese Firmen aus deiner Liste melden ihre Quartalszahlen. Zur Aktie Samsung Electronics: Zahlen Mittwoch, am achtundzwanzigsten Oktober. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von zehn Dollar und dreiunddreissig Cent. Beim Umsatz erwarten sie rund einhundertsiebenundvierzig Komma sechs Milliarden Dollar. Zur Aktie UBS: Zahlen Mittwoch, am achtundzwanzigsten Oktober. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von null Dollar und einundneunzig Cent. Beim Umsatz erwarten sie rund dreizehn Komma eins Milliarden Dollar. Zur Aktie GE Vernova: Zahlen Mittwoch, am achtundzwanzigsten Oktober. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von vier Dollar. Beim Umsatz erwarten sie rund zwölf Milliarden Dollar. Zur Aktie Microsoft: Zahlen Mittwoch, am achtundzwanzigsten Oktober. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von vier Dollar und zweiundsiebzig Cent. Beim Umsatz erwarten sie rund neunzig Komma sieben Milliarden Dollar. Zur Aktie ServiceNow: Zahlen Mittwoch, am achtundzwanzigsten Oktober. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von ein Dollar und zwei Cent. Beim Umsatz erwarten sie rund vier Komma eins Milliarden Dollar. Zur Aktie BYD: Zahlen Donnerstag, am neunundzwanzigsten Oktober. Beim Umsatz erwarten sie rund vierunddreissig Komma sechs Milliarden Dollar. Zur Aktie Amazon: Zahlen Donnerstag, am neunundzwanzigsten Oktober. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von ein Dollar und neunundneunzig Cent. Beim Umsatz erwarten sie rund zweihundertzwei Komma zwei Milliarden Dollar. Zur Aktie Intel: Zahlen Donnerstag, am neunundzwanzigsten Oktober. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von null Dollar und vierzig Cent. Beim Umsatz erwarten sie rund sechzehn Komma fünf Milliarden Dollar.",
+"say": "Quartalszahlen diese Woche. Diese Firmen aus deiner Liste melden ihre Quartalszahlen. Zur Aktie Samsung Electronics: Zahlen Mittwoch, am achtundzwanzigsten Oktober. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von zehn Dollar und dreiundzwanzig Cent. Beim Umsatz erwarten sie rund einhundertsechsundvierzig Komma zwei Milliarden Dollar. Zur Aktie UBS: Zahlen Mittwoch, am achtundzwanzigsten Oktober. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von null Dollar und neunundachtzig Cent. Beim Umsatz erwarten sie rund dreizehn Milliarden Dollar. Zur Aktie GE Vernova: Zahlen Mittwoch, am achtundzwanzigsten Oktober. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von sechs Dollar und vierundfünfzig Cent. Beim Umsatz erwarten sie rund vierzehn Milliarden Dollar. Zur Aktie Microsoft: Zahlen Mittwoch, am achtundzwanzigsten Oktober. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von vier Dollar und zweiundsiebzig Cent. Beim Umsatz erwarten sie rund neunzig Komma sieben Milliarden Dollar. Zur Aktie ServiceNow: Zahlen Mittwoch, am achtundzwanzigsten Oktober. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von ein Dollar und zwei Cent. Beim Umsatz erwarten sie rund vier Komma eins Milliarden Dollar. Zur Aktie BYD: Zahlen Donnerstag, am neunundzwanzigsten Oktober. Beim Umsatz erwarten sie rund vierunddreissig Komma sechs Milliarden Dollar. Zur Aktie Amazon: Zahlen Donnerstag, am neunundzwanzigsten Oktober. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von ein Dollar und neunundneunzig Cent. Beim Umsatz erwarten sie rund zweihundertzwei Komma zwei Milliarden Dollar. Zur Aktie Intel: Zahlen Donnerstag, am neunundzwanzigsten Oktober. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von null Dollar und vierzig Cent. Beim Umsatz erwarten sie rund sechzehn Komma fünf Milliarden Dollar.",
 "audio": {
-"file": "sendung/2026-10-28-t_13.mp3",
-"hash": "a43a0a55f7f0ab75",
-"dur": 140.8
+"file": "sendung/2026-10-28-t_08.mp3",
+"hash": "04fd2856bdc90691",
+"dur": 142.0
 }
 },
 {
 "name": "Begriff: Hochstufung und Abstufung",
 "say": "Zum Lernen, der Begriff des Tages: Hochstufung und Abstufung. Wenn eine Bank ihre Empfehlung verbessert, zum Beispiel von Halten auf Kaufen, heisst das Hochstufung. Das Gegenteil ist eine Abstufung. Solche Änderungen bewegen den Kurs oft am gleichen Tag.",
 "audio": {
-"file": "sendung/2026-10-28-t_14.mp3",
+"file": "sendung/2026-10-28-t_09.mp3",
 "hash": "3e37cea3e5f0347e",
 "dur": 19.2
 }
@@ -157,13 +108,63 @@
 "name": "Schluss",
 "say": "Das war die Sendung vom Aktien-Radar. Die Quellen findest du in der App bei jeder Aktie, den ganzen Text über den Knopf Als Text. Bis morgen.",
 "audio": {
-"file": "sendung/2026-10-28-t_15.mp3",
+"file": "sendung/2026-10-28-t_10.mp3",
 "hash": "cc4bc23e3e69d9dd",
 "dur": 11.5
 }
 }
 ],
-"dur": 824.4
+"dur": 452.4,
+"full": {
+"file": "sendung/2026-10-28-t_full.mp3",
+"dur": 452.3,
+"marks": [
+[
+0,
+0.0
+],
+[
+1,
+30.0
+],
+[
+2,
+83.8
+],
+[
+3,
+116.5
+],
+[
+4,
+147.3
+],
+[
+5,
+178.9
+],
+[
+6,
+210.0
+],
+[
+7,
+241.7
+],
+[
+8,
+279.7
+],
+[
+9,
+421.7
+],
+[
+10,
+440.9
+]
+]
+}
 },
 {
 "id": "2026-10-27-t",
@@ -496,8 +497,8 @@
 "dur": 729.9
 }
 ],
-"generated_at": "2026-10-28T05:12:05Z",
+"generated_at": "2026-10-28T21:48:17Z",
 "voice": "de-CH-LeniNeural",
 "source": "Yahoo Finance, SEC EDGAR, Schlagzeilen (Google News u.a.); Text: Gemini Gratis-Kontingent oder Vorlage",
-"audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@cf9310a016850bd13c0782b4f6cd926fba009ec6/data/audio/"
+"audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@f32b97bb40eda36892a89455430480071d12dba1/data/audio/"
 }
