@@ -242,7 +242,9 @@ def build(kind, now):
         order = sorted(names, key=lambda s: -len(per.get(s, [])))
         pick = order[:10]
     else:
-        pick = sorted(prod, key=lambda s: -len(prod[s]))[:6]
+        pick = sorted(prod, key=lambda s: -len(prod[s]))[:8]
+        # v36: Podcast nur zu deinen Aktien, Ziel 8-12 Minuten: mit weiteren Aktien mit frischen Meldungen auffuellen
+        pick += [s for s in sorted(per, key=lambda s: -len(per[s])) if s not in pick][:max(0, 8 - len(pick))]
     data = {s: {"name": names[s], "schlagzeilen": [{"quelle": x.get("source"), "datum": (x.get("published") or "")[:10], "titel": title_of(x), "original": x.get("title")} for x in per.get(s, [])[:5]]} for s in pick if per.get(s)}
     CH = []  # v36: Andere Aktien mit Chancen -> Podcast "Zum Nachdenken" (Entdecken)
     for x in CH:
