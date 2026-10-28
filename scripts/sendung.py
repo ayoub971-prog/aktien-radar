@@ -9,8 +9,10 @@ from concurrent.futures import ThreadPoolExecutor
 sys.path.insert(0, os.path.dirname(__file__))
 import ent_tts as T
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DIR = os.path.join(ROOT, "data", "audio", "sendung")
-OUT = os.path.join(ROOT, "data", "sendung.json")
+SHOW = os.environ.get("SENDUNG_SHOW") or "mine"   # mine = Startseite (deine Aktien), ent = Entdecken (Zum Nachdenken)
+SUB = "sendung" if SHOW == "mine" else "nachdenken"
+DIR = os.path.join(ROOT, "data", "audio", SUB)
+OUT = os.path.join(ROOT, "data", SUB + ".json")
 ZH = ZoneInfo("Europe/Zurich")
 KEEP = 14
 WT = ["Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag", "Sonntag"]
@@ -217,9 +219,9 @@ def build(kind, now):
     ep_title = ("Wochenrückblick, " if kind == "woche" else "Morgen-Sendung, ") + tag(loc)
     # Kapitel 1: Begruessung
     if kind == "woche":
-        intro = "Willkommen zum Wochenrückblick vom Aktien-Radar, heute %s. Wir gehen deine Aktien einzeln durch: Kurs der Woche in Dollar, neue Bewertungen von Banken und die wichtigsten Firmen-Meldungen. Danach Andere Aktien mit Chancen, der Kalender der Quartalszahlen für nächste Woche und ein Begriff zum Lernen." % tag(loc)
+        intro = "Willkommen zum Wochenrückblick vom Aktien-Radar, heute %s. Wir gehen deine Aktien einzeln durch: Kurs der Woche in Dollar, neue Bewertungen von Banken und die wichtigsten Firmen-Meldungen. Danach der Kalender der Quartalszahlen für nächste Woche und ein Begriff zum Lernen." % tag(loc)
     else:
-        intro = "Guten Morgen und willkommen zur Sendung vom Aktien-Radar, heute %s. Zuerst ein kurzer Blick auf den Markt, dann die Firmen aus deiner Liste mit neuen Meldungen zu Produkten, Partnern und Projekten, danach Andere Aktien mit Chancen, die Quartalszahlen dieser Woche und zum Schluss ein Begriff zum Lernen." % tag(loc)
+        intro = "Guten Morgen und willkommen zur Sendung vom Aktien-Radar, heute %s. Zuerst ein kurzer Blick auf den Markt, dann die Firmen aus deiner Liste mit neuen Meldungen zu Produkten, Partnern und Projekten, danach die Quartalszahlen dieser Woche und zum Schluss ein Begriff zum Lernen." % tag(loc)
     intro += " Kurz vorweg: Alles stammt aus gesammelten Daten und Schlagzeilen, Beträge nenne ich in Dollar. Das ist keine Anlageberatung."
     chapters.append({"name": "Begrüssung", "say": intro})
     # Kapitel 2: Markt
@@ -242,7 +244,7 @@ def build(kind, now):
     else:
         pick = sorted(prod, key=lambda s: -len(prod[s]))[:6]
     data = {s: {"name": names[s], "schlagzeilen": [{"quelle": x.get("source"), "datum": (x.get("published") or "")[:10], "titel": title_of(x), "original": x.get("title")} for x in per.get(s, [])[:5]]} for s in pick if per.get(s)}
-    CH = chances(set(names), now, 7 if kind == "woche" else 4, 6 if kind == "woche" else 4)
+    CH = []  # v36: Andere Aktien mit Chancen -> Podcast "Zum Nachdenken" (Entdecken)
     for x in CH:
         data[x["symbol"]] = {"name": T.clean(x["name"]), "andere_aktie": True, "schlagzeilen": [{"datum": h["datum"], "original": h["titel"]} for h in x["_news"]]}
     g = gemini(PROMPT.format(data=json.dumps(data, ensure_ascii=False))) if data else None
@@ -308,16 +310,134 @@ def build(kind, now):
     return {"id": eid, "kind": kind, "date": loc.strftime("%Y-%m-%d"), "title": ep_title, "generated_at": now.strftime("%Y-%m-%dT%H:%M:%SZ"),
             "writer": "Gemini (Gratis-Kontingent) %d Firmen, Rest Vorlage" % used_ai if used_ai else "Vorlage aus den Daten", "chapters": chapters}
 
+def join_full(ep, idx):
+    """v36: alle Kapitel zu EINER MP3 (laeuft bei gesperrtem Bildschirm ohne Trackwechsel). Kapitel-Startzeiten in full.marks."""
+    import subprocess
+    cs = [c for c in ep["chapters"] if c.get("audio") and os.path.exists(os.path.join(DIR, c["audio"]["file"].split("/", 1)[1]))]
+    if not cs: return
+    h = hashlib.sha1("|".join(c["audio"]["hash"] for c in cs).encode()).hexdigest()[:12]
+    f = "%s_full.mp3" % ep["id"]; out = os.path.join(DIR, f); e = idx["files"].get(f)
+    if not (e and e.get("h") == h and os.path.exists(out)):
+        lst = out + ".txt"
+        open(lst, "w").write("".join("file '%s'\n" % os.path.join(DIR, c["audio"]["file"].split("/", 1)[1]) for c in cs))
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", lst, "-c", "copy", out + ".tmp.mp3"], check=True)
+        os.replace(out + ".tmp.mp3", out); os.unlink(lst)
+        d = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", out], capture_output=True, text=True).stdout.strip()
+        e = idx["files"][f] = {"h": h, "dur": round(float(d or 0), 1)}
+    t = 0.0; marks = []
+    for i, c in enumerate(ep["chapters"]):
+        if c in cs: marks.append([i, round(t, 2)]); t += c["audio"].get("dur") or 0
+    ep["full"] = {"file": SUB + "/" + f, "dur": e["dur"], "marks": marks}
+
+def ent_item_text(x, kind_txt):
+    n = T.clean(x["name"]); d = x.get("d") or {}
+    p = ["Zur Aktie %s." % n, "%s kostet im Moment %s." % (n, T.dollar(x["price_usd"]))]
+    if d.get("m1") is not None or d.get("m3") is not None:
+        q = []
+        if d.get("m1") is not None: q.append("im letzten Monat um %s" % T.pct(d["m1"]))
+        if d.get("m3") is not None: q.append("in drei Monaten um %s" % T.pct(d["m3"]))
+        p.append("Der Kurs von %s veränderte sich %s." % (n, " und ".join(q)))
+    if d.get("target_usd") and d.get("analysts"):
+        p.append("%s Analysten haben für %s ein durchschnittliches Kursziel von %s, das sind %s gegenüber dem aktuellen Kurs." % (T.words(d["analysts"]).capitalize(), n, T.dollar(d["target_usd"]), T.pct(d["upside"])))
+    dn = [c for c in d.get("changes") or [] if c.get("a") == "down"]; up = [c for c in d.get("changes") or [] if c.get("a") == "up"]
+    for c in dn[:2]: p.append("Die Bank %s hat %s abgestuft%s." % (c.get("firm") or "eine Bank", n, (", neue Empfehlung " + c["to"]) if c.get("to") else ""))
+    for c in up[:1]: p.append("Die Bank %s hat %s hochgestuft%s." % (c.get("firm") or "eine Bank", n, (", neue Empfehlung " + c["to"]) if c.get("to") else ""))
+    er = d.get("earn")
+    if er and er.get("act") is not None and er.get("est") and er.get("fx") == 1.0:
+        p.append("Bei den letzten Quartalszahlen meldete %s einen Gewinn je Aktie von %s%s, erwartet waren %s%s." % (n, "minus " if er["act"] < 0 else "", T.dollar(abs(er["act"])), "minus " if er["est"] < 0 else "", T.dollar(abs(er["est"]))))
+    for h in (x.get("_news") or [])[:1]:
+        p.append("Yahoo Finance meldete am %s: %s." % (T.datum(datetime.strptime(h["datum"], "%Y-%m-%d").timestamp()), h["titel"].rstrip(". ")))
+    p.append(kind_txt % {"n": n})
+    p.append("Das war %s." % n)
+    return sx(" ".join(p))
+
+def ent_news(y, sym, days, now, pat=None):
+    from email.utils import parsedate_to_datetime
+    import html as H
+    try: t = y.get("https://feeds.finance.yahoo.com/rss/2.0/headline?s=%s&region=US&lang=en-US" % sym).decode("utf-8", "ignore")
+    except Exception: return []
+    hs = []; cut = now - timedelta(days=days)
+    for it in re.findall(r"<item>(.*?)</item>", t, re.S):
+        ti = re.search(r"<title>(.*?)</title>", it, re.S); pd = re.search(r"<pubDate>(.*?)</pubDate>", it)
+        if not ti or not pd: continue
+        ti = H.unescape(re.sub(r"<!\[CDATA\[|\]\]>", "", ti.group(1))).strip()
+        try: dt = parsedate_to_datetime(pd.group(1))
+        except Exception: continue
+        if dt >= cut and (not pat or re.search(pat, ti, re.I)): hs.append({"titel": ti, "datum": dt.strftime("%Y-%m-%d")})
+    return hs[:3]
+
+def build_ent(kind, now):
+    """v36: Podcast 'Zum Nachdenken' (Entdecken): Aktien ausserhalb deiner Liste."""
+    wl = J("watchlist.json"); fx = J("data/fx.json").get("per_usd", {})
+    mine = {s["symbol"] for s in wl.get("stocks", [])}
+    E = J("data/entdecken.json"); L = E.get("lists") or {}
+    loc = now.astimezone(ZH); days = 7 if kind == "woche" else 4
+    allx = {}
+    for k, v in L.items():
+        for x in v:
+            if x.get("symbol") and not x.get("mine") and x["symbol"] not in mine and x.get("price_usd"): allx.setdefault(x["symbol"], x)
+    used = set()
+    def take(cands, n):
+        out = []
+        for x in cands:
+            if x["symbol"] in used: continue
+            used.add(x["symbol"]); out.append(x)
+            if len(out) >= n: break
+        return out
+    gain = take(sorted([x for x in L.get("wachstum", []) if x["symbol"] in allx], key=lambda x: -((x.get("d") or {}).get("m3") or 0)), 2)
+    CH = [x for x in chances(mine, now, days, 3) if x["symbol"] not in used]; used |= {x["symbol"] for x in CH}
+    bad = take(sorted([x for x in allx.values() if [c for c in (x.get("d") or {}).get("changes") or [] if c.get("a") == "down"] or ((x.get("d") or {}).get("analysts", 0) >= 8 and ((x.get("d") or {}).get("upside") or 0) < 0)],
+                      key=lambda x: (-len([c for c in x["d"].get("changes") or [] if c.get("a") == "down"]), (x["d"].get("upside") or 0))), 2)
+    lose = take(sorted([x for x in L.get("gegenteil", []) if x["symbol"] in allx and (x.get("d") or {}).get("m1") is not None], key=lambda x: x["d"]["m1"]), 2)
+    try:
+        from insights import Yahoo
+        y = Yahoo(); y.login()
+        for x in gain + bad + lose:
+            x["_news"] = ent_news(y, x["symbol"], days, now); time.sleep(0.2)
+    except Exception as e: print("Nachdenken: Yahoo-News fehlen", e)
+    ep_title = ("Zum Nachdenken, Woche, " if kind == "woche" else "Zum Nachdenken, ") + tag(loc)
+    ch = [{"name": "Begrüssung", "say": "Willkommen zu Zum Nachdenken vom Aktien-Radar, heute %s. Hier geht es nicht um deine eigenen Aktien, sondern um auffällige Aktien ausserhalb deiner Liste: die grössten Gewinner, Aktien mit grossem Potenzial laut vielen Analysten, schlecht bewertete Aktien und grosse Verlierer. Alles stammt aus gesammelten Daten von Yahoo Finance, Beträge nenne ich in Dollar. Das ist keine Anlageberatung, sondern Stoff zum Nachdenken." % tag(loc)}]
+    def sect(name, short, intro, xs, tail):
+        if not xs: ch.append({"name": name, "say": intro + " Im Moment gibt es dazu in den Daten keine passende Aktie ausserhalb deiner Liste."}); return
+        ch.append({"name": name, "say": intro})
+        for x in xs: ch.append({"name": short + ": " + T.clean(x["name"]), "sym": x["symbol"], "say": ent_item_text(x, tail), "_x": x})
+    sect("Die grössten Gewinner", "Gewinner", "Zuerst die grössten Gewinner. Das sind Aktien, deren Kurs in den letzten drei Monaten am stärksten gestiegen ist.", gain,
+         "Ein starker Anstieg kann auf echte Fortschritte hinweisen, aber nach so einem Lauf ist oft schon viel Erwartung im Kurs von %(n)s enthalten.")
+    sect("Andere Aktien mit Chancen", "Chance", "Jetzt Andere Aktien mit Chancen. Bedingung: mindestens acht Analysten, ein durchschnittliches Kursziel mindestens dreissig Prozent über dem Kurs, und eine frische Meldung zu einem Produkt, einem Partner oder einem Auftrag. Das ist keine Kaufempfehlung.", CH,
+         "Das Kursziel ist ein Durchschnitt der Analysten und keine Garantie; die genaue Begründung für %(n)s steht nicht in den Daten.")
+    sect("Schlecht bewertete Aktien", "Schlecht bewertet", "Nun zu schlecht bewerteten Aktien. Hier haben Banken ihre Empfehlung gesenkt, oder das durchschnittliche Kursziel liegt unter dem aktuellen Kurs.", bad,
+         "Abstufungen zeigen, dass Fachleute vorsichtiger werden; ob sie bei %(n)s recht behalten, ist offen.")
+    sect("Grosse Verlierer", "Verlierer", "Zum Schluss die grossen Verlierer. Das sind Aktien, die im letzten Monat am stärksten gefallen sind.", lose,
+         "Ein grosser Kursverlust kann eine Warnung sein oder eine Übertreibung; bei %(n)s lohnt sich ein genauer Blick auf die Gründe.")
+    w, l = LERN[(loc.timetuple().tm_yday + 3) % len(LERN)]
+    ch.append({"name": "Begriff: " + w, "say": "Zum Lernen, der Begriff: %s. %s" % (w, l)})
+    ch.append({"name": "Schluss", "say": "Das war Zum Nachdenken vom Aktien-Radar. Die Listen findest du in der App auf der Seite Entdecken, den ganzen Text über den Knopf Als Text. Denk daran: Das ist keine Anlageberatung. Bis zum nächsten Mal."})
+    try:
+        import redakteur
+        red = []
+        for c in ch:
+            x = c.get("_x")
+            if not x: continue
+            src = {"name": x.get("name"), "kurs_usd": x.get("price_usd"), "daten": x.get("d"), "schlagzeilen": x.get("_news")}
+            red.append({"id": "nd:%s:%s" % (kind, c["sym"]), "src": json.dumps(src, ensure_ascii=False), "draft": c["say"], "keep": False, "c": c})
+        out = redakteur.edit(red, conv=lambda t: T.money(t, fx))
+        for r in red: r["c"]["say"] = sx(out.get(r["id"]) or r["c"]["say"])
+    except Exception as ex: print("Redakteur Fehler", str(ex)[:150])
+    for c in ch: c.pop("_x", None); c["say"] = sx(c["say"])
+    eid = "n-" + loc.strftime("%Y-%m-%d") + ("-w" if kind == "woche" else "-t")
+    return {"id": eid, "kind": kind, "show": "ent", "date": loc.strftime("%Y-%m-%d"), "title": ep_title, "generated_at": now.strftime("%Y-%m-%dT%H:%M:%SZ"),
+            "writer": "Vorlage aus den Daten, Redakteur-KI (Gemini Gratis-Kontingent) mit Faktencheck", "chapters": ch}
+
 def main():
     now = datetime.now(timezone.utc); loc = now.astimezone(ZH)
     kind = os.environ.get("SENDUNG_KIND") or ("woche" if loc.weekday() >= 5 else "tag")
-    ep = build(kind, now)
+    ep = build(kind, now) if SHOW == "mine" else build_ent(kind, now)
     os.makedirs(DIR, exist_ok=True)
-    doc = J("data/sendung.json", {"episodes": []})
-    idx = J("data/audio/sendung/index.json", {"files": {}})
+    doc = J("data/%s.json" % SUB, {"episodes": []})
+    idx = J("data/audio/%s/index.json" % SUB, {"files": {}})
     jobs = []
     for i, c in enumerate(ep["chapters"]):
-        f = "%s_%02d.mp3" % (ep["id"], i); c["audio"] = {"file": "sendung/" + f, "hash": T.th(c["say"])}
+        f = "%s_%02d.mp3" % (ep["id"], i); c["audio"] = {"file": SUB + "/" + f, "hash": T.th(c["say"])}
         e = idx["files"].get(f)
         if not (e and e.get("h") == c["audio"]["hash"] and os.path.exists(os.path.join(DIR, f))): jobs.append((f, c))
         else: c["audio"]["dur"] = e.get("dur")
@@ -330,9 +450,11 @@ def main():
             print("TTS Fehler", f, ex); c.pop("audio", None)
     with ThreadPoolExecutor(4) as ex: list(ex.map(run, jobs))
     ep["dur"] = round(sum((c.get("audio") or {}).get("dur") or 0 for c in ep["chapters"]), 1)
+    try: join_full(ep, idx)
+    except Exception as ex: print("Zusammenfuegen fehlgeschlagen", ex)
     eps = [e for e in doc.get("episodes", []) if e["id"] != ep["id"]] + [ep]
     eps = sorted(eps, key=lambda e: e["id"], reverse=True)[:KEEP]
-    keep = {c["audio"]["file"][8:] for e in eps for c in e["chapters"] if c.get("audio")}
+    keep = {c["audio"]["file"].split("/", 1)[1] for e in eps for c in e["chapters"] if c.get("audio")} | {e["full"]["file"].split("/", 1)[1] for e in eps if e.get("full")}
     for f in list(idx["files"]):
         if f not in keep: idx["files"].pop(f, None)
     for f in os.listdir(DIR):
@@ -341,7 +463,7 @@ def main():
                 "source": "Yahoo Finance, SEC EDGAR, Schlagzeilen (Google News u.a.); Text: Gemini Gratis-Kontingent oder Vorlage"})
     json.dump(idx, open(os.path.join(DIR, "index.json"), "w"), indent=1)
     json.dump(doc, open(OUT, "w"), ensure_ascii=False)
-    print("Episode %s: %.0f s" % (ep["id"], ep["dur"]))
+    print("Episode %s: %.0f s, ganze Datei: %s" % (ep["id"], ep["dur"], (ep.get("full") or {}).get("file")))
 
 if __name__ == "__main__":
     main()
