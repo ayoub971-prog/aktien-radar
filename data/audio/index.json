@@ -3,16 +3,15 @@
  "stocks": {
   "TSM": {
    "file": "TSM.mp3",
-   "hash": "3485e9c467f8fd0b",
-   "th": "febb2fde3edfa2f2",
-   "engine": "gemini",
-   "id": "7b43186a31",
-   "voice": "Kore",
-   "model": "gemini-2.5-flash-preview-tts",
+   "hash": "1fedc739c5797b68",
+   "th": "0250d04ae96bc3ce",
+   "id": "9e3f743a10",
+   "voice": "de-CH-LeniNeural",
+   "engine": "edge",
    "br": 24,
-   "text": "Taiwan Semiconductor zeigt sich in einer robusten Verfassung und notiert oberhalb wichtiger technischer Durchschnittslinien wie der achtunddreissig-Tage-Linie und der einhundert-Tage-Linie. Laut dem Finanzportal Yahoo Finance plant the Konzern angesichts einer massiven Nachfrage im Bereich der künstlichen Intelligenz Preiserhöhungen von bis zu zwanzig Prozent für fortschrittliche Chipverpackungen. Die Chart- und Börsenplattform TradingView berichtet, dass die Quartalszahlen zwar eine starke Nachfrage und Expansion unterstreichen, laut Beiträgen bei Seeking Alpha jedoch auch kritische Stimmen zu potenziellen Fallstricken im aktuellen KI-Hype laut werden. Die Analystenbewertungen zeigen ein sehr positives Bild mit sechsundzwanzig Kaufempfehlungen und nur einer Halteempfehlung, wobei das mittlere Kursziel bei rund fünfhundertvierundachtzig Dollar liegt. Konkrete Einschätzungen kommen beispielsweise von Barclays mit einem Kursziel von sechshundertsiebzig Dollar und der Einstufung Übergewichten, Needham mit fünfhundertsechzig Dollar und Kaufen sowie DA Davidson mit fünfhundert Dollar. Aktuell setzt das Unternehmen auf den Ausbau seiner Position im Halbleitermarkt und treibt Preiserhöhungen voran. Als wichtige Kennzahl ist das durchschnittliche Kursziel von rund fünfhundertvierundachtzig Dollar zu nennen, welches ein Aufwärtspotenzial von rund dreiunddreissig Komma acht Prozent anzeigt. Bei den Insidern gab es im Oktober 2026 verschiedene Aktienkäufe durch das Management, darunter der Vorstandschef Che-Chia Wei sowie Käufe weiterer Vizepräsidenten und leitender Angestellter. In der Berichterstattung gibt es leichte Widersprüche hinsichtlich der Interpretation des aktuellen KI-Booms, da einige Beobachter die starken Zahlen feiern, während andere vor allzu grosser Euphorie warnen.",
-   "dur": 101.1,
-   "at": "2026-10-28T09:34:23Z"
+   "text": "Bei Taiwan Semiconductor plant das Unternehmen angesichts der anhaltenden Nachfrage nach Kunstlicher Intelligenz Berichten zufolge Preiserhöhungen von bis zu zwanzig Prozent für fortschrittliche Chipverpackungen. Die Aktie konnte Kursgewinne verzeichnen, notiert über der achtunddreissig-Tage-Linie sowie der einhundert-Tage-Linie und legte nachborslich zu. Gleichzeitig werfen die Ergebnisse des dritten Quartals laut Analysen Fragen zu moglichen Fallstricken im aktuellen KI-Hype auf. Das Konsens-Rating von zwanzig Analysten steht auf Kaufen, aufgeteilt in sechs starke Kaufempfehlungen und eins Halte-Empfehlung. Das durchschnittliche Kursziel liegt bei rund fünfhundertvierundachtzig Dollar, womit sich ein Aufwärtspotenzial von rund dreiunddreissig Komma acht Prozent ergibt. Barclays bestätigte die Einstufung auf Übergewichten und erhöhte das Kursziel zuletzt auf sechshundertsiebzig Dollar. DA Davidson bestätigte die Kaufen-Empfehlung mit einem Kursziel von fünfhundert Dollar. Needham erhöhte das Kursziel auf fünfhundertsechzig Dollar. Stifel nahm die Beobachtung mit Kaufen und einem Kursziel von fünfhundertfünfzehn Dollar neu auf, während Bernstein das Kursziel auf fünfhundertvierundfünfzig Dollar erhöhte. Die Firma profitiert von einer starken Nachfrage im Bereich der Kunstlichen Intelligenz, treibt ihre Expansion voran und plant Preiserhöhungen bei Chipverpackungen, während die Ergebnisse des dritten Quartals laut Berichten auch die Fallstricke des KI-Hypes aufzeigen. Wichtige Kennzahlen umfassen das durchschnittliche Kursziel von fünfhundertvierundachtzig Dollar sowie ein daraus resultierendes Aufwärtspotenzial von dreiunddreissig Komma acht Prozent. Bei den Insider-Aktivitäten gab es verschiedene Käufe durch Führungskräfte: So kaufte Lipen Yuan vierzig Aktien im Wert von rund dreitausendeinhundertsechsundsiebzig Dollar und Choh Fei Yeap kaufte zweiundfünfzig Aktien im Wert von rund viertausendeinhundertachtundzwanzig Dollar.",
+   "dur": 131.9,
+   "at": "2026-10-28T12:10:50Z"
   },
   "005930.KS": {
    "file": "005930.KS.mp3",
@@ -42,29 +41,27 @@
   },
   "AVGO": {
    "file": "AVGO.mp3",
-   "hash": "0346fd0a1c706f74",
-   "th": "eec078a07d7bb4f6",
-   "engine": "gemini",
-   "id": "da8b872ce8",
-   "voice": "Kore",
-   "model": "gemini-2.5-flash-preview-tts",
+   "hash": "19ae2ac9e69772a0",
+   "th": "970f0c4f0df3b64b",
+   "id": "7bb6ed21ce",
+   "voice": "de-CH-LeniNeural",
+   "engine": "edge",
    "br": 24,
-   "text": "Im Zentrum des Marktgeschehens bei Broadcom steht derzeit ein grosser Finanzierungsdeal mit Anthropic, über den das US-Finanzmagazin Barron's berichtet. Laut einer Mitteilung von Broadcom haben Finanzinstitute wie die Bank of America, Blackstone, Citi und Morgan Stanley eine Finanzierungsstruktur in Höhe von dreiundsechzig Milliarden Dollar angekündigt, um KI-Rechenkapazität in Partnerschaft mit Broadcom zu ermöglichen. Das Finanzportal Yahoo Finance meldet, dass die Ratingagentur Fitch die Einstufung von Broadcom mit A- und einem positiven Ausblick bestätigt hat, dabei jedoch auf Risiken im Bereich der KI-Finanzierungen verweist. Bei den Analysten-Bewertungen zeigt sich ein positives Bild mit Kurszielen zwischen zweihundertsechzehn Dollar und sechshundertsechzig Dollar. Das durchschnittliche Kursziel liegt bei rund fünfhundertdreissig Dollar und fasst die Erwartungen der Analysten für den zukünftigen Aktienkurs zusammen. Operativ hat Broadcom neue Software-Verbesserungen veröffentlicht, die Kunden bei der Sicherheitsbewertung und beim automatisierten Patching unterstützen sollen.",
-   "dur": 62.7,
-   "at": "2026-10-28T08:35:28Z"
+   "text": "Die Aktie von Broadcom steht nach aktuellen Meldungen stark im Fokus des Marktes. Laut Broadcom wurde eine Finanzierungsstruktur in Höhe von dreiundsechzig Milliarden Dollar angekündigt, um in Zusammenarbeit mit Banken wie der Bank of America, Blackstone, Citi und Morgan Stanley Rechenkapazitäten fur künstliche Intelligenz zu ermöglichen. Zudem meldet das US-Finanzmagazin Barron's, dass Broadcom von einem grossen Anthropic-Finanzierungsdeal profitiert, was zu Kurssteigerungen und Hochstufungen geführt hat. In den vorliegenden Meldungen wurden keine rechtlichen Probleme gefunden, wobei das Finanzportal Yahoo Finance erwähnt, dass Fitch die Einstufung von Broadcom mit A- und positivem Ausblick bestätigt hat, trotz Hinweisen auf Risiken im Zusammenhang mit KI-Finanzierungen. Analysten bewerten das Unternehmen überwiegend positiv. So verweist Yahoo Finance auf insgesamt siebenundfünfzig Kaufempfehlungen und zwei Halteempfehlungen, während das durchschnittliche Kursziel bei rund fünfhundertdreissig Dollar liegt. Die Baird bestätigt ein Outperform-Rating mit einem Kursziel von sechshundertdreissig Dollar, und StoneX bekräftigt das Rating Kaufen mit einem Ziel von fünfhundertfünfundvierzig Dollar, beides gestützt auf den neuen KI-Finanzierungsdeal. Die UBS bestätigt ihr Kursziel von vierhundertsiebzig Dollar. Operativ macht das Unternehmen ebenfalls von sich reden: Laut Broadcom gibt es neue Verbesserungen für TrueSource Spring Enterprise, die Kunden bei der Sicherheit und beim automatischen Patching helfen sollen.",
+   "dur": 104.9,
+   "at": "2026-10-28T12:11:02Z"
   },
   "ASML": {
    "file": "ASML.mp3",
-   "hash": "4d6cc82df18cae45",
-   "th": "416420b7bd8794aa",
-   "engine": "gemini",
-   "id": "c75d181fb6",
-   "voice": "Kore",
-   "model": "gemini-2.5-flash-preview-tts",
+   "hash": "65f8a77c5db2753b",
+   "th": "c7309e32c0e75428",
+   "id": "04ed132112",
+   "voice": "de-CH-LeniNeural",
+   "engine": "edge",
    "br": 24,
-   "text": "ASML Holding verzeichnete laut dem Finanzportal Yahoo Finance Gewinne durch eine starke EUV-Nachfrage und angehobene Prognosen. Gleichzeitig berichtet die Chart- und Börsenplattform TradingView, dass starke Verkäufe im dritten Quartal des Jahres 2026 keinen Aufwärtstrend bei der Bewertung auslösten. Zu den Analystenbewertungen: Die UBS AG vergab laut Finanzen.net eine Kaufempfehlung. Zudem bestätigte JP Morgan die Einstufung auf Übergewichten mit einem Kursziel von zweitausenddreihundertfünfzig Dollar, während Wells Fargo, RBC Capital und Bernstein ebenfalls Einschätzungen abgaben und Kursziele zwischen zweitausend Dollar und zweitausendsechshundertdreiundzwanzig Dollar nannten. Das Unternehmen profitiert von der starken Nachfrage nach EUV-Lithographie, und laut dem Finanzportal MarketScreener Schweiz könnte das Unternehmen im Jahr 2026 bis zu eins Komma sechs Prozent zur niederländischen Wirtschaft beitragen. Als wichtige Kennzahl wird das durchschnittliche Kursziel der Analysten von rund zweitausendeinhundertvierunddreissig Dollar genannt, welches die Markterwartungen widerspiegelt. Es gab Berichte über Widersprüche bezüglich der Bewertung, da FinanzNachrichten.de meldet, dass der Markt viel zu pessimistisch sei und die Aktie günstig wirke, während Seeking Alpha die Bewertung als teuer bezeichnet.",
-   "dur": 85.0,
-   "at": "2026-10-28T09:35:20Z"
+   "text": "ASML Holding verzeichnete laut Yahoo Finance am sechsundzwanzigsten Oktober Netto-ETF-Käufe in Höhe von rund dreiunddreissig Millionen Dollar. TradingView berichtet, dass starke Verkäufe im dritten Quartal 2026 zu keinem direkten Aufwärtstrend bei der Bewertung führten, während Seeking Alpha auf eine starke EUV-Nachfrage und höhere Prognosen verweist. Broker-Test.de warnt vor einer technischen Überdehnung, die das Korrekturrisiko erhöht, und Seeking Alpha nennt Kursrückgänge nach den jüngsten Quartalszahlen. Analysten und Bewertungen zeichnen folgendes Bild: JP Morgan bestätigte die Einstufung als Übergewichten und senkte das Kursziel auf rund zweitausenddreihundertfünfzig Dollar. Wells Fargo führt die Aktie ebenfalls als Übergewichten mit einem Kursziel von rund zweitausendfünfhundert Dollar. RBC Capital stuft das Papier als Besser als Markt ein und nennt Kursziele von rund 2000 bis zweitausendeinhundert Dollar, während Bernstein ein Kursziel von rund zweitausendsechshundertdreiundzwanzig Dollar ausgibt. Das durchschnittliche Kursziel aller Analysten liegt bei rund zweitausendeinhundertsechsunddreissig Dollar. Zum aktuellen Geschäftsverlauf wirkt aufwertend, dass ASML von einer starken EUV-Nachfrage und soliden Verkaufszahlen profitiert. Abwertend wirkten sich die Quartalsergebnisse aus, die den Kurs zeitweise fallen liessen. Beim Thema Bewertung herrscht Uneinigkeit: FinanzNachrichten.de berichtet, der Markt sei viel zu pessimistisch und die Aktie so günstig wie selten, während Seeking Alpha zwar ein aussergewöhnliches Geschäft bescheinigt, die Bewertung jedoch als teuer bezeichnet.",
+   "dur": 117.0,
+   "at": "2026-10-28T12:11:17Z"
   },
   "INTC": {
    "file": "INTC.mp3",
@@ -93,15 +90,15 @@
   },
   "IBM": {
    "file": "IBM.mp3",
-   "hash": "254c804175ed2052",
-   "th": "8e3d6f22b471b7fe",
-   "id": "acf31ba984",
+   "hash": "537e643fc2723b2a",
+   "th": "45fb4a0e623c8c66",
+   "id": "f9e65ad8f5",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Ein kurzer Blick auf die wichtigsten Entwicklungen bei IBM zeigt, dass das Unternehmen neue Identitäts- und Sicherheitslösungen für KI-Agenten sowie Governance-Tools eingeführt hat. Zudem stellt IBM HashiCorp Vault gegen eigenmächtige KI-Agenten vor, und laut AOL.com könnte die Wette auf Quantencomputing ein echter Katalysator für die Aktie sein. In den vorliegenden Meldungen wurden keine rechtlichen Probleme gefunden, allerdings berichtet finanzen.ch über Verluste eines IBM-Investments von vor einem Jahr, und Finanzen.net meldet, dass die IBM-Aktie am Dienstagabend nach unten tendiert. Analysten zeigen sich überwiegend konstruktiv: Jefferies bestätigt das Rating Kaufen und erhöht das Kursziel auf zweihundertachtzig Dollar. Die UBS bestätigt das Rating Neutral und erhöht das Kursziel auf zweihundertdreiundvierzig Dollar. Die Citigroup bestätigt das Rating Kaufen und erhöht das Kursziel auf zweihundertachtzig Dollar. Morgan Stanley bestätigt das Rating Marktgewichten und erhöht das Kursziel auf zweihundertvierzig Dollar. BMO Capital bestätigt das Rating Wie der Markt und erhöht das Kursziel auf zweihundertfünfundsechzig Dollar, und Barclays bestätigt das Rating Übergewichten und erhöht das Kursziel auf zweihundertsiebenundsiebzig Dollar. Zurück zu IBM: Das Unternehmen führt Identität und Kontrolle für KI-Agenten ein, um Frontier Intelligence für Unternehmen zu sichern, und die watsonx Orchestrate Plattform erweitert das Enterprise AI Agent Management mit neuen Funktionen auf der TechXchange 2026. Zudem wurde die Cohesity Data Cloud als erste Cloud-Wiederherstellungsmethode für die Interoperabilität mit IBM Terraform Self-Managed validiert. Auf der abwertenden Seite haben sich Oracle, IBM und Intel von OKX-ICE Stock Tokens abgemeldet.",
-   "dur": 128.8,
-   "at": "2026-10-28T08:36:44Z"
+   "text": "IBM: Ein kurzer Ueberblick zeigt, dass das Unternehmen neue Governance- und Identitätstools für autonome KI-Agenten vorgestellt hat. Ausserdem lehnt der Konzern gemeinsam mit weiteren Firmen tokenisierte Aktienplattformen ab, während Analysten auf das Potenzial im Bereich des Quantencomputings hinweisen. In den vorliegenden Meldungen wurden keine rechtlichen Probleme gefunden. Die Bank Jefferies bewertet die Aktie mit Kaufen und einem Kursziel von zweihundertachtzig Dollar. Die UBS gibt ein neutrales Rating mit einem Kursziel von zweihundertdreiundvierzig Dollar aus. Citigroup stuft die Aktie mit Kaufen und zweihundertachtzig Dollar ein. Morgan Stanley bleibt bei Marktgewichten mit zweihundertvierzig Dollar Kursziel. BMO Capital sieht die Aktie wie den Markt bei zweihundertfünfundsechzig Dollar, und Barclays stuft sie mit Uebergewichten und zweihundertsiebenundsiebzig Dollar ein. Zurueck zu IBM: Das Unternehmen fuehrt Identitaet und Kontrollsysteme fuer KI-Agenten ein und erweitert die Plattform watsonx Orchestrate. Zudem validiert Cohesity Data Cloud die Interoperabilitaet mit IBM Terraform Self-Managed. Demgegenueber steht die Abmeldung von bestimmten tokenisierten Aktienplattformen. Zu den wichtigsten Kennzahlen gehoert das durchschnittliche Kursziel der Analysten von zweihundertsiebenundfünfzig Dollar, das hoechste Kursziel von dreihundert Dollar sowie das tiefste Kursziel von einhundertvierundsiebzig Dollar, waehrend eine jaehrlich waachsende Markt-CAGR von zwanzig Komma zwei Prozent genannt wird.",
+   "dur": 108.0,
+   "at": "2026-10-28T12:11:33Z"
   },
   "NOW": {
    "file": "NOW.mp3",
@@ -117,27 +114,27 @@
   },
   "META": {
    "file": "META.mp3",
-   "hash": "d8e0d9b1c60f409b",
-   "th": "95c5cdd913386836",
-   "id": "282af30cd3",
+   "hash": "5a3a022ce2215b1e",
+   "th": "cae9a81c4be4c32f",
+   "id": "a5e6e7ca6f",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Meta Platforms steht aktuell im Fokus der Maerkte, da das Unternehmen eine massive Kapitalerhoehung zur Finanzierung seiner Kuenstliche-Intelligenz-Ausgaben plant. Laut Reuters bereitet der Konzern den groessten Aktienverkauf seiner Geschichte vor, wobei das Volumen zwischen fünfundneunzig und siebenundneunzig Komma fünf Milliarden Dollar liegen soll. Ausserdem wurde bekannt, dass Nvidia sich mit drei Milliarden Dollar an dieser Eigenkapitalfinanzierung beteiligt und die Partnerschaft ausbaut. Auf der Produktseite meldet Facebook die Einfuhrung des persoenlichen KI-Agenten Muse in Singapur sowie neuer Tools fuer Community-Administratoren. Zurueck zu Meta Platforms: In den vorliegenden Meldungen wurden einige Risiken und rechtliche Probleme gefunden. Laut Bloomberg Law News wurden ein Aktiendeal von Chef Mark Zuckerberg und die Restrukturierung des Konzerns vor Gericht angefochten. Zudem berichtet Barrons ueber Kursrueckgaenge bei einer siebenundzwanzig-Milliarden-Dollar-Anleihe fuer Rechenzentren, und The Globe and Mail merkt an, dass die Aktie trotz starker Quartalszahlen fiel. Die Analystenbewertungen zeigen sich ueberwiegend positiv. Yahoo Finance verzeichnet ein durchschnittliches Kursziel von rund achthundertsiebenundvierzig Dollar, wobei grosse Haeuser wie die UBS, die Citigroup und Mizuho ihre Kursziele zuletzt nach oben anpassten und Einstufungen wie Kaufen bestaetigten. Das begruenden Analysten wie jene von Citizens und Wells Fargo vor allem mit den strategischen Schritten zur Kapitalerhoehung. Widersprueche gab es in den Meldungen lediglich bezueglich der genauen Hoehe des geplanten Aktienangebots, das von verschiedenen Quellen zwischen fünfundneunzig Milliarden und siebenundneunzig Komma fünf Milliarden Dollar beziffert wurde.",
-   "dur": 119.0,
-   "at": "2026-10-28T08:36:55Z"
+   "text": "Meta Platforms steht aktuell im Fokus der Finanzmärkte, da das Unternehmen eine massive Kapitalerhöhung von bis zu siebenundneunzig Komma fünf Milliarden Dollar zur Finanzierung seiner KI-Ausgaben plant. Zudem beteiligt sich Nvidia mit drei Milliarden Dollar am Aktienangebot von Meta und baut damit die Partnerschaft aus. Die Aktie von Meta verzeichnete zuletzt Kursrückgänge, obwohl das Unternehmen starke Quartalszahlen vorgelegt hat. Zu den Risiken und rechtlichen Problemen wird aus den vorliegenden Meldungen berichtet, dass der Aktiendeal von Mark Zuckerberg und eine Restrukturierung von Meta vor Gericht angefochten wurden, wie Bloomberg Law News meldet. Barron's berichtet zudem über einen Einbruch der Anleihen für Rechenzentren im Wert von siebenundzwanzig Milliarden Dollar, und Seeking Alpha warnt in einer Rating-Herabstufung vor geringem Sicherheitsspielraum wegen der hohen KI-Ausgaben. Zu den Analysten-Bewertungen zeigt sich ein überwiegend positives Bild: Yahoo Finance nennt ein durchschnittliches Kursziel von achthundertsiebenundvierzig Dollar bei einer Konsensempfehlung, die stark zu Käufen tendiert. Mizuho bestätigt die Einstufung als besser als den Markt mit einem Kursziel von neunhundertfünfzig Dollar, die UBS bestätigt Kaufen mit einem Kursziel von achthundertzweiundneunzig Dollar, die Citigroup bestätigt Kaufen mit einem Kursziel von neunhundertfünf Dollar, DA Davidson bestätigt Kaufen mit einem Kursziel von achthundert Dollar, Evercore ISI Group bestätigt besser als den Markt mit einem Kursziel von achthundertsiebzig Dollar und BMO Capital bestätigt die Einstufung wie der Markt mit einem Kursziel von sechshundertfünfundachtzig Dollar. Was die Firma gerade macht: Aufwertend wirkt, dass Meta den weltweit ersten persönlichen KI-Agenten namens Muse in Singapur eingeführt hat und Nvidia mit drei Milliarden Dollar einsteigt. Abwertend wirkt, dass der Aktienkurs im Zuge der Kapitalerhöhungspläne unter Druck geriet. Als wichtige Kennzahl wird das durchschnittliche Kursziel von achthundertsiebenundvierzig Dollar genannt, das den von Analysten im Mittel erwarteten Aktienkurs widerspiegelt. Bezüglich Widersprüche berichtet Investor's Business Daily einerseits von Kursverlusten wegen der Kapitalerhöhung, während Analysten sich zu diesen Plänen dennoch positiv äussern.",
+   "dur": 155.9,
+   "at": "2026-10-28T12:11:53Z"
   },
   "AMZN": {
    "file": "AMZN.mp3",
-   "hash": "15becf32bb37147e",
-   "th": "ad58f127395a404a",
-   "id": "6dfedc7bcc",
+   "hash": "c2dc329d7e443c07",
+   "th": "24a65549d2ae3142",
+   "id": "f81520cf66",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Amazon steht derzeit im Zentrum des Marktinteresses, da Anleger und Beobachter gespannt auf die Bekanntgabe der Ergebnisse für das dritte Quartal 2026 blicken. Laut Yahoo Finance, einem Finanzportal, das Meldungen und Analystenbewertungen bündelt, steht dabei vor allem das Wachstum des Cloud-Bereichs AWS im Mittelpunkt. Die kanadische Tageszeitung The Globe and Mail berichtet zudem, dass Amazon und Alphabet in diesem Jahr jeweils mindestens zweihundert Milliarden Dollar für Rechenzentren ausgeben. Ausserdem hat die Federal Communications Commission laut der Chart- und Börsenplattform TradingView Amazons Globalstar-Deal über elf Komma fünf Milliarden Dollar abgesegnet. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden, allerdings verzeichnet die Aktie laut The Globe and Mail eine schwächere Performance im Vergleich zum S&P fünfhundert und dem Nasdaq-einhundert. Zudem berichtet Seeking Alpha über eine Kennzahl, die vor den Gewinnen abschreckt. Die Analystenbewertungen zeigen ein überwiegend positives Bild. Die UBS bestätigt ihr Rating Kaufen und erhöht das Kursziel auf dreihundertachtundvierzig Dollar, während Morgan Stanley das Ziel auf dreihundertfünfzig Dollar anhebt. Wells Fargo passte das Kursziel auf dreihundertneunundzwanzig Dollar an und Cantor Fitzgerald auf dreihundertzehn Dollar. Tigress Financial erhöhte das Ziel deutlich auf dreihundertfünfundachtzig Dollar, und TD Cowen bestätigt das Ziel bei dreihundertfünfzig Dollar. Mizuho bekräftigt sein Outperform-Rating mit einem Kursziel von dreihundertdreissig Dollar. Zurück zu Amazon: Das Unternehmen macht durch verschiedene Projekte auf sich aufmerksam. Laut einer eigenen Mitteilung von About Amazon gab es im dritten Quartal Ankündigungen von neuen Geräten bis hin zu künstlichen Intelligenzen. Auch Amazons Zoox plant eine Expansion mit einem Deal für einhundertfünfzig Robotaxis in Santa Monica, und ein Backup-Power-Deal mit Generac könnte laut Yahoo Finance ein Wendepunkt sein. Demgegenüber steht laut Yahoo Finance ein sogenanntes Muse-Problem. Zu den wichtigsten Kennzahlen gehört das von TradingView genannte Kursziel von dreihundertfünfunddreissig Dollar, das ein Aufwärtspotenzial von dreiunddreissig Prozent signalisiert. Bezüglich Insider-Transaktionen zeigen die vorliegenden Daten diverse Verkäufe, darunter von Douglas J Herrington, der im Oktober 2026 tausend Aktien im Wert von rund zweihunderteinundfünfzigtausendfünfhundert Dollar verkaufte, sowie Verkäufe von David Zapolsky und Andrew R Jassy. Solche Verkäufe sind oft langfristig geplant oder dienen steuerlichen Zwecken und sagen daher meist weniger aus als Insider-Käufe. Keine Anlageberatung.",
-   "dur": 191.1,
-   "at": "2026-10-28T08:37:24Z"
+   "text": "Amazon zeigt derzeit ein gemischtes Bild an den Maerkten. Laut der kanadischen Tageszeitung The Globe and Mail investieren Amazon und Alphabet in diesem Jahr jeweils mindestens zweihundert Milliarden Dollar in Rechenzentren. Gleichzeitig berichtet das Finanzportal Yahoo Finance, dass vor den kommenden Quartalszahlen die enormen Ausgaben fuer kuenstliche Intelligenz und deren Rechtfertigung stark im Fokus stehen. Um den steigenden Kosten entgegenzuwirken, hat Amazon seine Programmierer angewiesen, den Einsatz von kuenstlicher Intelligenz einzudaemmen. Waehrend die Aktie laut The Globe and Mail zeitweise Schwaecher als der S&P fünfhundert und der Nasdaq-einhundert abschneidet und gemischte Analystenmeinungen vorherrschen, meldet das Schweizer Finanzportal finanzen.ch zu anderen Zeiten freundliche Kurse und Aufschlaege. Zu den positiven Unternehmensmeldungen gehoert laut Yahoo Finance eine geplante Expansion von Zoox mit einem Deal ueber einhundertfünfzig Robotaxis in Santa Monica. Auf der Analystenseite gibt es zahlreiche Neubewertungen. Die UBS bestaetigte ihr Rating am sechsundzwanzigsten Oktober 2026 mit Kaufen und setzte das Kursziel auf dreihundertachtundvierzig Dollar. Morgan Stanley beliess das Rating am neunzehnten Oktober 2026 auf Uebergewichten bei einem Kursziel von dreihundertfünfzig Dollar. Wells Fargo bestaetigte am zwölften Oktober 2026 das Rating Uebergewichten mit einem Kursziel von dreihundertneunundzwanzig Dollar, waehrend Cantor Fitzgerald am selben Tag das Rating Uebergewichten bei einem Kursziel von dreihundertzehn Dollar bestaetigte. Tigress Financial bestaetigte am sechsten Oktober 2026 das Kaufen-Rating mit einem Kursziel von dreihundertfünfundachtzig Dollar, und TD Cowen zog am fünften Oktober 2026 mit einem Kaufen-Rating und einem Kursziel von dreihundertfünfzig Dollar nach. Mizuho bestaetigte am achtundzwanzigsten Oktober 2026 das Outperform-Rating mit einem Kursziel von dreihundertdreissig Dollar. Das durchschnittliche Kursziel der Analysten liegt bei dreihundertzweiunddreissig Dollar.",
+   "dur": 147.9,
+   "at": "2026-10-28T12:12:14Z"
   },
   "MRVL": {
    "file": "MRVL.mp3",
@@ -334,15 +331,15 @@
   },
   "BKW.SW": {
    "file": "BKW.SW.mp3",
-   "hash": "cfd0db9396bc6275",
-   "th": "7f698bbc3b716081",
-   "id": "89a3632dde",
+   "hash": "d9aceb93be26bfd3",
+   "th": "0f47afb6ef4591d2",
+   "id": "4a6dc5f9f0",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Hier ist der aktuelle Überblick zur Aktie der BKW AG. Laut dem Schweizer Finanzportal finanzen.ch zeigte sich das Papier in den Berichten der vergangenen Tage sehr bewegt und verzeichnete sowohl positive Reaktionen und freundliche Tendenzen als auch Einbussen und negative Vorzeichen. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Zu den Analysten-Bewertungen berichtet das Finanzportal Yahoo Finance von insgesamt Analysten, wobei zwei zum Kauf, drei zum Halten, einer zum Verkauf, einer zum starken Kauf und einer zum starken Verkauf raten. Das durchschnittliche Kursziel wird auf einhundertdreiundsiebzig Dollar beziffert, während die Spanne von einem tiefsten Kursziel von einhundertneununddreissig Dollar bis zu einem höchsten Kursziel von zweihundertfünf Dollar reicht. Im Handelsverlauf gab es abwechselnd positive Phasen mit Kursgewinnen und freundlichen Tendenzen sowie Vormittage mit Einbussen und negativen Vorzeichen. Bei den wichtigen Kennzahlen ist neben dem durchschnittlichen Kursziel auch ein Aufwärtspotenzial von rund siebzehn Prozent vermerkt. Insider-Käufe oder Verkäufe wurden in den Daten nicht genannt. Auch Aussagen von Chefs oder dem Management liegen aktuell nicht vor. Widersprüche zwischen den Quellen gibt es in den Berichten keine.",
-   "dur": 90.3,
-   "at": "2026-10-28T09:37:31Z"
+   "text": "Die Aktie der BKW AG zeigte sich nach Berichten des Schweizer Finanzportals finanzen.ch in den letzten Handelstagen bewegungsfreudig, wobei auf teils Schwaechere Phasen am Vormittag auch freundliche Tendenzen und Kursgewinne folgten. Laut den Daten von Yahoo Finance ist das Analystenbild geteilt: Es gibt zwei Kaufempfehlungen, drei Halteempfehlungen, eins Verkaufsempfehlung, eins starke Kaufempfehlung sowie eins starke Verkaufsempfehlung. Das durchschnittliche Kursziel der Analysten liegt bei zweihundertneun Dollar, wobei das maximale Kursziel zweihundertachtundvierzig Dollar und das minimale Kursziel einhundertachtundsechzig Dollar betraegt. Konkrete Insider-Aktivitaeten oder Aussagen des Managements wurden fuer diesen Zeitraum nicht verzeichnet.",
+   "dur": 52.3,
+   "at": "2026-10-28T12:12:21Z"
   },
   "UBSG.SW": {
    "file": "UBSG.SW.mp3",
@@ -454,15 +451,15 @@
   },
   "BNTX": {
    "file": "BNTX.mp3",
-   "hash": "e84bc63afc479fb9",
-   "th": "144303b17dca05de",
-   "id": "04efb98488",
+   "hash": "1b4681a625773c27",
+   "th": "71d566ee8f965d73",
+   "id": "ef7255619c",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "BioNTech SE steht derzeit in den Wirtschaftsberichten im Fokus verschiedener Entwicklungen. Laut dem deutschen Finanznachrichtenportal FinanzNachrichten.de melden BioNTech und Bristol Myers eine Krankheitskontrolle von neunzig Prozent und sehen ein Milliardenpotenzial durch neue Therapien. Gleichzeitig berichtet BioPharm International, dass der HER2-Antikörper-Wirkstoffkonjugat-Kandidat von BioNTech sein Phase-drei-Ziel erreicht hat, wobei beteiligte Unternehmen jedoch nur einen begrenzten Nutzen sehen. Die UBS bekräftigt laut dem Finanzportal marketscreener.com ihre Kaufempfehlung und sieht für BioNTech trotz Gegenwind eine Kaufchance. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme genannt, ausser dass beim Erreichen des Phase-drei-Ziels des HER2-Antikörper-Wirkstoffkonjugats laut BioPharm International nur ein begrenzter Nutzen gesehen wird. Bei den Analystenbewertungen stuft JPMorgan die Aktie neutral mit einem Kursziel von sechsundachtzig Komma acht sechs Dollar ein, wie MarketScreener Deutschland berichtet. Die UBS bekräftigt ihre Kaufempfehlung. Laut Yahoo Finance liegt das durchschnittliche Kursziel von Analysten bei einhundertsechzehn Dollar, während das höchste Kursziel bei einhundertdreiundvierzig Dollar und das tiefste bei fünfundsiebzig Komma vier neun Dollar liegt. Im Konsens gibt es vierzehn Kaufempfehlungen, sieben Halteempfehlungen und eine starke Kaufempfehlung, was ein Aufwärtspotenzial von dreiunddreissig Komma eins Prozent ergibt. Canaccord Genuity bestätigte im Oktober 2026 die Kaufempfehlung bei einem gesenkten Kursziel von einhundertzweiunddreissig Dollar, Morgan Stanley bestätigte die Übergewichtung bei einem Kursziel von einhundertvierzehn Dollar und BMO Capital stufte die Aktie im September 2026 auf wie der Markt ab bei einem Kursziel von einhundertfünf Dollar. Positive Meldungen wie die neunzig-prozentige Krankheitskontrolle und das Erreichen des Phase-drei-Ziels beim HER2-Antikörper-Wirkstoffkonjugat prägen das Bild, dem allerdings ein von Unternehmen als begrenzt eingestufter Nutzen gegenübersteht. Wichtige Kennzahlen umfassen ein durchschnittliches Kursziel von einhundertsechzehn Dollar sowie ein Aufwärtspotenzial von dreiunddreissig Komma eins Prozent, was die durchschnittlichen Erwartungen der Analysten widerspiegelt.",
-   "dur": 161.4,
-   "at": "2026-10-28T07:37:02Z"
+   "text": "Bei BioNTech steht die Aktie in den aktuellen Berichten im Fokus von Analysten und neuen medizinischen Meldungen. Laut FinanzNachrichten.de melden BioNTech und Bristol Myers eine Krankheitskontrolle von neunzig Prozent durch neue Therapien, was ein Milliardenpotenzial eröffnen könnte. Der Investor-Verlag berichtet, dass die UBS trotz Gegenwinds eine Kaufchance bei der Aktie sieht. MarketScreener Deutschland meldet zudem, dass JPMorgan die Bewertung neutral bewertet und ein Kursziel von sechsundachtzig Komma acht sechs Dollar ansetzt. Die Analystenbewertungen zeigen laut Yahoo Finance vierzehn Kaufempfehlungen, eins starkes Kaufen und sieben Halten-Empfehlungen, während das durchschnittliche Kursziel bei einhundertsechzehn Dollar liegt. Zudem wird Canaccord Genuity mit einem Kursziel von einhundertzweiunddreissig Dollar und dem Rating Kaufen genannt, Morgan Stanley mit einhundertvierzehn Dollar und Übergewichten, BMO Capital mit einhundertfünf Dollar und Wie der Markt, Citigroup mit einhundertfünfundzwanzig Dollar und Kaufen sowie Evercore ISI Group mit einhundertdreissig Dollar. Was das Unternehmen gerade macht, zeigt sich an den Meldungen zu gemeinsam mit Bristol Myers erzielten Fortschritten. Wichtige Kennzahlen umfassen das durchschnittliche Kursziel von einhundertsechzehn Dollar sowie das tiefe Kursziel von fünfundsiebzig Komma fünf acht Dollar und das hohe Kursziel von einhundertdreiundvierzig Dollar. Bei den Insider-Aktivitäten zeigen offizielle Meldungen, dass Ugur Sahin im September und Oktober 2026 Aktien im Rahmen von geplanten Verkaufsplänen veraeusserte.",
+   "dur": 111.0,
+   "at": "2026-10-28T12:12:36Z"
   },
   "ABBN.SW": {
    "file": "ABBN.SW.mp3",
@@ -514,9 +511,9 @@
   }
  },
  "status": "quota: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usa",
- "checked_at": "2026-10-28T11:19:30Z",
+ "checked_at": "2026-10-28T12:12:36Z",
  "quota_until": 1793189862.757444,
- "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@b3af7bd8cb7cdc11cdbf9006c574763b4134938c/data/audio/",
+ "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@a514ea0d561df149b7fc58cba5eb00e52e502049/data/audio/",
  "extra": {
   "intro": {
    "file": "_intro.mp3",
