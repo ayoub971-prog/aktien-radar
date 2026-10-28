@@ -2,7 +2,7 @@
 (function () {
 'use strict';
 var REPO = 'ayoub971-prog/aktien-radar';
-var APP_VERSION = 'v35';
+var APP_VERSION = 'v36';
 var SECTOR_ORDER = ['Halbleiter/Hardware', 'Software/KI', 'Energie', 'Industrie/Luftfahrt', 'Finanzen', 'Rohstoffe/Gold', 'Konsum/Internet', 'Gesundheit', 'ETFs/Indizes', 'Sonstige'];
 var TAGS = [
   { n: 'Quartalszahlen', re: /quartalszahl|quartalsergebnis|quartalsbericht|jahreszahlen|halbjahreszahlen|geschäftszahlen|\bearnings\b|quarterly results|\bq[1-4]\b.{0,12}(results|earnings|revenue)|(results|earnings) for (the )?(first|second|third|fourth)|\bumsatz\b|\bbilanz\b/i },
@@ -226,7 +226,7 @@ function statusLine() {
 }
 
 function viewHome() {
-  var list = stockList(), h = podHtml() + '<a href="#/sendung" id="sendBtn" class="podBtn sendBtn">🎧 Sendung von heute</a>' + selHtml() + pendHtml();
+  var list = stockList(), h = podHtml() + '<a href="#/sendung" id="sendBtn" class="podBtn sendBtn">🎧 Sendung für mich (deine Aktien)</a>' + selHtml() + pendHtml();
   h += '<div class="bar"><select id="sortSel" aria-label="Sortierung">' +
     '<option value="eigene">Eigene Reihenfolge</option><option value="az">Name A-Z</option><option value="sektor">Nach Sektor</option><option value="tag">Tagesveränderung</option></select>' +
     '<button id="reloadBtn" class="small">Aktualisieren</button></div>';
@@ -769,7 +769,8 @@ function route() {
     else if (h === '#/news') { setTab('news'); viewNews(); }
     else if (h === '#/markt') { setTab('markt'); viewMarkt(); }
     else if (h === '#/liste') { setTab('liste'); viewList(); }
-    else if (h === '#/sendung') { setTab('home'); viewSendung(); }
+    else if (h === '#/sendung') { setTab('home'); SN.show = 'mine'; viewSendung(); }
+    else if (h === '#/nachdenken') { setTab('entdecken'); SN.show = 'ent'; viewSendung(); }
     else if (h === '#/entdecken') { setTab('entdecken'); viewEntdecken(); }
     else { setTab('home'); viewHome(); }
   } catch (err) { showErr('Anzeige-Fehler: ' + err.message); }
@@ -1436,6 +1437,7 @@ function viewEntdecken() {
   var h = '<h2>Entdecken</h2><div class="entChips">' + ENT_LISTS.map(function (l) { return '<button type="button" class="entChip' + (l[0] === cur[0] ? ' on' : '') + '" data-ent="' + l[0] + '">' + l[1] + '</button>'; }).join('') + '</div>';
   h += '<p class="tiny">' + esc(cur[2]) + (ENT.generated_at ? ' Stand: ' + new Date(ENT.generated_at).toLocaleString('de-CH', { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' }) + '.' : '') +
     (ENT.universe ? ' Aus ' + ENT.universe + ' Aktien (S&P 500, Nasdaq-100, deine Liste).' : '') + '</p>';
+  h += '<a href="#/nachdenken" id="ndBtn" class="podBtn sendBtn">🧠 Podcast Zum Nachdenken (Aktien ausserhalb deiner Liste)</a>';
   h += entPodHtml(cur[0], items.length);
   if (!items.length) h += '<div class="banner">' + (ENT.err ? 'Die Entdecken-Daten konnten nicht geladen werden.' : 'Für diese Liste gibt es im Moment keine Daten.') + '</div>';
   h += items.map(function (x, i) {
@@ -1632,11 +1634,22 @@ function marktPod() {
 
 
 /* ===== v34 Sendung: Episoden (MP3-Kapitel), Kapitelsprung, Fortsetzen pro Episode ===== */
-var SN = { doc: null, ep: null, i: 0, t: 0, playing: false, tok: 0 };
+var SN = { doc: null, docs: {}, show: 'mine', ep: null, i: 0, t: 0, playing: false, tok: 0 };
+/* v36: zwei Podcasts: 'mine' = Sendung für mich (Startseite), 'ent' = Zum Nachdenken (Entdecken). Je Episode eine ganze MP3 (full). */
+var SN_SHOW = { mine: { hash: '#/sendung', file: 'data/sendung.json', back: '#/', backT: '‹ Startseite', icon: '🎧', label: 'Sendung für mich' },
+  ent: { hash: '#/nachdenken', file: 'data/nachdenken.json', back: '#/entdecken', backT: '‹ Entdecken', icon: '🧠', label: 'Zum Nachdenken' } };
+function snHere() { return location.hash === SN_SHOW[SN.show].hash; }
 function snPosAll() { try { return JSON.parse(lsGet('ar.sendung.pos') || '{}') || {}; } catch (e) { return {}; } }
 function snSave() { if (!SN.ep) return; var m = snPosAll(); m[SN.ep.id] = { i: SN.i, t: SN.t, at: Date.now() }; lsSet('ar.sendung.pos', JSON.stringify(m)); }
 function snSel(ep) { snHalt(); SN.playing = false; SN.ep = ep; var p = snPosAll()[ep.id] || {}; SN.i = Math.min(p.i || 0, ep.chapters.length - 1); SN.t = p.t || 0; }
-function snSrc(a) { var b = (SN.doc && SN.doc.audio_base) || 'data/audio/'; return b + a.file; }
+function snSrc(a) { var d = (SN.ep && SN.docs[SN.ep.show || 'mine']) || SN.doc, b = (d && d.audio_base) || 'data/audio/'; return b + a.file; }
+function snFull(ep, key) {
+  if (!ep.full || !ep.full.marks || CATS[key]) return;
+  var durs = ep.chapters.map(function (c) { return (c.audio && c.audio.dur) || 0; }), offs = ep.chapters.map(function () { return 0; });
+  ep.full.marks.forEach(function (m) { offs[m[0]] = m[1]; });
+  for (var i = 1; i < offs.length; i++) if (!durs[i]) offs[i] = offs[i - 1] + durs[i - 1];
+  CATS[key] = { url: snSrc(ep.full), durs: durs, offs: offs };
+}
 function snHalt() { SN.tok++; try { if (POD.el && POD.el.dataset.owner === 'sn') POD.el.pause(); } catch (e) {} try { if (!POD.playing && !ENS.playing && !P.playing) window.speechSynthesis && window.speechSynthesis.cancel(); } catch (e) {} }
 function snPause() { if (!SN.playing) return; var c = SN.ep.chapters[SN.i]; SN.playing = false; snHalt(); snSave(); snUI(); snMeta(); }
 function snNext() { SN.i++; SN.t = 0; if (SN.i >= SN.ep.chapters.length) { SN.playing = false; SN.i = 0; snSave(); snUI(); snMeta(); return; } snSave(); snRun(); }
@@ -1644,6 +1657,7 @@ var snSv = catSaver(function () { snSave(); snUI(); });
 function snRun() {
   var c = SN.ep && SN.ep.chapters[SN.i], tok = ++SN.tok; if (!c) return;
   snUI(); snMeta();
+  snFull(SN.ep, 'sn|' + SN.ep.chapters.map(function (s) { return s.audio ? snSrc(s.audio) : null; }).join('|'));
   catRun({ owner: 'sn', segs: SN.ep.chapters, src: snSrc, i: SN.i, t: SN.t, ok: function () { return tok === SN.tok && SN.playing; },
     pos: function (j, t) { if (j !== SN.i) { SN.i = j; SN.t = t; snSave(); snUI(); snMeta(); } SN.t = t; snSv(); },
     next: function () { snNext(); }, end: function () { SN.playing = false; SN.i = 0; SN.t = 0; snSave(); snUI(); snMeta(); },
@@ -1661,7 +1675,7 @@ function snMeta() {
   if (!('mediaSession' in navigator) || !SN.ep) return;
   var c = SN.ep.chapters[SN.i];
   try {
-    navigator.mediaSession.metadata = new MediaMetadata({ title: c ? c.name : '', artist: 'Aktien-Radar · ' + SN.ep.title + ' · Kapitel ' + (SN.i + 1) + '/' + SN.ep.chapters.length, album: 'Sendung' });
+    navigator.mediaSession.metadata = new MediaMetadata({ title: c ? c.name : '', artist: 'Aktien-Radar · ' + SN.ep.title + ' · Kapitel ' + (SN.i + 1) + '/' + SN.ep.chapters.length, album: SN_SHOW[SN.ep.show || 'mine'].label });
     navigator.mediaSession.playbackState = SN.playing ? 'playing' : 'paused';
     navigator.mediaSession.setActionHandler('play', function () { if (!SN.playing) snPlay(); });
     navigator.mediaSession.setActionHandler('pause', function () { snPause(); });
@@ -1672,7 +1686,7 @@ function snMeta() {
 function snEpDur(ep) { var s = 0; ep.chapters.forEach(function (c) { s += (c.audio && c.audio.dur) || 0; }); return s; }
 function snDone(ep) { var p = snPosAll()[ep.id]; if (!p) return 0; var s = 0; for (var i = 0; i < p.i && i < ep.chapters.length; i++) s += (ep.chapters[i].audio && ep.chapters[i].audio.dur) || 0; return s + (p.t || 0); }
 function snUI() {
-  if (!SN.ep || location.hash !== '#/sendung') return;
+  if (!SN.ep || !snHere() || (SN.ep.show || 'mine') !== SN.show) return;
   var c = SN.ep.chapters[SN.i], b = $('snPP');
   if (b) b.textContent = SN.playing ? '❚❚ Pause' : (SN.i > 0 || SN.t > 1 ? '▶ Weiterhören' : '▶ Abspielen');
   if ($('snNow')) $('snNow').textContent = 'Kapitel ' + (SN.i + 1) + ' / ' + SN.ep.chapters.length + ': ' + (c ? c.name : '');
@@ -1682,23 +1696,24 @@ function snUI() {
 function fmtMin(s) { return Math.max(1, Math.round(s / 60)) + ' Min.'; }
 function snDate(ep) { var d = new Date(ep.date + 'T12:00:00'); return d.toLocaleDateString('de-CH', { weekday: 'long', day: 'numeric', month: 'long' }); }
 function viewSendung() {
-  var v = $('view');
-  if (!SN.doc) {
-    v.innerHTML = '<h2>🎧 Sendung</h2><p class="tiny">Lade …</p>';
-    getJSON('data/sendung.json?t=' + Math.floor(Date.now() / 600e3)).then(function (d) { SN.doc = d || { episodes: [] }; if (location.hash === '#/sendung') viewSendung(); }, function () { SN.doc = { episodes: [], err: 1 }; if (location.hash === '#/sendung') viewSendung(); });
+  var v = $('view'), sh = SN.show, S = SN_SHOW[sh];
+  if (!SN.docs[sh]) {
+    v.innerHTML = '<h2>' + S.icon + ' ' + S.label + '</h2><p class="tiny">Lade …</p>';
+    getJSON(S.file + '?t=' + Math.floor(Date.now() / 600e3)).then(function (d) { SN.docs[sh] = d || { episodes: [] }; (SN.docs[sh].episodes || []).forEach(function (e) { e.show = sh; }); if (snHere()) viewSendung(); }, function () { SN.docs[sh] = { episodes: [], err: 1 }; if (snHere()) viewSendung(); });
     return;
   }
+  SN.doc = SN.docs[sh];
   var eps = SN.doc.episodes || [];
-  if (!eps.length) { v.innerHTML = '<h2>🎧 Sendung</h2><div class="banner">' + (SN.doc.err ? 'Die Sendung konnte nicht geladen werden.' : 'Noch keine Episode vorhanden.') + '</div><a class="small" href="#/">‹ Zurück</a>'; return; }
-  if (!SN.ep || !eps.some(function (e) { return e.id === SN.ep.id; })) snSel(eps[0]);
-  var ep = SN.ep, h = '<a class="small" href="#/">‹ Startseite</a><h2>🎧 ' + esc(ep.title) + '</h2>';
-  h += '<p class="tiny">' + fmtMin(snEpDur(ep)) + ' · ' + ep.chapters.length + ' Kapitel · Stimme: Leni (Schweiz). Erstellt ' + new Date(ep.generated_at).toLocaleString('de-CH', { day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit' }) + '.</p>';
+  if (!eps.length) { v.innerHTML = '<h2>' + S.icon + ' ' + S.label + '</h2><div class="banner">' + (SN.doc.err ? 'Der Podcast konnte nicht geladen werden.' : 'Noch keine Episode vorhanden.') + '</div><a class="small" href="' + S.back + '">‹ Zurück</a>'; return; }
+  if (!SN.ep || eps.indexOf(SN.ep) < 0) snSel(eps[0]);
+  var ep = SN.ep, h = '<a class="small" href="' + S.back + '">' + S.backT + '</a><h2>' + S.icon + ' ' + esc(ep.title) + '</h2>';
+  h += '<p class="tiny">' + (sh === 'ent' ? 'Auffällige Aktien ausserhalb deiner Liste: Gewinner, Chancen (Ø Kursziel mind. 30 % höher, mind. 8 Analysten), schlecht bewertete Aktien, Verlierer. ' : 'Nur deine Aktien: Meldungen zu Produkten, Partnern, Aufträgen, Quartalszahlen, Wochenrückblick. ') + (ep.full ? 'Eine durchgehende MP3. ' : '') + fmtMin(snEpDur(ep)) + ' · ' + ep.chapters.length + ' Kapitel · Stimme: Leni (Schweiz). Erstellt ' + new Date(ep.generated_at).toLocaleString('de-CH', { day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit' }) + '.</p>';
   h += '<div class="podCtl snCtl"><div><b id="snNow"></b><br><span id="snInfo" class="tiny"></span></div>' +
     '<button type="button" id="snPP" class="podBtn" style="margin:8px 0">▶ Abspielen</button>' +
     '<div class="podRow"><button type="button" id="snPrev" aria-label="Vorheriges Kapitel">⏮ Kapitel</button><button type="button" id="snNextS" aria-label="Nächste Aktie">⏭ Aktie</button><button type="button" id="snNext" aria-label="Nächstes Kapitel">Kapitel ⏭</button></div>' +
     rateHtml() + '<button type="button" class="txtBtn" data-txt="sendung">📄 Als Text / PDF</button></div>';
   h += '<h3>Kapitel</h3><div id="snCh" class="snList">' + ep.chapters.map(function (c, i) { return '<button type="button" class="snRow" data-ch="' + i + '"><span>' + (i + 1) + '. ' + esc(c.name) + '</span><span class="tiny">' + (c.audio && c.audio.dur ? fmtT(c.audio.dur) : '') + '</span></button>'; }).join('') + '</div>';
-  h += '<h3>Episoden</h3><div class="snList">' + eps.map(function (e) { var d = snEpDur(e), dn = snDone(e); return '<button type="button" class="snRow' + (e.id === ep.id ? ' on' : '') + '" data-ep="' + esc(e.id) + '"><span>' + (e.kind === 'woche' ? '📅 Wochenrückblick' : '☀️ Morgen') + ' · ' + esc(snDate(e)) + '</span><span class="tiny">' + fmtMin(d) + (dn > 5 ? ' · gehört ' + Math.min(100, Math.round(dn / Math.max(d, 1) * 100)) + '%' : '') + '</span></button>'; }).join('') + '</div>';
+  h += '<h3>Episoden</h3><div class="snList">' + eps.map(function (e) { var d = snEpDur(e), dn = snDone(e); return '<button type="button" class="snRow' + (e.id === ep.id ? ' on' : '') + '" data-ep="' + esc(e.id) + '"><span>' + (sh === 'ent' ? (e.kind === 'woche' ? '🧠 Woche' : '🧠 Zum Nachdenken') : e.kind === 'woche' ? '📅 Wochenrückblick' : '☀️ Morgen') + ' · ' + esc(snDate(e)) + '</span><span class="tiny">' + fmtMin(d) + (dn > 5 ? ' · gehört ' + Math.min(100, Math.round(dn / Math.max(d, 1) * 100)) + '%' : '') + '</span></button>'; }).join('') + '</div>';
   h += '<p class="disc">Zum Lernen, keine Anlageberatung. Erstellt nur aus abgerufenen Daten (' + esc(SN.doc.source || 'Yahoo Finance, SEC EDGAR, Schlagzeilen') + '). Text: ' + esc(ep.writer || '') + '. Beträge in USD. Fehlt etwas, wird es gesagt.</p>';
   v.innerHTML = h; window.scrollTo(0, 0);
   $('snPP').onclick = function () { SN.playing ? snPause() : snPlay(); };
@@ -1715,6 +1730,6 @@ var _plAP1 = plAudioPlay; plAudioPlay = function () { if (SN.playing) snPause();
 var _plSp1 = plSpeak; plSpeak = function () { if (SN.playing) snPause(); return _plSp1.apply(this, arguments); };
 var _txtDoc1 = txtDoc; txtDoc = function (what) {
   if (what !== 'sendung') return _txtDoc1(what);
-  var ep = SN.ep || {}; return { title: 'Aktien-Radar ' + (ep.title || 'Sendung'), parts: (ep.chapters || []).map(function (c) { return { h: c.name, t: c.say }; }) };
+  var ep = SN.ep || {}; return { title: 'Aktien-Radar ' + (ep.title || 'Podcast'), parts: (ep.chapters || []).map(function (c) { return { h: c.name, t: c.say }; }) };
 };
 })();
