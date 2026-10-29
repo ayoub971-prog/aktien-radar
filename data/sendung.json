@@ -1,6 +1,200 @@
 {
 "episodes": [
 {
+"id": "2026-10-29-t",
+"kind": "tag",
+"date": "2026-10-29",
+"title": "Morgen-Sendung, Donnerstag, neunundzwanzigsten Oktober",
+"generated_at": "2026-10-29T05:12:42Z",
+"writer": "Gemini (Gratis-Kontingent) 8 Firmen, Rest Vorlage",
+"chapters": [
+{
+"name": "Begrüssung",
+"say": "Guten Morgen und willkommen zur Sendung vom Aktien-Radar, heute Donnerstag, neunundzwanzigsten Oktober. Zuerst ein kurzer Blick auf den Markt, dann die Firmen aus deiner Liste mit neuen Meldungen zu Produkten, Partnern und Projekten, danach die Quartalszahlen dieser Woche und zum Schluss ein Begriff zum Lernen. Kurz vorweg: Alles stammt aus gesammelten Daten und Schlagzeilen, Beträge nenne ich in Dollar. Das ist keine Anlageberatung.",
+"audio": {
+"file": "sendung/2026-10-29-t_00.mp3",
+"hash": "d1dd909ee110e803",
+"dur": 30.3
+}
+},
+{
+"name": "Markt kurz",
+"say": "Der Markt kurz. Der S und P fünfhundert, der Index der fünfhundert grossen US-Firmen, stand zuletzt bei plus null Komma drei Prozent gegenüber dem Vortag. In deiner Liste am stärksten: SK Hynix mit plus zehn Komma sieben Prozent, Micron mit plus fünf Komma neun Prozent, Applied Materials mit plus fünf Komma eins Prozent. Am schwächsten: Samsung Electronics mit minus fünf Komma zwei Prozent, Robinhood mit minus drei Komma drei Prozent. Zum Thema Zinsen meldet Reuters: Die Wall Street endet im Plus, da die Fed den Leitzins stabil hält und der Fokus auf den Gewinnen liegt. Zum Thema Zinsen meldet Reuters: Die Fed lässt die Zinsen unverändert, da sie auf die „Sammlung weiterer Informationen“ wartet.",
+"audio": {
+"file": "sendung/2026-10-29-t_01.mp3",
+"hash": "b88798aee22b36c0",
+"dur": 53.9
+}
+},
+{
+"name": "SK Hynix",
+"sym": "HY9H.MU",
+"say": "Zur Aktie SK Hynix. Der Speicherchip-Hersteller SK Hynix hat seine Ziele für das dritte Quartal übertroffen und einen Rekordgewinn im Zuge des AI-Chip-Supercycles verzeichnet. Zudem steigen die Gewinne des Unternehmens angesichts der stark wachsenden Nachfrage nach KI-Chips. Da SK Hynix zudem positive Nachrichten für Investoren lieferte, könnten diese Meldungen die Aktie eher stärken. Das war SK Hynix.",
+"audio": {
+"file": "sendung/2026-10-29-t_02.mp3",
+"hash": "ec06dc457d0521aa",
+"dur": 31.5
+}
+},
+{
+"name": "Microsoft",
+"sym": "MSFT",
+"say": "Zur Aktie Microsoft. Der Technologiekonzern Microsoft ist stark in das neue Geschäftsjahr gestartet. Das Unternehmen hat seine Investitionen erhöht und konnte gleichzeitig den Gewinn steigern. Das starke Quartal untermauert die Erholung der Aktie. Aufgrund dieser positiven Nachrichten könnte Microsoft eher gestärkt werden. Das war Microsoft.",
+"audio": {
+"file": "sendung/2026-10-29-t_03.mp3",
+"hash": "62fb0245808543ba",
+"dur": 28.2
+}
+},
+{
+"name": "UBS",
+"sym": "UBSG.SW",
+"say": "Zur Aktie UBS. Die UBS Group AG hat im dritten Quartal ein Rekord-Investment-Bank-Quartal verzeichnet. Nach der Veröffentlichung dieser Zahlen sind die Investoren jedoch auf dem Rückzug und die Aktie rutscht ab. Zudem hat die UBS eine Kaufempfehlung für eine andere Aktie veröffentlicht. Ob diese Meldungen die UBS langfristig stärken oder schwächen, bleibt unklar. Das war UBS.",
+"audio": {
+"file": "sendung/2026-10-29-t_04.mp3",
+"hash": "eda8a3c9cf4a95e7",
+"dur": 30.5
+}
+},
+{
+"name": "Robinhood",
+"sym": "HOOD",
+"say": "Zur Aktie Robinhood. Die neue Kette von Robinhood hat die Krypto-Einnahmen gesteigert, obwohl im dritten Quartal ein Gewinn fehlte. Zudem hat Ripple den Deal mit Robinhood auf RLUSD, Prime Brokerage und Treasury Services ausgeweitet. Laut Bernstein könnte sich Robinhood durch Prognosemärkte und neue Angebote erholen, was die Aktie eher stärken könnte. Das war Robinhood.",
+"audio": {
+"file": "sendung/2026-10-29-t_05.mp3",
+"hash": "5ad6d8773183ee8e",
+"dur": 28.8
+}
+},
+{
+"name": "GE Vernova",
+"sym": "GEV",
+"say": "Zur Aktie GE Vernova. GE Vernova treibt den Netzausbau mit einem neun-Milliarden-Dollar-Deal zur Übernahme der Trench Group voran und hat die Umsatzprognose angehoben. Die Bestellungen steigen, da die Nachfrage nach KI-Energie hoch bleibt. Gleichzeitig gab es Berichte, dass neue Bestellungen und Slots die Erwartungen deutlich verfehlt haben. Aufgrund der gemischten Nachrichtenlage könnte GE Vernova eher gestärkt werden. Das war GE Vernova.",
+"audio": {
+"file": "sendung/2026-10-29-t_06.mp3",
+"hash": "856d8cb9a093beef",
+"dur": 32.9
+}
+},
+{
+"name": "Meta",
+"sym": "META",
+"say": "Zur Aktie Meta. Mark Zuckerbergs Meta-Plattformen meldeten zum ersten Mal seit 2012 einen negativen freien Cashflow. Das Unternehmen arbeitet zudem mit fünf US-Universitäten zusammen, um medizinische und wissenschaftliche Durchbrüche zu beschleunigen, und hat Investoren seine Hardware-Strategie erläutert. Ob diese Entwicklungen Meta stärken oder schwächen, ist aus den Meldungen noch nicht eindeutig abzuleiten. Das war Meta.",
+"audio": {
+"file": "sendung/2026-10-29-t_07.mp3",
+"hash": "1d7b74b9c8e43399",
+"dur": 32.9
+}
+},
+{
+"name": "ServiceNow",
+"sym": "NOW",
+"say": "Zur Aktie ServiceNow. ServiceNow verzeichnete einen Gewinnrückgang trotz Übernahmen und Umsatzsteigerungen. Dennoch startet das Unternehmen die Control Tower Alliance, um Firmen bei der sicheren Einführung von KI zu unterstützen. Zudem beschleunigen ServiceNow und OpenAI gemeinsam die Unternehmens-KI in Bereichen wie Cybersicherheit und Agentenentwicklung. Ob dies ServiceNow stärkt oder schwächt, ist noch unklar. Das war ServiceNow.",
+"audio": {
+"file": "sendung/2026-10-29-t_08.mp3",
+"hash": "2655d11c9ec30112",
+"dur": 33.3
+}
+},
+{
+"name": "Nvidia",
+"sym": "NVDA",
+"say": "Bei der Aktie von Nvidia gibt es derzeit gemischte Nachrichten. Das Unternehmen steht wegen der geplanten Übernahme von Hugging Face im Wert von zwölf Komma neun Milliarden Dollar vor einer kartellrechtlichen Prüfung durch das US-Justizministerium, was den Aktienkurs leicht belastet hat. Auf der anderen Seite profitiert Nvidia weiterhin vom anhaltenden KI-Boom, was sich in den vervielfachten Gewinnen des Zulieferers SK Hynix zeigt. Zudem konnte der Nvidia-Partner Vertiv nach einem starken Ergebnis und einer positiven Prognose deutlich zulegen. Ob diese Entwicklungen den Kurs von Nvidia langfristig eher stützen oder belasten, bleibt abzuwarten.",
+"audio": {
+"file": "sendung/2026-10-29-t_09.mp3",
+"hash": "91551a88419963e6",
+"dur": 45.3
+}
+},
+{
+"name": "Quartalszahlen diese Woche",
+"say": "Quartalszahlen diese Woche. Diese Firmen aus deiner Liste melden ihre Quartalszahlen. Zur Aktie BYD: Zahlen Donnerstag, am neunundzwanzigsten Oktober. Beim Umsatz erwarten sie rund vierunddreissig Komma sechs Milliarden Dollar. Zur Aktie Amazon: Zahlen Donnerstag, am neunundzwanzigsten Oktober. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von ein Dollar und neunundneunzig Cent. Beim Umsatz erwarten sie rund zweihundertzwei Komma drei Milliarden Dollar. Zur Aktie Intel: Zahlen Donnerstag, am neunundzwanzigsten Oktober. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von null Dollar und vierzig Cent. Beim Umsatz erwarten sie rund sechzehn Komma fünf Milliarden Dollar.",
+"audio": {
+"file": "sendung/2026-10-29-t_10.mp3",
+"hash": "8bd60d7d90e186c1",
+"dur": 54.1
+}
+},
+{
+"name": "Begriff: Dividende",
+"say": "Zum Lernen, der Begriff des Tages: Dividende. Eine Dividende ist ein Teil des Gewinns, den die Firma an ihre Aktionäre auszahlt, meist pro Quartal oder einmal im Jahr. Wachstumsfirmen zahlen oft keine Dividende, weil sie das Geld wieder investieren.",
+"audio": {
+"file": "sendung/2026-10-29-t_11.mp3",
+"hash": "854a0edfb5548d56",
+"dur": 18.9
+}
+},
+{
+"name": "Schluss",
+"say": "Das war die Sendung vom Aktien-Radar. Die Quellen findest du in der App bei jeder Aktie, den ganzen Text über den Knopf Als Text. Bis morgen.",
+"audio": {
+"file": "sendung/2026-10-29-t_12.mp3",
+"hash": "cc4bc23e3e69d9dd",
+"dur": 11.5
+}
+}
+],
+"dur": 432.1,
+"full": {
+"file": "sendung/2026-10-29-t_full.mp3",
+"dur": 432.0,
+"marks": [
+[
+0,
+0.0
+],
+[
+1,
+30.3
+],
+[
+2,
+84.2
+],
+[
+3,
+115.7
+],
+[
+4,
+143.9
+],
+[
+5,
+174.4
+],
+[
+6,
+203.2
+],
+[
+7,
+236.1
+],
+[
+8,
+269.0
+],
+[
+9,
+302.3
+],
+[
+10,
+347.6
+],
+[
+11,
+401.7
+],
+[
+12,
+420.6
+]
+]
+}
+},
+{
 "id": "2026-10-28-t",
 "kind": "tag",
 "date": "2026-10-28",
@@ -497,8 +691,8 @@
 "dur": 729.9
 }
 ],
-"generated_at": "2026-10-28T21:48:17Z",
+"generated_at": "2026-10-29T05:12:42Z",
 "voice": "de-CH-LeniNeural",
 "source": "Yahoo Finance, SEC EDGAR, Schlagzeilen (Google News u.a.); Text: Gemini Gratis-Kontingent oder Vorlage",
-"audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@f32b97bb40eda36892a89455430480071d12dba1/data/audio/"
+"audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@73278f6ab5d2d232d56118c614e560270f3096da/data/audio/"
 }
