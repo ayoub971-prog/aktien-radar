@@ -41,15 +41,16 @@
   },
   "AVGO": {
    "file": "AVGO.mp3",
-   "hash": "55b896f909277f9d",
-   "th": "f405b43da72a7007",
-   "id": "0349558d7e",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
+   "hash": "a3b0154a042dee34",
+   "th": "64f62497dda2c70f",
+   "engine": "gemini",
+   "id": "5b197aa91b",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
    "br": 24,
-   "text": "Broadcom zeigt sich in den aktuellen Berichten stark in die KI-Infrastruktur eingebunden, während gleichzeitig Fragen zu den Risiken dieses starken Wachstums aufkommen. Laut Broadcom haben Grossbanken wie die Bank of America, Blackstone, Citi und Morgan Stanley eine Finanzierungsstruktur über dreiundsechzig Milliarden Dollar bekannt gegeben, um die KI-Rechenkapazität in Partnerschaft mit Broadcom zu ermöglichen. Das US-Wirtschaftsmagazin Forbes wirft dagegen die Frage auf, ob der rasante KI-Erfolg von Broadcom langfristig ein Risiko darstellen könnte. Yahoo Finance und andere Portale verzeichnen ein sehr positives Analystenbild: Insgesamt bewerten neunundvierzig Analysten die Aktie mit Kaufen, acht mit Stark kaufen und zwei mit Halten. Es gibt keine Verkaufsempfehlungen. Das durchschnittliche Kursziel liegt bei fünfhundertdreissig Dollar, wobei Institute wie Rosenblatt ein Kursziel von sechshundert Dollar und DA Davidson ein Kursziel von vierhundert Dollar nennen. Zu den operativen Neuigkeiten gehört, dass Broadcom neue Verbesserungen für TrueSource Spring Enterprise mit Hub und App Advisor eingeführt hat, um Kunden bei der Bewertung des Open-Source-Sicherheitsstatus, der Priorisierung von Korrekturen und der Patch-Automatisierung zu helfen. Die kanadische Tageszeitung The Globe and Mail meldet zudem, dass Broadcom einen grossen Backstop für das Leasing von KI-Racks eingerichtet hat. Belastend oder kritisch diskutiert wird hingegen die Frage von Forbes bezüglich des KI-Erfolgs von Broadcom. Wichtige Kennzahlen umfassen neben dem durchschnittlichen Kursziel von fünfhundertdreissig Dollar auch das genannte Finanzierungsvolumen von dreiundsechzig Milliarden Dollar für den Ausbau der Rechenkapazitäten.",
-   "dur": 117.4,
-   "at": "2026-10-29T11:28:44Z"
+   "text": "Bei Broadcom gibt es Neuigkeiten an mehreren Fronten, über die wir in unserem Börsen-Podcast berichten. Laut der kanadischen Tageszeitung The Globe and Mail setzen Alphabet, Amazon, SpaceX, Microsoft, Broadcom und AMD auf den Börsengang von Anthropic. Gleichzeitig wirft das US-Wirtschaftsmagazin Forbes die Frage auf, ob der Erfolg im Bereich der Künstlichen Intelligenz für Broadcom zu einem Risiko werden könnte. Auf der Finanzierungsseite hat das Unternehmen selbst mitgeteilt, dass Bank of America, Blackstone, Citi und Morgan Stanley eine Finanzierungsstruktur über dreiundsechzig Milliarden Dollar angekündigt haben, um gemeinsam mit Broadcom Rechenkapazität für Künstliche Intelligenz bereitzustellen. Laut der Chart- und Börsenplattform TradingView verzeichneten Intel, AMD, Broadcom und Micron Kursrückgänge aufgrund von Gewinneinbussen bei Samsung sowie geringeren Investitionsausgaben von Microsoft und Alphabet. Analysten verschiedener Häuser blicken indessen auf die Aktie: Rosenblatt nennt ein Kursziel von sechshundert Dollar, DA Davidson nennt vierhundert Dollar und dreihundertfünfzig Dollar, Tigress Financial nennt sechshundert Dollar, Piper Sandler vierhundertsechzig Dollar und die Citigroup fünfhundertfünfzehn Dollar. Produktseitig hat Broadcom neue Verbesserungen für TrueSource Spring Enterprise mit Hub und App Advisor angekündigt, um Kunden bei der Sicherheit zu unterstützen, und richtet laut The Globe and Mail einen Backstop für das Leasing von Künstliche-Intelligenz-Racks ein. Bei den Kennzahlen liegt das durchschnittliche Kursziel bei fünfhundertdreissig Dollar, während das höchste Kursziel sechshundertsechzig Dollar beträgt.",
+   "dur": 99.2,
+   "at": "2026-10-29T14:13:00Z"
   },
   "ASML": {
    "file": "ASML.mp3",
@@ -65,15 +66,15 @@
   },
   "INTC": {
    "file": "INTC.mp3",
-   "hash": "04f14941d23f9d5b",
-   "th": "fca7e10603b5d9b6",
-   "id": "585506aef3",
+   "hash": "e87bb866bd0feb7b",
+   "th": "5811845ff5256d99",
+   "id": "a03aecaa8c",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Vor den anstehenden Quartalszahlen für das dritte Quartal steht das Unternehmen Intel im Fokus der Märkte. Laut Yahoo Finance rechnet das Management mit grossem Interesse, während Analysten laut Barron's mit einer starken Aufstellung in die Zahlenvorlage gehen. Gleichzeitig weisen Berichte von TradingView auf Kursbewegungen hin, die im Zusammenhang mit schwächeren Vorgaben aus der Branche stehen. Zurück zu Intel: Das Unternehmen treibt seine strategischen Projekte voran. Laut Investor Relations plant Intel eine erweiterte Zusammenarbeit mit Oracle zur Unterstützung von Unternehmens- und Agenten-KI auf der Oracle Cloud Infrastructure. Ausserdem übernimmt Intel Classiq, um eine Full-Stack-Quantencomputing-Plattform aufzubauen. Belastend wirken dagegen Meldungen über Kursverluste, wobei Yahoo Finance einen Rückgang der Aktie um vierundzwanzig Prozent im Laufe eines Monats verzeichnet. Zudem lehnen Intel, IBM und Oracle laut Yahoo Finance tokenisierte Pläne ab. Bei den Analystenbewertungen zeigen sich unterschiedliche Stimmen: Rosenblatt bestätigt die Einstufung Verkaufen mit einem Kursziel von achtzig Dollar, Wedbush stuft neutral mit achtundneunzig Dollar ein, RBC Capital bewertet die Aktie wie den Sektor bei einhundert Dollar, New Street Research stuft auf Kaufen mit einhundertfünfundzwanzig Dollar hoch, Susquehanna belässt das Kursziel bei einhundertfünf Dollar und TD Cowen senkt das Kursziel auf fünfundneunzig Dollar. Als wichtige Kennzahlen sind das durchschnittliche Kursziel der Analysten von rund einhundertachtzehn Dollar sowie der aktuelle Aktienkurs von rund sechsundneunzig Dollar zu nennen, die wichtige Orientierungspunkte für die Bewertung darstellen. Zu den Insidergeschäften zeigt die SEC-Meldung, dass Chef und Verwaltungsrat Lip Bu Tan Aktien im Wert von rund zehn Millionen Dollar gekauft hat.",
-   "dur": 125.5,
-   "at": "2026-10-29T11:28:54Z"
+   "text": "Vor der Veroeffentlichung der Quartalszahlen steht der Halbleiterkonzern Intel im Fokus der Anleger, wie Finanzen.net berichtet. Laut Yahoo Finance verzeichnete die Aktie in einem Monat einen Kursrueckgang von vierundzwanzig Prozent. Zu den Risiken gerieten Intel und andere Chiphersteller laut TradingView durch Gewinneinbussen bei Samsung sowie geringere Investitionsausgaben von Microsoft und Alphabet unter Druck. Bezueglich der Analysten-Bewertungen liegt das durchschnittliche Kursziel von zweiundvierzig Analysten laut Yahoo Finance bei einhundertachtzehn Dollar. Das Analysehaus New Street Research stufte Intel auf Kaufen mit einem Kursziel von einhundertfünfundzwanzig Dollar. Rosenblatt bewertet die Aktie mit Verkaufen und einem Kursziel von achtzig Dollar, waehrend Wedbush die Einstufung Neutral mit achtundneunzig Dollar fuehrt. RBC Capital bewertet das Papier wie der Sektor bei einhundert Dollar. Susquehanna nennt ein Kursziel von einhundertfünf Dollar bei neutralem Rating, und TD Cowen nannte ein Kursziel von fünfundneunzig Dollar bei der Einstufung Halten. Was die Firma gerade macht: Laut Investor Relations plant Intel eine erweiterte Zusammenarbeit mit Oracle zur Unterstuetzung von Unternehmens- und Agenten-KI auf der Oracle Cloud Infrastructure. Zud-em uebernimmt Intel laut Investor Relations Classiq, um eine Full-Stack-Quantencomputing-Plattform zu schaffen, was laut Yahoo Finance einem Deal ueber zwei Komma drei Milliarden Dollar entspricht. Laut Yahoo Finance wurden Intel und AMD in den iShares PHLX SOX Semiconductor Index aufgenommen. Demgegenueber lehnen Oracle, Intel und IBM laut Yahoo Finance tokenisierte Plaene fuer den Aktienhandel ab. Zu den wichtigen Kennzahlen liegt der aktuelle Aktienkurs bei zweiundneunzig Komma vier acht Dollar, waehrend das durchschnittliche Kursziel der Analysten bei einhundertachtzehn Dollar liegt, was die durchschnittlichen Erwartungen des Marktes widerspiegelt.",
+   "dur": 136.8,
+   "at": "2026-10-29T14:13:36Z"
   },
   "PLTR": {
    "file": "PLTR.mp3",
@@ -113,15 +114,15 @@
   },
   "META": {
    "file": "META.mp3",
-   "hash": "7d4d0c91b2fb9d58",
-   "th": "a8c7eb30c35203d3",
+   "hash": "1aadb96c534a65df",
+   "th": "8c4fb7d2eacc38a7",
    "id": "212ca2501b",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Meta Platforms steht derzeit wegen hoher Investitionen und veränderter Finanzkennzahlen im Fokus der Öffentlichkeit. Laut The Globe and Mail, einer kanadischen Tageszeitung, meldeten die Meta-Plattformen zum ersten Mal seit 2012 einen negativen freien Cashflow. Zudem berichtete TradingView über einen Cash-Burn, höhere Investitionsabschreibungen in Höhe von vierzehn Milliarden Dollar sowie eine einstweilige Verfügung in Oslo. Morningstar, ein Fondsanalyse- und Researchhaus, merkte an, dass die Aktien seit den letzten Gewinnzahlen um zwölf Prozent gefallen sind, und boerse.de berichtete, dass die Aktie unter die einhundert-Tage-Linie gerutscht ist. Laut Seeking Alpha gab es zudem eine Herabstufung des Ratings wegen hoher Ausgaben für Künstliche Intelligenz, die wenig Sicherheitsspielraum lassen. Auf der anderen Seite gibt es erfreuliche Meldungen aus dem operativen Bereich. Laut Facebook arbeitet das Unternehmen mit fünf US-Universitäten zusammen, um medizinische und wissenschaftliche Durchbrüche zu beschleunigen, und der persönliche KI-Agent Muse ist nun in Singapur erhältlich. Yahoo Finance meldete einen mehrjährigen Kaufvertrag für kohlenstoffarmen Zement mit Fortera sowie den Kauf der Aktie durch verschiedene börsengehandelte Fonds. Die Analysten bewerten Meta Platforms insgesamt überwiegend positiv. Laut Daten von Yahoo Finance empfehlen fünfundfünfzig Analysten den Kauf, neun stufen die Aktie als stark kaufen ein, sechs raten zum Halten und eins zum Verkauf. Das mittlere Kursziel liegt bei rund achthundertachtundvierzig Dollar, mit einem Höchstwert von eintausendfünfzig Dollar und einem Tiefstwert von sechshundertneunundzwanzig Dollar. Die UBS bestätigte das Kaufen-Rating und erhöhte das Kursziel von achthundertvierundachtzig auf achthundertzweiundneunzig Dollar, während die Citigroup das Ziel von achthundertfünfundneunzig auf neunhundertfünf Dollar anpasste. Zurück zu Meta Platforms: Zu den Insideraktivitäten wurde laut MarketScreener Deutschland ein Aktienverkauf eines Insiders im Wert von rund eins Million Dollar gemeldet, wobei Verkäufe von Insidern oft weniger aussagekräftig sind als Käufe, da sie häufig steuerlich motiviert sind oder auf im Voraus geplanten Plänen beruhen. Bei den Ansichten der Experten zeigen sich gewisse Widersprüche, da einerseits Seeking Alpha vor den hohen Kosten der KI-Ambitionen warnt und zu wenig Sicherheitsspielraum sieht, während Bill Ackman die Aktie laut Seeking Alpha als unglaublich unterbewertet bezeichnet und der Ansicht ist, dass sich das Unternehmen die KI-Ausgaben leisten kann. Keine Anlageberatung.",
-   "dur": 177.7,
-   "at": "2026-10-29T13:08:34Z"
+   "text": "Meta Platforms steht derzeit wegen hoher Investitionen und veränderten Finanzkennzahlen im Fokus der Öffentlichkeit. Laut The Globe and Mail, einer kanadischen Tageszeitung, meldeten die Meta-Plattformen zum ersten Mal seit 2012 einen negativen freien Cashflow. Zudem berichtete TradingView über einen Cash-Burn, höhere Investitionsabschreibungen in Höhe von vierzehn Milliarden Dollar sowie eine einstweilige Verfügung in Oslo. Morningstar, ein Fondsanalyse- und Researchhaus, merkte an, dass die Aktien seit den letzten Gewinnzahlen um zwölf Prozent gefallen sind, und boerse.de berichtete, dass die Aktie unter die einhundert-Tage-Linie gerutscht ist. Laut Seeking Alpha gab es zudem eine Herabstufung des Ratings wegen hoher Ausgaben für Künstliche Intelligenz, die wenig Sicherheitsspielraum lassen. Auf der anderen Seite gibt es erfreuliche Meldungen aus dem operativen Bereich. Laut Facebook arbeitet das Unternehmen mit fünf US-Universitäten zusammen, um medizinische und wissenschaftliche Durchbrüche zu beschleunigen, und der persönliche KI-Agent Muse ist nun in Singapur erhältlich. Die Analysten bewerten Meta Platforms insgesamt überwiegend positiv. Laut Daten von Yahoo Finance empfehlen fünfundfünfzig Analysten den Kauf, neun stufen die Aktie als stark kaufen ein, sechs raten zum Halten und eins zum Verkauf. Das mittlere Kursziel liegt bei rund achthundertachtundvierzig Dollar, mit einem Höchstwert von eintausendfünfzig Dollar und einem Tiefstwert von sechshundertneunundzwanzig Dollar. Die UBS bestätigte das Kaufen-Rating und setzte das Kursziel auf achthundertzweiundneunzig Dollar, während die Citigroup das Ziel auf neunhundertfünf Dollar anpasste. Bei den Ansichten der Experten zeigen sich gewisse Widersprüche, da einerseits Seeking Alpha vor den hohen Kosten der KI-Ambitionen warnt und zu wenig Sicherheitsspielraum sieht, während Bill Ackman die Aktie laut Seeking Alpha als unglaublich unterbewertet bezeichnet und der Ansicht ist, dass sich das Unternehmen die KI-Ausgaben leisten kann.",
+   "dur": 138.6,
+   "at": "2026-10-29T14:13:48Z"
   },
   "AMZN": {
    "file": "AMZN.mp3",
@@ -137,15 +138,15 @@
   },
   "MRVL": {
    "file": "MRVL.mp3",
-   "hash": "1db004c7fe2f75d5",
-   "th": "a7d66af714ff159e",
-   "id": "a721946ae4",
+   "hash": "ba87528dd54996d8",
+   "th": "bd9774995b81c696",
+   "id": "34e8ae4fa6",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Marvell Technology steht laut Bloomberg kurz vor einer Übernahme des Optikspezialisten Lumentum im Rahmen eines künstliche Intelligenz bezogenen Megadeals. Laut Yahoo Finance gilt das Angebot als Wette darauf, dass künftig in Rechenzentren optische Verbindungen anstelle von Kupfer dominieren werden. In den vorliegenden Meldungen wurden keine rechtlichen Probleme gefunden, jedoch berichtet finanzen.ch, dass die Aktie von Marvell Technology wegen Sorgen um die Finanzierung der Übernahme deutlich verloren hat. Zurück zu Marvell Technology: Die Gesellschaft treibt Gespräche über eine Akquisition im Optikbereich voran, um die Hardware zu stärken, während Marktberichte gleichzeitig Sorgen über die Finanzierung und Kursrückgänge auslösen. Zu den wichtigen Kennzahlen gehört der aktuelle Aktienkurs von rund zweihundertzweiundfünfzig Dollar sowie das von Analysten im Durchschnitt erwartete Kursziel von rund dreihunderteinundvierzig Dollar, wobei das höchste Kursziel bei rund vierhundertfünfzig Dollar und das tiefste bei rund zweihundertdreissig Dollar liegt. Bezüglich Insider-Aktivitäten gab es im Oktober verschiedene Verkäufe, darunter verkaufte Sandeep Bharathi als President der Data Center Group planmässig dreitausendsechshundertfünfundachtzig Aktien im Wert von rund achthundertfünfundsechzigtausendachthundertvierundsechzig Dollar.",
-   "dur": 90.5,
-   "at": "2026-10-29T11:29:33Z"
+   "text": "Marvell Technology: Die Aktie stand zuletzt stark unter Druck, nachdem Berichte über mögliche Übernahmegespräche mit dem Optikspezialisten Lumentum die Runde machten. Laut Bloomberg steht Marvell Technology vor einem KI-bezogenen Megadeal. Investor's Business Daily berichtet ebenfalls über diesen Buyout-Bericht. Morningstar und finan.ch weisen darauf hin, dass die Übernahme aus strategischer Sicht zwar verlockend ist, aber das Risiko einer hohen Überzahlung birgt und bei Anlegern Sorgen um die Finanzierung auslöst. Zurück zu Marvell Technology: Die Aktie sank laut Yahoo Finance um bis zu dreizehn Prozent, was auch durch enttäuschende Zahlen von Alphabet belastet wurde. Positiv merkt Yahoo Finance an, dass Marvell Technology am siebenundzwanzigsten Oktober Netto-ETF-Käufe in Höhe von rund siebenundfünfzig Komma eins Millionen Dollar verzeichnete. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden, abgesehen von den Finanzierungs- und Überzahlungssorgen beim geplanten Lumentum-Deal. Zu den Analysten-Bewertungen: Stifel und Raymond James haben ihre Kaufempfehlungen für die Marvell-Aktie bekräftigt. UBS, Jefferies, JP Morgan, Wells Fargo, Wolfe Research und Morgan Stanley bestätigten ihre Einstufungen ebenfalls und erhöhten teilweise ihre Kursziele, wobei das von Yahoo Finance genannte durchschnittliche Kursziel bei rund dreihunderteinundvierzig Dollar liegt. Laut den Daten von Yahoo Finance empfehlen derzeit neun Analysten die Aktie mit stark kaufen, dreiundvierzig mit kaufen und vier mit halten. Was die Firma gerade macht: Marvell Technology verhandelt über den Kauf des Laserherstellers Lumentum mit einem Volumen von rund dreiundachtzig Milliarden Dollar, um gezielt auf optische Datenübertragung in KI-Rechenzentren zu setzen. Belastend wirkten hingegen die Berichte über diesen Deal sowie die schwache Stimmung nach Alphabet-Meldungen. Wichtige Kennzahlen zeigen einen Kursverlust von rund dreizehn Prozent an einem Handelstag infolge der Übernahmespekulationen, während das durchschnittliche Kursziel der Analysten bei rund dreihunderteinundvierzig Dollar liegt. Bei den Insider-Geschäften gab es mehrere Verkäufe, darunter von Vorstandschef Matthew J Murphy über siebentausendfünfhundert Aktien im Wert von rund eins Komma acht Millionen Dollar, von President Chris Koopmans über zehntausend Aktien im Wert von rund zwei Komma sechs Millionen Dollar, von President Sandeep Bharathi über dreitausendsechshundertfünfundachtzig Aktien im Wert von rund achthundertsechsundsechzigtausend Dollar sowie von Chief Accounting Officer Justin Scarpulla über eintausendeinhundert Aktien im Wert von rund dreihunderteinstausend Dollar. Ein Insider-Verkauf ist oft weniger aussagekräftig als ein Kauf, da er häufig steuerlich motiviert oder über vorab festgelegte Handelspläne geregelt ist. Aussagen des Managements lagen in den aktuellen Meldungen nicht vor. Es wurden keine widersprüchlichen Berichte zwischen den Quellen festgestellt. Keine Anlageberatung.",
+   "dur": 208.3,
+   "at": "2026-10-29T14:14:06Z"
   },
   "SFTBY": {
    "file": "SFTBY.mp3",
@@ -221,15 +222,15 @@
   },
   "BE": {
    "file": "BE.mp3",
-   "hash": "7a78bbe3233f5656",
-   "th": "b46e17dc9119976a",
-   "id": "dd0162bd1d",
+   "hash": "e436e2cbad72efb6",
+   "th": "9237bee53037677c",
+   "id": "22446bb0ed",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Bei Bloom Energy gibt es Neuigkeiten, die Anleger beschäftigen. Laut der US-Wirtschaftszeitung Wall Street Journal hat das Unternehmen den Ausblick angehoben und einen höheren Gewinn gemeldet. Die kanadische Tageszeitung The Globe and Mail berichtet, dass während der Telefonkonferenz zum dritten Quartal besonders die Prognoseerhöhung und der Kapazitätsplan hervorgehoben wurden. Das Finanzportal Yahoo Finance weist dagegen auf Bedenken hinsichtlich der KI-Nachfrage und des Cashflows hin, während die Plattform Seeking Alpha eine Herabstufung der Aktie meldet. Als Risiken wurden in den Berichten diese Herabstufung sowie die Bedenken bezüglich des Cashflows und der KI-Nachfrage genannt, während rechtliche Probleme nicht vorliegen. Bei den Analystenbewertungen gibt es verschiedene Einschätzungen. Barclays stuft die Aktie mit Marktgewichten ein und setzt das Kursziel auf dreihundertsechzehn Dollar. Wells Fargo bewertet ebenfalls mit Marktgewichten mit einem Kursziel von einhundertzweiundachtzig Dollar. JP Morgan bewertet das Papier mit Übergewichten und einem Kursziel von zweihundertzweiundneunzig Dollar, während RBC Capital die Einstufung Besser als Markt und ein Kursziel von dreihundertfünfunddreissig Dollar nennt. Keybanc führt Sektorgewichten ohne genannte Kurszieländerung, und Morgan Stanley bestätigt Übergewichten mit einem Kursziel von dreihundertfünfunddreissig Dollar. Das durchschnittliche Kursziel aller erfassten Analysten liegt bei rund zweihundertfünfundachtzig Dollar. Insgesamt gibt es laut den Daten fünf starke Kaufempfehlungen, fünfzehn Kaufempfehlungen, zwölf Halteempfehlungen, zwei Verkaufsempfehlungen und eins starke Verkaufsempfehlung. Zudem meldet das Portal Stock Titan eine passive Beteiligung von BlackRock mit Stimmrechten über zwanzig Komma vier Millionen Aktien. Auf der negativen Seite stehen die bereits erwähnten Cashflow-Sorgen und die Herabstufung. Zu den Kennzahlen gehört ein verzeichneter Umsatzanstieg von einhundertzweiundneunzig Prozent, was anzeigt, wie stark die Erloese gewachsen sind.",
-   "dur": 139.3,
-   "at": "2026-10-29T11:29:45Z"
+   "text": "Bloom Energy: Laut Berichten der US-Wirtschaftszeitung WSJ hat das Unternehmen seinen Ausblick angehoben und einen höheren Gewinn gemeldet. Die kanadische Tageszeitung The Globe and Mail hebt zudem einen Kapazitätsplan und eine Prognoseerhöhung hervor. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Die Analysten bewerten die Aktie überwiegend positiv. Laut Yahoo Finance liegt das durchschnittliche Kursziel bei rund zweihundertfünfundachtzig Dollar, wobei das höchste Kursziel bei rund dreihundertachtzig Dollar und das niedrigste bei rund einhundertzwei Dollar liegt. Im Konsens gibt es zahlreiche Kaufempfehlungen. Die Bank Barclays bestätigt ihre Einstufung mit einem Kursziel von rund dreihundertsechzehn Dollar, Wells Fargo nennt rund einhundertzweiundachtzig Dollar, JP Morgan rund zweihundertzweiundneunzig Dollar, RBC Capital rund dreihundertfünfunddreissig Dollar und Morgan Stanley ebenfalls rund dreihundertfünfunddreissig Dollar. Keybanc bestätigt die Einstufung ohne neues Kursziel. Was die Firma gerade macht, zeigt sich an positiven Meldungen wie der angehobenen Prognose laut WSJ sowie einer gemeldeten passiven Beteiligung von BlackRock an rund zwanzig Komma vier Millionen Aktien laut Stock Titan. Demgegenüber verweist Yahoo Finance auf Bedenken hinsichtlich der Künstliche-Intelligenz-Nachfrage und des Cashflows. Zu den wichtigsten Kennzahlen gehört das durchschnittliche Kursziel von rund zweihundertfünfundachtzig Dollar sowie ein geschätztes Kurspotenzial von rund sechsundzwanzig Komma zwei Prozent. Bei den Insidern zeigen die SEC-Daten diverse Verkäufe von Führungskräften wie Aman Joshi, Maciej Kurzymski, Shawn Marie Soderberg, Satish Chitoori und Verwaltungsrat Jeffrey R Immelt im Wert zwischen rund vierhundertsechsundneunzigtausend Dollar und rund sieben Komma zwei Millionen Dollar, wobei viele dieser Transaktionen über vorab festgelegte Verkaufspläne liefen. Verkäufe von Insidern sagen oft weniger aus als Käufe, da sie häufig steuerlich oder durch persönliche Finanzplanungen motiviert sind. Bei Bloom Energy sagt der Chef laut EnergyNow.com, dass der Widerstand gegen Rechenzentren ein Segen für das Unternehmen sei, was laut der Quelle zusätzliche Chancen eröffnen könnte. Keine Anlageberatung.",
+   "dur": 157.2,
+   "at": "2026-10-29T14:14:26Z"
   },
   "HYLN": {
    "file": "HYLN.mp3",
@@ -281,15 +282,15 @@
   },
   "GEV": {
    "file": "GEV.mp3",
-   "hash": "f98f23e47bf6ecac",
-   "th": "ca9ffd772cb1e50e",
-   "id": "7798820edb",
+   "hash": "ef4ad0dd842dc61b",
+   "th": "2572d0bf168f1ff1",
+   "id": "431a5505f6",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "GE Vernova steht im Fokus aktueller Quartalsberichte, strategischer Übernahmen und Kursbewegungen der Aktie. Laut Reuters, einer internationalen Nachrichtenagentur, treibt GE Vernova den Netzausbau mit der Übernahme der Trench Group für neun Milliarden Dollar voran und hebt gleichzeitig die Umsatzprognose an. Barron's, ein US-Finanzmagazin, meldet, dass die Bestellungen von GE Vernova gestiegen sind und die Ergebnisse zeigen, dass die Nachfrage nach Energie für Kuenstliche Intelligenz hoch bleibt. Auf der anderen Seite berichtet Investor's Business Daily, eine US-Börsenzeitung, dass bestimmte neue Bestellungen die Erwartungen deutlich verfehlt haben. In den vorliegenden Meldungen wurden keine Risiken gefunden. Bei den Analystenbewertungen gibt es verschiedene Anpassungen. Bernstein bestätigt die Einstufung als besser als der Markt mit einem Kursziel von eintausendzweihundertachtundneunzig Dollar und verweist dabei auf Margenaussichten. Susquehanna senkte das Kursziel auf eintausendzweihundertsiebzig Dollar. JP Morgan passte das Kursziel auf eintausendeinhundertfünfzig Dollar an. Guggenheim führt die Aktie mit einem Kursziel von eintausendvierhundertfünfzig Dollar weiter im Kaufen-Bereich. GLJ Research bewertet die Aktie mit Verkaufen und einem Kursziel von vierhundertsiebzig Dollar. Zudem senkte TD Cowen das Kursziel auf eintausendeinhundertfünfundzwanzig Dollar wegen Sorgen um den Auftragseingang. Was die unternehmerischen Aktivitäten betrifft, baut GE Vernova seine Position durch die genannte Übernahme der Trench Group für neun Milliarden Dollar aus. Das durchschnittliche Kursziel der Analysten beläuft sich auf rund eintausendzweihundertsechzehn Dollar. Zu den Widersprüchen: Während CNBC berichtet, dass die Aktien trotz eines starken Quartalsergebnisses und einer angehobenen Prognose abrutschen, verweist The Globe and Mail auf den sinkenden Aktienkurs im Zuge der Transaktionen und Marktreaktionen.",
-   "dur": 133.8,
-   "at": "2026-10-29T11:30:10Z"
+   "text": "GE Vernova: Im Fokus stehen aktuelle Entwicklungen rund um den Konzern. Laut Reuters, einer internationalen Nachrichtenagentur, treibt GE Vernova den Netzausbau mit der Übernahme der Trench Group für neun Milliarden Dollar voran und hebt dabei die Umsatzprognose an. Die kanadische Tageszeitung The Globe and Mail berichtet jedoch, dass die Aktie sinkt, während die US-Börsenzeitung Investor's Business Daily meldet, dass neue Bestellungen und Slots um Längen verpasst wurden. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Zu den Analysten-Bewertungen: Nach Daten von Yahoo Finance raten einunddreissig Analysten zum Kaufen, sechs zum starken Kaufen und sieben zum Halten. Das mittlere Kursziel liegt bei eintausendzweihundertsechzehn,einundneunzig Dollar. Susquehanna bewertet die Aktie positiv mit einem Kursziel von eintausendzweihundertfünfzig,null Dollar und begründet dies mit der Bewertung. Bernstein bestätigt die Einstufung besser als Markt mit einem Kursziel von eintausendzweihundertachtundneunzig,null Dollar wegen der Margenaussichten. JP Morgan führt die Aktie mit Übergewichten und einem Kursziel von eintausendeinhundertfünfzig,null Dollar. Zurück zu GE Vernova: Das Unternehmen baut seine Marktposition durch den Zukauf der Trench Group für neun Milliarden Dollar aus und schloss ausserdem eine Partnerschaft mit den Boston Celtics zur Anerkennung von US-Streitkräften ab. Demgegenüber stehen Berichte über verfehlte Kennzahlen im Bereich neuer Aufträge. Als wichtige Kennzahl ist die angehobene Umsatzprognose zu nennen, welche die Erwartungen des Managements für das zukünftige Wachstum widerspiegelt. Eine angehobene Prognose ist wichtig, da sie das Vertrauen in die Geschäftsentwicklung verdeutlicht. Insider-Käufe oder -Verkäufe wurden in den offiziellen Daten nicht gemeldet. Aussagen von Chefs liegen nicht vor. Widersprüche zeigen sich zwischen Sendern wie CNBC, die trotz starker Ergebnisse sinkende Kurse und unbegründete Verkäufe sehen, und Börsenzeitungen, die auf verfehlte Kennzahlen verweisen. Keine Anlageberatung.",
+   "dur": 146.9,
+   "at": "2026-10-29T14:14:38Z"
   },
   "GE": {
    "file": "GE.mp3",
@@ -389,15 +390,15 @@
   },
   "NVDA": {
    "file": "NVDA.mp3",
-   "hash": "b999f03207b121ed",
-   "th": "8e6cea90ed53c15f",
-   "id": "4ff4b64090",
+   "hash": "a7072dfd4afdcb7d",
+   "th": "ee4c937d8364e4b3",
+   "id": "3e1de052e3",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Laut Yahoo Finance und Seeking Alpha steht Nvidia wegen einer kartellrechtlichen Prüfung durch das US-Justizministerium bezüglich der Übernahme von Hugging Face im Wert von zwölf Komma neun Milliarden Dollar im Fokus. Laut TheStreet beteiligt sich Nvidia zudem mit drei Milliarden Dollar an einer Finanzierung von Meta. Laut Yahoo Finance ist die Aktie in einem Monat um fast sechs Prozent gefallen, während Berichte über Pläne von OpenAI aufkommen, auch Googles KI-Chips zu kaufen. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden, abgesehen von der genannten Untersuchung des Justizministeriums. Zu den Analysten-Bewertungen: Needham bestätigt das Kaufen-Rating mit einem Kursziel von dreihundert Dollar. Cantor Fitzgerald bestätigt Übergewichten mit dreihundertfünfzig Dollar. Rosenblatt bestätigt Kaufen mit dreihundertneunzig Dollar. Piper Sandler bestätigte die Aktie mit Übergewichten und einem Kursziel von dreihundert Dollar. Zurück zu Nvidia: Die Firma verstärkt aktuell ihre KI-Infrastruktur durch neue Angebote für digitale Zwillinge und Agenten sowie eine Beteiligung an Meta, während die geplante Hugging-Face-Übernahme und Berichte über OpenAI als abwertend eingestuft werden. Wichtige Kennzahlen kurz erklärt: Das durchschnittliche Kursziel liegt bei rund dreihundertneunundzwanzig Dollar, was das von Analysten erwartete Mittel widerspiegelt.",
-   "dur": 97.8,
-   "at": "2026-10-29T13:10:09Z"
+   "text": "Nvidia zeigt sich in den aktuellen Berichten an mehreren Fronten aktiv, sieht sich jedoch auch mit regulatorischen Herausforderungen konfrontiert. Laut Yahoo Finance hat das Unternehmen eine Beteiligung an SpaceX im Wert von achtzehn Milliarden Dollar bekannt gegeben und plant eine Übernahme von Hugging Face im Wert von zwölf Komma neun Milliarden Dollar. In den vorliegenden Meldungen wurden Risiken und rechtliche Probleme gefunden: Laut Yahoo Finance steht Nvidia wegen des Hugging-Face-Deals vor einer kartellrechtlichen Prüfung durch das US-Justizministerium, und laut Investing.com Deutsch geriet Nvidia-Chef Jensen Huang ins Visier mutmasslicher China-Spionage, was KI-Aktien unter Druck setzte. Zudem fiel die Nvidia-Aktie innerhalb eines Monats um fast sechs Prozent, und boerse.de berichtet, dass die Aktie unter der fünfzig-Tage-Linie notiert, während die Wall Street über einen möglichen Absturz auf einhundertachtzig Dollar besorgt ist. Analysten bewerten die Aktie überwiegend positiv. Laut Yahoo Finance liegt das durchschnittliche Kursziel bei rund dreihundertneunundzwanzig Dollar, wobei die Spanne von einhundertachtzig Dollar bis fünfhundertfünfzehn Dollar reicht. Das Konsensurteil umfasst zahlreiche Kaufempfehlungen. Zurück zu Nvidia: Das Unternehmen arbeitet laut Yahoo Finance mit Eclypsium zusammen, um neue Angriffsflächen für KI-Infrastrukturen zu bekämpfen, und beteiligt sich an Meta. Das Handelsblatt meldet zudem, dass der Nvidia-Zulieferer SK Hynix seinen Gewinn durch den KI-Boom vervielfacht hat. Wichtige Kennzahlen zeigen, dass das von Analysten im Durchschnitt prognostizierte Kursziel bei rund dreihundertneunundzwanzig Dollar liegt, was den von Analysten erwarteten Zielkurs darstellt. Bei den Insidern gab es im September 2026 verschiedene Verkäufe, darunter verkaufte der Verwaltungsrat Mark A Stevens Aktien im Wert von hunderten Millionen Dollar, und auch leitende Angestellte wie Finanzchefin Colette Kress verkauften planmässig Aktien im Wert von rund sieben Komma sechs Millionen Dollar. Solche Insider-Verkäufe sind oft weniger aussagekräftig als Käufe, da sie häufig steuerlich motiviert oder im Voraus geplant sind. Aussagen der Chefs zu Plänen liegen in den vorliegenden Meldungen nicht vor. Keine Anlageberatung.",
+   "dur": 157.9,
+   "at": "2026-10-29T14:14:51Z"
   },
   "1211.HK": {
    "file": "1211.HK.mp3",
@@ -461,15 +462,15 @@
   },
   "ABBN.SW": {
    "file": "ABBN.SW.mp3",
-   "hash": "c52dc40608e19e88",
-   "th": "4fb58aaee22caace",
-   "id": "70508c8ca1",
+   "hash": "abe589c9ba67cc08",
+   "th": "615b4eda8e453dc1",
+   "id": "615b4eda8e",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Herzlich willkommen zu unserem Finanz-Podcast. Heute blicken wir auf die aktuelle Lage von ABB LTD. Laut WSJ rutschten die ABB-Aktien ab, nachdem KI-Bedenken die Ergebnisse ueberschatteten. Ausserdem berichtet Traders Union, dass die Aktie nach einem ueberverkauften Rebound und technischen Erholungsversuchen um mehr als zwei Prozent zulegte. Laut Yahoo Finance liegt das durchschnittliche Kursziel von siebenundzwanzig Analysten bei rund neunundneunzig Dollar, mit einem Aufwaertspotenzial von zwölf Komma vier Prozent. Wichtige Kennzahlen zeigen ein durchschnittliches Kursziel von rund neunundneunzig Dollar, wobei das hoechste Ziel bei rund einhundertsechzehn Dollar und das tiefste Ziel bei rund einundachtzig Dollar liegt.",
-   "dur": 51.5,
-   "at": "2026-10-29T11:30:36Z"
+   "text": "ABB LTD: Herzlich willkommen zu unserem Finanz-Podcast. Wir blicken heute auf die Aktie von ABB LTD. Laut der US-Wirtschaftszeitung Wall Street Journal rutschten die Aktien von ABB LTD ab, nachdem Künstliche Intelligenz-Bedenken die Finanzergebnisse beunruhigten. Das Trading-Ratgeberportal Traders Union berichtet dagegen, dass die ABB LTD Aktie nach einem überverkauften Rebound und technischen Erholungsversuchen um mehr als zwei Prozent zulegte. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Laut Yahoo! Finance Canada, einem Finanzportal, das Meldungen und Analystenbewertungen bündelt, gibt es einen Konsens von insgesamt siebenundzwanzig Analysten. Das durchschnittliche Kursziel liegt bei rund neunundneunzig Dollar und Einzigem, mit einem Aufwärtspotenzial von zwölf Prozent. Dabei gibt es Einstufungen von stark kaufen bis stark verkaufen, wobei das höchste Kursziel bei rund einhundertsechzehn Dollar und das niedrigste Kursziel bei rund achtzig Dollar liegt. Zurück zu ABB LTD: Aktuell gibt es Berichte über kursbelastende KI-Bedenken auf der einen Seite, aber auch technische Erholungsversuche und Kursgewinne nach überverkauften Phasen auf der anderen Seite. Zu den wichtigen Kennzahlen gehört das durchschnittliche Kursziel von rund neunundneunzig Dollar, das das Mittel der Analystenprognosen widerspiegelt, sowie das Aufwärtspotenzial von zwölf Prozent, welches den prozentualen Abstand zum aktuellen Kurs angibt. In den aktuellen Meldungen wurden keine Insider-Käufe oder Insider-Verkäufe erwähnt. Aussagen von Chefs oder dem Management liegen in den Daten ebenfalls nicht vor. Keine Anlageberatung.",
+   "dur": 118.0,
+   "at": "2026-10-29T14:15:03Z"
   },
   "STX": {
    "file": "STX.mp3",
@@ -509,9 +510,9 @@
   }
  },
  "status": "quota: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usa",
- "checked_at": "2026-10-29T13:10:24Z",
- "quota_until": 1793279788.3959868,
- "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@90f2e6ee3eb0ea2990334b669bb6c4c4b0254cc0/data/audio/",
+ "checked_at": "2026-10-29T14:15:03Z",
+ "quota_until": 1793286805.9725916,
+ "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@7fb5174a9935d4696be5d8f22c6d9abdec567532/data/audio/",
  "extra": {
   "intro": {
    "file": "_intro.mp3",
