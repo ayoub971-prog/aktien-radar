@@ -356,15 +356,16 @@
   },
   "MSFT": {
    "file": "MSFT.mp3",
-   "hash": "a93b793b04d7cfbd",
-   "th": "ccb4889db92904ba",
+   "hash": "a785f511e775393a",
+   "th": "3e5b7daa3a4a2c50",
+   "engine": "gemini",
    "id": "e05cb861b6",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
    "br": 24,
-   "text": "Microsoft: Die Aktie des Technologiekonzerns steht im Fokus nach der Veröffentlichung neuer Quartalszahlen. Laut der internationalen Nachrichtenagentur Reuters sowie weiteren Medienberichten hat das Unternehmen die vierteljährlichen Schätzungen übertroffen. Die New York Times meldet, dass der Gewinn im ersten Quartal trotz starker Ausgabensteigerungen um zweiunddreissig Prozent zugelegt hat. Die US-Börsenzeitung Investor's Business Daily berichtet zudem über ein beschleunigtes Wachstum im Cloud-Bereich Azure. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Bei den Analysten-Bewertungen zeigt sich ein überwiegend positives Bild. Laut Yahoo Finance raten dreizehn Analysten zum starken Kauf, vierundfünfzig empfehlen den Kauf und drei Experten plädieren für das Halten. Das durchschnittliche Kursziel liegt bei sechshundertfünf Dollar. Oppenheimer bestätigte die Einstufung als besser als der Markt mit einem Kursziel von sechshundertfünfundzwanzig Dollar, während Truist Securities die Aktie mit Kaufen und einem Kursziel von sechshundert Dollar bewertet. Scotiabank nennt ein Kursziel von sechshundertfünfundzwanzig Dollar, BMO Capital peilt sechshundert Dollar an, und Bernstein sieht das Kursziel bei sechshundertzweiundsechzig Dollar. Zurück zu Microsoft: Das Unternehmen treibt seine Geschäfte voran, wobei laut Bloomberg.com gleichzeitig Beobachter den Abfluss von Geldmitteln für künstliche Intelligenz kritisch im Blick behalten. Wichtige Kennzahlen unterstreichen die Entwicklung: So stieg der Gewinn um zweiunddreissig Prozent, was die starke Ertragskraft unterstreicht. Zu den Insider-Aktivitäten zeigen Pflichtmeldungen bei der Börsenaufsicht, dass Finanzchefin Amy Hood im September und Oktober Aktienpakete im Wert von rund einundzwanzig Millionen Dollar beziehungsweise rund vier Millionen Dollar veräussert hat. Solche Verkäufe basieren oft auf vorab festgelegten Plänen und sagen meist weniger aus als tatsächliche Käufe. Keine Anlageberatung.",
-   "dur": 139.9,
-   "at": "2026-10-28T22:51:39Z"
+   "text": "Microsoft steht nach der Vorlage der Quartalszahlen im Fokus der Anleger. Der Technologiekonzern konnte die Erwartungen der Analysten übertreffen, wobei insbesondere das beschleunigte Wachstum im Cloud-Bereich Azure positiv hervorgehoben wird. Trotz deutlich gestiegener Ausgaben konnte Microsoft den Gewinn um zweiunddreissig Prozent steigern, was die hohe Profitabilität des Unternehmens unterstreicht. Während die Mehrheit der Analysten die Aktie weiterhin positiv bewertet und ein durchschnittliches Kursziel von sechshundertfünf Dollar sieht, gibt es auch kritische Stimmen. So berichtet Bloomberg, dass Beobachter den hohen Kapitalabfluss für Investitionen in künstliche Intelligenz genau verfolgen. Bei den Insider-Aktivitäten zeigt sich, dass Finanzchefin Amy Hood im September und Oktober 2026 Aktienpakete im Wert von rund zwanzig Komma acht Millionen Dollar beziehungsweise rund vier Millionen Dollar veräussert hat, was jedoch auf vorab festgelegten Plänen basiert. Diese Zusammenfassung dient ausschliesslich der Information und stellt keine Anlageempfehlung dar.",
+   "dur": 63.7,
+   "at": "2026-10-29T04:06:50Z"
   },
   "OEF": {
    "file": "OEF.mp3",
@@ -464,15 +465,16 @@
   },
   "ABBN.SW": {
    "file": "ABBN.SW.mp3",
-   "hash": "44896233bb400fa0",
-   "th": "709e3d07a7553d0b",
-   "id": "f78f3778b1",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
+   "hash": "0b96fb643c91fa77",
+   "th": "6892a2d1f8d7adb3",
+   "engine": "gemini",
+   "id": "ce11df3d2a",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
    "br": 24,
-   "text": "Bei ABB zeigen sich in den aktuellen Berichten verschiedene Entwicklungen an den Märkten. Laut dem Finanzportal MarketScreener Deutschland hat Venezia eine Platzierung von bis zu fünfhundertfünfzigtausend Somec-Aktien im ABB-Verfahren gestartet. Das Trading-Ratgeberportal Traders Union berichtet zudem, dass die Aktie nach einem überverkauften Rebound und technischen Erholungsversuchen um mehr als zwei Prozent zugelegt hat. Ergänzend meldet MarketsMojo, dass ABB India trotz allgemeiner Marktschwäche um drei Prozent gestiegen ist. Yahoo Finance verzeichnet einen Konsens von siebenundzwanzig Analysten, bei dem das durchschnittliche Kursziel bei neunundneunzig Komma vier eins Dollar liegt. Das höchste Kursziel wird mit einhundertsechzehn Dollar und das tiefste Kursziel mit achtzig Komma fünf sechs Dollar angegeben. Die genannten Kursgewinne und technischen Erholungen prägen das aktuelle Bild der Firma.",
-   "dur": 63.4,
-   "at": "2026-10-28T20:52:34Z"
+   "text": "Die Aktie von ABB bewegt sich derzeit in einem spannungsreichen Umfeld. Laut dem Wall Street Journal belasteten Bedenken rund um das Thema künstliche Intelligenz die Stimmung und führten zu einem Kursrückgang. Demgegenüber stehen Berichte von Portalen wie Traders Union, die nach einer Phase der Überverkauftheit technische Erholungsversuche und ein Kursplus von mehr als zwei Prozent beobachteten. Auch die Tochtergesellschaft ABB India konnte sich mit einem Zuwachs von drei Prozent gegen die allgemeine Marktschwäche behaupten. Analysten sind in ihrer Einschätzung eher vorsichtig: Von siebenundzwanzig Experten raten zwanzig zum Halten der Aktie, während die übrigen Empfehlungen zwischen Kauf und Verkauf schwanken. Das mittlere Kursziel liegt bei neunundneunzig Komma vier neun Dollar, was ein theoretisches Kurspotenzial von dreizehn Komma vier Prozent impliziert. Diese Informationen dienen lediglich der Übersicht und sind keine Anlageberatung.",
+   "dur": 58.2,
+   "at": "2026-10-29T04:07:35Z"
   },
   "STX": {
    "file": "STX.mp3",
@@ -511,10 +513,10 @@
    "at": "2026-10-27T14:41:34Z"
   }
  },
- "status": "quota: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usa",
- "checked_at": "2026-10-29T03:07:30Z",
+ "status": "ok",
+ "checked_at": "2026-10-29T04:07:35Z",
  "quota_until": 1793243739.5666087,
- "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@23a241f2fac0b68c634827dab31b0bda1a00ae17/data/audio/",
+ "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@dc3da88df0af38b31c69586810a6c984ef4fc744/data/audio/",
  "extra": {
   "intro": {
    "file": "_intro.mp3",
