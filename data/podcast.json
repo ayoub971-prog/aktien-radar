@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T23:29:05Z",
+ "generated_at": "2026-10-29T23:58:12Z",
  "intro": "Willkommen beim Aktien-Radar, deinem Überblick über die neuesten Meldungen. Heute geht es um 39 Aktien aus deiner Liste. Alles stammt aus den gesammelten Meldungen und Analystendaten, nichts ist erfunden. Keine Anlageberatung.",
  "outro": "Das war der Aktien-Radar-Überblick. Die Quellen und Details findest du in der App bei jeder Aktie. Keine Anlageberatung.",
  "segments": [
@@ -19,13 +19,13 @@
   {
    "symbol": "NVDA",
    "name": "Nvidia",
-   "text": "Nvidia gerät an den Börsen unter Druck, nachdem Berichte über ein mutmassliches chinesisches Spionagekomplott gegen Konzernchef Jensen Huang bekannt wurden. Gleichzeitig kooperiert das Unternehmen mit Eclypsium, um die Sicherheit von Infrastrukturen für künstliche Intelligenz zu verbessern, und hat eine Beteiligung an SpaceX offen gelegt. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden, abgesehen von den erwähnten Spionageberichten und der damit verbundenen Exportdebatte. Bei den Analysten-Bewertungen zeigt sich ein überwiegend positives Bild. Laut Yahoo Finance liegt das durchschnittliche Kursziel bei rund dreihundertachtundzwanzig Dollar, wobei das höchste Ziel fünfhundertfünfzehn Dollar und das tiefste Ziel einhundertachtzig Dollar beträgt. Die Mehrheit der Analysten empfiehlt die Aktie zum Kauf oder zur Übergewichtung, während Seaport eine Verkaufsempfehlung bekräftigt und auf den zunehmenden Wettbewerb verweist. Zurück zu Nvidia: Das Unternehmen treibt seine Projekte voran, wie etwa die Zusammenarbeit mit Eclypsium zur Stärkung des Vertrauens in die Künstliche Intelligenz und die genannte Beteiligung an SpaceX. Als wichtige Kennzahl ist das durchschnittliche Kursziel von rund dreihundertneunundzwanzig Dollar zu nennen, das ein Aufwärtspotenzial signalisiert. Zu den Insider-Aktivitäten zeigen offizielle SEC-Meldungen diverse Verkäufe von Führungskräften und Verwaltungsräten. So verkaufte etwa Finanzchefin Colette Kress im Rahmen eines geplanten Plans Aktien im Wert von rund sieben Komma sechs Millionen Dollar, und Verwaltungsrat Mark A. Stevens veräusserte in mehreren Schritten grössere Aktienpakete mit Werten von rund zweihundertfünfunddreissig Millionen bis hin zu rund vierhundertzehn Millionen Dollar. Dabei ist zu beachten, dass Insider-Verkäufe oft weniger aussagekräftig sind als Käufe, da sie häufig steuerlich motiviert oder von vornherein geplant sind. Aussagen von Chefs liegen in den aktuellen Berichten nicht vor. Keine Anlageberatung.",
+   "text": "Nvidia steht derzeit unter Druck, da Berichte über ein mutmassliches chinesisches Spionagekomplott gegen CEO Jensen Huang die Debatte um Exportbeschränkungen befeuern. Trotz dieser Belastungen treibt das Unternehmen seine strategischen Partnerschaften voran. So kooperiert Nvidia mit Eclypsium, um die Sicherheit von Infrastrukturen für Künstliche Intelligenz zu stärken, und ist zudem als Partner in der neuen Control Tower Alliance von ServiceNow vertreten. Aufsehen erregte zudem die Offenlegung einer Beteiligung von achtzehn Milliarden Dollar an SpaceX. Zurück zu Nvidia: Analysten bewerten die Aktie mehrheitlich positiv: Bei achtundfünfzig Experten liegt das durchschnittliche Kursziel bei dreihundertneunundzwanzig Dollar, mit einer Spanne zwischen einhundertachtzig und fünfhundertfünfzehn Dollar. Der Konsens umfasst zehn starke Käufe, neunundfünfzig Käufe, zwei Halte-Empfehlungen und einen Verkauf. Die Firma Seaport bekräftigt ihre Verkaufsempfehlung mit Verweis auf den zunehmenden Wettbewerb. Weitere Einschätzungen stammen von Häusern wie Needham, Cantor Fitzgerald, Rosenblatt und Piper Sandler, die Kursziele zwischen dreihundert und dreihundertneunzig Dollar ausgeben. Bitte beachten Sie, dass dies keine Anlageberatung darstellt.",
    "id": "40c250af92",
    "generated_at": "2026-10-29T21:22:01Z",
    "audio": {
     "file": "NVDA.mp3",
-    "hash": "9e6f06f911963a28",
-    "dur": 137.2,
+    "hash": "8e4ec8d5069e3244",
+    "dur": 85.4,
     "engine": "edge"
    }
   },
@@ -45,14 +45,14 @@
   {
    "symbol": "HY9H.MU",
    "name": "SK Hynix",
-   "text": "SK Hynix steht aktuell im Fokus der Finanzwelt. Die US-Wirtschaftszeitung WSJ berichtet, dass das Unternehmen nach starken Quartalsergebnissen eine Aktionärsrendite von fünfundsiebzig Milliarden Dollar plant. Zudem meldet die kanadische Tageszeitung The Globe and Mail, dass die Speicherchips von SK Hynix bis 2029 ausverkauft sind. Das US-Finanzmagazin Barron's hebt hervor, dass der Chiphersteller den Hype um künstliche Intelligenz mit zwei bedeutenden Mitteilungen weiter befeuert hat. Während die Plattform Seeking Alpha auf eine Rating-Herabstufung aufgrund eines verborgenen Problems bei den Rekordgewinnen verweist, berichtet die Plattform TradingView von fallenden Aktienkursen an einem Donnerstag. Zurück zu SK Hynix: Die Analystenmeinungen sind gespalten: Während Häuser wie Cantor Fitzgerald und Wolfe Research die Aktie aufgrund der Nachfrage nach künstlicher Intelligenz und der Preisgestaltung bei HBM-Speichern stützen, gibt es auch kritische Stimmen zur Bewertung. Operativ arbeitet SK Hynix laut eigenen Angaben an Siliziumphotonik und Co-Packaged Optics, um die Effizienz bei der Nutzung von Grafikeinheiten zu steigern. Zudem berichtet das Portal TheStreet, dass der Einsatz von Robotern den Speicherboom des Unternehmens über Jahre hinweg stützen könnte. Seeking Alpha bezeichnet die Aktie trotz der Rekordgewinne als günstig und hält Befürchtungen vor einem Zusammenbruch des Marktes für künstliche Intelligenz-Speicher für unbegründet. Dies ist keine Anlageberatung.",
-   "id": "a42db9859a",
-   "generated_at": "2026-10-29T21:22:01Z",
+   "text": "SK Hynix steht derzeit stark im Fokus der Finanzmarkte, angetrieben durch beeindruckende Quartalszahlen und eine enorme Nachfrage im Bereich der kunstlichen Intelligenz. Laut der US-Wirtschaftszeitung Wall Street Journal plant das Unternehmen nach diesen Rekordergebnissen eine Aktionarsrendite von fünfundsiebzig Milliarden Dollar. Die kanadische Tageszeitung The Globe and Mail berichtet zudem, dass die Speicherchips von SK Hynix bereits bis zum Jahr 2029 ausverkauft sind. Das US-Finanzmagazin Barron's erganzt, dass der Konzern den KI-Boom mit zwei bedeutenden Ankundigungen weiter anheizt. Wahrend die Chartplattform TradingView auf einen zeitweiligen Kursdruck hinweist und Seeking Alpha eine Rating-Herabstufung im Kontext der Rekordgewinne erwahnt, fallt das Urteil der Analysten mehrheitlich positiv aus. Zurück zu SK Hynix: So bekraftigt Cantor Fitzgerald die Bewertung der Aktie aufgrund der starken KI-Nachfrage, und Wolfe Research stutzt diese Einschatzung mit Blick auf die Preisgestaltung bei HBM-Speichern. Das US-Finanzportal TheStreet meldet zudem eine Anpassung des Kursziels nach den starken Ergebnissen. Operativ arbeitet SK Hynix an der Entwicklung von Siliziumphotonik und CPO, um als sogenannte Autobahnen des Lichts die Wartezeiten bei GPUs zu verkurzen. Das Researchhaus Morningstar unterstreicht, dass die durch KI getriebene Unterversorgung mit Speicher die kurzfristige Rentabilitat absichert. Als potenzielles Risiko fuhrt das osterreichische Finanzportal finanzen.at die naher ruckende Chipoffensive aus China an, die Samsung und SK Hynix unter Druck setzen konnte. Bei der Kursentwicklung zeigen sich unterschiedliche Signale, da TradingView von fallenden Kursen berichtet, wahrend Investor's Business Daily einen deutlichen Aktiensprung nach einer Gewinnuberschreitung verzeichnet.",
+   "id": "3fd0f5a914",
+   "generated_at": "2026-10-29T23:48:08Z",
    "audio": {
     "file": "HY9H.MU.mp3",
-    "hash": "28dc319a55341d3d",
-    "dur": 103.5,
-    "engine": "edge"
+    "hash": "49abe43385bff2dc",
+    "dur": 109.6,
+    "engine": "gemini"
    }
   },
   {
@@ -292,14 +292,14 @@
   {
    "symbol": "HYLN",
    "name": "Hyliion Holdings",
-   "text": "Hyliion Holdings steht vor der Veröffentlichung seiner Finanzergebnisse. Laut Business Wire plant das Unternehmen die Bekanntgabe der Zahlen für das dritte Quartal 2026 am zehnten November nach Börsenschluss sowie eine Telefonkonferenz am elften November 2026, was auch durch Stock Titan bestätigt wird. Gemäss Yahoo Finance empfehlen Analysten die Aktie mit einem starken Kauf und vier Käufen bei null Halte- oder Verkaufsempfehlungen. Northland Capital Markets stufte die Aktie am dreizehnten August 2026 auf Besser als Markt ein und nannte ein Kursziel von zehn Dollar. Zurück zu Hyliion Holdings: Craig-Hallum bewertete die Aktie am neunundzwanzigsten September 2026 mit Kaufen und setzte ein Kursziel von sieben Dollar fest. Als wichtige Kennzahl wird ein durchschnittliches Kursziel der Analysten von sieben Komma sieben fünf Dollar genannt, während das höchste Kursziel bei zehn Dollar und das tiefste bei fünf Dollar liegt, was ein erwartetes Kurspotenzial von einhundertzweiundzwanzig Komma sechs Prozent ergibt. Bei den Insider-Aktivitäten kaufte Verwaltungsrat Vincent T. Cubbage Aktien im Wert von rund einhundertsiebzigtausend Dollar.",
-   "id": "cbb4bbd873",
-   "generated_at": "2026-10-29T16:53:17Z",
+   "text": "Hyliion Holdings: Bei Hyliion Holdings bündelt das Finanzportal Yahoo! Finance Canada aktuell die Nachrichten und Marktentwicklungen zur Aktie. Im Bereich der Analystenbewertungen gibt es positive Signale: Craig-Hallum stufte die Aktie am neunundzwanzigsten September 2026 auf Kaufen mit einem Kursziel von sieben Dollar ein. Bereits am dreizehnten August 2026 hatte Northland Capital Markets die Einstufung auf Besser als Markt mit einem Kursziel von zehn Dollar festgelegt. Das durchschnittliche Kursziel der Analysten liegt bei sieben Komma sieben fünf Dollar, was einem Aufwärtspotenzial von einhundertfünfundzwanzig Komma neun Prozent entspricht. Die Spanne der Kursziele reicht dabei von einem Tiefstwert von fünf Dollar bis zu einem Höchstwert von zehn Dollar. Ein bemerkenswerter Insider-Kauf wurde ebenfalls gemeldet: Der Verwaltungsrat Vincent T. Cubbage erwarb Aktien im Wert von rund einhundertsiebzig null Dollar. Solche Käufe durch Führungskräfte werden am Markt oft als Zeichen von Vertrauen in die zukünftige Entwicklung des Unternehmens gewertet. Dies stellt keine Anlageberatung dar.",
+   "id": "82dde813d6",
+   "generated_at": "2026-10-29T23:48:08Z",
    "audio": {
     "file": "HYLN.mp3",
-    "hash": "b66ee700ae440b61",
-    "dur": 83.7,
-    "engine": "edge"
+    "hash": "d7d3a077b357d74e",
+    "dur": 67.2,
+    "engine": "gemini"
    }
   },
   {
@@ -331,14 +331,14 @@
   {
    "symbol": "RYCEY",
    "name": "Rolls-Royce",
-   "text": "Rolls-Royce arbeitet laut eigener Mitteilung an einem transformativen Programm zur Triebwerkstechnologie, um das Wirtschaftswachstum anzukurbeln. Ausserdem berichtet Stock Titan, dass diese Technologie in geplanter Triebwerkskapazität für künstliche Intelligenz-Rechenzentren zum Einsatz kommen soll. Das Trading-Ratgeberportal Traders Union weist auf ein steigendes Abwärtsrisiko mit einer Unterstützung von rund eintausendsechshundertsieben Dollar hin. Laut Yahoo Finance Singapore gibt es im Analystenkonsens zwei starke Käufe und drei Käufe, während das durchschnittliche Kursziel bei rund dreiundzwanzig Dollar liegt und ein Aufwärtspotenzial von rund fünfunddreissig Prozent aufweist. Zurück zu Rolls-Royce: Die Firma verlängerte zudem die Laufzeiten für mtu-Schiffsmotoren und plant zusammen mit der britischen Regierung ein Forschungsprogramm für Triebwerke. Konzernchef Healey gab an, dass Rolls-Royce neue Turbinentriebwerke in Grossbritannien herstellen wird, was die heimische Fertigung stärken könnte. Widersprüche zeigten sich beim Kursverlauf, da finanzen.ch sowohl von Kursgewinnen am Vormittag als auch von Kurseinbussen am Mittag berichtete, und auch bei der staatlichen Finanzierung nannten verschiedene Quellen unterschiedliche Beträge. Es handelt sich um keine Anlageberatung.",
-   "id": "27c802da78",
-   "generated_at": "2026-10-29T18:48:54Z",
+   "text": "Rolls-Royce: Der britische Industriekonzern steht im Fokus neuer technologischer Entwicklungen und staatlicher Unterstützung. Laut Rolls-Royce plc, einer Mitteilung der Firma selbst, treibt das Unternehmen ein transformatives Programm zur Triebwerkstechnologie voran. Zudem meldet Investing.com Deutsch, ein Finanzportal, dass sich Rolls-Royce eine britische Unterstützung in Höhe von rund drei Komma drei Milliarden Dollar für ein Triebwerksprojekt sichert. Stock Titan, ein Portal für Firmenmitteilungen, berichtet ergänzend, dass Rolls-Royce-Technologie in zweihundertfünfundsiebzig Megawatt geplanter Triebwerkskapazität für Künstliche-Intelligenz-Rechenzentren zum Einsatz kommen wird. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Laut Yahoo Finance Singapore, einem Finanzportal, das Meldungen und Analystenbewertungen bündelt, gibt es derzeit insgesamt fünf Kaufempfehlungen für die Aktie, aufgeteilt in drei normale und zwei starke Kaufurteile. Zurück zu Rolls-Royce: Was die Firma gerade macht, zeigen erweiterte Angebote und neue Partnerschaften. Laut Rolls-Royce plc, einer Mitteilung der Firma selbst, verlängert das Unternehmen die Wartungsintervalle und die erweiterte Abdeckung für mtu-Schiffsmotoren für Freizeitaktivitäten auf bis zu achtzehn Jahre. Stock Titan, ein Portal für Firmenmitteilungen, hebt hervor, dass die Technologie des Hauses in Rechenzentren für Künstliche Intelligenz eingeplant ist. Zu den wichtigen Kennzahlen gehört das von Yahoo Finance Singapore genannte durchschnittliche Kursziel von rund dreiundzwanzig Dollar sowie ein erwartetes Kurspotenzial von rund vierunddreissig Prozent, wobei das Kursziel den von Analysten erwarteten mittleren Aktienkurs darstellt und das Kurspotenzial den prozentualen Abstand zum aktuellen Kurs misst. Insider-Käufe oder Verkäufe wurden in den offiziellen Daten nicht verzeichnet. Bei den Marktbewegungen zeigen sich leichte Widersprüche, da finanzen.ch, ein Schweizer Finanzportal, einerseits von nordwärts tendierenden Kursen am Vormittag berichtet, andererseits aber auch Kurseinbussen am Mittag meldet. Keine Anlageberatung.",
+   "id": "453135db55",
+   "generated_at": "2026-10-29T23:48:08Z",
    "audio": {
     "file": "RYCEY.mp3",
-    "hash": "d57c330f9dc451b1",
-    "dur": 88.1,
-    "engine": "edge"
+    "hash": "4f34d61d8965bee4",
+    "dur": 132.1,
+    "engine": "gemini"
    }
   },
   {
@@ -524,5 +524,5 @@
   "dur": 10.2,
   "engine": "edge"
  },
- "audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@56e01e624e8070dfef3aee519d2d75a68dd9e8be/data/audio/"
+ "audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@c7ad9bef616e3777d0b6252ffcef56f76394c1f2/data/audio/"
 }
