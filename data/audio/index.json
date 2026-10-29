@@ -89,16 +89,15 @@
   },
   "IBM": {
    "file": "IBM.mp3",
-   "hash": "7030a594a9715403",
-   "th": "a4eaf5686ab7c140",
-   "engine": "gemini",
-   "id": "195f487ed3",
-   "voice": "Kore",
-   "model": "gemini-2.5-flash-preview-tts",
+   "hash": "c65d65f226846259",
+   "th": "1a15a03add7792e4",
+   "id": "59bfb74966",
+   "voice": "de-CH-LeniNeural",
+   "engine": "edge",
    "br": 24,
-   "text": "IBM steht im Fokus aktueller Wirtschafts- und Finanzmeldungen. Laut dem IBM Newsroom, einer Mitteilung der Firma selbst, baut das Unternehmen seine Aktivitäten im Bereich der Kuenstlichen Intelligenz stark aus und hat neue Plattformen wie Identitaet und Kontrolle fuer KI-Agenten eingefuehrt. Zudem meldet Investing.com Canada, ein Finanzportal, dass die langjaehrige Partnerschaft mit der USTA um fünf Jahre bis 2031 verlaengert wurde. Berichte von Yahoo Finance, einem Finanzportal, das Meldungen und Analystenbewertungen buendelt, unterstreichen zudem die starke Marktposition von IBM in Bereichen wie IT-Automatisierung und Cloud-Infrastruktur. Zuerst zu IBM: In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Die Analysten zeigen sich ueberwiegend konstruktiv gestimmt. Laut Yahoo Finance gibt es im Konsens zwölf Kaufempfehlungen, elf Halteempfehlungen sowie einige starke Kauf- und wenige Verkaufsempfehlungen. Das durchschnittliche Kursziel wird bei rund zweihundertsiebenundfünfzig Dollar genannt. Die Bank Jefferies bestaetigt ihre Kaufempfehlung und setzt das Kursziel auf zweihundertachtzig Dollar. Auch die UBS bleibt bei ihrer neutralen Haltung mit einem Kursziel von zweihundertdreiundvierzig Dollar. Die Citigroup bestaetigt ebenfalls die Kaufempfehlung mit einem Kursziel von zweihundertachtzig Dollar. Morgan Stanley belaesst die Einstufung auf Marktgewichten mit einem Kursziel von zweihundertvierzig Dollar. BMO Capital bestaetigt die Bewertung wie der Markt bei einem Kursziel von zweihundertfünfundsechzig Dollar, waehrend Barclays die Aktie mit Uebergewichten bewertet und das Kursziel auf zweihundertsiebenundsiebzig Dollar anhebt. Was macht die Firma gerade? Aufwertend wirken die Lancierung neuer Softwareloesungen wie IBM Agent Identity und IBM Quantum Safe sowie die verlaengerte Partnerschaft bei den US Open. Dagegen wird als abwertender Punkt genannt, dass IBM zusammen mit anderen Unternehmen eine Beteiligung am Blockchain-basierten Aktienhandel ablehnt. Zu den wichtigsten Kennzahlen gehoert das durchschnittliche Kursziel der Analysten von rund zweihundertsiebenundfünfzig Dollar, welches die durchschnittlichen Erwartungen des Marktes widerspiegelt. Aussagen des Managements liegen in den aktuellen Meldungen keine vor.",
-   "dur": 120.6,
-   "at": "2026-10-29T20:51:48Z"
+   "text": "IBM baut sein Geschäft im Bereich künstliche Intelligenz und Hybrid-Cloud konsequent aus. Aktuell stellt das Unternehmen neue Sicherheitsfunktionen und Identitätskontrollen für KI-Agenten vor, um die Integrität in Unternehmen zu stärken. Marktberichte unterstreichen zudem die starke Position von IBM in den Zukunftsfeldern IT-Automatisierung und Cloud-Infrastruktur, wobei das Softwaregeschäft des Konzerns laut Beobachtern spürbar an Fahrt gewinnt. Auch abseits der Technik gibt es Neuigkeiten: Die Partnerschaft mit der USTA wurde offiziell um fünf Jahre verlängert. Mit Blick auf die Analystenmeinungen liegt das durchschnittliche Kursziel derzeit bei zweihundertsiebenundfünfzig Dollar. Die Einschätzungen variieren dabei: Während Jefferies und die Citigroup die Aktie mit einem Kursziel von zweihundertachtzig Dollar zum Kauf empfehlen und Barclays die Aktie mit einem Kursziel von zweihundertsiebenundsiebzig Dollar übergewichtet, stuft die UBS das Papier neutral mit zweihundertdreiundvierzig Dollar ein. Morgan Stanley bewertet IBM mit Marktgewichten bei einem Kursziel von zweihundertvierzig Dollar, und BMO Capital sieht die Aktie bei einem Kursziel von zweihundertfünfundsechzig Dollar auf Marktniveau. Die Spanne der Analystenziele reicht dabei von einhundertvierundsiebzig Dollar bis dreihundert Dollar. Bei den Insider-Aktivitäten gab es einen Verkauf durch den Senior Vice President Robert David Thomas, der fünfundzwanzigtausend Aktien im Wert von rund fünf Komma acht Millionen Dollar veräusserte.",
+   "dur": 104.1,
+   "at": "2026-10-29T23:29:04Z"
   },
   "NOW": {
    "file": "NOW.mp3",
@@ -511,9 +510,9 @@
   }
  },
  "status": "quota: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usa",
- "checked_at": "2026-10-29T22:54:53Z",
+ "checked_at": "2026-10-29T23:29:04Z",
  "quota_until": 1793318082.8333726,
- "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@78c21ef127d4bcc53a3d85bd1a3ec4008de5e1ec/data/audio/",
+ "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@56e01e624e8070dfef3aee519d2d75a68dd9e8be/data/audio/",
  "extra": {
   "intro": {
    "file": "_intro.mp3",

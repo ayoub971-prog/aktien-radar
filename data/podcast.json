@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T22:54:55Z",
+ "generated_at": "2026-10-29T23:29:05Z",
  "intro": "Willkommen beim Aktien-Radar, deinem Überblick über die neuesten Meldungen. Heute geht es um 39 Aktien aus deiner Liste. Alles stammt aus den gesammelten Meldungen und Analystendaten, nichts ist erfunden. Keine Anlageberatung.",
  "outro": "Das war der Aktien-Radar-Überblick. Die Quellen und Details findest du in der App bei jeder Aktie. Keine Anlageberatung.",
  "segments": [
@@ -123,14 +123,14 @@
   {
    "symbol": "IBM",
    "name": "IBM",
-   "text": "IBM steht im Fokus aktueller Wirtschafts- und Finanzmeldungen. Laut dem IBM Newsroom, einer Mitteilung der Firma selbst, baut das Unternehmen seine Aktivitäten im Bereich der Kuenstlichen Intelligenz stark aus und hat neue Plattformen wie Identitaet und Kontrolle fuer KI-Agenten eingefuehrt. Zudem meldet Investing.com Canada, ein Finanzportal, dass die langjaehrige Partnerschaft mit der USTA um fünf Jahre bis 2031 verlaengert wurde. Berichte von Yahoo Finance, einem Finanzportal, das Meldungen und Analystenbewertungen buendelt, unterstreichen zudem die starke Marktposition von IBM in Bereichen wie IT-Automatisierung und Cloud-Infrastruktur. Zuerst zu IBM: In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Die Analysten zeigen sich ueberwiegend konstruktiv gestimmt. Laut Yahoo Finance gibt es im Konsens zwölf Kaufempfehlungen, elf Halteempfehlungen sowie einige starke Kauf- und wenige Verkaufsempfehlungen. Das durchschnittliche Kursziel wird bei rund zweihundertsiebenundfünfzig Dollar genannt. Die Bank Jefferies bestaetigt ihre Kaufempfehlung und setzt das Kursziel auf zweihundertachtzig Dollar. Zurück zu IBM: Auch die UBS bleibt bei ihrer neutralen Haltung mit einem Kursziel von zweihundertdreiundvierzig Dollar. Die Citigroup bestaetigt ebenfalls die Kaufempfehlung mit einem Kursziel von zweihundertachtzig Dollar. Morgan Stanley belaesst die Einstufung auf Marktgewichten mit einem Kursziel von zweihundertvierzig Dollar. BMO Capital bestaetigt die Bewertung wie der Markt bei einem Kursziel von zweihundertfünfundsechzig Dollar, waehrend Barclays die Aktie mit Uebergewichten bewertet und das Kursziel auf zweihundertsiebenundsiebzig Dollar anhebt. Was macht die Firma gerade? Aufwertend wirken die Lancierung neuer Softwareloesungen wie IBM Agent Identity und IBM Quantum Safe sowie die verlaengerte Partnerschaft bei den US Open. Dagegen wird als abwertender Punkt genannt, dass IBM zusammen mit anderen Unternehmen eine Beteiligung am Blockchain-basierten Aktienhandel ablehnt. Zu den wichtigsten Kennzahlen gehoert das durchschnittliche Kursziel der Analysten von rund zweihundertsiebenundfünfzig Dollar, welches die durchschnittlichen Erwartungen des Marktes widerspiegelt. Aussagen des Managements liegen in den aktuellen Meldungen keine vor.",
-   "id": "195f487ed3",
-   "generated_at": "2026-10-29T19:49:38Z",
+   "text": "IBM baut sein Geschäft im Bereich künstliche Intelligenz und Hybrid-Cloud konsequent aus. Aktuell stellt das Unternehmen neue Sicherheitsfunktionen und Identitätskontrollen für KI-Agenten vor, um die Integrität in Unternehmen zu stärken. Marktberichte unterstreichen zudem die starke Position von IBM in den Zukunftsfeldern IT-Automatisierung und Cloud-Infrastruktur, wobei das Softwaregeschäft des Konzerns laut Beobachtern spürbar an Fahrt gewinnt. Auch abseits der Technik gibt es Neuigkeiten: Die Partnerschaft mit der USTA wurde offiziell um fünf Jahre verlängert. Zurück zu IBM: Mit Blick auf die Analystenmeinungen liegt das durchschnittliche Kursziel derzeit bei zweihundertsiebenundfünfzig Dollar. Die Einschätzungen variieren dabei: Während Jefferies und die Citigroup die Aktie mit einem Kursziel von zweihundertachtzig Dollar zum Kauf empfehlen und Barclays die Aktie mit einem Kursziel von zweihundertsiebenundsiebzig Dollar übergewichtet, stuft die UBS das Papier neutral mit zweihundertdreiundvierzig Dollar ein. Morgan Stanley bewertet IBM mit Marktgewichten bei einem Kursziel von zweihundertvierzig Dollar, und BMO Capital sieht die Aktie bei einem Kursziel von zweihundertfünfundsechzig Dollar auf Marktniveau. Die Spanne der Analystenziele reicht dabei von einhundertvierundsiebzig Dollar bis dreihundert Dollar. Bei den Insider-Aktivitäten gab es einen Verkauf durch den Senior Vice President Robert David Thomas, der fünfundzwanzigtausend Aktien im Wert von rund fünf Komma acht Millionen Dollar veräusserte.",
+   "id": "59bfb74966",
+   "generated_at": "2026-10-29T23:20:24Z",
    "audio": {
     "file": "IBM.mp3",
-    "hash": "7030a594a9715403",
-    "dur": 120.6,
-    "engine": "gemini"
+    "hash": "c65d65f226846259",
+    "dur": 104.1,
+    "engine": "edge"
    }
   },
   {
@@ -524,5 +524,5 @@
   "dur": 10.2,
   "engine": "edge"
  },
- "audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@78c21ef127d4bcc53a3d85bd1a3ec4008de5e1ec/data/audio/"
+ "audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@56e01e624e8070dfef3aee519d2d75a68dd9e8be/data/audio/"
 }
