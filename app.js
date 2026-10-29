@@ -2,7 +2,7 @@
 (function () {
 'use strict';
 var REPO = 'ayoub971-prog/aktien-radar';
-var APP_VERSION = 'v36';
+var APP_VERSION = 'v37';
 var SECTOR_ORDER = ['Halbleiter/Hardware', 'Software/KI', 'Energie', 'Industrie/Luftfahrt', 'Finanzen', 'Rohstoffe/Gold', 'Konsum/Internet', 'Gesundheit', 'ETFs/Indizes', 'Sonstige'];
 var TAGS = [
   { n: 'Quartalszahlen', re: /quartalszahl|quartalsergebnis|quartalsbericht|jahreszahlen|halbjahreszahlen|geschäftszahlen|\bearnings\b|quarterly results|\bq[1-4]\b.{0,12}(results|earnings|revenue)|(results|earnings) for (the )?(first|second|third|fourth)|\bumsatz\b|\bbilanz\b/i },
@@ -419,7 +419,7 @@ function audioFor(sym, sp) {
 }
 function audSrc(e) { var b = (AUD && AUD.base) || (POD.doc && POD.doc.audio_base) || 'data/audio/'; return b + encodeURIComponent(e.file) + '?v=' + e.hash; }
 function engName(e) { return e && e.engine === 'edge' ? 'MP3-Stimme' : 'Gemini-Stimme'; }
-function aEl() { if (!AEL) { AEL = new Audio(); AEL.preload = 'none'; } return AEL; }
+function aEl() { if (!AEL) { AEL = new Audio(); AEL.crossOrigin = 'anonymous'; AEL.preload = 'none'; } return AEL; }
 function fmtT(s) { s = Math.max(0, Math.floor(s || 0)); return Math.floor(s / 60) + ':' + ('0' + s % 60).slice(-2); }
 function splitSents(t) { return (t.match(/[^.!?]+(?:[.!?]+(?=\s|$)|$)/g) || [t]).map(function (x) { return x.trim(); }).filter(function (x) { return x.length > 1; }); }
 function posGet(sym) { try { return JSON.parse(lsGet('ar.tts.' + sym) || 'null'); } catch (e) { return null; } }
@@ -1138,7 +1138,7 @@ function catBuild(key, urls) {
 function catIdx(c, ct) { var j = c.offs.length - 1; while (j > 0 && (c.offs[j] > ct + 0.05 || !c.durs[j])) j--; return j; }
 // o: owner, segs, src(audio), i, t, ok(), pos(j,t), next(), end(), blocked(), curI()
 function catRun(o) {
-  if (!POD.el) { POD.el = new Audio(); POD.el.preload = 'auto'; }
+  if (!POD.el) { POD.el = new Audio(); POD.el.crossOrigin = 'anonymous'; POD.el.preload = 'auto'; }
   var a = POD.el; a.dataset.owner = o.owner;
   var urls = o.segs.map(function (s) { return s.audio ? o.src(s.audio) : null; }), key = o.owner + '|' + urls.join('|'), c = CATS[key];
   function whole() {
@@ -1215,16 +1215,99 @@ function speechRate() { return Math.min(2, 0.95 * RATE); }
 function rateFmt(r) { return (Math.round(r * 100) / 100).toString().replace('.', ',') + '×'; }
 function setRate(r) {
   RATE = Math.max(0.75, Math.min(2, Math.round(r * 20) / 20)); lsSet('ar.rate', String(RATE));
-  applyRate(AEL); applyRate(POD.el);
+  applyRate(AEL); applyRate(POD.el); pxSync();
   var sl = document.querySelectorAll('.rateSl'), vl = document.querySelectorAll('.rateV'), i;
   for (i = 0; i < sl.length; i++) sl[i].value = RATE;
   for (i = 0; i < vl.length; i++) vl[i].textContent = rateFmt(RATE);
 }
-function rateHtml() {
-  return '<div class="rate"><div class="rateTop"><span class="tiny">Tempo</span> <b class="rateV">' + rateFmt(RATE) + '</b></div>' +
+function rateHtml() {   // v37: grosser Player (Play/Pause, Fortschritt, ±15 s, Tempo, Höhen/Tiefen)
+  var q = [0.75, 1, 1.25, 1.5, 1.75, 2];
+  return '<div class="px"><button type="button" class="pxPP" aria-label="Play/Pause">▶</button>' +
+    '<div class="pxBar"><span class="pxCur">00:00</span><input type="range" class="pxSeek" min="0" max="1000" step="1" value="0" aria-label="Position"><span class="pxDur">00:00</span></div>' +
+    '<div class="pxSkip"><button type="button" class="pxB" data-skip="-15">⏪ 15 s</button><button type="button" class="pxF" data-skip="15">15 s ⏩</button></div>' +
+    '<div class="rate"><div class="pxLbl">🎚️ Tempo</div><div class="rateV pxBig">' + rateFmt(RATE) + '</div>' +
     '<input type="range" class="rateSl" min="0.75" max="2" step="0.05" value="' + RATE + '" aria-label="Tempo">' +
-    '<div class="rateQ">' + [1, 1.25, 1.5, 2].map(function (r) { return '<button type="button" data-rate="' + r + '">' + rateFmt(r) + '</button>'; }).join('') + '</div></div>';
+    '<div class="rateQ">' + q.map(function (r) { return '<button type="button" data-rate="' + r + '"' + (Math.abs(r - RATE) < 0.01 ? ' class="on"' : '') + '>' + rateFmt(r) + '</button>'; }).join('') + '</div></div>' +
+    ['hi', 'lo'].map(function (k) { return '<div class="pxEq"><div class="pxEqT"><span>🔉 ' + (k === 'hi' ? 'Höhen' : 'Tiefen') + '</span><b class="eqV" data-eqv="' + k + '">' + eqFmt(EQ[k]) + '</b></div><input type="range" class="eqSl" data-eq="' + k + '" min="-12" max="12" step="1" value="' + EQ[k] + '" aria-label="' + (k === 'hi' ? 'Höhen' : 'Tiefen') + '"></div>'; }).join('') +
+    '<button type="button" class="pxReset">Klang zurücksetzen</button><div class="pxNote tiny"></div></div>';
 }
+/* ===== v37 Klang: Höhen/Tiefen via Web Audio (nur wenn ≠ 0 dB), Sperrbildschirm-sicher ===== */
+var EQ = (function () { var o = { hi: 0, lo: 0 }; try { var j = JSON.parse(lsGet('ar.eq') || '{}'); ['hi', 'lo'].forEach(function (k) { var v = parseInt(j[k], 10); if (v >= -12 && v <= 12) o[k] = v; }); } catch (e) {} return o; })();
+var IOS = /iP(hone|ad|od)/.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+var AX = null, AXN = [];   // AudioContext + [{el, hi, lo}]
+function eqFmt(v) { return (v > 0 ? '+' : '') + v + ' dB'; }
+function eqOn() { return EQ.hi !== 0 || EQ.lo !== 0; }
+function eqWire(el) {   // erst verbinden, wenn wirklich EQ gewünscht (sonst bleibt reines <audio> = sicher im Hintergrund)
+  if (!el || !eqOn()) return null;
+  for (var i = 0; i < AXN.length; i++) if (AXN[i].el === el) return AXN[i];
+  try {
+    var C = window.AudioContext || window.webkitAudioContext; if (!C) return null;
+    if (!AX) AX = new C();
+    var src = AX.createMediaElementSource(el), hi = AX.createBiquadFilter(), lo = AX.createBiquadFilter();
+    hi.type = 'highshelf'; hi.frequency.value = 3000; lo.type = 'lowshelf'; lo.frequency.value = 250;
+    src.connect(lo); lo.connect(hi); hi.connect(AX.destination);
+    var n = { el: el, hi: hi, lo: lo }; AXN.push(n); eqApply(); return n;
+  } catch (e) { return null; }
+}
+function eqVis() { return !document.hidden; }
+function eqApply() {   // iOS: im Hintergrund flach (Filter 0 dB) + Kontext wach halten; sonst Werte anwenden
+  var flat = IOS && !eqVis();
+  AXN.forEach(function (n) { try { n.hi.gain.value = flat ? 0 : EQ.hi; n.lo.gain.value = flat ? 0 : EQ.lo; } catch (e) {} });
+  if (AX && AX.state !== 'running') { try { AX.resume(); } catch (e) {} }
+}
+function eqSet(k, v) {
+  EQ[k] = Math.max(-12, Math.min(12, Math.round(v))); lsSet('ar.eq', JSON.stringify(EQ));
+  if (eqOn()) { eqWire(AEL); eqWire(POD.el); }
+  eqApply(); pxSync();
+}
+document.addEventListener('visibilitychange', eqApply);
+if (window.addEventListener) window.addEventListener('pageshow', eqApply);
+function pxEl() {   // aktives Audio: das spielende, sonst zuletzt benutzte
+  var c = [POD.el, AEL].filter(Boolean), i;
+  for (i = 0; i < c.length; i++) if (!c[i].paused) return c[i];
+  return PXL || c[0] || null;
+}
+var PXL = null;
+document.addEventListener('play', function (e) { if (e.target && e.target.tagName === 'AUDIO' || e.target instanceof Audio) { PXL = e.target; if (eqOn()) eqWire(e.target); eqApply(); } }, true);
+function pxT(t) { if (!isFinite(t) || t < 0) t = 0; t = Math.floor(t); var h = Math.floor(t / 3600), m = Math.floor(t / 60) % 60, s = t % 60; return (h ? h + ':' : '') + (m < 10 ? '0' : '') + m + ':' + (s < 10 ? '0' : '') + s; }
+var PXDRAG = false;
+function pxSync() {
+  var a = pxEl(), d = a && isFinite(a.duration) ? a.duration : 0, ct = a ? a.currentTime : 0, play = a && !a.paused;
+  var ss = window.speechSynthesis; if (!play && ss && ss.speaking && !ss.paused) play = true;
+  var px = document.querySelectorAll('.px'), i;
+  for (i = 0; i < px.length; i++) {
+    var p = px[i], pp = p.querySelector('.pxPP'); pp.textContent = play ? '❚❚' : '▶'; pp.classList.toggle('on', !!play);
+    p.querySelector('.pxCur').textContent = pxT(ct); p.querySelector('.pxDur').textContent = pxT(d);
+    if (!PXDRAG) p.querySelector('.pxSeek').value = d ? Math.round(ct / d * 1000) : 0;
+    p.querySelector('.pxSeek').style.setProperty('--p', (d ? ct / d * 100 : 0) + '%');
+    var qb = p.querySelectorAll('[data-rate]'); for (var j = 0; j < qb.length; j++) qb[j].classList.toggle('on', Math.abs(parseFloat(qb[j].getAttribute('data-rate')) - RATE) < 0.01);
+    ['hi', 'lo'].forEach(function (k) { var s = p.querySelector('[data-eq="' + k + '"]'); if (document.activeElement !== s) s.value = EQ[k]; p.querySelector('[data-eqv="' + k + '"]').textContent = eqFmt(EQ[k]); });
+    p.querySelector('.pxNote').textContent = eqOn() && IOS ? 'Hinweis iPhone: Höhen/Tiefen wirken bei offenem Bildschirm; gesperrt läuft die Sendung normal weiter.' : '';
+  }
+}
+setInterval(pxSync, 500);
+function pxMainBtn(p) {   // vorhandenen Play/Pause-Knopf des Players benutzen (Logik bleibt unverändert)
+  var box = p.closest('.podCtl, .player') || document;
+  var ids = ['snPP', 'podPP', 'entPP', 'plPause', 'plPlay'];
+  for (var i = 0; i < ids.length; i++) { var b = box.querySelector('#' + ids[i]); if (b && !b.hidden) return b; }
+  return null;
+}
+document.addEventListener('click', function (e) {
+  var t = e.target.closest && e.target.closest('.px button'); if (!t) return;
+  var p = t.closest('.px'), a = pxEl();
+  if (t.classList.contains('pxPP')) { var b = pxMainBtn(p); if (b) b.click(); setTimeout(pxSync, 150); return; }
+  if (t.hasAttribute('data-skip')) { if (a && isFinite(a.duration)) { try { a.currentTime = Math.max(0, Math.min(a.duration - 0.5, a.currentTime + parseFloat(t.getAttribute('data-skip')))); } catch (x) {} } pxSync(); return; }
+  if (t.classList.contains('pxReset')) { EQ.hi = 0; EQ.lo = 0; lsSet('ar.eq', JSON.stringify(EQ)); eqApply(); pxSync(); return; }
+});
+document.addEventListener('input', function (e) {
+  var t = e.target; if (!t.classList) return;
+  if (t.classList.contains('eqSl')) return eqSet(t.getAttribute('data-eq'), parseFloat(t.value));
+  if (t.classList.contains('pxSeek')) { PXDRAG = true; var a = pxEl(); if (a && isFinite(a.duration)) t.parentNode.querySelector('.pxCur').textContent = pxT(t.value / 1000 * a.duration); }
+});
+document.addEventListener('change', function (e) {
+  var t = e.target; if (!t.classList || !t.classList.contains('pxSeek')) return;
+  PXDRAG = false; var a = pxEl(); if (a && isFinite(a.duration)) { try { a.currentTime = t.value / 1000 * a.duration; } catch (x) {} } pxSync();
+});
 document.addEventListener('input', function (e) { if (e.target.classList && e.target.classList.contains('rateSl')) setRate(parseFloat(e.target.value)); });
 document.addEventListener('click', function (e) {
   var b = e.target.closest && e.target.closest('[data-rate]'); if (b) { setRate(parseFloat(b.getAttribute('data-rate'))); return; }
