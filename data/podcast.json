@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T04:07:37Z",
+ "generated_at": "2026-10-29T05:06:43Z",
  "intro": "Willkommen beim Aktien-Radar, deinem Überblick über die neuesten Meldungen. Heute geht es um 39 Aktien aus deiner Liste. Alles stammt aus den gesammelten Meldungen und Analystendaten, nichts ist erfunden. Keine Anlageberatung.",
  "outro": "Das war der Aktien-Radar-Überblick. Die Quellen und Details findest du in der App bei jeder Aktie. Keine Anlageberatung.",
  "segments": [
@@ -435,14 +435,14 @@
   {
    "symbol": "1211.HK",
    "name": "BYD",
-   "text": "BYD verzeichnet laut dem Schweizer Finanzportal finanzen.ch am Nachmittag Einbussen und tendiert tiefer, während das deutsche Börsenportal boerse.de ergänzt, dass die Aktie unter der zwanzig-Tage-Linie notiert. Yahoo Finance, ein Finanzportal, das Meldungen und Analystenbewertungen bündelt, berichtet über Marktchancen für mobile Batterien, an denen BYD beteiligt ist. Laut economy.ac erhöht die lokale Expansion von BYD die Herausforderungen für das Personalmanagement, was durch Arbeitsrechtskontroversen in Brasilien und Ungarn verstärkt wird. Zu den Analystenbewertungen teilt Yahoo Finance mit, dass das durchschnittliche Kursziel der Aktie bei fünfzehn Komma fünf zwei Dollar liegt, mit einem Höchstwert von neunzehn Komma zwei neun Dollar und einem Tiefstwert von sieben Komma sechs fünf Dollar, was ein Aufwärtspotenzial von zweiundsiebzig Komma acht Prozent bedeutet. Zurück zu BYD: Das Votum der sechsundzwanzig Analysten setzt sich aus vier starken Käufen, zweiundzwanzig Käufen und fünf Halteempfehlungen zusammen. Das Unternehmen profitiert laut Yahoo Finance ausserdem vom Markt für hochdichte Batterien und ist im Bereich der prismatischen LFP-Batterien sowie Front-of-the-Meter-Batterien aktiv. Laut der US-Plattform mit Anlegerbeiträgen namens Seeking Alpha hofft BYD zudem, durch Teststrecken eine Autokultur in China zu schaffen. Das durchschnittliche Kursziel von fünfzehn Komma fünf zwei Dollar errechnet sich aus den Prognosen von sechsundzwanzig Analysten und zeigt das erwartete Kursniveau an, während das Aufwärtspotenzial von zweiundsiebzig Komma acht Prozent den prozentualen Abstand zwischen dem aktuellen Kurs und dem mittleren Analystenziel misst.",
-   "id": "3ba3e52e50",
-   "generated_at": "2026-10-28T21:21:12Z",
+   "text": "BYD: Beim chinesischen Automobilhersteller BYD zeichnet sich eine interessante Entwicklung ab: Laut Bloomberg ziehen sich immer mehr Leerverkäufer zurueck, da sie mit einer Erholung der Gewinne rechnen. Strategisch setzt das Unternehmen auf Expansion und plant, bis zum Jahr 2030 in Europa insgesamt vierzigtausend Mitarbeiter zu beschaeftigen. Gleichzeitig versucht BYD, in China durch den Bau von Teststrecken eine neue Autokultur zu etablieren. Diese Wachstumsplaene sind jedoch nicht frei von Herausforderungen, denn die Expansion sowie Arbeitsrechtskontroversen in Brasilien und Ungarn erschweren das Personalmanagement. Zurück zu BYD: Analysten blicken derweil differenziert auf den Titel: Von sechsundzwanzig Experten liegt das durchschnittliche Kursziel bei fünfzehn Komma fünf zwei Dollar, wobei die Spanne von einem Tiefstwert bei sieben Komma sechs sechs Dollar bis zu einem Hoechstwert von neunzehn Komma drei eins Dollar reicht. Operativ profitiert BYD stark vom Markt fuer hochdichte Batterien, der ein Volumen von sechsundvierzig Milliarden Dollar umfasst. Zudem nimmt das Unternehmen eine fuehrende Rolle bei der Speicherung von Elektrofahrzeugen und im Markt fuer Front-of-the-Meter-Batterien ein. Technisch betrachtet notiert die Aktie von BYD Electronic unter der zwanzig-Tage-Linie. Bei der kurzfristigen Kursentwicklung herrscht Uneinigkeit am Markt, da Finanzportale am Nachmittag teils gegensaetzliche Bewegungen meldeten.",
+   "id": "e0f8d65b27",
+   "generated_at": "2026-10-29T04:57:50Z",
    "audio": {
     "file": "1211.HK.mp3",
-    "hash": "a94eb8deafab735a",
-    "dur": 118.2,
-    "engine": "edge"
+    "hash": "3c7eb83f9b7a0a6d",
+    "dur": 75.6,
+    "engine": "gemini"
    }
   },
   {
@@ -524,5 +524,5 @@
   "dur": 10.2,
   "engine": "edge"
  },
- "audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@dc3da88df0af38b31c69586810a6c984ef4fc744/data/audio/"
+ "audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@ba7297f22a267268c36afb1fb14543fa9b3c378d/data/audio/"
 }
