@@ -5,7 +5,7 @@
 "kind": "tag",
 "date": "2026-10-29",
 "title": "Morgen-Sendung, Donnerstag, neunundzwanzigsten Oktober",
-"generated_at": "2026-10-29T05:12:42Z",
+"generated_at": "2026-10-29T11:58:24Z",
 "writer": "Gemini (Gratis-Kontingent) 8 Firmen, Rest Vorlage",
 "chapters": [
 {
@@ -19,100 +19,100 @@
 },
 {
 "name": "Markt kurz",
-"say": "Der Markt kurz. Der S und P fünfhundert, der Index der fünfhundert grossen US-Firmen, stand zuletzt bei plus null Komma drei Prozent gegenüber dem Vortag. In deiner Liste am stärksten: SK Hynix mit plus zehn Komma sieben Prozent, Micron mit plus fünf Komma neun Prozent, Applied Materials mit plus fünf Komma eins Prozent. Am schwächsten: Samsung Electronics mit minus fünf Komma zwei Prozent, Robinhood mit minus drei Komma drei Prozent. Zum Thema Zinsen meldet Reuters: Die Wall Street endet im Plus, da die Fed den Leitzins stabil hält und der Fokus auf den Gewinnen liegt. Zum Thema Zinsen meldet Reuters: Die Fed lässt die Zinsen unverändert, da sie auf die „Sammlung weiterer Informationen“ wartet.",
+"say": "Der Markt kurz. Der S und P fünfhundert, der Index der fünfhundert grossen US-Firmen, stand zuletzt bei plus null Komma drei Prozent gegenüber dem Vortag. In deiner Liste am stärksten: Micron mit plus fünf Komma neun Prozent, Applied Materials mit plus fünf Komma eins Prozent, SoftBank mit plus vier Komma acht Prozent. Am schwächsten: Samsung Electronics mit minus vier Komma eins Prozent, Robinhood mit minus drei Komma drei Prozent. Zum Thema Schweizer Börse meldet Cash: Börsen-Ticker: SMI zieht weiter an. Zum Thema Schweizer Börse meldet Cash: Börsen-Ticker: SMI hält sich auf Rekordniveau.",
 "audio": {
 "file": "sendung/2026-10-29-t_01.mp3",
-"hash": "b88798aee22b36c0",
-"dur": 53.9
-}
-},
-{
-"name": "SK Hynix",
-"sym": "HY9H.MU",
-"say": "Zur Aktie SK Hynix. Der Speicherchip-Hersteller SK Hynix hat seine Ziele für das dritte Quartal übertroffen und einen Rekordgewinn im Zuge des AI-Chip-Supercycles verzeichnet. Zudem steigen die Gewinne des Unternehmens angesichts der stark wachsenden Nachfrage nach KI-Chips. Da SK Hynix zudem positive Nachrichten für Investoren lieferte, könnten diese Meldungen die Aktie eher stärken. Das war SK Hynix.",
-"audio": {
-"file": "sendung/2026-10-29-t_02.mp3",
-"hash": "ec06dc457d0521aa",
-"dur": 31.5
+"hash": "f923dac4925774e5",
+"dur": 48.7
 }
 },
 {
 "name": "Microsoft",
 "sym": "MSFT",
-"say": "Zur Aktie Microsoft. Der Technologiekonzern Microsoft ist stark in das neue Geschäftsjahr gestartet. Das Unternehmen hat seine Investitionen erhöht und konnte gleichzeitig den Gewinn steigern. Das starke Quartal untermauert die Erholung der Aktie. Aufgrund dieser positiven Nachrichten könnte Microsoft eher gestärkt werden. Das war Microsoft.",
+"say": "Zur Aktie Microsoft. Der Technologiekonzern ist stark ins neue Geschäftsjahr gestartet und hat ein starkes Quartal vorgelegt. Dabei hat Microsoft mehr investiert und zugleich den Gewinn erhöht. Die Ergebnisse sind auf der Investor-Relations-Website verfügbar. Meine Einordnung aus diesen Meldungen: Sie könnten Microsoft eher stärken. Das war Microsoft.",
 "audio": {
-"file": "sendung/2026-10-29-t_03.mp3",
-"hash": "62fb0245808543ba",
-"dur": 28.2
-}
-},
-{
-"name": "UBS",
-"sym": "UBSG.SW",
-"say": "Zur Aktie UBS. Die UBS Group AG hat im dritten Quartal ein Rekord-Investment-Bank-Quartal verzeichnet. Nach der Veröffentlichung dieser Zahlen sind die Investoren jedoch auf dem Rückzug und die Aktie rutscht ab. Zudem hat die UBS eine Kaufempfehlung für eine andere Aktie veröffentlicht. Ob diese Meldungen die UBS langfristig stärken oder schwächen, bleibt unklar. Das war UBS.",
-"audio": {
-"file": "sendung/2026-10-29-t_04.mp3",
-"hash": "eda8a3c9cf4a95e7",
-"dur": 30.5
-}
-},
-{
-"name": "Robinhood",
-"sym": "HOOD",
-"say": "Zur Aktie Robinhood. Die neue Kette von Robinhood hat die Krypto-Einnahmen gesteigert, obwohl im dritten Quartal ein Gewinn fehlte. Zudem hat Ripple den Deal mit Robinhood auf RLUSD, Prime Brokerage und Treasury Services ausgeweitet. Laut Bernstein könnte sich Robinhood durch Prognosemärkte und neue Angebote erholen, was die Aktie eher stärken könnte. Das war Robinhood.",
-"audio": {
-"file": "sendung/2026-10-29-t_05.mp3",
-"hash": "5ad6d8773183ee8e",
+"file": "sendung/2026-10-29-t_02.mp3",
+"hash": "4b89708466c43bfc",
 "dur": 28.8
 }
 },
 {
-"name": "GE Vernova",
-"sym": "GEV",
-"say": "Zur Aktie GE Vernova. GE Vernova treibt den Netzausbau mit einem neun-Milliarden-Dollar-Deal zur Übernahme der Trench Group voran und hat die Umsatzprognose angehoben. Die Bestellungen steigen, da die Nachfrage nach KI-Energie hoch bleibt. Gleichzeitig gab es Berichte, dass neue Bestellungen und Slots die Erwartungen deutlich verfehlt haben. Aufgrund der gemischten Nachrichtenlage könnte GE Vernova eher gestärkt werden. Das war GE Vernova.",
+"name": "SK Hynix",
+"sym": "HY9H.MU",
+"say": "Zur Aktie SK Hynix. Der Speicherchip-Hersteller SK Hynix hat seine Q3-Ziele übertroffen und Rekordergebnisse für das dritte Quartal erzielt. Ausserdem hat SK Hynix grossartige Neuigkeiten für Micron-Investoren überbracht. Die Nachfrage nach KI-Speichern sorgt für positive Impulse. Meine Einordnung aus diesen Meldungen: Sie könnten SK Hynix eher stärken. Das war SK Hynix.",
 "audio": {
-"file": "sendung/2026-10-29-t_06.mp3",
-"hash": "856d8cb9a093beef",
-"dur": 32.9
-}
-},
-{
-"name": "Meta",
-"sym": "META",
-"say": "Zur Aktie Meta. Mark Zuckerbergs Meta-Plattformen meldeten zum ersten Mal seit 2012 einen negativen freien Cashflow. Das Unternehmen arbeitet zudem mit fünf US-Universitäten zusammen, um medizinische und wissenschaftliche Durchbrüche zu beschleunigen, und hat Investoren seine Hardware-Strategie erläutert. Ob diese Entwicklungen Meta stärken oder schwächen, ist aus den Meldungen noch nicht eindeutig abzuleiten. Das war Meta.",
-"audio": {
-"file": "sendung/2026-10-29-t_07.mp3",
-"hash": "1d7b74b9c8e43399",
-"dur": 32.9
+"file": "sendung/2026-10-29-t_03.mp3",
+"hash": "288c35025b681646",
+"dur": 32.4
 }
 },
 {
 "name": "ServiceNow",
 "sym": "NOW",
-"say": "Zur Aktie ServiceNow. ServiceNow verzeichnete einen Gewinnrückgang trotz Übernahmen und Umsatzsteigerungen. Dennoch startet das Unternehmen die Control Tower Alliance, um Firmen bei der sicheren Einführung von KI zu unterstützen. Zudem beschleunigen ServiceNow und OpenAI gemeinsam die Unternehmens-KI in Bereichen wie Cybersicherheit und Agentenentwicklung. Ob dies ServiceNow stärkt oder schwächt, ist noch unklar. Das war ServiceNow.",
+"say": "Zur Aktie ServiceNow. ServiceNow hat die Control Tower Alliance gestartet, um Unternehmen bei der sicheren KI-Einführung zu unterstützen. Zudem vereinheitlicht Stagwell die Mitarbeitererfahrung auf der ServiceNow AI-Plattform. Ausserdem arbeiten ServiceNow und OpenAI gemeinsam an der Beschleunigung von Unternehmens-KI. Meine Einordnung aus diesen Meldungen: Sie könnten ServiceNow eher stärken. Das war ServiceNow.",
 "audio": {
-"file": "sendung/2026-10-29-t_08.mp3",
-"hash": "2655d11c9ec30112",
-"dur": 33.3
+"file": "sendung/2026-10-29-t_04.mp3",
+"hash": "b477a6f1d75a430c",
+"dur": 32.4
 }
 },
 {
-"name": "Nvidia",
-"sym": "NVDA",
-"say": "Bei der Aktie von Nvidia gibt es derzeit gemischte Nachrichten. Das Unternehmen steht wegen der geplanten Übernahme von Hugging Face im Wert von zwölf Komma neun Milliarden Dollar vor einer kartellrechtlichen Prüfung durch das US-Justizministerium, was den Aktienkurs leicht belastet hat. Auf der anderen Seite profitiert Nvidia weiterhin vom anhaltenden KI-Boom, was sich in den vervielfachten Gewinnen des Zulieferers SK Hynix zeigt. Zudem konnte der Nvidia-Partner Vertiv nach einem starken Ergebnis und einer positiven Prognose deutlich zulegen. Ob diese Entwicklungen den Kurs von Nvidia langfristig eher stützen oder belasten, bleibt abzuwarten.",
+"name": "UBS",
+"sym": "UBSG.SW",
+"say": "Zur Aktie UBS. UBS-Investoren haben nach den Drittquartalszahlen den Rückzug angetreten. Die Gewinnmitteilung der UBS Group AG zeigt ein Rekord-Investment-Bank-Quartal. Ausserdem hat die UBS eine neue Analyse mit einer Buy-Note für die Deutsche Bank-Aktie veröffentlicht. Ob das UBS stärkt oder schwächt, ist aus den Meldungen noch unklar. Das war UBS.",
+"audio": {
+"file": "sendung/2026-10-29-t_05.mp3",
+"hash": "0f3a6d614a96b729",
+"dur": 29.2
+}
+},
+{
+"name": "GE Vernova",
+"sym": "GEV",
+"say": "Zur Aktie GE Vernova. GE Vernova treibt den Netzausbau mit einem neun-Milliarden-Dollar-Trench-Deal voran und hat die Umsatzprognose angehoben. Gleichzeitig übernimmt GE Vernova die Trench Group. Die Bestellungen sind gestiegen, da die Nachfrage nach KI-Energie hoch bleibt. Meine Einordnung aus diesen Meldungen: Sie könnten GE Vernova eher stärken. Das war GE Vernova.",
+"audio": {
+"file": "sendung/2026-10-29-t_06.mp3",
+"hash": "c529e41fa5bd5d10",
+"dur": 29.4
+}
+},
+{
+"name": "Meta",
+"sym": "META",
+"say": "Zur Aktie Meta. Meta hat zum ersten Mal seit 2012 einen negativen freien Cashflow gemeldet und den Investoren eine Hardware-Strategie enthüllt. Zusätzlich arbeitet Meta mit fünf US-Universitäten zusammen, um medizinische und wissenschaftliche Durchbrüche zu beschleunigen. Es gibt einen Cash-Burn und höhere Investitionsabschreibungen in Höhe von vierzehn Milliarden Dollar. Meine Einordnung aus diesen Meldungen: Sie könnten Meta eher schwächen. Das war Meta.",
+"audio": {
+"file": "sendung/2026-10-29-t_07.mp3",
+"hash": "7d877b0d2e0d6350",
+"dur": 35.7
+}
+},
+{
+"name": "Robinhood",
+"sym": "HOOD",
+"say": "Zur Aktie Robinhood. Robinhood sieht, dass sich die Gewohnheiten von Privatanlegern ändern, während der Aktienhandel abkühlt. Laut Bernstein soll sich Robinhood jedoch auf Prognosemärkte und neue Angebote erholen. Ausserdem hat Robinhoods neue Kette die Krypto-Einnahmen gesteigert. Ob das Robinhood stärkt oder schwächt, ist aus den Meldungen noch unklar. Das war Robinhood.",
+"audio": {
+"file": "sendung/2026-10-29-t_08.mp3",
+"hash": "84bb75ae0b179d87",
+"dur": 29.5
+}
+},
+{
+"name": "Samsung Electronics",
+"sym": "005930.KS",
+"say": "Zur Aktie Samsung Electronics. Samsungs Chipgewinn hat zu einem weiteren Rekordquartal beigetragen, obwohl der Gewinn von Samsung-Chips die Schätzungen verfehlt hat, die zuvor durch wiederauflebende KI-Hoffnung angehoben wurden. Samsung-Aktien sind zudem aufgrund fehlender Details zu den Anlegerrenditen abgerutscht. Ausserdem wurden neue aktiengebundene Anleihetranchen im Wert von zwanzig Milliarden KRW eingeführt. Das war Samsung Electronics.",
 "audio": {
 "file": "sendung/2026-10-29-t_09.mp3",
-"hash": "91551a88419963e6",
-"dur": 45.3
+"hash": "2fc77363e8d3e4f8",
+"dur": 33.7
 }
 },
 {
 "name": "Quartalszahlen diese Woche",
-"say": "Quartalszahlen diese Woche. Diese Firmen aus deiner Liste melden ihre Quartalszahlen. Zur Aktie BYD: Zahlen Donnerstag, am neunundzwanzigsten Oktober. Beim Umsatz erwarten sie rund vierunddreissig Komma sechs Milliarden Dollar. Zur Aktie Amazon: Zahlen Donnerstag, am neunundzwanzigsten Oktober. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von ein Dollar und neunundneunzig Cent. Beim Umsatz erwarten sie rund zweihundertzwei Komma drei Milliarden Dollar. Zur Aktie Intel: Zahlen Donnerstag, am neunundzwanzigsten Oktober. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von null Dollar und vierzig Cent. Beim Umsatz erwarten sie rund sechzehn Komma fünf Milliarden Dollar.",
+"say": "Quartalszahlen diese Woche. Diese Firmen aus deiner Liste melden ihre Quartalszahlen. Zur Aktie Samsung Electronics: Zahlen Donnerstag, am neunundzwanzigsten Oktober. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von elf Dollar und fünfundzwanzig Cent. Beim Umsatz erwarten sie rund einhundertdreiundfünfzig Komma eins Milliarden Dollar. Zur Aktie BYD: Zahlen Donnerstag, am neunundzwanzigsten Oktober. Beim Umsatz erwarten sie rund sechsunddreissig Komma eins Milliarden Dollar. Zur Aktie Amazon: Zahlen Donnerstag, am neunundzwanzigsten Oktober. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von ein Dollar und neunundneunzig Cent. Beim Umsatz erwarten sie rund zweihundertzwei Komma drei Milliarden Dollar. Zur Aktie Intel: Zahlen Donnerstag, am neunundzwanzigsten Oktober. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von null Dollar und vierzig Cent. Beim Umsatz erwarten sie rund sechzehn Komma fünf Milliarden Dollar.",
 "audio": {
 "file": "sendung/2026-10-29-t_10.mp3",
-"hash": "8bd60d7d90e186c1",
-"dur": 54.1
+"hash": "5976abe451db1612",
+"dur": 73.4
 }
 },
 {
@@ -134,10 +134,10 @@
 }
 }
 ],
-"dur": 432.1,
+"dur": 433.9,
 "full": {
 "file": "sendung/2026-10-29-t_full.mp3",
-"dur": 432.0,
+"dur": 434.0,
 "marks": [
 [
 0,
@@ -149,47 +149,47 @@
 ],
 [
 2,
-84.2
+79.0
 ],
 [
 3,
-115.7
+107.8
 ],
 [
 4,
-143.9
+140.2
 ],
 [
 5,
-174.4
+172.6
 ],
 [
 6,
-203.2
+201.8
 ],
 [
 7,
-236.1
+231.2
 ],
 [
 8,
-269.0
+266.9
 ],
 [
 9,
-302.3
+296.4
 ],
 [
 10,
-347.6
+330.1
 ],
 [
 11,
-401.7
+403.5
 ],
 [
 12,
-420.6
+422.4
 ]
 ]
 }
@@ -691,8 +691,8 @@
 "dur": 729.9
 }
 ],
-"generated_at": "2026-10-29T05:12:42Z",
+"generated_at": "2026-10-29T11:58:24Z",
 "voice": "de-CH-LeniNeural",
 "source": "Yahoo Finance, SEC EDGAR, Schlagzeilen (Google News u.a.); Text: Gemini Gratis-Kontingent oder Vorlage",
-"audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@8834653a4201f77cb01630f57272ca95a6d0b02a/data/audio/"
+"audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@51dfd56b4b47edd3fc2238970b3d2d444d38abc3/data/audio/"
 }
