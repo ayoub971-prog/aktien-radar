@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T05:52:18Z",
+ "generated_at": "2026-10-29T06:32:00Z",
  "intro": "Willkommen beim Aktien-Radar, deinem Überblick über die neuesten Meldungen. Heute geht es um 39 Aktien aus deiner Liste. Alles stammt aus den gesammelten Meldungen und Analystendaten, nichts ist erfunden. Keine Anlageberatung.",
  "outro": "Das war der Aktien-Radar-Überblick. Die Quellen und Details findest du in der App bei jeder Aktie. Keine Anlageberatung.",
  "segments": [
@@ -461,13 +461,13 @@
   {
    "symbol": "ABBN.SW",
    "name": "ABB LTD",
-   "text": "ABB LTD: Die Aktie von ABB bewegt sich derzeit in einem spannungsreichen Umfeld. Laut dem Wall Street Journal belasteten Bedenken rund um das Thema künstliche Intelligenz die Stimmung und führten zu einem Kursrückgang. Demgegenüber stehen Berichte von Portalen wie Traders Union, die nach einer Phase der Überverkauftheit technische Erholungsversuche und ein Kursplus von mehr als zwei Prozent beobachteten. Auch die Tochtergesellschaft ABB India konnte sich mit einem Zuwachs von drei Prozent gegen die allgemeine Marktschwäche behaupten. Analysten sind in ihrer Einschätzung eher vorsichtig: Von siebenundzwanzig Experten raten zwanzig zum Halten der Aktie, während die übrigen Empfehlungen zwischen Kauf und Verkauf schwanken. Das mittlere Kursziel liegt bei neunundneunzig Komma vier neun Dollar, was ein theoretisches Kurspotenzial von dreizehn Komma vier Prozent impliziert. Diese Informationen dienen lediglich der Übersicht und sind keine Anlageberatung.",
-   "id": "ce11df3d2a",
-   "generated_at": "2026-10-29T03:57:26Z",
+   "text": "ABB LTD: Die Aktien von ABB standen unter Druck, nachdem Bedenken rund um das Thema künstliche Intelligenz die Geschäftsergebnisse überschatteten. Gleichzeitig konnte das Papier laut dem Portal Traders Union nach einem überverkauften Zustand technische Erholungsversuche zeigen und um mehr als zwei Prozent zulegen. Auch ABB India Ltd verzeichnete trotz einer allgemeinen Marktschwäche ein Plus von drei Prozent. Analysten zeigen sich insgesamt vorsichtig: Das durchschnittliche Kursziel von siebenundzwanzig Experten liegt bei neunundneunzig Komma fünf acht Dollar, was einem theoretischen Aufwärtspotenzial von dreizehn Komma fünf Prozent entspricht. Der Konsens der Analysten umfasst zwei starke Kaufempfehlungen, fünf Kaufempfehlungen, zwanzig Halteempfehlungen sowie zwei Verkaufsempfehlungen. Während die technischen Erholungsbewegungen und die Stärke der indischen Tochter positiv gewertet werden, belasten die Sorgen um die Auswirkungen der künstlichen Intelligenz das Sentiment. Es wurden keine Insider-Käufe oder -Verkäufe verzeichnet, und es liegen keine Aussagen der Geschäftsführung vor. Diese Informationen dienen ausschliesslich der Information und stellen keine Anlageberatung dar.",
+   "id": "63c0c9ab37",
+   "generated_at": "2026-10-29T06:22:41Z",
    "audio": {
     "file": "ABBN.SW.mp3",
-    "hash": "0b96fb643c91fa77",
-    "dur": 58.2,
+    "hash": "2bfb144a08189a88",
+    "dur": 66.1,
     "engine": "gemini"
    }
   },
@@ -524,5 +524,5 @@
   "dur": 10.2,
   "engine": "edge"
  },
- "audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@73278f6ab5d2d232d56118c614e560270f3096da/data/audio/"
+ "audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@3911e3bab66ec79775ca6b35e3a990d1d341f85d/data/audio/"
 }

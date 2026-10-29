@@ -466,16 +466,16 @@
   },
   "ABBN.SW": {
    "file": "ABBN.SW.mp3",
-   "hash": "0b96fb643c91fa77",
-   "th": "6892a2d1f8d7adb3",
+   "hash": "2bfb144a08189a88",
+   "th": "c0bd424e7f7baa8c",
    "engine": "gemini",
-   "id": "ce11df3d2a",
+   "id": "63c0c9ab37",
    "voice": "Kore",
    "model": "gemini-2.5-flash-preview-tts",
    "br": 24,
-   "text": "Die Aktie von ABB bewegt sich derzeit in einem spannungsreichen Umfeld. Laut dem Wall Street Journal belasteten Bedenken rund um das Thema künstliche Intelligenz die Stimmung und führten zu einem Kursrückgang. Demgegenüber stehen Berichte von Portalen wie Traders Union, die nach einer Phase der Überverkauftheit technische Erholungsversuche und ein Kursplus von mehr als zwei Prozent beobachteten. Auch die Tochtergesellschaft ABB India konnte sich mit einem Zuwachs von drei Prozent gegen die allgemeine Marktschwäche behaupten. Analysten sind in ihrer Einschätzung eher vorsichtig: Von siebenundzwanzig Experten raten zwanzig zum Halten der Aktie, während die übrigen Empfehlungen zwischen Kauf und Verkauf schwanken. Das mittlere Kursziel liegt bei neunundneunzig Komma vier neun Dollar, was ein theoretisches Kurspotenzial von dreizehn Komma vier Prozent impliziert. Diese Informationen dienen lediglich der Übersicht und sind keine Anlageberatung.",
-   "dur": 58.2,
-   "at": "2026-10-29T04:07:35Z"
+   "text": "Die Aktien von ABB standen unter Druck, nachdem Bedenken rund um das Thema künstliche Intelligenz die Geschäftsergebnisse überschatteten. Gleichzeitig konnte das Papier laut dem Portal Traders Union nach einem überverkauften Zustand technische Erholungsversuche zeigen und um mehr als zwei Prozent zulegen. Auch ABB India Ltd verzeichnete trotz einer allgemeinen Marktschwäche ein Plus von drei Prozent. Analysten zeigen sich insgesamt vorsichtig: Das durchschnittliche Kursziel von siebenundzwanzig Experten liegt bei neunundneunzig Komma fünf acht Dollar, was einem theoretischen Aufwärtspotenzial von dreizehn Komma fünf Prozent entspricht. Der Konsens der Analysten umfasst zwei starke Kaufempfehlungen, fünf Kaufempfehlungen, zwanzig Halteempfehlungen sowie zwei Verkaufsempfehlungen. Während die technischen Erholungsbewegungen und die Stärke der indischen Tochter positiv gewertet werden, belasten die Sorgen um die Auswirkungen der künstlichen Intelligenz das Sentiment. Es wurden keine Insider-Käufe oder -Verkäufe verzeichnet, und es liegen keine Aussagen der Geschäftsführung vor. Diese Informationen dienen ausschliesslich der Information und stellen keine Anlageberatung dar.",
+   "dur": 66.1,
+   "at": "2026-10-29T06:31:57Z"
   },
   "STX": {
    "file": "STX.mp3",
@@ -515,9 +515,9 @@
   }
  },
  "status": "ok",
- "checked_at": "2026-10-29T05:52:17Z",
+ "checked_at": "2026-10-29T06:31:58Z",
  "quota_until": 1793243739.5666087,
- "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@73278f6ab5d2d232d56118c614e560270f3096da/data/audio/",
+ "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@3911e3bab66ec79775ca6b35e3a990d1d341f85d/data/audio/",
  "extra": {
   "intro": {
    "file": "_intro.mp3",
