@@ -56,5 +56,4 @@ jobs:
           for f in data/audio/index.json data/audio/ent/index.json data/podcast.json data/redakteur.json data/nachdenken.json data/audio/nachdenken/index.json data/sendung.json data/audio/sendung/index.json; do [ -f $f ] && git add $f; done
           if git diff --cached --quiet; then echo "keine Aenderung"; exit 0; fi
           git commit -m "Entdecken $(date -u +%Y-%m-%dT%H:%MZ)"
-          git pull --rebase --autostash -q
-          git push
+          for n in 1 2 3 4; do git pull --rebase --autostash -q -X theirs || { git rebase --abort 2>/dev/null; sleep 5; continue; }; git push && break; sleep 5; done
