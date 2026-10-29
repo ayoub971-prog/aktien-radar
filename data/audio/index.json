@@ -27,15 +27,16 @@
   },
   "HY9H.MU": {
    "file": "HY9H.MU.mp3",
-   "hash": "45dcef10757ae733",
-   "th": "3203914dc82cf049",
-   "id": "3764129524",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
+   "hash": "fad03c46fb26c4ec",
+   "th": "de810427e8e4ec6e",
+   "engine": "gemini",
+   "id": "d8e2fbf97c",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
    "br": 24,
-   "text": "SK Hynix steht im Fokus der Märkte, nachdem der Chiphersteller starke Finanzergebnisse für das dritte Quartal 2026 vorgelegt hat. Laut der kanadischen Tageszeitung The Globe and Mail sind die Speicherchips des Unternehmens sogar bis zum Jahr 2029 vollständig ausverkauft. Zudem berichtet das Wall Street Journal, dass SK Hynix nach den Rekordergebnissen eine Aktionärsrendite von fünfundsiebzig Milliarden Dollar plant. Seeking Alpha warnt vor einem Problem von plus vierzig Prozent und hat eine Herabstufung vorgenommen. Analysten äussern sich überwiegend positiv. So bekräftigt Cantor Fitzgerald die Bewertung wegen der starken Nachfrage aus dem Bereich der künstlichen Intelligenz, und Wolfe Research stützt seine Einschätzung auf die Preisgestaltung bei HBM-Speichern. Ein Analyst von CNBC bezeichnete die Aktie angesichts des Rekordquartals als lächerlich günstig. Operativ treibt das Unternehmen den KI-Chip-Superzyklus voran und arbeitet an Technologien wie Siliziumphotonik und Co-Packaged Optics als Autobahnen des Lichts. Als wichtige Kennzahl ist die geplante Aktionärsrendite von fünfundsiebzig Milliarden Dollar zu nennen, was die Finanzkraft des Konzerns unterstreicht.",
-   "dur": 88.3,
-   "at": "2026-10-29T12:16:38Z"
+   "text": "SK Hynix steht derzeit stark im Fokus der Maerkte. Laut CNBC, einem US-Wirtschaftssender, hat der Speicherchip-Hersteller ein Rekordquartal mit herausragenden Finanzergebnissen vorgelegt. Dazu berichtet The Globe and Mail, eine kanadische Tageszeitung, dass die Speicherchips des Unternehmens infolge der immensen Nachfrage durch kuenstliche Intelligenz bis zum Jahr 2029 komplett ausverkauft sind. Zudem plant das Unternehmen laut WSJ, einer US-Wirtschaftszeitung, nach diesen Ergebnissen eine Aktionaerisrendite in Hoehe von fünfundsiebzig Milliarden Dollar. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden, abgesehen von einer Herabstufung bei Seeking Alpha wegen eines dort genannten Problems im Schatten des Rekordgewinns. Analysten zeigen sich ueberwiegend positiv gestimmt. So bezeichnet ein Analyst laut CNBC die Aktie als laecherlich guenstig. Cantor Fitzgerald bewaehrte die Bewertung der Aktie aufgrund der starken Nachfrage nach kuenstlicher Intelligenz, waehrend Wolfe Research die Bewertung im Hinblick auf die HBM-Preisgestaltung ebenfalls bestaetigte. Zurueck zu SK Hynix: Das Unternehmen treibt technologische Entwicklungen wie Siliziumphotonik und Co-Packaged Optics voran, um den KI-Markt zu unterstuetzen. Es liegen keine Meldungen zu Insider-Kaeufen oder -Verkaeufen vor. Auch spezifische Aussagen des Managements wurden in den Berichten nicht direkt genannt. Zum Schluss gibt es noch abweichende Toene wie die genannte Herabstufung, waehrend andere Stimmen einen anhaltenden Boom sehen. Keine Anlageberatung.",
+   "dur": 92.5,
+   "at": "2026-10-29T16:09:38Z"
   },
   "AVGO": {
    "file": "AVGO.mp3",
@@ -208,15 +209,16 @@
   },
   "WNRG.SW": {
    "file": "WNRG.SW.mp3",
-   "hash": "b4d004670eb69d8a",
-   "th": "746c5905ed6cfe2d",
-   "id": "dd27165c70",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
+   "hash": "638b859787cd77cc",
+   "th": "a670ca17a2eb166d",
+   "engine": "gemini",
+   "id": "899ab86d0c",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
    "br": 24,
-   "text": "Bei dem Fonds gibt es laut Onvista einen kurzen Überblick in Verbindung mit dem Fonds, da dazugehörige Wertpapiere zu Shell existieren. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Es liegen derzeit keine Analysten-Bewertungen vor. Aktuell gibt es keine weiteren Berichte zu Produkten oder Projekten. Es wurden keine wichtigen Kennzahlen genannt. Es liegen keine Insider-Käufe oder Verkäufe vor. Es gibt keine Aussagen von Chefs oder dem Management in den Berichten. Es wurden keine widersprüchlichen Aussagen von verschiedenen Quellen festgestellt.",
-   "dur": 42.9,
-   "at": "2026-10-26T21:19:27Z"
+   "text": "SPDR MSCI World Energy ETF: In den vorliegenden Meldungen wird von TradingView, einer Chart- und Boersenplattform, ueber ETFs berichtet, die in Serica Energy PLC-Aktien investieren. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Es liegen aktuell keine Analysten-Bewertungen oder Kennzahlen vor. Zurueck zu SPDR MSCI World Energy ETF: Es gibt keine Berichte ueber Insider-Kaeufe oder -Verkaeufe sowie keine Aussagen von Chefs oder Widersprueche in den Daten. Keine Anlageberatung.",
+   "dur": 36.5,
+   "at": "2026-10-29T16:10:18Z"
   },
   "BE": {
    "file": "BE.mp3",
@@ -292,15 +294,16 @@
   },
   "GE": {
    "file": "GE.mp3",
-   "hash": "afe19289233a931c",
-   "th": "3745460b7742aad4",
-   "id": "4550db0499",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
+   "hash": "379a2c6242b31024",
+   "th": "5045e98479602892",
+   "engine": "gemini",
+   "id": "b8176e7539",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
    "br": 24,
-   "text": "GE Aerospace steht im Fokus von Investoren und Analysten. Laut der Mitteilung der Firma selbst hat GE Aerospace einen wichtigen Open-Fan-Test in Europa abgeschlossen und die Ergebnisse für das dritte Quartal 2026 bekannt gegeben. Das Schweizer Finanzportal financhen.ch meldet zudem, dass die Aktie am Nachmittag zulegen konnte. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Bei den Analysten-Bewertungen zeigt sich ein überwiegend positives Bild. Die UBS bestätigt ihr Rating Kaufen und hebt das Kursziel auf dreihundertachtzig Dollar an. BNP Paribas bestätigt das Rating schlechter als Markt und senkt das Kursziel auf zweihundertachtzig Dollar. JP Morgan bestätigt Übergewichten bei einem auf dreihundertfünfundsiebzig Dollar gesenkten Kursziel. Susquehanna bestätigt das positive Rating und setzt das Kursziel auf vierhundert Dollar. RBC Capital bestätigt die Einschätzung besser als Markt und senkt das Kursziel auf dreihundertfünfundsiebzig Dollar. Morgan Stanley bestätigt Übergewichten und reduziert das Kursziel ebenfalls auf dreihundertfünfundsiebzig Dollar. Im Durchschnitt sehen Analysten ein Kursziel von rund dreihundertachtundsiebzig Dollar, was ein Aufwärtspotenzial von rund sechsundzwanzig Prozent signalisiert. Zurück zu GE Aerospace: Aufwertend wirkt, dass das Unternehmen den Open-Fan-Test in Europa erfolgreich abschliessen konnte. Laut dem Trading-Ratgeberportal Traders Union wird die Aktie nach einem Ausverkauf zudem als interessante Kaufgelegenheit gesehen. Wichtige Kennzahlen unterstreichen das Bild: Das durchschnittliche Kursziel liegt bei rund dreihundertachtundsiebzig Dollar, während das höchste Ziel bei rund vierhunderteinunddreissig Dollar und das tiefste bei rund zweihundertachtzig Dollar verortet wird. Zu den Insider-Aktivitäten liegen Daten der US-Börsenaufsicht vor: Vice President Robert M. Giglietti verkaufte Aktien im Wert von rund drei Komma acht Millionen Dollar. Senior Vice President Mohamed Ali veräusserte Aktien im Wert von rund zwei Komma neun Millionen Dollar, und Senior Vice President Riccardo Procacci trennte sich von Aktien im Wert von rund fünfhundertachtundzwanzigtausend Dollar.",
-   "dur": 157.6,
-   "at": "2026-10-29T12:17:23Z"
+   "text": "GE Aerospace: GE Aerospace schliesst einen wichtigen Test ab und gibt Quartalszahlen bekannt. Laut einer Mitteilung der Firma wurde ein entscheidender Open-Fan-Test in Europa erfolgreich beendet und die Ergebnisse fuer das dritte Quartal 2026 vorgelegt. Gemaess finanzen.ch, einem Schweizer Finanzportal, schob sich die Aktie von GE Aerospace am Donnerstagnachmittag nach vorne. Yahoo Finance berichtet zudem, dass die Aktie das Interesse von Investoren auf sich zieht. Von Seiten der Traders Union heisst es, dass eine institutionelle Akkumulation den Marktoptimismus unterstreicht. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Zurueck zu GE Aerospace: Die Analystenbewertungen zeigen ein gemischtes Bild mit verschiedenen Kurszielen und Einschaetzungen. Die UBS bestaetigt ihr Rating Kaufen mit einem Kursziel von dreihundertachtzig Dollar. BNP Paribas bestaetigt das Rating Schlechter als Markt mit einem Kursziel von zweihundertachtzig Dollar. JP Morgan bestaetigt die Einstufung Uebergewichten mit einem Kursziel von dreihundertfünfundsiebzig Dollar. Susquehanna bestaetigt die positive Einschaetzung mit einem Kursziel von vierhundert Dollar. RBC Capital bestaetigt das Rating Besser als Markt mit einem Kursziel von dreihundertfünfundsiebzig Dollar. Morgan Stanley bestaetigt die Einstufung Uebergewichten mit einem Kursziel von dreihundertfünfundsiebzig Dollar. Im Konsens ergibt sich laut Yahoo Finance eine Mehrheit an Kaufempfehlungen. Wichtige Kennzahlen umfassen ein durchschnittliches Kursziel von rund dreihundertachtundsiebzig Dollar sowie ein geschaetztes Aufwaertspotenzial von rund einundzwanzig Komma drei Prozent. Bei den Insidern gab es Verkaeufe: Vice President Robert M. Giglietti verkaufte Aktien im Wert von rund drei Komma acht Millionen Dollar, Senior Vice President Mohamed Ali trennte sich von Aktien im Wert von rund zwei Komma neun Millionen Dollar und Senior Vice President Riccardo Procacci verkaufte ebenfalls Aktien. Keine Anlageberatung.",
+   "dur": 118.1,
+   "at": "2026-10-29T16:11:34Z"
   },
   "BRK-B": {
    "file": "BRK-B.mp3",
@@ -328,51 +331,51 @@
   },
   "BKW.SW": {
    "file": "BKW.SW.mp3",
-   "hash": "75b4e46dd3d3710b",
-   "th": "8a722ae11f7a76fd",
+   "hash": "84997f0828325ddb",
+   "th": "1ec044e7d3605b38",
    "id": "0127259b0b",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "BKW AG: Hier ist der aktuelle Überblick zur Aktie von BKW AG basierend auf den vorliegenden Meldungen. Laut finanzen.ch, einem Schweizer Finanzportal, verteidigte das Unternehmen mehrfach seine Tendenz, zeigte sich zeitweise jedoch auch mit negativen Vorzeichen oder erlebte Phasen, in denen sich Anleger vermehrt von der Aktie trennten. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Zur Bewertung der Analysten laut Yahoo Finance gibt es ein durchschnittliches Kursziel von rund einhundertzweiundsiebzig Dollar, während das höchste Kursziel bei rund zweihundertfünf Dollar und das tiefste Kursziel bei rund einhundertachtunddreissig Dollar liegt. Das Konsens-Rating teilt sich auf in verschiedene Einschätzungen wie Kaufen und Halten. Zurück zu BKW AG: Was macht die Firma gerade? Aufwertend wirkt laut finanzen.ch, einem Schweizer Finanzportal, dass die Aktie am Nachmittag fester tendierte und ihre Tendenz verteidigte. Abwertend wirken Berichte desselben Portals über negative Vorzeichen am Vormittag und Verkäufe durch Anleger. Wichtige Kennzahlen umfassen das durchschnittliche Kursziel von rund einhundertzweiundsiebzig Dollar, welches für die Orientierung am Markt wichtig ist. Zu Insider-Käufen und -Verkäufen liegen keine Meldungen vor. Auch Aussagen der Chefs wurden in den Berichten nicht genannt. Widersprüche zwischen den Quellen existieren nicht. Keine Anlageberatung.",
-   "dur": 103.2,
-   "at": "2026-10-29T15:15:11Z"
+   "text": "Hier ist der aktuelle Überblick zur Aktie von BKW basierend auf den vorliegenden Meldungen. Laut dem Schweizer Finanzportal finanzen.ch verteidigte das Unternehmen mehrfach seine Tendenz, zeigte sich zeitweise jedoch auch mit negativen Vorzeichen oder erlebte Phasen, in denen sich Anleger vermehrt von der Aktie trennten. In den vorliegenden Meldungen wurden keine Risiken gefunden. Zur Bewertung der Analysten laut Yahoo Finance gibt es ein durchschnittliches Kursziel von einhundertzweiundsiebzig Dollar, während das hoechste Kursziel bei zweihundertfünf Dollar und das tiefste Kursziel bei einhundertachtunddreissig Dollar liegt. Das Konsens-Rating der Analysten setzt sich aus zwei Kaufempfehlungen, drei Halteempfehlungen, eins Verkaufsempfehlung, eins starken Kaufempfehlung und eins starken Verkaufsempfehlung zusammen. Aufwertend wirkt laut finanzen.ch, dass die Aktie am Nachmittag fester tendierte und ihre Tendenz am Dienstagnachmittag verteidigte. Abwertend wirken Berichte desselben Portals über negative Vorzeichen am Vormittag und Verkäufe durch Anleger. Wichtige Kennzahlen umfassen das durchschnittliche Kursziel von einhundertzweiundsiebzig Dollar, welches als mittleres Kursziel der Analysten den erwarteten Durchschnittswert der Aktie zeigt. Zu Insidern liegen keine Meldungen vor. Auch Chefs wurden in den Berichten nicht genannt. Widersprüche zwischen den Quellen existieren nicht.",
+   "dur": 97.8,
+   "at": "2026-10-29T16:11:44Z"
   },
   "UBSG.SW": {
    "file": "UBSG.SW.mp3",
-   "hash": "8ee862067d68abc9",
-   "th": "5996b0aff097318f",
+   "hash": "6a1a1fd777ae04db",
+   "th": "42eb4ade8dc9d593",
    "id": "8f55648f48",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "UBS Group: Die Schweizer Grossbank hat ihre Ergebnisse für das dritte Quartal 2026 vorgelegt. Laut Yahoo Finance stieg der Vorsteuergewinn im dritten Quartal 2026 um siebenundzwanzig Prozent. Finanzen und Wirtschaft meldet jedoch, dass die Aktie trotz der Milliardenvorgaben von der Börse abgestraft wurde, während Cash über einen vorbörslichen Aufwind berichtete. Zurück zu UBS Group: In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden, allerdings verweist finanzen.ch auf eine Regierungsanalyse, die hohe Kosten bei einem möglichen Wegzug beziffert. Laut Yahoo Finance steht das Analysten-Konsens-Rating bei insgesamt sieben Käufen, acht Halteempfehlungen, zwei Verkaufsempfehlungen, zwei starken Käufen und eins starken Verkauf, wobei das durchschnittliche Kursziel bei rund vierundfünfzig Dollar liegt. JP Morgan Chase und Co vergibt ein Overweight-Rating und RBC Capital Markets stuft die Aktie mit Outperform ein. Die Firma konzentriert sich aktuell auf die Veröffentlichung der Quartalszahlen und treibt die Integration der Credit Suisse voran, wie Seeking Alpha berichtet, was positiv bewertet wird. Zu den wichtigsten Kennzahlen gehört der um siebenundzwanzig Prozent gestiegene Vorsteuergewinn im dritten Quartal 2026, was die operative Stärke unterstreicht. Insider-Käufe oder Verkäufe wurden in den offiziellen Daten nicht gemeldet. Aussagen von Chefs oder dem Management liegen für diesen Berichtszeitraum nicht vor. Bei den Widersprüchen zeigt sich, dass Investoren nach den Quartalszahlen laut Cash zunächst auf dem Rückzug waren, während andere Beobachter ein positives Momentum sahen. Keine Anlageberatung.",
-   "dur": 121.5,
-   "at": "2026-10-29T15:15:21Z"
+   "text": "Die UBS Group hat ihre Ergebnisse für das dritte Quartal 2026 vorgelegt und dabei ihren Gewinn sowie den Vorsteuergewinn gesteigert. Laut Yahoo Finance stieg der Vorsteuergewinn im dritten Quartal 2026 um siebenundzwanzig Prozent, was ein wichtiger Indikator für die operative Geschäftsentwicklung ist. Die Finanz und Wirtschaft meldet jedoch, dass die Aktie trotz guter Quartalszahlen und erfüllter Erwartungen zeitweise unter Abgabedruck geriet und von der Börse abgestraft wurde, während Cash über einen vorbörslichen Aufwind berichtete. Finanzen.ch verweist zudem auf eine Regierungsanalyse, die hohe Kosten bei einem möglichen Wegzug beziffert. Laut Yahoo Finance bewerten Analysten die Aktie im Konsens mit sieben Mal Kaufen, acht Mal Halten, zwei Mal Verkaufen, zwei Mal Stark Kaufen und eins Mal Stark Verkaufen, wobei das Konsens-Kursziel bei dreiundfünfzig Komma neun sechs Dollar liegt. JP Morgan Chase & Co. vergibt ein Overweight-Rating und RBC Capital Markets stuft die Aktie mit Outperform ein. Die Integration der Credit Suisse schreitet weiter voran, wie Seeking Alpha berichtet. Zu den wichtigsten Kennzahlen gehört der um +siebenundzwanzig Prozent gestiegene Vorsteuergewinn im dritten Quartal 2026. Insider-Käufe oder Verkäufe wurden in den offiziellen Daten nicht gemeldet. Aussagen von Chefs liegen für diesen Berichtszeitraum nicht vor. Bei den Widersprüchen zeigt sich, dass die Aktie laut Cash vorbörslich einen Aufwind verzeichnete, während die Finanz und Wirtschaft berichtete, dass sie von der Börse abgestraft wurde.",
+   "dur": 114.0,
+   "at": "2026-10-29T16:11:53Z"
   },
   "MSFT": {
    "file": "MSFT.mp3",
-   "hash": "6d5b3e620b37fa09",
-   "th": "aa9551d1469c6bea",
-   "id": "50b81fb2bf",
+   "hash": "03b1d301000034bb",
+   "th": "54c30a361fe9b5aa",
+   "id": "599c2f71d8",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Microsoft hat die Ergebnisse für das erste Quartal vorgelegt und dabei die Markterwartungen übertroffen. Laut The New York Times stieg der Quartalsgewinn um zweiunddreissig Prozent, obwohl die Ausgaben stark erhöht wurden. Zudem meldeten Reuters und Bloomberg, dass das Cloud-Wachstum und ein starker Cashflow die Anleger beruhigten und für Erleichterung angesichts der Sorgen um hohe KI-Ausgaben sorgten. Laut MarketWatch legte die Aktie nach den Ergebnissen zu. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Bei den Analysten-Bewertungen zeigt sich ein überwiegend positives Bild. Cantor Fitzgerald bestätigt das Rating Übergewichten und erhöht das Kursziel auf sechshundertdreissig Dollar. Piper Sandler bestätigt ebenfalls Übergewichten mit einem neuen Kursziel von sechshundertfünfzig Dollar. Oppenheimer bekräftigt die Einschätzung Besser als Markt und hebt das Ziel auf sechshundertfünfundzwanzig Dollar. Truist Securities erhöht das Kursziel auf sechshundert Dollar bei einer Kaufempfehlung. Scotiabank erhöht das Ziel auf sechshundertfünfundzwanzig Dollar, während Guggenheim das Kursziel bei fünfhundertsechsundachtzig Dollar belässt. Zurück zu Microsoft: Das Unternehmen treibt seine Cloud-Sparte Azure voran und verzeichnet steigende Cloud-Verkäufe, was laut Bloomberg den Erfolg der Kunstlichen Intelligenz beweist. Auf der anderen Seite berichtet CNBC, dass der KI-Ausbau ins Stocken geraten konne, da Microsoft die Anhebung der Investitionsprognosen hinauszögert. Als wichtige Kennzahl sticht der Gewinn an, der um zweiunddreissig Prozent zulegte, sowie das von Yahoo Finance genannte durchschnittliche Kursziel von rund sechshundertfünf Dollar. Zu den Insider-Transaktionen gibt es Pflichtmeldungen der US-Börsenaufsicht SEC: Finanzchefin Amy Hood hat im Rahmen eines vorab festgelegten Verkaufsplans Aktien im Wert von rund vier Millionen Dollar sowie in einem weiteren Vorgang Aktien im Wert von rund einundzwanzig Millionen Dollar veräussert.",
-   "dur": 140.1,
-   "at": "2026-10-29T13:09:59Z"
+   "text": "Microsoft hat starke Ergebnisse fur das erste Quartal vorgelegt und die Schatzungen der Borse deutlich ubertroffen. Das Unternehmen verzeichnete steigende Cloud-Verkaufe, wobei sich das Wachstum der Cloud-Sparte Azure spurbar beschleunigte. Der Quartalsgewinn legte trotz starker Ausgaben um zweiunddreissig Prozent zu, was die hohe Profitabilitat des Unternehmens unterstreicht. Analysten reagierten mit zahlreichen Kurszielanhebungen, sodass das durchschnittliche Kursziel nun bei sechshundertfünf Dollar liegt. Einzelne Hauser passten ihre Ziele ebenfalls an: Citizens auf sechshundertfünfundzwanzig Dollar, Truist Securities auf sechshundertdreissig Dollar, Barclays auf sechshundertzehn Dollar, Wells Fargo auf siebenhundertfünfzig Dollar, StoneX auf sechshundertdreissig Dollar wegen des starken Azure-Wachstums sowie Guggenheim auf fünfhundertfünfundneunzig Dollar. Auf der anderen Seite berichtet der US-Wirtschaftssender CNBC, dass der Ausbau im Bereich der Kuenstlichen Intelligenz etwas ins Stocken gerat, da Microsoft und Google die Anhebung ihrer Investitionsprognosen hinauszogern. Bei den Insidern gab es Pflichtmitteilungen der US-Borsenaufsicht SEC zu verzeichnen: Finanzchefin Amy Hood verkaufte im September 2026 Aktien im Wert von rund zwanzig Komma acht Millionen Dollar sowie im Oktober 2026 Aktien im Wert von rund vier Millionen Dollar im Rahmen eines vorab festgelegten Plans.",
+   "dur": 98.7,
+   "at": "2026-10-29T16:12:06Z"
   },
   "OEF": {
    "file": "OEF.mp3",
-   "hash": "08cadc1001f5a8f3",
-   "th": "cbb327fde45c495e",
+   "hash": "3f385c3da87828c6",
+   "th": "e5524f8e466a2ba9",
    "id": "0792d21815",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "iShares S&P einhundert ETF: Laut Finanzen.net, einem deutschen Finanzportal, zeigte sich der iShares NASDAQ-einhundert ETF leichter, während der iShares Core FTSE einhundert ETF Kursgewinne verzeichnete. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Zu den Analysten-Bewertungen liegen derzeit keine Daten vor. Was die Aktivität betrifft, meldet Finanzen.net, ein deutsches Finanzportal, dass der iShares Core FTSE einhundert ETF im Aufwind war und der iShares NASDAQ-einhundert ETF Gewinne verbuchen konnte. Demgegenüber berichtet Finanzen.net, dass der iShares STOXX Global Select Dividend einhundert ETF südwärts tendierte und der iShares Core FTSE einhundert ETF ebenfalls auf rotes Terrain geriet. Zurück zu iShares S&P einhundert ETF: Es wurden keine spezifischen Kennzahlen oder Insider-Handelsdaten gemeldet. Auch Aussagen von Chefs liegen in den aktuellen Berichten nicht vor. Es gibt keine direkten Widersprüche zwischen den genannten Quellen. Keine Anlageberatung.",
-   "dur": 79.8,
-   "at": "2026-10-29T15:15:29Z"
+   "text": "Zu verschiedenen ETFs gibt es aktuelle Berichte des deutschen Finanzportals Finanzen.net. Der iShares NASDAQ-einhundert ETF zeigte sich in einer Meldung leichter, wahrend er in einer anderen Meldung auch Gewinne verbuchen konnte. Der iShares Core FTSE einhundert ETF verzeichnete einerseits Kursgewinne und war im Aufwind, geriet andererseits aber auch auf rotes Terrain. Zudem tendierte der iShares STOXX Global Select Dividend einhundert ETF suedwarts.",
+   "dur": 33.8,
+   "at": "2026-10-29T16:12:09Z"
   },
   "013A.F": {
    "file": "013A.F.mp3",
@@ -388,27 +391,27 @@
   },
   "NVDA": {
    "file": "NVDA.mp3",
-   "hash": "a7072dfd4afdcb7d",
-   "th": "ee4c937d8364e4b3",
+   "hash": "76182c20e27e5112",
+   "th": "4993158422bcae85",
    "id": "3e1de052e3",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Nvidia zeigt sich in den aktuellen Berichten an mehreren Fronten aktiv, sieht sich jedoch auch mit regulatorischen Herausforderungen konfrontiert. Laut Yahoo Finance hat das Unternehmen eine Beteiligung an SpaceX im Wert von achtzehn Milliarden Dollar bekannt gegeben und plant eine Übernahme von Hugging Face im Wert von zwölf Komma neun Milliarden Dollar. In den vorliegenden Meldungen wurden Risiken und rechtliche Probleme gefunden: Laut Yahoo Finance steht Nvidia wegen des Hugging-Face-Deals vor einer kartellrechtlichen Prüfung durch das US-Justizministerium, und laut Investing.com Deutsch geriet Nvidia-Chef Jensen Huang ins Visier mutmasslicher China-Spionage, was KI-Aktien unter Druck setzte. Zudem fiel die Nvidia-Aktie innerhalb eines Monats um fast sechs Prozent, und boerse.de berichtet, dass die Aktie unter der fünfzig-Tage-Linie notiert, während die Wall Street über einen möglichen Absturz auf einhundertachtzig Dollar besorgt ist. Analysten bewerten die Aktie überwiegend positiv. Laut Yahoo Finance liegt das durchschnittliche Kursziel bei rund dreihundertneunundzwanzig Dollar, wobei die Spanne von einhundertachtzig Dollar bis fünfhundertfünfzehn Dollar reicht. Das Konsensurteil umfasst zahlreiche Kaufempfehlungen. Zurück zu Nvidia: Das Unternehmen arbeitet laut Yahoo Finance mit Eclypsium zusammen, um neue Angriffsflächen für KI-Infrastrukturen zu bekämpfen, und beteiligt sich an Meta. Das Handelsblatt meldet zudem, dass der Nvidia-Zulieferer SK Hynix seinen Gewinn durch den KI-Boom vervielfacht hat. Wichtige Kennzahlen zeigen, dass das von Analysten im Durchschnitt prognostizierte Kursziel bei rund dreihundertneunundzwanzig Dollar liegt, was den von Analysten erwarteten Zielkurs darstellt. Bei den Insidern gab es im September 2026 verschiedene Verkäufe, darunter verkaufte der Verwaltungsrat Mark A Stevens Aktien im Wert von hunderten Millionen Dollar, und auch leitende Angestellte wie Finanzchefin Colette Kress verkauften planmässig Aktien im Wert von rund sieben Komma sechs Millionen Dollar. Solche Insider-Verkäufe sind oft weniger aussagekräftig als Käufe, da sie häufig steuerlich motiviert oder im Voraus geplant sind. Aussagen der Chefs zu Plänen liegen in den vorliegenden Meldungen nicht vor. Keine Anlageberatung.",
-   "dur": 157.9,
-   "at": "2026-10-29T14:14:51Z"
+   "text": "Nvidia zeigt sich in den aktuellen Berichten an mehreren Fronten aktiv, sieht sich jedoch auch mit regulatorischen Herausforderungen konfrontiert. Laut Yahoo Finance hat das Unternehmen eine Beteiligung an SpaceX im Wert von achtzehn Milliarden Dollar bekannt gegeben. In den vorliegenden Meldungen wurden Risiken und rechtliche Probleme gefunden: Laut Yahoo Finance steht Nvidia wegen der Übernahme von Hugging Face im Wert von zwölf Komma neun Milliarden Dollar vor einer kartellrechtlichen Prüfung durch das US-Justizministerium, und laut Investing.com Deutsch geriet Nvidia-Chef Jensen Huang ins Visier mutmasslicher China-Spionage, was KI-Aktien unter Druck setzte. Zudem fiel die Nvidia-Aktie innerhalb eines Monats um fast sechs Prozent, und boerse.de berichtet, dass die Aktie unter der fünfzig-Tage-Linie notiert, während die Wall Street über einen möglichen Absturz auf einhundertachtzig Dollar besorgt ist. Analysten bewerten die Aktie überwiegend positiv. Laut Yahoo Finance liegt das durchschnittliche Kursziel bei rund dreihundertneunundzwanzig Dollar, wobei die Spanne von einhundertachtzig Dollar bis fünfhundertfünfzehn Dollar reicht. Das Konsensurteil umfasst zahlreiche Kaufempfehlungen. Wichtige Kennzahlen zeigen, dass das von Analysten im Durchschnitt prognostizierte Kursziel bei rund dreihundertneunundzwanzig Dollar liegt, was den von Analysten erwarteten Zielkurs darstellt. Keine Anlageberatung.",
+   "dur": 98.7,
+   "at": "2026-10-29T16:12:20Z"
   },
   "1211.HK": {
    "file": "1211.HK.mp3",
-   "hash": "575b5d5dcad7cbf9",
-   "th": "6ddf91b0ad2b51e3",
-   "id": "8a0691218d",
+   "hash": "03e8e186eccb471e",
+   "th": "2f7ad3d8032bfa19",
+   "id": "10b9f11960",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "BYD: Zu den jüngsten Entwicklungen bei BYD gibt es verschiedene Meldungen aus den Finanzmedien. Laut Reuters, einer internationalen Nachrichtenagentur, verlangsamt sich das Gewinnwachstum von BYD im dritten Quartal und bleibt hinter den Prognosen zurück. MarktScreener Schweiz, ein Finanzportal, meldet dagegen einen höheren den Aktionären zurechenbaren Gewinn im dritten Quartal sowie ein Umsatzplus. Zu den Risiken und rechtlichen Aspekten berichtet economy.ac über Arbeitsrechtskontroversen in Brasilien und Ungarn, die das Personalmanagement bei der europäischen Expansion belasten, während das Unternehmen plant, bis zum Jahr 2030 rund vierzigtausend Mitarbeiter in Europa zu beschäftigen. Bei den Analystenbewertungen zeigt sich laut Yahoo Finance ein mehrheitlich positives Bild: Von insgesamt sechsundzwanzig Analysten raten vier zum starken Kaufen, zweiundzwanzig zum Kaufen und fünf zum Halten, während keine Verkaufsempfehlungen vorliegen. Das durchschnittliche Kursziel wird mit rund fünfzehn Komma fünf eins Dollar angegeben. Was die Firma aktuell macht, zeigt sich in verschiedenen Bereichen: Laut Bloomberg ziehen sich Leerverkäufer vor einer erwarteten Gewinnerholung zurück, und marketscreener.com meldet, dass der Gewinn dank robuster Exporte steigt. Ausserdem berichtet Seeking Alpha, dass BYD hofft, durch Teststrecken eine Autokultur in China zu schaffen, und die Seoul Economic Daily meldet, dass das Modell BYD Seal neue Massstäbe für Elektrolimousinen unter rund neunundzwanzigtausendachthundertvierzig Dollar setzt. Auf der anderen Seite berichtet NTG24, dass BYD zwar im Ausland wächst, die Gewinne jedoch unter Druck stehen. Zu den wichtigen Kennzahlen gehört das Nettogewinn-Wachstum von achtundzwanzig Prozent im dritten Quartal, welches die Rentabilität verdeutlicht. Zudem liegt das von Analysten genannte durchschnittliche Kursziel bei rund fünfzehn Komma fünf eins Dollar, während das höchste Kursziel bei rund neunzehn Komma drei Dollar und das tiefste Kursziel bei rund sieben Komma sechs fünf Dollar liegen. In den vorliegenden Meldungen wurden keine Insider-Käufe oder -Verkäufe erwähnt. Aussagen von Chefs oder dem Management direkt wurden in den vorliegenden Berichten nicht genannt. Zurück zu BYD: Hinsichtlich der Widersprüche stehen sich die Meldungen von Reuters, wonach das Gewinnwachstum hinter den Prognosen zurückbleibt, und Yahoo Finance gegenüber, wo von einem Nettogewinn-Sprung um achtundzwanzig Prozent im dritten Quartal berichtet wird. Keine Anlageberatung.",
-   "dur": 177.2,
-   "at": "2026-10-29T13:10:24Z"
+   "text": "BYD: Die aktuellen Berichte zum chinesischen Autobauer zeigen ein gemischtes Bild. Laut Reuters, einer internationalen Nachrichtenagentur, verlangsamt sich das Gewinnwachstum im dritten Quartal und bleibt hinter den Prognosen zurück. Dagegen meldet Yahoo Finance, ein Finanzportal, das Meldungen und Analystenbewertungen bündelt, dass der Nettogewinn im dritten Quartal um achtundzwanzig Prozent steigt. Zudem berichtet Seeking Alpha, eine US-Plattform mit Anlegerbeiträgen, dass europäische Handelsbeschränkungen den Ausblick belasten. Zurück zu BYD: In den vorliegenden Meldungen wurden keine rechtlichen Probleme gefunden. Zu den Analysten-Bewertungen gibt es Daten von Yahoo Finance, wonach sechsundzwanzig Analysten ein durchschnittliches Kursziel von fünfzehn Komma fünf eins Dollar nennen. Was macht das Unternehmen gerade? Laut Bloomberg, einem US-Finanznachrichtendienst, verliert die exportorientierte Erholung an Dynamik, während marketscreener.com, ein Finanzportal, von robusten Exporten berichtet. Seeking Alpha merkt an, dass europäische Handelsbeschränkungen den Ausblick trüben. Zu den wichtigsten Kennzahlen gehört der Nettogewinn mit einem Plus von achtundzwanzig Prozent, was wichtig ist, um die Profitabilität zu messen. Ausserdem stiegen die Lagerbestände laut Electrek um sechzig Prozent. Das Kursziel liegt im Durchschnitt bei fünfzehn Komma fünf eins Dollar. Keine Insider-Käufe oder Verkäufe wurden in den offiziellen Daten erwähnt. Aussagen von Chefs liegen nicht vor. Bei den Widersprüchen stehen sich die Aussagen gegenüber, dass sich das Gewinnwachstum verlangsamt und die Schätzungen verfehlt werden, während gleichzeitig ein Nettogewinnplus von achtundzwanzig Prozent gemeldet wird. Keine Anlageberatung.",
+   "dur": 123.6,
+   "at": "2026-10-29T16:12:29Z"
   },
   "SHL.DE": {
    "file": "SHL.DE.mp3",
@@ -472,27 +475,27 @@
   },
   "STX": {
    "file": "STX.mp3",
-   "hash": "0289303df497951c",
-   "th": "a5b99cbd74e1f59c",
-   "id": "4f8efdf504",
+   "hash": "9dd264ba57c58fc4",
+   "th": "9c5c2b21f2eeb40e",
+   "id": "f9e2f8c40a",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Seagate Technology Holdings PLC hat starke Ergebnisse und Aussichten fur das erste Quartal veröffentlicht, was laut der kanadischen Tageszeitung The Globe and Mail durch eine hohe Nachfrage im Bereich der künstlichen Intelligenz angetrieben wurde. Wie das Finanzportal Yahoo Finance berichtet, stieg der Umsatz im Berichtszeitraum um einundsechzig Prozent, was zu Rekordgewinnen und einer Erhöhung der Dividende führte. Dennoch verzeichnet die Aktie Kursrückgänge, da diese starken Zahlen und optimistischen Prognosen an den Märkten offenbar nicht ausreichen und Teile der Wall Street vorsichtig werden. Bei den Analystenbewertungen zeigt sich ein gemischtes Bild: Die UBS hat das Kursziel auf siebenhundertfünfzig Dollar gesenkt und die neutrale Einstufung bestätigt, während die Citigroup ihre Kaufempfehlung beibehält und das Kursziel auf eintausendfünfzig Dollar anpasst. Wells Fargo stuft die Aktie mit übergewichten ein und nennt ein Kursziel von achthundertzwanzig Dollar. TD Cowen bestätigt die Kaufempfehlung bei einem Kursziel von neunhundert Dollar, Wedbush bestätigt das Kursziel von eintausend Dollar und Susquehanna belässt das Rating auf neutral bei einem Kursziel von siebenhundertfünfundsechzig Dollar. Operativ expandiert das Unternehmen im Bereich der HAMR-Technologie und treibt den Mozaic-Meilenstein für Speicher im Bereich der künstlichen Intelligenz voran, wobei laut Unternehmensangaben Festplatten kaum schnell genug hergestellt werden können. Auf der abwertenden Seite merken Analysten der Plattform Seeking Alpha ein langsameres Exabyte-Wachstum an, was zu Kursrückgängen und Kurszielsenkungen geführt hat. Das durchschnittliche Kursziel der Analysten liegt bei eintausendsechsunddreissig Dollar, während das Aufwärtspotenzial von der Bank of America mit achtzig Prozent beziffert wird, obwohl dort auch auf günstigere Alternativen hingewiesen wird.",
-   "dur": 126.4,
-   "at": "2026-10-29T08:39:47Z"
+   "text": "Seagate Technology Holdings PLC: Die vorliegenden Berichte zeigen ein gemischtes Bild für Seagate Technology Holdings PLC. Laut The Globe and Mail, einer kanadischen Tageszeitung, hat das Unternehmen starke Ergebnisse für das erste Quartal sowie positive Aussichten veröffentlicht. Yahoo Finance, ein Finanzportal, das Meldungen und Analystenbewertungen bündelt, meldet jedoch, dass die Aktie nachgibt, da rekordverdächtige Gewinne und eine starke künstliche Intelligenz getriebene Nachfrage den Anlegern nicht ausreichten. Morningstar, ein Fondsanalyse- und Researchhaus, berichtet ergänzend, dass stärkere Branchenbedingungen zu weiteren Margensteigerungen führen. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Abseits rechtlicher Themen verzeichnet das Unternehmen laut Yahoo Finance allerdings Herabstufungen und Kurszielsenkungen, während TradingView, eine Chart- und Börsenplattform, ebenfalls eine Reduzierung des Zwölfmonats-Kursziels meldet. Zudem berichtet Seeking Alpha über ein langsameres Exabyte-Wachstum, was bei einigen Marktbeobachtern für Vorsicht sorgt. Zu den Analysten-Bewertungen gibt es verschiedene Ansichten. Die Bank of America sieht ein grosses Aufwärtspotenzial von achtzig Prozent für die Aktie, merkt aber an, dass Micron-Aktien günstiger wirken. Die UBS hat ihr Kursziel auf siebenhundertfünfzig Dollar gesenkt und verweist auf mehrere Bedenken. Die Citigroup bestätigt ihre Kaufempfehlung bei einem Kursziel von eintausendundfünfzig Dollar. Wells Fargo bestätigt die Einstufung als Übergewichten mit einem Kursziel von achthundertzwanzig Dollar. TD Cowen bestätigt den Kauf bei einem Ziel von neunhundert Dollar, während Wedbush das Kursziel von eintausend Dollar bestätigt. Susquehanna belässt das Rating auf Neutral mit einem angepassten Kursziel von siebenhundertfünfundsechzig Dollar. Morgan Stanley senkte das Kursziel ebenfalls wegen schwächeren Exabyte-Wachstums, und Baird erhöhte das Kursziel wegen der Aussichten für das Speicherwachstum. Was die operativen Aktivitäten angeht, so treibt Seagate Technology Holdings PLC die HAMR-Expansion voran, profitiert von starker Nachfrage im Bereich der künstlichen Intelligenz und hat einen Mozaic-Meilenstein erreicht, der für künstliche Intelligenz-Speicher von Bedeutung ist. Zudem wurde die Dividende erhöht. Als belastend oder auf der abwertenden Seite wird das im Vergleich schwächelnde Exabyte-Wachstum genannt. Wichtige Kennzahlen umfassen das durchschnittliche Analysten-Kursziel von rund eintausendundfünfunddreissig Dollar, was ein prognostiziertes Aufwärtspotenzial von rund sechsundvierzig Prozent bedeutet, sowie eine Dividendenrendite von rund nullkommafünf Prozent. Bei den Insider-Transaktionen gab es mehrere Verkäufe durch Führungskräfte. So veräusserte James Ci Lee als EVP und CLO Aktien im Wert von rund dreihundert einundfünfzigtausend Dollar. Chef William D Mosley verkaufte in mehreren Schritten Aktien im Gesamtwert von rund siebenundzwanzig Millionen Dollar, teilweise im Rahmen geplanter Verkaufspläne. Auch EVP und CTO John Christopher Morris, CFO Gianluca Romano sowie EVP und Chief Commercial Officer Ban Seng Teh verkaufte Aktien im Wert von rund acht Millionen, neununddreissig Millionen beziehungsweise einundvierzig Millionen Dollar. Anleger sollten beachten, dass Insider-Verkäufe oft weniger aussagekräftig sind als Käufe, da sie häufig durch Steuerzahlungen oder im Voraus geplante Verkaufspläne motiviert sind. Zurück zu Seagate Technology Holdings PLC: Widersprüche zeigen sich vor allem darin, dass das Unternehmen zwar sehr starke Quartalsergebnisse und optimistische Aussichten vorlegt, die Aktie aber dennoch unter Druck gerät und Analysten zur Vorsicht mahnen. Keine Anlageberatung.",
+   "dur": 265.7,
+   "at": "2026-10-29T16:12:59Z"
   },
   "MU": {
    "file": "MU.mp3",
-   "hash": "142f788c0368224d",
-   "th": "87d8242e135050bf",
-   "id": "3a90ce58b8",
+   "hash": "337d9d5021a02a43",
+   "th": "0081f8b51110e269",
+   "id": "410e30a3bf",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Bei Micron Technology treiben laut dem Finanzportal Yahoo Finance positive Branchenmeldungen und der Sektor der künstlichen Intelligenz die Aktie an. Auch das US-Finanzmagazin Barron's berichtet, dass Micron-Aktien steigen, da positive Impulse vom Rivalen SK Hynix ausgehen. Konkrete rechtliche Probleme wurden in den Meldungen nicht genannt, allerdings wirft Yahoo Finance die allgemeine Frage auf, ob die Aktie riskanter sein könnte, als es auf den ersten Blick aussieht. Im Analystenkonsens gibt es laut Yahoo Finance fünfundvierzig Kaufempfehlungen, neun starke Kaufempfehlungen, drei Halteempfehlungen, eins Verkaufsempfehlung sowie eins starke Verkaufsempfehlung. Das durchschnittliche Kursziel liegt bei rund eintausendfünfhundertzweiundsechzig Dollar mit einem erwarteten Aufwärtspotenzial von rund neunundfünfzig Prozent. Das Analysehaus Rosenblatt bestätigte zuletzt ein Kursziel von eintausendneunhundert Dollar bei einer Kaufempfehlung. Needham setzte das Kursziel auf eintausendsechshundertfünfzig Dollar mit einer Kaufempfehlung. DA Davidson rief ein Kursziel von dreitausend Dollar aus, ebenfalls mit einer Kaufempfehlung. Mizuho nannte ein Kursziel von eintausendvierhundert Dollar und bewertet die Aktie mit besser als der Markt. Morgan Stanley stuft die Aktie auf ubergewichten ein mit einem Kursziel von eintausendzweihundert Dollar. Was macht das Unternehmen aktuell? Laut der kanadischen Tageszeitung The Globe and Mail profitiert Micron davon, dass Speicherchips beim Rivalen SK Hynix bis zum Jahr 2029 ausverkauft sind. Das deutsche Finanzportal Finanzen.net meldete zudem eine Hausse bei der Micron-Aktie am Mittwochabend, während Yahoo Finance auf das aktuelle Ex-Dividendendatum verweist. Als wichtige Kennzahlen gelten das durchschnittliche Kursziel von rund eintausendfünfhundertzweiundsechzig Dollar und das Aufwärtspotenzial von rund neunundfünfzig Prozent. Zu den Insider-Aktivitäten laut Pflichtmeldungen bei der US-Börsenaufsicht SEC: Scott J Deboer in seiner Funktion als President und Chief Technology and Products Officer verkaufte im Rahmen eines geplanten Plans achtundzwanzigtausendfünfhundertfünfundvierzig Aktien im Wert von rund fünfundzwanzig Komma sieben Millionen Dollar.",
-   "dur": 155.4,
-   "at": "2026-10-29T12:18:13Z"
+   "text": "Micron Technology, Inc.: Laut Barron's, einem US-Finanzmagazin, sinkt die Aktie von Micron Technology, Inc., da die Gewinne von Samsung Sorgen über die hohe Messlatte für Speicherchips schüren. Wie die kanadische Tageszeitung The Globe and Mail berichtet, treibt eine Meldung des Konkurrenten SK Hynix, wonach Speicherchips bis 2029 ausverkauft sein sollen, auch die Aktie von Micron Technology, Inc. an. Laut Yahoo Finance, einem Finanzportal, bündelt das Unternehmen Nachrichten und Analystenbewertungen rund um die Kursentwicklung. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Zu den Analysten-Bewertungen: Rosenblatt stuft die Aktie mit Kaufen und einem Kursziel von eintausendneunhundert Dollar ein. Needham bewertet sie ebenfalls mit Kaufen bei einem Kursziel von eintausendsechshundertfünfzig Dollar. DA Davidson nennt ein Kursziel von dreitausend Dollar bei einer Einstufung als Kaufen. Mizuho vergibt das Rating Besser als Markt mit einem Kursziel von eintausendvierhundert Dollar, während Morgan Stanley die Aktie mit Übergewichten und einem Kursziel von eintausendzweihundert Dollar bewertet. Zurück zu Micron Technology, Inc.: Was macht die Firma gerade? Wie die kanadische Tageszeitung The Globe and Mail berichtet, profitiert Micron Technology, Inc. davon, dass laut SK Hynix Speicherchips bis 2029 ausverkauft sind. Laut dem deutschen Börsenmagazin Der Aktionär gilt physische KI als neuer Treiber mit einer Prognose bis 2030. Demgegenüber steht laut Barron's, einem US-Finanzmagazin, dass die Gewinne und der Kursrückgang bei Konkurrent Samsung auch die Stimmung für Speicheraktien belasten. Wichtige Kennzahlen im Überblick: Das durchschnittliche Kursziel liegt bei eintausendfünfhundertzweiundsechzig Dollar, was den von Analysten im Durchschnitt prognostizierten Zielkurs der Aktie widerspiegelt und besonders wichtig ist. Das höchste Kursziel beträgt dreitausend Dollar, während das tiefste Kursziel bei dreihunderteinundsechzig Dollar liegt. Das erwartete Aufwärtspotenzial beläuft sich auf plus vierundsechzig Komma acht Prozent, was das prozentuale Potenzial vom aktuellen Kurs bis zum durchschnittlichen Kursziel darstellt und ebenfalls von hoher Bedeutung ist. Zu den Insider-Transaktionen: Laut den offiziellen Pflichtmeldungen hat Scott J Deboer als President & Chief Tech & Prod Officer im Rahmen eines geplanten Verkaufs achtundzwanzigtausendfünfhundertfünfundvierzig Aktien im Wert von rund fünfundzwanzig Komma sieben Millionen Dollar veräussert. Zudem hat Michael Charles Ray als SVP, Chief Legal Officer in zwei Transaktionen im Rahmen geplanter Verkäufe insgesamt sechstausenddreihundertachtundzwanzig Aktien im Wert von rund fünf Komma neun Millionen Dollar veräussert. Es ist zu beachten, dass Insider-Verkäufe oft weniger aussagen als Käufe, da sie häufig steuerlich motiviert oder von vornherein so geplant sind. Keine Anlageberatung.",
+   "dur": 205.3,
+   "at": "2026-10-29T16:13:09Z"
   },
   "DRO.AX": {
    "file": "DRO.AX.mp3",
@@ -507,10 +510,10 @@
    "at": "2026-10-29T11:30:38Z"
   }
  },
- "status": "quota: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usa",
- "checked_at": "2026-10-29T15:15:29Z",
+ "status": "ok",
+ "checked_at": "2026-10-29T16:13:09Z",
  "quota_until": 1793286805.9725916,
- "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@4168d1d8d5c713587a6c7e6fb606d2770e9e2cc7/data/audio/",
+ "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@9f313125b2141ed68d04739c3e3370c8e8ecd899/data/audio/",
  "extra": {
   "intro": {
    "file": "_intro.mp3",
