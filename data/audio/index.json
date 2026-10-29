@@ -15,15 +15,16 @@
   },
   "005930.KS": {
    "file": "005930.KS.mp3",
-   "hash": "847c99b513cd96e7",
-   "th": "c7790b66f993b79a",
+   "hash": "5a27aecead64bd47",
+   "th": "84235bfdb87e6c16",
+   "engine": "gemini",
    "id": "18d4b84928",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
    "br": 24,
-   "text": "Samsung Electronics: Im Zentrum des aktuellen Marktgeschehens steht Samsung Electronics mit wichtigen Neuigkeiten zu den Ergebnissen des dritten Quartals des Jahres 2026. Laut dem Handelsblatt, einer deutschen Wirtschaftszeitung, erzielt das Unternehmen einen Rekordgewinn dank des globalen KI-Booms und einer steigenden Nachfrage nach KI-Speicherchips. Gleichzeitig berichtet die Financial Times, eine britische wirtschaftszeitung, dass die Aktien von Samsung Electronics abrutschen, da sich ein Rückgabeplan verzögert und konkrete Details zu Anlegerrenditen fehlen. Zudem meldet Bloomberg, ein US-Finanznachrichtendienst, dass der Gewinn im Chipbereich teilweise hinter den Schätzungen zurückbleibt, obwohl die Speicherchips ein starkes Quartal verzeichnen. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Betreffend der Analystenbewertungen zeigt sich laut Yahoo Finance, einem Finanzportal, das Meldungen und Analystenbewertungen bündelt, ein positives Bild: Das durchschnittliche Kursziel liegt bei rund dreihundertsechzig Dollar, und das Aufwärtspotenzial wird mit rund einhundertsieben Prozent beziffert. Von insgesamt fünfunddreissig Analysten empfehlen elf die Aktie zum starken Kauf, fünfunddreissig zum Kauf und eine Person zum Halten. Zurück zu Samsung Electronics: Operativ punktet das Unternehmen laut dem Samsung Global Newsroom mit einem starken Ergebnis im dritten Quartal und der erneuten Platzierung auf Rang fünf bei Interbrands Best Global Brands 2026. Belastend wirkt sich dagegen laut TradingView, einer Chart- und Börsenplattform, aus, dass die Speichergewinne eine zugrundeliegende Schwäche bei Geräten verdecken und die Aktie um rund vier Prozent nachgibt. Bei den Kennzahlen wird der aktuelle Aktienkurs von Samsung Electronics mit rund einhundertdreiundsiebzig Dollar angegeben, während das Analysten-Kursziel im Mittel bei rund dreihundertsechzig Dollar liegt, was die Erwartungen an den künftigen Unternehmenswert widerspiegelt. Insider-Käufe oder -Verkäufe wurden in den vorliegenden Berichten nicht genannt. Aussagen von Führungskräften liegen für diesen Zeitraum nicht vor. Zu den Widersprüchen in der Berichterstattung: Während CNBC, ein US-Wirtschaftssender, meldet, dass der Gewinn im dritten Quartal den Schätzungen entspricht, berichtet Bloomberg, ein US-Finanznachrichtendienst, dass der Chip-Gewinn die angehobenen Erwartungen verfehlt hat. Keine Anlageberatung.",
-   "dur": 167.7,
-   "at": "2026-10-29T22:14:36Z"
+   "text": "Samsung Electronics steht im Zentrum des aktuellen Marktgeschehens mit wichtigen Neuigkeiten zu den Ergebnissen des dritten Quartals des Jahres 2026. Laut dem Handelsblatt erzielt das Unternehmen einen Rekordgewinn dank des globalen KI-Booms und einer steigenden Nachfrage nach KI-Speicherchips. Gleichzeitig berichtet die Financial Times, dass die Aktien von Samsung Electronics abrutschen, da sich ein Rückgabeplan verzögert und konkrete Details zu Anlegerrenditen fehlen. Zudem meldet Bloomberg, dass der Gewinn im Chipbereich teilweise hinter den Schätzungen zurückbleibt. In den vorliegenden Meldungen wurden keine rechtlichen Probleme gefunden. Betreffend der Analystenbewertungen zeigt sich laut Yahoo Finance ein positives Bild. Das durchschnittliche Kursziel liegt bei dreihundertsechzig Dollar, und das Aufwärtspotenzial wird mit einhundertsieben Komma vier Prozent beziffert. Von insgesamt fünfunddreissig Analysten empfehlen elf die Aktie zum starken Kauf, fünfunddreissig zum Kauf und eine Person zum Halten. Operativ punktet das Unternehmen laut Samsung mit der erneuten Platzierung auf Rang fünf bei Interbrands Best Global Brands 2026. Belastend wirkt sich dagegen laut TradingView aus, dass die Speichergewinne eine zugrundeliegende Schwäche bei Geräten verdecken und die Aktie um vier Komma eins Prozent nachgibt. Bei den Kennzahlen wird der aktuelle Aktienkurs von Samsung Electronics mit einhundertdreiundsiebzig Dollar angegeben, während das Analysten-Kursziel im Mittel bei dreihundertsechzig Dollar liegt, was die Erwartungen an den kuenftigen Unternehmenswert widerspiegelt. Insider-Kaeufe oder -Verkaeufe wurden in den vorliegenden Berichten nicht genannt. Aussagen von Fuehrungskraeften liegen fuer diesen Zeitraum nicht vor. Zu den Widerspruechen in der Berichterstattung: Waehrend CNBC meldet, dass der Gewinn im dritten Quartal den Schaetzungen entspricht, berichtet Bloomberg, dass der Chip-Gewinn die angehobenen Erwartungen verfehlt hat.",
+   "dur": 116.4,
+   "at": "2026-10-29T22:53:22Z"
   },
   "HY9H.MU": {
    "file": "HY9H.MU.mp3",
@@ -173,15 +174,16 @@
   },
   "AMAT": {
    "file": "AMAT.mp3",
-   "hash": "fe3f8b73cd220b57",
-   "th": "448e253893ed68a3",
+   "hash": "df3f5b38623b7f56",
+   "th": "b20f6d64d0552d0a",
+   "engine": "gemini",
    "id": "c7c84f30e5",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
    "br": 24,
-   "text": "Applied Materials: Im Zentrum der aktuellen Berichterstattung stehen strategische Schritte und positive Marktsignale für den Ausrüster von Halbleiteranlagen. Laut einer Mitteilung der Firma selbst erhöht Applied Materials seine strategische Investition in BE Semiconductor Industries auf rund zwanzig Prozent. Zudem profitiert die Aktie laut Berichten von Yahoo Finance von positiven Branchensignalen aus Südkorea, wo SK Hynix eine anhaltende Speicherknappheit bis zum Jahr 2030 signalisiert hat. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden, allerdings verweisen einige Marktbeobachter auf Chartsignale wie ein sogenanntes Todeskreuz. Bei den Analystenbewertungen zeigt sich ein überwiegend positives Bild. Laut Yahoo Finance raten neununddreissig Analysten zum Kauf, während sechs Analysten die Aktie auf Halten stufen und keine Verkaufsempfehlungen vorliegen. Das durchschnittliche Kursziel der Experten liegt bei rund sechshundertachtundzwanzig Dollar, was ein beträchtliches Potenzial gegenüber dem aktuellen Kurs von rund vierhundertzweiundzwanzig Dollar bedeutet. Häuser wie Needham, die Evercore ISI Group und Morgan Stanley haben ihre Kursziele zuletzt allerdings nach unten angepasst, während die UBS ihr Kursziel zuvor noch angehoben hatte. Zurück zu Applied Materials: Das Unternehmen baut seine Position aus, indem es die Beteiligung an BE Semiconductor Industries erhöht und laut Branchenberichten eine dominierende Rolle bei epitaktischen Wafer- und Chip-Technologien sowie dielektrischen Display-Materialien einnimmt. Zu den wichtigen Kennzahlen gehört neben dem aktuellen Kurs und dem durchschnittlichen Kursziel von rund sechshundertachtundzwanzig Dollar auch das von Analysten berechnete Aufwärtspotenzial von knapp neunundvierzig Prozent. Bei den Insidern gab es in den vergangenen Monaten verschiedene Verkäufe: So veräusserte der Chef und Verwaltungsrat Gary E. Dickerson Aktien im Wert von rund fünfundfünfzig Komma sechs Millionen Dollar, Finanzchef Brice Hill verkaufte Anteile im Wert von rund drei Komma sechs Millionen Dollar, und auch kleinere Verkäufe von Verwaltungsräten und Führungskräften wurden gemeldet. Solche Insider-Verkäufe sind allerdings oft steuerlich motiviert oder vorab geplant und sagen daher weniger aus als Insider-Käufe. Keine Anlageberatung.",
-   "dur": 162.2,
-   "at": "2026-10-29T21:28:42Z"
+   "text": "Applied Materials steht aktuell im Fokus durch strategische Anpassungen und positive Marktsignale. Das Unternehmen erhöht seine Beteiligung an BE Semiconductor Industries auf rund zwanzig Prozent. Zudem profitiert die Aktie von positiven Signalen aus der Halbleiterbranche, da SK Hynix eine anhaltende Speicherknappheit bis zum Jahr 2030 prognostiziert. Applied Materials gilt als dominierender Akteur bei epitaktischen Wafer- und Chip-Technologien sowie bei dielektrischen Materialien für Displays. Während technische Chartanalysen auf Druck durch ein sogenanntes Todeskreuz hinweisen, bleibt die Stimmung unter Analysten mehrheitlich positiv: neununddreissig Experten raten zum Kauf, sechs zum Halten. Das durchschnittliche Kursziel liegt bei sechshundertachtundzwanzig Dollar, was bei einem aktuellen Kurs von vierhundertzweiundzwanzig Dollar ein deutliches Potenzial aufzeigt. Verschiedene Häuser wie Needham, Evercore ISI Group und Morgan Stanley haben ihre Kursziele zuletzt gesenkt, während die UBS ihr Ziel zuvor angehoben hatte. Dies stellt keine Anlageberatung dar.",
+   "dur": 70.2,
+   "at": "2026-10-29T22:54:17Z"
   },
   "ARM": {
    "file": "ARM.mp3",
@@ -257,15 +259,15 @@
   },
   "OKLO": {
    "file": "OKLO.mp3",
-   "hash": "cce49f2b7274a499",
-   "th": "991dcc9af3682f3d",
+   "hash": "2b832d691f2326e8",
+   "th": "a127013b6d99fb46",
    "id": "9e65fdf6f1",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Die Aktie von Oklo wird am Markt derzeit kontrovers diskutiert. Laut der kanadischen Zeitung The Globe and Mail erzielt das Unternehmen bisher noch keine Umsätze, was für Investoren eine wichtige Hürde darstellt. Während die Plattform Seeking Alpha grundsätzlich optimistisch auf das Potenzial der Kernenergie blickt, äussern sich Analysten skeptisch zur operativen Umsetzung des Unternehmens. Die Analysteneinschätzungen sind gemischt: B. Riley Securities bewertet die Aktie mit Kaufen und einem Kursziel von einundsechzig Dollar. TD Cowen stuft das Papier mit Halten bei einem Kursziel von sechsundzwanzig Dollar ein, während Truist Securities die Einstufung Halten mit einunddreissig Dollar bestätigt. Die Citigroup stuft die Aktie neutral mit dreiunddreissig Dollar ein, Barclays und Piper Sandler bestätigen die Einstufung Übergewichten mit Kurszielen von neunundfünfzig beziehungsweise neunundvierzig Dollar. Das durchschnittliche Kursziel der Analysten liegt bei fünfundsechzig Komma zwei fünf Dollar, während der aktuelle Aktienkurs bei sechsundzwanzig Komma acht eins Dollar notiert. Im Oktober 2026 wurden zudem Insider-Verkäufe durch Führungskräfte wie den CEO Jacob DeWitte und die COO Caroline Cochran gemeldet, deren Transaktionsvolumen teils bei vier Komma vier Millionen Dollar lag. Solche Verkäufe sind oft vorab geplant oder steuerlich motiviert. Dies stellt keine Anlageberatung dar.",
-   "dur": 101.0,
-   "at": "2026-10-29T22:14:56Z"
+   "text": "Die Aktie von Oklo wird am Markt derzeit kontrovers diskutiert. Laut der Zeitung The Globe and Mail erzielt das Unternehmen bisher noch keine Umsätze, was für Anleger ein wichtiger Punkt bei der Bewertung der operativen Fortschritte ist. Während die Plattform Seeking Alpha grundsätzlich optimistisch auf den Sektor der Kernenergie blickt, äussern sich die Autoren dort skeptisch bezüglich der tatsächlichen operativen Umsetzung durch Oklo. Die Analysteneinschätzungen sind gemischt: B. Riley Securities empfiehlt die Aktie zum Kauf mit einem Kursziel von einundsechzig Dollar, während TD Cowen die Aktie mit Halten und einem Kursziel von sechsundzwanzig Dollar bewertet. Truist Securities bestätigt Halten bei einunddreissig Dollar, Citigroup stuft das Papier mit Neutral und dreiunddreissig Dollar ein. Barclays und Piper Sandler bewerten die Aktie mit Übergewichten bei Kurszielen von neunundfünfzig beziehungsweise neunundvierzig Dollar. Der aktuelle Aktienkurs liegt bei sechsundzwanzig Komma acht eins Dollar, während das durchschnittliche Kursziel der Analysten fünfundsechzig Komma zwei fünf Dollar beträgt. Im Oktober 2026 wurden zudem Insider-Verkäufe gemeldet, darunter durch CEO Jacob DeWitte und COO Caroline Cochran, die jeweils Aktien im Wert von rund vier Komma vier Millionen Dollar veräusserten. Solche Verkäufe basieren häufig auf vorab festgelegten Plänen. Dies stellt keine Anlageberatung dar.",
+   "dur": 100.9,
+   "at": "2026-10-29T22:54:48Z"
   },
   "RYCEY": {
    "file": "RYCEY.mp3",
@@ -461,15 +463,15 @@
   },
   "ABBN.SW": {
    "file": "ABBN.SW.mp3",
-   "hash": "8f807a5c4fade0bd",
-   "th": "aa7a86476aef5dbc",
-   "id": "6fd7d53aba",
+   "hash": "da9d3f9ccff560b1",
+   "th": "993b47ffcfc86d81",
+   "id": "b7742b8e3e",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "ABB LTD: Laut WSJ, einer US-Wirtschaftszeitung, rutschen die Aktien von ABB ab, nachdem Bedenken bezuglich Kunstlicher Intelligenz die Ergebnisse in den Hintergrund drangen. Laut Yahoo Finance, einem Finanzportal, treibt ABB die Nachfrage nach Elektrofahrzeugen und 5G voran, wahrend laut Traders Union, einem Trading-Ratgeberportal, die Aktie nach einem uberverkauften Rebound um mehr als zwei Prozent zulegen konnte. Laut Yahoo Finance gibt es Berichte uber Risiken und rechtliche Probleme wurden nicht genannt. Laut Yahoo Finance, einem Finanzportal, beobachten siebenundzwanzig Analysten den Titel und setzen ein mittleres Kursziel von neunundneunzig Komma vier vier Dollar an, was ein Aufwartsspotenzial von zwölf Komma sieben Prozent bedeutet. Zuruck zu ABB LTD: Was macht die Firma gerade? Laut Yahoo Finance profitiert das Unternehmen vom globalen Ringkabelklemmen-Markt, und laut Traders Union feiert ABB einen Meilenstein am Standort Senatobia, wodurch das Unternehmen an Dynamik gewinnt. Auf der abwertenden Seite stehen laut WSJ die erwahnten KI-Bedenken, die den Aktienkurs belasten. Wichtige Kennzahlen zeigen ein durchschnittliches Kursziel von neunundneunzig Komma vier vier Dollar, was die Erwartungen der Analysten widerspiegelt. Insider-Kaufe oder Verkaufe wurden in den Meldungen nicht erwahnt. Aussagen der Chefs liegen ebenfalls keine vor. Widerspruche zwischen den Berichten gibt es keine. Keine Anlageberatung.",
-   "dur": 105.6,
-   "at": "2026-10-29T19:56:10Z"
+   "text": "Die Aktien von ABB gerieten laut Berichten des Wall Street Journal unter Druck, da Sorgen im Bereich der künstlichen Intelligenz die Aufmerksamkeit von den jüngsten Quartalsergebnissen ablenkten. Operativ zeigt sich das Unternehmen jedoch dynamisch: ABB profitiert von einer wachsenden Nachfrage nach Elektrofahrzeugen, 5G-Technologie und intelligenten Gebäuden, was den Markt für Ringkabelklemmen antreibt. Zudem feierte das Unternehmen einen wichtigen Meilenstein am Standort Senatobia. Im Analystenkonsens, der neunundzwanzig Einschätzungen umfasst, überwiegen mit zwanzig Halteempfehlungen die neutralen Stimmen, ergänzt durch sieben Kauf- und zwei Verkaufsempfehlungen. Das durchschnittliche Kursziel liegt bei neunundneunzig Komma null neun Dollar, was einem Kurspotenzial von rund zwölf Komma drei Prozent entspricht. Die Spanne der Kursziele reicht dabei von achtzig Komma drei Dollar bis einhundertsechzehn Dollar. Insider-Aktivitäten oder Aussagen der Geschäftsleitung wurden in den aktuellen Meldungen nicht verzeichnet. Diese Informationen dienen ausschliesslich der Information und stellen keine Anlageberatung dar.",
+   "dur": 78.4,
+   "at": "2026-10-29T22:54:53Z"
   },
   "STX": {
    "file": "STX.mp3",
@@ -509,9 +511,9 @@
   }
  },
  "status": "quota: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usa",
- "checked_at": "2026-10-29T21:29:17Z",
- "quota_until": 1793310733.7438014,
- "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@05cf1b84bcfc9f33487c8915d09460278691b5bb/data/audio/",
+ "checked_at": "2026-10-29T22:54:53Z",
+ "quota_until": 1793318082.8333726,
+ "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@78c21ef127d4bcc53a3d85bd1a3ec4008de5e1ec/data/audio/",
  "extra": {
   "intro": {
    "file": "_intro.mp3",
