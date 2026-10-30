@@ -1,6 +1,241 @@
 {
 "episodes": [
 {
+"id": "n-2026-10-30-t",
+"kind": "tag",
+"show": "ent",
+"date": "2026-10-30",
+"title": "Zum Nachdenken, Freitag, dreissigsten Oktober",
+"generated_at": "2026-10-30T13:49:15Z",
+"writer": "Vorlage aus den Daten, Redakteur-KI (Gemini Gratis-Kontingent) mit Faktencheck",
+"chapters": [
+{
+"name": "Begrüssung",
+"say": "Willkommen zu Zum Nachdenken vom Aktien-Radar, heute Freitag, dreissigsten Oktober. Hier geht es nicht um deine eigenen Aktien, sondern um auffällige Aktien ausserhalb deiner Liste: die grössten Gewinner, Aktien mit grossem Potenzial laut vielen Analysten, schlecht bewertete Aktien und grosse Verlierer. Alles stammt aus gesammelten Daten von Yahoo Finance, Beträge nenne ich in Dollar. Das ist keine Anlageberatung, sondern Stoff zum Nachdenken.",
+"audio": {
+"file": "nachdenken/n-2026-10-30-t_00.mp3",
+"hash": "bdce8e8763ac4443",
+"dur": 31.5
+}
+},
+{
+"name": "Die grössten Gewinner",
+"say": "Zuerst die grössten Gewinner. Das sind Aktien, deren Kurs in den letzten drei Monaten am stärksten gestiegen ist.",
+"audio": {
+"file": "nachdenken/n-2026-10-30-t_01.mp3",
+"hash": "3523a65efc3383a5",
+"dur": 8.3
+}
+},
+{
+"name": "Gewinner: Moderna",
+"sym": "MRNA",
+"say": "Zur Aktie Moderna. Moderna kostet im Moment zweihundertzweiundzwanzig Dollar und siebenundfünfzig Cent. Der Kurs von Moderna veränderte sich im letzten Monat um plus sechzehn Prozent und in drei Monaten um plus dreihundertfünf Prozent. Neunzehn Analysten haben für Moderna ein durchschnittliches Kursziel von einhundertachtunddreissig Dollar und siebenunddreissig Cent, das sind minus achtunddreissig Komma neun Prozent gegenüber dem aktuellen Kurs. Die Bank William Blair hat Moderna abgestuft, neue Empfehlung Wie der Markt. Yahoo Finance meldete am neunundzwanzigsten Oktober: GSK im Vergleich mit Moderna. Ein starker Anstieg kann auf echte Fortschritte hinweisen, aber nach so einem Lauf ist oft schon viel Erwartung im Kurs von Moderna enthalten. Das war Moderna.",
+"audio": {
+"file": "nachdenken/n-2026-10-30-t_02.mp3",
+"hash": "211b5aeda6f976c2",
+"dur": 57.0
+}
+},
+{
+"name": "Gewinner: Everpure",
+"sym": "P",
+"say": "Zur Aktie Everpure. Everpure kostet im Moment einhundertachtundzwanzig Dollar und fünfzig Cent. Der Kurs von Everpure veränderte sich im letzten Monat um minus eins Komma sieben Prozent und in drei Monaten um plus sechzig Komma drei Prozent. Neunzehn Analysten haben für Everpure ein durchschnittliches Kursziel von einhunderteinundfünfzig Dollar und elf Cent, das sind plus achtzehn Prozent gegenüber dem aktuellen Kurs. Yahoo Finance meldete am neunundzwanzigsten Oktober: Everpure im Vergleich mit Dell. Ein starker Anstieg kann auf echte Fortschritte hinweisen, aber nach so einem Lauf ist oft schon viel Erwartung im Kurs von Everpure enthalten. Das war Everpure.",
+"audio": {
+"file": "nachdenken/n-2026-10-30-t_03.mp3",
+"hash": "ca55eee8e8f8b4d8",
+"dur": 49.5
+}
+},
+{
+"name": "Andere Aktien mit Chancen",
+"say": "Jetzt Andere Aktien mit Chancen. Bedingung: mindestens acht Analysten, ein durchschnittliches Kursziel mindestens dreissig Prozent über dem Kurs, und eine frische Meldung zu einem Produkt, einem Partner oder einem Auftrag. Das ist keine Kaufempfehlung.",
+"audio": {
+"file": "nachdenken/n-2026-10-30-t_04.mp3",
+"hash": "89cd21b9f087f2cc",
+"dur": 18.1
+}
+},
+{
+"name": "Chance: AppLovin",
+"sym": "APP",
+"say": "Zur Aktie AppLovin. AppLovin kostet im Moment zweihundertsechsunddreissig Dollar und fünfundzwanzig Cent. Der Kurs von AppLovin veränderte sich im letzten Monat um minus achtzehn Komma sieben Prozent und in drei Monaten um minus einundvierzig Komma neun Prozent. Einunddreissig Analysten haben für AppLovin ein durchschnittliches Kursziel von vierhundertzweiundfünfzig Dollar und fünfundneunzig Cent, das sind plus zweiundneunzig Komma zwei Prozent gegenüber dem aktuellen Kurs. Yahoo Finance meldete am achtundzwanzigsten Oktober, dass AppLovin Transparenzlücken bei Fernsehwerbung markiert und eine neue Datenplattform vorstellt. Das Kursziel ist ein Durchschnitt der Analysten und keine Garantie; die genaue Begründung für AppLovin steht nicht in den Daten. Das war AppLovin.",
+"audio": {
+"file": "nachdenken/n-2026-10-30-t_05.mp3",
+"hash": "a23d1be996fd6f04",
+"dur": 55.9
+}
+},
+{
+"name": "Chance: Coherent",
+"sym": "COHR",
+"say": "Zur Aktie Coherent. Coherent kostet im Moment zweihundertsechzehn Dollar und achtundsechzig Cent. Der Kurs von Coherent veränderte sich im letzten Monat um minus vierundzwanzig Komma sieben Prozent und in drei Monaten um minus vierundzwanzig Komma sieben Prozent. Fünfundzwanzig Analysten haben für Coherent ein durchschnittliches Kursziel von dreihundertvierundneunzig Dollar und vierzig Cent, das sind plus zweiundachtzig Komma sieben Prozent gegenüber dem aktuellen Kurs. Yahoo Finance meldete am neunundzwanzigsten Oktober, dass Marvell um zwölf Prozent sinkt, da Investoren bei gemeldeten Gesprächen über einen Grossdeal mit Lumentum zögern. Das Kursziel ist ein Durchschnitt der Analysten und keine Garantie; die genaue Begründung für Coherent steht nicht in den Daten. Das war Coherent.",
+"audio": {
+"file": "nachdenken/n-2026-10-30-t_06.mp3",
+"hash": "c946a7ae21dc9d9e",
+"dur": 56.0
+}
+},
+{
+"name": "Chance: Western Digital",
+"sym": "WDC",
+"say": "Zur Aktie Western Digital. Western Digital kostet im Moment dreihundertfünfundsiebzig Dollar und fünfzehn Cent. Der Kurs von Western Digital veränderte sich im letzten Monat um minus siebzehn Komma vier Prozent und in drei Monaten um minus achtundzwanzig Komma acht Prozent. Vierundzwanzig Analysten haben für Western Digital ein durchschnittliches Kursziel von sechshundertdreizehn Dollar und achtunddreissig Cent, das sind plus vierundsechzig Komma vier Prozent gegenüber dem aktuellen Kurs. Bei den letzten Quartalszahlen meldete Western Digital einen Gewinn je Aktie von vier Dollar und vierundsechzig Cent, erwartet waren vier Dollar und zehn Cent. Yahoo Finance meldete am neunundzwanzigsten Oktober: Seagate im Vergleich mit Western Digital. Das Kursziel ist ein Durchschnitt der Analysten und keine Garantie; die genaue Begründung für Western Digital steht nicht in den Daten. Das war Western Digital.",
+"audio": {
+"file": "nachdenken/n-2026-10-30-t_07.mp3",
+"hash": "db66f30ae8bffbde",
+"dur": 65.8
+}
+},
+{
+"name": "Schlecht bewertete Aktien",
+"say": "Nun zu schlecht bewerteten Aktien. Hier haben Banken ihre Empfehlung gesenkt, oder das durchschnittliche Kursziel liegt unter dem aktuellen Kurs.",
+"audio": {
+"file": "nachdenken/n-2026-10-30-t_08.mp3",
+"hash": "4bf83ee86411fcdb",
+"dur": 10.8
+}
+},
+{
+"name": "Schlecht bewertet: Lennox International",
+"sym": "LII",
+"say": "Zur Aktie Lennox International. Lennox International kostet im Moment dreihunderteinundfünfzig Dollar und elf Cent. Der Kurs von Lennox International veränderte sich im letzten Monat um minus eins Prozent und in drei Monaten um minus neunzehn Komma zwei Prozent. Dreizehn Analysten haben für Lennox International ein durchschnittliches Kursziel von dreihundertneunundsiebzig Dollar und zweiundsechzig Cent, das sind plus neun Prozent gegenüber dem aktuellen Kurs. Die Bank Oppenheimer hat Lennox International abgestuft, neue Empfehlung Perform. Die Bank Goldman Sachs hat Lennox International abgestuft, neue Empfehlung Neutral. Bei den letzten Quartalszahlen meldete Lennox International einen Gewinn je Aktie von sechs Dollar und vierundachtzig Cent, erwartet waren sieben Dollar und sechsunddreissig Cent. Yahoo Finance meldete am neunundzwanzigsten Oktober zu den Quartalszahlen und der tieferen Prognose. Abstufungen zeigen, dass Fachleute vorsichtiger werden; ob sie bei Lennox International recht behalten, ist offen. Das war Lennox International.",
+"audio": {
+"file": "nachdenken/n-2026-10-30-t_09.mp3",
+"hash": "d03aae50ec4b0494",
+"dur": 79.4
+}
+},
+{
+"name": "Schlecht bewertet: Globe Life",
+"sym": "GL",
+"say": "Zur Aktie Globe Life. Globe Life kostet im Moment einhundertsechzig Dollar und fünfundvierzig Cent. Der Kurs von Globe Life veränderte sich im letzten Monat um minus drei Komma vier Prozent und in drei Monaten um minus zwölf Prozent. Elf Analysten haben für Globe Life ein durchschnittliches Kursziel von einhundertfünfundachtzig Dollar und achtzehn Cent, das sind plus vierzehn Komma sechs Prozent gegenüber dem aktuellen Kurs. Die Bank Piper Sandler hat Globe Life abgestuft, neue Empfehlung Neutral. Bei den letzten Quartalszahlen meldete Globe Life einen Gewinn je Aktie von vier Dollar und vierundachtzig Cent, erwartet waren vier Dollar und neunundachtzig Cent. Yahoo Finance meldete am dreissigsten Oktober wichtige Aspekte für langfristige Investoren. Abstufungen zeigen, dass Fachleute vorsichtiger werden; ob sie bei Globe Life recht behalten, ist offen. Das war Globe Life.",
+"audio": {
+"file": "nachdenken/n-2026-10-30-t_10.mp3",
+"hash": "8c7b961043cd6b19",
+"dur": 65.8
+}
+},
+{
+"name": "Grosse Verlierer",
+"say": "Zum Schluss die grossen Verlierer. Das sind Aktien, die im letzten Monat am stärksten gefallen sind.",
+"audio": {
+"file": "nachdenken/n-2026-10-30-t_11.mp3",
+"hash": "ff26c6de6f640649",
+"dur": 7.8
+}
+},
+{
+"name": "Verlierer: Twilio",
+"sym": "TWLO",
+"say": "Zur Aktie Twilio. Twilio kostet im Moment einhundertachtzig Dollar und einunddreissig Cent. Der Kurs von Twilio veränderte sich im letzten Monat um minus achtunddreissig Komma drei Prozent und in drei Monaten um minus acht Komma drei Prozent. Neunundzwanzig Analysten haben für Twilio ein durchschnittliches Kursziel von zweihundertvierundsiebzig Dollar und vierundvierzig Cent, das sind plus fünfzig Komma eins Prozent gegenüber dem aktuellen Kurs. Bei den letzten Quartalszahlen meldete Twilio einen Gewinn je Aktie von ein Dollar und fünfundsechzig Cent, erwartet waren ein Dollar und siebenundvierzig Cent. Yahoo Finance meldete am dreissigsten Oktober, dass sinkendes Wachstum die Vorteile durch künstliche Intelligenz dämpft. Ein grosser Kursverlust kann eine Warnung sein oder eine Übertreibung; bei Twilio lohnt sich ein genauer Blick auf die Gründe. Das war Twilio.",
+"audio": {
+"file": "nachdenken/n-2026-10-30-t_12.mp3",
+"hash": "baead23b42f5208e",
+"dur": 61.4
+}
+},
+{
+"name": "Verlierer: Reddit",
+"sym": "RDDT",
+"say": "Zur Aktie Reddit. Reddit kostet im Moment sechsundneunzig Dollar und neunundachtzig Cent. Der Kurs von Reddit veränderte sich im letzten Monat um minus zweiunddreissig Komma eins Prozent und in drei Monaten um minus siebenunddreissig Komma fünf Prozent. Dreiunddreissig Analysten haben für Reddit ein durchschnittliches Kursziel von zweihundertzwölf Dollar und fünfundneunzig Cent, das sind plus einhundertneunzehn Komma fünf Prozent gegenüber dem aktuellen Kurs. Die Bank Citizens hat Reddit abgestuft, neue Empfehlung Wie der Markt. Die Bank Keybanc hat Reddit abgestuft, neue Empfehlung Sektorgewichten. Bei den letzten Quartalszahlen meldete Reddit einen Gewinn je Aktie von ein Dollar und vierzig Cent, erwartet waren ein Dollar und dreiunddreissig Cent. Yahoo Finance meldete am dreissigsten Oktober fallende Kurse nach Quartalszahlen. Ein grosser Kursverlust kann eine Warnung sein oder eine Übertreibung; bei Reddit lohnt sich ein genauer Blick auf die Gründe. Das war Reddit.",
+"audio": {
+"file": "nachdenken/n-2026-10-30-t_13.mp3",
+"hash": "ee712383604dcef1",
+"dur": 70.4
+}
+},
+{
+"name": "Begriff: Freier Cashflow",
+"say": "Zum Lernen, der Begriff: Freier Cashflow. Der freie Cashflow ist das Geld, das nach allen Ausgaben und Investitionen wirklich übrig bleibt. Damit kann eine Firma Schulden abbauen, Aktien zurückkaufen oder Dividenden zahlen.",
+"audio": {
+"file": "nachdenken/n-2026-10-30-t_14.mp3",
+"hash": "61712ed1f2147023",
+"dur": 17.4
+}
+},
+{
+"name": "Schluss",
+"say": "Das war Zum Nachdenken vom Aktien-Radar. Die Listen findest du in der App auf der Seite Entdecken, den ganzen Text über den Knopf Als Text. Denk daran: Das ist keine Anlageberatung. Bis zum nächsten Mal.",
+"audio": {
+"file": "nachdenken/n-2026-10-30-t_15.mp3",
+"hash": "c0eb227ac2742f5b",
+"dur": 16.4
+}
+}
+],
+"dur": 671.5,
+"full": {
+"file": "nachdenken/n-2026-10-30-t_full.mp3",
+"dur": 671.4,
+"marks": [
+[
+0,
+0.0
+],
+[
+1,
+31.5
+],
+[
+2,
+39.8
+],
+[
+3,
+96.8
+],
+[
+4,
+146.3
+],
+[
+5,
+164.4
+],
+[
+6,
+220.3
+],
+[
+7,
+276.3
+],
+[
+8,
+342.1
+],
+[
+9,
+352.9
+],
+[
+10,
+432.3
+],
+[
+11,
+498.1
+],
+[
+12,
+505.9
+],
+[
+13,
+567.3
+],
+[
+14,
+637.7
+],
+[
+15,
+655.1
+]
+]
+}
+},
+{
 "id": "n-2026-10-29-t",
 "kind": "tag",
 "show": "ent",
@@ -236,8 +471,8 @@
 }
 }
 ],
-"generated_at": "2026-10-29T22:28:47Z",
+"generated_at": "2026-10-30T13:49:15Z",
 "voice": "de-CH-LeniNeural",
 "source": "Yahoo Finance, SEC EDGAR, Schlagzeilen (Google News u.a.); Text: Gemini Gratis-Kontingent oder Vorlage",
-"audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@5a246fb582da5c8c840fd5e0ad776c56319be6dd/data/audio/"
+"audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@0a0b60184adf28d403c729f2897eae0776ce4586/data/audio/"
 }
