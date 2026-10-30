@@ -138,15 +138,16 @@
   },
   "MRVL": {
    "file": "MRVL.mp3",
-   "hash": "12c8bc9d923ee291",
-   "th": "16f91008e972235d",
+   "hash": "c129b5106f21de27",
+   "th": "e59349a4451d5c67",
+   "engine": "gemini",
    "id": "6329f444d9",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
    "br": 24,
-   "text": "Marvell Technology: In den aktuellen Berichten steht die Aktie des Technologieunternehmens stark im Fokus, da Medien über mögliche Verhandlungen zur Übernahme des Optik-Spezialisten Lumentum berichten. Laut Bloomberg.com plant das Unternehmen damit einen weiteren Ausbau seiner Position im Bereich der künstlichen Intelligenz. Zurück zu Marvell Technology: Die Meldungen über diesen potenziellen Megadeal sorgten allerdings für Unruhe an der Börse. Wie Yahoo Finance meldet, gab der Aktienkurs deutlich nach, was auch durch enttäuschende Nachrichten aus dem Marktsegment von Alphabet belastet wurde. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Zu den Analysten-Bewertungen: Die UBS bestätigt ihre Einstufung auf Kaufen und erhöhte das Kursziel auf dreihundertfünfzig Dollar. Jefferies bestätigt ebenfalls die Kaufempfehlung mit einem Kursziel von vierhundertfünfzig Dollar. JP Morgan belässt das Rating auf Übergewichten bei einem Kursziel von dreihundertsechzig Dollar. Wells Fargo bestätigt die Einstufung auf Übergewichten mit einem Kursziel von dreihundertfünfundsechzig Dollar. Wolfe Research hält an der Einschätzung Besser als Markt fest und setzt das Kursziel auf dreihundertfünfundsiebzig Dollar. Morgan Stanley bestätigt die Einstufung auf Marktgewichten bei einem Kursziel von dreihundert Dollar. Piper Sandler und Stifel haben ihre Bewertungen im Zuge der Übernahmegespräche ebenfalls bekräftigt. Was das Unternehmen gerade macht: Als aufwertend gilt, dass Marvell Technology seine Strategie im Bereich der künstlichen Intelligenz mit dem möglichen Zukauf eines grossen Laserherstellers vorantreibt. Abwertend werten Marktbeobachter jedoch die Sorge der Investoren vor einer möglichen Überzahlung und den damit verbundenen Kursrücksetzer. Zu den wichtigen Kennzahlen: Das von Analysten berechnete durchschnittliche Kursziel liegt bei rund dreihundertvierzig Dollar, wobei die Spanne von einem tiefsten Wert von rund zweihundertdreissig Dollar bis zu einem Höchstwert von vierhundertfünfzig Dollar reicht. Zu Insider-Verkäufen: In den offiziellen Pflichtmeldungen der US-Börsenaufsicht wurden verschiedene Verkäufe von Aktien durch Führungskräfte wie den Vorstandschef Matthew J Murphy und weitere Manager verzeichnet, wobei viele dieser Transaktionen im Rahmen vorab festgelegter Verkaufspläne stattfanden. Solche Insider-Verkäufe sind oft weniger aussagekräftig als Käufe, da Manager Aktien häufig zur Steuendeckung oder aufgrund langfristiger Finanzpläne veräussern. Widersprüche zeigen sich in der Beurteilung des Lumentum-Deals: Während MarketWatch berichtet, dass Analysten eine klare strategische Logik in dem Schritt sehen, warnt Morningstar vor dem Risiko einer massiven Überzahlung. Keine Anlageberatung.",
-   "dur": 189.0,
-   "at": "2026-10-29T22:14:48Z"
+   "text": "Marvell Technology steht im Fokus aktueller Berichte, da Medien über mögliche Verhandlungen zur Übernahme des Optik-Spezialisten Lumentum berichten. Laut Bloomberg.com plant das Unternehmen damit einen weiteren Ausbau seiner Position im Bereich der künstlichen Intelligenz. Die Meldungen über diesen potenziellen Megadeal sorgten jedoch für Unruhe an der Börse. Wie Yahoo Finance meldet, gab der Aktienkurs deutlich nach, was auch durch enttäuschende Nachrichten von Alphabet belastet wurde. Zu den Analysten-Bewertungen: Die UBS bestätigt ihre Einstufung auf Kaufen und setzt das Kursziel auf dreihundertfünfzig Dollar. Jefferies bestätigt ebenfalls die Kaufempfehlung mit einem Kursziel von vierhundertfünfzig Dollar. JP Morgan belässt das Rating auf Übergewichten bei einem Kursziel von dreihundertsechzig Dollar. Wells Fargo bestätigt die Einstufung auf Übergewichten mit einem Kursziel von dreihundertfünfundsechzig Dollar. Wolfe Research hält an der Einschätzung Besser als Markt fest und setzt das Kursziel auf dreihundertfünfundsiebzig Dollar. Morgan Stanley bestätigt die Einstufung auf Marktgewichten bei einem Kursziel von dreihundert Dollar. Piper Sandler und Stifel haben ihre Bewertungen im Zuge der Übernahmegespräche ebenfalls bekräftigt. Was das Unternehmen gerade macht: Als aufwertend gilt, dass Marvell Technology seine Strategie im Bereich der künstlichen Intelligenz mit dem möglichen Zukauf vorantreibt. Abwertend werten Marktbeobachter jedoch die Sorge der Investoren vor einer möglichen Überzahlung und den damit verbundenen Kursrücksetzer. Zu den wichtigen Kennzahlen: Das von Analysten berechnete durchschnittliche Kursziel liegt bei dreihunderteinundvierzig Dollar. Widersprüche zeigen sich in der Beurteilung des Lumentum-Deals, da MarketWatch berichtet, dass Analysten eine klare strategische Logik in dem Schritt sehen, während Morningstar vor dem Risiko einer hohen Überzahlung warnt.",
+   "dur": 111.5,
+   "at": "2026-10-30T01:22:34Z"
   },
   "SFTBY": {
    "file": "SFTBY.mp3",
@@ -272,16 +273,15 @@
   },
   "RYCEY": {
    "file": "RYCEY.mp3",
-   "hash": "4f34d61d8965bee4",
-   "th": "8d6e0750422cbef7",
-   "engine": "gemini",
+   "hash": "9fdce76b6ad92abc",
+   "th": "85c4d6a47e618bf9",
    "id": "453135db55",
-   "voice": "Kore",
-   "model": "gemini-2.5-flash-preview-tts",
+   "voice": "de-CH-LeniNeural",
+   "engine": "edge",
    "br": 24,
-   "text": "Rolls-Royce: Der britische Industriekonzern steht im Fokus neuer technologischer Entwicklungen und staatlicher Unterstützung. Laut Rolls-Royce plc, einer Mitteilung der Firma selbst, treibt das Unternehmen ein transformatives Programm zur Triebwerkstechnologie voran. Zudem meldet Investing.com Deutsch, ein Finanzportal, dass sich Rolls-Royce eine britische Unterstützung in Höhe von rund drei Komma drei Milliarden Dollar für ein Triebwerksprojekt sichert. Stock Titan, ein Portal für Firmenmitteilungen, berichtet ergänzend, dass Rolls-Royce-Technologie in zweihundertfünfundsiebzig Megawatt geplanter Triebwerkskapazität für Künstliche-Intelligenz-Rechenzentren zum Einsatz kommen wird. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Laut Yahoo Finance Singapore, einem Finanzportal, das Meldungen und Analystenbewertungen bündelt, gibt es derzeit insgesamt fünf Kaufempfehlungen für die Aktie, aufgeteilt in drei normale und zwei starke Kaufurteile. Zurück zu Rolls-Royce: Was die Firma gerade macht, zeigen erweiterte Angebote und neue Partnerschaften. Laut Rolls-Royce plc, einer Mitteilung der Firma selbst, verlängert das Unternehmen die Wartungsintervalle und die erweiterte Abdeckung für mtu-Schiffsmotoren für Freizeitaktivitäten auf bis zu achtzehn Jahre. Stock Titan, ein Portal für Firmenmitteilungen, hebt hervor, dass die Technologie des Hauses in Rechenzentren für Künstliche Intelligenz eingeplant ist. Zu den wichtigen Kennzahlen gehört das von Yahoo Finance Singapore genannte durchschnittliche Kursziel von rund dreiundzwanzig Dollar sowie ein erwartetes Kurspotenzial von rund vierunddreissig Prozent, wobei das Kursziel den von Analysten erwarteten mittleren Aktienkurs darstellt und das Kurspotenzial den prozentualen Abstand zum aktuellen Kurs misst. Insider-Käufe oder Verkäufe wurden in den offiziellen Daten nicht verzeichnet. Bei den Marktbewegungen zeigen sich leichte Widersprüche, da finanzen.ch, ein Schweizer Finanzportal, einerseits von nordwärts tendierenden Kursen am Vormittag berichtet, andererseits aber auch Kurseinbussen am Mittag meldet. Keine Anlageberatung.",
-   "dur": 132.1,
-   "at": "2026-10-29T23:58:02Z"
+   "text": "Rolls-Royce steht im Fokus neuer technologischer Entwicklungen und staatlicher Unterstützung. Laut einer Mitteilung der Firma selbst treibt das Unternehmen ein transformatives Programm zur Triebwerkstechnologie voran. Zudem meldet das Finanzportal Investing.com Deutsch, dass sich Rolls-Royce eine britische Unterstützung in Höhe von rund drei Komma drei Milliarden Dollar für ein Triebwerksprojekt sichert. Das Portal für Firmenmitteilungen namens Stock Titan berichtet ergänzend, dass Rolls-Royce-Technologie in zweihundertfünfundsiebzig Megawatt geplanter Triebwerkskapazität für Künstliche-Intelligenz-Rechenzentren zum Einsatz kommen wird. Laut Yahoo Finance Singapore gibt es derzeit insgesamt fünf Kaufempfehlungen für die Aktie, aufgeteilt in drei normale und zwei starke Kaufurteile. Was die Firma gerade macht, zeigen erweiterte Angebote: Das Unternehmen verlängert die Wartungsintervalle und die erweiterte Abdeckung für mtu-Schiffsmotoren für Freizeitaktivitäten auf bis zu achtzehn Jahre. Zu den wichtigen Kennzahlen gehört das von Yahoo Finance Singapore genannte durchschnittliche Kursziel von zweiundzwanzig Komma neun vier Dollar sowie ein erwartetes Kurspotenzial von +vierunddreissig Komma zwei Prozent. Bei den Marktbewegungen zeigen sich leichte Widersprüche, da das Schweizer Finanzportal finanzen.ch einerseits von nordwärts tendierenden Kursen am Donnerstagvormittag berichtet, andererseits aber auch von Kurseinbussen am Mittag.",
+   "dur": 101.1,
+   "at": "2026-10-30T01:23:08Z"
   },
   "GEV": {
    "file": "GEV.mp3",
@@ -333,15 +333,15 @@
   },
   "BKW.SW": {
    "file": "BKW.SW.mp3",
-   "hash": "eb1c3415a38ee546",
-   "th": "be08bbc0db6c6fb1",
-   "id": "8b8f1c78ed",
+   "hash": "37d7c6c95eddecfa",
+   "th": "1eace2599dc73138",
+   "id": "dc7d972d98",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "BKW AG zeigt sich in den aktuellen Berichten mit wechselhaften Kursbewegungen an den Handelstagen. Laut finanzen.ch, einem Schweizer Finanzportal, legte die Aktie an einem Donnerstagnachmittag zu und konnte zuvor am Mittag ihre Tendenz verteidigen, waehrend an anderen Vormitagen negative Vorzeichen und vermehrte Verkaeufe durch Anleger beobachtet wurden. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Zu den Analystenbewertungen meldet Yahoo Finance ein durchschnittliches Kursziel von rund einhundertdreiundsiebzig Dollar, mit Spannen zwischen rund einhundertneununddreissig Dollar und rund zweihundertfünf Dollar, gestuetet auf insgesamt acht Analystenmeinungen. Zurueck zu BKW AG: Die vorliegenden Meldungen berichten ueber verschiedene Tagesverlaeufe, in denen die Aktie zeitweise fester tendierte, sich Anleger jedoch zu anderen Zeitpunkten am Vormittag vermehrt von ihr trennten. Als wichtige Kennzahl ist das durchschnittliche Kursziel von rund einhundertdreiundsiebzig Dollar zu nennen, welches die Erwartungen der Analysten widerspiegelt. Insider-Kaeufe oder Verkaeufe wurden in den Daten nicht verzeichnet. Aussagen von Chefs oder dem Management liegen fuer BKW AG derzeit nicht vor. Wiedersprueche zeigen sich vor allem darin, dass einerseits von Kursgewinnen und festeren Tendenzen am Nachmittag berichtet wird, andererseits aber auch Verkaeufe und negative Vorzeichen am Vormittag auftraten. Keine Anlageberatung.",
-   "dur": 102.1,
-   "at": "2026-10-29T18:57:06Z"
+   "text": "Die Aktie der BKW AG stand laut dem Schweizer Finanzportal finanzen.ch zuletzt im Fokus wechselhafter Handelsverläufe. Im Tagesverlauf zeigten sich dabei sowohl positive Tendenzen mit Kursgewinnen als auch Phasen, in denen sich Anleger vermehrt von ihren Papieren trennten. Mit Blick auf die Analysteneinschätzungen bei Yahoo Finance ergibt sich ein gemischtes Bild: Von insgesamt acht Experten raten zwei zum Kaufen, drei zum Halten und eins zum Verkaufen, während jeweils ein Analyst zum starken Kaufen beziehungsweise zum starken Verkaufen tendiert. Das durchschnittliche Kursziel der Analysten liegt bei einhundertdreiundsiebzig Dollar, verglichen mit einem aktuellen Kurs von einhundertneunundvierzig Dollar. Insider-Aktivitäten wurden für das Unternehmen aktuell nicht gemeldet. Bitte beachten Sie, dass dies keine Anlageberatung darstellt.",
+   "dur": 60.3,
+   "at": "2026-10-30T01:23:23Z"
   },
   "UBSG.SW": {
    "file": "UBSG.SW.mp3",
@@ -512,10 +512,10 @@
    "at": "2026-10-29T11:30:38Z"
   }
  },
- "status": "ok",
- "checked_at": "2026-10-29T23:58:10Z",
- "quota_until": 1793318082.8333726,
- "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@c7ad9bef616e3777d0b6252ffcef56f76394c1f2/data/audio/",
+ "status": "quota: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usa",
+ "checked_at": "2026-10-30T01:23:23Z",
+ "quota_until": 1793326979.8211539,
+ "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@e6e7ef18502ce2814e39f0f3d076465af9a36e0f/data/audio/",
  "extra": {
   "intro": {
    "file": "_intro.mp3",
