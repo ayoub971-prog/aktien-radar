@@ -28,15 +28,16 @@
   },
   "HY9H.MU": {
    "file": "HY9H.MU.mp3",
-   "hash": "c09c7d4ba7d873a1",
-   "th": "5facf28831b4949f",
-   "id": "7cdbf4bbf5",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
+   "hash": "5750e9f81405f2f0",
+   "th": "292ae59ec6bd7f2f",
+   "engine": "gemini",
+   "id": "a79db7f085",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
    "br": 24,
-   "text": "SK hynix hat die Finanzergebnisse fur das dritte Quartal 2026 bekannt gegeben und dabei Rekordergebnisse vorgelegt. Laut der US-Wirtschaftszeitung WSJ plant das Unternehmen nach den starken Ergebnissen eine Aktionarsrendite von fünfundsiebzig Milliarden Dollar. Laut dem Finanzportal Investing.com Deutsch geriet die Aktie jedoch unter Druck durch Sorgen um KI-Investitionen und eine Gewinnverfehlung. In den vorliegenden Meldungen wurden keine rechtlichen Probleme gefunden. Zu den Analysten-Bewertungen liegen aktuell keine separaten Einstufungen vor. SK hynix veranstaltete den ersten Partnertag in Japan und tauschte die Geschaeftsausrichtung mit wichtigen lokalen Partnern aus. Zudem wies die Firma darauf hin, wie Siliziumphotonik und CPO die Autobahnen des Lichts bauen, um Wartezeiten bei GPUs im KI-Bereich zu reduzieren. Dagegen berichtet das oesterreichische Finanzportal finan.at, dass Chinas Chipoffensive naeher rueckt und Samsung sowie SK hynix unter Druck bringt. Als wichtige Kennzahl ist die geplante Aktionarsrendite von fünfundsiebzig Milliarden Dollar zu nennen, was die an die Aktionare zuruckzugebende Gesamtsumme beziffert. Insider-Kaufe und -Verkaufe wurden in den offiziellen Daten nicht gemeldet. Aussagen von Chefs liegen in den Meldungen ebenfalls nicht vor. Wahrend das WSJ von Blockbuster-Ergebnissen berichtet, meldet Investing.com Deutsch Sorgen um KI-Investitionen und eine Gewinnverfehlung.",
-   "dur": 105.2,
-   "at": "2026-10-30T20:06:38Z"
+   "text": "SK Hynix hat seine Finanzergebnisse für das dritte Quartal 2026 vorgelegt. Wie das Wall Street Journal berichtet, plant das Unternehmen nach starken Zahlen eine Aktionärsrendite von fünfundsiebzig Milliarden Dollar. Trotz dieser Meldung verzeichnete die Aktie laut TradingView einen Rückgang um sieben Komma eins Prozent, wobei der Fokus der Anleger auf Langzeitspeicherverträgen lag. Das Finanzportal Investing.com Deutsch weist darauf hin, dass die Aktie unter Druck steht, da Sorgen um KI-Investitionen und eine Gewinnverfehlung belasten. Zudem berichtet finanzen.at, dass die Branche aufgrund einer drohenden Chipoffensive aus China unter Beobachtung steht. Operativ ist SK Hynix aktiv: Das Unternehmen veranstaltete seinen ersten Partnertag in Japan, um die strategische Ausrichtung mit lokalen Partnern abzustimmen. Zudem arbeitet SK Hynix an der Siliziumphotonik und CPO-Technologie, um als sogenannte Autobahnen des Lichts die Wartezeiten bei Grafikkarten zu reduzieren.",
+   "dur": 59.1,
+   "at": "2026-10-30T22:47:45Z"
   },
   "AVGO": {
    "file": "AVGO.mp3",
@@ -138,15 +139,15 @@
   },
   "MRVL": {
    "file": "MRVL.mp3",
-   "hash": "f75f0c3da170b68b",
-   "th": "acdcd52294be1d1d",
-   "id": "a00f3fd695",
+   "hash": "d4d941f51db02ba7",
+   "th": "94267a1c9afe8cbc",
+   "id": "e814133ad4",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Marvell Technology steht im Zentrum des Marktgeschehens durch Berichte uber eine moegliche Ubernahme von Lumentum. Laut Bloomberg.com strebt das Unternehmen damit einen strategischen Ausbau im Bereich der kuenstlichen Intelligenz an. Diese potenziellen Plaene fuehrten an den Boersen jedoch zu Reaktionen, da Investoren laut MarketWatch besorgt waren und die Aktie nachgab. Wallstreet Online verweist zudem auf einen Kursverlust von einem Viertel innerhalb eines Monats. In den vorliegenden Meldungen wurden keine rechtlichen Probleme gefunden. Die Analysten zeigen sich insgesamt konstruktiv. Die UBS bestaetigte das Rating Kaufen und nannte ein Kursziel von dreihundertfünfzig Dollar. Jefferies bestaetigte ebenfalls das Kaufen-Rating mit einem Kursziel von vierhundertfünfzig Dollar. JP Morgan bestaetigte die Einstufung Uebergewichten mit einem Kursziel von dreihundertsechzig Dollar. Wells Fargo zog mit der Einstufung Uebergewichten und einem Kursziel von dreihundertfünfundsechzig Dollar nach. Wolfe Research nannte ein Kursziel von dreihundertfünfundsiebzig Dollar, waehrend Morgan Stanley ein Kursziel von dreihundert Dollar anfuehrte. Stifel bestaetigte ausserdem eine Kaufempfehlung. Marvell Technology treibt seine Wachstumsplaene im KI-Infrastrukturbereich voran, stoesst mit dem potenziellen Deal bei Anlegern jedoch auf Skepsis hinsichtlich moeglicher Verwwaesserungseffekte und Kosten. Zu den wichtigen Kennzahlen gehoert das von Analysten genannte durchschnittliche Kursziel von dreihunderteinundvierzig Dollar, waehrend die Spanne von zweihundertdreissig Dollar bis zu vierhundertfünfzig Dollar reicht. Zu Insider-Aktivitaeten oder Aussagen von Chefs liegen in diesem Zusammenhang keine weiteren Angaben im Text vor. Widersprueche zeigen sich in der Einschaetzung des Lumentum-Deals: Waehrend Morningstar vor einer moeglichen Ueberzahlung warnt, sehen andere Analysten laut MarketWatch strategische Logik in einem Zusammenschluss.",
-   "dur": 134.1,
-   "at": "2026-10-30T20:07:14Z"
+   "text": "Marvell Technology steht derzeit im Zentrum des Marktinteresses, da laut Bloomberg Berichte über eine mögliche Übernahme des Laserlieferanten Lumentum kursieren. Diese Spekulationen führten laut The Globe and Mail zu Kursverlusten bei der Marvell-Aktie, die zudem unter die einhundert-Tage-Linie rutschte. Investoren zeigen sich laut Morningstar besorgt über eine mögliche Verwässerung oder eine Überzahlung bei diesem Vorhaben. Analysten bewerten die Lage jedoch mehrheitlich positiv: Der Konsens von vierundvierzig Experten liegt bei einem Kursziel von dreihunderteinundvierzig Dollar. So haben unter anderem die UBS, Jefferies, JP Morgan, Wells Fargo und Wolfe Research ihre Kursziele angehoben, während Morgan Stanley das Ziel auf dreihundert Dollar taxiert. Operativ treibt das Unternehmen seine Strategie im Bereich der künstlichen Intelligenz voran. Bei den Insider-Transaktionen wurden Verkäufe gemeldet, darunter durch Matthew J Murphy, Chris Koopmans, Sandeep Bharathi und Justin Scarpulla.",
+   "dur": 71.2,
+   "at": "2026-10-30T22:48:30Z"
   },
   "SFTBY": {
    "file": "SFTBY.mp3",
@@ -321,15 +322,15 @@
   },
   "0VR3.L": {
    "file": "0VR3.L.mp3",
-   "hash": "70ba2e5467871af5",
-   "th": "a4c1ccb7b41e8546",
-   "id": "cb6fa5043c",
+   "hash": "b9d0391e5ac490be",
+   "th": "09e697b7fba56396",
+   "id": "2c7482ecb6",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Laut Yahoo Finance rutschte Gold unter viertausend Dollar, da die Sorgen um den Nahen Osten zunahmen. Wallstreet Online meldete, dass Gold leicht verlor und bei rund dreitausendneunhundertdreiundachtzig Dollar notierte. USA Today berichtete zudem über einen Rückgang des Goldpreises um drei Komma acht Prozent. Die Economic Times und Livemint wiesen auf starke Kursrückgänge und einen Ausverkauf bei Edelmetallen hin. Bezüglich der Aussichten gibt es unterschiedliche Analystenmeinungen: Laut FXStreet sieht ein Experte eine Erholung, während ein anderer weitere Schwäche erwartet. Moneycontrol.com meldete zudem einen Rückgang des Goldpreises unter eins Komma vier sechs Lakh Rupien. Wichtige Kennzahlen sind der Goldpreis von dreitausendneunhundertdreiundachtzig Dollar sowie der Tagesverlust von -drei Komma acht Prozent.",
-   "dur": 59.5,
-   "at": "2026-10-30T20:08:00Z"
+   "text": "Der Goldpreis ist unter Druck geraten und erreichte laut MarketWatch den niedrigsten Stand seit einem Jahr. Wie Yahoo Finance berichtet, fiel der Preis unter die Marke von viertausend Dollar, während Kitco sogar ein Jahrestief von unter dreitausendneunhundert Dollar meldet, was unter anderem auf die Sorgen um den Nahen Osten und steigende Ölpreise zurückzuführen ist. Aktuell wird der Goldpreis laut Wallstreet Online mit dreitausendneunhundertzweiundachtzig,dreiundneunzig Dollar notiert. Hinsichtlich der weiteren Aussichten herrscht unter Analysten Uneinigkeit: Laut FXStreet prognostiziert ein Experte eine Erholung, während ein anderer von weiterer Schwäche ausgeht.",
+   "dur": 46.1,
+   "at": "2026-10-30T22:48:43Z"
   },
   "BKW.SW": {
    "file": "BKW.SW.mp3",
@@ -512,10 +513,10 @@
    "at": "2026-10-29T11:30:38Z"
   }
  },
- "status": "ok",
- "checked_at": "2026-10-30T22:03:11Z",
- "quota_until": 1793396745.2060852,
- "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@d503bcb00d91d705280c085edeeba2a2d3f0a8d0/data/audio/",
+ "status": "quota: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usa",
+ "checked_at": "2026-10-30T22:48:43Z",
+ "quota_until": 1793404090.3486183,
+ "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@d96940a884c9808c8737b8f54681e732c123bee8/data/audio/",
  "extra": {
   "intro": {
    "file": "_intro.mp3",
