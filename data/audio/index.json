@@ -467,15 +467,15 @@
   },
   "ABBN.SW": {
    "file": "ABBN.SW.mp3",
-   "hash": "3d37225b41ec4be5",
-   "th": "65167b4f05adc3f4",
+   "hash": "cf005adad003ec74",
+   "th": "396b261e8b05cc94",
    "id": "1f6368b7f7",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "ABB LTD: Laut WSJ, einer US-Wirtschaftszeitung, rutschten die Aktien von ABB LTD ab, nachdem KI-Bedenken die Ergebnisse überschatteten. Laut Traders Union, einem Trading-Ratgeberportal, feierte das Unternehmen einen Meilenstein am Standort Senatobia und gewann an Dynamik. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Laut Yahoo Finance, einem Finanzportal, das Meldungen und Analystenbewertungen bündelt, gibt es von insgesamt siebenundzwanzig Analysten zwei starke Käufe, fünf Käufe, zwanzig Haltungen, eins Verkauf und eins starken Verkauf. Das durchschnittliche Kursziel liegt bei rund neunundneunzig Dollar. Zurück zu ABB LTD: Laut Yahoo Finance treiben Unternehmen wie Schneider Electric, ABB, Eaton und Amphenol die Nachfrage nach Elektrofahrzeugen, 5G und intelligenten Gebäuden im Ringkabelklemmen-Markt voran. Laut Traders Union feierte ABB LTD einen Meilenstein am Standort Senatobia und gewinnt an Dynamik, während laut WSJ die Aktien nach KI-Bedenken abrutschten. Wichtige Kennzahlen zeigen ein durchschnittliches Kursziel von rund neunundneunzig Dollar und eine jährliche Marktwachstumsrate von zehn Komma drei Prozent bis 2030 im Bereich der Ringkabelklemmen, was das langfristige Marktwachstum misst. In den Daten wurden keine Insider-Käufe oder -Verkäufe verzeichnet. Keine Anlageberatung.",
-   "dur": 101.4,
-   "at": "2026-10-30T04:08:54Z"
+   "text": "Die Aktien von ABB LTD gerieten unter Druck, nachdem Bedenken bezüglich künstlicher Intelligenz die Quartalsergebnisse überschatteten. Gleichzeitig konnte das Unternehmen am Standort Senatobia einen Meilenstein feiern und an operativer Dynamik gewinnen. Analysten zeigen sich derzeit eher zurückhaltend: Von siebenundzwanzig Experten raten zwei zu einem starken Kauf und fünf zum Kauf, während zwanzig Analysten die Aktie halten, einer zum Verkauf rät und einer eine starke Verkaufsempfehlung ausspricht. Das durchschnittliche Kursziel liegt bei achtundneunzig Komma neun sieben Dollar, wobei die Spanne zwischen achtzig Komma zwei Dollar und einhundertsechzehn Dollar reicht. Langfristig profitiert ABB von der steigenden Nachfrage in Bereichen wie Elektrofahrzeugen, 5G und intelligenten Gebäuden, was im Markt für Ringkabelklemmen bis 2030 ein jährliches Marktwachstum von zehn Komma drei Prozent verspricht. Es wurden keine Insider-Käufe oder -Verkäufe gemeldet. Dies stellt keine Anlageberatung dar.",
+   "dur": 71.6,
+   "at": "2026-10-30T05:07:10Z"
   },
   "STX": {
    "file": "STX.mp3",
@@ -515,9 +515,9 @@
   }
  },
  "status": "quota: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usa",
- "checked_at": "2026-10-30T04:08:54Z",
+ "checked_at": "2026-10-30T05:07:10Z",
  "quota_until": 1793336915.2485125,
- "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@a2e3422ecbf7527627c0aab1c95f702aa530fa3c/data/audio/",
+ "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@3cd720868249b79c2b222cb718c08bde460ab07e/data/audio/",
  "extra": {
   "intro": {
    "file": "_intro.mp3",
