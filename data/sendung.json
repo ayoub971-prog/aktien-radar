@@ -1,6 +1,200 @@
 {
 "episodes": [
 {
+"id": "2026-10-30-t",
+"kind": "tag",
+"date": "2026-10-30",
+"title": "Morgen-Sendung, Freitag, dreissigsten Oktober",
+"generated_at": "2026-10-30T05:12:39Z",
+"writer": "Gemini (Gratis-Kontingent) 8 Firmen, Rest Vorlage",
+"chapters": [
+{
+"name": "Begrüssung",
+"say": "Guten Morgen und willkommen zur Sendung vom Aktien-Radar, heute Freitag, dreissigsten Oktober. Zuerst ein kurzer Blick auf den Markt, dann die Firmen aus deiner Liste mit neuen Meldungen zu Produkten, Partnern und Projekten, danach die Quartalszahlen dieser Woche und zum Schluss ein Begriff zum Lernen. Kurz vorweg: Alles stammt aus gesammelten Daten und Schlagzeilen, Beträge nenne ich in Dollar. Das ist keine Anlageberatung.",
+"audio": {
+"file": "sendung/2026-10-30-t_00.mp3",
+"hash": "bc129a9485db51db",
+"dur": 29.7
+}
+},
+{
+"name": "Markt kurz",
+"say": "Der Markt kurz. Der S und P fünfhundert, der Index der fünfhundert grossen US-Firmen, stand zuletzt bei minus null Komma drei Prozent gegenüber dem Vortag. In deiner Liste am stärksten: GE Aerospace mit plus vier Prozent, Siemens Energy mit plus drei Komma sechs Prozent, UBS mit plus zwei Komma neun Prozent. Am schwächsten: ServiceNow mit minus sechsundzwanzig Komma neun Prozent, Marvell mit minus dreizehn Komma zwei Prozent. Zum Thema Zinsen meldet Bloomberg.com: Asiatische Aktien unter Druck, Zufluchtsangebot beflügelt Anleihen: Markets Wrap. Zum Thema Wall Street meldet Reuters: Die Wall Street endet im Minus, da Umsatzausfälle bei Alphabet die Investitionsunruhe bei KI wieder aufleben lassen.",
+"audio": {
+"file": "sendung/2026-10-30-t_01.mp3",
+"hash": "03eff81734bd1317",
+"dur": 55.8
+}
+},
+{
+"name": "Microsoft",
+"sym": "MSFT",
+"say": "Zur Aktie Microsoft. Microsoft meldet, dass sich Azure beschleunigt und ein starkes Quartal die Aktien erholt. Ausserdem hilft lokales Know-how Gemeinden dabei, das Beste aus neuen Technologien zu machen. Die Microsoft-Ergebnisse und der KI-Ausbau bleiben jedoch unter Beobachtung der Anleger. Zur Aktie Microsoft gibt es insgesamt positive Berichte zum Cloud-Geschäft. Meine Einordnung aus diesen Meldungen: Sie könnten Microsoft eher stärken. Das war Microsoft.",
+"audio": {
+"file": "sendung/2026-10-30-t_02.mp3",
+"hash": "2665c16302bf9b52",
+"dur": 36.4
+}
+},
+{
+"name": "ServiceNow",
+"sym": "NOW",
+"say": "Zur Aktie ServiceNow. Softwareaktien geraten insgesamt unter Druck, da ServiceNow hohe Erwartungen der Anleger verfehlt. Die ServiceNow-Aktie verzeichnete einen starken Kursrückgang an einem schwachen Tag. Ausserdem gibt es eine Untersuchungsmitteilung von SueWallSt zu ServiceNow. Zur Aktie ServiceNow zeigen die aktuellen Meldungen vor allem negative Reaktionen. Meine Einordnung aus diesen Meldungen: Sie könnten ServiceNow eher schwächen. Das war ServiceNow.",
+"audio": {
+"file": "sendung/2026-10-30-t_03.mp3",
+"hash": "2666d921c869def4",
+"dur": 35.7
+}
+},
+{
+"name": "Amazon",
+"sym": "AMZN",
+"say": "Zur Aktie Amazon. Amazon verzeichnet einen AWS-Auftragsbestand in Höhe von fünfhundertachtundsiebzig Milliarden Dollar, der schneller als der Umsatz wächst. Ausserdem hat Constellation zwanzig-Jahres-Verträge mit Amazon und Google unterzeichnet. Amazon investiert ausserdem viel in künstliche Intelligenz und setzt auf den Börsengang von Anthropic. Zur Aktie Amazon zeigen diese Grossaufträge und die Cloud-Entwicklung wichtige geschäftliche Fortschritte. Meine Einordnung aus diesen Meldungen: Sie könnten Amazon eher stärken. Das war Amazon.",
+"audio": {
+"file": "sendung/2026-10-30-t_04.mp3",
+"hash": "a7e316f632d3628b",
+"dur": 41.8
+}
+},
+{
+"name": "Intel",
+"sym": "INTC",
+"say": "Zur Aktie Intel. Intel sagt, dass es jeden erschwinglichen Laptop-Chip verkauft, den es herstellen kann. Dennoch stürzt die Intel-Aktie nach Enttäuschung über die Prognose ab. Zu den Belastungen zählen auch eine Fabrikexplosion in Israel und eine generelle PC-Schwäche. Zur Aktie Intel überwiegen die negativen Nachrichten deutlich. Meine Einordnung aus diesen Meldungen: Sie könnten Intel eher schwächen. Das war Intel.",
+"audio": {
+"file": "sendung/2026-10-30-t_05.mp3",
+"hash": "221363216957413c",
+"dur": 32.3
+}
+},
+{
+"name": "Samsung Electronics",
+"sym": "005930.KS",
+"say": "Zur Aktie Samsung Electronics. Der Chipgewinn von Samsung sorgt für ein weiteres Rekordquartal, obwohl die Gewinne die durch KI-Hoffnungen angehobenen Schätzungen verfehlt haben. Samsung Securities führt im Rahmen des Shelf-Programms neue aktiengebundene Anleihetranchen im Wert von zwanzig Milliarden KRW ein. Zur Aktie Samsung Electronics zeigt sich trotz verfehlter Schätzungen ein profitables Geschäft. Meine Einordnung aus diesen Meldungen: Sie könnten Samsung Electronics eher stärken. Das war Samsung Electronics.",
+"audio": {
+"file": "sendung/2026-10-30-t_06.mp3",
+"hash": "81c7eb6b4a6cdf03",
+"dur": 38.9
+}
+},
+{
+"name": "Meta",
+"sym": "META",
+"say": "Zur Aktie Meta. Meta arbeitet mit CNIB zusammen, um blinde, taubblinde oder sehbehinderte Kanadier zu unterstützen. Ausserdem gibt es eine wichtige SEC-Mitteilung zu einem Vertrag und einer Statutenänderung bei Meta Platforms. Zur Aktie Meta unterstreichen diese Meldungen soziale Initiativen und offizielle Dokumente. Meine Einordnung aus diesen Meldungen: Sie könnten Meta eher stärken. Das war Meta.",
+"audio": {
+"file": "sendung/2026-10-30-t_07.mp3",
+"hash": "065a986ecc4a2ea8",
+"dur": 32.0
+}
+},
+{
+"name": "Marvell",
+"sym": "MRVL",
+"say": "Kommen wir zur Aktie von Marvell. Aktuellen Berichten zufolge steht das Unternehmen kurz vor einem Mega-Deal zur Übernahme von Lumentum. Investoren reagieren intensiv auf diese Gerüchte, da der Zukauf als strategischer Vorstoss im Bereich der Künstlichen Intelligenz gewertet wird. Analysten erkennen zwar die strategische Logik hinter diesem Schritt, warnen jedoch gleichzeitig vor einer möglichen Überzahlung. Ob dieser geplante Grossdeal das Unternehmen langfristig stärken oder schwächen wird, bleibt nach den vorliegenden Meldungen noch abzuwarten.",
+"audio": {
+"file": "sendung/2026-10-30-t_08.mp3",
+"hash": "945eea1b67c931e1",
+"dur": 38.0
+}
+},
+{
+"name": "UBS",
+"sym": "UBSG.SW",
+"say": "Weiter geht es mit der Aktie der UBS. Die Grossbank hat in Naples im US-Bundesstaat Florida ein neu renoviertes Büro eröffnet. Zudem hat die UBS ihre Kaufempfehlung für Brinker International bekräftigt, da sie dort eine anhaltende Umsatzdynamik beobachtet. Diese Meldungen unterstreichen sowohl die operativen Aktivitäten als auch die Rolle der UBS als Analystenhaus. Aus den vorliegenden Informationen lassen sich solide Impulse für das Unternehmen ableiten.",
+"audio": {
+"file": "sendung/2026-10-30-t_09.mp3",
+"hash": "2671d29717865bc9",
+"dur": 34.8
+}
+},
+{
+"name": "Quartalszahlen diese Woche",
+"say": "Ein Blick auf die Quartalszahlen in dieser Woche. Nach den vorliegenden Daten sind für die von Ihnen beobachteten Aktien in diesem Zeitraum keine Quartalsergebnisse angekündigt.",
+"audio": {
+"file": "sendung/2026-10-30-t_10.mp3",
+"hash": "c9544f35aa123bfa",
+"dur": 12.4
+}
+},
+{
+"name": "Begriff: Volatilität",
+"say": "Zum Lernen, der Begriff des Tages: Volatilität. Volatilität beschreibt, wie stark ein Kurs schwankt. Eine volatile Aktie kann an einem Tag zehn Prozent steigen oder fallen. Mehr Schwankung heisst mehr Chance, aber auch mehr Risiko.",
+"audio": {
+"file": "sendung/2026-10-30-t_11.mp3",
+"hash": "0bd2337a80eb5ce4",
+"dur": 19.2
+}
+},
+{
+"name": "Schluss",
+"say": "Das war die Sendung vom Aktien-Radar. Die Quellen findest du in der App bei jeder Aktie, den ganzen Text über den Knopf Als Text. Bis morgen.",
+"audio": {
+"file": "sendung/2026-10-30-t_12.mp3",
+"hash": "cc4bc23e3e69d9dd",
+"dur": 11.5
+}
+}
+],
+"dur": 418.5,
+"full": {
+"file": "sendung/2026-10-30-t_full.mp3",
+"dur": 418.6,
+"marks": [
+[
+0,
+0.0
+],
+[
+1,
+29.7
+],
+[
+2,
+85.5
+],
+[
+3,
+121.9
+],
+[
+4,
+157.6
+],
+[
+5,
+199.4
+],
+[
+6,
+231.7
+],
+[
+7,
+270.6
+],
+[
+8,
+302.6
+],
+[
+9,
+340.6
+],
+[
+10,
+375.4
+],
+[
+11,
+387.8
+],
+[
+12,
+407.0
+]
+]
+}
+},
+{
 "id": "2026-10-29-t",
 "kind": "tag",
 "date": "2026-10-29",
@@ -691,8 +885,8 @@
 "dur": 729.9
 }
 ],
-"generated_at": "2026-10-29T11:58:24Z",
+"generated_at": "2026-10-30T05:12:39Z",
 "voice": "de-CH-LeniNeural",
 "source": "Yahoo Finance, SEC EDGAR, Schlagzeilen (Google News u.a.); Text: Gemini Gratis-Kontingent oder Vorlage",
-"audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@05cf1b84bcfc9f33487c8915d09460278691b5bb/data/audio/"
+"audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@5a246fb582da5c8c840fd5e0ad776c56319be6dd/data/audio/"
 }
