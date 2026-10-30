@@ -102,15 +102,15 @@
   },
   "NOW": {
    "file": "NOW.mp3",
-   "hash": "e6f1b883cfabd43c",
-   "th": "163806cc32a429d4",
-   "id": "a672132bb5",
+   "hash": "abc5403b9e384a31",
+   "th": "6bc4fa4c73c9ee9a",
+   "id": "5b9b947d4c",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "ServiceNow: Die Aktie des Softwareunternehmens geriet nach der Veröffentlichung von Quartalszahlen massiv unter Druck und verzeichnete Kursrückgänge. Laut Berichten von CNBC, einem US-Wirtschaftssender, und des US-Finanzmagazins Barron's sorgten enttäuschende Gewinnzahlen, verfehlte Umsatzkennzahlen sowie Ängste vor KI-Störungen für starke Einbussen und liessen die Aktie fallen. In den vorliegenden Meldungen trübten Sorgen bezüglich der vierteljährlichen Abonnementverkaufsaussichten und des CRPO-Wachstums die Stimmung. Mehrere Analysehäuser reagierten auf die Entwicklung und gaben Bewertungen ab. So hat die UBS eine neutrale Bewertung mit einem Kursziel von einhundertvierzig Dollar, während StoneX, Truist Securities, Barclays und TD Cowen ebenfalls bewertet haben. Das durchschnittliche Kursziel laut Yahoo Finance liegt bei rund einhundertsechsundfünfzig Dollar bei überwiegend positiven Anlageempfehlungen, und JPMorgan sieht trotz des starken Kursrückgangs einen Lichtblick. Operativ ist das Unternehmen weiterhin aktiv: Laut dem ServiceNow Newsroom hat HPE das Unternehmen gewählt, um die Supportdienste für das Cloud- und KI-Geschäft zu transformieren. Zudem startete ServiceNow die Control Tower Alliance und kooperiert mit OpenAI. Wichtige Kennzahlen zeigen ein durchschnittliches Analysten-Kursziel von rund einhundertsechsundfünfzig Dollar, während das höchste Kursziel bei zweihundertsechsundsechzig Dollar liegt.",
-   "dur": 100.6,
-   "at": "2026-10-29T19:55:31Z"
+   "text": "ServiceNow: Die Aktie des Unternehmens stand zuletzt stark im Fokus, nachdem Berichte über einen herben Kursrückgang die Runde machten. Laut The Globe and Mail stürzte die Aktie an einem einzigen Tag um mehr als zwanzig Prozent ab. Als Auslöser nannte Barron's eine verfehlte Umsatzkennzahl sowie vorsichtigere Aussichten bei den Abonnementverkäufen, was Ängste vor einer KI-Disruption nährte. In den vorliegenden Meldungen wurden Risiken und rechtliche Probleme gefunden, darunter eine von PR Newswire gemeldete Untersuchung durch SueWallSt sowie eine Senkung der Fair-Value-Schätzung durch Morningstar. Analysten bewerten die Lage unterschiedlich. Während Macquarie das Kursziel auf einhundertzwanzig Dollar erhöhte, senkte die UBS das Kursziel auf einhundertvierzig Dollar bei neutralem Rating. Auch RBC Capital, Citigroup und StoneX passten ihre Kursziele nach unten an, während JPMorgan laut MarketWatch einen Lichtblick sieht. Zurück zu ServiceNow: Operativ gibt es auch positive Meldungen. Laut ServiceNow Newsroom wählte Hewlett Packard Enterprise das Unternehmen für Supportdienste im Cloud- und KI-Geschäft aus, und es wurden Partnerschaften mit OpenAI und Google Cloud vereinbart. Demgegenüber steht Konkurrenz durch Unternehmen wie Serval, die frisches Kapital einsammelten, um ServiceNow herauszufordern. Wichtige Kennzahlen zeigen ein durchschnittliches Analysten-Kursziel von rund einhundertsechsundfünfzig Dollar, woraus sich ein Aufwärtspotenzial von rund zweiundvierzig Prozent errechnet. Zu Insider-Aktivitäten zeigen Pflichtmeldungen bei der Börsenaufsicht SEC verschiedene Verkäufe, darunter von Paul Fipps, Jacqueline P Canney und Paul Edward Chamberlain im Wert von teilweise über eins Million Dollar. Solche Insider-Verkäufe, insbesondere wenn sie im Voraus geplant sind, sagen oft weniger über die Fundamentaldaten aus als Käufe, da sie oft steuerlichen oder persönlichen Gründen dienen. Aussagen des Managements direkt zu den Zahlen oder Plänen wurden in den berücksichtigten Meldungen nicht detailliert gemacht. Keine Anlageberatung.",
+   "dur": 145.9,
+   "at": "2026-10-30T02:16:38Z"
   },
   "META": {
    "file": "META.mp3",
@@ -513,9 +513,9 @@
   }
  },
  "status": "quota: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usa",
- "checked_at": "2026-10-30T01:23:23Z",
+ "checked_at": "2026-10-30T02:16:38Z",
  "quota_until": 1793326979.8211539,
- "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@e6e7ef18502ce2814e39f0f3d076465af9a36e0f/data/audio/",
+ "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@5dd6f724442ce5f19c392da32394418413114453/data/audio/",
  "extra": {
   "intro": {
    "file": "_intro.mp3",
