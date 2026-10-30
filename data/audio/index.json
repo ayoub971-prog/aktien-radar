@@ -3,41 +3,42 @@
  "stocks": {
   "TSM": {
    "file": "TSM.mp3",
-   "hash": "d608b6c20af1baea",
-   "th": "8f398f63f34b721b",
-   "id": "32a859e0da",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
+   "hash": "f363c4dcd74403d8",
+   "th": "85c3364ccf6c0557",
+   "engine": "gemini",
+   "id": "43536a21e2",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
    "br": 24,
-   "text": "Taiwan Semiconductor verzeichnete zuletzt Kursverluste und rutschte dabei unter die achtunddreissig-Tage-Linie. Gleichzeitig nutzt das Unternehmen seine starke Preissetzungsmacht im Bereich der künstlichen Intelligenz aus, und ein Projekt von Elon Musk setzt auf den Chiphersteller. Zu den Analystenbewertungen gibt es verschiedene Einschätzungen. Barclays stuft die Aktie mit Übergewichten ein und nennt ein Kursziel von sechshundertsiebzig Dollar. DA Davidson rät zum Kaufen mit einem Kursziel von fünfhundert Dollar, und auch Needham bestätigt die Kaufen-Einstufung mit einem Kursziel von fünfhundertsechzig Dollar. Stifel bewertet die Aktie neu mit Kaufen und einem Kursziel von fünfhundertfünfzehn Dollar, während Bernstein die Einstufung als Besser als Markt mit einem Kursziel von fünfhundertvierundfünfzig Dollar bestätigt. Die aktuellen Nachrichten zeigen sowohl aufwertende als auch abwertende Faktoren. Positiv wirken die Preissetzungsmacht bei künstlicher Intelligenz, das Projekt von Elon Musk, die Bevorzugung durch den Bell Global Equities Fund sowie mögliche Vorteile durch Preiserhöhungen gegenüber der Konkurrenz von Intel. Trübe Branchenaussichten und Diskussionen über mögliche Risse belasten dagegen das Umfeld. Bei den Kennzahlen liegt das durchschnittliche Kursziel bei rund fünfhundertvierundachtzig Dollar, während das höchste Kursziel bei eintausend Dollar und das tiefste Kursziel bei vierhundertvierzig Dollar liegen. Daraus ergibt sich ein Aufwärtspotenzial von rund fünfunddreissig Prozent. Zudem gab es Insider-Käufe von Führungskräften.",
-   "dur": 105.9,
-   "at": "2026-10-29T19:55:06Z"
+   "text": "Taiwan Semiconductor: Im vorliegenden Berichtszeitraum zeigte sich die Aktie von Taiwan Semiconductor an den Boersen etwas unter Druck und fiel unter wichtige gleitende Durchschnitte, wie das deutsche Boersenportal boerse.de und das Schweizer Finanzportal finanzen.ch berichten. Gleichzeitig meldet das Finanzportal Yahoo Finance, dass das Unternehmen nach einem Rekordquartal mit einem Umsatz von sechsundvierzig Komma sieben Milliarden Dollar auf der Suche nach seltenerdfreien Werkzeugen ist. Ausserdem wurde bekannt, dass der Konzern Immobilien von AUO im Wert von rund eins Komma zwei Milliarden Dollar erwirbt, wie marketscreener.com berichtet. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Bei den Analystenbewertungen zeigt sich ein ueberwiegend positives Bild. Laut Yahoo Finance liegt das durchschnittliche Kursziel von zwanzig Analysten bei fünfhundertvierundachtzig Dollar. Das Konsensrating umfasst zwanzig Kaufempfehlungen, sechs starke Kaufempfehlungen und eine Halteempfehlung. Zu den juengsten Anpassungen gehoeren Barclays, die ihr Kursziel auf sechshundertsiebzig Dollar erhoehten und das Rating auf Uebergewichten bestaetigten. Needham erhoehte das Kursziel ebenfalls auf fünfhundertsechzig Dollar bei einer bestaetigten Kaufempfehlung, waehrend DA Davidson das Kursziel von fünfhundert Dollar bestaetigte. Zurueck zu Taiwan Semiconductor: Auf der operativen Seite sprechen die starken Quartalszahlen und der Erwerb von Immobilien fuer das Unternehmen, waehrend Kursverluste und das Unterschreiten gleitender Durchschnitte kurzfristig belasten. Wichtige Kennzahlen sind der Quartalsumsatz von sechsundvierzig Komma sieben Milliarden Dollar, welcher die starke operative Leistung unterstreicht, sowie das durchschnittliche Kursziel von fünfhundertvierundachtzig Dollar als Richtwert fuer die weitere Entwicklung. Bei den Insidern gab es im Oktober 2026 mehrere Kaeufe von Fuehrungskraeften: Unter anderem kaufte Lipen Yuan vierzig Aktien im Wert von rund dreitausendeinhundertsechsundsiebzig Dollar, Choh Fei Yeap kaufte zweiundfünfzig Aktien im Wert von rund viertausendeinhundertachtundzwanzig Dollar, Kevin Xiaoqiang Zhang kaufte neunundfünfzig Aktien im Wert von rund viertausendsechshundertvierundachtzig Dollar und Chue-San Yoo kaufte fünfzig Aktien im Wert von rund dreitausendneunhundertsiebzig Dollar. Aussagen des Managements zu neuen Strategien oder Prognosen lagen in den aktuellen Meldungen nicht vor. Keine Anlageberatung.",
+   "dur": 137.2,
+   "at": "2026-10-30T07:34:45Z"
   },
   "005930.KS": {
    "file": "005930.KS.mp3",
-   "hash": "5a27aecead64bd47",
-   "th": "84235bfdb87e6c16",
+   "hash": "73d4f269eb3bb440",
+   "th": "743d03043cb3bf61",
    "engine": "gemini",
-   "id": "18d4b84928",
+   "id": "a0cbff2e23",
    "voice": "Kore",
    "model": "gemini-2.5-flash-preview-tts",
    "br": 24,
-   "text": "Samsung Electronics steht im Zentrum des aktuellen Marktgeschehens mit wichtigen Neuigkeiten zu den Ergebnissen des dritten Quartals des Jahres 2026. Laut dem Handelsblatt erzielt das Unternehmen einen Rekordgewinn dank des globalen KI-Booms und einer steigenden Nachfrage nach KI-Speicherchips. Gleichzeitig berichtet die Financial Times, dass die Aktien von Samsung Electronics abrutschen, da sich ein Rückgabeplan verzögert und konkrete Details zu Anlegerrenditen fehlen. Zudem meldet Bloomberg, dass der Gewinn im Chipbereich teilweise hinter den Schätzungen zurückbleibt. In den vorliegenden Meldungen wurden keine rechtlichen Probleme gefunden. Betreffend der Analystenbewertungen zeigt sich laut Yahoo Finance ein positives Bild. Das durchschnittliche Kursziel liegt bei dreihundertsechzig Dollar, und das Aufwärtspotenzial wird mit einhundertsieben Komma vier Prozent beziffert. Von insgesamt fünfunddreissig Analysten empfehlen elf die Aktie zum starken Kauf, fünfunddreissig zum Kauf und eine Person zum Halten. Operativ punktet das Unternehmen laut Samsung mit der erneuten Platzierung auf Rang fünf bei Interbrands Best Global Brands 2026. Belastend wirkt sich dagegen laut TradingView aus, dass die Speichergewinne eine zugrundeliegende Schwäche bei Geräten verdecken und die Aktie um vier Komma eins Prozent nachgibt. Bei den Kennzahlen wird der aktuelle Aktienkurs von Samsung Electronics mit einhundertdreiundsiebzig Dollar angegeben, während das Analysten-Kursziel im Mittel bei dreihundertsechzig Dollar liegt, was die Erwartungen an den kuenftigen Unternehmenswert widerspiegelt. Insider-Kaeufe oder -Verkaeufe wurden in den vorliegenden Berichten nicht genannt. Aussagen von Fuehrungskraeften liegen fuer diesen Zeitraum nicht vor. Zu den Widerspruechen in der Berichterstattung: Waehrend CNBC meldet, dass der Gewinn im dritten Quartal den Schaetzungen entspricht, berichtet Bloomberg, dass der Chip-Gewinn die angehobenen Erwartungen verfehlt hat.",
-   "dur": 116.4,
-   "at": "2026-10-29T22:53:22Z"
+   "text": "Samsung Electronics: Die britische Wirtschaftszeitung Financial Times berichtet, dass die Aktien von Samsung Electronics aufgrund fehlender Details zu den Anlegerrenditen abrutschten. Die deutsche Wirtschaftszeitung Handelsblatt meldet, dass Samsung dank des globalen KI-Booms einen Rekordgewinn erzielt hat. Der US-Wirtschaftssender CNBC teilt mit, dass der Gewinn im dritten Quartal den Schaetzungen entsprach. Zurueck zu Samsung Electronics: Die Chart- und Boersenplattform TradingView weist darauf hin, dass die Aktien um vier Komma eins Prozent nachgaben, da Speichergewinne die Geraeteschwaeche verdeckten. Das Fondsanalyse- und Researchhaus Morningstar meldet zwar staerkere kurzfristige Aussichten fuer Speicherchips, sieht jedoch langfristig steigende Risiken. Der US-Finanznachrichtendienst Bloomberg berichtet ueber einen abrutschenden Kurs nach verzoegerten Anlegerplaenen. In den vorliegenden Meldungen wurden keine rechtlichen Probleme gefunden. Laut Yahoo Finance liegt das durchschnittliche Kursziel bei rund dreihundertsechzig Dollar, gestuetzt auf fünfunddreissig Analysten. Die Firma Samsung Electronics gab kuerzlich ihre Quartalszahlen bekannt, wobei laut WSJ ein Rekordquartal verzeichnet wurde, waehrend Bloomberg anmerkt, dass Chipgewinne erhoehte Schaetzungen verfehlten. Das durchschnittliche Kursziel von rund dreihundertsechzig Dollar gilt als wichtige Kennzahl. Es liegen keine Insider-Kaeufe oder -Verkaeufe vor. Keine Anlageberatung.",
+   "dur": 85.4,
+   "at": "2026-10-30T07:35:44Z"
   },
   "HY9H.MU": {
    "file": "HY9H.MU.mp3",
-   "hash": "b09360525f770070",
-   "th": "5a84d8ef983499f3",
+   "hash": "23982d5c3fe42397",
+   "th": "5fbd9d42d5203ff2",
    "engine": "gemini",
-   "id": "b74e72ee31",
+   "id": "030c2deb6a",
    "voice": "Kore",
    "model": "gemini-2.5-flash-preview-tts",
    "br": 24,
-   "text": "SK Hynix steht aktuell stark im Fokus der Finanzmaerkte, nachdem das Unternehmen beeindruckende Quartalszahlen vorgelegt hat. Laut der kanadischen Tageszeitung The Globe and Mail sind die Speicherchips des Unternehmens sogar bis zum Jahr 2029 vollstaendig ausverkauft. Die US-Wirtschaftszeitung WSJ berichtet zudem, dass SK Hynix nach diesen Rekordergebnissen plant, eine massive Aktionaersrendite von fünfundsiebzig Milliarden Dollar ausschuetten. Das US-Finanzmagazin Barron's merkt an, dass der Rivale den weltweiten KI-Rausch mit bedeutenden Nachrichten weiter anheizt. Zu den Risiken ist anzumerken, dass das oesterreichische Finanzportal finan.at auf eine naeher rueckende Chipoffensive aus China verweist, welche die Aktien von SK Hynix und Samsung unter Druck gesetzt hat. Ausserdem berichtet das US-Finanznachrichtenportal MarketWatch ueber einen Kursrueckgang von SK Hynix um drei Prozent im Rahmen einer breiteren Marktabkuehlung, waehrend die US-Plattform Seeking Alpha von einer Rating-Herabstufung aufgrund eines verborgenen Problems von vierzig Prozent spricht. Analysten haben nach den Ergebnissen ihre Kursziele angepasst. Operativ treibt das Unternehmen wichtige Zukunftsthemen voran. Laut eigenen Angaben beschaeftigt sich SK Hynix mit Siliziumphotonik und CPO als sogenannten Autobahnen des Lichts, um Engpaesse bei kuenstlicher Intelligenz zu bewaeltigen. Zudem berichtet das US-Finanzportal TheStreet, dass Roboter den anhaltenden Speicherboom noch ueber viele Jahre antreiben koennten. Bei den Kennzahlen sticht besonders die Aktionaersrendite von fünfundsiebzig Milliarden Dollar hervor, die die finanzielle Staerke unterstreicht. FinanzNachrichten.de hebt zudem eine Marge von achtzig Prozent hervor, welche die hohe Profitabilitaet des Unternehmens unterstreicht. Widerspruechliche Berichte gab es bezueglich der kurzfristigen Kursreaktion: Waehrend Investor's Business Daily von einem starken Kurssprung nach einer Gewinnueberschreitung spricht, verweist Yahoo Finance gleichzeitig auf zwischenzeitliche Kursverluste von drei Prozent im Zuge eines schwaecheren Marktumfelds. Dies stellt keine Anlageempfehlung dar.",
-   "dur": 135.3,
-   "at": "2026-10-30T03:05:49Z"
+   "text": "SK Hynix steht aktuell stark im Fokus der Finanzmedien. Laut FinanzNachrichten.de hat der Speicherchip-Hersteller im dritten Quartal Rekordergebnisse erzielt und eine Marge von achtzig Prozent erreicht, was die hohe Profitabilität des Unternehmens unterstreicht. Die US-Wirtschaftszeitung Wall Street Journal berichtet zudem, dass SK Hynix nach diesen starken Ergebnissen eine Aktionärsrendite von fünfundsiebzig Milliarden Dollar plant. Das Unternehmen treibt ausserdem technische Entwicklungen wie Siliziumphotonik voran. Auf der Risikoseite verweist das Portal finanzen.at auf Druck durch Chinas Chipoffensive, und Seeking Alpha meldet eine Herabstufung der Aktie wegen eines tiefer liegenden Problems hinter den Rekordergebnissen, während TheStreet eine Kurszieländerung erwähnt. Bei der Kursentwicklung gehen die Meinungen auseinander: Während Investor's Business Daily von einem starken Kursanstieg nach den Quartalszahlen berichtet, verzeichnet Yahoo Finance gleichzeitig einen Kursrückgang von drei Prozent. Keine Anlageempfehlung.",
+   "dur": 64.7,
+   "at": "2026-10-30T07:36:30Z"
   },
   "AVGO": {
    "file": "AVGO.mp3",
@@ -102,15 +103,15 @@
   },
   "NOW": {
    "file": "NOW.mp3",
-   "hash": "abc5403b9e384a31",
-   "th": "6bc4fa4c73c9ee9a",
+   "hash": "d88635303ff91826",
+   "th": "3e829237546ae62d",
    "id": "5b9b947d4c",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "ServiceNow: Die Aktie des Unternehmens stand zuletzt stark im Fokus, nachdem Berichte über einen herben Kursrückgang die Runde machten. Laut The Globe and Mail stürzte die Aktie an einem einzigen Tag um mehr als zwanzig Prozent ab. Als Auslöser nannte Barron's eine verfehlte Umsatzkennzahl sowie vorsichtigere Aussichten bei den Abonnementverkäufen, was Ängste vor einer KI-Disruption nährte. In den vorliegenden Meldungen wurden Risiken und rechtliche Probleme gefunden, darunter eine von PR Newswire gemeldete Untersuchung durch SueWallSt sowie eine Senkung der Fair-Value-Schätzung durch Morningstar. Analysten bewerten die Lage unterschiedlich. Während Macquarie das Kursziel auf einhundertzwanzig Dollar erhöhte, senkte die UBS das Kursziel auf einhundertvierzig Dollar bei neutralem Rating. Auch RBC Capital, Citigroup und StoneX passten ihre Kursziele nach unten an, während JPMorgan laut MarketWatch einen Lichtblick sieht. Zurück zu ServiceNow: Operativ gibt es auch positive Meldungen. Laut ServiceNow Newsroom wählte Hewlett Packard Enterprise das Unternehmen für Supportdienste im Cloud- und KI-Geschäft aus, und es wurden Partnerschaften mit OpenAI und Google Cloud vereinbart. Demgegenüber steht Konkurrenz durch Unternehmen wie Serval, die frisches Kapital einsammelten, um ServiceNow herauszufordern. Wichtige Kennzahlen zeigen ein durchschnittliches Analysten-Kursziel von rund einhundertsechsundfünfzig Dollar, woraus sich ein Aufwärtspotenzial von rund zweiundvierzig Prozent errechnet. Zu Insider-Aktivitäten zeigen Pflichtmeldungen bei der Börsenaufsicht SEC verschiedene Verkäufe, darunter von Paul Fipps, Jacqueline P Canney und Paul Edward Chamberlain im Wert von teilweise über eins Million Dollar. Solche Insider-Verkäufe, insbesondere wenn sie im Voraus geplant sind, sagen oft weniger über die Fundamentaldaten aus als Käufe, da sie oft steuerlichen oder persönlichen Gründen dienen. Aussagen des Managements direkt zu den Zahlen oder Plänen wurden in den berücksichtigten Meldungen nicht detailliert gemacht. Keine Anlageberatung.",
-   "dur": 145.9,
-   "at": "2026-10-30T02:16:38Z"
+   "text": "Die Aktie von ServiceNow stand zuletzt stark im Fokus, nachdem Berichte über einen herben Kursrückgang die Runde machten. Laut The Globe and Mail stürzte das Papier an einem einzigen Tag um mehr als zwanzig Prozent ab. Als Auslöser nannte das US-Finanzmagazin Barron's eine verfehlte Umsatzkennzahl sowie vorsichtigere Aussichten bei den Abonnementverkäufen, was Ängste vor einer KI-Disruption schürte. Zu den Risiken gehört eine von PR Newswire gemeldete Untersuchung durch SueWallSt sowie eine Senkung der Fair-Value-Schätzung durch Morningstar. Analysten wie Macquarie, RBC Capital, JP Morgan, Citigroup, StoneX und UBS haben ihre Einschätzungen und Kursziele aktualisiert, wobei das durchschnittliche Kursziel laut Yahoo Finance bei rund einhundertsechsundfünfzig Dollar liegt. Operativ gibt es positive Meldungen wie Partnerschaften mit OpenAI und Google Cloud sowie die Auswahl durch Hewlett Packard Enterprise für Cloud- und KI-Supportdienste, während Konkurrenten wie Serval frisches Kapital einsammelten. Keine Anlageempfehlung.",
+   "dur": 75.6,
+   "at": "2026-10-30T07:36:35Z"
   },
   "META": {
    "file": "META.mp3",
@@ -200,16 +201,15 @@
   },
   "HOOD": {
    "file": "HOOD.mp3",
-   "hash": "8eaa5cd1e336cee8",
-   "th": "9747e6224e1f3a48",
-   "engine": "gemini",
+   "hash": "5b06ebf822e7b890",
+   "th": "e0c3ad979dffaa92",
    "id": "9747e6224e",
-   "voice": "Kore",
-   "model": "gemini-2.5-flash-preview-tts",
+   "voice": "de-CH-LeniNeural",
+   "engine": "edge",
    "br": 24,
-   "text": "Robinhood Markets: Laut den vorliegenden Berichten verfehlt das Unternehmen im dritten Quartal die Gewinnerwartungen, was zu Kursrückgängen und gesenkten Kurszielen von Analysten führt. Die Einnahmen auf dem Prognosemarkt steigen deutlich, während der Krypto-Handel stark einbricht. Die Investmentfirma ARK von Cathie Wood nutzt den Kursrückgang für Zukäufe von Robinhood-Aktien. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden, abgesehen von den erwähnten Kursverlusten durch verfehlte Gewinne und die Abkühlung der Handelsaktivität von Privatanlegern. Zu den Analysten-Bewertungen: JP Morgan bestätigt die neutrale Einstufung und senkt das Kursziel auf einhundertvierzehn Dollar. Goldman Sachs bestätigt die Kaufempfehlung bei einem auf einhundertachtundzwanzig Dollar gesenkten Kursziel. Barclays bestätigt die Einstufung Übergewichten und senkt das Kursziel auf einhundertfünfzehn Dollar. Wells Fargo bestätigt die Marktgewichtung mit einem Kursziel von einhundert Dollar. Scotiabank bestätigt die Einschätzung Besser als Sektor und senkt das Kursziel auf einhundertvierundzwanzig Dollar. Citizens bestätigt die Einstufung Besser als Markt und das Kursziel bei einhundertfünfundsechzig Dollar. Rothschild und Company Redburn gibt eine neutrale Bewertung ab. Zurück zu Robinhood Markets: Was die Firma gerade macht, zeigt sich in einem an Fahrt gewinnenden Diversifizierungsschub und stark steigenden Einnahmen im Prognosemarkt sowie einer neuen Kette, die die Krypto-Einnahmen stützt. Demgegenüber stehen ein halbiertes Krypto-Geschäft und ein abkühlender Aktienhandel. Zu den wichtigen Kennzahlen: Das durchschnittliche Kursziel der Analysten liegt bei einhundertdreissig Komma drei vier Dollar, während das höchste Kursziel bei einhundertsiebzig Dollar und das niedrigste Kursziel bei neunundfünfzig Dollar liegt. Das daraus resultierende Kurspotenzial beträgt rund zweiundvierzig Komma drei Prozent. Zu Insider-Käufen und -Verkäufen: Die Investorin Cathie Wood hat über ARK Aktien gekauft. Verkäufe von Grossaktionären und dem Verwaltungsrat Baiju Bhatt erfolgten im Rahmen im Voraus festgelegter Pläne. Solche Verkäufe sagen oft weniger aus als Käufe, da sie häufig steuerlich oder durch geplante Verkäufe motiviert sind. Keine Anlageberatung.",
-   "dur": 141.4,
-   "at": "2026-10-30T04:07:23Z"
+   "text": "Bei Robinhood Markets zeigen die Berichte fur das dritte Quartal ein gemischtes Bild. Das Unternehmen verfehlt laut einigen Quellen die Gewinnerwartungen, was zu Kursruckgangen und gesenkten Kurszielen von Analysten fuhrt, wahrend andere Quellen uber einen Gewinnanstieg berichten. Die Einnahmen auf dem Prognosemarkt steigen deutlich, wahrend der Krypto-Handel stark einbricht und die Handelsaktivitat von Privatanlegern abkuhlt. Die Investmentfirma ARK von Cathie Wood nutzt den Kursruckgang fur Zukaufe von Robinhood-Aktien. Bei den Analystenbewertungen zeigt sich folgendes Bild: JP Morgan bestatigt die neutrale Einstufung und senkt das Kursziel auf einhundertvierzehn Dollar. Goldman Sachs bestatigt die Kaufempfehlung bei einem auf einhundertachtundzwanzig Dollar gesenkten Kursziel. Barclays bestatigt die Einstufung Ubergewichten und senkt das Kursziel auf einhundertfünfzehn Dollar. Wells Fargo bestatigt die Marktgewichtung mit einem Kursziel von einhundert Dollar. Scotiabank bestatigt die Einschatzung Besser als Sektor und senkt das Kursziel auf einhundertvierundzwanzig Dollar. Citizens bestatigt die Einstufung Besser als Markt und das bisherige Kursziel bei einhundertfünfundsechzig Dollar. Rothschild und Company Redburn gibt eine neutrale Bewertung ab. Der Diversifizierungsschub gewinnt im dritten Quartal an Fahrt.",
+   "dur": 95.0,
+   "at": "2026-10-30T07:36:52Z"
   },
   "WNRG.SW": {
    "file": "WNRG.SW.mp3",
@@ -225,15 +225,15 @@
   },
   "BE": {
    "file": "BE.mp3",
-   "hash": "a8a629ae59cb9210",
-   "th": "23cd8c0384f2634a",
-   "id": "897467f025",
+   "hash": "0fbcf5937b411e26",
+   "th": "b730d275efdc03dc",
+   "id": "b730d275ef",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Bloom Energy steht im Zentrum des Interesses, nachdem das Unternehmen laut der US-Wirtschaftszeitung WSJ den Ausblick angehoben und einen höheren Gewinn gemeldet hat. Die kanadische Tageszeitung The Globe and Mail berichtet, dass der Bericht zum dritten Quartal eine Prognoseerhöhung sowie einen Kapazitätsplan hervorhob, während das Finanzportal MarketScreener Deutschland eine neutrale Einschätzung der Citigroup meldet. In den vorliegenden Berichten wurden keine Risiken oder rechtlichen Probleme genannt. Bei den Analystenbewertungen zeigt sich ein Bild: Barclays stuft mit Marktgewichten und einem Kursziel von dreihundertsechzehn Dollar ein, und Wells Fargo stuft ebenfalls mit Marktgewichten und einem Kursziel von einhundertzweiundachtzig Dollar ein. JP Morgan bewertet mit Übergewichten bei einem Kursziel von zweihundertzweiundneunzig Dollar, während RBC Capital die Einschätzung Besser als Markt mit einem Kursziel von dreihundertfünfunddreissig Dollar angibt. Keybanc hält an Sektorgewichten fest, und Morgan Stanley bewertet mit Übergewichten und einem Kursziel von dreihundertfünfunddreissig Dollar. Das von Yahoo Finance ausgewiesene durchschnittliche Kursziel liegt bei zweihundertfünfundachtzig Dollar, was ein Aufwärtspotenzial von neunundzwanzig Komma vier Prozent eröffnet. Zurück zu Bloom Energy: Das Unternehmen profitiert laut EnergyNow.com vom Widerstand gegen Rechenzentren, den der Chef als Segen bezeichnet, und treibt seine Kapazitäten voran. Zu den Kennzahlen zählen das durchschnittliche Kursziel von zweihundertfünfundachtzig Dollar sowie das Aufwärtspotenzial von neunundzwanzig Komma vier Prozent. Gemäss Pflichtmeldungen der US-Börsenaufsicht SEC haben verschiedene Führungskräfte wie Chief Commercial Officer Aman Joshi und Verwaltungsrat Jeffrey R. Immelt Aktien veräussert.",
-   "dur": 122.5,
-   "at": "2026-10-29T18:56:44Z"
+   "text": "Bloom Energy: Das Wall Street Journal berichtet, dass Bloom Energy den Ausblick angehoben und einen höheren Gewinn verzeichnet hat. Laut Quiver Quantitative fiel die Aktie von Bloom Energy allerdings um sieben Komma ein Prozent, da Bedenken bezüglich des Cashflows das ansonsten Rekordquartal überschatteten. EnergyNow.com meldet zudem, dass der Vorstandschef erklärte, der Widerstand von Anwohnern gegen Rechenzentren sei ein Segen für Bloom Energy. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Zu den Analysten-Bewertungen: Yahoo Finance berichtet von insgesamt fünfzehn Kaufempfehlungen, zwölf Halteempfehlungen, zwei Verkaufsempfehlungen, fünf starken Kaufempfehlungen und einer starken Verkaufsempfehlung. Das durchschnittliche Kursziel liegt bei rund zweihundertvierundachtzig Komma sieben sieben Dollar. Die Citigroup bestätigte ihre neutrale Einstufung und erhöhte das Kursziel auf zweihundertvierundachtzig Dollar. Barclays bestätigte die Einstufung als Marktgewichten und erhöhte das Kursziel auf dreihundertsechzehn Dollar. Wells Fargo bestätigte ebenfalls Marktgewichten mit einem auf einhundertzweiundachtzig Dollar erhöhten Kursziel. JP Morgan bestätigte die Übergewichtung und senkte das Kursziel auf zweihundertundweiundneunzig Dollar. RBC Capital bestätigte die Einschätzung als Besser als Markt und das Kursziel von dreihundertfünfunddreissig Dollar. Keybanc bestätigte die Sektorgewichtung. Zurück zu Bloom Energy: Das Unternehmen hob laut dem Wall Street Journal seinen Ausblick an und meldete einen höheren Gewinn, während Quiver Quantitative auf Cashflow-Bedenken hinweist. EnergyNow.com erwähnt ausserdem die positiven Aussichten im Zusammenhang mit dem Widerstand gegen Rechenzentren. Bei den wichtigen Kennzahlen steht der Kursrückgang von sieben Komma ein Prozent im Fokus, während das von Analysten genannte durchschnittliche Kursziel bei zweihundertvierundachtzig Komma sieben sieben Dollar liegt und ein Kurspotenzial von rund achtundzwanzig Komma ein Prozent signalisiert. Zu den Insider-Transaktionen ist anzumerken, dass unter anderem Chief Commercial Officer Aman Joshi und Verwaltungsrat Jeffrey R Immelt geplante Aktienverkäufe im Wert von rund zwei Millionen beziehungsweise rund siebeneinhalb Millionen Dollar vornahmen. Solche Insider-Verkäufe sind oft durch im Voraus festgelegte Pläne bedingt und müssen nicht zwingend auf mangelndes Vertrauen hindeuten. Bei Bloom Energy sagt der Vorstandschef laut EnergyNow.com, dass der Widerstand gegen Rechenzentren ein Vorteil für das Unternehmen sein könnte, was darauf hindeutet, dass alternative Energieoptionen an Bedeutung gewinnen könnten. Keine Anlageberatung.",
+   "dur": 184.6,
+   "at": "2026-10-30T07:37:07Z"
   },
   "HYLN": {
    "file": "HYLN.mp3",
@@ -286,15 +286,15 @@
   },
   "GEV": {
    "file": "GEV.mp3",
-   "hash": "6d0aede74851d045",
-   "th": "c952cf41a1abf974",
-   "id": "642264e75b",
+   "hash": "55846c1fab1685e6",
+   "th": "18bfa531ce0f672c",
+   "id": "f3f9590d8e",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "GE Vernova treibt den Netzausbau mit der Übernahme der Trench Group voran und hebt gleichzeitig die Umsatzprognose an. Die kanadische Tageszeitung The Globe and Mail berichtet über einen beachtlichen Auftragsbestand von einhundertsiebenundneunzig Milliarden Dollar. Berichte von Medien wie Investor's Business Daily wiesen darauf hin, dass neue Bestellungen und Slots verpasst wurden und die Aktie zeitweise sank. Analysten bewerten die Aktie überwiegend positiv, wobei Yahoo Finance im Konsens zahlreiche Kaufempfehlungen und ein mittleres Kursziel von rund eintausendzweihundertzwei Dollar verzeichnet. So bestätigte TD Cowen das Rating auf Kaufen und senkte das Kursziel auf eintausendeinhundertfünfundzwanzig Dollar, während BMO das Kursziel auf eintausendzweihundert Dollar anpasste. Zu den aktuellen Aktivitäten gehört neben der Übernahme auch eine Partnerschaft mit den Boston Celtics zur Anerkennung von Angehörigen der US-Streitkräfte. Als wichtige Kennzahl sticht der Auftragsbestand von einhundertsiebenundneunzig Milliarden Dollar hervor, welcher das Volumen noch nicht abgearbeiteter Kundenaufträge beziffert. Insidertransaktionen wurden nicht gemeldet. Widersprüche zeigten sich bei der Kursreaktion, da CNBC von Kursrückgängen trotz solider Zahlen berichtete, während Investing.com Deutsch von einer kräftigen Erholung sprach. Keine Anlageberatung.",
-   "dur": 95.4,
-   "at": "2026-10-29T18:57:01Z"
+   "text": "GE Vernova zeigt sich in den aktuellen Berichten dynamisch mit strategischen Schritten. Laut Reuters treibt das Unternehmen den Netzausbau mit einer Übernahme der Trench Group im Wert von neun Milliarden Dollar voran und hebt gleichzeitig die Umsatzprognose an. In den vorliegenden Meldungen wurden keine rechtlichen Probleme gefunden, allerdings berichten The Globe and Mail und Investor's Business Daily über sinkende Kurse, rückläufige Bestellungen für Gasturbinen sowie verfehlte Ziele bei neuen Aufträgen. Analysten bewerten die Aktie unterschiedlich. So bestätigt JP Morgan die Einstufung als Übergewichten und senkt das Kursziel auf rund eintausendfünfunddreissig Dollar. RBC Capital hält an der Einschätzung Besser als Markt fest und erhöht das Kursziel leicht auf rund eintausendzweihundertdreissig Dollar. Die Citigroup belässt die Aktie auf Neutral und reduziert das Kursziel auf rund eintausend Dollar. TD Cowen behält das Rating Kaufen bei und senkt das Kursziel auf rund eintausendeinhundertfünfundzwanzig Dollar. Die Übernahme der Trench Group für neun Milliarden Dollar soll das Netzgeschäft stärken.",
+   "dur": 77.9,
+   "at": "2026-10-30T07:37:31Z"
   },
   "GE": {
    "file": "GE.mp3",
@@ -322,15 +322,15 @@
   },
   "0VR3.L": {
    "file": "0VR3.L.mp3",
-   "hash": "f42a4a37cc673b6c",
-   "th": "87178657fc6c6c39",
-   "id": "8fce2d610d",
+   "hash": "84e44d234aac60f6",
+   "th": "42340b3a905b872d",
+   "id": "a27e79a3bd",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "ZKB Gold ETF: Laut Reuters, einer internationalen Nachrichtenagentur, rutschte Gold ab, waehrend die Maerkte die Fed-Signale bewerten und auf US-Inflationsdaten warten. Laut Yahoo Finance, einem Finanzportal, das Meldungen und Analystenbewertungen buendelt, blieben die Goldpreise unveraendert, nachdem die Fed die Zinsen stabil gehalten hatte. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden, abgesehen von Berichten ueber Kursrueckgaenge und Marktsorgen. Es liegen aktuell keine Analysten-Bewertungen, Kennzahlen, Insider-Kaeue oder Aussagen von Chefs vor.",
-   "dur": 43.2,
-   "at": "2026-10-29T20:53:04Z"
+   "text": "Laut CNBC TV18, einem US-Wirtschaftssender, können Anleger bei vorzeitigen Rückzahlungen von Gold-Staatsanleihen erhebliche Erträge erzielen. Gemass Reuters, einer internationalen Nachrichtenagentur, rutscht der Goldpreis ab, da die Märkte Signale der US-Notenbank bewerten und auf US-Inflationsdaten warten. Das deutsche Börsenportal Wallstreet Online berichtet, dass Goldkurse unter der Marke von viertausend Dollar notieren und sich in Richtung von Werten wie dreitausendneunhundertzweiundachtzig Dollar bis dreitausendneunhundertsiebenundachtzig Dollar bewegen. In den vorliegenden Meldungen wurden keine rechtlichen Probleme gefunden, und es liegen keine Analysten-Bewertungen vor. Was die Marktlage betrifft, so werden vor Feiertagen wie Diwali und Dhanteras teils gesunkene Einzelhandelspreise bei Edelmetallen verzeichnet, während der Goldpreis laut FXStreet, einem Devisen- und Börsenportal, an Wert verliert und unter die Schwelle von viertausend Dollar sinkt. Als wichtige Kennzahl wird der Goldpreis von dreitausendneunhundertzweiundachtzig,dreiundneunzig USD genannt, welcher der aktuelle Kurs des Edelmetalls und wichtig zur Bestimmung des Wertes von Goldinvestments ist. Es wurden keine Insider-Käufe oder -Verkäufe gemeldet, und es liegen keine Aussagen von Chefs vor.",
+   "dur": 89.5,
+   "at": "2026-10-30T07:37:38Z"
   },
   "BKW.SW": {
    "file": "BKW.SW.mp3",
@@ -346,16 +346,15 @@
   },
   "UBSG.SW": {
    "file": "UBSG.SW.mp3",
-   "hash": "1e2210ea53b4aef6",
-   "th": "3a320d3353df330c",
-   "engine": "gemini",
-   "id": "e33aba028f",
-   "voice": "Kore",
-   "model": "gemini-2.5-flash-preview-tts",
+   "hash": "1414ea46ff0fd835",
+   "th": "32f15e8be34d2154",
+   "id": "a8e318587e",
+   "voice": "de-CH-LeniNeural",
+   "engine": "edge",
    "br": 24,
-   "text": "Die UBS Group hat ihre Ergebnisse für das dritte Quartal 2026 vorgelegt, wobei der Vorsteuergewinn um siebenundzwanzig Prozent stieg. Dies unterstreicht die operative Rentabilität des Unternehmens. Die Integration der Credit Suisse schreitet laut Berichten gut voran. Gleichzeitig analysiert die Schweizer Regierung die Kosten für einen möglichen Wegzug der Bank, was als Risikofaktor wahrgenommen wird. Analysten bewerten die Aktie unterschiedlich, wobei das durchschnittliche Kursziel bei vierundfünfzig Komma null zwei Dollar liegt. Zu den Einschätzungen gehören unter anderem Einstufungen wie Overweight von JP Morgan Chase und Outperform von RBC Capital Markets. Insider-Käufe oder -Verkäufe wurden nicht gemeldet. Dies stellt keine Anlageberatung dar.",
-   "dur": 46.7,
-   "at": "2026-10-30T04:08:10Z"
+   "text": "UBS Group hat die Ergebnisse des dritten Quartals 2026 veröffentlicht. Laut Yahoo Finance stieg der Vorsteuergewinn im dritten Quartal 2026 um siebenundzwanzig Prozent, was die operative Ertragskraft verdeutlicht. Zudem wird in Berichten erwähnt, dass die Schweizer Regierung die Kosten für einen möglichen Wegzug analysiert und als hoch beziffert. Laut Yahoo Finance liegt das durchschnittliche Kursziel bei vierundfünfzig Komma null zwei Dollar, während das Konsens-Rating Halten, Kaufen und Verkaufen umfasst. Die UBS stuft unter anderem Brinker und Wintrust Financial positiv ein, während für andere Unternehmen wie Alphabet ein Kursziel von dreihundertzweiunddreissig Dollar genannt wird. Was die Firma gerade macht, zeigt sich laut Seeking Alpha darin, dass die Ergebnisse des dritten Quartals beeindrucken und die Integration der Credit Suisse voranschreitet, wohingegen die Regierungsanalyse bezüglich der Umzugskosten laut finanzen.ch als abwertender Punkt genannt wird. Insider-Käufe oder -Verkäufe wurden in den offiziellen Daten nicht gemeldet und Aussagen von Chefs liegen in den Meldungen direkt keine vor.",
+   "dur": 81.4,
+   "at": "2026-10-30T07:37:56Z"
   },
   "MSFT": {
    "file": "MSFT.mp3",
@@ -407,15 +406,15 @@
   },
   "1211.HK": {
    "file": "1211.HK.mp3",
-   "hash": "2e1dd28a02bfb678",
-   "th": "189f40d4dc3bd59a",
-   "id": "d148631c2f",
+   "hash": "990a0088d5b24d14",
+   "th": "9967f641311d5c47",
+   "id": "b484050270",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Der Elektroautobauer BYD steht aktuell unter Beobachtung. Zwar konnte das Unternehmen für das dritte Quartal ein Gewinnwachstum von achtundzwanzig Prozent vermelden, doch blieb das Ergebnis hinter den Prognosen der Analysten zurueck. Diese Diskrepanz zwischen dem Anstieg des Nettogewinns und den verfehlten Erwartungen sorgt fuer Unsicherheit am Markt. Belastend wirken dabei der intensive Preiskampf in China sowie europaeische Handelsbeschraenkungen, die den Ausblick trueben. Zudem stiegen die Lagerbestaende im dritten Quartal deutlich um sechzig Prozent an, was Kapital bindet und auf eine nachlassende Dynamik hindeutet. Waehrend BYD weiterhin von robusten Exporten profitiert, reagierten Investoren zuletzt mit Verkaeufen, was die Aktie unter Druck setzte. Analysten bleiben dennoch mehrheitlich optimistisch: Von sechsundzwanzig Experten raten vier zu einem starken Kauf, zweiundzwanzig zum Kauf und fünf zum Halten der Aktie. Das durchschnittliche Kursziel liegt bei fünfzehn Komma fünf zwei Dollar, wobei die Spanne von sieben Komma sechs sechs Dollar bis neunzehn Komma drei eins Dollar reicht. Bitte beachten Sie, dass dies keine Anlageberatung darstellt.",
-   "dur": 83.1,
-   "at": "2026-10-29T21:29:17Z"
+   "text": "BYD steht derzeit im Fokus der Finanzmärkte, nachdem das Unternehmen enttäuschende Quartalszahlen vorgelegt hat. Laut Bloomberg.com verfehlte BYD im dritten Quartal die Gewinnschätzungen, da die exportorientierte Erholung an Dynamik verliert. Reuters berichtet ebenfalls, dass sich das Gewinnwachstum im dritten Quartal verlangsamte und hinter den Prognosen zurückblieb. Zudem meldet Yahoo Finance, dass Chinas Preiskampf bei Elektrofahrzeugen seinen Tribut fordert. Zu den Risiken berichtet Seeking Alpha, dass europäische Handelsbeschränkungen den Ausblick belasten. Zu den Analysten-Bewertungen empfiehlt TradingView die Klasse-A-Aktie mit Halten und senkte das Kursziel auf sechzehn Komma sieben Dollar. Was die geschäftliche Lage angeht, berichtet marketscreener.com von robusten Exporten und einem Umsatzplus, während Bloomberg.com anmerkt, dass die exportorientierte Erholung an Dynamik verliert. Bei den wichtigen Kennzahlen stieg der Nettogewinn laut Yahoo Finance im dritten Quartal um achtundzwanzig Prozent, was zeigt, wie viel Gewinn das Unternehmen nach Abzug aller Kosten erzielt hat. Insider-Käufe und -Verkäufe wurden in den Meldungen nicht genannt und Aussagen von Chefs liegen für diesen Zeitraum nicht vor.",
+   "dur": 89.0,
+   "at": "2026-10-30T07:38:02Z"
   },
   "SHL.DE": {
    "file": "SHL.DE.mp3",
@@ -455,15 +454,15 @@
   },
   "BNTX": {
    "file": "BNTX.mp3",
-   "hash": "4b618aaddc7151ea",
-   "th": "ee6f1ae92100793c",
-   "id": "111e861fbb",
+   "hash": "718f2a605ed78714",
+   "th": "4df6262719b55bbd",
+   "id": "02126e306f",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "BioNTech SE zeigt sich in den vorliegenden Berichten mit verschiedenen Neuigkeiten zur Aktie. Laut Yahoo Finance, einem Finanzportal, das Meldungen und Analystenbewertungen bündelt, verzeichnete das Unternehmen einen Erfolg in einer Phase-drei-Studie bei Brustkrebs, der jedoch mit einer Lungensicherheitswarnung verbunden ist. Zudem meldet SEC EDGAR, eine Pflichtmeldung bei der US-Börsenaufsicht SEC, eine Mitteilung einer ausländischen Firma im Rahmen einer sechs-K-Meldung. In den vorliegenden Meldungen wurden keine weiteren Risiken oder rechtlichen Probleme gefunden, ausser der erwähnten Sicherheitswarnung bei der Studie. Analysten bewerten das Unternehmen ebenfalls, und Häuser wie Canaccord Genuity, Morgan Stanley, BMO Capital und Citigroup haben ihre Einschätzungen und Kursziele angepasst, wobei das durchschnittliche Kursziel bei einhundertsechzehn Dollar liegt. Auf der operativen Seite spricht der Studienerfolg für das Unternehmen, während die Lungensicherheitswarnung als abwertend eingestuft werden kann. Wichtige Kennzahlen umfassen das mittlere Kursziel von einhundertsechzehn Dollar, das höchste Kursziel von einhundertdreiundvierzig Dollar sowie das tiefste Kursziel von fünfundsiebzig Komma sechs vier Dollar, welche die unterschiedlichen Einschätzungen der Analysten widerspiegeln. Zu Insider-Käufen und -Verkäufen zeigen die Daten, dass der Chef und Grossaktionär Ugur Sahin geplante Aktienverkäufe getätigt hat. Aussagen von Chefs oder dem Management liegen in den aktuellen Meldungen nicht vor. Widersprüche zwischen den verschiedenen Quellen wurden nicht festgestellt.",
-   "dur": 106.2,
-   "at": "2026-10-29T08:39:29Z"
+   "text": "BioNTech SE: Laut dem Finanzportal Yahoo Finance, das Meldungen und Analystenbewertungen buendelt, konnte das Unternehmen einen Erfolg in einer Phase-drei-Studie bei Brustkrebs verzeichnen, welcher allerdings mit einer Lungensicherheitswarnung einhergeht. Laut der Plattform Kapitalerhoehungen.de sucht das Unternehmen ausserdem den Durchbruch mit seiner Krebs-Pipeline. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden, abgesehen von der erwahnten Sicherheitswarnung bei der Krebsstudie. Laut Yahoo Finance raten derzeit vierzehn Analysten zum Kaufen, eins zum starken Kaufen und sieben zum Halten. Das durchschnittliche Kursziel liegt bei einhundertsiebzehn Dollar, wobei Canaccord Genuity ein Kursziel von einhundertzweiunddreissig Dollar nennt und Morgan Stanley ein Kursziel von einhundertvierzehn Dollar anpeilt. Zurueck zu BioNTech SE: Die Firma treibt ihre Krebs-Pipeline voran, erzielt Fortschritte bei klinischen Studien, muss sich jedoch gleichzeitig mit kritischen Sicherheitswarnungen auseinandersetzen. Wichtige Kennzahlen zeigen ein durchschnittliches Kursziel von einhundertsiebzehn Dollar sowie ein erwartetes Kurspotenzial von einunddreissig Komma eins Prozent, was die durchschnittliche Erwartung der Analysten fuer die zukuenftige Kursentwicklung widerspiegelt. Widersprueche zwischen den verschiedenen Quellen wurden nicht festgestellt.",
+   "dur": 94.4,
+   "at": "2026-10-30T07:38:26Z"
   },
   "ABBN.SW": {
    "file": "ABBN.SW.mp3",
@@ -514,10 +513,10 @@
    "at": "2026-10-29T11:30:38Z"
   }
  },
- "status": "quota: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usa",
- "checked_at": "2026-10-30T06:30:19Z",
+ "status": "ok",
+ "checked_at": "2026-10-30T07:38:26Z",
  "quota_until": 1793336915.2485125,
- "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@5a246fb582da5c8c840fd5e0ad776c56319be6dd/data/audio/",
+ "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@a02e1bc1c497b81dfa08d198675d6c4aff6fd1d4/data/audio/",
  "extra": {
   "intro": {
    "file": "_intro.mp3",
