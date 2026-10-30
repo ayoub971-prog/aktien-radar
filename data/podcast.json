@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T21:28:01Z",
+ "generated_at": "2026-10-30T22:03:14Z",
  "intro": "Willkommen beim Aktien-Radar, deinem Überblick über die neuesten Meldungen. Heute geht es um 39 Aktien aus deiner Liste. Alles stammt aus den gesammelten Meldungen und Analystendaten, nichts ist erfunden. Keine Anlageberatung.",
  "outro": "Das war der Aktien-Radar-Überblick. Die Quellen und Details findest du in der App bei jeder Aktie. Keine Anlageberatung.",
  "segments": [
@@ -84,14 +84,14 @@
   {
    "symbol": "INTC",
    "name": "Intel",
-   "text": "Intel: Im Folgenden wird eine Zusammenfassung zur Aktie geboten. Intel gab die Finanzergebnisse für das dritte Quartal des Jahres 2026 bekannt. Die Aktie erlebte daraufhin einen massiven Einbruch und verlor an einem Tag rund dreissig Prozent an Wert, da das Unternehmen eine schwächer als erwartete Prognose herausgab und Investoren verunsicherte. Zu den Risiken: Laut dem US-Wirtschaftssender CNBC gab Intel eine schwächer als erwartete Prognose heraus, woraufhin Analysten das Vertrauen in die Aktie verlieren. Das Fondsanalyse- und Researchhaus Morningstar senkte zudem die Fair-Value-Schätzung für das Unternehmen, da ein PC-Winter eingesetzt habe. Laut dem US-Finanznachrichtendienst Bloomberg erlitt Intel den schlimmsten Aktienrückgang seit Jahrzehnten. Zu den Analysten-Bewertungen: Die Citigroup bestätigt ihre Einstufung auf Kaufen und senkt das Kursziel auf einhundert Dollar. TD Cowen belässt die Einstufung auf Halten bei einem neuen Kursziel von fünfundsiebzig Dollar. DA Davidson hält an Neutral fest mit einem Kursziel von siebzig Dollar. Rosenblatt bestätigt die Verkaufsempfehlung und senkt das Kursziel auf siebzig Dollar. Wells Fargo gewichtet den Markt weiter und setzt das Kursziel auf achtzig Dollar, während Wedbush die Aktie neutral mit einem Kursziel von fünfundsiebzig Dollar einschätzt. Zurück zu Intel: Was macht die Firma gerade? Aufwertend wirkt, dass Intel und Oracle eine erweiterte Zusammenarbeit zur Unterstützung von Unternehmens- und Agenten-KI auf der Oracle Cloud Infrastructure planen und Intel die Übernahme von Classiq zur Schaffung einer Full-Stack-Quantencomputing-Plattform anstrebt. Abwertend wirkt jedoch, dass Intel eine schwächer als erwartete Prognose herausgegeben hat und laut Morningstar ein schwieriges PC-Umfeld das gesunde Wachstum im Bereich der künstlichen Intelligenz belastet. Zu wichtigen Kennzahlen: Das von Yahoo Finance genannte durchschnittliche Analysten-Kursziel liegt bei rund einhundertachtzehn Dollar, während das höchste Kursziel zweihundert Dollar und das tiefste Kursziel achtzig Dollar beträgt. Zu Insider-Käufen und -Verkäufen: Lip Bu Tan kaufte einhundertfünftausendzweihundertdreiundsechzig Aktien im Wert von rund zehn Millionen Dollar. Generell gilt bei Insider-Transaktionen, dass Verkäufe oft weniger aussagen als Käufe, da sie beispielsweise steuerlich motiviert oder vorab geplant sein können. In den vorliegenden Meldungen wurden keine Aussagen der Chefs gefunden. Keine Anlageberatung.",
+   "text": "Intel hat seine Finanzergebnisse fur das dritte Quartal 2026 bekannt gegeben. Die Aktie erlebte daraufhin einen massiven Einbruch und verlor stark an Wert, da das Unternehmen eine schwacher als erwartete Prognose herausgab und Investoren verunsicherte. Zu den Risiken: Laut dem US-Wirtschaftssender CNBC gab Intel eine enttäuschende Prognose heraus, woraufhin Analysten das Vertrauen in die Aktie verlieren. Das Fondsanalyse- und Researchhaus Morningstar senkte zudem die Schätzung fur den inneren Wert des Unternehmens, da ein schwieriges Umfeld im Bereich der Personal Computer eingesetzt habe. Laut dem US-Finanznachrichtendienst Bloomberg erlitt Intel den schlimmsten Aktienruckgang seit Jahrzehnten. Zu den Analysten-Bewertungen: Die Citigroup bestatigt ihre Einstufung auf Kaufen und senkt das Kursziel auf einhundert Dollar. Zurück zu Intel: TD Cowen belasst die Einstufung auf Halten bei einem neuen Kursziel von fünfundsiebzig Dollar. DA Davidson halt an Neutral fest mit einem Kursziel von siebzig Dollar. Rosenblatt bestatigt die Verkaufsempfehlung und senkt das Kursziel auf siebzig Dollar. Wells Fargo gewichtet den Markt weiter und setzt das Kursziel auf achtzig Dollar, wahrend Wedbush die Aktie neutral mit einem Kursziel von fünfundsiebzig Dollar einschatzt. Was macht die Firma gerade? Positiv wirkt, dass Intel und Oracle eine erweiterte Zusammenarbeit zur Unterstutzung von Unternehmens- und Agenten-KI auf der Oracle Cloud Infrastructure planen und Intel die Ubernahme von Classiq zur Schaffung einer Quantencomputing-Plattform anstrebt. Belastend wirkt jedoch, dass Intel eine schwacher als erwartete Prognose herausgegeben hat und laut Morningstar ein schwieriges PC-Umfeld das gesunde Wachstum im Bereich der kunstlichen Intelligenz dampft.",
    "id": "4b78efad78",
    "generated_at": "2026-10-30T21:17:52Z",
    "audio": {
     "file": "INTC.mp3",
-    "hash": "e6964a8a017466e3",
-    "dur": 175.8,
-    "engine": "edge"
+    "hash": "57aa8f2f691a70ee",
+    "dur": 101.6,
+    "engine": "gemini"
    }
   },
   {
@@ -123,14 +123,14 @@
   {
    "symbol": "IBM",
    "name": "IBM",
-   "text": "IBM steht aktuell im Fokus von Finanzportalen und Nachrichtenmeldungen. Ein kurzer Ueberblick zeigt, dass laut Yahoo Finance die Aktie im Jahr 2026 um dreizehn Prozent gefallen ist. Gleichzeitig berichtet der IBM Newsroom ueber neue technologische Einfuehrungen wie Sicherheitskontrollen und Identitaetsmanagement fuer Kuenstliche Intelligenz und Hybrid-Cloud-Umgebungen. Laut MarketScreener hat Daiwa Securities seine neutrale Bewertung fuer IBM bekraeftigt. Zurueck zu IBM: In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden, ausser dass der Kursrueckgang und die Sicherheit der Dividende von Yahoo Finance diskutiert werden. Analysten bewerten die Aktie unterschiedlich. Laut Yahoo Finance raten fünfzehn Analysten zum Kaufen oder Stark kaufen, waehrend elf zum Halten und drei zum Verkaufen raten. Das durchschnittliche Kursziel liegt laut Yahoo Finance bei rund zweihundertsiebenundfünfzig Dollar, mit einem Hoechstziel von dreihundert Dollar und einem Tiefstziel von einhundertvierundsiebzig Dollar. Jefferies stuft die Aktie mit Kaufen und einem Kursziel von zweihundertachtzig Dollar ein. Die UBS bestaetigt die neutrale Bewertung mit einem Kursziel von zweihundertdreiundvierzig Dollar. Die Citigroup bestaetigt Kaufen mit einem Kursziel von zweihundertachtzig Dollar. Zurück zu IBM: Morgan Stanley bleibt bei Marktgewichten mit einem Kursziel von zweihundertvierzig Dollar. BMO Capital bestaetigt die Einschaetzung wie der Markt bei einem Kursziel von zweihundertfünfundsechzig Dollar. Barclays bewertet die Aktie mit Uebergewichten und einem Kursziel von zweihundertsiebenundsiebzig Dollar. Schliesslich bestaetigt Daiwa Securities eine neutrale Bewertung. Die Begruendungen der Analysten stuetzen sich dabei auf die Entwicklung in verschiedenen Geschaeftsbereichen. Was macht die Firma gerade? Laut IBM Newsroom fuehrt das Unternehmen Identitaet und Kontrolle fuer KI-Agenten ein, erweitert watsonx Orchestrate um neue Funktionen und hat die Partnerschaft mit der USTA um fuenf Jahre verlaengert. Laut Yahoo Finance ist die Aktie im Jahr 2026 um dreizehn Prozent gefallen. Wichtige Kennzahlen zeigen einen Aktienkurs von zweihundertsiebenundfünfzig Dollar sowie ein durchschnittliches Kursziel der Analysten von rund zweihundertsiebenundfünfzig Dollar. Aussagen von Chefs liegen in den aktuellen Meldungen keine vor. Widersprueche zwischen den Quellen wurden in den Berichten nicht festgestellt.",
-   "id": "5325b4d8b5",
-   "generated_at": "2026-10-30T16:47:15Z",
+   "text": "IBM steht aktuell im Fokus der Markte, nachdem die Aktie im Jahr 2026 um dreizehn Prozent gefallen ist. Das Unternehmen hat neue Sicherheitskontrollen und Funktionen fur KI-Agenten sowie die Hybrid Cloud eingefuhrt und die Partnerschaft mit der USTA um funf Jahre verlängert. In den vorliegenden Meldungen wurden keine rechtlichen Probleme gefunden, ausser dem genannten Kursruckgang. Analysten bewerten die Aktie unterschiedlich. Laut den Daten von Yahoo Finance gibt es drei starke Kaufe, zwölf Kaufe, elf Halteempfehlungen, zwei Verkaufe und einen starken Verkauf. Das durchschnittliche Kursziel liegt bei zweihundertsiebenundfünfzig Dollar. Jefferies bestätigt die Einstufung als Kaufen mit einem auf zweihundertachtzig Dollar erhöhten Kursziel, wahrend die UBS neutral bleibt und das Kursziel auf zweihundertdreiundvierzig Dollar anhebt. Citigroup bestätigt Kaufen mit einem Kursziel von zweihundertachtzig Dollar. Morgan Stanley stuft mit Marktgewichten bei einem Kursziel von zweihundertvierzig Dollar ein. BMO Capital belässt die Einstufung auf Wie der Markt bei einem Ziel von zweihundertfünfundsechzig Dollar, und Barclays bewertet mit Übergewichten und einem Kursziel von zweihundertsiebenundsiebzig Dollar. Zudem hat Daiwa Securities laut MarketScreener Deutschland eine neutrale Bewertung bekräftigt. Zurück zu IBM: Das Unternehmen ist operativ aktiv und hat Identitäts- und Sicherheitskontrollen für KI-Agenten in der Hybrid Cloud eingeführt sowie neue Funktionen für watsonx Orchestrate vorgestellt. Als belastend wird der Kursrückgang der Aktie im laufenden Jahr gewertet. Zu den wichtigen Kennzahlen gehört das durchschnittliche Kursziel der Analysten von rund zweihundertsiebenundfünfzig Dollar. Keine Anlageberatung.",
+   "id": "4306ddfea2",
+   "generated_at": "2026-10-30T21:57:37Z",
    "audio": {
     "file": "IBM.mp3",
-    "hash": "d269b69d6e12a26c",
-    "dur": 172.2,
-    "engine": "edge"
+    "hash": "d0bb2ece7858ce7a",
+    "dur": 103.5,
+    "engine": "gemini"
    }
   },
   {
@@ -344,14 +344,14 @@
   {
    "symbol": "GEV",
    "name": "GE Vernova",
-   "text": "GE Vernova steht im Fokus von Finanzmärkten und Analysten wegen strategischer Übernahmen und einer starken Nachfrage im Bereich der Netzausrüstung. Laut The Wall Street Journal übernimmt das Unternehmen die Trench Group für rund neun Milliarden Dollar, um das Geschäft mit Netzausrüstung auszubauen. Die kanadische Tageszeitung The Globe and Mail berichtet zudem über einen robusten Auftragsbestand von rund einhundertsiebenundneunzig Milliarden Dollar. Auf der anderen Seite meldet das US-Finanzmagazin Barron's, dass die Wall Street beim sogenannten KI-Stromhandel zersplittert agiert. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Bei den Analystenbewertungen gibt es unterschiedliche Stimmen: Laut Yahoo Finance hat HSBC das Kursziel erhöht und die Aktie von Halten auf Kaufen hochgestuft. GLJ Research belässt die Aktie laut TradingView auf Verkaufen und hob das Kursziel auf rund fünfhundertvierzig Dollar an. RBC Capital hält das Papier laut TradingView bei Outperform mit einem Kursziel von rund eintausendzweihundertdreissig Dollar. Zurück zu GE Vernova: Die Citigroup belässt die Aktie laut TradingView auf Neutral und senkte das Kursziel auf rund eintausend Dollar. Aufwertend wirkt die geplante Übernahme der Trench Group für rund neun Milliarden Dollar laut The Wall Street Journal sowie die Bekanntgabe einer dreijährigen Partnerschaft mit den Boston Celtics zur Anerkennung von US-Streitkräften laut Mitteilung des Unternehmens. Abwertend wirken laut Berichten hingegen die sich verlangsamenden Bestellungen für Gasturbinen. Zu den wichtigen Kennzahlen gehört der Auftragsbestand von rund einhundertsiebenundneunzig Milliarden Dollar, welcher laut The Globe and Mail die künftige Auslastung verdeutlicht. Insider-Käufe oder -Verkäufe wurden in den vorliegenden Daten nicht genannt. Aussagen von Chefs sind in den aktuellen Meldungen ebenfalls nicht enthalten. Bezüglich möglicher Widersprüche berichten verschiedene Medien uneinheitlich: Während The Globe and Mail von einer optimistischen Grundstimmung der Analysten für Industriegüteraktien spricht, beschreibt Barron's eine gespaltene Wall Street beim Thema KI-Stromhandel. Keine Anlageberatung.",
-   "id": "96be1c42d3",
-   "generated_at": "2026-10-30T19:13:34Z",
+   "text": "GE Vernova steht aktuell im Fokus von Investoren und Analysten. Im kurzen Überblick zeigt sich, dass GE Vernova eine neun Milliarden Dollar teure Übernahme eines Netzausrüsters plant, um die Elektrifizierung auszuweiten. Laut The Globe and Mail verzeichnet das Unternehmen einen Auftragsbestand von einhundertsiebenundneunzig Milliarden Dollar und verfolgt eine klare Strategie. Barron's berichtet ergänzend, dass die Wall Street im Bereich des KI-Stromhandels gespalten ist. In den vorliegenden Meldungen wurden keine rechtlichen Probleme gefunden. Bei den Analystenbewertungen gibt es unterschiedliche Ansichten. Die HSBC stuft die Aktie von Halten auf Kaufen hoch und nennt ein Kursziel von eintausendeinhundert Dollar. GLJ Research bestätigt die Verkaufsempfehlung und erhöht das Kursziel auf fünfhundertvierzig Dollar. Zurück zu GE Vernova: JP Morgan bestätigt die Einstufung als Übergewichten bei einem gesenkten Kursziel von eintausendfünfunddreissig Dollar. RBC Capital hält an der Einschätzung Besser als Markt fest und erhöht das Kursziel auf eintausendzweihundertdreissig Dollar. Die Citigroup belässt die Aktie auf Neutral und senkt das Kursziel auf eintausend Dollar. TD Cowen bleibt bei der Kaufempfehlung und setzt das Kursziel auf eintausendeinhundertfünfundzwanzig Dollar. Wichtige Kennzahlen sind der Auftragsbestand von einhundertsiebenundneunzig Milliarden Dollar, der künftige Umsätze absichert, sowie das Übernahmevolumen von neun Milliarden Dollar für den Netzausrüster. Insider-Käufe oder -Verkäufe wurden in den aktuellen Meldungen nicht genannt. Es gibt in den Daten keine Aussagen des Managements. Widersprüche zeigen sich bei der Kursentwicklung, da MarketWatch meldet, dass die Aktie steigt, während TradingView von einem Kursrückgang um drei Prozent berichtet. Keine Anlageberatung.",
+   "id": "da850c9eae",
+   "generated_at": "2026-10-30T21:57:37Z",
    "audio": {
     "file": "GEV.mp3",
-    "hash": "7d660c4a6bbb0fb7",
-    "dur": 149.9,
-    "engine": "edge"
+    "hash": "455b50faecf0c6e0",
+    "dur": 109.3,
+    "engine": "gemini"
    }
   },
   {
@@ -524,5 +524,5 @@
   "dur": 10.2,
   "engine": "edge"
  },
- "audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@66fbbfd76702e8b6affaf264b54374c76df84750/data/audio/"
+ "audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@cbb7239cc5680eea9065271879b7cb4871de82d0/data/audio/"
 }
