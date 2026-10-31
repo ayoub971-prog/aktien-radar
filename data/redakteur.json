@@ -7224,6 +7224,26 @@
 "923dcd8bf1910cbd": {
 "t": "Micron Technology geriet zuletzt stark unter Beobachtung, nachdem der Kurs unter die wichtige Marke der einhundert-Tage-Linie fiel und Verluste verzeichnete. Belastet wurde die Aktie gemass Berichten von Barron's durch starke Ergebnisse von Branchenkollegen wie Samsung, die die Messlatte fur die gesamte Branche sehr hoch legen, sowie durch einen schwachen Ausblick von Intel im PC-Bereich. Trotz dieser Rucksetzer sehen einige Marktbeobachter das Kurs-Gewinn-Verhältnis im Vergleich zu den erwarteten zukünftigen Gewinnen als durchaus attraktiv an. Bei den Analysten-Bewertungen zeigt sich ein uberwiegend positives Bild: Das durchschnittliche Kursziel der Experten liegt bei eintausendfünfhundertzweiundsechzig Dollar, wobei Hauser wie Rosenblatt, Needham, DA Davidson, Mizuho und Morgan Stanley positive Einschatzungen wie Kaufen oder Übergewichten äussern und Kursziele bis zu dreitausend Dollar ausrufen. Positiv wertet der Markt zudem, dass das Unternehmen zu einer der zehn grössten Beteiligungen in S&P fünfhundert-Indexfonds aufgestiegen ist, während die jüngsten Kursverluste und die branchenweiten Sorgen als Belastungsfaktoren wirken.",
 "at": 1793430959.5154788
+},
+"993ba65c66399a79": {
+"t": "Zur Aktie Intel. Intel hat eine Prognosewarnung für das vierte Quartal ausgesprochen und damit schwere Bedenken hinsichtlich der künstlichen Intelligenz und der allgemeinen Geschäftsaussichten geweckt. Gleichzeitig teilt Intel mit, dass jeder herstellbare, erschwingliche Laptop-Chip verkauft wird. Dennoch leidet das Unternehmen unter enttäuschenden Aussichten und sinkenden Kursen. Der Kurs von Intel veränderte sich in den letzten fünf Handelstagen um minus achtundzwanzig Komma sechs Prozent auf fünfundsechzig Dollar und sechsundsiebzig Cent. Das war Intel.",
+"at": 1793432698.5291548
+},
+"df7f0b01bd0dd9d5": {
+"t": "Zur Aktie Amazon. Amazon hat starke Quartalsergebnisse vorgelegt, bei denen Andy Jassy erklärte, warum die Nachfrage nach den massgeschneiderten Chips des Unternehmens weiter wächst. Investoren zeigen sich jedoch verunsichert über die Gewinne und die hohen Investitionen in künstliche Intelligenz. Durch diese massiven Ausgaben spürt Amazon den Druck an den Märkten. Der Kurs von Amazon veränderte sich in den letzten fünf Handelstagen um minus eins Komma vier Prozent auf zweihundertvierzig Dollar und fünfunddreissig Cent. Ob das Amazon stärkt oder schwächt, ist aus den Meldungen noch unklar. Das war Amazon.",
+"at": 1793432698.5291548
+},
+"cc2ea3843bdfea5d": {
+"t": "Zur Aktie Microsoft. Microsoft gewinnt Berichten zufolge die Cloud-Kriege und entwickelt sich zum neuen goldenen Kind an der Wall Street. Ein weiterer Bericht zur digitalen Souveränität zeigt, wie das Unternehmen Kontrolle, Compliance und Innovation ausbalanciert. Bei den Quartalsergebnissen beschleunigt sich Azure, während die Investitionsrendite weiterhin als Test gilt. Der Kurs von Microsoft veränderte sich in den letzten fünf Handelstagen um minus eins Komma sechs Prozent auf fünfhunderteinundzwanzig Dollar und einundneunzig Cent. Meine Einordnung aus diesen Meldungen: Sie könnten Microsoft eher stärken. Das war Microsoft.",
+"at": 1793432698.5291548
+},
+"a1bd8dd0de9dd09d": {
+"t": "Zur Aktie ServiceNow. ServiceNow hat die Control Tower Alliance gestartet, um Unternehmen bei der sicheren Einführung von künstlicher Intelligenz in grossem Massstab zu unterstützen. Rund um das Unternehmen gab es unterschiedliche Kauf- und Verkaufsempfehlungen von Analysten, und zudem wurde eine anstehende Untersuchung zu ServiceNow bekannt. Der Kurs von ServiceNow veränderte sich in den letzten fünf Handelstagen um minus vier Komma einem Prozent auf einhundertfünf Dollar und zwölf Cent. Ob das ServiceNow stärkt oder schwächt, ist aus den Meldungen noch unklar. Das war ServiceNow.",
+"at": 1793432698.5291548
+},
+"11a6773bc0a10d94": {
+"t": "Zur Aktie Meta. Meta hat wichtige Verträge sowie Statutenänderungen gemeldet und Partnerschaften mit fünf US-Universitäten sowie mit der Organisation CNIB geschlossen, um medizinische Durchbrüche zu beschleunigen und sehbehinderte Menschen zu unterstützen. S&P hat jedoch den Ausblick für Meta aufgrund von Investitionssorgen auf negativ gesenkt, was das Unternehmen trotz wichtiger Partnerschaften belastet. Der Kurs von Meta veränderte sich in den letzten fünf Handelstagen um minus eins Komma fünf Prozent auf sechshundertvierzehn Dollar und neunundneunzig Cent. Diese Woche gab es zu Meta keine neuen Bewertungen von Banken in den Daten. Ob das Meta stärkt oder schwächt, ist aus den Meldungen noch unklar. Das war Meta.",
+"at": 1793432698.5291548
 }
 },
 "last": {
@@ -8506,6 +8526,26 @@
 "list:wachstum:FDS": {
 "t": "Betrachten wir die Aktie von FactSet Research Systems. Der Kurs steht derzeit bei dreihundertdreissig Dollar. Innerhalb der letzten drei Monate stieg die Aktie um zweiundzwanzig Komma zwei Prozent, im letzten Monat betrug das Plus zweiundzwanzig Komma eins Prozent. Das durchschnittliche Kursziel der sechzehn Analysten liegt bei zweihunderteinundachtzig Dollar. Das war die Aktie von FactSet Research Systems.",
 "at": 1793398334.871358
+},
+"sn:woche:Intel": {
+"t": "Zur Aktie Intel. Intel hat eine Prognosewarnung für das vierte Quartal ausgesprochen und damit schwere Bedenken hinsichtlich der künstlichen Intelligenz und der allgemeinen Geschäftsaussichten geweckt. Gleichzeitig teilt Intel mit, dass jeder herstellbare, erschwingliche Laptop-Chip verkauft wird. Dennoch leidet das Unternehmen unter enttäuschenden Aussichten und sinkenden Kursen. Der Kurs von Intel veränderte sich in den letzten fünf Handelstagen um minus achtundzwanzig Komma sechs Prozent auf fünfundsechzig Dollar und sechsundsiebzig Cent. Das war Intel.",
+"at": 1793432698.5291548
+},
+"sn:woche:Amazon": {
+"t": "Zur Aktie Amazon. Amazon hat starke Quartalsergebnisse vorgelegt, bei denen Andy Jassy erklärte, warum die Nachfrage nach den massgeschneiderten Chips des Unternehmens weiter wächst. Investoren zeigen sich jedoch verunsichert über die Gewinne und die hohen Investitionen in künstliche Intelligenz. Durch diese massiven Ausgaben spürt Amazon den Druck an den Märkten. Der Kurs von Amazon veränderte sich in den letzten fünf Handelstagen um minus eins Komma vier Prozent auf zweihundertvierzig Dollar und fünfunddreissig Cent. Ob das Amazon stärkt oder schwächt, ist aus den Meldungen noch unklar. Das war Amazon.",
+"at": 1793432698.5291548
+},
+"sn:woche:Microsoft": {
+"t": "Zur Aktie Microsoft. Microsoft gewinnt Berichten zufolge die Cloud-Kriege und entwickelt sich zum neuen goldenen Kind an der Wall Street. Ein weiterer Bericht zur digitalen Souveränität zeigt, wie das Unternehmen Kontrolle, Compliance und Innovation ausbalanciert. Bei den Quartalsergebnissen beschleunigt sich Azure, während die Investitionsrendite weiterhin als Test gilt. Der Kurs von Microsoft veränderte sich in den letzten fünf Handelstagen um minus eins Komma sechs Prozent auf fünfhunderteinundzwanzig Dollar und einundneunzig Cent. Meine Einordnung aus diesen Meldungen: Sie könnten Microsoft eher stärken. Das war Microsoft.",
+"at": 1793432698.5291548
+},
+"sn:woche:ServiceNow": {
+"t": "Zur Aktie ServiceNow. ServiceNow hat die Control Tower Alliance gestartet, um Unternehmen bei der sicheren Einführung von künstlicher Intelligenz in grossem Massstab zu unterstützen. Rund um das Unternehmen gab es unterschiedliche Kauf- und Verkaufsempfehlungen von Analysten, und zudem wurde eine anstehende Untersuchung zu ServiceNow bekannt. Der Kurs von ServiceNow veränderte sich in den letzten fünf Handelstagen um minus vier Komma einem Prozent auf einhundertfünf Dollar und zwölf Cent. Ob das ServiceNow stärkt oder schwächt, ist aus den Meldungen noch unklar. Das war ServiceNow.",
+"at": 1793432698.5291548
+},
+"sn:woche:Meta": {
+"t": "Zur Aktie Meta. Meta hat wichtige Verträge sowie Statutenänderungen gemeldet und Partnerschaften mit fünf US-Universitäten sowie mit der Organisation CNIB geschlossen, um medizinische Durchbrüche zu beschleunigen und sehbehinderte Menschen zu unterstützen. S&P hat jedoch den Ausblick für Meta aufgrund von Investitionssorgen auf negativ gesenkt, was das Unternehmen trotz wichtiger Partnerschaften belastet. Der Kurs von Meta veränderte sich in den letzten fünf Handelstagen um minus eins Komma fünf Prozent auf sechshundertvierzehn Dollar und neunundneunzig Cent. Diese Woche gab es zu Meta keine neuen Bewertungen von Banken in den Daten. Ob das Meta stärkt oder schwächt, ist aus den Meldungen noch unklar. Das war Meta.",
+"at": 1793432698.5291548
 }
 }
 }

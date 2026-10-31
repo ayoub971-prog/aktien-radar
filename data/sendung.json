@@ -1,6 +1,215 @@
 {
 "episodes": [
 {
+"id": "2026-10-31-w",
+"kind": "woche",
+"date": "2026-10-31",
+"title": "Wochenrückblick, Samstag, einunddreissigsten Oktober",
+"generated_at": "2026-10-31T07:44:33Z",
+"writer": "Gemini (Gratis-Kontingent) 10 Firmen, Rest Vorlage",
+"chapters": [
+{
+"name": "Begrüssung",
+"say": "Willkommen zum Wochenrückblick vom Aktien-Radar, heute Samstag, einunddreissigsten Oktober. Wir gehen deine Aktien einzeln durch: Kurs der Woche in Dollar, neue Bewertungen von Banken und die wichtigsten Firmen-Meldungen. Danach der Kalender der Quartalszahlen für nächste Woche und ein Begriff zum Lernen. Kurz vorweg: Alles stammt aus gesammelten Daten und Schlagzeilen, Beträge nenne ich in Dollar. Das ist keine Anlageberatung.",
+"audio": {
+"file": "sendung/2026-10-31-w_00.mp3",
+"hash": "f9d8eca1a4bd1810",
+"dur": 30.7
+}
+},
+{
+"name": "Intel",
+"sym": "INTC",
+"say": "Zur Aktie Intel. Intel hat eine Prognosewarnung für das vierte Quartal ausgesprochen und damit schwere Bedenken hinsichtlich der künstlichen Intelligenz und der allgemeinen Geschäftsaussichten geweckt. Gleichzeitig teilt Intel mit, dass jeder herstellbare, erschwingliche Laptop-Chip verkauft wird. Dennoch leidet das Unternehmen unter enttäuschenden Aussichten und sinkenden Kursen. Der Kurs von Intel veränderte sich in den letzten fünf Handelstagen um minus achtundzwanzig Komma sechs Prozent auf fünfundsechzig Dollar und sechsundsiebzig Cent. Das war Intel.",
+"audio": {
+"file": "sendung/2026-10-31-w_01.mp3",
+"hash": "cb9f4e191c9d7f6b",
+"dur": 40.3
+}
+},
+{
+"name": "Amazon",
+"sym": "AMZN",
+"say": "Zur Aktie Amazon. Amazon hat starke Quartalsergebnisse vorgelegt, bei denen Andy Jassy erklärte, warum die Nachfrage nach den massgeschneiderten Chips des Unternehmens weiter wächst. Investoren zeigen sich jedoch verunsichert über die Gewinne und die hohen Investitionen in künstliche Intelligenz. Durch diese massiven Ausgaben spürt Amazon den Druck an den Märkten. Der Kurs von Amazon veränderte sich in den letzten fünf Handelstagen um minus eins Komma vier Prozent auf zweihundertvierzig Dollar und fünfunddreissig Cent. Ob das Amazon stärkt oder schwächt, ist aus den Meldungen noch unklar. Das war Amazon.",
+"audio": {
+"file": "sendung/2026-10-31-w_02.mp3",
+"hash": "5c093ce263d3819a",
+"dur": 44.9
+}
+},
+{
+"name": "Microsoft",
+"sym": "MSFT",
+"say": "Zur Aktie Microsoft. Microsoft gewinnt Berichten zufolge die Cloud-Kriege und entwickelt sich zum neuen goldenen Kind an der Wall Street. Ein weiterer Bericht zur digitalen Souveränität zeigt, wie das Unternehmen Kontrolle, Compliance und Innovation ausbalanciert. Bei den Quartalsergebnissen beschleunigt sich Azure, während die Investitionsrendite weiterhin als Test gilt. Der Kurs von Microsoft veränderte sich in den letzten fünf Handelstagen um minus eins Komma sechs Prozent auf fünfhunderteinundzwanzig Dollar und einundneunzig Cent. Meine Einordnung aus diesen Meldungen: Sie könnten Microsoft eher stärken. Das war Microsoft.",
+"audio": {
+"file": "sendung/2026-10-31-w_03.mp3",
+"hash": "376dac9a619fe6be",
+"dur": 47.3
+}
+},
+{
+"name": "ServiceNow",
+"sym": "NOW",
+"say": "Zur Aktie ServiceNow. ServiceNow hat die Control Tower Alliance gestartet, um Unternehmen bei der sicheren Einführung von künstlicher Intelligenz in grossem Massstab zu unterstützen. Rund um das Unternehmen gab es unterschiedliche Kauf- und Verkaufsempfehlungen von Analysten, und zudem wurde eine anstehende Untersuchung zu ServiceNow bekannt. Der Kurs von ServiceNow veränderte sich in den letzten fünf Handelstagen um minus vier Komma einem Prozent auf einhundertfünf Dollar und zwölf Cent. Ob das ServiceNow stärkt oder schwächt, ist aus den Meldungen noch unklar. Das war ServiceNow.",
+"audio": {
+"file": "sendung/2026-10-31-w_04.mp3",
+"hash": "539ba6474199def2",
+"dur": 42.5
+}
+},
+{
+"name": "Meta",
+"sym": "META",
+"say": "Zur Aktie Meta. Meta hat wichtige Verträge sowie Statutenänderungen gemeldet und Partnerschaften mit fünf US-Universitäten sowie mit der Organisation CNIB geschlossen, um medizinische Durchbrüche zu beschleunigen und sehbehinderte Menschen zu unterstützen. S&P hat jedoch den Ausblick für Meta aufgrund von Investitionssorgen auf negativ gesenkt, was das Unternehmen trotz wichtiger Partnerschaften belastet. Der Kurs von Meta veränderte sich in den letzten fünf Handelstagen um minus eins Komma fünf Prozent auf sechshundertvierzehn Dollar und neunundneunzig Cent. Diese Woche gab es zu Meta keine neuen Bewertungen von Banken in den Daten. Ob das Meta stärkt oder schwächt, ist aus den Meldungen noch unklar. Das war Meta.",
+"audio": {
+"file": "sendung/2026-10-31-w_05.mp3",
+"hash": "2fcc52ec5722f9ad",
+"dur": 52.9
+}
+},
+{
+"name": "UBS",
+"sym": "UBSG.SW",
+"say": "Zur Aktie UBS. Die UBS hat Analysen veröffentlicht, in denen sie die UBS-Aktie selbst mit Kaufen bewertet und eine Neutral-Note für Henkel vergibt. Zudem hat die UBS Kursziele für andere Firmen wie die VNET Group und Twilio gesenkt. Für die UBS selbst gibt es positive Analystenstimmen aus der Analyse der DZ Bank. Der Kurs von UBS veränderte sich in den letzten fünf Handelstagen um plus eins Komma acht Prozent auf siebenundvierzig Dollar und achtundsechzig Cent. Diese Woche gab es zu UBS keine neuen Bewertungen von Banken in den Daten. Das durchschnittliche Kursziel für UBS liegt bei vierundfünfzig Dollar und sechzig Cent. Meine Einordnung aus diesen Meldungen: Sie könnten UBS eher stärken. Das war UBS.",
+"audio": {
+"file": "sendung/2026-10-31-w_06.mp3",
+"hash": "26fae680a25eebe0",
+"dur": 54.1
+}
+},
+{
+"name": "Nvidia",
+"sym": "NVDA",
+"say": "Zur Aktie Nvidia. Nvidia gerät durch Wettbewerbsuntersuchungen und Spionageberichte unter Druck, die neue Bedenken hinsichtlich der KI aufwerfen. Nvidia erwägt ausserdem die Rolle des Mitunterzeichners für das KI-Rechenzentrum von Nscale in West Virginia. Insgesamt lastet der schwache PC-Ausblick anderer Chip-Werte stark auf Nvidia. Der Kurs von Nvidia veränderte sich in den letzten fünf Handelstagen um minus vier Komma sieben Prozent auf zweihundertvier Dollar und vierundsechzig Cent. Diese Woche gab es zu Nvidia keine neuen Bewertungen von Banken in den Daten. Das durchschnittliche Kursziel für Nvidia liegt bei dreihundertachtundzwanzig Dollar und fünfundneunzig Cent. Meine Einordnung aus diesen Meldungen: Sie könnten Nvidia eher schwächen. Das war Nvidia.",
+"audio": {
+"file": "sendung/2026-10-31-w_07.mp3",
+"hash": "7628050c424f7149",
+"dur": 56.4
+}
+},
+{
+"name": "Palantir",
+"sym": "PLTR",
+"say": "Zur Aktie Palantir. Zu Palantir gab es Formular-vier-Meldungen zu Insider-Aktivitäten von Führungskräften wie Shyam Sankar und Ryan D. Taylor. Ausserdem dominierten Auszahlungsforderungen der Palantir-Investoren den Fokus vor den Quartalsergebnissen. Konkrete Produkt- oder Auftragsmeldungen liegen für Palantir nicht vor. Der Kurs von Palantir veränderte sich in den letzten fünf Handelstagen um minus sechs Komma neun Prozent auf einhundertvierundachtzig Dollar und elf Cent. JP Morgan neu aufgenommen, Empfehlung Übergewichten, Kursziel zweihundertzweiundsechzig Dollar. Oppenheimer bestätigt, Empfehlung Besser als Markt, Kursziel zweihundertfünfunddreissig Dollar nach vorher zweihundert Dollar. Rosenblatt bestätigt, Empfehlung Kaufen, Kursziel zweihundertsechzig Dollar nach vorher zweihundertfünfundzwanzig Dollar. Das durchschnittliche Kursziel für Palantir liegt bei zweihundertzwölf Dollar und fünfzig Cent. Ob das Palantir stärkt oder schwächt, ist aus den Meldungen noch unklar. Das war Palantir.",
+"audio": {
+"file": "sendung/2026-10-31-w_08.mp3",
+"hash": "8a08ca8c5f5b7e37",
+"dur": 75.0
+}
+},
+{
+"name": "Samsung Electronics",
+"sym": "005930.KS",
+"say": "Zur Aktie Samsung Electronics. Samsung Electronics hat dank des Chipgewinns ein weiteres Rekordquartal verzeichnet, obwohl die Gewinne teilweise hinter den Prognosen zurückblieben. Samsung Electronics hat zudem die Galaxy Campus Crew gestartet. Nach einer US-Technologiekrise stürzten die Aktien von Samsung Electronics jedoch ab. Der Kurs von Samsung Electronics veränderte sich in den letzten fünf Handelstagen um plus fünf Komma eins Prozent auf einhundertachtundsechzig Dollar und einundfünfzig Cent. Diese Woche gab es zu Samsung Electronics keine neuen Bewertungen von Banken in den Daten. Das durchschnittliche Kursziel für Samsung Electronics liegt bei dreihundertneunundfünfzig Dollar und sechsundfünfzig Cent. Meine Einordnung aus diesen Meldungen: Sie könnten Samsung Electronics eher stärken. Das war Samsung Electronics.",
+"audio": {
+"file": "sendung/2026-10-31-w_09.mp3",
+"hash": "508a79e6e14f1c7a",
+"dur": 61.5
+}
+},
+{
+"name": "Marvell",
+"sym": "MRVL",
+"say": "Zur Aktie Marvell. Marvell steht Berichten zufolge kurz vor einem Mega-Deal beziehungsweise Blockbuster-Deal zum Kauf von Lumentum im Rahmen eines AI Push. Investoren reagieren nervös, während Analysten eine gewisse Logik in dem potenziellen Marvell-Lumentum-Deal sehen. Marvell treibt damit seine Strategie im KI-Bereich voran. Der Kurs von Marvell veränderte sich in den letzten fünf Handelstagen um minus dreizehn Komma acht Prozent auf einhundertsechsundneunzig Dollar und vierzig Cent. Diese Woche gab es zu Marvell keine neuen Bewertungen von Banken in den Daten. Das durchschnittliche Kursziel für Marvell liegt bei dreihundertvierzig Dollar und sechsundfünfzig Cent. Meine Einordnung aus diesen Meldungen: Sie könnten Marvell eher stärken. Das war Marvell.",
+"audio": {
+"file": "sendung/2026-10-31-w_10.mp3",
+"hash": "7137c119cbeefeec",
+"dur": 56.3
+}
+},
+{
+"name": "Quartalszahlen nächste Woche",
+"say": "Quartalszahlen nächste Woche. Diese Firmen aus deiner Liste melden ihre Quartalszahlen. Zur Aktie Palantir: Zahlen Montag, am zweiten November. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von null Dollar und einundvierzig Cent. Beim Umsatz erwarten sie rund zwei Komma zwei Milliarden Dollar. Zur Aktie BioNTech: Zahlen Dienstag, am dritten November. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von null Dollar und sechsundsiebzig Cent. Beim Umsatz erwarten sie rund eins Milliarden Dollar. Zur Aktie Arm: Zahlen Mittwoch, am vierten November. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von null Dollar und achtundvierzig Cent. Beim Umsatz erwarten sie rund eins Komma vier Milliarden Dollar. Zur Aktie Oklo: Zahlen Freitag, am sechsten November. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von minus null Dollar und sechsundzwanzig Cent. Beim Umsatz erwarten sie rund eins Komma eins Millionen Dollar. Zur Aktie Berkshire Hathaway: Zahlen Samstag, am siebten November. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von sechs Dollar und vierzehn Cent.",
+"audio": {
+"file": "sendung/2026-10-31-w_11.mp3",
+"hash": "646aec0a68abdaa7",
+"dur": 86.8
+}
+},
+{
+"name": "Begriff: Marge",
+"say": "Zum Lernen, der Begriff des Tages: Marge. Die Marge sagt, wie viel vom Umsatz als Gewinn übrig bleibt. Eine Marge von zwanzig Prozent heisst: von hundert Dollar Umsatz bleiben zwanzig Dollar Gewinn. Steigende Margen gelten als gutes Zeichen.",
+"audio": {
+"file": "sendung/2026-10-31-w_12.mp3",
+"hash": "8df4969c29cf4a63",
+"dur": 19.3
+}
+},
+{
+"name": "Schluss",
+"say": "Das war der Wochenrückblick vom Aktien-Radar. Die Quellen findest du in der App bei jeder Aktie, den ganzen Text über den Knopf Als Text. Bis nächste Woche.",
+"audio": {
+"file": "sendung/2026-10-31-w_13.mp3",
+"hash": "a47779957ec83468",
+"dur": 12.4
+}
+}
+],
+"dur": 680.4,
+"full": {
+"file": "sendung/2026-10-31-w_full.mp3",
+"dur": 680.5,
+"marks": [
+[
+0,
+0.0
+],
+[
+1,
+30.7
+],
+[
+2,
+71.0
+],
+[
+3,
+115.9
+],
+[
+4,
+163.2
+],
+[
+5,
+205.7
+],
+[
+6,
+258.6
+],
+[
+7,
+312.7
+],
+[
+8,
+369.1
+],
+[
+9,
+444.1
+],
+[
+10,
+505.6
+],
+[
+11,
+561.9
+],
+[
+12,
+648.7
+],
+[
+13,
+668.0
+]
+]
+}
+},
+{
 "id": "2026-10-30-t",
 "kind": "tag",
 "date": "2026-10-30",
@@ -885,8 +1094,8 @@
 "dur": 729.9
 }
 ],
-"generated_at": "2026-10-30T05:12:39Z",
+"generated_at": "2026-10-31T07:44:33Z",
 "voice": "de-CH-LeniNeural",
 "source": "Yahoo Finance, SEC EDGAR, Schlagzeilen (Google News u.a.); Text: Gemini Gratis-Kontingent oder Vorlage",
-"audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@d503bcb00d91d705280c085edeeba2a2d3f0a8d0/data/audio/"
+"audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@8e8f60b3ace2707a7a8a559f0fde1a70d75c2197/data/audio/"
 }
