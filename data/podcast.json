@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-31T03:14:43Z",
+ "generated_at": "2026-10-31T04:08:05Z",
  "intro": "Willkommen beim Aktien-Radar, deinem Überblick über die neuesten Meldungen. Heute geht es um 39 Aktien aus deiner Liste. Alles stammt aus den gesammelten Meldungen und Analystendaten, nichts ist erfunden. Keine Anlageberatung.",
  "outro": "Das war der Aktien-Radar-Überblick. Die Quellen und Details findest du in der App bei jeder Aktie. Keine Anlageberatung.",
  "segments": [
@@ -97,14 +97,14 @@
   {
    "symbol": "MSFT",
    "name": "Microsoft",
-   "text": "Microsoft: Im Fokus der Finanzmärkte steht derzeit die Aktie von Microsoft. Laut The New York Times sprang der Gewinn von Microsoft um zweiunddreissig Prozent nach oben, womit die Erwartungen der Börse übertroffen wurden, trotz gestiegener Ausgaben. Die kanadische Tageszeitung The Globe and Mail berichtet zudem, dass die Microsoft-Aktien nach dieser starken Gewinnüberschreitung im ersten Quartal um vier Prozent zulegten. Marktbeobachter wie Investor's Business Daily heben hervor, dass das Cloud-Geschäft und insbesondere Azure ein beschleunigtes Wachstum aufweisen. Zurück zu Microsoft: In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Analysten zeigen sich optimistisch gestimmt. So hat Bernstein das Kursziel auf siebenhundertzweiundzwanzig Dollar bestätigt und erhöht, während Citigroup das Kursziel auf sechshundertachtzig Dollar anhebt und die Einstufung als Kaufen bestätigt. Auch DA Davidson, TD Cowen und Scotiabank haben ihre Kursziele jeweils auf sechshundertfünfzig Dollar nach oben angepasst. Das von Yahoo Finance ermittelte durchschnittliche Kursziel der Analysten liegt bei rund sechshundertdreissig Dollar, was ein Aufwärtspotenzial von etwa zwanzig Komma sieben Prozent signalisiert. Operativ treibt Microsoft das Geschäft voran, indem beispielsweise Estée Lauder künstliche Intelligenz im Beauty-Geschäft ausweitet. Zu den wichtigen Kennzahlen zählt der genannte Gewinnanstieg von zweiunddreissig Prozent, welcher die starke Profitabilität des Technologiekonzerns unterstreicht. Bei den Insidern zeigen Pflichtmeldungen bei der Börsenaufsicht SEC, dass Finanzchefin Amy Hood im Rahmen von im Voraus festgelegten Plänen Aktien im Wert von rund vier Millionen Dollar sowie rund zwanzig Komma acht Millionen Dollar veräussert hat. Solche Insider-Verkäufe basieren oft auf langfristigen Plänen oder steuerlichen Gründen und sagen daher meist weniger aus als Insider-Käufe. Keine Anlageberatung.",
+   "text": "Microsoft hat starke Zahlen für das erste Quartal vorgelegt. Laut der New York Times stieg der Gewinn um zweiunddreissig Prozent, womit die Erwartungen der Börse übertroffen wurden. Besonders das Cloud-Geschäft, allen voran Azure, zeigt ein beschleunigtes Wachstum. In der Folge legte die Microsoft-Aktie um vier Prozent zu. Analysten reagierten positiv auf die Zahlen: Häuser wie Bernstein, RBC Capital, Citigroup, DA Davidson, TD Cowen und Scotiabank haben ihre Bewertungen und Kursziele angepasst. Das durchschnittliche Kursziel der Analysten liegt bei sechshundertdreissig Dollar, was ein Aufwärtspotenzial von zwanzig Komma sieben Prozent impliziert. Operativ baut Microsoft seine Präsenz aus, etwa durch die Implementierung von künstlicher Intelligenz bei Partnern wie Estée Lauder. Bei den Insidern gab es Transaktionen: Finanzchefin Amy Hood hat im Rahmen eines geplanten Programms Aktien im Wert von rund vier Millionen Dollar sowie rund zwanzig Komma acht Millionen Dollar verkauft. Dies stellt keine Anlageberatung dar.",
    "id": "66b43724e0",
    "generated_at": "2026-10-31T02:59:57Z",
    "audio": {
     "file": "MSFT.mp3",
-    "hash": "bfe781271e729c06",
-    "dur": 114.6,
-    "engine": "gemini"
+    "hash": "8263e5fee53a5a6d",
+    "dur": 76.1,
+    "engine": "edge"
    }
   },
   {
@@ -240,27 +240,27 @@
   {
    "symbol": "ARM",
    "name": "Arm Holdings",
-   "text": "Arm Holdings: Die Aktie von Arm Holdings geriet laut Berichten der Plattform Seeking Alpha durch einen allgemeinen Technologie-Rückgang stark unter Druck und brach um elf Prozent ein, wodurch das Papier gemass dem deutschen Börsenportal boerse.de unter die wichtige Zweihundert-Tage-Linie rutschte. Als Belastung für den gesamten Halbleitersektor und damit auch für Arm Holdings wirkte laut Investing.com Deutsch eine enttäuschende Intel-Prognose, während das Trading-Ratgeberportal Traders Union ebenfalls von anhaltenden Branchenherausforderungen berichtet. Positiv meldet der Arm Newsroom hingegen, dass die Arm AGI CPU in die Oracle Cloud Infrastructure aufgenommen wird. Nach Angaben von Yahoo Finance liegt das durchschnittliche Kursziel der Analysten bei zweihunderteinundneunzig Dollar, wobei verschiedene Institute wie Rosenblatt mit zweihundertfünfzig Dollar, die UBS mit dreihundertzwanzig Dollar, Morgan Stanley mit zweihundertzwölf Dollar, RBC Capital mit dreihundertvierzig Dollar, TD Cowen mit dreihundertfünfzig Dollar und Wells Fargo mit zweihundertachtzig Dollar positioniert sind. Ausserdem zeigen offizielle SEC-Daten, dass Finanzchef Jason Child im August 2026 insgesamt zehntausendvierhundert Aktien im Wert von rund zwei Komma sieben Millionen Dollar und im September 2026 im Rahmen eines geplanten Plans weitere zehntausendvierhundert Aktien im Wert von rund drei Komma eins Millionen Dollar veräusserte.",
-   "id": "139a06e2b3",
-   "generated_at": "2026-10-30T20:38:57Z",
+   "text": "Arm Holdings: Die Aktie wird laut Seeking Alpha, einer US-Plattform mit Anlegerbeiträgen, durch einen breiten Ausverkauf im Halbleitersektor belastet und bricht zeitweise um elf Prozent ein. Zudem meldet boerse.de, ein deutsches Börsenportal, dass die Aktie von Arm Holdings unter die zweihundert-Tage-Linie gerutscht ist. Als positive Entwicklung teilt der Arm Newsroom mit, dass die Arm AGI CPU in die Oracle Cloud Infrastructure kommt. Zurück zu Arm Holdings: In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Zu den Analysten-Bewertungen bei Yahoo Finance gibt es verschiedene Einschätzungen mit Kurszielen wie zweihundertfünfzig Dollar von Rosenblatt, dreihundertzwanzig Dollar von der UBS, zweihundertzwölf Dollar von Morgan Stanley, dreihundertvierzig Dollar von RBC Capital, dreihundertfünfzig Dollar von TD Cowen sowie zweihundertachtzig Dollar von Wells Fargo. Was die Firma gerade macht, zeigt sich auf der aufwertenden Seite durch die Partnerschaft mit Oracle Cloud, während abwertend der breite Ausverkauf im Chipsektor wirkt. Wichtige Kennzahlen sind das durchschnittliche Kursziel der Analysten von rund zweihunderteinundneunzig Dollar sowie das höchste Kursziel von fünfhundert Dollar und das tiefste Kursziel von einhundertfünfundzwanzig Dollar. Zu den Insider-Verkäufen bei Arm Holdings zeigen die Daten, dass Finanzchef Jason Child im August und September 2026 jeweils zehntausendvierhundert Aktien in geplanten Transaktionen im Wert von rund zwei Komma sieben Millionen Dollar beziehungsweise rund drei Komma eins Millionen Dollar verkauft hat; solche Insider-Verkäufe sind oft langfristig geplant oder dienen steuerlichen Zwecken und sagen daher oft weniger aus als Käufe. Keine Anlageberatung.",
+   "id": "1ecb325884",
+   "generated_at": "2026-10-31T03:58:41Z",
    "audio": {
     "file": "ARM.mp3",
-    "hash": "04b99e24bf6ee8bd",
-    "dur": 88.7,
-    "engine": "gemini"
+    "hash": "4f3a2a0dd6281498",
+    "dur": 121.8,
+    "engine": "edge"
    }
   },
   {
    "symbol": "HOOD",
    "name": "Robinhood Markets",
-   "text": "Robinhood Markets zeigt sich in den aktuellen Berichten stark unter Druck. Laut Investing.com, einem Finanzportal, steht die Aktie nach Ergebnisenttäuschungen, einer Krypto-Flaute und Regulierungssorgen stark unter Druck und ist um fast siebenunddreissig Prozent gefallen. Auch TheStreet berichtet von Kursstürzen nach dem grössten Krypto-Hack aller Zeiten, und Wallstreet Online meldet, dass sich der Krypto-Umsatz halbiert hat. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden, abgesehen von den erwähnten Marktrisiken und Krypto-Sorgen. Analysten-Bewertungen zeigen trotz der Rückgänge ein überwiegend optimistisches Bild, wobei das durchschnittliche Kursziel laut Yahoo Finance bei rund einhunderteinunddreissig Dollar liegt. Mehrere Häuser wie Truist Securities, JP Morgan, Goldman Sachs, Barclays, Wells Fargo und Scotiabank haben ihre Kursziele jedoch gesenkt, wobei Truist Securities ein Kursziel von einhundertdreiundzwanzig Dollar nennt. Zurück zu Robinhood Markets: Die Firma treibt ihren Diversifizierungsschub im dritten Quartal voran, und die Prognosemärkte haben sich zum am schnellsten wachsenden Produkt entwickelt. Auf der abwertenden Seite steht neben der Krypto-Flaute auch der Rutsch der Aktie unter die zweihundert-Tage-Linie. Zu den wichtigen Kennzahlen gehört der Aktienkurs von rund fünfundachtzig Dollar sowie das durchschnittliche Kursziel von rund einhunderteinunddreissig Dollar. Bei den Insider-Aktivitäten zeigen die SEC-Pflichtmeldungen verschiedene Verkäufe, wie den Verkauf von über einhundertvierundzwanzigtausenddreihundert Aktien durch den Grossaktionär Robinhood Markets, Inc. im Wert von rund drei Komma eins Millionen Dollar sowie den von Verwaltungsrat Baiju Bhatt geplanten Verkauf von über fünfzigtausendneunhundert Aktien im Wert von rund fünf Komma zwei Millionen Dollar; Verkäufe von Insidern können oft steuerliche Gründe haben oder im Vorfeld genau geplant sein und sagen daher nicht zwingend etwas Negatives über die fundamentale Verfassung aus. Zu Aussagen des Managements liegen keine Berichte vor. Widersprüche zeigen sich vor allem darin, dass die Aktie massiv einbricht und unter Druck steht, die Wall Street laut Investing.com im Durchschnitt aber weiterhin optimistisch gestimmt bleibt. Keine Anlageberatung.",
+   "text": "Robinhood Markets gerät nach enttäuschenden Geschäftszahlen und einer Flaute im Kryptogeschäft unter Druck. Laut Investing.com ist der Aktienkurs um fast siebenunddreissig Prozent gefallen. Berichte über einen Krypto-Hack sowie eine Halbierung der Krypto-Umsätze belasten das Vertrauen zusätzlich. Trotz dieser Kursverluste bleibt die Wall Street laut Investing.com mehrheitlich optimistisch, auch wenn namhafte Häuser wie Truist Securities, JP Morgan, Goldman Sachs, Barclays, Wells Fargo und Scotiabank ihre Kursziele gesenkt haben. Das durchschnittliche Kursziel der Analysten liegt bei einhunderteinunddreissig Dollar. Operativ setzt Robinhood auf Diversifizierung: Die Prognosemärkte haben sich zum am schnellsten wachsenden Produkt entwickelt. Dies stellt keine Anlageberatung dar.",
    "id": "0055dc9f55",
    "generated_at": "2026-10-30T23:46:37Z",
    "audio": {
     "file": "HOOD.mp3",
-    "hash": "8e0c1f78710b8d4c",
-    "dur": 116.4,
-    "engine": "gemini"
+    "hash": "c4bae049f63f095a",
+    "dur": 58.1,
+    "engine": "edge"
    }
   },
   {
@@ -422,13 +422,13 @@
   {
    "symbol": "UBSG.SW",
    "name": "UBS Group",
-   "text": "UBS Group: Die UBS Group konnte laut dem deutschen Börsenportal Wallstreet Online ihren Vorsteuergewinn um siebenundzwanzig Prozent steigern. Dieser Wert ist ein zentraler Indikator für die operative Ertragskraft des Unternehmens. Zudem verläuft der Umbau im Zusammenhang mit der Credit Suisse nach Angaben des Portals planmässig. Trotz dieser Nachrichten berichtete das Schweizer Finanzportal Finanzen.ch, dass sich die Aktie der UBS Group im Tagesverlauf zeitweise im Minus zeigte. Analysten bewerten die Aktie derzeit unterschiedlich: Laut Yahoo Finance sprechen sich von siebzehn Experten zwei für einen starken Kauf und sieben für einen Kauf aus, während acht Analysten die Aktie halten, zwei zum Verkauf raten und eins einen starken Verkauf empfiehlt. Die DZ Bank stuft die Aktie mit Kaufen ein. Das durchschnittliche Kursziel der Analysten liegt bei vierundfünfzig Komma drei neun Dollar. Bitte beachten Sie, dass dies keine Anlageberatung darstellt.",
-   "id": "d94c1c9d97",
-   "generated_at": "2026-10-31T01:18:31Z",
+   "text": "UBS Group: Die UBS Group AG hat ihre Ergebnisse für das dritte Quartal 2026 vorgelegt. Wie das Börsenportal Wallstreet Online berichtet, konnte die Bank ihren Vorsteuergewinn um siebenundzwanzig Prozent steigern. Zudem verläuft der Umbau im Zusammenhang mit der Credit Suisse weiterhin nach Plan. An der Börse zeigte sich die Aktie am Nachmittag zeitweise etwas leichter. Analysten blicken mehrheitlich positiv auf den Titel: Das Konsensrating von Yahoo Finance, das auf siebzehn Einschätzungen basiert, zeigt eine Mehrheit an Kaufempfehlungen. Das durchschnittliche Kursziel der Analysten liegt bei vierundfünfzig Komma sechs Dollar. Auch die DZ Bank hat ihre Kaufempfehlung für die UBS Group AG in einer aktuellen Analyse bestätigt. Der Vorsteuergewinn bleibt dabei eine zentrale Kennzahl, um die operative Leistung des Finanzinstituts zu beurteilen. Es handelt sich hierbei um keine Anlageberatung.",
+   "id": "1565458576",
+   "generated_at": "2026-10-31T03:58:41Z",
    "audio": {
     "file": "UBSG.SW.mp3",
-    "hash": "356cdd73a2af6934",
-    "dur": 67.3,
+    "hash": "32d07aa831a3bb3a",
+    "dur": 66.7,
     "engine": "edge"
    }
   },
@@ -524,5 +524,5 @@
   "dur": 10.2,
   "engine": "edge"
  },
- "audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@611f7969c261b69f23b1352b9aa693a758212e3f/data/audio/"
+ "audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@cebe5a2b9cd88eb598244b89f81de661c82b590f/data/audio/"
 }
