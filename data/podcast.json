@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-31T10:03:15Z",
+ "generated_at": "2026-10-31T10:58:02Z",
  "intro": "Willkommen beim Aktien-Radar, deinem Überblick über die neuesten Meldungen. Heute geht es um 39 Aktien aus deiner Liste. Alles stammt aus den gesammelten Meldungen und Analystendaten, nichts ist erfunden. Keine Anlageberatung.",
  "outro": "Das war der Aktien-Radar-Überblick. Die Quellen und Details findest du in der App bei jeder Aktie. Keine Anlageberatung.",
  "segments": [
@@ -45,14 +45,14 @@
   {
    "symbol": "HY9H.MU",
    "name": "SK Hynix",
-   "text": "SK Hynix hat die Finanzergebnisse für das dritte Quartal 2026 bekannt gegeben. Laut der US-Wirtschaftszeitung WSJ plant das Unternehmen nach starken Ergebnissen eine Aktionärsrendite von fünfundsiebzig Milliarden Dollar. Gleichzeitig berichtet die Chart- und Börsenplattform TradingView über einen Kursrückgang der Aktie um sieben Komma eins Prozent im Zusammenhang mit Langzeitspeicherverträgen. Das deutsche Börsenportal boerse.de meldet zudem, dass sich die Aktie unter der zweihundert-Tage-Linie befindet. Das Finanzportal Investing.com Deutsch berichtet über Druck auf die Aktie wegen Sorgen um KI-Investitionen und einer Gewinnverfehlung. Auf der operativen Seite veranstaltete SK Hynix den ersten Partnertag in Japan, um die Geschäftsausrichtung mit wichtigen lokalen Partnern auszutauschen, und veröffentlichte technische Hinweise zur Nutzung von Siliziumphotonik und CPO als Autobahnen des Lichts, um Wartezeiten bei GPUs zu verringern. Laut TheStreet könnten Roboter den Speicherboom des Unternehmens über Jahre hinweg am Laufen halten.",
-   "id": "1f0a8ef79d",
-   "generated_at": "2026-10-31T08:01:54Z",
+   "text": "SK Hynix verzeichnete laut der US-Wirtschaftszeitung WSJ Blockbuster-Ergebnisse und plant eine Aktionärsrendite von fünfundsiebzig Milliarden Dollar, was zeigt, wie viel Kapital an Investoren zurückfliesst. Nach Berichten der Plattform Seeking Alpha ist das Unternehmen bis 2029 ausverkauft, während hohe Investitionsausgaben im Fokus stehen. Gleichzeitig geriet die Aktie zeitweise um über sieben Prozent unter Druck, belastet durch Sorgen um KI-Investitionen und eine mögliche Gewinnverfehlung, wie Investing.com Deutsch berichtet. Portale wie Finanzen.net thematisieren zudem die Frage, wie gefährlich Chinas Speicheroffensive für etablierte Speicherriesen wie Samsung und SK Hynix wird. Operativ veranstaltete SK Hynix seinen ersten Partnertag in Japan und veröffentlichte technische Hinweise dazu, wie Siliziumphotonik und CPO die Autobahnen des Lichts für GPUs bauen.",
+   "id": "49cc22f0d5",
+   "generated_at": "2026-10-31T10:50:57Z",
    "audio": {
     "file": "HY9H.MU.mp3",
-    "hash": "67676d37d15bd642",
-    "dur": 67.5,
-    "engine": "gemini"
+    "hash": "3c4eac4dcfb2adfc",
+    "dur": 66.2,
+    "engine": "edge"
    }
   },
   {
@@ -110,66 +110,66 @@
   {
    "symbol": "PLTR",
    "name": "Palantir",
-   "text": "Palantir steht aktuell stark im Fokus von Investoren und Analysten, da die Zahlen fuer das dritte Quartal kurz bevorstehen. Wie Berichte von Seeking Alpha zeigen, geht das Unternehmen mit robusten Nachfragesignalen in die Berichtssaison, obwohl am Markt vereinzelt Bewertungsbedenken geaussert werden. Plattformen wie Yahoo Finance verweisen zudem darauf, dass boersengehandelte Fonds Anteile zukaufen, waehrend der Kurs kurz vor einem wichtigen Wachstumstest steht. Konkrete rechtliche Probleme oder Risiken wurden in den vorliegenden Meldungen nicht genannt. Die Analysten zeigen sich im Vorfeld ueberwiegend zuversichtlich: JP Morgan hat die Beobachtung mit der Einstufung Uebergewichten und einem Kursziel von zweihundertzweiundsechzig Dollar neu aufgenommen und verweist auf die Rolle des Unternehmens als disruptiver KI-Marktfuehrer. Oppenheimer bestaetigte das Rating Besser als Markt und hob das Kursziel auf zweihundertfünfunddreissig Dollar an. Zurück zu Palantir: Rosenblatt bestaetigte die Kaufempfehlung mit einem Kursziel von zweihundertsechzig Dollar, waehrend Piper Sandler die Einstufung Uebergewichten bei einem Ziel von zweihunderteinunddreissig Dollar beibehielt. Die Citigroup erhoehte ihr Kursziel auf zweihundertfünfzig Dollar bei einem Kauf-Rating, und Mizuho zog mit einem Kursziel von zweihundertfünfundvierzig Dollar und der Einstufung Besser als Markt nach. Diese Anpassungen begruenden die Experten vor allem mit den starken Aussichten im Bereich der Kuenstlichen Intelligenz. Als zentrale Kennzahl wird ein anstehendes sequenzielles Umsatzwachstum von elf Komma sieben Prozent genannt, welches die Dynamik des Unternehmens im Kurzvergleich zum Vorquartal misst. Das mittlere Kursziel der Analysten wird mit rund zweihundertzwölf Dollar angegeben. Zu Transaktionen von Insidern oder Aussagen der Unternehmensleitung lagen in den aktuellen Meldungen keine Berichte vor.",
-   "id": "f2f5df006f",
-   "generated_at": "2026-10-31T07:12:07Z",
+   "text": "Palantir geht laut Berichten der Plattform Seeking Alpha mit starken Nachfragesignalen im Bereich der kuenstlichen Intelligenz in die bevorstehenden Quartalszahlen, während Bewertungsbedenken anhalten. Der US-Wirtschaftssender CNBC TV18 meldet, dass JPMorgan Palantir neu mit Uebergewichten einstuft und ein Kursplus von mehr als dreissig Prozent prognostiziert. Die britische Wirtschaftszeitung Financial Times weist darauf hin, dass Anleger Bedenken bezueglich der Bewertung sowie der Frage aeussern, wann sie ihr Geld zurueckbekommen. Weitere Analysten wie Oppenheimer mit einem Kursziel von zweihundertfünfunddreissig Dollar, Rosenblatt mit zweihundertsechzig Dollar, Piper Sandler mit zweihunderteinunddreissig Dollar, Citigroup mit zweihundertfünfzig Dollar und Mizuho mit zweihundertfünfundvierzig Dollar bewerten das Papier ebenfalls. Das durchschnittliche Kursziel von Analysten liegt laut Yahoo Finance bei zweihundertzwölf Dollar. Zurück zu Palantir: Exchange Traded Funds kaufen Anteile an Palantir, waehrend die Aktie laut boerse.de durch einen allgemeinen Tech-Ausverkauf unter die achtunddreissig-Tage-Linie geriet. Wichtige Kennzahlen zeigen zudem ein erwartetes sequenzielles Umsatzwachstum von +elf Komma sieben Prozent. Bei der Boersenaufsicht wurden Formular-vier-Meldungen unter anderem von Ryan D. Taylor, Shyam Sankar und David A. Glazer eingereicht.",
+   "id": "3e62682e72",
+   "generated_at": "2026-10-31T10:50:57Z",
    "audio": {
     "file": "PLTR.mp3",
-    "hash": "7ff16ec5ef9e6b80",
-    "dur": 127.2,
+    "hash": "7557d2e90d765438",
+    "dur": 94.8,
     "engine": "edge"
    }
   },
   {
    "symbol": "IBM",
    "name": "IBM",
-   "text": "IBM: Die Aktie von IBM verzeichnete im Jahr 2026 einen Kursrückgang von dreizehn Prozent, wie Yahoo Finance berichtet, was zu Fragen über die Sicherheit der Dividende führt. Auf der Produktseite hat IBM neue Sicherheitskontrollen und Funktionen für künstliche Intelligenz, wie etwa für KI-Agenten in der Hybrid-Cloud und das Management durch watsonx Orchestrate, vorgestellt. Zudem wurde die Partnerschaft mit der USTA um fünf Jahre verlängert. Der Analystenkonsens bei Yahoo Finance umfasst zwölf Kaufempfehlungen, elf Halteempfehlungen, zwei Verkaufsempfehlungen, drei starke Kaufempfehlungen und eins starke Verkaufsempfehlung bei einem durchschnittlichen Kursziel von zweihundertneunundfünfzig Dollar. Verschiedene Häuser wie Jefferies, Citigroup, Barclays, BMO Capital, UBS und Morgan Stanley haben Kursziele zwischen zweihundertvierzig und zweihundertachtzig Dollar ausgegeben, während Daiwa Securities eine neutrale Bewertung bekräftigte. Als Kennzahl ist neben dem Kursrückgang von dreizehn Prozent das durchschnittliche Kursziel von zweihundertneunundfünfzig Dollar relevant.",
-   "id": "bd210ff30b",
-   "generated_at": "2026-10-31T08:01:54Z",
+   "text": "IBM: IBM zeigt sich in den aktuellen Meldungen mit verschiedenen technologischen Neuerungen und Partnerschaften. Laut der Firma selbst wurden neue Sicherheitskontrollen und Funktionen für künstliche Intelligenz sowie KI-Agenten vorgestellt. Zudem wurde die langjährige Partnerschaft mit der USTA um fünf Jahre verlängert. Laut dem deutschen Börsenportal boerse.de wurde die Aktie im Rahmen des BOTSI-Advisors von Rang vierhundertachtzehn hochgestuft. Laut dem Finanzportal Yahoo Finance gehört das Unternehmen zu den dominierenden Akteuren im Bereich der mobilen Virtualisierung und ist im Markt für klinische Wissensgraphen aktiv. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Zu den Analysten-Bewertungen: Jefferies bestätigt die Einstufung als Kaufen und erhöht das Kursziel auf zweihundertachtzig Dollar. UBS bestätigt die neutrale Bewertung und erhöht das Kursziel auf zweihundertdreiundvierzig Dollar. Citigroup bestätigt Kaufen mit einem Kursziel von zweihundertachtzig Dollar. Morgan Stanley bestätigt Marktgewichten mit einem Kursziel von zweihundertvierzig Dollar. BMO Capital bestätigt die Einstufung wie der Markt und erhöht das Kursziel auf zweihundertfünfundsechzig Dollar. Barclays bestätigt Übergewichten mit einem Kursziel von zweihundertsiebenundsiebzig Dollar. Daiwa Securities bekräftigt laut MarketScreener eine neutrale Bewertung. Insgesamt bewerten Yahoo-Finance-Daten die Aktie mit fünfzehn Kaufen-Empfehlungen, drei starken Kaufempfehlungen, elf Halten-Empfehlungen, zwei Verkaufsempfehlungen und eins starken Verkaufsempfehlung. Das durchschnittliche Kursziel liegt bei rund zweihundertneunundfünfzig Dollar. Zurück zu IBM: Bei den Insider-Geschäften zeigt eine SEC-Meldung, dass Robert David Thomas als Senior Vice President fünfundzwanzigtausend Aktien im Wert von rund fünf Komma acht Millionen Dollar verkauft hat. Solche Insider-Verkäufe sagen oft weniger aus als Käufe, da Verkäufe häufig durch steuerliche Gründe oder persönliche Finanzplanungen motiviert sein können. Keine Anlageberatung.",
+   "id": "802d010518",
+   "generated_at": "2026-10-31T10:50:57Z",
    "audio": {
     "file": "IBM.mp3",
-    "hash": "80b84970333a2ba5",
-    "dur": 69.3,
-    "engine": "gemini"
+    "hash": "730c785a509b4a9f",
+    "dur": 148.1,
+    "engine": "edge"
    }
   },
   {
    "symbol": "OEF",
    "name": "iShares S&P 100 ETF",
-   "text": "iShares S&P 100 ETF: iShares S&P einhundert ETF: Der iShares S&P einhundert ETF gerät im Zuge eines sich verschärfenden Ausverkaufs im Technologiesektor in den Blickpunkt der Anleger, wie ein saisonales Renditediagramm auf dem Finanzportal Yahoo! Finance Canada zeigt. Belastend wirken dabei laut der Chart- und Börsenplattform TradingView schwache Gewinne bei Unternehmen wie Amazon und Intel sowie Sorgen um aufgeblähte Investitionsausgaben. Das Schweizer Finanzportal Cash warnt in diesem Zusammenhang vor einem verschärften Tech-Ausverkauf und sinkenden Futures, die die Märkte belasten. Als wichtige Kennzahl wird der aktuelle Kurs des iShares S&P einhundert ETF bei dreihundertdreiundsiebzig Dollar genannt.",
-   "id": "4cfc2aa3f7",
-   "generated_at": "2026-10-31T07:12:07Z",
+   "text": "iShares S&P 100 ETF: Herzlich willkommen zum Finanz-Podcast. Wir blicken heute auf die aktuellen Entwicklungen rund um den iShares S&P einhundert ETF. Laut dem Schweizer Finanzportal Cash verschärft sich der Ausverkauf im Technologiesektor an der New Yorker Börse wegen Amazon und Intel. Zudem meldet das Finanzportal Yahoo! Finance Canada ein saisonales Renditediagramm für den iShares S&P einhundert ETF. Als aufwertender Punkt für den Fonds wird das genannte saisonale Renditediagramm aufgeführt, während der erwähnte Tech-Ausverkauf wegen Amazon und Intel als abwertender Faktor wirkt. Als wichtige Kennzahl wird der Aktienkurs von dreihundertdreiundsiebzig Dollar genannt, welcher den aktuellen Marktwert an der Börse anzeigt.",
+   "id": "dbd6602653",
+   "generated_at": "2026-10-31T10:50:57Z",
    "audio": {
     "file": "OEF.mp3",
-    "hash": "8ded762e6cd20352",
-    "dur": 51.1,
+    "hash": "f46e99a49487e887",
+    "dur": 54.2,
     "engine": "edge"
    }
   },
   {
    "symbol": "NOW",
    "name": "ServiceNow",
-   "text": "ServiceNow stand zuletzt stark im Fokus der Maerkte, nachdem das Unternehmen seine Finanzergebnisse fuer das dritte Quartal 2026 vorgelegt hatte. Laut Berichten von Barron's geriet das Papier stark unter Druck, da eine wichtige Umsatzkennzahl unterschritten wurde und Sorgen vor KI-Stoerungen aufkamen. In den vorliegenden Meldungen wurden Risiken und rechtliche Probleme gefunden, darunter eine Ankuendigung von SueWallSt ueber anstehende Untersuchungen sowie Berichte ueber historische Kursverluste und gesenkte Fair-Value-Schaetzungen durch Morningstar. Die Analystenbewertungen zeigen ein gemischtes Bild: Macquarie bestaetigte das neutrale Rating und erhoehte das Kursziel auf einhundertzwanzig Dollar, waehrend RBC Capital das Kursziel auf einhundertfünfundsechzig Dollar senkte. JP Morgan erhoehte das Kursziel auf einhundertsechzig Dollar, und Citigroup sowie StoneX senkten ihre Kursziele auf einhundertsiebenundfünfzig Dollar beziehungsweise einhundertfünfzig Dollar. Zurück zu ServiceNow: Die UBS passte ihr Kursziel ebenfalls nach unten auf einhundertvierzig Dollar an. Zurueck zu ServiceNow gibt es auch operative Neuigkeiten. So hat Hewlett Packard Enterprise ServiceNow ausgewaehlt, um die Supportdienste fuer das Cloud- und KIGeschaeft zu transformieren. Zudem startete das Unternehmen die Control Tower Alliance, erweiterte Kooperationen mit OpenAI und Google Cloud und integrierte Stagwell auf der KI-Plattform. Wichtige Kennzahlen zeigen ein durchschnittliches Analysten-Kursziel von rund einhundertvierundfünfzig Dollar.",
-   "id": "a6894f850d",
-   "generated_at": "2026-10-31T05:54:42Z",
+   "text": "ServiceNow: Die Aktie des Technologieunternehmens geriet nach der Vorlage der Geschäftsergebnisse für das dritte Quartal stark unter Druck und verzeichnete einen massiven Kursrückgang, wie unter anderem CNBC und das Finanzmagazin Barron's berichten. Laut Barron's fiel dabei eine wichtige Umsatzkennzahl niedriger aus als erwartet. In den vorliegenden Meldungen wurden Risiken und rechtliche Probleme gefunden: PR Newswire meldet, dass SueWallSt eine Untersuchung gegen ServiceNow angekündigt hat. Auf der operativen Seite gab es jedoch auch positive Meldungen. Laut dem ServiceNow Newsroom wurde das Unternehmen von HPE ausgewählt, um die Supportdienste für das Cloud- und KI-Geschäft zu transformieren. Zudem startete ServiceNow die Control Tower Alliance und kooperiert mit OpenAI sowie Google Cloud im Bereich der künstlichen Intelligenz. Demgegenüber berichtet das Wirtschaftsmagazin Fortune, dass das Konkurrenzunternehmen Serval frisches Kapital in Höhe von rund einhundertfünfzig Millionen Dollar aufgenommen hat, um ServiceNow herauszufordern. Bei den Analystenbewertungen zeigt sich ein gemischtes Bild. Yahoo Finance weist einen Konsens aus zahlreichen Kauf- und wenigen Halte- sowie Verkaufsempfehlungen aus. Das durchschnittliche Kursziel liegt bei rund einhundertvierundfünfzig Dollar, was ein Aufwärtspotenzial von rund siebenundvierzig Prozent impliziert. Die UBS bestätigte ihre neutrale Einstufung und senkte das Kursziel auf einhundertvierzig Dollar. JP Morgan bestätigte die Übergewichtung mit einem Kursziel von einhundertsechzig Dollar, während Macquarie die Einstufung neutral bei einem Kursziel von einhundertzwanzig Dollar beliess. Citigroup passte das Kursziel auf einhundertsiebenundfünfzig Dollar an und StoneX auf einhundertfünfzig Dollar. Morningstar senkte zudem die Fair-Value-Schätzung, da Nuancen die Prognose beeinträchtigen. Zu den Insider-Aktivitäten zeigen die Pflichtmeldungen bei der Börsenaufsicht SEC verschiedene Verkäufe. So veräusserte Paul Fipps Aktien im Wert von rund dreihunderttausendsiebenhundertsiebenundsiebzig Dollar, Jacqueline P Canney Aktien im Wert von rund eins Komma eins Millionen Dollar im Rahmen eines Plans, und Paul Edward Chamberlain verkaufte Aktien im Wert von rund dreihundertfünfundsechzigtausendachthunderteinundfünfzig sowie rund einhundertachtundachtzigtausendvierhundert Dollar. Generell sind Insider-Verkäufe oft weniger aussagekräftig als Käufe, da sie beispielsweise steuerlich motiviert oder langfristig geplant sein können. Zurück zu ServiceNow: In den Meldungen wurden widersprüchliche Analystenstimmen laut, da die kanadische Tageszeitung The Globe and Mail sowohl eine neue Kaufempfehlung als auch eine neue Verkaufsempfehlung für den Technologieriesen veröffentlichte. Keine Anlageberatung.",
+   "id": "85cfc51f41",
+   "generated_at": "2026-10-31T10:50:57Z",
    "audio": {
     "file": "NOW.mp3",
-    "hash": "93c96cd122ac8f95",
-    "dur": 106.8,
+    "hash": "3ea2a2bac769d47b",
+    "dur": 192.4,
     "engine": "edge"
    }
   },
   {
    "symbol": "META",
    "name": "Meta Platforms",
-   "text": "Meta Platforms: Bei Meta Platforms hat S&P Global den Bonitaetsaussblick wegen hoher KI-Ausgaben und Cashflow-Sorgen auf negativ herabgestuft, wie Yahoo Finance und Investing.com berichten. Ausserdem sind Meta Platforms, TikTok und X mit einer Klage gegen britische Online-Sicherheitsregeln gescheitert, und der zunehmende Druck in Grossbritannien und Frankreich führt dazu, dass Meta KI-Datenbedingungen verzoegert. Barron's berichtet zudem, dass die Aktien nach dem vollstaendigen Verlust des Muse-Vorstosses in Zukunft staerker unter Druck geraten koennten. Zurück zu Meta Platforms: Die UBS bewertet Meta mit Kaufen und einem Kursziel von achthundertzweiundneunzig Dollar, die Citigroup mit Kaufen und neunhundertfünf Dollar sowie DA Davidson mit Kaufen und achthundert Dollar. BMO Capital bewertet mit Wie der Markt und sechshundertfünfundachtzig Dollar, die Evercore ISI Group mit Besser als Markt und achthundertsiebzig Dollar sowie Mizuho mit Besser als Markt und neunhundertfünfzig Dollar. Meta arbeitet mit INCA in Kanada zusammen, um blinde, taubblinde oder sehbehinderte Menschen zu unterstuetzen, und kooperiert mit fuenf US-Universitaeten, um medizinische und wissenschaftliche Durchbrueche zu beschleunigen. Das durchschnittliche Kursziel liegt laut Yahoo Finance bei achthundertachtundvierzig Dollar, mit einem Hoechstwert von eintausendfünfzig Dollar und einem Tiefstwert von sechshundertneunundzwanzig Dollar.",
-   "id": "1d89686cb3",
-   "generated_at": "2026-10-31T08:01:54Z",
+   "text": "Meta Platforms: Bei Meta Platforms hat S&P Global den Kreditrating-Ausblick laut TradingView auf negativ herabgestuft, was auf Sorgen zu künstlicher Intelligenz und dem Cashflow zurückzuführen ist. Gleichzeitig verzeichnete die Aktie Debatten über Künstliche Intelligenz und die Finanzierung, während der KI-Agent Muse in Singapur eingeführt wurde und Partnerschaften eingegangen wurden. Regulatorische Sorgen bezüglich des Datenschutzes in Grossbritannien und Frankreich sowie die Herabstufung des Bonitätsausblicks durch S&P Global bilden dabei wichtige Rahmenbedingungen. Laut Yahoo Finance liegt das durchschnittliche Kursziel von insgesamt achtundfünfzig Analysten bei achthundertachtundvierzig Dollar, wobei das höchste Ziel bei eintausendfünfzig Dollar und das tiefste bei sechshundertneunundzwanzig Dollar liegt. Das Konsensrating besteht aus neun starken Kaufempfehlungen, fünfundfünfzig Käufen, sechs Halteempfehlungen und eins Verkaufsempfehlung. Die UBS bestätigt ihre Einstufung auf Kaufen mit einem Kursziel von achthundertzweiundneunzig Dollar. Die Citigroup bestätigt ihre Einstufung auf Kaufen mit einem Kursziel von neunhundertfünf Dollar. Zurück zu Meta Platforms: DA Davidson bestätigt ihre Einstufung auf Kaufen mit einem Kursziel von achthundert Dollar. BMO Capital bestätigt ihre Einstufung als Wie der Markt mit einem Kursziel von sechshundertfünfundachtzig Dollar. Die Evercore ISI Group bestätigt ihre Einstufung als Besser als Markt mit einem Kursziel von achthundertsiebzig Dollar. Mizuho bestätigt ihre Einstufung als Besser als Markt mit einem Kursziel von neunhundertfünfzig Dollar. Das Unternehmen arbeitet zudem mit fünf US-Universitäten zusammen, um medizinische und wissenschaftliche Durchbrüche zu beschleunigen. Der persönliche KI-Agent Muse ist nun in Singapur erhältlich und es gibt Kooperationen zur Unterstützung von Menschen mit Sehbehinderungen in Kanada. Als abwertend gilt jedoch, dass Meta KI-Datenbedingungen verzögert, da der Druck in Grossbritannien und Frankreich zunimmt. Zu den Widersprüchen berichten Medien unterschiedlich über den Erfolg des KI-Agenten Muse; während The Globe and Mail von einem bahnbrechenden Erfolg spricht, warnt Barron's, dass Meta seinen Muse-Vorstoss vollständig zurückgegeben hat und die Aktien stärker unter Druck geraten könnten.",
+   "id": "533daaef77",
+   "generated_at": "2026-10-31T10:50:57Z",
    "audio": {
     "file": "META.mp3",
-    "hash": "136031151a0723a0",
-    "dur": 83.3,
-    "engine": "gemini"
+    "hash": "eda2a951a1fb11ae",
+    "dur": 154.9,
+    "engine": "edge"
    }
   },
   {
@@ -188,13 +188,13 @@
   {
    "symbol": "MRVL",
    "name": "Marvell Technology",
-   "text": "Marvell Technology steht laut Yahoo Finance in fortgeschrittenen Gesprächen über eine mögliche Übernahme des Laserlieferanten Lumentum. Die Aktie geriet im Zuge dieser Übernahmegerüchte stark unter Druck und verzeichnete deutliche Kursrückgänge. Anleger äusserten Bedenken hinsichtlich möglicher Verwässerungseffekte und einer potenziellen Überzahlung für den Deal. Yahoo Finance meldet dreiundvierzig Kaufen-, neun Stark-Kaufen- und vier Halten-Empfehlungen für die Aktie. Das durchschnittliche Kursziel der Analysten liegt bei dreihunderteinundvierzig Dollar mit einem Höchstwert von vierhundertfünfzig Dollar und einem Tiefstwert von zweihundertdreissig Dollar. Die UBS nennt ein Kursziel von dreihundertfünfzig Dollar, Jefferies von vierhundertfünfzig Dollar, JP Morgan von dreihundertsechzig Dollar, Wells Fargo von dreihundertfünfundsechzig Dollar, Wolfe Research von dreihundertfünfundsiebzig Dollar und Morgan Stanley von dreihundert Dollar. Investoren befürchten bei dem kolportierten Lumentum-Deal eine starke Überzahlung und Verwässerungseffekte, was zu Kursverlusten der Aktie führte.",
-   "id": "bfae8489af",
-   "generated_at": "2026-10-31T08:01:54Z",
+   "text": "Marvell Technology steht im Fokus der Finanzmärkte, nachdem Berichte über mögliche Übernahmegespräche die Runde machten. Laut Bloomberg.com, einem US-Finanznachrichtendienst, steht das Unternehmen im Zentrum von Übernahmegesprächen bezüglich des Unternehmens Lumentum. Yahoo Finance, ein Finanzportal, das Meldungen und Analystenbewertungen bündelt, meldete jedoch, dass die Aktie im Zuge dieser Nachrichten und Sorgen über die Ausgaben von Hyperscalern stark unter Druck geraten ist. Wallstreet Online, ein deutsches Börsenportal, berichtet dazu, dass die Aktie deutliche Kursverluste verzeichnete, unter die einhundert-Tage-Linie rutschte und binnen eines Monats ein Viertel an Wert verlor. Hinsichtlich der Analystenbewertungen gibt es zahlreiche Einschätzungen: Die UBS stufte das Unternehmen mit Kaufen ein und setzte das Kursziel auf dreihundertfünfzig Dollar. Jefferies bestätigte ebenfalls das Rating Kaufen mit einem Kursziel von vierhundertfünfzig Dollar. JP Morgan bewertet die Aktie mit Übergewichten bei einem Kursziel von dreihundertsechzig Dollar, während Wells Fargo ebenfalls mit Übergewichten und einem Kursziel von dreihundertfünfundsechzig Dollar gewertet wird. Wolfe Research nennt ein Kursziel von dreihundertfünfundsiebzig Dollar und Morgan Stanley führt die Aktie mit Marktgewichten bei dreihundert Dollar. Das durchschnittliche Kursziel von vierundvierzig Analysten liegt bei dreihunderteinundvierzig Dollar mit einem prognostizierten Aufwärtspotenzial von dreiundsiebzig Komma vier Prozent. Zurück zu Marvell Technology: Das Unternehmen treibt seine Positionierung durch mögliche Transaktionen im Technologiebereich voran, wobei Berichte über geplante milliardenschwere Zukäufe bei Anlegern auch Verwässerungssorgen auslösten.",
+   "id": "932703072d",
+   "generated_at": "2026-10-31T10:50:57Z",
    "audio": {
     "file": "MRVL.mp3",
-    "hash": "b13a8b29123a89f1",
-    "dur": 73.8,
+    "hash": "1a9f6e07ce051d29",
+    "dur": 118.2,
     "engine": "edge"
    }
   },
@@ -279,13 +279,13 @@
   {
    "symbol": "BE",
    "name": "Bloom Energy",
-   "text": "Bloom Energy steht in den aktuellen Berichten im Fokus nach der Aufnahme in den S&P fünfhundert Index und den jüngsten Quartalszahlen. Laut The Globe and Mail, einer kanadischen Tageszeitung, stieg das Unternehmen mit einem fast vierhundert-fachen Gewinn in den Index ein. Quiver Quantitative meldet einen Kursrückgang von sieben Komma eins Prozent, da Cashflow-Bedenken das Rekordquartal überschatteten, was auch von Portalen wie Investing.com UK aufgegriffen wird. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden, abgesehen von genannten Cashflow-Sorgen. Analysten äussern sich überwiegend positiv. Laut Yahoo Finance Singapore empfehlen fünf Analysten die Aktie stark zu kaufen, fünfzehn raten zum Kauf, zwölf zum Halten, zwei zum Verkaufen und einer zum starken Verkaufen. Das mittlere Kursziel liegt bei rund zweihundertfünfundachtzig Dollar. Zurück zu Bloom Energy: Die Citigroup bestätigte ihre neutrale Einschätzung und erhöhte das Kursziel auf zweihundertvierundachtzig Dollar, wie MarketScreener Deutschland berichtet. Barclays bestätigte die Einstufung als Marktgewichten und hob das Kursziel auf dreihundertsechzehn Dollar an. Wells Fargo bestätigte ebenfalls die Einstufung als Marktgewichten mit einem Ziel von einhundertzweiundachtzig Dollar. JP Morgan bestätigte die Übergewichtung, senkte das Kursziel jedoch auf zweihundertzweiundneunzig Dollar. RBC Capital bestätigte das Rating Besser als Markt mit einem Kursziel von dreihundertfünfunddreissig Dollar, während Keybanc die Sektorgewichtung bestätigte. Was die Firma gerade macht, zeigt sich an der jüngsten Aufnahme in den S&P fünfhundert Index, was laut The Globe and Mail für das Unternehmen spricht. Demgegenüber stehen die von Quiver Quantitative erwähnten Cashflow-Sorgen, die den Kurs belasten. Als wichtige Kennzahlen sind der Kursrückgang von sieben Komma eins Prozent und das durchschnittliche Analysten-Kursziel von rund zweihundertfünfundachtzig Dollar zu nennen.",
-   "id": "2f0e0fca91",
-   "generated_at": "2026-10-31T07:12:07Z",
+   "text": "Bloom Energy: Zum Einstieg blicken wir auf die wichtigsten Entwicklungen. Laut Quiver Quantitative fiel die Aktie von Bloom Energy um sieben Komma eins Prozent, da Cashflow-Bedenken ein Rekordquartal überschatteten. Die kanadische Tageszeitung The Globe and Mail berichtet, dass Bloom Energy mit einem fast vierhundert-fachen Gewinn in den S-und-P-fünfhundert-Index aufstieg. Laut boerse.de rutschte die Aktie zudem unter die zweihundert-Tage-Linie. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Bei den Analystenbewertungen gibt es verschiedene Einschätzungen. Die Citigroup bestätigte ihre neutrale Einstufung und erhöhte das Kursziel auf zweihundertvierundachtzig Dollar. Barclays bestätigte die Einstufung Marktgewichten mit einem Kursziel von dreihundertsechzehn Dollar. Wells Fargo bestätigte ebenfalls die Marktgewichtung bei einem Kursziel von einhundertzweiundachtzig Dollar. JP Morgan bestätigte die Übergewichtung und senkte das Kursziel auf zweihundertzweiundneunzig Dollar. RBC Capital bestätigte die Einschätzung Besser als Markt und beliess das Kursziel bei dreihundertfünfunddreissig Dollar. Zurück zu Bloom Energy: Das Unternehmen verzeichnete ein Rekordquartal, das jedoch von Cashflow-Bedenken überschattet wurde, während Stock Titan meldet, dass Vanguard eine passive Beteiligung mit Stimmrechten über fast drei Millionen Aktien aufgebaut hat. Zu den wichtigen Kennzahlen gehört das durchschnittliche Kursziel der Analysten von rund zweihundertvierundachtzig Dollar sowie das hohe Kursziel von dreihundertachtzig Dollar und das tiefe Kursziel von einhundertzwei Dollar.",
+   "id": "dc47826dea",
+   "generated_at": "2026-10-31T10:50:57Z",
    "audio": {
     "file": "BE.mp3",
-    "hash": "5eee1f196bfde5dd",
-    "dur": 138.0,
+    "hash": "083465109c2176b4",
+    "dur": 111.3,
     "engine": "edge"
    }
   },
@@ -383,13 +383,13 @@
   {
    "symbol": "BRK-B",
    "name": "Berkshire Hathaway",
-   "text": "Berkshire Hathaway schliesst laut TradingView eine weitere Investition in Höhe von dreihundertdreissig Millionen Dollar in Bending Spoons ab. Gleichzeitig berichtet Investing.com, dass sich das Unternehmen von DaVita-Aktien im Wert von rund neunundsechzig Millionen Dollar trennt. Zudem meldet scanx.trade eine Reduzierung des Kroger-Anteils um zweiundzwanzig Prozent auf neununddreissig Millionen Aktien. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Zu den Analystenbewertungen teilt Yahoo Finance mit, dass das durchschnittliche Kursziel bei fünfhundertsechsundfünfzig Dollar liegt und ein Aufwärtspotenzial von zwei Komma vier Prozent aufweist. Die UBS hat ihre Einstufung mit Kaufen bestätigt und das Kursziel auf sechshundertachtundzwanzig Dollar erhöht. Zurück zu Berkshire Hathaway: Analysten von Yahoo Finance gehen zudem davon aus, dass Berkshire Hathaway einen Gewinnrückgang vermelden wird. Was die Firma gerade macht, zeigt sich an der Investition in Bending Spoons, die aufwertend wirkt, während die Verkäufe bei DaVita und Kroger als abwertend eingestuft werden können. Bei den Kennzahlen wird das durchschnittliche Kursziel von fünfhundertsechsundfünfzig Dollar als wichtiger Wert hervorgehoben, da es die Analystenerwartungen zusammenfasst. Bei den Insider-Aktivitäten meldet Investing.com, dass der Grossaktionär Berkshire Hathaway Inc. Aktien im Wert von rund neunundsechzig Millionen Dollar verkauft hat. Bei Berkshire Hathaway stellt das Cantech Letter die Frage, ob Greg Abels Berkshire Hathaway eine Investition wert ist, was bedeuten könnte, dass Anleger die Performance unter seiner Führung genau prüfen.",
-   "id": "845aea5880",
-   "generated_at": "2026-10-31T07:12:07Z",
+   "text": "Berkshire Hathaway: Laut TradingView hat Berkshire Hathaway eine weitere Investition in Höhe von rund dreihundertdreissig Millionen Dollar in Bending Spoons abgeschlossen. Ausserdem berichtet Investing.com, dass Berkshire Hathaway DaVita-Aktien im Wert von rund neunundsechzig Millionen Dollar verkauft hat, während scanx.trade meldet, dass der Kroger-Anteil um zweiundzwanzig Prozent auf neununddreissig Millionen Aktien reduziert wurde. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Zu den Analysten-Bewertungen: Die UBS hat ihre Kaufempfehlung bestätigt und das Kursziel auf sechshundertachtundzwanzig Dollar erhöht. Yahoo Finance berichtet zudem, dass Analysten mit einem Gewinnrückgang rechnen. Zurück zu Berkshire Hathaway: Die Firma tätigt Beteiligungen, wie etwa die genannte Finanzierung für Bending Spoons, reduziert aber gleichzeitig Bestände wie bei DaVita und Kroger. Boersen.de meldet zudem eine Hochstufung im BOTSI-Advisor. Zu den wichtigen Kennzahlen liegt das durchschnittliche Kursziel der Analysten bei rund fünfhundertsechsundfünfzig Dollar, während das höchste Ziel bei sechshundertachtundzwanzig Dollar und das tiefste bei fünfhundertzehn Dollar verzeichnet wird. Bei den Insider- und Grossaktionärstransaktionen meldet die SEC unter anderem einen Verkauf von Berkshire Hathaway im Wert von rund neunundsechzig Millionen Dollar sowie einen Verkauf von Verwaltungsrat Ajit Jain im Wert von rund zwanzig Millionen Dollar. Bei Berkshire Hathaway stellt sich laut dem Cantech Letter die Frage, ob das Unternehmen unter der Führung von Chef Greg Abel eine gute Investition darstellt.",
+   "id": "90a1590feb",
+   "generated_at": "2026-10-31T10:50:57Z",
    "audio": {
     "file": "BRK-B.mp3",
-    "hash": "935f5b2c1b80b9d8",
-    "dur": 114.7,
+    "hash": "f8c740872dc1baa1",
+    "dur": 113.9,
     "engine": "edge"
    }
   },
@@ -487,13 +487,13 @@
   {
    "symbol": "MU",
    "name": "Micron Technology, Inc.",
-   "text": "Micron Technology, Inc.: Micron Technology geriet zuletzt stark unter Beobachtung, nachdem der Kurs unter die wichtige Marke der einhundert-Tage-Linie fiel und Verluste verzeichnete. Belastet wurde die Aktie gemass Berichten von Barron's durch starke Ergebnisse von Branchenkollegen wie Samsung, die die Messlatte fur die gesamte Branche sehr hoch legen, sowie durch einen schwachen Ausblick von Intel im PC-Bereich. Trotz dieser Rucksetzer sehen einige Marktbeobachter das Kurs-Gewinn-Verhältnis im Vergleich zu den erwarteten zukünftigen Gewinnen als durchaus attraktiv an. Bei den Analysten-Bewertungen zeigt sich ein uberwiegend positives Bild: Das durchschnittliche Kursziel der Experten liegt bei eintausendfünfhundertzweiundsechzig Dollar, wobei Hauser wie Rosenblatt, Needham, DA Davidson, Mizuho und Morgan Stanley positive Einschatzungen wie Kaufen oder Übergewichten äussern und Kursziele bis zu dreitausend Dollar ausrufen. Positiv wertet der Markt zudem, dass das Unternehmen zu einer der zehn grössten Beteiligungen in S&P fünfhundert-Indexfonds aufgestiegen ist, während die jüngsten Kursverluste und die branchenweiten Sorgen als Belastungsfaktoren wirken.",
-   "id": "044889f2e1",
-   "generated_at": "2026-10-31T07:12:07Z",
+   "text": "Micron Technology, Inc.: Die Aktie des Speicherchip-Spezialisten Micron Technology geriet zuletzt stark unter Druck und fiel laut boerse.de unter ihre einhundert-Tage-Linie. Wie das US-Finanzmagazin Barron's berichtet, setzen starke Gewinne bei Branchenkonkurrenten wie Samsung die Messlatte für Speicheraktien sehr hoch. Ausserdem sorgen steigende Speicherpreise und Warnungen vor einer drohenden Speicherknappheit laut Yahoo Finance im Sektor für Diskussionen über die Nachhaltigkeit des Booms. Als Belastungsfaktor für Chip-Aktien insgesamt wird zudem ein schwacher PC-Ausblick von Intel genannt. Analysten blicken überwiegend positiv auf die Aktie: Rosenblatt stuft sie mit Kaufen und einem Kursziel von eintausendneunhundert,null USD ein, Needham nennt ein Kursziel von eintausendsechshundertfünfzig,null USD, DA Davidson setzt das Ziel auf dreitausend,null USD, Mizuho bewertet sie mit Besser als Markt bei einem Kursziel von eintausendvierhundert,null USD, und Morgan Stanley führt die Aktie mit Übergewichten und einem Kursziel von eintausendzweihundert,null USD. Zurück zu Micron Technology, Inc.: Im Durchschnitt ergibt sich daraus ein Kursziel der Analysten von eintausendfünfhunderteinundsechzig,einundneunzig USD. Positiv werten Beobachter, dass Micron zu einer der zehn grössten Beteiligungen in S&P fünfhundert-Indexfonds aufstieg, während die Aktie seit dem letzten Gewinnbericht einen merklichen Rückgang verzeichnete. Als wichtige Kennzahl wird das Kurs-Gewinn-Verhältnis auf Basis erwarteter Gewinne genannt, das unter dem sechs-Fachen liegt. Zu den Insider-Aktivitäten zeigen offizielle SEC-Meldungen, dass der leitende Technik- und Produktchef Scott J. Deboer am sechzehnten Oktober 2026 planmässig achtundzwanzigtausendfünfhundertfünfundvierzig Aktien im Wert von rund fünfundzwanzig Komma sieben Millionen Dollar verkaufte und Chef-Jurist Michael Charles Ray am vierzehnten Oktober 2026 ebenfalls im Rahmen eines geplanten Verkaufs Aktienpakete im Wert von rund siebenunddreissigtausendachthundertzweiundneunzig Dollar sowie rund fünf Komma acht Millionen Dollar veräusserte.",
+   "id": "19e9764df5",
+   "generated_at": "2026-10-31T10:50:57Z",
    "audio": {
     "file": "MU.mp3",
-    "hash": "3194b5b68402b8e7",
-    "dur": 76.3,
+    "hash": "58202f666e89d22f",
+    "dur": 145.7,
     "engine": "edge"
    }
   },
@@ -524,5 +524,5 @@
   "dur": 10.2,
   "engine": "edge"
  },
- "audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@96ab856e4d240298fc9abe00852aa13571177ae3/data/audio/"
+ "audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@fa2ea1ab7fd7780bc069b7ad9d07aaca066907c4/data/audio/"
 }
