@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T23:56:38Z",
+ "generated_at": "2026-10-31T01:28:13Z",
  "intro": "Willkommen beim Aktien-Radar, deinem Überblick über die neuesten Meldungen. Heute geht es um 39 Aktien aus deiner Liste. Alles stammt aus den gesammelten Meldungen und Analystendaten, nichts ist erfunden. Keine Anlageberatung.",
  "outro": "Das war der Aktien-Radar-Überblick. Die Quellen und Details findest du in der App bei jeder Aktie. Keine Anlageberatung.",
  "segments": [
@@ -266,14 +266,14 @@
   {
    "symbol": "WNRG.SW",
    "name": "SPDR MSCI World Energy ETF",
-   "text": "SPDR MSCI World Energy ETF: In der aktuellen Berichterstattung stehen verschiedene Fonds und deren saisonale sowie sektorale Einbettungen im Vordergrund. Laut Yahoo! Finance Canada, einem Finanzportal, welches Meldungen und Analystenbewertungen bündelt, wird über ein saisonales Renditediagramm zum Xtrackers MSCI World Health Care UCITS ETF berichtet. Ausserdem meldet Yahoo Finance UK, ebenfalls ein Finanzportal für Meldungen und Analystenbewertungen, ein saisonales Renditediagramm für den Xtrackers MSCI World Information Technology UCITS ETF. Zusätzlich informiert TradingView, eine Chart- und Börsenplattform, über ETFs, die in Aktien von Suncor Energy Inc. investieren, sowie über Fonds mit Anlagen in Imperial Oil Limited und Serica Energy PLC-Aktien. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Zurück zu SPDR MSCI World Energy ETF: Es liegen aktuell keine Analysten-Bewertungen oder nennenswerten Kennzahlen ausser dem Kurs von rund fünfundachtzig Komma sieben neun Dollar vor. Wichtige Kennzahlen wie der aktuelle Kurs geben an, zu welchem Preis die Aktie gehandelt wird, was für die Einordnung wichtig ist. Insider-Käufe oder Verkäufe wurden in den Berichten nicht erwähnt. Aussagen von Chefs oder dem Management liegen ebenfalls nicht vor. Widersprüche zwischen den verschiedenen Quellen wurden nicht festgestellt. Keine Anlageberatung.",
-   "id": "1f997e2a3e",
-   "generated_at": "2026-10-30T20:02:17Z",
+   "text": "SPDR MSCI World Energy ETF: Beim SPDR MSCI World Energy ETF gibt es derzeit keine spezifischen Unternehmensmeldungen oder Analystenbewertungen. Finanzportale wie Yahoo Finance Canada und Yahoo Finance UK berichten lediglich über allgemeine saisonale Renditediagramme für andere Sektoren wie das Gesundheitswesen oder die Technologiebranche. Die Plattform TradingView weist darauf hin, dass verschiedene börsengehandelte Fonds in Unternehmen aus dem Energiesektor investieren, darunter Suncor Energy, Imperial Oil und Serica Energy. Der aktuelle Kurs des ETFs wird mit fünfundachtzig Komma sieben neun Dollar angegeben. Es liegen keine Informationen zu Insider-Transaktionen oder Aussagen der Geschäftsführung vor, und es wurden keine spezifischen Risiken identifiziert. Dies stellt keine Anlageberatung dar.",
+   "id": "57afe3c092",
+   "generated_at": "2026-10-31T01:18:31Z",
    "audio": {
     "file": "WNRG.SW.mp3",
-    "hash": "ffe4b9616209e6f1",
-    "dur": 98.0,
-    "engine": "edge"
+    "hash": "6aa96ab7133f4891",
+    "dur": 51.3,
+    "engine": "gemini"
    }
   },
   {
@@ -396,13 +396,13 @@
   {
    "symbol": "0VR3.L",
    "name": "ZKB Gold ETF",
-   "text": "ZKB Gold ETF: Der Goldpreis ist unter Druck geraten und erreichte laut MarketWatch den niedrigsten Stand seit einem Jahr. Wie Yahoo Finance berichtet, fiel der Preis unter die Marke von viertausend Dollar, während Kitco sogar ein Jahrestief von unter dreitausendneunhundert Dollar meldet, was unter anderem auf die Sorgen um den Nahen Osten und steigende Ölpreise zurückzuführen ist. Aktuell wird der Goldpreis laut Wallstreet Online mit dreitausendneunhundertzweiundachtzig,dreiundneunzig Dollar notiert. Hinsichtlich der weiteren Aussichten herrscht unter Analysten Uneinigkeit: Laut FXStreet prognostiziert ein Experte eine Erholung, während ein anderer von weiterer Schwäche ausgeht.",
-   "id": "2c7482ecb6",
-   "generated_at": "2026-10-30T22:39:14Z",
+   "text": "ZKB Gold ETF: Der Goldpreis steht unter Druck und ist auf den niedrigsten Stand seit einem Jahr gefallen. Wie das US-Finanznachrichtenportal MarketWatch und Yahoo Finance berichten, ist der Preis für das Edelmetall unter die Marke von viertausend Dollar gerutscht. Das deutsche Börsenportal Wallstreet Online beziffert den aktuellen Stand auf dreitausendneunhundertzweiundachtzig,dreiundneunzig US-Dollar. Für den ZKB Gold ETF liegen derzeit keine spezifischen Analystenbewertungen, Insider-Transaktionen oder Aussagen von Führungskräften vor. Die Berichterstattung konzentriert sich ausschliesslich auf die allgemeine Schwäche des Goldpreises, die trotz geopolitischer Spannungen im Nahen Osten zu beobachten ist. Es wurden keine rechtlichen Probleme oder spezifischen Risiken für das Produkt gemeldet. Bitte beachten Sie, dass dies keine Anlageberatung ist.",
+   "id": "d517a62a90",
+   "generated_at": "2026-10-31T01:18:31Z",
    "audio": {
     "file": "0VR3.L.mp3",
-    "hash": "b9d0391e5ac490be",
-    "dur": 46.1,
+    "hash": "5896d997fddedd90",
+    "dur": 59.3,
     "engine": "edge"
    }
   },
@@ -422,13 +422,13 @@
   {
    "symbol": "UBSG.SW",
    "name": "UBS Group",
-   "text": "UBS Group: Die vorliegenden Berichte und Daten zur Aktie der UBS Group bieten ein aktuelles Bild der Lage an den Maerkten. Laut SEC EDGAR, einer Pflichtmeldung bei der US-Boersenaufsicht SEC, wurde eine Mitteilung einer auslaendischen Firma veroeffentlicht. Gemaess Finanzen.ch, einem Schweizer Finanzportal, notierte die Aktie der UBS Group am Nachmittag leichter. Zudem bewertet die DZ BANK die Aktie mit Kaufen. In den vorliegenden Meldungen wurden keine Risiken gefunden. Der Analystenkonsens laut Yahoo Finance, einem Finanzportal, welches Meldungen und Analystenbewertungen buendelt, umfasst insgesamt siebzehn Analysten mit sieben Kaufempfehlungen, acht Halten-Einstufungen, zwei Verkaufsempfehlungen, zwei starken Kaufempfehlungen sowie einer starken Verkaufsempfehlung. Das durchschnittliche Kursziel liegt bei vierundfünfzig Komma drei neun Dollar, waehrend das hoechste Kursziel bei zweiundsiebzig Komma neun eins Dollar und das tiefste Kursziel bei einundvierzig Komma drei Dollar verortet wird, woraus sich ein Aufwaertspotenzial von vierzehn Komma eins Prozent errechnet. Zurück zu UBS Group: Zuraeck zu UBS Group: Die Firma selbst und verschiedene Portale berichten ueber unterschiedliche Entwicklungen. Laut Yahoo Finance haelt die UBS an ihrem Kursziel fest, obwohl Gold abstuerzt. Gemaess The Globe and Mail, einer kanaedischen Tageszeitung, zeigen sich Analysten optimistisch hinsichtlich Finanzwerten wie der UBS Group. Demgegenueber stand ein leichter Kursrueckgang am Nachmittag, wie Finanzen.ch meldet. Wichtige Kennzahlen zeigen sich im Durchschnittskursziel von vierundfünfzig Komma drei neun Dollar, das als wichtig erachtet wird, um die mittelfristige Erwartung der Experten einzuschaetzen. Zu Insider-Kaeuefen und -Verkaeuefen liegen in den aktuellen Daten keine Meldungen vor. Auch Aussagen von Chefs oder dem Management direkt aus den Meldungen sind derzeit nicht verzeichnet.",
-   "id": "7f0b2b1d53",
-   "generated_at": "2026-10-30T20:02:17Z",
+   "text": "UBS Group: Die UBS Group konnte laut dem deutschen Börsenportal Wallstreet Online ihren Vorsteuergewinn um siebenundzwanzig Prozent steigern. Dieser Wert ist ein zentraler Indikator für die operative Ertragskraft des Unternehmens. Zudem verläuft der Umbau im Zusammenhang mit der Credit Suisse nach Angaben des Portals planmässig. Trotz dieser Nachrichten berichtete das Schweizer Finanzportal Finanzen.ch, dass sich die Aktie der UBS Group im Tagesverlauf zeitweise im Minus zeigte. Analysten bewerten die Aktie derzeit unterschiedlich: Laut Yahoo Finance sprechen sich von siebzehn Experten zwei für einen starken Kauf und sieben für einen Kauf aus, während acht Analysten die Aktie halten, zwei zum Verkauf raten und eins einen starken Verkauf empfiehlt. Die DZ Bank stuft die Aktie mit Kaufen ein. Das durchschnittliche Kursziel der Analysten liegt bei vierundfünfzig Komma drei neun Dollar. Bitte beachten Sie, dass dies keine Anlageberatung darstellt.",
+   "id": "d94c1c9d97",
+   "generated_at": "2026-10-31T01:18:31Z",
    "audio": {
     "file": "UBSG.SW.mp3",
-    "hash": "a79750957a0aec1b",
-    "dur": 132.0,
+    "hash": "356cdd73a2af6934",
+    "dur": 67.3,
     "engine": "edge"
    }
   },
@@ -461,13 +461,13 @@
   {
    "symbol": "ABBN.SW",
    "name": "ABB LTD",
-   "text": "ABB LTD steht laut aktuellen Berichten im Fokus verschiedener Finanzportale. Laut Yahoo Finance, einem Finanzportal, das Meldungen und Analystenbewertungen bündelt, gehört ABB LTD gemeinsam mit Unternehmen wie Schneider Electric und Siemens Energy zu den führenden Akteuren im globalen Markt für Leistungsschalter für Rechenzentren. Zudem profitiert ABB LTD laut Yahoo Finance von der Entwicklung im Markt für Ringkabelklemmen, wo die Nachfrage nach Elektrofahrzeugen, dem Mobilfunkstandard 5G und intelligenten Gebäuden angetrieben wird. Traders Union, ein Trading-Ratgeberportal, meldet zudem, dass ABB LTD den Abschluss eines Aktienrückkaufs vollzogen hat, während die Aktie in einer bestimmten Handelsspanne verbleibt. Als Risiken und Belastungen wurden in den vorliegenden Meldungen keine rechtlichen Probleme oder Klagen gefunden; Traders Union verzeichnete jedoch einen jüngsten Kursrückgang der ABB-Aktie um zwei Komma zwei Prozent. Zu den Analysten-Bewertungen berichtet Yahoo Finance, dass insgesamt siebenundzwanzig Analysten die Aktie bewerten, wobei zwei Analysten eine starke Kaufempfehlung und fünf Analysten eine Kaufempfehlung aussprechen. zwanzig Analysten raten dazu, die Aktie zu halten, während je eins Analyst zum Verkauf beziehungsweise zum starken Verkauf rät. Das durchschnittliche Kursziel der Analysten liegt bei rund einhundert Dollar, mit einer Spanne zwischen rund einundachtzig Dollar und rund einhundertsiebzehn Dollar, was ein auf das durchschnittliche Ziel bezogenes Aufwärtspotenzial von sechzehn Komma vier Prozent ergibt. Die Bank Goldman Sachs stuft die Aktie von ABB LTD laut Wallstreet Online neutral ein. Zurück zu ABB LTD: Der aktuelle Aktienkurs von ABB LTD bewegt sich bei rund sechsundachtzig Dollar. Wichtige Kennzahlen umfassen zudem das Kursziel sowie das genannte Aufwärtspotenzial, welches den prozentualen Abstand zwischen dem aktuellen Kurs und dem mittleren Analystenziel beschreibt. In den offiziellen Daten wurden keine Insider-Käufe oder -Verkäufe verzeichnet. Aussagen von Chefs oder dem Management des Unternehmens liegen für diesen Zeitraum nicht vor. Widersprüchliche Angaben zwischen den verschiedenen Finanzportalen und Nachrichtenquellen wurden in den vorliegenden Berichten nicht festgestellt. Keine Anlageberatung.",
+   "text": "ABB LTD ist laut Yahoo Finance ein führender Akteur im globalen Markt für Leistungsschalter für Rechenzentren und profitiert zudem von der steigenden Nachfrage im Bereich der Ringkabelklemmen, die durch Trends wie Elektrofahrzeuge und 5G getrieben wird. Das Trading-Ratgeberportal Traders Union meldete den erfolgreichen Abschluss eines Aktienrückkaufs durch ABB LTD, berichtete jedoch gleichzeitig von einem jüngsten Kursrückgang der Aktie um zwei Komma zwei Prozent. Der aktuelle Kurs liegt bei fünfundachtzig Komma acht neun Dollar. Analysten sind in ihrer Einschätzung mehrheitlich abwartend: Von siebenundzwanzig Experten raten zwei zu einem starken Kauf und fünf zu einem Kauf, während zwanzig Analysten die Aktie halten, eins zum Verkauf rät und eins einen starken Verkauf empfiehlt. Das durchschnittliche Kursziel liegt bei einhundert Dollar, was einem Aufwärtspotenzial von sechzehn Komma vier Prozent entspricht. Goldman Sachs stuft die Aktie aktuell neutral ein. Diese Informationen dienen ausschliesslich der Information und stellen keine Anlageberatung dar.",
    "id": "0eb87f025a",
    "generated_at": "2026-10-30T23:46:37Z",
    "audio": {
     "file": "ABBN.SW.mp3",
-    "hash": "bcdda5955d259873",
-    "dur": 162.0,
+    "hash": "cab32af43499d692",
+    "dur": 75.7,
     "engine": "edge"
    }
   },
@@ -524,5 +524,5 @@
   "dur": 10.2,
   "engine": "edge"
  },
- "audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@0325d8dca4b06e1bc5b51ac7763056c161ecf81d/data/audio/"
+ "audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@17d31cd12a26c23ccae3f3b69cb194ad564a84cf/data/audio/"
 }
