@@ -104,15 +104,16 @@
   },
   "NOW": {
    "file": "NOW.mp3",
-   "hash": "94be062c5b1c6f29",
-   "th": "9869d1395fc64d37",
-   "id": "09c348fc6e",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
+   "hash": "2c3b8ed61cc60667",
+   "th": "fd521d3ec4acb9f3",
+   "engine": "gemini",
+   "id": "a6894f850d",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
    "br": 24,
-   "text": "ServiceNow stand kürzlich im Fokus der Berichterstattung, nachdem das Technologieunternehmen seine Finanzergebnisse für das dritte Quartal des Jahres 2026 vorgelegt hatte. Laut CNBC stürzten die Aktien von ServiceNow um vierundzwanzig Prozent ab, nachdem Finanzergebnisse und eine unterschrittene Umsatzkennzahl Befürchtungen einer Künstliche-Intelligenz-Störung wieder auflebten liessen. Laut Barron's verzeichnete die Aktie den stärksten Rückgang im S&P fünfhundert. Als rechtliches Risiko meldete PR Newswire eine anstehende Untersuchung zu ServiceNow durch SueWallSt. Analystenbewertungen zeigen ein gemischtes Bild, wobei The Globe and Mail sowohl neue Kauf- als auch neue Verkaufsempfehlungen für das Unternehmen meldete. Laut Yahoo Finance liegt das durchschnittliche Kursziel der Analysten bei einhundertfünfundfünfzig Dollar. Die UBS bestätigte ihre neutrale Einstufung und senkte das Kursziel auf einhundertvierzig Dollar. Macquarie bestätigte die Einstufung und erhöhte das Kursziel auf einhundertzwanzig Dollar. JP Morgan bestätigte ihre Einstufung und erhöhte das Kursziel auf einhundertsechzig Dollar. Citigroup bestätigte ihre Einstufung und senkte das Kursziel auf einhundertsiebenundfünfzig Dollar. StoneX bestätigte ebenfalls ihre Einstufung bei einem auf einhundertfünfzig Dollar gesenkten Kursziel, während RBC Capital die Einstufung bestätigte und das Kursziel auf einhundertfünfundsechzig Dollar senkte. Operativ gibt es positive Meldungen, denn HPE wählte ServiceNow aus, um die Supportdienste für sein Cloud- und Künstliche-Intelligenz-Geschäft zu transformieren. Zudem startete das Unternehmen die Control Tower Alliance, um Unternehmen bei der sicheren Einführung von Künstlicher Intelligenz in grossem Massstab zu unterstützen, und Stagwell vereinheitlicht die Mitarbeitererfahrung im globalen Netzwerk von über siebzig Agenturen auf der ServiceNow AI-Plattform.",
-   "dur": 135.0,
-   "at": "2026-10-30T11:25:57Z"
+   "text": "ServiceNow: Die Aktie stand zuletzt stark im Fokus der Märkte, nachdem das Unternehmen seine Finanzergebnisse für das dritte Quartal 2026 vorgelegt hatte. Laut Berichten von Barron's geriet das Papier stark unter Druck, da eine wichtige Umsatzkennzahl unterschritten wurde und Sorgen vor KI-Störungen aufkamen. In den vorliegenden Meldungen wurden Risiken und rechtliche Probleme gefunden, darunter eine Ankündigung von SueWallSt über anstehende Untersuchungen sowie Berichte über historische Kursverluste und gesenkte Fair-Value-Schätzungen durch Morningstar. Die Analystenbewertungen zeigen ein gemischtes Bild: Macquarie bestätigte das neutrale Rating und erhöhte das Kursziel auf einhundertzwanzig Dollar, während RBC Capital das Kursziel auf einhundertfünfundsechzig Dollar senkte. JP Morgan erhöhte das Kursziel auf einhundertsechzig Dollar, und Citigroup sowie StoneX senkten ihre Kursziele auf einhundertsiebenundfünfzig Dollar beziehungsweise einhundertfünfzig Dollar. Die UBS passte ihr Kursziel ebenfalls nach unten auf einhundertvierzig Dollar an. Zurück zu ServiceNow: Operativ gibt es neue Partnerschaften und Projekte. So hat Hewlett Packard Enterprise ServiceNow ausgewählt, um die Supportdienste für das Cloud- und KI-Geschäft zu transformieren. Zudem startete das Unternehmen die Control Tower Alliance, erweiterte Kooperationen mit OpenAI und Google Cloud und integrierte Stagwell auf der KI-Plattform. Wichtige Kennzahlen zeigen ein durchschnittliches Analysten-Kursziel von rund einhundertvierundfünfzig Dollar. Bei den Insider-Aktivitäten wurden mehrere Verkäufe gemeldet, darunter Transaktionen von Paul Fipps im Wert von rund dreihunderttausend Dollar, Jacqueline P Canney im Wert von rund eins Komma eins Millionen Dollar sowie Paul Edward Chamberlain mit Verkäufen im Wert von rund dreihundertsechsundsechzigtausend und rund einhundertachtundachtzigtausend Dollar, wobei Insider-Verkäufe oft durch steuerliche Gründe oder im Voraus geplante Verkaufspläne motiviert sein können und daher weniger aussagekräftig sind als Käufe. Keine Anlageberatung.",
+   "dur": 113.9,
+   "at": "2026-10-31T06:04:30Z"
   },
   "META": {
    "file": "META.mp3",
@@ -165,16 +166,15 @@
   },
   "GLW": {
    "file": "GLW.mp3",
-   "hash": "31d647c19c14013b",
-   "th": "ecb834c6500e3df2",
-   "engine": "gemini",
+   "hash": "7c71ce80009f7292",
+   "th": "91630b4ed02a86b9",
    "id": "46e4332ac1",
-   "voice": "Kore",
-   "model": "gemini-2.5-flash-preview-tts",
+   "voice": "de-CH-LeniNeural",
+   "engine": "edge",
    "br": 24,
-   "text": "Corning: Die Aktie des Technologieunternehmens verzeichnete im Berichtszeitraum wichtige Entwicklungen rund um das dritte Quartal. Laut dem WSJ, einer US-Wirtschaftszeitung, stieg der Gewinn von Corning aufgrund der starken Nachfrage nach Künstlicher Intelligenz deutlich an. Auch die von TradingView, einer Chart- und Börsenplattform, gemeldeten Zahlen zeigen ein Umsatzplus von neunzehn Prozent im dritten Quartal, gestützt durch beschleunigte Margen im Bereich der KI-Optiken. Dennoch gab es an den Börsen zeitweise spürbare Kursrückgänge. Zurück zu Corning: In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden, allerdings verzeichnete die Aktie im letzten Monat einen Rückgang von vierzehn Komma eins Prozent laut Yahoo Finance, einem Finanzportal, das Meldungen und Analystenbewertungen bündelt. Mehrere Analystenhäuser passten ihre Kursziele nach unten an. Die Analystenbewertungen zeigen ein überwiegend positives Bild. Die UBS bestätigte das Kaufen-Rating und senkte das Kursziel auf einhundertzweiundneunzig Dollar, wie Yahoo Finance berichtet. Truist Securities bestätigte ebenfalls die Kaufempfehlung mit einem angepassten Kursziel von einhundertfünfundsiebzig Dollar. Barclays bewertet die Aktie mit Marktgewichten und hob das Kursziel leicht auf einhundertzweiunddreissig Dollar an, während Morgan Stanley das Kursziel auf einhundertfünfundfünfzig Dollar senkte. JP Morgan bestätigte die neutrale Haltung mit einem Kursziel von einhundertfünfundsechzig Dollar. China Renaissance vergab laut MarketScreener Schweiz, einem Finanzportal, ein neues Kaufen-Rating. Der aktuelle Konsens von Yahoo Finance zeigt insgesamt vierzehn Kaufempfehlungen, vier Halteempfehlungen und eins starke Kaufempfehlung bei einem durchschnittlichen Kursziel von einhundertdreiundachtzig Dollar. Operativ profitiert das Unternehmen stark von der wachsenden Nachfrage nach optischer Kommunikation und Künstlicher Intelligenz. Als wichtigste Kennzahl ist das Umsatzwachstum im dritten Quartal von neunzehn Prozent zu nennen, das die starke Geschäftsdynamik unterstreicht. Bei den Insidern gab es offizielle Verkäufe: Michelle L Gullo veräusserte Aktien im Wert von rund eins Komma fünf Millionen Dollar, und Lewis A Steverson verkaufte Aktien im Wert von rund zwei Millionen Dollar. Solche Insider-Verkäufe sagen oft weniger aus als Käufe, da sie beispielsweise steuerlich motiviert sein können. Keine Anlageberatung.",
-   "dur": 142.0,
-   "at": "2026-10-31T05:12:38Z"
+   "text": "Corning konnte im dritten Quartal mit einem deutlichen Gewinn- und Umsatzanstieg überzeugen. Wie das Wall Street Journal berichtet, ist dieser Erfolg massgeblich auf die starke Nachfrage nach KI-Optiken zurückzuführen. Laut TradingView kletterte der Quartalsumsatz um neunzehn Prozent, unterstützt durch beschleunigte Margen. Trotz dieser soliden Zahlen verzeichnete die Aktie im vergangenen Monat einen Rückgang von vierzehn Komma eins Prozent und blieb im Börsenvergleich zeitweise hinter der Konkurrenz zurück. Analysten reagierten mit Anpassungen ihrer Kursziele, wobei die UBS das Kaufen-Rating bei einem Kursziel von einhundertzweiundneunzig Dollar bestätigte. Truist Securities stuft die Aktie ebenfalls mit Kaufen ein, bei einem Ziel von einhundertfünfundsiebzig Dollar. Barclays und Morgan Stanley bewerten den Titel mit Marktgewichten und Kurszielen von einhundertzweiunddreissig Dollar beziehungsweise einhundertfünfundfünfzig Dollar. JP Morgan hält an einer neutralen Einschätzung mit einem Kursziel von einhundertfünfundsechzig Dollar fest, während China Renaissance ein neues Kaufen-Rating vergab. Insgesamt ergibt sich ein Analystenkonsens von vierzehn Kaufempfehlungen, vier Halteempfehlungen und eins starken Kaufempfehlung bei einem durchschnittlichen Kursziel von einhundertdreiundachtzig Dollar. Operativ profitiert das Unternehmen weiterhin von der Nachfrage nach optischer Kommunikation und Künstlicher Intelligenz. Dies stellt keine Anlageberatung dar.",
+   "dur": 101.0,
+   "at": "2026-10-31T06:05:20Z"
   },
   "AMAT": {
    "file": "AMAT.mp3",
@@ -263,15 +263,15 @@
   },
   "OKLO": {
    "file": "OKLO.mp3",
-   "hash": "8500eb27424af83f",
-   "th": "b896044446b02f1f",
-   "id": "ce105976a6",
+   "hash": "e07f2927051b77f8",
+   "th": "dbdfae7a51113a43",
+   "id": "ab1fd5f576",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Oklo verzeichnete an den Borsen zuletzt erhebliche Kursruckgange und erreichte ein neues Tief von rund fünfundzwanzig Dollar je Aktie, was einem Ruckgang von etwa achtzig Prozent innerhalb eines Jahres entspricht. Laut AOL.com entschied sich die US-Armee bei einem Projekt zur Stromversorgung von Fort Campbell gegen Oklo und stattdessen fur einen Konkurrenten. Dennoch berichtete scanx.trade, dass die Aktien zeitweise um rund elf Prozent stiegen, da geopolitische Spannungen zwischen den Vereinigten Staaten und Kanada den gesamten Atomsektor antrieben. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Zu den Analysten-Bewertungen zeigen sich die Experten gemischt. B. Riley Securities bestatigte das Rating Kaufen und senkte das Kursziel auf einundsechzig Dollar. TD Cowen nahm die Beobachtung mit der Einstufung Halten und einem Kursziel von sechsundzwanzig Dollar neu auf. Truist Securities bestatigte Halten und senkte das Ziel auf einunddreissig Dollar. Die Citigroup bestatigte die neutrale Einstufung bei einem Kursziel von dreiunddreissig Dollar. Barclays und Piper Sandler bestatigten jeweils die Ubergewichtung und passten ihre Kursziele auf neunundfünfzig beziehungsweise neunundvierzig Dollar an. Laut Yahoo Finance liegt das durchschnittliche Kursziel aller betrachteten Analysten bei rund fünfundsechzig Komma zwei fünf Dollar. Im Bereich der Insider-Aktivitaten gab es im Oktober mehrere Verkaufe von Fuhrungskraften wie CEO Jacob DeWitte und COO Caroline Cochran, wobei einige Transaktionen uber vorab festgelegte Plane abgewickelt wurden. Aussagen des Managements liegen in den aktuellen Daten nicht vor.",
-   "dur": 116.2,
-   "at": "2026-10-30T20:46:30Z"
+   "text": "Die Aktie von Oklo steht derzeit stark im Fokus, nachdem der Kurs auf ein neues zweiundfünfzig-Wochen-Tief von fünfundzwanzig Komma null vier Dollar gefallen ist. Dies entspricht einem Rueckgang von achtzig Prozent innerhalb des letzten Jahres. Belastend wirkte dabei die Nachricht, dass die US-Armee fuer die Stromversorgung von Fort Campbell eine andere Atomanlage anstelle von Oklo ausgewaehlt hat. Auf der anderen Seite konnten die Aktien zwischenzeitlich um elf Prozent zulegen, da Spannungen zwischen den USA und Kanada den Atomsektor befluegelten. Mit Blick auf die anstehenden Quartalszahlen signalisiert der Optionsmarkt eine moegliche Kursbewegung von neun Komma fünf Prozent. Fuer das dritte Quartal 2026 liegt die Umsatzschaetzung bei eins Million Dollar. Analysten zeichnen ein gemischtes Bild: Waehrend B. Riley Securities die Aktie mit Kaufen und einem Kursziel von einundsechzig Dollar bewertet, stufen TD Cowen mit sechsundzwanzig Dollar und Truist Securities mit einunddreissig Dollar das Papier auf Halten ein. Die Citigroup bewertet Oklo neutral mit einem Kursziel von dreiunddreissig Dollar, waehrend Barclays und Piper Sandler die Aktie mit Uebergewichten und Kurszielen von neunundfünfzig beziehungsweise neunundvierzig Dollar einschaetzen. Das durchschnittliche Kursziel von zwanzig Analysten liegt bei fünfundsechzig Komma zwei fünf Dollar.",
+   "dur": 94.7,
+   "at": "2026-10-31T06:05:27Z"
   },
   "RYCEY": {
    "file": "RYCEY.mp3",
@@ -515,10 +515,10 @@
    "at": "2026-10-29T11:30:38Z"
   }
  },
- "status": "ok",
- "checked_at": "2026-10-31T05:12:53Z",
- "quota_until": 1793420061.6904302,
- "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@b9fe0789eb9648531f70d32b13eca53346fb3b47/data/audio/",
+ "status": "quota: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usa",
+ "checked_at": "2026-10-31T06:05:27Z",
+ "quota_until": 1793430295.197727,
+ "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@6523499e35f732021a5fd0dff30c7b1b1076ef0b/data/audio/",
  "extra": {
   "intro": {
    "file": "_intro.mp3",
