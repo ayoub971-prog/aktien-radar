@@ -52,27 +52,29 @@
   },
   "ASML": {
    "file": "ASML.mp3",
-   "hash": "76df89d235deebe8",
-   "th": "f6a7a3e1c3e21951",
-   "id": "c540dbec42",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
+   "hash": "b9f9d74a0e56ced7",
+   "th": "13268a49946ea167",
+   "engine": "gemini",
+   "id": "9e8da3f912",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
    "br": 24,
-   "text": "ASML Holding verzeichnet aktuell Berichte ueber Kursrueckgaenge, die laut StreetInsider im Zusammenhang mit einem generellen Technologie-Ausverkauf und dem Ausblick von Intel stehen. Laut Investing.com Deutsch verlor die Aktie ueber fünf Prozent, nachdem ein Absturz bei Intel auch andere Chipwerte mit nach unten zog. In den vorliegenden Meldungen wurden keine rechtlichen Probleme gefunden. Zu den Analysten-Bewertungen meldet Yahoo Finance einen Analystenkonsens mit achtunddreissig Kaufen-, zwei Halten-, eins Verkaufen- und sieben Stark-Kaufen-Empfehlungen. Das mittlere Kursziel liegt bei rund zweitausendeinhunderteinundvierzig Dollar, wobei JP Morgan im Oktober 2026 das Kursziel auf rund zweitausenddreihundertfünfzig Dollar anpasste. Als aufwertend wird in den Meldungen eine Hochstufung des BOTSI-Advisors von boerse.de genannt, waehrend abwertend die Kursverluste durch den Tech- und KI-Ausverkauf sowie die negativen Impulse von Intel wirken. Als wichtige Kennzahl wird das mittlere Kursziel von rund zweitausendeinhunderteinundvierzig Dollar genannt, welches die durchschnittlichen Erwartungen von Analysten fuer den zukuenftigen Aktienkurs zusammenfasst. Zu Insider-Kaeufen oder -Verkauefen liegen keine Meldungen aus den Pflichtmitteilungen vor. Bei ASML Holding setzt der Vorstandschef laut Yahoo Finance seinen Gehaltsscheck fuer die Arbeitsmoral der Mitarbeiter aufs Spiel, was laut Yahoo Finance dabei helfen koennte, kaum zu ersetzende Talente im Unternehmen zu halten. Wiedersprueche zwischen den Berichten wurden nicht festgestellt.",
-   "dur": 110.0,
-   "at": "2026-11-01T07:27:01Z"
+   "text": "Die Aktie von ASML Holding stand zuletzt im Fokus der Berichterstattung. Laut Investing.com Deutsch geriet die Aktie im Rahmen eines breiteren Tech-Ausverkaufs nach den Aussagen von Intel und Amazon unter Verkaufsdruck und verlor über fünf Prozent. Yahoo Finance berichtete, dass der Firmenchef seinen Gehaltsscheck für die Arbeitsmoral der Mitarbeiter einsetzt, was dazu beitragen könnte, schwer ersetzbare Talente im Unternehmen zu halten. Zudem hob das boerse.de Portal die Aktie im BOTSI-Advisor von Rang siebenundzwanzig nach oben. Zu den Risiken: In den vorliegenden Meldungen wurden keine rechtlichen Probleme gefunden, jedoch belasteten der allgemeine Tech-Ausverkauf und negative Vorgaben von Branchenkollegen wie Intel den Kurs. Bei den Analystenbewertungen zeigt sich ein überwiegend positives Bild. Laut Yahoo Finance empfehlen siebenunddreissig Analysten die Aktie zum Kauf oder Stark-Kauf, während zwei Analysten zum Halten und eins Analyst zum Verkauf raten. JP Morgan bestaetigte im Oktober seine Einstufung als Uebergewichten, senkte das Kursziel jedoch von zweitausendvierhundert Dollar auf zweitausenddreihundertfünfzig Dollar. Weitere Anpassungen im Juli umfassten Kursziele von Wells Fargo bei zweitausendfünfhundert Dollar, RBC Capital bei bis zu zweitausendeinhundert Dollar und Bernstein bei zweitausendsechshundertdreiundzwanzig Dollar. Die Analysten nennen ein durchschnittliches Kursziel von zweitausendeinhunderteinundvierzig Dollar, wobei das hoechste Kursziel bei zweitausendachthundertachtunddreissig Dollar und das tiefste bei achthundertvierundsechzig Dollar liegt. Das daraus errechnete Kurspotenzial betraegt siebenunddreissig Prozent. Wichtige Kennzahlen spiegeln diesen Analystenkonsens wider. Insider-Kaeufe oder -Verkaeufe wurden in den aktuellen Meldungen und Pflichtmitteilungen nicht aufgefuehrt. Was die Unternehmensfuehrung betrifft, so setzt der Chef laut Yahoo Finance auf personeller Ebene ein ungewoehnliches Zeichen mit seinem Gehalt, was die Mitarbeiterbindung staerken koennte. Widerspruechliche Aussagen verschiedener Quellen lagen in den aktuellen Berichten nicht vor.",
+   "dur": 119.5,
+   "at": "2026-11-01T16:57:32Z"
   },
   "INTC": {
    "file": "INTC.mp3",
-   "hash": "c78cd9335cc1a2b3",
-   "th": "0665502f0337ae75",
-   "id": "024c2d8660",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
+   "hash": "510fa442b45e2afc",
+   "th": "02bdccfca06ed950",
+   "engine": "gemini",
+   "id": "ca0acd8a3c",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
    "br": 24,
-   "text": "Die Aktie von Intel erlitt einen massiven Kurseinbruch von rund neunundzwanzig bis dreissig Prozent, ausgelöst durch schwache Prognosen und Sorgen um das vierte Quartal, wie der US-Wirtschaftssender CNBC meldet. Der starke Kursverlust führte zu einem allgemeinen Ausverkauf von Technologie- und Chip-Aktien, und Morningstar senkte die Fair-Value-Schaetzung, da ein schwacher PC-Markt das KI-Wachstum dämpft. Laut Yahoo Finance sehen Analysten ein durchschnittliches Kursziel von fünfundneunzig Komma null fünf Dollar, mit einem Höchstwert von einhundertsechzig Dollar und einem Tiefstwert von siebzig Dollar. Die UBS bestaetigte ihre neutrale Bewertung mit einem Kursziel von achtzig Dollar, Freedom Broker stufte die Aktie auf Halten ab mit neunzig Dollar, und Citigroup empfiehlt die Aktie mit einem Ziel von einhundert Dollar zum Kauf. Operativ plant das Unternehmen eine erweiterte Zusammenarbeit mit Oracle zur Unterstuetzung von Unternehmens-KI. Belastend wirken die schwachen Finanzergebnisse für das dritte Quartal 2026 und die enttaeuschende Prognose. Keine Anlageberatung.",
-   "dur": 75.5,
-   "at": "2026-11-01T13:14:06Z"
+   "text": "Bei Intel geriet die Aktie massiv unter Druck und verzeichnete einen Einbruch von fast dreissig Prozent, wie unter anderem das Handelsblatt und Bloomberg berichten. Ausgeloest wurde dieser historische Kurssturz durch schwache Prognosen fuer das vierte Quartal und enttaeuschende Quartalsergebnisse, die weltweit zu einem Ausverkauf im Halbleitersektor fuehrten. In den vorliegenden Meldungen wurden keine rechtlichen Probleme oder Klagen gefunden, jedoch senkten zahlreiche Analysten ihre Kursziele drastisch und warnten vor unueberlegten Kaeufen. Das Analysehaus Morningstar verwies zudem darauf, dass ein nahender PC-Winter das ansonsten gesunde Wachstum im Bereich der kuenstlichen Intelligenz ueberschatte. Bei den Analystenbewertungen zeigen sich deutliche Reaktionen: Die UBS bestaetigte ihre neutrale Einstufung und senkte das Kursziel auf achtzig Dollar, wie aus den Daten von Yahoo Finance hervorgeht. Freedom Broker stufte die Aktie auf Halten ab und reduzierte das Kursziel auf neunzig Dollar. JP Morgan bestaetigte ein neutrales Rating und senkte das Kursziel auf achtzig Dollar. Citigroup behielt die Kaufempfehlung bei und passte das Kursziel auf einhundert Dollar an. TD Cowen bestaetigte die Halte-Empfehlung und senkte das Kursziel auf fünfundsiebzig Dollar, waehrend DA Davidson die Einstufung neutral bei einem reduzierten Kursziel von siebzig Dollar bestaetigte. Operativ zeigt sich ein gemischtes Bild: Waehrend der Bereich der kuenstlichen Intelligenz laut Morningstar ein gesundes Wachstum aufweist, belasten schwache Aussichten fuer den PC-Markt und enttaeuschende Unternehmensprognosen die Bilanz und den Aktienkurs schwer. Zu den wichtigen Kennzahlen gehoert das aktuelle Kursziel der Analysten, das im Durchschnitt bei rund fünfundneunzig Dollar liegt, wobei die Spanne von siebzig bis einhundertsechzig Dollar reicht. Schliesslich gibt es leichte Widersprueche bezueglich der Marktstimmung, da einige Beobachter vor uebereilten Kaeufen nach dem Absturz warnen, waehrend andere Plattformen nach dem Ausverkauf vereinzelt Upgrades registrieren.",
+   "dur": 110.9,
+   "at": "2026-11-01T16:58:44Z"
   },
   "PLTR": {
    "file": "PLTR.mp3",
@@ -100,27 +102,27 @@
   },
   "NOW": {
    "file": "NOW.mp3",
-   "hash": "3c886bc7dfc2b621",
-   "th": "fb98ca2e396b9ad9",
-   "id": "cecbbe62a0",
+   "hash": "649611d3e54c3f19",
+   "th": "b67529f572fcb361",
+   "id": "61303c7437",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "ServiceNow stand zuletzt stark im Fokus, nachdem Berichte ueber Kursrueckgaenge und Einbrueche von ueber zwanzig Prozent an einem Tag die Runde machten. Laut Barron's verfehlte das Unternehmen eine wichtige Umsatzkennzahl, was die Aktie zum schwaechsten Wert im S&P fünfhundert machte. Morningstar senkte zudem die Schaetzung aufgrund von Prognose-Nuancen. Gleichzeitig gibt es Investorenbenachrichtigungen ueber anstehende Untersuchungen durch SueWallSt. Analysten bewerten die Aktie unterschiedlich, wobei The Globe and Mail sowohl neue Kauf- als auch neue Verkaufsempfehlungen meldet und das durchschnittliche Kursziel auf Yahoo Finance bei einhundertfünfundfünfzig Dollar liegt. Operativ gibt es positive Meldungen, denn HPE hat das Unternehmen gewaehlt, um die Supportdienste im Cloud- und KI-Geschäft zu transformieren, und auch die Zusammenarbeit mit OpenAI für Unternehmens-KI wurde vereinbart. AOL.com sieht den starken Kursabsturz als goldene Gelegenheit, waehrend The Globe and Mail eine neue Verkaufsempfehlung meldet.",
-   "dur": 72.6,
-   "at": "2026-11-01T14:04:27Z"
+   "text": "ServiceNow stand zuletzt stark im Fokus der Berichterstattung. Laut dem ServiceNow Newsroom gab das Unternehmen die Finanzergebnisse für das dritte Quartal 2026 bekannt. Zudem meldete die Firma Partnerschaften mit HPE und OpenAI. Auf der Negativseite berichtet The Globe and Mail, dass die ServiceNow-Aktie an einem einzigen Tag um mehr als zwanzig Prozent einbrach, nachdem laut Barron's eine wichtige Umsatzkennzahl unterschritten wurde. PR Newswire meldet zudem eine anstehende Untersuchung durch SueWallSt, und Morningstar senkte die Schätzungen. Bei den Analystenbewertungen gibt es verschiedene Anpassungen: Macquarie hat das Rating Neutral mit einem Kursziel von einhundertzwanzig Dollar, RBC Capital hat Besser als Markt mit einhundertfünfundsechzig Dollar, JP Morgan hat Übergewichten mit einhundertsechzig Dollar, Citigroup hat Kaufen mit einhundertsiebenundfünfzig Dollar, StoneX hat Kaufen mit einhundertfünfzig Dollar und die UBS hat Neutral mit einhundertvierzig Dollar. Wichtige Kennzahlen wie das durchschnittliche Analysten-Kursziel liegen bei einhundertfünfundfünfzig Dollar. Bei den Widersprüchen gehen die Meinungen auseinander: Während AOL.com den Kurssturz als goldene Gelegenheit wertet, rät Seeking Alpha vom Kauf des Dips ab.",
+   "dur": 89.2,
+   "at": "2026-11-01T16:59:18Z"
   },
   "META": {
    "file": "META.mp3",
-   "hash": "78d91c7e41344623",
-   "th": "a51abe15476236c6",
-   "id": "efbcdeceae",
+   "hash": "3998c6ac4245716d",
+   "th": "ff916494416f8ea6",
+   "id": "53036cf5e6",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Meta Platforms steht aktuell im Fokus der Finanzmärkte, da hohe Investitionen in Künstliche Intelligenz und die damit verbundene Monetarisierung von Analysten genau beobachtet werden. Laut Yahoo Finance treibt das Unternehmen gleichzeitig verschiedene Partnerschaften voran und bringt neue Anwendungen auf den Markt. Zu den Risiken gehört, dass Meta Platforms laut Yahoo Finance eine Kreditwarnung beziehungsweise Bonitätsherabstufung wegen Bedenken zum Cashflow, den Ausgaben und der Monetarisierung erhalten hat. Zudem erhebt Polen laut Yahoo Finance eine europäische Klage gegen Meta wegen betrügerischer Werbung, und Frankreich fordert eine Steuer von fünf Komma fünf Cent pro Gigabyte auf Dienste von Unternehmen wie Netflix, Google und Meta. Bei den Analystenbewertungen zeigt sich ein überwiegend positives Bild. Mizuho bewertet die Aktie mit besser als Markt und einem Kursziel von neunhundertfünfzig Dollar. Citigroup stuft die Aktie mit Kaufen und einem Kursziel von neunhundertfünf Dollar ein. Die UBS bestätigt das Rating Kaufen mit einem Kursziel von achthundertzweiundneunzig Dollar. Die Evercore ISI Group empfiehlt die Aktie mit besser als Markt bei einem Kursziel von achthundertsiebzig Dollar. DA Davidson nennt ein Kursziel von achthundert Dollar bei einer Kaufempfehlung, während BMO Capital die Aktie mit wie der Markt und einem Kursziel von sechshundertfünfundachtzig Dollar einschätzt. Das Unternehmen ist operativ aktiv und arbeitet laut Facebook mit fünf Universitäten zusammen, um medizinische Durchbrüche zu beschleunigen. Zudem ist der persönliche KI-Agent Muse nun in Singapur erhältlich, und laut Yahoo Finanzen Deutschland entwickelt das Unternehmen zusammen mit dem chinesischen Startup Fourier einen humanoiden Roboter. Demgegenüber steht die Einschätzung von S&P über Yahoo Finance, wonach Meta mit Künstlicher Intelligenz möglicherweise nicht so gut Geld verdienen kann wie die Konkurrenz. Wichtige Kennzahlen unterstreichen die Erwartungen: Das durchschnittliche Kursziel liegt bei achthundertachtundvierzig Dollar, was ein prognostiziertes Aufwärtspotenzial von rund siebenunddreissig Komma neun Prozent bedeutet.",
-   "dur": 149.2,
-   "at": "2026-11-01T14:04:40Z"
+   "text": "Meta Platforms steht aktuell im Fokus von Berichten über finanzielle Warnungen und neue technologische Projekte. Laut dem Finanzportal Yahoo Finance, welches Meldungen und Analystenbewertungen bündelt, hat S&P den Bonitätsausblick für Meta Platforms auf negativ herabgestuft und warnt vor Problemen bei Cashflow, Ausgaben und der Monetarisierung von künstlicher Intelligenz. Zudem berichtet Yahoo Finance, dass Polen eine europäische Klage gegen Meta Platforms wegen betrügerischer Werbung eingereicht hat, während Frankreich eine Steuer von fünf Komma fünf Cent pro Gigabyte auf digitale Dienste unter anderem von Meta Platforms fordert. Auf Seiten der Analysten gibt es laut Yahoo Finance überwiegend positive Einschätzungen mit einem Konsens aus starken Kaufen-, Kaufen-, Halten- und Verkaufen-Empfehlungen. Das durchschnittliche Kursziel von achtundfünfzig Analysten liegt bei achthundertachtundvierzig Dollar und signalisiert ein geschätztes Aufwärtspotenzial von rund siebenunddreissig Komma neun Prozent. Zu den Kurszielen äusserten sich verschiedene Häuser, darunter die UBS mit einem Kursziel von achthundertzweiundneunzig Dollar und die Citigroup mit neunhundertfünf Dollar. Operativ arbeitet das Unternehmen laut eigenen Angaben mit fünf US-Universitäten zusammen, um medizinische und wissenschaftliche Durchbrüche zu beschleunigen. Ausserdem berichtet Yahoo Finanzen Deutschland, dass Meta Platforms den Bau eines humanoiden Roboters mit dem chinesischen Startup Fourier plant. Demgegenüber steht die Kritik, dass Meta Platforms mit künstlicher Intelligenz nicht so viel Geld verdienen kann wie seine Konkurrenten. Wichtige Kennzahlen umfassen das durchschnittliche Kursziel von rund achthundertachtundvierzig Dollar und ein prognostiziertes Aufwärtspotenzial von rund siebenunddreissig Komma neun Prozent, was die Erwartungen an die künftige Entwicklung widerspiegelt. Widersprüche zeigen sich bei der Bewertung der künstlichen Intelligenz: Während die kanadische Tageszeitung The Globe and Mail den KI-Agenten Muse als bahnbrechenden Erfolg beschreibt, warnt S&P vor unzureichenden Einnahmemöglichkeiten im Vergleich zu Mitbewerbern.",
+   "dur": 145.8,
+   "at": "2026-11-01T16:59:52Z"
   },
   "AMZN": {
    "file": "AMZN.mp3",
@@ -148,27 +150,27 @@
   },
   "SFTBY": {
    "file": "SFTBY.mp3",
-   "hash": "10df9cbf79d85430",
-   "th": "6b7949768b0c66f2",
-   "id": "907f4426da",
+   "hash": "415ee7c4c3c297c5",
+   "th": "a9c9781f916038f4",
+   "id": "a59eff2ba2",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "SoftBank Group steht im Zentrum verschiedener Entwicklungen, da das von SoftBank unterstützte Unternehmen OPay seinen geplanten US-Börsengang im Wert von dreihundertvier Millionen Dollar nach behördlichen Untersuchungen gestoppt hat. Laut Stock Titan meldete SoftBank zudem ein Miteigentum an VTEX, während LA Holdings dreihundertvierzigtausendsechshundertdreissig Aktien verkaufte. Ausserdem teilte die SoftBank Group selbst mit, dass es eine Änderung beim Abschlusszeitpunkt für den Erwerb von Anteilen an der konsolidierten Tochtergesellschaft LINE MAN CORPORATION gibt. Zu den Analysten-Bewertungen zeigt Yahoo Finance UK im Konsens zwei Halten-Empfehlungen für die Aktie. Als aufwertender Punkt wird von NTG24 gemeldet, dass die Aktie zulegen konnte, gestützt von positiven Entwicklungen im Technologiesektor wie bei SK Hynix und Kioxia, während der gestoppte Börsengang der Beteiligung OPay als abwertender Punkt wirkt. Bei den Kennzahlen liegt das durchschnittliche Kursziel laut Yahoo Finance UK bei sechzehn Komma acht Dollar, wobei das höchste Kursziel bei zwanzig Dollar und das tiefste Kursziel bei dreizehn Komma sechs Dollar liegt. Bei den Widersprüchen gibt es unterschiedliche Berichte zum Börsengang von OPay: Während The Economic Times meldete, dass OPay dreihundertvier Millionen Dollar bei einem US-Börsengang eingesammelt hat, berichtet Bloomberg dagegen gegenteilig, dass der Börsengang gestoppt wurde, um auf behördliche Anfragen zu reagieren.",
-   "dur": 100.1,
-   "at": "2026-11-01T14:04:51Z"
+   "text": "Bei der Softbank Group gibt es Neuigkeiten zu verschiedenen Beteiligungen. Das von Softbank unterstützte Unternehmen OPay hat seinen geplanten Börsengang mit einem Volumen von dreihundertvier Millionen Dollar gestoppt und abgebrochen. Grund dafür sind behördliche Anfragen und Untersuchungen. Zuvor war OPay für den Börsengang mit einem Wert von vier Milliarden Dollar bewertet worden. Die Economic Times berichtete zwar zwischenzeitlich von einer erfolgreichen Kapitalaufnahme in Höhe von dreihundertvier Millionen Dollar, während Bloomberg den Rückzug bestätigte. Zudem meldete die Softbank Group eine Änderung beim Zeitplan für den Erwerb von Anteilen an der Tochtergesellschaft Line Man Corporation. Ausserdem verkaufte LA Holdings dreihundertvierzigtausendsechshundertdreissig Aktien von Vtex, an der Softbank ein Miteigentum hält. Laut Yahoo Finance UK bewerten zwei Analysten die Aktie mit Halten, wobei es keine Kauf- oder Verkaufseinstufungen gibt und das durchschnittliche Kursziel bei sechzehn Komma acht Dollar mit einer Spanne von dreizehn Komma sechs bis zwanzig Dollar liegt.",
+   "dur": 74.5,
+   "at": "2026-11-01T17:00:00Z"
   },
   "GLW": {
    "file": "GLW.mp3",
-   "hash": "5ad9457ea52082ff",
-   "th": "58d6144315751107",
-   "id": "4c655bf67f",
+   "hash": "e143f43067de04d0",
+   "th": "db266400c3c45cdc",
+   "id": "d75861dfc3",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Die Aktie von Corning geriet an mehreren Tagen unter Druck und verzeichnete ein sechs-Monats-Tief, wie boerse.de berichtet. Laut Yahoo Finance treiben im dritten Quartal vor allem die optische Kommunikation und die Nachfrage nach Künstlicher Intelligenz ein beschleunigtes Wachstum voran. Zu den Analysten-Bewertungen gibt es verschiedene Anpassungen. Die UBS bestätigte ihre Einstufung auf Kaufen und senkte das Kursziel von zweihunderteins Dollar auf einhundertzweiundneunzig Dollar. Truist Securities bestätigte ebenfalls das Kaufen-Rating und passte das Kursziel auf einhundertfünfundsiebzig Dollar an. Barclays bestätigte die Marktgewichtung und erhöhte das Kursziel leicht auf einhundertzweiunddreissig Dollar. Morgan Stanley beliess die Einstufung auf Marktgewichten und senkte das Kursziel auf einhundertfünfundfünfzig Dollar. JP Morgan bestätigte die neutrale Einschätzung und reduzierte das Kursziel auf einhundertfünfundsechzig Dollar. China Renaissance vergab ein Kaufen-Rating und passte das Preisziel auf einhunderteinundneunzig Dollar an. Was die Firma gerade macht, zeigt sich in den positiven Impulsen durch die KI-Nachfrage und den Bereich der optischen Kommunikation, dem jedoch schwächere Kursverläufe im Vergleich zur Konkurrenz gegenüberstehen. Wichtige Kennzahlen zeigen ein durchschnittliches Kursziel der Analysten von einhundertdreiundachtzig Dollar, ein hohes Kursziel von zweihundertachtunddreissig Dollar und ein tiefes Kursziel von einhundertzweiunddreissig Dollar, woraus sich ein erwartetes Aufwärtspotenzial von achtundvierzig Komma zwei Prozent errechnet. Zu den Insider-Aktivitäten laut Pflichtmeldungen der Börsenaufsicht: Michelle L Gullo veräusserte neuntausendachthundertvierundsiebzig Aktien im Wert von rund eins Komma fünf Millionen Dollar, und Lewis A Steverson verkaufte dreizehntausendeinhundert Aktien.",
-   "dur": 126.0,
-   "at": "2026-11-01T14:05:01Z"
+   "text": "Corning zeigt sich in den aktuellen Berichten an den Finanzmaerkten von zwei unterschiedlichen Seiten. Laut Yahoo Finance, einem Finanzportal, treiben optische Kommunikation und die starke Nachfrage nach kuenstlicher Intelligenz ein beschleunigtes Wachstum im dritten Quartal voran. Gleichzeitig meldet Finanzen.ch, ein Schweizer Finanzportal, dass die Aktie massiv unter Druck steht, Kursabschlaege verzeichnet und ein neues Sechs-Monats-Tief erreicht hat. Laut MarketWatch, einem US-Finanznachrichtenportal, schnitt die Aktie zudem im Vergleich zur Konkurrenz an mehreren Tagen schlechter ab. Bei den Analystenbewertungen gibt es zahlreiche Anpassungen. Die UBS bestaetigte kuerzlich das Rating Kaufen und senkte das Kursziel auf einhundertzweiundneunzig Dollar, nachdem zuvor im Oktober noch ein hoeheres Kursziel genannt wurde. Truist Securities bestaetigte ebenfalls das Rating Kaufen und passte das Kursziel auf einhundertfünfundsiebzig Dollar an. Barclays bestaetigte das Rating Marktgewichten und erhoehte das Kursziel leicht auf einhundertzweiunddreissig Dollar. Morgan Stanley bestaetigte das Rating Marktgewichten und senkte das Kursziel auf einhundertfünfundfünfzig Dollar. JP Morgan bestaetigte die neutrale Haltung und passte das Kursziel auf einhundertfünfundsechzig Dollar an. China Renaissance vergab ausserdem ein Kaufen-Rating und passte das Kursziel von zweihundertachtunddreissig Dollar auf einhunderteinundneunzig Dollar an. Das durchschnittliche Kursziel liegt bei einhundertdreiundachtzig Dollar, abgestuetzt auf insgesamt neunzehn Analysteneinschätzungen mit fünfzehn Mal Kaufen und vier Mal Halten. Zurueck zu Corning: Auf der aufwertenden Seite stehen die starken Treiber im Bereich der optischen Kommunikation und der kuenstlichen Intelligenz sowie das Kaufen-Rating von China Renaissance. Auf der abwertenden Seite belasten das neue Sechs-Monats-Tief und Kursabschlaege die Aktie. Zu den wichtigen Kennzahlen zählt das durchschnittliche Kursziel von einhundertdreiundachtzig Dollar, das die Analystenerwartungen buendelt. Widersprueche zeigen sich vor allem zwischen den optimistischen Aussichten im Bereich der kuenstlichen Intelligenz und dem gleichzeitig sinkenden beizulegenden Zeitwert.",
+   "dur": 151.8,
+   "at": "2026-11-01T17:00:40Z"
   },
   "AMAT": {
    "file": "AMAT.mp3",
@@ -196,15 +198,15 @@
   },
   "HOOD": {
    "file": "HOOD.mp3",
-   "hash": "a0be402c784edc10",
-   "th": "738b23dfc50550ea",
-   "id": "c203c5efff",
+   "hash": "5ea773d64958657b",
+   "th": "c101c105c9ff3ecf",
+   "id": "4ea8d0e1b0",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Robinhood Markets stand zuletzt stark im Fokus der Finanzmedien, nachdem das Unternehmen Geschäftszahlen vorgelegt hatte, die von einem Kursrückgang und einer Halbierung des Krypto-Umsatzes begleitet wurden. Laut dem Finanzportal Investing.com Deutsch belasteten neben einer Krypto-Flaute auch Ergebnisenttäuschungen und Regulierungssorgen das Papier. Ausserdem drückten negative Branchenmeldungen wie ein Rekord-Hack bei Binance auf die Stimmung. In den vorliegenden Meldungen wurden keine weiteren rechtlichen Probleme gefunden. Mehrere Analystenhäuser passten ihre Einschätzungen an: Truist Securities bestätigte das Rating Kaufen und senkte das Kursziel auf einhundertdreiundzwanzig Dollar, JP Morgan bestätigte das Neutral-Rating bei einem Kursziel von einhundertvierzehn Dollar, und Goldman Sachs bestätigte die Kaufempfehlung mit einem auf einhundertachtundzwanzig Dollar reduzierten Kursziel. Barclays bestätigte die Einstufung Übergewichten mit einem Kursziel von einhundertfünfzehn Dollar, Wells Fargo bestätigte das Marktgewichten-Rating bei einhundert Dollar, und Scotiabank bestätigte das Rating Besser als Sektor mit einem Kursziel von einhundertvierundzwanzig Dollar. Zurück zu Robinhood Markets: Das Unternehmen treibt laut Berichten von Yahoo Finance seine Produkterweiterung und das internationale Wachstum voran. Während das Finanzportal Investing.com meldet, dass die Aktie gefallen ist und die Wall Street dennoch optimistisch bleibt, berichtet Yahoo Finance von einem insgesamt eher vorsichtigen Ausblick.",
-   "dur": 102.8,
-   "at": "2026-11-01T14:05:29Z"
+   "text": "Robinhood Markets steht im Fokus der Finanzmedien, nachdem das Unternehmen Geschäftszahlen vorgelegt hat, die von einer Krypto-Flaute und reduzierten Umsatzprognosen begleitet wurden. Laut Wallstreet Online stürzte die Aktie nach den Zahlen ab, wobei sich der Krypto-Umsatz halbierte. Gleichzeitig berichtet Yahoo Finance, dass Produkterweiterungen und internationales Wachstum vorangetrieben werden und die Prognosemärkte zum am schnellsten wachsenden Produkt avanciert sind. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden, ausser allgemeinen Regulierungssorgen und Ergebnisenttäuschungen, wie Investing.com Deutsch meldet. Bei den Analysten-Bewertungen gibt es verschiedene Anpassungen der Kursziele. Laut Investing.com Deutsch hat Truist Securities das Kursziel auf einhundertdreiundzwanzig Dollar gesenkt, begründet durch geringere Einnahmen und reduzierte Umsatzprognosen. Goldman Sachs bestätigte die Kaufempfehlung und passte das Kursziel auf einhundertachtundzwanzig Dollar an. JP Morgan hält an einer neutralen Einschätzung fest mit einem Kursziel von einhundertvierzehn Dollar. Barclays stuft die Aktie mit uergewichten ein und nennt ein Kursziel von einhundertfünfzehn Dollar. Wells Fargo belässt das Rating auf Marktgewichten bei einem Kursziel von einhundert Dollar, während die Scotiabank mit einer Einstufung als besser als der Sektor ein Kursziel von einhundertvierundzwanzig Dollar ansetzt. Zurück zu Robinhood Markets: Aufwertend wirken laut Yahoo Finance die internationale Expansion und neue Produkte wie die Prognosemärkte. Abwertend wirken dagegen der starke Einbruch der Krypto-Umsätze. Als wichtige Kennzahl ist das von Yahoo Finance genannte durchschnittliche Analysten-Kursziel von rund einhunderteinunddreissig Dollar zu nennen, welches das mittlere Kurspotenzial widerspiegelt. Bei den Insider-Transaktionen zeigt sich laut Investing.com South Africa, dass ein Grossaktionär Ende Oktober 2026 Aktien im Wert von rund drei Komma eins Millionen Dollar verkauft hat. Solche Verkäufe sagen allein noch nichts über die fundamentale Verfassung aus. Aussagen des Managements liegen in den aktuellen Meldungen keine vor. Widersprüche zeigen sich bezüglich der Marktstimmung: Während Yahoo Finance von einem vorsichtigen Ausblick nach den Zahlen berichtet, zeigt sich die Wall Street laut Investing.com trotz deutlicher Kursrückgänge weiterhin optimistisch. Keine Anlageberatung.",
+   "dur": 173.0,
+   "at": "2026-11-01T17:00:58Z"
   },
   "WNRG.SW": {
    "file": "WNRG.SW.mp3",
@@ -316,15 +318,15 @@
   },
   "0VR3.L": {
    "file": "0VR3.L.mp3",
-   "hash": "974628c48f4cde49",
-   "th": "3106b198748f0192",
-   "id": "2c9523a403",
+   "hash": "61aa532da639d4f9",
+   "th": "852a8efdf2fffc16",
+   "id": "7766e87ca3",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Gold: Das US-Finanznachrichtenportal MarketWatch berichtet, dass Gold auf den niedrigsten Preis seit einem Jahr gefallen ist. Zudem meldet das Finanzportal Yahoo Finance, dass der Goldpreis unter viertausend Dollar gerutscht ist, obwohl Sorgen im Nahen Osten zunehmen. Zu den Risiken ist zu sagen: Laut MarketWatch hat der Kurs ein Jahrestief erreicht. Die indische Wirtschaftszeitung Livemint warnt ausserdem, dass Energiepreise, die Inflation und die amerikanische Notenbank Fed die Anlegerstimmung belasten. Unter Analysten gibt es unterschiedliche Ansichten. Das deutsche Finanzportal Finanzen.net zitiert den Gold-Strategen Stoeferle mit der Einschaetzung, dass Gold weiterhin extrem guenstig sei, waehrend die indische Zeitung Livemint auf die anhaltenden Belastungen durch Inflation und Zinspolitik verweist. In den aktuellen Meldungen finden sich keine Berichte ueber konkrete neue Produkte oder Partnerschaften, jedoch steht das Edelmetall insgesamt durch den juengsten Preisrueckgang stark im Fokus der Maerkte. Als wichtige Kennzahl wird der Goldpreis genannt, der laut Wallstreet Online aktuell bei rund dreitausendneunhundertzweiundachtzig,dreiundneunzig USD je Unze liegt. Dieser Wert ist zentral, da er die direkte Bewertung des zugrundeliegenden Edelmetalls widerspiegelt. Insider-Kaeufe oder -Verkaeufe wurden in den vorliegenden Daten nicht gemeldet. Auch Aussagen von Unternehmenschefs liegen fuer diesen Zeitraum nicht vor.",
-   "dur": 102.0,
-   "at": "2026-11-01T13:15:45Z"
+   "text": "Laut MarketWatch, einem US-Finanznachrichtenportal, ist der Goldpreis auf den niedrigsten Stand seit einem Jahr gefallen. Wie Livemint, eine indische Wirtschaftszeitung, berichtet, erlebte Gold den schlechtesten Oktober seit mehreren Jahren. Zudem meldet Wallstreet Online, ein deutsches Börsenportal, einen leichten Rückgang des Goldpreises auf dreitausendneunhundertzweiundachtzig,dreiundneunzig Dollar. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Zu den Analysten-Bewertungen gibt es die Einschätzung von Finanzen.net, einem deutschen Finanzportal, wo der Gold-Stratege Stöferle sagt, dass Gold weiterhin extrem günstig sei. Ausserdem berichtet FXStreet, ein Devisen- und Börsenportal, über geteilte Meinungen, da ein Analyst eine Erholung sieht, während ein anderer weitere Schwäche erwartet. Was macht der Markt gerade? Als aufwertender Punkt wird von CNBC TV18, einem US-Wirtschaftssender, genannt, dass Anleger bei vorzeitigen Rückzahlungen von Gold-Staatsanleihen über zweihundertsiebzig Prozent gewinnen können. Auch Seeking Alpha, eine US-Plattform mit Anlegerbeiträgen, spricht von einer entstehenden generationsübergreifenden Kaufgelegenheit. Als abwertender Faktor wird von Livemint, einer indischen Wirtschaftszeitung, angeführt, dass Energiepreise, Inflation und die amerikanische Notenbank Fed die Anlegerstimmung belasten. Als wichtige Kennzahl wird der Goldpreis von Wallstreet Online bei dreitausendneunhundertzweiundachtzig,dreiundneunzig Dollar genannt, welcher den aktuellen Wert des Edelmetalls widerspiegelt. Insider-Käufe oder -Verkäufe wurden in den Meldungen nicht erwähnt. Aussagen von Chefs liegen ebenfalls nicht vor. Zusammenfassend zeigt sich eine angespannte Marktlage mit unterschiedlichen Analystenstimmen. Keine Anlageberatung.",
+   "dur": 127.0,
+   "at": "2026-11-01T17:01:31Z"
   },
   "BKW.SW": {
    "file": "BKW.SW.mp3",
@@ -364,15 +366,15 @@
   },
   "OEF": {
    "file": "OEF.mp3",
-   "hash": "3c53a4bf3e80bb20",
-   "th": "34609efab9130e15",
-   "id": "f110f7876c",
+   "hash": "e914de8f650094e5",
+   "th": "b4c7d508f76c2e64",
+   "id": "e07d4e8658",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "iShares S&P einhundert ETF: Laut Yahoo! Finance Canada, einem Finanzportal, bündelt das Portal Meldungen und Analystenbewertungen und veröffentlichte ein saisonales Renditediagramm zum iShares S&P einhundert ETF. Laut Finanzen.net, einem deutschen Finanzportal, wurden ausserdem saisonale Renditedaten oder Chartbetrachtungen für den iShares S&P einhundert ETF thematisiert. In den vorliegenden Meldungen wurden keine Risiken gefunden. Zu den Kennzahlen liegt der aktuelle Aktienkurs bei dreihundertdreiundsiebzig Dollar, was den gegenwärtigen Marktwert eines Anteils anzeigt. Was den Fonds betrifft, bietet das genannte Finanzportal Yahoo! Finance Canada Einblicke und Analysen zum Fondsverlauf. Insider-Käufe oder Verkäufe sowie Aussagen von Verantwortlichen wurden in den Meldungen nicht genannt. Es liegen zudem keine Widersprüche zwischen den Quellen vor.",
-   "dur": 65.6,
-   "at": "2026-11-01T14:07:10Z"
+   "text": "iShares S&P einhundert ETF: iShares S&P einhundert ETF stand kürzlich im Fokus von Finanzportalen, wobei laut Yahoo! Finance Canada, einem Finanzportal, das Meldungen und Analystenbewertungen bündelt, ein saisonales Renditediagramm veröffentlicht wurde. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Es liegen keine Analysten-Bewertungen vor. Zu den Aktivitäten der Firma gibt es in den aktuellen Meldungen keine Angaben. Es wurden keine wichtigen Kennzahlen genannt. Insider-Käufe oder -Verkäufe wurden ebenfalls nicht gemeldet. Aussagen von Chefs liegen nicht vor. Es gibt keine Widersprüche zwischen den Quellen. Zurück zu iShares S&P einhundert ETF: Die Berichterstattung beschränkte sich auf allgemeine Marktübersichten und saisonale Daten. Keine Anlageberatung.",
+   "dur": 63.3,
+   "at": "2026-11-01T17:01:38Z"
   },
   "013A.F": {
    "file": "013A.F.mp3",
@@ -388,15 +390,15 @@
   },
   "NVDA": {
    "file": "NVDA.mp3",
-   "hash": "158f1857f86c9925",
-   "th": "174df90a7361d4d4",
-   "id": "71b726ed02",
+   "hash": "9eb363cbf85b97f4",
+   "th": "a8d8587b1efcaf75",
+   "id": "0db5546dd3",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Nvidia: Die Aktie geriet im Rahmen eines breiteren Tech-Ausverkaufs unter Druck und verlor an Marktkapitalisierung, wodurch Apple das Unternehmen als wertvollstes Unternehmen der Welt ablöste. Laut Barron's, einem US-Finanzmagazin, steht die Aktie vor ihrem schlechtesten Monat seit einem Jahr. Zudem meldet Yahoo Finance, ein Finanzportal, dass Nvidia eine Beteiligung an SpaceX hält und die Rolle als Mitunterzeichner für ein KI-Rechenzentrum in West Virginia prüft. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden, jedoch verzeichnete die Aktie Kursrückgänge und fiel unter die einhundert-Tage-Linie, und laut Yahoo Finance soll der Chef Jensen Huang Berichten zufolge ins Visier eines chinesischen Spionagekomplotts geraten sein. Analysten bewerten die Aktie überwiegend positiv mit siebzig Kauf- und drei Verkaufsempfehlungen im Konsens, wobei das durchschnittliche Kursziel laut Yahoo Finance bei dreihundertneunundzwanzig Dollar liegt. Needham bestätigte die Aktie mit einem Kursziel von dreihundert Dollar, Cantor Fitzgerald nannte dreihundertfünfzig Dollar und Rosenblatt nannte dreihundertneunzig Dollar. Zurück zu Nvidia: Das Unternehmen zeigt sich aktiv durch Beteiligungen und Rechenprojekt-Erwägungen, während laut boerse.de eine Abstufung im BOTSI-Advisor stattfand und Apple den Spitzenplatz bei der Marktkapitalisierung übernahm. Wichtige Kennzahlen umfassen das durchschnittliche Kursziel von rund dreihundertneunundzwanzig Dollar.",
-   "dur": 101.4,
-   "at": "2026-11-01T14:07:21Z"
+   "text": "Nvidia geriet zuletzt stark unter Druck, da Apple das Unternehmen inmitten eines Tech-Ausverkaufs als wertvollstes Unternehmen der Welt ablöste, wie Yahoo Finance berichtet. Die Aktie verzeichnet laut Barron's den schlechtesten Monat seit einem Jahr und fiel unter die einhundert-Tage-Linie, wobei finanzen.at erwähnt, dass Nvidia kurzzeitig die Schwelle von fünf Billionen Dollar an Marktkapitalisierung verlor. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden, abgesehen von einem Bericht von Yahoo Finance, wonach Konzernchef Jensen Huang Ziel eines chinesischen Spionagekomplotts gewesen sein soll. Analysten blicken dennoch mehrheitlich positiv auf das Papier: Laut Yahoo Finance liegt das durchschnittliche Kursziel bei rund dreihundertneunundzwanzig Dollar mit einem Aufwärtspotenzial von rund sechzig Komma sieben Prozent. Needham bestätigte die Einstufung als Kaufen mit einem Kursziel von dreihundert Dollar, während Cantor Fitzgerald die Aktie mit übergewichten und einem Kursziel von dreihundertfünfzig Dollar, beziehungsweise dreihundertneunzig Dollar von Rosenblatt, bewertet. Zurück zu Nvidia: Das Unternehmen zeigt sich operativ aktiv und erwägt laut Yahoo Finance eine Rolle als Mitunterzeichner für das KI-Rechenzentrum von Nscale in West Virginia und hält zudem eine Beteiligung an SpaceX, während als belastend der Verlust der Spitzenposition an Apple gewertet wird. Wichtige Kennzahlen zeigen ein hohstes Analystenziel von fünfhundertfünfzehn Dollar. Beim Thema Einstieg gehen die Meinungen auseinander, denn während Barron's den Kursrücksetzer als Kaufgelegenheit sieht, rät Seeking Alpha zur Gewinnmitnahme. Keine Anlageberatung.",
+   "dur": 113.5,
+   "at": "2026-11-01T17:02:06Z"
   },
   "1211.HK": {
    "file": "1211.HK.mp3",
@@ -460,15 +462,15 @@
   },
   "ABBN.SW": {
    "file": "ABBN.SW.mp3",
-   "hash": "14813254a262f702",
-   "th": "b0f55a1adf32eccc",
-   "id": "3e01bfd761",
+   "hash": "85ca1b176f77c966",
+   "th": "5d1230b8b16b216d",
+   "id": "6c831a2a24",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "ABB Ltd: Im Folgenden betrachten wir die aktuelle Lage der ABB Aktie basierend auf den vorliegenden Berichten. Laut Wallstreet Online, einem deutschen Börsenportal, gab es im Oktober 2026 verschiedene Analystenbewertungen. Zudem berichtet Yahoo Finance, ein Finanzportal, dass ABB Ltd gemeinsam mit anderen Unternehmen den globalen Markt für Leistungsschalter für Rechenzentren anführt. Traders Union, ein Trading-Ratgeberportal, meldet einen jüngsten Kursrückgang der Aktie von zwei Komma zwei Prozent, während gleichzeitig ein Aktienrückkauf abgeschlossen wurde. Zurück zu ABB Ltd: In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden, abgesehen von dem genannten Kursrückgang. Bei den Analystenbewertungen zeigt sich ein gemischtes Bild. Laut Yahoo Finance liegt das durchschnittliche Kursziel der siebenundzwanzig befragten Analysten bei rund neunundneunzig Komma acht acht Dollar, wobei Goldman Sachs laut Wallstreet Online die Aktie auf Neutral eingestuft hat. Was die Aktivitäten der Firma betrifft, so agiert das Unternehmen stark im Markt für Leistungsschalter für Rechenzentren und hat laut Traders Union seinen Aktienrückkauf abgeschlossen, während boerse.de über eine Verbesserung im BOTSI Advisor berichtet. Zu den wichtigen Kennzahlen gehört vor allem das durchschnittliche Kursziel der Analysten von rund neunundneunzig Komma acht acht Dollar, woraus sich ein geschätztes Kurspotenzial von rund sechzehn Komma drei Prozent ableitet. Kursziele und Kennzahlen sind wichtige Orientierungspunkte, ersetzen jedoch keine eigene Analyse. Insiderkäufe oder Insiderverkäufe wurden in den Meldungen nicht aufgeführt. Aussagen des Managements liegen in den Daten ebenfalls nicht vor. Widersprüche zwischen den verschiedenen Quellen wurden nicht festgestellt.",
-   "dur": 127.8,
-   "at": "2026-11-01T14:07:56Z"
+   "text": "ABB LTD steht im Fokus von Marktbeobachtern und Analysten. Laut Finanzen.net, einem deutschen Finanzportal, wurden im Oktober 2026 verschiedene Expertenmeinungen zur Aktie veröffentlicht. Zudem berichtet das Finanzportal Yahoo Finance, dass ABB LTD gemeinsam mit weiteren Unternehmen den globalen Markt für Leistungsschalter für Rechenzentren anführt. Zu den Risiken meldet das Trading-Ratgeberportal Traders Union einen jüngsten Kursrückgang der ABB-Aktie um zwei Komma zwei Prozent. In den vorliegenden Meldungen wurden ansonsten keine weiteren Risiken oder rechtlichen Probleme gefunden. Bei den Analystenbewertungen stuft Goldman Sachs die Aktie laut Wallstreet Online auf Neutral ein. Das Konsens von Yahoo Finance zeigt insgesamt zwei starke Kaufe, fünf Kaufe, zwanzig Halte-Empfehlungen, eins Verkauf sowie eins starken Verkauf. Das durchschnittliche Kursziel wird mit neunundneunzig Komma acht acht Dollar angegeben, bei einem Aufwärtspotenzial von sechzehn Komma drei Prozent. Zurück zu ABB LTD: Das Unternehmen schliesst einen Aktienrückkauf ab und bleibt in der Handelsspanne, wie Traders Union berichtet. Wichtige Kennzahlen umfassen das hohste Kursziel von einhundertsiebzehn Dollar sowie das tiefste Kursziel von einundachtzig Komma null vier Dollar. Insider-Käufe oder Verkäufe wurden in den vorliegenden Berichten nicht genannt. Aussagen von Chefs oder dem Management liegen aktuell ebenfalls nicht vor. Widersprüche zwischen den verschiedenen Quellen sind nicht erkennbar. Keine Anlageberatung.",
+   "dur": 112.1,
+   "at": "2026-11-01T17:02:19Z"
   },
   "STX": {
    "file": "STX.mp3",
@@ -508,9 +510,9 @@
   }
  },
  "status": "quota: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usa",
- "checked_at": "2026-11-01T15:57:06Z",
- "quota_until": 1793548632.5626547,
- "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@8ac354f41c20ced309dc7ced3072782c90d1901d/data/audio/",
+ "checked_at": "2026-11-01T17:02:19Z",
+ "quota_until": 1793555949.5303566,
+ "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@be86581c8d074a5285b843c62ebe0ed821532503/data/audio/",
  "extra": {
   "intro": {
    "file": "_intro.mp3",
