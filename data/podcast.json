@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T05:19:57Z",
+ "generated_at": "2026-11-01T06:12:44Z",
  "intro": "Willkommen beim Aktien-Radar, deinem Überblick über die neuesten Meldungen. Heute geht es um 39 Aktien aus deiner Liste. Alles stammt aus den gesammelten Meldungen und Analystendaten, nichts ist erfunden. Keine Anlageberatung.",
  "outro": "Das war der Aktien-Radar-Überblick. Die Quellen und Details findest du in der App bei jeder Aktie. Keine Anlageberatung.",
  "segments": [
@@ -19,13 +19,13 @@
   {
    "symbol": "NVDA",
    "name": "Nvidia",
-   "text": "Nvidia steht aktuell im Fokus der Berichterstattung. Laut Berichten von Yahoo Finance, einem Finanzportal, hat Apple das Unternehmen überholt und ist inmitten eines Tech-Ausverkaufs zum wertvollsten Unternehmen der Welt geworden. Wie Barron's, ein US-Finanzmagazin, meldet, steht die Nvidia-Aktie vor ihrem schlechtesten Monat seit einem Jahr. Zudem berichtet TradingView, eine Chart- und Börsenplattform, über Kursverluste von über vier Prozent an einem Freitag. In den vorliegenden Meldungen wurden verschiedene Risiken genannt, darunter laut Forbes, einem US-Wirtschaftsmagazin, Wettbewerbsuntersuchungen und Spionageberichte, die neue Bedenken aufwerfen. Laut Yahoo Finance gibt es im Konsens siebzig Kauf-Empfehlungen, zwei Halte-Empfehlungen und eins Verkauf-Empfehlung. Needham bewertet die Aktie mit Kaufen und einem Kursziel von dreihundert Dollar. Cantor Fitzgerald vergibt ein Übergewichten mit dreihundertfünfzig Dollar Kursziel. Rosenblatt stuft die Aktie mit Kaufen und einem Kursziel von dreihundertneunzig Dollar ein. Piper Sandler führt die Aktie mit Übergewichten und einem Kursziel von dreihundert Dollar. Zurück zu Nvidia: Die Firma arbeitet an verschiedenen Projekten. Laut ServiceNow Newsroom startet ServiceNow die Control Tower Alliance, um Unternehmen bei der KI-Einführung zu unterstützen. Yahoo Finance meldet zudem, dass Nvidia eine Beteiligung an SpaceX hält und die GPU-Mieten steigen.",
-   "id": "cda1a99087",
-   "generated_at": "2026-10-31T22:49:57Z",
+   "text": "Nvidia: Die Nvidia-Aktie steht derzeit unter Druck. Im Rahmen eines breiten Ausverkaufs im Technologiesektor hat das Unternehmen den Titel des wertvollsten Konzerns der Welt an Apple verloren. Wie das US-Finanzmagazin Barron's berichtet, steuert die Aktie zudem auf den schlechtesten Monat seit einem Jahr zu. Belastend wirken Berichte über Wettbewerbsuntersuchungen sowie ein angebliches Spionagekomplott gegen den Vorstandschef Jensen Huang. Technisch ist der Kurs unter die einhundert-Tage-Linie gefallen. Dennoch bleibt die Mehrheit der Analysten optimistisch: Von neunundsechzig Experten wird die Aktie mit Kaufen oder stark Kaufen bewertet, während nur drei Analysten zum Halten oder Verkaufen raten. Das durchschnittliche Kursziel liegt bei dreihundertneunundzwanzig Dollar, mit einer Spanne zwischen einhundertachtzig und fünfhundertfünfzehn Dollar. Operativ gibt es positive Signale, etwa durch eine Beteiligung an SpaceX und die Rolle als möglicher Mitunterzeichner für ein KI-Rechenzentrum in West Virginia. Diese Zusammenfassung dient ausschliesslich der Information und stellt keine Anlageempfehlung dar.",
+   "id": "2a50820bce",
+   "generated_at": "2026-11-01T05:58:04Z",
    "audio": {
     "file": "NVDA.mp3",
-    "hash": "b4054301f6f48aea",
-    "dur": 100.5,
+    "hash": "390456edcdc900bd",
+    "dur": 77.4,
     "engine": "edge"
    }
   },
@@ -45,14 +45,14 @@
   {
    "symbol": "HY9H.MU",
    "name": "SK Hynix",
-   "text": "SK Hynix: SK Hynix hat in den letzten Tagen für verschiedene Schlagzeilen an den Finanzmärkten gesorgt. Laut SK hynix, einer Firma, veranstaltete das Unternehmen seinen ersten Partnertag in Japan und tauschte die Geschäftsausrichtung mit wichtigen lokalen Partnern aus. Zudem berichtete SK hynix über technische Ansätze zur Bewältigung von Wartezeiten bei GPUs im Bereich künstlicher Intelligenz durch Siliziumphotonik und Co-Packaged Optics. Auf der angebots- und projektbezogenen Seite meldete Barchart.com, dass Solidigm von SK hynix eine Investition in ein Chipwerk in Höhe von rund fünfundvierzig Milliarden Dollar erwägt. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden, allerdings verzeichnete die Aktie laut TradingView, einer Chart- und Börsenplattform, Kursrückgänge von rund sieben Prozent und notierte laut boerse.de unter der wichtigen zweihundert-Tage-Linie. Investing.com Deutsch berichtete zudem über Belastungen durch Sorgen um KI-Investitionen und eine Gewinnverfehlung. Analysten-Bewertungen mit detaillierten Einstufungen liegen in den aktuellen Daten nicht vor. Zurück zu SK Hynix: Während finanzen.ch auf Druck aus China und eine mögliche Speicheroffensive hinwies, gibt es keine konkreten Insider-Transaktionen aus den offiziellen Pflichtmeldungen in den Berichten. Auch Aussagen von Unternehmenschefs wurden in den vorliegenden Daten nicht direkt wiedergegeben. Keine Anlageberatung.",
+   "text": "SK Hynix: SK Hynix hat in den letzten Tagen für verschiedene Schlagzeilen an den Finanzmärkten gesorgt. Laut SK hynix, einer Firma, veranstaltete das Unternehmen seinen ersten Partnertag in Japan und tauschte die Geschäftsausrichtung mit wichtigen lokalen Partnern aus. Zudem berichtete SK hynix über technische Ansätze zur Bewältigung von Wartezeiten bei GPUs im Bereich künstlicher Intelligenz durch Siliziumphotonik und Co-Packaged Optics. Auf der projektbezogenen Seite meldete Barchart.com, dass Solidigm von SK hynix eine Investition in ein Chipwerk in Höhe von fünfundvierzig Milliarden Dollar erwägt. Die Aktie verzeichnete laut TradingView, einer Chart- und Börsenplattform, Kursrückgänge von sieben Komma eins Prozent und notierte laut boerse.de unter der wichtigen zweihundert-Tage-Linie. Investing.com Deutsch berichtete zudem über Belastungen durch Sorgen um KI-Investitionen und eine Gewinnverfehlung, während finanzen.ch auf Druck aus China hinwies.",
    "id": "b880b969f8",
    "generated_at": "2026-11-01T05:03:50Z",
    "audio": {
     "file": "HY9H.MU.mp3",
-    "hash": "341e84782b42ab3f",
-    "dur": 87.1,
-    "engine": "gemini"
+    "hash": "7cbe9deb9fe3bec5",
+    "dur": 72.0,
+    "engine": "edge"
    }
   },
   {
@@ -110,13 +110,13 @@
   {
    "symbol": "PLTR",
    "name": "Palantir",
-   "text": "Palantir verzeichnet vor den anstehenden Quartalszahlen starke Nachfragesignale, während Analysten ihre Kursziele anheben. Laut Seeking Alpha, einer US-Plattform mit Anlegerbeiträgen, geht das Unternehmen mit soliden Fundamentaldaten in die Berichtssaison, obwohl am Markt Bewertungsbedenken bestehen. Berichten zufolge steht die Aktie im Fokus der Anleger, während TradingView, eine Chart- und Börsenplattform, auf einen bevorstehenden sequenziellen Umsatzwachstumstest von rund elf Komma sieben Prozent verweist. In den vorliegenden Meldungen wurden keine rechtlichen Probleme gefunden. Zu den potenziellen Risiken zählt laut boerse.de, einem deutschen Börsenportal, dass die Palantir-Aktie unter die achtunddreissig-Tage-Linie gerutscht ist. Ausserdem hält Investor Michael Burry laut Yahoo Finance, einem Finanzportal, das Meldungen und Analystenbewertungen bündelt, weiterhin eine Short-Position gegen das Unternehmen. Die Analysten zeigen sich überwiegend zuversichtlich. Laut Yahoo Finance liegt der Konsens aus achtundzwanzig Analystenbewertungen bei einundzwanzig Kaufempfehlungen, zwei starken Kaufen-Ratings, acht Halteempfehlungen sowie insgesamt fünf Verkaufsempfehlungen. Das durchschnittliche Kursziel beträgt rund zweihundertzwölf Dollar. JP Morgan nahm die Aktie neu mit dem Rating Übergewichten und einem Kursziel von rund zweihundertzweiundsechzig Dollar auf und bezeichnet Palantir als disruptiven KI-Marktführer. Oppenheimer bestätigte die Einstufung Besser als Markt und erhöhte das Kursziel auf rund zweihundertfünfunddreissig Dollar. Rosenblatt bestätigte das Rating Kaufen und hob das Kursziel auf rund zweihundertsechzig Dollar an. Piper Sandler bestätigte die Einstufung Übergewichten mit einem Kursziel von rund zweihunderteinunddreissig Dollar. Citigroup bestätigte die Kaufempfehlung und erhöhte das Ziel auf rund zweihundertfünfzig Dollar, während Mizuho die Einstufung Besser als Markt mit einem Ziel von rund zweihundertfünfundvierzig Dollar bestätigte. Zurück zu Palantir: Das Unternehmen profitiert laut Seeking Alpha von starken Nachfragesignalen im Bereich Künstliche Intelligenz. Belastend wirken dagegen laut Yahoo Finance die sehr ambitionierte Bewertung sowie skeptische Marktstimmen wie die von Josh Brown, der auf ein hohes Kurs-Gewinn-Verhältnis hinweist. Als wichtige Kennzahlen nennt TradingView das anstehende sequentielle Umsatzwachstum von rund elf Komma sieben Prozent, welches die geschäftliche Dynamik verdeutlicht. Der aktuelle Aktienkurs von Palantir liegt bei rund einhundertvierundachtzig Dollar, während das durchschnittliche Kursziel der Analysten bei rund zweihundertzwölf Dollar angesiedelt ist. Bei den Insidern zeigen Pflichtmitteilungen der Börsenaufsicht SEC, dass verschiedene Manager und Verwaltungsräte wie Ryan D. Taylor, Shyam Sankar und David A. Glazer in den vergangenen Wochen Aktien im Rahmen vorab festgelegter Verkaufspläne veräussert haben. Solche Insider-Verkäufe sind oft weniger aussagekräftig als Käufe, da sie häufig steuerlich motiviert sind oder langfristig geplant werden. Zu Aussagen des Managements liegen in den aktuellen Berichten keine spezifischen Meldungen vor. Keine Anlageberatung.",
+   "text": "Palantir steht kurz vor der Veröffentlichung der Quartalszahlen und verzeichnet dabei starke Nachfragesignale. Während Analysten ihre Kursziele anheben, gibt es am Markt weiterhin Bedenken hinsichtlich der hohen Bewertung. Ein wichtiger Gradmesser für die Dynamik ist der anstehende Test eines sequenziellen Umsatzwachstums von elf Komma sieben Prozent. Technisch gesehen ist die Aktie unter die achtunddreissig-Tage-Linie gerutscht, und der Investor Michael Burry hält laut Berichten weiterhin eine Short-Position gegen das Unternehmen. Die Analystenmeinungen sind mehrheitlich positiv: Von achtundzwanzig Experten raten dreiundzwanzig zum Kauf, während acht Halte- und fünf Verkaufsempfehlungen vorliegen. Zurück zu Palantir: Das durchschnittliche Kursziel liegt bei zweihundertzwölf Dollar. Zuletzt haben mehrere Banken ihre Einschätzungen aktualisiert, darunter JP Morgan, die Palantir als disruptiven KI-Marktführer einstuft und die Aktie mit einem Kursziel von zweihundertzweiundsechzig Dollar neu aufgenommen hat. Auch Häuser wie Oppenheimer, Rosenblatt, Piper Sandler, Citigroup und Mizuho haben ihre Kursziele in einem Bereich zwischen zweihunderteinunddreissig Dollar und zweihundertsechzig Dollar bestätigt. Kritische Stimmen mahnen jedoch, dass die kommenden Prognosen die hohen Erwartungen klar übertreffen müssen, um die ambitionierte Bewertung zu rechtfertigen. Bitte beachten Sie, dass dies keine Anlageempfehlung darstellt.",
    "id": "d4f35c915c",
    "generated_at": "2026-11-01T01:26:43Z",
    "audio": {
     "file": "PLTR.mp3",
-    "hash": "6c129067e58a5899",
-    "dur": 218.6,
+    "hash": "581fcfd35fe79eca",
+    "dur": 96.9,
     "engine": "edge"
    }
   },
@@ -188,14 +188,14 @@
   {
    "symbol": "MRVL",
    "name": "Marvell Technology",
-   "text": "Marvell Technology steht aktuell stark im Fokus der Finanzmärkte. Laut Berichten von Yahoo Finance, einem Finanzportal, das Meldungen und Analystenbewertungen bündelt, befindet sich das Unternehmen in fortgeschrittenen Gesprächen über eine Übernahme des Laserlieferanten Lumentum. Ein solcher Megadeal könnte ein Volumen von bis zu dreiundachtzig Milliarden Dollar erreichen. Investoren und Anleger reagierten jedoch besorgt auf diese Pläne, was laut dem US-Finanznachrichtenportal MarketWatch zu deutlichen Kursverlusten und Unruhe unter den Aktionären führte. Die Aktie geriet stark unter Druck und rutschte unter die technische Marke der einhundert-Tage-Linie, wie das deutsche Börsenportal boerse.de meldet. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Zu den Analystenbewertungen: Laut Daten von Yahoo Finance raten neun Analysten zum starken Kaufen, dreiundvierzig zum Kaufen, vier zum Halten und null zum Verkaufen. Das durchschnittliche Kursziel liegt bei dreihunderteinundvierzig Dollar, wobei das Kurspotenzial mit plus dreiundsiebzig Komma vier Prozent beziffert wird. Die UBS bestätigt ihr Rating auf Kaufen mit einem Kursziel von dreihundertfünfzig Dollar. Jefferies bestätigt Kaufen mit einem Kursziel von vierhundertfünfzig Dollar. JP Morgan bewertet mit Übergewichten und einem Kursziel von dreihundertsechzig Dollar. Wells Fargo stuft mit Übergewichten und einem Kursziel von dreihundertfünfundsechzig Dollar ein. Wolfe Research steht bei Besser als Markt mit einem Kursziel von dreihundertfünfundsiebzig Dollar, während Morgan Stanley mit Marktgewichten und einem Kursziel von dreihundert Dollar bewertet. Was die Firma gerade macht: Aufwertend wirkt, dass Marvell Technology als Käufer auftritt und seine Marktposition im Bereich Künstliche Intelligenz ausbauen will. Abwertend wirkt jedoch, dass dieser Schritt bei Investoren wegen möglicher Verwässerungseffekte und Sorgen vor einer neuen Dot-Com-Blase auf massive Ablehnung stösst. Wichtige Kennzahlen kurz erklärt: Das durchschnittliche Kursziel von dreihunderteinundvierzig Dollar zeigt die mittlere Erwartung der Experten, während das maximale Kursziel bei vierhundertfünfzig Dollar liegt. Das tiefste Kursziel beträgt zweihundertdreissig Dollar. Zu den Insider-Verkäufen: Sandep Bharathi verkaufte geplanterweise dreitausendsechshundertfünfundachtzig Aktien im Wert von rund achthundertfünfundsechzigtausendachthundertvierundsechzig Dollar. Chef Matthew J Murphy veräusserte geplanterweise siebentausendfünfhundert Aktien im Wert von rund eins Komma acht Millionen Dollar. Justin Scarpulla verkaufte eintausendeinhundert Aktien im Wert von rund dreihunderttausendneunhundertneunundvierzig Dollar, und Chris Koopmans trennte sich geplanterweise von zehntausend Aktien im Wert von rund zwei Komma sechs Millionen Dollar. Generell ist zu beachten, dass Insider-Verkäufe oft weniger aussagekräftig sind als Käufe, da sie häufig steuerlich motiviert oder über im Voraus festgelegte Pläne abgewickelt werden. Zurück zu Marvell Technology: Aussagen von Chefs oder dem Management liegen in den aktuellen Berichten nicht vor. Als Widerspruch zeigt sich, dass während Berichte über späte Gespräche zu Kursverlusten und dem Unterschreiten wichtiger charttechnischer Linien führten, die langfristigen Analysteneinschätzungen im Durchschnitt weiterhin deutlich über dem aktuellen Kursniveau verbleiben. Keine Anlageberatung.",
+   "text": "Marvell Technology steht derzeit im Zentrum der Aufmerksamkeit an den Finanzmärkten. Berichten zufolge befindet sich das Unternehmen in fortgeschrittenen Gesprächen zur Übernahme des Laserlieferanten Lumentum. Ein solcher Megadeal könnte ein Volumen von bis zu dreiundachtzig Milliarden Dollar erreichen. Diese Nachricht sorgte bei Investoren für erhebliche Unruhe, was zu deutlichen Kursverlusten führte. Die Aktie rutschte dabei unter die technische Marke der einhundert-Tage-Linie. Zurück zu Marvell Technology: Während der mögliche Ausbau der Marktposition im Bereich der Künstlichen Intelligenz als strategisch aufwertend betrachtet wird, fürchten viele Anleger eine Verwässerung und eine neue Dot-Com-Blase. Trotz der aktuellen Kursschwäche bleiben die Analysten mehrheitlich optimistisch. Von den beobachteten Experten raten neun zum starken Kaufen und dreiundvierzig zum Kaufen, während niemand zum Verkauf rät. Das durchschnittliche Kursziel liegt bei dreihunderteinundvierzig Dollar, mit einer Spanne zwischen zweihundertdreissig Dollar und vierhundertfünfzig Dollar. Verschiedene Häuser wie UBS, Jefferies, JP Morgan, Wells Fargo und Wolfe Research bestätigen ihre positiven Einschätzungen mit Kurszielen zwischen dreihundert und vierhundertfünfzig Dollar. Ein Widerspruch bleibt bestehen: Während die Übernahmegerüchte kurzfristig für Verkaufsdruck sorgten, liegen die langfristigen Kursziele der Analysten weiterhin deutlich über dem aktuellen Niveau.",
    "id": "9e4e85a322",
    "generated_at": "2026-11-01T04:06:38Z",
    "audio": {
     "file": "MRVL.mp3",
-    "hash": "1f7db266d0746a7b",
-    "dur": 196.1,
-    "engine": "gemini"
+    "hash": "85483f18e8a10f70",
+    "dur": 98.1,
+    "engine": "edge"
    }
   },
   {
@@ -214,13 +214,13 @@
   {
    "symbol": "GLW",
    "name": "Corning",
-   "text": "Corning: Aktuell steht das Unternehmen im Fokus von Finanzmedien und Analysten. Laut Yahoo Finance, einem Finanzportal, das Meldungen und Analystenbewertungen bündelt, treiben die optische Kommunikation und die Nachfrage nach künstlicher Intelligenz das Wachstum im dritten Quartal voran. MarketWatch, ein US-Finanznachrichtenportal, berichtet jedoch, dass die Aktie von Corning an mehreren Handelstagen im Vergleich zur Konkurrenz schlechter abschnitt. Zudem meldet das deutsche Börsenportal boerse.de, dass die Aktie massiv unter Druck geriet und ein neues Sechs-Monats-Tief erreichte. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Bei den Analystenbewertungen zeigt sich ein gemischtes Bild. Die UBS bestätigte das Rating Kaufen und senkte das Kursziel auf einhundertzweiundneunzig Dollar. Auch Truist Securities bestätigte das Rating Kaufen mit einem auf einhundertfünfundsiebzig Dollar gesenkten Kursziel. Barclays bestätigte die Einstufung Marktgewichten und erhöhte das Kursziel leicht auf einhundertzweiunddreissig Dollar. Morgan Stanley bestätigte ebenfalls die Einstufung Marktgewichten und senkte das Kursziel auf einhundertfünfundfünfzig Dollar. JP Morgan bestätigte die neutrale Einschätzung und passte das Kursziel auf einhundertfünfundsechzig Dollar an. Zurück zu Corning: China Renaissance vergab ein Kaufen-Rating und passte das Preisziel auf einhunderteinundneunzig Dollar an. Das durchschnittliche Kursziel aller erfassten Analysten liegt bei rund einhundertzweiundachtzig Dollar. Was die aktuelle Geschäftstätigkeit betrifft, so spricht das beschleunigte Wachstum durch KI-Anwendungen und optische Kommunikation für das Unternehmen. Dagegen sprechen die Kursverluste und das Erreichen eines neuen Sechs-Monats-Tiefs an der Börse. Zu den wichtigen Kennzahlen gehört das durchschnittliche Kursziel der Analysten von rund einhundertzweiundachtzig Dollar, das die optimistischen Erwartungen des Marktes widerspiegelt. Bei den Insidern zeigen die Pflichtmeldungen der US-Börsenaufsicht SEC Verkäufe: Michelle L. Gullo veräusserte Aktien im Wert von rund eins Komma fünf Millionen Dollar, und Lewis A. Steverson verkaufte Aktien im Wert von rund zwei Millionen Dollar. Insiderverkäufe sind oft weniger aussagekräftig als Käufe, da sie häufig steuerlich motiviert sind oder im Rahmen vorgeplanter Verkaufspläne stattfinden. Aussagen des Managements liegen in den aktuellen Meldungen nicht vor. Widersprüche zwischen den Berichten der verschiedenen Quellen wurden nicht festgestellt. Keine Anlageberatung.",
+   "text": "Corning steht derzeit im Fokus der Finanzwelt. Während das Unternehmen laut Yahoo Finance im dritten Quartal von einer starken Nachfrage in den Bereichen optische Kommunikation und künstliche Intelligenz profitierte, zeigt sich an der Börse ein anderes Bild. Das US-Portal MarketWatch berichtet, dass die Aktie im Vergleich zur Konkurrenz schwächer abschnitt, und boerse.de meldet, dass der Kurs unter Druck geriet und ein neues sechs-Monats-Tief erreichte. Analysten bewerten die Lage unterschiedlich: Die UBS, Truist Securities und China Renaissance stufen die Aktie weiterhin als Kaufen ein, während Barclays, Morgan Stanley und JP Morgan eher vorsichtig agieren. Zurück zu Corning: Das durchschnittliche Kursziel der Analysten liegt aktuell bei einhundertdreiundachtzig Dollar. Ein Blick auf die Insider-Aktivitäten zeigt, dass im Spätsommer 2026 hochrangige Führungskräfte Aktien verkauften: Michelle L. Gullo veräusserte Anteile im Wert von rund eins Komma fünf Millionen Dollar, und Lewis A. Steverson verkaufte Aktien für etwa zwei Millionen Dollar. Zusammenfassend steht dem operativen Wachstum durch KI-Technologien der aktuelle Abwärtsdruck an der Börse gegenüber.",
    "id": "c6a7904bd2",
    "generated_at": "2026-11-01T03:01:50Z",
    "audio": {
     "file": "GLW.mp3",
-    "hash": "91dbb8b29e9d3df7",
-    "dur": 176.1,
+    "hash": "d2ad316e01866149",
+    "dur": 82.8,
     "engine": "edge"
    }
   },
@@ -357,13 +357,13 @@
   {
    "symbol": "GE",
    "name": "GE Aerospace",
-   "text": "GE Aerospace: Die Aktie von GE Aerospace stand zuletzt im Fokus verschiedener Medien- und Analystenberichte. Laut der Mitteilung der Firma selbst hat GE Aerospace einen wichtigen Open-Fan-Test in Europa abgeschlossen. Zudem berichtet NEWS10 ABC, dass ein Hybrid-Elektroflugzeug des Unternehmens an einem historischen Lokalflug teilnahm. MarktWatch, ein US-Finanznachrichtenportal, meldete sowohl Tage mit überdurchschnittlicher Performance als auch Tage, an denen die Aktie im Vergleich zur Konkurrenz schlechter schnitt. Zurück zu GE Aerospace: In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Die Analystenbewertungen zeigen ein überwiegend positives Bild. Das durchschnittliche Kursziel der Analysten liegt bei rund dreihundertachtundsiebzig Dollar. Die UBS bestätigte ihre Kaufempfehlung mit einem Kursziel von rund dreihundertachtzig Dollar, während BNP Paribas das Kursziel auf rund zweihundertachtzig Dollar senkte und die Einstufung auf Schlechter als Markt beliess. JP Morgan, Susquehanna, RBC Capital und Morgan Stanley bestätigten ebenfalls ihre positiven Einschätzungen, passten jedoch teilweise ihre Kursziele nach unten an. Argus Research behält laut The Globe and Mail ebenfalls die Kaufempfehlung bei. Was die Aktivitäten der Firma betrifft, so wertet der Abschluss des Open-Fan-Tests in Europa sowie der Testflug des Hybrid-Elektroflugzeugs die Position auf, während Berichte über eine schwächere relative Performance an einzelnen Tagen als abwertend eingestuft werden können. Zu den Kennzahlen ist zu sagen, dass das durchschnittliche Kursziel bei rund dreihundertachtundsiebzig Dollar liegt und der aktuelle Kurs bei rund dreihunderteins Dollar notiert. Bei den Insider-Aktivitäten gab es Verkäufe: Vice President Robert M. Giglietti verkaufte Aktien im Wert von rund drei Komma acht Millionen Dollar, Senior Vice President Mohamed Ali verkaufte Aktien im Wert von rund zwei Komma neun Millionen Dollar und Senior Vice President Riccardo Procacci veräusserte Aktien im Wert von rund fünfhundertachtundzwanzigtausend Dollar. Solche Insider-Verkäufe können private Gründe haben oder steuerlich motiviert sein und sagen oft weniger aus als Insider-Käufe. Schliesslich gab es widersprüchliche Meldungen zur charttechnischen Lage bezüglich der zweihundert-Tage-Linie, da boerse.de sowohl Notierungen darunter als auch darüber meldete. Keine Anlageberatung.",
+   "text": "GE Aerospace steht derzeit im Fokus der Berichterstattung. Das Unternehmen hat erfolgreich einen wichtigen Open-Fan-Test in Europa abgeschlossen und zudem einen historischen Testflug mit einem Hybrid-Elektroflugzeug absolviert. Diese technologischen Fortschritte werden positiv bewertet, während Berichte über eine schwächere relative Performance an einzelnen Handelstagen als abwertend wahrgenommen werden können. Die Analystenmeinungen sind mehrheitlich optimistisch, mit einem durchschnittlichen Kursziel von dreihundertachtundsiebzig Dollar. Während Häuser wie die UBS, JP Morgan und RBC Capital ihre Kaufempfehlungen bestätigten, senkte BNP Paribas das Kursziel auf zweihundertachtzig Dollar und stufte die Aktie als schlechter als der Markt ein. Bezüglich der charttechnischen Lage gibt es widersprüchliche Meldungen zur zweihundert-Tage-Linie. Dies stellt keine Anlageberatung dar.",
    "id": "00bc0dad93",
    "generated_at": "2026-11-01T05:03:50Z",
    "audio": {
     "file": "GE.mp3",
-    "hash": "78a44f100ce21580",
-    "dur": 170.7,
+    "hash": "d027e87f71e0db7a",
+    "dur": 61.7,
     "engine": "edge"
    }
   },
@@ -396,14 +396,14 @@
   {
    "symbol": "0VR3.L",
    "name": "ZKB Gold ETF",
-   "text": "ZKB Gold ETF: Laut MarketWatch, einem US-Finanznachrichtenportal, fiel der Goldpreis auf den niedrigsten Stand seit einem Jahr. Wie Yahoo Finance, ein Finanzportal, berichtet, rutschte der Goldpreis unter viertausend Dollar. Finanzen.net, ein deutsches Finanzportal, meldet, dass US-Teuerung und unruhige Märkte auf das Edelmetall drücken. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Zu den Analysten-Bewertungen: Laut Finanzen.net, einem deutschen Finanzportal, schätzt der Gold-Stratege Stöferle die Lage so ein, dass Gold weiterhin extrem günstig ist. Was ZKB Gold ETF beziehungsweise den Goldmarkt gerade betrifft, so berichtet MarketWatch, einem US-Finanznachrichtenportal, dass der Goldpreis trotz erneuter Nervosität im Iran auf den niedrigsten Preis seit einem Jahr fiel. Zurück zu ZKB Gold ETF: The Economic Times, eine indische Wirtschaftszeitung, meldet einen Rückgang der Goldraten. Wie Finanzen.net, ein deutsches Finanzportal, berichtet, drücken US-Teuerung und unruhige Märkte auf das Edelmetall. Bei den wichtigen Kennzahlen ist der Kurs zu nennen: Dieser liegt laut Wallstreet Online, einem deutschen Börsenportal, bei rund dreitausendneunhundertdreiundachtzig Dollar, was den aktuellen Wert des Edelmetalls an den Märkten anzeigt. Insider-Käufe und -Verkäufe wurden in den Meldungen nicht erwähnt. Zum Thema Widersprüche berichtet FXStreet, ein Devisen- und Börsenportal, dass ein Analyst eine Erholung sieht, während ein anderer Analyst weitere Schwäche sieht. Keine Anlageberatung.",
+   "text": "ZKB Gold ETF: Der Goldpreis steht unter Druck und fiel laut Berichten auf den niedrigsten Stand seit einem Jahr. Wie unter anderem Yahoo Finance meldet, rutschte der Preis für das Edelmetall unter die Marke von viertausend Dollar. Als Gründe für diese Entwicklung werden die US-Teuerung sowie allgemeine Marktunruhen angeführt, die selbst durch geopolitische Spannungen im Iran nicht kompensiert werden konnten. Der aktuelle Kurs liegt bei dreitausendneunhundertdreiundachtzig Dollar. Während der Gold-Stratege Stöferle das Edelmetall weiterhin als extrem günstig einschätzt, gehen die Meinungen der Analysten auseinander: Auf dem Portal FXStreet stehen sich Prognosen einer baldigen Erholung und Erwartungen weiterer Kursschwäche gegenüber. Insider-Aktivitäten wurden in diesem Zusammenhang nicht gemeldet. Bitte beachten Sie, dass dies keine Anlageberatung darstellt.",
    "id": "0628ff85f4",
    "generated_at": "2026-11-01T04:06:38Z",
    "audio": {
     "file": "0VR3.L.mp3",
-    "hash": "9da6adbc5381ed2b",
-    "dur": 99.0,
-    "engine": "gemini"
+    "hash": "ff33f8db74c53eca",
+    "dur": 58.3,
+    "engine": "edge"
    }
   },
   {
@@ -422,26 +422,26 @@
   {
    "symbol": "UBSG.SW",
    "name": "UBS Group",
-   "text": "UBS Group: Laut Wallstreet Online, einem deutschen Börsenportal, steigerte die UBS ihren Vorsteuergewinn um siebenundzwanzig Prozent, und der Umbau der Credit Suisse sei auf Kurs. Laut Finanzen.ch, einem Schweizer Finanzportal, bewertet die DZ Bank die UBS-Aktie in einer neuen Analyse mit Kaufen. Zudem meldete TradingView, eine Chart- und Börsenplattform, dass die UBS Stimmrechte in Höhe von fünf Komma acht Prozent an der QIAGEN N.V. hält. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Laut Yahoo Finance, einem Finanzportal, das Meldungen und Analystenbewertungen bündelt, gibt es von siebzehn Analysten ein mittleres Kursziel von vierundfünfzig Komma sechs Dollar bei einem Konsens von sieben starken Käufen, sieben Käufen, acht Halten, zwei Verkäufen und eins starken Verkauf. Die DZ Bank bekräftigte ihr Kaufrating für die UBS Group. Zurück zu UBS Group: Was die Firma gerade macht, zeigt sich in den jüngsten Meldungen positiv durch das Gewinnwachstum und den fortgeschrittenen Umbau sowie Stimmrechtsmeldungen, während Finanzen.ch schwächere Nachmittagsnotierungen als abwertend meldete. Wichtige Kennzahlen sind der Vorsteuergewinn mit einem Plus von siebenundzwanzig Prozent, der die operative Ertragskraft misst, sowie das von Analysten ermittelte mittlere Kursziel von vierundfünfzig Komma sechs Dollar, das das geschätzte Mittel der Aktie darstellt. Insider-Käufe oder Verkäufe wurden in den offiziellen Meldungen nicht verzeichnet. Keine Anlageberatung.",
+   "text": "UBS Group: Die UBS Group zeigt sich operativ stark. Wie das deutsche Börsenportal Wallstreet Online berichtet, konnte die Grossbank ihren Vorsteuergewinn um siebenundzwanzig Prozent steigern, während der Umbau der Credit Suisse planmässig voranschreitet. Zudem hat die UBS Stimmrechte in Höhe von fünf Komma acht Prozent an der QIAGEN N.V. gemeldet. An der Börse gab es jedoch am Nachmittag laut dem Schweizer Portal Finanzen.ch leichtere Notierungen. Die DZ Bank bewertet die Aktie in einer aktuellen Analyse weiterhin mit Kaufen. Insgesamt bündelt Yahoo Finance die Einschätzungen von siebzehn Analysten, die ein mittleres Kursziel von vierundfünfzig Komma sechs Dollar ausgeben. Dabei überwiegen die positiven Einschätzungen mit sieben starken Käufen und sieben Käufen gegenüber acht Halte-Empfehlungen sowie drei Verkaufsempfehlungen. Der Vorsteuergewinn bleibt eine zentrale Kennzahl zur Beurteilung der operativen Ertragskraft des Instituts. Bitte beachten Sie, dass dies keine Anlageberatung darstellt.",
    "id": "41b1a7adbd",
    "generated_at": "2026-11-01T04:06:38Z",
    "audio": {
     "file": "UBSG.SW.mp3",
-    "hash": "a61e702ff385f1b3",
-    "dur": 91.9,
-    "engine": "gemini"
+    "hash": "13efb57e0cfdf746",
+    "dur": 72.4,
+    "engine": "edge"
    }
   },
   {
    "symbol": "1211.HK",
    "name": "BYD",
-   "text": "BYD: Der chinesische Hersteller BYD steht unter Druck, nachdem der Gewinn im dritten Quartal die Markterwartungen verfehlt hat. Laut Bloomberg.com belastet vor allem der intensive Preiskampf bei Elektrofahrzeugen in China, während die exportorientierte Erholung an Dynamik verliert. Dennoch bleibt das Unternehmen als Hersteller von Fahrzeugen mit neuer Energie, integrierter Batterieproduktion und Plug-in-Hybridtechnologie positioniert. Analysten bewerten die Aktie mehrheitlich positiv: Im Konsens gibt es fünf starke Kaufempfehlungen, dreiundzwanzig Kaufempfehlungen und vier Halte-Empfehlungen. TradingView hat das zwölf-Monats-Kursziel für die Klasse-A-Aktie auf umgerechnet sechzehn Komma zwei drei Dollar gesenkt, sieht aber weiterhin Aufwärtspotenzial. Das durchschnittliche Kursziel der Analysten liegt bei vierzehn Komma drei drei Dollar, wobei die Spanne zwischen sieben Komma sechs sieben und achtzehn Komma eins drei Dollar reicht. Insider-Aktivitäten wurden nicht gemeldet. Keine Anlageberatung.",
-   "id": "daa64eefa6",
-   "generated_at": "2026-11-01T01:26:43Z",
+   "text": "BYD: Die Aktie des Elektrofahrzeugherstellers BYD geriet zuletzt unter Druck, nachdem das Unternehmen im dritten Quartal die Gewinnerwartungen verfehlt hat. Laut dem US-Finanznachrichtendienst Bloomberg leidet das Ergebnis unter einem nachlassenden, exportorientierten Aufschwung. Zudem belastet der intensive Preiskampf bei Elektrofahrzeugen in China die Erträge, wie das Finanzportal Yahoo Finance berichtet. Trotz starker Auslieferungszahlen fiel die Aktie auf ein neues Zwölfmonatstief. Zurück zu BYD: Analysten sind jedoch mehrheitlich optimistisch: Laut Yahoo Finance raten achtundzwanzig Experten zum Kauf, während vier Analysten die Aktie halten; Verkaufsempfehlungen gibt es derzeit keine. Das durchschnittliche Kursziel liegt bei vierzehn Komma drei drei Dollar. Die Plattform TradingView hat das Kursziel für die Klasse-A-Aktie auf umgerechnet etwa sechzehn Dollar gesenkt, was rechnerisch ein Aufwärtspotenzial von einunddreissig Prozent impliziert. BYD ist als Hersteller von Elektrofahrzeugen mit eigener Batterieproduktion und Plug-in-Hybridtechnologie breit aufgestellt. Dennoch bleibt das Bild zwiespältig: Während Finanzhäuser wie die UBS und CMB International Securities laut der kanadischen Tageszeitung The Globe and Mail an ihren Kaufempfehlungen festhalten, wachsen laut dem Börsenportal boerse.de unter Anlegern die Zweifel an der kurzfristigen Entwicklung.",
+   "id": "5be65a93a5",
+   "generated_at": "2026-11-01T05:58:04Z",
    "audio": {
     "file": "1211.HK.mp3",
-    "hash": "5c3b63e7a5de345d",
-    "dur": 72.4,
+    "hash": "e6d514b285fc80b2",
+    "dur": 98.6,
     "engine": "edge"
    }
   },
@@ -524,5 +524,5 @@
   "dur": 10.2,
   "engine": "edge"
  },
- "audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@8707b1abacb3e15807d343a6fef8924f8d76ed36/data/audio/"
+ "audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@69d89f367f747b390db01afc2508e44c2459ec1d/data/audio/"
 }
