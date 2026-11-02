@@ -1,6 +1,200 @@
 {
 "episodes": [
 {
+"id": "2026-11-02-t",
+"kind": "tag",
+"date": "2026-11-02",
+"title": "Morgen-Sendung, Montag, zweiten November",
+"generated_at": "2026-11-02T05:27:52Z",
+"writer": "Gemini (Gratis-Kontingent) 8 Firmen, Rest Vorlage",
+"chapters": [
+{
+"name": "Begrüssung",
+"say": "Guten Morgen und willkommen zur Sendung vom Aktien-Radar, heute Montag, zweiten November. Zuerst ein kurzer Blick auf den Markt, dann die Firmen aus deiner Liste mit neuen Meldungen zu Produkten, Partnern und Projekten, danach die Quartalszahlen dieser Woche und zum Schluss ein Begriff zum Lernen. Kurz vorweg: Alles stammt aus gesammelten Daten und Schlagzeilen, Beträge nenne ich in Dollar. Das ist keine Anlageberatung.",
+"audio": {
+"file": "sendung/2026-11-02-t_00.mp3",
+"hash": "0caa405a987e910a",
+"dur": 29.8
+}
+},
+{
+"name": "Markt kurz",
+"say": "Der Markt kurz. Der S und P fünfhundert, der Index der fünfhundert grossen US-Firmen, stand zuletzt bei minus eins Komma acht Prozent gegenüber dem Vortag. In deiner Liste am stärksten: BYD mit plus drei Komma vier Prozent, Samsung Electronics mit plus zwei Komma neun Prozent, SPDR MSCI World Energy ETF mit plus eins Komma fünf Prozent. Am schwächsten: Intel mit minus achtundzwanzig Komma sechs Prozent, SK Hynix mit minus zehn Komma vier Prozent. Zum Thema Wall Street meldet Bloomberg.com: Asiatische Aktien werden fallen, da Tech-Flut Ängste vor KI schürt: Marktschluss. Zum Thema Exportkontrollen meldet Reuters: Chinas Roboterhersteller haben diese Schritte gemeistert. Jetzt kommt das Rennen um den Verstand.",
+"audio": {
+"file": "sendung/2026-11-02-t_01.mp3",
+"hash": "a4a597155cf57134",
+"dur": 59.6
+}
+},
+{
+"name": "Intel",
+"sym": "INTC",
+"say": "Zur Aktie Intel. Intel verzeichnete eine Q4-Warnung und eine Prognose, die Bedenken hinsichtlich der KI-Investitionen verschärften. Trotz ausserordentlicher Nachfrage nach Serverchips von Intel blickt Intel auf eine schwache Woche zurueck. Die Aktie von Intel leidet unter diesen Meldungen. Meine Einordnung aus diesen Meldungen: Sie könnten Intel eher schwächen. Das war Intel.",
+"audio": {
+"file": "sendung/2026-11-02-t_02.mp3",
+"hash": "4ab6f50b445967de",
+"dur": 29.1
+}
+},
+{
+"name": "Amazon",
+"sym": "AMZN",
+"say": "Zur Aktie Amazon. Amazon sorgt im Tech-Sektor zusammen mit Intel für verunsicherte Investoren und Bedenken bei KI-Investitionen. Andy Jassy erklärte zu den Q3-Ergebnissen, warum die Nachfrage nach den massgeschneiderten Chips von Amazon weiter wächst. Diese Entwicklungen rund um die Chips von Amazon zeigen gemischte Signale. Ob das Amazon stärkt oder schwächt, ist aus den Meldungen noch unklar. Das war Amazon.",
+"audio": {
+"file": "sendung/2026-11-02-t_03.mp3",
+"hash": "431a2ad0d2459e50",
+"dur": 32.5
+}
+},
+{
+"name": "Microsoft",
+"sym": "MSFT",
+"say": "Zur Aktie Microsoft. Microsoft schliesst einen Anleihevertrag über fünfundzwanzig Milliarden Dollar ab, während sich die KI-Politik vertieft. Gleichzeitig gewinnt Microsoft die Cloud-Kriege und wird an der Wall Street beachtet. Die Finanzierung von KI-Anleihen könnte dabei die Argumente für eine Investition in Microsoft verändern. Meine Einordnung aus diesen Meldungen: Sie könnten Microsoft eher stärken. Das war Microsoft.",
+"audio": {
+"file": "sendung/2026-11-02-t_04.mp3",
+"hash": "b824de16b6c11ec4",
+"dur": 33.0
+}
+},
+{
+"name": "Meta",
+"sym": "META",
+"say": "Zur Aktie Meta. Meta unterstützt kohlenstoffarmen Zement mit einem neuen Fortera-Deal. S und P senkte jedoch den Ausblick von Meta aufgrund von Investitionssorgen auf negativ. Zudem steht Meta im Fokus von Berichts- und Produktbewertungspflichten sowie einer Untersuchung wegen Monopolmissbrauchs bei einer KI-Razzia. Ob das Meta stärkt oder schwächt, ist aus den Meldungen noch unklar. Das war Meta.",
+"audio": {
+"file": "sendung/2026-11-02-t_05.mp3",
+"hash": "3224c49f169d0fba",
+"dur": 32.4
+}
+},
+{
+"name": "UBS",
+"sym": "UBSG.SW",
+"say": "Zur Aktie UBS. Die DZ Bank bewertet die Aktie der UBS in einer neuen Analyse mit Kaufen. Ausserdem gab es eine Neutral-Note der UBS AG für die Henkel vz-Aktie. Die UBS senkte zudem Kursziele für andere Firmen wie die VNET Group und Twilio aufgrund von Chip-Verzögerungen oder verlangsamtem Umsatzwachstum. Meine Einordnung aus diesen Meldungen: Sie könnten UBS eher stärken. Das war UBS.",
+"audio": {
+"file": "sendung/2026-11-02-t_06.mp3",
+"hash": "babd07fec461c5ea",
+"dur": 32.7
+}
+},
+{
+"name": "Nvidia",
+"sym": "NVDA",
+"say": "Zur Aktie Nvidia. Jensen Huang hat fantastische Neuigkeiten für Nvidia-Aktieninvestoren bekannt gegeben. Nvidia erwägt ausserdem die Rolle des Mitunterzeichners für das KI-Rechenzentrum von Nscale in West Virginia. Eine Q3-Vorschau und Berichte über das Fabless-Modell begleiten Nvidia vor den Zahlen. Meine Einordnung aus diesen Meldungen: Sie könnten Nvidia eher stärken. Das war Nvidia.",
+"audio": {
+"file": "sendung/2026-11-02-t_07.mp3",
+"hash": "e7bfe1a18e21610e",
+"dur": 30.5
+}
+},
+{
+"name": "Palantir",
+"sym": "PLTR",
+"say": "Zur Aktie Palantir. Zu Palantir liegen Form-vier-Meldungen zu Insidern und Führungskräften wie Ryan D. Taylor, Shyam Sankar und David A. Glazer vor. Zudem gibt es Prognosen zum Aktienkurs von Palantir bis zum Jahresende 2027. Konkrete Produkt- oder Auftragsmeldungen fehlen jedoch in den Schlagzeilen. Ob das Palantir stärkt oder schwächt, ist aus den Meldungen noch unklar. Das war Palantir.",
+"audio": {
+"file": "sendung/2026-11-02-t_08.mp3",
+"hash": "5c8ca803812256be",
+"dur": 33.0
+}
+},
+{
+"name": "SK Hynix",
+"sym": "HY9H.MU",
+"say": "Zur Aktie SK Hynix. SK Hynix veranstaltete den ersten Partnertag in Japan und tauschte die Gestaeftsausrichtung mit wichtigen lokalen Partnern aus. Die Tochter Solidigm von SK Hynix erwaegt eine Investition in ein Chipwerk in Hoehe von fünfundvierzig Milliarden Dollar. Laut Berichten ist SK Hynix ausserdem bis 2029 ausverkauft. Das war SK Hynix.",
+"audio": {
+"file": "sendung/2026-11-02-t_09.mp3",
+"hash": "10628a73721ca717",
+"dur": 30.2
+}
+},
+{
+"name": "Quartalszahlen diese Woche",
+"say": "Quartalszahlen diese Woche. Diese Firmen aus deiner Liste melden ihre Quartalszahlen. Zur Aktie Palantir: Zahlen Montag, am zweiten November. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von null Dollar und einundvierzig Cent. Beim Umsatz erwarten sie rund zwei Komma zwei Milliarden Dollar. Zur Aktie BioNTech: Zahlen Dienstag, am dritten November. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von null Dollar und sechsundsiebzig Cent. Beim Umsatz erwarten sie rund eins Milliarden Dollar. Zur Aktie Arm: Zahlen Mittwoch, am vierten November. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von null Dollar und achtundvierzig Cent. Beim Umsatz erwarten sie rund eins Komma vier Milliarden Dollar. Zur Aktie Oklo: Zahlen Freitag, am sechsten November. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von minus null Dollar und sechsundzwanzig Cent. Beim Umsatz erwarten sie rund eins Komma eins Millionen Dollar. Zur Aktie Berkshire Hathaway: Zahlen Samstag, am siebten November. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von sechs Dollar und vierzehn Cent.",
+"audio": {
+"file": "sendung/2026-11-02-t_10.mp3",
+"hash": "6cea56bfb70acdcc",
+"dur": 86.6
+}
+},
+{
+"name": "Begriff: Freier Cashflow",
+"say": "Zum Lernen, der Begriff des Tages: Freier Cashflow. Der freie Cashflow ist das Geld, das nach allen Ausgaben und Investitionen wirklich übrig bleibt. Damit kann eine Firma Schulden abbauen, Aktien zurückkaufen oder Dividenden zahlen.",
+"audio": {
+"file": "sendung/2026-11-02-t_11.mp3",
+"hash": "362fff8fc4ef59e0",
+"dur": 17.9
+}
+},
+{
+"name": "Schluss",
+"say": "Das war die Sendung vom Aktien-Radar. Die Quellen findest du in der App bei jeder Aktie, den ganzen Text über den Knopf Als Text. Bis morgen.",
+"audio": {
+"file": "sendung/2026-11-02-t_12.mp3",
+"hash": "cc4bc23e3e69d9dd",
+"dur": 11.5
+}
+}
+],
+"dur": 458.8,
+"full": {
+"file": "sendung/2026-11-02-t_full.mp3",
+"dur": 458.7,
+"marks": [
+[
+0,
+0.0
+],
+[
+1,
+29.8
+],
+[
+2,
+89.4
+],
+[
+3,
+118.5
+],
+[
+4,
+151.0
+],
+[
+5,
+184.0
+],
+[
+6,
+216.4
+],
+[
+7,
+249.1
+],
+[
+8,
+279.6
+],
+[
+9,
+312.6
+],
+[
+10,
+342.8
+],
+[
+11,
+429.4
+],
+[
+12,
+447.3
+]
+]
+}
+},
+{
 "id": "2026-10-31-w",
 "kind": "woche",
 "date": "2026-10-31",
@@ -1094,8 +1288,8 @@
 "dur": 729.9
 }
 ],
-"generated_at": "2026-10-31T07:44:33Z",
+"generated_at": "2026-11-02T05:27:52Z",
 "voice": "de-CH-LeniNeural",
 "source": "Yahoo Finance, SEC EDGAR, Schlagzeilen (Google News u.a.); Text: Gemini Gratis-Kontingent oder Vorlage",
-"audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@829c9395fdc8772f2fb5bf764ac29c1d3d59253a/data/audio/"
+"audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@f207d30993aca340f8d6d8c96a9f2bf9d884db26/data/audio/"
 }
