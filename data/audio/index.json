@@ -39,15 +39,16 @@
   },
   "AVGO": {
    "file": "AVGO.mp3",
-   "hash": "9b25de61b5749a67",
-   "th": "0eb0a658de117972",
+   "hash": "d372ee99a13b3a95",
+   "th": "062ab5c8d4a1f28b",
+   "engine": "gemini",
    "id": "69ed031083",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
    "br": 24,
-   "text": "Broadcom verzeichnete zuletzt deutliche Kursbewegungen im Zuge eines allgemeinen Ausverkaufs im Halbleitersektor, der unter anderem von Intel und weiteren Chip-Werten beeinflusst wurde. Laut Yahoo Finance, einem Finanzportal, geriet die Aktie unter Druck, was auch mit Finanzierungspaketen im Zusammenhang mit Anthropic und den Erwartungen an das künftige Wachstum bei künstlicher Intelligenz begründet wird. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Betreffend der Analystenbewertungen gibt es eine überwiegend positive Einschätzung. Laut Yahoo Finance raten insgesamt neunundvierzig Analysten zum Kauf, acht sprechen eine starke Kaufempfehlung aus und zwei raten zum Halten. Das durchschnittliche Kursziel wird bei fünfhundertdreissig Dollar geführt, während das höchste Kursziel bei sechshundertsechzig Dollar und das niedrigste bei zweihundertfünfzehn Dollar liegt. Häuser wie Rosenblatt und DA Davidson haben ihre Einstufungen angepasst oder bestätigt. Was die Aktivitäten der Firma betrifft, so wird laut Seeking Alpha hervorgehoben, dass Broadcom stark von der Entwicklung von XPU-Technologien profitiert, während laut Yahoo Finance eine Teilnahme an Branchenkonferenzen wie dem FYUZ sechsundzwanzig-Panel zur Diskussion von KI-Fabrics stattfindet. Auf der abwertenden Seite agierten ETFs kurzzeitig als Nettoverkäufer. Als wichtige Kennzahl ist das durchschnittliche Kursziel von fünfhundertdreissig Dollar zu nennen, welches die Konsenserwartung der Experten widerspiegelt. Zu den Insider-Transaktionen zeigen die vorliegenden Daten offizielle Formular-vier-Meldungen über Verkäufe, darunter geplante Verkäufe von Personen wie Henry Samueli im Wert von rund zweihundertfünfzig Millionen Dollar sowie Verkäufe von Mark David Brazeal im Wert von rund zehn Millionen Dollar und Gayla J Delly im Wert von rund siebenhundertachtundzwanzigtausend Dollar. Es ist anzumerken, dass Insider-Verkäufe oft weniger aussagekräftig sind als Käufe, da sie häufig steuerlich motiviert oder über vorab festgelegte Pläne organisiert sind. Aussagen des Managements im direkten Wortlaut wurden in den aktuellen Berichten nicht hervorgehoben. Abschliessend berichten unterschiedliche Portale wie Yahoo Finance und Livemint von teils kontroversen Diskussionen über die Bewertung von grossen Finanzierungspaketen, wobei Kritiker Parallelen zu früheren Marktphasen ziehen, während andere Beobachter die Einzigartigkeit der Partnerschaften betonen. Keine Anlageberatung.",
-   "dur": 171.8,
-   "at": "2026-11-02T17:08:01Z"
+   "text": "Broadcom verzeichnete zuletzt deutliche Kursbewegungen im Zuge eines allgemeinen Ausverkaufs im Halbleitersektor, der unter anderem von Intel und weiteren Chip-Werten beeinflusst wurde. Laut Yahoo Finance, einem Finanzportal, geriet die Aktie unter Druck, was auch mit Finanzierungspaketen im Zusammenhang mit Anthropic und den Erwartungen an das künftige Wachstum bei künstlicher Intelligenz begründet wird. In den vorliegenden Meldungen wurden keine rechtlichen Probleme gefunden. Betreffend der Analystenbewertungen gibt es eine überwiegend positive Einschätzung. Laut Yahoo Finance raten insgesamt siebenundfünfzig Analysten zum Kauf, während zwei Analysten eine Halteempfehlung aussprechen und keine Verkaufsempfehlungen vorliegen. Das durchschnittliche Kursziel wird bei fünfhundertdreissig Dollar geführt. Häuser wie Rosenblatt und DA Davidson haben ihre Einstufungen angepasst oder bestätigt. Was die Aktivitäten der Firma betrifft, so wird hervorgehoben, dass Broadcom stark von der Entwicklung profitiert. Als wichtige Kennzahl ist das durchschnittliche Kursziel von fünfhundertdreissig Dollar zu nennen, welches die Konsenserwartung der Experten widerspiegelt. Es ist anzumerken, dass Insider-Verkäufe oft weniger aussagekräftig sind als Käufe, da sie häufig steuerlich motiviert oder über vorab festgelegte Pläne organisiert sind. Aussagen des Managements im direkten Wortlaut wurden in den aktuellen Berichten nicht hervorgehoben. Abschliessend berichten unterschiedliche Portale wie Yahoo Finance und Livemint von teils kontroversen Diskussionen über die Bewertung von grossen Finanzierungspaketen, wobei Kritiker Parallelen zu früheren Marktphasen ziehen, während andere Beobachter die Einzigartigkeit der Partnerschaften betonen.",
+   "dur": 106.5,
+   "at": "2026-11-02T18:02:53Z"
   },
   "ASML": {
    "file": "ASML.mp3",
@@ -76,76 +77,77 @@
   },
   "PLTR": {
    "file": "PLTR.mp3",
-   "hash": "3ba50a73025a2258",
-   "th": "a9dcacb727ef6798",
+   "hash": "b6ecf35d4bb22107",
+   "th": "ed80e6376b9479ee",
    "engine": "gemini",
-   "id": "6ad4db7e38",
+   "id": "ad75c73c03",
    "voice": "Kore",
    "model": "gemini-2.5-flash-preview-tts",
    "br": 24,
-   "text": "Palantir steht im Zentrum des Marktgeschehens, da das Unternehmen seine Ergebnisse für das dritte Quartal vorlegt. Das deutsche Finanzportal Finanzen.net berichtet, dass die anstehenden Zahlen im Fokus der neuen Börsenwoche stehen. Das US-Finanzmagazin Barrons meldet ergänzend, dass sich Palantir erneut stark präsentieren muss, damit der Kurs weiter steigen kann, während FinanzNachrichten.de darauf hinweist, dass JPMorgan die Aktie vor den Zahlen zum Top-Pick ernannt hat. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Zu den Analysten-Bewertungen: Das durchschnittliche Kursziel von achtundzwanzig Analysten liegt bei zweihundertzwölf Dollar, wobei die Spanne von achtzig Dollar bis zweihundertfünfundsechzig Dollar reicht. Laut Yahoo Finance raten dreiundzwanzig Analysten zum Kaufen oder starken Kaufen, acht halten die Aktie und fünf raten zum Verkaufen oder starken Verkaufen. JP Morgan nahm die Aktie mit dem Rating Ubergewichten und einem Kursziel von zweihundertzweiundsechzig Dollar neu auf. Oppenheimer bestätigte die Einschätzung Besser als Markt und erhöhte das Kursziel von zweihundert Dollar auf zweihundertfünfunddreissig Dollar. Rosenblatt bestätigte die Kaufen-Einstufung und hob das Kursziel von zweihundertfünfundzwanzig Dollar auf zweihundertsechzig Dollar an. Piper Sandler bestätigte das Rating Ubergewichten und erhöhte das Kursziel leicht von zweihundertdreissig Dollar auf zweihunderteinunddreissig Dollar. Citigroup bestätigte die Kaufen-Empfehlung und steigerte das Kursziel von zweihundertfünfundvierzig Dollar auf zweihundertfünfzig Dollar. Mizuho bestätigte das Rating Besser als Markt und erhöhte das Kursziel von zweihundertfünfzehn Dollar auf zweihundertfünfundvierzig Dollar. Zurück zu Palantir: Das Unternehmen wird von JPMorgan vor den Zahlen als Top-Pick geführt, was als aufwertender Faktor gilt. Wichtige Kennzahlen im Überblick: Das durchschnittliche Kursziel beträgt zweihundertzwölf Dollar mit einem erwarteten Aufwärtspotenzial von rund fünfzehn Komma vier Prozent, was die durchschnittliche Erwartung der Analysten widerspiegelt. Das höchste Kursziel liegt bei zweihundertfünfundsechzig Dollar, das tiefste bei achtzig Dollar. Bei den Insider-Aktivitäten gab es im Berichtszeitraum mehrere planmässige Verkäufe, darunter von Verwaltungsrat Alexander D. Moore, der sechzehntausend Aktien im Wert von rund drei Komma zwei Millionen Dollar veräusserte, sowie von Verwaltungsrat Eric H. Woersching, der eintausend Aktien im Wert von rund zweihundertfünftausend Dollar verkaufte. Es liegen keine Aussagen der Chefs vor. Es gibt keine Widersprüche in den Berichten.",
-   "dur": 147.3,
-   "at": "2026-11-02T11:41:58Z"
+   "text": "Palantir steht vor der Veröffentlichung der Quartalszahlen für das dritte Quartal, wobei der Markt und Analysten stark auf das weitere Wachstum blicken. Laut Yahoo Finance herrscht an der Wall Street zudem Uneinigkeit über die hohe Bewertung der Aktie im Zuge eines breiteren Ausverkaufs bei Technologie-Werten. Zu den Analysten-Bewertungen: Die Bank Cantor Fitzgerald bestätigte ihr neutrales Rating und nennt ein Kursziel von zweihundertsieben Dollar. JP Morgan bewertet die Aktie mit Übergewichten und einem Kursziel von zweihundertzweiundsechzig Dollar. Oppenheimer führt die Einstufung Besser als Markt mit einem Kursziel von zweihundertfünfunddreissig Dollar. Rosenblatt vergibt die Kaufempfehlung mit einem Kursziel von zweihundertsechzig Dollar. Piper Sandler führt die Einstufung Übergewichten mit einem Kursziel von zweihunderteinunddreissig Dollar, während Citigroup die Kaufempfehlung mit einem Kursziel von zweihundertfünfzig Dollar angibt. Das durchschnittliche Kursziel der Analysten liegt bei zweihundertzwölf Dollar, was ein erwartetes Aufwärtspotenzial von rund fünfzehn Komma zwei Prozent signalisiert. Das Unternehmen bereitet die Vorlage der Ergebnisse für das dritte Quartal vor und steht im Fokus als einer der Auslöser für die Tech-Berichtssaison. Demgegenüber steht, dass der iShares Tech-Software ETF zuletzt Anteile von Palantir verkauft hat. Bei den Kennzahlen sticht das durchschnittliche Kursziel von zweihundertzwölf Dollar sowie das erwartete Aufwärtspotenzial von rund fünfzehn Komma zwei Prozent hervor. Zu den Insider-Aktivitäten zeigen offizielle Pflichtmeldungen diverse Verkäufe von Verwaltungsräten, darunter Alexander D. Moore, Eric H. Woersching und Lauren Elaina Friedman Stat, mit Werten zwischen rund zweihundertfünftausend Dollar und rund fünf Komma neun Millionen Dollar.",
+   "dur": 205.3,
+   "at": "2026-11-02T18:05:22Z"
   },
   "IBM": {
    "file": "IBM.mp3",
-   "hash": "e159e12bb8b22e03",
-   "th": "925d51d0ae1f6db1",
-   "id": "b5d3ce7630",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
+   "hash": "4ac4ce3edef3ff53",
+   "th": "d9b1bf30e3b85292",
+   "engine": "gemini",
+   "id": "7ab14838bd",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
    "br": 24,
-   "text": "IBM zeigt in den vorliegenden Meldungen verschiedene operative Entwicklungen. Laut dem IBM ASEAN Newsroom wurde eine Studie zur digitalen Souveranitat als oberste Prioritat fur die Bankentransformation veröffentlicht. Ausserdem meldet der IBM Newsroom, dass die Partnerschaft mit der USTA um fünf Jahre verlängert wurde. Das deutsche Börsenportal boerse.de berichtet über eine Hochstufung durch den BOTSI-Advisor von Rang vierhundertachtzehn. Yahoo Finance und MarketScreener Deutschland erwähnen zudem Marktpositionen im Bereich der mobilen Virtualisierung und der Genomik sowie Diskussionen darüber, wie sich künstliche Intelligenz auf die Ertragsseite auswirkt. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Zu den Analysten-Bewertungen: Mehrere Häuser haben ihre Einschätzungen bestätigt und Kursziele angepasst. Jefferies bestätigt die Einstufung Kaufen mit einem Kursziel von zweihundertachtzig Dollar. Die UBS bestätigt die neutrale Bewertung mit einem Kursziel von zweihundertdreiundvierzig Dollar. Citigroup bestätigt die Kaufempfehlung und erhöht das Kursziel auf zweihundertachtzig Dollar. Morgan Stanley bestätigt die Marktgewichtung bei einem Kursziel von zweihundertvierzig Dollar. BMO Capital bestätigt die Einschätzung wie der Markt und nennt ein Kursziel von zweihundertfünfundsechzig Dollar. Barclays bestätigt die Übergewichtung mit einem Kursziel von zweihundertsiebenundsiebzig Dollar. Das durchschnittliche Kursziel der Analysten liegt bei zweihundertneunundfünfzig Dollar, wobei das höchste Ziel bei dreihundert Dollar und das niedrigste bei einhundertvierundsiebzig Dollar verzeichnet wird. Zurück zu IBM: Das Unternehmen treibt Partnerschaften und Studien voran, während Diskussionen über die Monetarisierung von künstlicher Intelligenz laufen. Wichtige Kennzahlen umfassen ein durchschnittliches Kursziel von rund zweihundertneunundfünfzig Dollar.",
-   "dur": 134.3,
-   "at": "2026-11-02T12:47:59Z"
+   "text": "IBM zeigt sich in den aktuellen Meldungen mit verschiedenen technologischen Fortschritten und Partnerschaften. Laut einer Mitteilung der Firma selbst haben die USTA und IBM ihre langjährige Partnerschaft um fünf Jahre verlängert. Zudem berichtet das Finanzportal Yahoo Finance über Tests von Quantum X Labs zur Verschlüsselung auf IBM Quantum-Prozessoren sowie über Durchbrüche bei Cyber-Quantenverschlüsselungen mit dem IBM Quantum Processor Heron r2. Bei den Analystenbewertungen zeigt sich ein gemischtes Bild. Jefferies stuft die Aktie mit Kaufen und einem Kursziel von zweihundertachtzig Dollar ein. Die UBS bewertet sie als Neutral mit einem Kursziel von zweihundertdreiundvierzig Dollar. Die Citigroup vergibt ebenfalls Kaufen mit einem Kursziel von zweihundertachtzig Dollar. Morgan Stanley bewertet mit Marktgewichten und einem Kursziel von zweihundertvierzig Dollar. BMO Capital nennt Wie der Markt mit einem Kursziel von zweihundertfünfundsechzig Dollar. Barclays stuft mit Übergewichten und einem Kursziel von zweihundertsiebenundsiebzig Dollar ein. Schliesslich führt Daiwa Securities eine neutrale Bewertung. Als wichtige Kennzahlen sind das durchschnittliche Kursziel von zweihundertneunundfünfzig Dollar, das höchste Kursziel von dreihundert Dollar sowie das tiefste Kursziel von einhundertvierundsiebzig Dollar zu nennen. Kursziele spiegeln die Erwartungen der Analysten für die zukünftige Kursentwicklung wider. Zu den Insider-Aktivitäten wird gemeldet, dass Robert David Thomas als Senior Vice President fünfundzwanzigtausend Aktien im Wert von rund fünf Komma acht Millionen Dollar verkaufte.",
+   "dur": 97.4,
+   "at": "2026-11-02T18:06:24Z"
   },
   "NOW": {
    "file": "NOW.mp3",
-   "hash": "4b6a8ac334c67d46",
-   "th": "0bd0b1de4b8a896f",
-   "id": "27bfb34d87",
+   "hash": "0734ae25a45747fa",
+   "th": "e62a2f98c62c9c08",
+   "id": "29df8e5748",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Bei ServiceNow gibt es aktuell verschiedene Entwicklungen zu besprechen. Das Unternehmen hat die Finanzergebnisse fur das dritte Quartal 2026 vorgelegt und Partnerschaften bekannt gegeben, darunter mit HPE und OpenAI. Zu den Risiken und dem rechtlichen Bereich wurden in den Meldungen keine rechtlichen Probleme gefunden, jedoch berichten Portale wie TradingView von einem deutlichen Kursrueckgang und Bewertungsrisiken bei langsamerem Wachstum. Investing.com Deutsch meldet einen Kursrueckgang von siebenundzwanzig Prozent. Bei den Analysten-Bewertungen gibt es unterschiedliche Einschaetzungen. Laut Yahoo Finance bestaetigte Macquarie das Rating Neutral und nannte ein Kursziel von einhundertzwanzig Dollar, waehrend RBC Capital ein Kursziel von einhundertfünfundsechzig Dollar angibt. JP Morgan nannte ein Kursziel von einhundertsechzig Dollar, Citigroup von einhundertsiebenundfünfzig Dollar, StoneX von einhundertfünfzig Dollar und die UBS von einhundertvierzig Dollar. MarketScreener Deutschland meldet, dass BNP Paribas die Kaufempfehlung bekraeftigte. Was ServiceNow gerade macht: Aufwertend wirkt, dass HPE ServiceNow ausgewaehlt hat, um Supportdienste zu transformieren, und ServiceNow die Control Tower Alliance gestartet hat. Zu den Widerspruechen: Waehrend Investing.com Deutsch den Kursrueckgang kritisch bewerte, sieht AOL.com den Absturz als goldene Gelegenheit an.",
-   "dur": 100.1,
-   "at": "2026-11-02T11:42:22Z"
+   "text": "ServiceNow stand zuletzt im Fokus von Medien und Analysten, nachdem das Unternehmen seine Quartalsergebnisse fur das drei. Quartal 2026 vorgelegt hatte. Laut dem ServiceNow Newsroom gab es wichtige operative Entwicklungen, darunter eine Partnerschaft mit Hewlett Packard Enterprise zur Transformation von Supportdiensten im Cloud- und KI-Bereich, die Grundung der Control Tower Alliance fur eine sichere Einfuhrung von kunstlicher Intelligenz sowie eine erweiterte Zusammenarbeit mit OpenAI. Auch das Unternehmen Stagwell nutzt laut dem ServiceNow Newsroom die Plattform fur seine Agenturen. In den vorliegenden Meldungen wurden Risiken und negative Punkte besonders im Zusammenhang mit der Aktienkursentwicklung und Marktskepsis deutlich. Laut Forbes fiel die Aktie um zweiunddreissig Prozent, weil Investoren das Wachstum der kunstlichen Intelligenz in Frage stellen. Auch Seeking Alpha berichtet von zuruckhaltenden Anlegern, die den Kursruckgang nicht kaufen mochten. Bei den Analystenbewertungen zeigt sich ein gemischtes Bild. Laut Yahoo Finance liegt das durchschnittliche Kursziel von sechsundvierzig Analysten bei einhundertfünfundfünfzig Dollar, was ein prognostiziertes Aufwärtspotenzial von einundvierzig Komma acht Prozent bedeutet. Von insgesamt siebenundfünfzig bewertenden Analysten raten neun zu stark kaufen, vierundvierzig zu kaufen, drei zu halten, zwei zu verkaufen und eins zu stark verkaufen. Macquarie bestätigte die neutrale Einstufung und nannte ein Kursziel von einhundertzwanzig Dollar. RBC Capital bestätigte die Einschätzung besser als Markt mit einem Kursziel von einhundertfünfundsechzig Dollar. JP Morgan bestätigte das Votum Übergewichten und nannte ein Kursziel von einhundertsechzig Dollar. Citigroup bestätigte die Kaufempfehlung bei einem Kursziel von einhundertsiebenundfünfzig Dollar. StoneX bestätigte die Kaufempfehlung und nannte ein Kursziel von einhundertfünfzig Dollar. Die UBS bestätigte die neutrale Einstufung und nannte ein Kursziel von einhundertvierzig Dollar. BNP Paribas bekräftigte laut MarketScreener Deutschland ebenfalls die Kaufempfehlung. Bei den Widersprachen stehen sich unterschiedliche Marktsichten gegenuber: Wahrend Forbes uber starke Kursverluste und Zweifel der Investoren berichtet, werten Portale wie AOL.com den Kursruckgang als goldene Kaufgelegenheit.",
+   "dur": 165.2,
+   "at": "2026-11-02T18:07:10Z"
   },
   "META": {
    "file": "META.mp3",
-   "hash": "5fe59b61d2c0afd0",
-   "th": "9321a3ea7390256b",
-   "id": "445fbfcfa4",
+   "hash": "ccb2b7fddcc62edd",
+   "th": "aec375eb4fcc715d",
+   "id": "3ada241a4d",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Meta Platforms steht aktuell im Fokus der Finanzmärkte. Laut dem Fondsanalyse- und Researchhaus Morningstar sind die Aktien von Meta Platforms seit den letzten Gewinnzahlen gesunken. Zudem berichtet das Finanzportal Yahoo Finance, dass der Bonitätsausblick von S&P auf negativ herabgestuft wurde und Meta Platforms gemeinsam mit TikTok und X eine rechtliche Niederlage gegen Informationsmitteilungen der Regulierungsbehörde Ofcom erlitten hat. In den vorliegenden Meldungen wurden keine weiteren Risiken oder rechtlichen Probleme gefunden. Blick auf die Analysten-Bewertungen: Die UBS bestätigt die Einstufung als Kaufen mit einem Kursziel von achthundertzweiundneunzig Dollar. Die Citigroup bestätigt ebenfalls Kaufen mit einem Ziel von neunhundertfünf Dollar. DA Davidson bestätigt Kaufen und erhöht das Ziel auf achthundert Dollar. BMO Capital belässt das Rating auf Wie der Markt bei einem Ziel von sechshundertfünfundachtzig Dollar. Die Evercore ISI Group bestätigt Besser als Markt mit einem Kursziel von achthundertsiebzig Dollar, und Mizuho bestätigt Besser als Markt mit einem erhöhten Kursziel von neunhundertfünfzig Dollar. Zurück zu Meta Platforms: Operativ zeigt sich das Unternehmen aktiv. Laut dem Finanzportal MarketScreener Schweiz arbeiten Meta Platforms und Fourier an der zweiten Version eines humanoiden Roboters. Ausserdem kooperiert das Unternehmen laut eigenen Angaben von Facebook mit fünf US-Universitäten, um medizinische und wissenschaftliche Durchbrüche zu beschleunigen, und unterstützt in Kanada blinde sowie sehbehinderte Menschen. Zu den wichtigen Kennzahlen gehört das durchschnittliche Kursziel von achthundertachtundvierzig Dollar. Aussagen der Unternehmensführung zu Plänen wurden in den aktuellen Meldungen nicht gemacht.",
-   "dur": 124.9,
-   "at": "2026-11-02T16:08:39Z"
+   "text": "Meta Platforms: Nach den jüngsten Quartalszahlen gibt es verschiedene Entwicklungen beim Technologiekonzern. Laut dem Finanzportal MarketScreener plant Meta ein grenzüberschreitendes Anleiheangebot im Volumen von mindestens zwanzig Milliarden Dollar. Zugleich berichtet Yahoo Finance, dass die Ratingagentur Standard & Poor's vor den hohen Investitionsausgaben für künstliche Intelligenz warnt und den Bonitätsausblick des Unternehmens auf negativ herabgestuft hat. Auf der Produktseite gibt es laut Investing.com UK Zuwachs im Entwicklerprogramm für Metas Anwendung Muse, da sich Change Agents angeschlossen hat. Zudem teilte Facebook mit, dass eine Partnerschaft mit CNIB zur Unterstützung von sehbehinderten Menschen in Kanada eingegangen wurde. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden, abgesehen von den Warnungen der Ratingagentur bezüglich der Ausgaben. Analysten bewerten die Aktie überwiegend positiv. So hat die UBS ihr Kursziel auf achthundertzweiundneunzig Dollar bestätigt, während die Citigroup das Ziel auf neunhundertfünf Dollar hob. Mizuho nennt ein Kursziel von neunhundertfünfzig Dollar, DA Davidson von achthundert Dollar, Evercore ISI Group von achthundertsiebzig Dollar und BMO Capital ein Ziel von sechshundertfünfundachtzig Dollar. Während Standard & Poor's skeptisch auf die Ausgaben blickt, hält Investor Bill Ackman laut Barchart.com dagegen und bezeichnet die Aktie als unglaublich unterbewertet. Zurück zu Meta Platforms: Bei den Insidern gab es im Oktober verschiedene Verkäufe, die laut SEC-Daten auf vorab festgelegten Plänen basierten. So veräusserte Verwaltungsrat Peggy Alford Aktien im Wert von rund zweihundertfünfzigtausend Dollar, Chief Operating Officer Javier Olivan verkaufte Aktien im Wert von jeweils rund eins Million bis eins Komma zwei Millionen Dollar, Chef Mark Zuckerberg trennte sich von Aktien im Wert von rund einundzwanzig Komma vier Millionen Dollar und Chief Product Officer Christopher K Cox verkaufte Aktien im Wert von rund achtundzwanzig Komma fünf Millionen Dollar. Solche Insiderverkäufe sind oft durch geplante Programme oder steuerliche Gründe motiviert und sagen daher meist weniger aus als Käufe. Als wichtige Kennzahlen sind das durchschnittliche Kursziel der Analysten von rund achthundertachtundvierzig Dollar sowie das geplante Anleihevolumen von zwanzig Milliarden Dollar zu nennen. Widersprüche zeigen sich vor allem bei der Beurteilung der KI-Investitionen zwischen der Ratingagentur und investierten Marktteilnehmern wie Bill Ackman. Keine Anlageberatung.",
+   "dur": 181.6,
+   "at": "2026-11-02T18:07:37Z"
   },
   "AMZN": {
    "file": "AMZN.mp3",
-   "hash": "426080921f7cdb04",
-   "th": "3601c791ba87af0f",
-   "id": "bdacbbcdcc",
+   "hash": "b3448fb91b4f530f",
+   "th": "9cbd4fc1412784ec",
+   "id": "3267298c4f",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Amazon hat die Ergebnisse für das dritte Quartal bekannt gegeben und dabei über die geschäftliche Entwicklung informiert. Laut der internationalen Nachrichtenagentur Reuters haben die jüngsten Quartalszahlen und Aussagen zu den Investitionen in künstliche Intelligenz an den Börsen zu Kursrückgängen und Bedenken bei Anlegern geführt. Ergänzend berichtet der US-Finanznachrichtendienst Bloomberg, dass diese Aussichten die Angst vor hohen Investitionen vergrössert haben. Morningstar als Fondsanalyse- und Researchhaus meldet ausserdem, dass der Ausverkauf von Tech-Aktien durch diese Zahlen angetrieben wurde und Anleger verunsichert hat. Von insgesamt fünfundsiebzig erfassten Analysten raten achtundfünfzig zum Kaufen, fünfzehn zum starken Kaufen und zwei zum Halten, während das durchschnittliche Kursziel bei dreihundertsiebenundzwanzig Dollar liegt. Die UBS hat ein Kursziel von dreihundertzweiundfünfzig Dollar und die Scotiabank eines von dreihundert Dollar genannt. Konzernchef Andy Jassy erklärte im Rahmen der Quartalsergebnisse, dass sich das Wachstum von AWS beschleunigt hat und äusserte sich zudem zu schnelleren Lieferungen, niedrigeren Lieferkosten sowie Entwicklungen in den Bereichen Lebensmittel, Apotheke und künstliche Intelligenz beim Einkaufen. Ausserdem wächst laut Andy Jassy die Nachfrage nach den massgeschneiderten Chips des Unternehmens kontinuierlich weiter. Morningstar berichtet jedoch, dass sich zwar die Nachfrage in der Cloud verbessert hat, eine Erholung der Liquidität jedoch noch weiter entfernt ist.",
-   "dur": 103.6,
-   "at": "2026-11-02T11:42:57Z"
+   "text": "Amazon stand zuletzt mit seinen Ergebnissen fur das dritte Quartal im Fokus. Konzernchef Andy Jassy erklärte dazu, dass sich das Wachstum von AWS beschleunigt und die Nachfrage nach den eigenen Chips steigt. Auf der anderen Seite führten höhere Investitionen in künstliche Intelligenz zu Bedenken an den Märkten und zu Kursdruck im Technologiesektor. Analysten blicken überwiegend positiv auf die Aktie. Laut Yahoo Finance liegt das durchschnittliche Kursziel bei rund dreihundertsiebenundzwanzig Dollar, untermauert durch achtundfünfzig Kaufempfehlungen, zwei Halteempfehlungen und null Verkaufsempfehlungen. Die UBS bestätigte ihre Einschätzung und erhöhte das Kursziel auf dreihundertzweiundfünfzig Dollar, während die Scotiabank die Einschätzung beibehielt, jedoch das Kursziel auf dreihundert Dollar senkte. Bei den Marktreaktionen zeigen sich unterschiedliche Tendenzen, denn während die kanadische Tageszeitung The Globe and Mail von einer Aktien-Rallye am Montagmorgen berichtete, meldete das Schweizer Finanzportal Cash einen Tech-Ausverkauf wegen der Zahlen.",
+   "dur": 72.3,
+   "at": "2026-11-02T18:07:49Z"
   },
   "MRVL": {
    "file": "MRVL.mp3",
-   "hash": "66e70843965e1571",
-   "th": "5f1645abfc4de814",
-   "id": "fe1e41a34c",
+   "hash": "644e6c2126ea6f64",
+   "th": "43b2ef44ebb98fc4",
+   "id": "7572f6c58e",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Marvell Technology verlor im vergangenen Monat knapp sechsundzwanzig Prozent an Wert, wie das deutsche Borsenportal Wallstreet Online meldet. Ausserdem befindet sich das Unternehmen laut Berichten von Yahoo Finance in fortgeschrittenen Gesprächen über eine mögliche Übernahme des Laserlieferanten Lumentum. Diese Pläne sorgen bei Anlegern jedoch für Sorgen vor einer Verwässerung. Bei den Analysten gibt es unterschiedliche Einschätzungen: Die UBS stuft die Aktie mit Kaufen und einem Kursziel von dreihundertfünfzig Dollar ein, Jefferies empfiehlt den Kauf mit einem Kursziel von vierhundertfünfzig Dollar, JP Morgan bewertet sie mit Übergewichten und dreihundertsechzig Dollar Kursziel, Wells Fargo vergibt ebenfalls ein Übergewichten mit dreihundertfünfundsechzig Dollar Kursziel, Wolfe Research nennt das Rating Besser als Markt mit dreihundertfünfundsiebzig Dollar Kursziel und Morgan Stanley stuft das Papier mit Marktgewichten und einem Kursziel von dreihundert Dollar ein. Als aufwertend gilt die mögliche Übernahme des von Nvidia unterstützten Unternehmens Lumentum, während die Kursrückgänge im Zuge dieser Berichte als abwertend einzustufen sind. Das durchschnittliche Kursziel der Analysten liegt bei dreihunderteinundvierzig Dollar. Bei der Bewertung herrscht eine gewisse Uneinigkeit, da Piper Sandler den Ausverkauf gemass Yahoo Finance für übertrieben hält und ein Kursziel von vierhundert Dollar anpeilt, während andere Portale auf den anhaltenden Druck hinweisen.",
-   "dur": 97.8,
-   "at": "2026-11-02T11:43:04Z"
+   "text": "Marvell Technology steht im Fokus der Finanzmärkte wegen einer Grossuebernahme. Bloomberg.com, ein US-Finanznachrichtendienst, meldet, dass Marvell Technology die Uebernahme von Lumentum für eine Summe von einhundertfünfzehn Milliarden Dollar plant. Wie Reuters, eine internationale Nachrichtenagentur, berichtet, zielt dieser Schritt auf den Ausbau der KI-Konnektivität und Rechenzentren ab. Die Reaktionen auf den angekündigten Zusammenschluss fallen gemischt aus. FinanzNachrichten.de, ein deutsches Finanznachrichtenportal, teilt mit, dass die Börse skeptisch reagiert hat und die Aktienkurse fielen. In den vorliegenden Meldungen wurden keine rechtlichen Probleme gefunden. Zu den Analysten-Bewertungen: Die UBS stuft Marvell Technology mit Kaufen und einem Kursziel von dreihundertfünfzig Dollar ein. Jefferies bestätigt das Rating Kaufen mit einem Kursziel von vierhundertfünfzig Dollar. JP Morgan bewertet die Aktie mit Uebergewichten und einem Kursziel von dreihundertsechzig Dollar. Wells Fargo vergibt ebenfalls Uebergewichten mit einem Kursziel von dreihundertfünfundsechzig Dollar. Wolfe Research nennt die Einstufung Besser als Markt bei einem Kursziel von dreihundertfünfundsiebzig Dollar, und Morgan Stanley sieht die Aktie bei Marktgewichten mit einem Kursziel von dreihundert Dollar. Was die Firma gerade macht, zeigt sich an der strategischen Ausrichtung: Aufwertend wirkt, dass Marvell Technology laut Yahoo Finance, einem Finanzportal, das Meldungen und Analystenbewertungen bündelt, mit diesem Schritt einen KI-Optikmarkt im Wert von fünfhundertfünfzig Milliarden Dollar anvisiert und die Uebernahme zur Verbesserung der KI-Geschwindigkeit dienen soll. Abwertend merken Beobachter bei Business Insider an, dass die Aktien von Marvell Technology sinken, da der Chipkonzern einhundertfünfzehn Milliarden Dollar auf den Boom der KI-Rechenzentren setzt. Bei den Kennzahlen liegt das durchschnittliche Kursziel laut Yahoo Finance bei dreihunderteinundvierzig Dollar, während das höchste Kursziel bei vierhundertfünfzig Dollar liegt. Es gibt unterschiedliche Meinungen über die Transaktion: Während einige Plattformen wie Seeking Alpha von einem kostspieligen Fehler sprechen, halten andere dagegen, dass der Deal kein Fehler sei.",
+   "dur": 152.5,
+   "at": "2026-11-02T18:08:16Z"
   },
   "SFTBY": {
    "file": "SFTBY.mp3",
@@ -185,15 +187,15 @@
   },
   "ARM": {
    "file": "ARM.mp3",
-   "hash": "eb15eaaebe5e61ab",
-   "th": "57949f465c816652",
-   "id": "38820f23b4",
+   "hash": "7262058e53e12a67",
+   "th": "052cbbc77fe9e9fa",
+   "id": "b92304db09",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Arm Holdings stand zuletzt stark im Fokus von Investoren und Berichten. Laut dem Arm Newsroom kommt die Arm AGI CPU in die Oracle Cloud Infrastructure. Gleichzeitig berichten Portale wie Yahoo Finance, Finanzen.ch und Finanzen.net, dass die Aktien von Arm Holdings um fast zehn Prozent eingebrochen sind und unter einem breiten Ausverkaufsdruck im Halbleitersektor leiden. Zudem meldet Stock Titan eine unverbindliche Vereinbarung zwischen Arm und ECARX zur gemeinsamen Erkundung von KI-Plattformen und KI-Computern für Autos. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Betreffend der Analysten-Bewertungen gibt es laut Yahoo Finance ein breites Echo mit einem Konsens, der überwiegend Kaufempfehlungen enthält. Das durchschnittliche Kursziel der Analysten liegt bei zweihunderteinundneunzig Dollar, wobei das höchste Ziel bei fünfhundert Dollar und das niedrigste bei einhundertfünfundzwanzig Dollar angesiedelt ist. Zurück zu Arm Holdings: Die Firma arbeitet an Projekten wie der Integration in die Oracle Cloud Infrastructure und der Kooperation mit ECARX für Automobil-KI-Plattformen, während sie gleichzeitig unter dem branchenweiten Rückgang leidet. Zu den wichtigen Kennzahlen gehört das durchschnittliche Kursziel von zweihunderteinundneunzig Dollar, welches die aggregierten Erwartungen von vierzig Analysten widerspiegelt.",
-   "dur": 96.8,
-   "at": "2026-11-02T11:43:09Z"
+   "text": "Arm Holdings zeigt sich in den aktuellen Berichten im Spannungsfeld zwischen neuen technologischen Partnerschaften und breiten Kursrückgängen im Halbleitersektor. Zum kurzen Uberblick: Arm Holdings verzeichnete deutliche Kursverluste im Zuge eines breiten Marktausverkaufs bei Chipwerten, während das Unternehmen gleichzeitig Fortschritte bei neuen Partnerschaften und Produkten meldete. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Bei den Analysten-Bewertungen zeigt sich ein gemischtes Bild mit verschiedenen Kurszielen: Rosenblatt bewertet die Aktie mit Kaufen und einem Kursziel von zweihundertfünfzig Dollar, die UBS stuft sie ebenfalls mit Kaufen bei einem Kursziel von dreihundertzwanzig Dollar ein, und Morgan Stanley empfiehlt Marktgewichten mit einem Kursziel von zweihundertzwölf Dollar. RBC Capital vergibt ein Besser als Markt bei einem Kursziel von dreihundertvierzig Dollar, TD Cowen rät zum Kauf mit einem Kursziel von dreihundertfünfzig Dollar, und Wells Fargo gewichtet mit einem Kursziel von zweihundertachtzig Dollar übergewichtet. Was die Firma gerade macht, spiegelt sich in positiven Meldungen wider: Arm bringt die Arm AGI CPU in die Oracle Cloud Infrastructure und hat mit Ecarx eine Absichtserklärung zur Erforschung von KI-Computern für Autos sowie KI-Plattformen unterzeichnet. Demgegenüber belasten Tech-Ruckgaenge und Branchensorgen die Kursentwicklung. Zu den wichtigen Kennzahlen gedaehrt das von Yahoo Finance genannte durchschnittliche Kursziel von zweihunderteinundneunzig Dollar, welches das von Analysten erwartete Mittel widerspiegelt und zur Einschaetzung des Potenzials dient. Das hoechste Kursziel liegt bei fünfhundert Dollar und das tiefste bei einhundertfünfundzwanzig Dollar. Hinsichtlich Insider-Kaeufen oder -Verkaeufen wird in den Meldungen direkt nichts genannt. Keine Anlageberatung.",
+   "dur": 126.4,
+   "at": "2026-11-02T18:09:01Z"
   },
   "HOOD": {
    "file": "HOOD.mp3",
@@ -353,15 +355,15 @@
   },
   "MSFT": {
    "file": "MSFT.mp3",
-   "hash": "5e2900b8774265ac",
-   "th": "55c39d70f6530377",
-   "id": "c7dd1ad71e",
+   "hash": "8bea6e0a3a6ca2cd",
+   "th": "5a7f43e7e5c6e256",
+   "id": "2938917b91",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Microsoft steht in den vorliegenden Berichten im Fokus aktueller Quartalszahlen, neuer Schuldenangebote und starker Positionen im Cloud-Geschäft. Laut MarketWatch, einem US-Finanznachrichtenportal, gewinnt Microsoft die Cloud-Kriege und entwickelt sich zum neuen goldenen Kind der Wall Street. Das US-Finanzmagazin Barron's ergänzt, dass sich die Wall Street selbst bei einem ins Stocken geratenen KI-Handel wohl mit der Aktie fühlt. Die Analysten bewerten die Aktie überwiegend positiv. Das Konsens-Rating setzt sich aus zweiundfünfzig Kaufempfehlungen, fünf Halteempfehlungen und zwölf starken Kaufempfehlungen zusammen. Das durchschnittliche Kursziel liegt laut Yahoo Finance bei rund sechshundertdreiunddreissig Dollar. Bernstein bestätigt das Rating Besser als Markt und erhöht das Kursziel auf siebenhundertzweiundzwanzig Dollar. Die Citigroup bestätigt ihre Kaufempfehlung und hebt das Kursziel auf sechshundertachtzig Dollar an. DA Davidson und TD Cowen erhöhen ihre Kursziele jeweils auf sechshundertfünfzig Dollar. Scotiabank erhöht das Kursziel auf sechshundertfünfzig Dollar. RBC Capital bestätigt sein Kursziel bei sechshundertvierzig Dollar. Operativ weitet Partner Estée Lauder künstliche Intelligenz im Beauty-Geschäft aus, während der Konzern gleichzeitig Schuldenangebote ankündigt. Zu Insider-Transaktionen und Anteilsbewegungen meldet The Globe and Mail, dass Focused Investors Llc den Microsoft-Anteil um neunundsechzigtausendachthundert Aktien verringert hat. Bei den Widersprüchen berichten unterschiedliche Quellen konträr: Während Yahoo Finance einerseits auf eine überraschend pessimistische Stimmung an der Wall Street und Nettoverkäufe von ETFs verweist, zeigen andere Berichte ein hohes Vertrauen und neue Investitionen wie den Einstieg des JPMorgan Global Select Equity ETF.",
-   "dur": 129.0,
-   "at": "2026-11-02T16:10:54Z"
+   "text": "Microsoft: Die vorliegenden Meldungen zeigen ein insgesamt positives Bild fuer den Technologiekonzern. Laut Yahoo Finance Singapore gab Microsoft Ergebnisse fuer das erste Quartal bekannt, waehrend MarketWatch berichtet, dass Microsoft die Cloud-Kriege gewinnt und zu den bevorzugten Werten der Wall Street zaehlt. Zudem weitet Estee Lauder laut einer Mitteilung von Microsoft Kuenstliche Intelligenz im Beauty-Geschaeft aus. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Zu den Analysten-Bewertungen: Laut Yahoo Finance bewerten zahlreiche Analysten die Aktie positiv, wobei das durchschnittliche Kursziel bei sechshundertdreiunddreissig Dollar liegt. Die DZ Bank vergibt laut marketscreener.com ein Kaufrating. Zurueck zu Microsoft: Die Firma hat neue Schuldenangebote angekuendigt und treibt Partnerschaften voran, wie den Ausbau von Kuenstlicher Intelligenz bei Estee Lauder. Auf der anderen Seite hat Focused Investors Llc laut The Globe and Mail den Aktienanteil verringert. Als wichtige Kennzahl ist das durchschnittliche Kursziel der Analysten von sechshundertdreiunddreissig Dollar zu nennen, welches die Markterwartungen widerspiegelt. Bei den Insider-Transaktionen zeigen SEC-Pflichtmeldungen geplante Verkaeufe von Chief Financial Officer Amy Hood, darunter Transaktionen im Wert von rund vier Millionen Dollar und rund zwanzig Komma acht Millionen Dollar. Solche Verkaeufe basieren oft auf vorab festgelegten Plaenen und sagen daher nicht zwingend etwas ueber die Einschaetzung des Managements zum aktuellen Aktienwert aus. Keine Anlageberatung.",
+   "dur": 114.3,
+   "at": "2026-11-02T18:09:19Z"
   },
   "OEF": {
    "file": "OEF.mp3",
@@ -485,15 +487,15 @@
   },
   "MU": {
    "file": "MU.mp3",
-   "hash": "cbde880689308d9f",
-   "th": "a4453cd1a597f21f",
-   "id": "959540bf72",
+   "hash": "8b8856b76e8d73bd",
+   "th": "aa4261cb5b81a31d",
+   "id": "b21e2326ca",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Micron Technology, Inc.: Die Aktie des Speicherchip-Spezialisten stand zuletzt im Fokus verschiedener Finanzmedien. Laut Finanzen.ch gerieten Chip-Aktien wie Micron durch einen schwachen PC-Ausblick von Intel stark unter Druck. Barron's berichtet jedoch, dass sich die Micron-Aktie erholt hat, der Markt jedoch wegen bestehender KI-Ängste nach mehr verlangt. Zudem meldet Yahoo Finance, dass Micron zu den zehn grössten Beteiligungen in S&P fünfhundert-Indexfonds aufgestiegen ist. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Zu Micron Technology, Inc. liegen umfassende Analystenbewertungen vor: Das durchschnittliche Kursziel laut den Analystendaten von Yahoo Finance liegt bei rund eintausendfünfhundertzweiundsechzig Dollar, bei insgesamt fünfundvierzig Kaufempfehlungen. Das Analysehaus Rosenblatt bestätigte seine Einstufung auf Kaufen mit einem Kursziel von eintausendneunhundert Dollar, während DA Davidson ein Kursziel von dreitausend Dollar nannte. Mizuho nannte ein Kursziel von rund eintausendvierhundert Dollar und Morgan Stanley bestätigte die Einstufung mit eintausendzweihundert Dollar. Was macht Micron Technology, Inc. aktuell? Laut Yahoo Finance wurden AMD und Micron dem iShares PHLX SOX Semiconductor Indexfonds hinzugefügt, während ETFs als Nettoverkäufer auftraten. Demgegenüber belasten Berichte über den schwachen PC-Ausblick von Intel die Notierungen. Zurück zu Micron Technology, Inc.: Als wichtige Kennzahl ist das durchschnittliche Kursziel der Analysten von rund eintausendfünfhundertzweiundsechzig Dollar zu nennen, welches das mittlere Kurspotenzial widerspiegelt. Bei den Insider-Aktivitäten zeigen offizielle SEC-Meldungen, dass Manager wie Scott J Deboer und Michael Charles Ray im Rahmen vorher festgelegter Pläne Aktien im Wert von rund sechsundzwanzig Millionen beziehungsweise knapp sechs Millionen Dollar verkauft haben.",
-   "dur": 135.7,
-   "at": "2026-11-02T11:44:16Z"
+   "text": "Die Aktie von Micron Technology erholt sich derzeit von einem vorherigen Kursrutsch und Belastungen durch kunstliche Intelligenz, sieht sich jedoch weiterhin mit kritischen Marktbeobachtungen konfrontiert. Berichte verweisen zudem auf veränderte Wettbewerbsbedingungen und Markthurden. Analysten bewerten die Aktie überwiegend positiv. Das durchschnittliche Kursziel von fünfundvierzig Analysten liegt bei eintausendfünfhundertzweiundsechzig Dollar, wobei Hauser wie Rosenblatt, Needham, DA Davidson, Mizuho und Morgan Stanley Einschätzungen abgeben. So hob beispielsweise DA Davidson das Kursziel auf dreitausend Dollar an. Operativ gibt es positive Signale durch die Aufnahme der Aktie in den iShares PHLX SOX Semiconductor ETF.",
+   "dur": 53.6,
+   "at": "2026-11-02T18:09:28Z"
   },
   "DRO.AX": {
    "file": "DRO.AX.mp3",
@@ -508,10 +510,10 @@
    "at": "2026-11-02T07:36:03Z"
   }
  },
- "status": "quota: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usa",
- "checked_at": "2026-11-02T17:11:24Z",
+ "status": "ok",
+ "checked_at": "2026-11-02T18:09:28Z",
  "quota_until": 1793639243.6053808,
- "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@f0db6c166b0e515d44b56c1fc36f7c88f17d46bf/data/audio/",
+ "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@392aba76ceca447548da38bbdba3681b740f7a17/data/audio/",
  "extra": {
   "intro": {
    "file": "_intro.mp3",
