@@ -65,15 +65,16 @@
   },
   "INTC": {
    "file": "INTC.mp3",
-   "hash": "0f2da22eb93ff480",
-   "th": "a14cd339efcef621",
-   "id": "3dcd8e70f4",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
+   "hash": "af289d44a175d435",
+   "th": "2cc5e0c6b1e1367d",
+   "engine": "gemini",
+   "id": "864e4a817b",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
    "br": 24,
-   "text": "Intel hat die Finanzergebnisse für das dritte Quartal 2026 vorgelegt und dabei eine schwache Prognose für das vierte Quartal abgegeben. Dies führte zu einem historischen Kurseinbruch der Aktie von rund neunundzwanzig bis dreissig Prozent und löste einen weltweiten Abverkauf bei Chip- und Technologieaktien aus. Das Fondsanalyse- und Researchhaus Morningstar berichtet, dass die Kanzlei SueWallSt Investoren über potenzielle Wertpapieransprüche im Zusammenhang mit Intel informiert. Analysten und Medien raten zur Vorsicht. Der Analystenkonsens laut Yahoo Finance umfasst zwölf Kaufempfehlungen, eins Empfehlung zum starken Kauf, sechsunddreissig Halteempfehlungen sowie eins Verkaufsempfehlung. Das mittlere Kursziel liegt bei dreiundneunzig Komma acht acht Dollar, wobei das tiefste Kursziel siebzig Dollar und das höchste einhundertsechzig Dollar beträgt. Verschiedene Finanzhäuser haben ihre Einschätzungen angepasst. Die UBS bestätigte die neutrale Einschätzung und setzte das Kursziel auf achtzig Dollar. Freedom Broker stufte die Aktie auf Halten herab mit einem Kursziel von neunzig Dollar. JP Morgan bestätigte ein neutrales Rating bei einem Kursziel von achtzig Dollar. Citigroup behielt die Kaufempfehlung bei und senkte das Kursziel auf einhundert Dollar. TD Cowen bestätigte die Halteempfehlung mit fünfundsiebzig Dollar, und DA Davidson bestätigte die neutrale Haltung bei einem Kursziel von siebzig Dollar. Als abwertender Faktor wird die Quartalsprognose genannt, durch die laut TechCrunch der staatliche Regierungsanteil an Intel einen Wertverlust von zwölf Milliarden Dollar erlitt. Auf der Plattform Seeking Alpha gibt es widersprüchliche Berichte, die sowohl eine Herabstufung als auch ein Rating-Upgrade erwähnen.",
-   "dur": 122.4,
-   "at": "2026-11-02T19:00:47Z"
+   "text": "Intel durchlebt derzeit eine ausserst schwierige Phase an den Finanzmarkten. Wie die Nachrichtenagentur Reuters berichtet, verzeichnete die Aktie einen historischen Einbruch, der einen weltweiten Abverkauf im Chipsektor ausloste. Hintergrund sind gesenkte Prognosen fur das vierte Quartal und ein ins Stocken geratenes Comeback des Unternehmens. Die Auswirkungen sind massiv: CNBC und Investor's Business Daily melden einen Kurseinbruch von rund neunundzwanzig Prozent, wahrend der Wertverlust im Oktober sogar fünfundvierzig Prozent erreichte. Dies hat auch politische Konsequenzen, da laut TechCrunch ein Regierungsanteil an Intel dadurch zwölf Milliarden Dollar an Wert verlor. Zudem steht der strategische Vorstoss der Intel-Foundry nun unter kritischer Beobachtung. Rechtlich kommt weiterer Druck hinzu, da das Researchhaus Morningstar uber eine Untersuchung moglicher Wertpapieranspruche und Klagen gegen das Unternehmen informiert. Analysten reagieren entsprechend vorsichtig und haben ihre Einschatzungen angepasst. Die UBS, JP Morgan und DA Davidson stufen die Aktie neutral ein, mit Kurszielen zwischen siebzig und achtzig Dollar. TD Cowen und Freedom Broker empfehlen das Halten der Aktie, wobei die Kursziele bei fünfundsiebzig beziehungsweise neunzig Dollar liegen. Die Citigroup bleibt bei einer Kaufempfehlung, hat das Kursziel jedoch auf einhundert Dollar gesenkt. Im Durchschnitt sehen Analysten laut Yahoo Finance einen fairen Wert von dreiundneunzig Komma acht acht Dollar, wobei die Spanne zwischen siebzig und einhundertsechzig Dollar reicht. Ein interessantes Signal kommt aus dem Inneren des Unternehmens: Laut SEC-Pflichtmeldungen hat Lip Bu Tan in seiner Funktion als Chef und Verwaltungsrat Aktien erworben. Bitte beachten Sie, dass dies keine Anlageberatung darstellt.",
+   "dur": 94.2,
+   "at": "2026-11-02T23:08:41Z"
   },
   "PLTR": {
    "file": "PLTR.mp3",
@@ -185,15 +186,15 @@
   },
   "ARM": {
    "file": "ARM.mp3",
-   "hash": "7262058e53e12a67",
-   "th": "052cbbc77fe9e9fa",
-   "id": "b92304db09",
+   "hash": "0541d00c6187ec3b",
+   "th": "c24772dfaa8c5768",
+   "id": "5d0480f8b1",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Arm Holdings zeigt sich in den aktuellen Berichten im Spannungsfeld zwischen neuen technologischen Partnerschaften und breiten Kursrückgängen im Halbleitersektor. Zum kurzen Uberblick: Arm Holdings verzeichnete deutliche Kursverluste im Zuge eines breiten Marktausverkaufs bei Chipwerten, während das Unternehmen gleichzeitig Fortschritte bei neuen Partnerschaften und Produkten meldete. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Bei den Analysten-Bewertungen zeigt sich ein gemischtes Bild mit verschiedenen Kurszielen: Rosenblatt bewertet die Aktie mit Kaufen und einem Kursziel von zweihundertfünfzig Dollar, die UBS stuft sie ebenfalls mit Kaufen bei einem Kursziel von dreihundertzwanzig Dollar ein, und Morgan Stanley empfiehlt Marktgewichten mit einem Kursziel von zweihundertzwölf Dollar. RBC Capital vergibt ein Besser als Markt bei einem Kursziel von dreihundertvierzig Dollar, TD Cowen rät zum Kauf mit einem Kursziel von dreihundertfünfzig Dollar, und Wells Fargo gewichtet mit einem Kursziel von zweihundertachtzig Dollar übergewichtet. Was die Firma gerade macht, spiegelt sich in positiven Meldungen wider: Arm bringt die Arm AGI CPU in die Oracle Cloud Infrastructure und hat mit Ecarx eine Absichtserklärung zur Erforschung von KI-Computern für Autos sowie KI-Plattformen unterzeichnet. Demgegenüber belasten Tech-Ruckgaenge und Branchensorgen die Kursentwicklung. Zu den wichtigen Kennzahlen gedaehrt das von Yahoo Finance genannte durchschnittliche Kursziel von zweihunderteinundneunzig Dollar, welches das von Analysten erwartete Mittel widerspiegelt und zur Einschaetzung des Potenzials dient. Das hoechste Kursziel liegt bei fünfhundert Dollar und das tiefste bei einhundertfünfundzwanzig Dollar. Hinsichtlich Insider-Kaeufen oder -Verkaeufen wird in den Meldungen direkt nichts genannt. Keine Anlageberatung.",
-   "dur": 126.4,
-   "at": "2026-11-02T18:09:01Z"
+   "text": "Arm Holdings: Laut Yahoo Finance, einem Finanzportal, steht Arm Holdings vor einem Ertragstest, da Künstliche-Intelligenz- und Lizenzgebührenfragen die Bewertung beeinflussen. Laut Stock Titan, einem Portal für Firmenmitteilungen, haben Arm und Ecarx eine unverbindliche Absichtserklärung zur Prüfung von Künstliche-Intelligenz-Computing-Plattformen und Künstliche-Intelligenz-Computern für Autos unterzeichnet. Laut TradingView, einer Chart- und Börsenplattform, fallen die Aktien um eins Komma zwei Prozent und stehen wegen des Lizenzgebührenmixes auf dem Prüfstand. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden, jedoch berichten Finanzen.net, TradingView, Investing.com India und Yahoo Finance über Kursrückgänge und anhaltende Verkäufe durch Investoren. Zu den Analysten-Bewertungen: Laut den Yahoo Finance Analystendaten gibt es achtundzwanzig Kaufen-, dreizehn Halten-, zwei Verkaufen-, acht Stark kaufen- und eins Stark verkaufen-Einstufungen bei einem durchschnittlichen Kursziel von zweihunderteinundneunzig Dollar. Rosenblatt bestätigt die Einstufung Kaufen mit einem Kursziel von zweihundertfünfzig Dollar. Die UBS bestätigt die Einstufung Kaufen mit einem Kursziel von dreihundertzwanzig Dollar. Morgan Stanley bestätigt die Einstufung Marktgewichten mit einem Kursziel von zweihundertzwölf Dollar. RBC Capital bestätigt die Einstufung Besser als Markt mit einem Kursziel von dreihundertvierzig Dollar. TD Cowen bestätigt die Einstufung Kaufen mit einem Kursziel von dreihundertfünfzig Dollar. Wells Fargo bestätigt die Einstufung Übergewichten mit einem Kursziel von zweihundertachtzig Dollar. Zurück zu Arm Holdings: Was macht die Firma gerade? Laut Stock Titan haben Arm und Ecarx unter einem unverbindlichen Abkommen vereinbart, Künstliche-Intelligenz-Computer für Autos sowie Künstliche-Intelligenz-Plattformen für China und globale Märkte zu erforschen. Als abwertend wird laut TradingView gemeldet, dass Probleme bei SoftBank im Zusammenhang mit OpenAI und sinkende Kurse das Umfeld belasten. Wichtige Kennzahlen kurz erklärt: Das durchschnittliche Kursziel liegt bei zweihunderteinundneunzig Dollar, das höchste Kursziel bei fünfhundert Dollar und das tiefste Kursziel bei einhundertfünfundzwanzig Dollar. Zu Insider-Käufen und -Verkäufen zeigen die offiziellen Pflichtmeldungen bei der Börsenaufsicht, dass Finanzchef Jason Child im August und September jeweils zehntausendvierhundert Aktien im Wert von rund zwei Komma sieben Millionen Dollar beziehungsweise rund drei Komma eins Millionen Dollar im Rahmen eines geplanten Verkaufsplans veräussert hat. Solche geplanten Verkäufe von Insidern sagen oft weniger aus als Käufe, da sie häufig steuerlich oder langfristig motiviert sind. Keine Anlageberatung.",
+   "dur": 194.5,
+   "at": "2026-11-02T23:10:06Z"
   },
   "HOOD": {
    "file": "HOOD.mp3",
@@ -209,15 +210,15 @@
   },
   "WNRG.SW": {
    "file": "WNRG.SW.mp3",
-   "hash": "9127b4efb4d2ac9f",
-   "th": "0a3ef4ae57734784",
-   "id": "0a3ef4ae57",
+   "hash": "3921edf431795a80",
+   "th": "cb99b5e5bfa811c2",
+   "id": "7083b058ee",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "SPDR MSCI World Energy ETF: In den vorliegenden Berichten stehen vor allem saisonale Renditediagramme und allgemeine ETF-Kursübersichten im Fokus. Laut Yahoo! Finance Canada, einem Finanzportal das Meldungen und Analystenbewertungen bündelt, wurden verschiedene saisonale Rendite-Charts veröffentlicht. Zudem berichtet Finanzen.ch, ein Schweizer Finanzportal, über Top Performance ETFs im Monat Oktober 2026 an der SIX. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Es liegen aktuell keine Analysten-Bewertungen oder nennenswerte Unternehmensaktivitäten vor. Zurück zu SPDR MSCI World Energy ETF: Es wurden keine spezifischen Kennzahlen, Insider-Transaktionen oder Aussagen von Chefs übermittelt. Auch Widersprüche zwischen den Berichten lassen sich nicht feststellen. Keine Anlageberatung.",
-   "dur": 66.7,
-   "at": "2026-11-02T20:10:03Z"
+   "text": "Der iShares MSCI World Energy Sector UCITS ETF steht aktuell im Fokus von Berichten, die sich mit saisonalen Rendite-Charts und der allgemeinen Kursentwicklung von börsengehandelten Fonds an der Börse SIX befassen. In den vorliegenden Meldungen von Yahoo! Finance Canada, Finanzen.ch und Finanzen.net wurden keine spezifischen Risiken, rechtlichen Probleme oder Analysten-Bewertungen für diesen ETF genannt. Auch liegen keine Informationen zu Insider-Transaktionen oder Aussagen des Managements vor. Es handelt sich hierbei um eine reine Zusammenfassung der Marktdaten ohne Anlageberatung.",
+   "dur": 42.6,
+   "at": "2026-11-02T23:10:19Z"
   },
   "BE": {
    "file": "BE.mp3",
@@ -485,15 +486,15 @@
   },
   "MU": {
    "file": "MU.mp3",
-   "hash": "8b8856b76e8d73bd",
-   "th": "aa4261cb5b81a31d",
-   "id": "b21e2326ca",
+   "hash": "677961057a5d0738",
+   "th": "d6f66aff894ef765",
+   "id": "10acac6984",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Die Aktie von Micron Technology erholt sich derzeit von einem vorherigen Kursrutsch und Belastungen durch kunstliche Intelligenz, sieht sich jedoch weiterhin mit kritischen Marktbeobachtungen konfrontiert. Berichte verweisen zudem auf veränderte Wettbewerbsbedingungen und Markthurden. Analysten bewerten die Aktie überwiegend positiv. Das durchschnittliche Kursziel von fünfundvierzig Analysten liegt bei eintausendfünfhundertzweiundsechzig Dollar, wobei Hauser wie Rosenblatt, Needham, DA Davidson, Mizuho und Morgan Stanley Einschätzungen abgeben. So hob beispielsweise DA Davidson das Kursziel auf dreitausend Dollar an. Operativ gibt es positive Signale durch die Aufnahme der Aktie in den iShares PHLX SOX Semiconductor ETF.",
-   "dur": 53.6,
-   "at": "2026-11-02T18:09:28Z"
+   "text": "Die Aktie von Micron Technology zeigt Anzeichen einer Erholung nach einem vorangegangenen Ausverkauf im Bereich der kuenstlichen Intelligenz. Dennoch bleibt der Markt aufgrund von Aengsten und Bedenken in diesem Sektor nervoes. Ein Thema, das den Kurs derzeit bewegt, sind Diskussionen ueber moegliche Engpaesse bei Speicherchips, die laut TradingView bis ins Jahr 2030 anhalten koennten. Belastend wirkten sich Meldungen von Yahoo Finance aus, wonach die Aktie um vier Prozent nachgab, ausgeloest durch einen vorsichtigen Ausblick des Wettbewerbers Kioxia. Zudem wird Micron in Berichten als Verlierer eines Lumentum-Deals genannt, der von einem moeglichen Marktzusammenbruch in zwei bis drei Jahren ausgeht. Auf der Analystenseite bleibt die Stimmung jedoch ueberwiegend positiv: Von den beobachteten Experten empfehlen fünfundvierzig den Kauf, neun stufen die Aktie als stark kaufen ein, waehrend nur wenige Analysten zu Halten oder Verkaufen raten. Das durchschnittliche Kursziel liegt bei eintausendfünfhunderteinundsechzig,einundneunzig Dollar. Zu den juengsten Einschaetzungen zaehlen Kaufempfehlungen von Rosenblatt mit einem Ziel von eintausendneunhundert,null Dollar sowie von Needham mit eintausendsechshundertfünfzig,null Dollar. DA Davidson sieht das Ziel sogar bei dreitausend,null Dollar. Operativ gibt es gemischte Signale: Waehrend der iShares PHLX SOX Semiconductor ETF die Aktie am neunundzwanzigsten Oktober in sein Portfolio aufnahm, wurden ETFs am selben Tag gleichzeitig als Nettoverkaeufer von Micron-Titeln gefuehrt. Fuer den Dezember gibt es zudem Berichte ueber moegliche massive Aktienrueckkaeufe durch das Unternehmen. Bitte beachten Sie, dass dies keine Anlageberatung darstellt.",
+   "dur": 119.4,
+   "at": "2026-11-02T23:10:33Z"
   },
   "DRO.AX": {
    "file": "DRO.AX.mp3",
@@ -509,9 +510,9 @@
   }
  },
  "status": "quota: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usa",
- "checked_at": "2026-11-02T21:35:21Z",
- "quota_until": 1793653751.4540772,
- "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@cb374281b29c0268496091123187a5da0af7dd13/data/audio/",
+ "checked_at": "2026-11-02T23:10:33Z",
+ "quota_until": 1793664546.7904031,
+ "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@2afc3bdba20907ae93e287f41e3a5eb8e07702b0/data/audio/",
  "extra": {
   "intro": {
    "file": "_intro.mp3",
