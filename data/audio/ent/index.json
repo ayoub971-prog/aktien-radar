@@ -5,12 +5,12 @@
 "dur": 30.5
 },
 "potenzial_OKLO.mp3": {
-"h": "63f2e4d8de421356",
-"dur": 38.5
+"h": "02d735c47947112e",
+"dur": 37.4
 },
 "potenzial_005930.KS.mp3": {
-"h": "f6756062cce5d337",
-"dur": 44.1
+"h": "3bfa9dc537fc279d",
+"dur": 41.6
 },
 "potenzial_FLEX.mp3": {
 "h": "e9fcf7968d7eceb4",
@@ -21,20 +21,20 @@
 "dur": 37.9
 },
 "potenzial_ORCL.mp3": {
-"h": "db46278f3af9f23a",
-"dur": 41.7
+"h": "0020e60a9aa81cc4",
+"dur": 41.2
 },
 "potenzial_APP.mp3": {
-"h": "d268d661548893fe",
-"dur": 36.7
+"h": "badbc3feb9b7885e",
+"dur": 33.3
 },
 "potenzial_COHR.mp3": {
-"h": "60da82bc1a3510fb",
-"dur": 35.1
+"h": "5e6fbe94a067a4b2",
+"dur": 36.5
 },
 "potenzial_1211.HK.mp3": {
-"h": "648d285e88975d77",
-"dur": 46.2
+"h": "8e2beabf1b433695",
+"dur": 45.8
 },
 "potenzial_WDC.mp3": {
 "h": "4e27134a986e0b3f",
@@ -53,8 +53,8 @@
 "dur": 42.5
 },
 "potenzial_AKAM.mp3": {
-"h": "63f69d6a05e441b2",
-"dur": 47.3
+"h": "0969a7533eca7b7e",
+"dur": 47.5
 },
 "potenzial_WYNN.mp3": {
 "h": "e2daf197e88f4719",
@@ -73,8 +73,8 @@
 "dur": 44.3
 },
 "potenzial_RDDT.mp3": {
-"h": "1d2a71997481275e",
-"dur": 46.3
+"h": "172bc1e83a05b548",
+"dur": 46.4
 },
 "wachstum__intro.mp3": {
 "h": "c921ef2c435ea029",
@@ -121,36 +121,36 @@
 "dur": 30.8
 },
 "wachstum_PSX.mp3": {
-"h": "93ecca07fb8b0f36",
-"dur": 41.5
+"h": "c2b9c765cdd23b21",
+"dur": 41.1
 },
 "wachstum_SWKS.mp3": {
-"h": "ef09db90f48e3d68",
-"dur": 34.3
+"h": "8c983ec82174fa0a",
+"dur": 33.4
 },
 "wachstum_EL.mp3": {
-"h": "ba53fb295205c8dd",
-"dur": 35.9
+"h": "0653261f2cf42216",
+"dur": 36.4
 },
 "zahlen__intro.mp3": {
 "h": "65abbcac08891f1c",
 "dur": 25.9
 },
 "zahlen_HAS.mp3": {
-"h": "3ffde31782e5bef1",
-"dur": 57.7
+"h": "b4a242cbff0553a8",
+"dur": 63.0
 },
 "zahlen_ELV.mp3": {
-"h": "7fd55843e67b614b",
-"dur": 60.7
+"h": "8210448bd958bfda",
+"dur": 66.4
 },
 "zahlen_BE.mp3": {
-"h": "ff177caf1052d304",
-"dur": 66.2
+"h": "56407b915871b02a",
+"dur": 72.4
 },
 "zahlen_META.mp3": {
-"h": "d7d810dd05e16906",
-"dur": 66.6
+"h": "acaf2d498796a2f7",
+"dur": 50.0
 },
 "zahlen_DECK.mp3": {
 "h": "ba4cbff7acb2c415",
@@ -159,10 +159,6 @@
 "zahlen_RTX.mp3": {
 "h": "f159152d8b0236a7",
 "dur": 41.8
-},
-"zahlen_TRV.mp3": {
-"h": "3c31af428563dcc9",
-"dur": 47.9
 },
 "gegenteil__intro.mp3": {
 "h": "513444f7fadd3a0a",
@@ -185,204 +181,204 @@
 "dur": 21.8
 },
 "dn_latest.mp3": {
-"h": "37113091185b0017",
-"dur": 279.2
+"h": "e67e4886e4b6ac51",
+"dur": 224.5
 },
 "dn_TSM.mp3": {
-"h": "2f3acac3cc5a85e5",
-"dur": 73.5
+"h": "c3a82a258c8ccd97",
+"dur": 74.5
 },
 "dn_NVDA.mp3": {
-"h": "c39d768f6f66668a",
-"dur": 79.0
+"h": "af413d91d17163af",
+"dur": 68.3
 },
 "dn_005930_KS.mp3": {
-"h": "525133aa1f94d213",
-"dur": 67.2
+"h": "1a9d75b4e06ac0f6",
+"dur": 79.6
 },
 "dn_HY9H_MU.mp3": {
-"h": "21cb1fa332496036",
-"dur": 61.4
+"h": "5f98021a8e93d085",
+"dur": 71.1
 },
 "dn_AVGO.mp3": {
 "h": "8ba043fcf4d26f4f",
 "dur": 61.2
 },
 "dn_ASML.mp3": {
-"h": "9c1e7b85f413753a",
-"dur": 68.8
+"h": "9ff0717d539ce30d",
+"dur": 70.1
 },
 "dn_INTC.mp3": {
-"h": "d588610d008bdccf",
-"dur": 84.8
-},
-"dn_MSFT.mp3": {
-"h": "7bf0ce32e9c63b8e",
-"dur": 88.9
-},
-"dn_PLTR.mp3": {
-"h": "ad96cb5493373c1a",
-"dur": 87.1
-},
-"dn_IBM.mp3": {
-"h": "23470acb0fab3280",
-"dur": 104.5
-},
-"dn_OEF.mp3": {
-"h": "259e5e2ed5523b55",
+"h": "0a3b52202abe01ab",
 "dur": 76.6
 },
+"dn_MSFT.mp3": {
+"h": "9f490fc006d63cb7",
+"dur": 88.3
+},
+"dn_PLTR.mp3": {
+"h": "b094966fc16c2e63",
+"dur": 72.6
+},
+"dn_IBM.mp3": {
+"h": "fbe3941b35cfb828",
+"dur": 61.1
+},
+"dn_OEF.mp3": {
+"h": "42f12731401db3a9",
+"dur": 66.8
+},
 "dn_NOW.mp3": {
-"h": "190f2a57cc70a6a8",
-"dur": 59.8
+"h": "51ad9dc9ed65eaed",
+"dur": 66.6
 },
 "dn_META.mp3": {
-"h": "c33ce76ea475dca8",
-"dur": 80.0
+"h": "89c77e5f4ff5e16f",
+"dur": 70.5
 },
 "dn_AMZN.mp3": {
-"h": "c75bb47d91261a6e",
-"dur": 75.5
+"h": "81b0f2bf688c94e0",
+"dur": 62.2
 },
 "dn_MRVL.mp3": {
-"h": "e4645b5b6dff84ed",
-"dur": 73.0
+"h": "59fdaef3498bc31b",
+"dur": 68.2
 },
 "dn_SFTBY.mp3": {
-"h": "f83d266d6dbbe339",
-"dur": 72.5
+"h": "d839f7f5903597ff",
+"dur": 67.4
 },
 "dn_GLW.mp3": {
-"h": "3443d4880e19b176",
-"dur": 72.1
+"h": "89a12095fc0a48e9",
+"dur": 62.4
 },
 "dn_AMAT.mp3": {
-"h": "2ee78152f74e9a3b",
-"dur": 65.4
+"h": "bca878c5428e1934",
+"dur": 73.1
 },
 "dn_ARM.mp3": {
-"h": "309fe3ef8eda7989",
-"dur": 53.4
+"h": "1b9310268b887f5e",
+"dur": 61.4
 },
 "dn_HOOD.mp3": {
-"h": "5895ef91c20cd7a2",
-"dur": 61.8
+"h": "39f0ec218aca6df9",
+"dur": 65.8
 },
 "dn_BE.mp3": {
-"h": "f37f00ffe72d940a",
-"dur": 58.5
+"h": "465f34ccfb485757",
+"dur": 65.6
 },
 "dn_HYLN.mp3": {
 "h": "172612310eff60fb",
 "dur": 19.9
 },
 "dn_SMEGF.mp3": {
-"h": "11a1e55cbd90beeb",
-"dur": 85.6
+"h": "2e5b590020ca8aef",
+"dur": 53.1
 },
 "dn_OKLO.mp3": {
-"h": "9c517338b86807c5",
-"dur": 81.3
+"h": "ecee8d65b2183156",
+"dur": 80.1
 },
 "dn_RYCEY.mp3": {
-"h": "0fa6924b8d18baff",
-"dur": 62.3
+"h": "fd2c2d170cb4ae59",
+"dur": 58.8
 },
 "dn_GEV.mp3": {
-"h": "1e910ebe6873b11d",
-"dur": 65.2
+"h": "6b605e72e84910d8",
+"dur": 66.3
 },
 "dn_GE.mp3": {
-"h": "25b1d5bb42fa38f1",
-"dur": 74.3
+"h": "0bbce8e57c19497d",
+"dur": 65.0
 },
 "dn_013A_F.mp3": {
-"h": "b609b8dfee3ebb8c",
-"dur": 50.4
+"h": "6902eca1e52bf9bb",
+"dur": 62.0
 },
 "dn_BRK_B.mp3": {
-"h": "09fa07d53acc1095",
-"dur": 71.9
+"h": "d9e15c2de4663650",
+"dur": 67.8
 },
 "dn_0VR3_L.mp3": {
-"h": "f5b002e091d23ef9",
-"dur": 49.4
+"h": "e8d774d51f59991c",
+"dur": 61.8
 },
 "dn_BKW_SW.mp3": {
-"h": "e6e8ee0fa00db93b",
-"dur": 32.8
+"h": "b5fc811ec6bb5fc3",
+"dur": 27.9
 },
 "dn_UBSG_SW.mp3": {
-"h": "c910da0d03cb3b8f",
-"dur": 41.7
+"h": "0d3db4149704933b",
+"dur": 48.3
 },
 "dn_1211_HK.mp3": {
-"h": "8b7ba16380d3b4db",
-"dur": 55.4
+"h": "aa253a0ea9620fc5",
+"dur": 50.7
 },
 "dn_BNTX.mp3": {
-"h": "0d1c2c0aa1825198",
-"dur": 58.3
+"h": "773b214756ae8956",
+"dur": 59.3
 },
 "dn_ABBN_SW.mp3": {
-"h": "427401019a9a3289",
-"dur": 48.2
+"h": "c3aeae1d6ffb1100",
+"dur": 27.8
 },
 "dn_STX.mp3": {
-"h": "20a06a2f6f1cc3ae",
-"dur": 56.7
+"h": "36c869249dddc026",
+"dur": 78.6
 },
 "dn_MU.mp3": {
-"h": "f74d6b02f3dcb868",
-"dur": 49.6
+"h": "f7890d5799f947f0",
+"dur": 80.7
 },
 "dm_latest.mp3": {
-"h": "a3f090323263c59b",
-"dur": 219.9
+"h": "dea46b919e0bb9f4",
+"dur": 227.2
 },
 "dm_Z_lle.mp3": {
-"h": "468a318d8ce2c3b8",
-"dur": 87.2
+"h": "6cbda27cb5561579",
+"dur": 89.9
 },
 "dm_Zinsen.mp3": {
-"h": "be964b60bfd4f761",
-"dur": 95.7
+"h": "1cbfa790103d8a7c",
+"dur": 92.2
 },
 "dm_SNB.mp3": {
-"h": "2f9e4e59fd531d33",
-"dur": 80.2
+"h": "5e26a422eadbbae4",
+"dur": 84.6
 },
 "dm_KI_Chips.mp3": {
-"h": "6c079d01300c6b6c",
-"dur": 93.2
+"h": "02f1ef3ffe33ec85",
+"dur": 96.9
 },
 "dm_Exportkontrollen.mp3": {
-"h": "68aefbb1a9bbcf4a",
-"dur": 98.8
+"h": "585bbd4020e2092d",
+"dur": 92.2
 },
 "dm_Wall_Street.mp3": {
-"h": "726a1dd3aed002b4",
-"dur": 79.1
+"h": "9e819094bbe278d4",
+"dur": 82.7
 },
 "dm_Schweizer_B_rse.mp3": {
-"h": "61ba8268d98177b7",
-"dur": 76.6
+"h": "fe6b94f92b3969af",
+"dur": 81.5
 },
 "zahlen_BA.mp3": {
-"h": "be805add2da49a21",
-"dur": 57.4
+"h": "961de67d9bba3f9b",
+"dur": 67.1
 },
 "gegenteil_BA.mp3": {
 "h": "464c4088ce3eb45a",
 "dur": 42.4
 },
 "zahlen_CNC.mp3": {
-"h": "873933ac24275230",
-"dur": 58.7
+"h": "0bbf255e8f89f725",
+"dur": 63.2
 },
 "zahlen_CINF.mp3": {
-"h": "a8f82df3e04f0e82",
-"dur": 63.5
+"h": "36cba008001ffc73",
+"dur": 70.3
 },
 "gegenteil_HOOD.mp3": {
 "h": "93231b0f0d257661",
@@ -397,16 +393,16 @@
 "dur": 36.1
 },
 "zahlen_OKE.mp3": {
-"h": "3469086937a44c29",
-"dur": 55.2
+"h": "67ca2139c39ca403",
+"dur": 60.9
 },
 "zahlen_BIIB.mp3": {
-"h": "b730389245dd5b19",
-"dur": 56.9
+"h": "013482b4af423299",
+"dur": 62.0
 },
 "zahlen_IP.mp3": {
-"h": "b6f41a2d728370c9",
-"dur": 64.7
+"h": "da23ef8a112e387e",
+"dur": 47.9
 },
 "zahlen_VTR.mp3": {
 "h": "f40b958caa2d9f50",
@@ -425,8 +421,8 @@
 "dur": 61.2
 },
 "zahlen_VICI.mp3": {
-"h": "807156f9a35637b1",
-"dur": 59.7
+"h": "49ba8a9d4ef4bf72",
+"dur": 66.0
 },
 "gegenteil_VICI.mp3": {
 "h": "5cff3680840b6807",
@@ -437,36 +433,36 @@
 "dur": 29.3
 },
 "zahlen_MGM.mp3": {
-"h": "17c263d1682f7e75",
-"dur": 69.0
+"h": "d7060342b3a4d5fb",
+"dur": 74.4
 },
 "zahlen_EQIX.mp3": {
-"h": "75ae612d1a6ae778",
-"dur": 59.9
+"h": "41097bb2860ecdee",
+"dur": 66.5
 },
 "zahlen_GOOGL.mp3": {
-"h": "d3e47de13317f195",
-"dur": 58.2
+"h": "2284b1b33bafaa23",
+"dur": 61.2
 },
 "gegenteil_MGM.mp3": {
-"h": "bd10a24203dbea0d",
-"dur": 51.9
+"h": "af6183e12dbbf18b",
+"dur": 51.8
 },
 "gegenteil_005930.KS.mp3": {
-"h": "16f7f155be5ee7e5",
-"dur": 51.0
+"h": "f10b1513fbd0a3bb",
+"dur": 51.9
 },
 "gegenteil_GOOGL.mp3": {
-"h": "482ef50ebb8c5605",
-"dur": 49.6
+"h": "b3bd79cbd79299bb",
+"dur": 47.8
 },
 "gegenteil_GOOG.mp3": {
 "h": "d1128ff939ea2b32",
 "dur": 43.6
 },
 "potenzial_MRVL.mp3": {
-"h": "18964ea83d7f0cb0",
-"dur": 43.8
+"h": "b9e88896ad9f11a2",
+"dur": 50.6
 },
 "wachstum_HAS.mp3": {
 "h": "e3e13daa98870d4a",
@@ -477,12 +473,12 @@
 "dur": 32.6
 },
 "wachstum_COP.mp3": {
-"h": "89cb59eca40b18b0",
+"h": "0a6e1a268dda41dd",
 "dur": 34.3
 },
 "zahlen_DASH.mp3": {
-"h": "8ba3ba9f7d40bc49",
-"dur": 57.0
+"h": "d2eaec27f85fba53",
+"dur": 62.2
 },
 "zahlen_HII.mp3": {
 "h": "400dcf3ae7656cd4",
@@ -509,39 +505,35 @@
 "dur": 30.3
 },
 "zahlen_KIM.mp3": {
-"h": "a325085c2bf47179",
-"dur": 59.4
+"h": "9c8f23b166df67b3",
+"dur": 66.9
 },
 "zahlen_INTC.mp3": {
-"h": "578b05f1086732d0",
-"dur": 59.7
+"h": "a3bf72353f233482",
+"dur": 67.7
 },
 "zahlen_HSY.mp3": {
 "h": "b889ebcb379dd952",
 "dur": 43.1
 },
-"zahlen_TXT.mp3": {
-"h": "f0f3e459c7838c61",
-"dur": 42.3
-},
 "gegenteil_SFTBY.mp3": {
-"h": "021416aaf43b44ad",
-"dur": 28.0
+"h": "f38f5d5945efb6e7",
+"dur": 27.9
 },
 "gegenteil_SNDK.mp3": {
 "h": "0def71e28639cd48",
 "dur": 28.3
 },
 "dn_WNRG_SW.mp3": {
-"h": "d6ac95ca30754d48",
-"dur": 67.0
+"h": "dc0a84ba07929fc1",
+"dur": 68.5
 },
 "potenzial_CIEN.mp3": {
 "h": "37b92fd43b99eac4",
 "dur": 34.1
 },
 "wachstum_VLO.mp3": {
-"h": "c65d5384111219a7",
+"h": "d1083bd842b3512d",
 "dur": 40.2
 },
 "wachstum_LLY.mp3": {
@@ -553,16 +545,16 @@
 "dur": 35.8
 },
 "wachstum_TYL.mp3": {
-"h": "12539a063d85f748",
-"dur": 34.8
+"h": "bd695d33fb9a48e6",
+"dur": 34.6
 },
 "zahlen_COIN.mp3": {
-"h": "cdd41a886233b947",
-"dur": 62.5
+"h": "fec6fce2a11cac08",
+"dur": 68.8
 },
 "zahlen_WY.mp3": {
-"h": "7a0b6be377fa9ceb",
-"dur": 58.6
+"h": "58821a279a48f716",
+"dur": 67.3
 },
 "zahlen_REGN.mp3": {
 "h": "5b4237bcc97df85b",
@@ -573,12 +565,8 @@
 "dur": 36.3
 },
 "gegenteil_RDDT.mp3": {
-"h": "eafc41082faea797",
-"dur": 32.8
-},
-"gegenteil_ABBN.SW.mp3": {
-"h": "b45af68a4b75bad8",
-"dur": 44.7
+"h": "a51b4fcea322ff70",
+"dur": 30.1
 },
 "gegenteil_DELL.mp3": {
 "h": "96d20961e4cb6694",
@@ -609,24 +597,24 @@
 "dur": 22.7
 },
 "dn_DRO_AX.mp3": {
-"h": "14cd94ed0a4aa1ad",
-"dur": 35.9
+"h": "8d8f5e4573986170",
+"dur": 25.3
 },
 "zahlen_EL.mp3": {
-"h": "ebd1a67873f5ab41",
-"dur": 64.6
+"h": "6e96b7c8927e9fc9",
+"dur": 70.7
 },
 "gegenteil_COIN.mp3": {
-"h": "271164207e357d9e",
-"dur": 24.3
+"h": "d3db6424bd03c696",
+"dur": 30.5
 },
 "gegenteil_BE.mp3": {
-"h": "5d664b8fd9bf0865",
-"dur": 27.0
+"h": "4a6384eb031143b8",
+"dur": 34.8
 },
 "potenzial_LITE.mp3": {
-"h": "f8ce635140f54d06",
-"dur": 37.0
+"h": "f331278b98c83e7f",
+"dur": 37.4
 },
 "potenzial_LRCX.mp3": {
 "h": "038662fe621b2d2a",
@@ -645,16 +633,16 @@
 "dur": 34.6
 },
 "wachstum_REGN.mp3": {
-"h": "0d6d4dbc29d02800",
-"dur": 45.5
+"h": "2c13169a97ffb1d4",
+"dur": 45.4
 },
 "wachstum_CBOE.mp3": {
-"h": "b269b513efa27154",
-"dur": 36.8
+"h": "bb165338b1976c96",
+"dur": 37.3
 },
 "wachstum_CVX.mp3": {
-"h": "ef2502c7853d9075",
-"dur": 31.0
+"h": "cd220411da1bd5d5",
+"dur": 31.7
 },
 "wachstum_ROP.mp3": {
 "h": "5d361c22d563df96",
@@ -677,8 +665,8 @@
 "dur": 22.6
 },
 "gegenteil_MRVL.mp3": {
-"h": "fd7a8527c0487b09",
-"dur": 27.5
+"h": "e98a2966fe5a446a",
+"dur": 36.5
 },
 "gegenteil_HPE.mp3": {
 "h": "cfd7035cd100fe14",
@@ -687,8 +675,20 @@
 "gegenteil_FTNT.mp3": {
 "h": "6a4295a13178b2ad",
 "dur": 23.4
+},
+"zahlen_DOC.mp3": {
+"h": "4464ed550cb65998",
+"dur": 66.7
+},
+"zahlen_CLX.mp3": {
+"h": "ef503fdbae07e05c",
+"dur": 63.5
+},
+"gegenteil_LVS.mp3": {
+"h": "b4e4cf320279ea42",
+"dur": 44.7
 }
 },
 "voice": "de-CH-LeniNeural",
-"checked_at": "2026-11-02T22:48:56Z"
+"checked_at": "2026-11-03T13:56:44Z"
 }

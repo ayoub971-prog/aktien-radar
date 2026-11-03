@@ -1,6 +1,241 @@
 {
 "episodes": [
 {
+"id": "n-2026-11-03-t",
+"kind": "tag",
+"show": "ent",
+"date": "2026-11-03",
+"title": "Zum Nachdenken, Dienstag, dritten November",
+"generated_at": "2026-11-03T13:56:44Z",
+"writer": "Vorlage aus den Daten, Redakteur-KI (Gemini Gratis-Kontingent) mit Faktencheck",
+"chapters": [
+{
+"name": "Begrüssung",
+"say": "Willkommen zu Zum Nachdenken vom Aktien-Radar, heute Dienstag, dritten November. Hier geht es nicht um deine eigenen Aktien, sondern um auffällige Aktien ausserhalb deiner Liste: die grössten Gewinner, Aktien mit grossem Potenzial laut vielen Analysten, schlecht bewertete Aktien und grosse Verlierer. Alles stammt aus gesammelten Daten von Yahoo Finance, Beträge nenne ich in Dollar. Das ist keine Anlageberatung, sondern Stoff zum Nachdenken.",
+"audio": {
+"file": "nachdenken/n-2026-11-03-t_00.mp3",
+"hash": "9bd2b21b538b8ed8",
+"dur": 31.3
+}
+},
+{
+"name": "Die grössten Gewinner",
+"say": "Zuerst die grössten Gewinner. Das sind Aktien, deren Kurs in den letzten drei Monaten am stärksten gestiegen ist.",
+"audio": {
+"file": "nachdenken/n-2026-11-03-t_01.mp3",
+"hash": "3523a65efc3383a5",
+"dur": 8.3
+}
+},
+{
+"name": "Gewinner: Moderna",
+"sym": "MRNA",
+"say": "Zur Aktie Moderna. Moderna kostet im Moment zweihundertzwanzig Dollar und dreiundachtzig Cent. Der Kurs von Moderna veränderte sich im letzten Monat um plus acht Komma sieben Prozent und in drei Monaten um plus zweihundertzweiundneunzig Komma sechs Prozent. Neunzehn Analysten haben für Moderna ein durchschnittliches Kursziel von einhundertachtunddreissig Dollar und siebenunddreissig Cent, das sind minus siebenunddreissig Komma drei Prozent gegenüber dem aktuellen Kurs. Die Bank William Blair hat Moderna abgestuft, neue Empfehlung Wie der Markt. Yahoo Finance meldete am dritten November: What Invesco S&P fünfhundert Equal Weight ETF (RSP) Bought: Moderna Leads on Oct. dreissig. Ein starker Anstieg kann auf echte Fortschritte hinweisen, aber nach so einem Lauf ist oft schon viel Erwartung im Kurs von Moderna enthalten. Das war Moderna.",
+"audio": {
+"file": "nachdenken/n-2026-11-03-t_02.mp3",
+"hash": "567cc74c20f8e73e",
+"dur": 65.5
+}
+},
+{
+"name": "Gewinner: Accenture",
+"sym": "ACN",
+"say": "Zur Aktie Accenture. Accenture kostet im Moment zweihundertsechzig Dollar und vierundneunzig Cent. Der Kurs von Accenture veränderte sich im letzten Monat um plus dreiunddreissig Komma acht Prozent und in drei Monaten um plus zweiundfünfzig Komma acht Prozent. Vierundzwanzig Analysten haben für Accenture ein durchschnittliches Kursziel von zweihundertneunundzwanzig Dollar und vierundsiebzig Cent, das sind minus zwölf Prozent gegenüber dem aktuellen Kurs. Die Bank Baird hat Accenture abgestuft, neue Empfehlung Neutral. Yahoo Finance meldete am dritten November: State Street SPDR S&P Dividend ETF (SDY) Sells Accenture and Chevron on Oct. dreissig. Ein starker Anstieg kann auf echte Fortschritte hinweisen, aber nach so einem Lauf ist oft schon viel Erwartung im Kurs von Accenture enthalten. Das war Accenture.",
+"audio": {
+"file": "nachdenken/n-2026-11-03-t_03.mp3",
+"hash": "4180f39f688fb4f4",
+"dur": 64.7
+}
+},
+{
+"name": "Andere Aktien mit Chancen",
+"say": "Jetzt Andere Aktien mit Chancen. Bedingung: mindestens acht Analysten, ein durchschnittliches Kursziel mindestens dreissig Prozent über dem Kurs, und eine frische Meldung zu einem Produkt, einem Partner oder einem Auftrag. Das ist keine Kaufempfehlung.",
+"audio": {
+"file": "nachdenken/n-2026-11-03-t_04.mp3",
+"hash": "89cd21b9f087f2cc",
+"dur": 18.1
+}
+},
+{
+"name": "Chance: Coherent",
+"sym": "COHR",
+"say": "Zur Aktie Coherent. Coherent kostet im Moment einhundertneunundneunzig Dollar und fünfundneunzig Cent. Der Kurs von Coherent veränderte sich im letzten Monat um minus vierzig Komma eins Prozent und in drei Monaten um minus neununddreissig Komma eins Prozent. Fünfundzwanzig Analysten haben für Coherent ein durchschnittliches Kursziel von dreihundertsiebenundachtzig Dollar und achtzig Cent, das sind plus dreiundneunzig Komma neun Prozent gegenüber dem aktuellen Kurs. Yahoo Finance meldete am zweiten November: COHR Stock Draws Upgrade As Marvell’s einhundertfünfzehn DollarB Lumentum Deal Highlights ‘Value Of Scarce AI Optics’. Das Kursziel ist ein Durchschnitt der Analysten und keine Garantie; die genaue Begründung für Coherent steht nicht in den Daten. Das war Coherent.",
+"audio": {
+"file": "nachdenken/n-2026-11-03-t_05.mp3",
+"hash": "06c60a2277a55bff",
+"dur": 56.4
+}
+},
+{
+"name": "Chance: Flex",
+"sym": "FLEX",
+"say": "Zur Aktie Flex. Flex kostet im Moment vierundachtzig Dollar und zwanzig Cent. Der Kurs von Flex veränderte sich im letzten Monat um minus siebenundzwanzig Komma neun Prozent und in drei Monaten um minus dreissig Komma neun Prozent. Zehn Analysten haben für Flex ein durchschnittliches Kursziel von einhundertsechsundfünfzig Dollar und fünfzig Cent, das sind plus fünfundachtzig Komma neun Prozent gegenüber dem aktuellen Kurs. Bei den letzten Quartalszahlen meldete Flex einen Gewinn je Aktie von ein Dollar und achtzehn Cent, erwartet waren ein Dollar und sechs Cent. Yahoo Finance meldete am zweiten November: Can FLEX's EPC Power Deal Deepen Its AI Data Center Growth Advantage?. Das Kursziel ist ein Durchschnitt der Analysten und keine Garantie; die genaue Begründung für Flex steht nicht in den Daten. Das war Flex.",
+"audio": {
+"file": "nachdenken/n-2026-11-03-t_06.mp3",
+"hash": "b8b8e5ad31b10af0",
+"dur": 60.9
+}
+},
+{
+"name": "Chance: Akamai Technologies",
+"sym": "AKAM",
+"say": "Zur Aktie Akamai Technologies. Akamai Technologies kostet im Moment sechsundachtzig Dollar und neunundsechzig Cent. Der Kurs von Akamai Technologies veränderte sich im letzten Monat um minus neunzehn Komma sieben Prozent und in drei Monaten um minus neunundzwanzig Komma eins Prozent. Zweiundzwanzig Analysten haben für Akamai Technologies ein durchschnittliches Kursziel von einhundertvierundfünfzig Dollar und vierundzwanzig Cent, das sind plus siebenundsiebzig Komma neun Prozent gegenüber dem aktuellen Kurs. Die Bank Raymond James hat Akamai Technologies hochgestuft, neue Empfehlung Stark kaufen. Yahoo Finance meldete am zweiten November: MazeBolt Launches Native Akamai Deployment, Proving DDoS Resilience Against Known and AI-Driven Attacks. Das Kursziel ist ein Durchschnitt der Analysten und keine Garantie; die genaue Begründung für Akamai Technologies steht nicht in den Daten. Das war Akamai Technologies.",
+"audio": {
+"file": "nachdenken/n-2026-11-03-t_07.mp3",
+"hash": "c2ac21418004f5df",
+"dur": 67.8
+}
+},
+{
+"name": "Schlecht bewertete Aktien",
+"say": "Nun zu schlecht bewerteten Aktien. Hier haben Banken ihre Empfehlung gesenkt, oder das durchschnittliche Kursziel liegt unter dem aktuellen Kurs.",
+"audio": {
+"file": "nachdenken/n-2026-11-03-t_08.mp3",
+"hash": "4bf83ee86411fcdb",
+"dur": 10.8
+}
+},
+{
+"name": "Schlecht bewertet: Reddit",
+"sym": "RDDT",
+"say": "Zur Aktie Reddit. Reddit kostet im Moment neunzig Dollar und siebenundneunzig Cent. Der Kurs von Reddit veränderte sich im letzten Monat um minus neununddreissig Komma fünf Prozent und in drei Monaten um minus einundvierzig Komma vier Prozent. Dreissig Analysten haben für Reddit ein durchschnittliches Kursziel von einhundertachtundfünfzig Dollar und fünfundachtzig Cent, das sind plus vierundsiebzig Komma sechs Prozent gegenüber dem aktuellen Kurs. Die Bank Evercore ISI Group hat Reddit abgestuft, neue Empfehlung Im Rahmen. Die Bank Loop Capital hat Reddit abgestuft, neue Empfehlung Halten. Bei den letzten Quartalszahlen meldete Reddit einen Gewinn je Aktie von ein Dollar und vierzig Cent, erwartet waren ein Dollar und dreiunddreissig Cent. Yahoo Finance meldete am dritten November: Can Reddit Shrink to Grow?. Abstufungen zeigen, dass Fachleute vorsichtiger werden; ob sie bei Reddit recht behalten, ist offen. Das war Reddit.",
+"audio": {
+"file": "nachdenken/n-2026-11-03-t_09.mp3",
+"hash": "6f8923e71ef4d992",
+"dur": 68.7
+}
+},
+{
+"name": "Schlecht bewertet: Lennox International",
+"sym": "LII",
+"say": "Zur Aktie Lennox International. Lennox International kostet im Moment dreihundertdreiundfünfzig Dollar und vierundsechzig Cent. Der Kurs von Lennox International veränderte sich im letzten Monat um minus zwei Komma eins Prozent und in drei Monaten um minus zwanzig Komma neun Prozent. Dreizehn Analysten haben für Lennox International ein durchschnittliches Kursziel von dreihunderteinundsiebzig Dollar und zweiundneunzig Cent, das sind plus fünf Komma zwei Prozent gegenüber dem aktuellen Kurs. Die Bank Oppenheimer hat Lennox International abgestuft, neue Empfehlung Perform. Die Bank Goldman Sachs hat Lennox International abgestuft, neue Empfehlung Neutral. Bei den letzten Quartalszahlen meldete Lennox International einen Gewinn je Aktie von sechs Dollar und vierundachtzig Cent, erwartet waren sieben Dollar und sechsunddreissig Cent. Yahoo Finance meldete am zweiten November: Lennox Announces Building Climate Solutions Leadership Transition. Abstufungen zeigen, dass Fachleute vorsichtiger werden; ob sie bei Lennox International recht behalten, ist offen. Das war Lennox International.",
+"audio": {
+"file": "nachdenken/n-2026-11-03-t_10.mp3",
+"hash": "9ee5209749aac5d3",
+"dur": 82.5
+}
+},
+{
+"name": "Grosse Verlierer",
+"say": "Zum Schluss die grossen Verlierer. Das sind Aktien, die im letzten Monat am stärksten gefallen sind.",
+"audio": {
+"file": "nachdenken/n-2026-11-03-t_11.mp3",
+"hash": "ff26c6de6f640649",
+"dur": 7.8
+}
+},
+{
+"name": "Verlierer: Teradyne",
+"sym": "TER",
+"say": "Zur Aktie Teradyne. Teradyne kostet im Moment zweihunderteinundsechzig Dollar und eins Cent. Der Kurs von Teradyne veränderte sich im letzten Monat um minus einundvierzig Komma drei Prozent und in drei Monaten um minus dreiunddreissig Prozent. Fünfzehn Analysten haben für Teradyne ein durchschnittliches Kursziel von vierhundertvierundzwanzig Dollar und siebenundsechzig Cent, das sind plus zweiundsechzig Komma sieben Prozent gegenüber dem aktuellen Kurs. Bei den letzten Quartalszahlen meldete Teradyne einen Gewinn je Aktie von zwei Dollar und neunundzwanzig Cent, erwartet waren zwei Dollar und sechs Cent. Yahoo Finance meldete am zweiten November: Cathie Wood Makes Major Shift After Big Tech Gains. Ein grosser Kursverlust kann eine Warnung sein oder eine Übertreibung; bei Teradyne lohnt sich ein genauer Blick auf die Gründe. Das war Teradyne.",
+"audio": {
+"file": "nachdenken/n-2026-11-03-t_12.mp3",
+"hash": "afa66566358eec87",
+"dur": 61.9
+}
+},
+{
+"name": "Verlierer: Lumentum",
+"sym": "LITE",
+"say": "Zur Aktie Lumentum. Lumentum kostet im Moment sechshundertvierundachtzig Dollar und vierzig Cent. Der Kurs von Lumentum veränderte sich im letzten Monat um minus siebenunddreissig Komma drei Prozent und in drei Monaten um minus siebzehn Komma zwei Prozent. Sechsundzwanzig Analysten haben für Lumentum ein durchschnittliches Kursziel von eintausendeinhundertzweiundzwanzig Dollar und sechsundsiebzig Cent, das sind plus fourundsechzig Komma eins Prozent gegenüber dem aktuellen Kurs. Bei den letzten Quartalszahlen meldete Lumentum einen Gewinn je Aktie von vier Dollar und siebenundfünfzig Cent, erwartet waren vier Dollar und zweiundzwanzig Cent. Yahoo Finance meldete am dritten November: Analysts downgrade Marvell and slash price targets over Lumentum deal. Ein grosser Kursverlust kann eine Warnung sein oder eine Übertreibung; bei Lumentum lohnt sich ein genauer Blick auf die Gründe. Das war Lumentum.",
+"audio": {
+"file": "nachdenken/n-2026-11-03-t_13.mp3",
+"hash": "4e8af00a0cd823a8",
+"dur": 65.4
+}
+},
+{
+"name": "Begriff: Umsatz",
+"say": "Zum Lernen, der Begriff: Umsatz. Der Umsatz ist alles Geld, das eine Firma mit ihren Produkten einnimmt, bevor Kosten abgezogen werden. Wächst der Umsatz schnell, verkauft die Firma mehr. Ob sie damit auch Geld verdient, zeigt erst der Gewinn.",
+"audio": {
+"file": "nachdenken/n-2026-11-03-t_14.mp3",
+"hash": "08f9dcd88974740c",
+"dur": 19.4
+}
+},
+{
+"name": "Schluss",
+"say": "Das war Zum Nachdenken vom Aktien-Radar. Die Listen findest du in der App auf der Seite Entdecken, den ganzen Text über den Knopf Als Text. Denk daran: Das ist keine Anlageberatung. Bis zum nächsten Mal.",
+"audio": {
+"file": "nachdenken/n-2026-11-03-t_15.mp3",
+"hash": "c0eb227ac2742f5b",
+"dur": 16.4
+}
+}
+],
+"dur": 705.9,
+"full": {
+"file": "nachdenken/n-2026-11-03-t_full.mp3",
+"dur": 705.9,
+"marks": [
+[
+0,
+0.0
+],
+[
+1,
+31.3
+],
+[
+2,
+39.6
+],
+[
+3,
+105.1
+],
+[
+4,
+169.8
+],
+[
+5,
+187.9
+],
+[
+6,
+244.3
+],
+[
+7,
+305.2
+],
+[
+8,
+373.0
+],
+[
+9,
+383.8
+],
+[
+10,
+452.5
+],
+[
+11,
+535.0
+],
+[
+12,
+542.8
+],
+[
+13,
+604.7
+],
+[
+14,
+670.1
+],
+[
+15,
+689.5
+]
+]
+}
+},
+{
 "id": "n-2026-11-02-t",
 "kind": "tag",
 "show": "ent",
@@ -941,8 +1176,8 @@
 }
 }
 ],
-"generated_at": "2026-11-02T22:48:56Z",
+"generated_at": "2026-11-03T13:56:44Z",
 "voice": "de-CH-LeniNeural",
 "source": "Yahoo Finance, SEC EDGAR, Schlagzeilen (Google News u.a.); Text: Gemini Gratis-Kontingent oder Vorlage",
-"audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@0decb89026752856c840e73437e3c1dd91cda6d8/data/audio/"
+"audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@a83b85dd96286cbda50b5acddb88f7bdda674603/data/audio/"
 }
