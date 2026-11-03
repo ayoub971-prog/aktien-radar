@@ -1,6 +1,200 @@
 {
 "episodes": [
 {
+"id": "2026-11-03-t",
+"kind": "tag",
+"date": "2026-11-03",
+"title": "Morgen-Sendung, Dienstag, dritten November",
+"generated_at": "2026-11-03T05:23:08Z",
+"writer": "Gemini (Gratis-Kontingent) 8 Firmen, Rest Vorlage",
+"chapters": [
+{
+"name": "Begrüssung",
+"say": "Guten Morgen und willkommen zur Sendung vom Aktien-Radar, heute Dienstag, dritten November. Zuerst ein kurzer Blick auf den Markt, dann die Firmen aus deiner Liste mit neuen Meldungen zu Produkten, Partnern und Projekten, danach die Quartalszahlen dieser Woche und zum Schluss ein Begriff zum Lernen. Kurz vorweg: Alles stammt aus gesammelten Daten und Schlagzeilen, Beträge nenne ich in Dollar. Das ist keine Anlageberatung.",
+"audio": {
+"file": "sendung/2026-11-03-t_00.mp3",
+"hash": "9e1ae07bdeabd114",
+"dur": 29.5
+}
+},
+{
+"name": "Markt kurz",
+"say": "Der Markt kurz. Der S und P fünfhundert, der Index der fünfhundert grossen US-Firmen, stand zuletzt bei minus null Komma fünf Prozent gegenüber dem Vortag. In deiner Liste am stärksten: SK Hynix mit plus sechs Komma drei Prozent, GE Aerospace mit plus vier Komma sechs Prozent, Siemens Energy mit plus zwei Komma neun Prozent. Am schwächsten: Marvell mit minus zwölf Komma sieben Prozent, Intel mit minus acht Komma acht Prozent. Zum Thema Zinsen meldet WSJ: Asiatische Aktien gehen zurück, da der Appetit auf riskante Anlagen nachlässt. Zum Thema Exportkontrollen meldet The Information: Wie Schmuggler teure Speicherchips aus Südkorea nach China bringen.",
+"audio": {
+"file": "sendung/2026-11-03-t_01.mp3",
+"hash": "87f3c28892739a11",
+"dur": 52.0
+}
+},
+{
+"name": "Palantir",
+"sym": "PLTR",
+"say": "Zur Aktie Palantir. Der Softwarehersteller verzeichnete ein Umsatzwachstum von sechsundneunzig Prozent auf zwei Komma drei Milliarden Dollar. Laut Firmenchef Alex Karp ist die Nachfrage nach KI-Lösungen bei Palantir derzeit deutlich groesser, als das Unternehmen bedienen kann. Investoren beobachten die weitere Entwicklung bei Palantir nun sehr genau. Meine Einordnung aus diesen Meldungen lautet: Sie koennten Palantir eher staerken. Das war Palantir.",
+"audio": {
+"file": "sendung/2026-11-03-t_02.mp3",
+"hash": "08b3bd4eb6ed4747",
+"dur": 34.2
+}
+},
+{
+"name": "Marvell",
+"sym": "MRVL",
+"say": "Zur Aktie Marvell. Marvell plant die Uebernahme von Lumentum in einem Deal im Wert von einhundertfünfzehn Milliarden Dollar. Aktionäre von Marvell und Lumentum kritisieren das Angebot jedoch scharf und bezeichnen es als Schrottangebot. Der Markt reagierte negativ auf die Nachricht ueber diesen historischen Deal von Marvell. Meine Einordnung aus diesen Meldungen lautet: Sie koennten Marvell eher schwaechen. Das war Marvell.",
+"audio": {
+"file": "sendung/2026-11-03-t_03.mp3",
+"hash": "d0dfd21a16ddb9c9",
+"dur": 32.1
+}
+},
+{
+"name": "Intel",
+"sym": "INTC",
+"say": "Zur Aktie Intel. Intel kaempft aktuell mit einer enttaeuschenden Prognose und einem Produktionsausfall. Aufgrund dieser Entwicklungen gibt es nun Untersuchungen zu potenziellen Wertpapieranspruechen gegen Intel. Die Lage fuer das Unternehmen bleibt angespannt, da der Kursrueckgang weiter anhaelt. Meine Einordnung aus diesen Meldungen lautet: Sie koennten Intel eher schwaechen. Das war Intel.",
+"audio": {
+"file": "sendung/2026-11-03-t_04.mp3",
+"hash": "a5afe2f5f7ca38d7",
+"dur": 29.2
+}
+},
+{
+"name": "Amazon",
+"sym": "AMZN",
+"say": "Zur Aktie Amazon. Amazon investiert in diesem Jahr rund zweihundertzwanzig Milliarden Dollar in den Bereich Kuenstliche Intelligenz. Ein geplantes Rechenzentrum von Amazon im Wert von zwei Milliarden Dollar ist zudem durch politische Infrastrukturmassnahmen gefaehrdet. Trotz der hohen Investitionen gibt es weiterhin Kaufempfehlungen fuer Amazon. Ob das Amazon staerkt oder schwaecht, ist aus den Meldungen noch unklar. Das war Amazon.",
+"audio": {
+"file": "sendung/2026-11-03-t_05.mp3",
+"hash": "0dcebf9570adffbb",
+"dur": 33.0
+}
+},
+{
+"name": "UBS",
+"sym": "UBSG.SW",
+"say": "Zur Aktie UBS. Die UBS hat ihre Prognose fuer weltweite KI-Ausgaben im Jahr 2027 auf eins Komma vier Billionen Dollar angehoben. Gleichzeitig warnt die Bank vor einer neuen Normalitaet durch erhoehte Volatitaet an den Maerkten. Zudem analysiert die UBS laufend verschiedene Unternehmen und passt deren Kursziele an. Ob das UBS staerkt oder schwaecht, ist aus den Meldungen noch unklar. Das war UBS.",
+"audio": {
+"file": "sendung/2026-11-03-t_06.mp3",
+"hash": "a755011f0b8aacd7",
+"dur": 33.3
+}
+},
+{
+"name": "Meta",
+"sym": "META",
+"say": "Zur Aktie Meta. Meta prueft derzeit die Aufnahme neuer Schulden, um das Wachstum weiter zu finanzieren. Starinvestor Bill Ackman zeigt sich optimistisch und setzt auf die Aktie von Meta. Dennoch beobachten Investoren die hohen Investitionsausgaben bei Meta mit einer gewissen Sorge. Ob das Meta staerkt oder schwaecht, ist aus den Meldungen noch unklar. Das war Meta.",
+"audio": {
+"file": "sendung/2026-11-03-t_07.mp3",
+"hash": "9cf0d0b7dfafa396",
+"dur": 29.0
+}
+},
+{
+"name": "Microsoft",
+"sym": "MSFT",
+"say": "Zur Aktie Microsoft. Microsoft erweitert die Zusammenarbeit mit Lumen, um gemeinsam KI-faehige Netzwerke fuer Unternehmen anzubieten. Zudem arbeitet Microsoft mit Estee Lauder an neuen KI- und Datentools. Diese Partnerschaften unterstreichen die strategische Ausrichtung von Microsoft im KI-Sektor. Meine Einordnung aus diesen Meldungen lautet: Sie koennten Microsoft eher staerken. Das war Microsoft.",
+"audio": {
+"file": "sendung/2026-11-03-t_08.mp3",
+"hash": "b312d0c560d9cc88",
+"dur": 32.5
+}
+},
+{
+"name": "Nvidia",
+"sym": "NVDA",
+"say": "Zur Aktie Nvidia. Nvidia steht kurz vor der Präsentation der Zahlen für das abgelaufene Jahresviertel. Analysten vergleichen das Umsatzwachstum von Nvidia hypothetisch mit anderen Technologieunternehmen. Die Aktie von Nvidia zeigt sich derzeit volatil und steht unter Beobachtung der Anleger. Ob das Nvidia stärkt oder schwächt, ist aus den Meldungen noch unklar. Das war Nvidia.",
+"audio": {
+"file": "sendung/2026-11-03-t_09.mp3",
+"hash": "c9b1c0c94c4eb37f",
+"dur": 29.4
+}
+},
+{
+"name": "Quartalszahlen diese Woche",
+"say": "Quartalszahlen diese Woche. Diese Firmen aus deiner Liste melden ihre Quartalszahlen. Zur Aktie BioNTech: Zahlen Dienstag, am dritten November. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von null Dollar und sechsundsiebzig Cent. Beim Umsatz erwarten sie rund eins Milliarden Dollar. Zur Aktie Arm: Zahlen Mittwoch, am vierten November. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von null Dollar und achtundvierzig Cent. Beim Umsatz erwarten sie rund eins Komma vier Milliarden Dollar. Zur Aktie Oklo: Zahlen Freitag, am sechsten November. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von minus null Dollar und sechsundzwanzig Cent. Beim Umsatz erwarten sie rund eins Komma eins Millionen Dollar. Zur Aktie Berkshire Hathaway: Zahlen Samstag, am siebten November. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von sechs Dollar und vierzehn Cent.",
+"audio": {
+"file": "sendung/2026-11-03-t_10.mp3",
+"hash": "b0bbf991e0a2f624",
+"dur": 69.5
+}
+},
+{
+"name": "Begriff: Aktienrückkauf",
+"say": "Zum Lernen, der Begriff des Tages: Aktienrückkauf. Bei einem Aktienrückkauf kauft die Firma eigene Aktien an der Börse zurück. Dadurch gibt es weniger Aktien, und der Gewinn verteilt sich auf weniger Stücke. Das stützt oft den Kurs.",
+"audio": {
+"file": "sendung/2026-11-03-t_11.mp3",
+"hash": "f90c52b498b72857",
+"dur": 17.7
+}
+},
+{
+"name": "Schluss",
+"say": "Das war die Sendung vom Aktien-Radar. Die Quellen findest du in der App bei jeder Aktie, den ganzen Text über den Knopf Als Text. Bis morgen.",
+"audio": {
+"file": "sendung/2026-11-03-t_12.mp3",
+"hash": "cc4bc23e3e69d9dd",
+"dur": 11.5
+}
+}
+],
+"dur": 432.9,
+"full": {
+"file": "sendung/2026-11-03-t_full.mp3",
+"dur": 432.8,
+"marks": [
+[
+0,
+0.0
+],
+[
+1,
+29.5
+],
+[
+2,
+81.5
+],
+[
+3,
+115.7
+],
+[
+4,
+147.8
+],
+[
+5,
+177.0
+],
+[
+6,
+210.0
+],
+[
+7,
+243.3
+],
+[
+8,
+272.3
+],
+[
+9,
+304.8
+],
+[
+10,
+334.2
+],
+[
+11,
+403.7
+],
+[
+12,
+421.4
+]
+]
+}
+},
+{
 "id": "2026-11-02-t",
 "kind": "tag",
 "date": "2026-11-02",
@@ -1288,8 +1482,8 @@
 "dur": 729.9
 }
 ],
-"generated_at": "2026-11-02T05:27:52Z",
+"generated_at": "2026-11-03T05:23:08Z",
 "voice": "de-CH-LeniNeural",
 "source": "Yahoo Finance, SEC EDGAR, Schlagzeilen (Google News u.a.); Text: Gemini Gratis-Kontingent oder Vorlage",
-"audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@cb374281b29c0268496091123187a5da0af7dd13/data/audio/"
+"audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@0decb89026752856c840e73437e3c1dd91cda6d8/data/audio/"
 }
