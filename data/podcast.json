@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-03T04:12:18Z",
+ "generated_at": "2026-11-03T05:14:04Z",
  "intro": "Willkommen beim Aktien-Radar, deinem Überblick über die neuesten Meldungen. Heute geht es um 39 Aktien aus deiner Liste. Alles stammt aus den gesammelten Meldungen und Analystendaten, nichts ist erfunden. Keine Anlageberatung.",
  "outro": "Das war der Aktien-Radar-Überblick. Die Quellen und Details findest du in der App bei jeder Aktie. Keine Anlageberatung.",
  "segments": [
@@ -45,14 +45,14 @@
   {
    "symbol": "HY9H.MU",
    "name": "SK Hynix",
-   "text": "SK Hynix steht derzeit stark im Fokus. Nach überzeugenden Geschäftsergebnissen plant das Unternehmen Aktionärsrenditen in Höhe von fünfundsiebzig Milliarden Dollar. Der Kurs profitiert zudem von einer Allianz mit OpenAI, einer Sonderdividende und starken Exportdaten. Die Tochtergesellschaft Solidigm prüft zudem eine Investition von fünfundvierzig Milliarden Dollar in ein neues Chipwerk. Technologisch setzt das Unternehmen auf Siliziumphotonik und Co-Packaged Optics, um die Infrastruktur für Künstliche Intelligenz zu stärken. Laut Marktberichten ist die Produktion bis 2029 ausverkauft. Als Risiken werden die Konkurrenz durch chinesische Speicherhersteller sowie die charttechnische Lage genannt, da die Aktie unter der zweihundert-Tage-Linie notiert. Dies stellt keine Anlageberatung dar.",
-   "id": "b61d3fc2d1",
-   "generated_at": "2026-11-02T23:47:14Z",
+   "text": "SK Hynix verzeichnet derzeit eine dynamische Entwicklung. Wie die US-Wirtschaftszeitung WSJ berichtet, plant das Unternehmen nach starken Geschäftsergebnissen eine Aktionärsrendite von fünfundsiebzig Milliarden Dollar. Laut dem Finanzportal Investing.com Deutsch stützen zudem eine Allianz mit OpenAI, eine Sonderdividende sowie starke Exportdaten den Kurs. Das Portal Wallstreet Online meldet, dass die Aktie zuletzt um sechs Komma drei Prozent gestiegen ist und damit die Speicherchipwerte anführt. Zurück zu SK Hynix: Während das Unternehmen operativ durch den ersten Partnertag in Japan, Fortschritte bei der Siliziumphotonik zur Verringerung von KI-Wartezeiten und KI-Partnerschaftsgespräche in Südkorea überzeugt, gibt es auch Herausforderungen. So weisen Finanzen.net und finanzen.ch darauf hin, dass die Speicheroffensive und der Wettbewerbsdruck aus China für Speicherriesen wie SK Hynix und Samsung genau beobachtet werden müssen. Zudem berichtet Barchart.com, dass die Tochtergesellschaft Solidigm eine Investition in ein neues Chipwerk in Höhe von fünfundvierzig Milliarden Dollar prüft. Analystenbewertungen oder Insider-Transaktionen liegen für diesen Zeitraum nicht vor. Bitte beachten Sie, dass dies keine Anlageberatung darstellt.",
+   "id": "2324889e3c",
+   "generated_at": "2026-11-03T05:04:39Z",
    "audio": {
     "file": "HY9H.MU.mp3",
-    "hash": "a5763dc82d870f5c",
-    "dur": 60.8,
-    "engine": "edge"
+    "hash": "7dd0cf29eadcd73e",
+    "dur": 77.1,
+    "engine": "gemini"
    }
   },
   {
@@ -253,14 +253,14 @@
   {
    "symbol": "HOOD",
    "name": "Robinhood Markets",
-   "text": "Robinhood Markets: Bei Robinhood Markets verzeichnete die Aktie zuletzt einen Kursrückgang von vierzig Prozent gegenüber ihrem Rekordhoch. Laut Yahoo Finance treibt das Unternehmen seine Produkterweiterung und das internationale Wachstum voran, stösst dabei jedoch auf einen vorsichtigen Ausblick, während sich Prognosemärkte zu einem der am schnellsten wachsenden Produkte entwickelt haben. Berichte von Disruption Banking weisen zudem auf rechtliche Bedrohungen bei den Prognosemärkten und einen Einbruch der Kryptoeinnahmen hin. Bei den Analysten-Bewertungen zeigt sich ein gemischtes Bild: Truist Securities stuft die Aktie mit Kaufen ein und senkte das Kursziel auf einhundertdreiundzwanzig Dollar aufgrund geringerer Einnahmen. Cantor Fitzgerald bewertet das Papier mit Übergewichten und einem Ziel von einhundertzwanzig Dollar, während JP Morgan bei Neutral mit einem Kursziel von einhundertvierzehn Dollar bleibt. Zurück zu Robinhood Markets: Goldman Sachs empfiehlt den Kauf mit einem Ziel von einhundertachtundzwanzig Dollar, Barclays plaediert für Übergewichten bei einhundertfünfzehn Dollar und Wells Fargo versieht die Aktie mit Marktgewichten und einem Ziel von einhundert Dollar. Was die aktuelle Geschäftsentwicklung betrifft, so profitiert Robinhood Markets aufwertend von der Einführung der Robinhood Gold Card, die das Interesse von Händlern weckt, sowie von einer Partnerschaft von Trading Technologies mit Bitstamp von Robinhood. Abwertend wirken hingegen die eingebrochenen Kryptoeinnahmen. Zu den wichtigen Kennzahlen gehört das durchschnittliche Kursziel von einhunderteinunddreissig Dollar sowie ein erwartetes Aufwärtspotenzial von +sechsundfünfzig Komma zwei Prozent. Bei den Insider-Transaktionen verkaufte der Grossaktionär Robinhood Ventures Fund I am achtundzwanzigsten Oktober 2026 Aktien im Wert von rund drei Komma eins Millionen Dollar.",
-   "id": "36d62510d0",
-   "generated_at": "2026-11-02T20:44:03Z",
+   "text": "Robinhood Markets: Die Aktie des US-Finanzdienstleisters steht zurzeit rund vierzig Prozent unter ihrem Rekordhoch. Laut Disruption Banking wird dieser Rückgang durch einbrechende Einnahmen aus Kryptowährungen und rechtliche Bedrohungen im Bereich der Prognosemärkte verstärkt. Trotz dieser Belastungen und eines vorsichtigen Ausblicks im dritten Quartal, über den Yahoo Finance berichtet, bleibt das langfristige Bild vielschichtig. So verweist Bloomberg auf das Interesse des Unternehmens an einer grösseren Einzelhandelszuteilung beim kommenden Börsengang von Anthropic, während laut Traders Union die Einführung der Robinhood Gold Card Händler anzieht. SmartBrief meldet zudem eine neue Partnerschaft von Bitstamp mit Trading Technologies. In den vorliegenden Meldungen wurden keine weiteren schwerwiegenden rechtlichen Probleme oder Klagen gefunden, abgesehen von den erwähnten regulatorischen Bedrohungen für Prognosemärkte. Analysten blicken mehrheitlich optimistisch auf die Aktie. Yahoo Finance nennt ein durchschnittliches Kursziel von rund einhundertdreissig Dollar, was ein Aufwärtspotenzial von etwa sechsundfünfzig Prozent signalisiert. Mehrere Institute haben ihre Kursziele jedoch gesenkt. Truist Securities führt ein Ziel von einhundertdreiundzwanzig Dollar an, Cantor Fitzgerald einhundertzwanzig Dollar, JP Morgan einhundertvierzehn Dollar, Goldman Sachs einhundertachtundzwanzig Dollar, Barclays einhundertfünfzehn Dollar und Wells Fargo einhundert Dollar. Zurück zu Robinhood Markets: Zu den Insider-Aktivitäten zeigen offizielle Meldungen der Börsenaufsicht SEC, dass der Grossaktionär Robinhood Ventures Fund I sowie Verwaltungsrat Baiju Bhatt in den letzten Wochen Aktien im Wert von zum Teil einigen Tausend bis zu rund fünf Millionen Dollar veräussert haben, wobei ein Teil dieser Verkäufe im Voraus geplant war. Generell ist zu beachten, dass Insider-Verkäufe oft weniger aussagekräftig sind als Käufe, da sie häufig steuerlich motiviert oder langfristig geplant sind. Konkrete Aussagen oder Pläne des Chefs oder Managements wurden in den aktuellen Berichten nicht getätigt. Widersprüchliche Aussagen zwischen verschiedenen Medienquellen liegen für diesen Zeitraum nicht vor. Keine Anlageberatung.",
+   "id": "e16ad6f5cb",
+   "generated_at": "2026-11-03T05:04:39Z",
    "audio": {
     "file": "HOOD.mp3",
-    "hash": "4792ad600a493faa",
-    "dur": 122.1,
-    "engine": "edge"
+    "hash": "4a2363f3e00bcee2",
+    "dur": 122.3,
+    "engine": "gemini"
    }
   },
   {
@@ -331,13 +331,13 @@
   {
    "symbol": "RYCEY",
    "name": "Rolls-Royce",
-   "text": "Rolls-Royce: Im aktuellen Marktumfeld zeigt die Aktie des Unternehmens unterschiedliche Bewegungen. Laut Yahoo Finance UK, einem Finanzportal, das Meldungen und Analystenbewertungen bündelt, sank die Aktie von Rolls-Royce im Oktober um fünfzehn Komma zwei Prozent. Laut Finanzen.ch, einem Schweizer Finanzportal, zeigte sich das Wertpapier am Nachmittag gesucht und schob sich am Montagmittag vor, nachdem es am Vormittag zunächst gefallen war. Traders Union, ein Trading-Ratgeberportal, meldet hingegen, dass die Rolls-Royce-Aktie vor dem anstehenden Update am zwölften November unter Druck bleibt. Zu den Risiken: Die Aktie verzeichnete im Oktober einen Rückgang von fünfzehn Komma zwei Prozent und steht vor einem anstehenden Update am zwölften November weiterhin unter Druck. Bezüglich der Analysten-Bewertungen berichtet Yahoo Finance, dass der Konsens aus drei Käufen, zwei starken Käufen, null Halten, null Verkäufen und null starken Verkäufen besteht. Das durchschnittliche Kursziel liegt bei rund zweiundzwanzig Komma neun vier Dollar, mit einem Höchstwert von rund vierundzwanzig Komma sechs zwei Dollar und einem Tiefstwert von rund zwanzig Komma fünf Dollar. Zurück zu Rolls-Royce: Was macht die Firma gerade? Laut El-Balad.com strebt Rolls-Royce Holdings die Umsetzung von acht kleinen modularen Reaktoren an. Als wichtige Kennzahlen sind das Kursziel als Mittelwert von zweiundzwanzig Komma neun vier Dollar sowie das Kurspotenzial von plus fünfunddreissig Komma sieben Prozent hervorzuheben, die wichtige Orientierungspunkte für Marktbeobachter darstellen. Insider-Käufe oder -Verkäufe wurden in den Daten nicht aufgeführt. Aussagen des Managements liegen in den aktuellen Berichten nicht vor. Zu den Widersprüchen: Während Finanzen.ch am Montagmittag über eine Aufwärtsbewegung berichtet, merkt Traders Union an, dass die Aktie vor dem anstehenden Update unter Druck bleibt. Keine Anlageberatung.",
-   "id": "a13266f9b9",
-   "generated_at": "2026-11-02T19:53:14Z",
+   "text": "Rolls-Royce: Die Aktie von Rolls-Royce zeigt sich an den Finanzmärkten derzeit volatil. Während das Unternehmen laut MarketWatch zuletzt den breiten Markt übertreffen konnte, verzeichnete das Papier im Oktober einen Rückgang von fünfzehn Komma zwei Prozent, was bei Anlegern für Aufmerksamkeit sorgte. Laut Traders Union stand die Aktie zudem vor einem anstehenden Update am zwölften November unter Druck. Operativ setzt Rolls-Royce auf Zukunftstechnologien und strebt die Entwicklung von acht kleinen modularen Reaktoren an. Zurück zu Rolls-Royce: Analysten blicken insgesamt optimistisch auf den Titel: Es liegen drei Kaufempfehlungen sowie zwei starke Kaufempfehlungen vor. Das durchschnittliche Kursziel wird mit zweiundzwanzig Komma neun vier Dollar angegeben, wobei die Spanne von einem Tiefstwert von zwanzig Komma fünf Dollar bis zu einem Höchstwert von vierundzwanzig Komma sechs zwei Dollar reicht. Das Median-Kursziel liegt bei dreiundzwanzig Komma sieben Dollar. Es liegen keine Informationen zu Insider-Aktivitäten oder spezifischen Aussagen des Managements vor. Diese Zusammenfassung dient ausschliesslich der Information und stellt keine Anlageberatung dar.",
+   "id": "f254eb563d",
+   "generated_at": "2026-11-03T05:04:39Z",
    "audio": {
     "file": "RYCEY.mp3",
-    "hash": "586b6edc5fd6fac7",
-    "dur": 135.9,
+    "hash": "1bc7868b039bb8a2",
+    "dur": 79.4,
     "engine": "edge"
    }
   },
@@ -448,13 +448,13 @@
   {
    "symbol": "BNTX",
    "name": "BioNTech SE",
-   "text": "BioNTech SE: Hier ist der aktuelle Finanzüberblick zu BioNTech. Laut der internationalen Nachrichtenagentur Reuters hat das Unternehmen sein Impfstoffziel auf zwei Milliarden Dosen erhöht. Laut dem Finanzportal Investing.com Deutsch steht BioNTech vor Quartalszahlen und es stellt sich die Frage, ob eine Umsatzbelebung den Onkologie-Rückschlag ausgleichen kann. Zudem wurden laut dem deutschen Börsenmagazin Der Aktionär neue Studiendaten im Börsencheck veröffentlicht. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Bei den Analysten-Bewertungen zeigt sich folgendes Bild: Canaccord Genuity bestätigte das Rating Kaufen mit einem Kursziel von einhundertzweiunddreissig Dollar. Morgan Stanley bestätigte das Rating Übergewichten mit einem Kursziel von einhundertvierzehn Dollar. Zurück zu BioNTech SE: BMO Capital stufte die Aktie auf Wie der Markt ab bei einem Kursziel von einhundertfünf Dollar. Canaccord Genuity bestätigte zuvor ein Kaufen-Rating mit einem Kursziel von einhundertsechsunddreissig Dollar. Citigroup bestätigte Kaufen mit einem Kursziel von einhundertfünfundzwanzig Dollar, und die Evercore ISI Group bestätigte Besser als Markt mit einem Kursziel von einhundertdreissig Dollar. Das durchschnittliche Kursziel aller Analysten liegt bei einhundertsiebzehn Dollar, wobei das Konsensurteil vierzehn Kaufempfehlungen, sieben Halteempfehlungen und eins starke Kaufempfehlung umfasst. Was die Firma aktuell macht, zeigt sich an positiven Aspekten wie der Erhöhung des Impfstoffziels auf zwei Milliarden Dosen laut Reuters, während ein abwertender Faktor ein erwähnter Onkologie-Rückschlag vor den Quartalszahlen laut Investing.com Deutsch ist. Wichtige Kennzahlen umfassen das durchschnittliche Kursziel von einhundertsiebzehn Dollar, das höchste Kursziel von einhundertvierundvierzig Dollar sowie das niedrigste Kursziel von sechsundsiebzig Dollar. Zu Insider-Verkäufen meldete Investing.com Canada, dass Chef und Grossaktionär Ugur Sahin im Rahmen geplanter Verkäufe Aktien im Wert von rund fünf Komma neun Millionen Dollar veräussert hat. Generell ist zu beachten, dass Insider-Verkäufe oft weniger aussagekräftig sind als Käufe, da sie beispielsweise durch Steuern oder vorab festgelegte Verkaufspläne motiviert sein können.",
-   "id": "1f63292ecb",
-   "generated_at": "2026-11-02T19:53:14Z",
+   "text": "BioNTech SE: BioNTech steht derzeit im Fokus der Finanzwelt, da das Unternehmen sein Impfstoffziel auf zwei Milliarden Dosen angehoben hat. Trotz dieser positiven Nachricht berichten Finanzportale wie Investing.com von einem Rückschlag im Bereich der Onkologie, was die Anleger vor den anstehenden Quartalszahlen besonders aufmerksam macht. Analysten zeigen sich insgesamt verhalten optimistisch: Yahoo Finance verzeichnet vierzehn Kauf- und sieben Halte-Empfehlungen bei einem durchschnittlichen Kursziel von einhundertsiebzehn Dollar. Zu den jüngsten Einschätzungen zählen unter anderem Canaccord Genuity mit einem Kursziel von einhundertzweiunddreissig Dollar sowie Morgan Stanley mit einhundertvierzehn Dollar. Der aktuelle Aktienkurs notiert bei siebenundachtzig Komma fünf drei Dollar. Im September 2026 gab es zudem eine Form-vier-Meldung zu Ugur Sahin. Dies stellt keine Anlageberatung dar.",
+   "id": "22116be603",
+   "generated_at": "2026-11-03T05:04:39Z",
    "audio": {
     "file": "BNTX.mp3",
-    "hash": "0fa989ffc130875f",
-    "dur": 156.7,
+    "hash": "a520f81f03086d22",
+    "dur": 64.7,
     "engine": "edge"
    }
   },
@@ -524,5 +524,5 @@
   "dur": 10.2,
   "engine": "edge"
  },
- "audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@4d6f8c9024e65eed4e4f9170de85cf5902cb05ed/data/audio/"
+ "audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@b7474e190f23d56f1cd6dcef8e8d11dc1a3b7672/data/audio/"
 }
