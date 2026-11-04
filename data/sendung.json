@@ -1,6 +1,200 @@
 {
 "episodes": [
 {
+"id": "2026-11-04-t",
+"kind": "tag",
+"date": "2026-11-04",
+"title": "Morgen-Sendung, Mittwoch, vierten November",
+"generated_at": "2026-11-04T05:26:15Z",
+"writer": "Vorlage aus den Daten",
+"chapters": [
+{
+"name": "Begrüssung",
+"say": "Guten Morgen und willkommen zur Sendung vom Aktien-Radar, heute Mittwoch, vierten November. Zuerst ein kurzer Blick auf den Markt, dann die Firmen aus deiner Liste mit neuen Meldungen zu Produkten, Partnern und Projekten, danach die Quartalszahlen dieser Woche und zum Schluss ein Begriff zum Lernen. Kurz vorweg: Alles stammt aus gesammelten Daten und Schlagzeilen, Beträge nenne ich in Dollar. Das ist keine Anlageberatung.",
+"audio": {
+"file": "sendung/2026-11-04-t_00.mp3",
+"hash": "a9f90e1cbb614159",
+"dur": 29.5
+}
+},
+{
+"name": "Markt kurz",
+"say": "Der Markt kurz. Der S und P fünfhundert, der Index der fünfhundert grossen US-Firmen, stand zuletzt bei plus null Komma vier Prozent gegenüber dem Vortag. In deiner Liste am stärksten: Bloom Energy mit plus neun Komma eins Prozent, GE Vernova mit plus sechs Komma fünf Prozent, Broadcom mit plus drei Komma eins Prozent. Am schwächsten: DroneShield Limited mit minus sechs Komma sieben Prozent, SK Hynix mit minus drei Komma fünf Prozent. Zum Thema Wall Street meldet Fortune: Blauer Tsunami überschwemmt rote Staaten. Die Wall Street mag normalerweise einen politischen Stillstand – aber dieses Mal vielleicht nicht. Zum Thema Zölle meldet BNN Bloomberg: Laut Carney haben intensivere US-Handelsverhandlungen begonnen.",
+"audio": {
+"file": "sendung/2026-11-04-t_01.mp3",
+"hash": "51eeceb4d614ac05",
+"dur": 56.0
+}
+},
+{
+"name": "Palantir",
+"sym": "PLTR",
+"say": "Zur Aktie von Palantir. The Globe and Mail berichtete am dritten November über eine Neubewertung des Kaufpreises für die Aktie sowie über drei wichtige Erkenntnisse für langfristige Investoren. Zudem meldete TheStreet am vierten November, dass der CEO von Palantir das klassische Software-Verkaufsmodell als tot bezeichnet hat. Ob diese Meldungen Palantir stärken oder schwächen, lässt sich aus den Schlagzeilen allein nicht sicher sagen. Das war Palantir.",
+"audio": {
+"file": "sendung/2026-11-04-t_02.mp3",
+"hash": "5f116dce929a90e9",
+"dur": 33.3
+}
+},
+{
+"name": "Marvell",
+"sym": "MRVL",
+"say": "Zur Aktie von Marvell. CNBC berichtete am dritten November, dass Marvell Technology bei der jüngsten milliardenschweren Übernahme einen Absturz hinnehmen könnte. Barron's thematisierte am dritten November die Tesla-SpaceX-Fusion und zog Vergleiche zur Marvell-Lumentum-Gegenreaktion sowie zum Marvell-Lumentum-Deal. Ob diese Meldungen Marvell stärken oder schwächen, lässt sich aus den Schlagzeilen allein nicht sicher sagen. Das war Marvell.",
+"audio": {
+"file": "sendung/2026-11-04-t_03.mp3",
+"hash": "c22ddb38e9e58d38",
+"dur": 32.9
+}
+},
+{
+"name": "Intel",
+"sym": "INTC",
+"say": "Zur Aktie von Intel. Seeking Alpha berichtete am dritten November, dass FOMO-Investoren bei Intel unterdrückt werden. Barchart.com wies am dritten November darauf hin, dass die Ertragskatastrophe von Intel ein Problem aufgedeckt hat, das Anleger nicht ignorieren sollten. Yahoo Finance meldete am dritten November, dass AMD um fünf Prozent, Intel um vier Prozent und Marvell um zwei Prozent zulegten, während Chip-Aktien vor den AMD-Gewinnen stiegen. Ob diese Meldungen Intel stärken oder schwächen, lässt sich aus den Schlagzeilen allein nicht sicher sagen. Das war Intel.",
+"audio": {
+"file": "sendung/2026-11-04-t_04.mp3",
+"hash": "32409f40be0600b0",
+"dur": 43.4
+}
+},
+{
+"name": "UBS",
+"sym": "UBSG.SW",
+"say": "Zur Aktie von UBS. Forbes Middle East berichtete am dritten November, dass die Abu Dhabi Exchange die UBS aufgenommen hat, da ausländische Investoren siebenundvierzig Prozent des Handels ausmachen. Investing.com meldete am dritten November, dass die UBS die Marvell-Aktie aufgrund der Übernahme von Lumentum auf Kaufen hält. Zudem zeigte eine Kapazitätsüberprüfung der UBS laut Yahoo Finance vom dritten November, dass IAG Kurzstreckensitze kürzt, während Konkurrenten expandieren. Ob diese Meldungen UBS stärken oder schwächen, lässt sich aus den Schlagzeilen allein nicht sicher sagen. Das war UBS.",
+"audio": {
+"file": "sendung/2026-11-04-t_05.mp3",
+"hash": "521ce5de95e64885",
+"dur": 45.7
+}
+},
+{
+"name": "Meta",
+"sym": "META",
+"say": "Zur Aktie von Meta. The Globe and Mail berichtete am dritten November, dass ein enttäuschender Börsengang Meta-Plattformen nicht gestoppt hat, was für den Börsengang von Anthropic wichtig sein könnte. Seeking Alpha merkte am dritten November an, dass die Aktien trotz des KI-Wachstums überbewertet seien. Der Aktionär und Yahoo Finance berichteten am dritten November, dass Meta den Anleihemarkt anzapft, um Milliarden Dollar für den KI-Ausbau einzunehmen, wobei bis zu fünfundzwanzig Milliarden Dollar angestrebt werden. Ob diese Meldungen Meta stärken oder schwächen, lässt sich aus den Schlagzeilen allein nicht sicher sagen. Das war Meta.",
+"audio": {
+"file": "sendung/2026-11-04-t_06.mp3",
+"hash": "5dddddcae1273abb",
+"dur": 45.3
+}
+},
+{
+"name": "BioNTech",
+"sym": "BNTX",
+"say": "Zur Aktie von BioNTech. Yahoo Finance berichtete am vierten November, dass BioNTech mit der ersten globalen Phase-drei-Studie für eine neue Brustkrebs-Kombination beginnt und gab Highlights zur Gewinnmitteilung für das dritte Quartal 2026 bekannt. Investing.com India meldete am dritten November, dass BioNTech die Schätzungen für das dritte Quartal 2026 übertroffen hat. Ob diese Meldungen BioNTech stärken oder schwächen, lässt sich aus den Schlagzeilen allein nicht sicher sagen. Das war BioNTech.",
+"audio": {
+"file": "sendung/2026-11-04-t_07.mp3",
+"hash": "8b624913e4b783a0",
+"dur": 39.8
+}
+},
+{
+"name": "Microsoft",
+"sym": "MSFT",
+"say": "Kommen wir zur Aktie von Microsoft. Am vierten November berichtete Yahoo Finance, dass Microsoft seine Partnerschaft im Bereich Enterprise AI Networking vertieft. Bereits am dritten November wurde bekannt, dass Microsoft und Oracle auf eine bestimmte Wachstumsaktie angewiesen sind, um ihre KI-Rechenzentren zu kühlen. Ebenfalls am dritten November bezeichnete Yorkville Ives Microsoft als seine Top-Software-Wahl für das Jahr 2027 und hob die führende Rolle des Unternehmens bei der Stärke von Künstlicher Intelligenz hervor. Zudem erweitert Ontinue den Microsoft ISOC-Dienst durch ein neues Angebot für verwaltete Sicherheitsvorgänge rund um die Uhr. Ob diese verschiedenen Entwicklungen den Kurs von Microsoft beeinflussen, lässt sich aus den Schlagzeilen allein nicht ableiten. Das war der Überblick zu Microsoft.",
+"audio": {
+"file": "sendung/2026-11-04-t_08.mp3",
+"hash": "6bff854c4119645d",
+"dur": 59.7
+}
+},
+{
+"name": "Amazon",
+"sym": "AMZN",
+"say": "Weiter geht es mit der Aktie von Amazon. Am dritten November hob The Globe and Mail Highlights aus den Investment-Ideen von Zacks hervor und thematisierte die Analyse des jüngsten Investoren-Updates von Amazon. Am selben Tag meldete TradingView, dass die Aktien von Amazon stiegen, da sich die Zusagen für kundenspezifische Chips um mehr als das zwanzig-Fache erhöht haben. Zudem berichtete Yahoo Finance, dass Amazon möglicherweise in eine neue Wachstumsphase eintritt, während Unifor eine neue Initiative zur Organisierung von Amazon-Arbeitern im Grossraum Toronto gestartet hat. Ob diese Meldungen den Kurs von Amazon nachhaltig bewegen, bleibt abzuwarten. Das war Amazon.",
+"audio": {
+"file": "sendung/2026-11-04-t_09.mp3",
+"hash": "8709fd5d3ac3000d",
+"dur": 48.3
+}
+},
+{
+"name": "Quartalszahlen diese Woche",
+"say": "Quartalszahlen diese Woche. Diese Firmen aus deiner Liste melden ihre Quartalszahlen. Zur Aktie Arm: Zahlen Mittwoch, am vierten November. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von null Dollar und achtundvierzig Cent. Beim Umsatz erwarten sie rund eins Komma vier Milliarden Dollar. Zur Aktie Oklo: Zahlen Freitag, am sechsten November. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von minus null Dollar und sechsundzwanzig Cent. Beim Umsatz erwarten sie rund eins Komma eins Millionen Dollar. Zur Aktie Berkshire Hathaway: Zahlen Samstag, am siebten November. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von sechs Dollar und vierzehn Cent.",
+"audio": {
+"file": "sendung/2026-11-04-t_10.mp3",
+"hash": "87d4cacc3e0ec5fd",
+"dur": 53.4
+}
+},
+{
+"name": "Begriff: Kursziel",
+"say": "Zum Lernen, der Begriff des Tages: Kursziel. Ein Kursziel ist der Preis, den eine Analystin oder ein Analyst einer Bank für eine Aktie in etwa zwölf Monaten erwartet. Es ist eine Meinung, keine Garantie. Spannend wird es, wenn mehrere Banken ihr Kursziel in die gleiche Richtung ändern.",
+"audio": {
+"file": "sendung/2026-11-04-t_11.mp3",
+"hash": "5deec85532a70497",
+"dur": 21.3
+}
+},
+{
+"name": "Schluss",
+"say": "Das war die Sendung vom Aktien-Radar. Die Quellen findest du in der App bei jeder Aktie, den ganzen Text über den Knopf Als Text. Bis morgen.",
+"audio": {
+"file": "sendung/2026-11-04-t_12.mp3",
+"hash": "cc4bc23e3e69d9dd",
+"dur": 11.5
+}
+}
+],
+"dur": 520.1,
+"full": {
+"file": "sendung/2026-11-04-t_full.mp3",
+"dur": 520.2,
+"marks": [
+[
+0,
+0.0
+],
+[
+1,
+29.5
+],
+[
+2,
+85.5
+],
+[
+3,
+118.8
+],
+[
+4,
+151.7
+],
+[
+5,
+195.1
+],
+[
+6,
+240.8
+],
+[
+7,
+286.1
+],
+[
+8,
+325.9
+],
+[
+9,
+385.6
+],
+[
+10,
+433.9
+],
+[
+11,
+487.3
+],
+[
+12,
+508.6
+]
+]
+}
+},
+{
 "id": "2026-11-03-t",
 "kind": "tag",
 "date": "2026-11-03",
@@ -1482,8 +1676,8 @@
 "dur": 729.9
 }
 ],
-"generated_at": "2026-11-03T05:23:08Z",
+"generated_at": "2026-11-04T05:26:15Z",
 "voice": "de-CH-LeniNeural",
 "source": "Yahoo Finance, SEC EDGAR, Schlagzeilen (Google News u.a.); Text: Gemini Gratis-Kontingent oder Vorlage",
-"audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@033e6911c789709277903d15b05ab050db547a38/data/audio/"
+"audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@1eb5dd02fdaf3189b57302a0136416f5dded8cda/data/audio/"
 }
