@@ -126,15 +126,16 @@
   },
   "AMZN": {
    "file": "AMZN.mp3",
-   "hash": "267f682b6c5dc673",
-   "th": "b44502c0137bbd55",
-   "id": "28af0580fa",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
+   "hash": "4faba2b8e1effb8e",
+   "th": "91445eb04c2b9ca3",
+   "engine": "gemini",
+   "id": "5f47d1b4b5",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
    "br": 24,
-   "text": "Amazon hat die Ergebnisse für das dritte Quartal vorgelegt. Konzernchef Andy Jassy betonte dabei das beschleunigte Wachstum im Bereich AWS sowie die steigende Nachfrage nach massgeschneiderten Chips. Zu den Risiken zählt ein drohendes Sanktionsverfahren der spanischen Regulierungsbehörde gegen Amazon und Apple. Zudem berichtete die kanadische Zeitung The Globe and Mail von Kursrückgängen bei Amazon-Aktien, die in ETFs gehalten werden, nachdem die Quartalszahlen hinter den Erwartungen zurückblieben. Analysten äussern sich mehrheitlich positiv: Von vierundsiebzig Einschätzungen raten fünfzehn zum starken Kauf und siebenundfünfzig zum Kauf. Das mittlere Kursziel liegt bei dreihundertsiebenundzwanzig Dollar. Einzelne Häuser wie Rosenblatt sehen das Ziel bei dreihundertsechzig Dollar, während DA Davidson eine neutrale Haltung mit einem Ziel von zweihundertfünfzig Dollar einnimmt. Operativ punktet Amazon mit einem günstigen Thanksgiving-Essensangebot, während die Gewerkschaft Unifor eine neue Initiative mit Arbeitern im Grossraum Toronto gestartet hat.",
-   "dur": 74.3,
-   "at": "2026-11-04T01:28:08Z"
+   "text": "Amazon zeigt sich aktuell in einer komplexen Lage. Das Unternehmen berichtete für das dritte Quartal von Rekordmargen und soliden Gewinnen im Einzelhandel. Besonders der Cloud-Bereich AWS steht im Fokus, da Amazon das Potenzial sieht, diesen zu einem Unternehmen mit einem Wert von eins Billion US-Dollar auszubauen. Zudem verzeichnete die Plattform TradingView einen Anstieg der Zusagen für kundenspezifische Chips um das mehr als Zwanzigfache. Trotz dieser Erfolge gibt es Herausforderungen: Amazon streicht weiterhin Stellen und sieht sich mit einer neuen Organisierungsinitiative der Gewerkschaft Unifor im Grossraum Toronto konfrontiert. Zudem drohen dem Konzern gemeinsam mit Apple Sanktionsverfahren durch eine spanische Regulierungsbehörde. Die Analystenmeinungen bleiben überwiegend optimistisch. Das durchschnittliche Kursziel liegt bei dreihundertsiebenundzwanzig Dollar. Im Detail stuft die UBS die Aktie mit Kaufen und einem Ziel von dreihundertzweiundfünfzig Dollar ein, während Rosenblatt ebenfalls zum Kauf rät und das Ziel auf dreihundertsechzig Dollar setzt. Die Telsey Advisory Group sieht die Aktie bei dreihundertfünfunddreissig Dollar, Freedom Broker bei dreihundertdreissig Dollar und die Scotiabank bei dreihundert Dollar. Die DA Davidson bewertet das Papier neutral mit einem Kursziel von zweihundertfünfzig Dollar. Operativ setzt Amazon auf neue Impulse, etwa mit einem günstigen Thanksgiving-Essensangebot oder der Zusammenarbeit mit der Entre Cajas Academy für Verkäufer-Tools. Bei der Berichterstattung zum Kursverlauf zeigen sich Widersprüche, da Medienberichte sowohl von Kursverlusten nach den Quartalszahlen als auch von einer Rallye am Montagmorgen sprechen.",
+   "dur": 97.2,
+   "at": "2026-11-04T07:23:35Z"
   },
   "MRVL": {
    "file": "MRVL.mp3",
@@ -225,15 +226,15 @@
   },
   "BE": {
    "file": "BE.mp3",
-   "hash": "1f129540d7639504",
-   "th": "944a60b8ab447c76",
-   "id": "513a15e64a",
+   "hash": "e872e0bf18d661f8",
+   "th": "11d7f77f60722531",
+   "id": "72e90ca358",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Bloom Energy zeigt sich in den aktuellen Berichten stark. Laut Yahoo Finance verzeichnete die Aktie Kursgewinne zwischen neun und elf Prozent, was auf ein Analysten-Upgrade und ein neues Energieprojekt zurueckzufuehren ist. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Zu den Analysten-Bewertungen: Barclays hat die Aktie auf Ubergewichten hochgestuft und ein Kursziel von zweihundertneunundachtzig Dollar genannt, gestuetzt auf eine staerker als erwartete Nachfrage. Insgesamt liegt das durchschnittliche Kursziel der Analysten bei rund zweihundertfünfundachtzig Dollar, wobei fünf Analysten die Aktie mit stark kaufen, fünfzehn mit kaufen, dreizehn mit halten und eins mit verkaufen bewerten. Zuruck zu Bloom Energy: Das Unternehmen treibt seine Geschaefte voran und hat eine strategische Partnerschaft mit California Resources angekuendigt, um dekarbonisierte Energie sowie ein Stromprojekt im Umfang von eins Gigawatt fur die Kohlenstoffabscheidung in Kalifornien zu bewerten. Auf der Gegenseite steht die Erwaehnung, dass die Aktie das Portfolio von Clough Capital im dritten Quartal belastet hat. Wichtige Kennzahlen zeigen ein durchschnittliches Kursziel von zweihundertfünfundachtzig Dollar und ein errechnetes Kurspotenzial von rund dreiunddreissig Prozent. Bei den Insider-Aktivitaeten gab es offizielle Verkaeufe, darunter verkaufte der Chief Commercial Officer Aman Joshi achttausendvierhundertsiebenunddreissig Aktien im Wert von rund zwei Komma drei Millionen Dollar, wobei solche Verkaeufe oft im Rahmen von im voraus festgelegten Plaenen erfolgen und weniger aussagekraeftig sein muessen als Kaeufe. Keine Anlageberatung.",
-   "dur": 114.2,
-   "at": "2026-11-03T21:20:15Z"
+   "text": "Bloom Energy verzeichnete zuletzt einen Kursanstieg von neun bis elf Prozent. Dieser Aufschwung wurde durch ein Analysten-Upgrade von Barclays sowie die Ankündigung eines neuen Energieprojekts befeuert. Barclays stufte die Aktie auf Übergewichten hoch, da das Unternehmen von einer stärker als erwarteten Nachfrage profitiert. Zudem arbeitet Bloom Energy strategisch mit California Resources zusammen, um dekarbonisierte Energie in Kalifornien zu fördern; dabei wird ein Grossprojekt zur Kohlenstoffabscheidung im Umfang von eins Gigawatt geprüft. Während Analysten das durchschnittliche Kursziel auf zweihundertfünfundachtzig Dollar beziffern, gibt es unterschiedliche Einschätzungen zur Attraktivität der Aktie im Vergleich zu anderen Werten im Bereich der Künstlichen Intelligenz. Bitte beachten Sie, dass dies keine Anlageempfehlung darstellt.",
+   "dur": 58.7,
+   "at": "2026-11-04T07:24:06Z"
   },
   "HYLN": {
    "file": "HYLN.mp3",
@@ -309,15 +310,15 @@
   },
   "BRK-B": {
    "file": "BRK-B.mp3",
-   "hash": "b00299a41bb6919f",
-   "th": "2af09e2a26098a9f",
-   "id": "8d990e0a88",
+   "hash": "e20996d67b906003",
+   "th": "faff91c09b74dd43",
+   "id": "54f84f3579",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Die Aktien von Berkshire Hathaway sind in diesem Jahr um elf Prozent gestiegen und näherten sich zuletzt einem Niveau von fünfhundertachtundfünfzig Dollar vor der Veröffentlichung der Quartalszahlen. Historisch gesehen hat sich Geduld bei diesem Wert ausgezahlt, da die Aktie in fünfzig von einundsechzig Jahren zulegen konnte. Mit Spannung erwartet wird nun, wie sich die Eisenbahn-Wetten von Greg Abel auf das Ergebnis auswirken. Kritisch betrachtet wird hingegen die Aktienauswahl des Unternehmens, da ein Verlust bei Alphabet eine schwache Bilanz in diesem Bereich offenbart. Zudem hat Berkshire Hathaway DaVita-Aktien im Wert von rund neunundsechzig Millionen Dollar verkauft, was im Zusammenhang mit Nierenreformen und Ermittlungen wegen Wertpapierbetrugs steht. Analysten sehen das Kursziel im Durchschnitt bei fünfhundertsechsundfünfzig Dollar, wobei die Spanne von fünfhundertzehn bis sechshundertachtundzwanzig Dollar reicht. Die UBS stuft die Aktie weiterhin mit Kaufen ein. Operativ profitiert das Unternehmen von der vierundsechzig. Dividendenerhöhung in Folge, während im Portfolio Constellation Brands durch D.R. Horton ersetzt wurde. Bei den Insider-Aktivitäten gab es im Oktober Verkäufe durch den Grossaktionär in Höhe von neunundsechzig Millionen Dollar, während im September und Oktober auch Käufe im zweistelligen Millionenbereich getätigt wurden. Bitte beachten Sie, dass dies keine Anlageberatung darstellt.",
-   "dur": 97.8,
-   "at": "2026-11-03T23:18:23Z"
+   "text": "Die Aktien von Berkshire Hathaway zeigen sich aktuell stark und sind in diesem Jahr um elf Prozent gestiegen, was zu neuen Höchstständen führte. Das Unternehmen investiert weiter und hat seine Beteiligung an Sirius XM Holdings durch einen Zukauf im Wert von sechsundzwanzig Komma neun Millionen Dollar auf einhundertfünfundzwanzig Komma sieben Millionen Aktien erhöht. Gleichzeitig steht die Eisenbahn-Sparte von Greg Abel vor der Veröffentlichung der Quartalszahlen unter Beobachtung. Zu den Risiken zählen Verkäufe von DaVita-Aktien im Wert von neunundsechzig Millionen Dollar, die im Kontext von Gesundheitsreformen und Ermittlungen wegen Wertpapierbetrugs stattfanden. Zudem weist das US-Magazin Barron's auf eine schwache Bilanz bei der jüngsten Aktienauswahl hin, insbesondere im Zusammenhang mit Verlusten bei Alphabet. Die UBS bewertet die Aktie weiterhin mit Kaufen und hat das Kursziel auf sechshundertachtundzwanzig Dollar angehoben, während das allgemeine Analystenkonsens bei einem mittleren Kursziel von fünfhundertsechsundfünfzig Dollar liegt. Dies stellt keine Anlageberatung dar.",
+   "dur": 74.6,
+   "at": "2026-11-04T07:24:13Z"
   },
   "0VR3.L": {
    "file": "0VR3.L.mp3",
@@ -357,15 +358,15 @@
   },
   "MSFT": {
    "file": "MSFT.mp3",
-   "hash": "e645872726d7d06a",
-   "th": "b3962efcff73bac3",
+   "hash": "686c11e66451331a",
+   "th": "9bf29d06d7aede1a",
    "id": "b9166bf56a",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Microsoft: Der Technologiekonzern steht im Fokus neuer Partnerschaften und Analystenbewertungen. Laut Microsoft Source erweitern Lumen und Microsoft ihre Zusammenarbeit, um gemeinsam künstlich intelligenzfähige Netzwerke für Unternehmen zu vertreiben. Zudem meldet TradingView einen Aktienanstieg im Zusammenhang mit einem bekannt gegebenen Engagement bei Anthropic in Höhe von rund vierundvierzig Komma neun Milliarden Dollar. Finanzportale wie finanzen.ch berichten über reges Kaufinteresse am Dienstagabend. Zurück zu Microsoft: In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden, abgesehen von einer Herabstufung durch Seeking Alpha, die anmerkt, dass die leichten Gewinne vorbei seien. Analysten zeigen sich überwiegend optimistisch. Laut Yahoo Finance gibt es im Konsens zweiundfünfzig Kaufen- und zwölf Stark Kaufen-Einstufungen bei insgesamt fünf Enthaltungen beziehungsweise Halten-Ratings und keinen Verkaufsempfehlungen. Das durchschnittliche Kursziel liegt bei rund sechshundertdreiunddreissig Dollar. Bernstein bestätigt die Einstufung Besser als Markt und erhöht das Kursziel auf rund siebenhundertzweiundzwanzig Dollar. RBC Capital bestätigt die Einstufung Besser als Markt bei einem Kursziel von rund sechshundertvierzig Dollar. Citigroup bestätigt Kaufen und erhöht das Kursziel auf rund sechshundertachtzig Dollar. DA Davidson, TD Cowen und Scotiabank bestätigen ebenfalls ihre positiven Einstufungen und erhöhen beziehungsweise halten ihre Kursziele bei rund sechshundertfünfzig Dollar. Was die Firma gerade macht, zeigen neue Partnerschaften, während gleichzeitig Schuldenangebote angekündigt wurden. Als wichtige Kennzahl nennt der Analystenkonsens ein durchschnittliches Kursziel von rund sechshundertdreiunddreissig Dollar bei einem aktuellen Aktienkurs von rund fünfhunderteinundzwanzig Dollar und einem Aufwärtspotenzial von rund einundzwanzig Prozent. Zu Insider-Aktivitäten zeigen offizielle Pflichtmeldungen, dass Finanzchefin Amy Hood im Rahmen eines geplanten Verkaufsplans Aktien im Wert von rund vier Millionen Dollar sowie rund zwanzig Komma acht Millionen Dollar veräussert hat. Solche insiderverkäufe basieren oft auf vorab festgelegten Plänen und sagen typischerweise weniger aus als Insider-Käufe. Keine Anlageberatung.",
-   "dur": 160.9,
-   "at": "2026-11-03T23:57:26Z"
+   "text": "Microsoft steht aktuell im Fokus neuer Partnerschaften und Analystenbewertungen. Laut eigenen Angaben erweitert Microsoft die Zusammenarbeit mit Lumen, um gemeinsam KI-fähige Netzwerke für Unternehmen zu vertreiben. Zudem berichtet TradingView von einem Kursanstieg im Zusammenhang mit einem Engagement bei Anthropic in Höhe von vierundvierzig Komma neun Milliarden Dollar. Finanzportale wie finanzen.ch verzeichnen ein reges Kaufinteresse. Während Seeking Alpha die Aktie aufgrund ausbleibender leichter Gewinne herabgestuft hat, zeigen sich Analysten mehrheitlich optimistisch. Yahoo Finance führt zweiundfünfzig Kaufen- und zwölf Stark Kaufen-Einstufungen auf, bei einem durchschnittlichen Kursziel von sechshundertdreiunddreissig Dollar. Bernstein, RBC Capital, Citigroup, DA Davidson, TD Cowen und Scotiabank bestätigen ihre positiven Einschätzungen mit Kurszielen zwischen sechshundertvierzig und siebenhundertzweiundzwanzig Dollar. Operativ hat das Unternehmen zudem Schuldenangebote angekündigt. Zu den Insider-Aktivitäten zeigen Pflichtmeldungen, dass Finanzchefin Amy Hood Aktien im Wert von rund vier Millionen Dollar sowie rund zwanzig Komma acht Millionen Dollar veräussert hat. Dies sind keine Anlageempfehlungen.",
+   "dur": 87.7,
+   "at": "2026-11-04T07:24:23Z"
   },
   "OEF": {
    "file": "OEF.mp3",
@@ -381,15 +382,15 @@
   },
   "013A.F": {
    "file": "013A.F.mp3",
-   "hash": "3f56de67886e4cde",
-   "th": "b649baba32ab7cd2",
-   "id": "68650fb414",
+   "hash": "de0c41c5db0e0fe8",
+   "th": "6b826808879e7c10",
+   "id": "07648ff107",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "JD.com steht heute im Fokus, angetrieben durch wichtige regulatorische Fortschritte in Europa. Der chinesische Einzelhandelsriese hat die behördliche sowie eine bedingte EU-Genehmigung für die Übernahme des deutschen Unternehmens Ceconomy erhalten, zu dem auch MediaMarktSaturn gehört. Die Übernahme hat ein Volumen von rund zwei Komma fünf Milliarden Dollar. An der Börse sorgte dies für positive Reaktionen, wobei die Aktie an einem Dienstag um fünf Komma sechs Prozent zulegen konnte und nach einem schwachen Oktober für chinesische Aktien wieder Kursgewinne verzeichnete. Die Europäische Kommission hat die Übernahme zwar genehmigt, wies jedoch auf Subventionen als Marktrisiko hin und knüpfte die Freigabe an entsprechende Auflagen. Bei den Analysten zeigt sich ein gemischtes Bild: Barclays bestätigte die Einstufung auf Übergewichten und senkte das Kursziel auf achtunddreissig Dollar. B of A Securities bestätigte die Einstufung auf Kaufen und senkte das Kursziel auf siebenunddreissig Dollar, während Susquehanna die neutrale Haltung bestätigte und das Kursziel auf dreissig Dollar anpasste. Unternehmenschef Sandy Xu betonte zudem die Bedeutung der praktischen Anwendung von künstlicher Intelligenz, um den Geschäftswert zu steigern. Dies ist keine Anlageberatung.",
-   "dur": 88.3,
-   "at": "2026-11-04T01:28:15Z"
+   "text": "Der chinesische Einzelhandelsriese JD.com hat die behördliche Genehmigung der Europäischen Union für die Übernahme des deutschen Unternehmens Ceconomy erhalten. Wie MarketScreener Deutschland berichtet, beläuft sich das Transaktionsvolumen auf rund zwei Komma fünf Milliarden Dollar. Während Investing.com über Kursgewinne im Zuge dieser Nachricht berichtet, verzeichnete Dimsum Daily zeitweise einen Rückgang von zwei Prozent an der Börse in Hongkong. Als regulatorisches Risiko wies die EU-Kommission auf staatliche Subventionen hin. Analysten haben ihre Kursziele teilweise angepasst: Barclays stuft die Aktie auf Übergewichten bei einem Kursziel von achtunddreissig Dollar ein, B of A Securities empfiehlt Kaufen mit einem Ziel von siebenunddreissig Dollar und Susquehanna bewertet den Titel neutral mit einem Kursziel von dreissig Dollar. Die Übernahme von Ceconomy bleibt die zentrale operative Kennzahl für die Expansion des Unternehmens. Es liegen keine Informationen zu Insider-Transaktionen vor. Dies sind keine Anlageempfehlungen.",
+   "dur": 75.1,
+   "at": "2026-11-04T07:24:30Z"
   },
   "NVDA": {
    "file": "NVDA.mp3",
@@ -477,27 +478,27 @@
   },
   "STX": {
    "file": "STX.mp3",
-   "hash": "e9b3599fe3534d02",
-   "th": "05fa505debccbe88",
-   "id": "e3a22e9ca5",
+   "hash": "d8fcb7ac0ca51d3b",
+   "th": "6613c9b66edf0c65",
+   "id": "def2964ae7",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Seagate Technology Holdings PLC stand zuletzt unter erheblichem Druck und verzeichnete Kursrückgänge, während gleichzeitig eine Schuldentilgung von eintausendzweihundert,null Millionen USD vorangetrieben wurde. Berichte von TradingView und Investing.com Deutsch verweisen auf Analystenskepsis, Wettbewerbssorgen bei Festplatten, verzögerte Markteinführungen sowie Risiken für die KI-Speicherdynamik. Zu den Anpassungen der Analysten gehört die UBS, welche die neutrale Einstufung bestätigte und das Kursziel von siebenhundertachtzig Dollar auf siebenhundertfünfzig Dollar senkte, begründet mit einer verzögerten Markteinführung und dem Wettbewerb. Die Citigroup bestätigte ihre Kaufempfehlung bei einem auf eintausendfünfzig,null USD gesenkten Kursziel. Wells Fargo bestätigte die Einstufung als Übergewichten mit einem Kursziel von achthundertzwanzig Dollar. TD Cowen bestätigte die Kaufempfehlung bei einem Kursziel von neunhundert Dollar. Wedbush beliess das Kursziel unverändert bei eintausend,null USD und bewertet die Aktie als Besser als Markt. Susquehanna bestätigte die neutrale Einstufung und senkte das Kursziel auf siebenhundertfünfundsechzig Dollar. Operativ treibt das Unternehmen eine Schuldentilgung in Höhe von eintausendzweihundert,null Millionen USD voran und meldet einen Ausblick für das zweite Quartal, der durch die beschleunigte HAMR-Technologie ein stärkeres Wachstum signalisiert. Demgegenüber belasten Wettbewerbssorgen und Kursverluste das Bild. Wichtige Kennzahlen umfassen das mittlere Analysten-Kursziel von rund eintausendvierundvierzig,dreiundachtzig USD, während die Aktie auf Monatsbasis um vierundzwanzig Komma eins Prozent nachgab.",
-   "dur": 117.6,
-   "at": "2026-11-03T21:20:54Z"
+   "text": "Die Aktie des Speicher- und Festplattenspezialisten Seagate Technology Holdings PLC geriet zuletzt unter erheblichen Druck und verzeichnete im letzten Monat Kursrückgänge von rund vierundzwanzig Komma eins bis dreissig Prozent. Analysten und Medien führen diese Entwicklung auf Risiken bei der Dynamik der KI-Speicherung, steigenden Wettbewerb sowie eine allgemeine Skepsis am Markt zurück. Trotz dieser Belastungen signalisiert der Ausblick auf das zweite Quartal ein stärkeres Wachstum, da sich die Einführung der HAMR-Technologie beschleunigt. Zudem hat das Unternehmen Schulden in Höhe von eins Komma zwei Milliarden Dollar getilgt. Die Analystenbewertungen präsentieren sich derzeit gemischt. Während Häuser wie die UBS, Wells Fargo, Susquehanna und die Citigroup ihre Kursziele nach unten angepasst haben, bleibt das durchschnittliche Kursziel laut Yahoo Finance bei eintausendfünfundvierzig Dollar. Im Detail bewertet die UBS die Aktie mit Neutral und einem Ziel von siebenhundertfünfzig Dollar, die Citigroup mit Kaufen und eintausendfünfzig Dollar, Wells Fargo mit Übergewichten und achthundertzwanzig Dollar, TD Cowen mit Kaufen und neunhundert Dollar sowie Wedbush mit Besser als Markt und eintausend Dollar. Bei den Insidern zeigen Meldungen, dass CEO William D Mosley in geplanten Transaktionen Aktien im Wert von rund vier Komma zwei Millionen Dollar sowie rund vierzehn Millionen Dollar veräussert hat.",
+   "dur": 95.3,
+   "at": "2026-11-04T07:24:42Z"
   },
   "MU": {
    "file": "MU.mp3",
-   "hash": "79de09a785df689d",
-   "th": "978956b8043bcfce",
+   "hash": "87d46cbd7132d07e",
+   "th": "4b38eaf5b1b30662",
    "id": "ec1d748906",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Micron Technology, Inc.: Laut Barron's, einem US-Finanzmagazin, liegen die Märkte und die Wall Street bei der Aktie von Micron Technology derzeit weit auseinander. Laut Yahoo Finance, einem Finanzportal, kämpfen Technologiegiganten darum, sich ein mehrjähriges Angebot an Speicherchips zu sichern, wovon Micron Technology profitiert. Zudem wird das Unternehmen laut Yahoo Finance mit weniger als dem Fünffachen des Gewinns gehandelt, während ein Aktienrückkauf in Höhe von fünfunddreissig Milliarden Dollar bevorsteht. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden, jedoch warnt Dan Niles laut Yahoo Finance vor dem Konkurrenten CXMT aus China als echtem Risiko, da dieser bis 2028 einen Marktanteil von zwanzig Prozent anstrebt. Analysten bewerten Micron Technology überwiegend positiv. Rosenblatt bestätigt die Einstufung Kaufen mit einem Kursziel von eintausendneunhundert Dollar. Needham bestätigt ebenfalls Kaufen mit einem Kursziel von eintausendsechshundertfünfzig Dollar. DA Davidson erhöht das Kursziel auf dreitausend Dollar bei der Bewertung Kaufen. Mizuho bestätigt die Einschätzung Besser als Markt mit einem Kursziel von eintausendvierhundert Dollar, und Morgan Stanley bestätigt Übergewichten mit einem Kursziel von eintausendzweihundert Dollar. Zurück zu Micron Technology, Inc.: Die Firma profitiert aktuell davon, dass Technologiegiganten mehrjährige Lieferverträge abschliessen und Exchange Traded Funds Aktien kaufen. Auf der anderen Seite belasten eine Speicherwarnung von Apple und der Wettbewerbsdruck aus China die Stimmung. Zu den wichtigen Kennzahlen gehört das durchschnittliche Kursziel von eintausendfünfhunderteinundsechzig Dollar sowie ein geplanter Aktienrückkauf im Volumen von fünfunddreissig Milliarden Dollar, was den Gewinn je Aktie stützen kann. Bei den Insidern gab es Transaktionen aufgrund von vorab festgelegten Verkaufsplänen: Scott J Deboer verkaufte Aktien im Wert von rund sechsundzwanzig Millionen Dollar, und Michael Charles Ray veräusserte Aktien im Wert von rund sechs Millionen Dollar. Solche Verkäufe basieren oft auf persönlichen Finanzplanungen oder Steuern und sagen daher meist weniger aus als Insiderkäufe. Bei Micron Technology, Inc. sagt das Management, dass Super Intelligence die überzeugendste Chance in der Geschichte des Unternehmens schaffe, was laut Yahoo Finance die langfristigen KI-Wachstumsaussichten verdeutlicht. Keine Anlageberatung.",
-   "dur": 170.2,
-   "at": "2026-11-03T23:58:15Z"
+   "text": "Bei Micron Technology zeigen sich derzeit deutliche Diskrepanzen zwischen der Einschätzung der Wall Street und den Marktbewegungen. Während Technologiegiganten aktiv um mehrjährige Lieferverträge für Speicherchips kämpfen, profitiert Micron Technology von dieser hohen Nachfrage. Die Aktie wird aktuell mit weniger als dem Fünffachen des Gewinns bewertet, wobei in den kommenden Wochen ein Aktienrückkaufprogramm im Volumen von fünfunddreissig Milliarden Dollar ansteht, das den Gewinn je Aktie stützen könnte. Analysten blicken mehrheitlich optimistisch auf das Unternehmen: So liegen für Micron Technology fünfundvierzig Kaufempfehlungen, neun starke Kaufempfehlungen und vier Halteempfehlungen vor, während keine Verkaufsempfehlungen existieren. Das durchschnittliche Kursziel der Analysten liegt bei eintausendfünfhundertzweiundsechzig Dollar. Trotz der positiven Dynamik, die auch durch Käufe von Exchange Traded Funds gestützt wird, gibt es Herausforderungen. Der Experte Dan Niles warnt vor dem chinesischen Konkurrenten CXMT, der bis 2028 einen Marktanteil von zwanzig Prozent anstrebt. Zudem belastet eine Speicherwarnung von Apple das Marktumfeld.",
+   "dur": 81.1,
+   "at": "2026-11-04T07:24:48Z"
   },
   "DRO.AX": {
    "file": "DRO.AX.mp3",
@@ -513,9 +514,9 @@
   }
  },
  "status": "quota: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usa",
- "checked_at": "2026-11-04T06:07:49Z",
- "quota_until": 1793773160.2769423,
- "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@e80247cbce9f510a08222e0331f46a225b54e91b/data/audio/",
+ "checked_at": "2026-11-04T07:24:48Z",
+ "quota_until": 1793780640.7948654,
+ "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@cc12bdeba5839f6c6efc1159068d86c798b91446/data/audio/",
  "extra": {
   "intro": {
    "file": "_intro.mp3",
