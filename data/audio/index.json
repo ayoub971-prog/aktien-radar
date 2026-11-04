@@ -3,41 +3,39 @@
  "stocks": {
   "TSM": {
    "file": "TSM.mp3",
-   "hash": "55e17c74080d3075",
-   "th": "beb2599a38412c55",
-   "engine": "gemini",
-   "id": "df1456f860",
-   "voice": "Kore",
-   "model": "gemini-2.5-flash-preview-tts",
-   "br": 24,
-   "text": "Taiwan Semiconductor steht aktuell im Fokus der Märkte. Laut Yahoo Finance fallen die Aktien von Taiwan Semiconductor, da die Verkaufsdaten für November vor einer vierteljährlichen Hürde von dreiundfünfzig Komma drei Milliarden Dollar stehen. Laut Devdiscourse plant das Unternehmen ausserdem die Emission grüner Anleihen im Wert von vierhundertfünfzig Millionen Dollar zur Finanzierung von Umweltprojekten am zwölften November. Laut scanx.trade erwägt Taiwan Semiconductor zudem eine milliardenschwere Fabrik in Texas, während die Aktien ein zweiundfünfzig-Wochen-Hoch erreichen. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden, ausser dem Druck durch die erwähnte Verkaufs-Hürde. Die Analysten bewerten die Aktie überwiegend positiv. Von den erfassten Experten raten sechsundzwanzig zum Kauf, während eins Analyst die Aktie hält. Das durchschnittliche Kursziel liegt bei rund fünfhundertsechsundachtzig Dollar. Barclays erhöhte das Kursziel im Oktober auf sechshundertsiebzig Dollar bei einer Übergewichten-Einstufung, während DA Davidson die Aktie bei einem Ziel von fünfhundert Dollar auf Kaufen beliess. Needham hob das Ziel auf fünfhundertsechzig Dollar an, Stifel nahm die Beobachtung bei fünfhundertfünfzehn Dollar neu auf, und Bernstein bestätigte das Rating mit einem Kursziel von fünfhundertvierundfünfzig Dollar. Was die geschäftlichen Aktivitäten betrifft, so spricht die geplante Fabrik in Texas sowie die Auflage der grünen Anleihen für das Unternehmen, während die anstehenden Verkaufsdaten kurzfristig belasten. Zu den Kennzahlen ist zu sagen, dass die vierteljährliche Hürde von dreiundfünfzig Komma drei Milliarden Dollar und das durchschnittliche Kursziel von rund fünfhundertsechsundachtzig Dollar zentrale Orientierungspunkte darstellen. Bei den Insidern zeigen offizielle Daten Käufe von Führungskräften wie dem Vizepräsidenten Lipen Yuan im November über rund einundsiebzigtausendvierhundertneunzig Dollar sowie Käufe weiterer Manager im Oktober 2026.",
-   "dur": 112.4,
-   "at": "2026-11-04T18:27:00Z"
-  },
-  "005930.KS": {
-   "file": "005930.KS.mp3",
-   "hash": "f364ac36808b91d2",
-   "th": "f0ab6a487fa3721c",
-   "engine": "gemini",
-   "id": "581fe13713",
-   "voice": "Kore",
-   "model": "gemini-2.5-flash-preview-tts",
-   "br": 24,
-   "text": "Samsung Electronics verzeichnet laut der US-Wirtschaftszeitung WSJ ein weiteres Rekordquartal, angetrieben durch den Chipgewinn. Wie Yahoo Finance berichtet, sichert sich Samsung zudem Aufträge von AMD und Nvidia für ein neues Chipwerk in Texas. Laut der südkoreanischen Wirtschaftszeitung Seoul Economic Daily erwerben Top-Händler Aktien bei Kursrücksetzern. Risiken oder rechtliche Probleme wurden in den Meldungen nicht gefunden. Laut Yahoo Finance bewerten insgesamt fünfundvierzig Analysten die Aktie, wobei vierundvierzig zum Kauf und eins zum Halten raten. Das durchschnittliche Kursziel liegt bei rund dreihundertachtundfünfzig Dollar, was ein Aufwärtspotenzial von rund einhundertzwanzig Prozent bedeutet. Zudem ist laut samsung.com die verbesserte Schlafapnoe-Funktion nach behördlichen Genehmigungen der US-amerikanischen FDA und des koreanischen MFDS jetzt auf dem Galaxy Ring verfügbar. Wie Yahoo Finance berichtet, erweitert Mastercard mit Samsung Pay sein mobiles Zahlungsangebot in Marokko. Laut Yahoo Finance erwirbt Samsung Electronics zehn Komma zwei Prozent der Anteile an TCL CSOT und vertieft damit die strategische Ausrichtung. Laut MarketScreener Deutschland veräusserte Samsung Electronics Stammaktien im Wert von rund eins Dollar.",
-   "dur": 75.6,
-   "at": "2026-11-04T19:31:17Z"
-  },
-  "HY9H.MU": {
-   "file": "HY9H.MU.mp3",
-   "hash": "5032523df7ad7722",
-   "th": "be198f51d4cd38be",
-   "id": "ccd4677f3b",
+   "hash": "d541e8ae93bda850",
+   "th": "28bb094c4e19e2e8",
+   "id": "75f81960b7",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "SK Hynix steht aktuell im Fokus verschiedener wirtschaftlicher Entwicklungen. Laut Investing.com Deutsch meldet das Unternehmen ein Rekordquartal mit einer Marge von achtzig Prozent. Gleichzeitig berichtet Seeking Alpha, dass das US-Handelsministerium chinesische Ausrüstungspläne aufhält. Das WSJ teilt mit, dass SK Hynix nach starken Ergebnissen eine Aktionärsrendite von fünfundsiebzig Milliarden Dollar plant. Laut Investing.com sichert sich das Unternehmen zudem mit einem Anteil von neun Komma eins Prozent Nominierungsrechte für den Vorstand bei Penguin Solutions. Zu den Risiken und rechtlichen Themen wird berichtet, dass laut Investing.com die US-Expansionspläne von SK Hynix wegen Verzögerungen bei China-Lizenzen und US-Restriktionen ins Stocken geraten. Auserdem warnt Apple laut Investing.com Deutsch vor beispiellosen Speicherpreisen, was den Handel mit Speicherchips belastet. MarketForces Africa meldet zudem, dass die tokenisierte Aktie um vier Prozent fällt, da asiatische Tech-Aktien sinken. Das Unternehmen ist operativ aktiv und veranstaltet laut Yahoo Finance KI-Partnerschaftsgespräche in Südkorea. Wichtige Kennzahlen zeigen eine operative Marge von achtzig Prozent, was die hohe Profitabilität unterstreicht, sowie das Investitionsvolumen von fünfundsiebzig Milliarden Dollar für die Aktionäre.",
-   "dur": 99.1,
-   "at": "2026-11-04T19:32:00Z"
+   "text": "Taiwan Semiconductor stand zuletzt im Fokus von Finanzmedien und Analysten. Laut Yahoo Finance, einem Finanzportal, das Meldungen und Analystenbewertungen bündelt, fiel die Aktie, da die Verkaufsdaten für November vor einer vierteljährlichen Hürde von dreiundfünfzig Komma drei Milliarden Dollar stehen. Finanzen.ch, ein Schweizer Finanzportal, meldete ausserdem, dass die Aktie auf rotem Terrain tendierte, während Morningstar berichtete, dass ein Investment Trust sein KI-Engagement reduziert hat. Zurück zu Taiwan Semiconductor: In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden, ausser den erwähnten Marktdaten und Kursbewegungen. Analysten bewerten die Aktie überwiegend positiv. Das durchschnittliche Kursziel liegt laut Yahoo Finance bei rund fünfhundertsiebenundachtzig Dollar. Barclays erhöhte das Kursziel zuletzt auf sechshundertsiebzig Dollar bei einer Einstufung als Übergewichten, während Needham das Ziel auf fünfhundertsechzig Dollar heraufsetzte und DA Davidson das Ziel bei fünfhundert Dollar bestätigte. Operativ wägt Taiwan Semiconductor laut scanx.trade eine milliardenschwere Fabrik in Texas ab, während Seeking Alpha auf eine anstehende zwei-Nanometer-Rampe verweist. Zudem plant das Unternehmen laut Devdiscourse die Emission grüner Anleihen im Wert von vierhundertfünfzig Millionen Dollar zur Finanzierung von Umweltprojekten. Keine Anlageberatung.",
+   "dur": 100.0,
+   "at": "2026-11-04T22:14:49Z"
+  },
+  "005930.KS": {
+   "file": "005930.KS.mp3",
+   "hash": "9c2d743937aa8f01",
+   "th": "1409a675d38f81ba",
+   "id": "bedff3e6c3",
+   "voice": "de-CH-LeniNeural",
+   "engine": "edge",
+   "br": 24,
+   "text": "Samsung Electronics: Zu den wichtigsten Punkten der Aktie gehört laut der US-Wirtschaftszeitung WSJ, dass Samsungs Chipgewinn für ein weiteres Rekordquartal sorgt. Laut dem Finanzportal Yahoo Finance hat sich Samsung ausserdem Aufträge von AMD und Nvidia für ein neues Chipwerk in Texas gesichert und einen Anteil von zehn Komma zwei Prozent an TCL CSOT erworben. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Das Finanzportal Yahoo Finance nennt Analysteneinstufungen, wonach im Konsens fünfunddreissig Analysten ein durchschnittliches Kursziel von dreihundertachtundfünfzig Dollar sehen, mit einem Höchstwert von fünfhundertfünfzehn Dollar und einem Tiefstwert von zweihundertsiebzehn Dollar, woraus sich ein Aufwärtspotenzial von einhundertneunzehn Komma sechs Prozent ergibt. Was die Firma gerade macht, zeigt sich auf der positiven Seite dadurch, dass laut der Mitteilung auf samsung.com nach behördlichen Genehmigungen die verbesserte Schlafapnoe-Funktion auf dem Galaxy Ring verfügbar ist und laut Yahoo Finance Mastercard mit Samsung Pay sein mobiles Zahlungsangebot in Marokko erweitert. Auf der anderen Seite meldet MarketScreener Deutschland eine Veräusserung von Stammaktien durch Samsung Electronics im Wert von eins Dollar. Zurück zu Samsung Electronics: Bei den Kennzahlen sticht das durchschnittliche Kursziel von dreihundertachtundfünfzig Dollar hervor, welches das von Analysten erwartete Kursniveau anzeigt, sowie das Aufwärtspotenzial von einhundertneunzehn Komma sechs Prozent. Insider-Käufe oder -Verkäufe wurden in den offiziellen Daten nicht gemeldet. Aussagen von Chefs liegen in den aktuellen Meldungen keine vor. Keine Anlageberatung.",
+   "dur": 118.3,
+   "at": "2026-11-04T22:14:58Z"
+  },
+  "HY9H.MU": {
+   "file": "HY9H.MU.mp3",
+   "hash": "9566f2c9eb58e8f3",
+   "th": "c13bb64725be1975",
+   "id": "2d901c6866",
+   "voice": "de-CH-LeniNeural",
+   "engine": "edge",
+   "br": 24,
+   "text": "SK Hynix steht in den aktuellen Berichten im Fokus starker Marktbewegungen und strategischer Entwicklungen. Laut der US-Wirtschaftszeitung WSJ plant das Unternehmen nach starken Geschäftsergebnissen Aktionärsrenditen in Höhe von fünfundsiebzig Milliarden Dollar. Das Finanzportal Investing.com Deutsch meldet zudem ein Rekordquartal mit einer Marge von achtzig Prozent, was ein zentraler Indikator für die hohe Profitabilität ist. Auf der anderen Seite berichtet Investing.com, dass die Expansionspläne in den Vereinigten Staaten sowie die New Yorker Chip-Pläne des Unternehmens wegen Lizenzverzögerungen in China und US-Restriktionen ins Stocken geraten sind. Morningstar weist darauf hin, dass ein Investment Trust sein Engagement im Bereich kunstliche Intelligenz bei SK Hynix reduziert hat. Operativ sichert sich das Unternehmen mit einer Beteiligung von neun Komma eins Prozent die Nominierungsrechte für den Vorstand bei Penguin Solutions, wie TradingView berichtet. Bei der Betrachtung der Kursentwicklung gibt es unterschiedliche Berichte, da Investing.com Canada über Kursanstiege berichtet, während Wallstreet Online meldet, dass die Aktie gegen den Branchentrend verliert.",
+   "dur": 84.3,
+   "at": "2026-11-04T22:15:04Z"
   },
   "AVGO": {
    "file": "AVGO.mp3",
@@ -150,15 +148,15 @@
   },
   "SFTBY": {
    "file": "SFTBY.mp3",
-   "hash": "4368b2d1953a8fd8",
-   "th": "11535ca9f7026ada",
-   "id": "7b891fd9f7",
+   "hash": "6bedaa25665daa64",
+   "th": "14c884f62abca0cc",
+   "id": "19d6992f9e",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "SoftBank Group: Die wichtigsten Nachrichten zur Aktie fassen zusammen, dass die SoftBank-Aktie laut Yahoo Finance, einem Finanzportal, das Meldungen und Analystenbewertungen bündelt, um sieben Prozent fiel, als eine politische Welle Tokio erreichte. Zudem meldet boerse.de, ein deutsches Börsenportal, dass die SoftBank Group-Aktie ein neues Sechsmonatstief erreicht hat. Auf der operativen Seite berichten FinanzNachrichten.de, ein deutsches Finanznachrichtenportal, sowie Yahoo Finance, dass Sceye und die SoftBank Corp. eine Vereinbarung über eine Flotte stratosphärischer Plattformen zur landesweiten Abdeckung in Japan unterzeichnet haben. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden, abgesehen von den genannten Kursrückgängen. Die Analysten von Yahoo Finance geben derzeit zwei Halten-Empfehlungen ab, während weder Kauf- noch Verkaufsempfehlungen vorliegen. Das durchschnittliche Kursziel wird auf sechzehn Komma acht Dollar beziffert, mit einer Spanne von dreizehn Komma sechs Dollar bis zwanzig Dollar. Zu den wichtigen Kennzahlen zählt neben dem durchschnittlichen Kursziel von sechzehn Komma acht Dollar auch das höchste Kursziel von zwanzig Dollar und das tiefste Kursziel von dreizehn Komma sechs Dollar. Insider-Käufe oder -Verkäufe wurden in den offiziellen Daten und Meldungen nicht verzeichnet, und auch Aussagen von Chefs liegen aktuell nicht vor. Widersprüche zwischen den verschiedenen Berichten gibt es in den vorliegenden Meldungen keine.",
-   "dur": 101.1,
-   "at": "2026-11-04T16:34:30Z"
+   "text": "SoftBank Group verzeichnete im Zuge von Marktbewegungen in Tokio laut Yahoo Finance einen Kursrückgang von sieben Prozent, und das deutsche Börsenportal boerse.de meldet, dass die Aktie ein neues sechs-Monats-Tief erreicht hat. Laut TradingView hat SoftBank ausserdem Rechte verkauft, während bei Ola dreiundsechzig Millionen Dollar eingesammelt wurden und die Registrierungen sanken. Positiver berichtet FinanzNachrichten.de über eine Vereinbarung zwischen SoftBank Corp. und Sceye über eine Flotte stratosphärischer Plattformen zur landesweiten Abdeckung in Japan, was die technologischen Aktivitäten untermauert. Zu den Analysten-Bewertungen von Yahoo Finance: Es liegen zwei Halten-Empfehlungen und keine Kauf- oder Verkaufsempfehlungen vor. Das durchschnittliche Kursziel liegt bei sechzehn Komma acht Dollar, während das höchste Kursziel zwanzig Dollar und das tiefste Kursziel dreizehn Komma sechs Dollar beträgt.",
+   "dur": 65.1,
+   "at": "2026-11-04T22:15:18Z"
   },
   "GLW": {
    "file": "GLW.mp3",
@@ -318,15 +316,15 @@
   },
   "0VR3.L": {
    "file": "0VR3.L.mp3",
-   "hash": "8aee1679f28ec48e",
-   "th": "ce06f1059b2189b2",
-   "id": "54b8483dbf",
+   "hash": "b3a3fa9e64a9b2de",
+   "th": "0c5007dd5446eb93",
+   "id": "58222b0143",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Aktuelle Meldungen beleuchten die Entwicklungen am Markt rund um das Edelmetall. Laut CNBC gab es Kursbewegungen im frühen Handel. Das US-Wirtschaftsblatt WSJ berichtet, dass Gold nach den US-Mittelfristen aufgrund eines schwächeren Dollars und sinkender Renditen für Staatsanleihen anstieg. Die Frankfurter Allgemeine Zeitung meldet dagegen, dass die Goldnachfrage sinkt. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Es liegen derzeit keine Analysten-Bewertungen oder Aussagen des Managements vor.",
-   "dur": 39.2,
-   "at": "2026-11-04T19:32:54Z"
+   "text": "ZKB Gold ETF: Zu Beginn des Monats November des Jahres 2026 gibt es verschiedene Meldungen rund um das Edelmetall. Laut CNBC, einem US-Wirtschaftssender, wird über den aktuellen Goldpreis berichtet. Das WSJ, eine US-Wirtschaftszeitung, meldet, dass Gold aufgrund eines schwächeren Dollars und sinkender Renditen für Staatsanleihen nach den US-Mittelfristen ansteigt. Das US-Wirtschaftsmagazin Fortune veröffentlicht ebenfalls aktuelle Notierungen zum Goldpreis. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Was die Situation der Firma angeht, berichtet das WSJ aufwertend über den Rückenwind durch den schwächeren Dollar und sinkende Renditen, während die deutsche Tageszeitung FAZ abwertend anmerkt, dass die Goldnachfrage sinkt. Es liegen aktuell keine Kennzahlen, Insider-Käufe oder Verkäufe sowie keine Aussagen von Chefs vor. Auch direkte Analysten-Bewertungen oder Widersprüche zwischen den Quellen sind in den aktuellen Berichten nicht enthalten. Zurück zu ZKB Gold ETF: Die genannten Medienberichte spiegeln das Marktumfeld zu Monatsbeginn wider. Keine Anlageberatung.",
+   "dur": 83.0,
+   "at": "2026-11-04T22:15:24Z"
   },
   "BKW.SW": {
    "file": "BKW.SW.mp3",
@@ -342,15 +340,15 @@
   },
   "UBSG.SW": {
    "file": "UBSG.SW.mp3",
-   "hash": "41f893550b928411",
-   "th": "4cb263cd4a831ef6",
-   "id": "d621078ef1",
+   "hash": "9cf0720c898f31f0",
+   "th": "6d7cdfb94c726493",
+   "id": "ae7bb30efe",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "UBS Group steht aktuell im Fokus von Medienberichten und Analystenaktivitäten. Laut Forbes Middle East, einem US-Wirtschaftsmagazin, hat die Borse in Abu Dhabi UBS als Handelsteilnehmer aufgenommen, wahrend auslandische Investoren einen grossen Teil des Handels ausmachen. Zudem berichten Seeking Alpha, einer US-Plattform mit Anlegerbeiträgen, sowie finanzen.ch, ein Schweizer Finanzportal, über Gerüchte und Aussichten auf einen möglichen Kompromiss bei den strengen Eigenkapitalanforderungen der Bank. In den vorliegenden Meldungen wurden keine rechtlichen Probleme gefunden, allerdings verzeichneten Analystenherabstufungen. Zurück zu UBS Group: Analysten bewerten die Aktie unterschiedlich. Laut MarketScreener Schweiz hat Zacks die Einstufung von Outperform auf Neutral herabgesenkt und das Kursziel auf einundfünfzig Dollar reduziert. Auch AlphaValue/Baader Europe stufte die Aktie von Add auf Reduce herab und senkte das Kursziel auf rund einundfünfzig Komma eins drei Dollar. Das durchschnittliche Kursziel aller Analysten liegt laut Yahoo Finance bei rund fünfundfünfzig Komma eins Dollar. Was die geschäftliche Aktivität betrifft, spricht die Aufnahme an der Borse in Abu Dhabi aufwertend für die Gesellschaft, während Warnungen vor steigenden Hypothekenzinsen im britischen Hausbau als abwertend einzustufen sind. Wichtige Kennzahlen umfassen das durchschnittliche Kursziel von rund fünfundfünfzig Komma eins Dollar sowie den Median von rund dreiundfünfzig Komma neun sechs Dollar, was die Einschätzungen der Analysten widerspiegelt. Insider-Transaktionen wurden in den vorliegenden Berichten nicht genannt. Aussagen von Führungskräften liegen für diesen Zeitraum nicht vor. Zu den Widersprüchen: Während Seeking Alpha über eine Chance auf einen weniger strengen Kapitalplan berichtet, gibt es laut marketscreener.com konkrete Bestrebungen von Schweizer Gesetzgebern zur Milderung der Anforderungen. Keine Anlageberatung.",
-   "dur": 134.4,
-   "at": "2026-11-04T19:33:38Z"
+   "text": "UBS Group steht im Fokus aktueller Marktberichte, die von Kursgewinnen und Diskussionen über mögliche regulatorische Erleichterungen bei den Eigenkapitalanforderungen berichten. Gleichzeitig gibt es Herabstufungen durch Analysehäuser sowie Warnungen vor Risiken im britischen Hypothekenmarkt. Bei den Analystenbewertungen zeigt sich ein gemischtes Bild: Zacks hat die UBS Group von Outperform auf Neutral herabgestuft und das Kursziel auf einundfünfzig Dollar gesenkt. Auch AlphaValue beziehungsweise Baader Europe hat die Einstufung gesenkt. Der Analystenkonsens von siebzehn Experten zeigt insgesamt zwei starke Käufe, sieben Käufe, acht Haltungen, zwei Verkäufe und eins starken Verkauf, wobei das durchschnittliche Kursziel bei rund fünfundfünfzig Komma eins Dollar liegt. Zurück zu UBS Group: Die Bank ist operativ aktiv, indem sie von der Abu Dhabi Exchange als ausländisches Investmenthaus aufgenommen wurde, Oracle unterstützt und Berichte kommentiert. Auf der anderen Seite belasten Herabstufungen und Warnungen vor steigenden Hypothekenzinsen, die die britische Hausbaubranche gefährden könnten, die Stimmung. Wichtige Kennzahlen zeigen ein mittleres Kursziel von rund fünfundfünfzig Komma eins Dollar, was die durchschnittlichen Erwartungen des Marktes verdeutlicht. Es wurden keine Insider-Käufe oder -Verkäufe in den offiziellen Daten gemeldet. Aussagen von Chefs oder Mitgliedern der Geschäftsführung liegen in den aktuellen Meldungen nicht vor. Keine Anlageberatung.",
+   "dur": 103.8,
+   "at": "2026-11-04T22:15:45Z"
   },
   "MSFT": {
    "file": "MSFT.mp3",
@@ -366,15 +364,15 @@
   },
   "OEF": {
    "file": "OEF.mp3",
-   "hash": "ac3898f802664be9",
-   "th": "04bfb504816d8d33",
-   "id": "c5912fca76",
+   "hash": "35e0c31cb2864e17",
+   "th": "cbf1e47f85fcdb13",
+   "id": "ef0575c0e0",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "iShares S&P einhundert ETF: Laut Yahoo Finance Canada, einem Finanzportal, das Meldungen und Analystenbewertungen bündelt, wurde ein saisonales Renditediagramm zum iShares S&P einhundert ETF veröffentlicht. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Es liegen keine Analysten-Bewertungen oder Angaben zu den aktuellen Aktivitäten der Firma vor. Auch wurden keine wichtigen Kennzahlen, Insider-Käufe, Verkäufe oder Aussagen von Chefs gemeldet. Zurück zu iShares S&P einhundert ETF: Es gibt keine Widersprüche in den Berichten. Keine Anlageberatung.",
-   "dur": 46.5,
-   "at": "2026-11-04T19:33:43Z"
+   "text": "iShares S&P einhundert ETF: Das Finanzportal Yahoo! Finance Canada hat ein saisonales Renditediagramm zu iShares S&P einhundert ETF veröffentlicht. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Zu Analysten-Bewertungen gibt es aktuell keine neuen Angaben in den Berichten. Was die Aktivitäten betrifft, so sind in den aktuellen Meldungen keine spezifischen Projekte oder Partnerschaften genannt. Als wichtige Kennzahl liegt der Kurs von iShares S&P einhundert ETF bei dreihundertneunundsiebzig Dollar, was den aktuellen Wert der Aktie abbildet. Insider-Käufe oder -Verkäufe wurden in den Daten nicht gemeldet. Aussagen von Chefs oder dem Management liegen ebenfalls nicht vor. Widersprüche zwischen den verschiedenen Quellen wurden nicht festgestellt. Zurück zu iShares S&P einhundert ETF: Die Berichterstattung beschränkt sich im Wesentlichen auf das saisonale Renditediagramm. Keine Anlageberatung.",
+   "dur": 72.2,
+   "at": "2026-11-04T22:15:50Z"
   },
   "013A.F": {
    "file": "013A.F.mp3",
@@ -390,27 +388,27 @@
   },
   "NVDA": {
    "file": "NVDA.mp3",
-   "hash": "23826a5dbb6f42f3",
-   "th": "a635f1230db4ea24",
-   "id": "87f089ba58",
+   "hash": "0591f9d4cb47e767",
+   "th": "c59a1f8c4ab70091",
+   "id": "0e9c8ff087",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Nvidia stand laut Yahoo Finance am Wahltag im Mittelpunkt, als das Unternehmen den Titel des weltgrössten Unternehmens von Apple zurückerobert hat. Gleichzeitig fordert Nvidia Cloud-Kunden auf, mindestens einundfünfzig Prozent an nicht-chinesische Kunden zu verkaufen. Laut dem US-Finanzmagazin Barron's steht die Aktie zudem trotz drohender Razzien und eines harten Durchgreifens gegen Rechenzentren im Fokus. Zu den Risiken gehören laut Yahoo Finance ein drohender Chip-Mangel von neunundneunzig Prozent für Kunden in China sowie Warnungen von Hedgefonds-Milliardär Ken Griffin vor einer potenziell platzenden KI-Blase. Die Analysten bewerten die Aktie überwiegend positiv: Insgesamt achtundfünfzig Analysten geben einen Konsens von stark kaufen bis kaufen ab, mit einem durchschnittlichen Kursziel von dreihundertsiebenundzwanzig Dollar. Melius Research bestätigte die Kaufempfehlung und senkte das Kursziel von vierhundertzwanzig.null auf dreihundertfünfzehn Dollar, während Needham ein Kursziel von dreihundert Dollar, Cantor Fitzgerald von dreihundertfünfzig Dollar und Rosenblatt von dreihundertneunzig Dollar bestätigten. Piper Sandler nahm die Aktie neu mit dem Rating Übergewichten und einem Kursziel von dreihundert Dollar in die Bewertung auf. Operativ stellt Nvidia zusammen mit ModelOp die branchenweit erste Full-Stack-KI-Richtliniendurchsetzung mit Nvidia OpenShell vor und startet mit Microsoft ein KI-Unterstützungsprogramm in Grossbritannien und Irland, während Wallstreet Online über Kursverluste bei Chipwerten berichtet. Zu den wichtigsten Kennzahlen gehört neben dem durchschnittlichen Kursziel von dreihundertsiebenundzwanzig Dollar auch das Kurspotenzial von sechzig Komma fünf Prozent. Keine Anlageberatung.",
-   "dur": 117.3,
-   "at": "2026-11-04T19:34:22Z"
+   "text": "Nvidia verzeichnet an den Finanzmärkten Kursverluste, während Berichte uber mogliche regulatorische Hurden, strengere Uberprufungen von Rechenzentren sowie erhebliche Chip-Engpasse in China die Runde machen. Laut Barrons, einem US-Finanzmagazin, droht ein harteres Vorgehen gegen Rechenzentren. Finanzen.net berichtet, dass Hedgefonds-Milliardaer Ken Griffin vor dem Platzen einer Kunstliche-Intelligenz-Blase warnt, und finanzen.ch verweist auf einen Experten, der vor einem moglichen Kursruckschlag von dreissig Prozent warnt. Die Analysten zeigen sich uberwiegend zuversichtlich: Laut Daten von Yahoo Finance empfehlen zahlreiche Experten die Aktie zum Kauf oder zum Ubergewichten, wobei das durchschnittliche Kursziel bei rund dreihundertsiebenundzwanzig Dollar liegt. Operativ profitiert das Unternehmen von Kooperationen, wie der von Yahoo Finance gemeldeten Einfuhrung einer Nvidia-basierten KI-Fabrikplattform durch Fermaca fur Mexiko und Lateinamerika sowie der Prasentation von Nvidia OpenShell durch ModelOp. Demgegenuber stehen Berichte von Yahoo Finance uber massive Chipmangel bei chinesischen Kunden wie Alibaba und Tencent, die trotz hoher Bestellungen kaum beliefert werden konnen. Zu den wichtigen Kennzahlen zahlt das mittlere Kursziel der Analysten von rund dreihundertsiebenundzwanzig Dollar, welches die durchschnittlichen Markterwartungen widerspiegelt.",
+   "dur": 93.3,
+   "at": "2026-11-04T22:16:08Z"
   },
   "1211.HK": {
    "file": "1211.HK.mp3",
-   "hash": "0ea7daefe74c5af9",
-   "th": "95a4196f051d6326",
-   "id": "3dccbf56b4",
+   "hash": "8f65af309579228a",
+   "th": "5acfdfaf08121022",
+   "id": "0174938d53",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "BYD steht im Fokus verschiedener Finanzmedien und Analysten. Laut Yahoo Finance UK verzeichnet die Aktie von BYD einen Kursrückgang von siebenundzwanzig Prozent und sieht reich bewertet aus. Laut Wallstreet Online stützen Exportzahlen die Geschäftszahlen von BYD. Zudem blickt BYD laut Yahoo Finance auf sechs aufeinanderfolgende Monate mit Verkaufswachstum bei NEV-Fahrzeugen zurück. Als Risiko wird in den vorliegenden Meldungen der deutliche Kursrückgang der Aktie genannt, rechtliche Probleme wurden nicht gefunden. Zu den Analysten-Bewertungen: Laut Analystendaten von Yahoo Finance empfehlen neunundzwanzig Analysten die Aktie zum Kauf oder starken Kauf, während vier Analysten sie halten. Das durchschnittliche Kursziel liegt bei dreizehn Komma neun vier Dollar, was ein Kurspotenzial von einundfünfzig Komma drei Prozent eröffnet. MarketScreener Schweiz meldet, dass Piper Sandler & Co. seine neutrale Bewertung für BYD bekräftigt hat. Zurück zu BYD: Das Unternehmen treibt seine Geschäfte voran. Laut Yahoo Finance stellt BYD neue Modelle der Reihen Han und Tang vor. Ausserdem präsentierten BYD und MOGOX laut Yahoo Finance einen autonomen Bus der Stufe vier. Marketscreener berichtet, dass sich der Marktanteil von BYD in Brasilien mehr als verdoppelt hat, und Investify meldet, dass HUBCO im Dezember die lokale Produktion von BYD-Fahrzeugen startet. Als wichtige Kennzahl ist das durchschnittliche Kursziel der Analysten von dreizehn Komma neun vier Dollar zu nennen, das den erwarteten fairen Wert der Aktie widerspiegelt. Aus den Insider-Meldungen geht hervor, dass Seeking Alpha berichtet, dass Michael Burry bei BYD einsteigt. Zu den Widersprüchen: Während Yahoo Finance UK darauf hinweist, dass die Aktie reich bewertet aussieht, wirft Yahoo Finance die Frage auf, ob die Aktie nach sechs Monaten NEV-Verkaufswachstum unterbewertet sein könnte.",
-   "dur": 140.8,
-   "at": "2026-11-04T20:39:38Z"
+   "text": "BYD zeigt sich an den Maerkten in einer gemischten Verfassung. Laut dem Finanzportal Yahoo Finance UK vertieft sich ein Rueckgang der Aktie um siebenundzwanzig Prozent, und das Papier sieht recht teuer aus. Das Finanzportal Yahoo Finance wirft demgegenueber die Frage auf, ob die Aktie nach sechs aufeinanderfolgenden Monaten mit Wachstum bei den Verkauefen von Fahrzeugen mit neuer Energie unterbewertet sein koennte. Zu den Analysten-Bewertungen und Kennzahlen berichtet Yahoo Finance, dass von insgesamt sechsundzwanzig Analysten sechs den Wert stark zu kaufen empfehlen, dreiundzwanzig zum Kauf raten und vier zum Halten tendieren. Das durchschnittliche Kursziel liegt bei rund vierzehn Dollar, wobei das hoechste Kursziel bei rund siebzehn Dollar und das niedrigste bei rund acht Dollar liegt. Der aktuelle Kurs betraegt rund neun Dollar. Zurueck zu den Geschaeftszahlen: Das Unternehmen treibt seine Aktivitaeten voran. So signalisiert BYD mit einem Debuet neuer Han- und Tang-Modelle neue Impulse. Zudem stellen BYD und MOGOX einen acht Komma fünf Meter langen autonomen Bus der Stufe vier mit Rechtslenkung vor. Laut marketscreener.com gewinnt BYD in Brasilien an Boden, da sich der Marktanteil mehr als verdoppelt hat, und laut Investify beginnt HUBCO im Dezember mit der lokalen Produktion von BYD-Fahrzeugen, beginnend mit dem Sealion sechs. Demgegenueber steht die Einschaetzung, wonach sich ein Rueckgang der Aktie um siebenundzwanzig Prozent vertieft, waehrend Finanzen.net meldet, dass das Wachstum der Elektroautos Risse bekommt.",
+   "dur": 111.9,
+   "at": "2026-11-04T22:16:18Z"
   },
   "SHL.DE": {
    "file": "SHL.DE.mp3",
@@ -510,9 +508,9 @@
   }
  },
  "status": "quota: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usa",
- "checked_at": "2026-11-04T21:24:16Z",
- "quota_until": 1793828237.8344002,
- "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@64925f3b830cfdf0a5915b900c5ef04614a5c1eb/data/audio/",
+ "checked_at": "2026-11-04T22:16:18Z",
+ "quota_until": 1793834081.4672031,
+ "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@89b150782fd207acc306fcb2a95b36dbd0c766d2/data/audio/",
  "extra": {
   "intro": {
    "file": "_intro.mp3",
