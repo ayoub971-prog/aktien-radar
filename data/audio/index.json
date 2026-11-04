@@ -102,15 +102,16 @@
   },
   "NOW": {
    "file": "NOW.mp3",
-   "hash": "1979492f809a2306",
-   "th": "72c89710a323d615",
-   "id": "67401a5e4b",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
+   "hash": "020c21bfdc4a62f4",
+   "th": "932c7070b7ede5e8",
+   "engine": "gemini",
+   "id": "0a84e9ea29",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
    "br": 24,
-   "text": "ServiceNow steht aktuell im Fokus der Finanzmedien, da die Aktie starke Kursbewegungen und kontroverse Einschätzungen erlebt. Laut dem US-Wirtschaftsmagazin Forbes fiel die Aktie um zweiunddreissig Prozent, da Investoren das künstliche-Intelligenz-Wachstum in Frage stellten. Das Finanzportal Yahoo Finance berichtet ergänzend, dass ServiceNow zum Warnsignal für eine mögliche Implosion agentenbasierter Software geworden sein könnte, während andere Berichte wie von Seeking Alpha den Rückgang nach den Quartalszahlen als eine grosse Chance bezeichnen. Die Analystenbewertungen zeigen ein überwiegend positives Bild. Das Analysehaus Argus Research bestätigte das Rating Kaufen mit einem Kursziel von einhundertsiebzig Dollar. Macquarie bestätigte die neutrale Einstufung und das Kursziel von einhundertzwanzig Dollar. RBC Capital behielt die Einschätzung Besser als Markt bei und das Kursziel von einhundertfünfundsechzig Dollar. JP Morgan bestätigte das Votum Übergewichten und das Kursziel von einhundertsechzig Dollar. Die Citigroup bestätigte die Kaufempfehlung bei einem Kursziel von einhundertsiebenundfünfzig Dollar, und StoneX bestätigte ebenfalls den Kauf mit einem Kursziel von einhundertfünfzig Dollar. Das durchschnittliche Kursziel aller Analysten liegt bei einhundertfünfundfünfzig Dollar. Zurück zu ServiceNow: Das Unternehmen ist operativ aktiv und hat laut Yahoo Finance die Control Tower Alliance eingeführt, um den Vorstoss im Bereich der künstlichen Intelligenz für Grossunternehmen zu stärken. Zudem erweitert ServiceNow laut der Meldung von scanx.trade die künstliche-Intelligenz-Governance von Nvidia mit der Einführung des Arc-Angebots. Demgegenüber steht die Belastung durch den starken Kursverlust und Skepsis bezüglich des Wachstums. Bezüglich der Widersprüche stehen sich die Einschätzungen gegenüber, ob der deutliche Kursrückgang ein Warnsignal für eine grössere Software-Implosion darstellt oder eine attraktive Kaufgelegenheit bietet.",
-   "dur": 136.0,
-   "at": "2026-11-03T21:19:09Z"
+   "text": "ServiceNow: Die Aktie stand zuletzt im Fokus von Finanzmedien und Analysten. Laut Forbes, einem US-Wirtschaftsmagazin, geriet die Aktie von ServiceNow unter Druck und fiel um zweiunddreissig Prozent, da Investoren das Wachstum im Bereich der künstlichen Intelligenz infrage stellten. Laut Yahoo Finance, einem Finanzportal, führte das Unternehmen eine Control Tower Alliance ein und erweiterte die Nvidia-KI-Governance durch die Einführung von Arc. Laut MarketWatch, einem US-Finanznachrichtenportal, zeigte die Aktie an einem Handelstag eine starke Performance im Vergleich zur Konkurrenz. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Die Analysten bewerten ServiceNow überwiegend positiv. Laut Yahoo Finance gibt es neun starke Kaufempfehlungen, vierundvierzig Kaufempfehlungen, drei Halteempfehlungen, zwei Verkaufsempfehlungen und eins starkes Verkaufssignal. Das durchschnittliche Kursziel liegt bei rund einhundertfünfundfünfzig Dollar. Argus Research bestätigte die Kaufempfehlung mit einem Kursziel von einhundertsiebzig Dollar, da die Einschätzung auf dem Geschäftsmodell basiert. Zurück zu ServiceNow: Das Unternehmen treibt seine Aktivitäten voran. Laut Yahoo Finance hat ServiceNow eine Control Tower Alliance eingeführt und laut scanx.trade die Nvidia-KI-Governance mit Arc erweitert, was als positiv gewertet wird. Demgegenüber steht der deutliche Kursrückgang, den Forbes als Folge von Zweifeln am KI-Wachstum beschreibt. Zu den wichtigen Kennzahlen gehört das durchschnittliche Kursziel von rund einhundertfünfundfünfzig Dollar, das den Erwartungswert der Experten darstellt, sowie ein erwartetes Kurspotenzial von rund zweiundvierzig Prozent. Zu den Insider-Aktivitäten zeigen offizielle Pflichtmeldungen verschiedene Verkäufe. So verkaufte Paul Fipps als President Global Customer Ops Aktien im Wert von rund dreihunderttausendsiebenhundertsiebenundsiebzig Dollar, Jacqueline P Canney veräusserte im Rahmen eines geplantes Plans Aktien im Wert von rund eins Komma eins Millionen Dollar und der Verwaltungsrat Paul Edward Chamberlain verkaufte Aktien im Wert von rund dreihundertfünfundsechzigtausendachthunderteinundfünfzig Dollar sowie weitere im Wert von rund einhundertachtundachtzigtausendvierhundert Dollar. Solche Insider-Verkäufe können private Gründe haben oder im Vorfeld festgelegt sein und sagen oft weniger aus als Käufe. Keine Anlageberatung.",
+   "dur": 146.7,
+   "at": "2026-11-04T04:14:28Z"
   },
   "META": {
    "file": "META.mp3",
@@ -199,15 +200,16 @@
   },
   "HOOD": {
    "file": "HOOD.mp3",
-   "hash": "a76996e5e71fd9ab",
-   "th": "7531af3a31d7d5fc",
-   "id": "4a8c6dbac5",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
+   "hash": "e154f7bc3482251c",
+   "th": "a62d2b19228b6be2",
+   "engine": "gemini",
+   "id": "4383160c81",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
    "br": 24,
-   "text": "Robinhood Markets: Der Finanzdienstleister steht laut Bloomberg, einem US-Finanznachrichtendienst, im Wettbewerb um einen grosseren Einzelhandelsanteil beim anstehenden Borsengang von Anthropic. Gleichzeitig berichtet Disruption Banking, eine Publikation, uber einen Einbruch der Kryptoeinnahmen und rechtliche Bedrohungen fur Prognosemarkte, was die Aktie stark belaste. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden, ausser den erwahnten Berichten uber regulatorische Bedrohungen bei Prognosemarkten. Die Analystenbewertungen zeigen ein uberwiegend konstruktives Bild. Truist Securities stuft die Aktie mit Kaufen ein und nennt ein Kursziel von einhundertdreiundzwanzig Dollar. Cantor Fitzgerald bewertet das Papier mit Ubergewichten und einem Kursziel von einhundertzwanzig Dollar. JP Morgan bleibt bei Neutral mit einem Kursziel von einhundertvierzehn Dollar. Goldman Sachs bestaetigt die Kaufen-Einstufung und setzt das Ziel auf einhundertachtundzwanzig Dollar. Barclays bewertet mit Ubergewichten bei einem Kursziel von einhundertfünfzehn Dollar, waehrend Wells Fargo auf Marktgewichten mit einem Kursziel von einhundert Dollar steht. Zuruck zu Robinhood Markets: Das Unternehmen arbeitet operativ mit Partnern wie Trading Technologies zusammen, treibt die Einfuhrung der Robinhood Gold Card voran und profitiert vereinzelt von Zukauefen durch Fondsgesellschaften wie Ark Invest. Bei den Kennzahlen liegt das durchschnittliche Kursziel der Analysten bei rund einhunderteinunddreissig Dollar. Keine Anlageberatung.",
-   "dur": 108.1,
-   "at": "2026-11-03T21:20:03Z"
+   "text": "Robinhood Markets steht derzeit im Zentrum intensiver Marktbewegungen. Laut Bloomberg konkurriert das Unternehmen mit anderen Brokern um groessere Zuteilungen fuer Privatanleger beim bevorstehenden Boersengang von Anthropic. Waehrend die Investmentgesellschaft Ark Invest im Zuge eines Rueckgangs bei Krypto-Aktien ihre Position bei Robinhood ausbaute, meldet Disruption Banking einen Kurssturz von vierzig Prozent. Grund dafuer sind eingebrochene Einnahmen aus dem Kryptogeschaeft sowie rechtliche Risiken fuer Prognosemaerkte. Analysten zeichnen dennoch ein mehrheitlich positives Bild: Von neununddreissig Experten empfehlen zweiunddreissig den Kauf oder starken Kauf, waehrend vier zu halten und drei zum Verkauf raten. Das mittlere Kursziel liegt bei einhundertzweiunddreissig Dollar. Aktuelle Einschaetzungen reichen von einhundert Dollar bei Wells Fargo bis zu einhundertachtundzwanzig Dollar bei Goldman Sachs. Operativ setzt Robinhood auf neue Impulse: Die Zusammenarbeit von Trading Technologies mit Bitstamp sowie die Einfuehrung der Robinhood Gold Card stossen auf Interesse bei Haendlern. Bei den Kennzahlen liegt der Mittelwert der Kursziele bei einhunderteinunddreissig Dollar, was einem rechnerischen Aufwaertspotenzial von zweiundfünfzig Komma fünf Prozent entspricht. Bei den Insider-Aktivitaeten gab es Ende Oktober 2026 Verkaeufe: Ein Grossaktionaer trennte sich von Aktien im Wert von rund drei Komma eins Millionen Dollar, und Verwaltungsrat Baiju Bhatt verkaufte Papiere. Solche Transaktionen erfolgen oft im Rahmen langfristiger Plaene und sind nicht zwingend als Signal fuer die fundamentale Geschaeftsentwicklung zu werten. Dies stellt keine Anlageberatung dar.",
+   "dur": 97.5,
+   "at": "2026-11-04T04:15:42Z"
   },
   "WNRG.SW": {
    "file": "WNRG.SW.mp3",
@@ -404,15 +406,15 @@
   },
   "1211.HK": {
    "file": "1211.HK.mp3",
-   "hash": "3d5d6c9de1946f63",
-   "th": "cc96c23259f43eee",
-   "id": "2120043aed",
+   "hash": "0e84c5b7ae3f1057",
+   "th": "22358e72f2105218",
+   "id": "b7d322e5b7",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "BYD steht aktuell im Fokus, da das Unternehmen eine robuste Exportentwicklung zeigt, während das Wachstum im Inland nachlässt. Im Oktober stiegen die Autoverkäufe um elf Prozent, wobei insbesondere die Exporte mit einem Zuwachs von einhundertzwei Komma acht Prozent überzeugten. Zudem beginnt HUBCO im Dezember mit der lokalen Produktion von BYD-Fahrzeugen, beginnend mit dem Modell Sealion sechs. Analysten von Piper Sandler und Co. bewerten die Aktie derzeit neutral, wobei das durchschnittliche Kursziel bei dreizehn Komma neun vier Dollar liegt. Während das internationale Geschäft floriert, sehen Beobachter im schwächelnden Heimatmarkt erste Risse im Wachstum. Insider-Aktivitäten oder rechtliche Probleme wurden nicht gemeldet.",
-   "dur": 54.7,
-   "at": "2026-11-03T23:18:56Z"
+   "text": "BYD verzeichnete zuletzt einen starken Exportboom und Rekordverkaufszahlen, wodurch das Unternehmen die Flaute auf dem heimischen Markt ausgleichen konnte. Besonders in Brasilien konnte BYD den Marktanteil mehr als verdoppeln. Zudem hat der bekannte Investor Michael Burry seine Anteile an dem Unternehmen aufgestockt. Während die internationale Expansion voranschreitet, berichten Yahoo Finance und Finanzen.net von anhaltenden Problemen im Inland, wo das Wachstum erste Risse zeigt. Analysten sind mehrheitlich optimistisch: Von den beobachteten Einschätzungen raten sechs zum starken Kauf und dreiundzwanzig zum Kauf, während vier Analysten die Aktie halten wollen; Verkaufsempfehlungen gibt es derzeit keine. Das durchschnittliche Kursziel liegt bei vierzehn Dollar, was einem Aufwärtspotenzial von dreiundfünfzig Komma neun Prozent entspricht. Die Firma Piper Sandler & Co. bewertet die Aktie aktuell neutral. Operativ profitiert BYD von der Vorbereitung auf EU-Exporte und der geplanten lokalen Produktion des Modells Sealion sechs durch HUBCO ab Dezember.",
+   "dur": 78.5,
+   "at": "2026-11-04T04:16:13Z"
   },
   "SHL.DE": {
    "file": "SHL.DE.mp3",
@@ -511,10 +513,10 @@
    "at": "2026-11-03T19:33:49Z"
   }
  },
- "status": "ok",
- "checked_at": "2026-11-04T03:10:33Z",
- "quota_until": 1793759270.4541786,
- "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@19e037db8d61d9f09098e4f5cacee8f18a7c2c85/data/audio/",
+ "status": "quota: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usa",
+ "checked_at": "2026-11-04T04:16:13Z",
+ "quota_until": 1793769368.0794232,
+ "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@9afbb8013a0d9556cd27ff5a3c16e8dc4de3c00b/data/audio/",
  "extra": {
   "intro": {
    "file": "_intro.mp3",
