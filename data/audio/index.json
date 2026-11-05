@@ -209,15 +209,16 @@
   },
   "WNRG.SW": {
    "file": "WNRG.SW.mp3",
-   "hash": "efbdcb6cffa32841",
-   "th": "218732374519d91f",
-   "id": "4311d22e85",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
+   "hash": "7e71ebe66583cf77",
+   "th": "7ad6373646ffa7a8",
+   "engine": "gemini",
+   "id": "a9d28a996f",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
    "br": 24,
-   "text": "Yahoo! Finance Canada, ein Finanzportal, das Meldungen und Analystenbewertungen bündelt, berichtet über den iShares MSCI World Energy Sector Advanced UCITS ETF USD Inc und den Xtrackers MSCI World Energy UCITS ETF sowie deren saisonale Renditediagramme. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Es liegen aktuell keine Analysten-Bewertungen vor. Die Meldungen beschränken sich auf die Bereitstellung von saisonalen Renditediagrammen und Übersichten über entsprechende Energie-Fonds auf dem Finanzportal Yahoo! Finance Canada. Es wurden keine spezifischen Kennzahlen genannt. Es wurden keine Insider-Käufe oder -Verkäufe gemeldet. Es liegen keine Aussagen von Chefs oder dem Management vor. Es gibt keine Widersprüche zwischen den Quellen.",
-   "dur": 59.4,
-   "at": "2026-11-04T20:38:34Z"
+   "text": "SPDR MSCI World Energy ETF: Im vorliegenden Ueberblick zeigt sich eine Meldung aus dem Finanzbereich, die das Geschehen praegt. Laut Yahoo! Finance Canada, einem Finanzportal, bündelt Meldungen und Analystenbewertungen, wird eine Titelbezeichnung zum iShares MSCI World Energy Sector Advanced UCITS ETF USD Inc. gemeldet. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Zurück zu SPDR MSCI World Energy ETF: Der aktuelle Aktienkurs liegt bei rund neunundsiebzig Dollar. Zu den Analysten-Bewertungen, Kennzahlen sowie Aussagen von Chefs oder Insider-Aktivitäten liegen derzeit keine weiteren Angaben vor. Keine Anlageberatung.",
+   "dur": 44.8,
+   "at": "2026-11-05T08:34:17Z"
   },
   "BE": {
    "file": "BE.mp3",
@@ -511,9 +512,9 @@
   }
  },
  "status": "ok",
- "checked_at": "2026-11-05T07:22:17Z",
+ "checked_at": "2026-11-05T08:34:17Z",
  "quota_until": 1793859674.3419778,
- "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@f9ec19a4bd089c1d8b14a5d072afc64346453d60/data/audio/",
+ "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@5379738be559ea9da1be0d4ee70e8eecb63c4068/data/audio/",
  "extra": {
   "intro": {
    "file": "_intro.mp3",

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T07:22:19Z",
+ "generated_at": "2026-11-05T08:34:20Z",
  "intro": "Willkommen beim Aktien-Radar, deinem Überblick über die neuesten Meldungen. Heute geht es um 39 Aktien aus deiner Liste. Alles stammt aus den gesammelten Meldungen und Analystendaten, nichts ist erfunden. Keine Anlageberatung.",
  "outro": "Das war der Aktien-Radar-Überblick. Die Quellen und Details findest du in der App bei jeder Aktie. Keine Anlageberatung.",
  "segments": [
@@ -266,14 +266,14 @@
   {
    "symbol": "WNRG.SW",
    "name": "SPDR MSCI World Energy ETF",
-   "text": "SPDR MSCI World Energy ETF: Yahoo! Finance Canada, ein Finanzportal, das Meldungen und Analystenbewertungen bündelt, berichtet über den iShares MSCI World Energy Sector Advanced UCITS ETF USD Inc und den Xtrackers MSCI World Energy UCITS ETF sowie deren saisonale Renditediagramme. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Es liegen aktuell keine Analysten-Bewertungen vor. Die Meldungen beschränken sich auf die Bereitstellung von saisonalen Renditediagrammen und Übersichten über entsprechende Energie-Fonds auf dem Finanzportal Yahoo! Finance Canada. Es wurden keine spezifischen Kennzahlen genannt. Es wurden keine Insider-Käufe oder -Verkäufe gemeldet. Es liegen keine Aussagen von Chefs oder dem Management vor. Es gibt keine Widersprüche zwischen den Quellen.",
-   "id": "4311d22e85",
-   "generated_at": "2026-11-04T20:17:07Z",
+   "text": "SPDR MSCI World Energy ETF: Im vorliegenden Ueberblick zeigt sich eine Meldung aus dem Finanzbereich, die das Geschehen praegt. Laut Yahoo! Finance Canada, einem Finanzportal, bündelt Meldungen und Analystenbewertungen, wird eine Titelbezeichnung zum iShares MSCI World Energy Sector Advanced UCITS ETF USD Inc. gemeldet. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Zurück zu SPDR MSCI World Energy ETF: Der aktuelle Aktienkurs liegt bei rund neunundsiebzig Dollar. Zu den Analysten-Bewertungen, Kennzahlen sowie Aussagen von Chefs oder Insider-Aktivitäten liegen derzeit keine weiteren Angaben vor. Keine Anlageberatung.",
+   "id": "a9d28a996f",
+   "generated_at": "2026-11-05T08:30:22Z",
    "audio": {
     "file": "WNRG.SW.mp3",
-    "hash": "efbdcb6cffa32841",
-    "dur": 59.4,
-    "engine": "edge"
+    "hash": "7e71ebe66583cf77",
+    "dur": 44.8,
+    "engine": "gemini"
    }
   },
   {
@@ -524,5 +524,5 @@
   "dur": 10.2,
   "engine": "edge"
  },
- "audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@f9ec19a4bd089c1d8b14a5d072afc64346453d60/data/audio/"
+ "audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@5379738be559ea9da1be0d4ee70e8eecb63c4068/data/audio/"
 }
