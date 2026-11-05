@@ -1,6 +1,200 @@
 {
 "episodes": [
 {
+"id": "2026-11-05-t",
+"kind": "tag",
+"date": "2026-11-05",
+"title": "Morgen-Sendung, Donnerstag, fünften November",
+"generated_at": "2026-11-05T05:26:50Z",
+"writer": "Vorlage aus den Daten",
+"chapters": [
+{
+"name": "Begrüssung",
+"say": "Guten Morgen und willkommen zur Sendung vom Aktien-Radar, heute Donnerstag, fünften November. Zuerst ein kurzer Blick auf den Markt, dann die Firmen aus deiner Liste mit neuen Meldungen zu Produkten, Partnern und Projekten, danach die Quartalszahlen dieser Woche und zum Schluss ein Begriff zum Lernen. Kurz vorweg: Alles stammt aus gesammelten Daten und Schlagzeilen, Beträge nenne ich in Dollar. Das ist keine Anlageberatung.",
+"audio": {
+"file": "sendung/2026-11-05-t_00.mp3",
+"hash": "81d9f2d8326fd576",
+"dur": 29.7
+}
+},
+{
+"name": "Markt kurz",
+"say": "Der Markt kurz. Der S und P fünfhundert, der Index der fünfhundert grossen US-Firmen, stand zuletzt bei plus eins Komma sechs Prozent gegenüber dem Vortag. In deiner Liste am stärksten: DroneShield Limited mit plus neun Komma fünf Prozent, Microsoft mit plus sechs Komma sieben Prozent, Amazon mit plus sechs Komma eins Prozent. Am schwächsten: GE Vernova mit minus neun Komma drei Prozent, Seagate Technology mit minus acht Komma eins Prozent. Zum Thema Wall Street meldet Reuters: Wall Street schliesst höher, nachdem die Demokraten den Kongress gewonnen haben; Datencenter-Aktien fallen. Zum Thema Zölle meldet Morningstar: Der Wahlsieg der Demokraten weckt Kanadas Hoffnungen auf eine Zollerleichterung in den USA.",
+"audio": {
+"file": "sendung/2026-11-05-t_01.mp3",
+"hash": "a451c8e1e5228537",
+"dur": 54.5
+}
+},
+{
+"name": "Microsoft",
+"sym": "MSFT",
+"say": "Zur Aktie von Microsoft. Yahoo Finance meldete am fünften November, dass der Aktienkurs von IREN fällt, da das Unternehmen laut einem Bericht für Verzögerungen bei den KI-Ausgaben von Microsoft verantwortlich sein soll, während sich Anleger verstärkt auf die Erträge konzentrieren. Seeking Alpha berichtete am vierten November, dass Microsoft um sieben Prozent stieg und ein neues zweiundfünfzig-Wochen-Hoch erreichte. Zudem bezifferte AIMG am vierten November den Markt für KI-Governance-Plattformen bis 2030 auf zwölf Komma fünf Milliarden Dollar, wobei Microsoft neben Databricks und Salesforce als einer der Marktführer genannt wird. Ob diese Meldungen Microsoft nachhaltig beeinflussen, lässt sich aus den Schlagzeilen allein nicht abschliessend beurteilen.",
+"audio": {
+"file": "sendung/2026-11-05-t_02.mp3",
+"hash": "6f1e0189892bb3cc",
+"dur": 54.0
+}
+},
+{
+"name": "Amazon",
+"sym": "AMZN",
+"say": "Zur Aktie von Amazon. The Globe and Mail berichtete am vierten November, dass CEO Andy Jassy positive Nachrichten für Investoren überbracht hat. Gleichzeitig meldete Yahoo Finance am selben Tag, dass Beschäftigte im Grossraum Toronto gemeinsam mit der Gewerkschaft Unifor für bessere Arbeitsbedingungen kämpfen. Zudem wurde thematisiert, dass die Amazon-Aktie nach der Veröffentlichung der Gewinne fiel, was bei Anlegern Fragen zur weiteren Entwicklung aufwirft. Ob diese Nachrichten die Aktie insgesamt stärken oder schwächen, lässt sich anhand der Schlagzeilen nicht sicher sagen.",
+"audio": {
+"file": "sendung/2026-11-05-t_03.mp3",
+"hash": "0fd5f784741d3bd1",
+"dur": 41.1
+}
+},
+{
+"name": "Palantir",
+"sym": "PLTR",
+"say": "Zur Aktie von Palantir. Investing.com berichtete am fünften November über einen Aktienverkauf der Direktorin Lauren Friedman im Wert von zweihundertzweiundfünfzigtausendneunhunderteinundachtzig Dollar. Yahoo Finance meldete am vierten November, dass Palantir ein Wachstum von dreiundneunzig Prozent bei einer operativen Marge von zweiundsechzig Prozent verzeichnete, wobei die Nachfrage nach sogenannter KI-Souveränität im Fokus steht. Gleichzeitig fielen die Aktien um vier Komma vier Prozent, da die Prognosen einen weiteren sequenziellen Umsatzschritt von fünfzehn Prozent erfordern. Ob diese Meldungen Palantir stärken oder schwächen, lässt sich aus den Schlagzeilen allein nicht sicher sagen.",
+"audio": {
+"file": "sendung/2026-11-05-t_04.mp3",
+"hash": "7c5829a0c93e2869",
+"dur": 48.8
+}
+},
+{
+"name": "Meta",
+"sym": "META",
+"say": "Zur Aktie von Meta. Yahoo Finance berichtete am fünften November, dass der Verkauf von US-Anleihen durch Meta Aufträge im Wert von achtundfünfzig Milliarden Dollar einbrachte und das Unternehmen nun in Europa aktiv wird. Am selben Tag wurde gemeldet, dass der COO Javier Olivan Unternehmensaktien im Wert von neunhundertsiebenundsechzigtausendzweihundertsechsundachtzig Dollar verkaufte. Zudem gab es Berichte über die Rechenzentrumspolitik des Unternehmens. Ob diese Meldungen Meta stärken oder schwächen, lässt sich aus den Schlagzeilen allein nicht sicher sagen.",
+"audio": {
+"file": "sendung/2026-11-05-t_05.mp3",
+"hash": "1b0fc82eb059f960",
+"dur": 40.8
+}
+},
+{
+"name": "Arm",
+"sym": "ARM",
+"say": "Zur Aktie von Arm. CNBC TV18 meldete am fünften November, dass die Aktien von Arm Holdings um über fünf Prozent fielen, da die Umsatzprognose für KI-Rechenzentren die Erwartungen kaum übertraf. Investor's Business Daily berichtete am vierten November, dass Arm zwar die vierteljährlichen Ziele beim Rechenzentrumsgeschäft übertraf, der Aktienkurs dennoch nachgab. Der Arm Newsroom gab am vierten November ein Rekordergebnis für das zweite Quartal mit einem Gesamtumsatz von eins Komma vier Milliarden Dollar bekannt. Ob diese Meldungen Arm stärken oder schwächen, lässt sich aus den Schlagzeilen allein nicht sicher sagen.",
+"audio": {
+"file": "sendung/2026-11-05-t_06.mp3",
+"hash": "29edcfb93a0d8ebc",
+"dur": 45.3
+}
+},
+{
+"name": "UBS",
+"sym": "UBSG.SW",
+"say": "Zur Aktie von UBS. Cash berichtete am fünften November, dass die Aktie nach einem Kurssprung und Spekulationen um einen Deal mit Morgan Stanley im Fokus der Investoren steht. Yahoo Finance warnte am vierten November, dass steigende Hypothekenzinsen die Erholung der britischen Hausbaubranche gefährden könnten. Zudem meldete marketscreener.com am vierten November, dass der Schweizer Gesetzgeber Berichten zufolge versucht, die zusätzlichen Kapitalanforderungen für die UBS-Gruppe zu mildern. Ob diese Meldungen UBS stärken oder schwächen, lässt sich aus den Schlagzeilen allein nicht sicher sagen.",
+"audio": {
+"file": "sendung/2026-11-05-t_07.mp3",
+"hash": "f1c996d2265f2991",
+"dur": 42.4
+}
+},
+{
+"name": "Intel",
+"sym": "INTC",
+"say": "Kommen wir zur Aktie von Intel. Am vierten November gab es unterschiedliche Nachrichten zum Unternehmen. Während Intel das stärkste Wachstum im Bereich der Rechenzentren seit fünfzehn Jahren verzeichnete und damit Hoffnungen auf ein Comeback weckte, trat der Konzern zudem dem Semiconductor Pathways Fund bei, um die Ausbildung von Ingenieuren in den USA zu fördern. Gleichzeitig zeigt sich ein Insider-Effekt: Der CEO Lip Bu Tan hat Intel-Aktien im Wert von neun Komma sieben Millionen Dollar erworben. Trotz dieser operativen Fortschritte notiert die Aktie aktuell mit einem Minus von drei Komma acht Prozent bei achtundfünfzig Komma zwei sieben Dollar. Ob diese Entwicklungen das Unternehmen langfristig stützen, bleibt abzuwarten.",
+"audio": {
+"file": "sendung/2026-11-05-t_08.mp3",
+"hash": "c7e73b144a70c119",
+"dur": 51.1
+}
+},
+{
+"name": "Nvidia",
+"sym": "NVDA",
+"say": "Blicken wir auf Nvidia. Das Unternehmen steht aktuell im Fokus von Berichten über ein mögliches hartes Durchgreifen der Demokraten gegen KI-Rechenzentren. Trotz dieser regulatorischen Unsicherheiten und einer Thematik um ein Durchgreifen im Rechenzentrumsbereich diskutieren Berichte, warum die Aktie solchen Belastungen standhalten könnte. Zudem wird betont, dass Investoren im Bereich der künstlichen Intelligenz weiterhin auf Nvidia und entsprechende Anwendungsaktien setzen könnten. Die Aktie notiert derzeit bei zweihundert Dollar, was einem Rückgang von drei Komma zwei Prozent entspricht.",
+"audio": {
+"file": "sendung/2026-11-05-t_09.mp3",
+"hash": "4281f2cefe550abb",
+"dur": 41.6
+}
+},
+{
+"name": "Quartalszahlen diese Woche",
+"say": "Quartalszahlen diese Woche. Diese Firmen aus deiner Liste melden ihre Quartalszahlen. Zur Aktie Oklo: Zahlen Freitag, am sechsten November. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von minus null Dollar und sechsundzwanzig Cent. Beim Umsatz erwarten sie rund eins Komma eins Millionen Dollar. Zur Aktie Berkshire Hathaway: Zahlen Samstag, am siebten November. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von sechs Dollar und vierzehn Cent.",
+"audio": {
+"file": "sendung/2026-11-05-t_10.mp3",
+"hash": "787ab959311529eb",
+"dur": 36.9
+}
+},
+{
+"name": "Begriff: Gewinn je Aktie",
+"say": "Zum Lernen, der Begriff des Tages: Gewinn je Aktie. Der Gewinn je Aktie, auf Englisch E P S, ist der Gewinn der Firma geteilt durch die Zahl ihrer Aktien. Bei Quartalszahlen vergleicht man ihn mit der Erwartung der Analysten. Liegt er darüber, ist das eine positive Überraschung.",
+"audio": {
+"file": "sendung/2026-11-05-t_11.mp3",
+"hash": "98360e3703db646f",
+"dur": 20.4
+}
+},
+{
+"name": "Schluss",
+"say": "Das war die Sendung vom Aktien-Radar. Die Quellen findest du in der App bei jeder Aktie, den ganzen Text über den Knopf Als Text. Bis morgen.",
+"audio": {
+"file": "sendung/2026-11-05-t_12.mp3",
+"hash": "cc4bc23e3e69d9dd",
+"dur": 11.5
+}
+}
+],
+"dur": 518.1,
+"full": {
+"file": "sendung/2026-11-05-t_full.mp3",
+"dur": 518.2,
+"marks": [
+[
+0,
+0.0
+],
+[
+1,
+29.7
+],
+[
+2,
+84.2
+],
+[
+3,
+138.2
+],
+[
+4,
+179.3
+],
+[
+5,
+228.1
+],
+[
+6,
+268.9
+],
+[
+7,
+314.2
+],
+[
+8,
+356.6
+],
+[
+9,
+407.7
+],
+[
+10,
+449.3
+],
+[
+11,
+486.2
+],
+[
+12,
+506.6
+]
+]
+}
+},
+{
 "id": "2026-11-04-t",
 "kind": "tag",
 "date": "2026-11-04",
@@ -1676,8 +1870,8 @@
 "dur": 729.9
 }
 ],
-"generated_at": "2026-11-04T05:26:15Z",
+"generated_at": "2026-11-05T05:26:50Z",
 "voice": "de-CH-LeniNeural",
 "source": "Yahoo Finance, SEC EDGAR, Schlagzeilen (Google News u.a.); Text: Gemini Gratis-Kontingent oder Vorlage",
-"audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@fec0ce8f5cd0c60241efccb3e19f62005dd0b54d/data/audio/"
+"audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@cde53884fa333352ea252b8069a5b5d0896a7dd3/data/audio/"
 }

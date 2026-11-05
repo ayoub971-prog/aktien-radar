@@ -512,7 +512,7 @@
  "status": "quota: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usa",
  "checked_at": "2026-11-05T05:21:23Z",
  "quota_until": 1793859674.3419778,
- "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@90747bc3ebca58cc94cff9151eaea0578b4f8cfc/data/audio/",
+ "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@cde53884fa333352ea252b8069a5b5d0896a7dd3/data/audio/",
  "extra": {
   "intro": {
    "file": "_intro.mp3",
