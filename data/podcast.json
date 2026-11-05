@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T19:01:04Z",
+ "generated_at": "2026-11-05T19:57:54Z",
  "intro": "Willkommen beim Aktien-Radar, deinem Überblick über die neuesten Meldungen. Heute geht es um 39 Aktien aus deiner Liste. Alles stammt aus den gesammelten Meldungen und Analystendaten, nichts ist erfunden. Keine Anlageberatung.",
  "outro": "Das war der Aktien-Radar-Überblick. Die Quellen und Details findest du in der App bei jeder Aktie. Keine Anlageberatung.",
  "segments": [
@@ -422,13 +422,13 @@
   {
    "symbol": "UBSG.SW",
    "name": "UBS Group",
-   "text": "UBS Group steht aktuell im Fokus verschiedener Medienberichte. Laut finanzen.ch zeichnet sich ein Kompromiss im Streit um Milliarden an Eigenkapital ab, was für die Aktie wichtig sein kann. Zudem berichtet Forbes Middle East, dass die Börse in Abu Dhabi die Bank als neues Mitglied aufgenommen hat, da ausländische Investoren dort einen grossen Teil des Handels ausmachen. Auf der anderen Seite meldet Yahoo Finance, dass die Bank in London rund zweihundert Arbeitsplätze streicht. Zurück zu UBS Group: Bei den Analystenbewertungen zeigt sich ein gemischtes Bild. Das Konsensurteil basierend auf siebzehn Analysten nennt ein durchschnittliches Kursziel von vierundfünfzig Komma neun drei Dollar bei einem Aufwärtspotenzial von zwölf Komma sechs Prozent. Das höchste Kursziel liegt bei dreiundsiebzig Komma drei sechs Dollar, während das niedrigste Kursziel einundvierzig Komma fünf sechs Dollar beträgt. Laut MarketScreener Schweiz hat Zacks die Aktie von Outperform auf Neutral herabgestuft und das Kursziel auf einundfünfzig Dollar gesenkt. UBS Group baut somit Stellen ab, treibt aber gleichzeitig ihre Einbindung in internationale Handelsplätze wie Abu Dhabi voran und verzeichnet Berichte über mögliche Fortschritte im Streit um Eigenkapital.",
-   "id": "4fe7a3b405",
-   "generated_at": "2026-11-05T17:11:37Z",
+   "text": "UBS Group zeigt in den aktuellen Berichten verschiedene Entwicklungen. Laut dem Schweizer Finanzportal Cash zeichnet sich ein Kompromiss im Streit um Milliarden an Eigenkapital ab, was die Aktie in den Investorenfokus rueckt. Gleichzeitig berichtet Yahoo Finance, dass UBS Group rund zweihundert Arbeitsplaetze in London streicht. Bei den Analystenbewertungen stuft Zacks die Aktie von Outperform auf Neutral herab und senkt das Kursziel von fünfundfünfzig Dollar auf einundfünfzig Dollar. Das durchschnittliche Kursziel der Analysten liegt bei vierundfünfzig Komma neun drei Dollar, wobei das Kurspotenzial mit zwölf Komma sechs Prozent beziffert wird. Die Firma agiert in einem spannenden Marktumfeld, in dem laut finanzen.ch ein Kompromiss im Eigenkapitalstreit aufwertend wirkt, waehrend der Stellenabbau in London ebenfalls beobachtet wird.",
+   "id": "3e2a981d38",
+   "generated_at": "2026-11-05T19:53:19Z",
    "audio": {
     "file": "UBSG.SW.mp3",
-    "hash": "d52345f40515e1de",
-    "dur": 74.3,
+    "hash": "73df3cf328bc745e",
+    "dur": 50.4,
     "engine": "gemini"
    }
   },
@@ -524,5 +524,5 @@
   "dur": 10.2,
   "engine": "edge"
  },
- "audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@3ba21abf899fbb0576201f1675830e09fe746f95/data/audio/"
+ "audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@5847f1850ad3f851eabeb01783c7962daeca0a53/data/audio/"
 }
