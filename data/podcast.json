@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T06:06:54Z",
+ "generated_at": "2026-11-05T07:22:19Z",
  "intro": "Willkommen beim Aktien-Radar, deinem Überblick über die neuesten Meldungen. Heute geht es um 39 Aktien aus deiner Liste. Alles stammt aus den gesammelten Meldungen und Analystendaten, nichts ist erfunden. Keine Anlageberatung.",
  "outro": "Das war der Aktien-Radar-Überblick. Die Quellen und Details findest du in der App bei jeder Aktie. Keine Anlageberatung.",
  "segments": [
@@ -305,14 +305,14 @@
   {
    "symbol": "SMEGF",
    "name": "Siemens Energy",
-   "text": "Siemens Energy stand zuletzt im Fokus verschiedener Medienberichte, die überwiegend von Kursverlusten und einem schwierigen Handelsstart berichteten. Laut der deutschen Tageszeitung WELT gab das Unternehmen in den letzten Handelstagen mehrfach nach und verzeichnete rote Vorzeichen. Auch BorzenNEWS.de meldete einen starken Abwärtssog der Aktie vor anstehenden Zahlen. In den vorliegenden Meldungen wurden keine rechtlichen Probleme gefunden. Bei den Analystenbewertungen gibt es positive Stimmen. Laut dem Finanzportal Marketscreener hält die Bank of America die Aktie von Siemens Energy auf Kaufen, gestützt auf positive Rückschlüsse für das Netzgeschäft aus dem Branchenumfeld. Zurück zu Siemens Energy: Was macht die Firma gerade? Laut Stockhouse steht das Unternehmen im Rampenlicht, da Künstliche Intelligenz neben Chips vor allem Strom benötigt. Demgegenüber steht die Aktie laut BorzenNEWS.de vor den Zahlen in einem Abwärtssog. Als wichtige Kennzahl wurde genannt, dass der Nettogewinn von Siemens Energy India im dritten Quartal des Geschäftsjahres 2026 um siebenundsechzig Komma acht Prozent gestiegen ist, was die Profitabilität des indischen Geschäftsbereichs unterstreicht. Insider-Käufe oder -Verkäufe wurden in den aktuellen Meldungen nicht verzeichnet. Schliesslich blickt das Management nach vorne: Der Chef von Siemens Energy geht laut EnergyNow.com davon aus, dass der Boom bei Rechenzentren aufgrund des hohen Strombedarfs anhalten wird. Keine Anlageempfehlung.",
-   "id": "a43fed4c58",
-   "generated_at": "2026-11-04T21:14:02Z",
+   "text": "Siemens Energy steht derzeit unter Beobachtung, da die Aktie in den vergangenen Tagen wiederholt Kursrückgänge und Verluste im Handel verzeichnete. Trotz dieser Entwicklung bleibt die Bank of America bei ihrer Kaufempfehlung, da sie aufgrund positiver Peer-Analysen weiterhin Potenzial im Netzgeschäft sieht. Ein wesentlicher Treiber für das Unternehmen bleibt der anhaltende Boom bei Rechenzentren, da der enorme Strombedarf für Künstliche Intelligenz die Nachfrage nach Energieinfrastruktur stützt. Dies unterstrich auch der Vorstandschef, der von einer langfristig hohen Nachfrage ausgeht. Ein positiver Lichtblick kommt zudem aus Indien: Der Nettogewinn von Siemens Energy India konnte im dritten Quartal des Geschäftsjahres 2026 um siebenundsechzig Komma acht Prozent gesteigert werden, was die Profitabilität des Konzerns unterstreicht. Vor den anstehenden Zahlen zeigten sich Investoren jedoch teilweise verunsichert, was zu einem Abwärtssog führte. Bitte beachten Sie, dass dies keine Anlageberatung darstellt.",
+   "id": "5243ba01f0",
+   "generated_at": "2026-11-05T07:14:48Z",
    "audio": {
     "file": "SMEGF.mp3",
-    "hash": "0dee06b1d51c4557",
-    "dur": 105.2,
-    "engine": "edge"
+    "hash": "65b492d7ee35bc90",
+    "dur": 62.2,
+    "engine": "gemini"
    }
   },
   {
@@ -524,5 +524,5 @@
   "dur": 10.2,
   "engine": "edge"
  },
- "audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@f17ac8d8c8f193dacfcec6b36c95fa97f7579a99/data/audio/"
+ "audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@f9ec19a4bd089c1d8b14a5d072afc64346453d60/data/audio/"
 }
