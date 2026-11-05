@@ -1,5 +1,5 @@
 {
-"generated_at": "2026-11-04T22:18:06Z",
+"generated_at": "2026-11-05T13:46:34Z",
 "universe": 520,
 "ai_model": "gemini-3.5-flash-lite",
 "sources": [
@@ -34,16 +34,16 @@
 {
 "symbol": "005930.KS",
 "name": "Samsung Electronics Co., Ltd.",
-"price_usd": 162.86,
+"price_usd": 150.53,
 "mine": true,
-"metric": "+119,6 % bis Kursziel",
+"metric": "+137,6 % bis Kursziel",
 "reason": "Ø Kursziel von 35 Analysten: 357.67 USD. ",
 "d": {
-"upside": 119.6,
+"upside": 137.6,
 "target_usd": 357.67,
 "analysts": 35,
-"m1": -19.9,
-"m3": -5.4,
+"m1": -25.9,
+"m3": -12.8,
 "earn": {
 "t": 1793167200,
 "act": 11462.0,
@@ -53,11 +53,11 @@
 "fx": 0.0007470603176500471
 }
 },
-"say": "Zur Aktie Samsung Electronics. Samsung Electronics kostet im Moment einhundertdreiundsechzig Dollar. Das durchschnittliche Kursziel von fünfunddreissig Analysten für Samsung Electronics liegt bei dreihundertachtundfünfzig Dollar. Bis dahin wären es plus einhundertneunzehn Komma sechs Prozent. Der Kurs von Samsung Electronics veränderte sich im letzten Monat um minus neunzehn Komma neun Prozent und in drei Monaten um minus fünf Komma vier Prozent. Samsung Electronics ist schon auf deiner Liste. Das war die Aktie Samsung Electronics.",
+"say": "Zur Aktie Samsung Electronics. Samsung Electronics kostet im Moment einhundertfünfzig Dollar und dreiundfünfzig Cent. Das durchschnittliche Kursziel von fünfunddreissig Analysten für Samsung Electronics liegt bei dreihundertsiebenundfünfzig Dollar und siebenundsechzig Cent. Bis dahin wären es plus einhundertsiebenunddreissig Komma sechs Prozent. Der Kurs von Samsung Electronics veränderte sich im letzten Monat um minus fünfundzwanzig Komma neun Prozent und in drei Monaten um minus zwölf Komma acht Prozent. Samsung Electronics ist schon auf deiner Liste. Das war die Aktie Samsung Electronics.",
 "audio": {
 "file": "ent/potenzial_005930.KS.mp3",
-"hash": "46167cec9015358c",
-"dur": 41.5,
+"hash": "9874efa625ff9c82",
+"dur": 45.5,
 "engine": "edge"
 }
 },
@@ -125,7 +125,15 @@
 "target_usd": 387.8,
 "analysts": 25,
 "m1": -42.3,
-"m3": -48.5
+"m3": -48.5,
+"earn": {
+"t": 1793826000,
+"act": 2.09,
+"est": 1.9718,
+"sur": 6.0,
+"cur": "USD",
+"fx": 1.0
+}
 },
 "say": "Zur Aktie Coherent. Coherent kostet im Moment einhundertfünfundneunzig Dollar und neun Cent. Das durchschnittliche Kursziel von fünfundzwanzig Analysten für Coherent liegt bei dreihundertsiebenundachtzig Dollar und achtzig Cent. Bis dahin wären es plus achtundneunzig Komma acht Prozent. Der Kurs von Coherent veränderte sich im letzten Monat um minus zweiundvierzig Komma drei Prozent und in drei Monaten um minus achtundvierzig Komma fünf Prozent. Das war die Aktie Coherent.",
 "audio": {
@@ -535,7 +543,15 @@
 "target_usd": 448.43,
 "analysts": 31,
 "m1": -2.5,
-"m3": -21.6
+"m3": -21.6,
+"earn": {
+"t": 1793826000,
+"act": 4.3,
+"est": 4.03172,
+"sur": 6.7,
+"cur": "USD",
+"fx": 1.0
+}
 },
 "say": "Zur Aktie AppLovin. AppLovin kostet im Moment zweihunderteinundsiebzig Dollar und fünfundsiebzig Cent. Das durchschnittliche Kursziel von einunddreissig Analysten für AppLovin liegt bei vierhundertachtundvierzig Dollar und dreiundvierzig Cent. Bis dahin wären es plus fünfundsechzig Prozent. Der Kurs von AppLovin veränderte sich im letzten Monat um minus zwei Komma fünf Prozent und in drei Monaten um minus einundzwanzig Komma sechs Prozent. Das war die Aktie AppLovin.",
 "audio": {
@@ -691,7 +707,15 @@
 "target_usd": 154.68,
 "analysts": 21,
 "m1": -10.7,
-"m3": -27.6
+"m3": -27.6,
+"earn": {
+"t": 1793826000,
+"act": 2.58,
+"est": 2.52951,
+"sur": 2.0,
+"cur": "USD",
+"fx": 1.0
+}
 },
 "say": "Zur Aktie Albemarle. Albemarle kostet im Moment vierundneunzig Dollar und siebenundneunzig Cent. Das durchschnittliche Kursziel von einundzwanzig Analysten für Albemarle liegt bei einhundertvierundfünfzig Dollar und achtundsechzig Cent. Bis dahin wären es plus zweiundsechzig Komma neun Prozent. Der Kurs von Albemarle veränderte sich im letzten Monat um minus zehn Komma sieben Prozent und in drei Monaten um minus siebenundzwanzig Komma sechs Prozent. Das war die Aktie Albemarle.",
 "audio": {
@@ -784,28 +808,6 @@
 }
 },
 {
-"symbol": "FIS",
-"name": "Fidelity National Information Services, Inc.",
-"price_usd": 29.76,
-"mine": false,
-"metric": "+58,1 % bis Kursziel",
-"reason": "Ø Kursziel von 25 Analysten: 47.04 USD. ",
-"d": {
-"upside": 58.1,
-"target_usd": 47.04,
-"analysts": 25,
-"m1": -11.0,
-"m3": -30.4
-},
-"say": "Zur Aktie Fidelity National Information Services. Fidelity National Information Services kostet im Moment neunundzwanzig Dollar und sechsundsiebzig Cent. Das durchschnittliche Kursziel von fünfundzwanzig Analysten für Fidelity National Information Services liegt bei siebenundvierzig Dollar und vier Cent. Bis dahin wären es plus achtundfünfzig Komma eins Prozent. Der Kurs von Fidelity National Information Services veränderte sich im letzten Monat um minus elf Prozent und in drei Monaten um minus dreissig Komma vier Prozent. Das war die Aktie Fidelity National Information Services.",
-"audio": {
-"file": "ent/potenzial_FIS.mp3",
-"hash": "4f371512e49a0104",
-"dur": 46.2,
-"engine": "edge"
-}
-},
-{
 "symbol": "INTC",
 "name": "Intel Corporation",
 "price_usd": 58.27,
@@ -852,6 +854,36 @@
 "file": "ent/potenzial_INTC.mp3",
 "hash": "bcd0a5f0169246ca",
 "dur": 49.8,
+"engine": "edge"
+}
+},
+{
+"symbol": "GNRC",
+"name": "Generac Holdings Inc.",
+"price_usd": 189.32,
+"mine": false,
+"metric": "+52,8 % bis Kursziel",
+"reason": "Ø Kursziel von 18 Analysten: 289.22 USD. ",
+"d": {
+"upside": 52.8,
+"target_usd": 289.22,
+"analysts": 18,
+"m1": -15.3,
+"m3": -10.8,
+"earn": {
+"t": 1793190600,
+"act": 2.54,
+"est": 2.42828,
+"sur": 4.6,
+"cur": "USD",
+"fx": 1.0
+}
+},
+"say": "Zur Aktie Generac. Generac kostet im Moment einhundertneunundachtzig Dollar und zweiunddreissig Cent. Das durchschnittliche Kursziel von achtzehn Analysten für Generac liegt bei zweihundertneunundachtzig Dollar und zweiundzwanzig Cent. Bis dahin wären es plus zweiundfünfzig Komma acht Prozent. Der Kurs von Generac veränderte sich im letzten Monat um minus fünfzehn Komma drei Prozent und in drei Monaten um minus zehn Komma acht Prozent. Das war die Aktie Generac.",
+"audio": {
+"file": "ent/potenzial_GNRC.mp3",
+"hash": "a5bf98ddc7ad2cb6",
+"dur": 35.5,
 "engine": "edge"
 }
 }
@@ -1011,7 +1043,15 @@
 "target_usd": 201.0,
 "analysts": 15,
 "m1": 1.1,
-"m3": 32.1
+"m3": 32.1,
+"earn": {
+"t": 1793826000,
+"act": 2.03,
+"est": 1.96342,
+"sur": 3.4,
+"cur": "USD",
+"fx": 1.0
+}
 },
 "say": "Zur Aktie PTC. PTC kostet im Moment einhundertfünfundneunzig Dollar und achtzehn Cent. Der Kurs von PTC veränderte sich im letzten Monat um plus eins Komma eins Prozent und in drei Monaten um plus zweiunddreissig Komma eins Prozent. Zum Vergleich: Das durchschnittliche Kursziel der Analysten für PTC liegt bei zweihunderteins Dollar. Das war die Aktie PTC.",
 "audio": {
@@ -1369,7 +1409,15 @@
 "target_usd": 1026.07,
 "analysts": 14,
 "m1": 16.0,
-"m3": 23.0
+"m3": 23.0,
+"earn": {
+"t": 1793826000,
+"act": 11.68,
+"est": 10.75315,
+"sur": 8.6,
+"cur": "USD",
+"fx": 1.0
+}
 },
 "say": "Zur Aktie McKesson. McKesson kostet im Moment eintausendneunundsechzig Dollar und vierundvierzig Cent. Der Kurs von McKesson veränderte sich im letzten Monat um plus sechzehn Prozent und in drei Monaten um plus dreiundzwanzig Prozent. Zum Vergleich: Das durchschnittliche Kursziel der Analysten für McKesson liegt bei eintausendsechsundzwanzig Dollar und sieben Cent. Das war die Aktie McKesson.",
 "audio": {
@@ -1742,12 +1790,12 @@
 }
 },
 "beat": true,
-"ai": "EchoStar meldete am 03.11.2026 einen Gewinn je Aktie von 7.97 USD und übertraf damit die Erwartungen. Schlagzeilen erwähnen zudem mögliches Interesse von SpaceX an Boost Mobile.",
-"say": "Zur Aktie EchoStar. EchoStar kostet im Moment achtundneunzig Dollar und zweiundsechzig Cent. EchoStar hat am dritten November Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag über der Erwartung der Analysten: sieben Dollar und siebenundneunzig Cent statt erwartet null Dollar und vierundzwanzig Cent. Das ist eine Abweichung von plus dreitausendeinhundertachtundsiebzig Komma eins Prozent. Eine KI fasst die Schlagzeilen zu EchoStar so zusammen: EchoStar meldete am drei.elf.2026 einen Gewinn je Aktie von sieben Komma neun sieben Dollar und übertraf damit die Erwartungen. Schlagzeilen erwähnen zudem mögliches Interesse von SpaceX an Boost Mobile. Der Kurs von EchoStar veränderte sich im letzten Monat um minus eins Komma vier Prozent und in drei Monaten um plus neun Komma fünf Prozent. Das war die Aktie EchoStar.",
+"ai": "EchoStar meldete am 03.11.2026 einen Gewinn je Aktie von 7.97 USD und übertraf damit die Erwartungen. Berichten zufolge zeigt SpaceX Interesse an Boost Mobile.",
+"say": "Zur Aktie EchoStar. EchoStar kostet im Moment achtundneunzig Dollar und zweiundsechzig Cent. EchoStar hat am dritten November Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag über der Erwartung der Analysten: sieben Dollar und siebenundneunzig Cent statt erwartet null Dollar und vierundzwanzig Cent. Das ist eine Abweichung von plus dreitausendeinhundertachtundsiebzig Komma eins Prozent. Eine KI fasst die Schlagzeilen zu EchoStar so zusammen: EchoStar meldete am drei.elf.2026 einen Gewinn je Aktie von sieben Komma neun sieben Dollar und übertraf damit die Erwartungen. Berichten zufolge zeigt SpaceX Interesse an Boost Mobile. Der Kurs von EchoStar veränderte sich im letzten Monat um minus eins Komma vier Prozent und in drei Monaten um plus neun Komma fünf Prozent. Das war die Aktie EchoStar.",
 "audio": {
 "file": "ent/zahlen_ECHO.mp3",
-"hash": "eee3a268fd3c9135",
-"dur": 64.9,
+"hash": "389c9e28edb4f565",
+"dur": 63.8,
 "engine": "edge"
 }
 },
@@ -1782,12 +1830,12 @@
 }
 },
 "beat": true,
-"ai": "Coinbase erzielte am 29.10.2026 einen Gewinn je Aktie von 2.51 USD und lag damit über den Prognosen. Laut Berichten befindet sich der Grossteil der Kundengestze ausser Reichweite von Hackern.",
-"say": "Zur Aktie Coinbase Global. Coinbase Global kostet im Moment einhunderteinundfünfzig Dollar und fünfzig Cent. Coinbase Global hat am neunundzwanzigsten Oktober Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag über der Erwartung der Analysten: zwei Dollar und einundfünfzig Cent statt erwartet null Dollar und acht Cent. Das ist eine Abweichung von plus zweitausendneunhundertdreiundsiebzig Prozent. Eine KI fasst die Schlagzeilen zu Coinbase Global so zusammen: Coinbase erzielte am neunundzwanzig.zehn.2026 einen Gewinn je Aktie von zwei Komma fünf eins Dollar und lag damit über den Prognosen. Laut Berichten befindet sich der Grossteil der Kundengestze ausser Reichweite von Hackern. Der Kurs von Coinbase Global veränderte sich im letzten Monat um minus achtzehn Komma vier Prozent und in drei Monaten um minus eins Komma vier Prozent. Das war die Aktie Coinbase Global.",
+"ai": "Coinbase erzielte am 29.10.2026 einen Gewinn je Aktie von 2.51 USD und lag über den Prognosen. Das Unternehmen betont, dass 99% der Kundenkryptowährungen offline gespeichert sind.",
+"say": "Zur Aktie Coinbase Global. Coinbase Global kostet im Moment einhunderteinundfünfzig Dollar und fünfzig Cent. Coinbase Global hat am neunundzwanzigsten Oktober Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag über der Erwartung der Analysten: zwei Dollar und einundfünfzig Cent statt erwartet null Dollar und acht Cent. Das ist eine Abweichung von plus zweitausendneunhundertdreiundsiebzig Prozent. Eine KI fasst die Schlagzeilen zu Coinbase Global so zusammen: Coinbase erzielte am neunundzwanzig.zehn.2026 einen Gewinn je Aktie von zwei Komma fünf eins Dollar und lag über den Prognosen. Das Unternehmen betont, dass neunundneunzig Prozent der Kundenkryptowährungen offline gespeichert sind. Der Kurs von Coinbase Global veränderte sich im letzten Monat um minus achtzehn Komma vier Prozent und in drei Monaten um minus eins Komma vier Prozent. Das war die Aktie Coinbase Global.",
 "audio": {
 "file": "ent/zahlen_COIN.mp3",
-"hash": "e5cccf4357249d6e",
-"dur": 67.4,
+"hash": "e551f19785fb037b",
+"dur": 68.2,
 "engine": "edge"
 }
 },
@@ -1822,11 +1870,11 @@
 }
 },
 "beat": false,
-"ai": "Mosaic verzeichnete am 03.11.2026 einen Verlust je Aktie von -0.19 USD und blieb damit unter den Schätzungen. Als Gründe werden höhere Kosten und geringere Volumina genannt.",
-"say": "Zur Aktie The Mosaic. The Mosaic kostet im Moment einundzwanzig Dollar und zweiundsechzig Cent. The Mosaic hat am dritten November Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag unter der Erwartung der Analysten: null Dollar und minus neunzehn Cent statt erwartet null Dollar und minus zwei Cent. Das ist eine Abweichung von minus achthunderteins Komma acht Prozent. Eine KI fasst die Schlagzeilen zu The Mosaic so zusammen: Mosaic verzeichnete am drei.elf.2026 einen Verlust je Aktie von -null Komma eins neun Dollar und blieb damit unter den Schätzungen. Als Gründe werden höhere Kosten und geringere Volumina genannt. Der Kurs von The Mosaic veränderte sich im letzten Monat um plus drei Komma zwei Prozent und in drei Monaten um minus sechs Komma zwei Prozent. Das war die Aktie The Mosaic.",
+"ai": "Mosaic verzeichnete am 03.11.2026 einen Gewinn je Aktie von -0.19 USD und blieb damit unter den Erwartungen. Als Gründe wurden höhere Kosten und geringere Volumina genannt.",
+"say": "Zur Aktie The Mosaic. The Mosaic kostet im Moment einundzwanzig Dollar und zweiundsechzig Cent. The Mosaic hat am dritten November Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag unter der Erwartung der Analysten: null Dollar und minus neunzehn Cent statt erwartet null Dollar und minus zwei Cent. Das ist eine Abweichung von minus achthunderteins Komma acht Prozent. Eine KI fasst die Schlagzeilen zu The Mosaic so zusammen: Mosaic verzeichnete am drei.elf.2026 einen Gewinn je Aktie von -null Komma eins neun Dollar und blieb damit unter den Erwartungen. Als Gründe wurden höhere Kosten und geringere Volumina genannt. Der Kurs von The Mosaic veränderte sich im letzten Monat um plus drei Komma zwei Prozent und in drei Monaten um minus sechs Komma zwei Prozent. Das war die Aktie The Mosaic.",
 "audio": {
 "file": "ent/zahlen_MOS.mp3",
-"hash": "a0eb7658672de6a4",
+"hash": "f4bd55c4b30710dd",
 "dur": 63.6,
 "engine": "edge"
 }
@@ -1854,12 +1902,44 @@
 }
 },
 "beat": true,
-"ai": "Centene meldete am 27.10.2026 einen Gewinn je Aktie von 0.58 USD und übertraf die Erwartungen. Verbesserte Margen bei Medicare und im Marketplace stützten dabei den Ausblick.",
-"say": "Zur Aktie Centene. Centene kostet im Moment sechsundsiebzig Dollar und eins Cent. Centene hat am siebenundzwanzigsten Oktober Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag über der Erwartung der Analysten: null Dollar und achtundfünfzig Cent statt erwartet null Dollar und zehn Cent. Das ist eine Abweichung von plus vierhundertsechsundneunzig Komma sechs Prozent. Eine KI fasst die Schlagzeilen zu Centene so zusammen: Centene meldete am siebenundzwanzig.zehn.2026 einen Gewinn je Aktie von null Komma fünf acht Dollar und übertraf die Erwartungen. Verbesserte Margen bei Medicare und im Marketplace stützten dabei den Ausblick. Der Kurs von Centene veränderte sich im letzten Monat um plus siebzehn Komma sechs Prozent und in drei Monaten um plus fünfzehn Komma sechs Prozent. Das war die Aktie Centene.",
+"ai": "Centene meldete am 27.10.2026 einen Gewinn je Aktie von 0.58 USD und lag über den Markterwartungen. Die Aktie profitierte zudem von positiven Impulsen durch politische Reformen im Gesundheitssektor.",
+"say": "Zur Aktie Centene. Centene kostet im Moment sechsundsiebzig Dollar und eins Cent. Centene hat am siebenundzwanzigsten Oktober Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag über der Erwartung der Analysten: null Dollar und achtundfünfzig Cent statt erwartet null Dollar und zehn Cent. Das ist eine Abweichung von plus vierhundertsechsundneunzig Komma sechs Prozent. Eine KI fasst die Schlagzeilen zu Centene so zusammen: Centene meldete am siebenundzwanzig.zehn.2026 einen Gewinn je Aktie von null Komma fünf acht Dollar und lag über den Markterwartungen. Die Aktie profitierte zudem von positiven Impulsen durch politische Reformen im Gesundheitssektor. Der Kurs von Centene veränderte sich im letzten Monat um plus siebzehn Komma sechs Prozent und in drei Monaten um plus fünfzehn Komma sechs Prozent. Das war die Aktie Centene.",
 "audio": {
 "file": "ent/zahlen_CNC.mp3",
-"hash": "219220ad668fec8a",
-"dur": 63.4,
+"hash": "2b03de2520b62665",
+"dur": 65.1,
+"engine": "edge"
+}
+},
+{
+"symbol": "VMRK",
+"name": "AvalonBay Communities, Inc.",
+"price_usd": 63.72,
+"mine": false,
+"metric": "Gewinn -278,3 % vs. Erwartung",
+"reason": "Zahlen vom 04.11.2026: Gewinn je Aktie -0.35 USD, unter der Erwartung (0.20).",
+"d": {
+"upside": 12.4,
+"target_usd": 71.62,
+"analysts": 20,
+"m1": 5.5,
+"m3": -5.0,
+"earn": {
+"t": 1793826000,
+"act": -0.35,
+"est": 0.19627,
+"sur": -278.3,
+"cur": "USD",
+"fx": 1.0
+}
+},
+"beat": false,
+"ai": "AvalonBay Communities wies am 04.11.2026 einen Gewinn je Aktie von -0.35 USD aus und verfehlte damit die Prognosen. Gleichzeitig sorgte eine Fusion für ein erhöhtes Transaktionsvolumen.",
+"say": "Zur Aktie AvalonBay Communities. AvalonBay Communities kostet im Moment dreiundsechzig Dollar und zweiundsiebzig Cent. AvalonBay Communities hat am vierten November Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag unter der Erwartung der Analysten: null Dollar und minus fünfunddreissig Cent statt erwartet null Dollar und zwanzig Cent. Das ist eine Abweichung von minus zweihundertachtundsiebzig Komma drei Prozent. Eine KI fasst die Schlagzeilen zu AvalonBay Communities so zusammen: AvalonBay Communities wies am vier.elf.2026 einen Gewinn je Aktie von -null Komma drei fünf Dollar aus und verfehlte damit die Prognosen. Gleichzeitig sorgte eine Fusion für ein erhöhtes Transaktionsvolumen. Der Kurs von AvalonBay Communities veränderte sich im letzten Monat um plus fünf Komma fünf Prozent und in drei Monaten um minus fünf Prozent. Das war die Aktie AvalonBay Communities.",
+"audio": {
+"file": "ent/zahlen_VMRK.mp3",
+"hash": "40b5b285d1a13fbc",
+"dur": 69.6,
 "engine": "edge"
 }
 },
@@ -1886,12 +1966,12 @@
 }
 },
 "beat": false,
-"ai": "MGM Resorts verzeichnete am 28.10.2026 einen Gewinn je Aktie von -0.11 USD und verfehlte die Prognosen. Schwache Ergebnisse in Las Vegas wurden durch digitale Wachstums- und Margenerfolge abgefedert.",
-"say": "Zur Aktie MGM Resorts International. MGM Resorts International kostet im Moment zweiunddreissig Dollar und zweiundachtzig Cent. MGM Resorts International hat am achtundzwanzigsten Oktober Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag unter der Erwartung der Analysten: null Dollar und minus elf Cent statt erwartet null Dollar und acht Cent. Das ist eine Abweichung von minus zweihunderteinunddreissig Komma sieben Prozent. Eine KI fasst die Schlagzeilen zu MGM Resorts International so zusammen: MGM Resorts verzeichnete am achtundzwanzig.zehn.2026 einen Gewinn je Aktie von -null Komma eins eins Dollar und verfehlte die Prognosen. Schwache Ergebnisse in Las Vegas wurden durch digitale Wachstums- und Margenerfolge abgefedert. Der Kurs von MGM Resorts International veränderte sich im letzten Monat um plus sieben Komma fünf Prozent und in drei Monaten um minus sechsundzwanzig Komma zwei Prozent. Das war die Aktie MGM Resorts International.",
+"ai": "MGM Resorts verzeichnete am 28.10.2026 einen Gewinn je Aktie von -0.11 USD, womit die Schätzungen verfehlt wurden. Schwache Ergebnisse in Las Vegas belasteten das Quartal.",
+"say": "Zur Aktie MGM Resorts International. MGM Resorts International kostet im Moment zweiunddreissig Dollar und zweiundachtzig Cent. MGM Resorts International hat am achtundzwanzigsten Oktober Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag unter der Erwartung der Analysten: null Dollar und minus elf Cent statt erwartet null Dollar und acht Cent. Das ist eine Abweichung von minus zweihunderteinunddreissig Komma sieben Prozent. Eine KI fasst die Schlagzeilen zu MGM Resorts International so zusammen: MGM Resorts verzeichnete am achtundzwanzig.zehn.2026 einen Gewinn je Aktie von -null Komma eins eins Dollar, womit die Schätzungen verfehlt wurden. Schwache Ergebnisse in Las Vegas belasteten das Quartal. Der Kurs von MGM Resorts International veränderte sich im letzten Monat um plus sieben Komma fünf Prozent und in drei Monaten um minus sechsundzwanzig Komma zwei Prozent. Das war die Aktie MGM Resorts International.",
 "audio": {
 "file": "ent/zahlen_MGM.mp3",
-"hash": "086fbcaaa9aae91d",
-"dur": 77.2,
+"hash": "2d60a6da08a05798",
+"dur": 74.9,
 "engine": "edge"
 }
 },
@@ -1903,8 +1983,8 @@
 "metric": "Gewinn +132,2 % vs. Erwartung",
 "reason": "Zahlen vom 03.11.2026: Gewinn je Aktie 1.76 EUR, über der Erwartung (0.76).",
 "d": {
-"upside": 28.6,
-"target_usd": 116.63,
+"upside": 28.5,
+"target_usd": 116.51,
 "analysts": 20,
 "m1": -5.3,
 "m3": -3.2,
@@ -1918,12 +1998,12 @@
 }
 },
 "beat": true,
-"ai": "BioNTech wies am 03.11.2026 einen Gewinn je Aktie von 1.76 EUR aus und übertraf die Erwartungen. Zudem startete das Unternehmen die erste globale Phase-3-Studie für eine neue Brustkrebs-Kombinationstherapie.",
-"say": "Zur Aktie BioNTech. BioNTech kostet im Moment neunzig Dollar und siebzig Cent. BioNTech hat am dritten November Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag über der Erwartung der Analysten. Das ist eine Abweichung von plus einhundertzweiunddreissig Komma zwei Prozent. Eine KI fasst die Schlagzeilen zu BioNTech so zusammen: BioNTech wies am drei.elf.2026 einen Gewinn je Aktie von rund eins Komma neun acht Dollar aus und übertraf die Erwartungen. Zudem startete das Unternehmen die erste globale Phase-drei-Studie für eine neue Brustkrebs-Kombinationstherapie. Der Kurs von BioNTech veränderte sich im letzten Monat um minus fünf Komma drei Prozent und in drei Monaten um minus drei Komma zwei Prozent. BioNTech ist schon auf deiner Liste. Das war die Aktie BioNTech.",
+"ai": "BioNTech meldete am 03.11.2026 einen Gewinn je Aktie von 1.76 EUR und übertraf die Erwartungen. Zudem startete das Unternehmen seine erste globale Phase-3-Studie für eine neue Brustkrebs-Kombinationstherapie.",
+"say": "Zur Aktie BioNTech. BioNTech kostet im Moment neunzig Dollar und siebzig Cent. BioNTech hat am dritten November Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag über der Erwartung der Analysten. Das ist eine Abweichung von plus einhundertzweiunddreissig Komma zwei Prozent. Eine KI fasst die Schlagzeilen zu BioNTech so zusammen: BioNTech meldete am drei.elf.2026 einen Gewinn je Aktie von rund eins Komma neun acht Dollar und übertraf die Erwartungen. Zudem startete das Unternehmen seine erste globale Phase-drei-Studie für eine neue Brustkrebs-Kombinationstherapie. Der Kurs von BioNTech veränderte sich im letzten Monat um minus fünf Komma drei Prozent und in drei Monaten um minus drei Komma zwei Prozent. BioNTech ist schon auf deiner Liste. Das war die Aktie BioNTech.",
 "audio": {
 "file": "ent/zahlen_BNTX.mp3",
-"hash": "04f13664eb7ca931",
-"dur": 62.4,
+"hash": "b6b4b58bedd99248",
+"dur": 62.7,
 "engine": "edge"
 }
 },
@@ -1950,12 +2030,12 @@
 }
 },
 "beat": true,
-"ai": "Weyerhaeuser meldete am 29.10.2026 einen Gewinn je Aktie von 0.08 USD und übertraf die Erwartungen. Der anhaltend schwache Wohnungsmarkt lastet jedoch auf dem Holzgeschäft, während ein neues Aktienrückkaufprogramm angekündigt wurde.",
-"say": "Zur Aktie Weyerhaeuser. Weyerhaeuser kostet im Moment einundzwanzig Dollar und fünfundsiebzig Cent. Weyerhaeuser hat am neunundzwanzigsten Oktober Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag über der Erwartung der Analysten: null Dollar und acht Cent statt erwartet null Dollar und vier Cent. Das ist eine Abweichung von plus einhundertachtundzwanzig Komma drei Prozent. Eine KI fasst die Schlagzeilen zu Weyerhaeuser so zusammen: Weyerhaeuser meldete am neunundzwanzig.zehn.2026 einen Gewinn je Aktie von null Komma null acht Dollar und übertraf die Erwartungen. Der anhaltend schwache Wohnungsmarkt lastet jedoch auf dem Holzgeschäft, während ein neues Aktienrückkaufprogramm angekündigt wurde. Der Kurs von Weyerhaeuser veränderte sich im letzten Monat um plus sechzehn Komma neun Prozent und in drei Monaten um minus fünfzehn Prozent. Das war die Aktie Weyerhaeuser.",
+"ai": "Weyerhaeuser erzielte am 29.10.2026 einen Gewinn je Aktie von 0.08 USD und übertraf die Prognosen. Das Unternehmen kündigte zudem einen neuen Aktienrückkaufplan an.",
+"say": "Zur Aktie Weyerhaeuser. Weyerhaeuser kostet im Moment einundzwanzig Dollar und fünfundsiebzig Cent. Weyerhaeuser hat am neunundzwanzigsten Oktober Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag über der Erwartung der Analysten: null Dollar und acht Cent statt erwartet null Dollar und vier Cent. Das ist eine Abweichung von plus einhundertachtundzwanzig Komma drei Prozent. Eine KI fasst die Schlagzeilen zu Weyerhaeuser so zusammen: Weyerhaeuser erzielte am neunundzwanzig.zehn.2026 einen Gewinn je Aktie von null Komma null acht Dollar und übertraf die Prognosen. Das Unternehmen kündigte zudem einen neuen Aktienrückkaufplan an. Der Kurs von Weyerhaeuser veränderte sich im letzten Monat um plus sechzehn Komma neun Prozent und in drei Monaten um minus fünfzehn Prozent. Das war die Aktie Weyerhaeuser.",
 "audio": {
 "file": "ent/zahlen_WY.mp3",
-"hash": "0ec1fe9d12dc0268",
-"dur": 67.2,
+"hash": "5f8629bf87bb5abf",
+"dur": 63.5,
 "engine": "edge"
 }
 },
@@ -1982,12 +2062,12 @@
 }
 },
 "beat": false,
-"ai": "Uber verzeichnete am 04.11.2026 einen Gewinn je Aktie von 0.25 USD und blieb damit unter den Erwartungen. Das Unternehmen treibt seinen Robotaxi-Vorstoss in Richtung kommerzieller Umsetzung voran.",
-"say": "Zur Aktie Uber Technologies. Uber Technologies kostet im Moment neunundsechzig Dollar und siebenundachtzig Cent. Uber Technologies hat am vierten November Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag unter der Erwartung der Analysten: null Dollar und fünfundzwanzig Cent statt erwartet null Dollar und neunzig Cent. Das ist eine Abweichung von minus zweiundsiebzig Komma drei Prozent. Eine KI fasst die Schlagzeilen zu Uber Technologies so zusammen: Uber verzeichnete am vier.elf.2026 einen Gewinn je Aktie von null Komma zwei fünf Dollar und blieb damit unter den Erwartungen. Das Unternehmen treibt seinen Robotaxi-Vorstoss in Richtung kommerzieller Umsetzung voran. Der Kurs von Uber Technologies veränderte sich im letzten Monat um plus eins Komma eins Prozent und in drei Monaten um minus sechs Komma neun Prozent. Das war die Aktie Uber Technologies.",
+"ai": "Uber Technologies wies am 04.11.2026 einen Gewinn je Aktie von 0.25 USD aus und lag unter den Erwartungen. Eine neue Partnerschaft bringt Restaurantlieferungen für Amazon Prime Mitglieder.",
+"say": "Zur Aktie Uber Technologies. Uber Technologies kostet im Moment neunundsechzig Dollar und siebenundachtzig Cent. Uber Technologies hat am vierten November Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag unter der Erwartung der Analysten: null Dollar und fünfundzwanzig Cent statt erwartet null Dollar und neunzig Cent. Das ist eine Abweichung von minus zweiundsiebzig Komma drei Prozent. Eine KI fasst die Schlagzeilen zu Uber Technologies so zusammen: Uber Technologies wies am vier.elf.2026 einen Gewinn je Aktie von null Komma zwei fünf Dollar aus und lag unter den Erwartungen. Eine neue Partnerschaft bringt Restaurantlieferungen für Amazon Prime Mitglieder. Der Kurs von Uber Technologies veränderte sich im letzten Monat um plus eins Komma eins Prozent und in drei Monaten um minus sechs Komma neun Prozent. Das war die Aktie Uber Technologies.",
 "audio": {
 "file": "ent/zahlen_UBER.mp3",
-"hash": "3a79a30b048b85f5",
-"dur": 66.5,
+"hash": "6b14b93a622d468c",
+"dur": 66.0,
 "engine": "edge"
 }
 },
@@ -2014,12 +2094,12 @@
 }
 },
 "beat": false,
-"ai": "Boeing meldete am 27.10.2026 einen Verlust je Aktie von -0.34 USD, womit die Erwartungen verfehlt wurden. Berichte verweisen unter anderem auf die weltweite Nachfrage nach treibstoffeffizienten Flugzeugen.",
-"say": "Zur Aktie The Boeing. The Boeing kostet im Moment einhundertsiebenundsiebzig Dollar. The Boeing hat am siebenundzwanzigsten Oktober Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag unter der Erwartung der Analysten: null Dollar und minus vierunddreissig Cent statt erwartet null Dollar und minus zwanzig Cent. Das ist eine Abweichung von minus neunundsechzig Komma zwei Prozent. Eine KI fasst die Schlagzeilen zu The Boeing so zusammen: Boeing meldete am siebenundzwanzig.zehn.2026 einen Verlust je Aktie von -null Komma drei vier Dollar, womit die Erwartungen verfehlt wurden. Berichte verweisen unter anderem auf die weltweite Nachfrage nach treibstoffeffizienten Flugzeugen. Der Kurs von The Boeing veränderte sich im letzten Monat um minus sechs Komma acht Prozent und in drei Monaten um minus vierundzwanzig Komma fünf Prozent. Das war die Aktie The Boeing.",
+"ai": "Boeing verzeichnete am 27.10.2026 einen Gewinn je Aktie von -0.34 USD und blieb unter den Prognosen. Berichte wiesen auf stockende Fabrikaktivitäten hin.",
+"say": "Zur Aktie The Boeing. The Boeing kostet im Moment einhundertsiebenundsiebzig Dollar. The Boeing hat am siebenundzwanzigsten Oktober Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag unter der Erwartung der Analysten: null Dollar und minus vierunddreissig Cent statt erwartet null Dollar und minus zwanzig Cent. Das ist eine Abweichung von minus neunundsechzig Komma zwei Prozent. Eine KI fasst die Schlagzeilen zu The Boeing so zusammen: Boeing verzeichnete am siebenundzwanzig.zehn.2026 einen Gewinn je Aktie von -null Komma drei vier Dollar und blieb unter den Prognosen. Berichte wiesen auf stockende Fabrikaktivitäten hin. Der Kurs von The Boeing veränderte sich im letzten Monat um minus sechs Komma acht Prozent und in drei Monaten um minus vierundzwanzig Komma fünf Prozent. Das war die Aktie The Boeing.",
 "audio": {
 "file": "ent/zahlen_BA.mp3",
-"hash": "ff8e81b35dab5790",
-"dur": 65.4,
+"hash": "0c4a9c2f0cf0a1d4",
+"dur": 62.1,
 "engine": "edge"
 }
 },
@@ -2046,12 +2126,12 @@
 }
 },
 "beat": false,
-"ai": "VICI Properties wies am 28.10.2026 einen Gewinn je Aktie von 0.31 USD aus und blieb unter den Analystenschätzungen. Die Aktie wird in Schlagzeilen im Zusammenhang mit Dividendenrenditen genannt.",
-"say": "Zur Aktie VICI Properties. VICI Properties kostet im Moment fünfundzwanzig Komma zwei fünf Dollar. VICI Properties hat am achtundzwanzig.zehn.2026 Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag unter der Erwartung der Analysten: null Komma drei eins Dollar statt erwartet null Komma sieben zwei Dollar. Das ist eine Abweichung von minus sechsundfünfzig Komma acht Prozent. Eine KI fasst die Schlagzeilen zu VICI Properties so zusammen: VICI Properties wies am achtundzwanzig.zehn.2026 einen Gewinn je Aktie von null Komma drei eins Dollar aus und blieb unter den Analystenschätzungen. Die Aktie wird in Schlagzeilen im Zusammenhang mit Dividendenrenditen genannt. Der Kurs von VICI Properties veränderte sich im letzten Monat um plus elf Komma eins Prozent und in drei Monaten um minus fünf Komma sechs Prozent. Das war die Aktie VICI Properties.",
+"ai": "VICI Properties meldete am 28.10.2026 einen Gewinn je Aktie von 0.31 USD und verfehlte damit die Erwartungen. Das Unternehmen hob jedoch zuvor seine Prognose an.",
+"say": "Zur Aktie VICI Properties. VICI Properties kostet im Moment fünfundzwanzig Dollar und fünfundzwanzig Cent. VICI Properties hat am achtundzwanzigsten Oktober Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag unter der Erwartung der Analysten: null Dollar und einunddreissig Cent statt erwartet null Dollar und zweiundsiebzig Cent. Das ist eine Abweichung von minus sechsundfünfzig Komma acht Prozent. Eine KI fasst die Schlagzeilen zu VICI Properties so zusammen: VICI Properties meldete am achtundzwanzig.zehn.2026 einen Gewinn je Aktie von null Komma drei eins Dollar und verfehlte damit die Erwartungen. Das Unternehmen hob jedoch zuvor seine Prognose an. Der Kurs von VICI Properties veränderte sich im letzten Monat um plus elf Komma eins Prozent und in drei Monaten um minus fünf Komma sechs Prozent. Das war die Aktie VICI Properties.",
 "audio": {
 "file": "ent/zahlen_VICI.mp3",
-"hash": "dbd6973525ca10b2",
-"dur": 68.5,
+"hash": "f01dfb761c8001bc",
+"dur": 66.7,
 "engine": "edge"
 }
 },
@@ -2078,12 +2158,12 @@
 }
 },
 "beat": true,
-"ai": "Hasbro erzielte am 20.10.2026 einen Gewinn je Aktie von 2.90 USD und übertraf die Erwartungen deutlich. Die Ergebnisaussichten wurden daraufhin von Analysten nach oben angepasst.",
-"say": "Zur Aktie Hasbro. Hasbro kostet im Moment einhunderteinundzwanzig Dollar und achtundfünfzig Cent. Hasbro hat am zwanzigsten Oktober Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag über der Erwartung der Analysten: zwei Dollar und neunzig Cent statt erwartet ein Dollar und fünfundachtzig Cent. Das ist eine Abweichung von plus sechsundfünfzig Komma sechs Prozent. Eine KI fasst die Schlagzeilen zu Hasbro so zusammen: Hasbro erzielte am zwanzig.zehn.2026 einen Gewinn je Aktie von zwei Komma neun Dollar und übertraf die Erwartungen deutlich. Die Ergebnisaussichten wurden daraufhin von Analysten nach oben angepasst. Der Kurs von Hasbro veränderte sich im letzten Monat um plus dreiunddreissig Komma sechs Prozent und in drei Monaten um plus dreissig Prozent. Das war die Aktie Hasbro.",
+"ai": "Hasbro erzielte am 20.10.2026 einen Gewinn je Aktie von 2.90 USD und übertraf die Schätzungen deutlich. Dies führte zu einer Kurszielanhebung durch UBS.",
+"say": "Zur Aktie Hasbro. Hasbro kostet im Moment einhunderteinundzwanzig Dollar und achtundfünfzig Cent. Hasbro hat am zwanzigsten Oktober Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag über der Erwartung der Analysten: zwei Dollar und neunzig Cent statt erwartet ein Dollar und fünfundachtzig Cent. Das ist eine Abweichung von plus sechsundfünfzig Komma sechs Prozent. Eine KI fasst die Schlagzeilen zu Hasbro so zusammen: Hasbro erzielte am zwanzig.zehn.2026 einen Gewinn je Aktie von zwei Komma neun Dollar und übertraf die Schätzungen deutlich. Dies führte zu einer Kurszielanhebung durch UBS. Der Kurs von Hasbro veränderte sich im letzten Monat um plus dreiunddreissig Komma sechs Prozent und in drei Monaten um plus dreissig Prozent. Das war die Aktie Hasbro.",
 "audio": {
 "file": "ent/zahlen_HAS.mp3",
-"hash": "34c32d936f3bb180",
-"dur": 61.9,
+"hash": "c479dac02971a044",
+"dur": 60.5,
 "engine": "edge"
 }
 },
@@ -2110,12 +2190,12 @@
 }
 },
 "beat": true,
-"ai": "Healthpeak Properties meldete am 02.11.2026 einen Gewinn je Aktie von 0.04 USD und lag leicht über den Erwartungen. In den Berichten werden zudem Refinanzierungsrisiken thematisiert.",
-"say": "Zur Aktie Healthpeak Properties. Healthpeak Properties kostet im Moment zwanzig Dollar und siebzehn Cent. Healthpeak Properties hat am zweiten November Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag über der Erwartung der Analysten: null Dollar und vier Cent statt erwartet null Dollar und drei Cent. Das ist eine Abweichung von plus vierundfünfzig Komma vier Prozent. Eine KI fasst die Schlagzeilen zu Healthpeak Properties so zusammen: Healthpeak Properties meldete am zwei.elf.2026 einen Gewinn je Aktie von null Komma null vier Dollar und lag leicht über den Erwartungen. In den Berichten werden zudem Refinanzierungsrisiken thematisiert. Der Kurs von Healthpeak Properties veränderte sich im letzten Monat um plus sechs Komma zwei Prozent und in drei Monaten um minus fünf Komma acht Prozent. Das war die Aktie Healthpeak Properties.",
+"ai": "Healthpeak Properties wies am 02.11.2026 einen Gewinn je Aktie von 0.04 USD aus und lag leicht über den Erwartungen. Refinanzierungsrisiken blieben dabei ein Thema in der Telefonkonferenz.",
+"say": "Zur Aktie Healthpeak Properties. Healthpeak Properties kostet im Moment zwanzig Dollar und siebzehn Cent. Healthpeak Properties hat am zweiten November Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag über der Erwartung der Analysten: null Dollar und vier Cent statt erwartet null Dollar und drei Cent. Das ist eine Abweichung von plus vierundfünfzig Komma vier Prozent. Eine KI fasst die Schlagzeilen zu Healthpeak Properties so zusammen: Healthpeak Properties wies am zwei.elf.2026 einen Gewinn je Aktie von null Komma null vier Dollar aus und lag leicht über den Erwartungen. Refinanzierungsrisiken blieben dabei ein Thema in der Telefonkonferenz. Der Kurs von Healthpeak Properties veränderte sich im letzten Monat um plus sechs Komma zwei Prozent und in drei Monaten um minus fünf Komma acht Prozent. Das war die Aktie Healthpeak Properties.",
 "audio": {
 "file": "ent/zahlen_DOC.mp3",
-"hash": "dbfe13f42515cfa3",
-"dur": 65.7,
+"hash": "47d388ffdc62f703",
+"dur": 66.3,
 "engine": "edge"
 }
 },
@@ -2142,12 +2222,12 @@
 }
 },
 "beat": true,
-"ai": "Elevance Health verzeichnete am 21.10.2026 einen Gewinn je Aktie von 6.99 USD und übertraf damit die Prognosen. Die Aktie verzeichnete im Zuge dessen Kursgewinne.",
-"say": "Zur Aktie Elevance Health. Elevance Health kostet im Moment vierhundertvierunddreissig Dollar und achtzehn Cent. Elevance Health hat am einundzwanzigsten Oktober Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag über der Erwartung der Analysten: sechs Dollar und neunundneunzig Cent statt erwartet vier Dollar und neunundsechzig Cent. Das ist eine Abweichung von plus achtundvierzig Komma neun Prozent. Eine KI fasst die Schlagzeilen zu Elevance Health so zusammen: Elevance Health verzeichnete am einundzwanzig.zehn.2026 einen Gewinn je Aktie von sechs Komma neun neun Dollar und übertraf damit die Prognosen. Die Aktie verzeichnete im Zuge dessen Kursgewinne. Der Kurs von Elevance Health veränderte sich im letzten Monat um plus acht Komma fünf Prozent und in drei Monaten um plus zehn Komma eins Prozent. Das war die Aktie Elevance Health.",
+"ai": "Elevance Health meldete am 21.10.2026 einen Gewinn je Aktie von 6.99 USD und übertraf die Erwartungen deutlich. Die Aktie verzeichnete in der Folge Kursgewinne.",
+"say": "Zur Aktie Elevance Health. Elevance Health kostet im Moment vierhundertvierunddreissig Dollar und achtzehn Cent. Elevance Health hat am einundzwanzigsten Oktober Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag über der Erwartung der Analysten: sechs Dollar und neunundneunzig Cent statt erwartet vier Dollar und neunundsechzig Cent. Das ist eine Abweichung von plus achtundvierzig Komma neun Prozent. Eine KI fasst die Schlagzeilen zu Elevance Health so zusammen: Elevance Health meldete am einundzwanzig.zehn.2026 einen Gewinn je Aktie von sechs Komma neun neun Dollar und übertraf die Erwartungen deutlich. Die Aktie verzeichnete in der Folge Kursgewinne. Der Kurs von Elevance Health veränderte sich im letzten Monat um plus acht Komma fünf Prozent und in drei Monaten um plus zehn Komma eins Prozent. Das war die Aktie Elevance Health.",
 "audio": {
 "file": "ent/zahlen_ELV.mp3",
-"hash": "160eae185141de1d",
-"dur": 65.1,
+"hash": "fb81004998f6651b",
+"dur": 65.0,
 "engine": "edge"
 }
 },
@@ -2174,12 +2254,12 @@
 }
 },
 "beat": true,
-"ai": "Stanley Black & Decker erzielte am 04.11.2026 einen Gewinn je Aktie von 2.31 USD und lag über den Erwartungen. Zollrückerstattungen sorgten dabei für steigende Margen und eine angehobene Prognose.",
-"say": "Zur Aktie Stanley Black & Decker. Stanley Black & Decker kostet im Moment einhundertachtzehn Dollar und dreiunddreissig Cent. Stanley Black & Decker hat am vierten November Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag über der Erwartung der Analysten: zwei Dollar und einunddreissig Cent statt erwartet ein Dollar und sechsundfünfzig Cent. Das ist eine Abweichung von plus achtundvierzig Komma drei Prozent. Eine KI fasst die Schlagzeilen zu Stanley Black & Decker so zusammen: Stanley Black & Decker erzielte am vier.elf.2026 einen Gewinn je Aktie von zwei Komma drei eins Dollar und lag über den Erwartungen. Zollrückerstattungen sorgten dabei für steigende Margen und eine angehobene Prognose. Der Kurs von Stanley Black & Decker veränderte sich im letzten Monat um plus einunddreissig Komma fünf Prozent und in drei Monaten um plus dreizehn Komma neun Prozent. Das war die Aktie Stanley Black & Decker.",
+"ai": "Stanley Black & Decker erzielte am 04.11.2026 einen Gewinn je Aktie von 2.31 USD und übertraf die Prognosen. Eine erweiterte Partnerschaft soll den Omnichannel-Vertrieb in Südkorea stärken.",
+"say": "Zur Aktie Stanley Black & Decker. Stanley Black & Decker kostet im Moment einhundertachtzehn Dollar und dreiunddreissig Cent. Stanley Black & Decker hat am vierten November Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag über der Erwartung der Analysten: zwei Dollar und einunddreissig Cent statt erwartet ein Dollar und sechsundfünfzig Cent. Das ist eine Abweichung von plus achtundvierzig Komma drei Prozent. Eine KI fasst die Schlagzeilen zu Stanley Black & Decker so zusammen: Stanley Black & Decker erzielte am vier.elf.2026 einen Gewinn je Aktie von zwei Komma drei eins Dollar und übertraf die Prognosen. Eine erweiterte Partnerschaft soll den Omnichannel-Vertrieb in Südkorea stärken. Der Kurs von Stanley Black & Decker veränderte sich im letzten Monat um plus einunddreissig Komma fünf Prozent und in drei Monaten um plus dreizehn Komma neun Prozent. Das war die Aktie Stanley Black & Decker.",
 "audio": {
 "file": "ent/zahlen_SWK.mp3",
-"hash": "63bb331f02ba5b88",
-"dur": 70.6,
+"hash": "ab7fb9ee9068c6df",
+"dur": 70.3,
 "engine": "edge"
 }
 },
@@ -2206,12 +2286,12 @@
 }
 },
 "beat": true,
-"ai": "Super Micro Computer wies am 03.11.2026 einen Gewinn je Aktie von 1.81 USD aus und übertraf die Prognosen. Angesichts starker KI-Nachfrage wurde zudem die Umsatzprognose für 2027 angehoben.",
-"say": "Zur Aktie Super Micro Computer. Super Micro Computer kostet im Moment neunundzwanzig Dollar und sechzig Cent. Super Micro Computer hat am dritten November Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag über der Erwartung der Analysten: ein Dollar und einundachtzig Cent statt erwartet ein Dollar und dreiundzwanzig Cent. Das ist eine Abweichung von plus sechsundvierzig Komma sechs Prozent. Eine KI fasst die Schlagzeilen zu Super Micro Computer so zusammen: Super Micro Computer wies am drei.elf.2026 einen Gewinn je Aktie von eins Komma acht eins Dollar aus und übertraf die Prognosen. Angesichts starker KI-Nachfrage wurde zudem die Umsatzprognose für 2027 angehoben. Der Kurs von Super Micro Computer veränderte sich im letzten Monat um minus einunddreissig Komma neun Prozent und in drei Monaten um minus vier Komma neun Prozent. Das war die Aktie Super Micro Computer.",
+"ai": "Super Micro Computer wies am 03.11.2026 einen Gewinn je Aktie von 1.81 USD aus und lag über den Erwartungen. Das Unternehmen erweiterte sein KI-Partnernetzwerk.",
+"say": "Zur Aktie Super Micro Computer. Super Micro Computer kostet im Moment neunundzwanzig Dollar und sechzig Cent. Super Micro Computer hat am dritten November Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag über der Erwartung der Analysten: ein Dollar und einundachtzig Cent statt erwartet ein Dollar und dreiundzwanzig Cent. Das ist eine Abweichung von plus sechsundvierzig Komma sechs Prozent. Eine KI fasst die Schlagzeilen zu Super Micro Computer so zusammen: Super Micro Computer wies am drei.elf.2026 einen Gewinn je Aktie von eins Komma acht eins Dollar aus und lag über den Erwartungen. Das Unternehmen erweiterte sein KI-Partnernetzwerk. Der Kurs von Super Micro Computer veränderte sich im letzten Monat um minus einunddreissig Komma neun Prozent und in drei Monaten um minus vier Komma neun Prozent. Das war die Aktie Super Micro Computer.",
 "audio": {
 "file": "ent/zahlen_SMCI.mp3",
-"hash": "096bf81780fc10e8",
-"dur": 70.8,
+"hash": "b36da6565861c562",
+"dur": 67.3,
 "engine": "edge"
 }
 },
@@ -2246,12 +2326,12 @@
 }
 },
 "beat": true,
-"ai": "Clorox meldete am 02.11.2026 einen Gewinn je Aktie von 1.55 USD und übertraf die Erwartungen. Steigende Kosten führen jedoch dazu, dass das Unternehmen das Ergebnis am unteren Ende der eigenen Prognose erwartet.",
-"say": "Zur Aktie The Clorox. The Clorox kostet im Moment neunundneunzig Dollar und sechzehn Cent. The Clorox hat am zweiten November Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag über der Erwartung der Analysten: ein Dollar und fünfundfünfzig Cent statt erwartet ein Dollar und sieben Cent. Das ist eine Abweichung von plus fünfundvierzig Komma zwei Prozent. Eine KI fasst die Schlagzeilen zu The Clorox so zusammen: Clorox meldete am zwei.elf.2026 einen Gewinn je Aktie von eins Komma fünf fünf Dollar und übertraf die Erwartungen. Steigende Kosten führen jedoch dazu, dass das Unternehmen das Ergebnis am unteren Ende der eigenen Prognose erwartet. Der Kurs von The Clorox veränderte sich im letzten Monat um plus achtzehn Komma sieben Prozent und in drei Monaten um minus fünf Komma sieben Prozent. Das war die Aktie The Clorox.",
+"ai": "Clorox meldete am 02.11.2026 einen Gewinn je Aktie von 1.55 USD und übertraf die Prognosen. Steigende Kosten führen jedoch dazu, dass das Ergebnis voraussichtlich am unteren Ende der Prognose liegt.",
+"say": "Zur Aktie The Clorox. The Clorox kostet im Moment neunundneunzig Dollar und sechzehn Cent. The Clorox hat am zweiten November Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag über der Erwartung der Analysten: ein Dollar und fünfundfünfzig Cent statt erwartet ein Dollar und sieben Cent. Das ist eine Abweichung von plus fünfundvierzig Komma zwei Prozent. Eine KI fasst die Schlagzeilen zu The Clorox so zusammen: Clorox meldete am zwei.elf.2026 einen Gewinn je Aktie von eins Komma fünf fünf Dollar und übertraf die Prognosen. Steigende Kosten führen jedoch dazu, dass das Ergebnis voraussichtlich am unteren Ende der Prognose liegt. Der Kurs von The Clorox veränderte sich im letzten Monat um plus achtzehn Komma sieben Prozent und in drei Monaten um minus fünf Komma sieben Prozent. Das war die Aktie The Clorox.",
 "audio": {
 "file": "ent/zahlen_CLX.mp3",
-"hash": "5d3625c912e2372d",
-"dur": 65.1,
+"hash": "d4262c65e5064e23",
+"dur": 64.3,
 "engine": "edge"
 }
 },
@@ -2278,12 +2358,44 @@
 }
 },
 "beat": true,
-"ai": "ONEOK verzeichnete am 27.10.2026 einen Gewinn je Aktie von 2.13 USD und übertraf damit die Analystenerwartungen. Der Cashflow des Energieunternehmens ist stark an höhere Energiepreise gekoppelt.",
-"say": "Zur Aktie ONEOK. ONEOK kostet im Moment achtundachtzig Dollar und sechzig Cent. ONEOK hat am siebenundzwanzigsten Oktober Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag über der Erwartung der Analysten: zwei Dollar und dreizehn Cent statt erwartet ein Dollar und fünfzig Cent. Das ist eine Abweichung von plus zweiundvierzig Prozent. Eine KI fasst die Schlagzeilen zu ONEOK so zusammen: ONEOK verzeichnete am siebenundzwanzig.zehn.2026 einen Gewinn je Aktie von zwei Komma eins drei Dollar und übertraf damit die Analystenerwartungen. Der Cashflow des Energieunternehmens ist stark an höhere Energiepreise gekoppelt. Der Kurs von ONEOK veränderte sich im letzten Monat um minus null Komma sieben Prozent und in drei Monaten um plus zwei Komma fünf Prozent. Das war die Aktie ONEOK.",
+"ai": "ONEOK erzielte am 27.10.2026 einen Gewinn je Aktie von 2.13 USD und übertraf damit die Erwartungen. Die Ergebniskonferenz beleuchtete den Cashflow im Zusammenhang mit höheren Energiepreisen.",
+"say": "Zur Aktie ONEOK. ONEOK kostet im Moment achtundachtzig Dollar und sechzig Cent. ONEOK hat am siebenundzwanzigsten Oktober Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag über der Erwartung der Analysten: zwei Dollar und dreizehn Cent statt erwartet ein Dollar und fünfzig Cent. Das ist eine Abweichung von plus zweiundvierzig Prozent. Eine KI fasst die Schlagzeilen zu ONEOK so zusammen: ONEOK erzielte am siebenundzwanzig.zehn.2026 einen Gewinn je Aktie von zwei Komma eins drei Dollar und übertraf damit die Erwartungen. Die Ergebniskonferenz beleuchtete den Cashflow im Zusammenhang mit höheren Energiepreisen. Der Kurs von ONEOK veränderte sich im letzten Monat um minus null Komma sieben Prozent und in drei Monaten um plus zwei Komma fünf Prozent. Das war die Aktie ONEOK.",
 "audio": {
 "file": "ent/zahlen_OKE.mp3",
-"hash": "c27b30b8522ee93f",
-"dur": 62.1,
+"hash": "e3812d3c2426093e",
+"dur": 61.7,
+"engine": "edge"
+}
+},
+{
+"symbol": "ALL",
+"name": "The Allstate Corporation",
+"price_usd": 269.06,
+"mine": false,
+"metric": "Gewinn +40,2 % vs. Erwartung",
+"reason": "Zahlen vom 04.11.2026: Gewinn je Aktie 9.76 USD, über der Erwartung (6.96).",
+"d": {
+"upside": 0.1,
+"target_usd": 269.27,
+"analysts": 22,
+"m1": 20.0,
+"m3": 0.8,
+"earn": {
+"t": 1793826000,
+"act": 9.76,
+"est": 6.9593,
+"sur": 40.2,
+"cur": "USD",
+"fx": 1.0
+}
+},
+"beat": true,
+"ai": "Allstate wies am 04.11.2026 einen Gewinn je Aktie von 9.76 USD aus und übertraf die Schätzungen deutlich. Die ausgewiesenen Umsätze blieben jedoch unter den Analystenerwartungen.",
+"say": "Zur Aktie The Allstate. The Allstate kostet im Moment zweihundertneunundsechzig Dollar und sechs Cent. The Allstate hat am vierten November Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag über der Erwartung der Analysten: neun Dollar und sechsundsiebzig Cent statt erwartet sechs Dollar und sechsundneunzig Cent. Das ist eine Abweichung von plus vierzig Komma zwei Prozent. Eine KI fasst die Schlagzeilen zu The Allstate so zusammen: Allstate wies am vier.elf.2026 einen Gewinn je Aktie von neun Komma sieben sechs Dollar aus und übertraf die Schätzungen deutlich. Die ausgewiesenen Umsätze blieben jedoch unter den Analystenerwartungen. Der Kurs von The Allstate veränderte sich im letzten Monat um plus zwanzig Prozent und in drei Monaten um plus null Komma acht Prozent. Das war die Aktie The Allstate.",
+"audio": {
+"file": "ent/zahlen_ALL.mp3",
+"hash": "416fb65923a53259",
+"dur": 62.5,
 "engine": "edge"
 }
 },
@@ -2310,12 +2422,12 @@
 }
 },
 "beat": true,
-"ai": "Kimco Realty meldete am 29.10.2026 einen Gewinn je Aktie von 0.29 USD und übertraf die Erwartungen. Schlagzeilen erwähnen zudem die Akquisition von zwei von Lebensmittelläden verankerten Zentren in Louisville.",
-"say": "Zur Aktie Kimco Realty. Kimco Realty kostet im Moment fünfundzwanzig Dollar und achtundachtzig Cent. Kimco Realty hat am neunundzwanzigsten Oktober Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag über der Erwartung der Analysten: null Dollar und neunundzwanzig Cent statt erwartet null Dollar und zwanzig Cent. Das ist eine Abweichung von plus neununddreissig Komma drei Prozent. Eine KI fasst die Schlagzeilen zu Kimco Realty so zusammen: Kimco Realty meldete am neunundzwanzig.zehn.2026 einen Gewinn je Aktie von null Komma zwei neun Dollar und übertraf die Erwartungen. Schlagzeilen erwähnen zudem die Akquisition von zwei von Lebensmittelläden verankerten Zentren in Louisville. Der Kurs von Kimco Realty veränderte sich im letzten Monat um plus sechzehn Komma neun Prozent und in drei Monaten um plus fünf Komma acht Prozent. Das war die Aktie Kimco Realty.",
+"ai": "Kimco Realty meldete am 29.10.2026 einen Gewinn je Aktie von 0.29 USD und lag über den Erwartungen. Das Unternehmen erweiterte sein Portfolio durch den Kauf von zwei lebensmittelzentrierten Zentren.",
+"say": "Zur Aktie Kimco Realty. Kimco Realty kostet im Moment fünfundzwanzig Dollar und achtundachtzig Cent. Kimco Realty hat am neunundzwanzigsten Oktober Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag über der Erwartung der Analysten: null Dollar und neunundzwanzig Cent statt erwartet null Dollar und zwanzig Cent. Das ist eine Abweichung von plus neununddreissig Komma drei Prozent. Eine KI fasst die Schlagzeilen zu Kimco Realty so zusammen: Kimco Realty meldete am neunundzwanzig.zehn.2026 einen Gewinn je Aktie von null Komma zwei neun Dollar und lag über den Erwartungen. Das Unternehmen erweiterte sein Portfolio durch den Kauf von zwei lebensmittelzentrierten Zentren. Der Kurs von Kimco Realty veränderte sich im letzten Monat um plus sechzehn Komma neun Prozent und in drei Monaten um plus fünf Komma acht Prozent. Das war die Aktie Kimco Realty.",
 "audio": {
 "file": "ent/zahlen_KIM.mp3",
-"hash": "e5fe5d7547d41b4c",
-"dur": 68.1,
+"hash": "fa5e5c6c1d5de064",
+"dur": 67.2,
 "engine": "edge"
 }
 },
@@ -2350,12 +2462,11 @@
 }
 },
 "beat": true,
-"ai": "Bloom Energy erzielte am 22.10.2026 einen Gewinn je Aktie von 0.94 USD und übertraf die Prognosen. Nach einem starken Umsatzwachstum hob das Unternehmen den Ausblick an und steigerte den Fokus auf Rechenzentren und Stromverträge.",
-"say": "Zur Aktie Bloom Energy. Bloom Energy kostet im Moment zweihundert Dollar und vierzig Cent. Bloom Energy hat am zweiundzwanzigsten Oktober Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag über der Erwartung der Analysten: null Dollar und vierundneunzig Cent statt erwartet null Dollar und achtundsechzig Cent. Das ist eine Abweichung von plus neununddreissig Komma zwei Prozent. Eine KI fasst die Schlagzeilen zu Bloom Energy so zusammen: Bloom Energy erzielte am zweiundzwanzig.zehn.2026 einen Gewinn je Aktie von null Komma neun vier Dollar und übertraf die Prognosen. Nach einem starken Umsatzwachstum hob das Unternehmen den Ausblick an und steigerte den Fokus auf Rechenzentren und Stromverträge. Der Kurs von Bloom Energy veränderte sich im letzten Monat um minus zweiunddreissig Komma zwei Prozent und in drei Monaten um minus acht Komma sechs Prozent. Bloom Energy ist schon auf deiner Liste. Das war die Aktie Bloom Energy.",
+"say": "Zur Aktie Bloom Energy. Bloom Energy kostet im Moment zweihundert Dollar und vierzig Cent. Bloom Energy hat am zweiundzwanzigsten Oktober Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag über der Erwartung der Analysten: null Dollar und vierundneunzig Cent statt erwartet null Dollar und achtundsechzig Cent. Das ist eine Abweichung von plus neununddreissig Komma zwei Prozent. Der Kurs von Bloom Energy veränderte sich im letzten Monat um minus zweiunddreissig Komma zwei Prozent und in drei Monaten um minus acht Komma sechs Prozent. Bloom Energy ist schon auf deiner Liste. Das war die Aktie Bloom Energy.",
 "audio": {
 "file": "ent/zahlen_BE.mp3",
-"hash": "39774719672b2327",
-"dur": 71.6,
+"hash": "9f68708619ad0e8f",
+"dur": 47.3,
 "engine": "edge"
 }
 },
@@ -2382,12 +2493,42 @@
 }
 },
 "beat": true,
-"ai": "Cincinnati Financial verzeichnete am 26.10.2026 einen Gewinn je Aktie von 2.86 USD und übertraf damit die Erwartungen. Gestützt wurden die Zahlen gemäss Berichten durch Disziplin im Underwriting und stabile Prämienzuwächse.",
-"say": "Zur Aktie Cincinnati Financial. Cincinnati Financial kostet im Moment einhundertneunzig Dollar und achtundvierzig Cent. Cincinnati Financial hat am sechsundzwanzigsten Oktober Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag über der Erwartung der Analysten: zwei Dollar und sechsundachtzig Cent statt erwartet zwei Dollar und elf Cent. Das ist eine Abweichung von plus fünfunddreissig Komma sechs Prozent. Eine KI fasst die Schlagzeilen zu Cincinnati Financial so zusammen: Cincinnati Financial verzeichnete am sechsundzwanzig.zehn.2026 einen Gewinn je Aktie von zwei Komma acht sechs Dollar und übertraf damit die Erwartungen. Gestützt wurden die Zahlen gemäss Berichten durch Disziplin im Underwriting und stabile Prämienzuwächse. Der Kurs von Cincinnati Financial veränderte sich im letzten Monat um plus sechzehn Komma acht Prozent und in drei Monaten um plus sieben Komma sieben Prozent. Das war die Aktie Cincinnati Financial.",
+"say": "Zur Aktie Cincinnati Financial. Cincinnati Financial kostet im Moment einhundertneunzig Dollar und achtundvierzig Cent. Cincinnati Financial hat am sechsundzwanzigsten Oktober Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag über der Erwartung der Analysten: zwei Dollar und sechsundachtzig Cent statt erwartet zwei Dollar und elf Cent. Das ist eine Abweichung von plus fünfunddreissig Komma sechs Prozent. Der Kurs von Cincinnati Financial veränderte sich im letzten Monat um plus sechzehn Komma acht Prozent und in drei Monaten um plus sieben Komma sieben Prozent. Das war die Aktie Cincinnati Financial.",
 "audio": {
 "file": "ent/zahlen_CINF.mp3",
-"hash": "4f871ca826d5002e",
-"dur": 71.0,
+"hash": "3b8d6ccc47cb4571",
+"dur": 46.7,
+"engine": "edge"
+}
+},
+{
+"symbol": "AFL",
+"name": "Aflac Incorporated",
+"price_usd": 125.3,
+"mine": false,
+"metric": "Gewinn +35,2 % vs. Erwartung",
+"reason": "Zahlen vom 04.11.2026: Gewinn je Aktie 2.43 USD, über der Erwartung (1.80).",
+"d": {
+"upside": -6.4,
+"target_usd": 117.33,
+"analysts": 15,
+"m1": 10.3,
+"m3": 0.6,
+"earn": {
+"t": 1793826000,
+"act": 2.43,
+"est": 1.79681,
+"sur": 35.2,
+"cur": "USD",
+"fx": 1.0
+}
+},
+"beat": true,
+"say": "Zur Aktie Aflac. Aflac kostet im Moment einhundertfünfundzwanzig Dollar und dreissig Cent. Aflac hat am vierten November Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag über der Erwartung der Analysten: zwei Dollar und dreiundvierzig Cent statt erwartet ein Dollar und achtzig Cent. Das ist eine Abweichung von plus fünfunddreissig Komma zwei Prozent. Der Kurs von Aflac veränderte sich im letzten Monat um plus zehn Komma drei Prozent und in drei Monaten um plus null Komma sechs Prozent. Das war die Aktie Aflac.",
+"audio": {
+"file": "ent/zahlen_AFL.mp3",
+"hash": "fb7f9ea107035a82",
+"dur": 41.4,
 "engine": "edge"
 }
 },
@@ -2651,107 +2792,6 @@
 "dur": 47.6,
 "engine": "edge"
 }
-},
-{
-"symbol": "META",
-"name": "Meta Platforms, Inc.",
-"price_usd": 630.0,
-"mine": true,
-"metric": "Gewinn -29,3 % vs. Erwartung",
-"reason": "Zahlen vom 21.10.2026: Gewinn je Aktie 3.83 USD, unter der Erwartung (5.42).",
-"d": {
-"upside": 34.7,
-"target_usd": 848.38,
-"analysts": 58,
-"m1": -14.7,
-"m3": 6.4,
-"earn": {
-"t": 1792612800,
-"act": 3.83,
-"est": 5.41956,
-"sur": -29.3,
-"cur": "USD",
-"fx": 1.0
-}
-},
-"beat": false,
-"say": "Zur Aktie Meta Platforms. Meta Platforms kostet im Moment sechshundertdreissig Dollar. Meta Platforms hat am einundzwanzigsten Oktober Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag unter der Erwartung der Analysten: drei Dollar und dreiundachtzig Cent statt erwartet fünf Dollar und zweiundvierzig Cent. Das ist eine Abweichung von minus neunundzwanzig Komma drei Prozent. Der Kurs von Meta Platforms veränderte sich im letzten Monat um minus vierzehn Komma sieben Prozent und in drei Monaten um plus sechs Komma vier Prozent. Meta Platforms ist schon auf deiner Liste. Das war die Aktie Meta Platforms.",
-"audio": {
-"file": "ent/zahlen_META.mp3",
-"hash": "89bcb74ffe120a09",
-"dur": 48.7,
-"engine": "edge"
-}
-},
-{
-"symbol": "DECK",
-"name": "Deckers Outdoor Corporation",
-"price_usd": 89.11,
-"mine": false,
-"metric": "Gewinn +28,7 % vs. Erwartung",
-"reason": "Zahlen vom 22.10.2026: Gewinn je Aktie 2.31 USD, über der Erwartung (1.79).",
-"d": {
-"upside": 8.6,
-"target_usd": 96.74,
-"analysts": 21,
-"m1": 9.1,
-"m3": -8.6,
-"changes": [
-{
-"t": 1792747072,
-"firm": "Piper Sandler",
-"a": "down",
-"to": "Untergewichten"
-}
-],
-"earn": {
-"t": 1792699200,
-"act": 2.31,
-"est": 1.79478,
-"sur": 28.7,
-"cur": "USD",
-"fx": 1.0
-}
-},
-"beat": true,
-"say": "Zur Aktie Deckers Outdoor. Deckers Outdoor kostet im Moment neunundachtzig Dollar und elf Cent. Deckers Outdoor hat am zweiundzwanzigsten Oktober Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag über der Erwartung der Analysten: zwei Dollar und einunddreissig Cent statt erwartet ein Dollar und neunundsiebzig Cent. Das ist eine Abweichung von plus achtundzwanzig Komma sieben Prozent. Der Kurs von Deckers Outdoor veränderte sich im letzten Monat um plus neun Komma eins Prozent und in drei Monaten um minus acht Komma sechs Prozent. Das war die Aktie Deckers Outdoor.",
-"audio": {
-"file": "ent/zahlen_DECK.mp3",
-"hash": "951b24f8f44cc4aa",
-"dur": 44.1,
-"engine": "edge"
-}
-},
-{
-"symbol": "RTX",
-"name": "RTX Corporation",
-"price_usd": 198.43,
-"mine": false,
-"metric": "Gewinn +27,0 % vs. Erwartung",
-"reason": "Zahlen vom 20.10.2026: Gewinn je Aktie 2.26 USD, über der Erwartung (1.78).",
-"d": {
-"upside": 14.9,
-"target_usd": 227.91,
-"analysts": 23,
-"m1": 8.3,
-"m3": -11.0,
-"earn": {
-"t": 1792499400,
-"act": 2.26,
-"est": 1.7791,
-"sur": 27.0,
-"cur": "USD",
-"fx": 1.0
-}
-},
-"beat": true,
-"say": "Zur Aktie RTX. RTX kostet im Moment einhundertachtundneunzig Dollar und dreiundvierzig Cent. RTX hat am zwanzigsten Oktober Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag über der Erwartung der Analysten: zwei Dollar und sechsundzwanzig Cent statt erwartet ein Dollar und achtundsiebzig Cent. Das ist eine Abweichung von plus siebenundzwanzig Prozent. Der Kurs von RTX veränderte sich im letzten Monat um plus acht Komma drei Prozent und in drei Monaten um minus elf Prozent. Das war die Aktie RTX.",
-"audio": {
-"file": "ent/zahlen_RTX.mp3",
-"hash": "3ed01889d6221d28",
-"dur": 42.4,
-"engine": "edge"
-}
 }
 ],
 "gegenteil": [
@@ -3000,16 +3040,16 @@
 {
 "symbol": "005930.KS",
 "name": "Samsung Electronics Co., Ltd.",
-"price_usd": 162.86,
+"price_usd": 150.53,
 "mine": true,
-"metric": "-19,9 % in 1 Mt.",
-"reason": "Kurs im letzten Monat -19,9 %. Zahlen vom 28.10.2026 unter Erwartung (11462.00 statt 13710.03).",
+"metric": "-25,9 % in 1 Mt.",
+"reason": "Kurs im letzten Monat -25,9 %. Zahlen vom 28.10.2026 unter Erwartung (11462.00 statt 13710.03).",
 "d": {
-"upside": 119.6,
+"upside": 137.6,
 "target_usd": 357.67,
 "analysts": 35,
-"m1": -19.9,
-"m3": -5.4,
+"m1": -25.9,
+"m3": -12.8,
 "earn": {
 "t": 1793167200,
 "act": 11462.0,
@@ -3019,11 +3059,11 @@
 "fx": 0.0007470603176500471
 }
 },
-"say": "Zur Aktie Samsung Electronics. Samsung Electronics kostet im Moment einhundertzweiundsechzig Dollar und sechsundachtzig Cent. Der Kurs von Samsung Electronics veränderte sich im letzten Monat um minus neunzehn Komma neun Prozent und in drei Monaten um minus fünf Komma vier Prozent. Samsung Electronics hat am achtundzwanzigsten Oktober Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag unter der Erwartung der Analysten: acht Dollar und sechsundfünfzig Cent statt erwartet zehn Dollar und vierundzwanzig Cent. Das ist eine Abweichung von minus sechzehn Komma vier Prozent. Samsung Electronics ist schon auf deiner Liste. Das war die Aktie Samsung Electronics.",
+"say": "Zur Aktie Samsung Electronics. Samsung Electronics kostet im Moment einhundertfünfzig Dollar und dreiundfünfzig Cent. Der Kurs von Samsung Electronics veränderte sich im letzten Monat um minus fünfundzwanzig Komma neun Prozent und in drei Monaten um minus zwölf Komma acht Prozent. Samsung Electronics hat am achtundzwanzigsten Oktober Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag unter der Erwartung der Analysten: acht Dollar und sechsundfünfzig Cent statt erwartet zehn Dollar und vierundzwanzig Cent. Das ist eine Abweichung von minus sechzehn Komma vier Prozent. Samsung Electronics ist schon auf deiner Liste. Das war die Aktie Samsung Electronics.",
 "audio": {
 "file": "ent/gegenteil_005930.KS.mp3",
-"hash": "c482b2f42c9e4f9e",
-"dur": 52.0,
+"hash": "d77f443a732a81d0",
+"dur": 51.8,
 "engine": "edge"
 }
 },
@@ -3099,7 +3139,15 @@
 "target_usd": 387.8,
 "analysts": 25,
 "m1": -42.3,
-"m3": -48.5
+"m3": -48.5,
+"earn": {
+"t": 1793826000,
+"act": 2.09,
+"est": 1.9718,
+"sur": 6.0,
+"cur": "USD",
+"fx": 1.0
+}
 },
 "say": "Zur Aktie Coherent. Coherent kostet im Moment einhundertfünfundneunzig Dollar und neun Cent. Der Kurs von Coherent veränderte sich im letzten Monat um minus zweiundvierzig Komma drei Prozent und in drei Monaten um minus achtundvierzig Komma fünf Prozent. Das war die Aktie Coherent.",
 "audio": {
@@ -3358,6 +3406,36 @@
 }
 },
 {
+"symbol": "VMRK",
+"name": "AvalonBay Communities, Inc.",
+"price_usd": 63.72,
+"mine": false,
+"metric": "+5,5 % in 1 Mt.",
+"reason": "Zahlen vom 04.11.2026 unter Erwartung (-0.35 statt 0.20).",
+"d": {
+"upside": 12.4,
+"target_usd": 71.62,
+"analysts": 20,
+"m1": 5.5,
+"m3": -5.0,
+"earn": {
+"t": 1793826000,
+"act": -0.35,
+"est": 0.19627,
+"sur": -278.3,
+"cur": "USD",
+"fx": 1.0
+}
+},
+"say": "Zur Aktie AvalonBay Communities. AvalonBay Communities kostet im Moment dreiundsechzig Dollar und zweiundsiebzig Cent. Der Kurs von AvalonBay Communities veränderte sich im letzten Monat um plus fünf Komma fünf Prozent und in drei Monaten um minus fünf Prozent. AvalonBay Communities hat am vierten November Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag unter der Erwartung der Analysten: null Dollar und minus fünfunddreissig Cent statt erwartet null Dollar und zwanzig Cent. Das ist eine Abweichung von minus zweihundertachtundsiebzig Komma drei Prozent. Das war die Aktie AvalonBay Communities.",
+"audio": {
+"file": "ent/gegenteil_VMRK.mp3",
+"hash": "da86df7bff1f9ff1",
+"dur": 47.4,
+"engine": "edge"
+}
+},
+{
 "symbol": "CIEN",
 "name": "Ciena Corporation",
 "price_usd": 272.24,
@@ -3459,7 +3537,15 @@
 "target_usd": 290.7,
 "analysts": 40,
 "m1": -36.6,
-"m3": -32.1
+"m3": -32.1,
+"earn": {
+"t": 1793826000,
+"act": 0.52,
+"est": 0.47564,
+"sur": 9.3,
+"cur": "USD",
+"fx": 1.0
+}
 },
 "say": "Zur Aktie Arm. Arm kostet im Moment einhunderteinundneunzig Dollar und achtzig Cent. Der Kurs von Arm veränderte sich im letzten Monat um minus sechsunddreissig Komma sechs Prozent und in drei Monaten um minus zweiunddreissig Komma eins Prozent. Arm ist schon auf deiner Liste. Das war die Aktie Arm.",
 "audio": {
@@ -3568,36 +3654,6 @@
 "file": "ent/gegenteil_XYL.mp3",
 "hash": "0f0a0d06f98492bd",
 "dur": 52.5,
-"engine": "edge"
-}
-},
-{
-"symbol": "ABBN.SW",
-"name": "ABB Ltd",
-"price_usd": 86.4,
-"mine": true,
-"metric": "-14,7 % in 1 Mt.",
-"reason": "Kurs im letzten Monat -14,7 %. Zahlen vom 20.10.2026 unter Erwartung (0.75 statt 0.83).",
-"d": {
-"upside": 15.4,
-"target_usd": 99.75,
-"analysts": 27,
-"m1": -14.7,
-"m3": -13.8,
-"earn": {
-"t": 1792510200,
-"act": 0.7494,
-"est": 0.82538,
-"sur": -9.2,
-"cur": "USD",
-"fx": 1.0
-}
-},
-"say": "Zur Aktie ABB. ABB kostet im Moment sechsundachtzig Dollar und vierzig Cent. Der Kurs von ABB veränderte sich im letzten Monat um minus vierzehn Komma sieben Prozent und in drei Monaten um minus dreizehn Komma acht Prozent. ABB hat am zwanzigsten Oktober Quartalszahlen veröffentlicht. Der Gewinn je Aktie lag unter der Erwartung der Analysten: null Dollar und fünfundsiebzig Cent statt erwartet null Dollar und dreiundachtzig Cent. Das ist eine Abweichung von minus neun Komma zwei Prozent. ABB ist schon auf deiner Liste. Das war die Aktie ABB.",
-"audio": {
-"file": "ent/gegenteil_ABBN.SW.mp3",
-"hash": "8f22f1c9fef718ec",
-"dur": 44.9,
 "engine": "edge"
 }
 },
@@ -3756,292 +3812,292 @@
 "news_dig": {
 "latest": {
 "name": "Die neuesten 30 Meldungen",
-"say": "Die neuesten Meldungen zu den Aktien auf deiner Liste. Yahoo Finance berichtete am vierten November, dass der Gewinn von Sezzle um neunundsiebzig Prozent gestiegen ist, da die Kreditkosten sinken, was zu einer schnellen Reaktion der Gewinne führte. Zudem wurde berichtet, was die Rückeroberung des Repräsentantenhauses und des Senats durch die Demokraten für Immobilienaktien wie Home Depot und Lowe’s bedeuten könnte. Ausserdem hat Arm seine vierteljährlichen Ziele hinsichtlich des wachsenden Rechenzentrumsgeschäfts übertroffen, wobei die Aktie dennoch fiel. Seeking Alpha berichtete am vierten November, dass Lumentum um acht Prozent zurückgeht und seinen Rückgang nach dem All-Stock-Deal mit Marvell fortsetzt. Yahoo Finance meldete am vierten November zu den Dow-Jones-Futures, dass Wahlen und sinkende Ölpreise eine grosse Rallye befeuern und Apple-, Microsoft- sowie Amazon-Flash-Kaufsignale zeigen, während CoreWeave und SpaceX ins Schlittern gerieten. Es gab zudem Zusammenfassungen von Gewinnmitteilungen und Telefonkonferenzen für das drei. Quartal 2026 von der Avista Corporation, Westlake Chemical Partners LP, Brookfield Renewable Partners L.P., der Peabody Energy Corporation sowie für das vier. Quartal 2026 von Adient plc, ferner zu AdvanSix Inc. und der Colliers International Group Inc. Yahoo Finance berichtete am vierten November über zwei ETFs, die gekauft und seit Jahrzehnten gehalten werden, egal was der Markt tut. Am Aktienmarkt stieg der Dow bei einer Erholung nach der Wahl um eintausendfünfhundertneunundsechzig Punkte, und Microsoft verzeichnete starke Bewegungen. CNBC berichtete am vierten November, dass Arm Holdings Gewinne und Umsätze übertrifft, die Aktien im erweiterten Handel aber leicht fallen. Investing.com Deutsch berichtete am vierten November über enttäuschende Royalty-Einnahmen, weshalb die Aktie von Arm nachbörslich nachgibt, während Goldman Sachs eine Verkaufsempfehlung bekräftigt. Finanzen.net meldete am vierten November Abschläge bei der Aktie von Siemens Energy am Nachmittag. Yahoo Finance berichtete, dass TV-Veteran Latour die Leitung der Meta-Branding-Strategie übernimmt, und dass die Walmart-Aktie um drei Prozent gefallen ist. MarketWatch berichtete am vierten November, dass die Aktie von Corning Inc. im Vergleich zur Konkurrenz schlechter abschneidet. TheStreet berichtete, dass ein Analyst das Nvidia-Aktienziel nach einem Intel-Crash neu ansetzt. Yahoo Finance meldete, dass Apple im Zuge von Kostensenkungen die KI-Budgets der Mitarbeiter strafft, und stellte die Frage, ob der Kauf von Bitcoin das Leben prägen könnte. Investing.com berichtete, dass die Arm-Aktie nachbörslich abrutscht, da fehlende Prognosen die Quartalsergebnisse ausgleichen. MarketWatch berichtete, dass Microsoft und Amazon zusammen einen Anstieg der Marktkapitalisierung um vierhundertvierundzwanzig Milliarden Dollar verzeichneten. Die Aktie von Applied Materials Inc. schnitt am Mittwoch im Vergleich zur Konkurrenz schlechter ab. Finanzen.ch und Der Aktionär berichteten am vierten November, dass die Arm-Aktie nach Quartalszahlen trotz positiver Ergebnisse und eines starken Quartals mit Profiten aus dem KI- und Server-Boom im Minus liegt. Das waren die neuesten Meldungen zu deiner Liste.",
+"say": "Die neuesten Meldungen zu den Aktien auf deiner Liste. Univest berichtete am fünften November über die Goldpreise nach den US-Halbzeitergebnissen und den Dhanteras Goldkauf. Yahoo Finance berichtete am fünften November, dass die Dow-Jones-Futures steigen, während die Tech-Werte fallen, und erwähnte Flash-Kaufsignale für Apple, Microsoft und Amazon. Yahoo Finance berichtete am fünften November über den steigenden US-Dollar am frühen Donnerstag vor Arbeitslosenanträgen, Produktivität und Fed-Erscheinen. Yahoo Finance berichtete am fünften November, dass Goldman Sachs und Apollo mit der Vermarktung eines vierzig-Milliarden-Dollar-Finanzierungsvertrags für SpaceX-Chips beginnen. NDTV Profit berichtete am fünften November, dass Gold nach acht der letzten dreizehn Midterms gestiegen ist, wobei die Ausnahmen der interessante Teil sind. Yahoo Finance berichtete am fünften November, dass Vertiv innerhalb von sechs Monaten einen Rückgang von fast vierzig Prozent hinnehmen musste, laut einem Wall-Street-Team aber achtzig Prozent Rendite erzielt werden. Yahoo Finance berichtete am fünften November, dass IREN derzeit nur für einen bestimmten Investor geeignet ist. Yahoo Finance berichtete am fünften November, dass die Aktie von Corning (GLW) mit einem Abschlag gehandelt zu werden scheint. Yahoo Finance Singapore berichtete am fünften November über Micron Technology und zwei AI-Chip-Aktien zur Verbesserung Ihres Portfolios. boerse.de berichtete am fünften November über den Chart des Tages zur Berkshire Hathaway B-Aktie. Yahoo Finance berichtete am fünften November, dass Micron zum ersten Mal seit Juli unter achthundert Dollar geschlossen hat. Barron's berichtete am fünften November über Marvell, Lumentum, Oracle, SpaceX, Rivian, Apple, Palantir und weitere Aktien, die den heutigen Markt erklären. Yahoo Finance berichtete am fünften November, dass die Zahlen britischer Wirtschaftsprüfungsgesellschaften zum ersten Mal seit 2019 steigen. WELT berichtete am fünften November, dass es bei der Siemens-Energy-Aktie wieder stark bergauf geht. Yahoo Finance berichtete am fünften November über die Frage, wie lange das Bargeld von Strategy reicht. Yahoo Finance berichtete am fünften November darüber, was Alphabet für all diese Ausgaben bekommt. Trefis berichtete am fünften November darüber, was die Amazon-Aktie entgleisen lassen könnte. Yahoo Finance berichtete am fünften November, ob die Palantir-Aktie bereit für ein langsameres Wachstum ist. Yahoo Finance berichtete am fünften November über den Lagerbestand an Nvidia-Chips in Hongkong, der auf eine Importgenehmigung aus China wartet. TheStreet berichtete am fünften November, dass Jim Cramer ein klares Signal zur Apple- und Palantir-Aktie sendet. Yahoo Finance berichtete am fünften November darüber, wie sich der KI-Boom auf Ihre Karriere auswirken könnte, laut dem CEO von Fireworks AI. Yahoo Finance berichtete am fünften November, dass Amerika gerade gegen KI gestimmt hat und das gut sein könnte. Billionaires.Africa berichtete am fünften November, dass Jeff Bezos dreizehn Komma sieben Milliarden Dollar hinzugefügt hat, während Amazon nach den Zwischenwahlen einen Sprung nach vorne macht. XTB.com berichtete am fünften November über den Absturz der Siemens-Energy-Aktie mit einem bärischen Chartcheck. VRT berichtete am fünften November, dass der belgische Aktienindex Bel-zwanzig zum ersten Mal die sechstausend-Punkte-Marke übersteigt. TradingView berichtete am fünften November, dass Microsoft auf einen KI-Deal verzichtet, während die Frage nach einhundertsiebzig Milliarden Dollar immer grosser wird. FinanzNachrichten.de berichtete am fünften November, dass Peking bei der nationalen Sicherheit durchgreift und SoftBanks grosser KI-Plan vor dem Aus steht. Yahoo Finance berichtete am fünften November, ob der Verkauf-KI-Handel von Dauer sein wird nach einer massiven Marktrotation. Yahoo Finance berichtete am fünften November, dass Arm-Aktien fallen, nachdem die Preise für Smartphone-Speicher die Lizenzgebühren erreichen. Livemint berichtete am fünften November über die Goldpreisprognose, nach der Gold nach einem Absturz um zwanzig Prozent bis Dhanteras 2027 um zwanzig bis fünfundzwanzig Prozent steigen könnte. Das waren die neuesten Meldungen zu deiner Liste.",
 "ids": [
-"80666ef5b57f",
-"09acb2d5a53a",
-"7ca909f78ec4",
-"4bd051266ee8",
-"bca753f29aa8",
-"bd7c8d73c831",
-"8cefb6d6d790",
-"9cfb9cc83f31",
-"62bc4e01313d",
-"cf0ee66ad665",
-"bcd294e1e245",
-"233434403ad8",
-"4400755e7bcd",
-"d008c69760ac",
-"6c73e35e4c23",
-"beda7ab6c059",
-"f7fc69a90a71",
-"76fb9893309e",
-"4570f8b0aeb6",
-"f7096f7ed744",
-"e3ce9ff375b1",
-"1b4adc9b5d33",
-"7d1f26e1ee33",
-"c4b0a57b4e93",
-"7232fec3aaa3",
-"b67dc8b47116",
-"8639f70f7899",
-"13f12f2f0bb0",
-"d5421d8b66a8",
-"2d43e821f0dc"
+"2640d62ed71b",
+"84c5e0ee5bc5",
+"2267f2942599",
+"85c21bcb77c1",
+"66e16eddd434",
+"0ecc30264c14",
+"83660146e69b",
+"66f5e54f07f5",
+"06aebda4c031",
+"67ca94511b0a",
+"2c0790b1a33c",
+"402b1c317edc",
+"462a595aeefa",
+"4bbb9d4f1c0b",
+"b3ec5e24d8f0",
+"d9c59c461bae",
+"b5c4d5629768",
+"5f2568a7725d",
+"7c5b2acac849",
+"b0a93b492a73",
+"3635883aa33e",
+"38d55a6dcafd",
+"ab8ab866bb45",
+"9cb03aa118e6",
+"b93288224e6c",
+"17e8379c9744",
+"fe8b98722460",
+"29ab672bcb93",
+"c69933afab36",
+"f3fc2f774bb9"
 ],
 "n": 30,
 "audio": {
 "file": "ent/dn_latest.mp3",
-"hash": "e7081a8959931713",
-"dur": 231.8,
+"hash": "ed01af7e1289730f",
+"dur": 303.5,
 "engine": "edge"
 }
 },
 "stocks": {
 "TSM": {
 "name": "Taiwan Semiconductor",
-"say": "Neuigkeiten zu Taiwan Semiconductor. finanzen.ch berichtete am vierten November, dass die Aktie von Taiwan Semiconductor Manufacturing am Mittwochabend auf rotem Terrain tendiert. boerse.de stellte am vierten November die Frage, ob sich der Einstieg im Monat November lohnt. finanzen.ch meldete am vierten November ausserdem, dass sich die Aktie am Nachmittag fester zeigte. Yahoo Finance berichtete am vierten November, dass die TSMC-Aktien fielen, da die Verkaufsdaten für November vor einer vierteljährlichen Hürde von dreiundfünfzig Komma drei Milliarden Dollar stehen. Finanzen.net berichtete am vierten November über einen Anstieg am Mittwochnachmittag. Schliesslich berichtete Yahoo Finance am vierten November über den Vergleich von Broadcom und Taiwan Semiconductor als zwei KI-Kraftpakete, wobei eines für 2027 ein besseres Preis-Leistungs-Verhältnis bietet. Das waren die Meldungen zu Taiwan Semiconductor.",
+"say": "Neuigkeiten zu Taiwan Semiconductor. Yahoo Finance berichtete am fünften November, dass Taiwan Semiconductor (TSM) am dritten November Netto-ETF-Käufe in Höhe von einhundertsechsundvierzig Komma zwei Millionen Dollar verzeichnet hat. Yahoo Finance berichtete am fünften November, dass der Zacks Analyst Blog Analog Devices, Taiwan Semiconductor Manufacturing, Texas Instruments und NVIDIA hervorhebt. MarketScreener Schweiz berichtete am fünften November, dass TSMC grüne Anleihen im Volumen von vierzehn Komma acht Mrd. NT$ auflegt. scanx.trade berichtete am fünften November, dass TSMC eine milliardenschwere texanische Fabrik abwägt, da die Aktien ein zweiundfünfzig-Wochen-Hoch erreichen. Finanzen.net berichtete am vierten November, dass die Taiwan-Semiconductor-Manufacturing-Aktie am Abend in Rot tendiert. finanzen.ch berichtete am vierten November, dass Taiwan Semiconductor Manufacturing am Mittwochabend auf rotem Terrain tendiert. Das waren die Meldungen zu Taiwan Semiconductor.",
 "ids": [
-"4aab339f9ee2",
-"f459370b9837",
-"6012cc93cb44",
-"f8609f421bb1",
-"cd7436c8983e",
-"7b57888e425a"
+"9ed07c9d7843",
+"d7636504081e",
+"bb6dd0a2a9b7",
+"81dbc7a64eed",
+"47b61c9b718a",
+"4aab339f9ee2"
 ],
 "n": 6,
 "audio": {
 "file": "ent/dn_TSM.mp3",
-"hash": "2973533b74237f92",
-"dur": 69.5,
+"hash": "db5b39b65b47176f",
+"dur": 77.3,
 "engine": "edge"
 }
 },
 "NVDA": {
 "name": "Nvidia",
-"say": "Neuigkeiten zu Nvidia. Yahoo Finance berichtete am vierten November, dass der Gewinn von Sezzle um neunundsiebzig Prozent steigt, da die Kreditkosten sinken: Schnelle Reaktion der Gewinne. Yahoo Finance berichtete am vierten November darüber, was die Rückeroberung des Repräsentantenhauses und des Senats durch die Demokraten für Immobilienaktien wie Home Depot und Lowe's bedeuten könnte. Zudem gab es Zusammenfassungen zu Gewinnmitteilungen vom vierten November für die Avista Corporation für das drei. Quartal 2026, für Westlake Chemical Partners LP für das drei. Quartal 2026, für Brookfield Renewable Partners L.P. für das drei. Quartal 2026 sowie für die Peabody Energy Corporation für das drei. Quartal 2026. Das waren die Meldungen zu Nvidia.",
+"say": "Neuigkeiten zu Nvidia. Yahoo Finance berichtete am fünften November über ein Marktgespräch, wonach Goldman Sachs und Apollo mit der Vermarktung eines vierzig-Milliarden-Dollar-Finanzierungsvertrags für SpaceX-Chips beginnen. Ebenfalls am fünften November berichtete Yahoo Finance, dass IREN derzeit nur für einen bestimmten Investor geeignet sei. Ausserdem berichtete Yahoo Finance am fünften November, dass ein Lagerbestand an Nvidia-Chips in Hongkong auf eine Importgenehmigung aus China wartet. Yahoo Finance berichtete am fünften November darüber, wie sich der KI-Boom auf Ihre Karriere auswirken könnte, laut dem CEO von Fireworks AI. Zudem berichtete Yahoo Finance am fünften November, dass Amerika gerade gegen KI gestimmt hat und dass das gut sein könnte. Schliesslich berichtete TradingView am fünften November, dass Microsoft auf einen KI-Deal verzichtet, da die Frage nach einhundertsiebzig Milliarden Dollar immer grösser wird. Das waren die Meldungen zu Nvidia.",
 "ids": [
-"80666ef5b57f",
-"09acb2d5a53a",
-"bd7c8d73c831",
-"8cefb6d6d790",
-"9cfb9cc83f31",
-"62bc4e01313d"
+"85c21bcb77c1",
+"83660146e69b",
+"7c5b2acac849",
+"3635883aa33e",
+"38d55a6dcafd",
+"17e8379c9744"
 ],
 "n": 6,
 "audio": {
 "file": "ent/dn_NVDA.mp3",
-"hash": "91ac3d11b0e9d846",
-"dur": 62.8,
+"hash": "c81a9013cffe725e",
+"dur": 68.2,
 "engine": "edge"
 }
 },
 "005930.KS": {
 "name": "Samsung Electronics",
-"say": "Neuigkeiten zu Samsung Electronics. Yahoo Finance berichtete am vierten November, dass die Skyworks-Aktie sinkt, da Android-Probleme die Auszahlung der Qorvo-Fusion verzögern. Ebenfalls am vierten November berichtete Yahoo Finance, dass Mastercard mit Samsung Pay sein mobiles Zahlungsangebot in Marokko erweitert. IQ Option feierte laut einer Meldung vom vierten November sein dreizehn-jähriges Bestehen mit einem Monat voller Geschenke und Handelsveranstaltungen. Die NZZ berichtete am vierten November über den Wahlsieg der Demokraten, bei dem die Börsen tauchten, sich aber rasch erholten. Ausserdem gab es am vierten November Höhepunkte der Telefonkonferenz zu den Ergebnissen des dritten Quartals von SK Telecom sowie Berichte von Yahoo Finance darüber, dass demokratische Siege die Aussichten für die Einführung von KI-Rechenzentren trüben. Das waren die Meldungen zu Samsung Electronics.",
+"say": "Neuigkeiten zu Samsung Electronics. Yahoo Finance berichtete am fünften November, dass der Kospi bei einem Chip-Rout abstürzt und Druck auf US-Tech-Futures ausübt. n-tv.de berichtete am fünften November um zwölf:zwanzig Uhr, dass die Møller-Maersk-Aktie abschmiert. n-tv.de berichtete am fünften November um dreizehn:zweiundzwanzig Uhr, dass ein Schweizer Inflationsanstieg überrascht. n-tv.de berichtete am fünften November um elf:zwanzig Uhr über Trump unter Druck und was sich für deutsche Unternehmen ändert. Yahoo Finance berichtete am fünften November, dass Tech-Unternehmen an einem für die meisten Märkte positiven Tag von neuen KI-Sorgen betroffen sind. Der Samsung Global Newsroom berichtete am fünften November aus dem Samsung Global Newsroom. Das waren die Meldungen zu Samsung Electronics.",
 "ids": [
-"f83bf71c9306",
-"0a557c6001b8",
-"e2c93c2cba2a",
-"dd97b6c57965",
-"0c39e073e0aa",
-"f20eda5959db"
+"da84e137c8bd",
+"51596638a87b",
+"ad4b49350824",
+"e56f55e5090f",
+"a891ff36ef4f",
+"53f077f89519"
 ],
 "n": 6,
 "audio": {
 "file": "ent/dn_005930_KS.mp3",
-"hash": "9b53d917ee9444bd",
-"dur": 63.7,
+"hash": "d6f87cefb19b3ffb",
+"dur": 64.2,
 "engine": "edge"
 }
 },
 "HY9H.MU": {
 "name": "SK Hynix",
-"say": "Neuigkeiten zu SK Hynix. Seeking Alpha berichtete am vierten November über den Vergleich von Mikron und SK hynix. Yahoo Finance Singapore berichtete am selben Tag, dass Micron drei KI-Speicheraktien mit grossem Aufwärtspotenzial anführt. TradingView meldete am vierten November, dass Micron, SK Hynix und SanDisk fallen, da ein Demokraten-Sieg in Texas die Anleger verunsichert. Der Korea JoongAng Daily berichtete am vierten November über die Frage, ob die KI-Ausgaben beweisen können, dass es sich um mehr als eine Billionen-Dollar-Wette handelt. Investing.com Deutsch berichtete am vierten November, dass die Micron-Aktie um zwei Komma eins Prozent fällt, weil Chinas CXMT einen DRAM-Durchbruch gemeldet hat. MarketForces Africa berichtete am vierten November, dass die tokenisierte Aktie von SK Hynix um vier Prozent fällt, während asiatische Tech-Aktien fallen. Das waren die Meldungen zu SK Hynix.",
+"say": "Neuigkeiten zu SK Hynix. TradingView berichtete am fünften November, dass die Micron-Aktie trotz einer zweihundertzwanzig-prozentigen Rallye günstig aussieht und fragte, ob noch mehr Aufwärtspotenzial kommt. Barron's berichtete am fünften November, dass die Micron-Aktie erneut fällt, da ihr Marktanteil schrumpft, und erklärte, warum das eine Chance ist. Yahoo Finance berichtete am fünften November, dass der Kospi bei einem Chip-Rout stürzt und Druck auf US-Tech-Futures ausübt. Die Korea JoongAng Daily berichtete am fünften November, dass der Kospi unter den Wellen versinkt, während der blaue Tsunami in den USA koreanische Technologieaktien durchnässt. Businesskorea berichtete am fünften November beim Marktschluss, dass der KOSPI aufgrund von Blue-Wave-Befürchtungen unter fünftausendvierhundert stürzt. Wallstreet Online berichtete am fünften November, dass SK hynix binnen eines Monats dreissig Komma eins Prozent einbüsst. Das waren die Meldungen zu SK Hynix.",
 "ids": [
-"aaf3f14d0dd4",
-"a5478dba6a55",
-"2204a411ab71",
-"bb0f291a6ab7",
-"618a1b3d352b",
-"a24d0544505a"
+"d3b63a85083f",
+"8b6107dd63f7",
+"da84e137c8bd",
+"e90a7c8dd8d2",
+"5f3a216b91ff",
+"04e0c45b9c22"
 ],
 "n": 6,
 "audio": {
 "file": "ent/dn_HY9H_MU.mp3",
-"hash": "40a08df41a3af250",
-"dur": 68.4,
+"hash": "8535362063a269e6",
+"dur": 69.5,
 "engine": "edge"
 }
 },
 "AVGO": {
 "name": "Broadcom",
-"say": "Neuigkeiten zu Broadcom. finanzen.ch berichtete am vierten November, dass die Broadcom-Aktie am Abend mit Verlusten tendierte. Yahoo Finance berichtete am vierten November, dass Broadcom-Aktien um eins Komma fünf Prozent fallen, da die KI-Finanzierung im Wert von dreiundsechzig Milliarden Dollar ein Restwertrisiko birgt. Investor's Business Daily berichtete am vierten November, dass ein Butterfly Trade Anlegern hilft, ein Nugget in dieser sinkenden Aktie zu finden. Yahoo Finance berichtete am vierten November, dass die Credo-Aktie im letzten Monat um siebenundzwanzig Prozent gefallen ist, und stellte die Frage, was Anleger als Nächstes tun sollten. Zudem berichtete Yahoo Finance am vierten November, dass Nvidia bei weitem nicht die einzige Bedrohung für AMD ist, und sharedeals.de berichtete am selben Tag, dass Anthropic und OpenAI die Broadcom-Aktie zum Fliegen bringen könnten. Das waren die Meldungen zu Broadcom.",
+"say": "Neuigkeiten zu Broadcom. JournalArta berichtete am fünften November, dass die AVGO-Aktie um zwei Prozent fällt und das Unterstützungsniveau im Fokus testet. Yahoo Finance berichtete am fünften November, dass der iShares PHLX SOX Semiconductor ETF am dritten November AMD und NVDA verkauft hat. Yahoo Finance berichtete am fünften November, dass der Goldman Sachs S&P fünfhundert Premium Income ETF am dritten November Meta und Alphabet hinzugefügt hat. Yahoo Finance berichtete am fünften November, dass ETFs am dritten November einhundertvier Komma drei Millionen Dollar von Broadcom gekauft haben. Trefis berichtete am fünften November, ob die NVIDIA-Aktie jetzt ein Kauf ist. Yahoo Finance berichtete am fünften November, ob die Ciena-Aktie um vierzig Prozent fallen kann. Das waren die Meldungen zu Broadcom.",
 "ids": [
-"78bae58fb87f",
-"7ee5dfeb489b",
-"5c77ceed06a2",
-"be4eb2d2de8d",
-"de78100d2ed6",
-"a35b34a0b236"
+"e5d0e768e686",
+"352e27c8e835",
+"94de468dfb91",
+"96d29845a916",
+"f2efd11462aa",
+"30298396ce26"
 ],
 "n": 6,
 "audio": {
 "file": "ent/dn_AVGO.mp3",
-"hash": "94db262b9886c2ab",
-"dur": 65.9,
+"hash": "4225f428ad90f6f1",
+"dur": 63.4,
 "engine": "edge"
 }
 },
 "ASML": {
 "name": "ASML",
-"say": "Neuigkeiten zu ASML. mares media se berichtete am vierten November über den Halbleiter-Sektor: ASML und Infineon büssen bis zu neun Prozent ein. Morningstar berichtete am vierten November darüber, was der Sieg der Demokraten für europäische Aktien bedeutet. finanzen.at berichtete am vierten November über einen starken Wochentag in Europa, bei dem der Euro STOXX fünfzig letztendlich mit Zuschlägen schloss. boerse.de brachte am vierten November einen Champions-Check zur ASML Holding-Aktie im Monat November. Wallstreet Online berichtete am vierten November über Kursausreisser im Eurozone fünfzig sowie darüber, dass die ASML Holding deutlich im Minus ist und ein Turnaround im November 2026 möglich sein könnte. Das waren die Meldungen zu ASML.",
+"say": "Neuigkeiten zu ASML. Yahoo Finance Canada berichtete am fünften November, dass ASML am Dienstag Netto-ETF-Käufe in Höhe von fünfundsechzig Komma sieben Millionen Dollar verzeichnete. Onvista berichtete am fünften November über ASML mit der Schaltstelle voraus und dem Motto make or break. boerse.de berichtete am fünften November, dass die ASML-Aktie unter der zweihundert-Tage-Linie liegt. Yahoo Finance berichtete am fünften November einen Titelhalter. Mares media se berichtete am vierten November, dass im Halbleiter-Sektor ASML und Infineon bis zu neun Prozent einbüssen. Morningstar berichtete am vierten November über die US-Midterms und was der Sieg der Demokraten für europäische Aktien bedeutet. Das waren die Meldungen zu ASML.",
 "ids": [
+"299a4971a48b",
+"b4772ae386b1",
+"1419519a8ba6",
+"308161020c5f",
 "a28364bbfec0",
-"c495f720e388",
-"dce05f99269f",
-"d843139a33f9",
-"83f004032366",
-"947cc03dc729"
+"c495f720e388"
 ],
 "n": 6,
 "audio": {
 "file": "ent/dn_ASML.mp3",
-"hash": "16af713f5558069d",
-"dur": 59.4,
+"hash": "9e26f1d431cd988c",
+"dur": 58.3,
 "engine": "edge"
 }
 },
 "INTC": {
 "name": "Intel",
-"say": "Neuigkeiten zu Intel. TheStreet berichtete am vierten November über einen fünf-Sterne-Analysten, der sein Nvidia-Aktienziel nach einem Intel-Crash neu gesetzt hat. Yahoo Finance berichtete am vierten November, dass die INTC-Aktie sinkt, selbst nachdem CEO Lip-Bu Tan Intel-Aktien im Wert von neun Komma sieben Millionen Dollar gekauft hat. Yahoo Finance berichtete am vierten November, dass das sechshundertfünfundsiebzig-Dollar-Ziel von Goldman Sachs besagt, dass der Ausverkauf von AMD zu weit gegangen ist. finanzen.ch berichtete am vierten November über Kurseinbussen bei Intel am Mittwochabend. Yahoo Finance berichtete am vierten November, dass Strategie um sieben Prozent zulegt, da Bitcoin nach den Halbzeitwahlen steigt, während der CEO für einen Bitcoin-Kapitalzyklus wirbt. Quiver Quantitative berichtete am vierten November, dass Lip-Bu Tan, CEO von Intel, im Rahmen eines anhaltenden Ausverkaufs Aktien im Wert von neun Komma sieben Millionen Dollar gekauft hat. Das waren die Meldungen zu Intel.",
+"say": "Neuigkeiten zu Intel. Barron's berichtete am fünften November über Marvell, Lumentum, Oracle, SpaceX, Rivian, Apple, Palantir und weitere Aktien, die den heutigen Markt erklären. TheStreet berichtete am fünften November, dass Jim Cramer ein klares Signal zur Apple- und Palantir-Aktie sendet. Yahoo Finance berichtete am fünften November, dass Amerika gerade gegen KI gestimmt hat und dass das gut sein könnte. Yahoo Finance berichtete am fünften November, dass AMD vor Nvidias Software-Hürde steht, während Intel laut Morningstar PC-Marktanteile zurückerobern könnte. TradingView berichtete am fünften November, dass der CEO von Intel gerade Aktien im Wert von fast zehn Millionen Dollar gekauft hat. Finbold berichtete am fünften November, dass die Intel-Aktie durch grosse Insiderhandelsaktivitäten in Mitleidenschaft gezogen wurde. Das waren die Meldungen zu Intel.",
 "ids": [
-"7d1f26e1ee33",
-"12eb60b22f43",
-"733bab763dca",
-"010231dd1698",
-"8f2f7fe00273",
-"9aa331d2cf6a"
+"402b1c317edc",
+"b0a93b492a73",
+"38d55a6dcafd",
+"4c3d87467358",
+"0cffeb63f2c8",
+"2c93cb47a8af"
 ],
 "n": 6,
 "audio": {
 "file": "ent/dn_INTC.mp3",
-"hash": "42c8a3a5245dbb27",
-"dur": 73.1,
+"hash": "8aa372d5d40cf18c",
+"dur": 65.0,
 "engine": "edge"
 }
 },
 "MSFT": {
 "name": "Microsoft",
-"say": "Neuigkeiten zu Microsoft. Yahoo Finance berichtete am vierten November über Dow-Jones-Futures, wonach Wahlen und sinkende Ölpreise eine grosse Rallye befeuern und Kaufsignale für Apple, Microsoft sowie Amazon zeigen, während CoreWeave und SpaceX schwächeln. Yahoo Finance berichtete am vierten November, dass der Aktienmarkt stark aufholt und der Dow bei einer Erholung nach der Wahl um eintausendfünfhundertneunundsechzig Punkte steigt, wobei Microsoft fast sieben Prozent zulegt. Yahoo Finance berichtete am vierten November, dass Apple im Zuge von Kostensenkungen berichte zufolge die KI-Budgets seiner Mitarbeiter kürzt. MarketWatch berichtete am vierten November, dass Microsoft und Amazon zusammen einen Anstieg der Marktkapitalisierung um vierhundertvierundzwanzig Milliarden Dollar verzeichneten und erklärt die dahinterliegenden Faktoren. Seeking Alpha berichtete am vierten November, dass Microsoft um sieben Prozent steigt und ein neues zweiundfünfzig-Wochen-Hoch mit dem Kürzel MSFT auf Nasdaq erreicht. Yahoo Finance berichtete am vierten November, dass Adobe den CX Enterprise Coworker auf die wichtigsten KI-Plattformen bringt. Das waren die Meldungen zu Microsoft.",
+"say": "Neuigkeiten zu Microsoft. Yahoo Finance berichtete am fünften November über Dow-Jones-Futures, die steigen, während die Tech-Werte fallen, und erwähnte Kaufsignale für Apple, Microsoft und Amazon. Yahoo Finance berichtete am fünften November, dass IREN derzeit nur für einen bestimmten Investor geeignet ist. Yahoo Finance berichtete am fünften November über die Frage, wie lange das Bargeld von Strategy reicht. Yahoo Finance berichtete am fünften November darüber, was Alphabet für all diese Ausgaben bekommt. Trefis berichtete am fünften November darüber, was die Amazon-Aktie entgleisen könnte. Yahoo Finance berichtete am fünften November, ob die Palantir-Aktie bereit für ein langsameres Wachstum ist. Das waren die Meldungen zu Microsoft.",
 "ids": [
-"bca753f29aa8",
-"4400755e7bcd",
-"c4b0a57b4e93",
-"8639f70f7899",
-"7c8ea9767625",
-"038403a19134"
+"84c5e0ee5bc5",
+"83660146e69b",
+"b3ec5e24d8f0",
+"d9c59c461bae",
+"b5c4d5629768",
+"5f2568a7725d"
 ],
 "n": 6,
 "audio": {
 "file": "ent/dn_MSFT.mp3",
-"hash": "98039b71fffc771f",
-"dur": 84.3,
+"hash": "3e5aea5e5230a475",
+"dur": 55.3,
 "engine": "edge"
 }
 },
 "PLTR": {
 "name": "Palantir",
-"say": "Neuigkeiten zu Palantir. Yahoo Finance berichtete am vierten November, dass Bankaktien den Ausbruch zu finanzieren scheinen, während der Markt anzieht. TheStreet berichtete am vierten November, dass Cathie Wood stürzende Tech-Aktien im Wert von zehn Komma neun Millionen Dollar kauft. Yahoo Finance berichtete am vierten November, dass Cathie Wood eine Auswahl zwischen Palantir und Google trifft. Seeking Alpha berichtete am vierten November, dass Palantir den Ausverkauf aufgrund von Buchungen und Bewertungsbedenken auf die siebte Sitzung in Folge ausweitet. TradingView berichtete am vierten November ebenfalls, dass Palantir eine Ausweitung des Ausverkaufs auf die siebte Sitzung in Folge erlebte. TradingView berichtete am vierten November zudem, dass die Aktie von Wayfair steigt. Das waren die Meldungen zu Palantir.",
+"say": "Neuigkeiten zu Palantir. Barron's berichtete am fünften November über Marvell, Lumentum, Oracle, SpaceX, Rivian, Apple, Palantir und weitere Aktien, die den heutigen Markt erklären. Yahoo Finance berichtete am fünften November darüber, ob die Palantir-Aktie bereit für ein langsameres Wachstum ist. TheStreet berichtete am fünften November, dass Jim Cramer ein klares Signal zur Apple- und Palantir-Aktie gesendet hat. AOL.com berichtete am fünften November, dass Palantir gerade Unternehmensgeschichte geschrieben hat und stellte die Frage, ob die Aktie ein Kauf ist. TradingView berichtete am fünften November, dass Cathie Wood Palantir-Aktien im Wert von elf Millionen Dollar im Rahmen einer Buy-the-Dip-Aktion erworben hat. Investing.com Canada berichtete am fünften November über Form vier Palantir Technologies Inc. Für den fünften November. Das waren die Meldungen zu Palantir.",
 "ids": [
-"dd2d265a41a5",
-"06007c84502c",
-"735ec173f20d",
-"44dbdf92d37e",
-"6f5043c50153",
-"f0bf417f32cc"
+"402b1c317edc",
+"5f2568a7725d",
+"b0a93b492a73",
+"4d606debdbc2",
+"59629bf35af9",
+"e2972b1e7f55"
 ],
 "n": 6,
 "audio": {
 "file": "ent/dn_PLTR.mp3",
-"hash": "c32b8514795dd38c",
-"dur": 58.6,
+"hash": "f0e8c4d6244f60d2",
+"dur": 67.2,
 "engine": "edge"
 }
 },
 "IBM": {
 "name": "IBM",
-"say": "Neuigkeiten zu IBM. Yahoo Finance berichtete am vierten November, dass International Business Machines beziehungsweise IBM Quantenverschlüsselung auf Heron R2 einsetzt. Yahoo Finance berichtete am vierten November, dass Lockheed neunundzwanzig Komma fünf Millionen Dollar wegen Ansprüchen zu angeblicher Diskriminierung zahlt. Der IBM Newsroom berichtete am vierten November, dass Confluent seine Streamhouse-Architektur vorstellt, um KI mit Echtzeit-Geschäftskontext zu unterstützen. Yahoo Finance berichtete am vierten November über die Frage, ob der Aktienwechsel von Hewlett Packard Enterprise etwas ändert. The Globe and Mail berichtete am vierten November, dass IBM im vergangenen Jahr um achtzehn Komma fünf Prozent abgestürzt ist und stellt die Frage nach einer Neubewertung der Aktie. Die Traders Union berichtete am vierten November, dass die IBM-Aktie angesichts von Abwärtsdruck und Widerstandsfähigkeit langfristiger Indikatoren eine gemischte Tendenz zeigt. Das waren die Meldungen zu IBM.",
+"say": "Neuigkeiten zu IBM. Yahoo Finance berichtete am fünften November darüber, wie lange das Bargeld von Strategy reicht. Yahoo Finance berichtete am fünften November, ob die Palantir-Aktie bereit für ein langsameres Wachstum ist. Yahoo Finance berichtete am fünften November über die Frage, ob die Dell-Aktie die fünfhundertsechzig-Dollar-Marke erreichen kann. Yahoo Finance berichtete am fünften November, dass Confluent die Streamhouse-Architektur einführt, um Echtzeit-KI zu unterstützen. Finanzen.net berichtete am vierten November, dass sich die D-Wave Quantum Aktie am Abend fester zeigt. Yahoo Finance berichtete am vierten November, dass International Business Machines (IBM) Quantenverschlüsselung auf Heron R2 einsetzt. Das waren die Meldungen zu IBM.",
 "ids": [
-"abb6e0157354",
-"202fa16a2e17",
-"848648543c3f",
-"bf53a747ffe0",
-"bbe1b1b41730",
-"15faccb327af"
+"b3ec5e24d8f0",
+"5f2568a7725d",
+"c6b94d9925ec",
+"e3b32c1537af",
+"f7feca0b7268",
+"abb6e0157354"
 ],
 "n": 6,
 "audio": {
 "file": "ent/dn_IBM.mp3",
-"hash": "09e7f97b547195c9",
-"dur": 72.7,
+"hash": "7e55573c28ae613f",
+"dur": 56.8,
 "engine": "edge"
 }
 },
 "OEF": {
 "name": "iShares S&P 100 ETF",
-"say": "Neuigkeiten zum iShares S&P einhundert ETF. Yahoo Finance Canada berichtete am vierten November über das saisonale Renditediagramm des iShares S&P einhundert ETF mit dem Kürzel OEF.MX. Finanzen.net berichtete am vierten November, dass sich der iShares STOXX Global Select Dividend einhundert ETF auf grünem Terrain befindet. Finanzen.net berichtete am vierten November, dass sich der iShares NASDAQ einhundert ETF fester zeigt. Finanzen.net berichtete am vierten November über Abschläge beim iShares STOXX Global Select Dividend einhundert ETF. T-Online berichtete am dritten November zum Handelsschluss in New York, dass sich die Nasdaq dank guter Chiptitel etwas erholt hat. Finanzen.net berichtete am dritten November, dass der iShares NASDAQ einhundert ETF positive Vorzeichen aufweist. Das waren die Meldungen zum iShares S&P einhundert ETF.",
+"say": "Neuigkeiten zu iShares S&P einhundert ETF. Finanzen.net berichtete am fünften November, dass sich der iShares NASDAQ einhundert ETF verbilligt. Finanzen.net berichtete am vierten November, dass der iShares S&P fünfhundert Information Technology Sector ETF gesucht ist. Yahoo! Finance Canada berichtete am vierten November über das saisonale Renditediagramm des iShares S&P einhundert ETF. Finanzen.net berichtete am vierten November, dass der iShares STOXX Global Select Dividend einhundert ETF auf grünem Terrain steht. Finanzen.net berichtete am vierten November, dass sich der iShares NASDAQ einhundert ETF fester zeigt. Finanzen.net berichtete am vierten November, dass der iShares STOXX Global Select Dividend einhundert ETF Abschläge verzeichnet. Das waren die Meldungen zu iShares S&P einhundert ETF.",
 "ids": [
+"fc5039b81714",
+"a3d440184239",
 "d08ca6fa05df",
 "7a3ff6b7c974",
 "057829f4839f",
-"f9ebed241942",
-"688a3a1a130f",
-"a225da7b2874"
+"f9ebed241942"
 ],
 "n": 6,
 "audio": {
 "file": "ent/dn_OEF.mp3",
-"hash": "2de4db08cd46b786",
-"dur": 69.2,
+"hash": "0404fe70352db0c8",
+"dur": 67.2,
 "engine": "edge"
 }
 },
 "NOW": {
 "name": "ServiceNow",
-"say": "Neuigkeiten zu ServiceNow. boerse.de berichtete am vierten November: ServiceNow-Aktie: Lohnt sich der Einstieg im Monat November? - boerse.de. Onvista berichtete am vierten November: Servicenow: Nach dem Kursrückgang überwiegen die Chancen. Seeking Alpha berichtete am vierten November: ServiceNow-Aktie: Die Einführung von KI boomt, aber die Kosten steigen schneller (NYSE:NOW). Seeking Alpha berichtete am vierten November: ServiceNow: Die Einführung von KI boomt, aber die Kosten steigen schneller. ServiceNow berichtete am vierten November: NBA und ServiceNow erweitern ihre Partnerschaft, um die Mitarbeitererfahrung mit ServiceNow EmployeeWorks zu verbessern. Yahoo Finance berichtete am vierten November: Marktwachstum für KI-Automatisierung 2027: Microsoft, AWS, Accenture, ServiceNow und Salesforce rennen um die Skalierung der Agentenautomatisierung. Das waren die Meldungen zu ServiceNow.",
+"say": "Neuigkeiten zu ServiceNow. XTB.com berichtete am fünften November, dass die ServiceNow Aktie unter Druck steht, da ein enttäuschender Ausblick für das vierte Quartal die Wall Street schockt. www.debelegger.nl berichtete am fünften November über den Aktienkurs, das Diagramm und die Analyse von ServiceNow. Yahoo Finanzen Deutschland berichtete am fünften November über Aktienkurs, Nachrichten und Verlauf von ServiceNow. ServiceNow berichtete am fünften November, dass LTM und ServiceNow ihre Partnerschaft erweitern, um die Agenten-KI zu skalieren und die gemeinsame Markteinführung zu beschleunigen. Yahoo Finance berichtete am fünften November über Meta-Titel-Zitate. The Defiant berichtete am fünften November, dass die Emittenteneinwände von OKX-ICE Stock Venue zweiundsechzig erreichen. Das waren die Meldungen zu ServiceNow.",
 "ids": [
-"625915f4ddf8",
-"82f29b46e3be",
-"9b3419573aa2",
-"26a1879d680b",
-"d99440d88110",
-"a5ce0a270b50"
+"b1deddd8da56",
+"231e5f8f0f93",
+"f8953b8704af",
+"9fa64aa34720",
+"308161020c5f",
+"bf668e4fea33"
 ],
 "n": 6,
 "audio": {
 "file": "ent/dn_NOW.mp3",
-"hash": "68b36a9f00b534a7",
-"dur": 74.7,
+"hash": "707944d2397367fa",
+"dur": 62.8,
 "engine": "edge"
 }
 },
 "META": {
 "name": "Meta Platforms",
-"say": "Neuigkeiten zu Meta Platforms. Yahoo Finance berichtete am vierten November: Dow-Jones-Futures: Wahlen, sinkende Ölpreise befeuern grosse Rallye; Apple-, Microsoft- und Amazon-Flash-Kaufsignale. CoreWeave, SpaceX-Skid. Yahoo Finance berichtete am vierten November: TV-Veteran Latour übernimmt die Leitung der Meta-Branding-Strategie. Yahoo Finance berichtete am vierten November: Berichten zufolge schnallt Apple im Zuge der Kostensenkungsbemühungen den Gürtel bei den KI-Budgets seiner Mitarbeiter enger. Stock Titan berichtete am vierten November: In acht Transaktionen verkauft ein Andreessen Horowitz-Fonds zwanzigtausendneunhunderteinundfünfzig Meta Platforms (META)-Aktien. Yahoo Finance berichtete am vierten November: Ironischerweise könnte die blaue Welle Hyperscaler wieder zu guten Unternehmen machen, indem sie Investitionsdisziplin erzwingt. Yahoo Finance berichtete am vierten November: Top VC: Die besten KI-Modelle nehmen achtzig Prozent Plus der Ausgaben ein. Und Gemini von Alphabet landete gerade auf Platz eins. Das waren die Meldungen zu Meta Platforms.",
+"say": "Neuigkeiten zu Meta Platforms. Yahoo Finance berichtete am fünften November über steigende Dow-Jones-Futures und fallende Tech-Werte sowie Kaufsignale für Apple, Microsoft und Amazon. Yahoo Finance berichtete am fünften November darüber, was Alphabet für all diese Ausgaben bekommt. Trefis berichtete am fünften November darüber, was die Amazon-Aktie entgleisen könnte. FinanzNachrichten.de berichtete am fünften November im Kontext der nationalen Sicherheit, dass Peking durchgreift und SoftBanks grosser KI-Plan vor dem Aus steht. Yahoo Finance berichtete am fünften November, dass eine massive Marktrotation die Frage aufwirft, ob der Verkauf-KI-Handel von Dauer sein wird. The Globe and Mail berichtete am fünften November, dass zwei historische Aktiensplits mit künstlicher Intelligenz bekannt gegeben wurden. Das waren die Meldungen zu Meta Platforms.",
 "ids": [
-"bca753f29aa8",
-"76fb9893309e",
-"c4b0a57b4e93",
-"56c44ee1b389",
-"2a3201c1dce6",
-"60c5bdd9736d"
+"84c5e0ee5bc5",
+"d9c59c461bae",
+"b5c4d5629768",
+"fe8b98722460",
+"29ab672bcb93",
+"c28fe7683cc5"
 ],
 "n": 6,
 "audio": {
 "file": "ent/dn_META.mp3",
-"hash": "c535fdaf0ec05f30",
-"dur": 84.2,
+"hash": "62a0fce982eafcb6",
+"dur": 64.2,
 "engine": "edge"
 }
 },
@@ -4049,12 +4105,12 @@
 "name": "Amazon",
 "say": "Neuigkeiten zu Amazon. Yahoo Finance berichtete am vierten November: Dow-Jones-Futures: Wahlen, sinkende Ölpreise befeuern grosse Rallye; Apple-, Microsoft- und Amazon-Flash-Kaufsignale. CoreWeave, SpaceX-Skid. MarketWatch berichtete am vierten November: Microsoft und Amazon verzeichneten zusammen einen Anstieg der Marktkapitalisierung um vierhundertvierundzwanzig Milliarden Dollar – und diese Faktoren zeigen, warum. Seeking Alpha berichtete am vierten November: Amazon steigt um sechs Prozent, da Hyperscaler aufgrund der US-Wahlergebnisse vorankommen (AMZN:NASDAQ). Yahoo Finance berichtete am vierten November: Dow strebt die beste Leistung nach der Wahl seit Jahrzehnten an. Yahoo Finance berichtete am vierten November: Ironischerweise könnte die blaue Welle Hyperscaler wieder zu guten Unternehmen machen, indem sie Investitionsdisziplin erzwingt. Yahoo Finance berichtete am vierten November: Warum Ethereum dem Playbook von Amazon folgt: CEO von Sharplink. Das waren die Meldungen zu Amazon.",
 "ids": [
-"bca753f29aa8",
-"8639f70f7899",
-"66c22df0b51f",
-"af475af13056",
-"2a3201c1dce6",
-"55f7ddc7cb3d"
+"84c5e0ee5bc5",
+"2267f2942599",
+"d9c59c461bae",
+"b5c4d5629768",
+"5f2568a7725d",
+"38d55a6dcafd"
 ],
 "n": 6,
 "audio": {
@@ -4068,12 +4124,12 @@
 "name": "Marvell Technology",
 "say": "Neuigkeiten zu Marvell Technology. Seeking Alpha berichtete am vierten November: Lumentum geht um acht Prozent zurück und setzt seinen Rückgang nach dem All-Stock-Deal mit Marvell fort (LITE:NASDAQ). Yahoo Finance berichtete am vierten November: Astera Labs stürzt in drei Monaten um siebenundzwanzig Prozent ab: Aktie kaufen, verkaufen oder halten? Yahoo Finance berichtete am vierten November: Die Credo-Aktie ist im letzten Monat um siebenundzwanzig Prozent gefallen: Was sollten Anleger als nächstes tun? Yahoo Finance berichtete am vierten November: Nvidia ist bei weitem nicht die einzige Bedrohung für AMD. Yahoo Finance berichtete am vierten November: Chip-Aktien fühlen sich nach Siegen der Demokratischen Partei schlecht. AOL.com berichtete am vierten November: Marvells Deal zur Übernahme von Lumentum könnte für die Aktie von entscheidender Bedeutung sein. Das waren die Meldungen zu Marvell Technology.",
 "ids": [
-"4bd051266ee8",
-"5fd4cedac206",
-"be4eb2d2de8d",
-"de78100d2ed6",
-"5aea42494f7b",
-"1d3dcfaf9f06"
+"b0a93b492a73",
+"16ee8f7ae948",
+"bf9922809bcd",
+"f2efd11462aa",
+"0e1abd7627ec",
+"e67ba2633870"
 ],
 "n": 6,
 "audio": {
@@ -4087,12 +4143,12 @@
 "name": "SoftBank Group",
 "say": "Neuigkeiten zu SoftBank Group. Yahoo Finance UK berichtete am vierten November: SoftBank Group Corp. (neuntausendneunhundertvierundachtzig.T) aktuelle Aktiennachrichten und Schlagzeilen. Yahoo Finance berichtete am vierten November: Kioxia fiel um dreizehn Prozent und SoftBank fiel um sieben Prozent, als die blaue Welle Tokio erreichte. The Washington Post berichtete am vierten November: Die weltweiten Anteile sind grösstenteils höher, da die Demokraten sowohl im US-Repräsentantenhaus als auch im US-Senat die Mehrheit gewinnen. NTG24 berichtete am vierten November: Asien-Schluss: US-Midterms spalten Asiens Börsen – AI-Ausverkauf in Tokio. TheReport.live berichtete am vierten November: Globale Aktien steigen, nachdem die Demokraten die Kontrolle über den US-Kongress gewonnen haben. Yahoo! Finance Canada berichtete am vierten November: Asiatische Aktien und US-Futures sind gemischt, da die Demokraten sowohl im US-Repräsentantenhaus als auch im US-Senat die Mehrheit gewinnen. Das waren die Meldungen zu SoftBank Group.",
 "ids": [
-"daa86e7bdcba",
-"d1bacf7cc1c7",
-"e12d754ffc78",
-"87e20b12b858",
-"53b6b51ddbe3",
-"99b52f6c3b46"
+"6a1706ddde65",
+"0cd697e95e48",
+"07777a7a0c42",
+"c11c2792a5e2",
+"708b44a15427",
+"8bc5c2d3f550"
 ],
 "n": 6,
 "audio": {
@@ -4106,12 +4162,12 @@
 "name": "Corning",
 "say": "Neuigkeiten zu Corning. MarketWatch berichtete am vierten November, dass die Aktie von Corning Inc. am Mittwoch im Vergleich zur Konkurrenz schlechter abschnitt. Finanzen.ch meldete am selben Abend, dass Corning weit abgeschlagen ist und am Nachmittag eine rote Tendenz zeigte. Zudem gab es Berichte von Investing.com zur Telefonkonferenz von Owens Corning, bei der die Schätzungen für das dritte Quartal 2026 verfehlt wurden, die Aktie dennoch stieg, sowie positive Nachrichten von Yahoo Finance zu ANET aufgrund starker KI- und Unternehmensnachfrage. Das waren die Meldungen zu Corning.",
 "ids": [
+"66f5e54f07f5",
+"af25f8503ac4",
+"30298396ce26",
+"e225475234c4",
 "1b4adc9b5d33",
-"b8a0abfb82c5",
-"eb3fa0e35a57",
-"c01eecb37845",
-"edac96129bab",
-"3d1efd2ee9ff"
+"b8a0abfb82c5"
 ],
 "n": 6,
 "audio": {
@@ -4125,12 +4181,12 @@
 "name": "Applied Materials",
 "say": "Neuigkeiten zu Applied Materials. MarketWatch berichtete am vierten November, dass die Aktie von Applied Materials Inc. am Mittwoch im Vergleich zur Konkurrenz schlechter schnitt. Finanzen.net meldete am Abend Kursabschläge für Arm. Trefis ging der Frage nach, warum die Enphase-Aktie gestiegen ist, und Yahoo Finance berichtete, dass Intel dem Semiconductor Pathways Fund beitritt, um die Talent-Pipeline im Ingenieurwesen in den USA zu stärken. Wallstreet Online meldete, dass Aixtron bei hohem Handelsumsatz abrutschte, während Yahoo Finance analysierte, was die KLA-Aktie entgleisen könnte. Das waren die Meldungen zu Applied Materials.",
 "ids": [
-"13f12f2f0bb0",
-"a083e6eb124a",
-"c893a85b38fa",
-"8c73ec97557b",
-"2dfe232c8f89",
-"d108622a645d"
+"ebef31207b43",
+"b8ec83cc9a7b",
+"ad459790f1c4",
+"8b44604b046c",
+"a94159aa7959",
+"13f12f2f0bb0"
 ],
 "n": 6,
 "audio": {
@@ -4144,12 +4200,12 @@
 "name": "Arm",
 "say": "Neuigkeiten zu Arm. Yahoo Finance berichtete am vierten November, dass Arm seine vierteljährlichen Ziele hinsichtlich des wachsenden Rechenzentrumsgeschäfts übertraf, die Aktie jedoch fiel. CNBC meldete ebenfalls, dass Arm Holdings Gewinne und Umsätze übertraf, die Aktien im erweiterten Handel aber leicht nachgaben. Investing.com Deutsch wies auf enttäuschende Royalty-Einnahmen hin, die erklären, warum die Aktie nachbörslich nachgab, und berichtete, dass Goldman Sachs die Verkaufsempfehlung bekräftigte. Zudem erwähnte Yahoo Finance allgemeine Marktbedingungen wie Wahlen und sinkende Ölpreise. Das waren die Meldungen zu Arm.",
 "ids": [
-"7ca909f78ec4",
-"bca753f29aa8",
-"d008c69760ac",
-"beda7ab6c059",
-"f7096f7ed744",
-"e3ce9ff375b1"
+"84c5e0ee5bc5",
+"c69933afab36",
+"177a6467148c",
+"1a78ba283256",
+"63c49f1d9b76",
+"399cfe3403d2"
 ],
 "n": 6,
 "audio": {
@@ -4163,11 +4219,11 @@
 "name": "Robinhood Markets",
 "say": "Neuigkeiten zu Robinhood Markets. TradingView berichtete am vierten November, dass die Gewinnmitteilung von Robinhood für das dritte Quartal Kostendisziplin und Expansion unterstreicht. Yahoo Finance beleuchtete die Entwicklung von Stablecoins durch Circle, während The Globe and Mail ein Update für Investoren lieferte. AOL.com betonte, dass eine Marktnische für Robinhood wächst, weshalb eine optimistische Haltung zur HOOD-Aktie besteht. Ausserdem machte Yahoo Finance auf die Integration von Satellite Intelligence von SkyFi als Robinhood Agent App aufmerksam, und Finanzen.ch analysierte Krypto-Aktien im Sog von Binance. Das waren die Meldungen zu Robinhood Markets.",
 "ids": [
-"a2f80583b4f8",
+"a8f1e936da37",
+"308161020c5f",
+"d6ea39fe028e",
+"a13c73e552ab",
 "89d4ce8c84ff",
-"f7c487be7d97",
-"b418e0243a4e",
-"32b50354c57d",
 "72511f9f8991"
 ],
 "n": 6,
@@ -4182,11 +4238,9 @@
 "name": "SPDR MSCI World Energy ETF",
 "say": "Neuigkeiten zu SPDR MSCI World Energy ETF. Yahoo Finance Canada berichtete am dritten November über saisonale Renditediagramme zum iShares MSCI World Energy Sector Advanced UCITS ETF sowie zum Xtrackers MSCI World Energy UCITS ETF. Das waren die Meldungen zu SPDR MSCI World Energy ETF.",
 "ids": [
-"94dd4754167c",
-"814b26ebb948",
-"a2b43b62293e"
+"94dd4754167c"
 ],
-"n": 3,
+"n": 1,
 "audio": {
 "file": "ent/dn_WNRG_SW.mp3",
 "hash": "5ba003fdbb10bff6",
@@ -4198,12 +4252,12 @@
 "name": "Bloom Energy",
 "say": "Neuigkeiten zu Bloom Energy. Yahoo Finance berichtete am vierten November über die Bloom Energy-Aktie im Fokus nach einem Stromdeal in Kalifornien. Seeking Alpha beleuchtete, wie die KI-Revolution nun Strom benötigt, während Barron's argumentierte, warum Bloom Energy als Gewinner aus der Gegenreaktion von KI-Rechenzentren hervorgehen kann. Seeking Alpha berichtete zudem über eine Herabstufung auf Halten, da die Negativität zunimmt, und Stock3 analysierte Bloom Energy im Zusammenhang mit KI-Energie powered by Brennstoffzelle. Das waren die Meldungen zu Bloom Energy.",
 "ids": [
+"e917d93b9361",
+"07171dc79208",
 "295b009bb7a5",
 "6afd36b4911e",
 "a52193824928",
-"1a29d9959feb",
-"34ce406ca6f4",
-"e8e121f605ec"
+"1a29d9959feb"
 ],
 "n": 6,
 "audio": {
@@ -4217,10 +4271,9 @@
 "name": "Hyliion",
 "say": "Neuigkeiten zu Hyliion. Yahoo Finance berichtete am vierten November, dass XPEL die Gewinn- und Umsatzschätzungen für das dritte Quartal übertraf. Zudem gab es am dritten November Berichte von Yahoo Finance zur Optionskette von Hyliion Holdings Corp. Das waren die Meldungen zu Hyliion.",
 "ids": [
-"a22f1fc50977",
-"c8147b33d28f"
+"a22f1fc50977"
 ],
-"n": 2,
+"n": 1,
 "audio": {
 "file": "ent/dn_HYLN.mp3",
 "hash": "33fdc57cd6842140",
@@ -4232,12 +4285,12 @@
 "name": "Siemens Energy",
 "say": "Neuigkeiten zu Siemens Energy. Finanzen.net berichtete am vierten November über Abschläge und Verluste am Vormittag und Nachmittag sowie am Mittwochmittag auf rotem Terrain bei der Siemens Energy Aktie. FinanzNachrichten.de berichtete am vierten November über den Ausstieg aus Ol und Gas und wie ein Olproduzent Deutschland den Weg aus der Energiefalle zeigt. Wallstreet Online berichtete am vierten November, welche Aktien jetzt zu Gewinnern werden und dass deutsche Konzerne dabei sind. Finanzen.net berichtete am vierten November zudem über einen freundlichen Handel in Frankfurt und einen DAX zum Handelsende in der Gewinnzone. Das waren die Meldungen zu Siemens Energy.",
 "ids": [
-"f7fc69a90a71",
-"4faab7f8173a",
-"0a4d4f40fdc6",
-"64a55f7e211b",
-"7e98ae700d06",
-"5cf19bb9634f"
+"4bbb9d4f1c0b",
+"9cb03aa118e6",
+"b93288224e6c",
+"4e5003ad964f",
+"47a2e8549393",
+"ab8385bda7f5"
 ],
 "n": 6,
 "audio": {
@@ -4251,12 +4304,12 @@
 "name": "Oklo",
 "say": "Neuigkeiten zu Oklo. Yahoo Finance berichtete am vierten November laut Wedbush uber drei Nuklearaktien mit einem Aufwartspotenzial von uber fünfzig Prozent sowie uber NANO Nuclear Energy und zwei weitere Top-Atomaktien, die man im Auge behalten sollte. Asianet Newsable berichtete am vierten November, dass OKLO-, NNE- und SMR-Aktien im Fokus stehen, da Wedbush Oklo und Nano Nuclear auswahlt, weil die KI-Energienachfrage den Bullenmarkt anheizt, wahrend vor NuScale gewarnt wird. Yahoo Finance Australia und Yahoo Finance UK berichteten am vierten November uber aktuelle Borsennachrichten und Schlagzeilen zu Oklo Inc. und NANO Nuclear Energy Inc. scanx.trade berichtete am dritten November, dass Oklo-Aktien um elf Prozent steigen, da die Spannungen zwischen den USA und Kanada den Atomsektor ankurbeln. Das waren die Meldungen zu Oklo.",
 "ids": [
+"9733ab4da196",
+"0b114f7538a1",
 "05eb3d429d0e",
 "d40d60c9686d",
 "9f0e33095962",
-"c9f23596eadb",
-"5127c7b207d1",
-"1e2513ac4793"
+"c9f23596eadb"
 ],
 "n": 6,
 "audio": {
@@ -4270,12 +4323,12 @@
 "name": "Rolls-Royce",
 "say": "Neuigkeiten zu Rolls-Royce. Yahoo Finance berichtete am vierten November uber den globalen Marktbericht fur elektrische Regionalflugzeuge bis 2030, in dem Airbus, Embraer, ZeroAvia und Heart Aerospace einen Hybrid-Elektro-Markt im Wert von zwei Komma neun Milliarden Dollar beschleunigen, sowie uber einen globalen Marktbericht fur Turbowellenmotoren fur Hubschrauber, wonach Safran, GE Aerospace, Honeywell und Rolls-Royce bis 2030 einen Markt von sechs Komma neun Milliarden Dollar vorantreiben. finanzen.ch berichtete am vierten November, dass die Rolls-Royce Aktie am Mittwochnachmittag in Grun tendiert und am Mittwochmittag an Fahrt gewinnt. Morningstar berichtete am vierten November, warum die Wachstums-Story der Rolls-Royce-Aktie noch nicht vorbei ist. Yahoo Finance UK wies am vierten November darauf hin, dass sich Rolls-Royce-Aktionare den zwölften November im Kalender markieren sollen. Das waren die Meldungen zu Rolls-Royce.",
 "ids": [
-"09aaf9bab2cd",
-"9cb7047eeb88",
-"e4053711cdb8",
-"e5570d60cb97",
-"78ebff711752",
-"797fc8343018"
+"e1e122d32b2a",
+"270576d8f270",
+"e56ce75ab30b",
+"1254b76a957c",
+"7a38516338bd",
+"09aaf9bab2cd"
 ],
 "n": 6,
 "audio": {
@@ -4289,12 +4342,12 @@
 "name": "GE Vernova",
 "say": "Neuigkeiten zu GE Vernova. Yahoo Finance berichtete am vierten November uber Dow-Jones-Futures, Wahlen und sinkende Olpreise, die eine grosse Rallye befeuern, sowie uber Kaufsignale fur Apple, Microsoft und Amazon. Barron's berichtete am vierten November, dass GE Vernova, Vertiv und weitere Industrieaktien nach dem Wahlsieg der Demokraten fallen. Seeking Alpha berichtete am vierten November uber den grossten prozentualen Ruckgang von GE Vernova seit Januar 2025 und dass die Aktie so stark absturzt wie seit fast zwei Jahren nicht mehr, wahrend Aktien im Bereich Rechenzentren einbrechen. Yahoo Finance berichtete am vierten November, dass die Gegenreaktion im KI-Rechenzentrum real ist und die blaue Welle Energieaktien vernichtet. Investing.com berichtete am vierten November, dass Amazon und GE Vernova zu den Aktientreibern mit Marktkapitalisierung am Mittwoch gehoren. Das waren die Meldungen zu GE Vernova.",
 "ids": [
-"bca753f29aa8",
-"608daf1eb71f",
-"1894b94e5bf5",
-"1e6c3663ebed",
-"d871cfbaddad",
-"58d065f6a76a"
+"0ecc30264c14",
+"0699139e4b9f",
+"d69b1f7a59f2",
+"5869f053d938",
+"0f818da91f45",
+"3f624da416b1"
 ],
 "n": 6,
 "audio": {
@@ -4308,12 +4361,12 @@
 "name": "GE Aerospace",
 "say": "Neuigkeiten zu GE Aerospace. Trefis berichtete am vierten November uber die Frage, ob die Aktie von GE Aerospace zu einer anderen Wette geworden ist. finanzen.ch und Finanzen.net berichteten am vierten November, dass die Aktie von GE Aerospace am Abend nordwarts tendiert, am Mittwochabend gefragt ist und sich am Nachmittag starker prasentiert. Traders Union berichtete am vierten November, dass die Aktie durch die Erhohung des Rakuten-Anteils mit Unterstutzung der Kaufer ansteigt. Yahoo Finance berichtete am vierten November uber den globalen Marktbericht fur Turbowellenmotoren fur Hubschrauber bis 2030, in dem Safran, GE Aerospace, Honeywell und Rolls-Royce einen Markt von sechs Komma neun Milliarden Dollar antreiben, um von der Modernisierung der Verteidigung zu profitieren. Das waren die Meldungen zu GE Aerospace.",
 "ids": [
-"a47574238094",
-"980b0da4cfe6",
-"be1b319f91bb",
-"2e62250e5478",
-"5dba27422343",
-"e4053711cdb8"
+"84c5e0ee5bc5",
+"5a23414ef9b6",
+"02d7d90aff10",
+"7c8abea4f650",
+"0f818da91f45",
+"3e489492cbf5"
 ],
 "n": 6,
 "audio": {
@@ -4327,12 +4380,12 @@
 "name": "JD.com",
 "say": "Neuigkeiten zu JD.com. Yahoo Finance UK berichtete am vierten November: Die Aktie von JD.com (JD) sieht nach einem Rückgang um sechzig Prozent immer noch wie ein Schnäppchen aus. BILD berichtete am vierten November: MediaMarkt und Saturn vor Übernahme: Was sich für Kunden ändert. Yahoo! Finance Canada berichtete am vierten November: JD.com (JD) könnte bei EU-Genehmigung für Ceconomy-Deal um einunddreissig Prozent unterbewertet sein. SEC EDGAR berichtete am vierten November: JD.com: Mitteilung ausländischer Firma (sechs-K). Dimsum Daily berichtete am vierten November: Hang Seng eröffnet niedriger, da JD.com um zwei Prozent zurückgeht, während Wuxi-Aktien sich dem Trend widersetzen. Yahoo Finance berichtete am vierten November: Die EU genehmigt die Übernahme von Ceconomy durch JD.com unter Auflagen. Das waren die Meldungen zu JD.com.",
 "ids": [
+"05291b339408",
+"a0c309ebc3bb",
 "276daabc65d1",
 "38e33307dfd3",
 "c433bc1a2daa",
-"df1401645713",
-"a755e373e988",
-"55c2bc77171f"
+"64d042758226"
 ],
 "n": 6,
 "audio": {
@@ -4346,12 +4399,12 @@
 "name": "Berkshire Hathaway",
 "say": "Neuigkeiten zu Berkshire Hathaway. Billionaires.Africa berichtete am vierten November: Berkshire des Milliardärs Warren Buffett kauft Sirius XM für sechsundzwanzig Komma neun Millionen Dollar. Billionaires.Africa berichtete am vierten November: Berkshire Hathaway des amerikanischen Milliardärs Warren Buffett kauft weitere Sirius-XM-Aktien für sechsundzwanzig Komma neun Millionen Dollar. ETF Database berichtete am vierten November: Berkshire Hathaway-Ergebnisse rücken BRKU ins Rampenlicht. scanx.trade berichtete am vierten November: Ergebnisse von Berkshire Hathaway Inc Q3GJ26: Veröffentlichung der Ergebnisse für den siebten November geplant. Investing.com berichtete am vierten November: Warum erholt sich die Aktie von Berkshire Hathaway heute?. finanzen.ch berichtete am vierten November: VeriSign Aktie News: VeriSign am Abend fester. Das waren die Meldungen zu Berkshire Hathaway.",
 "ids": [
-"e035e8a22179",
-"3e9d2ef3ebab",
-"a26a22c9a575",
-"5498aa24ddeb",
-"b23bf4a88134",
-"f1af61c2d832"
+"67ca94511b0a",
+"462a595aeefa",
+"3477f8aa4c29",
+"cada1cacf67b",
+"e99def066c4d",
+"5511746d2c47"
 ],
 "n": 6,
 "audio": {
@@ -4365,12 +4418,12 @@
 "name": "ZKB Gold ETF",
 "say": "Neuigkeiten zu ZKB Gold ETF. Eurasia Business News berichtete am vierten November: Aktienmarkt heute: Dow steigt über eintausendfünfhundert Punkte, Demokraten siegen im Kongress und Öl stürzt ab, Gold steigt um +drei Komma drei Prozent. Investify berichtete am vierten November: Goldpreis in Pakistan heute: vierhundertvierundzwanzigtausend Rs/Tola (vierundzwanzigtausend) | Live-Sarafa-Rate. The Economic Times berichtete am vierten November: Der Aktienkurs von Apple erreicht heute ein Rekordhoch: Warum die Marktkapitalisierung der AAPL fünf Billionen US-Dollar übersteigt, nachdem die Demokraten mi. gewonnen haben. Morningstar berichtete am vierten November: US Midterms: Wie die Märkte auf die Kongressgewinne der Demokraten reagieren. Khabarhub berichtete am vierten November: Der Goldpreis steigt heute auf dem nepalesischen Markt um sechshundert Rupien pro Tola. The Economic Times berichtete am vierten November: Tesla-Aktienkurs heute: Warum TSLA fällt, da der Sieg der Demokraten bei den Zwischenwahlen das KI-Rechenzentrum von Elon Musk ins Wanken bringt. Das waren die Meldungen zu ZKB Gold ETF.",
 "ids": [
-"98ab4fd1f48f",
-"542fabc2952e",
-"50049eccad86",
-"068b18713b35",
-"1857144cb667",
-"022247269244"
+"2640d62ed71b",
+"66e16eddd434",
+"f3fc2f774bb9",
+"fe59f5f5dcba",
+"313074f36ce5",
+"1b136a36daa9"
 ],
 "n": 6,
 "audio": {
@@ -4384,12 +4437,12 @@
 "name": "BKW",
 "say": "Neuigkeiten zu BKW. finanzen.ch berichtete am vierten November: BKW Aktie News: BKW am Mittwochnachmittag fester. MarketScreener Schweiz berichtete am vierten November: BKW: UBS hält an seiner Neutral-Empfehlung fest und kürzt das Kursziel von rund einhundertsechsundsechzig Dollar auf rund einhundertzweiundsechzig Dollar. finanzen.ch berichtete am vierten November: BKW Aktie News: BKW am Mittwochmittag mit Aufschlag. finanzen.ch berichtete am vierten November: BKW Aktie News: BKW büsst am Mittwochvormittag ein. finanzen.ch berichtete am dritten November: BKW Aktie News: BKW schiebt sich am Nachmittag vor. finanzen.ch berichtete am dritten November: BKW Aktie News: BKW macht am Mittag Boden gut. Das waren die Meldungen zu BKW.",
 "ids": [
+"f49ff4841186",
+"9604b0fe5dd3",
+"26662dd0bbf6",
 "4de6731ffbf7",
 "5c8edd36fdb6",
-"6dd1161311df",
-"7be6496696dd",
-"27326f5d6cb5",
-"d6807f7adf6b"
+"6dd1161311df"
 ],
 "n": 6,
 "audio": {
@@ -4403,12 +4456,12 @@
 "name": "UBS Group",
 "say": "Neuigkeiten zu UBS Group. Yahoo Finance berichtete am vierten November: Oracle erhält Unterstützung von UBS, da der Broker Bedenken hinsichtlich der KI-Nachfrage zurückweist. Yahoo Finance berichtete am vierten November: ON Holding erhält UBS-Unterstützung trotz gedämpfter Gewinnerwartungen. Seeking Alpha berichtete am vierten November: UBS könnte eine Chance auf einen weniger strengen Kapitalplan bekommen – Bericht (UBS:NYSE). finanzen.ch berichtete am vierten November: UBS-Aktie haussiert: Kompromiss im Streit um Milliarden an Eigenkapital zeichnet sich ab. MarketScreener Schweiz berichtete am vierten November: EMCOR Group, Inc. : erhält Kaufen-Rating von UBS. TheStreet berichtete am vierten November: Rivian-Autokäufer treiben an der Wall Street ein Umdenken in Bezug auf die Aktie voran. Das waren die Meldungen zu UBS Group.",
 "ids": [
-"a68f525647a6",
-"0e2b9ebce1c7",
-"f73aef94b38e",
-"7f6425802a95",
-"709243e3f113",
-"78ae86c5c292"
+"0c44e8b54fdf",
+"9a4ac7d82527",
+"21dba1f1aa1b",
+"ad9c0b62c664",
+"d8fe1d86cfb0",
+"a6fcfac8bafe"
 ],
 "n": 6,
 "audio": {
@@ -4422,12 +4475,12 @@
 "name": "BYD",
 "say": "Neuigkeiten zu BYD. Yahoo Finance UK berichtete am vierten November: Die Aktie von BYD (SEHK:eintausendzweihundertelf) sieht reich aus, da sich ihr Rückgang um siebenundzwanzig Prozent vertieft. Yahoo Finance berichtete am vierten November: Was signalisiert BYD (SEHK:eintausendzweihundertelf) mit einem neuen Han- und Tang-Debüt?. finanzen.ch berichtete am vierten November: BYD Aktie News: Anleger greifen bei BYD am Mittwochnachmittag zu. Seeking Alpha berichtete am vierten November: Li Auto: Grosse Aufträge scheinen unrealistisch (NASDAQ:LI). Yahoo Finance berichtete am vierten November: Ist BYD (SEHK:eintausendzweihundertelf) nach sechs aufeinanderfolgenden Monaten mit NEV-Verkaufswachstum unterbewertet?. Yahoo Finance berichtete am vierten November: BYD und MOGOX stellen auf der SUMW 2026 einen acht Komma fünf Meter langen autonomen Bus der Stufe vier mit Rechtslenkung vor. Das waren die Meldungen zu BYD.",
 "ids": [
-"57124f8e2b47",
-"e0d960705977",
-"8c6308e36ffe",
-"f0b117f4911f",
-"f1b80d53e306",
-"66313e248402"
+"0a7067dfd8c5",
+"74933ae522c8",
+"42df8fa2fe59",
+"2ab957fa27f1",
+"f97ec659218e",
+"57124f8e2b47"
 ],
 "n": 6,
 "audio": {
@@ -4441,12 +4494,12 @@
 "name": "BioNTech",
 "say": "Neuigkeiten zu BioNTech. MarketScreener Deutschland berichtete am vierten November über eine Kaufbewertung von UBS. Marketscreener.com bestätigte ebenfalls am vierten November ein Kaufrating von UBS. Seeking Alpha berichtete am vierten November, dass der Umsatz von Bristol Myers eine enger werdende Onkologie-Wette verschleiert, was zu einer Rating-Herabstufung führte. Boerse.de meldete am vierten November ebenfalls das UBS-Kaufrating. MarketScreener Schweiz berichtete am vierten November, dass das dritte Quartal über den Erwartungen lag, die Umsatzprognose am oberen Ende eingegrenzt wurde und ein neuer CEO einen Kurswechsel einleiten könnte. Investing.com berichtete am vierten November, dass die BofA das Kursziel für die BioNTech-Aktie aufgrund von Modelländerungen auf einhundertacht Dollar gesenkt hat. Das waren die Meldungen zu BioNTech.",
 "ids": [
+"5c2136dbb792",
+"308161020c5f",
+"808751867a2c",
 "f50187b8724f",
 "c38bcce849df",
-"fff2173f232b",
-"bec735b5cb41",
-"5cd7974317ff",
-"beac1cdc4a2d"
+"d2d69630c10a"
 ],
 "n": 6,
 "audio": {
@@ -4460,12 +4513,12 @@
 "name": "ABB LTD",
 "say": "Neuigkeiten zu ABB LTD. Finanzen.net berichtete am vierten November über sehr feste Schweizer Aktien und ein Rekordhoch des SMI nach der US-Kongresswahl. Finanzen.net meldete am vierten November zudem eine grüne Börse Zürich mit einem am Nachmittag festeren SMI. Yahoo Finance Singapore ging am vierten November der Frage nach, ob die Aktien von Industrieprodukten in diesem Jahr hinter ABB zurückliegen. www.marketscreener.com und MarketScreener Schweiz berichteten am vierten November übereinstimmend, dass die UBS das neutrale Rating für ABB bekräftigt und das Kursziel bei rund einhundertacht Dollar belässt. Equitymaster berichtete am vierten November über Aktienkurse und Prognosen. Das waren die Meldungen zu ABB LTD.",
 "ids": [
-"befddb9ba2c6",
-"58009923e34c",
-"91aea99a5edd",
-"9517649f7b85",
-"daba9ba8e2f1",
-"bde38b2af9e0"
+"fe8b98722460",
+"0928a58190a0",
+"0cd697e95e48",
+"708b44a15427",
+"b5b622813816",
+"8bc5c2d3f550"
 ],
 "n": 6,
 "audio": {
@@ -4479,12 +4532,12 @@
 "name": "Seagate Technology PLC",
 "say": "Neuigkeiten zu Seagate Technology PLC. Yahoo Finance berichtete am vierten November, dass Seagate aufgrund der Wahl um acht Prozent und Western Digital um sechs Prozent gesunken sind, was auf Bedenken hinsichtlich der Speicherpreise zurückzuführen ist. Yahoo Finance meldete am vierten November zudem, dass SanDisk um neun Prozent nachgibt und Micron sowie Western Digital um sieben Prozent fallen, da Wahl- und Speicherpreissorgen überwiegen. TradingView berichtete am vierten November, dass der Vorsprung für das erste Quartal und der Ausblick für das zweite Quartal von Western Digital weiteres Margenwachstum signalisieren. TradingView ging am vierten November der Frage nach, ob WDC ein Kauf ist, obwohl die Gewinne steigen, aber die Bewertungs- und Ausführungsrisiken zunehmen, und meldete, dass Western Digital in einem Monat um fünfzehn Komma fünf Prozent gefallen ist. Schliesslich berichtete TradingView am vierten November, dass der Umsatz von Seagate im ersten Quartal um einundsechzig Prozent gestiegen ist und stellte die Frage, ob sich diese Dynamik fortsetzen kann. Das waren die Meldungen zu Seagate Technology PLC.",
 "ids": [
+"2c0790b1a33c",
+"d2d5afa4807c",
+"db69f9d529df",
 "fb460cc60197",
 "3cd8677882be",
-"f5ae4a0bf88c",
-"7e56162dc01f",
-"f724477b1c37",
-"7adcdd6211e8"
+"f5ae4a0bf88c"
 ],
 "n": 6,
 "audio": {
@@ -4498,12 +4551,12 @@
 "name": "Micron Technology",
 "say": "Neuigkeiten zu Micron Technology. Yahoo Finance berichtete am vierten November über eine Prognose, wonach sich die Micron-Aktie im Jahr 2027 verdreifachen wird. Wallstreet Online berichtete am vierten November über Kursausreisser im US Tech einhundert und nannte Top- und Flop-Aktien am vier.elf.2026. Yahoo Finance, finanzen.ch und Finanzen.net berichteten am vierten November übereinstimmend über fallende Kurse und dass Micron Technology am Abend beziehungsweise am Mittwochabend weit abgeschlagen auf den Verkaufszetteln der Anleger stand. Ausserdem berichtete Yahoo Finance am vierten November, dass Micron um sechs Prozent sinkt, da der Wahlsieg der Demokraten Ängste vor einer Verlangsamung des Aufbaus der Künstlichen Intelligenz schürt. Das waren die Meldungen zu Micron Technology.",
 "ids": [
-"647b3a0dbccc",
-"9fc0f163d688",
-"ddfff2b23080",
-"73d9c4e95f1c",
-"195dffe21a9b",
-"c13e8c7fc974"
+"06aebda4c031",
+"2c0790b1a33c",
+"d3b63a85083f",
+"381898c98b72",
+"0c96d9476463",
+"352e27c8e835"
 ],
 "n": 6,
 "audio": {
@@ -4520,10 +4573,9 @@
 "fc532dde1389",
 "cd725e70172f",
 "b971ef6e9942",
-"14757f554d0f",
-"0479a369e5e3"
+"14757f554d0f"
 ],
-"n": 5,
+"n": 4,
 "audio": {
 "file": "ent/dn_DRO_AX.mp3",
 "hash": "084a7da190dabe75",
@@ -4538,26 +4590,26 @@
 "name": "Die neuesten 20 Marktmeldungen",
 "say": "Die neuesten Meldungen vom Gesamtmarkt. NBC News berichtete am vierten November: Die Aktien steigen, da der blaue Tsunami die politische Unsicherheit beseitigt. MarketScreener Schweiz berichtete am vierten November: Wall Street schliesst nach Sieg der Demokraten im Kongress höher; Rechenzentrumsaktien brechen ein. Reuters berichtete am vierten November: Wall Street schliesst höher, nachdem die Demokraten den Kongress gewonnen haben; Datencenter-Aktien fallen. Barchart.com berichtete am vierten November: US-Aktien steigen und der Dow steigt um eintausendfünfhundert Punkte, da die Ölpreise nach den Zwischenwahlen fallen. FXStreet berichtete am vierten November: USD/CHF-Preisprognose: Zweimonatstief bedroht bullische Struktur. MarketScreener Schweiz berichtete am vierten November: Wall Street steigt nach Sieg der Demokraten im Kongress, Rechenzentrumsaktien stürzen ab. Central Oregon Daily berichtete am vierten November: Wall Street steigt, nachdem die Demokraten den Kongress gewonnen haben; Datencenter-Aktien fallen. Economies.com berichtete am vierten November: US-Aktien steigen, da der Dow nach dem Halbzeitsieg der Demokraten eintausendfünfhundert Punkte zulegt. XTB.com berichtete am vierten November: Börse heute: US-Wahlen beflügeln Wall Street – Ölpreis bricht ein, Gold über viertausend Dollar. WSJ berichtete am vierten November: US-Aktien steigen, nachdem die Demokraten den Kongress gesiegt haben. CBS News berichtete am vierten November: Dow steigt um eintausendfünfhundert Punkte, nachdem die Demokraten die Kontrolle über den Kongress übernommen haben. Bilanz berichtete am vierten November: Die Unsicherheit bleibt hoch. Barchart.com berichtete am vierten November: Die SpaceX-Aktie kann vom Börsengang von Anthropic profitieren, aber SPCX bleibt unattraktiv. Wallstreet Online berichtete am vierten November: Wo an der Wall Street das grosse Geld verdient wird. Lexington Herald Leader berichtete am vierten November: Hat die blaue Welle der Wahlen eine Rallye für KY Bourbon ausgelöst? Warum die Alkoholaktien steigen. marketscreener.com berichtete am vierten November: Kundgebungen an der Wall Street nach Sieg der Demokraten im Kongress; Datencenter-Aktien rutschen ab. Barchart.com berichtete am vierten November: Apple-Aktien sind ein guter Ort, um sich inmitten der Angst vor KI-Investitionen zu verstecken, aber erwarten Sie keine grossen Gewinne. Bloomberg.com berichtete am vierten November: Trumps mittelfristiger Verlust lässt Kanada entweder über ein Handelsabkommen nachdenken oder abwarten. Reuters berichtete am vierten November: Vom Iran zum Handel: Wie sich die Zwischenwahlen in den USA auf den Rest der Welt auswirken. SMH.com.au berichtete am vierten November: ASX steht vor einem Höhenflug, während die Wall Street sich erholt; Trump Media stürzt ab, Tesla und SpaceX fallen; Die Ölpreise fallen. Das waren die neuesten Marktmeldungen.",
 "ids": [
-"b3410b58a97d",
-"1833c6b4d930",
-"74555850f322",
-"958ab5846765",
-"22a3adae114b",
-"4046f96d450c",
-"b808e048c34b",
-"40f839522289",
-"1d99368ba4c2",
-"294d404a8d5f",
-"bc6b907a3c8f",
-"32ef27352177",
-"a2719e34a394",
-"5309ca857a49",
-"16b508ebaa4c",
-"34cd3d9b9de8",
-"c4f8d73e3b71",
-"d9a807b48aed",
-"a865814650b9",
-"1a77020b76ec"
+"9274d710d24b",
+"c9e91a2c3dc9",
+"51cd4e00837c",
+"708bca8bfb3b",
+"e9559c3d9cda",
+"4dae983ab7b4",
+"91f7d7b876b5",
+"49237f6c8895",
+"c18f1afa98e0",
+"79a7a541e0a7",
+"a02d3a3fef45",
+"402f37ab1b5d",
+"f0de63df640a",
+"839fadb68f72",
+"49f8f7c04a31",
+"efe739a1069b",
+"1476e5c9af4a",
+"e5361d827c40",
+"622b63f026ba",
+"33634b58e5c9"
 ],
 "n": 20,
 "audio": {
@@ -4572,14 +4624,14 @@
 "name": "Zölle und Handel",
 "say": "Zum Thema Zölle und Handel. Lexington Herald Leader berichtete am vierten November: Hat die blaue Welle der Wahlen eine Rallye für KY Bourbon ausgelöst? Warum die Alkoholaktien steigen. Bloomberg.com berichtete am vierten November: Trumps mittelfristiger Verlust lässt Kanada entweder über ein Handelsabkommen nachdenken oder abwarten. Reuters berichtete am vierten November: Vom Iran zum Handel: Wie sich die Zwischenwahlen in den USA auf den Rest der Welt auswirken. Telegraph India berichtete am vierten November: Vom Iran-Krieg bis zu Handelszöllen – wie die mittelfristigen Erfolge der US-Demokraten Trumps Politik verändern könnten. ABC News berichtete am vierten November: Trump gibt im ersten Amtsjahr einundzwanzigtausend Wertpapiergeschäfte bekannt. Yahoo News Singapore berichtete am vierten November: Kanadas Handelsüberschuss steigt im September auf mehr als ein Vierjahreshoch. StreetInsider berichtete am vierten November: Führungskräfte sagen, dass der Sieg der US-Demokraten die Kosten und Zölle der Unternehmen in naher Zukunft wahrscheinlich nicht senken wird. Business Today berichtete am vierten November: Trumps Halbzeitniederlage weckt Hoffnungen auf Zollerleichterungen, doch Indien ist immer noch mit Handelsrisiken konfrontiert, erklären Experten. Das war das Thema Zölle und Handel.",
 "ids": [
-"16b508ebaa4c",
-"d9a807b48aed",
-"a865814650b9",
-"10701def8758",
-"45e7b11da8b6",
-"8c2073c99082",
-"045cd1278570",
-"5ea789e21441"
+"e9559c3d9cda",
+"402f37ab1b5d",
+"839fadb68f72",
+"a6d6b37076ac",
+"1a18982a07f3",
+"7c94bba8563c",
+"2799aeb511a9",
+"c3ffbf9c1183"
 ],
 "n": 8,
 "audio": {
@@ -4593,14 +4645,14 @@
 "name": "Zinsen und Notenbanken",
 "say": "Zum Thema Zinsen und Notenbanken. The Washington Post berichtete am vierten November: «Die weltweiten Anteile sind groesstenteils höher, da die Demokraten sowohl im US-Repräsentantenhaus als auch im US-Senat die Mehrheit gewinnen». Börse Online berichtete am vierten November: «Goldpreis Prognose: Korrektur komplett übertrieben? Das sagt die Commerzbank». The Star berichtete am vierten November: «Ringgit schliesst im Vorfeld der OPR-Entscheidung der BNM höher gegenüber dem US-Dollar». InvestmentWeek berichtete am vierten November: «Tech-Selloff: Fed könnte Zinspolitik lockern». Yahoo Finance UK berichtete am vierten November: «FTSE einhundert steigt leicht an, da die Anleger auf die Zinsentscheidung der Bank of England warten». The New York Times berichtete am vierten November: «Wie der Aktienmarkt auf die Zwischenwahlen reagiert». Yahoo Finance Singapore berichtete am vierten November: «Der FTSE einhundert tendiert vor der Zinsentscheidung der BoE vorsichtig nach oben». das investment berichtete am vierten November: «US-Midterms 2026: Was das Ergebnis für Anleger bedeutet». Das war das Thema Zinsen und Notenbanken.",
 "ids": [
-"40f839522289",
-"fa3bf28a2788",
-"8c42fc73700c",
-"fbbe8394d562",
-"c915ce32a7f1",
-"7be3f8a147ea",
-"9ae4b8ba07af",
-"2b5b935e9aec"
+"a02d3a3fef45",
+"e5361d827c40",
+"622b63f026ba",
+"d00a51d309a8",
+"75166ca5383e",
+"6999410e8f40",
+"fff4ec0e133a",
+"401147601fdd"
 ],
 "n": 8,
 "audio": {
@@ -4614,14 +4666,14 @@
 "name": "SNB und Schweiz",
 "say": "Zum Thema SNB und Schweiz. FXStreet berichtete am vier.elf.2026: USD/CHF-Preisprognose: Zweimonatstief bedroht bullische Struktur. Bilanz berichtete am vier.elf.2026: «Die Unsicherheit bleibt hoch». Cash berichtete am vier.elf.2026: UBS-Ökonomen sehen baldige SNB-Zinserhöhung. FinanceFeeds berichtete am vier.elf.2026: Zusammenfassung des globalen Devisenmarktes: Demokraten gewinnen Zwischenwahlen, Dollar bricht ein, Gold erreicht viertausend Dollar – vierten November 2026. LiteFinance berichtete am vier.elf.2026: Der Franken gewinnt, während der Dollar an Stärke verliert. Prognose vom vier.elf.2026. TradingPedia berichtete am vier.elf.2026: Der Schweizer Franken legt zu, da politische und politische Risiken den USD treffen. FXStreet berichtete am vier.elf.2026: Schweizer Franken: Franken wird durch restriktives SNB-Risiko unterstützt – ING. investrends.ch berichtete am vier.elf.2026: Der Franken ist der Gewinner der US-Midterms – was heisst das für die SNB? | News | Aktuell. Das war das Thema SNB und Schweiz.",
 "ids": [
-"22a3adae114b",
-"32ef27352177",
-"998dad6d4ab6",
-"bc82f583ce99",
-"3d6f0f5c0e17",
-"a2834358835a",
-"d625751df5e6",
-"8afd56573f0b"
+"51cd4e00837c",
+"708bca8bfb3b",
+"33634b58e5c9",
+"280929268dc3",
+"3c716a495d93",
+"b06c0ea9bd62",
+"1c98b77d7da5",
+"ed50f46420a7"
 ],
 "n": 8,
 "audio": {
@@ -4635,14 +4687,14 @@
 "name": "KI und Chips",
 "say": "Zum Thema KI und Chips. Barron's berichtete am vierten November: «AMD-Aktie steigt bei starkem Gewinnanstieg». Cash berichtete am vierten November: «Börsen-Ticker: SMI mit deutlichen Gewinnen – sechzehn von zwanzig Blue Chips im Plus – Umschichtungen von KI zu Bankenwerten nach US-Zwischenwahlen – Meier Tobler nach Übernahmeangebot beflügelt». MarketScreener Schweiz berichtete am vierten November: «Chinesische Unternehmen stehen trotz sechs Mio. Bestellungen vor Engpässen bei Nvidia-KI-Chips». Chosunbiz berichtete am vierten November: «Der Wahlsieg der Demokraten erschüttert die Märkte, da die Aktien von KI, Krypto und Chips in Asien fallen». Börse Online berichtete am vierten November: «dreiunddreissig Prozent Rendite pro Jahr: Dieser Top-ETF setzt auf überraschend günstige Aktien». Trustnet berichtete am vierten November: «Halbleiteraktien fallen um zwanzig Prozent: Die Fonds sind bisher am stärksten vom KI-Ausverkauf betroffen». The Economic Times berichtete am vierten November: «AMD prognostiziert für das vierte Quartal einen über den Schätzungen liegenden Umsatz aufgrund der starken Nachfrage nach KI-Chips». Yahoo Finance berichtete am vierten November: «META TITLE SECTORS». Das war das Thema KI und Chips.",
 "ids": [
+"4dae983ab7b4",
+"d05776ccb58e",
+"6024e4ca8e8f",
+"5aea42494f7b",
+"eb6b513fd4f3",
 "958ab5846765",
 "a2719e34a394",
-"c4f8d73e3b71",
-"49ec4ee22195",
-"0ab035c69a2e",
-"08c108b6a805",
-"bb0f291a6ab7",
-"3f401b3821a6"
+"c4f8d73e3b71"
 ],
 "n": 8,
 "audio": {
@@ -4656,14 +4708,14 @@
 "name": "Exportkontrollen",
 "say": "Zum Thema Exportkontrollen. The New York Times berichtete am vierten November: «Wie ein Land zum unwahrscheinlichen Knotenpunkt der globalen KI wurde Boom». The Korea Daily berichtete am vierten November: «SK Hynix – fünfundvierzig-Milliarden-Dollar-Werk in New York aufgrund der Chip-Exportregeln der USA in China blockiert». CNBC TV18 berichtete am vierten November: «Oracle kündigt sieben-Milliarden-Dollar-Chip-Deal mit dem chinesischen Unternehmen Tencent auf Druck der USA: Bericht». digitimes berichtete am vierten November: «Täuschungsverarbeiter transportieren koreanisches HBM an den US-Exportkontrollen vorbei nach China». Aju Press berichtete am vierten November: «Laut SK Hynix bleibt die US-Lizenz für Chipausrüstung weiterhin gültig». TechGig berichtete am vierten November: «Regulierungslücke erlaubt verbotene HBM-Chips in Chinas KI-Labore». Central Oregon Daily berichtete am dritten November: «Laut Quellen geraten die New Yorker Chip-Pläne von Exclusive-SK Hynix wegen der US-Beschränkungen für China ins Stocken». Seoul Economic Daily berichtete am dritten November: «USA verweigert Chip-Tool-Genehmigungen für SK Hynix-Werk in China». Das war das Thema Exportkontrollen.",
 "ids": [
+"91f7d7b876b5",
+"357f1bbe9927",
+"ffaabc48f6b9",
+"12b8191fc7da",
 "970fbaaf4177",
 "38a7677bb895",
 "4e3bf9b91428",
-"41ec67fced3f",
-"f8f421a3d868",
-"8e2be9a103f0",
-"251c9556b899",
-"df6b4a773d13"
+"41ec67fced3f"
 ],
 "n": 8,
 "audio": {
@@ -4677,14 +4729,14 @@
 "name": "Wall Street und Märkte",
 "say": "Zum Thema Wall Street und Märkte. NBC News berichtete am vierten November über steigende Aktien durch den blauen Tsunami, der die politische Unsicherheit beseitigt. MarketScreener Schweiz meldete am vierten November, dass die Wall Street nach dem Sieg der Demokraten im Kongress höher schliesst, während Rechenzentrumsaktien einbrechen. Reuters berichtete ebenfalls am vierten November, dass die Wall Street höher schliesst, nachdem die Demokraten den Kongress gewonnen haben, und Datencenter-Aktien fallen. MarketScreener Schweiz ergänzte am vierten November, dass die Wall Street steigt und Rechenzentrumsaktien abstürzen. Central Oregon Daily berichtete am vierten November ebenfalls, dass die Wall Street nach dem Sieg der Demokraten im Kongress steigt und Datencenter-Aktien fallen. XTB.com berichtete am vierten November, dass die US-Wahlen die Wall Street beflügeln, der Ölpreis einbricht und Gold über viertausend Dollar steigt. Das WSJ meldete am vierten November, dass US-Aktien steigen, nachdem die Demokraten den Kongress gesiegt haben. CBS News berichtete am vierten November, dass der Dow um eintausendfünfhundert Punkte steigt, nachdem die Demokraten die Kontrolle über den Kongress übernommen haben. Das war das Thema Wall Street und Märkte.",
 "ids": [
-"b3410b58a97d",
-"1833c6b4d930",
-"74555850f322",
-"4046f96d450c",
-"b808e048c34b",
-"1d99368ba4c2",
-"294d404a8d5f",
-"bc6b907a3c8f"
+"9274d710d24b",
+"c9e91a2c3dc9",
+"49237f6c8895",
+"c18f1afa98e0",
+"79a7a541e0a7",
+"f0de63df640a",
+"49f8f7c04a31",
+"efe739a1069b"
 ],
 "n": 8,
 "audio": {
@@ -4698,14 +4750,14 @@
 "name": "Schweizer Börse",
 "say": "Zum Thema Schweizer Börse. marketscreener.com berichtete am vierten November, dass sich Schweizer Aktien erholen, während die Demokraten den US-Kongress stürzen. bluewin.ch berichtete am vierten November, dass die Schweizer Börse einen neuen Rekord erreicht und fünfzehntausend Punkte übersteigt. SWI swissinfo.ch meldete am vierten November die Schweizer Börse mit einem neuen Rekord auf über fünfzehntausend Punkten. bluewin.ch berichtete am vierten November, dass der SMI erstmals die fünfzehntausend-Punkte-Marke durchbricht. bluewin.ch meldete am vierten November, dass der SMI erstmals die Marke von fünfzehntausend Punkten knackt. Cash berichtete am vierten November, dass der Swiss Market Index erstmals über fünfzehntausend Punkte steigt. blue News meldete am vierten November, dass der Schweizer Aktienmarkt nach den US-Zwischenwahlen steigt. SWI swissinfo.ch berichtete am vierten November ebenfalls, dass die Schweizer Börse nach den US-Zwischenwahlen steigt. Das war das Thema Schweizer Börse.",
 "ids": [
+"fe240856adfd",
 "eed65b0d4232",
 "2859d335bdbf",
 "70f15e8aac41",
-"b9262b679097",
-"90f830d87835",
-"cee1f3930f1d",
-"ffec9cbfd1c6",
-"afe9651326cc"
+"5487f5aba0c9",
+"768958fca6d3",
+"9c748f9198b4",
+"b9262b679097"
 ],
 "n": 8,
 "audio": {
@@ -4717,5 +4769,5 @@
 }
 }
 },
-"audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@1d6f4c4b575983ce04f9e31bdf2cb7e7ad5296a7/data/audio/"
+"audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@e587add682d1ec9a3e1a156106f5c15f85df59a0/data/audio/"
 }
