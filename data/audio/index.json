@@ -333,27 +333,29 @@
   },
   "BKW.SW": {
    "file": "BKW.SW.mp3",
-   "hash": "fcda07c91b63e0ef",
-   "th": "c8bcecb104735716",
-   "id": "f4d4218a63",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
+   "hash": "58497608b9638bd2",
+   "th": "f8c760aaf8db19af",
+   "engine": "gemini",
+   "id": "a6ea09491e",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
    "br": 24,
-   "text": "BKW AG: Die Schweizer Finanzzeitung Finanz und Wirtschaft berichtet, dass BKW trotz eines Gewinneinbruchs die Dividende erhöht. Laut dem Finanzportal MarketScreener Schweiz hält die UBS an ihrer neutralen Empfehlung für BKW fest und kürzte das Kursziel von umgerechnet rund einhundertfünfundsechzig Dollar auf rund einhundertzweiundsechzig Dollar. Das Schweizer Finanzportal finanzen.ch meldete, dass die Aktie von BKW an verschiedenen Handelstagen mehrfach volatil mit Kursgewinnen und -verlusten zeigte. In den vorliegenden Meldungen wurden keine rechtlichen Probleme gefunden. Laut Yahoo Finance raten von insgesamt sechs Analysten eins Analyst zum starken Kaufen, zwei Analysten zum Kaufen, drei Analysten zum Halten, eins Analyst zum Verkaufen und eins Analyst zum starken Verkaufen. Auf der positiven Seite steht die Dividendenerhöhung laut Finanz und Wirtschaft, während der Gewinneinbruch als belastender Faktor zu werten ist. Wichtige Kennzahlen umfassen das durchschnittliche Kursziel von einhundertfünfundsiebzig Dollar sowie das von der UBS auf einhundertzweiundsechzig Dollar gesenkte Ziel. Insider-Käufe oder Verkäufe wurden in den Daten nicht genannt. Aussagen von Chefs oder dem Management liegen in den Berichten ebenfalls nicht vor. Widersprüche zwischen den Quellen wurden nicht festgestellt.",
-   "dur": 95.3,
-   "at": "2026-11-04T19:33:11Z"
+   "text": "BKW AG: Die Aktie des Energiekonzerns zeigte sich in den letzten Handelstagen an der Börse mit unterschiedlichen Kursbewegungen von leichten Gewinnen bis hin zu vorübergehenden Rücksetzern, wie finanzen.ch, ein Schweizer Finanzportal, meldet. Zu den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Bei den Analysten-Bewertungen hält laut MarketScreener Schweiz, einem Finanzportal, die Grossbank UBS an ihrer neutralen Einschatzung fest und hat das Kursziel von umgerechnet rund einhundertsechsundsechzig Dollar auf rund einhundertzweiundsechzig Dollar gesenkt. Was BKW AG aktuell macht, zeigt sich in einer betrieblichen Entscheidung: Laut finanzen.ch schaltet der Energiekonzern die Rundsteuerung Ende 2029 ab. Als wichtige Kennzahl ist das von der UBS genannte Kursziel von rund einhundertzweiundsechzig Dollar zu nennen, welches den erwarteten zukünftigen Kurs widerspiegelt; im Durchschnitt sehen Analysten das Kursziel bei rund zweihundertfünfzehn Dollar. Insider-Käufe oder -Verkäufe wurden in den Berichten nicht erwähnt. Zu Plänen oder Aussagen von Chefs gibt es aktuell keine Berichte.",
+   "dur": 72.2,
+   "at": "2026-11-05T15:03:20Z"
   },
   "UBSG.SW": {
    "file": "UBSG.SW.mp3",
-   "hash": "582526f929e16e0e",
-   "th": "5a15e099ef9c6cc0",
-   "id": "c5fd3a838b",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
+   "hash": "fb7803dfad763ca9",
+   "th": "9329cfcd1e5ea1f5",
+   "engine": "gemini",
+   "id": "decb0b70da",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
    "br": 24,
-   "text": "Die Aktie der UBS Group verzeichnete zuletzt Kursgewinne. Grund dafür sind Berichte, wonach sich ein Kompromiss im Streit um strengere Eigenkapitalanforderungen abzeichnet. Der Schweizer Gesetzgeber prüft derzeit eine Milderung der zusätzlichen Kapitalvorgaben für die Bank. Zudem hat die Börse in Abu Dhabi die UBS als Mitglied aufgenommen, was vor dem Hintergrund des hohen Anteils ausländischer Investoren von Bedeutung ist. Auf der anderen Seite gab es Analysten-Herabstufungen: Zacks stufte die Aktie von Outperform auf Neutral herab und senkte das Kursziel von fünfundfünfzig Dollar auf einundfünfzig Dollar. Auch AlphaValue/Baader Europe reduzierte das Rating von Add auf Reduce und passte das Kursziel von umgerechnet vierundfünfzig Komma zwei Dollar auf einundfünfzig Komma eins vier Dollar an. Das Analystenkonsensbild umfasst derzeit zwei starke Käufe, sieben Käufe, acht Halten, zwei Verkäufe und eins starken Verkauf. Das durchschnittliche Kursziel liegt bei fünfundfünfzig Komma eins Dollar, bei einem aktuellen Kurs von fünfzig Komma sechs zwei Dollar. Dies stellt keine Anlageberatung dar.",
-   "dur": 78.8,
-   "at": "2026-11-05T01:28:45Z"
+   "text": "UBS Group: Die Aktie der UBS Group bewegte sich im Handelsverlauf nach vorherigem Kurssprung und anhaltenden Spekulationen um einen möglichen Deal mit Morgan Stanley zeitweise wieder im negativen Terrain. Laut Berichten von Seeking Alpha zeichnet sich zudem ein möglicher Kompromiss im Streit um strengere Eigenkapitalvorgaben ab, wodurch die Bank möglicherweise einen weniger strengen Kapitalplan erhalten könnte. Auf der anderen Seite meldet Yahoo Finance, dass die UBS rund zweihundert Arbeitsplätze in London streicht. Zudem hat die Börse in Abu Dhabi die UBS in ihr Angebot aufgenommen, wie Forbes Middle East berichtet, da ausländische Investoren dort einen grossen Anteil des Handels ausmachen. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Zu den Analysten-Bewertungen: Das Konsensbild zeigt zwei starke Käufe, sieben Käufe, acht Halteempfehlungen, zwei Verkäufe und eins starken Verkauf, mit einem durchschnittlichen Kursziel von fünfundfünfzig Komma eins Dollar. Zacks stufte die UBS Group von Outperform auf Neutral herab und senkte das Kursziel von fünfundfünfzig Dollar auf einundfünfzig Dollar. Was die Firma gerade macht, spiegelt sich in positiven Nachrichten wie der Aufnahme an der Börse in Abu Dhabi und einem optimistischen Blick auf das europäische Gewinnwachstum wider, während der Stellenabbau in London eher dämpfend wirkt. Wichtige Kennzahlen umfassen das durchschnittliche Kursziel von fünfundfünfzig Komma eins Dollar sowie das erwartete Aufwärtspotenzial von neun Komma drei Prozent. Insider-Käufe oder -Verkäufe wurden in den Meldungen nicht genannt. Aussagen von Chefs liegen für diese Berichtsperiode ebenfalls nicht vor. Schliesslich gibt es keine wesentlichen Widersprüche zwischen den berücksichtigenden Quellen.",
+   "dur": 117.3,
+   "at": "2026-11-05T15:04:31Z"
   },
   "MSFT": {
    "file": "MSFT.mp3",
@@ -513,9 +515,9 @@
   }
  },
  "status": "ok",
- "checked_at": "2026-11-05T12:44:02Z",
+ "checked_at": "2026-11-05T15:04:31Z",
  "quota_until": 1793859674.3419778,
- "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@e587add682d1ec9a3e1a156106f5c15f85df59a0/data/audio/",
+ "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@b30e59acfcf6d4e2ac8b3811b4b6a8326ebaceb5/data/audio/",
  "extra": {
   "intro": {
    "file": "_intro.mp3",
