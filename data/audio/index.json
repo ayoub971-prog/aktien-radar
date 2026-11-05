@@ -346,16 +346,16 @@
   },
   "UBSG.SW": {
    "file": "UBSG.SW.mp3",
-   "hash": "fb7803dfad763ca9",
-   "th": "9329cfcd1e5ea1f5",
+   "hash": "d52345f40515e1de",
+   "th": "e10e5d3a597d99b0",
    "engine": "gemini",
-   "id": "decb0b70da",
+   "id": "4fe7a3b405",
    "voice": "Kore",
    "model": "gemini-2.5-flash-preview-tts",
    "br": 24,
-   "text": "UBS Group: Die Aktie der UBS Group bewegte sich im Handelsverlauf nach vorherigem Kurssprung und anhaltenden Spekulationen um einen möglichen Deal mit Morgan Stanley zeitweise wieder im negativen Terrain. Laut Berichten von Seeking Alpha zeichnet sich zudem ein möglicher Kompromiss im Streit um strengere Eigenkapitalvorgaben ab, wodurch die Bank möglicherweise einen weniger strengen Kapitalplan erhalten könnte. Auf der anderen Seite meldet Yahoo Finance, dass die UBS rund zweihundert Arbeitsplätze in London streicht. Zudem hat die Börse in Abu Dhabi die UBS in ihr Angebot aufgenommen, wie Forbes Middle East berichtet, da ausländische Investoren dort einen grossen Anteil des Handels ausmachen. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Zu den Analysten-Bewertungen: Das Konsensbild zeigt zwei starke Käufe, sieben Käufe, acht Halteempfehlungen, zwei Verkäufe und eins starken Verkauf, mit einem durchschnittlichen Kursziel von fünfundfünfzig Komma eins Dollar. Zacks stufte die UBS Group von Outperform auf Neutral herab und senkte das Kursziel von fünfundfünfzig Dollar auf einundfünfzig Dollar. Was die Firma gerade macht, spiegelt sich in positiven Nachrichten wie der Aufnahme an der Börse in Abu Dhabi und einem optimistischen Blick auf das europäische Gewinnwachstum wider, während der Stellenabbau in London eher dämpfend wirkt. Wichtige Kennzahlen umfassen das durchschnittliche Kursziel von fünfundfünfzig Komma eins Dollar sowie das erwartete Aufwärtspotenzial von neun Komma drei Prozent. Insider-Käufe oder -Verkäufe wurden in den Meldungen nicht genannt. Aussagen von Chefs liegen für diese Berichtsperiode ebenfalls nicht vor. Schliesslich gibt es keine wesentlichen Widersprüche zwischen den berücksichtigenden Quellen.",
-   "dur": 117.3,
-   "at": "2026-11-05T15:04:31Z"
+   "text": "UBS Group steht aktuell im Fokus verschiedener Medienberichte. Laut finanzen.ch zeichnet sich ein Kompromiss im Streit um Milliarden an Eigenkapital ab, was für die Aktie wichtig sein kann. Zudem berichtet Forbes Middle East, dass die Börse in Abu Dhabi die Bank als neues Mitglied aufgenommen hat, da ausländische Investoren dort einen grossen Teil des Handels ausmachen. Auf der anderen Seite meldet Yahoo Finance, dass die Bank in London rund zweihundert Arbeitsplätze streicht. Bei den Analystenbewertungen zeigt sich ein gemischtes Bild. Das Konsensurteil basierend auf siebzehn Analysten nennt ein durchschnittliches Kursziel von vierundfünfzig Komma neun drei Dollar bei einem Aufwärtspotenzial von zwölf Komma sechs Prozent. Das höchste Kursziel liegt bei dreiundsiebzig Komma drei sechs Dollar, während das niedrigste Kursziel einundvierzig Komma fünf sechs Dollar beträgt. Laut MarketScreener Schweiz hat Zacks die Aktie von Outperform auf Neutral herabgestuft und das Kursziel auf einundfünfzig Dollar gesenkt. UBS Group baut somit Stellen ab, treibt aber gleichzeitig ihre Einbindung in internationale Handelsplätze wie Abu Dhabi voran und verzeichnet Berichte über mögliche Fortschritte im Streit um Eigenkapital.",
+   "dur": 74.3,
+   "at": "2026-11-05T17:17:40Z"
   },
   "MSFT": {
    "file": "MSFT.mp3",
@@ -515,9 +515,9 @@
   }
  },
  "status": "ok",
- "checked_at": "2026-11-05T16:02:11Z",
+ "checked_at": "2026-11-05T17:17:42Z",
  "quota_until": 1793859674.3419778,
- "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@b30e59acfcf6d4e2ac8b3811b4b6a8326ebaceb5/data/audio/",
+ "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@d0cd6bba6ec117b63d0e83654c77ca2ff8786c0d/data/audio/",
  "extra": {
   "intro": {
    "file": "_intro.mp3",
