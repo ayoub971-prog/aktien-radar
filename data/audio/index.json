@@ -15,15 +15,16 @@
   },
   "005930.KS": {
    "file": "005930.KS.mp3",
-   "hash": "c4cc0ade69357635",
-   "th": "84cbbc99106accce",
-   "id": "f90315d648",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
+   "hash": "395acf819a666b18",
+   "th": "68ddf677ecb5e702",
+   "engine": "gemini",
+   "id": "7afcb2c143",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
    "br": 24,
-   "text": "Samsung Electronics steht derzeit im Rampenlicht. Laut dem Wall Street Journal konnte das Unternehmen dank starker Chipgewinne ein weiteres Rekordquartal erzielen. Zudem sicherte sich Samsung Aufträge von AMD und Nvidia für ein neues Chipwerk in Texas. Strategisch baut der Konzern seine Position weiter aus, etwa durch den Erwerb einer Beteiligung von zehn Komma zwei Prozent an TCL CSOT. Auch im Bereich der Gesundheitstechnologie gibt es Fortschritte: Der Galaxy Ring erhielt nach behördlichen Genehmigungen der US-amerikanischen FDA und des koreanischen MFDS eine verbesserte Schlafapnoe-Funktion. Gleichzeitig gibt es jedoch Gegenwind, da südkoreanische Medien und das Portal Investing.com über Kursverluste zwischen fünf und sieben Prozent berichten, was auf eine allgemeine Schwäche bei Halbleiteraktien zurückgeführt wird. Analysten bleiben mehrheitlich optimistisch: Von fünfundvierzig Experten empfehlen vierundvierzig den Kauf der Aktie, bei einem durchschnittlichen Kursziel von dreihundertachtundfünfzig Dollar. Die Spanne reicht dabei von einem tiefen Kursziel von zweihundertsiebzehn Dollar bis zu einem hohen von fünfhundertfünfzehn Dollar. Bitte beachten Sie, dass dies keine Anlageberatung darstellt.",
-   "dur": 86.5,
-   "at": "2026-11-05T06:06:46Z"
+   "text": "Die Aktie von Samsung Electronics stand juengst im Fokus verschiedener Wirtschaftsberichte und Marktbewegungen. Laut der US-Wirtschaftszeitung The Wall Street Journal sorgte der Chipgewinn von Samsung fuer ein weiteres Rekordquartal. Dagegen meldete news.sbs.co.kr, dass die Aktien von Samsung Electronics und SK Hynix im fruhen Handel um fünf bis sieben Prozent einbrachen. Laut dem Finanzportal MarketScreener Deutschland veraeusserte Samsung Electronics zudem Stammaktien. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Zu den Analysten-Bewertungen: Laut dem Finanzportal Yahoo Finance liegt das durchschnittliche Kursziel von fünfunddreissig Analysten bei rund dreihundertsechsundfünfzig Dollar, wobei das Konsensurteil ueberwiegend Kaufempfehlungen umfasst. Zurueck zu Samsung Electronics: Die Firma treibt verschiedene Projekte voran. So ist laut einer Mitteilung der Firma selbst auf samsung.com eine verbesserte Schlafapnoe-Funktion nach behoerdlichen Genehmigungen der US-amerikanischen FDA und des koreanischen MFDS jetzt auf dem Galaxy Ring verfuegbar. Ausserdem koennen laut dem Finanzportal Yahoo Finance Samsung Wallet-Benutzer jetzt USDC auf Solana senden, und Mastercard erweitert mit Samsung Pay sein mobiles Zahlungsangebot in Marokko. Zudem erwirbt Samsung Electronics laut Yahoo Finance Anteile an TCL CSOT, um die geschaeftliche Zusammenarbeit zu vertiefen. Als wichtige Kennzahl ist das durchschnittliche Kursziel der Analysten von rund dreihundertsechsundfünfzig Dollar zu nennen, welches anzeigt, wo Experten den Kurs in der Zukunft erwarten. In den vorliegenden Meldungen wurden keine Insider-Kaeufe oder -Verkaeufe erwaehnt. Auch Aussagen von Chefs oder dem Management liegen fuer diesen Zeitraum nicht vor. Bezueglich der Widersprueche berichtet boerse.de an einer Stelle, dass sich die Samsung Electronics St GDR-Aktie unter der zweihundert-Tage-Linie befand, waehrend an anderer Stelle von boerse.de gemeldet wurde, dass sie ueber der zweihundert-Tage-Linie stand.",
+   "dur": 127.3,
+   "at": "2026-11-05T19:01:01Z"
   },
   "HY9H.MU": {
    "file": "HY9H.MU.mp3",
@@ -515,9 +516,9 @@
   }
  },
  "status": "ok",
- "checked_at": "2026-11-05T18:09:00Z",
+ "checked_at": "2026-11-05T19:01:02Z",
  "quota_until": 1793859674.3419778,
- "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@d0cd6bba6ec117b63d0e83654c77ca2ff8786c0d/data/audio/",
+ "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@3ba21abf899fbb0576201f1675830e09fe746f95/data/audio/",
  "extra": {
   "intro": {
    "file": "_intro.mp3",
