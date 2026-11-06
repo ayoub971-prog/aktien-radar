@@ -336,15 +336,16 @@
   },
   "BKW.SW": {
    "file": "BKW.SW.mp3",
-   "hash": "adf6f9bac52108e4",
-   "th": "d75e614120a1cd94",
-   "id": "8276edd875",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
+   "hash": "9884f9f5bbc1fc84",
+   "th": "5584a5b69dd646ba",
+   "engine": "gemini",
+   "id": "5bae5bfbaa",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
    "br": 24,
-   "text": "Das Schweizer Finanzportal finanzen.ch berichtet, dass die Aktie der BKW AG in den Berichtszeiträumen wiederholt Kursgewinne und freundliche Notierungen an der Börse verzeichnete. Ein weiterer wichtiger Punkt ist die Ankündigung des Energiekonzerns, die Rundsteuerung bis Ende des Jahres 2029 abzuschalten. Risiken oder rechtliche Probleme wurden in den vorliegenden Meldungen nicht gefunden. Zu den Analysten-Bewertungen meldet MarketScreener Schweiz, dass die UBS an ihrer neutralen Empfehlung für BKW AG festhält und das Kursziel von bisher einhundertfünfundsechzig Dollar auf einhunderteinundsechzig Dollar senkte. Yahoo Finance nennt ein durchschnittliches Kursziel von einhundertvierundsiebzig Dollar, wobei die Spanne von einhunderteinundvierzig Dollar bis zweihundertacht Dollar reicht. Was die Firma gerade macht: Aufwertend wirkt, dass finanzen.ch an mehreren Handelstagen über ein Kursplus und freundliche Tendenzen berichtete. Abwertend zeigte sich demgegenüber, dass die Aktie an einem Mittwochvormittag zeitweise Verluste verzeichnete und einbüsste. Bei den Kennzahlen sticht das durchschnittliche Kursziel von einhundertvierundsiebzig Dollar hervor, welches den erwarteten Mittelwert der Aktie zeigt, sowie das von der UBS angepasste Kursziel von einhunderteinundsechzig Dollar. Das höchste Kursziel liegt bei zweihundertacht Dollar und das tiefste bei einhunderteinundvierzig Dollar. Insider-Käufe oder Verkäufe wurden in den Daten nicht aufgeführt, und Aussagen von Chefs oder dem Management liegen für diesen Zeitraum nicht vor. Es gibt keine Widersprüche in den Berichten der verschiedenen Quellen.",
-   "dur": 111.0,
-   "at": "2026-11-06T01:30:51Z"
+   "text": "Die BKW AG verzeichnete im November 2026 an der Börse mehrfach Kursgewinne und freundliche Tendenzen, wenngleich auch vereinzelte Rückgänge gemeldet wurden. Operativ plant der Energiekonzern die Abschaltung der Rundsteuerung per Ende 2029. Analysten verfolgen die Entwicklung mit einem durchschnittlichen Kursziel von zweihundertdreizehn Dollar, wobei die Spanne der Einschätzungen von einhundertzweiundsiebzig Dollar bis zweihundertvierundfünfzig Dollar reicht. Die UBS hält aktuell an ihrer neutralen Empfehlung fest und hat das Kursziel auf einhunderteinundsechzig Dollar angepasst. In den vorliegenden Berichten wurden keine spezifischen Risiken, Insider-Transaktionen oder Aussagen der Geschäftsleitung erwähnt. Die Marktlage für die BKW AG präsentiert sich somit stabil, während Analysten die Aktie weiterhin beobachten. Dies ist keine Anlageberatung.",
+   "dur": 54.9,
+   "at": "2026-11-06T04:11:39Z"
   },
   "UBSG.SW": {
    "file": "UBSG.SW.mp3",
@@ -515,10 +516,10 @@
    "at": "2026-11-04T16:37:35Z"
   }
  },
- "status": "quota: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usa",
- "checked_at": "2026-11-06T03:07:24Z",
+ "status": "ok",
+ "checked_at": "2026-11-06T04:11:40Z",
  "quota_until": 1793937996.3044322,
- "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@85a0ace92607870424a49fb481b1de763e89b8ac/data/audio/",
+ "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@d10c2e522b9e125f66e17b242284385e77077f9c/data/audio/",
  "extra": {
   "intro": {
    "file": "_intro.mp3",
