@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T23:57:54Z",
+ "generated_at": "2026-11-06T01:30:54Z",
  "intro": "Willkommen beim Aktien-Radar, deinem Überblick über die neuesten Meldungen. Heute geht es um 39 Aktien aus deiner Liste. Alles stammt aus den gesammelten Meldungen und Analystendaten, nichts ist erfunden. Keine Anlageberatung.",
  "outro": "Das war der Aktien-Radar-Überblick. Die Quellen und Details findest du in der App bei jeder Aktie. Keine Anlageberatung.",
  "segments": [
@@ -32,14 +32,14 @@
   {
    "symbol": "005930.KS",
    "name": "Samsung Electronics",
-   "text": "Samsung Electronics stand zuletzt stark im Fokus der Nachrichten. Nach Berichten von Yahoo Finance fielen die Aktien von Samsung Electronics um sieben Komma sechs Prozent wegen Sorgen über Ausgaben im Bereich der künstlichen Intelligenz. Das Wall Street Journal berichtete dagegen, dass der Chipgewinn für ein weiteres Rekordquartal sorgte, während Investing.com von einem Einbruch der Aktie sprach. In den Meldungen wurden diverse Marktsorgen genannt, wie etwa ein Notieren der Aktie unter der zweihundert-Tage-Linie laut boerse.de sowie Belastungen durch Speicherkosten, die laut InvestmentWeek auf das Unternehmen drücken. Analystendaten von Yahoo Finance zeigen im Konsens zehn Einschätzungen für stark kaufen, vierunddreissig für kaufen, eins für halten, null für verkaufen und null für stark verkaufen, wobei das durchschnittliche Kursziel bei rund dreihundertsechsundfünfzig Dollar liegt. Zurück zu Samsung Electronics: Die Firma treibt verschiedene Projekte voran: Samsung bietet nach behördlichen Genehmigungen eine verbesserte Schlafapnoe-Funktion für den Galaxy Ring an. Ausserdem können Benutzer von Samsung Wallet nun USDC auf Solana senden, Mastercard erweitert das mobile Zahlungsangebot in Marokko mit Samsung Pay, und Samsung Electronics erwirbt eine Beteiligung von zehn Komma zwei Prozent an TCL CSOT. Demgegenüber steht eine Veräusserung von Stammaktien im Wert von rund eins Million Dollar, wie MarketScreener Deutschland berichtet. Zu den wichtigsten Kennzahlen gehört das durchschnittliche Kursziel von dreihundertsechsundfünfzig Dollar, während das höchste Kursziel bei fünfhundertdreizehn Dollar und das tiefste bei zweihundertsechzehn Dollar liegen. Beim gleitenden Durchschnitt widersprechen sich die Angaben teilweise, da boerse.de sowohl Notierungen unter als auch über der zweihundert-Tage-Linie meldete.",
-   "id": "10159653d3",
-   "generated_at": "2026-11-05T21:46:24Z",
+   "text": "Samsung Electronics: Die Aktie von Samsung Electronics stand zuletzt stark unter Druck, nachdem Ausverkäufe an der Börse Nasdaq und Sorgen vor künstlicher Intelligenz die Kurse asiatischer Chip-Werte belasteten. Laut dem US-Wirtschaftssender CNBC stürzten die Papiere deutlich ab, und nach Berichten des Finanzportals Yahoo Finance gaben die Kurse zeitweise um sieben Komma sechs Prozent nach. Auch die Zeitung The Korea Herald berichtete von Verlusten um zehn Prozent wegen Ängsten vor künstliche-Intelligenz-Rechenzentren. Belastend wirkten zudem Speicherkosten, die laut InvestmentWeek auf das Unternehmen drücken. Zu den Analysten-Bewertungen gibt es Daten von Yahoo Finance, wonach von insgesamt vierundvierzig Analysten zehn mit stark kaufen, vierunddreissig mit kaufen und eins mit halten bewerten. Das durchschnittliche Kursziel liegt bei dreihundertsechsundfünfzig Dollar. Zurück zu Samsung Electronics: Operativ gibt es auch positive Meldungen. So erhielt der Galaxy Ring nach behördlichen Genehmigungen der US-amerikanischen Behörde FDA und der koreanischen Behörde MFDS eine verbesserte Schlafapnoe-Funktion, wie die Firma selbst mitteilte. Zudem erwarb Samsung Electronics eine Beteiligung von zehn Komma zwei Prozent an TCL CSOT, erweiterte mobile Zahlungsangebote mit Mastercard in Marokko und ermöglichte Samsung Wallet-Nutzern das Senden von USDC auf Solana. Zu den wichtigen Kennzahlen ist das durchschnittliche Kursziel von dreihundertsechsundfünfzig Dollar zu nennen, das das Potenzial der Aktie widerspiegelt. Ausserdem wurde eine jährliche Wachstumsrate im Bereich der grünen Elektronikfertigung von vierundzwanzig Komma sechs Prozent genannt. Zu den Widersprüchen gab es unterschiedliche Berichte des Börsenportals boerse.de zur zweihundert-Tage-Linie, wobei einmal ein Kurs darunter und einmal ein Kurs darüber gemeldet wurde.",
+   "id": "37328b1880",
+   "generated_at": "2026-11-06T01:23:40Z",
    "audio": {
     "file": "005930.KS.mp3",
-    "hash": "491b736976a2e95d",
-    "dur": 124.4,
-    "engine": "edge"
+    "hash": "2c74a4474b545ca3",
+    "dur": 102.2,
+    "engine": "gemini"
    }
   },
   {
@@ -149,13 +149,13 @@
   {
    "symbol": "NOW",
    "name": "ServiceNow",
-   "text": "ServiceNow sorgt derzeit für Gesprächsstoff. Das Unternehmen erweitert seine Partnerschaft mit der NBA, um die Mitarbeitererfahrung durch ServiceNow EmployeeWorks zu verbessern, und baut zudem die KI-Governance von Nvidia mit der Einführung von Arc aus. Trotz dieser positiven Meldungen und einer starken Performance an einzelnen Handelstagen gibt es kritische Stimmen: Die Plattform Seeking Alpha warnt, dass die Kosten bei ServiceNow derzeit schneller steigen als die Einführung von Künstlicher Intelligenz. Auch die Telefonkonferenz zu den Ergebnissen des dritten Quartals hob höhere KI-Ausgaben als potenzielles Risiko hervor. Analysten bleiben jedoch mehrheitlich optimistisch. Laut Yahoo Finance gibt es zahlreiche Kaufempfehlungen, bei einem durchschnittlichen Kursziel von einhundertfünfundfünfzig Dollar. Zuletzt bestätigte Argus Research ein Kursziel von einhundertsiebzig Dollar, während Macquarie das Ziel auf einhundertzwanzig Dollar und RBC Capital auf einhundertfünfundsechzig Dollar anpassten. JP Morgan, Citigroup und StoneX haben ihre Kursziele ebenfalls angepasst.",
-   "id": "a0402202ca",
-   "generated_at": "2026-11-04T23:52:08Z",
+   "text": "ServiceNow gerat wegen starker Kursverluste und personeller Einschnitte in den Fokus der Anleger. CTech berichtet, dass die Aktien von ServiceNow in weniger als zwei Wochen um fünfunddreissig Prozent gefallen sind und das Unternehmen weitere Mitarbeiter entlasst. Zudem hat der Vorstand Bindungspramien in Hohe von rund einhundertsiebenundzwanzig Millionen Dollar genehmigt. Bei den Analystenbewertungen zeigt sich ein uberwiegend positives Bild. Laut Yahoo Finance raten zahlreiche Analysten zum Kauf der Aktie. Argus Research beurteilte die Aktie mit Kaufen und einem Kursziel von einhundertsiebzig Dollar. Macquarie halt die Aktie auf Neutral mit einem Kursziel von einhundertzwanzig Dollar. Zurück zu ServiceNow: RBC Capital bewertet das Papier als besser als den Markt mit einem Kursziel von einhundertfünfundsechzig Dollar. JP Morgan stuft die Aktie mit Ubergewichten ein bei einem Kursziel von einhundertsechzig Dollar. Citigroup bestatigte die Kaufempfehlung mit einem Kursziel von einhundertsiebenundfünfzig Dollar, wahrend StoneX die Aktie ebenfalls zum Kauf empfiehlt und das Kursziel auf einhundertfünfzig Dollar anpasste. Zum aktuellen Geschehen gaben ServiceNow und Keysight bekannt, dass durch ServiceNow CPQ Angebote um vierzig Prozent schneller erstellt werden konnen. Ausserdem erweiterten LTM und ServiceNow ihre Partnerschaft zur Skalierung der Agenten-Kuenstlichen-Intelligenz, und die NBA verlangerte ihre Partnerschaft zur Verbesserung der Mitarbeitererfahrung. Dagegen merkt Seeking Alpha kritisch an, dass die Kosten bei ServiceNow schneller steigen als das Geschaft mit Kuenstlicher Intelligenz. Zu den wichtigen Kennzahlen gehort das von Yahoo Finance genannte durchschnittliche Kursziel von rund einhundertfünfundfünfzig Dollar.",
+   "id": "c0f03e2347",
+   "generated_at": "2026-11-06T01:23:40Z",
    "audio": {
     "file": "NOW.mp3",
-    "hash": "039ec2ff1c5dd9dc",
-    "dur": 76.2,
+    "hash": "c57c6715a418fa18",
+    "dur": 121.7,
     "engine": "edge"
    }
   },
@@ -175,27 +175,27 @@
   {
    "symbol": "AMZN",
    "name": "Amazon",
-   "text": "Amazon: Die vorliegenden Berichte zeigen ein gemischtes Bild für den Technologie- und Handelskonzern. Laut der US-Börsenzeitung Investor's Business Daily zeigt die Aktie nach den Wahlen Kaufsignale im Rahmen einer allgemeinen Rally. Das US-Finanznachrichtenportal MarketWatch meldet zudem, dass Microsoft und Amazon zusammen einen Anstieg der Marktkapitalisierung um rund vierhundertvierundzwanzig Milliarden Dollar verzeichneten. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden, allerdings berichtet die Chart- und Börsenplattform TradingView über einen Kursrückgang von drei Komma fünf Prozent, wobei die Profitabilität von AWS im Fokus steht. Das Schweizer Finanzportal finanzen.ch meldet ebenfalls tiefere Tendenzen am Donnerstagnachmittag. Analysten bewerten Amazon überwiegend positiv. Die UBS bestätigte das Rating auf Kaufen mit einem Kursziel von dreihundertzweiundfünfzig Dollar, während Freedom Broker das Kursziel auf dreihundertdreissig Dollar erhöhte und Rosenblatt ein Kursziel von dreihundertsechzig Dollar nennt. Scotiabank senkte das Kursziel auf dreihundert Dollar bei unveränderter Einstufung als besser als der Sektor, und DA Davidson stuft das Papier neutral bei einem Kursziel von zweihundertfünfzig Dollar ein. Telsey Advisory Group bestätigt die Einstufung als besser als der Markt mit einem Kursziel von dreihundertfünfunddreissig Dollar. Im Durchschnitt liegt das Kursziel bei rund dreihundertsiebenundzwanzig Dollar. Operativ arbeitet Amazon aktuell mit Uber Eats zusammen, führt direkte Produkt-Feeds zur Herausforderung von Google Shopping ein, erweitert Alexa for Shopping um über einhundert Funktionen und profitiert von einem GNRC-Deal, der die Umsatztransparenz im Rechenzentrum um rund zwei Komma vier Milliarden Dollar erhöht. Zu den wichtigen Kennzahlen gehört die genannte Steigerung der Marktkapitalisierung sowie das mittlere Analysten-Kursziel. Bei den Insidern zeigen die SEC-Pflichtmeldungen planmässige Verkäufe von Managern wie Douglas J Herrington im November 2026 im Wert von rund zweihundertdreiundvierzigtausend Dollar. Solche Insider-Verkäufe basieren oft auf im Voraus festgelegten Plänen und sagen oft weniger aus als Käufe, da sie beispielsweise steuerlich motiviert sein können. Zurück zu Amazon: Konzernchef Andy Jassy überbrachte laut der kanadischen Tageszeitung The Globe and Mail kürzlich Neuigkeiten für Investoren, was das Vertrauen stützen könnte. Ausserdem gibt es in den Berichten unterschiedliche Ansichten über die kurzfristige Kursrichtung zwischen positiven Nachwahl-Kaufsignalen und zwischenzeitlichen Kursrückgängen. Keine Anlageberatung.",
+   "text": "Amazon zeigt ein gemischtes Bild fur den Technologie- und Handelskonzern. Laut der US-Borsenzeitung Investor's Business Daily zeigt die Aktie nach den Wahlen Kaufsignale im Rahmen einer allgemeinen Rally. Das US-Finanznachrichtenportal MarketWatch meldet zudem, dass Microsoft und Amazon zusammen einen Anstieg der Marktkapitalisierung von vierhundertvierundzwanzig Milliarden Dollar verzeichneten. Die Chart- und Borsenplattform TradingView berichtet uber einen Kursruckgang von drei Komma fünf Prozent, wobei die Profitabilitat von AWS im Fokus steht. Das Schweizer Finanzportal finanzen.ch meldet ebenfalls tiefere Tendenzen am Donnerstagnachmittag. Analysten bewerten Amazon uberwiegend positiv. Zurück zu Amazon: Die UBS bestatigte das Rating auf Kaufen mit einem Kursziel von dreihundertzweiundfünfzig Dollar, wahrend Freedom Broker das Kursziel auf dreihundertdreissig Dollar erhohte und Rosenblatt ein Kursziel von dreihundertsechzig Dollar nennt. Scotiabank bewertet die Aktie als besser als der Sektor bei einem Kursziel von dreihundert Dollar, und DA Davidson stuft das Papier neutral bei einem Kursziel von zweihundertfünfzig Dollar ein. Telsey Advisory Group bestatigt die Einstufung als besser als der Markt mit einem Kursziel von dreihundertfünfunddreissig Dollar. Operativ arbeitet Amazon aktuell mit Uber Eats zusammen, fuhrt direkte Produkt-Feeds zur Herausforderung von Google Shopping ein, erweitert Alexa for Shopping um uber einhundert Funktionen und profitiert von einem GNRC-Deal, der die Umsatztransparenz im Rechenzentrum um zwei Komma vier Milliarden Dollar erhoht. Zu den wichtigen Kennzahlen gehort die genannte Steigerung der Marktkapitalisierung. Ausserdem gibt es in den Berichten unterschiedliche Ansichten uber die kurzfristige Kursrichtung zwischen positiven Nachwahl-Kaufsignalen und zwischenzeitlichen Kursruckgangen.",
    "id": "936ebc834d",
    "generated_at": "2026-11-05T23:52:44Z",
    "audio": {
     "file": "AMZN.mp3",
-    "hash": "a5680e06c04d5ac5",
-    "dur": 184.7,
+    "hash": "114f6ca5449801bd",
+    "dur": 127.6,
     "engine": "edge"
    }
   },
   {
    "symbol": "MRVL",
    "name": "Marvell Technology",
-   "text": "Marvell Technology sorgt derzeit für viel Gesprächsstoff an der Börse. Das Unternehmen hat den Zusammenschluss mit Lumentum angekündigt, um einen Branchenführer im Bereich der KI-Konnektivität zu schaffen. Während das Unternehmen strategisch auf Wachstum setzt, hat die Ankündigung der milliardenschweren Transaktion an den Finanzmärkten für erhebliche Verunsicherung und deutliche Kursverluste gesorgt. Die Meinungen über den Deal gehen weit auseinander: Einige Beobachter sehen darin einen entscheidenden Wendepunkt für die Aktie, während andere vor den Folgen des massiven Zukaufs warnen. In der Folge haben mehrere Analysehäuser ihre Kursziele nach unten korrigiert. Zurück zu Marvell Technology: So hat TD Cowen das Kursziel auf einhundertfünfundsiebzig Dollar halbiert und das Rating auf Halten gesenkt, während B. Riley Securities das Ziel auf zweihundertfünfundsiebzig Dollar, Wells Fargo auf zweihundertfünfundachtzig Dollar und RBC Capital auf zweihundertfünfzig Dollar anpassten. Susquehanna und Rosenblatt haben ihre Ziele ebenfalls angepasst oder bestätigt, wobei das durchschnittliche Kursziel der Analysten aktuell bei dreihundertvierzehn Dollar liegt. Insgesamt bewerten sieben Analysten die Aktie als stark kaufen, neununddreissig als kaufen und fünf als halten. Bitte beachten Sie, dass dies keine Anlageempfehlung darstellt.",
-   "id": "ad36be78cd",
-   "generated_at": "2026-11-04T23:52:08Z",
+   "text": "Marvell Technology steht im Fokus der aktuellen Borsengespräche. Laut einer Mitteilung der Firma selbst plant Marvell Technology die Übernahme von Lumentum im Wert von einhundertfünfzehn Milliarden Dollar, um einen Branchenfùhrer im Bereich künstlicher Intelligenz und Konnektivität zu schaffen. Gleichzeitig berichtete das deutsche Börsenportal Wallstreet Online, dass die Aktie von Marvell Technology auf Monatssicht um fünfzig Komma fünf Prozent einbrach und im Zentrum breiterer Marktbewegungen bei Halbleiterwerten stand. Bei den Analystenbewertungen zeigt sich ein gemischtes Bild: B. Riley Securities bewertet die Aktie mit Kaufen und einem Kursziel von zweihundertfünfundsiebzig Dollar, Wells Fargo mit Übertgewichtung und zweihundertfünfundachtzig Dollar, während TD Cowen die Einstufung auf Halten belässt und ein Kursziel von einhundertfünfundsiebzig Dollar nennt. Zurück zu Marvell Technology: RBC Capital vergibt Besser als Markt mit zweihundertfünfzig Dollar, und Susquehanna sowie Rosenblatt stufen die Aktie jeweils mit Positiv beziehungsweise Kaufen und einem Kursziel von dreihundert Dollar ein. Zu den operativen Entwicklungen meldet Yahoo Finance, dass das Networking-Geschäft von Marvell Technology dank künstlicher Intelligenz weiter wächst. Auf der anderen Seite äussert das Finanzportal, dass Wedbush Zweifel daran hat, ob der geplante Deal mit Lumentum tatsächlich zustande kommt. Bei den Kennzahlen liegt das durchschnittliche Kursziel der Analysten laut Yahoo Finance bei dreihundertvierzehn Dollar, während das höchste Kursziel bei vierhundertfünfzig Dollar und das tiefste Kursziel bei einhundertfünfundsiebzig Dollar liegt. Hinsichtlich der Marktmeinungen gibt es Widersprüche: Yahoo Finance meldet einerseits, dass die Marvell-Aktie nach dem Lumentum-Deal ein Plus von fünfunddreissig Prozent erwarten kann, während dieselbe Quelle andererseits berichtet, dass die Aktie nach gemischten Ansichten zum Deal einen Fair-Value-Rückgang verzeichnet hat.",
+   "id": "d6740e14ee",
+   "generated_at": "2026-11-06T01:23:40Z",
    "audio": {
     "file": "MRVL.mp3",
-    "hash": "23c005218504f641",
-    "dur": 73.7,
-    "engine": "gemini"
+    "hash": "a1c4c636019b1d33",
+    "dur": 129.3,
+    "engine": "edge"
    }
   },
   {
@@ -279,13 +279,13 @@
   {
    "symbol": "BE",
    "name": "Bloom Energy",
-   "text": "Bloom Energy verzeichnet einen starken Kursanstieg nach einem US-Wahlergebnis und einem Analysten-Upgrade. Das Unternehmen erhöht die Prognose für das Gesamtjahr nach einem deutlichen Umsatzanstieg. Ein neuer Stromdeal in Kalifornien und Brennstoffzellenanbindungen rücken die Aktie in den Fokus. Zu den Analysten-Bewertungen: Barclays hat die Aktie auf Uebergewichten hochgestuft und ein Kursziel von zweihundertneunundachtzig Dollar genannt, gestuetzt durch ein Energieentwicklungsabkommen. Citigroup bewertet die Aktie neutral mit einem Kursziel von zweihundertvierundachtzig Dollar. Barclays nannte zuvor ein Kursziel von dreihundertsechzehn Dollar. Wells Fargo bewertet die Aktie mit einem Kursziel von einhundertzweiundachtzig Dollar. JP Morgan bewertet die Aktie mit Uebergewichten und einem Kursziel von zweihundertzweiundneunzig Dollar. Zurück zu Bloom Energy: RBC Capital stuft die Aktie mit einem Kursziel von dreihundertfünfunddreissig Dollar ein. Laut Yahoo Finance gibt es insgesamt fünfunddreissig Analystenbewertungen mit einem durchschnittlichen Kursziel von rund zweihundertfünfundachtzig Dollar. Bloom Energy profitiert von einem neuen Stromdeal und einer Brennstoffzellenanbindung in Kalifornien. Zudem erhöht das Unternehmen die Prognose für das Gesamtjahr nach einem Umsatzanstieg von einhundertsechsundsechzig Prozent. Die neue Prognose impliziert einen Umsatz von bis zu eins Komma sechs Milliarden Dollar im vierten Quartal. Positiv wirken auch die US-Wahlergebnisse und strengere Regeln für Rechenzentren. Als abwertend gilt laut Seeking Alpha eine Herabstufung auf Halten, da die Negativität am Markt zunimmt. Zu den wichtigen Kennzahlen gehört der Umsatzanstieg von einhundertsechsundsechzig Prozent, der das starke Wachstum verdeutlicht, sowie der prognostizierte Quartalsumsatz von eins Komma sechs Milliarden Dollar.",
-   "id": "fe07fe885a",
-   "generated_at": "2026-11-04T23:06:47Z",
+   "text": "Bloom Energy: In den aktuellen Berichten gibt es verschiedene Entwicklungen zur Aktie von Bloom Energy. Laut MarketWatch, einem US-Finanznachrichtenportal, gehört die Aktie zu den Grössten Verlierern des S&P fünfhundert, da Ängste vor Verzögerungen bei Rechenzentren bestehen. Laut Seeking Alpha, einer US-Plattform mit Anlegerbeiträgen, rutschte der Kurs um fünfzehn Prozent ab. Zu den Risiken und rechtlichen Problemen: In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden, ausser den genannten Marktsorgen und Bedenken bezüglich KI-Rechenzentren. Bei den Analystenbewertungen gibt es verschiedene Einschätzungen. Barclays stufte die Aktie auf Übergewichten mit einem Kursziel von zweihundertneunundachtzig Dollar hoch. Citigroup bestätigte ein neutrales Rating mit einem Kursziel von zweihundertvierundachtzig Dollar. Wells Fargo bestätigte die Einstufung auf Marktgewichten mit einem Kursziel von einhundertzweiundachtzig Dollar. JP Morgan bestätigte die Einstufung auf Übergewichten mit einem Kursziel von zweihundertzweiundneunzig Dollar. RBC Capital bestätigte die Einstufung als besser als der Markt mit einem Kursziel von dreihundertfünfunddreissig Dollar. Was die Firma gerade macht: Laut Yahoo Finance hat Bloom Energy eine Vereinbarung mit NTT Data über neunhundert Megawatt Stromerzeugung für Rechenzentren geschlossen. Zudem wurde laut Yahoo Finance die Prognose für das Gesamtjahr nach einem Umsatzanstieg von einhundertsechsundsechzig Prozent erhöht. Auf der anderen Seite belasten Bedenken und Berichte über Verzögerungen bei Rechenzentren die Stimmung. Zu den wichtigen Kennzahlen: Der Umsatzanstieg von einhundertsechsundsechzig Prozent zeigt ein starkes Wachstum und führte zu einer angehobenen Prognose. Das durchschnittliche Kursziel der Analysten liegt bei zweihundertvierundachtzig Dollar und achtundachtzig Cent. Zu Insider-Käufen und -Verkäufen: Laut den Meldungen hat Verwaltungsrätin Barbara Burger Aktien im Wert von rund fünfhunderteinstausendsiebenhundertelf Dollar verkauft. Verkäufe von Insidern sagen oft weniger aus als Käufe, da sie zum Beispiel steuerlich motiviert oder vorab geplant sein können. Bei den Aussagen der Chefs liegen keine direkten Zitate vor. Zu Widersprüchen: Barron's berichtet, dass die Aktie stark ansteigt und Bloom Energy ein Gewinner sein kann, während MarketWatch und Seeking Alpha von Kursverlusten und Sorgen berichten. Zurück zu Bloom Energy: Die Marktlage bleibt somit dynamisch zwischen starkem Wachstum bei Grossprojekten und Skepsis bezüglich des Sektors. Keine Anlageberatung.",
+   "id": "98159bd34f",
+   "generated_at": "2026-11-06T01:23:40Z",
    "audio": {
     "file": "BE.mp3",
-    "hash": "a6ff3247c7fe8e6d",
-    "dur": 127.3,
+    "hash": "131746826e0f220a",
+    "dur": 180.2,
     "engine": "edge"
    }
   },
@@ -318,14 +318,14 @@
   {
    "symbol": "OKLO",
    "name": "Oklo",
-   "text": "Oklo: Im vorliegenden Berichtszeitraum stand die Aktie des Atomunternehmens Oklo im Fokus verschiedener Marktbeobachter und Analysten. Laut der kanadischen Tageszeitung The Globe and Mail gerieten Oklo, Archer und Rocket Lab im Zuge sinkender Renditen zehnjähriger Staatsanleihen unter Druck. Demgegenueber meldet scanx.trade, dass Oklo-Aktien um elf Prozent stiegen, da Spannungen zwischen den USA und Kanada den Atomsektor ankurbelten. Laut der Chart- und Boersenplattform TradingView fuehrt das Unternehmen die Liste der leerverkauften Versorgungsaktien in der Marktkapitalisierungskategorie von ueber zwei Milliarden Dollar an. Zu den Analysten-Bewertungen: Die Analysten zeigen sich insgesamt ueberwiegend positiv gestimmt. Laut Yahoo Finance gibt es gegenwaertig fünf starke Kaeufe, vierzehn Kaeufe, zehn Halteempfehlungen, eins Verkauf sowie eins starken Verkauf. Das durchschnittliche Kursziel liegt bei fünfundsechzig Komma zwei fünf Dollar, wobei das maximale Kursziel bei einhundertzweiundzwanzig Dollar und das minimale Kursziel bei vierzehn Dollar liegt. Zu den Anpassungen im Detail: B. Zurück zu Oklo: Riley Securities vergab am achtundzwanzigsten Oktober 2026 das Rating Kaufen mit einem Kursziel von einundsechzig Dollar. TD Cowen nahm die Bewertung am sechsundzwanzigsten Oktober 2026 mit Halten und einem Kursziel von sechsundzwanzig Dollar auf. Truist Securities bestaetigte am zweiundzwanzigsten Oktober 2026 Halten und nannte ein Kursziel von einunddreissig Dollar. Citigroup bestaetigte am einundzwanzigsten Oktober 2026 Neutral mit einem Kursziel von dreiunddreissig Dollar. Barclays bestaetigte am zwanzigsten Oktober 2026 Uebergewichten mit einem Kursziel von neunundfünfzig Dollar. Piper Sandler bestaetigte am neunzehnten Oktober 2026 Uebergewichten mit einem Kursziel von neunundvierzig Dollar. Was das Unternehmen gerade macht: Laut Investing.com hat die Bank Wedbush die Berichterstattung ueber den Nuklearsektor aufgenommen und unterstuetzt dabei Oklo und X-Energy. Asianet Newsable berichtet, dass insbesondere die Nachfrage nach kuenstlicher Intelligenz den positiven Trend fuer Unternehmen wie Oklo und Nano Nuclear anheizt. Zu den wichtigen Kennzahlen gehoert das durchschnittliche Kursziel der Analysten von fünfundsechzig Komma zwei fünf Dollar, welches die Markterwartungen verdeutlicht.",
-   "id": "4f865f78c5",
-   "generated_at": "2026-11-04T23:06:47Z",
+   "text": "Oklo steht im Fokus von Barchart.com, da anstehende Termine für die Aktionäre bevorstehen. Yahoo Finance meldet, dass Oklo die Ergebnisse für das dritte Quartal 2026 vorgelegt hat, wobei TradingView eine Schätzung für den Gewinn je Aktie von minus null Komma zwei sieben Dollar nennt. Laut Asianet Newsable hat Wedbush das Unternehmen wegen der steigenden Nachfrage nach Energie durch künstliche Intelligenz ausgewählt. Risiken oder rechtliche Probleme wurden in den Meldungen nicht genannt. Bei den Analysten-Bewertungen bestätigt B. Riley Securities das Rating Kaufen mit einem Kursziel von einundsechzig Dollar, während TD Cowen die Aktie neu mit dem Rating Halten und einem Kursziel von sechsundzwanzig Dollar aufnimmt. Zurück zu Oklo: Truist Securities bestätigt das Rating Halten und senkt das Ziel auf einunddreissig Dollar. Citigroup bestätigt Neutral mit einem Ziel von dreiunddreissig Dollar. Barclays bestätigt Übergewichten mit neunundfünfzig Dollar, und Piper Sandler bestätigt Übergewichten mit neunundvierzig Dollar. Wedbush hebt hervor, dass Oklo von der stark wachsenden Energienachfrage im Bereich der künstlichen Intelligenz profitiert. Wichtige Kennzahlen sind der geschätzte Gewinn je Aktie von minus null Komma zwei sieben Dollar als Mass für die Profitabilität je Anteilschein sowie das durchschnittliche Kursziel der Analysten von fünfundsechzig Komma zwei fünf Dollar, bei einer Spanne vom tiefsten Kursziel von vierzehn Dollar bis zum höchsten Kursziel von einhundertzweiundzwanzig Dollar. Zu Insider-Verkäufen gab es mehrere Meldungen von Führungskräften: Finanzchef Richard Craig Bealmear verkaufte Aktien im Wert von rund vierhundertsiebenundzwanzigtausenddreihundertfünfundsiebzig Dollar, Chef Jacob DeWitte verkaufte Aktien im Wert von rund zwei Millionen Dollar, und auch Caroline Cochran veräusserte Papiere. Aussagen des Managements wurden in den Meldungen nicht genannt, und Widersprüche zwischen den Quellen traten nicht auf.",
+   "id": "2ca99220da",
+   "generated_at": "2026-11-06T01:23:40Z",
    "audio": {
     "file": "OKLO.mp3",
-    "hash": "2949b3951c61b9b6",
-    "dur": 137.1,
-    "engine": "gemini"
+    "hash": "5bc4f1c98ef692ca",
+    "dur": 133.2,
+    "engine": "edge"
    }
   },
   {
@@ -409,14 +409,14 @@
   {
    "symbol": "BKW.SW",
    "name": "BKW AG",
-   "text": "BKW AG: Die Aktie des Energiekonzerns zeigte sich in den letzten Handelstagen an der Börse mit unterschiedlichen Kursbewegungen von leichten Gewinnen bis hin zu vorübergehenden Rücksetzern, wie finanzen.ch, ein Schweizer Finanzportal, meldet. Zu den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Bei den Analysten-Bewertungen hält laut MarketScreener Schweiz, einem Finanzportal, die Grossbank UBS an ihrer neutralen Einschatzung fest und hat das Kursziel von umgerechnet rund einhundertsechsundsechzig Dollar auf rund einhundertzweiundsechzig Dollar gesenkt. Was BKW AG aktuell macht, zeigt sich in einer betrieblichen Entscheidung: Laut finanzen.ch schaltet der Energiekonzern die Rundsteuerung Ende 2029 ab. Als wichtige Kennzahl ist das von der UBS genannte Kursziel von rund einhundertzweiundsechzig Dollar zu nennen, welches den erwarteten zukünftigen Kurs widerspiegelt; im Durchschnitt sehen Analysten das Kursziel bei rund zweihundertfünfzehn Dollar. Insider-Käufe oder -Verkäufe wurden in den Berichten nicht erwähnt. Zu Plänen oder Aussagen von Chefs gibt es aktuell keine Berichte.",
-   "id": "a6ea09491e",
-   "generated_at": "2026-11-05T14:56:50Z",
+   "text": "BKW AG: Das Schweizer Finanzportal finanzen.ch berichtet, dass die Aktie der BKW AG in den Berichtszeiträumen wiederholt Kursgewinne und freundliche Notierungen an der Börse verzeichnete. Ein weiterer wichtiger Punkt ist die Ankündigung des Energiekonzerns, die Rundsteuerung bis Ende des Jahres 2029 abzuschalten. Risiken oder rechtliche Probleme wurden in den vorliegenden Meldungen nicht gefunden. Zu den Analysten-Bewertungen meldet MarketScreener Schweiz, dass die UBS an ihrer neutralen Empfehlung für BKW AG festhält und das Kursziel von bisher einhundertfünfundsechzig Dollar auf einhunderteinundsechzig Dollar senkte. Yahoo Finance nennt ein durchschnittliches Kursziel von einhundertvierundsiebzig Dollar, wobei die Spanne von einhunderteinundvierzig Dollar bis zweihundertacht Dollar reicht. Zurück zu BKW AG: Was die Firma gerade macht: Aufwertend wirkt, dass finanzen.ch an mehreren Handelstagen über ein Kursplus und freundliche Tendenzen berichtete. Abwertend zeigte sich demgegenüber, dass die Aktie an einem Mittwochvormittag zeitweise Verluste verzeichnete und einbüsste. Bei den Kennzahlen sticht das durchschnittliche Kursziel von einhundertvierundsiebzig Dollar hervor, welches den erwarteten Mittelwert der Aktie zeigt, sowie das von der UBS angepasste Kursziel von einhunderteinundsechzig Dollar. Das höchste Kursziel liegt bei zweihundertacht Dollar und das tiefste bei einhunderteinundvierzig Dollar. Insider-Käufe oder Verkäufe wurden in den Daten nicht aufgeführt, und Aussagen von Chefs oder dem Management liegen für diesen Zeitraum nicht vor. Es gibt keine Widersprüche in den Berichten der verschiedenen Quellen.",
+   "id": "8276edd875",
+   "generated_at": "2026-11-06T01:23:40Z",
    "audio": {
     "file": "BKW.SW.mp3",
-    "hash": "58497608b9638bd2",
-    "dur": 72.2,
-    "engine": "gemini"
+    "hash": "adf6f9bac52108e4",
+    "dur": 111.0,
+    "engine": "edge"
    }
   },
   {
@@ -524,5 +524,5 @@
   "dur": 10.2,
   "engine": "edge"
  },
- "audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@ee219c40d62f0f8a04462318d8a94f521fdb4c40/data/audio/"
+ "audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@6abdf6ca21f42cd91835203aa6e1d9825db6be43/data/audio/"
 }
