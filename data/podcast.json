@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T04:11:42Z",
+ "generated_at": "2026-11-06T05:18:22Z",
  "intro": "Willkommen beim Aktien-Radar, deinem Überblick über die neuesten Meldungen. Heute geht es um 39 Aktien aus deiner Liste. Alles stammt aus den gesammelten Meldungen und Analystendaten, nichts ist erfunden. Keine Anlageberatung.",
  "outro": "Das war der Aktien-Radar-Überblick. Die Quellen und Details findest du in der App bei jeder Aktie. Keine Anlageberatung.",
  "segments": [
@@ -32,14 +32,14 @@
   {
    "symbol": "005930.KS",
    "name": "Samsung Electronics",
-   "text": "Samsung Electronics: Die Aktie von Samsung Electronics stand zuletzt stark unter Druck, nachdem Ausverkäufe an der Börse Nasdaq und Sorgen vor künstlicher Intelligenz die Kurse asiatischer Chip-Werte belasteten. Laut dem US-Wirtschaftssender CNBC stürzten die Papiere deutlich ab, und nach Berichten des Finanzportals Yahoo Finance gaben die Kurse zeitweise um sieben Komma sechs Prozent nach. Auch die Zeitung The Korea Herald berichtete von Verlusten um zehn Prozent wegen Ängsten vor künstliche-Intelligenz-Rechenzentren. Belastend wirkten zudem Speicherkosten, die laut InvestmentWeek auf das Unternehmen drücken. Zu den Analysten-Bewertungen gibt es Daten von Yahoo Finance, wonach von insgesamt vierundvierzig Analysten zehn mit stark kaufen, vierunddreissig mit kaufen und eins mit halten bewerten. Das durchschnittliche Kursziel liegt bei dreihundertsechsundfünfzig Dollar. Zurück zu Samsung Electronics: Operativ gibt es auch positive Meldungen. So erhielt der Galaxy Ring nach behördlichen Genehmigungen der US-amerikanischen Behörde FDA und der koreanischen Behörde MFDS eine verbesserte Schlafapnoe-Funktion, wie die Firma selbst mitteilte. Zudem erwarb Samsung Electronics eine Beteiligung von zehn Komma zwei Prozent an TCL CSOT, erweiterte mobile Zahlungsangebote mit Mastercard in Marokko und ermöglichte Samsung Wallet-Nutzern das Senden von USDC auf Solana. Zu den wichtigen Kennzahlen ist das durchschnittliche Kursziel von dreihundertsechsundfünfzig Dollar zu nennen, das das Potenzial der Aktie widerspiegelt. Ausserdem wurde eine jährliche Wachstumsrate im Bereich der grünen Elektronikfertigung von vierundzwanzig Komma sechs Prozent genannt. Zu den Widersprüchen gab es unterschiedliche Berichte des Börsenportals boerse.de zur zweihundert-Tage-Linie, wobei einmal ein Kurs darunter und einmal ein Kurs darüber gemeldet wurde.",
-   "id": "37328b1880",
-   "generated_at": "2026-11-06T01:23:40Z",
+   "text": "Samsung Electronics: Die Aktie von Samsung Electronics stand zuletzt unter erheblichem Druck, was vor allem auf breite Marktausverkäufe und wachsende Sorgen über die Ausgaben im Bereich der kuenstlichen Intelligenz zurueckzufuehren ist. Auch ein allgemeiner Markteinbruch nach den US-Wahlen belastete den Kurs. Rechtlich gesehen gab es zudem eine Verurteilung eines ehemaligen Ingenieurs in einem Fall um ein DRAM-Leck. Trotz dieser Herausforderungen bleibt das Analystenbild optimistisch: Bei zehn starken Kaufempfehlungen, vierunddreissig Kaufempfehlungen und nur einer Halteempfehlung liegt das mittlere Kursziel bei dreihundertsechsundfünfzig Dollar. Zurück zu Samsung Electronics: Die Spanne der Prognosen reicht dabei von einem Tiefstwert von zweihundertsechzehn Dollar bis zu einem Hoechstwert von fünfhundertdreizehn Dollar. Operativ ist das Unternehmen jedoch aktiv: Samsung Electronics hat eine Beteiligung von zehn Komma zwei Prozent an TCL CSOT erworben, um die strategische Zusammenarbeit zu vertiefen. Zudem wurde die Samsung Wallet um die Funktion erweitert, USDC auf Solana zu senden, und Mastercard hat sein mobiles Zahlungsangebot in Marokko mit Samsung Pay ausgebaut. Auch der Galaxy Ring erhielt ein Update, das nach behoerdlichen Genehmigungen in den USA und Korea eine verbesserte Schlafapnoe-Funktion freischaltet. Belastend wirken hingegen Berichte, wonach steigende Speicherkosten das Unternehmen als Apple-Zulieferer unter Druck setzen.",
+   "id": "e89e0810a3",
+   "generated_at": "2026-11-06T05:09:00Z",
    "audio": {
     "file": "005930.KS.mp3",
-    "hash": "2c74a4474b545ca3",
-    "dur": 102.2,
-    "engine": "gemini"
+    "hash": "df24f7796024b924",
+    "dur": 96.6,
+    "engine": "edge"
    }
   },
   {
@@ -524,5 +524,5 @@
   "dur": 10.2,
   "engine": "edge"
  },
- "audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@d10c2e522b9e125f66e17b242284385e77077f9c/data/audio/"
+ "audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@095c1f023aeef7a09f4bb2923c70e9c57848c912/data/audio/"
 }

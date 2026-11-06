@@ -16,16 +16,15 @@
   },
   "005930.KS": {
    "file": "005930.KS.mp3",
-   "hash": "2c74a4474b545ca3",
-   "th": "81dfc56b88039844",
-   "engine": "gemini",
-   "id": "37328b1880",
-   "voice": "Kore",
-   "model": "gemini-2.5-flash-preview-tts",
+   "hash": "df24f7796024b924",
+   "th": "f211813051da8372",
+   "id": "e89e0810a3",
+   "voice": "de-CH-LeniNeural",
+   "engine": "edge",
    "br": 24,
-   "text": "Die Aktie von Samsung Electronics stand zuletzt stark unter Druck, nachdem Ausverkäufe an der Börse Nasdaq und Sorgen vor künstlicher Intelligenz die Kurse asiatischer Chip-Werte belasteten. Laut dem US-Wirtschaftssender CNBC stürzten die Papiere deutlich ab, und nach Berichten des Finanzportals Yahoo Finance gaben die Kurse zeitweise um sieben Komma sechs Prozent nach. Auch die Zeitung The Korea Herald berichtete von Verlusten um zehn Prozent wegen Ängsten vor künstliche-Intelligenz-Rechenzentren. Belastend wirkten zudem Speicherkosten, die laut InvestmentWeek auf das Unternehmen drücken. Zu den Analysten-Bewertungen gibt es Daten von Yahoo Finance, wonach von insgesamt vierundvierzig Analysten zehn mit stark kaufen, vierunddreissig mit kaufen und eins mit halten bewerten. Das durchschnittliche Kursziel liegt bei dreihundertsechsundfünfzig Dollar. Operativ gibt es auch positive Meldungen. So erhielt der Galaxy Ring nach behördlichen Genehmigungen der US-amerikanischen Behörde FDA und der koreanischen Behörde MFDS eine verbesserte Schlafapnoe-Funktion, wie die Firma selbst mitteilte. Zudem erwarb Samsung Electronics eine Beteiligung von zehn Komma zwei Prozent an TCL CSOT, erweiterte mobile Zahlungsangebote mit Mastercard in Marokko und ermöglichte Samsung Wallet-Nutzern das Senden von USDC auf Solana. Zu den wichtigen Kennzahlen ist das durchschnittliche Kursziel von dreihundertsechsundfünfzig Dollar zu nennen, das das Potenzial der Aktie widerspiegelt. Ausserdem wurde eine jährliche Wachstumsrate im Bereich der grünen Elektronikfertigung von vierundzwanzig Komma sechs Prozent genannt. Zu den Widersprüchen gab es unterschiedliche Berichte des Börsenportals boerse.de zur zweihundert-Tage-Linie, wobei einmal ein Kurs darunter und einmal ein Kurs darüber gemeldet wurde.",
-   "dur": 102.2,
-   "at": "2026-11-06T01:29:10Z"
+   "text": "Die Aktie von Samsung Electronics stand zuletzt unter erheblichem Druck, was vor allem auf breite Marktausverkäufe und wachsende Sorgen über die Ausgaben im Bereich der kuenstlichen Intelligenz zurueckzufuehren ist. Auch ein allgemeiner Markteinbruch nach den US-Wahlen belastete den Kurs. Rechtlich gesehen gab es zudem eine Verurteilung eines ehemaligen Ingenieurs in einem Fall um ein DRAM-Leck. Trotz dieser Herausforderungen bleibt das Analystenbild optimistisch: Bei zehn starken Kaufempfehlungen, vierunddreissig Kaufempfehlungen und nur einer Halteempfehlung liegt das mittlere Kursziel bei dreihundertsechsundfünfzig Dollar. Die Spanne der Prognosen reicht dabei von einem Tiefstwert von zweihundertsechzehn Dollar bis zu einem Hoechstwert von fünfhundertdreizehn Dollar. Operativ ist das Unternehmen jedoch aktiv: Samsung Electronics hat eine Beteiligung von zehn Komma zwei Prozent an TCL CSOT erworben, um die strategische Zusammenarbeit zu vertiefen. Zudem wurde die Samsung Wallet um die Funktion erweitert, USDC auf Solana zu senden, und Mastercard hat sein mobiles Zahlungsangebot in Marokko mit Samsung Pay ausgebaut. Auch der Galaxy Ring erhielt ein Update, das nach behoerdlichen Genehmigungen in den USA und Korea eine verbesserte Schlafapnoe-Funktion freischaltet. Belastend wirken hingegen Berichte, wonach steigende Speicherkosten das Unternehmen als Apple-Zulieferer unter Druck setzen.",
+   "dur": 96.6,
+   "at": "2026-11-06T05:18:20Z"
   },
   "HY9H.MU": {
    "file": "HY9H.MU.mp3",
@@ -516,10 +515,10 @@
    "at": "2026-11-04T16:37:35Z"
   }
  },
- "status": "ok",
- "checked_at": "2026-11-06T04:11:40Z",
- "quota_until": 1793937996.3044322,
- "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@d10c2e522b9e125f66e17b242284385e77077f9c/data/audio/",
+ "status": "quota: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usa",
+ "checked_at": "2026-11-06T05:18:20Z",
+ "quota_until": 1793945892.4717753,
+ "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@095c1f023aeef7a09f4bb2923c70e9c57848c912/data/audio/",
  "extra": {
   "intro": {
    "file": "_intro.mp3",
