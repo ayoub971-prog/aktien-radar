@@ -75,28 +75,27 @@
   },
   "PLTR": {
    "file": "PLTR.mp3",
-   "hash": "48fb6e174e3fc736",
-   "th": "75fe727e5d6c22d6",
-   "engine": "gemini",
+   "hash": "9335cca76429756a",
+   "th": "a0015e27c65f9529",
    "id": "bb1a41da51",
-   "voice": "Kore",
-   "model": "gemini-2.5-flash-preview-tts",
-   "br": 24,
-   "text": "Palantir: Die Aktie von Palantir stand zuletzt im Fokus von Finanzmedien und Analysten, nachdem das Unternehmen starke Quartalszahlen vorgelegt hatte. Laut Barchart, einem US-Börsendatenportal, übertraf Palantir im dritten Quartal die Umsatz- und Gewinnschätzungen und zeigte ein starkes Wachstum im Bereich der künstlichen Intelligenz, wie Yahoo Finance berichtet. Dennoch verzeichnete die Aktie laut The Globe and Mail Kursrückgänge gegenüber ihren Höchstständen und geriet in ein volatiles Marktumfeld. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden, allerdings wies The Globe and Mail auf potenzielle Warnsignale im Quartalsbericht hin. Analysten bewerten die Aussichten überwiegend positiv. Laut Yahoo Finance liegt das durchschnittliche Kursziel bei rund zweihundertachtzehn Dollar, während das Konsensbild zahlreiche Kaufempfehlungen umfasst. Die Bank Barclays bestätigte ihre Einstufung und erhöhte das Kursziel auf zweihundertdreiundsiebzig Dollar, und auch die Citigroup hob das Kursziel auf zweihundertfünfundsechzig Dollar an. Zurück zu Palantir: Das Unternehmen lieferte ein explosives Wachstum bei künstlicher Intelligenz und steigerte den Umsatz stark, während abwertend erwähnt wurde, dass börsengehandelte Fonds als Nettoverkäufer auftraten und der Aktienkurs zeitweise unter Druck geriet. Zu den wichtigen Kennzahlen gehört das Umsatzwachstum von rund sechsundneunzig Prozent sowie das durchschnittliche Kursziel von rund zweihundertachtzehn Dollar. Bei den Insidern gab es verschiedene Verkäufe, wie Pflichtmeldungen bei der US-Börsenaufsicht SEC zeigen; so veräusserte Verwaltungsratsmitglied Lauren Elaina Friedman Stat Aktien im Wert von rund zweihundertdreiundfünfzigtausend Dollar, und Manager Ryan D. Taylor verkaufte Aktien im Wert von rund drei Komma sechs Millionen Dollar im Rahmen geplanter Pläne. Solche Insiderverkäufe sind oft weniger aussagekräftig als Käufe, da sie häufig steuerlich motiviert oder vorab festgelegt sind. Keine Anlageberatung.",
-   "dur": 119.5,
-   "at": "2026-11-06T22:47:11Z"
-  },
-  "IBM": {
-   "file": "IBM.mp3",
-   "hash": "cdd27d6161e11637",
-   "th": "a6d2e20b970b1ee5",
-   "id": "6a41cc9ca9",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Der Technologiekonzern IBM hat in Chicago seinen fortschrittlichsten Quantencomputer vorgestellt und damit einen Meilenstein für die Quantenzukunft in Illinois markiert. Zudem wurde gemeinsam mit Supermicro und Nvidia eine KV-Cache-Losung auf den Markt gebracht, die erhebliche Leistungsvorteile bei der Inferenz bietet. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Zu den Analysten-Bewertungen gehort die Bestatigung der Einstufung Outperform durch Evercore mit einem Kursziel von zweihundertfünfundsiebzig Dollar. Jefferies bestatigte das Rating Kaufen und erhohte das Kursziel auf zweihundertachtzig Dollar. Die UBS bestatigte die neutrale Einstufung und hob das Kursziel auf zweihundertdreiundvierzig Dollar an. Citigroup bestatigte ebenfalls die Kaufempfehlung und setzte das Kursziel auf zweihundertachtzig Dollar. Morgan Stanley erhohte das Kursziel auf zweihundertvierzig Dollar bei der Bewertung Marktgewichten. BMO Capital passte das Kursziel auf zweihundertfünfundsechzig Dollar an, wahrend Barclays das Kursziel auf zweihundertsiebenundsiebzig Dollar erhohte. IBM treibt ihre Entwicklung voran, indem sie neben dem neuen Quantencomputer in Chicago auch eine Co-Design-Plattform fur Quantenfehlerkorrektur mit dem Oak Ridge National Laboratory und AMD gestartet hat und Quantenverschluesselung auf Heron R2 einsetzt.",
-   "dur": 97.0,
-   "at": "2026-11-06T20:51:53Z"
+   "text": "Palantir: Die Aktie von Palantir stand zuletzt im Fokus von Finanzmedien und Analysten, nachdem das Unternehmen starke Quartalszahlen vorgelegt hatte. Laut Barchart, einem US-Börsendatenportal, übertraf Palantir im dritten Quartal die Umsatz- und Gewinnschätzungen und zeigte ein starkes Wachstum im Bereich der künstlichen Intelligenz, wie Yahoo Finance berichtet. Dennoch verzeichnete die Aktie laut The Globe and Mail Kursrückgänge gegenüber ihren Höchstständen und geriet in ein volatiles Marktumfeld. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden, allerdings wies The Globe and Mail auf potenzielle Warnsignale im Quartalsbericht hin. Analysten bewerten die Aussichten überwiegend positiv. Laut Yahoo Finance liegt das durchschnittliche Kursziel bei rund zweihundertachtzehn Dollar, während das Konsensbild zahlreiche Kaufempfehlungen umfasst. Die Bank Barclays bestätigte ihre Einstufung und erhöhte das Kursziel auf zweihundertdreiundsiebzig Dollar, und auch die Citigroup hob das Kursziel auf zweihundertfünfundsechzig Dollar an. Zurück zu Palantir: Das Unternehmen lieferte ein explosives Wachstum bei künstlicher Intelligenz und steigerte den Umsatz stark.",
+   "dur": 85.1,
+   "at": "2026-11-06T23:25:45Z"
+  },
+  "IBM": {
+   "file": "IBM.mp3",
+   "hash": "733e6fb914cc01d6",
+   "th": "87ff93e1b7f9b80a",
+   "id": "a0e2ed09b7",
+   "voice": "de-CH-LeniNeural",
+   "engine": "edge",
+   "br": 24,
+   "text": "IBM: Der IBM Newsroom meldet, dass das Unternehmen in Chicago seinen fortschrittlichsten Quantencomputer vorgestellt hat, was laut Yahoo Finance zu Kursbewegungen führte. Ausserdem starteten das Oak Ridge National Laboratory, IBM und AMD eine neue Co-Design-Plattform für die Quantenfehlerkorrektur, wie der IBM Newsroom berichtet. TradingView meldet zudem, dass Supermicro gemeinsam mit IBM und NVIDIA eine KV-Cache-Lösung auf den Markt gebracht hat, die erhebliche Leistungsvorteile bei der Inferenz bietet. Als Risiken oder rechtliche Probleme wurden in den vorlegenden Meldungen keine gefunden, abgesehen von einem leichten Kursrückgang nach der Vorstellung des Quantencomputers, wie die Traders Union berichtet. Analysten wie Evercore ISI bestätigten die Bewertung mit Outperform und einem Kursziel von zweihundertfünfundsiebzig Dollar, und laut Seeking Alpha nahm die Bank of America IBM in ihre Liste der globalen Verteidiger auf. Zurück zu IBM: Die Firma treibt ihre Projekte im Bereich Quantencomputing und künstliche Intelligenz voran, während die Traders Union einen leichten Kursrückgang nach der Präsentation in Illinois meldete. Wichtige Kennzahlen umfassen das durchschnittliche Kursziel der Analysten von rund zweihundertneunundfünfzig Dollar, wobei das höchste Ziel bei rund dreihundert Dollar und das tiefste bei rund einhundertvierundsiebzig Dollar liegt.",
+   "dur": 95.5,
+   "at": "2026-11-06T23:25:51Z"
   },
   "NOW": {
    "file": "NOW.mp3",
@@ -233,15 +232,15 @@
   },
   "HYLN": {
    "file": "HYLN.mp3",
-   "hash": "96720ad7bcc1d71b",
-   "th": "a5cb839a9cc50204",
+   "hash": "361dabdc3337501b",
+   "th": "032a09f791929a63",
    "id": "caf10a3d0a",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Hyliion Holdings: Laut Yahoo Finance zeigt der Blick auf das Unternehmen Hyliion Holdings im zweiten Quartal 2026 einen geringeren Verlust als erwartet, wobei kommerzielle Einnahmen jedoch nach wie vor fehlen. Das durchschnittliche Kursziel der Analysten liegt bei sieben Komma sieben fünf Dollar, was ein Aufwärtspotenzial von rund einhundertneunundfünfzig Komma zwei Prozent bedeutet. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Bei den Analystenbewertungen stufte Northland Capital Markets die Aktie am dreizehnten August 2026 auf Besser als Markt hoch und setzte ein Kursziel von zehn Dollar fest, weil die Einstufung von Wie der Markt angepasst wurde. Craig-Hallum nahm die Aktie am neunundzwanzigsten September 2026 neu mit dem Rating Kaufen und einem Kursziel von sieben Dollar in die Bewertung auf. Zurück zu Hyliion Holdings: Als aufwertend meldet https://www.dars.gov.et/, dass der Verlust im zweiten Quartal 2026 geringer als erwartet ausfiel. Als abwertend berichtet dieselbe Quelle, dass kommerzielle Einnahmen weiterhin fehlen. Zu den wichtigsten Kennzahlen gehört das durchschnittliche Kursziel von sieben Komma sieben fünf Dollar, welches aus den Schätzungen von vier Analysten berechnet wurde und den durchschnittlichen Zielkurs zeigt, den Experten für die Aktie erwarten. Aus den vorliegenden SEC-Daten geht hervor, dass Verwaltungsrat Vincent T. Cubbage am siebenundzwanzigsten August 2026 Aktien im Wert von rund einhundertsiebzigtausend Dollar kaufte. Generell ist zu beachten, dass Insider-Verkäufe oft weniger aussagen als Käufe, da Verkäufe beispielsweise durch steuerliche Gründe oder geplante Pläne motiviert sein können, während Käufe eher das Vertrauen der Führungspersonen widerspiegeln. Keine Anlageberatung.",
-   "dur": 133.2,
-   "at": "2026-11-06T22:48:38Z"
+   "text": "Hyliion Holdings: Laut Yahoo Finance zeigt der Blick auf das Unternehmen Hyliion Holdings im zweiten Quartal 2026 einen geringeren Verlust als erwartet, wobei kommerzielle Einnahmen jedoch nach wie vor fehlen. Das durchschnittliche Kursziel der Analysten liegt bei sieben Komma sieben fünf Dollar, was ein Aufwärtspotenzial von rund einhundertneunundfünfzig Komma zwei Prozent bedeutet. Bei den Analystenbewertungen stufte Northland Capital Markets die Aktie am dreizehnten August 2026 auf Besser als Markt hoch und setzte ein Kursziel von zehn Dollar fest. Craig-Hallum nahm die Aktie am neunundzwanzigsten September 2026 neu mit dem Rating Kaufen und einem Kursziel von sieben Dollar in die Bewertung auf. Als aufwertend meldet die Quelle, dass der Verlust im zweiten Quartal 2026 geringer als erwartet ausfiel. Als abwertend wird berichtet, dass kommerzielle Einnahmen weiterhin fehlen. Zu den wichtigsten Kennzahlen gehört das durchschnittliche Kursziel von sieben Komma sieben fünf Dollar, welches aus den Schätzungen von vier Analysten berechnet wurde und den durchschnittlichen Zielkurs zeigt, den Experten für die Aktie erwarten. Aus den vorliegenden Daten geht hervor, dass Verwaltungsrat Vincent T. Cubbage am siebenundzwanzigsten August 2026 Aktien im Wert von rund einhundertsiebzigtausend Dollar kaufte.",
+   "dur": 96.6,
+   "at": "2026-11-06T23:25:57Z"
   },
   "SMEGF": {
    "file": "SMEGF.mp3",
@@ -329,15 +328,15 @@
   },
   "BKW.SW": {
    "file": "BKW.SW.mp3",
-   "hash": "bd9ee7fc589064b9",
-   "th": "c31a258504681102",
-   "id": "e145d9ee24",
+   "hash": "729d79d077d22970",
+   "th": "7f80caa6581fe2a5",
+   "id": "5cf2f7d5ef",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "BKW AG: In den aktuellen Berichten zeigt sich ein wechselhaftes Bild für den Energiekonzern. Laut finanzen.ch, einem Schweizer Finanzportal, verzeichnete das Unternehmen an verschiedenen Handelstagen sowohl Kursgewinne als auch Abschläge und Einbussen. Zudem kündigte der Konzern an, die Rundsteuerung Ende 2029 abzuschalten. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Zu den Analysten-Bewertungen meldet Yahoo Finance einen Analystenkonsens, der sich aus zwei Kaufempfehlungen, drei Halteempfehlungen und zwei Verkaufsempfehlungen zusammensetzt. Das durchschnittliche Kursziel liegt bei rund einhundertvierundsiebzig Dollar, während das höchste Kursziel bei rund zweihundertacht Dollar und das niedrigste bei rund einhundertvierzig Dollar angesiedelt sind. Daraus ergibt sich ein prozentuales Kurspotenzial von rund dreizehn Komma sechs Prozent. Zurück zu BKW AG: Operativ fällt auf, dass der Energiekonzern die Abschaltung der Rundsteuerung bis zum Jahresende 2029 plant. Auf der anderen Seite deuten wiederkehrende Abschläge und Einbussen im Handelsverlauf auf zeitweiligen Verkaufsdruck hin. Bei den Kennzahlen sticht das durchschnittliche Kursziel von rund einhundertvierundsiebzig Dollar sowie das damit verbundene Aufwärtspotenzial von rund dreizehn Komma sechs Prozent hervor. Insider-Käufe oder -Verkäufe wurden in den Daten nicht genannt. Aussagen von Chefs oder dem Management liegen ebenfalls nicht vor. Widersprüche zwischen den berücksichtigenden Quellen wurden nicht festgestellt. Keine Anlageberatung.",
-   "dur": 113.9,
-   "at": "2026-11-06T20:52:15Z"
+   "text": "BKW AG: Die Aktie des Energiekonzerns stand in den Berichten mehrfach im Fokus, wobei im Handelsverlauf sowohl Einbussen und Abschläge gemeldet wurden. Zudem kündigte das Unternehmen an, die Rundsteuerung bis zum Ende des Jahres 2029 abzuschalten. Laut Yahoo Finance liegt das durchschnittliche Kursziel der Analysten bei rund einhundertvierundsiebzig Dollar. Das Unternehmen ist im Energiesektor tätig und plant die genannte Abschaltung der Rundsteuerung. Als wichtige Kennzahl ist das von Yahoo Finance genannte mittlere Kursziel von rund einhundertvierundsiebzig Dollar zu nennen, welches den von Experten erwarteten Durchschnittswert darstellt.",
+   "dur": 47.4,
+   "at": "2026-11-06T23:26:01Z"
   },
   "UBSG.SW": {
    "file": "UBSG.SW.mp3",
@@ -365,15 +364,15 @@
   },
   "OEF": {
    "file": "OEF.mp3",
-   "hash": "32a62b613b6a9cd9",
-   "th": "261e2bbf73bedbb5",
-   "id": "e3b4b9b55c",
+   "hash": "fdcd20404a4b3fad",
+   "th": "46da593f513332f4",
+   "id": "b3437135e6",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Zum iShares S&P einhundert ETF liegen aktuelle Berichte von verschiedenen Finanzportalen vor. Laut Morningstar, einem Fondsanalyse- und Researchhaus, wurde über die Entwicklung der groessten Aktien-ETFs in Deutschland im Oktober berichtet. Ausserdem berichten Yahoo Finance Singapore, ein Finanzportal, das Meldungen und Analystenbewertungen buendelt, sowie Yahoo! Finance Canada ueber ein saisonales Renditediagramm zum iShares S&P einhundert ETF. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Es liegen keine Analysten-Bewertungen vor. Was die Aktivitaten angeht, veroeffentlichen die genannten Portale saisonale Renditediagramme fuer den iShares S&P einhundert ETF. Es wurden in den aktuellen Meldungen keine Kennzahlen genannt. Auch Insider-Kaeufe und -Verkaeufe sowie Aussagen von Chefs wurden in den Berichten nicht erwaehnt.",
-   "dur": 65.3,
-   "at": "2026-11-06T20:52:19Z"
+   "text": "Der iShares S&P einhundert ETF steht heute im Blickpunkt der Finanzberichterstattung. Laut Morningstar, einem Fondsanalyse- und Researchhaus, gab es Berichte zur Entwicklung der grössten Aktien-ETFs im Oktober. Darüber hinaus meldete Finanzen.net Informationen zu saisonalen Renditediagrammen für den iShares S&P einhundert ETF. Als wichtige Kennzahl ist der Kurs des Fonds bei dreihundertdreiundsechzig Dollar anzuführen, welcher den aktuellen Handelspreis widerspiegelt und zeigt, wie viel eine Einheit im Handel kostet.",
+   "dur": 38.8,
+   "at": "2026-11-06T23:26:03Z"
   },
   "013A.F": {
    "file": "013A.F.mp3",
@@ -389,15 +388,15 @@
   },
   "NVDA": {
    "file": "NVDA.mp3",
-   "hash": "5242997f0673014a",
-   "th": "c6efe251d27614b8",
-   "id": "2355b6864f",
+   "hash": "8443fe492a55b479",
+   "th": "00980617ccfffeac",
+   "id": "b8210e8b8d",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Die Aktie des Technologiekonzerns Nvidia stand zuletzt im Fokus von Finanzmedien und Analysten. Laut MarketWatch erholten sich die Aktien von Nvidia sowie anderer Chiphersteller nach einem starken Ausverkauf, wobei Marktbeobachter diskutieren, ob diese Entlastung nur voruebergehend ist. Berichten von Yahoo Finance zufolge investiert Nvidia zudem Milliarden in Advanced Chip Packaging, um den naechsten Engpass im Bereich der kuenstlichen Intelligenz zu bewältigen. Zudem meldet Yahoo Finance, dass Gesetzgeber den Konzernchef Jensen Huang zu einer nichtoeffentlichen Pressekonferenz eingeladen haben. Zu den Analysten-Bewertungen: Melius Research bestaetigte die Kaufempfehlung und senkte das Kursziel auf dreihundertfünfzehn Dollar. Needham bestaetigte die Einstufung als Kaufen mit einem Kursziel von dreihundert Dollar. Cantor Fitzgerald behielt das Rating Uebergewichten und ein Kursziel von dreihundertfünfzig Dollar bei. Rosenblatt bestaetigte wiederholt das Rating Kaufen mit einem Kursziel von dreihundertneunzig Dollar, waehrend Piper Sandler die Beobachtung mit dem Rating Uebergewichten und einem Kursziel von dreihundert Dollar neu aufnahm. Das Unternehmen treibt seine Projekte voran, indem es Milliarden in Advanced Chip Packaging investiert, waehrend aeltere H100-Chips zu doppelten Vertragspreisen neu unter Vertrag genommen wurden. Belastend wirkte hingegen der vorangegangene Ausverkauf, der die Aktie in einen Baerenmarkt fuehrte, und ein Investor warnte vor einem fatalen Fehler. Wichtige Kennzahlen zeigen ein durchschnittliches Kursziel der Analysten von dreihundertsiebenundzwanzig Dollar.",
-   "dur": 109.6,
-   "at": "2026-11-06T20:52:25Z"
+   "text": "Nvidia: Die Aktie des Technologiekonzerns Nvidia hat nach einem heftigen Ausverkauf im Bereich der kunstlichen Intelligenz eine Erholung an den Barsen verzeichnet. Laut MarketWatch, einem US-Finanznachrichtenportal, geriet die Nvidia-Aktie zeitweise in einen Barenmarkt, was jedoch Schnappchenjager anlockte. Zu den Risiken und rechtlichen Rahmenbedingungen ist zu sagen, dass in den vorliegenden Meldungen keine Risiken oder rechtlichen Probleme gefunden wurden, abgesehen von Kursruckgangen und dem Eintritt in einen temporaren Barenmarkt. Betreffend der Analysten-Bewertungen mit Begrundung gibt es verschiedene Einschatzungen: Melius Research bestatigte das Rating Kaufen und senkte das Kursziel auf dreihundertfünfzehn Dollar. Needham bestatigte das Kaufen-Rating mit einem Kursziel von dreihundert Dollar. Cantor Fitzgerald bestatigte das Ubergewichten-Rating bei einem Kursziel von dreihundertfünfzig Dollar. Rosenblatt bestatigte die Einstufung Kaufen und ein Kursziel von dreihundertneunzig Dollar, wahrend Piper Sandler die Aktie neu mit dem Rating Ubergewichten und einem Kursziel von dreihundert Dollar aufnahm. Zuruck zu Nvidia: Das Unternehmen treibt seine Geschaefte voran, indem sich SovAI Nvidia Inception angeschlossen hat, um KI-Fabriken nach der DSX-Referenzarchitektur zu errichten. Ausserdem investiert Nvidia Berichten zufolge Milliarden in das fortschrittliche Chip-Packaging, um einen drohenden Engpass zu bewaltigen. Wichtige Kennzahlen umfassen ein durchschnittliches Kursziel der Analysten von rund dreihundertsiebenundzwanzig Dollar, wobei das hohe Ziel bei fünfhundertfünfzehn Dollar und das tiefste bei einhundertachtzig Dollar liegt.",
+   "dur": 110.2,
+   "at": "2026-11-06T23:26:10Z"
   },
   "1211.HK": {
    "file": "1211.HK.mp3",
@@ -473,27 +472,27 @@
   },
   "STX": {
    "file": "STX.mp3",
-   "hash": "c4ff1a3edd34d0d8",
-   "th": "bff1f5541c3dbe9b",
-   "id": "df7dd2f765",
+   "hash": "dc96da89510a5a09",
+   "th": "ca0c456490fbaff7",
+   "id": "92348cf3fd",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Bei Seagate Technology Holdings PLC sorgt der Abwärtsdruck derzeit für Gesprächsstoff. Laut Yahoo Finance belasten Sorgen um die Speicherpreise sowie politische Entwicklungen nach Wahlen den Kurs. Zudem führte die Forderung eines Gesetzgebers nach einer Pause in der fortgeschrittenen KI-Entwicklung zu einem zeitweisen Einbruch von sechzehn Prozent. Grosse Banken haben ihre Kursziele angepasst. Die UBS stuft die Aktie neutral ein und nennt ein Kursziel von siebenhundertfünfzig Dollar, während die Citigroup mit einer Kaufempfehlung ein Kursziel von eintausendfünfzig Dollar anpeilt. Wells Fargo bewertet die Aktie mit Übergewichten und einem Kursziel von achthundertzwanzig Dollar, TD Cowen empfiehlt den Kauf bei neunhundert Dollar, und Wedbush sieht die Aktie mit einem Kursziel von eintausend Dollar besser als der Markt. Susquehanna bleibt neutral mit einem Kursziel von siebenhundertfünfundsechzig Dollar. Auf der Unternehmensseite zeigt sich die Capital Group Growth aktiv und kaufte weitere Aktien im Wert von sechzehn Komma acht Millionen Dollar, während Investing.com Deutsch auf anhaltende Kursrückgänge durch Marktunsicherheiten hinweist. Das durchschnittliche Kursziel der Analysten liegt bei eintausendfünfundvierzig Dollar, wobei das Höchstziel eintausendfünfhundertachtundachtzig Dollar und das Tiefstziel siebenhundert Dollar betragen. CEO William D Mosley veräusserte Aktien im Wert von rund vier Komma zwei Millionen Dollar sowie weitere Pakete.",
-   "dur": 100.6,
-   "at": "2026-11-06T20:52:32Z"
+   "text": "Seagate Technology Holdings PLC verzeichnet aktuell an den Barsen eine spurbare Bewegung, nachdem ein Gesetzgeber eine Pause bei der fortgeschrittenen KI-Entwicklung gefordert hat und die Aktie daraufhin um sechzehn Prozent nachgab. Laut Yahoo Finance Singapore konnte zudem ein Gewinnruckgang die Argumente fur die Aktie verandern. Positiv wird hingegen gewertet, dass Capital Group Growth am vierten November weitere Seagate-Aktien im Wert von sechzehn Komma acht Millionen Dollar erworben hat. In den vorliegenden Meldungen wurden ansonsten keine weiteren rechtlichen Probleme oder spezifischen Risiken gefunden. Betrachtet man die Analysten-Bewertungen, so zeigt sich ein Bild mit Kurszielen und Einschatzungen verschiedener Banken. So hat die UBS ihr Kursziel auf siebenhundertfünfzig Dollar gesenkt und bleibt bei der Einstufung Neutral. Die Citigroup bestatigte ihre Kaufempfehlung und nannte ein Kursziel von eintausendfünfzig Dollar. Wells Fargo bestatigte die Einstufung Ubergewichten bei einem Kursziel von achthundertzwanzig Dollar. TD Cowen halt an der Kaufempfehlung fest und nennt ein Kursziel von neunhundert Dollar, wahrend Wedbush das Kursziel bei eintausend Dollar bestaetigt und Susquehanna mit einem Kursziel von siebenhundertfünfundsechzig Dollar neutral gestimmt bleibt. Das durchschnittliche Kursziel aller Analysten liegt bei rund eintausendvierundvierzig Dollar, was ein theoretisches Aufwartspotenzial von uber einhundertsechsundzwanzig Prozent signalisiert. Zuruck zu Seagate Technology Holdings PLC: Die Aktie steht derzeit unter dem Eindruck politischer Forderungen bezuglich der KI-Entwicklung, wahrend Grossinvestoren wie Capital Group Growth gleichzeitig ihre Bestande aufstocken. Wichtige Kennzahlen unterstreichen das Potenzial laut Analystenkonsens, auch wenn Gewinnentwicklungen genau beobachtet werden mussen. Bei den Insider-Aktivitäten gab es diverse Verkäufe, darunter Transaktionen von William D Mosley im Wert von rund vier Komma zwei Millionen Dollar sowie weiteren rund vierzehn Millionen Dollar, und Verkäufe von John Christopher Morris sowie James Ci Lee.",
+   "dur": 144.4,
+   "at": "2026-11-06T23:26:19Z"
   },
   "MU": {
    "file": "MU.mp3",
-   "hash": "7ad08c25ec73da27",
-   "th": "a0bc535fa647f145",
-   "id": "8933e872ed",
+   "hash": "aac4dac9cdbfd68d",
+   "th": "a52009d53b63b47b",
+   "id": "03ad334310",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Bei Micron Technology, Inc. zeigt sich in den aktuellen Meldungen ein sehr bewegter Verlauf. Die Aktie erholte sich um rund acht Prozent nach einem zuvor massiven Einbruch im Zuge eines breiten Marktausverkaufs im Chipsektor, wie Yahoo Finance berichtet. Laut The Globe and Mail steht das Unternehmen im Vergleich zu anderen Technologiekonzernen im Fokus. Gleichzeitig gibt es Diskussionen über die fundamentale Bewertung und die Frage, ob Lieferverträge bei sinkenden Preisen ausreichend Halt bieten. Zu den Analystenbewertungen gibt es verschiedene Einschätzungen: Rosenblatt bestätigte die Einstufung auf Kaufen mit einem Kursziel von eintausendneunhundert Dollar. Needham bestätigte die Einstufung auf Kaufen mit einem Kursziel von eintausendsechshundertfünfzig Dollar. DA Davidson erhöhte das Kursziel auf dreitausend Dollar bei einer Kaufempfehlung. Mizuho erhöhte das Kursziel auf eintausendvierhundert Dollar und bewertet die Aktie mit Besser als Markt. Morgan Stanley bestätigte die Einstufung auf Übergewichten mit einem Kursziel von eintausendzweihundert Dollar. Das durchschnittliche Kursziel aller fünfundvierzig Analysten liegt bei eintausendfünfhundertzweiundsechzig Dollar, während das höchste Kursziel bei dreitausend Dollar und das niedrigste Kursziel bei dreihunderteinundsechzig Dollar liegen. Das Unternehmen treibt seine künftige Produktion voran und plant die Eröffnung neuer Fabriken für das Jahr 2027, wie Seeking Alpha berichtet. Zudem führt Micron Technology, Inc. gemeinsam mit AMD und Nvidia die Erholung der Aktien im Bereich der künstlichen Intelligenz an, was für die Aktie von grosser Bedeutung ist.",
-   "dur": 113.0,
-   "at": "2026-11-06T20:52:40Z"
+   "text": "Die Aktie von Micron Technology, Inc. zeigte sich zuletzt volatil und konnte sich nach einem scharfen Kursrückgang von rund acht Prozent an den Borsten wieder deutlich erholen. Laut SEC EDGAR, einer Pflichtmeldung bei der US-Börsenaufsicht SEC, gab es wichtige Mitteilungen über Wechsel im Management von Micron Technology, Inc. Medien wie Yahoo Finance berichten zudem von einem vorherigen Absturz der Aktie um achtzehn Prozent und Diskussionen über die Nachhaltigkeit von Lieferverträgen. Analysten zeigen sich überwiegend positiv gestimmt. So bewertet Rosenblatt die Aktie mit Kaufen und einem Kursziel von eintausendneunhundert Dollar, wahrend Needham ebenfalls ein Kaufen-Rating mit einem Kursziel von eintausendsechshundertfünfzig Dollar bestatigt. DA Davidson erhohte das Kursziel sogar auf dreitausend Dollar. Das Unternehmen profitiert potenziell von in Amerika hergestelltem DRAM als Wettbewerbsvorteil, und neue Fabriken sollen im Jahr 2027 an den Start gehen. Kritisch wird hingegen angemerkt, dass Lieferverträge bei sinkenden Preisen an Bedeutung verlieren könnten. Zu den wichtigsten Kennzahlen gehört das durchschnittliche Kursziel der Analysten von rund eintausendfünfhundertzweiundsechzig Dollar, was das Aufwärtspotenzial verdeutlicht. Widersprüche zeigen sich vor allem bei der Frage, ob langfristige Lieferverträge den Kurs auch bei sinkenden Marktpreisen absichern können oder ob sie bedeutungslos sind.",
+   "dur": 97.8,
+   "at": "2026-11-06T23:26:24Z"
   },
   "DRO.AX": {
    "file": "DRO.AX.mp3",
@@ -509,9 +508,9 @@
   }
  },
  "status": "quota: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, h",
- "checked_at": "2026-11-06T22:50:07Z",
+ "checked_at": "2026-11-06T23:26:24Z",
  "quota_until": 1794008903.992831,
- "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@aee67550507dfd3830bd85543333de351b5b20d6/data/audio/",
+ "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@df55d4039dbb385ed0ed61cfa8ae42c8c9772874/data/audio/",
  "extra": {
   "intro": {
    "file": "_intro.mp3",
