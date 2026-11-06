@@ -93,15 +93,16 @@
   },
   "IBM": {
    "file": "IBM.mp3",
-   "hash": "4a3b85a30c0d9912",
-   "th": "794fe5f403c0f43b",
-   "id": "8ca471eba2",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
+   "hash": "1342174a65431b56",
+   "th": "7337b5a0c126454e",
+   "engine": "gemini",
+   "id": "6a1377c502",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
    "br": 24,
-   "text": "Hier ist ein kurzer Ueberblick zur Aktie von IBM. Das Unternehmen hat gemeinsam mit dem Oak Ridge National Laboratory und AMD eine neue Plattform zur Quantenfehlerkorrektur gestartet. Zudem hat Supermicro eine KV-Cache-Loesung mit IBM und Nvidia eingefuehrt, die erhebliche Leistungsvorteile bei der Inferenz bietet. Die BofA hat IBM zudem zu ihrer Liste der globalen Verteidiger hinzugefuegt. Zu den Risiken berichtet The Globe and Mail, dass die IBM-Aktie im vergangenen Jahr um achtzehn Komma fünf Prozent abgestuerzt ist. Betrachten wir die Analystenbewertungen: Jefferies bestaetigte das Rating Kaufen und erhoehte das Kursziel auf zweihundertachtzig Dollar. Die UBS bestaetigte das Rating Neutral und erhoehte das Kursziel auf zweihundertdreiundvierzig Dollar. Die Citigroup bestaetigte das Rating Kaufen und erhoehte das Kursziel auf zweihundertachtzig Dollar. Morgan Stanley bestaetigte das Rating Marktgewichten und erhoehte das Kursziel auf zweihundertvierzig Dollar. BMO Capital bestaetigte das Rating Wie der Markt und erhoehte das Kursziel auf zweihundertfünfundsechzig Dollar, waehrend Barclays das Rating Uebergewichten bestaetigte und das Kursziel auf zweihundertsiebenundsiebzig Dollar anhob. Was macht die Firma aktuell? Aufwertend wirken der Start der neuen Plattform zur Quantenfehlerkorrektur gemeinsam mit dem Oak Ridge National Laboratory und AMD, die Einfuehrung der KV-Cache-Loesung mit Supermicro und Nvidia sowie der Einsatz von Quantenverschluesselung auf dem Heron R2 Prozessor. Zu den Widerspruechen zeigt sich ein ungleiches Bild: Die Quelle The Globe and Mail berichtet, dass die Aktie im vergangenen Jahr um achtzehn Komma fünf Prozent abstuerzte, waehrend Wallstreet Online von einem starken Vormonat und einer moeglichen Fortsetzung der Rally im November 2026 berichtet.",
-   "dur": 129.7,
-   "at": "2026-11-05T23:57:03Z"
+   "text": "IBM hat gemeinsam mit dem Oak Ridge National Laboratory und AMD eine neue Plattform für die Quantenfehlerkorrektur gestartet. Zudem wurde zusammen mit Supermicro und Nvidia eine KV-Cache-Lösung auf den Markt gebracht, die erhebliche Leistungsvorteile bei der Inferenz bietet. Die Aktie von IBM verzeichnete im vergangenen Jahr einen Kursrückgang von achtzehn Komma fünf Prozent. Bei den Analystenbewertungen zeigt sich ein gemischtes Bild: Evercore bestätigte die Einstufung Outperform mit einem Kursziel von zweihundertfünfundsiebzig Dollar, während andere Banken wie Jefferies und Citigroup Kursziele von je zweihundertachtzig Dollar und Barclays zweihundertsiebenundsiebzig Dollar nennen. Als aktuelle Entwicklung setzt IBM Quantenverschlüsselung auf Heron R2 ein, und die Bank of America hat das Unternehmen zu ihrer Liste der globalen Verteidiger hinzugefügt. Das durchschnittliche Kursziel liegt bei rund zweihundertneunundfünfzig Dollar, ermittelt aus den Schätzungen von dreiundzwanzig Analysten.",
+   "dur": 59.7,
+   "at": "2026-11-06T11:38:17Z"
   },
   "NOW": {
    "file": "NOW.mp3",
@@ -130,15 +131,16 @@
   },
   "AMZN": {
    "file": "AMZN.mp3",
-   "hash": "114f6ca5449801bd",
-   "th": "89dbab6c835b3624",
-   "id": "936ebc834d",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
+   "hash": "932b7d33ff0f0a9e",
+   "th": "9483643e21cab8e4",
+   "engine": "gemini",
+   "id": "b75c6748a0",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
    "br": 24,
-   "text": "Amazon zeigt ein gemischtes Bild fur den Technologie- und Handelskonzern. Laut der US-Borsenzeitung Investor's Business Daily zeigt die Aktie nach den Wahlen Kaufsignale im Rahmen einer allgemeinen Rally. Das US-Finanznachrichtenportal MarketWatch meldet zudem, dass Microsoft und Amazon zusammen einen Anstieg der Marktkapitalisierung von vierhundertvierundzwanzig Milliarden Dollar verzeichneten. Die Chart- und Borsenplattform TradingView berichtet uber einen Kursruckgang von drei Komma fünf Prozent, wobei die Profitabilitat von AWS im Fokus steht. Das Schweizer Finanzportal finanzen.ch meldet ebenfalls tiefere Tendenzen am Donnerstagnachmittag. Analysten bewerten Amazon uberwiegend positiv. Die UBS bestatigte das Rating auf Kaufen mit einem Kursziel von dreihundertzweiundfünfzig Dollar, wahrend Freedom Broker das Kursziel auf dreihundertdreissig Dollar erhohte und Rosenblatt ein Kursziel von dreihundertsechzig Dollar nennt. Scotiabank bewertet die Aktie als besser als der Sektor bei einem Kursziel von dreihundert Dollar, und DA Davidson stuft das Papier neutral bei einem Kursziel von zweihundertfünfzig Dollar ein. Telsey Advisory Group bestatigt die Einstufung als besser als der Markt mit einem Kursziel von dreihundertfünfunddreissig Dollar. Operativ arbeitet Amazon aktuell mit Uber Eats zusammen, fuhrt direkte Produkt-Feeds zur Herausforderung von Google Shopping ein, erweitert Alexa for Shopping um uber einhundert Funktionen und profitiert von einem GNRC-Deal, der die Umsatztransparenz im Rechenzentrum um zwei Komma vier Milliarden Dollar erhoht. Zu den wichtigen Kennzahlen gehort die genannte Steigerung der Marktkapitalisierung. Ausserdem gibt es in den Berichten unterschiedliche Ansichten uber die kurzfristige Kursrichtung zwischen positiven Nachwahl-Kaufsignalen und zwischenzeitlichen Kursruckgangen.",
-   "dur": 127.6,
-   "at": "2026-11-06T01:30:04Z"
+   "text": "Amazon stand im Zentrum verschiedener Finanzmeldungen. Laut MarketWatch verzeichnete das Unternehmen zusammen mit Microsoft einen Anstieg der Marktkapitalisierung um rund vierhundertvierundzwanzig Milliarden Dollar. Investoren blickten auf positive Marktentwicklungen nach den Wahlen, während Yahoo Finance über beträchtliche ETF-Käufe in Höhe von rund einhundertfünf Millionen Dollar an einem Mittwoch berichtete. Zudem ging das Unternehmen eine Partnerschaft mit Uber Eats ein, wie Investor's Business Daily meldet. Zu den Risiken und rechtlichen Themen wurde eine von Yahoo Finance erwähnte mögliche Abfindung von rund dreihundertneun Komma fünf Millionen Dollar im Zusammenhang mit unvollständigen Rückerstattungen genannt. Das Analysehaus Bernstein stuft die Aktie mit einem Kursziel von dreihundertzwanzig Dollar ein. Freedom Broker bestätigte die Kaufempfehlung und erhöhte das Kursziel auf dreihundertdreissig Dollar. Die UBS erhöhte ihr Kursziel auf dreihundertzweiundfünfzig Dollar. Die Scotiabank senkte das Kursziel auf dreihundert Dollar, während die Telsey Advisory Group ihr Kursziel von dreihundertfünfunddreissig Dollar bestätigte. DA Davidson bestätigte ein neutrales Rating mit einem Kursziel von zweihundertfünfzig Dollar, und Rosenblatt bestätigte die Kaufempfehlung mit einem Kursziel von dreihundertsechzig Dollar. Das durchschnittliche Kursziel aller Analysten liegt bei rund dreihundertsiebenundzwanzig Dollar. Das Unternehmen arbeitet derzeit mit Uber Eats zusammen und greift Google Shopping mit direkten Produkt-Feeds an. Während The Globe and Mail von starken Kursgewinnen nach den Wahlen berichtet, verweist Finanzen.ch zeitweise auf negative Vorzeichen und schwächere Tendenzen.",
+   "dur": 102.0,
+   "at": "2026-11-06T11:39:18Z"
   },
   "MRVL": {
    "file": "MRVL.mp3",
@@ -215,16 +217,15 @@
   },
   "WNRG.SW": {
    "file": "WNRG.SW.mp3",
-   "hash": "7e71ebe66583cf77",
-   "th": "7ad6373646ffa7a8",
-   "engine": "gemini",
-   "id": "a9d28a996f",
-   "voice": "Kore",
-   "model": "gemini-2.5-flash-preview-tts",
+   "hash": "bf64f23e8d135aca",
+   "th": "4d7ed7a4bcad2790",
+   "id": "e36106e397",
+   "voice": "de-CH-LeniNeural",
+   "engine": "edge",
    "br": 24,
-   "text": "SPDR MSCI World Energy ETF: Im vorliegenden Ueberblick zeigt sich eine Meldung aus dem Finanzbereich, die das Geschehen praegt. Laut Yahoo! Finance Canada, einem Finanzportal, bündelt Meldungen und Analystenbewertungen, wird eine Titelbezeichnung zum iShares MSCI World Energy Sector Advanced UCITS ETF USD Inc. gemeldet. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Zurück zu SPDR MSCI World Energy ETF: Der aktuelle Aktienkurs liegt bei rund neunundsiebzig Dollar. Zu den Analysten-Bewertungen, Kennzahlen sowie Aussagen von Chefs oder Insider-Aktivitäten liegen derzeit keine weiteren Angaben vor. Keine Anlageberatung.",
-   "dur": 44.8,
-   "at": "2026-11-05T08:34:17Z"
+   "text": "SPDR MSCI World Energy ETF: In den vorliegenden Meldungen wird über die Entwicklung des Fonds im Monat Oktober durch Morningstar berichtet. Laut Trustnet, einem Finanzportal, gehören entsprechende Fonds zu den Werten, die sich am stärksten erholen, während Anleger sich von Aktien aus dem Bereich der Künstlichen Intelligenz trennen. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Zu den Analysten-Bewertungen liegen derzeit keine Daten vor. Die aktuellen Meldungen erwähnen keine speziellen Produktankündigungen oder strategischen Partnerschaften, jedoch zeigt sich eine positive Erholung im Zuge einer Umschichtung der Anleger weg von Künstlicher Intelligenz. Als wichtige Kennzahl ist der Kurs von neunundsiebzig Komma acht Dollar zu nennen. Insider-Käufe oder -Verkäufe wurden in den Daten nicht verzeichnet. Aussagen von Chefs oder dem Management liegen ebenfalls nicht vor. Widersprüche zwischen den Berichten gibt es keine.",
+   "dur": 69.0,
+   "at": "2026-11-06T11:40:02Z"
   },
   "BE": {
    "file": "BE.mp3",
@@ -373,15 +374,15 @@
   },
   "OEF": {
    "file": "OEF.mp3",
-   "hash": "22457067deb1bb91",
-   "th": "8ab9d80dcc703b2b",
-   "id": "26cea22d0d",
+   "hash": "bb2cd80c8d2aa0a5",
+   "th": "0c6334bd3278ac6c",
+   "id": "71926ba1d1",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "iShares S&P einhundert ETF: Der iShares S&P einhundert ETF steht aktuell im Fokus von Finanzportalen, die sich mit Kursen und Renditen befassen. Laut Morningstar, einem Fondsanalyse- und Researchhaus, berichtet über die Entwicklung der grössten Aktien-ETFs in Deutschland im Oktober 2026. Zudem meldet Yahoo Finance Singapore, ein Finanzportal, Veröffentlichungen zu saisonalen Renditediagrammen für den iShares S&P einhundert ETF. Weitere Einblicke in saisonale Renditen liefert laut Yahoo! Finance Canada, einem Finanzportal, eine entsprechende Berichterstattung. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Es liegen aktuell keine Analysten-Bewertungen oder Neueinstufungen vor. Zurück zu iShares S&P einhundert ETF: Die vorliegenden Meldungen konzentrieren sich vor allem auf die Bereitstellung von saisonalen Renditediagrammen durch Finanzportale wie Yahoo Finance Singapore und Yahoo! Finance Canada sowie Analysen von Morningstar. Konkrete neue Produkte, Partnerschaften oder Projekte wurden in den aktuellen Berichten nicht genannt. Auch Kennzahlen wie Umsatz, Gewinn je Aktie oder Dividenden wurden in den Meldungen nicht aufgeführt. Insider-Käufe oder -Verkäufe wurden nicht gemeldet. Aussagen von Chefs oder dem Management liegen ebenfalls nicht vor. Es gibt in den aktuellen Berichten keine gegensätzlichen Einschätzungen verschiedener Quellen, weshalb keine Widersprüche aufgeführt werden können. Keine Anlageberatung.",
-   "dur": 110.9,
-   "at": "2026-11-05T23:57:46Z"
+   "text": "iShares S&P einhundert ETF: Im Folgenden betrachten wir die jüngsten Entwicklungen zum iShares S&P einhundert ETF basierend auf den vorliegenden Berichten. Laut Morningstar, einem Fondsanalyse- und Researchhaus, wurde über die Entwicklung der grössten Aktien-ETFs in Deutschland im Oktober berichtet. Zudem meldet Finanzen.net, ein deutsches Finanzportal, die Bereitstellung von saisonalen Renditediagrammen für den iShares S&P einhundert ETF. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Zu Analysten-Bewertungen liegen aktuell keine Daten vor. Was die Aktivitäten betrifft, veröffentlichte Finanzen.net saisonale Renditediagramme zum iShares S&P einhundert ETF. Wichtige Kennzahlen oder Insider-Käufe und -Verkäufe wurden in den Meldungen nicht genannt, und auch Aussagen von Chefs liegen derzeit nicht vor. Widersprüche zwischen den Berichten gibt es keine. Die vorliegenden Informationen bieten eine Momentaufnahme der Berichterstattung.",
+   "dur": 73.9,
+   "at": "2026-11-06T11:40:10Z"
   },
   "013A.F": {
    "file": "013A.F.mp3",
@@ -397,15 +398,15 @@
   },
   "NVDA": {
    "file": "NVDA.mp3",
-   "hash": "df674a6cdfc165b1",
-   "th": "8e8ae9026b60720e",
-   "id": "e56423824c",
+   "hash": "8402204fd134859e",
+   "th": "ce567195207083c9",
+   "id": "acdb111c3f",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Nvidia geriet kürzlich an den Börsen stark unter Druck, wobei die Aktie über neun Prozent einbuste und der Nasdaq in ein Korrekturgebiet eintrat. Laut Barron's, einem US-Finanzmagazin, bewegt sich der Aktienkurs um die Marke von zweihundert Dollar, während über mögliche Marktböden diskutiert wird. Das Unternehmen prüft laut dem Finanzportal Yahoo Finance schwächelnde Telekommunikationsstandorte von Apollo, um mögliche Moratorien für Rechenzentren zu umgehen, während laut der US-Plattform Seeking Alpha Chips infolge von Importbeschränkungen Chinas in Hongkong auf Lager liegen. Laut den Daten von Yahoo Finance empfehlen derzeit neunundfünfzig Analysten die Aktie zum Kaufen, zwei zum Halten, eins zum Verkaufen und zehn stufen sie als stark kaufen ein, bei einem durchschnittlichen Kursziel von dreihundertsiebenundzwanzig Dollar. Melius Research nannte ein Kursziel von dreihundertfünfzehn Dollar, während Needham das Kursziel bei dreihundert Dollar ansetzte und Cantor Fitzgerald es auf dreihundertfünfzig Dollar bezifferte. Zu den wichtigen Kennzahlen gehoert das durchschnittliche Kursziel von dreihundertsiebenundzwanzig Dollar sowie der Aktienkurs um die Marke von zweihundert Dollar.",
-   "dur": 80.4,
-   "at": "2026-11-05T21:56:07Z"
+   "text": "Nvidia: Die Aktie des Technologiekonzerns gerät laut dem US-Finanznachrichtenportal MarketWatch in einen Bärenmarkt, während gleichzeitig Schnäppchenjäger eine goldene Kaufgelegenheit sehen. Laut dem Finanzportal Yahoo Finance verzeichnet Nvidia Netto-ETF-Verkäufe im Wert von einhundertachtzehn Komma acht Millionen Dollar und leidet unter einer KI-Panik an der Börse Nasdaq. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Bei den Analystenbewertungen zeigt sich ein überwiegend positives Bild mit einem Konsens aus vielen Kaufempfehlungen. Das mittlere Kursziel liegt laut Yahoo Finance bei rund dreihundertsiebenundzwanzig Dollar, mit einem geschätzten Aufwärtspotenzial von rund achtzig Prozent. Zu den einzelnen Häusern gehört Melius Research, die die Aktie am zweiten November 2026 mit Kaufen und einem Kursziel von rund dreihundertfünfzehn Dollar bewerten, sowie Needham, die am zweiundzwanzigsten Oktober 2026 ein Kursziel von rund dreihundert Dollar bestätigten. Cantor Fitzgerald nannte am ersten Oktober 2026 ein Kursziel von rund dreihundertfünfzig Dollar. Was die Firma gerade macht: Zurück zu Nvidia: Das Unternehmen verstärkt laut Yahoo Finance sein Chip-Tracking in Südostasien, um den Schmuggel von Chips zu bekämpfen. Als wichtige Kennzahl wird das mittlere Kursziel von rund dreihundertsiebenundzwanzig Dollar genannt, welches den durchschnittlichen Zielwert der Analysten widerspiegelt. Bei den Insidern gab es in den Pflichtmeldungen an die US-Börsenaufsicht SEC verschiedene Verkäufe, wie etwa von Timothy S. Teter, Mark A. Stevens und Colette Kress. Es ist zu beachten, dass Insider-Verkäufe oft weniger aussagen als Käufe, da sie beispielsweise steuerlich motiviert oder durch vorab festgelegte Pläne geregelt sein können. Zu den Chefs und dem Management liegen in den aktuellen Meldungen keine spezifischen Aussagen vor. Widersprüche zwischen den Berichten wurden nicht festgestellt. Keine Anlageberatung.",
+   "dur": 139.9,
+   "at": "2026-11-06T11:40:17Z"
   },
   "1211.HK": {
    "file": "1211.HK.mp3",
@@ -481,27 +482,27 @@
   },
   "STX": {
    "file": "STX.mp3",
-   "hash": "68a3ee589a8bc959",
-   "th": "9661ec8186d30943",
-   "id": "136249ed6d",
+   "hash": "63603b4f48b1b956",
+   "th": "0418db28132013dd",
+   "id": "67e455f788",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Seagate Technology Holdings PLC: Die Aktie des Technologiekonzerns stand zuletzt stark im Fokus der Finanzmärkte. Laut Yahoo Finance, einem Finanzportal, das Meldungen und Analystenbewertungen bündelt, sank der Aktienkurs um bis zu sechzehn Prozent, nachdem ein Gesetzgeber eine Pause bei der fortgeschrittenen KI-Entwicklung gefordert hatte. Zudem meldet Yahoo Finance, dass Sorgen hinsichtlich der Speicherpreise und politische Unsicherheiten den Kurs belasteten. Auf der positiven Seite berichtet TradingView, eine Chart- und Börsenplattform, dass der Umsatz von Seagate Technology Holdings PLC im ersten Quartal um einundsechzig Prozent gestiegen ist. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden, abgesehen von politischen Forderungen bezueglich der kuenstlichen Intelligenz. Analysten bewerten die Aktie ueberwiegend positiv: Laut Daten von Yahoo Finance vergeben vier Analysten ein starkes Kaufen, zweiundzwanzig ein Kaufen und vier ein Halten, waehrend das durchschnittliche Kursziel bei rund eintausendfünfundvierzig Dollar liegt. In den letzten Tagen haben verschiedene Analysehaeuser ihre Kursziele angepasst, so hat die UBS ihr Kursziel auf siebenhundertfünfzig Dollar gesenkt und das Rating neutral bestaetigt, Citigroup das Ziel auf eintausendfünfzig Dollar angepasst bei einer Kaufempfehlung, Wells Fargo auf achthundertzwanzig Dollar gesenkt bei Uebergewichten, TD Cowen auf neunhundert Dollar gesenkt bei einer Kaufempfehlung, Wedbush das Ziel bei eintausend Dollar bestaetigt und Susquehanna das Ziel auf siebenhundertfünfundsechzig Dollar gesenkt bei neutraler Einstufung. Waehrend der starke Umsatzanstieg im ersten Quartal positiv aufwertet, belasten die Sorgen um Speicherpreise und regulatorische Rufe nach KI-Pausen das Sentiment. Als wichtige Kennzahl ist vor allem das Umsatzwachstum von einundsechzig Prozent zu nennen, welches die Dynamik des Geschaefts widerspiegelt. Ausserdem zeigen Meldungen Insider-Verkaeufe, bei denen unter anderem Chef William D Mosley und Technikchef John Christopher Morris Aktien im Rahmen von vorher festgelegten Handelsplaenen veräusserten.",
-   "dur": 146.3,
-   "at": "2026-11-05T21:56:33Z"
+   "text": "Seagate Technology Holdings PLC: Im aktuellen Überblick zeigt sich, dass Capital Group Growth laut dem Finanzportal Yahoo Finance am vierten November weitere Seagate-Aktien im Wert von sechzehn Komma acht Millionen Dollar erworben hat. Gleichzeitig meldet Yahoo Finance, dass die Aktie um sechzehn Prozent sank, da ein Gesetzgeber eine Pause bei der fortgeschrittenen KI-Entwicklung forderte. Zudem stieg laut der Chart- und Börsenplattform TradingView der Umsatz von Seagate im ersten Quartal um einundsechzig Prozent. Als Risiken und rechtliche Punkte ist zu nennen, dass laut Yahoo Finance Bedenken hinsichtlich der Speicherpreise und Forderungen nach einer KI-Entwicklungspause zu Kursrückgängen von acht Prozent beziehungsweise sechzehn Prozent geführt haben. Analysten bewerten Seagate Technology Holdings PLC überwiegend positiv. So bestätigte die UBS ihre neutrale Haltung mit einem Kursziel von siebenhundertfünfzig Dollar, während Citigroup die Aktie mit einem Kursziel von eintausendfünfzig Dollar zum Kaufen empfiehlt. Wells Fargo bestätigte die Einstufung Übergewichten bei einem Kursziel von achthundertzwanzig Dollar, TD Cowen rät zum Kaufen mit einem Kursziel von neunhundert Dollar, Wedbush stuft die Aktie als besser als der Markt mit einem Kursziel von eintausend Dollar ein, und Susquehanna bewertet sie neutral mit einem Kursziel von siebenhundertfünfundsechzig Dollar. Zurück zu Seagate Technology Holdings PLC: Die Firma profitiert aktuell von einem starken Umsatzwachstum von einundsechzig Prozent im ersten Quartal, während sinkende Speicherpreise und politische Debatten über künstliche Intelligenz belastend wirken. Zu den wichtigen Kennzahlen zählt der durchschnittliche Analysten-Zielpreis von eintausendvierundvierzig,dreiundachtzig Dollar sowie das starke Umsatzwachstum. Bei den Insider-Aktivitäten gab es mehrere Verkäufe: William D Mosley veräusserte in mehreren Schritten Aktien im Wert von rund vier Komma zwei Millionen Dollar, rund vierzehn Millionen Dollar, rund zehn Komma drei Millionen Dollar sowie rund siebzehn Komma vier Millionen Dollar. Auch John Christopher Morris trennte sich im Wert von rund eins Komma sieben Millionen Dollar von Aktien. Solche Insider-Verkäufe basieren oft auf vordefinierten Plänen oder steuerlichen Gründen und sagen daher meist weniger aus als Käufe. Keine Anlageberatung.",
+   "dur": 161.8,
+   "at": "2026-11-06T11:40:37Z"
   },
   "MU": {
    "file": "MU.mp3",
-   "hash": "3e76573b04018f53",
-   "th": "3ef50d25f0394111",
-   "id": "45ab4c2eec",
+   "hash": "fa20286523531f4f",
+   "th": "d48fff42d32bc39a",
+   "id": "7036dbc2d6",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Bei Micron Technology gibt es Neuigkeiten, die fuer Anlegerinnen und Anleger von Bedeutung sind. Laut der US-Plattform mit Anlegerbeitraegen Seeking Alpha stuerzte die Aktie von Micron Technology um siebzehn Prozent ab infolge eines Chip-Ausverkaufs und einer Werksschliessung in Taiwan. Das Finanzportal Yahoo Finance meldet, dass die Micron-Aktie um elf Komma acht Prozent fiel, waehrend eine Prognose von einundsechzig Komma fünf Milliarden Dollar auf dem Pruefstand steht. Die Chart- und Boersenplattform TradingView berichtet zudem, dass die Micron-Aktie zum ersten Mal seit Mai 2025 unter den gleitenden zweihundert-Tage-Durchschnitt gefallen ist. Laut Seeking Alpha gibt es Berichte ueber eine Pause bei einer Investition in Taiwan im Wert von vier Komma fünf Milliarden Dollar. Yahoo Finance berichtet ueber Maengel bei Speicherchips, die Welleneffekte ausloesen, und eine sinkende Aktie sowie erneut darueber, dass die Prognose ueber einundsechzig Komma fünf Milliarden Dollar auf dem Pruefstand steht. Laut Yahoo Finance zieht sich die Aktie von Micron Technology angesichts eines umfassenderen Ausverkaufs von KI-Speicher zurueck, wobei eine untergewichtete Position die relative Rendite foerdert. Zu den Analysten-Bewertungen gehoeren unter anderem Einschaetzungen von Rosenblatt mit einem Kursziel von eintausendneunhundert Dollar, Needham mit eintausendsechshundertfünfzig Dollar, DA Davidson mit dreitausend Dollar, Mizuho mit eintausendvierhundert Dollar sowie Morgan Stanley mit eintausendzweihundert Dollar, die durchgehend auf Kaufen oder Uebergewichten lauten. Laut Seeking Alpha stiess Micron zudem auf eine unerwartete Huerde bei einer Chip-Wette im Wert von vier Komma fünf Milliarden Dollar und stoppte das Werk in Taiwan. Laut Yahoo Finance gab Micron den Duecktritt des Vorstands bekannt, und laut einer Pflichtmeldung bei der US-Boersenaufsicht SEC gab es einen Wechsel im Management. Als wichtige Kennzahl wird das durchschnittliche Kursziel der Analysten bei eintausendfünfhundertzweiundsechzig Dollar genannt, was anzeigt, wo der Aktienkurs in Zukunft stehen koennte.",
-   "dur": 141.3,
-   "at": "2026-11-05T23:33:39Z"
+   "text": "Micron Technology, Inc. steht aktuell in einem herausfordernden Marktumfeld. Im kurzen Überblick zeigt sich, dass die Aktie einen heftigen Kursrückgang von rund siebzehn Prozent erlitt und innerhalb von fünf Handelstagen um etwa dreissig Prozent nachgab, während sich der Ausverkauf im Chipsektor verstärkte. Ausserdem wurde laut Berichten ein Werksprojekt in Taiwan im Wert von vier Komma fünf Milliarden Dollar vorübergehend eingefroren, da Arbeiter grössere Forderungen stellen. Die Unternehmensprognose von einundsechzig Komma fünf Milliarden Dollar geriet ebenfalls in den Fokus der Beobachter. Analysten zeigen sich insgesamt überwiegend konstruktiv. Laut Yahoo Finance gibt es ein Konsens-Rating mit fünfundvierzig Käufen, neun starken Käufen, vier Halten und null Verkäufen, wobei das durchschnittliche Kursziel bei eintausendfünfhundertzweiundsechzig Dollar gesehen wird. Häuser wie Rosenblatt, Needham, DA Davidson, Mizuho und Morgan Stanley äusserten sich mit unterschiedlichen Kurszielen. Operativ führt das Unternehmen laut TradingView die Chip-Aktien mit dem niedrigsten erwarteten Kurs-Gewinn-Verhältnis im Sektorausverkauf an, während das eingefrorene Werk in Taiwan und die überprüfte Prognose als belastend eingestuft werden.",
+   "dur": 86.5,
+   "at": "2026-11-06T11:40:53Z"
   },
   "DRO.AX": {
    "file": "DRO.AX.mp3",
@@ -516,10 +517,10 @@
    "at": "2026-11-04T16:37:35Z"
   }
  },
- "status": "ok",
- "checked_at": "2026-11-06T10:51:07Z",
- "quota_until": 1793945892.4717753,
- "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@b86b9048aad7ce3f17285546948bf56f697575cc/data/audio/",
+ "status": "quota: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usa",
+ "checked_at": "2026-11-06T11:40:53Z",
+ "quota_until": 1793968784.0646732,
+ "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@00ce8f41469886a287c40e20fec8a82c267f289e/data/audio/",
  "extra": {
   "intro": {
    "file": "_intro.mp3",
