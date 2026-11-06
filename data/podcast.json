@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T15:56:36Z",
+ "generated_at": "2026-11-06T16:57:05Z",
  "intro": "Willkommen beim Aktien-Radar, deinem Überblick über die neuesten Meldungen. Heute geht es um 39 Aktien aus deiner Liste. Alles stammt aus den gesammelten Meldungen und Analystendaten, nichts ist erfunden. Keine Anlageberatung.",
  "outro": "Das war der Aktien-Radar-Überblick. Die Quellen und Details findest du in der App bei jeder Aktie. Keine Anlageberatung.",
  "segments": [
@@ -162,13 +162,13 @@
   {
    "symbol": "META",
    "name": "Meta Platforms",
-   "text": "Meta Platforms: Die Aktie von Meta Platforms stand zuletzt im Fokus verschiedener wirtschaftlicher und rechtlicher Entwicklungen. Zu den Risiken und rechtlichen Problemen: Meta Platforms verzeichnete Kursrückgänge bei den KI-Investitionen, wie TradingView meldet. Zudem trüben neue US-Regeln für künstliche Intelligenz laut Yahoo Finance die Auszahlungen. Auserdem klagt Meta gemeinsam mit Google und TikTok laut Seeking Alpha gegen ein neues kalifornisches Jugend-Social-Media-Gesetz. Zu den Analysten-Bewertungen: Das durchschnittliche Kursziel der Analysten liegt bei rund achthundertachtundvierzig Dollar, mit einem Konsens, der überwiegend zum Kauf rät. Die UBS bewertet Meta Platforms mit Kaufen und einem Kursziel von rund achthundertzweiundneunzig Dollar, die Citigroup mit Kaufen und neunhundertfünf Dollar, Mizuho mit Besser als Markt und neunhundertfünfzig Dollar, Evercore ISI Group mit Besser als Markt und achthundertsiebzig Dollar, DA Davidson mit Kaufen und achthundert Dollar sowie BMO Capital mit Wie der Markt und rund sechshundertfünfundachtzig Dollar. Zurück zu Meta Platforms: Das Unternehmen war aktiv und hat unter anderem Conductor übernommen, das Angebot von vorrangigen Anleihen im Wert von fünfzehn Milliarden Dollar abgeschlossen und WhatsApp Events vorgestellt. Wichtige Kennzahlen zeigen ein Umsatzwachstum von sechsundzwanzig Prozent. Keine Anlageberatung.",
-   "id": "ca55ed2040",
-   "generated_at": "2026-11-06T09:40:42Z",
+   "text": "Meta Platforms: Meta hat den Verkauf von Anleihen im Wert von fünfzehn Milliarden Dollar abgeschlossen und den erwarteten Eigenkapitalerlös auf achtundzwanzig Komma sieben Milliarden Dollar erhöht, wie Yahoo Finance berichtet. Gleichzeitig unterbricht das Unternehmen laut Investing.com geplante Aktualisierungen der Bedingungen und behält bestehende Regeln bei. Der ehemalige Sicherheitschef Alex Stamos warnt zudem davor, Muse AI Passwörter und Finanzen zu überlassen, da dies völlig verrückt sei. Der Aktionär berichtet über möglichen Ärger um bis zu einhundertfünfundvierzig Milliarden Dollar im Zusammenhang mit künstlicher Intelligenz. Zurück zu Meta Platforms: Von Analystenseite gibt es verschiedene Bewertungen. Die UBS hat ein Kursziel von achthundertzweiundneunzig Dollar und das Rating Kaufen genannt, die Citigroup empfiehlt Kaufen mit neunhundertfünf Dollar, DA Davidson nennt achthundert Dollar bei der Einstufung Kaufen, BMO Capital bewertet das Papier mit Wie der Markt und einem Kursziel von sechshundertfünfundachtzig Dollar, die Evercore ISI Group stuft die Aktie mit Besser als Markt und achthundertsiebzig Dollar ein, und Mizuho nennt ebenfalls Besser als Markt mit neunhundertfünfzig Dollar. Operativ stellt Meta die Funktion WhatsApp Events vor, um Menschen über den Gruppenchat hinaus zusammenzubringen. Auf der anderen Seite berichtet Investor's Business Daily, dass der KI-Handel und Meta an Fahrt verlieren, da der Medizin- und Energiesektor Investoren anzieht. Als wichtige Kennzahl wird das durchschnittliche Kursziel der Analysten von achthundertachtundvierzig Dollar genannt, welches den von Analysten erwarteten mittleren Aktienkurs zeigt.",
+   "id": "0ae50692fa",
+   "generated_at": "2026-11-06T16:51:42Z",
    "audio": {
     "file": "META.mp3",
-    "hash": "20ea3bd57cca4c18",
-    "dur": 86.7,
+    "hash": "9a7ddacc83f34d35",
+    "dur": 102.1,
     "engine": "gemini"
    }
   },
@@ -524,5 +524,5 @@
   "dur": 10.2,
   "engine": "edge"
  },
- "audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@c54373fd1af5edfa6185331deedd2960bb8ca127/data/audio/"
+ "audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@9d2493f3cd30ec98fade93bfc68c21143b03b59f/data/audio/"
 }
