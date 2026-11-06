@@ -1,6 +1,200 @@
 {
 "episodes": [
 {
+"id": "2026-11-06-t",
+"kind": "tag",
+"date": "2026-11-06",
+"title": "Morgen-Sendung, Freitag, sechsten November",
+"generated_at": "2026-11-06T05:26:25Z",
+"writer": "Gemini (Gratis-Kontingent) 8 Firmen, Rest Vorlage",
+"chapters": [
+{
+"name": "Begrüssung",
+"say": "Guten Morgen und willkommen zur Sendung vom Aktien-Radar, heute Freitag, sechsten November. Zuerst ein kurzer Blick auf den Markt, dann die Firmen aus deiner Liste mit neuen Meldungen zu Produkten, Partnern und Projekten, danach die Quartalszahlen dieser Woche und zum Schluss ein Begriff zum Lernen. Kurz vorweg: Alles stammt aus gesammelten Daten und Schlagzeilen, Beträge nenne ich in Dollar. Das ist keine Anlageberatung.",
+"audio": {
+"file": "sendung/2026-11-06-t_00.mp3",
+"hash": "86b2168782a077ce",
+"dur": 29.6
+}
+},
+{
+"name": "Markt kurz",
+"say": "Der Markt kurz. Der S und P fünfhundert, der Index der fünfhundert grossen US-Firmen, stand zuletzt bei minus vier Komma vier Prozent gegenüber dem Vortag. In deiner Liste am stärksten: JD.com mit plus eins Prozent, SPDR MSCI World Energy ETF mit plus null Komma neun Prozent, BKW mit plus null Komma neun Prozent. Am schwächsten: Micron mit minus siebzehn Komma fünf Prozent, Marvell mit minus sechzehn Komma vier Prozent. Zum Thema Wall Street meldet Reuters: Nasdaq verzeichnet den grössten täglichen Rückgang seit neunzehn Monaten aufgrund von Ängsten vor KI-Regulierungen. Zum Thema Wall Street meldet Reuters: Telefone „explodieren“ an der Wall Street, während die „Dampfwalze“ für den KI-Handel auftaucht.",
+"audio": {
+"file": "sendung/2026-11-06-t_01.mp3",
+"hash": "434cb6264e5ab260",
+"dur": 56.4
+}
+},
+{
+"name": "Microsoft",
+"sym": "MSFT",
+"say": "Zur Aktie von Microsoft. Das KI-Rechenzentrumsunternehmen IREN hat die Auslieferung von Microsoft-KI-Technologien verzögert und Änderungen an einem Projekt in Texas vorgenommen. Gleichzeitig baut Microsoft seine Cloud-Präsenz durch eine neue Rechenzentrumsregion in Südostasien drei in Malaysia aus. Zudem verschärft der Konzern die Aufsicht über Neocloud-Rechenzentrumsprojekte. Die Aktie von Microsoft steht zudem im Fokus der Bank of America. Ob diese Entwicklungen die Aktie stärken oder schwächen, bleibt aufgrund der unterschiedlichen Meldungen abzuwarten.",
+"audio": {
+"file": "sendung/2026-11-06-t_02.mp3",
+"hash": "56edbad8a45daa57",
+"dur": 42.0
+}
+},
+{
+"name": "Arm",
+"sym": "ARM",
+"say": "Zur Aktie von Arm. Die Aktien von Arm Holdings schlossen deutlich tiefer, da die Umsatzprognose für den Bereich KI-Rechenzentren die Markterwartungen kaum übertreffen konnte. Trotz einer Verdoppelung der Lizenzgebühren für Rechenzentren geriet die Aktie unter Druck. Im Zuge eines breiten Ausverkaufs bei Chip-Aktien und eines allgemeinen US-Börsencrashes verfehlte Arm zudem eine wichtige Kennzahl. Diese Nachrichten könnten die Aktie von Arm eher belasten.",
+"audio": {
+"file": "sendung/2026-11-06-t_03.mp3",
+"hash": "f3407574a41be518",
+"dur": 32.7
+}
+},
+{
+"name": "Nvidia",
+"sym": "NVDA",
+"say": "Zur Aktie von Nvidia. Nvidia steht aktuell im Kontext des hohen Strombedarfs durch den KI-Boom sowie im Fokus von Anlegern, die sich aus dem Technologiesektor zurückziehen. Das Unternehmen Box stellte auf der BoxWorks 2026 neue KI-Werkzeuge sowie eine Partnerschaft mit Nvidia vor. Die Aktie von Nvidia verzeichnete einen Kursrückgang von über neun Prozent, bedingt durch Ängste rund um Rechenzentren und die Korrekturphase der Nasdaq. Zudem prüft Nvidia Möglichkeiten, durch die Nutzung von Telekommunikationsstandorten von Apollo bestehende Moratorien für Rechenzentren zu umgehen.",
+"audio": {
+"file": "sendung/2026-11-06-t_04.mp3",
+"hash": "5f6b11ae260fa38c",
+"dur": 43.7
+}
+},
+{
+"name": "Amazon",
+"sym": "AMZN",
+"say": "Zur Aktie von Amazon. Amazon fordert Google Shopping mit direkten Produkt-Feeds heraus und könnte laut Analysen von einer langsameren Erweiterung der KI-Rechenzentren profitieren. Ein neuer Deal mit GNRC erhöht zudem die Umsatztransparenz im Rechenzentrumsbereich. Amazon wird weiterhin als führend im Bereich der Cloud-KI angesehen, weshalb Anleger die kommenden Entwicklungen genau beobachten sollten. Diese Meldungen könnten die Aktie von Amazon eher stützen.",
+"audio": {
+"file": "sendung/2026-11-06-t_05.mp3",
+"hash": "c11d5c44755ec7b9",
+"dur": 34.7
+}
+},
+{
+"name": "Meta",
+"sym": "META",
+"say": "Zur Aktie von Meta. Meta hat ein Form 8K veröffentlicht und das Unternehmen Conductor erworben, während neue US-KI-Regulierungen die Erträge belasten könnten. Gemeinsam mit Partnern geht Meta zudem juristisch gegen ein neues kalifornisches Gesetz für soziale Medien für Jugendliche vor. Die Aktien von Meta Platforms gaben nach, da hohe Investitionen in den KI-Bereich den Cashflow belasten. Diese Unsicherheiten und der Gegenwind beim KI-Ausbau könnten die Aktie von Meta eher schwächen.",
+"audio": {
+"file": "sendung/2026-11-06-t_06.mp3",
+"hash": "f245a3d19a8f6ffd",
+"dur": 36.1
+}
+},
+{
+"name": "Micron",
+"sym": "MU",
+"say": "Zur Aktie von Micron. Im Rahmen von Telefonkonferenzen bei Ecopro wurden Bestellungen bei Micron sowie Recycling-Themen diskutiert. Micron musste den Betrieb einer Fabrik in Taiwan aufgrund von Forderungen der Arbeiter einstellen. Die Aktie von Micron Technology stürzte daraufhin im Zuge eines allgemeinen Chip-Ausverkaufs massiv ab. Der Mangel an Speicherchips führt bei Micron derzeit zu deutlichen negativen Auswirkungen. Diese Nachrichten könnten die Aktie von Micron eher schwächen.",
+"audio": {
+"file": "sendung/2026-11-06-t_07.mp3",
+"hash": "a29cdb97f4e6cab6",
+"dur": 36.3
+}
+},
+{
+"name": "Intel",
+"sym": "INTC",
+"say": "Kommen wir zur Aktie von Intel. Das Unternehmen steht unter Druck, da schwache Umsatzaussichten für das vierte Quartal infolge eines branchenweiten Chip-Ausverkaufs belasten. Der aktuelle Kursrutsch wird von Marktbeobachtern mit der schwierigen Marktlage aus dem Jahr 2000 verglichen. Zudem sorgen Ängste vor einer strengeren KI-Regulierung für eine negative Stimmung im gesamten Chip-Sektor, was Intel zusätzlich unter Druck setzt. Gleichzeitig gibt es Meldungen über Neuigkeiten von Oracle, die für Intel-Investoren von Bedeutung sein könnten. Zusammenfassend deuten diese Nachrichten auf ein eher herausforderndes Umfeld für den Konzern hin.",
+"audio": {
+"file": "sendung/2026-11-06-t_08.mp3",
+"hash": "704e9ff4d5944d19",
+"dur": 44.8
+}
+},
+{
+"name": "Palantir",
+"sym": "PLTR",
+"say": "Ein Blick auf die Aktie von Palantir. Obwohl das Unternehmen gerade sein bestes Wachstumsquartal aller Zeiten verzeichnete, reagierten Anleger mit Verkäufen. Dies geschieht in einem Marktumfeld, in dem die Wall Street derzeit verstärkt Gewinne bei Software-Unternehmen mit KI-Fokus mitnimmt, was den Kurs von Palantir unter Druck setzt. Auf operativer Ebene gibt es jedoch positive Nachrichten: AmeriLife arbeitet künftig mit Palantir zusammen, um eine KI-Plattform bereitzustellen. Diese Partnerschaft unterstreicht die operative Relevanz des Unternehmens, auch wenn die kurzfristigen Auswirkungen auf den Aktienkurs durch die aktuelle Marktstimmung überlagert werden.",
+"audio": {
+"file": "sendung/2026-11-06-t_09.mp3",
+"hash": "c207d9b47748154b",
+"dur": 47.3
+}
+},
+{
+"name": "Quartalszahlen diese Woche",
+"say": "Quartalszahlen diese Woche. Diese Firmen aus deiner Liste melden ihre Quartalszahlen. Zur Aktie Oklo: Zahlen Freitag, am sechsten November. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von minus null Dollar und sechsundzwanzig Cent. Beim Umsatz erwarten sie rund eins Komma eins Millionen Dollar. Zur Aktie Berkshire Hathaway: Zahlen Samstag, am siebten November. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von sechs Dollar und vierzehn Cent.",
+"audio": {
+"file": "sendung/2026-11-06-t_10.mp3",
+"hash": "787ab959311529eb",
+"dur": 36.9
+}
+},
+{
+"name": "Begriff: Umsatz",
+"say": "Zum Lernen, der Begriff des Tages: Umsatz. Der Umsatz ist alles Geld, das eine Firma mit ihren Produkten einnimmt, bevor Kosten abgezogen werden. Wächst der Umsatz schnell, verkauft die Firma mehr. Ob sie damit auch Geld verdient, zeigt erst der Gewinn.",
+"audio": {
+"file": "sendung/2026-11-06-t_11.mp3",
+"hash": "0efcf82133716178",
+"dur": 19.9
+}
+},
+{
+"name": "Schluss",
+"say": "Das war die Sendung vom Aktien-Radar. Die Quellen findest du in der App bei jeder Aktie, den ganzen Text über den Knopf Als Text. Bis morgen.",
+"audio": {
+"file": "sendung/2026-11-06-t_12.mp3",
+"hash": "cc4bc23e3e69d9dd",
+"dur": 11.5
+}
+}
+],
+"dur": 471.9,
+"full": {
+"file": "sendung/2026-11-06-t_full.mp3",
+"dur": 471.7,
+"marks": [
+[
+0,
+0.0
+],
+[
+1,
+29.6
+],
+[
+2,
+86.0
+],
+[
+3,
+128.0
+],
+[
+4,
+160.7
+],
+[
+5,
+204.4
+],
+[
+6,
+239.1
+],
+[
+7,
+275.2
+],
+[
+8,
+311.5
+],
+[
+9,
+356.3
+],
+[
+10,
+403.6
+],
+[
+11,
+440.5
+],
+[
+12,
+460.4
+]
+]
+}
+},
+{
 "id": "2026-11-05-t",
 "kind": "tag",
 "date": "2026-11-05",
@@ -1870,8 +2064,8 @@
 "dur": 729.9
 }
 ],
-"generated_at": "2026-11-05T05:26:50Z",
+"generated_at": "2026-11-06T05:26:25Z",
 "voice": "de-CH-LeniNeural",
 "source": "Yahoo Finance, SEC EDGAR, Schlagzeilen (Google News u.a.); Text: Gemini Gratis-Kontingent oder Vorlage",
-"audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@289172e78c222661492e165880d58341da6824f0/data/audio/"
+"audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@16e85358bd9a73b3ec84244c821e881aea67e170/data/audio/"
 }
