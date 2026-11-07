@@ -42,16 +42,16 @@
   },
   "AVGO": {
    "file": "AVGO.mp3",
-   "hash": "16c822b0661db1fb",
-   "th": "6f72b3405e9dc2c6",
+   "hash": "c2a74ab4be3a0779",
+   "th": "6615291890761458",
    "engine": "gemini",
-   "id": "2b0eb2f181",
+   "id": "c08be05a0a",
    "voice": "Kore",
    "model": "gemini-2.5-flash-preview-tts",
    "br": 24,
-   "text": "Bei der Aktie von Broadcom gibt es derzeit Bewegung. Während die Fondsmanagerin Cathie Wood Anteile im Wert von einhundertzwanzig Millionen bis vierhundertsiebenunddreissig Millionen Dollar abgestossen hat, verzeichnet das Papier einen Kursanstieg von drei Komma sechs Prozent. Dieser Zuwachs wird durch eine Erholung bei KI-Chips und die Rolle von Broadcom als Marktführer bei kundenspezifischem Silizium gestützt. Dennoch blickt das Unternehmen auf ein schwieriges Jahr 2026, das laut der Zeitung The Globe and Mail das dritte Verlustjahr seit 2009 werden könnte. Zudem weist Yahoo Finance auf ein Risiko von einhunderteinundsechzig Milliarden Dollar hin, das mit einem schwachen Quartal von Anthropic zusammenhängt. Die Analysten bleiben mehrheitlich optimistisch: siebenundfünfzig Experten empfehlen den Kauf, während zwei zum Halten raten. Das durchschnittliche Kursziel liegt bei fünfhundertsiebenundzwanzig Dollar, was ein theoretisches Aufwärtspotenzial von neunundsiebzig Komma vier Prozent impliziert. Zu den jüngsten Einschätzungen zählen Kaufempfehlungen von Rosenblatt, DA Davidson und Tigress Financial mit Kurszielen zwischen vierhundert und sechshundert Dollar. Der aktuelle Kurs notiert bei zweihundertvierundneunzig Dollar.",
-   "dur": 72.5,
-   "at": "2026-11-06T23:56:01Z"
+   "text": "Broadcom stand in den letzten Tagen stark im Fokus der Finanzmedien, angetrieben durch wechselhafte Kursbewegungen und prominente Transaktionen am Markt. Laut Yahoo Finance verzeichnete die Aktie von Broadcom Kursgewinne, was auf eine Erholung bei KI-Chips und die starke Marktposition des Unternehmens im Bereich kundenspezifischer Halbleiter zurückgeführt wird. Demgegenüber steht die Meldung, wonach die bekannte Investorin Cathie Wood sich von grosseren Positionen getrennt und Broadcom-Aktien im Wert von rund einhundertzwanzig Millionen bis einhundertvierunddreissig Millionen Dollar verkauft hat. In den vorliegenden Meldungen wurden Risiken im Sinne von Bussen oder Klagen nicht gefunden. Allerdings verweist Yahoo Finance auf ein potenzielles Risiko in Höhe von einhunderteinundsechzig Milliarden Dollar im Zusammenhang mit den Entwicklungen bei Anthropic, und The Globe and Mail merkt an, dass das Jahr 2026 das dritte Verlustjahr seit 2009 für die Aktie werden könnte. Die Analystenlandschaft zeigt sich überwiegend optimistisch. Das Konsens-Rating bei Yahoo Finance umfasst neunundvierzig Mal Kaufen, acht Mal Stark Kaufen und zwei Mal Halten sowie keine einzigen Verkaufsempfehlungen. Das durchschnittliche Kursziel der Analysten liegt bei rund fünfhundertsiebenundzwanzig Dollar. Zu den jüngsten Einschätzungen gehören Kursziele wie sechshundert Dollar von Rosenblatt oder vierhundert Dollar von DA Davidson. Operativ profitiert das Unternehmen von einer Nachfrageerholung nach KI-Chips, während abwertend die Verkäufe durch die Investmentfirma Ark genannt werden. Widersprüche zeigen sich vor allem darin, dass einige Marktbeobachter den mittelfristigen Ausverkauf als Kaufgelegenheit werten, während andere auf das Potenzial für ein Verlustjahr im Jahr 2026 hinweisen.",
+   "dur": 97.5,
+   "at": "2026-11-07T11:58:11Z"
   },
   "ASML": {
    "file": "ASML.mp3",
@@ -107,15 +107,16 @@
   },
   "NOW": {
    "file": "NOW.mp3",
-   "hash": "efa0f83da9beadfe",
-   "th": "0c9e7084e3b73b15",
-   "id": "25599432fb",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
+   "hash": "bdc200d93636e2ee",
+   "th": "271a3654d49ac5b5",
+   "engine": "gemini",
+   "id": "ea44f10bc0",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
    "br": 24,
-   "text": "ServiceNow stand zuletzt stark im Fokus der Berichterstattung. Laut Yahoo Finance Singapore gerieten die Titel unter Druck, nachdem eine neue Entlassungsrunde auf einen vorherigen Rückgang folgte. People Matters berichtete, dass Stellenstreichungen Standorte in Grossbritannien, den USA und Indien betreffen, während CTech meldete, dass der Vorstand gleichzeitig Bindungsprämien in Höhe von einhundertsiebenundzwanzig Millionen Dollar genehmigte. XTB verwies zudem auf einen enttäuschenden Ausblick auf das vierte Quartal, der die Wall Street schockierte. In den vorliegenden Meldungen wurden keine weiteren rechtlichen Probleme gefunden. Laut Yahoo Finance liegt das durchschnittliche Kursziel der Analysten bei einhundertsechsundfünfzig Dollar, wobei Argus Research das Kursziel bei einhundertsiebzig Dollar sieht und Macquarie ein Ziel von einhundertzwanzig Dollar nennt. Operativ gibt es auch positive Entwicklungen. Laut einer Mitteilung des Unternehmens hilft ServiceNow CPQ dem Partner Keysight dabei, Angebote rund vierzig Prozent schneller zu erstellen. Zudem erweiterten LTM und ServiceNow ihre Partnerschaft zur Skalierung der Agenten-KI, und die NBA baut ihre Zusammenarbeit zur Verbesserung der Mitarbeitererfahrung aus.",
-   "dur": 86.5,
-   "at": "2026-11-06T20:52:00Z"
+   "text": "ServiceNow verzeichnete in den vorliegenden Meldungen einen starken Kursrückgang um fünfunddreissig Prozent in weniger als zwei Wochen, begleitet von einer neuen Entlassungswelle und einem enttäuschenden Ausblick für das vierte Quartal. Laut dem Finanzportal Yahoo Finance Singapore sank die Aktie spürbar, während laut CTech der Vorstand Bindungsprämien in Höhe von einhundertsiebenundzwanzig Millionen Dollar genehmigte. Zu den Analysten-Bewertungen: Argus Research vergab das Rating Kaufen mit einem Kursziel von einhundertsiebzig Dollar, Macquarie Neutral mit einem Kursziel von einhundertzwanzig Dollar, RBC Capital Besser als Markt mit einem Kursziel von einhundertfünfundsechzig Dollar, JP Morgan Übergewichten mit einem Kursziel von einhundertsechzig Dollar, Citigroup Kaufen mit einem Kursziel von einhundertsiebenundfünfzig Dollar und StoneX Kaufen mit einem Kursziel von einhundertfünfzig Dollar. Das Unternehmen erweiterte Partnerschaften, wie etwa mit LTM zur Skalierung der Agenten-KI und mit der NBA zur Verbesserung der Mitarbeitererfahrung mit EmployeeWorks, und kündigte die Veröffentlichung in Brasilien an. Auf der anderen Seite schnitt die Aktie im Vergleich zur Konkurrenz schlechter ab.",
+   "dur": 73.4,
+   "at": "2026-11-07T11:59:06Z"
   },
   "META": {
    "file": "META.mp3",
@@ -132,16 +133,15 @@
   },
   "AMZN": {
    "file": "AMZN.mp3",
-   "hash": "da208a78b45a8e57",
-   "th": "273003634d96eda7",
-   "engine": "gemini",
-   "id": "fa35417fb8",
-   "voice": "Kore",
-   "model": "gemini-2.5-flash-preview-tts",
+   "hash": "269a5d8fba54f4a3",
+   "th": "d23407cc1c12f10c",
+   "id": "9ac8176c6e",
+   "voice": "de-CH-LeniNeural",
+   "engine": "edge",
    "br": 24,
-   "text": "Amazon steht aktuell im Fokus positiver Marktentwicklungen und strategischer Partnerschaften. Das Unternehmen profitierte von einer allgemeinen Markterholung und wurde in bedeutende ETFs wie jene von iShares und State Street aufgenommen. Eine neue Kooperation mit Uber Eats sowie die Einführung einer textbasierten Einkaufsfunktion für Alexa unterstreichen die Innovationskraft. Als rechtliches Risiko ist eine mögliche Abfindungssumme von dreihundertneun Komma fünf Millionen Dollar im Zusammenhang mit Rücksendungen zu beachten, bei der betroffene Verbraucher zeitnah handeln sollten. Analysten bewerten die Aktie überwiegend positiv: Das durchschnittliche Kursziel von achtundfünfzig Analysten liegt bei dreihundertsiebenundzwanzig Dollar. Häuser wie Bernstein Research, UBS und Rosenblatt bestätigten ihre Kaufempfehlungen mit Kurszielen zwischen dreihundertzwanzig und dreihundertsechzig Dollar. Zudem verzeichnete der Konzern gemeinsam mit Microsoft einen Anstieg der Marktkapitalisierung um vierhundertvierundzwanzig Milliarden Dollar. Dies stellt keine Anlageberatung dar.",
-   "dur": 66.7,
-   "at": "2026-11-07T03:14:20Z"
+   "text": "Amazon steht aktuell im Fokus von Analysten und Investoren. Laut der kanadischen Tageszeitung The Globe and Mail hat Amazon-Chef Andy Jassy grosse Neuigkeiten für Investoren angekündigt. Zudem profitiert die Aktie von Käufen durch ETFs und Fonds. Die US-Börsenzeitung Investor's Business Daily berichtet, dass Amazon eine Zusammenarbeit mit Uber Eats gestartet hat. Das Finanzportal Yahoo Finance weist jedoch darauf hin, dass die hohen Ausgaben für künstliche Intelligenz den freien Cashflow belasten. In den vorliegenden Meldungen wurden als Risiko ausserdem rechtliche Themen rund um eine Abfindungssumme von dreihundertneun Komma fünf Millionen Dollar bei Rücksendungen genannt. Die Analystenbewertungen zeigen eine überwiegend positive Haltung. Laut Yahoo Finance raten insgesamt einundsiebzig Analysten zum Kauf, während drei Analysten zum Halten raten; es gibt keine Verkaufsempfehlungen. Das durchschnittliche Kursziel liegt bei dreihundertsiebenundzwanzig Dollar. Die UBS bestätigt ihre Kaufempfehlung mit einem Kursziel von dreihundertzweiundfünfzig Dollar. Freedom Broker vergibt ein Kursziel von dreihundertdreissig Dollar. Bernstein Research stuft Amazon ebenfalls mit Kaufen beziehungsweise Outperform ein und nennt ein Ziel von dreihundertzwanzig Dollar. Operativ arbeitet Amazon mit Uber Eats zusammen und hat ein textbasiertes Einkaufen über den Sprachassistenten Alexa eingeführt. Bei Amazon sagt Chef Andy Jassy gemäss den Meldungen, dass es Neuigkeiten gibt.",
+   "dur": 106.6,
+   "at": "2026-11-07T11:59:42Z"
   },
   "MRVL": {
    "file": "MRVL.mp3",
@@ -181,15 +181,15 @@
   },
   "AMAT": {
    "file": "AMAT.mp3",
-   "hash": "2a074b2d8f3a88fa",
-   "th": "d999d36576cc85e2",
-   "id": "a9f2cd5ad0",
+   "hash": "821655114f3a17ec",
+   "th": "7d0c3c89fb05a688",
+   "id": "bb92782794",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Applied Materials, der Ausrüster für die Halbleiterindustrie, erlebte im November 2026 eine Phase hoher Volatilität. Nach einem Rückgang auf ein Sechsmonatstief, ausgelöst durch allgemeine Marktsorgen und eine Krise bei Chip-Aktien, konnte sich das Papier zwischenzeitlich wieder erholen. Operativ baut das Unternehmen seine Marktposition aus: Applied Materials plant eine erhöhte strategische Investition in Besi und unterzeichnete eine Absichtserklärung mit Frore Systems für eine Produktkooperation. Ein wichtiger Gradmesser für die Geschäftsentwicklung ist der anstehende Umsatztest in Höhe von zehn Komma zwei Milliarden Dollar. Analysten bewerten die Aktie mehrheitlich positiv. Von den beobachtenden Experten raten fünf zum starken Kauf, fünfunddreissig zum Kauf und sechs zum Halten, bei einem durchschnittlichen Kursziel von sechshundertsiebenundzwanzig Dollar. Zu den jüngsten Anpassungen zählt die Bank Needham, die ihr Kursziel auf fünfhundertachtzig Dollar senkte, die Kaufempfehlung jedoch beibehielt. Morgan Stanley stuft die Aktie mit Marktgewichten ein und sieht das Ziel bei fünfhundertachtunddreissig Dollar. Bei den Insidern wurde ein Aktienkauf durch Josh Gottheimer auf einem verwalteten Konto registriert. Bitte beachten Sie, dass dies keine Anlageberatung darstellt.",
-   "dur": 90.9,
-   "at": "2026-11-06T23:57:28Z"
+   "text": "Applied Materials: Die Aktie von Applied Materials zeigte sich in den Berichten sehr bewegt und verzeichnete sowohl deutliche Kursrückgänge als auch kräftige Erholungen vor einem anstehenden Umsatztest. Laut Wallstreet Online geriet die Aktie stark unter Druck und markierte ein neues Sechsmonatstief, während StreetInsider zudem von Belastungen durch Wahlängste berichtete. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Die Analysten von Yahoo Finance Singapore zeigen sich uberwiegend optimistisch: Insgesamt raten fünfunddreissig Analysten zum Kaufen, sechs zum Halten und fünf zum starken Kaufen, während Verkaufsempfehlungen gänzlich fehlen. Das durchschnittliche Kursziel wird bei sechshundertsiebenundzwanzig Dollar gesehen. Morgan Stanley bestätigte im November die Einstufung auf Marktgewichten und senkte das Kursziel von fünfhundertdreiundsechzig Dollar auf fünfhundertachtunddreissig Dollar. Needham bestätigte seine Kaufempfehlung, senkte das Kursziel jedoch von siebenhundertvierzig Dollar auf fünfhundertachtzig Dollar. Evercore ISI Group bestätigte ebenfalls seine Einschätzung und reduzierte das Kursziel von siebenhundert Dollar auf fünfhundertneunzig Dollar. RBC Capital behielt das Kursziel von sechshundert Dollar bei, während die UBS im September ihre Kaufempfehlung bestätigte und das Kursziel auf sechshundertfünfundneunzig Dollar erhöhte. Operativ hat das Unternehmen die strategische Investition in Besi.konzepte ausgebaut. Zu den wichtigen Kennzahlen gehört der anstehende Umsatztest von zehn Komma zwei Milliarden Dollar sowie das mittlere Kursziel von sechshundertsiebenundzwanzig Dollar, welches das erhebliche Aufwärtspotenzial von achtundachtzig Komma vier Prozent verdeutlicht. Bezüglich möglicher Widersprüche berichtete MarketWatch in einer Meldung, dass die Aktie die Konkurrenz an einem starken Handelstag übertreffe, während eine andere Meldung desselben Portals vom Folgetag das genaue Gegenteil meldete und von einer schwächeren Entwicklung im Vergleich zur Konkurrenz sprach.",
+   "dur": 139.6,
+   "at": "2026-11-07T11:59:55Z"
   },
   "ARM": {
    "file": "ARM.mp3",
@@ -219,28 +219,27 @@
   },
   "WNRG.SW": {
    "file": "WNRG.SW.mp3",
-   "hash": "9feacaf95643cccc",
-   "th": "67df378c91c2c1c1",
-   "engine": "gemini",
-   "id": "b0a0a02348",
-   "voice": "Kore",
-   "model": "gemini-2.5-flash-preview-tts",
-   "br": 24,
-   "text": "Guten Tag. Hier ist Ihre Wirtschaftsjournalistin mit einem Update zum SPDR MSCI World Energy ETF. Laut dem Fondsanalysehaus Morningstar gab es im Oktober Berichte zur Entwicklung der grössten Aktien-ETFs in Deutschland. Gleichzeitig meldet Trustnet, dass sich bestimmte Fonds derzeit besonders stark erholen, da Anleger verstärkt Aktien aus dem Bereich der künstlichen Intelligenz verkaufen. In den vorliegenden Berichten wurden keine spezifischen Risiken, Analystenbewertungen oder bedeutende Unternehmensmeldungen für diesen ETF genannt. Es liegen zudem keine Informationen zu Insider-Transaktionen oder Aussagen des Managements vor. Bitte beachten Sie, dass dies keine Anlageberatung darstellt.",
-   "dur": 45.0,
-   "at": "2026-11-07T06:06:57Z"
-  },
-  "BE": {
-   "file": "BE.mp3",
-   "hash": "fdfb79139d9198fd",
-   "th": "634a4aa3cdddbe36",
-   "id": "65313ad469",
+   "hash": "41fa04b557bf1b56",
+   "th": "ab6b215208992fb0",
+   "id": "5df046b9ee",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Die Aktie von Bloom Energy stand zuletzt unter Druck, da Sorgen über mögliche Verzögerungen bei KI-Rechenzentren zu einem deutlichen Kursrückgang führten. Das Unternehmen zählt damit zeitweise zu den grössten Verlierern im S&P fünfhundert. Dem gegenüber stehen jedoch positive operative Nachrichten: Bloom Energy hat eine Vereinbarung mit NTT Data über neunhundert Megawatt zur Stromerzeugung vor Ort für mehrere Rechenzentrumsprojekte geschlossen. Zudem gibt es Berichte über Verträge mit Google und NTT Data, die den Kurs phasenweise stützten. Analysten zeigen sich im Konsens überwiegend zuversichtlich. Von sechsundzwanzig Experten gibt es sechs starke Kaufempfehlungen, sechzehn Kaufempfehlungen, elf Halteempfehlungen sowie drei Verkaufsempfehlungen. Das durchschnittliche Kursziel liegt bei zweihundertfünfundachtzig Dollar. Barclays stuft die Aktie mit Übergewichten und einem Ziel von zweihundertneunundachtzig Dollar ein, während die Citigroup das Papier neutral mit zweihundertvierundachtzig Dollar bewertet. Bei den Insidern veräusserte Verwaltungsrätin Barbara J. Burger Aktien im Wert von rund fünfhunderteinstausendsiebenhundertelf Dollar im Rahmen eines Handelsplans. Es gibt widersprüchliche Markteinschätzungen: Während einige Quellen den Kurssturz trotz der Grossaufträge betonen, heben andere die positiven Impulse durch die neuen Verträge hervor. Dies ist keine Anlageberatung.",
-   "dur": 99.1,
-   "at": "2026-11-06T23:57:34Z"
+   "text": "SPDR MSCI World Energy ETF: In den aktuellen Berichten gibt es verschiedene Neuigkeiten zur Entwicklung. Laut Morningstar, einem Fondsanalyse- und Researchhaus, ging es um die ETFs mit der besten Performance für britische Anleger. Zudem meldet Trustnet, dass sich einige Fonds stark erholen, da Anleger Aktien aus dem Bereich der künstlichen Intelligenz verkaufen. Der aktuelle Kurs liegt bei sechsundsiebzig Komma vier acht Dollar. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Zu den Analystenbewertungen liegen derzeit keine konkreten Daten oder Neueinstufungen vor. Was die Aktivitäten betrifft, so spricht die Erholung im Zuge von Umschichtungen weg von künstlicher Intelligenz laut Trustnet für eine positive Entwicklung bei entsprechenden Fonds. Wichtige Kennzahlen umfassen den aktuellen Aktienkurs von sechsundsiebzig Komma vier acht Dollar, welcher den Preis für einen Anteil anzeigt und für Anleger zur Orientierung dient. Insider-Käufe oder -Verkäufe wurden in den Daten nicht genannt. Aussagen von Chefs oder dem Management liegen ebenfalls keine vor. Widersprüche zwischen den verschiedenen Berichten gibt es nicht.",
+   "dur": 84.4,
+   "at": "2026-11-07T12:00:02Z"
+  },
+  "BE": {
+   "file": "BE.mp3",
+   "hash": "3c4033e0d4bff897",
+   "th": "84a44aaefa0ffd85",
+   "id": "8506a53ecb",
+   "voice": "de-CH-LeniNeural",
+   "engine": "edge",
+   "br": 24,
+   "text": "Bloom Energy steht aktuell im Zentrum der Berichterstattung wegen bedeutender Grossauftraege und deutlicher Kursbewegungen. Laut Yahoo Finance hat das Unternehmen eine Vereinbarung mit NTT Data über neunhundert Megawatt an Stromerzeugung vor Ort für mehrere Rechenzentrumsprojekte bekannt gegeben. Zudem berichtet Traders Union, dass Bloom Energy Brennstoffzellen und Kohlenstoffabscheidung in einem Rechenzentrum von Google in Wyoming einbeziehen wird. MarketWatch meldet hingegen, dass die Aktie zeitweise zu den groessten Verlierern im S&P fünfhundert gehörte, angetrieben von Ängsten vor Verzögerungen bei Rechenzentren und allgemeinen Kursrückgängen im Technologiesektor. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Bei den Analystenbewertungen zeigt sich ein überwiegend konstruktives Bild. Laut Yahoo Finance liegt das durchschnittliche Kursziel der insgesamt sechsundzwanzig Analysten bei rund zweihundertvierundachtzig Dollar, wobei das höchste Ziel bei dreihundertachtzig Dollar liegt. Barclays hat die Einstufung kürzlich von Marktgewichten auf Übergewichten hochgestuft und das Kursziel auf zweihundertneunundachtzig Dollar angepasst. Citigroup bestätigte die neutrale Haltung mit einem Kursziel von zweihundertvierundachtzig Dollar. Zurück zu Bloom Energy: Das Unternehmen treibt seine Geschäfte mit Grossprojekten bei Rechenzentren voran, während Marktsorgen und KI-Ängste für Volatilität sorgen. Als wichtige Kennzahl ist das von Yahoo Finance genannte durchschnittliche Kursziel von rund zweihundertvierundachtzig Dollar zu nennen, welches das Sentiment der Experten widerspiegelt. Bei den Insidern gab es Transaktionen: Verwaltungsrätin Barbara J. Burger veräusserte laut Pflichtmeldungen Aktien im Wert von rund fünfhunderttausend Dollar. Solche Verkäufe basieren oft auf vorab festgelegten Plänen und sagen allein wenig über die operative Verfassung aus. Aussagen der Unternehmensführung zu strategischen Plänen liegen in den aktuellen Meldungen nicht vor. Es gibt keine nennenswerten Widersprüche in den Berichten.",
+   "dur": 142.6,
+   "at": "2026-11-07T12:00:20Z"
   },
   "HYLN": {
    "file": "HYLN.mp3",
@@ -329,15 +328,15 @@
   },
   "0VR3.L": {
    "file": "0VR3.L.mp3",
-   "hash": "9ea8da8f145847ba",
-   "th": "9322268cdd2a8355",
-   "id": "7cbee42493",
+   "hash": "71e7554753f98502",
+   "th": "d9bfeb5681dc262b",
+   "id": "bfea049586",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Der Goldpreis stand zuletzt im Zentrum der Berichterstattung rund um den Festtag Dhanteras, wobei Medien wie der US-Wirtschaftssender CNBC TV18 über leichtere Schmuckstücke und den Handel berichten. Gleichzeitig meldet die indische Wirtschaftszeitung The Economic Times, dass starke US-Arbeitsmarktdaten den US-Dollar sowie die Renditen ankurbeln und Edelmetalle unter Druck setzen. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Zu Analysten-Bewertungen liegen keine aktuellen Daten vor. Was die wirtschaftlichen Aktivitäten betrifft, hebt The Economic Times hervor, dass Gold digitalisiert wird und die nationale Börse an einem Tag eins Komma acht Lakh elektronische Goldquittungs-Transaktionen verzeichnet. Zu Kennzahlen und Insider-Käufen oder -Verkäufen gibt es in den aktuellen Meldungen keine Angaben. Auch Aussagen von Unternehmenschefs liegen nicht vor. Widersprüche zwischen den verschiedenen Berichten sind nicht erkennbar. Keine Anlageberatung.",
-   "dur": 71.4,
-   "at": "2026-11-07T09:11:11Z"
+   "text": "In den vorliegenden Berichten stehen die Entwicklung des Goldpreises und Markttrends im Fokus. Laut CNBC TV18 bereiten sich Juweliere in Dubai auf Feiertage wie Dhanteras vor. Gleichzeitig berichtet The Economic Times, dass starke US-Arbeitsmarktdaten den Dollar und die Renditen ankurbeln, was den Goldpreis belastet. Livemint meldet, dass Edelmetalle nach starken US-Arbeitsmarktdaten volatil sind, aber auf dem Weg bleiben, ihre Verluststrähnen zu beenden. FXStreet berichtet, dass ein Analyst zwanzig Prozent mehr Aufwärtspotenzial sieht, während zwei weitere Analysten davor warnen, dass der Aufschwung nach den Wahlen möglicherweise nicht von Dauer ist. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Zu Analysten-Bewertungen gibt es unterschiedliche Stimmen, wobei ein Analyst ein weiteres Aufwärtspotenzial von zwanzig Prozent prognostiziert, während andere zur Vorsicht mahnen. Was die Aktivitäten betrifft, so profitiert der Markt von der Nachfrage rund um traditionelle Festtage, während stark ausfallende US-Arbeitsmarktdaten und ein stärkerer Dollar als bremsende Faktoren wirken. Es wurden keine spezifischen Kennzahlen, Insider-Käufe oder Verkäufe sowie keine Aussagen von Chefs übermittelt.",
+   "dur": 88.3,
+   "at": "2026-11-07T12:00:31Z"
   },
   "BKW.SW": {
    "file": "BKW.SW.mp3",
@@ -353,15 +352,15 @@
   },
   "UBSG.SW": {
    "file": "UBSG.SW.mp3",
-   "hash": "ba6cd074f2abf913",
-   "th": "f2db50552d6e3084",
-   "id": "4089dc18e7",
+   "hash": "d881efd83bd4c851",
+   "th": "d78b4f07bddeccfb",
+   "id": "e4a3085816",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Die Aktie der UBS stand im Berichtszeitraum stark im Fokus der Anleger, begleitet von Kursbewegungen und neuen Analysteneinschätzungen. Laut Cash, einem Schweizer Finanzportal, rückte die UBS-Aktie nach Kursverlusten und Spekulationen um einen möglichen Morgan-Stanley-Deal ins Investorenfokus. Gleichzeitig berichtete boerse.de, ein deutsches Börsenportal, dass die Aktie unter die wichtige fünfzig-Tage-Linie gefallen ist. Zu den Analysten-Bewertungen zeigt sich ein Bild. Laut Cash hob RBC Capital Markets das Kursziel für die UBS-Aktie auf einundsechzig Komma null sechs Dollar an und bestätigte die positive Einschätzung, während die Aktie einem schwachen Markt trotzte. Das von Yahoo Finance ausgewiesene Analystenkonsens beinhaltet laut Quelle sieben Käufe, acht Halten, zwei Verkäufe, zwei starke Käufe und eins starken Verkauf, bei einem durchschnittlichen Kursziel von vierundfünfzig Komma acht sieben Dollar. Was die Firma gerade macht: Laut den Unternehmensmitteilungen beschäftigte sich UBS mit den Angeboten UBS Mixed Urban und UBS Direct Residential, während an den Börsen am Freitagnachmittag Kursverluste verzeichnet wurden. Zu den Kennzahlen ist zu sagen, dass das durchschnittliche Kursziel der Analysten bei vierundfünfzig Komma acht sieben Dollar liegt, wobei das höchste Ziel bei dreiundsiebzig Komma zwei sieben Dollar und das niedrigste bei einundvierzig Komma fünf eins Dollar verortet wird.",
-   "dur": 97.7,
-   "at": "2026-11-07T09:11:22Z"
+   "text": "UBS Group: Gemäss den vorliegenden Berichten steht die Aktie des Finanzinstituts im Fokus von Marktbewegungen und Analysteneinschätzungen. Laut Cash, einem Schweizer Finanzportal, hebt RBC Capital Markets das Kursziel an, während die Aktie zeitweise Kursverluste verzeichnet. Zurück zu UBS Group: Laut boerse.de, einem deutschen Börsenportal, rutscht die Aktie unter die fünfzig-Tage-Linie, und finanzen.ch, ein Schweizer Finanzportal, meldet an mehreren Handelstagen Kursabschläge sowie schwächere Notierungen. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Zu den Analysten-Bewertungen mit Begründung: RBC Capital Markets bewertet die Aktie mit Outperform und erhöht das Kursziel auf rund einundsechzig Dollar, gestützt auf positive Einschätzungen im Markt. Yahoo Finance Singapore weist auf ein Analysten-Konsens von insgesamt siebzehn Experten hin, welches sieben Kaufempfehlungen, acht Halteempfehlungen, zwei Verkaufsempfehlungen, zwei starke Kaufempfehlungen und eins starke Verkaufsempfehlung umfasst, bei einem mittleren Kursziel von rund siebenundsechzig Dollar und einem prognostizierten Aufwärtspotenzial von dreizehn Komma sechs Prozent. Was die Firma gerade macht: Aufwertend wirkt, dass RBC Capital Markets das Kursziel erhöht hat und die Aktie laut Cash einem schwachen Markt trotzt. Abwertend wirken hingegen die von finanzen.ch gemeldeten Kursabschläge am Nachmittag sowie die Notierung unter der fünfzig-Tage-Linie laut boerse.de. Zu den wichtigen Kennzahlen kurz erklärt: Das mittlere Kursziel liegt bei rund siebenundsechzig Dollar, was den durchschnittlichen Erwartungen der Analysten entspricht. Das Aufwärtspotenzial beträgt dreizehn Komma sechs Prozent und zeigt den prozentualen Abstand zum aktuellen Durchschnittskurs. In den vorliegenden Meldungen wurden keine Insider-Käufe oder Insider-Verkäufe erwähnt. Es liegen keine Aussagen von Chefs oder dem Management in den aktuellen Meldungen vor. Es gibt keine Widersprüche zwischen den berücksichtigten Quellen. Keine Anlageberatung.",
+   "dur": 147.3,
+   "at": "2026-11-07T12:00:44Z"
   },
   "MSFT": {
    "file": "MSFT.mp3",
@@ -401,15 +400,15 @@
   },
   "NVDA": {
    "file": "NVDA.mp3",
-   "hash": "8443fe492a55b479",
-   "th": "00980617ccfffeac",
-   "id": "b8210e8b8d",
+   "hash": "6017d854e32bbe63",
+   "th": "bc22b5cf9406f33f",
+   "id": "1f467d5807",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Nvidia: Die Aktie des Technologiekonzerns Nvidia hat nach einem heftigen Ausverkauf im Bereich der kunstlichen Intelligenz eine Erholung an den Barsen verzeichnet. Laut MarketWatch, einem US-Finanznachrichtenportal, geriet die Nvidia-Aktie zeitweise in einen Barenmarkt, was jedoch Schnappchenjager anlockte. Zu den Risiken und rechtlichen Rahmenbedingungen ist zu sagen, dass in den vorliegenden Meldungen keine Risiken oder rechtlichen Probleme gefunden wurden, abgesehen von Kursruckgangen und dem Eintritt in einen temporaren Barenmarkt. Betreffend der Analysten-Bewertungen mit Begrundung gibt es verschiedene Einschatzungen: Melius Research bestatigte das Rating Kaufen und senkte das Kursziel auf dreihundertfünfzehn Dollar. Needham bestatigte das Kaufen-Rating mit einem Kursziel von dreihundert Dollar. Cantor Fitzgerald bestatigte das Ubergewichten-Rating bei einem Kursziel von dreihundertfünfzig Dollar. Rosenblatt bestatigte die Einstufung Kaufen und ein Kursziel von dreihundertneunzig Dollar, wahrend Piper Sandler die Aktie neu mit dem Rating Ubergewichten und einem Kursziel von dreihundert Dollar aufnahm. Zuruck zu Nvidia: Das Unternehmen treibt seine Geschaefte voran, indem sich SovAI Nvidia Inception angeschlossen hat, um KI-Fabriken nach der DSX-Referenzarchitektur zu errichten. Ausserdem investiert Nvidia Berichten zufolge Milliarden in das fortschrittliche Chip-Packaging, um einen drohenden Engpass zu bewaltigen. Wichtige Kennzahlen umfassen ein durchschnittliches Kursziel der Analysten von rund dreihundertsiebenundzwanzig Dollar, wobei das hohe Ziel bei fünfhundertfünfzehn Dollar und das tiefste bei einhundertachtzig Dollar liegt.",
-   "dur": 110.2,
-   "at": "2026-11-06T23:26:10Z"
+   "text": "Nvidia geriet zuletzt in einen Bärenmarkt, gefolgt von einer gewissen Erholung der Chip-Aktien. Investorin Cathie Wood investierte derweil in grossem Stil in Nvidia und SpaceX, während Bestände bei Broadcom reduziert wurden. Zudem verschärft Nvidia die Verfolgung von Chips in Südostasien. Zu den Risiken zählen Warnungen von Gary Marcus sowie Berichte über einen gewaltsamen Ausverkauf und Downgrades nach einem Intel-Crash. Zu den Analysten-Bewertungen: Melius Research bestätigte die Einstufung als Kaufen und senkte das Kursziel auf dreihundertfünfzehn Dollar. Needham bestätigte Kaufen mit einem Kursziel von dreihundert Dollar. Cantor Fitzgerald bestätigte Übergewichten mit dreihundertfünfzig Dollar Kursziel, während Rosenblatt an Kaufen mit einem Ziel von dreihundertneunzig Dollar festhielt. Piper Sandler nahm die Aktie neu mit Übergewichten und einem Kursziel von dreihundert Dollar auf. Der Börsenbrief BOTSI-Advisor hob Nvidia von Rang einhundertfünfzehn nach oben. Was die Firma gerade macht: SovAI schliesst sich Nvidia Inception an, um KI-Fabriken nach der Nvidia DSX-Referenzarchitektur zu bauen. Das von Nvidia unterstützte Unternehmen Groq strebt eine Bewertung von acht Milliarden Dollar an. Demgegenüber stehen Warnungen vor Marktrisiken im Raum. Keine Aussagen von Chefs liegen in den aktuellen Meldungen vor. Es wurden keine widersprüchlichen Berichte registriert. Keine Anlageberatung.",
+   "dur": 102.9,
+   "at": "2026-11-07T12:00:55Z"
   },
   "1211.HK": {
    "file": "1211.HK.mp3",
@@ -461,15 +460,15 @@
   },
   "BNTX": {
    "file": "BNTX.mp3",
-   "hash": "896d562883d9b94a",
-   "th": "69a22b27d1939270",
-   "id": "acfa09708d",
+   "hash": "76def0c186864b91",
+   "th": "3e50bd5df94a06cb",
+   "id": "fc3706a2c0",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "BioNTech SE verzeichnete laut Traders Union, einem Trading-Ratgeberportal, einen Kursrückgang der Aktien um vier Komma drei Prozent. Laut The Globe and Mail, einer kanadischen Tageszeitung, haben Analysten widersprüchliche Ansichten zu dem Gesundheitsunternehmen. Seeking Alpha, eine US-Plattform mit Anlegerbeiträgen, veröffentlichte zudem die Ergebnisse und eine Ergebnispräsentation für das dritte Quartal 2026. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Die UBS bestätigte das Rating Kaufen und senkte das Kursziel auf einhundertfünfundzwanzig Dollar. Morgan Stanley bestätigte das Rating Übergewichten und senkte das Kursziel auf einhundertsechs Dollar. Wells Fargo bestätigte das Rating Übergewichten und senkte das Kursziel auf einhundertfünfundzwanzig Dollar. Evercore ISI Group bestätigte das Rating Besser als Markt und senkte das Kursziel auf einhundertzehn Dollar. Canaccord Genuity bestätigte das Rating Kaufen und senkte das Kursziel auf einhundertzweiunddreissig Dollar. Zurück zu BioNTech SE: Die Firma veröffentlichte über Seeking Alpha die Ergebnisse für das dritte Quartal 2026, während Traders Union über den erwähnten Kursrückgang der Aktien um vier Komma drei Prozent berichtete. Als wichtige Kennzahlen zeigt sich das durchschnittliche Kursziel der Analysten bei einhundertfünfzehn Dollar sowie der genannte tägliche Kursrückgang von -vier Komma drei Prozent, welcher die kurzfristige Kursentwicklung widerspiegelt. Bei den Insideraktivitäten gab es im September und Oktober 2026 geplante Verkäufe von Aktien im Wert von rund zwei Komma drei Millionen Dollar bis rund neun Millionen Dollar durch Ugur Sahin. Hinsichtlich möglicher Widersprüche berichten The Globe and Mail über uneinheitliche Einschätzungen der Analysten zum Unternehmen, während Traders Union konkrete Kursverluste meldet.",
-   "dur": 135.8,
-   "at": "2026-11-06T22:10:15Z"
+   "text": "BioNTech SE steht im Fokus der Anleger, da das Unternehmen laut der kanadischen Tageszeitung The Globe and Mail widersprüchliche Analystenansichten erhalten hat. Das deutsche Börsenportal Wallstreet Online meldet zudem, dass die Aktie stark polarisiert, während das Trading-Ratgeberportal Traders Union über Kursrückgänge von vier Komma drei Prozent an einem Tag berichtet. Bezüglich der Analystenbewertungen zeigt sich ein gemischtes Bild: Die UBS bewertet die Aktie mit Kaufen und sieht ein Kursziel von einhundertfünfundzwanzig Dollar vor. Morgan Stanley stuft die Aktie mit Übergewichten ein mit einem Kursziel von einhundertsechs Dollar. Wells Fargo bewertet die Aktie ebenfalls mit Übergewichten und nennt ein Kursziel von einhundertfünfundzwanzig Dollar. Die Evercore ISI Group führt die Bewertung als Besser als Markt mit einem Kursziel von einhundertzehn Dollar, und Canaccord Genuity nannte im Oktober die Einstufung Kaufen mit einem Kursziel von einhundertzweiunddreissig Dollar. Was die aktuelle Situation der Firma betrifft, verweist Wallstreet Online auf Argumente für einen möglichen Anstieg, während Traders Union auf die jüngsten Kursverluste hinweist. Zu den wichtigen Kennzahlen gehört das von Yahoo Finance genannte durchschnittliche Kursziel von einhundertfünfzehn Dollar, das als Richtwert für die Markterwartungen dient. Das höchste Kursziel liegt bei einhundertdreiundvierzig Dollar und das tiefste Kursziel bei fünfundsiebzig Komma sechs drei Dollar. Bei den Insidergeschäften zeigen Daten der US-Börsenaufsicht SEC EDGAR, dass der Chef und Grossaktionär Ugur Sahin im September und Oktober 2026 im Rahmen geplanter Verkäufe mehrere Aktienpakete veräussert hat.",
+   "dur": 117.0,
+   "at": "2026-11-07T12:01:04Z"
   },
   "ABBN.SW": {
    "file": "ABBN.SW.mp3",
@@ -520,10 +519,10 @@
    "at": "2026-11-04T16:37:35Z"
   }
  },
- "status": "ok",
- "checked_at": "2026-11-07T11:04:42Z",
- "quota_until": 1794008903.992831,
- "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@42742c6a7003c39866b816f7bc50bcff26523437/data/audio/",
+ "status": "quota: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, h",
+ "checked_at": "2026-11-07T12:01:04Z",
+ "quota_until": 1794056372.1529481,
+ "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@bc3fdcd024bbd7398cd99314d0311b540daf8c36/data/audio/",
  "extra": {
   "intro": {
    "file": "_intro.mp3",

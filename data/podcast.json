@@ -1,528 +1,528 @@
 {
-"generated_at": "2026-11-07T11:04:45Z",
-"intro": "Willkommen beim Aktien-Radar, deinem Überblick über die neuesten Meldungen. Heute geht es um 39 Aktien aus deiner Liste. Alles stammt aus den gesammelten Meldungen und Analystendaten, nichts ist erfunden. Keine Anlageberatung.",
-"outro": "Das war der Aktien-Radar-Überblick. Die Quellen und Details findest du in der App bei jeder Aktie. Keine Anlageberatung.",
-"segments": [
-{
-"symbol": "TSM",
-"name": "Taiwan Semiconductor",
-"text": "Taiwan Semiconductor steht aktuell im Fokus von Berichten über mögliche neue Geschäftsfelder in der Halbleiterproduktion. Laut Reuters und The Information erwägt das Unternehmen die Herstellung fortschrittlicher Speicherchips, was laut Berichten im Interesse von Nvidia liegen könnte. Gleichzeitig zeigten sich in den Daten auch Belastungen durch allgemeine Marktrückgänge, bei denen die Aktie zeitweise unter die Zweihundert-Tage-Linie fiel. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Analysten blicken überwiegend positiv auf das Unternehmen. Zurück zu Taiwan Semiconductor: Laut Yahoo Finance liegt das durchschnittliche Kursziel bei rund fünfhundertsechsundachtzig Dollar, gestützt durch zahlreiche Kaufempfehlungen und angepasste Kursziele wie von Bernstein mit rund sechshundert Dollar oder Barclays mit rund sechshundertsiebzig Dollar. Operativ treibt Taiwan Semiconductor mögliche Pläne für den Einstieg in die moderne Speicherfertigung voran und profitierte zeitweise von regulatorischen Massnahmen wie der Einschränkung von Leerverkäufen. Zu den wichtigsten Kennzahlen gehört ein Umsatzmittelpunkt von rund dreiundfünfzig Komma drei Milliarden Dollar, der die wirtschaftliche Basis des Unternehmens unterstreicht. Aussagen von Unternehmenschefs liegen in den aktuellen Meldungen nicht vor. Widersprüche zwischen den berücksichtigenden Quellen wurden nicht festgestellt.",
-"id": "04da5b5634",
-"generated_at": "2026-11-07T10:56:32Z",
-"audio": {
-"file": "TSM.mp3",
-"hash": "e7188c360a22ffd7",
-"dur": 77.4,
-"engine": "gemini"
-}
-},
-{
-"symbol": "NVDA",
-"name": "Nvidia",
-"text": "Nvidia: Die Aktie des Technologiekonzerns Nvidia hat nach einem heftigen Ausverkauf im Bereich der kunstlichen Intelligenz eine Erholung an den Barsen verzeichnet. Laut MarketWatch, einem US-Finanznachrichtenportal, geriet die Nvidia-Aktie zeitweise in einen Barenmarkt, was jedoch Schnappchenjager anlockte. Zu den Risiken und rechtlichen Rahmenbedingungen ist zu sagen, dass in den vorliegenden Meldungen keine Risiken oder rechtlichen Probleme gefunden wurden, abgesehen von Kursruckgangen und dem Eintritt in einen temporaren Barenmarkt. Betreffend der Analysten-Bewertungen mit Begrundung gibt es verschiedene Einschatzungen: Melius Research bestatigte das Rating Kaufen und senkte das Kursziel auf dreihundertfünfzehn Dollar. Needham bestatigte das Kaufen-Rating mit einem Kursziel von dreihundert Dollar. Zurück zu Nvidia: Cantor Fitzgerald bestatigte das Ubergewichten-Rating bei einem Kursziel von dreihundertfünfzig Dollar. Rosenblatt bestatigte die Einstufung Kaufen und ein Kursziel von dreihundertneunzig Dollar, wahrend Piper Sandler die Aktie neu mit dem Rating Ubergewichten und einem Kursziel von dreihundert Dollar aufnahm. Zuruck zu Nvidia: Das Unternehmen treibt seine Geschaefte voran, indem sich SovAI Nvidia Inception angeschlossen hat, um KI-Fabriken nach der DSX-Referenzarchitektur zu errichten. Ausserdem investiert Nvidia Berichten zufolge Milliarden in das fortschrittliche Chip-Packaging, um einen drohenden Engpass zu bewaltigen. Wichtige Kennzahlen umfassen ein durchschnittliches Kursziel der Analysten von rund dreihundertsiebenundzwanzig Dollar, wobei das hohe Ziel bei fünfhundertfünfzehn Dollar und das tiefste bei einhundertachtzig Dollar liegt.",
-"id": "b8210e8b8d",
-"generated_at": "2026-11-06T23:22:12Z",
-"audio": {
-"file": "NVDA.mp3",
-"hash": "8443fe492a55b479",
-"dur": 110.2,
-"engine": "edge"
-}
-},
-{
-"symbol": "005930.KS",
-"name": "Samsung Electronics",
-"text": "Samsung Electronics: Die Aktien von Samsung Electronics verzeichneten im November 2026 deutliche Kursverluste, was auf einen breiten Einbruch bei asiatischen Chip- und KI-Werten sowie sinkende Börsenindizes zurückzuführen ist. Belastend wirken zudem Berichte, wonach Nvidia für fortschrittliche Speicherchips auf TSMC setzen könnte, was Samsung unter Druck setzt. Rechtlich gab es eine Verurteilung eines ehemaligen Ingenieurs im Zusammenhang mit einem DRAM-Leck. Positiv hervorzuheben sind die Erweiterung von Samsung Wallet um Stablecoin-Konten und den Versand von USDC über Solana sowie die behördliche Zulassung der verbesserten Schlafapnoe-Funktion für den Galaxy Ring durch die US-amerikanische FDA und die koreanische MFDS. Analysten zeigen sich optimistisch: Der Konsens liegt bei zwölf starken Käufen und sechsunddreissig Kaufempfehlungen. Das durchschnittliche Kursziel beträgt dreihundertfünfzig Dollar, was einem potenziellen Kursanstieg von einhundertzweiundfünfzig Komma eins Prozent entspricht. Dies stellt keine Anlageberatung dar.",
-"id": "78af6b24fa",
-"generated_at": "2026-11-07T01:19:53Z",
-"audio": {
-"file": "005930.KS.mp3",
-"hash": "96375516e6e7394b",
-"dur": 65.3,
-"engine": "gemini"
-}
-},
-{
-"symbol": "HY9H.MU",
-"name": "SK Hynix",
-"text": "SK Hynix verzeichnete zuletzt deutliche Kursrückgänge, während ein breiter Ausverkauf an den Märkten asiatische Chip-Aktien belastete. Laut CNBC gerieten Werte wie Samsung und SK Hynix im Zuge von Abverkäufen an der Nasdaq unter starken Druck. Das deutsche Börsenportal Wallstreet Online meldet, dass die Aktie binnen eines Monats rund dreissig Prozent an Wert verlor, und boerse.de verweist auf ein neues Sechsmonatstief sowie das Unterschreiten der Zweihundert-Tage-Linie. Operativ war das Unternehmen aktiv, indem SK hynix laut eigener Mitteilung den ersten Partnertag in Japan veranstaltete und die Geschäftsausrichtung mit lokalen Partnern austauschte. Laut WSJ plant SK Hynix zudem nach starken Ergebnissen eine Aktionärsrendite von rund fünfundsiebzig Milliarden Dollar, während Yahoo Finance berichtet, dass das Unternehmen kühleren KI-Speicher vorstellte. Demgegenüber stehen jedoch laut Yahoo Finance gemeldete Verzögerungen bei US-Lizenzen für geplante New Yorker Anlagen im Wert von rund fünfundvierzig Milliarden Dollar.",
-"id": "a66b2ac6aa",
-"generated_at": "2026-11-07T09:03:21Z",
-"audio": {
-"file": "HY9H.MU.mp3",
-"hash": "529f92b1d710ca54",
-"dur": 67.6,
-"engine": "gemini"
-}
-},
-{
-"symbol": "AVGO",
-"name": "Broadcom",
-"text": "Broadcom: Bei der Aktie von Broadcom gibt es derzeit Bewegung. Während die Fondsmanagerin Cathie Wood Anteile im Wert von einhundertzwanzig Millionen bis vierhundertsiebenunddreissig Millionen Dollar abgestossen hat, verzeichnet das Papier einen Kursanstieg von drei Komma sechs Prozent. Dieser Zuwachs wird durch eine Erholung bei KI-Chips und die Rolle von Broadcom als Marktführer bei kundenspezifischem Silizium gestützt. Dennoch blickt das Unternehmen auf ein schwieriges Jahr 2026, das laut der Zeitung The Globe and Mail das dritte Verlustjahr seit 2009 werden könnte. Zurück zu Broadcom: Zudem weist Yahoo Finance auf ein Risiko von einhunderteinundsechzig Milliarden Dollar hin, das mit einem schwachen Quartal von Anthropic zusammenhängt. Die Analysten bleiben mehrheitlich optimistisch: siebenundfünfzig Experten empfehlen den Kauf, während zwei zum Halten raten. Das durchschnittliche Kursziel liegt bei fünfhundertsiebenundzwanzig Dollar, was ein theoretisches Aufwärtspotenzial von neunundsiebzig Komma vier Prozent impliziert. Zu den jüngsten Einschätzungen zählen Kaufempfehlungen von Rosenblatt, DA Davidson und Tigress Financial mit Kurszielen zwischen vierhundert und sechshundert Dollar. Der aktuelle Kurs notiert bei zweihundertvierundneunzig Dollar.",
-"id": "2b0eb2f181",
-"generated_at": "2026-11-06T23:48:12Z",
-"audio": {
-"file": "AVGO.mp3",
-"hash": "16c822b0661db1fb",
-"dur": 72.5,
-"engine": "gemini"
-}
-},
-{
-"symbol": "ASML",
-"name": "ASML Holding",
-"text": "ASML Holding: Die Aktie von ASML Holding zeigt sich derzeit volatil. Wahrend die Chart-Plattform TradingView von Kursruckgangen um sieben Komma vier Prozent aufgrund von Fragen zum nachsten Ausgabenzyklus berichtet, verzeichnete der US-Nachrichtendienst StreetInsider eine Erholung im Chipsektor. Die Aktie rutschte unter die Zweihundert-Tage-Linie und erreichte ein neues Sechsmonatstief, wobei Angste vor einer strengeren KI-Regulierung nach den US-Zwischenwahlen zusatzlich belasten. Analysten bleiben jedoch mehrheitlich optimistisch: Von siebzehn Analysten raten sieben zum starken Kauf und achtunddreissig zum Kauf, bei einem durchschnittlichen Kursziel von zweitausendeinhundertsiebenunddreissig Dollar. JP Morgan stuft die Aktie mit Ubergewichten ein und setzt das Kursziel auf zweitausenddreihundertfünfzig Dollar. Positiv hervorzuheben sind zudem Netto-ETF-Kaufe in Hohe von fünfundsechzig Komma sieben Millionen Dollar sowie Berichte, wonach Elon Musk die Halbleiterfabrik Terafab an ASML herantragen mochte. Bestellungen fur EUV-Maschinen reichen derweil bis in das Jahr 2030. Dies stellt keine Anlageberatung dar.",
-"id": "1b9f641924",
-"generated_at": "2026-11-06T23:48:12Z",
-"audio": {
-"file": "ASML.mp3",
-"hash": "6fffdb54a8f3bdcb",
-"dur": 70.2,
-"engine": "gemini"
-}
-},
-{
-"symbol": "INTC",
-"name": "Intel",
-"text": "Intel: Der Technologiekonzern Intel stand zuletzt stark im Fokus der Märkte. Laut Barron's verzeichnete die Intel-Aktie einen Einbruch von fünfzig Prozent innerhalb eines Monats und erreichte ein neues Sechs-Monats-Tief. Yahoo Finance meldet dagegen, dass dieser tiefe Ausverkauf Zeichen einer Überreaktion zeigt und es zu einer Erholung kam. Schwache Umsatzaussichten für das vierte Quartal und allgemeine KI-Skepsis, wie das Schweizer Finanzportal Cash berichtet, belasteten das Papier zeitweise. Die Analystenbewertungen zeigen ein gemischtes Bild. Laut Yahoo Finance gibt es derzeit fünfzehn Kaufempfehlungen, fünfunddreissig Halte-Empfehlungen und eine Verkaufsempfehlung. Zurück zu Intel: Das durchschnittliche Kursziel der Analysten liegt bei rund dreiundneunzig Dollar. Die UBS bestätigte ihre neutrale Einstufung und senkte das Kursziel auf achtzig Dollar. Die Citigroup bestätigte ihre Kaufempfehlung bei einem auf einhundert Dollar gesenkten Kursziel. Freedom Broker stufte die Aktie von Kaufen auf Halten ab und senkte das Kursziel auf neunzig Dollar. JP Morgan bestätigte das neutrale Rating mit einem Kursziel von achtzig Dollar. TD Cowen beliess die Aktie auf Halten mit einem Kursziel von fünfundsiebzig Dollar, während DA Davidson das neutrale Rating bei einem Kursziel von siebzig Dollar bestätigte. Operativ bringt das Unternehmen hardwaregestützte Sicherheit in EdgeAI und schärft das Xeon-AI-Angebot, während branchenweite Ausverkäufe und KI-Skepsis bremsend wirken.",
-"id": "ab7553f21c",
-"generated_at": "2026-11-07T09:03:21Z",
-"audio": {
-"file": "INTC.mp3",
-"hash": "383d16105fe95b24",
-"dur": 89.5,
-"engine": "gemini"
-}
-},
-{
-"symbol": "MSFT",
-"name": "Microsoft",
-"text": "Microsoft: Bei Microsoft gibt es laut Berichten von Barron's und Reuters Verzögerungen bei der KI-Infrastruktur durch Partner wie IREN und den Verzicht auf eine Vertragsverlängerung mit Oracle, während gleichzeitig die Zusammenarbeit mit Lumen beim Vertrieb von KI-Netzwerken ausgebaut wird. In den vorliegenden Meldungen wurden keine rechtlichen Probleme gefunden. Analysten zeigen sich optimistisch; laut Yahoo Finance gibt es zahlreiche Kaufempfehlungen und ein durchschnittliches Kursziel von sechshundertvierunddreissig Dollar, wobei Bernstein das Kursziel auf siebenhundertzweiundzwanzig Dollar erhöhte. Zurück zu Microsoft: Die Firma baut Partnerschaften im KI-Bereich aus, während Verzögerungen bei Lieferanten genannt werden. Zu den wichtigen Kennzahlen gehört das durchschnittliche Kursziel, welches die Erwartungen der Analysten für den zukünftigen Aktienkurs zusammenfasst.",
-"id": "ddfd7bab89",
-"generated_at": "2026-11-07T10:00:02Z",
-"audio": {
-"file": "MSFT.mp3",
-"hash": "3c94a3ece9a58d55",
-"dur": 57.2,
-"engine": "edge"
-}
-},
-{
-"symbol": "PLTR",
-"name": "Palantir",
-"text": "Palantir verzeichnete in den aktuellen Berichten eine spannende Entwicklung an den Buersen. Laut Barchart.com, einem US-Boersendatenportal, lieferte Palantir im dritten Quartal starke Umsatz- und Gewinnzahlen, die die Schaetzungen uebertrafen, waehrend die Aktie dennoch zeitweise abrutschte. Gleichzeitig berichtet The Globe and Mail, eine kanadische Tageszeitung, ueber ein potenzielles Warnsignal und einen Kursrueckgang von sechzehn Prozent gegenueber dem Hoechststand. InvestmentWeek meldet zudem Sorgen ueber eine Verlangsamung der kommerziellen Buchungen. In den vorliegenden Meldungen wurden keine rechtlichen Probleme gefunden. Zurück zu Palantir: Bei den Analystenbewertungen zeigt sich ein gemischtes Bild: Laut Yahoo Finance bestaetigt Barclays das Rating Uebergewichten und erhoeht das Kursziel auf zweihundertdreiundsiebzig Dollar. Citigroup bestaetigt die Kaufempfehlung mit einem neuen Kursziel von zweihundertfünfundsechzig Dollar. Truist Securities setzt das Kursziel auf zweihundertfünfzig Dollar, waehrend DA Davidson das Kursziel bei zweihundertfünfzig Dollar belaesst. RBC Capital stuft die Aktie als schlechter als Markt ein mit einem Kursziel von einhundertdreissig Dollar, und Rosenblatt haelt an einer Kaufempfehlung mit einem Kursziel von zweihundertsechzig Dollar fest. Zurueck zu Palantir: Die Firma faellt durch explosives KI-Wachstum auf, sieht sich aber auch mit Berichten ueber nachlassende kommerzielle Buchungen konfrontiert. Zu den wichtigen Kennzahlen gehoert das durchschnittliche Kursziel von zweihundertachtzehn Dollar, waehrend das hoechste Kursziel bei zweihundertdreiundsiebzig Dollar und das tiefste bei achtzig Dollar liegt.",
-"id": "2d5abdbd00",
-"generated_at": "2026-11-07T10:00:02Z",
-"audio": {
-"file": "PLTR.mp3",
-"hash": "b9dc4cb71f52bf3a",
-"dur": 98.9,
-"engine": "gemini"
-}
-},
-{
-"symbol": "IBM",
-"name": "IBM",
-"text": "IBM zeigt sich in den aktuellen Meldungen stark fokussiert auf Zukunftstechnologien wie Quantencomputing und Künstliche Intelligenz. So hat das Unternehmen in Chicago seinen bisher fortschrittlichsten Quantencomputer vorgestellt und gemeinsam mit Partnern wie AMD und dem Oak Ridge National Laboratory eine Plattform für die Quantenfehlerkorrektur gestartet. Ausserdem wurde zusammen mit Supermicro und Nvidia eine neue KV-Cache-Lösung auf den Markt gebracht, die erhebliche Leistungsvorteile bei der Inferenz bietet. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Analysten bewerten die Aktie überwiegend positiv. Zurück zu IBM: Laut Yahoo Finance liegt das durchschnittliche Kursziel bei rund zweihundertneunundfünfzig Dollar, und Evercore bestätigte die Einstufung Outperform mit einem Kursziel von zweihundertfünfundsiebzig Dollar. Weitere Kurszielerhöhungen beziehungsweise Bestätigungen gab es unter anderem von Jefferies, der UBS, der Citigroup, Morgan Stanley, BMO Capital und Barclays. Was die geschäftliche Entwicklung betrifft, sprechen technologische Fortschritte im Bereich Quantencomputing und Künstliche Intelligenz für das Unternehmen, während Berichte von boerse.de über das Unterschreiten der zwanzig-Tage-Linie sowie eine Abstufung im BOTSI-Advisor als abwertend einzustufen sind. Als wichtige Kennzahl ist das durchschnittliche Kursziel von rund zweihundertneunundfünfzig Dollar zu nennen, welches die Analystenerwartungen bündelt. Es liegen keine Widersprüche zwischen den Quellen vor.",
-"id": "8e5c8b28d4",
-"generated_at": "2026-11-07T10:56:32Z",
-"audio": {
-"file": "IBM.mp3",
-"hash": "fe4001b3080372a2",
-"dur": 90.8,
-"engine": "gemini"
-}
-},
-{
-"symbol": "OEF",
-"name": "iShares S&P 100 ETF",
-"text": "iShares S&P 100 ETF: iShares S&P einhundert ETF: Laut Finanzen.net, einem deutschen Finanzportal, veröffentlichte Yahoo Finance Singapur ein saisonales Renditediagramm für den iShares S&P einhundert ETF. Zudem berichtete Finanzen.net über ein weiteres saisonales Renditediagramm, welches von Yahoo! Finance Canada publiziert wurde. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Zurück zu iShares S&P einhundert ETF: Es liegen aktuell keine Analystenbewertungen oder Kennzahlen vor. Auch zu Insiderkäufen und -verkäufen oder Aussagen von Chefs gibt es keine Berichte in den aktuellen Meldungen. Keine Anlageberatung.",
-"id": "a90983463b",
-"generated_at": "2026-11-07T10:56:32Z",
-"audio": {
-"file": "OEF.mp3",
-"hash": "c3d065bd0b507aff",
-"dur": 50.7,
-"engine": "edge"
-}
-},
-{
-"symbol": "NOW",
-"name": "ServiceNow",
-"text": "ServiceNow stand zuletzt stark im Fokus der Berichterstattung. Laut Yahoo Finance Singapore gerieten die Titel unter Druck, nachdem eine neue Entlassungsrunde auf einen vorherigen Rückgang folgte. People Matters berichtete, dass Stellenstreichungen Standorte in Grossbritannien, den USA und Indien betreffen, während CTech meldete, dass der Vorstand gleichzeitig Bindungsprämien in Höhe von einhundertsiebenundzwanzig Millionen Dollar genehmigte. XTB verwies zudem auf einen enttäuschenden Ausblick auf das vierte Quartal, der die Wall Street schockierte. Zurück zu ServiceNow: In den vorliegenden Meldungen wurden keine weiteren rechtlichen Probleme gefunden. Laut Yahoo Finance liegt das durchschnittliche Kursziel der Analysten bei einhundertsechsundfünfzig Dollar, wobei Argus Research das Kursziel bei einhundertsiebzig Dollar sieht und Macquarie ein Ziel von einhundertzwanzig Dollar nennt. Operativ gibt es auch positive Entwicklungen. Laut einer Mitteilung des Unternehmens hilft ServiceNow CPQ dem Partner Keysight dabei, Angebote rund vierzig Prozent schneller zu erstellen. Zudem erweiterten LTM und ServiceNow ihre Partnerschaft zur Skalierung der Agenten-KI, und die NBA baut ihre Zusammenarbeit zur Verbesserung der Mitarbeitererfahrung aus.",
-"id": "25599432fb",
-"generated_at": "2026-11-06T20:46:13Z",
-"audio": {
-"file": "NOW.mp3",
-"hash": "efa0f83da9beadfe",
-"dur": 86.5,
-"engine": "edge"
-}
-},
-{
-"symbol": "META",
-"name": "Meta Platforms",
-"text": "Meta Platforms: Laut TradingView, einer Chart- und Börsenplattform, hat Meta eine Klage gegen Kalifornien eingereicht, und die Kosten für Kreditrisikoversicherungen haben Rekordwerte erreicht, während Schulden für den KI-Ausbau anfallen. Ausserdem berichtet Yahoo Finance, ein Finanzportal, dass sich Meta, Apple und Elon Musk neuen Bedrohungen durch die Demokraten ausgesetzt sehen, und dass Meta Data-Scraping-Bedingungen nach Kritik von Herausgebern pausiert hat. Zurück zu Meta Platforms: Der Konsens der Analysten laut Yahoo Finance Canada zeigt ein durchschnittliches Kursziel von rund achthundertachtundvierzig Dollar und ein Votum, das überwiegend auf Kaufen lautet. Bernstein Research bewertet die Aktie mit Übertreffen, während Mizuho ein Kursziel von rund neunhundertfünfzig Dollar und die UBS ein Kursziel von rund achthundertzweiundneunzig Dollar nennen. Zu den operativen Aktivitäten gehört laut Investing.com Deutsch die Einführung einer anpassbaren Spaces-Funktion in der KI-App Muse, und laut Facebook bringt WhatsApp Events Menschen zusammen. Dagegen berichtet Investor's Business Daily, dass der KI-Handel an Fahrt verliert, da Investoren in Medizin- und Energiesektoren strömen. Wichtige Kennzahlen sind das durchschnittliche Kursziel von rund achthundertachtundvierzig Dollar, das höchste Kursziel von rund eintausendfünfzig Dollar, das tiefste Kursziel von rund sechshundertneunundzwanzig Dollar sowie der aktuelle Aktienkurs von rund sechshundertzehn Dollar. Keine Widersprüche in den Berichten.",
-"id": "175eabc088",
-"generated_at": "2026-11-07T09:03:21Z",
-"audio": {
-"file": "META.mp3",
-"hash": "096d41c82d5b969c",
-"dur": 87.9,
-"engine": "gemini"
-}
-},
-{
-"symbol": "AMZN",
-"name": "Amazon",
-"text": "Amazon steht aktuell im Fokus positiver Marktentwicklungen und strategischer Partnerschaften. Das Unternehmen profitierte von einer allgemeinen Markterholung und wurde in bedeutende ETFs wie jene von iShares und State Street aufgenommen. Eine neue Kooperation mit Uber Eats sowie die Einführung einer textbasierten Einkaufsfunktion für Alexa unterstreichen die Innovationskraft. Als rechtliches Risiko ist eine mögliche Abfindungssumme von dreihundertneun Komma fünf Millionen Dollar im Zusammenhang mit Rücksendungen zu beachten, bei der betroffene Verbraucher zeitnah handeln sollten. Analysten bewerten die Aktie überwiegend positiv: Das durchschnittliche Kursziel von achtundfünfzig Analysten liegt bei dreihundertsiebenundzwanzig Dollar. Häuser wie Bernstein Research, UBS und Rosenblatt bestätigten ihre Kaufempfehlungen mit Kurszielen zwischen dreihundertzwanzig und dreihundertsechzig Dollar. Zudem verzeichnete der Konzern gemeinsam mit Microsoft einen Anstieg der Marktkapitalisierung um vierhundertvierundzwanzig Milliarden Dollar. Dies stellt keine Anlageberatung dar.",
-"id": "fa35417fb8",
-"generated_at": "2026-11-06T23:48:12Z",
-"audio": {
-"file": "AMZN.mp3",
-"hash": "da208a78b45a8e57",
-"dur": 66.7,
-"engine": "gemini"
-}
-},
-{
-"symbol": "MRVL",
-"name": "Marvell Technology",
-"text": "Marvell Technology: Im Fokus steht derzeit der angekündigte Zusammenschluss mit Lumentum, durch den ein neuer Branchenführer im Bereich der künstlichen Intelligenz entstehen soll. Laut Wallstreet Online verzeichnete die Aktie von Marvell Technology zuletzt starke Kursschwankungen und fiel innerhalb eines Monats um rund fünfzig Prozent, bevor ein Kurssprung folgte. Berichte von Barron's und Yahoo Finance weisen auf historische Wochenverluste und Bedenken bezüglich des Deals hin. Bei den Analystenbewertungen zeigt sich ein Bild mit Kurszielen wie dem von B. Riley Securities bei zweihundertfünfundsiebzig Dollar oder von TD Cowen bei einhundertfünfundsiebzig Dollar. Zurück zu Marvell Technology: Das Unternehmen treibt seine Partnerschaften voran und bereitet sich auf die Bekanntgabe der nächsten Quartalszahlen vor. Zu den wichtigen Kennzahlen gehört ein durchschnittliches Kursziel der Analysten von rund dreihundertelf Dollar sowie ein Höchstwert von vierhundertfünfzig Dollar und ein Tiefstwert von einhundertfünfundsiebzig Dollar.",
-"id": "1064bf707c",
-"generated_at": "2026-11-07T09:03:21Z",
-"audio": {
-"file": "MRVL.mp3",
-"hash": "08242ea5164c045f",
-"dur": 69.5,
-"engine": "edge"
-}
-},
-{
-"symbol": "SFTBY",
-"name": "SoftBank Group",
-"text": "SoftBank Group: Die Aktie der SoftBank Group stand zuletzt stark unter Druck. Laut der Chart- und Bersenplattform TradingView stürzten die Titel um zehn Komma acht Prozent ein, da das Kreditrisiko ein Vierjahreshoch erreichte und Kuenstliche-Intelligenz-Aengste den Markt belasteten. Zu den Risiken berichten mehrere Quellen von schweren Belastungen. Laut dem US-Wirtschaftsmagazin Forbes Middle East fallen die Aktien, da das Kreditrisiko auf ein vier-Jahres-Hoch steigt und der Ausverkauf sich auf die Kreditmärkte ausweitet. Laut der internationalen Nachrichtenagentur Reuters hat China die Uebernahme der Robotiksparte von ABB durch SoftBank im Wert von fünf Komma vier Milliarden Dollar blockiert. Laut dem deutschen Bersenportal boerse.de notiert die Aktie unter der fünfzig-Tage-Linie und hat ein neues sechs-Monats-Tief erreicht. Zudem berichtet das Finanzportal Yahoo Finance, dass Elon Musk behauptet, SoftBank sei mit Turbinenbestellungen in Verzug. Zurück zu SoftBank Group: Bei den Analystenbewertungen zeigt sich laut Yahoo Finance ein Konsens aus zwei Halten-Einstufungen. Das durchschnittliche Kursziel liegt bei sechzehn Komma acht Dollar, mit einem Hoechstziel von zwanzig Dollar und einem Tiefstziel von dreizehn Komma sechs Dollar, was ein Kurspotenzial von sechsundvierzig Komma fünf Prozent ergibt. Zurueck zu SoftBank Group und den aktuellen Firmennachrichten: Als aufwertend galt die geplante Uebernahme des Robotikgeschaefts von ABB im Wert von fünf Komma vier Milliarden Dollar, wie eine Mitteilung der Firma selbst zeigt. Als abwertend gilt jedoch, dass Regulierungsbehoerden und China diese Uebernahme untersagt haben, wie das Schweizer Finanzportal finanzen.ch berichtet. Zudem hat SoftBank Lenskart-Aktien verkauft, wie das indische Finanzportal Moneycontrol.com meldet. Bei den Kennzahlen liegt der aktuelle Kurs bei elf Komma vier sieben Dollar. Das durchschnittliche Kursziel betraegt sechzehn Komma acht Dollar, waehrend das hoechste Kursziel bei zwanzig Dollar und das tiefste bei dreizehn Komma sechs Dollar liegt, woraus sich ein Kurspotenzial von sechsundvierzig Komma fünf Prozent ableitet. Zu Insider-Aktivitaeten wurde gemeldet, dass SoftBank Lenskart-Aktien im Wert von rund zwanzig Millionen Dollar verkauft hat.",
-"id": "b1d4110cd8",
-"generated_at": "2026-11-07T09:03:21Z",
-"audio": {
-"file": "SFTBY.mp3",
-"hash": "2984e58a494d02c4",
-"dur": 155.9,
-"engine": "edge"
-}
-},
-{
-"symbol": "GLW",
-"name": "Corning",
-"text": "Corning: Die Aktie von Corning geriet zuletzt spürbar unter Druck. Laut MarketWatch schnitt das Papier am Donnerstag im Vergleich zur Konkurrenz schwächer ab, und boerse.de meldete gar ein neues Sechs-Monats-Tief, bei dem die Aktie unter die wichtige zweihundert-Tage-Linie rutschte. Auch finanzen.ch berichtete über deutliche Kursabschläge und eine zeitweise Verfassung im Bärenmodus. Demgegenüber meldeten andere Portale wie finanzen.ch an Abenden oder Freitagnachmittagen leichte Erholungen und Pluszeichen bei den Notierungen. TradingView wies zudem auf eine Senkung des Zwölf-Monats-Kursziels auf rund einhundertneunundsiebzig Dollar hin. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Bei den Analystenbewertungen zeigt sich ein gemischtes Bild. Die UBS bestätigte das Kaufen-Rating und setzte das Kursziel auf einhundertzweiundneunzig Dollar. Auch Truist Securities bestätigte das Kaufen-Rating bei einem Kursziel von einhundertfünfundsiebzig Dollar. Zurück zu Corning: Barclays bestätigte die Einstufung als Marktgewichten und setzte das Kursziel auf einhundertzweiunddreissig Dollar. Morgan Stanley bestätigte ebenfalls Marktgewichten mit einem Kursziel von einhundertfünfundfünfzig Dollar, während JP Morgan bei einem Neutral-Rating das Kursziel auf einhundertfünfundsechzig Dollar senkte. Zudem erhielt das Unternehmen laut MarketScreener Deutschland ein Kaufen-Rating von Fox Advisors. Was die Firma gerade macht, spiegelt sich vor allem in den Kursbewertungen wider. Aufwertend wirkt, dass Yahoo Finance UK darauf hinweist, dass die Aktie mit einem Abschlag gehandelt zu werden scheint und Fox Advisors zum Kauf raten. Abwertend wirken hingegen das neue Sechs-Monats-Tief und die im Branchenvergleich schwächere Performance. Zu den wichtigen Kennzahlen gehört das durchschnittliche Kursziel der Wall-Street-Analysten, das laut Daten von Yahoo! Finance Canada bei einhundertachtzig Dollar liegt, wobei das höchste Ziel bei zweihundertzwanzig Dollar angesiedelt ist. Aussagen von Chefs oder dem Management lagen in den Berichten nicht vor. Keine Anlageberatung.",
-"id": "9235156a03",
-"generated_at": "2026-11-07T09:03:21Z",
-"audio": {
-"file": "GLW.mp3",
-"hash": "d82ca1bf023df5ac",
-"dur": 145.8,
-"engine": "edge"
-}
-},
-{
-"symbol": "AMAT",
-"name": "Applied Materials",
-"text": "Applied Materials, der Ausrüster für die Halbleiterindustrie, erlebte im November 2026 eine Phase hoher Volatilität. Nach einem Rückgang auf ein Sechsmonatstief, ausgelöst durch allgemeine Marktsorgen und eine Krise bei Chip-Aktien, konnte sich das Papier zwischenzeitlich wieder erholen. Operativ baut das Unternehmen seine Marktposition aus: Applied Materials plant eine erhöhte strategische Investition in Besi und unterzeichnete eine Absichtserklärung mit Frore Systems für eine Produktkooperation. Ein wichtiger Gradmesser für die Geschäftsentwicklung ist der anstehende Umsatztest in Höhe von zehn Komma zwei Milliarden Dollar. Analysten bewerten die Aktie mehrheitlich positiv. Zurück zu Applied Materials: Von den beobachtenden Experten raten fünf zum starken Kauf, fünfunddreissig zum Kauf und sechs zum Halten, bei einem durchschnittlichen Kursziel von sechshundertsiebenundzwanzig Dollar. Zu den jüngsten Anpassungen zählt die Bank Needham, die ihr Kursziel auf fünfhundertachtzig Dollar senkte, die Kaufempfehlung jedoch beibehielt. Morgan Stanley stuft die Aktie mit Marktgewichten ein und sieht das Ziel bei fünfhundertachtunddreissig Dollar. Bei den Insidern wurde ein Aktienkauf durch Josh Gottheimer auf einem verwalteten Konto registriert. Bitte beachten Sie, dass dies keine Anlageberatung darstellt.",
-"id": "a9f2cd5ad0",
-"generated_at": "2026-11-06T23:48:12Z",
-"audio": {
-"file": "AMAT.mp3",
-"hash": "2a074b2d8f3a88fa",
-"dur": 90.9,
-"engine": "edge"
-}
-},
-{
-"symbol": "ARM",
-"name": "Arm Holdings",
-"text": "Arm Holdings hat die Ergebnisse fur das zweite Quartal des Geschaeftsjahres bekannt gegeben. Laut Arm Newsroom lieferte das Unternehmen ein Rekordergebnis und erreichte einen Gesamtumsatz von eins Komma vier Milliarden Dollar. Trotz starker Geschaeftszahlen geriet die Aktie zeitweise unter Druck. So berichtete das Finanzportal Yahoo Finance, dass Arm-Aktien trotz einer Verdoppelung der Lizenzgebuhren fur Rechenzentren um zwölf Komma vier Prozent fielen, wahrend finanzen.ch meldete, dass sich die Aktie am Freitagabend im Plus zeigte. Zu den Analysten-Bewertungen gibt es zahlreiche Anpassungen. Die UBS bestaetigt ihre Kaufempfehlung und senkt das Kursziel auf zweihundertsiebzig Dollar. Zurück zu Arm Holdings: JP Morgan behaelt die Einstufung als Uebergewichten bei und senkt das Kursziel auf zweihundertfünfundvierzig Dollar. TD Cowen bestaetigt das Kaufen bei einem auf zweihundertfünfzig Dollar gesenkten Kursziel. RBC Capital senkt das Kursziel auf dreihundert Dollar, Barclays auf dreihundertfünfundzwanzig Dollar und Wells Fargo auf zweihundertfünfundfünfzig Dollar. Aufwertend wirkt, dass das Unternehmen ein Rekordergebnis erzielt hat und sich stark auf Cloud-Giganten stuetzt, wahrend Telefone unter einem Speichermangel leiden. Abwertend wirken dagegen Bewertungszweifel nach den Quartalszahlen und eine Umsatzprognose fur KI-Rechenzentren, die die Schaetzungen kaum uebertrifft. Wichtige Kennzahlen sind der Umsatz von eins Komma vier Milliarden Dollar, sowie das durchschnittliche Analysten-Kursziel von zweihundertneunundachtzig Dollar.",
-"id": "50221fecd6",
-"generated_at": "2026-11-07T10:00:02Z",
-"audio": {
-"file": "ARM.mp3",
-"hash": "412bd455b5b451ce",
-"dur": 92.5,
-"engine": "gemini"
-}
-},
-{
-"symbol": "HOOD",
-"name": "Robinhood Markets",
-"text": "Robinhood Markets steht derzeit im Fokus von Marktbeobachtern, nachdem das Unternehmen im letzten Quartal laut Yahoo Finance, einem Finanzportal, das Meldungen bündelt, einhundertdreiundsiebzig Millionen Dollar aus Prognosemärkten erwirtschaften konnte und damit mehr als mit dem Kryptogeschäft verdiente. TradingView, eine Chart- und Börsenplattform, berichtet zudem, dass ein anstehender Börsengang von Anthropic das Wachstum im Einzelhandels- und Beratergeschäft des Unternehmens vorantreiben könnte. Zurück zu Robinhood Markets: In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Was die Analysten-Bewertungen betrifft, so hat Truist Securities das Rating Kaufen bei einem Kursziel von einhundertdreiundzwanzig Dollar bestätigt. Cantor Fitzgerald hält an der Einstufung Übergewichten mit einem Kursziel von einhundertzwanzig Dollar fest. JP Morgan bestätigt die neutrale Einschätzung und nennt ein Kursziel von einhundertvierzehn Dollar. Goldman Sachs bewertet die Aktie mit Kaufen und einem Kursziel von einhundertachtundzwanzig Dollar. Barclays bestätigt die Einstufung Übergewichten mit einem Kursziel von einhundertfünfzehn Dollar, während Wells Fargo die Aktie mit Marktgewichten und einem Kursziel von einhundert Dollar einschätzt. Das durchschnittliche Kursziel von dreissig Analysten liegt bei rund einhunderteinunddreissig Dollar. Zu den Kennzahlen ist zu erwähnen, dass das hohe Kursziel bei einhundertsiebzig Dollar und das tiefste bei neunundfünfzig Dollar liegt. Widersprüche wurden in den aktuellen Berichten nicht festgestellt.",
-"id": "722447423c",
-"generated_at": "2026-11-07T10:00:02Z",
-"audio": {
-"file": "HOOD.mp3",
-"hash": "a97fa8f808ebac1b",
-"dur": 91.3,
-"engine": "gemini"
-}
-},
-{
-"symbol": "WNRG.SW",
-"name": "SPDR MSCI World Energy ETF",
-"text": "SPDR MSCI World Energy ETF: Guten Tag. Hier ist Ihre Wirtschaftsjournalistin mit einem Update zum SPDR MSCI World Energy ETF. Laut dem Fondsanalysehaus Morningstar gab es im Oktober Berichte zur Entwicklung der grössten Aktien-ETFs in Deutschland. Gleichzeitig meldet Trustnet, dass sich bestimmte Fonds derzeit besonders stark erholen, da Anleger verstärkt Aktien aus dem Bereich der künstlichen Intelligenz verkaufen. In den vorliegenden Berichten wurden keine spezifischen Risiken, Analystenbewertungen oder bedeutende Unternehmensmeldungen für diesen ETF genannt. Es liegen zudem keine Informationen zu Insider-Transaktionen oder Aussagen des Managements vor. Bitte beachten Sie, dass dies keine Anlageberatung darstellt.",
-"id": "b0a0a02348",
-"generated_at": "2026-11-07T05:59:34Z",
-"audio": {
-"file": "WNRG.SW.mp3",
-"hash": "9feacaf95643cccc",
-"dur": 45.0,
-"engine": "gemini"
-}
-},
-{
-"symbol": "BE",
-"name": "Bloom Energy",
-"text": "Bloom Energy: Die Aktie von Bloom Energy stand zuletzt unter Druck, da Sorgen über mögliche Verzögerungen bei KI-Rechenzentren zu einem deutlichen Kursrückgang führten. Das Unternehmen zählt damit zeitweise zu den grössten Verlierern im S&P fünfhundert. Dem gegenüber stehen jedoch positive operative Nachrichten: Bloom Energy hat eine Vereinbarung mit NTT Data über neunhundert Megawatt zur Stromerzeugung vor Ort für mehrere Rechenzentrumsprojekte geschlossen. Zudem gibt es Berichte über Verträge mit Google und NTT Data, die den Kurs phasenweise stützten. Analysten zeigen sich im Konsens überwiegend zuversichtlich. Von sechsundzwanzig Experten gibt es sechs starke Kaufempfehlungen, sechzehn Kaufempfehlungen, elf Halteempfehlungen sowie drei Verkaufsempfehlungen. Zurück zu Bloom Energy: Das durchschnittliche Kursziel liegt bei zweihundertfünfundachtzig Dollar. Barclays stuft die Aktie mit Übergewichten und einem Ziel von zweihundertneunundachtzig Dollar ein, während die Citigroup das Papier neutral mit zweihundertvierundachtzig Dollar bewertet. Bei den Insidern veräusserte Verwaltungsrätin Barbara J. Burger Aktien im Wert von rund fünfhunderteinstausendsiebenhundertelf Dollar im Rahmen eines Handelsplans. Es gibt widersprüchliche Markteinschätzungen: Während einige Quellen den Kurssturz trotz der Grossaufträge betonen, heben andere die positiven Impulse durch die neuen Verträge hervor. Dies ist keine Anlageberatung.",
-"id": "65313ad469",
-"generated_at": "2026-11-06T23:48:12Z",
-"audio": {
-"file": "BE.mp3",
-"hash": "fdfb79139d9198fd",
-"dur": 99.1,
-"engine": "edge"
-}
-},
-{
-"symbol": "HYLN",
-"name": "Hyliion Holdings",
-"text": "Hyliion Holdings verzeichnete im zweiten Quartal einen geringer als erwarteten Verlust, während kommerzielle Einnahmen weiterhin ausbleiben, wie die Quelle von dars.gov.et meldet. Laut Yahoo! Finance Canada, einem Finanzportal, das Meldungen und Analystenbewertungen bündelt, gibt es zahlreiche Neuigkeiten zur Aktie. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Zu den Analysten-Bewertungen: Craig-Hallum stufte die Aktie am neunundzwanzigsten September 2026 mit Kaufen und einem Kursziel von sieben Dollar neu ein. Northland Capital Markets bewertete die Aktie am dreizehnten August 2026 mit Besser als Markt und einem Kursziel von zehn Dollar, da die Einstufung hochgestuft wurde. Zurück zu Hyliion Holdings: Die Firma macht derzeit auf sich aufmerksam, indem der Verlust im zweiten Quartal geringer ausfiel als erwartet, was für das Unternehmen spricht. Auf der anderen Seite spricht dagegen, dass kommerzielle Einnahmen nach wie vor fehlen. Wichtige Kennzahlen sind das mittlere Kursziel von sieben Komma sieben fünf Dollar, welches den von Analysten im Durchschnitt erwarteten zukünftigen Aktienkurs darstellt. Zudem wurde ein erwarteter Quartalsverlust je Aktie von null Komma null acht Dollar genannt. Bei den Insider-Käufen und -Verkäufen kaufte der Verwaltungsrat Vincent T. Cubbage fünfzigtausend Aktien im Wert von rund einhundertsiebzigtausend Dollar. Ein Kauf durch Insider wird oft als positives Signal gewertet, da es das Vertrauen in das eigene Unternehmen zeigt.",
-"id": "16b5d52beb",
-"generated_at": "2026-11-07T10:00:02Z",
-"audio": {
-"file": "HYLN.mp3",
-"hash": "fd5044b1a2c8412c",
-"dur": 110.3,
-"engine": "edge"
-}
-},
-{
-"symbol": "SMEGF",
-"name": "Siemens Energy",
-"text": "Siemens Energy: Die Aktie stand in den Berichten verschiedener Finanzportale und Tageszeitungen stark im Fokus, wobei sowohl Erholungsphasen als auch zwischenzeitliche Kursschwankungen und Sorgen über einen Ausverkauf thematisiert wurden. Laut Morningstar, einem Fondsanalyse- und Researchhaus, stand das Wertpapier vor den anstehenden Quartalszahlen. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden, abgesehen von Berichten des Boersenmagazins Der Aktionär über einen Ausverkauf und Fragen zur Lage. Bei den Analysten-Bewertungen gibt es positive Stimmen. Laut Investing.com Deutsch, einem Finanzportal, belasst JPMorgan die Einstufung auf Overweight mit einem Kursziel von zweihundertvierundsiebzig Dollar. Zurück zu Siemens Energy: Laut finanzen.ch, einem Schweizer Finanzportal, bewertet auch die UBS die Aktie mit Buy. Was die Firma gerade macht, zeigt sich in den unterschiedlichen Marktphasen: Laut der WELT, einer deutschen Tageszeitung, erholte sich der Kurs zeitweise und zeigte positive Signale, während Finanzen.net, ein deutsches Finanzportal, zeitweise auch Kurseinbussen und Verluste meldete. Wichtige Kennzahlen wurden in den aktuellen Meldungen nicht genannt. Insider-Kaeufe oder -Verkaeufe lagen ebenfalls nicht vor. Aussagen von Chefs wurden in den vorliegenden Meldungen nicht erwaehnt. Widersprueche zwischen den Quellen gab es nicht.",
-"id": "706a0b2c02",
-"generated_at": "2026-11-07T10:00:02Z",
-"audio": {
-"file": "SMEGF.mp3",
-"hash": "f02526bd1780d52d",
-"dur": 96.9,
-"engine": "edge"
-}
-},
-{
-"symbol": "OKLO",
-"name": "Oklo",
-"text": "Oklo: Guten Tag. Wir blicken heute auf Oklo. Das Unternehmen verzeichnete nach der Vorlage der Quartalszahlen einen Kursanstieg von über zwanzig Prozent, wobei die Finanzdaten in der Berichterstattung unterschiedlich bewertet wurden. Operativ hat Oklo eine Partnerschaft mit U.S. Forged Rings geschlossen, um die inländische Fertigung von Reaktorkomponenten für das Aurora-Kraftwerk voranzutreiben. Analysten äussern sich jedoch vorsichtig: Aufgrund von Zins- und Ausführungsrisiken wurden Kursziele gesenkt. Der Analystenkonsens liegt bei einem durchschnittlichen Kursziel von fünfundsechzig Komma zwei fünf Dollar, wobei die Spanne von vierzehn Dollar bis einhundertzweiundzwanzig Dollar reicht. Zurück zu Oklo: Aktuelle Bewertungen zeigen ein gemischtes Bild: B. Riley Securities stuft die Aktie mit Kaufen bei einundsechzig Dollar ein, während TD Cowen und Truist Securities die Aktie mit Halten bei sechsundzwanzig Dollar beziehungsweise einunddreissig Dollar bewerten. Die Citigroup bleibt neutral bei dreiunddreissig Dollar, während Barclays und Piper Sandler die Aktie mit Übergewichten bei neunundfünfzig Dollar beziehungsweise neunundvierzig Dollar führen. Während MarketScreener Schweiz auf ausgeweitete Quartalsverluste hinweist, betonte CEO Jacob DeWitte in einem Interview, dass der Kursanstieg mit den Fortschritten des Unternehmens zusammenhänge. Zudem wurden Insider-Verkäufe durch Finanzchef Richard Craig Bealmear und CEO Jacob DeWitte gemeldet. Es besteht ein Widerspruch in der Berichterstattung darüber, ob die übertroffenen Gewinnerwartungen tatsächlich der Hauptgrund für den Kursanstieg waren. Dies stellt keine Anlageberatung dar.",
-"id": "043e190fad",
-"generated_at": "2026-11-07T05:59:34Z",
-"audio": {
-"file": "OKLO.mp3",
-"hash": "f829073a324d85ad",
-"dur": 90.9,
-"engine": "gemini"
-}
-},
-{
-"symbol": "RYCEY",
-"name": "Rolls-Royce",
-"text": "Rolls-Royce zeigt sich in den aktuellen Berichten mit unterschiedlichen Kursbewegungen, wobei sowohl Phasen von Erholungen als auch zeitweise Rueckgaenge registriert wurden. Laut Rolls-Royce plc arbeitet der U-Boot-Bereich mit INFINITY zusammen, um neue Faehigkeiten fuer die britische Verteidigung zu entwickeln, und das Unternehmen praesentiert ausserdem Schiffsdieselmotoren sowie Gasturbinen auf der Messe Euronaval 2026. Das Trading-Ratgeberportal Traders Union meldet, dass Kaeuferunterstuetzung den Preisanstieg ankurbelt und die Aktie eine Erholung verzeichnet. Demgegenueber berichten Schweizer Finanzportale wie finanzen.ch zeitweise von negativen Vorzeichen und Kursrueckgaengen im Handelsverlauf. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Zurück zu Rolls-Royce: Zu den Analysten-Bewertungen teilt das Finanzportal Yahoo Finance mit, dass im Konsens ein durchschnittliches Kursziel von zweiundzwanzig Komma neun vier Dollar genannt wird, waehrend das hoechste Kursziel bei vierundzwanzig Komma sechs zwei Dollar und das niedrigste bei zwanzig Komma fünf Dollar liegt. Das erwartete Aufwaertspotenzial wird auf sechsunddreissig Komma neun Prozent beziffert. Zurueck zu Rolls-Royce: Der Nordamerika-Chef betonte laut Yahoo Finance, dass der vollelektrische Spectre zuerst ein Rolls-Royce und erst in zweiter Linie ein Elektrofahrzeug sei. Ein wichtiges Datum koennte zudem der zwölften November sein, an dem ein Handelsupdate ansteht. Insider-Kaeufe oder -Verkaeufe wurden in den aktuellen Meldungen nicht gemeldet.",
-"id": "f8eabae3f2",
-"generated_at": "2026-11-07T10:00:02Z",
-"audio": {
-"file": "RYCEY.mp3",
-"hash": "d1ba1a20b9b62fc5",
-"dur": 109.1,
-"engine": "edge"
-}
-},
-{
-"symbol": "GEV",
-"name": "GE Vernova",
-"text": "GE Vernova unterstützt Indiens Energiewende mit einem sechs Gigawatt starken HGÜ-Übertragungsprojekt. Laut Yahoo Finance fielen die Aktien von GE Vernova um neun Komma eins Prozent, da die Erwartungen an die KI-Energie zurückgesetzt wurden. Gemäss boerse.de erreichte die GE Vernova-Aktie ein neues Sechs-Monats-Tief. Ausserdem werden laut Yahoo Finance neue Risiken durch eine Pause im KI-Rechenzentrum gesehen, und laut Barron's sanken die Aktien aufgrund von KI-Ängsten. Zu den Analysten-Bewertungen: Argus Research bestätigte die Einstufung Kaufen und nannte das Kursziel auf eintausendeinhundert Dollar. Guggenheim bestätigte Kaufen und nannte das Kursziel auf eintausendvierhundert Dollar. HSBC stufte die Aktie auf Kaufen und nannte das Kursziel auf eintausendeinhundert Dollar. Zurück zu GE Vernova: GLJ Research bestätigte Verkaufen und nannte das Kursziel auf fünfhundertvierzig Dollar. JP Morgan bestätigte Übergewichten und nannte das Kursziel auf eintausendfünfunddreissig Dollar. RBC Capital bestätigte Besser als Markt und nannte das Kursziel auf eintausendzweihundertdreissig Dollar. Aufwertend wirkt, dass GE Vernova Indiens Energiewende unterstützt, laut Multibagg AI der HGÜ-Umfang fünfundsechzig Prozent erreichen kann und laut scanx.trade Projektträger bestätigen, dass die Aktien von GE Vernova T&D India im Geschäftsjahr 2026 nicht belastet sind. Abwertend wirkt laut MarketsMojo, dass GE Vernova T&D India angesichts der Preisschwäche und rückläufigen Preisentwicklung einen starken Anstieg des Open Interest verzeichnet. Wichtige Kennzahlen kurz erklärt: Das durchschnittliche Kursziel liegt bei eintausendeinhundertdreiundachtzig Dollar, was das Mittel der Analystenerwartungen darstellt. Das Aufwärtspotenzial beträgt zweiundfünfzig Komma acht Prozent und zeigt den Abstand zum Kursziel. Der Kursrückgang betrug neun Komma eins Prozent.",
-"id": "d123302d95",
-"generated_at": "2026-11-07T10:56:32Z",
-"audio": {
-"file": "GEV.mp3",
-"hash": "1b6c9e91bd641e4d",
-"dur": 139.7,
-"engine": "edge"
-}
-},
-{
-"symbol": "GE",
-"name": "GE Aerospace",
-"text": "GE Aerospace: Hier ist der aktuelle Überblick zur Aktie. Laut dem Finanzportal Yahoo Finance Singapore schliesst GE Aerospace Deals im Wert von zwölf Komma neun Milliarden Dollar mit China ab, was die Aktien steigen lässt. Zudem bricht die Aktie laut Yahoo Finance Singapore kürzlich über den gleitenden zweihundert-Tage-Durchschnitt aus. GE Aerospace arbeitet ausserdem mit BETA Technologies beim weltweit ersten Hybrid-Elektro-gestützten Start eines Verkehrsflugzeugs zusammen. In den vorliegenden Meldungen wurden keine rechtlichen Probleme gefunden, allerdings berichtet das Trading-Ratgeberportal Traders Union von gemischten institutionellen Schritten und wirft die Frage auf, ob GE grössere Verluste vermeiden kann. Zurück zu GE Aerospace: Schauen wir auf die Analysten-Bewertungen. Laut Yahoo Finance liegt das durchschnittliche Kursziel bei dreihundertachtundsiebzig Dollar, wobei zwanzig Kaufeinstufungen und vier starke Käufe vorliegen. Die UBS bestätigt ihr Rating Kaufen mit einem Kursziel von dreihundertachtzig Dollar. BNP Paribas stuft die Aktie als schlechter als Markt ein mit einem Kursziel von zweihundertachtzig Dollar. JP Morgan stuft die Aktie als übergewichten ein mit dreihundertfünfundsiebzig Dollar Kursziel. Susquehanna bewertet die Aktie positiv bei einem Kursziel von vierhundert Dollar. RBC Capital sieht die Einstufung als besser als Markt mit dreihundertfünfundsiebzig Dollar Kursziel, und Morgan Stanley stuft sie als übergewichten ein bei dreihundertfünfundsiebzig Dollar Kursziel. Was macht die Firma gerade? GE Aerospace arbeitet mit Partnern wie SNC, BAE Systems und Collins Aerospace an der Aktualisierung der KC-einhundertfünfunddreissig-Mittelkonsole und sichert sich Aufträge für LM2500-Schiffsgasturbinen zum Antrieb von Arleigh-Burke-Flug-III-Zerstörern. Wichtige Kennzahlen sind das durchschnittliche Kursziel der Analysten von dreihundertachtundsiebzig Dollar sowie die China-Deals im Volumen von zwölf Komma neun Milliarden Dollar. Bei den Insidern gab es Verkäufe: So hat Vice President Robert M. Giglietti am vierten November 2026 Aktien im Wert von rund vier Komma neun Millionen Dollar verkauft. Keine Anlageberatung.",
-"id": "32c78c5a92",
-"generated_at": "2026-11-07T10:00:02Z",
-"audio": {
-"file": "GE.mp3",
-"hash": "b27be210c68cbcc8",
-"dur": 158.9,
-"engine": "edge"
-}
-},
-{
-"symbol": "013A.F",
-"name": "JD.com",
-"text": "JD.com: Im Fokus stehen derzeit bedeutende strategische Schritte und regulatorische Entscheidungen. Laut dem EU Reporter, einer europäischen Nachrichtenplattform, hat die Europäische Kommission die Übernahme von Ceconomy durch JD.com unter Auflagen im Rahmen der Verordnung über ausländische Subventionen genehmigt. Gleichzeitig meldet TradingView, eine Chart- und Börsenplattform, dass die Aktien von JD.com sieben Handelssitzungen in Folge zulegen konnten. Zudem kündigte die Firma selbst über ir.jd.com an, die Finanzergebnisse für das dritte Quartal 2026 am siebzehnten November 2026 vorzulegen. Zu den Risiken und rechtlichen Aspekten ist zu sagen, dass die EU-Kommission die genannte Übernahme an Bedingungen geknüpft hat, wie der EU Reporter und Netz Trends berichten. Betrachtet man die Analysten-Bewertungen, so zeigt sich ein differenziertes Bild mit Kurszielanpassungen. Barclays bestätigte die Einstufung als Übergewichten und senkte das Kursziel auf achtunddreissig Dollar. B of A Securities bestätigte das Rating Kaufen und reduzierte das Kursziel auf siebenunddreissig Dollar. Susquehanna beliess die Einstufung auf Neutral und senkte das Kursziel auf dreissig Dollar. Zurück zu JD.com: Operativ treibt das Unternehmen laut Growth Dragons seine Expansion in Europa voran und hat laut dem Seoul Economic Daily die Freigabe erhalten, Europas führenden Elektronikhändler Ceconomy zu übernehmen, wobei die Kanzlei Baker McKenzie laut Legal Desire die regulatorischen Genehmigungen erfolgreich begleitet hat. In den vorliegenden Meldungen wurden keine nennenswerten Kennzahlen oder Insider-Handelsaktivitäten genannt. Auch Aussagen des Managements liegen für diesen Berichtszeitraum nicht vor. Bezüglich möglicher Widersprüche berichten verschiedene Quellen über die Auflagen zur Ceconomy-Übernahme, wobei einige Details der EU-Auflagen betonen, während andere die grundsätzliche bedingte Freigabe durch die Kommission hervorheben. Keine Anlageberatung.",
-"id": "c5f660f7a8",
-"generated_at": "2026-11-07T10:56:32Z",
-"audio": {
-"file": "013A.F.mp3",
-"hash": "bbaf403613aaefdd",
-"dur": 143.8,
-"engine": "edge"
-}
-},
-{
-"symbol": "BRK-B",
-"name": "Berkshire Hathaway",
-"text": "Berkshire Hathaway stand laut The Globe and Mail zuletzt auf Rekordniveau, während Investoren besonders auf die Quartalszahlen und den grossen Bargeldbestand blicken. Laut Bloomberg.com wird Berkshires Umstellung auf Wetten im Bereich der Künstlichen Intelligenz derzeit einer Realitätsprüfung unterzogen. Ein Energieversorger von Berkshire Hathaway fordert zudem von den kalifornischen Aufsichtsbehörden eine Tariferhöhung um siebenundfünfzig Prozent. Zur Analystenbewertung sagt Yahoo Finance, dass im Konsens zwei Kaufempfehlungen und zwei Halteempfehlungen vorliegen. Zurück zu Berkshire Hathaway: Das durchschnittliche Kursziel liegt bei fünfhundertsechsundfünfzig Dollar, während die UBS ein Kursziel von sechshundertachtundzwanzig Dollar nannte. Die Finanzgesellschaft Financial Select Sector SPDR kaufte laut Yahoo Finance weitere Berkshire-Aktien im Wert von rund siebzig Komma neun Millionen Dollar, und Nachfolger Greg Abel tätigte in diesem Jahr zwei grosse Akquisitionen, die weniger als fünf Prozent des Bargeldbestands kosteten. Als wichtige Kennzahl wird das durchschnittliche Kursziel von fünfhundertsechsundfünfzig Dollar genannt, was ein Potenzial zum Kursziel von minus zwei Komma sieben Prozent bedeutet. Bei den Insider-Transaktionen gab es Käufe und Verkäufe durch den Grossaktionär Berkshire Hathaway Inc, ausserdem verkaufte Vizepräsident und Verwaltungsrat Ajit Jain Aktien im Wert von rund zwanzig Millionen Dollar, und Manager Michael J. O'Sullivan kaufte Aktien im Wert von rund zweihundertfünfzigtausend Dollar.",
-"id": "b9fe72cc4b",
-"generated_at": "2026-11-07T10:56:32Z",
-"audio": {
-"file": "BRK-B.mp3",
-"hash": "73421cfac10488c3",
-"dur": 105.1,
-"engine": "edge"
-}
-},
-{
-"symbol": "0VR3.L",
-"name": "ZKB Gold ETF",
-"text": "ZKB Gold ETF: Der Goldpreis stand zuletzt im Zentrum der Berichterstattung rund um den Festtag Dhanteras, wobei Medien wie der US-Wirtschaftssender CNBC TV18 über leichtere Schmuckstücke und den Handel berichten. Gleichzeitig meldet die indische Wirtschaftszeitung The Economic Times, dass starke US-Arbeitsmarktdaten den US-Dollar sowie die Renditen ankurbeln und Edelmetalle unter Druck setzen. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Zu Analysten-Bewertungen liegen keine aktuellen Daten vor. Was die wirtschaftlichen Aktivitäten betrifft, hebt The Economic Times hervor, dass Gold digitalisiert wird und die nationale Börse an einem Tag eins Komma acht Lakh elektronische Goldquittungs-Transaktionen verzeichnet. Zu Kennzahlen und Insider-Käufen oder -Verkäufen gibt es in den aktuellen Meldungen keine Angaben. Auch Aussagen von Unternehmenschefs liegen nicht vor. Widersprüche zwischen den verschiedenen Berichten sind nicht erkennbar. Keine Anlageberatung.",
-"id": "7cbee42493",
-"generated_at": "2026-11-07T09:03:21Z",
-"audio": {
-"file": "0VR3.L.mp3",
-"hash": "9ea8da8f145847ba",
-"dur": 71.4,
-"engine": "edge"
-}
-},
-{
-"symbol": "BKW.SW",
-"name": "BKW AG",
-"text": "BKW AG: Das deutsche Börsenportal boerse.de berichtet über eine Abstufung der BKW AG Namenaktie beim BOTSI-Advisor von Rang zweihundertvierzig, während das Schweizer Finanzportal finanzen.ch über Kursbewegungen mit teils Einbussen und Kursgewinnen berichtet. Zudem plant der Energiekonzern die Abschaltung der Rundsteuerung Ende 2029. In den vorliegenden Meldungen wurden keine rechtlichen Probleme gefunden. Zu den Analysten liegen Daten von Yahoo Finance vor, die von sechs Analysten ein durchschnittliches Kursziel von einhundertvierundsiebzig Dollar und eine erwartete Kurssteigerung von dreizehn Komma sechs Prozent nennen. Die genannten Kursziele reichen von einem tiefen Kursziel von einhundertvierzig Dollar bis zu einem hohen Kursziel von zweihundertacht Dollar. Zurück zu BKW AG: Das Unternehmen zeigt an den Börsen teils Kursplus-Phasen, verzeichnete zeitweise aber auch Abschläge. Als wichtige Kennzahlen sind das durchschnittliche Kursziel von einhundertvierundsiebzig Dollar sowie die erwartete Kurssteigerung von +dreizehn Komma sechs Prozent zu nennen. Insider-Käufe oder -Verkäufe wurden in den Berichten nicht aufgeführt. Keine Anlageberatung.",
-"id": "f5de01363e",
-"generated_at": "2026-11-07T10:00:02Z",
-"audio": {
-"file": "BKW.SW.mp3",
-"hash": "13cd4442af776033",
-"dur": 85.1,
-"engine": "edge"
-}
-},
-{
-"symbol": "UBSG.SW",
-"name": "UBS Group",
-"text": "UBS Group: Die Aktie der UBS stand im Berichtszeitraum stark im Fokus der Anleger, begleitet von Kursbewegungen und neuen Analysteneinschätzungen. Laut Cash, einem Schweizer Finanzportal, rückte die UBS-Aktie nach Kursverlusten und Spekulationen um einen möglichen Morgan-Stanley-Deal ins Investorenfokus. Gleichzeitig berichtete boerse.de, ein deutsches Börsenportal, dass die Aktie unter die wichtige fünfzig-Tage-Linie gefallen ist. Zu den Analysten-Bewertungen zeigt sich ein Bild. Zurück zu UBS Group: Laut Cash hob RBC Capital Markets das Kursziel für die UBS-Aktie auf einundsechzig Komma null sechs Dollar an und bestätigte die positive Einschätzung, während die Aktie einem schwachen Markt trotzte. Das von Yahoo Finance ausgewiesene Analystenkonsens beinhaltet laut Quelle sieben Käufe, acht Halten, zwei Verkäufe, zwei starke Käufe und eins starken Verkauf, bei einem durchschnittlichen Kursziel von vierundfünfzig Komma acht sieben Dollar. Was die Firma gerade macht: Laut den Unternehmensmitteilungen beschäftigte sich UBS mit den Angeboten UBS Mixed Urban und UBS Direct Residential, während an den Börsen am Freitagnachmittag Kursverluste verzeichnet wurden. Zu den Kennzahlen ist zu sagen, dass das durchschnittliche Kursziel der Analysten bei vierundfünfzig Komma acht sieben Dollar liegt, wobei das höchste Ziel bei dreiundsiebzig Komma zwei sieben Dollar und das niedrigste bei einundvierzig Komma fünf eins Dollar verortet wird.",
-"id": "4089dc18e7",
-"generated_at": "2026-11-07T09:03:21Z",
-"audio": {
-"file": "UBSG.SW.mp3",
-"hash": "ba6cd074f2abf913",
-"dur": 97.7,
-"engine": "edge"
-}
-},
-{
-"symbol": "1211.HK",
-"name": "BYD",
-"text": "BYD steht heute im Fokus verschiedener Finanzberichte und Chartanalysen. Laut boerse.de, einem deutschen Börsenportal, bewegte sich die BYD-Aktie um wichtige Durchschnitte wie die zwanzig-Tage- und achtunddreissig-Tage-Linie. Zudem berichtet Wallstreet Online, dass die Aktie zeitweise den fünften Handelstag in Folge steigt. Ein Blick auf die Analystenbewertungen bei Yahoo Finance zeigt: Von insgesamt sechsundzwanzig Analysten empfehlen sechs zum starken Kauf, dreiundzwanzig zum Kauf und vier zum Halten. Das durchschnittliche Kursziel beträgt dreizehn Komma neun drei Dollar, mit einem Höchstwert von siebzehn Komma zwei fünf Dollar und einem Tiefstwert von sieben Komma sechs vier Dollar. Zurück zu BYD: Das Unternehmen zeigt sich operativ aktiv. Laut Yahoo Finance wird BYD in einem Bericht zur umweltfreundlichen Elektronikfertigung neben Firmen wie Apple und Foxconn genannt, wobei für diesen Markt bis zum Jahr 2032 ein Volumen von neunzig Komma acht Milliarden Dollar und eine jährliche Wachstumsrate von vierundzwanzig Komma sechs Prozent prognostiziert wird. Ausserdem kooperiert das Unternehmen laut Traders Union mit Iberdrola bei der Einführung des Angebots Plan Recarga Inteligente, und sharedeals.de meldet ein Dementi gegen Gewinnzweifel bei der BYD-Aktie mit einer Aktienbewegung von plus vier Komma fünf Prozent. Bei den Chartdaten zeigen sich leichte Widersprüche, da boerse.de einerseits meldet, die BYD Electronic-Aktie liege unter der achtunddreissig-Tage-Linie, andererseits aber auch von der BYD-Aktie über der achtunddreissig-Tage-Linie berichtet wird.",
-"id": "6c07c22a4a",
-"generated_at": "2026-11-07T09:03:21Z",
-"audio": {
-"file": "1211.HK.mp3",
-"hash": "72b317456c51249d",
-"dur": 115.2,
-"engine": "edge"
-}
-},
-{
-"symbol": "BNTX",
-"name": "BioNTech SE",
-"text": "BioNTech SE verzeichnete laut Traders Union, einem Trading-Ratgeberportal, einen Kursrückgang der Aktien um vier Komma drei Prozent. Laut The Globe and Mail, einer kanadischen Tageszeitung, haben Analysten widersprüchliche Ansichten zu dem Gesundheitsunternehmen. Seeking Alpha, eine US-Plattform mit Anlegerbeiträgen, veröffentlichte zudem die Ergebnisse und eine Ergebnispräsentation für das dritte Quartal 2026. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Die UBS bestätigte das Rating Kaufen und senkte das Kursziel auf einhundertfünfundzwanzig Dollar. Morgan Stanley bestätigte das Rating Übergewichten und senkte das Kursziel auf einhundertsechs Dollar. Wells Fargo bestätigte das Rating Übergewichten und senkte das Kursziel auf einhundertfünfundzwanzig Dollar. Evercore ISI Group bestätigte das Rating Besser als Markt und senkte das Kursziel auf einhundertzehn Dollar. Canaccord Genuity bestätigte das Rating Kaufen und senkte das Kursziel auf einhundertzweiunddreissig Dollar. Zurück zu BioNTech SE: Die Firma veröffentlichte über Seeking Alpha die Ergebnisse für das dritte Quartal 2026, während Traders Union über den erwähnten Kursrückgang der Aktien um vier Komma drei Prozent berichtete. Als wichtige Kennzahlen zeigt sich das durchschnittliche Kursziel der Analysten bei einhundertfünfzehn Dollar sowie der genannte tägliche Kursrückgang von -vier Komma drei Prozent, welcher die kurzfristige Kursentwicklung widerspiegelt. Bei den Insideraktivitäten gab es im September und Oktober 2026 geplante Verkäufe von Aktien im Wert von rund zwei Komma drei Millionen Dollar bis rund neun Millionen Dollar durch Ugur Sahin. Hinsichtlich möglicher Widersprüche berichten The Globe and Mail über uneinheitliche Einschätzungen der Analysten zum Unternehmen, während Traders Union konkrete Kursverluste meldet.",
-"id": "acfa09708d",
-"generated_at": "2026-11-06T22:03:37Z",
-"audio": {
-"file": "BNTX.mp3",
-"hash": "896d562883d9b94a",
-"dur": 135.8,
-"engine": "edge"
-}
-},
-{
-"symbol": "ABBN.SW",
-"name": "ABB LTD",
-"text": "ABB LTD: Im Fokus der Berichterstattung stehen regulatorische Huerden und Kursbewegungen beim Industriekonzern ABB. Laut dem US-Finanznachrichtendienst Bloomberg hat China die geplante Uebernahme der Robotiksparte von ABB durch SoftBank blockiert. Wie die US-Plattform mit Anlegerbeitraegen Seeking Alpha meldet, hat ABB diesen Stopp der Transaktion mit einem Volumen von fünf Komma vier Milliarden Dollar bestaetigt, da Aufsichtsbehörden den Verkauf untersagt haben. Das Finanzportal Yahoo Finance verzeichnet einen Analystenkonsens mit zwei starken Kaeufen, fuenf Kaeufen, zwanzig Halteempfehlungen, einem Verkauf sowie einem starken Verkauf und einem durchschnittlichen Kursziel von neunundneunzig Komma acht Dollar. Was macht die Firma gerade? Zurück zu ABB LTD: Als aufwertend wird genannt, dass das Launceston Aquatic Centre mit Motor- und Antriebstechnologien von ABB jaehrliche Einsparungen von mehr als zweiundfünfzigtausendachthundertneunundneunzig Dollar erzielt. Zudem fuehrt die Gesellschaft laut der Chart- und Boersenplattform TradingView Aktienrueckkaeufe voran. Als abwertend berichtet das Finanzportal MarketScreener Schweiz, dass die Aktie nach dem geplatzten Robotik-Verkauf Schwaeche zeigte und zu tieferen Kursen fuehrte. Wichtige Kennzahlen kurz erklaert: Das Transaktionsvolumen von fünf Komma vier Milliarden Dollar beziffert den finanziellen Wert der blockierten Uebernahme, waehrend das durchschnittliche Kursziel von neunundneunzig Komma acht Dollar das von Analysten erwartete mittlere Kursziel der Aktie markiert. Beide Kennzahlen sind wichtig, um die juengsten Entwicklungen einzuordnen.",
-"id": "567f2cfb83",
-"generated_at": "2026-11-07T09:03:21Z",
-"audio": {
-"file": "ABBN.SW.mp3",
-"hash": "5a2fc081e05ecc69",
-"dur": 110.3,
-"engine": "edge"
-}
-},
-{
-"symbol": "STX",
-"name": "Seagate Technology Holdings PLC",
-"text": "Seagate Technology Holdings PLC: Laut Yahoo Finance verzeichnet das Unternehmen aktuelle Kursbewegungen und Analystenberichte. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden, abgesehen von politischen Forderungen nach einer Pause in der künstlichen Intelligenz, die den Kurs belasteten. Zurück zu Seagate Technology Holdings PLC: Die Analysen der Banken zeigen verschiedene Einstufungen. Die UBS bestätigt ihr neutrales Rating und senkt das Kursziel auf siebenhundertfünfzig Dollar. Die Citigroup bestätigt den Kauf und senkt das Kursziel auf eintausendfünfzig Dollar. Wells Fargo bleibt bei Übergewichten mit einem neuen Kursziel von achthundertzwanzig Dollar. TD Cowen bestätigt den Kauf bei einem Ziel von neunhundert Dollar. Wedbush belässt das Kursziel unverändert bei eintausend Dollar und die Einschätzung bei Besser als Markt, während Susquehanna neutral bleibt und das Kursziel auf siebenhundertfünfundsechzig Dollar senkt. Was die Firma aktuell macht, zeigt sich an Zukäufen wie durch Capital Group Growth, die am vierten November weitere Aktien im Wert von sechzehn Komma acht Millionen Dollar erwarben, was aufwertend wirkt. Demgegenüber steht ein Kursrückgang von sechzehn Prozent, ausgelöst durch Diskussionen um die Regulierung der künstlichen Intelligenz, was abwertend wirkt. Wichtige Kennzahlen sind das durchschnittliche Kursziel der Analysten von rund eintausendfünfundvierzig Dollar sowie der aktuelle Aktienkurs von vierhunderteinundsechzig Dollar. Zu Insider-Aktivitäten ist bekannt, dass William D Mosley am zweiten November Aktien im Wert von rund vier Komma zwei Millionen Dollar verkaufte. Keine Anlageberatung.",
-"id": "f969864b42",
-"generated_at": "2026-11-07T10:56:32Z",
-"audio": {
-"file": "STX.mp3",
-"hash": "f7d97a1c6a7ebfd9",
-"dur": 118.2,
-"engine": "edge"
-}
-},
-{
-"symbol": "MU",
-"name": "Micron Technology, Inc.",
-"text": "Micron Technology, Inc.: Bei Micron Technology verzeichnete die Aktie im Rahmen einer allgemeinen Markterholung der Chipwerte starke Kursgewinne. Analysten und Marktbeobachter diskutieren intensiv die Positionierung des Unternehmens beim Ausbau im Bereich der kuenstlichen Intelligenz im Vergleich zur Konkurrenz. Dabei spielen laut Berichten von Seeking Alpha vor allem in Amerika hergestelltes DRAM als moeglicher Wettbewerbsvorteil sowie neue Fabriken eine Rolle, die im Jahr 2027 an den Start gehen sollen. Gemaess Daten von Yahoo Finance liegt das durchschnittliche Kursziel von fünfundvierzig Analysten bei rund eintausendfünfhundertzweiundsechzig Dollar, wobei die Spanne von einem tiefen Ziel bei dreihunderteinundsechzig Dollar bis zu einem hohen Ziel von dreitausend Dollar reicht. Zurück zu Micron Technology, Inc.: Der Analystenkonsens umfasst neun starke Kaeufe, fünfundvierzig Kaeufe und vier Halte-Empfehlungen. Juengere Bewertungen umfassen unter anderem Rosenblatt mit einem Kursziel von eintausendneunhundert Dollar, Needham mit eintausendsechshundertfünfzig Dollar, DA Davidson mit dreitausend Dollar, Mizuho mit eintausendvierhundert Dollar sowie Morgan Stanley mit eintausendzweihundert Dollar. Auf der Insider-Seite gab es offizielle Pflichtmeldungen zu Verkaeufen. So verausserte Scott J Deboer im Rahmen eines geplanten Plans achtundzwanzigtausendfünfhundertfünfundvierzig Aktien im Wert von rund fünfundzwanzig Komma sieben Millionen Dollar, waehrend Michael Charles Ray planmaessig Aktienpakete im Wert von rund achtunddreissigtausend Dollar sowie rund fünf Komma acht Millionen Dollar verkaufte.",
-"id": "2a7c38fed8",
-"generated_at": "2026-11-07T10:56:32Z",
-"audio": {
-"file": "MU.mp3",
-"hash": "7c346276947da5fd",
-"dur": 105.9,
-"engine": "edge"
-}
-},
-{
-"symbol": "DRO.AX",
-"name": "DroneShield Limited",
-"text": "DroneShield Limited: In den vorliegenden Meldungen gibt es Berichte und Daten zur Aktie, die wir hier zusammenfassen. Laut sharedeals.de steht die Aktie von DroneShield Limited im Fokus, wobei ein möglicher Kursrückgang von zwanzig Prozent im Raum steht. Yahoo Finance meldet insgesamt vier Analysten, die eine Einschätzung abgeben, darunter zwei Kaufempfehlungen, eins Halteempfehlung und eins Verkaufsempfehlung. Das durchschnittliche Kursziel liegt bei rund eins Komma vier Dollar, was ein Aufwärtspotenzial von rund zweiundsechzig Komma zwei Prozent bedeutet. Als wichtige Kennzahl ist das durchschnittliche Kursziel von rund eins Komma vier Dollar zu nennen, welches den von Experten erwarteten Wert der Aktie abbildet. Insider-Käufe oder -Verkäufe wurden in den Daten nicht aufgeführt. Aussagen von Chefs liegen in den vorliegenden Berichten ebenfalls nicht vor. Widersprüche zwischen den verschiedenen Quellen sind nicht erkennbar.",
-"id": "1e2d59113c",
-"generated_at": "2026-11-04T15:14:09Z",
-"audio": {
-"file": "DRO.AX.mp3",
-"hash": "9e9b75a9e334c66a",
-"dur": 66.1,
-"engine": "edge"
-}
-}
-],
-"with_audio": 39,
-"intro_audio": {
-"file": "_intro.mp3",
-"hash": "4d93f7de038aca4f",
-"dur": 17.9,
-"engine": "edge"
-},
-"outro_audio": {
-"file": "_outro.mp3",
-"hash": "2d191fd919722fb0",
-"dur": 10.2,
-"engine": "edge"
-},
-"audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@42742c6a7003c39866b816f7bc50bcff26523437/data/audio/"
+ "generated_at": "2026-11-07T12:01:07Z",
+ "intro": "Willkommen beim Aktien-Radar, deinem Überblick über die neuesten Meldungen. Heute geht es um 39 Aktien aus deiner Liste. Alles stammt aus den gesammelten Meldungen und Analystendaten, nichts ist erfunden. Keine Anlageberatung.",
+ "outro": "Das war der Aktien-Radar-Überblick. Die Quellen und Details findest du in der App bei jeder Aktie. Keine Anlageberatung.",
+ "segments": [
+  {
+   "symbol": "TSM",
+   "name": "Taiwan Semiconductor",
+   "text": "Taiwan Semiconductor steht aktuell im Fokus von Berichten über mögliche neue Geschäftsfelder in der Halbleiterproduktion. Laut Reuters und The Information erwägt das Unternehmen die Herstellung fortschrittlicher Speicherchips, was laut Berichten im Interesse von Nvidia liegen könnte. Gleichzeitig zeigten sich in den Daten auch Belastungen durch allgemeine Marktrückgänge, bei denen die Aktie zeitweise unter die Zweihundert-Tage-Linie fiel. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Analysten blicken überwiegend positiv auf das Unternehmen. Zurück zu Taiwan Semiconductor: Laut Yahoo Finance liegt das durchschnittliche Kursziel bei rund fünfhundertsechsundachtzig Dollar, gestützt durch zahlreiche Kaufempfehlungen und angepasste Kursziele wie von Bernstein mit rund sechshundert Dollar oder Barclays mit rund sechshundertsiebzig Dollar. Operativ treibt Taiwan Semiconductor mögliche Pläne für den Einstieg in die moderne Speicherfertigung voran und profitierte zeitweise von regulatorischen Massnahmen wie der Einschränkung von Leerverkäufen. Zu den wichtigsten Kennzahlen gehört ein Umsatzmittelpunkt von rund dreiundfünfzig Komma drei Milliarden Dollar, der die wirtschaftliche Basis des Unternehmens unterstreicht. Aussagen von Unternehmenschefs liegen in den aktuellen Meldungen nicht vor. Widersprüche zwischen den berücksichtigenden Quellen wurden nicht festgestellt.",
+   "id": "04da5b5634",
+   "generated_at": "2026-11-07T10:56:32Z",
+   "audio": {
+    "file": "TSM.mp3",
+    "hash": "e7188c360a22ffd7",
+    "dur": 77.4,
+    "engine": "gemini"
+   }
+  },
+  {
+   "symbol": "NVDA",
+   "name": "Nvidia",
+   "text": "Nvidia geriet zuletzt in einen Bärenmarkt, gefolgt von einer gewissen Erholung der Chip-Aktien. Investorin Cathie Wood investierte derweil in grossem Stil in Nvidia und SpaceX, während Bestände bei Broadcom reduziert wurden. Zudem verschärft Nvidia die Verfolgung von Chips in Südostasien. Zu den Risiken zählen Warnungen von Gary Marcus sowie Berichte über einen gewaltsamen Ausverkauf und Downgrades nach einem Intel-Crash. Zu den Analysten-Bewertungen: Melius Research bestätigte die Einstufung als Kaufen und senkte das Kursziel auf dreihundertfünfzehn Dollar. Needham bestätigte Kaufen mit einem Kursziel von dreihundert Dollar. Cantor Fitzgerald bestätigte Übergewichten mit dreihundertfünfzig Dollar Kursziel, während Rosenblatt an Kaufen mit einem Ziel von dreihundertneunzig Dollar festhielt. Zurück zu Nvidia: Piper Sandler nahm die Aktie neu mit Übergewichten und einem Kursziel von dreihundert Dollar auf. Der Börsenbrief BOTSI-Advisor hob Nvidia von Rang einhundertfünfzehn nach oben. Was die Firma gerade macht: SovAI schliesst sich Nvidia Inception an, um KI-Fabriken nach der Nvidia DSX-Referenzarchitektur zu bauen. Das von Nvidia unterstützte Unternehmen Groq strebt eine Bewertung von acht Milliarden Dollar an. Demgegenüber stehen Warnungen vor Marktrisiken im Raum. Keine Aussagen von Chefs liegen in den aktuellen Meldungen vor. Es wurden keine widersprüchlichen Berichte registriert. Keine Anlageberatung.",
+   "id": "1f467d5807",
+   "generated_at": "2026-11-07T11:52:59Z",
+   "audio": {
+    "file": "NVDA.mp3",
+    "hash": "6017d854e32bbe63",
+    "dur": 102.9,
+    "engine": "edge"
+   }
+  },
+  {
+   "symbol": "005930.KS",
+   "name": "Samsung Electronics",
+   "text": "Samsung Electronics: Die Aktien von Samsung Electronics verzeichneten im November 2026 deutliche Kursverluste, was auf einen breiten Einbruch bei asiatischen Chip- und KI-Werten sowie sinkende Börsenindizes zurückzuführen ist. Belastend wirken zudem Berichte, wonach Nvidia für fortschrittliche Speicherchips auf TSMC setzen könnte, was Samsung unter Druck setzt. Rechtlich gab es eine Verurteilung eines ehemaligen Ingenieurs im Zusammenhang mit einem DRAM-Leck. Positiv hervorzuheben sind die Erweiterung von Samsung Wallet um Stablecoin-Konten und den Versand von USDC über Solana sowie die behördliche Zulassung der verbesserten Schlafapnoe-Funktion für den Galaxy Ring durch die US-amerikanische FDA und die koreanische MFDS. Analysten zeigen sich optimistisch: Der Konsens liegt bei zwölf starken Käufen und sechsunddreissig Kaufempfehlungen. Das durchschnittliche Kursziel beträgt dreihundertfünfzig Dollar, was einem potenziellen Kursanstieg von einhundertzweiundfünfzig Komma eins Prozent entspricht. Dies stellt keine Anlageberatung dar.",
+   "id": "78af6b24fa",
+   "generated_at": "2026-11-07T01:19:53Z",
+   "audio": {
+    "file": "005930.KS.mp3",
+    "hash": "96375516e6e7394b",
+    "dur": 65.3,
+    "engine": "gemini"
+   }
+  },
+  {
+   "symbol": "HY9H.MU",
+   "name": "SK Hynix",
+   "text": "SK Hynix verzeichnete zuletzt deutliche Kursrückgänge, während ein breiter Ausverkauf an den Märkten asiatische Chip-Aktien belastete. Laut CNBC gerieten Werte wie Samsung und SK Hynix im Zuge von Abverkäufen an der Nasdaq unter starken Druck. Das deutsche Börsenportal Wallstreet Online meldet, dass die Aktie binnen eines Monats rund dreissig Prozent an Wert verlor, und boerse.de verweist auf ein neues Sechsmonatstief sowie das Unterschreiten der Zweihundert-Tage-Linie. Operativ war das Unternehmen aktiv, indem SK hynix laut eigener Mitteilung den ersten Partnertag in Japan veranstaltete und die Geschäftsausrichtung mit lokalen Partnern austauschte. Laut WSJ plant SK Hynix zudem nach starken Ergebnissen eine Aktionärsrendite von rund fünfundsiebzig Milliarden Dollar, während Yahoo Finance berichtet, dass das Unternehmen kühleren KI-Speicher vorstellte. Demgegenüber stehen jedoch laut Yahoo Finance gemeldete Verzögerungen bei US-Lizenzen für geplante New Yorker Anlagen im Wert von rund fünfundvierzig Milliarden Dollar.",
+   "id": "a66b2ac6aa",
+   "generated_at": "2026-11-07T09:03:21Z",
+   "audio": {
+    "file": "HY9H.MU.mp3",
+    "hash": "529f92b1d710ca54",
+    "dur": 67.6,
+    "engine": "gemini"
+   }
+  },
+  {
+   "symbol": "AVGO",
+   "name": "Broadcom",
+   "text": "Broadcom stand in den letzten Tagen stark im Fokus der Finanzmedien, angetrieben durch wechselhafte Kursbewegungen und prominente Transaktionen am Markt. Laut Yahoo Finance verzeichnete die Aktie von Broadcom Kursgewinne, was auf eine Erholung bei KI-Chips und die starke Marktposition des Unternehmens im Bereich kundenspezifischer Halbleiter zurückgeführt wird. Demgegenüber steht die Meldung, wonach die bekannte Investorin Cathie Wood sich von grosseren Positionen getrennt und Broadcom-Aktien im Wert von rund einhundertzwanzig Millionen bis einhundertvierunddreissig Millionen Dollar verkauft hat. In den vorliegenden Meldungen wurden Risiken im Sinne von Bussen oder Klagen nicht gefunden. Allerdings verweist Yahoo Finance auf ein potenzielles Risiko in Höhe von einhunderteinundsechzig Milliarden Dollar im Zusammenhang mit den Entwicklungen bei Anthropic, und The Globe and Mail merkt an, dass das Jahr 2026 das dritte Verlustjahr seit 2009 für die Aktie werden könnte. Zurück zu Broadcom: Die Analystenlandschaft zeigt sich überwiegend optimistisch. Das Konsens-Rating bei Yahoo Finance umfasst neunundvierzig Mal Kaufen, acht Mal Stark Kaufen und zwei Mal Halten sowie keine einzigen Verkaufsempfehlungen. Das durchschnittliche Kursziel der Analysten liegt bei rund fünfhundertsiebenundzwanzig Dollar. Zu den jüngsten Einschätzungen gehören Kursziele wie sechshundert Dollar von Rosenblatt oder vierhundert Dollar von DA Davidson. Operativ profitiert das Unternehmen von einer Nachfrageerholung nach KI-Chips, während abwertend die Verkäufe durch die Investmentfirma Ark genannt werden. Widersprüche zeigen sich vor allem darin, dass einige Marktbeobachter den mittelfristigen Ausverkauf als Kaufgelegenheit werten, während andere auf das Potenzial für ein Verlustjahr im Jahr 2026 hinweisen.",
+   "id": "c08be05a0a",
+   "generated_at": "2026-11-07T11:52:59Z",
+   "audio": {
+    "file": "AVGO.mp3",
+    "hash": "c2a74ab4be3a0779",
+    "dur": 97.5,
+    "engine": "gemini"
+   }
+  },
+  {
+   "symbol": "ASML",
+   "name": "ASML Holding",
+   "text": "ASML Holding: Die Aktie von ASML Holding zeigt sich derzeit volatil. Wahrend die Chart-Plattform TradingView von Kursruckgangen um sieben Komma vier Prozent aufgrund von Fragen zum nachsten Ausgabenzyklus berichtet, verzeichnete der US-Nachrichtendienst StreetInsider eine Erholung im Chipsektor. Die Aktie rutschte unter die Zweihundert-Tage-Linie und erreichte ein neues Sechsmonatstief, wobei Angste vor einer strengeren KI-Regulierung nach den US-Zwischenwahlen zusatzlich belasten. Analysten bleiben jedoch mehrheitlich optimistisch: Von siebzehn Analysten raten sieben zum starken Kauf und achtunddreissig zum Kauf, bei einem durchschnittlichen Kursziel von zweitausendeinhundertsiebenunddreissig Dollar. JP Morgan stuft die Aktie mit Ubergewichten ein und setzt das Kursziel auf zweitausenddreihundertfünfzig Dollar. Positiv hervorzuheben sind zudem Netto-ETF-Kaufe in Hohe von fünfundsechzig Komma sieben Millionen Dollar sowie Berichte, wonach Elon Musk die Halbleiterfabrik Terafab an ASML herantragen mochte. Bestellungen fur EUV-Maschinen reichen derweil bis in das Jahr 2030. Dies stellt keine Anlageberatung dar.",
+   "id": "1b9f641924",
+   "generated_at": "2026-11-06T23:48:12Z",
+   "audio": {
+    "file": "ASML.mp3",
+    "hash": "6fffdb54a8f3bdcb",
+    "dur": 70.2,
+    "engine": "gemini"
+   }
+  },
+  {
+   "symbol": "INTC",
+   "name": "Intel",
+   "text": "Intel: Der Technologiekonzern Intel stand zuletzt stark im Fokus der Märkte. Laut Barron's verzeichnete die Intel-Aktie einen Einbruch von fünfzig Prozent innerhalb eines Monats und erreichte ein neues Sechs-Monats-Tief. Yahoo Finance meldet dagegen, dass dieser tiefe Ausverkauf Zeichen einer Überreaktion zeigt und es zu einer Erholung kam. Schwache Umsatzaussichten für das vierte Quartal und allgemeine KI-Skepsis, wie das Schweizer Finanzportal Cash berichtet, belasteten das Papier zeitweise. Die Analystenbewertungen zeigen ein gemischtes Bild. Laut Yahoo Finance gibt es derzeit fünfzehn Kaufempfehlungen, fünfunddreissig Halte-Empfehlungen und eine Verkaufsempfehlung. Zurück zu Intel: Das durchschnittliche Kursziel der Analysten liegt bei rund dreiundneunzig Dollar. Die UBS bestätigte ihre neutrale Einstufung und senkte das Kursziel auf achtzig Dollar. Die Citigroup bestätigte ihre Kaufempfehlung bei einem auf einhundert Dollar gesenkten Kursziel. Freedom Broker stufte die Aktie von Kaufen auf Halten ab und senkte das Kursziel auf neunzig Dollar. JP Morgan bestätigte das neutrale Rating mit einem Kursziel von achtzig Dollar. TD Cowen beliess die Aktie auf Halten mit einem Kursziel von fünfundsiebzig Dollar, während DA Davidson das neutrale Rating bei einem Kursziel von siebzig Dollar bestätigte. Operativ bringt das Unternehmen hardwaregestützte Sicherheit in EdgeAI und schärft das Xeon-AI-Angebot, während branchenweite Ausverkäufe und KI-Skepsis bremsend wirken.",
+   "id": "ab7553f21c",
+   "generated_at": "2026-11-07T09:03:21Z",
+   "audio": {
+    "file": "INTC.mp3",
+    "hash": "383d16105fe95b24",
+    "dur": 89.5,
+    "engine": "gemini"
+   }
+  },
+  {
+   "symbol": "MSFT",
+   "name": "Microsoft",
+   "text": "Microsoft: Bei Microsoft gibt es laut Berichten von Barron's und Reuters Verzögerungen bei der KI-Infrastruktur durch Partner wie IREN und den Verzicht auf eine Vertragsverlängerung mit Oracle, während gleichzeitig die Zusammenarbeit mit Lumen beim Vertrieb von KI-Netzwerken ausgebaut wird. In den vorliegenden Meldungen wurden keine rechtlichen Probleme gefunden. Analysten zeigen sich optimistisch; laut Yahoo Finance gibt es zahlreiche Kaufempfehlungen und ein durchschnittliches Kursziel von sechshundertvierunddreissig Dollar, wobei Bernstein das Kursziel auf siebenhundertzweiundzwanzig Dollar erhöhte. Zurück zu Microsoft: Die Firma baut Partnerschaften im KI-Bereich aus, während Verzögerungen bei Lieferanten genannt werden. Zu den wichtigen Kennzahlen gehört das durchschnittliche Kursziel, welches die Erwartungen der Analysten für den zukünftigen Aktienkurs zusammenfasst.",
+   "id": "ddfd7bab89",
+   "generated_at": "2026-11-07T10:00:02Z",
+   "audio": {
+    "file": "MSFT.mp3",
+    "hash": "3c94a3ece9a58d55",
+    "dur": 57.2,
+    "engine": "edge"
+   }
+  },
+  {
+   "symbol": "PLTR",
+   "name": "Palantir",
+   "text": "Palantir verzeichnete in den aktuellen Berichten eine spannende Entwicklung an den Buersen. Laut Barchart.com, einem US-Boersendatenportal, lieferte Palantir im dritten Quartal starke Umsatz- und Gewinnzahlen, die die Schaetzungen uebertrafen, waehrend die Aktie dennoch zeitweise abrutschte. Gleichzeitig berichtet The Globe and Mail, eine kanadische Tageszeitung, ueber ein potenzielles Warnsignal und einen Kursrueckgang von sechzehn Prozent gegenueber dem Hoechststand. InvestmentWeek meldet zudem Sorgen ueber eine Verlangsamung der kommerziellen Buchungen. In den vorliegenden Meldungen wurden keine rechtlichen Probleme gefunden. Zurück zu Palantir: Bei den Analystenbewertungen zeigt sich ein gemischtes Bild: Laut Yahoo Finance bestaetigt Barclays das Rating Uebergewichten und erhoeht das Kursziel auf zweihundertdreiundsiebzig Dollar. Citigroup bestaetigt die Kaufempfehlung mit einem neuen Kursziel von zweihundertfünfundsechzig Dollar. Truist Securities setzt das Kursziel auf zweihundertfünfzig Dollar, waehrend DA Davidson das Kursziel bei zweihundertfünfzig Dollar belaesst. RBC Capital stuft die Aktie als schlechter als Markt ein mit einem Kursziel von einhundertdreissig Dollar, und Rosenblatt haelt an einer Kaufempfehlung mit einem Kursziel von zweihundertsechzig Dollar fest. Zurueck zu Palantir: Die Firma faellt durch explosives KI-Wachstum auf, sieht sich aber auch mit Berichten ueber nachlassende kommerzielle Buchungen konfrontiert. Zu den wichtigen Kennzahlen gehoert das durchschnittliche Kursziel von zweihundertachtzehn Dollar, waehrend das hoechste Kursziel bei zweihundertdreiundsiebzig Dollar und das tiefste bei achtzig Dollar liegt.",
+   "id": "2d5abdbd00",
+   "generated_at": "2026-11-07T10:00:02Z",
+   "audio": {
+    "file": "PLTR.mp3",
+    "hash": "b9dc4cb71f52bf3a",
+    "dur": 98.9,
+    "engine": "gemini"
+   }
+  },
+  {
+   "symbol": "IBM",
+   "name": "IBM",
+   "text": "IBM zeigt sich in den aktuellen Meldungen stark fokussiert auf Zukunftstechnologien wie Quantencomputing und Künstliche Intelligenz. So hat das Unternehmen in Chicago seinen bisher fortschrittlichsten Quantencomputer vorgestellt und gemeinsam mit Partnern wie AMD und dem Oak Ridge National Laboratory eine Plattform für die Quantenfehlerkorrektur gestartet. Ausserdem wurde zusammen mit Supermicro und Nvidia eine neue KV-Cache-Lösung auf den Markt gebracht, die erhebliche Leistungsvorteile bei der Inferenz bietet. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Analysten bewerten die Aktie überwiegend positiv. Zurück zu IBM: Laut Yahoo Finance liegt das durchschnittliche Kursziel bei rund zweihundertneunundfünfzig Dollar, und Evercore bestätigte die Einstufung Outperform mit einem Kursziel von zweihundertfünfundsiebzig Dollar. Weitere Kurszielerhöhungen beziehungsweise Bestätigungen gab es unter anderem von Jefferies, der UBS, der Citigroup, Morgan Stanley, BMO Capital und Barclays. Was die geschäftliche Entwicklung betrifft, sprechen technologische Fortschritte im Bereich Quantencomputing und Künstliche Intelligenz für das Unternehmen, während Berichte von boerse.de über das Unterschreiten der zwanzig-Tage-Linie sowie eine Abstufung im BOTSI-Advisor als abwertend einzustufen sind. Als wichtige Kennzahl ist das durchschnittliche Kursziel von rund zweihundertneunundfünfzig Dollar zu nennen, welches die Analystenerwartungen bündelt. Es liegen keine Widersprüche zwischen den Quellen vor.",
+   "id": "8e5c8b28d4",
+   "generated_at": "2026-11-07T10:56:32Z",
+   "audio": {
+    "file": "IBM.mp3",
+    "hash": "fe4001b3080372a2",
+    "dur": 90.8,
+    "engine": "gemini"
+   }
+  },
+  {
+   "symbol": "OEF",
+   "name": "iShares S&P 100 ETF",
+   "text": "iShares S&P 100 ETF: iShares S&P einhundert ETF: Laut Finanzen.net, einem deutschen Finanzportal, veröffentlichte Yahoo Finance Singapur ein saisonales Renditediagramm für den iShares S&P einhundert ETF. Zudem berichtete Finanzen.net über ein weiteres saisonales Renditediagramm, welches von Yahoo! Finance Canada publiziert wurde. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Zurück zu iShares S&P einhundert ETF: Es liegen aktuell keine Analystenbewertungen oder Kennzahlen vor. Auch zu Insiderkäufen und -verkäufen oder Aussagen von Chefs gibt es keine Berichte in den aktuellen Meldungen. Keine Anlageberatung.",
+   "id": "a90983463b",
+   "generated_at": "2026-11-07T10:56:32Z",
+   "audio": {
+    "file": "OEF.mp3",
+    "hash": "c3d065bd0b507aff",
+    "dur": 50.7,
+    "engine": "edge"
+   }
+  },
+  {
+   "symbol": "NOW",
+   "name": "ServiceNow",
+   "text": "ServiceNow verzeichnete in den vorliegenden Meldungen einen starken Kursrückgang um fünfunddreissig Prozent in weniger als zwei Wochen, begleitet von einer neuen Entlassungswelle und einem enttäuschenden Ausblick für das vierte Quartal. Laut dem Finanzportal Yahoo Finance Singapore sank die Aktie spürbar, während laut CTech der Vorstand Bindungsprämien in Höhe von einhundertsiebenundzwanzig Millionen Dollar genehmigte. Zu den Analysten-Bewertungen: Argus Research vergab das Rating Kaufen mit einem Kursziel von einhundertsiebzig Dollar, Macquarie Neutral mit einem Kursziel von einhundertzwanzig Dollar, RBC Capital Besser als Markt mit einem Kursziel von einhundertfünfundsechzig Dollar, JP Morgan Übergewichten mit einem Kursziel von einhundertsechzig Dollar, Citigroup Kaufen mit einem Kursziel von einhundertsiebenundfünfzig Dollar und StoneX Kaufen mit einem Kursziel von einhundertfünfzig Dollar. Das Unternehmen erweiterte Partnerschaften, wie etwa mit LTM zur Skalierung der Agenten-KI und mit der NBA zur Verbesserung der Mitarbeitererfahrung mit EmployeeWorks, und kündigte die Veröffentlichung in Brasilien an. Auf der anderen Seite schnitt die Aktie im Vergleich zur Konkurrenz schlechter ab.",
+   "id": "ea44f10bc0",
+   "generated_at": "2026-11-07T11:52:59Z",
+   "audio": {
+    "file": "NOW.mp3",
+    "hash": "bdc200d93636e2ee",
+    "dur": 73.4,
+    "engine": "gemini"
+   }
+  },
+  {
+   "symbol": "META",
+   "name": "Meta Platforms",
+   "text": "Meta Platforms: Laut TradingView, einer Chart- und Börsenplattform, hat Meta eine Klage gegen Kalifornien eingereicht, und die Kosten für Kreditrisikoversicherungen haben Rekordwerte erreicht, während Schulden für den KI-Ausbau anfallen. Ausserdem berichtet Yahoo Finance, ein Finanzportal, dass sich Meta, Apple und Elon Musk neuen Bedrohungen durch die Demokraten ausgesetzt sehen, und dass Meta Data-Scraping-Bedingungen nach Kritik von Herausgebern pausiert hat. Zurück zu Meta Platforms: Der Konsens der Analysten laut Yahoo Finance Canada zeigt ein durchschnittliches Kursziel von rund achthundertachtundvierzig Dollar und ein Votum, das überwiegend auf Kaufen lautet. Bernstein Research bewertet die Aktie mit Übertreffen, während Mizuho ein Kursziel von rund neunhundertfünfzig Dollar und die UBS ein Kursziel von rund achthundertzweiundneunzig Dollar nennen. Zu den operativen Aktivitäten gehört laut Investing.com Deutsch die Einführung einer anpassbaren Spaces-Funktion in der KI-App Muse, und laut Facebook bringt WhatsApp Events Menschen zusammen. Dagegen berichtet Investor's Business Daily, dass der KI-Handel an Fahrt verliert, da Investoren in Medizin- und Energiesektoren strömen. Wichtige Kennzahlen sind das durchschnittliche Kursziel von rund achthundertachtundvierzig Dollar, das höchste Kursziel von rund eintausendfünfzig Dollar, das tiefste Kursziel von rund sechshundertneunundzwanzig Dollar sowie der aktuelle Aktienkurs von rund sechshundertzehn Dollar. Keine Widersprüche in den Berichten.",
+   "id": "175eabc088",
+   "generated_at": "2026-11-07T09:03:21Z",
+   "audio": {
+    "file": "META.mp3",
+    "hash": "096d41c82d5b969c",
+    "dur": 87.9,
+    "engine": "gemini"
+   }
+  },
+  {
+   "symbol": "AMZN",
+   "name": "Amazon",
+   "text": "Amazon steht aktuell im Fokus von Analysten und Investoren. Laut der kanadischen Tageszeitung The Globe and Mail hat Amazon-Chef Andy Jassy grosse Neuigkeiten für Investoren angekündigt. Zudem profitiert die Aktie von Käufen durch ETFs und Fonds. Die US-Börsenzeitung Investor's Business Daily berichtet, dass Amazon eine Zusammenarbeit mit Uber Eats gestartet hat. Das Finanzportal Yahoo Finance weist jedoch darauf hin, dass die hohen Ausgaben für künstliche Intelligenz den freien Cashflow belasten. In den vorliegenden Meldungen wurden als Risiko ausserdem rechtliche Themen rund um eine Abfindungssumme von dreihundertneun Komma fünf Millionen Dollar bei Rücksendungen genannt. Die Analystenbewertungen zeigen eine überwiegend positive Haltung. Zurück zu Amazon: Laut Yahoo Finance raten insgesamt einundsiebzig Analysten zum Kauf, während drei Analysten zum Halten raten; es gibt keine Verkaufsempfehlungen. Das durchschnittliche Kursziel liegt bei dreihundertsiebenundzwanzig Dollar. Die UBS bestätigt ihre Kaufempfehlung mit einem Kursziel von dreihundertzweiundfünfzig Dollar. Freedom Broker vergibt ein Kursziel von dreihundertdreissig Dollar. Bernstein Research stuft Amazon ebenfalls mit Kaufen beziehungsweise Outperform ein und nennt ein Ziel von dreihundertzwanzig Dollar. Operativ arbeitet Amazon mit Uber Eats zusammen und hat ein textbasiertes Einkaufen über den Sprachassistenten Alexa eingeführt. Bei Amazon sagt Chef Andy Jassy gemäss den Meldungen, dass es Neuigkeiten gibt.",
+   "id": "9ac8176c6e",
+   "generated_at": "2026-11-07T11:52:59Z",
+   "audio": {
+    "file": "AMZN.mp3",
+    "hash": "269a5d8fba54f4a3",
+    "dur": 106.6,
+    "engine": "edge"
+   }
+  },
+  {
+   "symbol": "MRVL",
+   "name": "Marvell Technology",
+   "text": "Marvell Technology: Im Fokus steht derzeit der angekündigte Zusammenschluss mit Lumentum, durch den ein neuer Branchenführer im Bereich der künstlichen Intelligenz entstehen soll. Laut Wallstreet Online verzeichnete die Aktie von Marvell Technology zuletzt starke Kursschwankungen und fiel innerhalb eines Monats um rund fünfzig Prozent, bevor ein Kurssprung folgte. Berichte von Barron's und Yahoo Finance weisen auf historische Wochenverluste und Bedenken bezüglich des Deals hin. Bei den Analystenbewertungen zeigt sich ein Bild mit Kurszielen wie dem von B. Riley Securities bei zweihundertfünfundsiebzig Dollar oder von TD Cowen bei einhundertfünfundsiebzig Dollar. Zurück zu Marvell Technology: Das Unternehmen treibt seine Partnerschaften voran und bereitet sich auf die Bekanntgabe der nächsten Quartalszahlen vor. Zu den wichtigen Kennzahlen gehört ein durchschnittliches Kursziel der Analysten von rund dreihundertelf Dollar sowie ein Höchstwert von vierhundertfünfzig Dollar und ein Tiefstwert von einhundertfünfundsiebzig Dollar.",
+   "id": "1064bf707c",
+   "generated_at": "2026-11-07T09:03:21Z",
+   "audio": {
+    "file": "MRVL.mp3",
+    "hash": "08242ea5164c045f",
+    "dur": 69.5,
+    "engine": "edge"
+   }
+  },
+  {
+   "symbol": "SFTBY",
+   "name": "SoftBank Group",
+   "text": "SoftBank Group: Die Aktie der SoftBank Group stand zuletzt stark unter Druck. Laut der Chart- und Bersenplattform TradingView stürzten die Titel um zehn Komma acht Prozent ein, da das Kreditrisiko ein Vierjahreshoch erreichte und Kuenstliche-Intelligenz-Aengste den Markt belasteten. Zu den Risiken berichten mehrere Quellen von schweren Belastungen. Laut dem US-Wirtschaftsmagazin Forbes Middle East fallen die Aktien, da das Kreditrisiko auf ein vier-Jahres-Hoch steigt und der Ausverkauf sich auf die Kreditmärkte ausweitet. Laut der internationalen Nachrichtenagentur Reuters hat China die Uebernahme der Robotiksparte von ABB durch SoftBank im Wert von fünf Komma vier Milliarden Dollar blockiert. Laut dem deutschen Bersenportal boerse.de notiert die Aktie unter der fünfzig-Tage-Linie und hat ein neues sechs-Monats-Tief erreicht. Zudem berichtet das Finanzportal Yahoo Finance, dass Elon Musk behauptet, SoftBank sei mit Turbinenbestellungen in Verzug. Zurück zu SoftBank Group: Bei den Analystenbewertungen zeigt sich laut Yahoo Finance ein Konsens aus zwei Halten-Einstufungen. Das durchschnittliche Kursziel liegt bei sechzehn Komma acht Dollar, mit einem Hoechstziel von zwanzig Dollar und einem Tiefstziel von dreizehn Komma sechs Dollar, was ein Kurspotenzial von sechsundvierzig Komma fünf Prozent ergibt. Zurueck zu SoftBank Group und den aktuellen Firmennachrichten: Als aufwertend galt die geplante Uebernahme des Robotikgeschaefts von ABB im Wert von fünf Komma vier Milliarden Dollar, wie eine Mitteilung der Firma selbst zeigt. Als abwertend gilt jedoch, dass Regulierungsbehoerden und China diese Uebernahme untersagt haben, wie das Schweizer Finanzportal finanzen.ch berichtet. Zudem hat SoftBank Lenskart-Aktien verkauft, wie das indische Finanzportal Moneycontrol.com meldet. Bei den Kennzahlen liegt der aktuelle Kurs bei elf Komma vier sieben Dollar. Das durchschnittliche Kursziel betraegt sechzehn Komma acht Dollar, waehrend das hoechste Kursziel bei zwanzig Dollar und das tiefste bei dreizehn Komma sechs Dollar liegt, woraus sich ein Kurspotenzial von sechsundvierzig Komma fünf Prozent ableitet. Zu Insider-Aktivitaeten wurde gemeldet, dass SoftBank Lenskart-Aktien im Wert von rund zwanzig Millionen Dollar verkauft hat.",
+   "id": "b1d4110cd8",
+   "generated_at": "2026-11-07T09:03:21Z",
+   "audio": {
+    "file": "SFTBY.mp3",
+    "hash": "2984e58a494d02c4",
+    "dur": 155.9,
+    "engine": "edge"
+   }
+  },
+  {
+   "symbol": "GLW",
+   "name": "Corning",
+   "text": "Corning: Die Aktie von Corning geriet zuletzt spürbar unter Druck. Laut MarketWatch schnitt das Papier am Donnerstag im Vergleich zur Konkurrenz schwächer ab, und boerse.de meldete gar ein neues Sechs-Monats-Tief, bei dem die Aktie unter die wichtige zweihundert-Tage-Linie rutschte. Auch finanzen.ch berichtete über deutliche Kursabschläge und eine zeitweise Verfassung im Bärenmodus. Demgegenüber meldeten andere Portale wie finanzen.ch an Abenden oder Freitagnachmittagen leichte Erholungen und Pluszeichen bei den Notierungen. TradingView wies zudem auf eine Senkung des Zwölf-Monats-Kursziels auf rund einhundertneunundsiebzig Dollar hin. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Bei den Analystenbewertungen zeigt sich ein gemischtes Bild. Die UBS bestätigte das Kaufen-Rating und setzte das Kursziel auf einhundertzweiundneunzig Dollar. Auch Truist Securities bestätigte das Kaufen-Rating bei einem Kursziel von einhundertfünfundsiebzig Dollar. Zurück zu Corning: Barclays bestätigte die Einstufung als Marktgewichten und setzte das Kursziel auf einhundertzweiunddreissig Dollar. Morgan Stanley bestätigte ebenfalls Marktgewichten mit einem Kursziel von einhundertfünfundfünfzig Dollar, während JP Morgan bei einem Neutral-Rating das Kursziel auf einhundertfünfundsechzig Dollar senkte. Zudem erhielt das Unternehmen laut MarketScreener Deutschland ein Kaufen-Rating von Fox Advisors. Was die Firma gerade macht, spiegelt sich vor allem in den Kursbewertungen wider. Aufwertend wirkt, dass Yahoo Finance UK darauf hinweist, dass die Aktie mit einem Abschlag gehandelt zu werden scheint und Fox Advisors zum Kauf raten. Abwertend wirken hingegen das neue Sechs-Monats-Tief und die im Branchenvergleich schwächere Performance. Zu den wichtigen Kennzahlen gehört das durchschnittliche Kursziel der Wall-Street-Analysten, das laut Daten von Yahoo! Finance Canada bei einhundertachtzig Dollar liegt, wobei das höchste Ziel bei zweihundertzwanzig Dollar angesiedelt ist. Aussagen von Chefs oder dem Management lagen in den Berichten nicht vor. Keine Anlageberatung.",
+   "id": "9235156a03",
+   "generated_at": "2026-11-07T09:03:21Z",
+   "audio": {
+    "file": "GLW.mp3",
+    "hash": "d82ca1bf023df5ac",
+    "dur": 145.8,
+    "engine": "edge"
+   }
+  },
+  {
+   "symbol": "AMAT",
+   "name": "Applied Materials",
+   "text": "Applied Materials: Die Aktie von Applied Materials zeigte sich in den Berichten sehr bewegt und verzeichnete sowohl deutliche Kursrückgänge als auch kräftige Erholungen vor einem anstehenden Umsatztest. Laut Wallstreet Online geriet die Aktie stark unter Druck und markierte ein neues Sechsmonatstief, während StreetInsider zudem von Belastungen durch Wahlängste berichtete. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Die Analysten von Yahoo Finance Singapore zeigen sich uberwiegend optimistisch: Insgesamt raten fünfunddreissig Analysten zum Kaufen, sechs zum Halten und fünf zum starken Kaufen, während Verkaufsempfehlungen gänzlich fehlen. Das durchschnittliche Kursziel wird bei sechshundertsiebenundzwanzig Dollar gesehen. Morgan Stanley bestätigte im November die Einstufung auf Marktgewichten und senkte das Kursziel von fünfhundertdreiundsechzig Dollar auf fünfhundertachtunddreissig Dollar. Zurück zu Applied Materials: Needham bestätigte seine Kaufempfehlung, senkte das Kursziel jedoch von siebenhundertvierzig Dollar auf fünfhundertachtzig Dollar. Evercore ISI Group bestätigte ebenfalls seine Einschätzung und reduzierte das Kursziel von siebenhundert Dollar auf fünfhundertneunzig Dollar. RBC Capital behielt das Kursziel von sechshundert Dollar bei, während die UBS im September ihre Kaufempfehlung bestätigte und das Kursziel auf sechshundertfünfundneunzig Dollar erhöhte. Operativ hat das Unternehmen die strategische Investition in Besi.konzepte ausgebaut. Zu den wichtigen Kennzahlen gehört der anstehende Umsatztest von zehn Komma zwei Milliarden Dollar sowie das mittlere Kursziel von sechshundertsiebenundzwanzig Dollar, welches das erhebliche Aufwärtspotenzial von achtundachtzig Komma vier Prozent verdeutlicht. Bezüglich möglicher Widersprüche berichtete MarketWatch in einer Meldung, dass die Aktie die Konkurrenz an einem starken Handelstag übertreffe, während eine andere Meldung desselben Portals vom Folgetag das genaue Gegenteil meldete und von einer schwächeren Entwicklung im Vergleich zur Konkurrenz sprach.",
+   "id": "bb92782794",
+   "generated_at": "2026-11-07T11:52:59Z",
+   "audio": {
+    "file": "AMAT.mp3",
+    "hash": "821655114f3a17ec",
+    "dur": 139.6,
+    "engine": "edge"
+   }
+  },
+  {
+   "symbol": "ARM",
+   "name": "Arm Holdings",
+   "text": "Arm Holdings hat die Ergebnisse fur das zweite Quartal des Geschaeftsjahres bekannt gegeben. Laut Arm Newsroom lieferte das Unternehmen ein Rekordergebnis und erreichte einen Gesamtumsatz von eins Komma vier Milliarden Dollar. Trotz starker Geschaeftszahlen geriet die Aktie zeitweise unter Druck. So berichtete das Finanzportal Yahoo Finance, dass Arm-Aktien trotz einer Verdoppelung der Lizenzgebuhren fur Rechenzentren um zwölf Komma vier Prozent fielen, wahrend finanzen.ch meldete, dass sich die Aktie am Freitagabend im Plus zeigte. Zu den Analysten-Bewertungen gibt es zahlreiche Anpassungen. Die UBS bestaetigt ihre Kaufempfehlung und senkt das Kursziel auf zweihundertsiebzig Dollar. Zurück zu Arm Holdings: JP Morgan behaelt die Einstufung als Uebergewichten bei und senkt das Kursziel auf zweihundertfünfundvierzig Dollar. TD Cowen bestaetigt das Kaufen bei einem auf zweihundertfünfzig Dollar gesenkten Kursziel. RBC Capital senkt das Kursziel auf dreihundert Dollar, Barclays auf dreihundertfünfundzwanzig Dollar und Wells Fargo auf zweihundertfünfundfünfzig Dollar. Aufwertend wirkt, dass das Unternehmen ein Rekordergebnis erzielt hat und sich stark auf Cloud-Giganten stuetzt, wahrend Telefone unter einem Speichermangel leiden. Abwertend wirken dagegen Bewertungszweifel nach den Quartalszahlen und eine Umsatzprognose fur KI-Rechenzentren, die die Schaetzungen kaum uebertrifft. Wichtige Kennzahlen sind der Umsatz von eins Komma vier Milliarden Dollar, sowie das durchschnittliche Analysten-Kursziel von zweihundertneunundachtzig Dollar.",
+   "id": "50221fecd6",
+   "generated_at": "2026-11-07T10:00:02Z",
+   "audio": {
+    "file": "ARM.mp3",
+    "hash": "412bd455b5b451ce",
+    "dur": 92.5,
+    "engine": "gemini"
+   }
+  },
+  {
+   "symbol": "HOOD",
+   "name": "Robinhood Markets",
+   "text": "Robinhood Markets steht derzeit im Fokus von Marktbeobachtern, nachdem das Unternehmen im letzten Quartal laut Yahoo Finance, einem Finanzportal, das Meldungen bündelt, einhundertdreiundsiebzig Millionen Dollar aus Prognosemärkten erwirtschaften konnte und damit mehr als mit dem Kryptogeschäft verdiente. TradingView, eine Chart- und Börsenplattform, berichtet zudem, dass ein anstehender Börsengang von Anthropic das Wachstum im Einzelhandels- und Beratergeschäft des Unternehmens vorantreiben könnte. Zurück zu Robinhood Markets: In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Was die Analysten-Bewertungen betrifft, so hat Truist Securities das Rating Kaufen bei einem Kursziel von einhundertdreiundzwanzig Dollar bestätigt. Cantor Fitzgerald hält an der Einstufung Übergewichten mit einem Kursziel von einhundertzwanzig Dollar fest. JP Morgan bestätigt die neutrale Einschätzung und nennt ein Kursziel von einhundertvierzehn Dollar. Goldman Sachs bewertet die Aktie mit Kaufen und einem Kursziel von einhundertachtundzwanzig Dollar. Barclays bestätigt die Einstufung Übergewichten mit einem Kursziel von einhundertfünfzehn Dollar, während Wells Fargo die Aktie mit Marktgewichten und einem Kursziel von einhundert Dollar einschätzt. Das durchschnittliche Kursziel von dreissig Analysten liegt bei rund einhunderteinunddreissig Dollar. Zu den Kennzahlen ist zu erwähnen, dass das hohe Kursziel bei einhundertsiebzig Dollar und das tiefste bei neunundfünfzig Dollar liegt. Widersprüche wurden in den aktuellen Berichten nicht festgestellt.",
+   "id": "722447423c",
+   "generated_at": "2026-11-07T10:00:02Z",
+   "audio": {
+    "file": "HOOD.mp3",
+    "hash": "a97fa8f808ebac1b",
+    "dur": 91.3,
+    "engine": "gemini"
+   }
+  },
+  {
+   "symbol": "WNRG.SW",
+   "name": "SPDR MSCI World Energy ETF",
+   "text": "SPDR MSCI World Energy ETF: In den aktuellen Berichten gibt es verschiedene Neuigkeiten zur Entwicklung. Laut Morningstar, einem Fondsanalyse- und Researchhaus, ging es um die ETFs mit der besten Performance für britische Anleger. Zudem meldet Trustnet, dass sich einige Fonds stark erholen, da Anleger Aktien aus dem Bereich der künstlichen Intelligenz verkaufen. Der aktuelle Kurs liegt bei sechsundsiebzig Komma vier acht Dollar. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Zurück zu SPDR MSCI World Energy ETF: Zu den Analystenbewertungen liegen derzeit keine konkreten Daten oder Neueinstufungen vor. Was die Aktivitäten betrifft, so spricht die Erholung im Zuge von Umschichtungen weg von künstlicher Intelligenz laut Trustnet für eine positive Entwicklung bei entsprechenden Fonds. Wichtige Kennzahlen umfassen den aktuellen Aktienkurs von sechsundsiebzig Komma vier acht Dollar, welcher den Preis für einen Anteil anzeigt und für Anleger zur Orientierung dient. Insider-Käufe oder -Verkäufe wurden in den Daten nicht genannt. Aussagen von Chefs oder dem Management liegen ebenfalls keine vor. Widersprüche zwischen den verschiedenen Berichten gibt es nicht.",
+   "id": "5df046b9ee",
+   "generated_at": "2026-11-07T11:52:59Z",
+   "audio": {
+    "file": "WNRG.SW.mp3",
+    "hash": "41fa04b557bf1b56",
+    "dur": 84.4,
+    "engine": "edge"
+   }
+  },
+  {
+   "symbol": "BE",
+   "name": "Bloom Energy",
+   "text": "Bloom Energy steht aktuell im Zentrum der Berichterstattung wegen bedeutender Grossauftraege und deutlicher Kursbewegungen. Laut Yahoo Finance hat das Unternehmen eine Vereinbarung mit NTT Data über neunhundert Megawatt an Stromerzeugung vor Ort für mehrere Rechenzentrumsprojekte bekannt gegeben. Zudem berichtet Traders Union, dass Bloom Energy Brennstoffzellen und Kohlenstoffabscheidung in einem Rechenzentrum von Google in Wyoming einbeziehen wird. MarketWatch meldet hingegen, dass die Aktie zeitweise zu den groessten Verlierern im S&P fünfhundert gehörte, angetrieben von Ängsten vor Verzögerungen bei Rechenzentren und allgemeinen Kursrückgängen im Technologiesektor. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Bei den Analystenbewertungen zeigt sich ein überwiegend konstruktives Bild. Laut Yahoo Finance liegt das durchschnittliche Kursziel der insgesamt sechsundzwanzig Analysten bei rund zweihundertvierundachtzig Dollar, wobei das höchste Ziel bei dreihundertachtzig Dollar liegt. Barclays hat die Einstufung kürzlich von Marktgewichten auf Übergewichten hochgestuft und das Kursziel auf zweihundertneunundachtzig Dollar angepasst. Citigroup bestätigte die neutrale Haltung mit einem Kursziel von zweihundertvierundachtzig Dollar. Zurück zu Bloom Energy: Das Unternehmen treibt seine Geschäfte mit Grossprojekten bei Rechenzentren voran, während Marktsorgen und KI-Ängste für Volatilität sorgen. Als wichtige Kennzahl ist das von Yahoo Finance genannte durchschnittliche Kursziel von rund zweihundertvierundachtzig Dollar zu nennen, welches das Sentiment der Experten widerspiegelt. Bei den Insidern gab es Transaktionen: Verwaltungsrätin Barbara J. Burger veräusserte laut Pflichtmeldungen Aktien im Wert von rund fünfhunderttausend Dollar. Solche Verkäufe basieren oft auf vorab festgelegten Plänen und sagen allein wenig über die operative Verfassung aus. Aussagen der Unternehmensführung zu strategischen Plänen liegen in den aktuellen Meldungen nicht vor. Es gibt keine nennenswerten Widersprüche in den Berichten.",
+   "id": "8506a53ecb",
+   "generated_at": "2026-11-07T11:52:59Z",
+   "audio": {
+    "file": "BE.mp3",
+    "hash": "3c4033e0d4bff897",
+    "dur": 142.6,
+    "engine": "edge"
+   }
+  },
+  {
+   "symbol": "HYLN",
+   "name": "Hyliion Holdings",
+   "text": "Hyliion Holdings verzeichnete im zweiten Quartal einen geringer als erwarteten Verlust, während kommerzielle Einnahmen weiterhin ausbleiben, wie die Quelle von dars.gov.et meldet. Laut Yahoo! Finance Canada, einem Finanzportal, das Meldungen und Analystenbewertungen bündelt, gibt es zahlreiche Neuigkeiten zur Aktie. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Zu den Analysten-Bewertungen: Craig-Hallum stufte die Aktie am neunundzwanzigsten September 2026 mit Kaufen und einem Kursziel von sieben Dollar neu ein. Northland Capital Markets bewertete die Aktie am dreizehnten August 2026 mit Besser als Markt und einem Kursziel von zehn Dollar, da die Einstufung hochgestuft wurde. Zurück zu Hyliion Holdings: Die Firma macht derzeit auf sich aufmerksam, indem der Verlust im zweiten Quartal geringer ausfiel als erwartet, was für das Unternehmen spricht. Auf der anderen Seite spricht dagegen, dass kommerzielle Einnahmen nach wie vor fehlen. Wichtige Kennzahlen sind das mittlere Kursziel von sieben Komma sieben fünf Dollar, welches den von Analysten im Durchschnitt erwarteten zukünftigen Aktienkurs darstellt. Zudem wurde ein erwarteter Quartalsverlust je Aktie von null Komma null acht Dollar genannt. Bei den Insider-Käufen und -Verkäufen kaufte der Verwaltungsrat Vincent T. Cubbage fünfzigtausend Aktien im Wert von rund einhundertsiebzigtausend Dollar. Ein Kauf durch Insider wird oft als positives Signal gewertet, da es das Vertrauen in das eigene Unternehmen zeigt.",
+   "id": "16b5d52beb",
+   "generated_at": "2026-11-07T10:00:02Z",
+   "audio": {
+    "file": "HYLN.mp3",
+    "hash": "fd5044b1a2c8412c",
+    "dur": 110.3,
+    "engine": "edge"
+   }
+  },
+  {
+   "symbol": "SMEGF",
+   "name": "Siemens Energy",
+   "text": "Siemens Energy: Die Aktie stand in den Berichten verschiedener Finanzportale und Tageszeitungen stark im Fokus, wobei sowohl Erholungsphasen als auch zwischenzeitliche Kursschwankungen und Sorgen über einen Ausverkauf thematisiert wurden. Laut Morningstar, einem Fondsanalyse- und Researchhaus, stand das Wertpapier vor den anstehenden Quartalszahlen. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden, abgesehen von Berichten des Boersenmagazins Der Aktionär über einen Ausverkauf und Fragen zur Lage. Bei den Analysten-Bewertungen gibt es positive Stimmen. Laut Investing.com Deutsch, einem Finanzportal, belasst JPMorgan die Einstufung auf Overweight mit einem Kursziel von zweihundertvierundsiebzig Dollar. Zurück zu Siemens Energy: Laut finanzen.ch, einem Schweizer Finanzportal, bewertet auch die UBS die Aktie mit Buy. Was die Firma gerade macht, zeigt sich in den unterschiedlichen Marktphasen: Laut der WELT, einer deutschen Tageszeitung, erholte sich der Kurs zeitweise und zeigte positive Signale, während Finanzen.net, ein deutsches Finanzportal, zeitweise auch Kurseinbussen und Verluste meldete. Wichtige Kennzahlen wurden in den aktuellen Meldungen nicht genannt. Insider-Kaeufe oder -Verkaeufe lagen ebenfalls nicht vor. Aussagen von Chefs wurden in den vorliegenden Meldungen nicht erwaehnt. Widersprueche zwischen den Quellen gab es nicht.",
+   "id": "706a0b2c02",
+   "generated_at": "2026-11-07T10:00:02Z",
+   "audio": {
+    "file": "SMEGF.mp3",
+    "hash": "f02526bd1780d52d",
+    "dur": 96.9,
+    "engine": "edge"
+   }
+  },
+  {
+   "symbol": "OKLO",
+   "name": "Oklo",
+   "text": "Oklo: Guten Tag. Wir blicken heute auf Oklo. Das Unternehmen verzeichnete nach der Vorlage der Quartalszahlen einen Kursanstieg von über zwanzig Prozent, wobei die Finanzdaten in der Berichterstattung unterschiedlich bewertet wurden. Operativ hat Oklo eine Partnerschaft mit U.S. Forged Rings geschlossen, um die inländische Fertigung von Reaktorkomponenten für das Aurora-Kraftwerk voranzutreiben. Analysten äussern sich jedoch vorsichtig: Aufgrund von Zins- und Ausführungsrisiken wurden Kursziele gesenkt. Der Analystenkonsens liegt bei einem durchschnittlichen Kursziel von fünfundsechzig Komma zwei fünf Dollar, wobei die Spanne von vierzehn Dollar bis einhundertzweiundzwanzig Dollar reicht. Zurück zu Oklo: Aktuelle Bewertungen zeigen ein gemischtes Bild: B. Riley Securities stuft die Aktie mit Kaufen bei einundsechzig Dollar ein, während TD Cowen und Truist Securities die Aktie mit Halten bei sechsundzwanzig Dollar beziehungsweise einunddreissig Dollar bewerten. Die Citigroup bleibt neutral bei dreiunddreissig Dollar, während Barclays und Piper Sandler die Aktie mit Übergewichten bei neunundfünfzig Dollar beziehungsweise neunundvierzig Dollar führen. Während MarketScreener Schweiz auf ausgeweitete Quartalsverluste hinweist, betonte CEO Jacob DeWitte in einem Interview, dass der Kursanstieg mit den Fortschritten des Unternehmens zusammenhänge. Zudem wurden Insider-Verkäufe durch Finanzchef Richard Craig Bealmear und CEO Jacob DeWitte gemeldet. Es besteht ein Widerspruch in der Berichterstattung darüber, ob die übertroffenen Gewinnerwartungen tatsächlich der Hauptgrund für den Kursanstieg waren. Dies stellt keine Anlageberatung dar.",
+   "id": "043e190fad",
+   "generated_at": "2026-11-07T05:59:34Z",
+   "audio": {
+    "file": "OKLO.mp3",
+    "hash": "f829073a324d85ad",
+    "dur": 90.9,
+    "engine": "gemini"
+   }
+  },
+  {
+   "symbol": "RYCEY",
+   "name": "Rolls-Royce",
+   "text": "Rolls-Royce zeigt sich in den aktuellen Berichten mit unterschiedlichen Kursbewegungen, wobei sowohl Phasen von Erholungen als auch zeitweise Rueckgaenge registriert wurden. Laut Rolls-Royce plc arbeitet der U-Boot-Bereich mit INFINITY zusammen, um neue Faehigkeiten fuer die britische Verteidigung zu entwickeln, und das Unternehmen praesentiert ausserdem Schiffsdieselmotoren sowie Gasturbinen auf der Messe Euronaval 2026. Das Trading-Ratgeberportal Traders Union meldet, dass Kaeuferunterstuetzung den Preisanstieg ankurbelt und die Aktie eine Erholung verzeichnet. Demgegenueber berichten Schweizer Finanzportale wie finanzen.ch zeitweise von negativen Vorzeichen und Kursrueckgaengen im Handelsverlauf. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Zurück zu Rolls-Royce: Zu den Analysten-Bewertungen teilt das Finanzportal Yahoo Finance mit, dass im Konsens ein durchschnittliches Kursziel von zweiundzwanzig Komma neun vier Dollar genannt wird, waehrend das hoechste Kursziel bei vierundzwanzig Komma sechs zwei Dollar und das niedrigste bei zwanzig Komma fünf Dollar liegt. Das erwartete Aufwaertspotenzial wird auf sechsunddreissig Komma neun Prozent beziffert. Zurueck zu Rolls-Royce: Der Nordamerika-Chef betonte laut Yahoo Finance, dass der vollelektrische Spectre zuerst ein Rolls-Royce und erst in zweiter Linie ein Elektrofahrzeug sei. Ein wichtiges Datum koennte zudem der zwölften November sein, an dem ein Handelsupdate ansteht. Insider-Kaeufe oder -Verkaeufe wurden in den aktuellen Meldungen nicht gemeldet.",
+   "id": "f8eabae3f2",
+   "generated_at": "2026-11-07T10:00:02Z",
+   "audio": {
+    "file": "RYCEY.mp3",
+    "hash": "d1ba1a20b9b62fc5",
+    "dur": 109.1,
+    "engine": "edge"
+   }
+  },
+  {
+   "symbol": "GEV",
+   "name": "GE Vernova",
+   "text": "GE Vernova unterstützt Indiens Energiewende mit einem sechs Gigawatt starken HGÜ-Übertragungsprojekt. Laut Yahoo Finance fielen die Aktien von GE Vernova um neun Komma eins Prozent, da die Erwartungen an die KI-Energie zurückgesetzt wurden. Gemäss boerse.de erreichte die GE Vernova-Aktie ein neues Sechs-Monats-Tief. Ausserdem werden laut Yahoo Finance neue Risiken durch eine Pause im KI-Rechenzentrum gesehen, und laut Barron's sanken die Aktien aufgrund von KI-Ängsten. Zu den Analysten-Bewertungen: Argus Research bestätigte die Einstufung Kaufen und nannte das Kursziel auf eintausendeinhundert Dollar. Guggenheim bestätigte Kaufen und nannte das Kursziel auf eintausendvierhundert Dollar. HSBC stufte die Aktie auf Kaufen und nannte das Kursziel auf eintausendeinhundert Dollar. Zurück zu GE Vernova: GLJ Research bestätigte Verkaufen und nannte das Kursziel auf fünfhundertvierzig Dollar. JP Morgan bestätigte Übergewichten und nannte das Kursziel auf eintausendfünfunddreissig Dollar. RBC Capital bestätigte Besser als Markt und nannte das Kursziel auf eintausendzweihundertdreissig Dollar. Aufwertend wirkt, dass GE Vernova Indiens Energiewende unterstützt, laut Multibagg AI der HGÜ-Umfang fünfundsechzig Prozent erreichen kann und laut scanx.trade Projektträger bestätigen, dass die Aktien von GE Vernova T&D India im Geschäftsjahr 2026 nicht belastet sind. Abwertend wirkt laut MarketsMojo, dass GE Vernova T&D India angesichts der Preisschwäche und rückläufigen Preisentwicklung einen starken Anstieg des Open Interest verzeichnet. Wichtige Kennzahlen kurz erklärt: Das durchschnittliche Kursziel liegt bei eintausendeinhundertdreiundachtzig Dollar, was das Mittel der Analystenerwartungen darstellt. Das Aufwärtspotenzial beträgt zweiundfünfzig Komma acht Prozent und zeigt den Abstand zum Kursziel. Der Kursrückgang betrug neun Komma eins Prozent.",
+   "id": "d123302d95",
+   "generated_at": "2026-11-07T10:56:32Z",
+   "audio": {
+    "file": "GEV.mp3",
+    "hash": "1b6c9e91bd641e4d",
+    "dur": 139.7,
+    "engine": "edge"
+   }
+  },
+  {
+   "symbol": "GE",
+   "name": "GE Aerospace",
+   "text": "GE Aerospace: Hier ist der aktuelle Überblick zur Aktie. Laut dem Finanzportal Yahoo Finance Singapore schliesst GE Aerospace Deals im Wert von zwölf Komma neun Milliarden Dollar mit China ab, was die Aktien steigen lässt. Zudem bricht die Aktie laut Yahoo Finance Singapore kürzlich über den gleitenden zweihundert-Tage-Durchschnitt aus. GE Aerospace arbeitet ausserdem mit BETA Technologies beim weltweit ersten Hybrid-Elektro-gestützten Start eines Verkehrsflugzeugs zusammen. In den vorliegenden Meldungen wurden keine rechtlichen Probleme gefunden, allerdings berichtet das Trading-Ratgeberportal Traders Union von gemischten institutionellen Schritten und wirft die Frage auf, ob GE grössere Verluste vermeiden kann. Zurück zu GE Aerospace: Schauen wir auf die Analysten-Bewertungen. Laut Yahoo Finance liegt das durchschnittliche Kursziel bei dreihundertachtundsiebzig Dollar, wobei zwanzig Kaufeinstufungen und vier starke Käufe vorliegen. Die UBS bestätigt ihr Rating Kaufen mit einem Kursziel von dreihundertachtzig Dollar. BNP Paribas stuft die Aktie als schlechter als Markt ein mit einem Kursziel von zweihundertachtzig Dollar. JP Morgan stuft die Aktie als übergewichten ein mit dreihundertfünfundsiebzig Dollar Kursziel. Susquehanna bewertet die Aktie positiv bei einem Kursziel von vierhundert Dollar. RBC Capital sieht die Einstufung als besser als Markt mit dreihundertfünfundsiebzig Dollar Kursziel, und Morgan Stanley stuft sie als übergewichten ein bei dreihundertfünfundsiebzig Dollar Kursziel. Was macht die Firma gerade? GE Aerospace arbeitet mit Partnern wie SNC, BAE Systems und Collins Aerospace an der Aktualisierung der KC-einhundertfünfunddreissig-Mittelkonsole und sichert sich Aufträge für LM2500-Schiffsgasturbinen zum Antrieb von Arleigh-Burke-Flug-III-Zerstörern. Wichtige Kennzahlen sind das durchschnittliche Kursziel der Analysten von dreihundertachtundsiebzig Dollar sowie die China-Deals im Volumen von zwölf Komma neun Milliarden Dollar. Bei den Insidern gab es Verkäufe: So hat Vice President Robert M. Giglietti am vierten November 2026 Aktien im Wert von rund vier Komma neun Millionen Dollar verkauft. Keine Anlageberatung.",
+   "id": "32c78c5a92",
+   "generated_at": "2026-11-07T10:00:02Z",
+   "audio": {
+    "file": "GE.mp3",
+    "hash": "b27be210c68cbcc8",
+    "dur": 158.9,
+    "engine": "edge"
+   }
+  },
+  {
+   "symbol": "013A.F",
+   "name": "JD.com",
+   "text": "JD.com: Im Fokus stehen derzeit bedeutende strategische Schritte und regulatorische Entscheidungen. Laut dem EU Reporter, einer europäischen Nachrichtenplattform, hat die Europäische Kommission die Übernahme von Ceconomy durch JD.com unter Auflagen im Rahmen der Verordnung über ausländische Subventionen genehmigt. Gleichzeitig meldet TradingView, eine Chart- und Börsenplattform, dass die Aktien von JD.com sieben Handelssitzungen in Folge zulegen konnten. Zudem kündigte die Firma selbst über ir.jd.com an, die Finanzergebnisse für das dritte Quartal 2026 am siebzehnten November 2026 vorzulegen. Zu den Risiken und rechtlichen Aspekten ist zu sagen, dass die EU-Kommission die genannte Übernahme an Bedingungen geknüpft hat, wie der EU Reporter und Netz Trends berichten. Betrachtet man die Analysten-Bewertungen, so zeigt sich ein differenziertes Bild mit Kurszielanpassungen. Barclays bestätigte die Einstufung als Übergewichten und senkte das Kursziel auf achtunddreissig Dollar. B of A Securities bestätigte das Rating Kaufen und reduzierte das Kursziel auf siebenunddreissig Dollar. Susquehanna beliess die Einstufung auf Neutral und senkte das Kursziel auf dreissig Dollar. Zurück zu JD.com: Operativ treibt das Unternehmen laut Growth Dragons seine Expansion in Europa voran und hat laut dem Seoul Economic Daily die Freigabe erhalten, Europas führenden Elektronikhändler Ceconomy zu übernehmen, wobei die Kanzlei Baker McKenzie laut Legal Desire die regulatorischen Genehmigungen erfolgreich begleitet hat. In den vorliegenden Meldungen wurden keine nennenswerten Kennzahlen oder Insider-Handelsaktivitäten genannt. Auch Aussagen des Managements liegen für diesen Berichtszeitraum nicht vor. Bezüglich möglicher Widersprüche berichten verschiedene Quellen über die Auflagen zur Ceconomy-Übernahme, wobei einige Details der EU-Auflagen betonen, während andere die grundsätzliche bedingte Freigabe durch die Kommission hervorheben. Keine Anlageberatung.",
+   "id": "c5f660f7a8",
+   "generated_at": "2026-11-07T10:56:32Z",
+   "audio": {
+    "file": "013A.F.mp3",
+    "hash": "bbaf403613aaefdd",
+    "dur": 143.8,
+    "engine": "edge"
+   }
+  },
+  {
+   "symbol": "BRK-B",
+   "name": "Berkshire Hathaway",
+   "text": "Berkshire Hathaway stand laut The Globe and Mail zuletzt auf Rekordniveau, während Investoren besonders auf die Quartalszahlen und den grossen Bargeldbestand blicken. Laut Bloomberg.com wird Berkshires Umstellung auf Wetten im Bereich der Künstlichen Intelligenz derzeit einer Realitätsprüfung unterzogen. Ein Energieversorger von Berkshire Hathaway fordert zudem von den kalifornischen Aufsichtsbehörden eine Tariferhöhung um siebenundfünfzig Prozent. Zur Analystenbewertung sagt Yahoo Finance, dass im Konsens zwei Kaufempfehlungen und zwei Halteempfehlungen vorliegen. Zurück zu Berkshire Hathaway: Das durchschnittliche Kursziel liegt bei fünfhundertsechsundfünfzig Dollar, während die UBS ein Kursziel von sechshundertachtundzwanzig Dollar nannte. Die Finanzgesellschaft Financial Select Sector SPDR kaufte laut Yahoo Finance weitere Berkshire-Aktien im Wert von rund siebzig Komma neun Millionen Dollar, und Nachfolger Greg Abel tätigte in diesem Jahr zwei grosse Akquisitionen, die weniger als fünf Prozent des Bargeldbestands kosteten. Als wichtige Kennzahl wird das durchschnittliche Kursziel von fünfhundertsechsundfünfzig Dollar genannt, was ein Potenzial zum Kursziel von minus zwei Komma sieben Prozent bedeutet. Bei den Insider-Transaktionen gab es Käufe und Verkäufe durch den Grossaktionär Berkshire Hathaway Inc, ausserdem verkaufte Vizepräsident und Verwaltungsrat Ajit Jain Aktien im Wert von rund zwanzig Millionen Dollar, und Manager Michael J. O'Sullivan kaufte Aktien im Wert von rund zweihundertfünfzigtausend Dollar.",
+   "id": "b9fe72cc4b",
+   "generated_at": "2026-11-07T10:56:32Z",
+   "audio": {
+    "file": "BRK-B.mp3",
+    "hash": "73421cfac10488c3",
+    "dur": 105.1,
+    "engine": "edge"
+   }
+  },
+  {
+   "symbol": "0VR3.L",
+   "name": "ZKB Gold ETF",
+   "text": "ZKB Gold ETF: In den vorliegenden Berichten stehen die Entwicklung des Goldpreises und Markttrends im Fokus. Laut CNBC TV18 bereiten sich Juweliere in Dubai auf Feiertage wie Dhanteras vor. Gleichzeitig berichtet The Economic Times, dass starke US-Arbeitsmarktdaten den Dollar und die Renditen ankurbeln, was den Goldpreis belastet. Livemint meldet, dass Edelmetalle nach starken US-Arbeitsmarktdaten volatil sind, aber auf dem Weg bleiben, ihre Verluststrähnen zu beenden. Zurück zu ZKB Gold ETF: FXStreet berichtet, dass ein Analyst zwanzig Prozent mehr Aufwärtspotenzial sieht, während zwei weitere Analysten davor warnen, dass der Aufschwung nach den Wahlen möglicherweise nicht von Dauer ist. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Zu Analysten-Bewertungen gibt es unterschiedliche Stimmen, wobei ein Analyst ein weiteres Aufwärtspotenzial von zwanzig Prozent prognostiziert, während andere zur Vorsicht mahnen. Was die Aktivitäten betrifft, so profitiert der Markt von der Nachfrage rund um traditionelle Festtage, während stark ausfallende US-Arbeitsmarktdaten und ein stärkerer Dollar als bremsende Faktoren wirken. Es wurden keine spezifischen Kennzahlen, Insider-Käufe oder Verkäufe sowie keine Aussagen von Chefs übermittelt.",
+   "id": "bfea049586",
+   "generated_at": "2026-11-07T11:52:59Z",
+   "audio": {
+    "file": "0VR3.L.mp3",
+    "hash": "71e7554753f98502",
+    "dur": 88.3,
+    "engine": "edge"
+   }
+  },
+  {
+   "symbol": "BKW.SW",
+   "name": "BKW AG",
+   "text": "BKW AG: Das deutsche Börsenportal boerse.de berichtet über eine Abstufung der BKW AG Namenaktie beim BOTSI-Advisor von Rang zweihundertvierzig, während das Schweizer Finanzportal finanzen.ch über Kursbewegungen mit teils Einbussen und Kursgewinnen berichtet. Zudem plant der Energiekonzern die Abschaltung der Rundsteuerung Ende 2029. In den vorliegenden Meldungen wurden keine rechtlichen Probleme gefunden. Zu den Analysten liegen Daten von Yahoo Finance vor, die von sechs Analysten ein durchschnittliches Kursziel von einhundertvierundsiebzig Dollar und eine erwartete Kurssteigerung von dreizehn Komma sechs Prozent nennen. Die genannten Kursziele reichen von einem tiefen Kursziel von einhundertvierzig Dollar bis zu einem hohen Kursziel von zweihundertacht Dollar. Zurück zu BKW AG: Das Unternehmen zeigt an den Börsen teils Kursplus-Phasen, verzeichnete zeitweise aber auch Abschläge. Als wichtige Kennzahlen sind das durchschnittliche Kursziel von einhundertvierundsiebzig Dollar sowie die erwartete Kurssteigerung von +dreizehn Komma sechs Prozent zu nennen. Insider-Käufe oder -Verkäufe wurden in den Berichten nicht aufgeführt. Keine Anlageberatung.",
+   "id": "f5de01363e",
+   "generated_at": "2026-11-07T10:00:02Z",
+   "audio": {
+    "file": "BKW.SW.mp3",
+    "hash": "13cd4442af776033",
+    "dur": 85.1,
+    "engine": "edge"
+   }
+  },
+  {
+   "symbol": "UBSG.SW",
+   "name": "UBS Group",
+   "text": "UBS Group: Gemäss den vorliegenden Berichten steht die Aktie des Finanzinstituts im Fokus von Marktbewegungen und Analysteneinschätzungen. Laut Cash, einem Schweizer Finanzportal, hebt RBC Capital Markets das Kursziel an, während die Aktie zeitweise Kursverluste verzeichnet. Zurück zu UBS Group: Laut boerse.de, einem deutschen Börsenportal, rutscht die Aktie unter die fünfzig-Tage-Linie, und finanzen.ch, ein Schweizer Finanzportal, meldet an mehreren Handelstagen Kursabschläge sowie schwächere Notierungen. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Zu den Analysten-Bewertungen mit Begründung: RBC Capital Markets bewertet die Aktie mit Outperform und erhöht das Kursziel auf rund einundsechzig Dollar, gestützt auf positive Einschätzungen im Markt. Yahoo Finance Singapore weist auf ein Analysten-Konsens von insgesamt siebzehn Experten hin, welches sieben Kaufempfehlungen, acht Halteempfehlungen, zwei Verkaufsempfehlungen, zwei starke Kaufempfehlungen und eins starke Verkaufsempfehlung umfasst, bei einem mittleren Kursziel von rund siebenundsechzig Dollar und einem prognostizierten Aufwärtspotenzial von dreizehn Komma sechs Prozent. Was die Firma gerade macht: Aufwertend wirkt, dass RBC Capital Markets das Kursziel erhöht hat und die Aktie laut Cash einem schwachen Markt trotzt. Abwertend wirken hingegen die von finanzen.ch gemeldeten Kursabschläge am Nachmittag sowie die Notierung unter der fünfzig-Tage-Linie laut boerse.de. Zu den wichtigen Kennzahlen kurz erklärt: Das mittlere Kursziel liegt bei rund siebenundsechzig Dollar, was den durchschnittlichen Erwartungen der Analysten entspricht. Das Aufwärtspotenzial beträgt dreizehn Komma sechs Prozent und zeigt den prozentualen Abstand zum aktuellen Durchschnittskurs. In den vorliegenden Meldungen wurden keine Insider-Käufe oder Insider-Verkäufe erwähnt. Es liegen keine Aussagen von Chefs oder dem Management in den aktuellen Meldungen vor. Es gibt keine Widersprüche zwischen den berücksichtigten Quellen. Keine Anlageberatung.",
+   "id": "e4a3085816",
+   "generated_at": "2026-11-07T11:52:59Z",
+   "audio": {
+    "file": "UBSG.SW.mp3",
+    "hash": "d881efd83bd4c851",
+    "dur": 147.3,
+    "engine": "edge"
+   }
+  },
+  {
+   "symbol": "1211.HK",
+   "name": "BYD",
+   "text": "BYD steht heute im Fokus verschiedener Finanzberichte und Chartanalysen. Laut boerse.de, einem deutschen Börsenportal, bewegte sich die BYD-Aktie um wichtige Durchschnitte wie die zwanzig-Tage- und achtunddreissig-Tage-Linie. Zudem berichtet Wallstreet Online, dass die Aktie zeitweise den fünften Handelstag in Folge steigt. Ein Blick auf die Analystenbewertungen bei Yahoo Finance zeigt: Von insgesamt sechsundzwanzig Analysten empfehlen sechs zum starken Kauf, dreiundzwanzig zum Kauf und vier zum Halten. Das durchschnittliche Kursziel beträgt dreizehn Komma neun drei Dollar, mit einem Höchstwert von siebzehn Komma zwei fünf Dollar und einem Tiefstwert von sieben Komma sechs vier Dollar. Zurück zu BYD: Das Unternehmen zeigt sich operativ aktiv. Laut Yahoo Finance wird BYD in einem Bericht zur umweltfreundlichen Elektronikfertigung neben Firmen wie Apple und Foxconn genannt, wobei für diesen Markt bis zum Jahr 2032 ein Volumen von neunzig Komma acht Milliarden Dollar und eine jährliche Wachstumsrate von vierundzwanzig Komma sechs Prozent prognostiziert wird. Ausserdem kooperiert das Unternehmen laut Traders Union mit Iberdrola bei der Einführung des Angebots Plan Recarga Inteligente, und sharedeals.de meldet ein Dementi gegen Gewinnzweifel bei der BYD-Aktie mit einer Aktienbewegung von plus vier Komma fünf Prozent. Bei den Chartdaten zeigen sich leichte Widersprüche, da boerse.de einerseits meldet, die BYD Electronic-Aktie liege unter der achtunddreissig-Tage-Linie, andererseits aber auch von der BYD-Aktie über der achtunddreissig-Tage-Linie berichtet wird.",
+   "id": "6c07c22a4a",
+   "generated_at": "2026-11-07T09:03:21Z",
+   "audio": {
+    "file": "1211.HK.mp3",
+    "hash": "72b317456c51249d",
+    "dur": 115.2,
+    "engine": "edge"
+   }
+  },
+  {
+   "symbol": "BNTX",
+   "name": "BioNTech SE",
+   "text": "BioNTech SE steht im Fokus der Anleger, da das Unternehmen laut der kanadischen Tageszeitung The Globe and Mail widersprüchliche Analystenansichten erhalten hat. Das deutsche Börsenportal Wallstreet Online meldet zudem, dass die Aktie stark polarisiert, während das Trading-Ratgeberportal Traders Union über Kursrückgänge von vier Komma drei Prozent an einem Tag berichtet. Bezüglich der Analystenbewertungen zeigt sich ein gemischtes Bild: Die UBS bewertet die Aktie mit Kaufen und sieht ein Kursziel von einhundertfünfundzwanzig Dollar vor. Morgan Stanley stuft die Aktie mit Übergewichten ein mit einem Kursziel von einhundertsechs Dollar. Wells Fargo bewertet die Aktie ebenfalls mit Übergewichten und nennt ein Kursziel von einhundertfünfundzwanzig Dollar. Zurück zu BioNTech SE: Die Evercore ISI Group führt die Bewertung als Besser als Markt mit einem Kursziel von einhundertzehn Dollar, und Canaccord Genuity nannte im Oktober die Einstufung Kaufen mit einem Kursziel von einhundertzweiunddreissig Dollar. Was die aktuelle Situation der Firma betrifft, verweist Wallstreet Online auf Argumente für einen möglichen Anstieg, während Traders Union auf die jüngsten Kursverluste hinweist. Zu den wichtigen Kennzahlen gehört das von Yahoo Finance genannte durchschnittliche Kursziel von einhundertfünfzehn Dollar, das als Richtwert für die Markterwartungen dient. Das höchste Kursziel liegt bei einhundertdreiundvierzig Dollar und das tiefste Kursziel bei fünfundsiebzig Komma sechs drei Dollar. Bei den Insidergeschäften zeigen Daten der US-Börsenaufsicht SEC EDGAR, dass der Chef und Grossaktionär Ugur Sahin im September und Oktober 2026 im Rahmen geplanter Verkäufe mehrere Aktienpakete veräussert hat.",
+   "id": "fc3706a2c0",
+   "generated_at": "2026-11-07T11:52:59Z",
+   "audio": {
+    "file": "BNTX.mp3",
+    "hash": "76def0c186864b91",
+    "dur": 117.0,
+    "engine": "edge"
+   }
+  },
+  {
+   "symbol": "ABBN.SW",
+   "name": "ABB LTD",
+   "text": "ABB LTD: Im Fokus der Berichterstattung stehen regulatorische Huerden und Kursbewegungen beim Industriekonzern ABB. Laut dem US-Finanznachrichtendienst Bloomberg hat China die geplante Uebernahme der Robotiksparte von ABB durch SoftBank blockiert. Wie die US-Plattform mit Anlegerbeitraegen Seeking Alpha meldet, hat ABB diesen Stopp der Transaktion mit einem Volumen von fünf Komma vier Milliarden Dollar bestaetigt, da Aufsichtsbehörden den Verkauf untersagt haben. Das Finanzportal Yahoo Finance verzeichnet einen Analystenkonsens mit zwei starken Kaeufen, fuenf Kaeufen, zwanzig Halteempfehlungen, einem Verkauf sowie einem starken Verkauf und einem durchschnittlichen Kursziel von neunundneunzig Komma acht Dollar. Was macht die Firma gerade? Zurück zu ABB LTD: Als aufwertend wird genannt, dass das Launceston Aquatic Centre mit Motor- und Antriebstechnologien von ABB jaehrliche Einsparungen von mehr als zweiundfünfzigtausendachthundertneunundneunzig Dollar erzielt. Zudem fuehrt die Gesellschaft laut der Chart- und Boersenplattform TradingView Aktienrueckkaeufe voran. Als abwertend berichtet das Finanzportal MarketScreener Schweiz, dass die Aktie nach dem geplatzten Robotik-Verkauf Schwaeche zeigte und zu tieferen Kursen fuehrte. Wichtige Kennzahlen kurz erklaert: Das Transaktionsvolumen von fünf Komma vier Milliarden Dollar beziffert den finanziellen Wert der blockierten Uebernahme, waehrend das durchschnittliche Kursziel von neunundneunzig Komma acht Dollar das von Analysten erwartete mittlere Kursziel der Aktie markiert. Beide Kennzahlen sind wichtig, um die juengsten Entwicklungen einzuordnen.",
+   "id": "567f2cfb83",
+   "generated_at": "2026-11-07T09:03:21Z",
+   "audio": {
+    "file": "ABBN.SW.mp3",
+    "hash": "5a2fc081e05ecc69",
+    "dur": 110.3,
+    "engine": "edge"
+   }
+  },
+  {
+   "symbol": "STX",
+   "name": "Seagate Technology Holdings PLC",
+   "text": "Seagate Technology Holdings PLC: Laut Yahoo Finance verzeichnet das Unternehmen aktuelle Kursbewegungen und Analystenberichte. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden, abgesehen von politischen Forderungen nach einer Pause in der künstlichen Intelligenz, die den Kurs belasteten. Zurück zu Seagate Technology Holdings PLC: Die Analysen der Banken zeigen verschiedene Einstufungen. Die UBS bestätigt ihr neutrales Rating und senkt das Kursziel auf siebenhundertfünfzig Dollar. Die Citigroup bestätigt den Kauf und senkt das Kursziel auf eintausendfünfzig Dollar. Wells Fargo bleibt bei Übergewichten mit einem neuen Kursziel von achthundertzwanzig Dollar. TD Cowen bestätigt den Kauf bei einem Ziel von neunhundert Dollar. Wedbush belässt das Kursziel unverändert bei eintausend Dollar und die Einschätzung bei Besser als Markt, während Susquehanna neutral bleibt und das Kursziel auf siebenhundertfünfundsechzig Dollar senkt. Was die Firma aktuell macht, zeigt sich an Zukäufen wie durch Capital Group Growth, die am vierten November weitere Aktien im Wert von sechzehn Komma acht Millionen Dollar erwarben, was aufwertend wirkt. Demgegenüber steht ein Kursrückgang von sechzehn Prozent, ausgelöst durch Diskussionen um die Regulierung der künstlichen Intelligenz, was abwertend wirkt. Wichtige Kennzahlen sind das durchschnittliche Kursziel der Analysten von rund eintausendfünfundvierzig Dollar sowie der aktuelle Aktienkurs von vierhunderteinundsechzig Dollar. Zu Insider-Aktivitäten ist bekannt, dass William D Mosley am zweiten November Aktien im Wert von rund vier Komma zwei Millionen Dollar verkaufte. Keine Anlageberatung.",
+   "id": "f969864b42",
+   "generated_at": "2026-11-07T10:56:32Z",
+   "audio": {
+    "file": "STX.mp3",
+    "hash": "f7d97a1c6a7ebfd9",
+    "dur": 118.2,
+    "engine": "edge"
+   }
+  },
+  {
+   "symbol": "MU",
+   "name": "Micron Technology, Inc.",
+   "text": "Micron Technology, Inc.: Bei Micron Technology verzeichnete die Aktie im Rahmen einer allgemeinen Markterholung der Chipwerte starke Kursgewinne. Analysten und Marktbeobachter diskutieren intensiv die Positionierung des Unternehmens beim Ausbau im Bereich der kuenstlichen Intelligenz im Vergleich zur Konkurrenz. Dabei spielen laut Berichten von Seeking Alpha vor allem in Amerika hergestelltes DRAM als moeglicher Wettbewerbsvorteil sowie neue Fabriken eine Rolle, die im Jahr 2027 an den Start gehen sollen. Gemaess Daten von Yahoo Finance liegt das durchschnittliche Kursziel von fünfundvierzig Analysten bei rund eintausendfünfhundertzweiundsechzig Dollar, wobei die Spanne von einem tiefen Ziel bei dreihunderteinundsechzig Dollar bis zu einem hohen Ziel von dreitausend Dollar reicht. Zurück zu Micron Technology, Inc.: Der Analystenkonsens umfasst neun starke Kaeufe, fünfundvierzig Kaeufe und vier Halte-Empfehlungen. Juengere Bewertungen umfassen unter anderem Rosenblatt mit einem Kursziel von eintausendneunhundert Dollar, Needham mit eintausendsechshundertfünfzig Dollar, DA Davidson mit dreitausend Dollar, Mizuho mit eintausendvierhundert Dollar sowie Morgan Stanley mit eintausendzweihundert Dollar. Auf der Insider-Seite gab es offizielle Pflichtmeldungen zu Verkaeufen. So verausserte Scott J Deboer im Rahmen eines geplanten Plans achtundzwanzigtausendfünfhundertfünfundvierzig Aktien im Wert von rund fünfundzwanzig Komma sieben Millionen Dollar, waehrend Michael Charles Ray planmaessig Aktienpakete im Wert von rund achtunddreissigtausend Dollar sowie rund fünf Komma acht Millionen Dollar verkaufte.",
+   "id": "2a7c38fed8",
+   "generated_at": "2026-11-07T10:56:32Z",
+   "audio": {
+    "file": "MU.mp3",
+    "hash": "7c346276947da5fd",
+    "dur": 105.9,
+    "engine": "edge"
+   }
+  },
+  {
+   "symbol": "DRO.AX",
+   "name": "DroneShield Limited",
+   "text": "DroneShield Limited: In den vorliegenden Meldungen gibt es Berichte und Daten zur Aktie, die wir hier zusammenfassen. Laut sharedeals.de steht die Aktie von DroneShield Limited im Fokus, wobei ein möglicher Kursrückgang von zwanzig Prozent im Raum steht. Yahoo Finance meldet insgesamt vier Analysten, die eine Einschätzung abgeben, darunter zwei Kaufempfehlungen, eins Halteempfehlung und eins Verkaufsempfehlung. Das durchschnittliche Kursziel liegt bei rund eins Komma vier Dollar, was ein Aufwärtspotenzial von rund zweiundsechzig Komma zwei Prozent bedeutet. Als wichtige Kennzahl ist das durchschnittliche Kursziel von rund eins Komma vier Dollar zu nennen, welches den von Experten erwarteten Wert der Aktie abbildet. Insider-Käufe oder -Verkäufe wurden in den Daten nicht aufgeführt. Aussagen von Chefs liegen in den vorliegenden Berichten ebenfalls nicht vor. Widersprüche zwischen den verschiedenen Quellen sind nicht erkennbar.",
+   "id": "1e2d59113c",
+   "generated_at": "2026-11-04T15:14:09Z",
+   "audio": {
+    "file": "DRO.AX.mp3",
+    "hash": "9e9b75a9e334c66a",
+    "dur": 66.1,
+    "engine": "edge"
+   }
+  }
+ ],
+ "with_audio": 39,
+ "intro_audio": {
+  "file": "_intro.mp3",
+  "hash": "4d93f7de038aca4f",
+  "dur": 17.9,
+  "engine": "edge"
+ },
+ "outro_audio": {
+  "file": "_outro.mp3",
+  "hash": "2d191fd919722fb0",
+  "dur": 10.2,
+  "engine": "edge"
+ },
+ "audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@bc3fdcd024bbd7398cd99314d0311b540daf8c36/data/audio/"
 }
