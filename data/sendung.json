@@ -1,6 +1,215 @@
 {
 "episodes": [
 {
+"id": "2026-11-07-w",
+"kind": "woche",
+"date": "2026-11-07",
+"title": "Wochenrückblick, Samstag, siebten November",
+"generated_at": "2026-11-07T07:52:03Z",
+"writer": "Vorlage aus den Daten",
+"chapters": [
+{
+"name": "Begrüssung",
+"say": "Willkommen zum Wochenrückblick vom Aktien-Radar, heute Samstag, siebten November. Wir gehen deine Aktien einzeln durch: Kurs der Woche in Dollar, neue Bewertungen von Banken und die wichtigsten Firmen-Meldungen. Danach der Kalender der Quartalszahlen für nächste Woche und ein Begriff zum Lernen. Kurz vorweg: Alles stammt aus gesammelten Daten und Schlagzeilen, Beträge nenne ich in Dollar. Das ist keine Anlageberatung.",
+"audio": {
+"file": "sendung/2026-11-07-w_00.mp3",
+"hash": "5e6a3374b2960298",
+"dur": 30.1
+}
+},
+{
+"name": "Microsoft",
+"sym": "MSFT",
+"say": "Zur Aktie Microsoft. Der Kurs von Microsoft veränderte sich in den letzten fünf Handelstagen um plus null Komma drei Prozent auf fünfhundertdreissig Dollar und einundsechzig Cent. Diese Woche gab es zu Microsoft keine neuen Bewertungen von Banken in den Daten. Das durchschnittliche Kursziel für Microsoft liegt bei sechshundertvierunddreissig Dollar und vierzehn Cent. Barron's meldet am sechsten November: Microsoft wird Vertrag für die Anmietung von KI-Cloud-Kapazität von Oracle nicht verlängern: Bericht. Reuters meldet am sechsten November: Das KI-Rechenzentrumsunternehmen IREN verzögert die Auslieferung von Microsoft KI und plant eine Ausgabenerhöhung in Höhe von fünfzehn Milliarden Dollar. Microsoft Source meldet am fünften November: Wie Microsofts kommende Rechenzentrumsregion Südostasien drei die multiregionalen Cloud-Möglichkeiten Malaysias erweitern wird. Ob diese Meldungen Microsoft stärken oder schwächen, lässt sich aus den Schlagzeilen allein nicht sicher sagen. Das war Microsoft.",
+"audio": {
+"file": "sendung/2026-11-07-w_01.mp3",
+"hash": "cc0772e5f2baf8be",
+"dur": 73.7
+}
+},
+{
+"name": "Nvidia",
+"sym": "NVDA",
+"say": "Zur Aktie Nvidia. Der Kurs von Nvidia veränderte sich in den letzten fünf Handelstagen um minus elf Prozent auf einhundertsechsundachtzig Dollar und vierundsechzig Cent. Melius Research bestätigt, Empfehlung Kaufen, Kursziel dreihundertfünfzehn Dollar nach vorher vierhundertzwanzig Dollar. Das durchschnittliche Kursziel für Nvidia liegt bei dreihundertsiebenundzwanzig Dollar und vierzehn Cent. MarketWatch meldet am sechsten November: Nvidia-, AMD- und andere Chip-Aktien erholen sich – aber ist die Erleichterung nach dem „gewaltsamen“ Ausverkauf nur vorübergehend?. MarketWatch meldet am sechsten November: Nvidia, AMD und andere Chip-Aktien erholen sich. Ist der „gewaltsame“ KI-Ausverkauf vorbei?. Yahoo Finance meldet am siebten November: Cathie Wood-Led Ark investiert in GOOG-, AMD-, NVDA- und Biotech-Aktien – verkauft aber CRWV, AVGO, LLY. Ob diese Meldungen Nvidia stärken oder schwächen, lässt sich aus den Schlagzeilen allein nicht sicher sagen. Das war Nvidia.",
+"audio": {
+"file": "sendung/2026-11-07-w_02.mp3",
+"hash": "5a38b925734f278e",
+"dur": 75.3
+}
+},
+{
+"name": "Meta",
+"sym": "META",
+"say": "Zur Aktie Meta. Der Kurs von Meta veränderte sich in den letzten fünf Handelstagen um minus eins Komma vier Prozent auf sechshundertzehn Dollar und fünfzehn Cent. Diese Woche gab es zu Meta keine neuen Bewertungen von Banken in den Daten. Das durchschnittliche Kursziel für Meta liegt bei achthundertachtundvierzig Dollar und achtunddreissig Cent. Investor's Business Daily meldet am sechsten November: KI-Handel, Alphabet und Meta verlieren an Fahrt, da der Medizin- und Energiesektor Investoren anzieht. The Globe and Mail meldet am sechsten November: Aktiensplit-Überwachung: Kommen Meta-Plattformen als nächstes?. Investing.com India meldet am siebten November: Form vier Meta Platforms Inc: Mark Zuckerberg (Direktor, zehn Prozent Eigentümer, COB und CEO) Für: vierten November Von Investing.com. Ob diese Meldungen Meta stärken oder schwächen, lässt sich aus den Schlagzeilen allein nicht sicher sagen. Das war Meta.",
+"audio": {
+"file": "sendung/2026-11-07-w_03.mp3",
+"hash": "22f6496da1e0bb4b",
+"dur": 73.5
+}
+},
+{
+"name": "Amazon",
+"sym": "AMZN",
+"say": "Zur Aktie Amazon. Der Kurs von Amazon veränderte sich in den letzten fünf Handelstagen um plus zwei Komma sechs Prozent auf zweihundertneunundfünfzig Dollar und dreissig Cent. Freedom Broker bestätigt, Empfehlung Kaufen, Kursziel dreihundertdreissig Dollar nach vorher zweihundertfünfundfünfzig Dollar. Das durchschnittliche Kursziel für Amazon liegt bei dreihundertsechsundzwanzig Dollar und fünfundachtzig Cent. The Globe and Mail meldet am sechsten November: Andy Jassy, ​​CEO von Amazon, hat gerade grosse Neuigkeiten für Amazon-Investoren bekannt gegeben. Barron's meldet am sechsten November: Warum Amazon und andere KI-Rechenzentrumsaktien nach der Halbzeit zu den Gewinnern gehören werden. Yahoo Finance meldet am fünften November: Amazon fordert Google Shopping mit direkten Produkt-Feeds heraus. Ob diese Meldungen Amazon stärken oder schwächen, lässt sich aus den Schlagzeilen allein nicht sicher sagen. Das war Amazon.",
+"audio": {
+"file": "sendung/2026-11-07-w_04.mp3",
+"hash": "0b1311145c8d2564",
+"dur": 67.5
+}
+},
+{
+"name": "Micron",
+"sym": "MU",
+"say": "Zur Aktie Micron. Der Kurs von Micron veränderte sich in den letzten fünf Handelstagen um minus zweiundzwanzig Komma eins Prozent auf sechshundertneunzig Dollar. Diese Woche gab es zu Micron keine neuen Bewertungen von Banken in den Daten. Das durchschnittliche Kursziel für Micron liegt bei eintausendfünfhunderteinundsechzig Dollar und einundneunzig Cent. The Globe and Mail meldet am fünften November: Nicht Nvidia. Nicht Micron. Dieses niederländische Unternehmen kontrolliert einen wichtigen Engpass in der KI-Chip-Produktion. Investing.com UK meldet am siebten November: Form vier Micron Technology Inc. Für: siebten November Von Investing.com. Yahoo Finance meldet am sechsten November: Stock Market Today, Nov. sechs: Micron Technology Jumps as Chip Stocks Rebound From Thursday's Rout. Ob diese Meldungen Micron stärken oder schwächen, lässt sich aus den Schlagzeilen allein nicht sicher sagen. Das war Micron.",
+"audio": {
+"file": "sendung/2026-11-07-w_05.mp3",
+"hash": "0d38e74e6623b946",
+"dur": 72.7
+}
+},
+{
+"name": "Arm",
+"sym": "ARM",
+"say": "Zur Aktie Arm. Der Kurs von Arm veränderte sich in den letzten fünf Handelstagen um minus fünfzehn Komma fünf Prozent auf einhundertvierundsiebzig Dollar und zweiundsechzig Cent. UBS bestätigt, Empfehlung Kaufen, Kursziel zweihundertsiebzig Dollar nach vorher dreihundertzwanzig Dollar. JP Morgan bestätigt, Empfehlung Übergewichten, Kursziel zweihundertfünfundvierzig Dollar nach vorher zweihundertfünfundfünfzig Dollar. TD Cowen bestätigt, Empfehlung Kaufen, Kursziel zweihundertfünfzig Dollar nach vorher dreihundertfünfzig Dollar. RBC Capital bestätigt, Empfehlung Besser als Markt, Kursziel dreihundert Dollar nach vorher dreihundertvierzig Dollar. Das durchschnittliche Kursziel für Arm liegt bei zweihundertachtundachtzig Dollar und achtundfünfzig Cent. CNBC TV18 meldet am fünften November: Die Aktien von Arm Holdings schliessen über fünf Prozent niedriger, da die Umsatzprognose für KI-Rechenzentren die Schätzungen kaum übertrifft. Arm Newsroom meldet am vierten November: Arm liefert im zweiten Quartal ein Rekordergebnis und erreicht einen Gesamtumsatz von eins Komma vier Milliarden Dollar. Yahoo Finance meldet am fünften November: Chip-Aktien fallen nach dem Aufschwung, berichtet Qualcomm. Ob diese Meldungen Arm stärken oder schwächen, lässt sich aus den Schlagzeilen allein nicht sicher sagen. Das war Arm.",
+"audio": {
+"file": "sendung/2026-11-07-w_06.mp3",
+"hash": "adde8754aa194248",
+"dur": 98.0
+}
+},
+{
+"name": "Palantir",
+"sym": "PLTR",
+"say": "Zur Aktie Palantir. Der Kurs von Palantir veränderte sich in den letzten fünf Handelstagen um minus vierzehn Komma vier Prozent auf einhundertsechzig Dollar und achtunddreissig Cent. Barclays bestätigt, Empfehlung Übergewichten, Kursziel zweihundertdreiundsiebzig Dollar nach vorher zweihundertfünfundsechzig Dollar. Citigroup bestätigt, Empfehlung Kaufen, Kursziel zweihundertfünfundsechzig Dollar nach vorher zweihundertfünfzig Dollar. Truist Securities bestätigt, Empfehlung Kaufen, Kursziel zweihundertfünfzig Dollar nach vorher zweihundertdreiundzwanzig Dollar. DA Davidson bestätigt, Empfehlung Kaufen, Kursziel zweihundertfünfzig Dollar. Das durchschnittliche Kursziel für Palantir liegt bei zweihundertsiebzehn Dollar und siebenundneunzig Cent. The Globe and Mail meldet am sechsten November: Die grösste Erkenntnis aus dem neuesten Quartalsbericht von Palantir Technologies ist ein potenzielles Warnsignal, das Anleger nicht verpassen sollten. SEC EDGAR meldet am zweiten November: Palantir: Wichtige Mitteilung (acht-K) – Geschäftszahlen, Information an Investoren. Investing.com South Africa meldet am siebten November: Form vier Palantir Technologies Inc. Für: siebten November Von Investing.com. Ob diese Meldungen Palantir stärken oder schwächen, lässt sich aus den Schlagzeilen allein nicht sicher sagen. Das war Palantir.",
+"audio": {
+"file": "sendung/2026-11-07-w_07.mp3",
+"hash": "65161d05eeaf1689",
+"dur": 100.2
+}
+},
+{
+"name": "Intel",
+"sym": "INTC",
+"say": "Zur Aktie Intel. Der Kurs von Intel veränderte sich in den letzten fünf Handelstagen um minus dreizehn Prozent auf sechsundfünfzig Dollar und achtundzwanzig Cent. Diese Woche gab es zu Intel keine neuen Bewertungen von Banken in den Daten. Das durchschnittliche Kursziel für Intel liegt bei zweiundneunzig Dollar und zweiundsiebzig Cent. Investing.com Canada meldet am sechsten November: Form vier Intel Corporation für: sechsten November Von Investing.com. Investing.com Deutsch meldet am sechsten November: Intel-Aktie springt sechs Komma vier Prozent: Chipwerte drehen nach Nasdaq-Absturz. Wallstreet Online meldet am sechsten November: Chipwerte im Plus: Intel legt mit der Branche zu. Ob diese Meldungen Intel stärken oder schwächen, lässt sich aus den Schlagzeilen allein nicht sicher sagen. Das war Intel.",
+"audio": {
+"file": "sendung/2026-11-07-w_08.mp3",
+"hash": "b899ebaf7471c85c",
+"dur": 63.4
+}
+},
+{
+"name": "SK Hynix",
+"sym": "HY9H.MU",
+"say": "Zur Aktie SK Hynix. Der Kurs von SK Hynix veränderte sich in den letzten fünf Handelstagen um minus einundzwanzig Komma eins Prozent auf achthundertneunundfünfzig Dollar und siebzig Cent. Diese Woche gab es zu SK Hynix keine neuen Bewertungen von Banken in den Daten. CNBC meldet am sechsten November: Der Nasdaq-Ausverkauf belastet asiatische Chip-Aktien, während SK Hynix, Samsung, Softbank und TSMC abstürzen. SK hynix meldet am fünften November: SK hynix veranstaltet den ersten Partnertag in Japan und tauscht die Geschäftsausrichtung mit wichtigen lokalen Partnern aus. Yahoo Finance meldet am siebten November: SK Hynix (KOSE:A000660) stellt kühleren KI-Speicher vor, während die Kontrolle über Rechenzentren zunimmt. Ob diese Meldungen SK Hynix stärken oder schwächen, lässt sich aus den Schlagzeilen allein nicht sicher sagen. Das war SK Hynix.",
+"audio": {
+"file": "sendung/2026-11-07-w_09.mp3",
+"hash": "2459a8fa0f3fcdb0",
+"dur": 69.0
+}
+},
+{
+"name": "UBS",
+"sym": "UBSG.SW",
+"say": "Zur Aktie UBS. Der Kurs von UBS veränderte sich in den letzten fünf Handelstagen um plus null Komma fünf Prozent auf achtundvierzig Dollar und achtundzwanzig Cent. Diese Woche gab es zu UBS keine neuen Bewertungen von Banken in den Daten. Das durchschnittliche Kursziel für UBS liegt bei vierundfünfzig Dollar und siebenundachtzig Cent. Cash meldet am fünften November: Aktie der UBS nach Kurssprung und Spekulationen um Morgan-Stanley-Deal im Investorenfokus. finanzen.ch meldet am sechsten November: Analyse: UBS AG bewertet Swiss Re-Aktie mit Sell in neuer Analyse. Investing.com UK meldet am sechsten November: UBS erhöht Kursziel für Dropbox-Aktie aufgrund der Margenausweitung Von Investing.com. Ob diese Meldungen UBS stärken oder schwächen, lässt sich aus den Schlagzeilen allein nicht sicher sagen. Das war UBS.",
+"audio": {
+"file": "sendung/2026-11-07-w_10.mp3",
+"hash": "7152f387b86ee8ee",
+"dur": 65.7
+}
+},
+{
+"name": "Quartalszahlen nächste Woche",
+"say": "Quartalszahlen nächste Woche. Diese Firmen aus deiner Liste melden ihre Quartalszahlen. Zur Aktie Hyliion: Zahlen Dienstag, am zehnten November. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von minus null Dollar und sieben Cent. Beim Umsatz erwarten sie rund vier Komma acht Millionen Dollar. Zur Aktie SoftBank: Zahlen Dienstag, am zehnten November. Beim Umsatz erwarten sie rund eintausendneunhundertzweiundneunzig Komma fünf Milliarden Dollar. Zur Aktie Siemens Energy: Zahlen Mittwoch, am elften November. Beim Umsatz erwarten sie rund zwölf Komma sieben Milliarden Dollar. Zur Aktie Applied Materials: Zahlen Donnerstag, am zwölften November. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von vier Dollar und sechs Cent. Beim Umsatz erwarten sie rund zehn Komma drei Milliarden Dollar.",
+"audio": {
+"file": "sendung/2026-11-07-w_11.mp3",
+"hash": "bc647db0d4b257a4",
+"dur": 64.0
+}
+},
+{
+"name": "Begriff: Insiderkauf",
+"say": "Zum Lernen, der Begriff des Tages: Insiderkauf. Wenn Chefs oder Verwaltungsräte eigene Aktien ihrer Firma kaufen, nennt man das Insiderkauf. In den USA müssen sie das bei der Börsenaufsicht S E C melden. Käufe gelten oft als Zeichen von Vertrauen.",
+"audio": {
+"file": "sendung/2026-11-07-w_12.mp3",
+"hash": "d65c03bda99712ee",
+"dur": 20.5
+}
+},
+{
+"name": "Schluss",
+"say": "Das war der Wochenrückblick vom Aktien-Radar. Die Quellen findest du in der App bei jeder Aktie, den ganzen Text über den Knopf Als Text. Bis nächste Woche.",
+"audio": {
+"file": "sendung/2026-11-07-w_13.mp3",
+"hash": "a47779957ec83468",
+"dur": 12.4
+}
+}
+],
+"dur": 886.0,
+"full": {
+"file": "sendung/2026-11-07-w_full.mp3",
+"dur": 886.0,
+"marks": [
+[
+0,
+0.0
+],
+[
+1,
+30.1
+],
+[
+2,
+103.8
+],
+[
+3,
+179.1
+],
+[
+4,
+252.6
+],
+[
+5,
+320.1
+],
+[
+6,
+392.8
+],
+[
+7,
+490.8
+],
+[
+8,
+591.0
+],
+[
+9,
+654.4
+],
+[
+10,
+723.4
+],
+[
+11,
+789.1
+],
+[
+12,
+853.1
+],
+[
+13,
+873.6
+]
+]
+}
+},
+{
 "id": "2026-11-06-t",
 "kind": "tag",
 "date": "2026-11-06",
@@ -2064,8 +2273,8 @@
 "dur": 729.9
 }
 ],
-"generated_at": "2026-11-06T05:26:25Z",
+"generated_at": "2026-11-07T07:52:03Z",
 "voice": "de-CH-LeniNeural",
 "source": "Yahoo Finance, SEC EDGAR, Schlagzeilen (Google News u.a.); Text: Gemini Gratis-Kontingent oder Vorlage",
-"audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@c87967f051f3fed7d9c850907b1962faf78a70cb/data/audio/"
+"audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@22e279ff105c766e392acac48a47acf2ab19ce17/data/audio/"
 }
