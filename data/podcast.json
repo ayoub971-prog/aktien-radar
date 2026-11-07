@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T17:01:08Z",
+ "generated_at": "2026-11-07T17:55:30Z",
  "intro": "Willkommen beim Aktien-Radar, deinem Überblick über die neuesten Meldungen. Heute geht es um 39 Aktien aus deiner Liste. Alles stammt aus den gesammelten Meldungen und Analystendaten, nichts ist erfunden. Keine Anlageberatung.",
  "outro": "Das war der Aktien-Radar-Überblick. Die Quellen und Details findest du in der App bei jeder Aktie. Keine Anlageberatung.",
  "segments": [
@@ -19,13 +19,13 @@
   {
    "symbol": "NVDA",
    "name": "Nvidia",
-   "text": "Nvidia: Nach einer Reihe von Verlustwochen verzeichnet das Unternehmen einen rasanten Kursrückgang und notiert unter zweihundert Dollar, wie das US-Finanzmagazin Barron's meldet. Gleichzeitig sehen Schnäppchenjäger und prominente Anleger wie Cathie Wood nach dem Ausverkauf neue Kaufgelegenheiten, berichtet die US-Börsenzeitung Investor's Business Daily. Das Unternehmen verschärft derweil die Nachverfolgung seiner Chips in Südostasien, meldet das Finanzportal Yahoo Finance. Zu den Analysten-Bewertungen: Melius Research stuft die Aktie mit Kaufen ein und senkte das Kursziel auf dreihundertfünfzehn Dollar. Needham bestätigt die Kaufempfehlung mit einem Kursziel von dreihundert Dollar. Cantor Fitzgerald bewertet das Papier mit Übergewichten und einem Kursziel von dreihundertfünfzig Dollar. Zurück zu Nvidia: Rosenblatt bestätigt die Einstufung auf Kaufen mit einem Kursziel von dreihundertneunzig Dollar. Piper Sandler nahm die Beobachtung neu mit Übergewichten und einem Kursziel von dreihundert Dollar auf. Was die Firma gerade macht: Positiv werten Beobachter, dass Cathie Wood über Ark Invest im grossen Stil Nvidia-Aktien hinzugekauft hat und das von Nvidia unterstützte Unternehmen Groq in einer neuen Finanzierungsrunde eine Bewertung von acht Milliarden Dollar anstrebt. Nach einer Verlustwoche in Folge verlor das Unternehmen massiv an Marktwert. Das durchschnittliche Kursziel der Experten liegt bei dreihundertsiebenundzwanzig Dollar, wobei das höchste Ziel fünfhundertfünfzehn Dollar und das tiefste Ziel einhundertachtzig Dollar beträgt. Das Konsensrating setzt sich aus zehn starken Käufen, neunundfünfzig Käufen, zwei Halteempfehlungen und eins Verkaufsempfehlung zusammen. Widersprüche zeigen sich bei der Frage, ob die Erholung nach dem gewaltsamen Ausverkauf im Chipsektor nur vorübergehend ist.",
-   "id": "d79136d515",
-   "generated_at": "2026-11-07T14:54:53Z",
+   "text": "Nvidia: Die Aktie von Nvidia geriet in einen Bärenmarkt und verzeichnete die fünf. Verlustwoche in Folge, was zu einem Marktwertverlust von eins Komma drei Billionen USD führte. Es wird vor Kursrisiken gewarnt, falls sich Entwicklungen im Bereich der kuenstlichen Intelligenz negativ auf den Markt auswirken sollten. Der Konsens der Analysten zeigt zehn starke Käufe, neunundfünfzig Käufe, zwei Halte-Einstufungen und eins Verkauf, bei einem durchschnittlichen Kursziel von dreihundertsiebenundzwanzig Dollar. Melius Research bewertet die Aktie mit Kaufen und einem Kursziel von dreihundertfünfzehn Dollar. Das Unternehmen verschärft die Verfolgung von Chips in Südostasien. Das von Nvidia unterstützte Unternehmen Groq strebt in einer neuen Finanzierungsrunde eine Bewertung von acht Milliarden Dollar an. Das höchste Kursziel liegt bei fünfhundertfünfzehn Dollar und das tiefste Kursziel bei einhundertachtzig Dollar. Schnäppchenjäger und prominente Investoren wie Cathie Wood sehen eine Kaufgelegenheit und bauten Positionen aus.",
+   "id": "80350455bf",
+   "generated_at": "2026-11-07T17:49:17Z",
    "audio": {
     "file": "NVDA.mp3",
-    "hash": "50ebb3e0d03507cc",
-    "dur": 123.5,
+    "hash": "adf98226734ecc87",
+    "dur": 71.3,
     "engine": "edge"
    }
   },
@@ -45,14 +45,14 @@
   {
    "symbol": "HY9H.MU",
    "name": "SK Hynix",
-   "text": "SK Hynix verzeichnete zuletzt deutliche Kursrückgänge, während ein breiter Ausverkauf an den Märkten asiatische Chip-Aktien belastete. Laut CNBC gerieten Werte wie Samsung und SK Hynix im Zuge von Abverkäufen an der Nasdaq unter starken Druck. Das deutsche Börsenportal Wallstreet Online meldet, dass die Aktie binnen eines Monats rund dreissig Prozent an Wert verlor, und boerse.de verweist auf ein neues Sechsmonatstief sowie das Unterschreiten der Zweihundert-Tage-Linie. Operativ war das Unternehmen aktiv, indem SK hynix laut eigener Mitteilung den ersten Partnertag in Japan veranstaltete und die Geschäftsausrichtung mit lokalen Partnern austauschte. Laut WSJ plant SK Hynix zudem nach starken Ergebnissen eine Aktionärsrendite von rund fünfundsiebzig Milliarden Dollar, während Yahoo Finance berichtet, dass das Unternehmen kühleren KI-Speicher vorstellte. Demgegenüber stehen jedoch laut Yahoo Finance gemeldete Verzögerungen bei US-Lizenzen für geplante New Yorker Anlagen im Wert von rund fünfundvierzig Milliarden Dollar.",
-   "id": "a66b2ac6aa",
-   "generated_at": "2026-11-07T09:03:21Z",
+   "text": "SK Hynix veranstaltet den ersten Partnertag in Japan und tauscht die Geschaeftsausrichtung mit wichtigen lokalen Partnern aus, wie das Unternehmen selbst berichtet. Laut der US-Wirtschaftszeitung WSJ plant SK Hynix nach starken Ergebnissen eine Aktionaersrendite von fünfundsiebzig Milliarden Dollar. Der US-Wirtschaftssender CNBC meldet zudem, dass ein Ausverkauf an der Nasdaq asiatische Chip-Aktien belastet und SK Hynix stark einbricht. Laut dem Finanzportal Yahoo Finance stellt SK Hynix ausserdem kuelheren KI-Speicher vor, waehrend die Pruefung von Rechenzentren zunimmt. Zurück zu SK Hynix: Zu den Analysten-Bewertungen gibt es Meldungen der US-Plattform Seeking Alpha, wonach Wedbush auf erhebliche Auswirkungen hinweist, weil SK Hynix bei einem US-Werk ins Hintertreffen gerät. Was die Firma aktuell beschaeftigt, zeigt sich an aufwertenden Meldungen wie dem Partnertag in Japan, den geplanten Aktionaersrenditen von fünfundsiebzig Milliarden Dollar, der Vorstellung kuelherer KI-Speicher sowie der Zahlung von dreihundertsiebenundsiebzig Millionen Dollar durch die KI-Abteilung fuer eine Beteiligung von SK Telecom an Penguin Solutions laut MLQ.ai. Abwertend wirken hingegen die von Yahoo Finance gemeldeten Lizenzverzögerungen für New Yorker Anlagen im Wert von fünfundvierzig Milliarden Dollar sowie die negativen Einschaetzungen von Wedbush. Wichtige Kennzahlen sind die geplante Aktionaersrendite von fünfundsiebzig Milliarden Dollar nach Rekordergebnissen, der Monatsverlust von rund dreissig Prozent laut Wallstreet Online sowie der Beteiligungskauf im Wert von dreihundertsiebenundsiebzig Millionen Dollar.",
+   "id": "fc0faf1be9",
+   "generated_at": "2026-11-07T17:49:17Z",
    "audio": {
     "file": "HY9H.MU.mp3",
-    "hash": "529f92b1d710ca54",
-    "dur": 67.6,
-    "engine": "gemini"
+    "hash": "3e7c099e8f20e1f1",
+    "dur": 111.9,
+    "engine": "edge"
    }
   },
   {
@@ -149,14 +149,14 @@
   {
    "symbol": "NOW",
    "name": "ServiceNow",
-   "text": "ServiceNow verzeichnete in den vorliegenden Meldungen einen starken Kursrückgang um fünfunddreissig Prozent in weniger als zwei Wochen, begleitet von einer neuen Entlassungswelle und einem enttäuschenden Ausblick für das vierte Quartal. Laut dem Finanzportal Yahoo Finance Singapore sank die Aktie spürbar, während laut CTech der Vorstand Bindungsprämien in Höhe von einhundertsiebenundzwanzig Millionen Dollar genehmigte. Zu den Analysten-Bewertungen: Argus Research vergab das Rating Kaufen mit einem Kursziel von einhundertsiebzig Dollar, Macquarie Neutral mit einem Kursziel von einhundertzwanzig Dollar, RBC Capital Besser als Markt mit einem Kursziel von einhundertfünfundsechzig Dollar, JP Morgan Übergewichten mit einem Kursziel von einhundertsechzig Dollar, Citigroup Kaufen mit einem Kursziel von einhundertsiebenundfünfzig Dollar und StoneX Kaufen mit einem Kursziel von einhundertfünfzig Dollar. Das Unternehmen erweiterte Partnerschaften, wie etwa mit LTM zur Skalierung der Agenten-KI und mit der NBA zur Verbesserung der Mitarbeitererfahrung mit EmployeeWorks, und kündigte die Veröffentlichung in Brasilien an. Auf der anderen Seite schnitt die Aktie im Vergleich zur Konkurrenz schlechter ab.",
-   "id": "ea44f10bc0",
-   "generated_at": "2026-11-07T11:52:59Z",
+   "text": "ServiceNow: Bei ServiceNow verzeichnet die Aktie laut CTech einen Rückgang um fünfunddreissig Prozent in weniger als zwei Wochen, begleitet von anhaltenden Entlassungen. XTB.com berichtet, dass ein enttäuschender Ausblick für das vierte Quartal die Wall Street schockierte und die Aktie unter Druck setzte. Gleichzeitig teilt ServiceNow mit, dass das eigene Produkt namens CPQ dem Unternehmen Keysight half, den Verkauf zu beschleunigen und Angebote um vierzig Prozent schneller zu erstellen. CTech meldet zudem Entlassungen in Grossbritannien, den USA und Indien im Zuge einer Umstrukturierung der Belegschaft, während der Vorstand Bindungsprämien im Wert von einhundertsiebenundzwanzig Millionen Dollar genehmigte. Zurück zu ServiceNow: Nach Angaben von Yahoo Finance bewerten Analysten die Aktie mit einem Konsens, wobei Argus Research ein Kaufen-Rating mit einem Kursziel von einhundertsiebzig Dollar vergibt, Macquarie mit Neutral und einhundertzwanzig Dollar bewertet, RBC Capital mit Besser als Markt und einhundertfünfundsechzig Dollar einstuft, JP Morgan die Aktie mit Übergewichten und einhundertsechzig Dollar führt, Citigroup ein Kaufen mit einhundertsiebenundfünfzig Dollar nennt und StoneX ein Kaufen mit einhundertfünfzig Dollar ansetzt. Im operativen Bereich hat ServiceNow die Partnerschaft mit LTM erweitert, um Agenten-KI zu skalieren, und die Zusammenarbeit mit der NBA zur Verbesserung der Mitarbeitererfahrung ausgebaut, während Traders Union über die Veröffentlichung der Brasilien-Version berichtet. Demgegenüber steht laut MarketWatch, dass die Aktie im Vergleich zu Konkurrenten schlechter abschnitt, Yahoo Finance Singapore sinkende Kurse infolge der neuen Entlassungsrunde meldet und Exchange Traded Funds am Mittwoch Nettoverkäufer waren. Das durchschnittliche Kursziel liegt bei rund einhundertsechsundfünfzig Dollar.",
+   "id": "9462a59bf0",
+   "generated_at": "2026-11-07T17:49:17Z",
    "audio": {
     "file": "NOW.mp3",
-    "hash": "bdc200d93636e2ee",
-    "dur": 73.4,
-    "engine": "gemini"
+    "hash": "8f5776a47860b58d",
+    "dur": 125.4,
+    "engine": "edge"
    }
   },
   {
@@ -214,26 +214,26 @@
   {
    "symbol": "GLW",
    "name": "Corning",
-   "text": "Corning: Die Aktie des Technologiekonzerns geriet in den vergangenen Tagen zeitweise stark unter Druck. Laut MarketWatch schnitt die Aktie im Vergleich zur Konkurrenz schwächer ab und rutschte laut boerse.de auf ein neues Sechs-Monats-Tief sowie zeitweise in den Bärenmodus ab. Auf der anderen Seite meldet finanzen.ch, dass Anleger das Papier an bestimmten Abenden wieder ins Plus schickten. Bei den Analystenbewertungen zeigt sich ein vielseitiges Bild. Das Zwölfmonats-Kursziel wurde laut TradingView auf einhundertneunundsiebzig Dollar angepasst, was ein Aufwärtspotenzial von fünfzig Prozent bedeuten kann. Zurück zu Corning: Fox Advisors stufte Corning von neutral auf outperform hoch und nannte ein Kursziel von einhundertsechzig Dollar. Der Analystenkonsens bei Yahoo Finance umfasst laut den Berichten ein starkes Kaufen, vierzehn Kaufen und vier Halten. Die UBS bestätigte die Kaufempfehlung und passte das Kursziel auf einhundertzweiundneunzig Dollar an, während Truist Securities ein Kursziel von einhundertfünfundsiebzig Dollar nannte. Aufwertend stufte Fox Advisors Corning hoch und die Aktie scheint laut Yahoo Finance UK mit einem Abschlag gehandelt zu werden. Abwertend wirkten die bereits erwähnten Kursrückgänge und das Sechs-Monats-Tief im Vergleich zu Wettbewerbern. Zu den wichtigen Kennzahlen gehört das durchschnittliche Kursziel der Analysten von einhundertachtzig Dollar, während das Kursziel im Hoch bei zweihundertzwanzig Dollar und im Tief bei einhundertzweiunddreissig Dollar liegt.",
-   "id": "87f632b55c",
-   "generated_at": "2026-11-07T13:10:19Z",
+   "text": "Corning: Die Aktie des US-Unternehmens Corning stand zuletzt im Fokus verschiedener Finanzportale und Analystenberichte. Laut MarketWatch, einem US-Finanznachrichtenportal, schnitt die Aktie von Corning am Donnerstag im Vergleich zur Konkurrenz schlechter ab. Wie boerse.de, ein deutsches Börsenportal, meldet, markierte die Corning-Aktie zudem ein neues Sechsmonatstief. Laut finanzen.ch, einem Schweizer Finanzportal, schickten Anleger Corning am Donnerstagabend sowie am Freitagnachmittag ins Plus, nachdem das Papier zuvor deutlich nachgegeben hatte und sich zwischenzeitlich im Bärenmodus befand. In den vorliegenden Meldungen wurden keine rechtlichen Probleme gefunden. Betreffend der Analystenbewertungen zeigt sich ein überwiegend positives Bild. Laut Yahoo Finance, einem Finanzportal, das Meldungen und Analystenbewertungen bündelt, gibt es vierzehn Kaufempfehlungen, eins starke Kaufempfehlung sowie vier Halte-Einstufungen. Das durchschnittliche Kursziel der Analysten liegt bei einhundertachtzig Dollar, wobei das höchste Kursziel zweihundertzwanzig Dollar beträgt. Fox Advisors stufte Corning mit einer Kaufempfehlung und einem Kursziel von einhundertsechzig Dollar ein. Die UBS vergab eine Kaufempfehlung mit einem Kursziel von einhundertzweiundneunzig Dollar. Truist Securities vergab ebenfalls die Kaufempfehlung bei einem Kursziel von einhundertfünfundsiebzig Dollar. Barclays vergab die Marktzuführung mit einem Kursziel von einhundertzweiunddreissig Dollar. Morgan Stanley vergab die Marktzuführung mit einem Kursziel von einhundertfünfundfünfzig Dollar. JP Morgan beliess die Einstufung auf Neutral und einem Kursziel von einhundertfünfundsechzig Dollar. Zurück zu Corning: Was macht die Firma gerade? Laut Yahoo Finance UK, einem Finanzportal, das Meldungen bündelt, scheint die Aktie von Corning derzeit mit einem Abschlag gehandelt zu werden. Zudem erhielt das Unternehmen von Fox Advisors ein Kaufen-Rating, während MarketWatch berichtete, dass die Aktie im Vergleich zur Konkurrenz schlechter ab schnitt. Zu den wichtigen Kennzahlen ist zu sagen, dass das durchschnittliche Kursziel von einhundertachtzig Dollar die Erwartungen von Analysten bezüglich des zukünftigen Aktienkurses zusammenfasst.",
+   "id": "b39132aa67",
+   "generated_at": "2026-11-07T17:49:17Z",
    "audio": {
     "file": "GLW.mp3",
-    "hash": "8fe4f005ae4dc0db",
-    "dur": 103.8,
+    "hash": "dcd6eed3bf65e1e3",
+    "dur": 155.0,
     "engine": "edge"
    }
   },
   {
    "symbol": "AMAT",
    "name": "Applied Materials",
-   "text": "Applied Materials: Die Aktie des Technologieunternehmens stand zuletzt stark im Fokus der Märkte und verzeichnete deutliche Schwankungen. Laut TradingView, einer Chart- und Börsenplattform, legte die Aktie zeitweise um vier Komma sieben Prozent zu, während Yahoo Finance Singapore, ein Finanzportal, das Meldungen und Analystenbewertungen bündelt, von einem Kursrückgang um zwölf Prozent vor einem anstehenden Umsatztest von zehn Komma zwei Milliarden Dollar berichtete. Zudem meldet StreetInsider, ein US-Börsennachrichtendienst, dass die Aktien von Applied Materials infolge von Wahlängsten nachgaben. Zu den Analystenbewertungen zeigt sich ein überwiegend positives Bild. Laut Yahoo Finance empfehlen fünfunddreissig Analysten die Aktie zum Kauf, fünf stufen sie als stark kaufen ein und sechs raten zum Halten, bei einem durchschnittlichen Kursziel von sechshundertsiebenundzwanzig Dollar. Morgan Stanley bestätigte die Einstufung auf Marktgewichten und setzte das Kursziel zuletzt auf fünfhundertachtunddreissig Dollar. Zurück zu Applied Materials: Needham bestätigte die Kaufempfehlung und passte das Kursziel auf fünfhundertachtzig Dollar an. Die Evercore ISI Group bestätigte ihre Einstufung als besser als der Markt und nannte ein Kursziel von fünfhundertneunzig Dollar, während RBC Capital das Kursziel bei sechshundert Dollar ansetzte. Die UBS erhöhte ihr Kursziel zuvor auf sechshundertfünfundneunzig Dollar bei einer Kaufempfehlung. Operativ plant das Unternehmen laut Evertiq, einer Publikation ohne genaue Beschreibung, seine strategische Investition in Besi zu erhöhen. Belastend wirkten dagegen Berichte über Wahlängste und die generelle Marktskepsis, die zu einem neuen Sechsmonatstief führten, wie boerse.de, ein deutsches Börsenportal, meldete. Als wichtige Kennzahl wird ein anstehender Umsatztest von zehn Komma zwei Milliarden Dollar genannt. Widersprüchliche Meldungen gab es bezüglich der kurzfristigen Kursentwicklung an aufeinanderfolgenden Handelstagen, wobei MarketWatch, ein US-Finanznachrichtenportal, sowohl über übertroffene Konkurrenzwerte an einem starken Tag als auch über eine schwächere Entwicklung im Vergleich zur Konkurrenz berichtete.",
-   "id": "0f787a9428",
-   "generated_at": "2026-11-07T14:54:53Z",
+   "text": "Applied Materials: Bei Applied Materials verzeichnete die Aktie starke Kursschwankungen mit Verlusten im Vorfeld von Berichten und anschliessenden Erholungen. Laut Yahoo Finance Singapore, einem Finanzportal, das Meldungen und Analystenbewertungen bündelt, standen die Papiere zeitweise stark unter Druck, wobei StreetInsider berichtete, dass die Aktien infolge von Wahlängsten unter Druck gerieten. Das Unternehmen kündigte zudem an, seine strategische Investition in Besi zu erhöhen, wie Evertiq berichtet. Der Blick auf die Analystenbewertungen zeigt ein positives Bild. Laut Yahoo Finance Singapore umfasst der Analystenkonsens fünf starke Käufe, fünfunddreissig Käufe, sechs Halten, null Verkäufe und null starke Verkäufe, und das durchschnittliche Kursziel der Analysten liegt bei sechshundertsiebenundzwanzig Dollar, mit einem Höchstwert von neunhundert Dollar und einem Tiefstwert von dreihundertachtundfünfzig Dollar. Zurück zu Applied Materials: Morgan Stanley bewertete die Aktie am dritten November 2026 mit Marktgewichten und einem Kursziel von fünfhundertachtunddreissig Dollar. Needham stufte sie am sechzehnten Oktober 2026 mit Kaufen und einem Kursziel von fünfhundertachtzig Dollar ein, während die Evercore ISI Group am fünfzehnten Oktober 2026 ein Kursziel von fünfhundertneunzig Dollar und das Rating Besser als Markt nannte. RBC Capital nannte am vierzehnten Oktober 2026 ein Kursziel von sechshundert Dollar bei einem Rating als Besser als Markt, Morgan Stanley bewertete die Aktie am achtundzwanzigsten September 2026 mit Marktgewichten und fünfhundertdreiundsechzig Dollar Kursziel, und die UBS rief am ersten September 2026 zum Kaufen mit einem Kursziel von sechshundertfünfundneunzig Dollar auf. Bei den Kennzahlen steht ein Umsatztest von zehn Komma zwei Milliarden Dollar im Fokus. Widersprüchliche Meldungen zeigten sich vor allem bei der kurzfristigen Marktbetrachtung, wo MarketWatch an einem starken Handelstag von einer übertreffenden Kursentwicklung im Vergleich zur Konkurrenz und an einem anderen Tag von einer schlechteren Entwicklung berichtete.",
+   "id": "8a411a1f1f",
+   "generated_at": "2026-11-07T17:49:17Z",
    "audio": {
     "file": "AMAT.mp3",
-    "hash": "0ee6e32377e46cb9",
-    "dur": 149.1,
+    "hash": "df938ba7ff318366",
+    "dur": 146.8,
     "engine": "edge"
    }
   },
@@ -279,13 +279,13 @@
   {
    "symbol": "BE",
    "name": "Bloom Energy",
-   "text": "Bloom Energy zeigt an den Börsen eine wechselhafte Entwicklung, die stark von Diskussionen rund um künstliche Intelligenz und Rechenzentren geprägt ist. Laut MarketWatch gehört die Aktie zu den Verlierern im S&P fünfhundert, da Marktteilnehmer Sorgen wegen möglicher Verzögerungen bei Rechenzentren äussern. Auch Seeking Alpha berichtet von Rückgängen infolge dieser Bedenken. Demgegenüber stehen bedeutende geschäftliche Fortschritte. Laut Yahoo Finance hat NTT Data eine Vereinbarung mit Bloom Energy über neunhundert Megawatt Stromerzeugung vor Ort für mehrere Rechenzentrumsprojekte getroffen. Zurück zu Bloom Energy: Ausserdem berichtet die Traders Union, dass das Unternehmen Brennstoffzellen und Kohlenstoffabscheidung in einem Rechenzentrum von Google in Wyoming einsetzt. Laut Barchart.com erholte sich die Aktie zeitweise, da Barclays hinsichtlich einer Energiepartnerschaft in Kalifornien optimistischer gestimmt ist. Bei den Analystenbewertungen zeigt sich ein überwiegend positives Bild mit einem von Yahoo Finance gemeldeten Durchschnittskursziel von zweihundertvierundachtzig Dollar. Barclays hob die Aktie kürzlich auf Übergewichten hoch und nannte ein Kursziel von zweihundertneunundachtzig Dollar, während Citigroup die Einstufung Neutral bei einem Kursziel von zweihundertvierundachtzig Dollar bestätigte. RBC Capital führt die Aktie mit einem Kursziel von dreihundertfünfunddreissig Dollar. Wichtige Kennzahlen wie das genannte durchschnittliche Kursziel spiegeln die aktuellen Erwartungen des Marktes wider.",
-   "id": "7e2677e99d",
-   "generated_at": "2026-11-07T14:54:53Z",
+   "text": "Bloom Energy: In den letzten Tagen stand die Aktie von Bloom Energy stark im Fokus der Märkte. Laut MarketWatch gehört das Papier zu den grössten Verlierern des S&P fünfhundert, da Ängste vor Verzögerungen bei Rechenzentren umgehen. Gemäss Berichten von Seeking Alpha rutschte die Aktie um fünfzehn Prozent ab, während Yahoo Finance von einem Einbruch um achtzehn Prozent im Zuge eines breiteren Ausverkaufs spricht. Demgegenüber stehen bedeutende operative Fortschritte: Bloom Energy hat eine Vereinbarung mit NTT Data über neunhundert Megawatt Stromerzeugung vor Ort für mehrere Rechenzentrumsprojekte geschlossen und arbeitet zudem mit Google an einem Projekt in Wyoming. Zurück zu Bloom Energy: Bei den Analysten zeigt sich ein gemischtes Bild. Barclays stufte die Aktie auf Übergewichten hoch und nannte ein Kursziel von zweihundertneunundachtzig Dollar. Citigroup bestätigte die neutrale Einschätzung mit einem Kursziel von zweihundertvierundachtzig Dollar, während JP Morgan die Übergewichtung bei einem Kursziel von zweihundertzweiundneunzig Dollar beibehielt. RBC Capital sieht den Titel mit einem Kursziel von dreihundertfünfunddreissig Dollar als besser als den Markt an, und Wells Fargo bestätigte die Einstufung bei einem Kursziel von einhundertzweiundachtzig Dollar. Der Analystenkonsens liegt bei einem durchschnittlichen Kursziel von zweihundertvierundachtzig Dollar.",
+   "id": "8432a333f6",
+   "generated_at": "2026-11-07T17:49:17Z",
    "audio": {
     "file": "BE.mp3",
-    "hash": "329bc45f8b358448",
-    "dur": 103.2,
+    "hash": "69fb8b3817055802",
+    "dur": 91.7,
     "engine": "edge"
    }
   },
@@ -487,13 +487,13 @@
   {
    "symbol": "MU",
    "name": "Micron Technology, Inc.",
-   "text": "Micron Technology, Inc.: Im aktuellen Marktgeschehen zeigt die Aktie von Micron Technology dynamische Bewegungen, wie Berichte von Finanzportalen wie finanzen.ch zeigen. Wichtige Themen sind dabei der Wettbewerb im Bereich der Kunstlichen Intelligenz sowie technologische Vergleiche mit Branchenkollegen. In den vorliegenden Meldungen wurden keine rechtlichen Probleme gefunden. Mehrere Analysehäuser haben ihre Einschatzungen aktualisiert. So fuhrt Rosenblatt die Aktie mit einem Kursziel von eintausendneunhundert Dollar im Rating Kaufen. Needham bestatigt die Einstufung Kaufen mit einem Kursziel von eintausendsechshundertfünfzig Dollar. Zurück zu Micron Technology, Inc.: DA Davidson erhohte das Kursziel auf dreitausend Dollar bei einer Kaufempfehlung. Mizuho bewertet das Papier als Besser als Markt mit einem Ziel von eintausendvierhundert Dollar, und Morgan Stanley bestatigt die Einstufung Ubergewichten mit einem Kursziel von eintausendzweihundert Dollar. Das Unternehmen profitiert laut Analysen moglicherweise von in Amerika hergestelltem DRAM als Wettbewerbsvorteil, wahrend neue Vertrage und fur 2027 geplante Fabriken Stabilitat signalisieren. Auf der anderen Seite wird angemerkt, dass das Investmentteam von Donald Trump Anteile abgestossen hat. Wichtige Kennzahlen zeigen ein durchschnittliches Kursziel von fünfundvierzig Analysten von rund eintausendfünfhundertzweiundsechzig Dollar. Zudem gab es laut Pflichtmeldungen Wechsel im Management bei Micron Technology.",
-   "id": "55d9d273e0",
-   "generated_at": "2026-11-07T14:00:19Z",
+   "text": "Micron Technology, Inc.: Bei Micron Technology gibt es derzeit verschiedene Entwicklungen im Technologiesektor zu beobachten. Laut der kanadischen Tageszeitung The Globe and Mail steht das Unternehmen im Fokus von Kursbewegungen, während das Finanzportal Yahoo Finance die Rolle des Unternehmens beim Ausbau von künstlicher Intelligenz beleuchtet. Zudem wird auf der US-Plattform Seeking Alpha diskutiert, ob der Markt eine wirtschaftliche Abschwächung fälschlicherweise mit einem Totalzusammenbruch verwechselt hat. Zu den genannten Risiken gehört, dass die Aktie laut The Globe and Mail weiter sinkt und Yahoo Finance vor einem kostspieligen Fang bei ansonsten nach Schnäppchen aussehenden Preisen warnt. Zurück zu Micron Technology, Inc.: Das US-Finanzmagazin Barron's zählt das Unternehmen zu den Werten, die den schwierigen Zustand des heutigen Marktes erklären. Analysten blicken überwiegend positiv auf das Papier: Laut Yahoo Finance gibt es insgesamt achtundfünfzig Bewertungen, aufgeteilt in vierundfünfzig Kauf- und vier Halte-Empfehlungen. Das durchschnittliche Kursziel der Analysten liegt bei eintausendfünfhundertzweiundsechzig Dollar. Positive Impulse könnten laut Seeking Alpha von in Amerika hergestelltem DRAM als wettbewerblichem Vorteil ausgehen, während neue Fabriken für 2027 anstehen und Verträge den Boden absichern.",
+   "id": "7431b5991b",
+   "generated_at": "2026-11-07T17:49:17Z",
    "audio": {
     "file": "MU.mp3",
-    "hash": "6ef0319f36bd4c62",
-    "dur": 101.1,
+    "hash": "54edad0c3cc1d18b",
+    "dur": 88.6,
     "engine": "edge"
    }
   },
@@ -524,5 +524,5 @@
   "dur": 10.2,
   "engine": "edge"
  },
- "audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@2a27a44b252309589f0ed5c9ecc32167ce10892a/data/audio/"
+ "audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@4cced0fa02506b5979b2f9d0d0b18ca92993d48c/data/audio/"
 }
