@@ -343,15 +343,16 @@
   },
   "UBSG.SW": {
    "file": "UBSG.SW.mp3",
-   "hash": "4ee0497b222a68d1",
-   "th": "624818e6e650c295",
-   "id": "b2578f84da",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
+   "hash": "2fb316aaac312f08",
+   "th": "601fdfd6a99fb148",
+   "engine": "gemini",
+   "id": "f46bfd0ad1",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
    "br": 24,
-   "text": "UBS Group zeigt sich in den aktuellen Berichten mit einem gemischten Bild aus Kursbewegungen und Analysteneinschätzungen. Das Schweizer Finanzportal Cash meldet, dass RBC Capital Markets das Kursziel für die Aktie anhebt und die Aktie damit einem schwachen Markt trotzt. Gleichzeitig berichtet das deutsche Börsenportal boerse.de, dass die UBS Group-Aktie unter die wichtige fünfzig-Tage-Linie gefallen ist. Das Schweizer Finanzportal finanzen.ch verweist zudem auf Kursabschläge und Einbussen im Handelsverlauf. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Bei den Analysten-Bewertungen zeigt sich laut Yahoo Finance ein Konsens aus verschiedenen Einstufungen, wobei insgesamt sieben Analysten zum Kaufen, acht zum Halten, zwei zum Verkaufen, zwei zum starken Kaufen und eins zum starken Verkaufen raten. Das durchschnittliche Kursziel liegt bei rund fünfundfünfzig Dollar, während das höchste Kursziel bei rund dreiundsiebzig Dollar und das tiefste bei rund zweiundvierzig Dollar angesiedelt ist, woraus sich ein erwartetes Aufwärtspotenzial von rund dreizehn Komma sechs Prozent errechnet. RBC Capital Markets stützt die Aktie mit einer Kaufempfehlung beziehungsweise einer Outperform-Note. Die Kurszielanhebung und die Kaufempfehlungen durch RBC Capital Markets werten die Situation auf, während das Unterschreiten der fünfzig-Tage-Linie und die tagesaktuellen Kursverluste als abwertend einzustufen sind. Zu den wichtigsten Kennzahlen gehört neben dem durchschnittlichen Kursziel von rund fünfundfünfzig Dollar vor allem das prognostizierte Aufwärtspotenzial von rund dreizehn Komma sechs Prozent. In den Meldungen wurden keine Insider-Käufe oder Insider-Verkäufe erwähnt. Aussagen des Managements oder des Chefs liegen für diesen Zeitraum nicht vor. Zu eventuellen Widersprüchen zwischen den Quellen gibt es in den vorliegenden Daten keine Auffälligkeiten. Keine Anlageberatung.",
-   "dur": 134.3,
-   "at": "2026-11-07T23:55:16Z"
+   "text": "UBS Group steht aktuell im Fokus von Marktbeobachtern und Analysten. Laut dem Schweizer Finanzportal Cash hat RBC Capital Markets das Kursziel für UBS Group auf rund einundsechzig Komma null sechs Dollar angehoben, was umgerechnet rund einundsechzig Dollar entspricht. Gleichzeitig meldet das deutsche Börsenportal boerse.de, dass die Aktie von UBS Group unter die wichtige fünfzig-Tage-Linie gefallen ist. Das Schweizer Finanzportal finanzen.ch berichtet zudem über wiederholte Kursabschläge und eine schwächere Tendenz an verschiedenen Handelstagen. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Bei den Analystenbewertungen zeigt das Konsensbild von Yahoo Finance ein gemischtes Bild mit insgesamt zwei starken Käufen, sieben Käufen, acht Halten, zwei Verkäufen und eins starken Verkauf. Das durchschnittliche Kursziel der Analysten liegt bei rund fünfundfünfzig Dollar, während das höchste Ziel bei rund dreiundsiebzig Dollar und das niedrigste Ziel bei rund zweiundvierzig Dollar angesiedelt wird. Daraute ergibt sich ein potenzielles Aufwärtspotenzial von rund vierzehn Prozent. Zurück zu UBS Group: Die Firma hat kürzlich Informationen zu UBS Mixed Urban und UBS Direct Residential veröffentlicht, während gleichzeitig die Kursentwicklung durch Rücksetzer und das Unterschreiten technischer Marken belastet wurde. Zu den wichtigen Kennzahlen gehört neben dem aktuellen Kurs von rund achtundvierzig Dollar das genannte mittlere Kursziel von rund fünfundfünfzig Dollar sowie das Aufwärtspotenzial von rund vierzehn Prozent. Kursziele dienen Analysten als Orientierung für die zukünftige Entwicklung, basierend auf fundamentalen und technischen Analysen. Insider-Käufe oder -Verkäufe wurden in den aktuellen Meldungen nicht verzeichnet. Sogenannte Insider-Verkäufe sind dabei oft privater Natur oder langfristig geplant und sagen daher meist weniger aus als gezielte Käufe. Aussagen von Chefs oder dem Management direkt zu UBS Group liegen für diesen Zeitraum nicht vor. Keine Anlageberatung.",
+   "dur": 124.4,
+   "at": "2026-11-08T07:29:57Z"
   },
   "MSFT": {
    "file": "MSFT.mp3",
@@ -511,9 +512,9 @@
   }
  },
  "status": "ok",
- "checked_at": "2026-11-08T06:10:43Z",
+ "checked_at": "2026-11-08T07:29:57Z",
  "quota_until": 1794114962.7918797,
- "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@4a515743f79e78f8076f47fa293af43a1ccf8eb3/data/audio/",
+ "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@0c2ab54e45be0cf55817f6ae66447fdd7aaacd5a/data/audio/",
  "extra": {
   "intro": {
    "file": "_intro.mp3",
