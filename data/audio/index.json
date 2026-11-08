@@ -184,15 +184,16 @@
   },
   "ARM": {
    "file": "ARM.mp3",
-   "hash": "36aef6bee20d71d4",
-   "th": "6b5e4a4da27111e5",
-   "id": "44e2a9c728",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
+   "hash": "cf025ae12dd8b97d",
+   "th": "e47ffac5ef5d73ae",
+   "engine": "gemini",
+   "id": "51c07354f9",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
    "br": 24,
-   "text": "Arm Holdings meldet im zweiten Quartal einen Rekordumsatz von eins Komma vier Milliarden Dollar. Trotz dieser starken Geschaeftszahlen geraet der Aktienkurs nach den Quartalsergebnissen unter Druck und verzeichnet Kursrueckgaenge. Von insgesamt vierzig Analysten raten achtundzwanzig zum Kaufen, vierzehn zum Halten, eins zum Verkaufen und acht zum starken Kaufen. Mehrere Banken haben ihre Kursziele angepasst: Die UBS senkt das Kursziel von dreihundertzwanzig Dollar auf zweihundertsiebzig Dollar und bestaetigt die Einstufung als Kaufen. JP Morgan bestaetigt die Einstufung als Uebergewichten und senkt das Kursziel von zweihundertfünfundfünfzig Dollar auf zweihundertfünfundvierzig Dollar. TD Cowen bestaetigt das Kaufen und senkt das Kursziel von dreihundertfünfzig Dollar auf zweihundertfünfzig Dollar. RBC Capital bestaetigt die Einstufung als Besser als Markt und senkt das Kursziel von dreihundertvierzig Dollar auf dreihundert Dollar. Barclays bestaetigt die Einstufung als Uebergewichten und senkt das Kursziel von dreihundertsechzig Dollar auf dreihundertfünfundzwanzig Dollar. Wells Fargo bestaetigt die Einstufung als Uebergewichten und senkt das Kursziel von zweihundertachtzig Dollar auf zweihundertfünfundfünfzig Dollar.",
-   "dur": 85.9,
-   "at": "2026-11-08T03:10:30Z"
+   "text": "Arm Holdings: Im Zentrum der aktuellen Berichterstattung steht die Aktie des Chip-Unternehmens Arm Holdings, die kürzlich gemischte Signale an den Märkten gesendet hat. Laut dem Arm Newsroom lieferte das Unternehmen im zweiten Quartal ein Rekordergebnis und erreichte einen Gesamtumsatz von eins Komma vier Milliarden Dollar, was einem Zuwachs von siebenundzwanzig Prozent entspricht. Wallstreet Online berichtet jedoch, dass die Aktie trotz dieser starken Zahlen unter Druck geriet und ein neues Sechsmonatstief verzeichnete. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden, allerdings weisen Finanzportale wie Yahoo Finance Singapore auf Bewertungszweifel und reduzierte Multiples hin. Mehrere Analysten haben ihre Kursziele nach unten angepasst. Laut den Daten von Yahoo Finance bestätigen Banken wie die UBS ihre Einstufung auf Kaufen und senken das Kursziel von dreihundertzwanzig Dollar auf zweihundertsiebzig Dollar. JP Morgan bestätigt die Übergewichtung und senkt das Kursziel von zweihundertfünfundfünfzig Dollar auf zweihundertfünfundvierzig Dollar. TD Cowen bestätigt die Einstufung als Kaufen mit einem auf zweihundertfünfzig Dollar gesenkten Kursziel, während RBC Capital das Kursziel von dreihundertvierzig Dollar auf dreihundert Dollar reduziert. Barclays senkt das Kursziel von dreihundertsechzig Dollar auf dreihundertfünfundzwanzig Dollar, und Wells Fargo passt das Ziel von zweihundertachtzig Dollar auf zweihundertfünfundfünfzig Dollar an. Die Deutsche Bank Securities bewertet die Aktie neutral. Zurück zu Arm Holdings: Operativ profitiert das Unternehmen von Fortschritten bei KI-Chips und stützt sich stark auf Cloud-Giganten, während laut Yahoo Finance Telefone unter einem Speichermangel leiden und die dortigen Lizenzgebühren ins Stocken geraten. Zu den wichtigen Kennzahlen gehört der Rekordumsatz von eins Komma vier Milliarden Dollar sowie das Umsatzwachstum von siebenundzwanzig Prozent. Das von Analysten errechnete durchschnittliche Kursziel liegt bei zweihundertdreiundsiebzig Dollar. Aus den Pflichtmeldungen der Börsenaufsicht SEC geht hervor, dass Finanzchef Jason Child im Rahmen eines vorab festgelegten Plans im August Aktien im Wert von rund zwei Komma sieben Millionen Dollar und im September Aktien im Wert von rund drei Komma eins Millionen Dollar verkauft hat. Solche Insider-Verkäufe basieren oft auf langfristigen Plänen und sagen allein noch wenig über das operative Geschäft aus. Bei Arm Holdings sagt der Firmenchef laut Yahoo Finance, dass die Lizenzgebühren für Rechenzentren dreistellig wachsen sollen, während die Lizenzgebühren für Telefone stagnieren, was bedeuten könnte, dass sich der Konzern erfolgreich neue Einnahmequellen im Cloud-Bereich erschliesst. Bei den Widersprüchen gibt es unterschiedliche Beobachtungen zur Kursentwicklung: Während Finanzen.net von positiven Vorzeichen berichtet, meldet boerse.de herbe Einbussen und ein Sechsmonatstief. Keine Anlageberatung.",
+   "dur": 162.9,
+   "at": "2026-11-08T04:15:37Z"
   },
   "HOOD": {
    "file": "HOOD.mp3",
@@ -244,15 +245,15 @@
   },
   "SMEGF": {
    "file": "SMEGF.mp3",
-   "hash": "47311639ce7affcc",
-   "th": "cd806d15f4dfba6b",
-   "id": "695673ec8b",
+   "hash": "63bbcfe5cae9a29b",
+   "th": "03d68d04415cc06e",
+   "id": "58b0c86e1a",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Siemens Energy steht derzeit im Fokus verschiedener Medien und Analysten vor anstehenden Quartalszahlen. Laut dem deutschen Börsenportal Wallstreet Online gab es zuletzt ein Minus von zwölf Komma fünf Prozent, und es begann die Suche nach einem Boden. Wie die deutsche Tageszeitung WELT berichtet, zeigte sich der Kurs in den letzten Tagen wechselhaft zwischen Erholungen und Rücksetztern. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Die Analysten zeigen sich überwiegend positiv: Laut dem Finanzportal Investing.com Deutsch bewertet JPMorgan Chase und Company die Aktie mit Ubergewichten und einem Kursziel von zweihundertvierundsiebzig Dollar. Laut dem Schweizer Finanzportal finanzen.ch bewertet die UBS die Aktie ebenfalls mit Kaufen. Zuruck zu Siemens Energy: Die aktuelle Berichterstattung zeigt sowohl aufwertende Momente mit zwischenzeitlichen Kurserholungen und positiven Handelssignalen laut der deutschen Tageszeitung WELT als auch abwertende Phasen mit deutlichen Kursrückgängen. Wichtige Kennzahlen umfassen insbesondere das genannte Kursziel der Analysten, das angibt, welchen Kurs die Analysten der Aktie in Zukunft zutrauen. Insider-Kaeufe oder -Verkaeufe wurden in den Meldungen nicht erwahnt. Zu den Aussagen der Chefs liegen aktuell keine Berichte vor. Beim Thema der Kursentwicklung gibt es Widerspruche, da die deutsche Tageszeitung WELT von Erholungen berichtet, wahrend das deutsche Börsenportal Wallstreet Online ein Minus von zwölf Komma fünf Prozent und eine Suche nach dem Boden verzeichnet.",
-   "dur": 108.7,
-   "at": "2026-11-07T23:54:50Z"
+   "text": "Die Aktie von Siemens Energy stand zuletzt im Fokus unterschiedlicher Medienberichte, die ein gemischtes Bild zeichnen. Während Wallstreet Online über einen Kursrückgang von zwölf Komma fünf Prozent und eine Suche nach dem Boden berichtete, meldeten andere Quellen wie die WELT und Finanzen.net Erholungsphasen und positive Signale im Handelsverlauf. Zudem wurde die Aktie im BOTSI-Advisor von Rang einhundertachtunddreissig abgestuft. Analysten äussern sich weiterhin optimistisch: JPMorgan bestätigt die Einstufung auf Übergewichten mit einem Kursziel von rund zweihundertvierundsiebzig Dollar, was umgerechnet etwa zweihundertvierundsiebzig Dollar entspricht. Auch die UBS bewertet die Aktie in einer neuen Analyse mit Kaufen. Insider-Transaktionen oder Aussagen der Geschäftsleitung wurden für diesen Zeitraum nicht gemeldet. Die widersprüchlichen Berichte zur kurzfristigen Kursentwicklung spiegeln die aktuelle Volatilität des Papiers wider. Bitte beachten Sie, dass dies keine Anlageberatung darstellt.",
+   "dur": 70.5,
+   "at": "2026-11-08T04:16:08Z"
   },
   "OKLO": {
    "file": "OKLO.mp3",
@@ -484,15 +485,15 @@
   },
   "MU": {
    "file": "MU.mp3",
-   "hash": "2122cbbf05388d48",
-   "th": "7e112d22bc2f6c93",
-   "id": "ff2711ed40",
+   "hash": "719f10f4e75e908d",
+   "th": "d22aaf511cfd334e",
+   "id": "44867be804",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Bei der Aktie von Micron Technology gab es laut der kanadischen Tageszeitung The Globe and Mail zunächst Kursverluste, während das Finanzportal Yahoo Finance gleichzeitig von einer Erholung im Zuge des generellen Aufschwungs bei Chip-Aktien berichtete. Die US-Plattform Seeking Alpha diskutierte zudem ein Rating-Upgrade sowie mögliche Wettbewerbsvorteile durch in Amerika hergestelltes DRAM. Auf der Analystenseite gibt es im Konsens neun starke Käufe, fünfundvierzig Käufe, vier Halten sowie keine Verkaufsempfehlungen. Das durchschnittliche Kursziel liegt bei eintausendfünfhunderteinundsechzig,einundneunzig Dollar. Konkrete Einschätzungen einzelner Häuser zeigen sich wie folgt: Rosenblatt vergibt das Rating Kaufen mit einem Kursziel von eintausendneunhundert,null Dollar, Needham stuft die Aktie ebenfalls mit Kaufen und eintausendsechshundertfünfzig,null Dollar ein, und DA Davidson nennt ein Kursziel von dreitausend,null Dollar. Mizuho bewertet das Unternehmen mit Besser als Markt bei einem Kursziel von eintausendvierhundert,null Dollar, während Morgan Stanley mit Übergewichten und einem Kursziel von eintausendzweihundert,null Dollar positioniert ist. Zu den aktuellen Entwicklungen gehört laut Seeking Alpha die Diskussion um den potenziellen Wettbewerbsvorteil von amerikanischem DRAM, und Yahoo Finance hebt die Stärke des Unternehmens beim Ausbau der künstlichen Intelligenz hervor, während The Globe and Mail weiterhin auf anhaltende Kursrückgänge verweist. Bezüglich der Marktlage zeigt sich ein kleiner Widerspruch: Während Yahoo Finance die Micron-Aktie als beschädigt einstuft, meldete das Schweizer Finanzportal finanzen.ch am Nachmittag ein starkes Kursfeuerwerk.",
-   "dur": 114.8,
-   "at": "2026-11-07T23:00:07Z"
+   "text": "Micron Technology, Inc.: In den vorliegenden Berichten stehen vor allem Marktschwankungen, Kursbewegungen und Vergleiche mit anderen Technologieunternehmen wie Nvidia im Fokus. Laut finanzen.ch verzeichnete die Aktie von Micron Technology, Inc. starke Kursbewegungen und Erholungen, während The Globe and Mail und Seeking Alpha über Marktbewertungen, die Nachfrage nach Arbeitsspeicher und mögliche Fehlinterpretationen von Abschwächungen diskutieren. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Die Analystenbewertungen zeigen ein überwiegend positives Bild: Laut Yahoo Finance liegt das durchschnittliche Kursziel der fünfundvierzig beobachtenden Analysten bei rund eintausendfünfhundertzweiundsechzig Dollar, wobei das höchste Ziel dreitausend Dollar und das tiefste Ziel dreihunderteinundsechzig Dollar beträgt. Das erwartete Kurspotenzial beläuft sich auf rund einhundertsechsundzwanzig Prozent, und die Mehrheit der Experten empfiehlt die Aktie zum Kauf oder zur Übergewichtung. Zurück zu Micron Technology, Inc.: Was die Firma aktuell betrifft, werten Beobachter wie Seeking Alpha positiv, dass in Amerika hergestellter Arbeitsspeicher einen strategischen Wettbewerbsvorteil darstellen könnte, während andererseits Medienberichte über anhaltende Kursrückgänge und kostspielige Faktoren bei scheinbaren Schnäppchenpreisen vorliegen. Zu den wichtigen Kennzahlen gehört das durchschnittliche Kursziel von rund eintausendfünfhundertzweiundsechzig Dollar sowie das prognostizierte Aufwärtspotenzial von rund einhundertsechsundzwanzig Prozent, welche die optimistischen Erwartungen der Analysten unterstreichen. Hinsichtlich der Insider-Aktivitäten wird laut SEC EDGAR und Investing.com UK über Managementwechsel sowie geplante Aktienverkäufe berichtet, darunter Transaktionen von Scott J Deboer im Wert von rund fünfundzwanzig Komma sieben Millionen Dollar sowie von Michael Charles Ray im Wert von rund fünf Komma neun Millionen Dollar im Rahmen vorab festgelegter Pläne. Anleger sollten beachten, dass Insider-Verkäufe oft weniger aussagekräftig sind als Käufe, da sie häufig durch steuerliche Gründe oder vordefinierte Pläne veranlasst werden. Keine Anlageberatung.",
+   "dur": 150.9,
+   "at": "2026-11-08T04:16:28Z"
   },
   "DRO.AX": {
    "file": "DRO.AX.mp3",
@@ -508,9 +509,9 @@
   }
  },
  "status": "quota: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, h",
- "checked_at": "2026-11-08T03:11:51Z",
- "quota_until": 1794110974.6344457,
- "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@dbfaca7c3f5002f2375bcdf1496e581d39cb6f4c/data/audio/",
+ "checked_at": "2026-11-08T04:16:28Z",
+ "quota_until": 1794114962.7918797,
+ "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@9fd3fa5d982536113f003251604b81c8ab93e216/data/audio/",
  "extra": {
   "intro": {
    "file": "_intro.mp3",
