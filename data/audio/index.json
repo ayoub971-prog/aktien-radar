@@ -515,7 +515,7 @@
  "status": "quota: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, h",
  "checked_at": "2026-11-09T21:41:04Z",
  "quota_until": 1794260432.8813572,
- "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@aa8c9113880670a3ee200b4f4444b59372798e0f/data/audio/",
+ "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@f765ea4e236a3ef955efd90e360b44cf779c7775/data/audio/",
  "extra": {
   "intro": {
    "file": "_intro.mp3",
