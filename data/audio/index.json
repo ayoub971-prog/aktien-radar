@@ -177,15 +177,16 @@
   },
   "AMAT": {
    "file": "AMAT.mp3",
-   "hash": "a9d1bfa9a32370ff",
-   "th": "6961385530ae7ddf",
-   "id": "d1c04cac12",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
+   "hash": "2e48369a8f3f0e6f",
+   "th": "d1f9e94f38c52d00",
+   "engine": "gemini",
+   "id": "127d4ef6c8",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
    "br": 24,
-   "text": "Applied Materials: Die Aktie des Technologiekonzerns verzeichnet im Vorfeld anstehender Quartalsergebnisse Kursgewinne und zieht das Interesse von Anlegern auf sich. Laut Investing.com steigt der Titel, da sich der Bereich fur Chip-Ausrustung erholt und das Handelsumfeld stark bleibt. Das Analysteninteresse ist gemass Yahoo Finance uberwiegend bullisch, und es gab Netto-ETF-Kaufe im Wert von rund achtzehn Komma neun Millionen Dollar. Als Risiken und rechtliche Probleme wurden in den vorliegenden Meldungen keine direkten Rechtsstreitigkeiten gefunden. Allerdings meldet boerse.de eine Abstufung von Rang einhundertvierzehn auf einen niedrigeren Rang. Zudem haben mehrere Analysehauser wie B. Riley Securities, Morgan Stanley, Needham und Evercore ISI Group ihre Kursziele fur Applied Materials nach unten angepasst, was auf eine vorsichtigere Haltung hindeutet. Analysten bewerten das Papier dennoch uberwiegend positiv: Laut Daten von Yahoo Finance bewerten insgesamt fünfunddreissig Analysten die Aktie mit Kaufen und fünf mit Stark kaufen, wahrend sechs Halten und keine Analysten eine Verkaufsempfehlung aussprechen. Das durchschnittliche Kursziel liegt bei sechshundertsiebenundzwanzig Dollar, wobei das hohe Ziel bei neunhundert Dollar und das tiefe Ziel bei dreihundertachtundfünfzig Dollar liegt. Zuruck zu Applied Materials: Operativ profitiert das Unternehmen von einer generellen Erholung bei Ausrustungen fur Halbleiter, wodurch der Kurs an starken Handelstagen die Konkurrenz ubertreffen konnte. Kritisch wird hingegen angemerkt, dass die Aktie nach einem starken Kursanstieg von einhundertsiebenundzwanzig Prozent laut Yahoo Finance Singapore uber dem fairen Wert zu liegen scheint. Bei den Kennzahlen sticht das Kursziel Durchschnitt von sechshundertsiebenundzwanzig Dollar hervor, welches das durchschnittliche Erwartungsbild der Experten widerspiegelt. Aussagen von Chefs oder dem Management direkt wurden in den aktuellen Meldungen nicht kommuniziert. Bei der Bewertung der Aktie zeigen sich leichte Widerspruche zwischen Portalberichten, die vor einem moglichen Ubertreffen des fairen Wertes warnen, und der uberwiegend optimistischen Haltung der Wall-Street-Analysten.",
-   "dur": 150.1,
-   "at": "2026-11-09T15:47:08Z"
+   "text": "Applied Materials steht aktuell im Fokus von Anlegern und Analysten. Das Papier des Technologieunternehmens ubertrifft laut MarketWatch an einem starken Handelstag die Konkurrenz, und TradingView meldet einen Kursanstieg von rund vier Komma sieben Prozent im Vorfeld anstehender Ergebnisse, wahrend sich der Bereich der Chip-Ausrustung erholt. Demgegenuber verzeichnet das deutsche Bersenportal boerse.de eine Abstufung im BOTSI-Advisor von Rang einhundertvierzehn auf einen tieferen Platz. Yahoo Finance Singapur weist zudem darauf hin, dass die Aktie nach einem massiven Anstieg von einhundertsiebenundzwanzig Prozent uber dem fairen Wert liegen konnte. Rechtliche Probleme oder weitere Risiken wurden in den Berichten nicht genannt. Bei den Analysten bewerten laut Yahoo Finance fünfunddreissig Experten die Aktie mit Kaufen, sechs raten zum Halten, und es gibt fünf starke Kaufempfehlungen. B. Riley Securities bestaetigt die Kaufempfehlung und senkt das Kursziel auf vierhundertfünfundsiebzig Dollar. Morgan Stanley fuhrt die Einstufung auf Marktgewichten mit einem Kursziel von fünfhundertachtunddreissig Dollar, Needham empfiehlt den Kauf bei fünfhundertachtzig Dollar, Evercore ISI Group sieht die Aktie mit fünfhundertneunzig Dollar als besser als den Markt an, und RBC Capital nennt ein Kursziel von sechshundert Dollar. Zudem verzeichnet das Unternehmen laut Yahoo Finance Netto-ETF-Kaufe im Wert von rund neunzehn Millionen Dollar. Das durchschnittliche Kursziel der Analysten liegt bei rund sechshundertsiebenundzwanzig Dollar, was ein Kurspotenzial von rund achtundsechzig Komma neun Prozent ergibt.",
+   "dur": 95.5,
+   "at": "2026-11-09T18:35:01Z"
   },
   "ARM": {
    "file": "ARM.mp3",
@@ -512,10 +513,10 @@
    "at": "2026-11-08T15:01:50Z"
   }
  },
- "status": "quota: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, h",
- "checked_at": "2026-11-09T17:50:00Z",
+ "status": "ok",
+ "checked_at": "2026-11-09T18:35:02Z",
  "quota_until": 1794246885.9912066,
- "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@7e6c80f19ebd23984105bc87f44f929bb954bb4d/data/audio/",
+ "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@46f059be53e34ef2901558bcf993f90fc6014b93/data/audio/",
  "extra": {
   "intro": {
    "file": "_intro.mp3",
