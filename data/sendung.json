@@ -1,6 +1,200 @@
 {
 "episodes": [
 {
+"id": "2026-11-09-t",
+"kind": "tag",
+"date": "2026-11-09",
+"title": "Morgen-Sendung, Montag, neunten November",
+"generated_at": "2026-11-09T05:31:42Z",
+"writer": "Gemini (Gratis-Kontingent) 8 Firmen, Rest Vorlage",
+"chapters": [
+{
+"name": "Begrüssung",
+"say": "Guten Morgen und willkommen zur Sendung vom Aktien-Radar, heute Montag, neunten November. Zuerst ein kurzer Blick auf den Markt, dann die Firmen aus deiner Liste mit neuen Meldungen zu Produkten, Partnern und Projekten, danach die Quartalszahlen dieser Woche und zum Schluss ein Begriff zum Lernen. Kurz vorweg: Alles stammt aus gesammelten Daten und Schlagzeilen, Beträge nenne ich in Dollar. Das ist keine Anlageberatung.",
+"audio": {
+"file": "sendung/2026-11-09-t_00.mp3",
+"hash": "7b4985d990917323",
+"dur": 29.7
+}
+},
+{
+"name": "Markt kurz",
+"say": "Der Markt kurz. Der S und P fünfhundert, der Index der fünfhundert grossen US-Firmen, stand zuletzt bei plus null Komma drei Prozent gegenüber dem Vortag. In deiner Liste am stärksten: Oklo mit plus zweiundzwanzig Komma sieben Prozent, Hyliion mit plus dreizehn Komma sieben Prozent, Intel mit plus sieben Komma sieben Prozent. Am schwächsten: SPDR MSCI World Energy ETF mit minus vier Komma zwei Prozent, BYD mit minus eins Komma fünf Prozent. Zum Thema Schweizer Börse meldet Finanz und Wirtschaft: Ausblick Unternehmen: Die wichtigsten Termine für diese Börsenwoche. Zum Thema Zinsen meldet CNBC: Der US-Dollar hält an den Lohnzuwächsen fest, der neuseeländische Dollar steigt nach der Wahl.",
+"audio": {
+"file": "sendung/2026-11-09-t_01.mp3",
+"hash": "eb68a36970fad209",
+"dur": 54.7
+}
+},
+{
+"name": "Nvidia",
+"sym": "NVDA",
+"say": "Zur Aktie Nvidia. Nvidia verzeichnet Schlagzeilen über eine Untersuchung des Vorstands zur Beziehung von CEO Jensen Huang zu einem mutmasslichen chinesischen Spion. Zudem nimmt der Chiphersteller Nvidia Finanzierungen fuer den KI-Ausbau auf, wobei Finanzgiganten bei diesem AI-Finanzierungsabkommen einspringen. Ob das Nvidia stärkt oder schwächt, ist aus den Meldungen noch unklar. Das war Nvidia.",
+"audio": {
+"file": "sendung/2026-11-09-t_02.mp3",
+"hash": "2fd5fe49599c5a9e",
+"dur": 29.3
+}
+},
+{
+"name": "Berkshire Hathaway",
+"sym": "BRK-B",
+"say": "Zur Aktie Berkshire Hathaway. Die Barmittelbestände von Berkshire Hathaway sinken erneut, da Akquisitionen und Aktienrückkäufe zunehmen. Berkshire Hathaway investiert ausserdem neun Komma sechs Milliarden Dollar in Aktienrückkäufe. Der Quartalsgewinn von Berkshire Hathaway ist jedoch gesunken, nachdem die Investitionsgewinne zurückgegangen sind. Meine Einordnung aus diesen Meldungen: Sie könnten Berkshire Hathaway eher stärken. Das war Berkshire Hathaway.",
+"audio": {
+"file": "sendung/2026-11-09-t_03.mp3",
+"hash": "38bedb23d7a660d6",
+"dur": 35.4
+}
+},
+{
+"name": "Microsoft",
+"sym": "MSFT",
+"say": "Zur Aktie Microsoft. Microsoft wird laut Berichten einen Vertrag für die Anmietung von KI-Cloud-Kapazität von Oracle nicht verlängern. Microsoft und dieser Oracle-Umzug werfen für Investoren neue Fragen auf. Ältere Nvidia-Chips sollen Oracle diesen Microsoft-KI-Deal gekostet haben. Meine Einordnung aus diesen Meldungen: Sie könnten Microsoft eher schwächen. Das war Microsoft.",
+"audio": {
+"file": "sendung/2026-11-09-t_04.mp3",
+"hash": "a2fee508bdf22134",
+"dur": 30.4
+}
+},
+{
+"name": "Meta",
+"sym": "META",
+"say": "Zur Aktie Meta. Meta Plattformen verzeichnet expandierende KI-Geschäfte und kämpft gleichzeitig um KI-Rechenzentren. Der COO von Meta Plattformen, Javier Olivan, hat Aktien im Wert von drei Komma drei Millionen US-Dollar verkauft. Bei Meta Plattformen nehmen zudem die rechtlichen Risiken zu. Ob das Meta stärkt oder schwächt, ist aus den Meldungen noch unklar. Das war Meta.",
+"audio": {
+"file": "sendung/2026-11-09-t_05.mp3",
+"hash": "42dc05b9594b22f6",
+"dur": 31.1
+}
+},
+{
+"name": "Oklo",
+"sym": "OKLO",
+"say": "Zur Aktie Oklo. Oklo arbeitet mit US-amerikanischen Forged Rings zusammen, um die inländische Fertigung für künftige Aurora-Kraftwerkseinsätze voranzutreiben. Oklo blockiert damit die inländische Produktionskapazität für Reaktoren. Die Ergebnisse von Oklo haben eine Rallye für Reaktoren und Uranlieferanten ausgelöst. Meine Einordnung aus diesen Meldungen: Sie könnten Oklo eher stärken. Das war Oklo.",
+"audio": {
+"file": "sendung/2026-11-09-t_06.mp3",
+"hash": "2648dfadcb4f8218",
+"dur": 32.4
+}
+},
+{
+"name": "Palantir",
+"sym": "PLTR",
+"say": "Zur Aktie Palantir. Palantir Technologies hat laut dem neuesten Quartalsbericht ein potenzielles Warnsignal für Anleger geliefert. Palantir Technologies hat eine Unternehmens-KI-Partnerschaft für die Einführung von Versicherungen und Altersvorsorge abgeschlossen. Die Aktie von Palantir hat ausserdem Neuigkeiten von einem Wall-Street-Analysten erhalten. Meine Einordnung aus diesen Meldungen: Sie könnten Palantir eher stärken. Das war Palantir.",
+"audio": {
+"file": "sendung/2026-11-09-t_07.mp3",
+"hash": "d8e11b4bb96ab34a",
+"dur": 33.9
+}
+},
+{
+"name": "Amazon",
+"sym": "AMZN",
+"say": "Zur Aktie Amazon. Amazon hat über einhundert neue Alexa-Shopping-Funktionen hinzugefügt. Amazon Prime-Mitglieder erhalten einen neuen Uber Eats-Vorteil, der mit einem Mindestbetrag von fünfundzwanzig US-Dollar verbunden ist. Uber und Amazon Prime sind ausserdem Partner für die Lieferausweitung geworden. Meine Einordnung aus diesen Meldungen: Sie könnten Amazon eher stärken. Das war Amazon.",
+"audio": {
+"file": "sendung/2026-11-09-t_08.mp3",
+"hash": "e2ecec037578359e",
+"dur": 30.8
+}
+},
+{
+"name": "UBS",
+"sym": "UBSG.SW",
+"say": "Kommen wir zur Aktie der UBS. Der CEO der Bank warnt aktuell vor einer Verlangsamung beim Ausbau der kuenstlichen Intelligenz, da der Bau von Rechenzentren derzeit einen Rekord erreicht. Laut dem UBS-Chef hatten Investoren im KI-Sektor bis zur juengsten scharfen Korrektur eine perfekte Entwicklung eingepreist. Zudem hat die UBS neue Analysen zu anderen Unternehmen veroeffentlicht, darunter eine Verkaufsempfehlung fuer Swiss Re, eine Kaufempfehlung fuer Rheinmetall sowie eine Erhoehung des Kursziels fuer Dropbox aufgrund von Margenausweitungen. Ob diese Einschaetzungen die UBS selbst staerken oder schwaechen, bleibt abzuwarten.",
+"audio": {
+"file": "sendung/2026-11-09-t_09.mp3",
+"hash": "87ba6b2af2dbd804",
+"dur": 44.4
+}
+},
+{
+"name": "Quartalszahlen diese Woche",
+"say": "Quartalszahlen diese Woche. Diese Firmen aus deiner Liste melden ihre Quartalszahlen. Zur Aktie Berkshire Hathaway: Zahlen Montag, am neunten November. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von fünf Dollar und zwölf Cent. Beim Umsatz erwarten sie rund einhundertvier Milliarden Dollar. Zur Aktie Hyliion: Zahlen Dienstag, am zehnten November. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von minus null Dollar und sieben Cent. Beim Umsatz erwarten sie rund vier Komma acht Millionen Dollar. Zur Aktie SoftBank: Zahlen Dienstag, am zehnten November. Beim Umsatz erwarten sie rund eintausendneunhundertzweiundneunzig Komma fünf Milliarden Dollar. Zur Aktie Siemens Energy: Zahlen Mittwoch, am elften November. Beim Umsatz erwarten sie rund zwölf Komma sieben Milliarden Dollar. Zur Aktie Applied Materials: Zahlen Donnerstag, am zwölften November. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von vier Dollar und sechs Cent. Beim Umsatz erwarten sie rund zehn Komma drei Milliarden Dollar.",
+"audio": {
+"file": "sendung/2026-11-09-t_10.mp3",
+"hash": "84f9c8146dd3e45e",
+"dur": 81.0
+}
+},
+{
+"name": "Begriff: Prognose",
+"say": "Zum Lernen, der Begriff des Tages: Prognose. Viele Firmen geben bei den Quartalszahlen eine Prognose, auf Englisch Guidance, für die nächsten Monate. Oft bewegt die Prognose den Kurs stärker als die Zahlen selbst, weil die Börse in die Zukunft schaut.",
+"audio": {
+"file": "sendung/2026-11-09-t_11.mp3",
+"hash": "ad88ebbb2f3e5ce3",
+"dur": 18.5
+}
+},
+{
+"name": "Schluss",
+"say": "Das war die Sendung vom Aktien-Radar. Die Quellen findest du in der App bei jeder Aktie, den ganzen Text über den Knopf Als Text. Bis morgen.",
+"audio": {
+"file": "sendung/2026-11-09-t_12.mp3",
+"hash": "cc4bc23e3e69d9dd",
+"dur": 11.5
+}
+}
+],
+"dur": 463.1,
+"full": {
+"file": "sendung/2026-11-09-t_full.mp3",
+"dur": 462.9,
+"marks": [
+[
+0,
+0.0
+],
+[
+1,
+29.7
+],
+[
+2,
+84.4
+],
+[
+3,
+113.7
+],
+[
+4,
+149.1
+],
+[
+5,
+179.5
+],
+[
+6,
+210.6
+],
+[
+7,
+243.0
+],
+[
+8,
+276.9
+],
+[
+9,
+307.7
+],
+[
+10,
+352.1
+],
+[
+11,
+433.1
+],
+[
+12,
+451.6
+]
+]
+}
+},
+{
 "id": "2026-11-07-w",
 "kind": "woche",
 "date": "2026-11-07",
@@ -2273,8 +2467,8 @@
 "dur": 729.9
 }
 ],
-"generated_at": "2026-11-07T07:52:03Z",
+"generated_at": "2026-11-09T05:31:42Z",
 "voice": "de-CH-LeniNeural",
 "source": "Yahoo Finance, SEC EDGAR, Schlagzeilen (Google News u.a.); Text: Gemini Gratis-Kontingent oder Vorlage",
-"audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@42742c6a7003c39866b816f7bc50bcff26523437/data/audio/"
+"audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@6c630fec8a524ad143dcab7ab8ac297039c7141c/data/audio/"
 }
