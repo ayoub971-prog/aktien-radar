@@ -15,16 +15,15 @@
   },
   "005930.KS": {
    "file": "005930.KS.mp3",
-   "hash": "091f6489e9ee206d",
-   "th": "ff5217d9072a2cf7",
-   "engine": "gemini",
-   "id": "5a8a5add83",
-   "voice": "Kore",
-   "model": "gemini-2.5-flash-preview-tts",
+   "hash": "392e29e5a10e7643",
+   "th": "7a9eea61efaf0e8f",
+   "id": "b67a436026",
+   "voice": "de-CH-LeniNeural",
+   "engine": "edge",
    "br": 24,
-   "text": "Die Aktie von Samsung Electronics stand zuletzt im Fokus heftiger Kursrückgänge. Laut CNBC belastete ein Ausverkauf im Technologie- und Halbleitersektor asiatische Chip-Aktien massiv. Laut Yahoo Finance führte Samsung Wallet derweil neue Stablecoin-Konten für Galaxy-Geräte ein. Zudem berichtete Yahoo Finance über die Verurteilung eines ehemaligen Ingenieurs im Fall eines DRAM-Lecks. Zu den Analysten-Bewertungen zeigt das Konsensbild zahlreiche Kaufempfehlungen. Laut Yahoo Finance liegt das durchschnittliche Kursziel bei rund dreihundertfünfzig Dollar, wobei die Spanne von etwa zweihundertdreizehn Dollar bis zu fünfhundertacht Dollar reicht. Aufwertend wirkt, dass Samsung Wallet neue Stablecoin-Konten für Galaxy-Geräte eingeführt hat und das Unternehmen junge Athleten bei Dakar 2026 unterstützt. Abwertend wirkt dagegen, dass ausländische Investoren Aktien im Wert von mehreren Milliarden Dollar abgestossen haben und Berichte über Konkurrenzdruck bei fortschrittlichen Speicherchips durch TSMC die Runde machen. Das von Yahoo Finance ausgewiesene durchschnittliche Kursziel liegt bei rund dreihundertfünfzig Dollar, was das von Analysten erwartete Mittel darstellt.",
-   "dur": 69.6,
-   "at": "2026-11-08T23:53:46Z"
+   "text": "Samsung Electronics stand in den Berichten im Fokus starker Marktbewegungen. Laut dem US-Wirtschaftssender CNBC geriet die Aktie im Zuge eines allgemeinen Ausverkaufs von Werten aus dem Bereich der Künstlichen Intelligenz und asiatischer Chip-Werte unter Druck. Ausserdem berichtete bloomingbit, dass ausländische Investoren innerhalb einer Woche Aktien von Samsung Electronics und SK Hynix im Wert von rund fünf Komma fünf Milliarden Dollar abgestossen haben, womit der ausländische Besitz den niedrigsten Stand seit vielen Jahren erreichte. Positiver meldete Yahoo Finance, dass Samsung Wallet neue Stablecoin-Konten für Galaxy-Geräte einführt. Als Risiko wurde die Verurteilung eines ehemaligen Ingenieurs wegen eines DRAM-Lecks genannt. Zu den Analystenbewertungen zeigt sich ein optimistisches Bild: Von insgesamt achtundvierzig erfassten Analysten raten zwölf zum starken Kauf und sechsunddreissig zum Kauf, während Halte- oder Verkaufsempfehlungen nicht ausgesprochen wurden. Das durchschnittliche Kursziel liegt bei rund dreihundertfünfzig Dollar. Operativ zeigt sich das Unternehmen durch die Einführung von Stablecoin-Konten sowie durch die Beteiligung am wachsenden Markt für Biohacking-Wearables aktiv. Belastend wirkten dagegen Berichte über den Abfluss ausländischer Investorengelder sowie Spekulationen, wonach Konkurrenten wie TSMC bei fortschrittlichen Speicherchips Aufträge erhalten könnten.",
+   "dur": 97.8,
+   "at": "2026-11-09T03:02:43Z"
   },
   "HY9H.MU": {
    "file": "HY9H.MU.mp3",
@@ -152,15 +151,15 @@
   },
   "SFTBY": {
    "file": "SFTBY.mp3",
-   "hash": "1065f83c8f53a6a1",
-   "th": "9a63d5a238fb8cf5",
-   "id": "5c8d29dcac",
+   "hash": "ca8e7522a1c97419",
+   "th": "d9592c6c5434d9f6",
+   "id": "b911e4d643",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "SoftBank Group: Die Aktie der SoftBank Group stand zuletzt stark unter Druck und stürzte um zehn Komma acht Prozent ab, da das Kreditrisiko auf ein Vierjahreshoch anstieg und Sorgen rund um KI-Investitionen den Markt belasteten. Laut TradingView, einer Chart- und Bersenplattform, spiegelte dies den Markt wider. Zu den Risiken und rechtlichen Problemen: Regulierungsbehorden blockierten die geplante Ubernahme des ABB-Robotikgeschäfts in China im Wert von fünf Komma vier Milliarden Dollar, wie Yahoo Finance meldet. Zudem berichtete TradingView uber ein stark gestiegenes Kreditrisiko und Berichte von Elon Musk, wonach SoftBank bei Turbinenbestellungen im Verzug sei. Zuruck zu SoftBank Group: Analysten bewerten die Lage derzeit mit zwei Halten-Empfehlungen, wobei das durchschnittliche Kursziel von Yahoo Finance bei rund sechzehn Komma acht Dollar liegt. Operativ versucht das Unternehmen, den blockierten Roboter-Deal durch eine mogliche Ausgliederung des China-Geschäfts zu retten, wie www.marketscreener.com berichtet; belastend wirken hingegen die regulatorischen Hintergrunde in China sowie die Vorkommnisse um Turbinenbestellungen. Wichtige Kennzahlen zeigen einen Kursruckgang von zehn Komma acht Prozent und ein durchschnittliches Kursziel von sechzehn Komma acht Dollar.",
-   "dur": 90.5,
-   "at": "2026-11-08T17:54:56Z"
+   "text": "SoftBank Group: Die Aktie der SoftBank Group verzeichnete zuletzt erhebliche Kursrückgänge, rutschte auf ein neues Sechsmonatstief ab und sah sich einem auf ein Vierjahreshoch gestiegenen Kreditrisiko gegenüber. Ausserdem belasten regulatorische Hürden den geplanten Zukauf im Robotersektor. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden, welche über die genannten behördlichen Blockaden und vertraglichen Vorwürfe hinausgehen. Analysten bewerten die Aktie im Durchschnitt mit Halten und sehen ein mittleres Kursziel von rund sechzehn Komma acht Dollar, ausgehend von einem aktuellen Aktienkurs von rund elf Komma vier sieben Dollar. Zurück zu SoftBank Group: Die Gesellschaft versucht derzeit gemeinsam mit ABB, durch eine mögliche Ausgliederung des China-Geschäfts den rund fünf Komma vier Milliarden Dollar schweren Roboter-Deal zu retten. Abwertend wirkt sich hingegen aus, dass die jüngsten Marktturbulenzen und Berichte über einen Zahlungsverzug bei Turbinenbestellungen das Vertrauen belasten. Wichtige Kennzahlen umfassen das durchschnittliche Kursziel der Analysten von rund sechzehn Komma acht Dollar, welches den erwarteten fairen Wert darstellt, sowie den aktuellen Aktienkurs von rund elf Komma vier sieben Dollar. Insider-Käufe oder -Verkäufe wurden in den offiziellen Daten nicht gesondert aufgeführt. Bei SoftBank Group sagt Chef Masayoshi Son laut Medienberichten nichts direkt, allerdings verlor er im Zuge des asiatischen Chip-Abverkaufs rund drei Komma neun Milliarden Dollar, was laut Billionaires.Africa den Druck auf die Konzernführung erhöhen könnte. Keine Anlageberatung.",
+   "dur": 110.0,
+   "at": "2026-11-09T03:02:56Z"
   },
   "GLW": {
    "file": "GLW.mp3",
@@ -236,15 +235,15 @@
   },
   "HYLN": {
    "file": "HYLN.mp3",
-   "hash": "ccb27fa8635b7d5c",
-   "th": "9feb96f05de9b5f0",
-   "id": "1664e23a18",
+   "hash": "d13ed078ea711f3e",
+   "th": "9e3955083282dc22",
+   "id": "4f850c5b38",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Wir blicken auf die aktuelle Lage des Unternehmens Hyliion Holdings und die vorliegenden Daten. Laut Yahoo! Finance Canada, einem Finanzportal, gibt es neue Schlagzeilen und Nachrichten rund um das Unternehmen. Laut TradingView, einer Chart- und Börsenplattform, wird zudem ein Verlust je Aktie von acht Cent erwartet. Zu den Risiken: Laut www.siam.in verzeichnete die Aktie von Hyliion Holdings einen Kursrückgang von zwölf Komma drei Prozent auf zwei Komma sechs drei Dollar, da sich eine wichtige Unterstützung nähert. Betrachten wir die Analysten-Bewertungen: Craig-Hallum stufte die Aktie am neunundzwanzigsten September 2026 mit Kaufen und einem Kursziel von sieben Dollar ein. Northland Capital Markets bewertete das Papier am dreizehnten August 2026 mit Besser als Markt und nannte ein Kursziel von zehn Dollar. Insgesamt gibt es laut Yahoo Finance vier Kauf-Empfehlungen, eins starke Kauf-Empfehlung, null Halte-Empfehlungen und null Verkauf-Empfehlungen. Das durchschnittliche Kursziel liegt bei sieben Komma sieben fünf Dollar. Was die Firma aktuell macht: Laut TradingView steht das Unternehmen vor der Bekanntgabe von Quartalszahlen, bei denen ein Verlust je Aktie von acht Cent prognostiziert wird. Als wichtige Kennzahlen lassen sich der aktuelle Aktienkurs von zwei Komma neun neun Dollar sowie das durchschnittliche Kursziel von sieben Komma sieben fünf Dollar nennen, die für die Einschätzung des Potenzials von Bedeutung sind. Hinsichtlich Insider-Transaktionen zeigt eine offizielle Meldung der US-Börsenaufsicht SEC, dass Verwaltungsrat Vincent T. Cubbage fünfzigtausend Aktien im Wert von rund einhundertsiebzigtausend Dollar erworben hat.",
-   "dur": 120.2,
-   "at": "2026-11-07T21:56:23Z"
+   "text": "Hyliion Holdings: Laut Yahoo! Finance Canada und weiteren Borsendiensten gibt es neue Entwicklungen zur Aktie. Im kurzen Uberblick zeigt sich, dass Hyliion Holdings einen Kursruckgang von zwölf Komma drei Prozent auf zwei Komma sechs drei Dollar verzeichnete, wahrend laut TradingView ein Verlust je Aktie von acht Cent erwartet wird. Analysten zeigen sich derweil uberwiegend positiv mit vier Kaufempfehlungen und einer starken Kaufempfehlung. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden, abgesehen von dem genannten Kursruckgang, den www.siam.in meldet, da eine wichtige Unterstutzung in Sicht kommt. Bei den Analysten-Bewertungen stufte Northland Capital Markets die Aktie auf Besser als Markt mit einem Kursziel von zehn Dollar ein, wahrend Craig-Hallum die Aktie neu mit Kaufen und einem Kursziel von sieben Dollar bewertete. Zuruck zu Hyliion Holdings: Was die Firma gerade macht, spiegelt sich in den anstehenden Quartalszahlen wider, die laut TradingView erwartet werden, wahrend der Kursruckgang auf zwei Komma sechs drei Dollar laut www.siam.in abwertend wirkt. Zu den wichtigen Kennzahlen gehort der erwartete Verlust je Aktie von -null Komma null acht Dollar, der laut TradingView als Vorschau genannt wird und die Profitabilitat verdeutlicht, sowie der aktuelle Kurs von zwei Komma sechs drei Dollar und das mittlere Kursziel der Analysten von sieben Komma sieben fünf Dollar. Bei den Insider-Kaufen und -Verkaufen kaufte Verwaltungsrat Vincent T. Cubbage Aktien im Wert von rund einhundertsiebzigtausend Dollar; hierbei ist zu beachten, dass Verkaufe oft weniger aussagen als Kaufe, etwa wegen Steuern oder geplanter Plane, wobei es sich hier jedoch um einen Kauf handelt.",
+   "dur": 118.5,
+   "at": "2026-11-09T03:03:03Z"
   },
   "SMEGF": {
    "file": "SMEGF.mp3",
@@ -284,15 +283,15 @@
   },
   "GEV": {
    "file": "GEV.mp3",
-   "hash": "dd114449948ffed5",
-   "th": "5b21797fb27a81da",
-   "id": "8ae3abb905",
+   "hash": "33b0a1abcdc03630",
+   "th": "ac5c8690fb658f23",
+   "id": "1b1dcd5636",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "GE Vernova steht derzeit im Fokus von Analysten und Anlegern, getrieben durch wichtige Infrastrukturprojekte und Diskussionen rund um das Thema künstliche Intelligenz. Laut einer eigenen Mitteilung unterstützt GE Vernova die indische Energiewende mit einem HGÜ-Übertragungsprojekt über sechs Gigawatt. Zudem gewinnt das Unternehmen den Phase-drei-Vertrag für das Supernode-Batterieprojekt in Australien. Das Portal scanx.trade meldet ausserdem, dass GE Vernova infolge starker Nachfrage durch künstliche Intelligenz bis zum Jahr 2030 grösstenteils ausverkauft ist. Allerdings sinken die Aktien von GE Vernova laut Barron's aufgrund von KI-Ängsten und Bewertungsbedenken. Yahoo Finance verweist auf neue Risiken durch eine Pause bei der Genehmigung von KI-Rechenzentren und meldet einen Kursrückgang um neun Komma eins Prozent wegen zurückgesetzter Erwartungen an die KI-Energie. Das deutsche Börsenportal boerse.de spricht zudem von einem neuen Sechsmonatstief der Aktie. Betreffend die Analysten-Bewertungen zeigt sich ein überwiegend positives Bild: Der Konsens umfasst laut Yahoo Finance sieben starke Käufe, dreiunddreissig Käufe, fünf Halten und null Verkäufe bei einem durchschnittlichen Kursziel von eintausendeinhundertdreiundachtzig Dollar. Argus Research nennt ein Kursziel von eintausendeinhundert Dollar, Guggenheim ein Kursziel von eintausendvierhundert Dollar, HSBC ein Kursziel von eintausendeinhundert Dollar, GLJ Research ein Kursziel von fünfhundertvierzig Dollar, JP Morgan ein Kursziel von eintausendfünfunddreissig Dollar und RBC Capital ein Kursziel von eintausendzweihundertdreissig Dollar. Aufwertend wirkt, dass GE Vernova Indiens Energiewende mit einem Grossauftrag unterstützt, das Supernode-Batterieprojekt in Australien gewinnt und bis 2030 stark ausgebucht ist. Abwertend wirken hingegen Preisschwankungen und ein starker Open-Interest-Anstieg bei GE Vernova T&D India, die auf bärische Kursaktivität hindeuten. Wichtige Kennzahlen zeigen sich im durchschnittlichen Kursziel von eintausendeinhundertdreiundachtzig Dollar sowie im höchsten Kursziel von eintausendvierhundert Dollar.",
-   "dur": 151.5,
-   "at": "2026-11-08T22:59:55Z"
+   "text": "GE Vernova steht im Zentrum der aktuellen Berichterstattung durch bedeutende Projekte und Marktentwicklungen rund um die Aktie. Laut einer Mitteilung der Firma selbst unterstützt GE Vernova Indiens Energiewende mit einem Uebertragungsprojekt im Umfang von sechs Gigawatt. Zudem hat das Unternehmen laut scanx.trade den Vertrag für das Supernode-Batterieprojekt in Australien gewonnen und ist aufgrund einer stark ansteigenden Nachfrage im Bereich der kuenstlichen Intelligenz bis zum Jahr 2030 grosstenteils ausverkauft. Auf der Risikoseite meldet das US-Finanzmagazin Barron's Kursrueckguege der Aktien um neun Komma eins Prozent, ausgeloest durch Aengste im KI-Sektor und eine Zuruecksetzung der Erwartungen an die KI-Energie. Das deutsche Boersenportal boerse.de berichtet zudem, dass die Aktie ein neues Sechsmonatstief erreicht hat, und Yahoo Finance verweist auf neue Risiken durch eine Pause bei der Genehmigung von KI-Rechenzentren. In den vorliegenden Meldungen wurden keine rechtlichen Probleme gefunden. Analysten bewerten die Aktie ueberwiegend positiv. Laut den Daten von Yahoo Finance gibt es im Konsens siebenunddreissig Kauf- und fünf Halteempfehlungen, waehrend keine Verkaufsempfehlungen vorliegen. Das durchschnittliche Kursziel der Analysten liegt bei eintausendeinhundertdreiundachtzig Dollar. Die genannten Analysehaeuser begleiten die Aktie mit unterschiedlichen Kurszielen und Einschaetzungen. Was die operativen Aktivitaeten angeht, so agiert die Firma erfolgreich mit neuen Grossauftraegen und Projekten in der Energie- und Batterietechnik, waehrend die erwaehnten Kursverluste und Bedenken bezueglich der Genehmigung von Rechenzentren als abwertende Faktoren wirken. Wichtige Kennzahlen umfassen den aktuellen Aktienkurs von rund siebenhundertvierundsiebzig Dollar sowie das genannte durchschnittliche Kursziel von eintausendeinhundertdreiundachtzig Dollar. Insider-Kaeufe oder -Verkaeufe wurden in den offiziellen Daten und den vorliegenden Meldungen nicht separat ausgewiesen. Aussagen des Managements direkt zu strategischen Plaenen oder neuen Zielen wurden in den aktuellen Meldungen nicht im Detail aufgefuehrt. Widerspruechliche Aussagen zwischen den verschiedenen Quellen wurden nicht festgestellt. Keine Anlageberatung.",
+   "dur": 156.7,
+   "at": "2026-11-09T03:03:21Z"
   },
   "GE": {
    "file": "GE.mp3",
@@ -344,15 +343,15 @@
   },
   "UBSG.SW": {
    "file": "UBSG.SW.mp3",
-   "hash": "521d85605cf58791",
-   "th": "ad89756808a302f3",
-   "id": "345a8441ed",
+   "hash": "f7b76ed30220f1d2",
+   "th": "4fabc04f0f4149b4",
+   "id": "3bc5049d52",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "UBS Group zeigt sich in den aktuellen Meldungen mit verschiedenen Entwicklungen an den Märkten und im operativen Geschäft. Laut Cash hebt RBC das Kursziel für die Aktie an, während die Aktie einem schwachem Markt trotzt. Laut finanzen.ch verzeichnete die UBS Aktie an mehreren Handelstagen Kursverluste und Abschläge. Laut boerse.de notiert das Papier ausserdem unter der fünfzig-Tage-Linie. Zurück zu UBS Group: Laut Yahoo Finance streicht das Unternehmen gegenwärtig rund zweihundert Stellen in London. Zu den Analysten-Bewertungen: Laut Yahoo Finance liegt das Konsens-Rating der Analysten aus sieben Käufen, acht Halte-Empfehlungen, zwei Verkäufen, zwei starken Käufen und eins starken Verkauf. RBC Capital Markets bewertet die Aktie mit Kaufen. Die UBS AG selbst bewertet in neuen Analysen die Swiss Re-Aktie mit Verkaufen wegen der entsprechenden Unternehmensbewertung, stuft die Deutsche Telekom-Aktie dagegen mit Kaufen ein, stuft Essential Utilities herab, erwartet bei Tapestry positive Überraschungen beim Gewinn je Aktie, sieht bei Coloplast nach einer gesenkten Prognose ein begrenztes Aufwärtspotenzial, senkt das Kursziel für TripAdvisor aufgrund eines schwachen Quartals sowie des Abgangs des Vorstandschefs und stuft Totalenergies auf Kaufen ein. Was die Firma gerade macht: Positiv wertet der Markt die Kurszielanhebung durch RBC trotz schwachen Umfelds. Belastend wirken hingegen der Stellenabbau in London, der Kurs unter der fünfzig-Tage-Linie sowie die verzeichneten Kursabschläge. Keine Anlageberatung.",
-   "dur": 113.0,
-   "at": "2026-11-08T23:55:10Z"
+   "text": "UBS Group: Zu den Kennzahlen gehoert das von Analysten genannte durchschnittliche Kursziel von vierundfünfzig Komma acht sieben Dollar, waehrend das hoechste Kursziel bei dreiundsiebzig Komma zwei sieben Dollar und das tiefste Kursziel bei einundvierzig Komma fünf eins Dollar liegen. Der aktuelle Aktienkurs bewegt sich bei achtundvierzig Komma zwei acht Dollar. In den vorliegenden Meldungen wurden keine rechtlichen Probleme gefunden, allerdings verzeichnete die UBS Aktie laut finanzen.ch an mehreren Tagen Kursabschlaege und rutschte laut boerse.de unter die Fuenfzig-Tage-Linie. Zudem berichtete Yahoo Finance ueber den Abbau von zweihundert Stellen in London. Analysten bewerten die Lage unterschiedlich. So hob RBC Capital Markets laut Cash das Kursziel an und bestaetigte die Kaufempfehlung mit einem Kursziel von einundsechzig Komma null sechs Dollar. Auf der Ebene der Unternehmensaktivitaeten bietet die UBS laut eigenen Angaben Anlageprodukte wie UBS Mixed Urban und UBS Direct Residential an, waehrend auf der negativen Seite der Stellenabbau in London zu Buche schlaegt. Insider-Transaktionen wurden in den aktuellen Meldungen nicht verzeichnet. Keine Anlageberatung.",
+   "dur": 83.7,
+   "at": "2026-11-09T03:03:27Z"
   },
   "MSFT": {
    "file": "MSFT.mp3",
@@ -404,15 +403,15 @@
   },
   "1211.HK": {
    "file": "1211.HK.mp3",
-   "hash": "c94d9c9768a2717f",
-   "th": "edffb5be5eb789db",
-   "id": "1055375bbc",
+   "hash": "564bb13e06afaa0e",
+   "th": "82c265529ac1e46f",
+   "id": "82c265529a",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "BYD steht aktuell im Fokus verschiedener Entwicklungen an den Finanzmärkten. Laut Yahoo Finance, einem Finanzportal, das Meldungen und Analystenbewertungen bündelt, hat Jaguar Land Rover Büros von BYD wegen eines Nachahmer-Verteidigers durchsucht. Zudem meldet das deutsche Börsenportal boerse.de, dass sich die BYD Electronic-Aktie zeitweise unter der achtunddreissig-Tage-Linie bewegt hat, während sie an anderer Stelle wieder darüber notierte. Bei den Risiken und Rechtlichem zeigt sich, dass Jaguar Land Rover Büros durchsucht hat, was rechtliche Fragen aufwirft. Zurück zu BYD: Bei den Analystenbewertungen von Yahoo Finance ergibt sich ein Bild. Von insgesamt sechsundzwanzig beobachtenden Analysten raten neunundzwanzig Experten zum Kaufen oder Stark Kaufen, während vier Analysten zum Halten raten und niemand zum Verkauf rät. Das durchschnittliche Kursziel liegt bei rund vierzehn Dollar, wobei das höchste Kursziel bei rund siebzehn Dollar und das niedrigste bei rund acht Dollar gesehen wird. Das prognostizierte Aufwärtspotenzial beträgt rund sechsundvierzig Prozent. Was die Firma gerade macht, zeigt sich in Kooperationen und technischen Marken: Positiv werten Beobachter die Einführung des Plans Recarga Inteligente gemeinsam mit Iberdrola, was laut dem Trading-Ratgeberportal Traders Union gemeldet wurde. Auf der abwertenden Seite stehen die Durchsuchungen durch Jaguar Land Rover sowie teils schwankende Chartdaten unter der achtunddreissig-Tage-Linie laut boerse.de. Bei den wichtigen Kennzahlen ist vor allem das durchschnittliche Kursziel von rund vierzehn Dollar sowie das geschätzte Aufwärtspotenzial von rund sechsundvierzig Prozent zu nennen. Insider-Käufe oder -Verkäufe wurden in den vorliegenden Daten nicht gemeldet. Aussagen von Chefs liegen ebenfalls nicht vor. Zu den Widersprüchen gibt es unterschiedliche Berichte zum Kursverlauf: Laut dem Schweizer Finanzportal finanzen.ch kam die Aktie an einem Nachmittag kaum vom Fleck, während dieselbe Quelle an einem anderen Tag meldete, dass BYD am Nachmittag gefragt war. Keine Anlageberatung.",
-   "dur": 151.1,
-   "at": "2026-11-08T23:55:31Z"
+   "text": "BYD steht derzeit im Fokus verschiedener Finanzmeldungen und Analysteneinschätzungen. Laut MarketScreener Schweiz, einem Finanzportal, hat CLSA seine Kaufempfehlung für das Unternehmen bekräftigt. Gleichzeitig berichtet Yahoo Finance, ein Finanzportal, das Meldungen und Analystenbewertungen bündelt, dass Jaguar Land Rover die Büros von BYD wegen eines angeblichen Nachahmer-Verteidigers durchsucht hat. Zudem meldet Traders Union, ein Trading-Ratgeberportal, dass die Iberdrola-Aktie nach der gemeinsamen Einführung des Plans Recarga Inteligente gestiegen ist. Im Bereich der Risiken und rechtlichen Themen ist die genannte Durchsuchung durch Jaguar Land Rover zu erwähnen, die rechtliche Fragen berühren könnte. Zu den Analysten-Bewertungen zeigt sich laut Yahoo Finance ein überwiegend positives Bild: Von insgesamt sechsundzwanzig Analysten sprechen sich sechs für einen starken Kauf und dreiundzwanzig für einen Kauf aus, während vier Analysten zum Halten raten und keine Verkaufsempfehlungen vorliegen. Das durchschnittliche Kursziel wird mit rund vierzehn Dollar angegeben, wobei das maximale Kursziel bei rund siebzehn Dollar und das niedrigste bei rund acht Dollar liegt, was ein geschätztes Aufwärtspotenzial von rund siebenundvierzig Prozent impliziert. Zurück zu BYD: Operativ zeigt sich das Unternehmen durch Partnerschaften wie mit Iberdrola aufwertend aktiv, während die Durchsuchung durch Jaguar Land Rover als abwertend einzustufen ist. Bei den Kennzahlen sticht das genannte durchschnittliche Kursziel von rund vierzehn Dollar sowie das erwartete Kurspotenzial von rund siebenundvierzig Prozent hervor, welche die Erwartungen des Marktes widerspiegeln. Insider-Käufe oder -Verkäufe wurden in den offiziellen Meldungen dieses Berichtszeitraums nicht aufgeführt. Aussagen des Managements liegen ebenfalls nicht vor. Schliesslich zeigen sich in den Berichten einige Widersprüche, etwa bezüglich des Kursverlaufs, wo finanzen.ch einerseits meldet, dass die Aktie kaum vom Fleck kommt, andererseits aber auch von einer Nachfrage am Nachmittag berichtet wird, sowie bei der Charttechnik, wo boerse.de bezüglich BYD Electronic teils Kurse unter und teils über der achtunddreissig-Tage-Linie verzeichnet. Keine Anlageberatung.",
+   "dur": 156.2,
+   "at": "2026-11-09T03:03:47Z"
   },
   "SHL.DE": {
    "file": "SHL.DE.mp3",
@@ -476,15 +475,15 @@
   },
   "STX": {
    "file": "STX.mp3",
-   "hash": "7e6908efd2b860da",
-   "th": "0584db443aab9895",
-   "id": "da8346c59d",
+   "hash": "0e0023ddd9aa34ea",
+   "th": "103d772f70bb30a1",
+   "id": "cded6e0a8b",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Bei Seagate Technology Holdings PLC stand die Aktie zuletzt im Fokus von Finanzmedien wie Yahoo Finance, wo über einen deutlichen Kursrückgang von sechzehn Prozent berichtet wurde, nachdem ein Gesetzgeber eine Pause bei der fortgeschrittenen Entwicklung künstlicher Intelligenz gefordert hatte. Demgegenüber meldete Yahoo Finance UK, dass Capital Group Growth weitere Anteile im Wert von rund sechzehn Komma acht Millionen Dollar erworben hat. In den vorliegenden Meldungen wurden keine rechtlichen Probleme gefunden. Bei den Analysten-Bewertungen zeigt sich ein gemischtes Bild: Die UBS bestätigte ihre neutrale Einstufung und nannte ein Kursziel von siebenhundertfünfzig Dollar. Die Citigroup bestätigte ihre Kaufempfehlung und passte das Kursziel auf eintausendfünfzig Dollar an. Wells Fargo bestätigte das Votum Übergewichten bei einem Kursziel von achthundertzwanzig Dollar. TD Cowen behielt die Kaufempfehlung bei und nannte das Kursziel von neunhundert Dollar. Wedbush bestätigte das Rating Besser als Markt mit einem Kursziel von eintausend Dollar, während Susquehanna die Einstufung Neutral bestätigte und das Kursziel auf siebenhundertfünfundsechzig Dollar nannte. Im Durchschnitt liegt das Kursziel aller Analysten bei rund eintausendfünfundvierzig Dollar, was einem prognostizierten Aufwärtspotenzial von rund einhundertsechsundzwanzig Komma sechs Prozent entspricht. Aufwertend wirkt der genannte Zukauf von Capital Group Growth, während der Kursrutsch durch politische Forderungen rund um künstliche Intelligenz als abwertend einzustufen ist. Zu den wichtigen Kennzahlen gehört das durchschnittliche Kursziel von eintausendfünfundvierzig Dollar sowie das daraus resultierende Potenzial von einhundertsechsundzwanzig Komma sechs Prozent.",
-   "dur": 119.2,
-   "at": "2026-11-08T23:00:43Z"
+   "text": "Seagate Technology Holdings PLC: Laut Berichten von Finanzportalen wie Yahoo Finance UK und Yahoo Finance Canada stehen bei der Aktie vor allem Kursentwicklungen, Derivate und saisonale Daten im Fokus. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Zu den Analysten-Bewertungen gibt es verschiedene Einschätzungen. Die UBS stuft die Aktie neutral ein und senkte das Kursziel von siebenhundertachtzig auf siebenhundertfünfzig Dollar. Die Citigroup bestätigte ihre Kaufempfehlung, reduzierte das Kursziel jedoch von eintausenddreihundert auf eintausendfünfzig Dollar. Wells Fargo behält die Einstufung als Übergewichten bei und passte das Kursziel von achthundertfünfundsechzig auf achthundertzwanzig Dollar an. TD Cowen empfiehlt die Aktie weiterhin zum Kauf, korrigierte das Kursziel von eintausend auf neunhundert Dollar nach unten. Wedbush bestätigte sowohl das Rating als besser als Markt als auch das Kursziel von eintausend Dollar. Susquehanna bewertet die Aktie neutral und senkte das Kursziel von neunhundertfünfundzwanzig auf siebenhundertfünfundsechzig Dollar. Zurück zu Seagate Technology Holdings PLC: Aufwertend wirkt, dass Capital Group Growth weitere Anteile im Wert von sechzehn Komma acht Millionen Dollar erworben hat. Als wichtige Kennzahl ist das durchschnittliche Kursziel der Analysten von eintausendvierundvierzig,dreiundachtzig Dollar zu nennen, welches die Markterwartungen widerspiegelt. Bei den Insidern gab es mehrere Verkäufe, darunter geplante Transaktionen von Chef William D Mosley im Wert von rund vier Komma zwei Millionen Dollar und rund vierzehn Millionen Dollar, ein planmassiger Verkauf von Technologiechef John Christopher Morris über rund eins Komma sieben Millionen Dollar sowie ein Verkauf von Rechtschef James Ci Lee im Wert von rund dreihunderteinundfünfzigtausend Dollar. Keine Anlageberatung.",
+   "dur": 130.3,
+   "at": "2026-11-09T03:03:55Z"
   },
   "MU": {
    "file": "MU.mp3",
@@ -511,10 +510,10 @@
    "at": "2026-11-08T15:01:50Z"
   }
  },
- "status": "ok",
- "checked_at": "2026-11-09T01:32:28Z",
- "quota_until": 1794185652.060244,
- "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@005277cef3988c07c29f15b42762a1e19448cde2/data/audio/",
+ "status": "quota: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, h",
+ "checked_at": "2026-11-09T03:03:55Z",
+ "quota_until": 1794196957.0479355,
+ "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@44889b0d55c714d0d43d3eb75badc7451877cb4a/data/audio/",
  "extra": {
   "intro": {
    "file": "_intro.mp3",
