@@ -1,6 +1,200 @@
 {
 "episodes": [
 {
+"id": "2026-11-10-t",
+"kind": "tag",
+"date": "2026-11-10",
+"title": "Morgen-Sendung, Dienstag, zehnten November",
+"generated_at": "2026-11-10T05:29:41Z",
+"writer": "Vorlage aus den Daten",
+"chapters": [
+{
+"name": "Begrüssung",
+"say": "Guten Morgen und willkommen zur Sendung vom Aktien-Radar, heute Dienstag, zehnten November. Zuerst ein kurzer Blick auf den Markt, dann die Firmen aus deiner Liste mit neuen Meldungen zu Produkten, Partnern und Projekten, danach die Quartalszahlen dieser Woche und zum Schluss ein Begriff zum Lernen. Kurz vorweg: Alles stammt aus gesammelten Daten und Schlagzeilen, Beträge nenne ich in Dollar. Das ist keine Anlageberatung.",
+"audio": {
+"file": "sendung/2026-11-10-t_00.mp3",
+"hash": "7f35a0b0967759f0",
+"dur": 29.8
+}
+},
+{
+"name": "Markt kurz",
+"say": "Der Markt kurz. Der S und P fünfhundert, der Index der fünfhundert grossen US-Firmen, stand zuletzt bei plus zwei Komma drei Prozent gegenüber dem Vortag. In deiner Liste am stärksten: Oklo mit plus vierzehn Prozent, Bloom Energy mit plus elf Komma neun Prozent, Siemens Energy mit plus elf Komma sieben Prozent. Am schwächsten: Nvidia mit minus vier Komma drei Prozent, JD.com mit minus zwei Komma fünf Prozent. Zum Thema Wall Street meldet CNBC: Die Aktien der SoftBank Group steigen um elf Prozent, da asiatische Technologiewerte nach der Erholung an der Wall Street steigen. Zum Thema Wall Street meldet CNBC: Die Aktien der SoftBank Group steigen um elf Prozent, da asiatische Technologieaktien die Erholung der Wall Street verfolgen.",
+"audio": {
+"file": "sendung/2026-11-10-t_01.mp3",
+"hash": "9192817912d66038",
+"dur": 57.2
+}
+},
+{
+"name": "Nvidia",
+"sym": "NVDA",
+"say": "Zur Aktie Nvidia. Investor's Business Daily meldet am neunten November: Nvidia-Vorstand leitet Untersuchung im Spionagefall von CEO Jensen Huang ein. Die Aktie fällt. Yahoo Finance meldet am zehnten November: Laut Trump ermittelt das FBI gegen Nvidia-Chef Huang wegen China-Skandals. Yahoo Finance meldet am zehnten November: Der CEO von Nvidia gibt die Affäre zu, während das Unternehmen eine Untersuchung zu Spionagevorwürfen einleitet. Ob diese Meldungen Nvidia stärken oder schwächen, lässt sich aus den Schlagzeilen allein nicht sicher sagen. Das war Nvidia.",
+"audio": {
+"file": "sendung/2026-11-10-t_02.mp3",
+"hash": "43c0d9d802b3b1a4",
+"dur": 44.6
+}
+},
+{
+"name": "Berkshire Hathaway",
+"sym": "BRK-B",
+"say": "Zur Aktie Berkshire Hathaway. The Globe and Mail meldet am neunten November: Berkshire kaufte weiterhin Aktien zurück, als die Aktien neue Rekorde erreichten. Das verrät Ihnen der gezahlte Preis. WSJ meldet am neunten November: Der Quartalsgewinn von Berkshire Hathaway sinkt, nachdem die Investitionsgewinne zurückgegangen sind. Business Insider Deutschland meldet am neunten November: Berkshire Hathaway holt auf: Was die neuen Zahlen Anlegern verraten. Ob diese Meldungen Berkshire Hathaway stärken oder schwächen, lässt sich aus den Schlagzeilen allein nicht sicher sagen. Das war Berkshire Hathaway.",
+"audio": {
+"file": "sendung/2026-11-10-t_03.mp3",
+"hash": "290084271f00f481",
+"dur": 46.6
+}
+},
+{
+"name": "Amazon",
+"sym": "AMZN",
+"say": "Zur Aktie Amazon. Seeking Alpha meldet am neunten November: Amazon und Microsoft gehören zu den Hyperscalern, die von einer Verlangsamung des Rechenzentrums profitieren: Ives (AMZN:NASDAQ). Yahoo Finance meldet am neunten November: Andy Jassy hat gerade fantastische Neuigkeiten für Amazon-Aktieninvestoren bekannt gegeben. Yahoo Finance meldet am neunten November: Feedvisor erweitert die Agentic Commerce-Plattform, um auf die wachsende Amazon-Geschäftsnachfrage zu reagieren. Ob diese Meldungen Amazon stärken oder schwächen, lässt sich aus den Schlagzeilen allein nicht sicher sagen. Das war Amazon.",
+"audio": {
+"file": "sendung/2026-11-10-t_04.mp3",
+"hash": "3e49f799a0cd7f9c",
+"dur": 46.6
+}
+},
+{
+"name": "Broadcom",
+"sym": "AVGO",
+"say": "Zur Aktie Broadcom. Broadcom meldet am neunten November: Broadcom trägt zum VM API Open Source-Projekt zur Cloud Native Computing Foundation bei. Seeking Alpha meldet am neunten November: Broadcom steigt um neun Prozent angesichts der Erholung der KI- und Chip-Aktien (AVGO:NASDAQ). Yahoo Finance Singapore meldet am neunten November: Broadcom-Aktien steigen um acht Komma zwei Prozent, da Anleger den Leitfaden zum KI-Umsatz in Höhe von einundzwanzig Komma sieben Milliarden Dollar im Auge haben. Ob diese Meldungen Broadcom stärken oder schwächen, lässt sich aus den Schlagzeilen allein nicht sicher sagen. Das war Broadcom.",
+"audio": {
+"file": "sendung/2026-11-10-t_05.mp3",
+"hash": "8fbe8df379a85686",
+"dur": 49.2
+}
+},
+{
+"name": "UBS",
+"sym": "UBSG.SW",
+"say": "Zur Aktie UBS. Yahoo Finance meldet am zehnten November: UBS: drei wichtige Erkenntnisse für langfristige Anleger. Investing.com UK meldet am neunten November: Danaher auf der UBS Global Healthcare Conference: Wachstumsplan nimmt Gestalt an Von Investing.com. Investing.com meldet am neunten November: Legrand-Aktien legen zu, da UBS ein beschleunigtes Wachstum von Rechenzentren sieht. Ob diese Meldungen UBS stärken oder schwächen, lässt sich aus den Schlagzeilen allein nicht sicher sagen. Das war UBS.",
+"audio": {
+"file": "sendung/2026-11-10-t_06.mp3",
+"hash": "e88865b84cc61163",
+"dur": 43.2
+}
+},
+{
+"name": "Microsoft",
+"sym": "MSFT",
+"say": "Zur Aktie Microsoft. Investing.com India meldet am neunten November: Form vier Microsoft Corporation: Satya Nadella (Direktor, CEO) Für: sechsten November Von Investing.com. Seeking Alpha meldet am neunten November: Microsoft, Oracle und SAP gelten als „KI-Gewinner“ unter den Softwareunternehmen: Oppenheimer (MSFT:NASDAQ). Investing.com UK meldet am neunten November: Northern Trust und Microsoft setzen KI-Agenten ein, um die Onboarding-Zeit zu verkürzen Von Investing.com. Ob diese Meldungen Microsoft stärken oder schwächen, lässt sich aus den Schlagzeilen allein nicht sicher sagen. Das war Microsoft.",
+"audio": {
+"file": "sendung/2026-11-10-t_07.mp3",
+"hash": "1734c572472f70f9",
+"dur": 54.4
+}
+},
+{
+"name": "Meta",
+"sym": "META",
+"say": "Zur Aktie Meta. The Globe and Mail meldet am neunten November: Meta Platforms-Aktie: Handelt es sich bei sechshundertfünfzig Dollar um ein Schnäppchen?. The Globe and Mail meldet am neunten November: Oklo ist gegenüber seinem Höchststand um sechsundachtzig Prozent gesunken. Werden die Aktien steigen, wenn Metas Reaktor online geht?. MarketScreener Deutschland meldet am neunten November: Meta Platforms bringt das KI-Modell Muse Ember auf den Markt. Ob diese Meldungen Meta stärken oder schwächen, lässt sich aus den Schlagzeilen allein nicht sicher sagen. Das war Meta.",
+"audio": {
+"file": "sendung/2026-11-10-t_08.mp3",
+"hash": "6c627f3f38b2ca5e",
+"dur": 43.9
+}
+},
+{
+"name": "Siemens Energy",
+"sym": "SMEGF",
+"say": "Zur Aktie Siemens Energy. Zawya meldet am neunten November: AIQ und Siemens Energy geben Zusammenarbeit bekannt, um autonome digitale Fähigkeiten für die Energie- und Prozessindustrie voranzutreiben. The Financial Express meldet am achten November: Lernen Sie die Aerospace-Aktie kennen, die GE, Siemens und Rolls-Royce mit Deals im Wert von dreitausendzweihundert Cr. Rs beliefert. WELT meldet am neunten November: Siemens Energy-Aktie: Es geht wieder stark bergauf. Ob diese Meldungen Siemens Energy stärken oder schwächen, lässt sich aus den Schlagzeilen allein nicht sicher sagen. Das war Siemens Energy.",
+"audio": {
+"file": "sendung/2026-11-10-t_09.mp3",
+"hash": "24901a466bcfeafd",
+"dur": 46.8
+}
+},
+{
+"name": "Quartalszahlen diese Woche",
+"say": "Quartalszahlen diese Woche. Diese Firmen aus deiner Liste melden ihre Quartalszahlen. Zur Aktie Hyliion: Zahlen Dienstag, am zehnten November. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von minus null Dollar und sieben Cent. Beim Umsatz erwarten sie rund vier Komma acht Millionen Dollar. Zur Aktie SoftBank: Zahlen Dienstag, am zehnten November. Beim Umsatz erwarten sie rund eintausendneunhundertzweiundneunzig Komma fünf Milliarden Dollar. Zur Aktie Siemens Energy: Zahlen Mittwoch, am elften November. Beim Umsatz erwarten sie rund zwölf Komma sieben Milliarden Dollar. Zur Aktie Applied Materials: Zahlen Donnerstag, am zwölften November. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von vier Dollar und sechs Cent. Beim Umsatz erwarten sie rund zehn Komma drei Milliarden Dollar.",
+"audio": {
+"file": "sendung/2026-11-10-t_10.mp3",
+"hash": "55edc236eabd7da1",
+"dur": 63.8
+}
+},
+{
+"name": "Begriff: Marktkapitalisierung",
+"say": "Zum Lernen, der Begriff des Tages: Marktkapitalisierung. Die Marktkapitalisierung ist der Börsenwert einer Firma: Aktienkurs mal Zahl der Aktien. Sie zeigt, wie gross eine Firma an der Börse ist, nicht wie viel sie verdient.",
+"audio": {
+"file": "sendung/2026-11-10-t_11.mp3",
+"hash": "fd2d7e9460f7ac4a",
+"dur": 17.6
+}
+},
+{
+"name": "Schluss",
+"say": "Das war die Sendung vom Aktien-Radar. Die Quellen findest du in der App bei jeder Aktie, den ganzen Text über den Knopf Als Text. Bis morgen.",
+"audio": {
+"file": "sendung/2026-11-10-t_12.mp3",
+"hash": "cc4bc23e3e69d9dd",
+"dur": 11.5
+}
+}
+],
+"dur": 555.2,
+"full": {
+"file": "sendung/2026-11-10-t_full.mp3",
+"dur": 555.1,
+"marks": [
+[
+0,
+0.0
+],
+[
+1,
+29.8
+],
+[
+2,
+87.0
+],
+[
+3,
+131.6
+],
+[
+4,
+178.2
+],
+[
+5,
+224.8
+],
+[
+6,
+274.0
+],
+[
+7,
+317.2
+],
+[
+8,
+371.6
+],
+[
+9,
+415.5
+],
+[
+10,
+462.3
+],
+[
+11,
+526.1
+],
+[
+12,
+543.7
+]
+]
+}
+},
+{
 "id": "2026-11-09-t",
 "kind": "tag",
 "date": "2026-11-09",
@@ -2467,8 +2661,8 @@
 "dur": 729.9
 }
 ],
-"generated_at": "2026-11-09T05:31:42Z",
+"generated_at": "2026-11-10T05:29:41Z",
 "voice": "de-CH-LeniNeural",
 "source": "Yahoo Finance, SEC EDGAR, Schlagzeilen (Google News u.a.); Text: Gemini Gratis-Kontingent oder Vorlage",
-"audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@f765ea4e236a3ef955efd90e360b44cf779c7775/data/audio/"
+"audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@51b5b18d19df3ce7f06b796b7a234981675c0419/data/audio/"
 }
