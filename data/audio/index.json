@@ -28,15 +28,16 @@
   },
   "HY9H.MU": {
    "file": "HY9H.MU.mp3",
-   "hash": "32014fc0feedfad5",
-   "th": "5f2b96d804e4ae4a",
-   "id": "73ed8770dd",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
+   "hash": "09c863d91ecd5232",
+   "th": "63b0e988ab410b65",
+   "engine": "gemini",
+   "id": "4404b4675b",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
    "br": 24,
-   "text": "Der Chiphersteller SK Hynix sorgt mit ambitionierten Plänen für Schlagzeilen. Nach starken Geschäftsergebnissen plant das Unternehmen eine Aktionärsrendite von fünfundsiebzig Milliarden Dollar, was für Anleger von grosser Bedeutung ist. Operativ läuft es ebenfalls gut: Die Kapazitäten für die Jahre 2027 und 2028 sind bereits zur Hälfte vertraglich gesichert, und das Unternehmen hat zudem einen neuen, kühleren KI-Speicher vorgestellt. Trotz dieser positiven Nachrichten gibt es Gegenwind. Ausländische Investoren haben Anteile im Wert von fünf Komma sechs Milliarden Dollar abgestossen, und die Aktie notiert aktuell siebenundfünfzig Prozent unter ihrem Höchststand. Zudem belasten Berichte über eine Kontroverse um Nvidia-Chef Jensen Huang und Spekulationen über mögliche Spionage das Anlegervertrauen. Während einige Marktbeobachter die langfristige Kapazitätsauslastung hervorheben, berichten andere von Top-Händlern, die sich derzeit von der Aktie trennen. Dies ist keine Anlageberatung.",
-   "dur": 73.3,
-   "at": "2026-11-10T02:28:08Z"
+   "text": "SK Hynix steht aktuell im Rampenlicht, nachdem das Unternehmen seinen ersten Partnertag in Japan abhielt, um die strategische Ausrichtung mit lokalen Partnern abzustimmen. Nach Rekordergebnissen plant der Konzern zudem eine Aktionärsrendite von fünfundsiebzig Milliarden Dollar, was die finanzielle Stärke unterstreicht. Zudem wurde ein neuer, kühlerer KI-Speicher vorgestellt, der für den Einsatz in Rechenzentren konzipiert ist. Trotz dieser positiven Signale gibt es Gegenwind: Ausländische Investoren haben in grossem Stil Aktien im Wert von fünf Komma fünf Milliarden Dollar verkauft, was den ausländischen Anteil auf ein Mehrjahrestief drückte. Auch die Kursentwicklung wird unterschiedlich bewertet, da verschiedene Finanzportale Rückgänge zwischen siebenundfünfzig und vierundsechzig Prozent gegenüber den Höchstständen berichten. Während asiatische Chip-Aktien insgesamt Kursanstiege verzeichnen, bleibt die Stimmung aufgrund der Verkäufe und der allgemeinen Marktlage angespannt. Dies ist keine Anlageberatung.",
+   "dur": 60.2,
+   "at": "2026-11-10T06:08:57Z"
   },
   "AVGO": {
    "file": "AVGO.mp3",
@@ -65,15 +66,16 @@
   },
   "INTC": {
    "file": "INTC.mp3",
-   "hash": "71fc299a788a774c",
-   "th": "a967062481817cf2",
+   "hash": "8bde224788f5f2c1",
+   "th": "18109e8c00cfad98",
+   "engine": "gemini",
    "id": "fff3cd97fb",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
    "br": 24,
-   "text": "Intel: Die Aktie des US-Halbleiterkonzerns stand zuletzt im Fokus heftiger Kursbewegungen und Diskussionen. Laut Yahoo Finance verzeichnete Intel einen drastischen Einbruch um fast dreissig Prozent, was in der Finanzwelt für Aufsehen sorgte. Gleichzeitig wird am Markt intensiv diskutiert, wie sich das Unternehmen im Wettbewerb mit Konkurrenten wie Nvidia und AMD positioniert und welche Rolle neue Initiativen im Bereich der industriellen künstlichen Intelligenz spielen. Zurück zu Intel: In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden, jedoch berichten Portale wie Barchart.com von neuen Bedrohungen und einer von Intel ausgesprochenen PC-Warnung. Zudem haben zahlreiche Analysehäuser wie die UBS, Freedom Broker, JP Morgan, Citigroup, TD Cowen und DA Davidson ihre Kursziele für die Aktie nach unten angepasst. Das durchschnittliche Kursziel der von Yahoo Finance erfassten Analysten liegt bei einundneunzig Komma eins zwei Dollar, während das Konsens-Rating überwiegend auf Halten lautet; MarketScreener Schweiz meldet allerdings auch eine bekräftigte Kaufempfehlung von Evercore ISI. Operativ arbeitet Intel an neuen Edge-Tools, um tiefer in die industrielle künstliche Intelligenz vorzudringen, und zeigte zuletzt wieder leichte Erholungstendenzen an den Börsen, während die Aktie insgesamt eine volatile Phase durchläuft. Wichtige Kennzahlen umfassen ein von Analysten ermitteltes mittleres Kursziel von einundneunzig Komma eins zwei Dollar, das als Orientierung für das zukünftige Potenzial dient. Bei den Insider-Transaktionen zeigt sich, dass Lip Bu Tan als Chef und Verwaltungsrat im November 2026 einhundertfünfzigtausend Aktien für rund neun Komma sieben Millionen Dollar sowie im August bereits einhundertfünftausendzweihundertdreiundsechzig Aktien für rund zehn Millionen Dollar gekauft hat; generell sind Insider-Käufe oft ein Zeichen von Zuversicht des Managements. Aussagen des Managements direkt aus den aktuellen Tagesmeldungen liegen derzeit nicht vor. Beim Thema des jüngsten Ausverkaufs gehen die Meinungen auseinander, denn während The Globe and Mail von einer möglichen Überreaktion spricht, warnt Yahoo Finance vor den langfristigen Kursverlusten im Vergleich zu früheren Höchstständen. Keine Anlageberatung.",
-   "dur": 157.7,
-   "at": "2026-11-10T02:28:19Z"
+   "text": "Die Intel-Aktie durchlebt derzeit eine volatile Phase, die von einem drastischen Kurseinbruch um fast dreissig Prozent geprägt war. Marktbeobachter diskutieren intensiv über die Wettbewerbsfähigkeit des Konzerns gegenüber Nvidia und AMD sowie über die Auswirkungen einer PC-Warnung. Operativ setzt Intel auf neue Edge-Tools, um die industrielle künstliche Intelligenz voranzutreiben. Die Analystenmeinungen sind gespalten: Während zahlreiche Häuser wie UBS, JP Morgan oder die Citigroup ihre Kursziele gesenkt haben, bekräftigte Evercore ISI eine Kaufempfehlung. Das durchschnittliche Kursziel von dreiundvierzig Analysten liegt bei einundneunzig Komma eins zwei Dollar, wobei das Konsens-Rating mehrheitlich auf Halten lautet. Während einige Medien den Ausverkauf als Überreaktion werten, verweist Yahoo Finance auf die langfristige Kursentwicklung im Vergleich zum Dotcom-Höchststand. Dies ist keine Anlageberatung.",
+   "dur": 57.9,
+   "at": "2026-11-10T06:09:43Z"
   },
   "PLTR": {
    "file": "PLTR.mp3",
@@ -113,15 +115,15 @@
   },
   "META": {
    "file": "META.mp3",
-   "hash": "7cc7adb5280da2bf",
-   "th": "deee961e04fc5367",
-   "id": "391720fc9d",
+   "hash": "ef0e1ffdd6d8616a",
+   "th": "62d31518ce7f2900",
+   "id": "3950d8fd60",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Meta Platforms steht aktuell im Fokus der Finanzmärkte, da JPMorgan das Unternehmen zu seiner Fokusliste hinzugefügt hat und dabei auf ein KI-gesteuertes Anzeigenwachstum setzt. Zudem hat Meta das neue künstliche Intelligenz-Modell Muse Ember auf den Markt gebracht und baut laut MarketScreener Schweiz Beziehungen zu Beratungsfirmen auf, um KI-Produkte an Unternehmenskunden zu verkaufen. Nach Angaben von Facebook wurde ausserdem der Kontoschutz für Teenager weltweit ausgeweitet und WhatsApp Events eingeführt. Auf der Risikoseite wird genannt, dass ein ehemaliger Meta- und OpenAI-Auftragnehmer unter Berufung auf Klagen liquidiert wurde. Bei den Analystenbewertungen zeigt sich ein überwiegend positives Bild: Mizuho stuft die Aktie mit Besser als Markt und einem Kursziel von neunhundertfünfzig Dollar ein, die Citigroup empfiehlt sie mit Kaufen und neunhundertfünf Dollar Kursziel, und die UBS bestätigt ebenfalls die Einstufung Kaufen mit einem Kursziel von achthundertzweiundneunzig Dollar. Die Evercore ISI Group bewertet die Aktie mit Besser als Markt bei einem Kursziel von achthundertsiebzig Dollar, DA Davidson nennt ein Kursziel von achthundert Dollar bei der Einstufung Kaufen, während BMO Capital die Aktie mit Wie der Markt und einem Kursziel von sechshundertfünfundachtzig Dollar führt. Als aufwertend gilt im operativen Geschäft, dass Meta mit Muse Ember eine wettbewerbsfähigere künstliche Intelligenz anbietet und neue Funktionen bereitstellt, während das indische Portfolio Parag Parikh Flexi Cap sich im Oktober von Meta-Aktien getrennt hat. Der aktuelle Aktienkurs liegt bei rund sechshunderteinundvierzig Dollar, während das durchschnittliche Kursziel der Analysten bei rund achthundertfünfzig Dollar liegt. Zu den Insider-Aktivitäten zählen verschiedene Verkäufe, darunter geplante Transaktionen des Chief Operating Officers Javier Olivan im Wert von rund neunhundertsiebenundsechzigtausend bis eins Komma zwei Millionen Dollar, ein Verkauf des Verwaltungsrats Marc L Andreessen im Wert von rund zwölf Komma acht Millionen Dollar sowie ein geplanter Verkauf der Verwaltungsrätin Peggy Alford im Wert von rund zweihundertfünfzigtausend Dollar.",
-   "dur": 147.2,
-   "at": "2026-11-09T21:39:32Z"
+   "text": "Meta Platforms stand zuletzt im Fokus von Finanzmärkten und Medien. Laut TradingView und weiteren Portalen stieg die Aktie, nachdem JPMorgan das Unternehmen zu den Top-Internet-Favoriten gezählt und auf die Fokusliste gesetzt hatte. Zudem treibe die künstliche Intelligenz das Anzeigenwachstum voran. Das Unternehmen brachte das KI-Modell Muse Ember auf den Markt und baut Beziehungen zu Beratungsfirmen auf, um KI-Produkte an Unternehmenskunden zu vertreiben. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden, allerdings berichten Quellen wie MarketScreener über zunehmende Klagen im Zusammenhang mit KI-Altersprüfungen für Jugendliche, und laut Yahoo Finance hat ein ehemaliger Auftragnehmer unter Berufung auf Klagen liquidiert. Analysten bewerten die Aktie überwiegend positiv. Laut Yahoo Finance liegt das durchschnittliche Kursziel bei rund achthundertfünfzig Dollar, wobei siebenundfünfzig Analysten zum Kauf raten. Unter den Änderungen hob die UBS ihr Kursziel auf rund achthundertzweiundneunzig Dollar an, während die Citigroup ein Kursziel von rund neunhundertfünf Dollar nennt und Mizuho das Kursziel auf rund neunhundertfünfzig Dollar erhöhte. Zurück zu Meta Platforms: Zu den Insidern gab es Pflichtmeldungen bei der US-Börsenaufsicht, wonach unter anderem Manager wie Javier Olivan und Verwaltungsräte wie Marc L Andreessen Aktien veräusserten. Solche Verkäufe basieren oft auf im Voraus festgelegten Plänen oder steuerlichen Gründen und sagen daher weniger aus als direkte Käufe. Keine Anlageberatung.",
+   "dur": 108.9,
+   "at": "2026-11-10T06:10:23Z"
   },
   "AMZN": {
    "file": "AMZN.mp3",
@@ -465,15 +467,15 @@
   },
   "ABBN.SW": {
    "file": "ABBN.SW.mp3",
-   "hash": "3377e6b030cbb887",
-   "th": "16be26cc84a000ef",
-   "id": "7b9134bf9f",
+   "hash": "e89ebac028a6a45c",
+   "th": "e870093a1c792aee",
+   "id": "699692523a",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "ABB LTD: Eine Zusammenfassung der aktuellen Wirtschaftsnachrichten. Laut Bloomberg erwägen SoftBank und ABB eine Ausgliederung des China-Geschäfts zur Rettung eines Robotik-Deals. Boerse.de meldet zudem, dass die ABB-Aktie ein neues Sechs-Monats-Tief verzeichnet hat, während Yahoo Finance Singapore berichtet, dass die Aktie trotz eines früheren Anstiegs von einhundertdreiundvierzig Prozent angemessen erscheinen könnte. In den vorliegenden Meldungen wurden keine rechtlichen Probleme gefunden. Laut Yahoo Finance gibt es unter den Analysten zwei starke Kaufempfehlungen, fünf Kaufempfehlungen, zwanzig Halteempfehlungen, eins Verkaufsempfehlung sowie eins starke Verkaufsempfehlung. Das durchschnittliche Kursziel liegt bei einhundert Dollar, mit einer Spanne zwischen einundachtzig Dollar und einhundertsiebzehn Dollar. Zurück zu ABB LTD: Das Unternehmen treibt laut Yahoo Finance gemeinsam mit anderen Unternehmen die Automatisierung von Elektrofahrzeugen und Chips vor und prüft Optionen für die Robotikeinheit in China, was durch Berichte über ein neues Sechs-Monats-Tief gedämpft wird. Als wichtige Kennzahl ist das durchschnittliche Kursziel der Analysten von einhundert Dollar zu nennen, welches den erwarteten Mittelwert des Aktienkurses darstellt. Es wurden keine Insider-Käufe oder -Verkäufe in den Meldungen erwähnt. Aussagen von Chefs liegen in den aktuellen Meldungen nicht vor. Es wurden keine Widersprüche zwischen den Quellen festgestellt.",
-   "dur": 101.5,
-   "at": "2026-11-09T20:43:08Z"
+   "text": "ABB LTD: Bloomberg.com, ein US-Finanznachrichtendienst, berichtet, dass SoftBank und ABB eine Ausgliederung des China-Geschäfts erwägen, um einen Robotik-Deal zu retten. Yahoo Finance Singapore, ein Finanzportal, teilt mit, dass die ABB-Aktie trotz eines früheren Anstiegs von einhundertdreiundvierzig Prozent angemessen erscheinen könnte. Laut Traders Union stieg die Aktie nach Berichten über den Ausschluss des China-Geschäfts aus der Vereinbarung mit SoftBank um mehr als zwei Prozent. Zurück zu ABB LTD: Boerse.de, ein deutsches Börsenportal, meldet ein neues sechs-Monats-Tief der ABB-Aktie als Risiko. In den vorliegenden Meldungen wurden keine weiteren Risiken oder rechtlichen Probleme gefunden. Yahoo Finance verzeichnet im Konsens von siebenundzwanzig Analysten zwei starke Käufe, fünf Käufe, zwanzig Halte-Empfehlungen, eins Verkauf und eins starken Verkauf, woraus sich ein durchschnittliches Kursziel von rund einhundert Dollar und ein Kurspotenzial von rund neunzehn Komma zwei Prozent ergeben. Zu den aktuellen Aktivitäten der Firma: ABB erwägt laut Bloomberg.com eine Ausgliederung in China zur Rettung des Robotik-Deals, treibt laut Yahoo Finance die Automatisierung von Elektrofahrzeugen und Chips voran und profitiert laut Traders Union von Kurssteigerungen nach Berichten über den Ausschluss des China-Geschäfts, wogegen boerse.de ein neues sechs-Monats-Tief meldet. Zu den wichtigen Kennzahlen: Der aktuelle Kurs liegt bei rund dreiundachtzig Komma acht Dollar, das Kursziel im Durchschnitt bei rund neunundneunzig Komma acht Dollar, das Hoch bei rund einhundertsiebzehn Dollar und das Tief bei rund achtzig Komma neun Dollar, was die Erwartungen der Analysten widerspiegelt. Insider-Käufe oder -Verkäufe wurden in den Meldungen nicht erfasst. Aussagen von Chefs liegen in den vorliegenden Berichten ebenfalls keine vor. Es gibt keine nennenswerten Widersprüche zwischen den verschiedenen Quellen. Keine Anlageberatung.",
+   "dur": 136.9,
+   "at": "2026-11-10T06:10:34Z"
   },
   "STX": {
    "file": "STX.mp3",
@@ -512,10 +514,10 @@
    "at": "2026-11-09T23:31:27Z"
   }
  },
- "status": "ok",
- "checked_at": "2026-11-10T04:12:25Z",
- "quota_until": 1794281270.83487,
- "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@51b5b18d19df3ce7f06b796b7a234981675c0419/data/audio/",
+ "status": "quota: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, h",
+ "checked_at": "2026-11-10T06:10:34Z",
+ "quota_until": 1794294608.5002759,
+ "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@4b5e71d7ce1045db1a4d147d37bed2935891bfb7/data/audio/",
  "extra": {
   "intro": {
    "file": "_intro.mp3",
