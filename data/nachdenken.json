@@ -1,6 +1,241 @@
 {
 "episodes": [
 {
+"id": "n-2026-11-10-t",
+"kind": "tag",
+"show": "ent",
+"date": "2026-11-10",
+"title": "Zum Nachdenken, Dienstag, zehnten November",
+"generated_at": "2026-11-10T14:02:44Z",
+"writer": "Vorlage aus den Daten, Redakteur-KI (Gemini Gratis-Kontingent) mit Faktencheck",
+"chapters": [
+{
+"name": "Begrüssung",
+"say": "Willkommen zu Zum Nachdenken vom Aktien-Radar, heute Dienstag, zehnten November. Hier geht es nicht um deine eigenen Aktien, sondern um auffällige Aktien ausserhalb deiner Liste: die grössten Gewinner, Aktien mit grossem Potenzial laut vielen Analysten, schlecht bewertete Aktien und grosse Verlierer. Alles stammt aus gesammelten Daten von Yahoo Finance, Beträge nenne ich in Dollar. Das ist keine Anlageberatung, sondern Stoff zum Nachdenken.",
+"audio": {
+"file": "nachdenken/n-2026-11-10-t_00.mp3",
+"hash": "2aeae8fb8ec2eca2",
+"dur": 31.5
+}
+},
+{
+"name": "Die grössten Gewinner",
+"say": "Zuerst die grössten Gewinner. Das sind Aktien, deren Kurs in den letzten drei Monaten am stärksten gestiegen ist.",
+"audio": {
+"file": "nachdenken/n-2026-11-10-t_01.mp3",
+"hash": "3523a65efc3383a5",
+"dur": 8.3
+}
+},
+{
+"name": "Gewinner: Moderna",
+"sym": "MRNA",
+"say": "Zur Aktie Moderna. Moderna kostet im Moment zweihundertneunundsechzig Dollar. Der Kurs von Moderna veränderte sich im letzten Monat um plus fünfundzwanzig Komma neun Prozent und in drei Monaten um plus dreihundertzweiundzwanzig Komma fünf Prozent. Neunzehn Analysten haben für Moderna ein durchschnittliches Kursziel von einhundertvierundfünfzig Dollar und siebenundvierzig Cent, das sind minus zweiundvierzig Komma sechs Prozent gegenüber dem aktuellen Kurs. Die Bank William Blair hat Moderna abgestuft, neue Empfehlung Wie der Markt. Bei den letzten Quartalszahlen meldete Moderna einen Gewinn je Aktie von null Dollar und achtunddreissig Cent, erwartet waren minus ein Dollar und fünfundzwanzig Cent. Yahoo Finance meldete am zehnten November: Moderna to Present at Upcoming Conference in November 2026. Ein starker Anstieg kann auf echte Fortschritte hinweisen, aber nach so einem Lauf ist oft schon viel Erwartung im Kurs von Moderna enthalten. Das war Moderna.",
+"audio": {
+"file": "nachdenken/n-2026-11-10-t_02.mp3",
+"hash": "b746db6fac808c81",
+"dur": 72.5
+}
+},
+{
+"name": "Gewinner: Accenture",
+"sym": "ACN",
+"say": "Zur Aktie Accenture. Accenture kostet im Moment zweihundertvierundfünfzig Dollar und siebenunddreissig Cent. Der Kurs von Accenture veränderte sich im letzten Monat um plus achtzehn Komma vier Prozent und in drei Monaten um plus einundvierzig Komma zwei Prozent. Vierundzwanzig Analysten haben für Accenture ein durchschnittliches Kursziel von zweihundertneunundzwanzig Dollar und vierundsiebzig Cent, das sind minus neun Komma sieben Prozent gegenüber dem aktuellen Kurs. Die Bank Baird hat Accenture abgestuft, neue Empfehlung Neutral. Yahoo Finance meldete am zehnten November: Accenture (ACN) Following WSIB Win Has An Undervalued Narrative To Defend. Ein starker Anstieg kann auf echte Fortschritte hinweisen, aber nach so einem Lauf ist oft schon viel Erwartung im Kurs von Accenture enthalten. Das war Accenture.",
+"audio": {
+"file": "nachdenken/n-2026-11-10-t_03.mp3",
+"hash": "ca810f26bc00bd85",
+"dur": 62.2
+}
+},
+{
+"name": "Andere Aktien mit Chancen",
+"say": "Jetzt Andere Aktien mit Chancen. Bedingung: mindestens acht Analysten, ein durchschnittliches Kursziel mindestens dreissig Prozent über dem Kurs, und eine frische Meldung zu einem Produkt, einem Partner oder einem Auftrag. Das ist keine Kaufempfehlung.",
+"audio": {
+"file": "nachdenken/n-2026-11-10-t_04.mp3",
+"hash": "89cd21b9f087f2cc",
+"dur": 18.1
+}
+},
+{
+"name": "Chance: Sandisk",
+"sym": "SNDK",
+"say": "Zur Aktie Sandisk. Sandisk kostet im Moment achthundertsechsundachtzig Dollar und einundfünfzig Cent. Der Kurs von Sandisk veränderte sich im letzten Monat um minus vierzig Komma vier Prozent und in drei Monaten um minus vierunddreissig Komma eins Prozent. Vierundzwanzig Analysten haben für Sandisk ein durchschnittliches Kursziel von zweitausendsiebenundvierzig Dollar und achtunddreissig Cent, das sind plus einhundertdreissig Komma neun Prozent gegenüber dem aktuellen Kurs. Die Bank Fox Advisors hat Sandisk abgestuft, neue Empfehlung Marktgewichten. Bei den letzten Quartalszahlen meldete Sandisk einen Gewinn je Aktie von neunundvierzig Dollar und einundfünfzig Cent, erwartet waren sechsundvierzig Dollar und einundvierzig Cent. Yahoo Finance meldete am neunen November: Micron's sechsundzwanzig SCAs: Can Take-or-Pay Deals Boost Earnings Stability?. Das Kursziel ist ein Durchschnitt der Analysten und keine Garantie; die genaue Begründung für Sandisk steht nicht in den Daten. Das war Sandisk.",
+"audio": {
+"file": "nachdenken/n-2026-11-10-t_05.mp3",
+"hash": "16f14035c7f47340",
+"dur": 73.4
+}
+},
+{
+"name": "Chance: Oracle",
+"sym": "ORCL",
+"say": "Zur Aktie Oracle. Oracle kostet im Moment einhundertneunzehn Dollar und neunundsiebzig Cent. Der Kurs von Oracle veränderte sich im letzten Monat um minus zwölf Komma acht Prozent und in drei Monaten um minus einundzwanzig Komma acht Prozent. Vierzig Analysten haben für Oracle ein durchschnittliches Kursziel von zweihundertfünfunddreissig Dollar und siebenundsiebzig Cent, das sind plus sechsundneunzig Komma acht Prozent gegenüber dem aktuellen Kurs. Die Bank Stephens & Co. hat Oracle hochgestuft, neue Empfehlung Übergewichten. Yahoo Finance meldete am neunen November: The Stock Market Is Petrifield of Oracle's Balance Sheet as Microsoft Walks Away. Das Kursziel ist ein Durchschnitt der Analysten und keine Garantie; die genaue Begründung für Oracle steht nicht in den Daten. Das war Oracle.",
+"audio": {
+"file": "nachdenken/n-2026-11-10-t_06.mp3",
+"hash": "372621f96df3855c",
+"dur": 59.0
+}
+},
+{
+"name": "Chance: Lumentum",
+"sym": "LITE",
+"say": "Zur Aktie Lumentum. Lumentum kostet im Moment fünfhundertsechsundneunzig Dollar und sechzehn Cent. Der Kurs von Lumentum veränderte sich im letzten Monat um minus vierzig Komma eins Prozent und in drei Monaten um minus sechsunddreissig Komma eins Prozent. Fünfundzwanzig Analysten haben für Lumentum ein durchschnittliches Kursziel von eintausendsechsundsechzig Dollar und neunundfünfzig Cent, das sind plus achtundsiebzig Komma neun Prozent gegenüber dem aktuellen Kurs. Die Bank B. Riley Securities hat Lumentum abgestuft, neue Empfehlung Neutral. Bei den letzten Quartalszahlen meldete Lumentum einen Gewinn je Aktie von vier Dollar und siebenundfünfzig Cent, erwartet waren vier Dollar und zweiundzwanzig Cent. Yahoo Finance meldete am neunen November: Marvell Sinks sechsunddreissig Prozent, Lumentum Drops einunddreissig Prozent on einhundertfünfzehn Dollar Billion Deal: Is the Selloff Overdone?. Das Kursziel ist ein Durchschnitt der Analysten und keine Garantie; die genaue Begründung für Lumentum steht nicht in den Daten. Das war Lumentum.",
+"audio": {
+"file": "nachdenken/n-2026-11-10-t_07.mp3",
+"hash": "6ffededa1d8b2961",
+"dur": 76.1
+}
+},
+{
+"name": "Schlecht bewertete Aktien",
+"say": "Nun zu schlecht bewerteten Aktien. Hier haben Banken ihre Empfehlung gesenkt, oder das durchschnittliche Kursziel liegt unter dem aktuellen Kurs.",
+"audio": {
+"file": "nachdenken/n-2026-11-10-t_08.mp3",
+"hash": "4bf83ee86411fcdb",
+"dur": 10.8
+}
+},
+{
+"name": "Schlecht bewertet: Xylem",
+"sym": "XYL",
+"say": "Zur Aktie Xylem. Xylem kostet im Moment neunundneunzig Dollar und sechsundzwanzig Cent. Der Kurs von Xylem veränderte sich im letzten Monat um minus drei Komma zwei Prozent und in drei Monaten um minus achtzehn Komma sechs Prozent. Sechzehn Analysten haben für Xylem ein durchschnittliches Kursziel von einhundertfünfundzwanzig Dollar und vierundvierzig Cent, das sind plus sechsundzwanzig Komma vier Prozent gegenüber dem aktuellen Kurs. Die Bank Argus Research hat Xylem abgestuft, neue Empfehlung Halten. Die Bank Barclays hat Xylem abgestuft, neue Empfehlung Marktgewichten. Bei den letzten Quartalszahlen meldete Xylem einen Gewinn je Aktie von ein Dollar und vierundvierzig Cent, erwartet waren ein Dollar und fünfundvierzig Cent. Yahoo Finance meldete am zehnten November: A look back at water infrastructure stocks Q3 earnings: Xylem (NYSE:XYL) vs the rest of the pack. Abstufungen zeigen, dass Fachleute vorsichtiger werden; ob sie bei Xylem recht behalten, ist offen. Das war Xylem.",
+"audio": {
+"file": "nachdenken/n-2026-11-10-t_09.mp3",
+"hash": "c6e8e26f8eaaef35",
+"dur": 78.9
+}
+},
+{
+"name": "Schlecht bewertet: Fidelity National Information Services",
+"sym": "FIS",
+"say": "Zur Aktie Fidelity National Information Services. Fidelity National Information Services kostet im Moment achtundzwanzig Dollar und vierunddreissig Cent. Der Kurs von Fidelity National Information Services veränderte sich im letzten Monat um minus siebzehn Komma drei Prozent und in drei Monaten um minus zweiunddreissig Komma vier Prozent. Zweiundzwanzig Analysten haben für Fidelity National Information Services ein durchschnittliches Kursziel von sechsunddreissig Dollar und zweiunddreissig Cent, das sind plus achtundzwanzig Komma zwei Prozent gegenüber dem aktuellen Kurs. Die Bank Argus Research hat Fidelity National Information Services abgestuft, neue Empfehlung Halten. Die Bank RBC Capital hat Fidelity National Information Services abgestuft, neue Empfehlung Wie der Sektor. Bei den letzten Quartalszahlen meldete Fidelity National Information Services einen Gewinn je Aktie von ein Dollar und einundsechzig Cent, erwartet waren ein Dollar und sechzig Cent. Yahoo Finance meldete am siebten November: Fidelity National Information Services Q3 Earnings Call Highlights. Abstufungen zeigen, dass Fachleute vorsichtiger werden; ob sie bei Fidelity National Information Services recht behalten, ist offen. Das war Fidelity National Information Services.",
+"audio": {
+"file": "nachdenken/n-2026-11-10-t_10.mp3",
+"hash": "acb6d83a100b2291",
+"dur": 96.0
+}
+},
+{
+"name": "Grosse Verlierer",
+"say": "Zum Schluss die grossen Verlierer. Das sind Aktien, die im letzten Monat am stärksten gefallen sind.",
+"audio": {
+"file": "nachdenken/n-2026-11-10-t_11.mp3",
+"hash": "ff26c6de6f640649",
+"dur": 7.8
+}
+},
+{
+"name": "Verlierer: Dell Technologies",
+"sym": "DELL",
+"say": "Zur Aktie Dell Technologies. Dell Technologies kostet im Moment dreihundertsechsundvierzig Dollar und einunddreissig Cent. Der Kurs von Dell Technologies veränderte sich im letzten Monat um minus vierzig Prozent und in drei Monaten um minus achtundzwanzig Komma fünf Prozent. Fünfundzwanzig Analysten haben für Dell Technologies ein durchschnittliches Kursziel von fünfhundertneunzig Dollar, das sind plus siebzig Komma vier Prozent gegenüber dem aktuellen Kurs. Yahoo Finance meldete am zehnten November: Applied Materials vs. Dell Technologies: Comparing Stable vs. Accelerating Revenue Between These Artificial Intelligence Companies. Ein grosser Kursverlust kann eine Warnung sein oder eine Übertreibung; bei Dell Technologies lohnt sich ein genauer Blick auf die Gründe. Das war Dell Technologies.",
+"audio": {
+"file": "nachdenken/n-2026-11-10-t_12.mp3",
+"hash": "e864127e54abebe9",
+"dur": 58.9
+}
+},
+{
+"name": "Verlierer: Datadog",
+"sym": "DDOG",
+"say": "Zur Aktie Datadog. Datadog kostet im Moment einhundertneunundsiebzig Dollar und zweiundsechzig Cent. Der Kurs von Datadog veränderte sich im letzten Monat um minus siebenunddreissig Komma fünf Prozent und in drei Monaten um minus fünfundzwanzig Komma vier Prozent. Siebenundvierzig Analysten haben für Datadog ein durchschnittliches Kursziel von zweihunderteinundsiebzig Dollar und einundsiebzig Cent, das sind plus einundfünfzig Komma drei Prozent gegenüber dem aktuellen Kurs. Bei den letzten Quartalszahlen meldete Datadog einen Gewinn je Aktie von null Dollar und einundachtzig Cent, erwartet waren null Dollar und vierundsechzig Cent. Yahoo Finance meldete am am zehnten November: Cloudflare Is Up elf Prozent in a Week. Is Its “Even Higher Gear” Really That Good?. Ein grosser Kursverlust kann eine Warnung sein oder eine Übertreibung; bei Datadog lohnt sich ein genauer Blick auf die Gründe. Das war Datadog.",
+"audio": {
+"file": "nachdenken/n-2026-11-10-t_13.mp3",
+"hash": "be0617638f543af1",
+"dur": 67.0
+}
+},
+{
+"name": "Begriff: Volatilität",
+"say": "Zum Lernen, der Begriff: Volatilität. Volatilität beschreibt, wie stark ein Kurs schwankt. Eine volatile Aktie kann an einem Tag zehn Prozent steigen oder fallen. Mehr Schwankung heisst mehr Chance, aber auch mehr Risiko.",
+"audio": {
+"file": "nachdenken/n-2026-11-10-t_14.mp3",
+"hash": "d4e9c5bf1b968154",
+"dur": 18.6
+}
+},
+{
+"name": "Schluss",
+"say": "Das war Zum Nachdenken vom Aktien-Radar. Die Listen findest du in der App auf der Seite Entdecken, den ganzen Text über den Knopf Als Text. Denk daran: Das ist keine Anlageberatung. Bis zum nächsten Mal.",
+"audio": {
+"file": "nachdenken/n-2026-11-10-t_15.mp3",
+"hash": "c0eb227ac2742f5b",
+"dur": 16.4
+}
+}
+],
+"dur": 755.5,
+"full": {
+"file": "nachdenken/n-2026-11-10-t_full.mp3",
+"dur": 755.4,
+"marks": [
+[
+0,
+0.0
+],
+[
+1,
+31.5
+],
+[
+2,
+39.8
+],
+[
+3,
+112.3
+],
+[
+4,
+174.5
+],
+[
+5,
+192.6
+],
+[
+6,
+266.0
+],
+[
+7,
+325.0
+],
+[
+8,
+401.1
+],
+[
+9,
+411.9
+],
+[
+10,
+490.8
+],
+[
+11,
+586.8
+],
+[
+12,
+594.6
+],
+[
+13,
+653.5
+],
+[
+14,
+720.5
+],
+[
+15,
+739.1
+]
+]
+}
+},
+{
 "id": "n-2026-11-09-t",
 "kind": "tag",
 "show": "ent",
@@ -2351,8 +2586,8 @@
 }
 }
 ],
-"generated_at": "2026-11-09T22:31:39Z",
+"generated_at": "2026-11-10T14:02:44Z",
 "voice": "de-CH-LeniNeural",
 "source": "Yahoo Finance, SEC EDGAR, Schlagzeilen (Google News u.a.); Text: Gemini Gratis-Kontingent oder Vorlage",
-"audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@51b5b18d19df3ce7f06b796b7a234981675c0419/data/audio/"
+"audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@baa9d0d5e881a4050a32a75418fd0df60394d843/data/audio/"
 }

@@ -515,9 +515,9 @@
   }
  },
  "status": "quota: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, h",
- "checked_at": "2026-11-10T13:40:31Z",
- "quota_until": 1794321519.5933983,
- "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@e0c1edccf1a44b4aaee03911fe4f7579b78bb9f4/data/audio/",
+ "checked_at": "2026-11-10T12:17:31Z",
+ "quota_until": 1794316530.1666045,
+ "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@baa9d0d5e881a4050a32a75418fd0df60394d843/data/audio/",
  "extra": {
   "intro": {
    "file": "_intro.mp3",
