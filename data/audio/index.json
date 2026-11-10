@@ -198,15 +198,16 @@
   },
   "HOOD": {
    "file": "HOOD.mp3",
-   "hash": "12832dc06a7bb26e",
-   "th": "880a168df4be3c3b",
+   "hash": "af5bb86bb118b1e5",
+   "th": "f9c0a8022f73c438",
+   "engine": "gemini",
    "id": "8eb8e78996",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
    "br": 24,
-   "text": "Robinhood Markets: Der folgende Finanzüberblick fasst die aktuelle Lage des Unternehmens zusammen. Ein kurzer Überblick zeigt, dass Robinhood Markets den Zugang zu US-Börsengängen für britische Privatanleger erweitert hat und sich gleichzeitig mit regulatorischen Entwicklungen im Bereich von Prognosemärkten und Sportverträgen auseinandersetzen muss. Zudem hebt das Management die wachsende Relevanz von Aktientoken hervor. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden, die den Fortbestand gefährden, jedoch berichten Quellen wie Yahoo Finance und Gambling Insider über gerichtliche Einschränkungen und Vereinbarungen zur Einstellung von Sportverträgen in US-Bundesstaaten wie Kalifornien und Ohio. Analysten bewerten die Aktie unterschiedlich. Truist Securities bestätigt das Rating Kaufen mit einem auf einhundertdreiundzwanzig Dollar gesenkten Kursziel. Cantor Fitzgerald bestätigt Übergewichten mit einem Kursziel von einhundertzwanzig Dollar. JP Morgan belässt das Rating auf Neutral bei einem Kursziel von einhundertvierzehn Dollar. Goldman Sachs bestätigt Kaufen mit einem Kursziel von einhundertachtundzwanzig Dollar, während Barclays mit Übergewichten und einem Kursziel von einhundertfünfzehn Dollar vertreten ist. Wells Fargo bestätigt Marktgewichten mit einem Kursziel von einhundert Dollar. Das gesamte Analystenkonsensurteil über Yahoo Finance zeigt ein mittleres Kursziel von rund einhundertachtundzwanzig Dollar und ein Aufwärtspotenzial von rund fünfundfünfzig Prozent. Was macht die Firma gerade? Aufwertend wirkt, dass Robinhood Markets den provisionsfreien IPO-Zugang im Vereinigten Königreich gestartet hat und Bestrebungen zur Tokenisierung von Aktien von Partnern unterstützt. Abwertende Unternehmensmeldungen liegen derzeit nicht vor. Zu den wichtigen Kennzahlen gehört das von Analysten genannte mittlere Kursziel von rund einhundertneunundzwanzig Dollar, das als Durchschnittswert der Erwartungen dient. Zurück zu Robinhood Markets: Bezüglich Insider-Aktivitäten gab es laut den Daten verschiedene Verkäufe, darunter geplante Verkäufe von Chief Legal Officer Daniel Martin Jr Gallagher im Wert von rund achthundertfünfzigtausendvierhundertsechzig Dollar, von Chief Accounting Officer Dara Bazzano im Wert von rund dreihundertzweiundachtzigtausend Dollar, vom Grossaktionär Robinhood Markets, Inc. im Wert von rund drei Komma eins Millionen Dollar sowie vom Verwaltungsrat Baiju Bhatt im Wert von rund fünf Komma zwei Millionen Dollar. Solche Insider-Verkäufe sind oft Teil vorab festgelegter Pläne und müssen nicht zwangsläufig ein negatives Signal darstellen, da Verkäufe auch persönliche Liquiditätsgründe oder Steuerverpflichtungen abdecken können. Bei Robinhood Markets sagt der Chef laut Yahoo Finance, dass Aktientoken die Standardmethode sein werden, um US-Aktien im Ausland zu besitzen, was laut Berichten den internationalen Markt weiter prägen könnte. Widersprüche zwischen den Berichten wurden nicht festgestellt. Keine Anlageberatung.",
-   "dur": 210.3,
-   "at": "2026-11-10T01:22:45Z"
+   "text": "Robinhood Markets weitet den Zugang zu US-Börsengängen auf britische Privatanleger aus, was diesen ermöglicht, Aktien direkt zum Angebotspreis anzufordern. Gleichzeitig steht das Unternehmen vor regulatorischen Herausforderungen, da es sich mit anderen Prognosemarktfirmen darauf geeinigt hat, Sportverträge in US-Bundesstaaten wie Ohio einzustellen, während ein kalifornisches Gericht die Aktivitäten von Kalshi einschränkt. Der Firmenchef betont zudem die wachsende Bedeutung von Aktientoken als Standardmethode für den Besitz von US-Aktien im Ausland. Analysten bewerten die Aktie unterschiedlich: Das Konsensurteil von dreissig Analysten ergibt ein mittleres Kursziel von einhundertneunundzwanzig Dollar, was einem Aufwärtspotenzial von vierundfünfzig Komma sieben Prozent entspricht. Einzelne Bewertungen reichen von einhundert Dollar bei Wells Fargo bis zu einhundertachtundzwanzig Dollar bei Goldman Sachs. Zu den jüngsten Insider-Aktivitäten zählen geplante Verkäufe von Führungskräften, darunter Chief Legal Officer Daniel Martin Jr Gallagher, die Teil vorab festgelegter Pläne sind. Diese Informationen dienen ausschliesslich der Information und stellen keine Anlageempfehlung dar.",
+   "dur": 73.6,
+   "at": "2026-11-10T04:10:04Z"
   },
   "WNRG.SW": {
    "file": "WNRG.SW.mp3",
@@ -318,15 +319,16 @@
   },
   "0VR3.L": {
    "file": "0VR3.L.mp3",
-   "hash": "a52bb933936b39d0",
-   "th": "7042d925155bee9b",
-   "id": "5492295ab7",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
+   "hash": "caaea0a8d1b88eb1",
+   "th": "6b9b67f31a0f0c07",
+   "engine": "gemini",
+   "id": "271620cd13",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
    "br": 24,
-   "text": "Laut der indischen Wirtschaftszeitung Livemint befindet sich Gold nahe einem vorlaeufigen Tiefpunkt, wobei drei Bedingungen für eine Preiserholung laut dem World Gold Council bereits gegeben sind. Wie die Berliner Zeitung berichtet, blicken Anleger auf anstehende Daten und Kurskorrekturen beim Gold. Zudem meldet der indische Wirtschaftssender NDTV Profit, dass JPMorgan wegen möglicher Erholungen der Goldbullen mit Kursen von bis zu sechstausend Dollar bis Ende 2026 rechnet. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Was die Entwicklung betrifft, wertet Livemint positiv, dass laut dem World Gold Council drei Bedingungen für eine Preiserholung bereits als gegeben an. Als belastend oder abwertend wird hingegen genannt, dass Livemint von einem weltweiten Einbruch der Goldpreise um vierundzwanzig Prozent berichtet. In den vorliegenden Berichten wurden keine spezifischen Unternehmenskennzahlen oder Insider-Käufe beziehungsweise -Verkäufe genannt. Aussagen von Chefs oder Mitgliedern des Managements liegen in den aktuellen Meldungen ebenfalls nicht vor. Es liegen keine widersprüchlichen Berichte vor.",
-   "dur": 81.0,
-   "at": "2026-11-09T23:30:40Z"
+   "text": "Der Goldpreis befindet sich laut der indischen Wirtschaftszeitung Livemint möglicherweise nahe an einem vorläufigen Tiefpunkt. Der World Gold Council gibt an, dass bereits drei wesentliche Bedingungen für eine Preiserholung erfüllt sind. Zudem hebt Business Insider Deutschland hervor, dass Gold in Zeiten von Börsenturbulenzen als Absicherung dienen kann. Hingegen berichtet The Economic Times, dass der Goldpreis im Vorfeld der Veröffentlichung von US-Inflationsdaten unter Druck geriet. Spezifische Kennzahlen oder Unternehmensmeldungen zum ZKB Gold ETF liegen aktuell nicht vor. Diese Zusammenfassung dient ausschliesslich der Information und stellt keine Anlageempfehlung dar.",
+   "dur": 46.1,
+   "at": "2026-11-10T04:10:45Z"
   },
   "BKW.SW": {
    "file": "BKW.SW.mp3",
@@ -366,15 +368,16 @@
   },
   "OEF": {
    "file": "OEF.mp3",
-   "hash": "244c4998335778cf",
-   "th": "60f8fbded7f7c5fe",
+   "hash": "ebe8fc4bd7c40543",
+   "th": "ffd0ffc54ff7edde",
+   "engine": "gemini",
    "id": "37dc4d3ba1",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
    "br": 24,
-   "text": "iShares S&P einhundert ETF: Das Handelsblatt, eine deutsche Wirtschaftszeitung, meldet in den aktuellen Berichten, dass sich bestimmte Welt-ETFs als widerstandsfähig gegenüber der Krise im Technologiesektor zeigen. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Analystenbewertungen liegen derzeit nicht vor. Zu den aktuellen Aktivitäten der Gesellschaft oder weiteren Kennzahlen gibt es keine spezifischen Angaben in den Meldungen. Insider-Käufe oder Verkäufe wurden ebenfalls nicht gemeldet. Aussagen des Managements sind aktuell nicht verzeichnet. Es liegen keine widersprüchlichen Berichte von verschiedenen Quellen vor. Zurück zu iShares S&P einhundert ETF: Die Betrachtung stützt sich ausschliesslich auf die vorliegenden Kurzmeldungen. Keine Anlageberatung.",
-   "dur": 58.4,
-   "at": "2026-11-10T01:23:55Z"
+   "text": "Das Handelsblatt berichtet, dass bestimmte Welt-ETFs in der aktuellen Marktphase eine bemerkenswerte Widerstandsfähigkeit gegenüber der Krise im Technologiesektor zeigen. Für den iShares S&P einhundert ETF liegen derzeit keine spezifischen Analystenbewertungen, Kennzahlen oder Meldungen zu Insider-Aktivitäten vor. Auch Aussagen des Managements oder rechtliche Risiken wurden in den aktuellen Berichten nicht thematisiert. Diese Zusammenfassung basiert ausschliesslich auf den vorliegenden Kurzmeldungen und stellt keine Anlageempfehlung dar.",
+   "dur": 34.8,
+   "at": "2026-11-10T04:11:28Z"
   },
   "013A.F": {
    "file": "013A.F.mp3",
@@ -390,27 +393,27 @@
   },
   "NVDA": {
    "file": "NVDA.mp3",
-   "hash": "32ec47dad37c528c",
-   "th": "53dc107afc03b4ba",
-   "id": "f61b28fa31",
+   "hash": "aad3e5a9eb851e29",
+   "th": "e970eab95908b1c6",
+   "id": "bcaf0ade56",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Nvidia steht derzeit unter erheblichem Druck, da Berichte über eine mögliche Spionageaffäre rund um Konzernchef Jensen Huang eine interne Untersuchung des Vorstands ausgelöst haben. Laut der US-Börsenzeitung Investor's Business Daily führte dies zu einem Kursrückgang von rund drei Prozent im nachbörslichen Handel. Neben den rechtlichen Unsicherheiten durch die Vorstandsermittlungen belastet auch eine Herabstufung durch Aletheia Capital aufgrund von Risiken bei KI-Partnern das Bild. Trotz dieser Nachrichten treibt Nvidia den KI-Ausbau voran und nimmt dafür gezielt neue Finanzierungen auf. Die Analystenmeinungen bleiben unterdessen breit gefächert: Während RBC Capital das Kursziel auf dreihundertdreissig Dollar beziffert, haben andere Häuser wie Melius Research ihr Ziel von vierhundertzwanzig Dollar auf dreihundertfünfzehn Dollar gesenkt. Goldman Sachs, Needham, Cantor Fitzgerald und Rosenblatt bestätigen ihre Einstufungen mit Kurszielen zwischen dreihundert und dreihundertneunzig Dollar. Das durchschnittliche Kursziel der Analysten liegt bei dreihundertsiebenundzwanzig Dollar, wobei die Spanne zwischen einhundertachtzig Dollar und fünfhundertfünfzehn Dollar reicht. Insider-Transaktionen oder direkte Stellungnahmen der Geschäftsleitung liegen aktuell nicht vor. Diese Zusammenfassung dient ausschliesslich der Information und stellt keine Anlageberatung dar.",
-   "dur": 93.8,
-   "at": "2026-11-09T23:57:32Z"
+   "text": "Nvidia steht aktuell unter Druck, da das Unternehmen mit schweren Vorwürfen konfrontiert ist. Laut Berichten der FAZ und des US-Wirtschaftssenders CNBC gibt es einen Spionageverdacht gegen den Firmenchef Jensen Huang, was zu Ermittlungen und Klagen von Anlegern geführt hat. Der Vorstand von Nvidia hat daraufhin eine Untersuchung eingeleitet. Während das Unternehmen derzeit die Finanzierung für den Ausbau im Bereich der künstlichen Intelligenz vorantreibt, bleibt die Stimmung an der Börse angespannt. Analysten bewerten die Lage unterschiedlich: RBC Capital, Goldman Sachs, Melius Research, Needham, Cantor Fitzgerald und Rosenblatt stufen die Aktie mehrheitlich mit Kaufen oder Übergewichten ein, mit Kurszielen zwischen dreihundert und dreihundertneunzig Dollar. Das durchschnittliche Kursziel liegt bei dreihundertsiebenundzwanzig Dollar. In der Fachpresse wird zudem kontrovers diskutiert, ob ein möglicher Sturz des CEO für das Unternehmen schädlicher wäre als der aktuelle Skandal selbst. Bitte beachten Sie, dass dies keine Anlageberatung darstellt.",
+   "dur": 74.8,
+   "at": "2026-11-10T04:11:47Z"
   },
   "1211.HK": {
    "file": "1211.HK.mp3",
-   "hash": "3405821f86977aae",
-   "th": "e981c60854c3a13f",
-   "id": "c8e8c6dd39",
+   "hash": "41b191927798aa3e",
+   "th": "9cb5a9ab2f5474a3",
+   "id": "c3f38834a6",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Die Aktie von BYD stand zuletzt unter Druck und verzeichnete am Montagnachmittag Verluste. Ein Grund für die Unruhe ist eine Durchsuchung der BYD-Büros durch Jaguar Land Rover, da Vorwürfe im Raum stehen, das Unternehmen habe beim Design des Modells Defender kopiert. Trotz dieser rechtlichen Unsicherheiten bleibt die Stimmung unter Analysten positiv: Von sechsundzwanzig Experten empfehlen dreiundzwanzig den Kauf und sechs sogar einen starken Kauf, während keine Verkaufsempfehlung vorliegt. Das mittlere Kursziel liegt bei vierzehn Dollar, was einem Potenzial von einundfünfzig Prozent entspricht. Die CLSA hat ihre Kaufempfehlung jüngst bekräftigt. Während einige Marktbeobachter einen neutralen Trend sehen, bei dem Verkäufer in der Nähe des Widerstands aktiv sind, belastet die BYD Electronic-Aktie zusätzlich der Umstand, dass sie unter der achtunddreissig-Tage-Linie notiert.",
-   "dur": 63.2,
-   "at": "2026-11-10T02:28:51Z"
+   "text": "Die Aktie von BYD verzeichnete am Montagnachmittag Verluste. Hintergrund für die Unruhe sind Berichte von Yahoo Finance, wonach Jaguar Land Rover die Büros von BYD wegen eines angeblichen Nachahmer-Modells des Defenders durchsucht hat. Trotz dieser rechtlichen Unsicherheiten bleibt die Analystenmeinung mehrheitlich positiv. Die Bank CLSA hat ihre Kaufempfehlung bekräftigt und das Kursziel auf umgerechnet rund vierzehn Dollar angepasst. Insgesamt raten sechsundzwanzig Analysten mehrheitlich zum Kauf, wobei das durchschnittliche Kursziel bei rund vierzehn Dollar liegt, was einem Aufwärtspotenzial von neunundvierzig Prozent entspricht. Technisch gesehen notiert die Aktie von BYD Electronic laut boerse.de derzeit unter der achtunddreissig-Tage-Linie. Es liegen keine Informationen zu Insider-Transaktionen oder Stellungnahmen der Geschäftsführung vor. Diese Zusammenfassung dient ausschliesslich der Information und stellt keine Anlageempfehlung dar.",
+   "dur": 70.2,
+   "at": "2026-11-10T04:11:52Z"
   },
   "SHL.DE": {
    "file": "SHL.DE.mp3",
@@ -486,15 +489,15 @@
   },
   "MU": {
    "file": "MU.mp3",
-   "hash": "b8d7e2d1f3e6a7cc",
-   "th": "067ab80a401c8b77",
+   "hash": "4e8771ec4d21be87",
+   "th": "af4db47cc4ab8dad",
    "id": "593603c457",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Micron Technology, Inc.: Laut The Globe and Mail, einer kanadischen Tageszeitung, fiel die Aktie von Micron Technology, Inc. im Vormonat um siebzehn Prozent. Wie Yahoo Finance, ein Finanzportal, das Meldungen und Analystenbewertungen bündelt, meldet, verlor das Unternehmen seit Juni über vierzig Prozent an Wert. Laut Seeking Alpha, einer US-Plattform mit Anlegerbeiträgen, stieg die Aktie im Zuge einer breiten Tech-Rallye um sechs Prozent. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Laut Yahoo Finance gibt es unter Analysten fünfundvierzig Kaufempfehlungen, neun starke Kaufempfehlungen und vier Halteempfehlungen. Die Analysten von Rosenblatt bewerten die Aktie mit Kaufen und einem Kursziel von eintausendneunhundert Dollar. Needham gibt ebenfalls eine Kaufempfehlung mit einem Kursziel von eintausendsechshundertfünfzig Dollar. DA Davidson hat ein Kursziel von dreitausend Dollar bei einer Kaufempfehlung. Mizuho stuft die Aktie als Besser als Markt mit einem Kursziel von eintausendvierhundert Dollar ein, und Morgan Stanley empfiehlt Übergewichten mit einem Kursziel von eintausendzweihundert Dollar. Zurück zu Micron Technology, Inc.: Laut TradingView, einer Chart- und Börsenplattform, könnten Take-or-Pay-Verträge die Ertragsstabilität steigern. Zu den wichtigen Kennzahlen gehört das durchschnittliche Kursziel von eintausendfünfhundertzweiundsechzig Dollar, welches die Erwartungen von Analysten für den zukünftigen Aktienkurs zusammenfasst und besonders wichtig ist. Das höchste Kursziel liegt bei dreitausend Dollar, während das tiefste Kursziel bei dreihunderteinundsechzig Dollar angesiedelt ist. Bezüglich Insider-Transaktionen hat Scott J Deboer als President & Chief Technology & Products Officer achtundzwanzigtausendfünfhundertfünfundvierzig Aktien für rund fünfundzwanzig Komma sieben Millionen Dollar im Rahmen eines geplanten Verkaufs veräussert. Zudem hat Michael Charles Ray als Senior Vice President und Chief Legal Officer in zwei Transaktionen insgesamt sechstausenddreihundertachtundzwanzig Aktien im Wert von rund fünf Komma neun Millionen Dollar verkauft. Solche Insider-Verkäufe sind oft planmässig und sagen nicht zwangsläufig etwas Negatives über die Geschäftsaussichten aus, da sie auch steuerliche Gründe haben können. Keine Anlageberatung.",
-   "dur": 161.2,
-   "at": "2026-11-10T01:24:22Z"
+   "text": "Bei Micron Technology, Inc. zeigt sich ein bewegtes Bild an der Börse. Wie die kanadische Tageszeitung The Globe and Mail berichtet, verlor die Aktie im vergangenen Monat siebzehn Prozent an Wert, und laut dem Finanzportal Yahoo Finance belaeuft sich das Minus seit Juni sogar auf ueber vierzig Prozent. Zuletzt konnte sich das Papier jedoch im Zuge einer breiten Tech-Rallye um sechs Prozent erholen. Analysten blicken mehrheitlich optimistisch auf das Unternehmen: Yahoo Finance verzeichnet fünfundvierzig Kaufempfehlungen, neun starke Kaufempfehlungen und vier Halteempfehlungen. Die Kursziele variieren dabei stark, wobei das durchschnittliche Kursziel bei eintausendfünfhundertzweiundsechzig Dollar liegt. Waehrend das hoechste Ziel bei dreitausend Dollar angesetzt ist, liegt das tiefste bei dreihunderteinundsechzig Dollar. Konkret bewerten Haeuser wie Rosenblatt, Needham und DA Davidson die Aktie mit Kaufen, waehrend Mizuho und Morgan Stanley sie als besser als den Markt beziehungsweise ubergewichtet einstufen. Ein interessanter Aspekt fuer die zukuenftige Ertragsstabilitaet koennten laut der Plattform TradingView sogenannte Take-or-Pay-Vertraege sein. Bei den Insider-Transaktionen gab es Verkaeufe zu verzeichnen: Scott J Deboer, President und Chief Technology und Products Officer, veraeusserte achtundzwanzigtausendfünfhundertfünfundvierzig Aktien fuer rund fünfundzwanzig Komma sieben Millionen Dollar. Zudem verkaufte Michael Charles Ray, Senior Vice President und Chief Legal Officer, in zwei Transaktionen insgesamt sechstausenddreihundertachtundzwanzig Aktien im Wert von rund fünf Komma neun Millionen Dollar. Solche Verkaeufe erfolgen oft planmaessig und lassen nicht zwingend auf die geschaeftliche Einschaetzung der Fuehrungskraefte schliessen. Dies stellt keine Anlageberatung dar.",
+   "dur": 125.1,
+   "at": "2026-11-10T04:12:25Z"
   },
   "DRO.AX": {
    "file": "DRO.AX.mp3",
@@ -509,10 +512,10 @@
    "at": "2026-11-09T23:31:27Z"
   }
  },
- "status": "quota: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, h",
- "checked_at": "2026-11-10T02:28:51Z",
+ "status": "ok",
+ "checked_at": "2026-11-10T04:12:25Z",
  "quota_until": 1794281270.83487,
- "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@32013b90bac7b0efffefcfad264dae12ccb67aa5/data/audio/",
+ "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@1223fff12cdb30135b2b40a9ab8cd069a95d82f5/data/audio/",
  "extra": {
   "intro": {
    "file": "_intro.mp3",
