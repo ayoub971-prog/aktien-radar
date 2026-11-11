@@ -1,6 +1,200 @@
 {
 "episodes": [
 {
+"id": "2026-11-11-t",
+"kind": "tag",
+"date": "2026-11-11",
+"title": "Morgen-Sendung, Mittwoch, elften November",
+"generated_at": "2026-11-11T05:26:24Z",
+"writer": "Gemini (Gratis-Kontingent) 8 Firmen, Rest Vorlage",
+"chapters": [
+{
+"name": "Begrüssung",
+"say": "Guten Morgen und willkommen zur Sendung vom Aktien-Radar, heute Mittwoch, elften November. Zuerst ein kurzer Blick auf den Markt, dann die Firmen aus deiner Liste mit neuen Meldungen zu Produkten, Partnern und Projekten, danach die Quartalszahlen dieser Woche und zum Schluss ein Begriff zum Lernen. Kurz vorweg: Alles stammt aus gesammelten Daten und Schlagzeilen, Beträge nenne ich in Dollar. Das ist keine Anlageberatung.",
+"audio": {
+"file": "sendung/2026-11-11-t_00.mp3",
+"hash": "a2d6fb9b07dea022",
+"dur": 29.5
+}
+},
+{
+"name": "Markt kurz",
+"say": "Der Markt kurz. Der S und P fünfhundert, der Index der fünfhundert grossen US-Firmen, stand zuletzt bei minus null Komma vier Prozent gegenüber dem Vortag. In deiner Liste am stärksten: Samsung Electronics mit plus vier Komma sieben Prozent, Broadcom mit plus drei Komma neun Prozent, Taiwan Semiconductor mit plus zwei Prozent. Am schwächsten: Oklo mit minus sechs Komma fünf Prozent, Nvidia mit minus fünf Komma fünf Prozent. Zum Thema Exportkontrollen meldet Reuters: Nvidia steht wegen China-Chip-Beziehungen und CEO-Affäre vor einer verschärften Prüfung.",
+"audio": {
+"file": "sendung/2026-11-11-t_01.mp3",
+"hash": "e9dcfc5d1b129c52",
+"dur": 43.2
+}
+},
+{
+"name": "Nvidia",
+"sym": "NVDA",
+"say": "Zur Aktie Nvidia. Der Chiphersteller Nvidia steht derzeit wegen eines Spionageskandals um den Firmenchef Huang unter Druck, bei dem sogar das FBI ermittelt. Trotz dieser negativen Schlagzeilen bleibt Nvidia ein zentraler Akteur in der Branche. Anleger beobachten die Entwicklung bei Nvidia genau, da die Unsicherheit um die Führungsperson die Stimmung belastet. Meine Einordnung aus diesen Meldungen: Sie könnten Nvidia eher schwächen. Das war Nvidia.",
+"audio": {
+"file": "sendung/2026-11-11-t_02.mp3",
+"hash": "6a42366a01954b06",
+"dur": 33.4
+}
+},
+{
+"name": "Microsoft",
+"sym": "MSFT",
+"say": "Zur Aktie Microsoft. Microsoft hat eine neue strategische Partnerschaft mit der Ohio State University geschlossen, um Innovationen in der Forschung und Bildung voranzutreiben. Zudem arbeitet Microsoft gemeinsam mit IBM an einer neuen Plattform für KI-Agenten, die speziell für industrielle Transformationen entwickelt wurde. Trotz der Konkurrenz durch neue Office-Software-Angebote von Anthropic bleibt Microsoft operativ durch diese Kooperationen aktiv. Meine Einordnung aus diesen Meldungen: Sie könnten Microsoft eher stärken. Das war Microsoft.",
+"audio": {
+"file": "sendung/2026-11-11-t_03.mp3",
+"hash": "716d31e54772226b",
+"dur": 42.6
+}
+},
+{
+"name": "SoftBank",
+"sym": "SFTBY",
+"say": "Zur Aktie SoftBank. Die SoftBank verzeichnet einen Verlust von sieben Milliarden Dollar, was unter anderem auf gestiegene Kosten bei US-Rechenzentrumsprojekten zurückzuführen ist. Dennoch plant die SoftBank gemeinsam mit Grab eine Investition von eins Komma neun Milliarden Dollar in die KI-Infrastruktur in Malaysia. Zudem hat die SoftBank die Gespräche mit ABB wieder aufgenommen, nachdem eine frühere Übernahme in China blockiert wurde. Meine Einordnung aus diesen Meldungen: Sie könnten SoftBank eher schwächen. Das war SoftBank.",
+"audio": {
+"file": "sendung/2026-11-11-t_04.mp3",
+"hash": "9f40b891320f2977",
+"dur": 39.6
+}
+},
+{
+"name": "Amazon",
+"sym": "AMZN",
+"say": "Zur Aktie Amazon. Amazon hat neue Überwachungstechnologien vorgestellt, darunter eine fliegende Drohne und einen Roboter für den Einsatz in Häusern und Unternehmen. Das Unternehmen steht zudem vor der Frage, wie sich die massiven KI-Investitionen in Höhe von eins Komma zwei Billionen US-Dollar langfristig auszahlen werden. Amazon bleibt dabei ein wichtiger Marktplatz, auf dem auch Bestseller wie das Buch von Mark Moses neue Rekorde erzielen. Ob das Amazon stärkt oder schwächt, ist aus den Meldungen noch unklar. Das war Amazon.",
+"audio": {
+"file": "sendung/2026-11-11-t_05.mp3",
+"hash": "f4919bf9edcc11d5",
+"dur": 39.0
+}
+},
+{
+"name": "Taiwan Semiconductor",
+"sym": "TSM",
+"say": "Zur Aktie Taiwan Semiconductor. Der Chiphersteller Taiwan Semiconductor meldete für Oktober einen Umsatzanstieg von neunundfünfzig Komma sieben Prozent auf dreihundertsiebenundsechzig Komma vier sieben Milliarden NT$, getrieben durch die hohe Nachfrage nach KI-Chips. Taiwan Semiconductor profitiert dabei massgeblich von Aufträgen grosser Kunden wie Nvidia und Apple. Zusätzlich investiert Taiwan Semiconductor nun auch direkt in die KI-Unternehmen Anthropic und OpenAI. Meine Einordnung aus diesen Meldungen: Sie könnten Taiwan Semiconductor eher stärken. Das war Taiwan Semiconductor.",
+"audio": {
+"file": "sendung/2026-11-11-t_06.mp3",
+"hash": "f1ab32157abb65e1",
+"dur": 44.7
+}
+},
+{
+"name": "Intel",
+"sym": "INTC",
+"say": "Zur Aktie Intel. Intel arbeitet aktuell mit Altera an neuen Lösungen zur Sensorintegration zusammen. Während das PC-Geschäft im vierten Quartal schwächelt, setzt Intel auf Wachstum im Bereich der Rechenzentren ab dem Jahr 2027. Analysten beobachten bei Intel genau, wie sich diese strategische Neuausrichtung gegen die Konkurrenz behaupten kann. Ob das Intel stärkt oder schwächt, ist aus den Meldungen noch unklar. Das war Intel.",
+"audio": {
+"file": "sendung/2026-11-11-t_07.mp3",
+"hash": "1521eb35b950ecce",
+"dur": 34.7
+}
+},
+{
+"name": "UBS",
+"sym": "UBSG.SW",
+"say": "Zur Aktie UBS. Die Grossbank hat sich zu den globalen KI-Investitionen geäussert und wertet den jüngsten Ausverkauf als eine reine Neupositionierung am Markt, während im Jahr 2028 Ausgaben in Höhe von eins Komma fünf Billionen Dollar erwartet werden. Zudem hat die UBS ihre Einschätzungen zu verschiedenen Unternehmen angepasst und dabei die Kursziele für Take-Two sowie für AST SpaceMobile nach unten korrigiert. Das war UBS.",
+"audio": {
+"file": "sendung/2026-11-11-t_08.mp3",
+"hash": "5878256947a164ca",
+"dur": 32.8
+}
+},
+{
+"name": "GE Vernova",
+"sym": "GEV",
+"say": "Zur Aktie GE Vernova. Das Unternehmen investiert vierunddreissig Komma fünf Millionen Dollar in die Erweiterung seiner Anlage in Shreveport, um die Produktion von Transformatoren für die wachsende Netzinfrastruktur zu steigern. Im Bereich der Technologie konnte GE Vernova zudem wichtige Meilensteine bei der Entwicklung von Wasserstofffähigkeiten für Gasturbinen erreichen. Belastend wirkte sich hingegen aus, dass die Aktien von GE Vernova nach einer Überarbeitung der Projektpläne für US-Rechenzentren durch SoftBank unter Druck gerieten. Das war GE Vernova.",
+"audio": {
+"file": "sendung/2026-11-11-t_09.mp3",
+"hash": "5ebfeaccc6f2ceb9",
+"dur": 40.1
+}
+},
+{
+"name": "Quartalszahlen diese Woche",
+"say": "Quartalszahlen diese Woche. Diese Firmen aus deiner Liste melden ihre Quartalszahlen. Zur Aktie Siemens Energy: Zahlen Mittwoch, am elften November. Beim Umsatz erwarten sie rund zwölf Komma sieben Milliarden Dollar. Zur Aktie Applied Materials: Zahlen Donnerstag, am zwölften November. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von vier Dollar und sechs Cent. Beim Umsatz erwarten sie rund zehn Komma drei Milliarden Dollar.",
+"audio": {
+"file": "sendung/2026-11-11-t_10.mp3",
+"hash": "1ffc883749ea37de",
+"dur": 35.1
+}
+},
+{
+"name": "Begriff: Hochstufung und Abstufung",
+"say": "Zum Lernen, der Begriff des Tages: Hochstufung und Abstufung. Wenn eine Bank ihre Empfehlung verbessert, zum Beispiel von Halten auf Kaufen, heisst das Hochstufung. Das Gegenteil ist eine Abstufung. Solche Änderungen bewegen den Kurs oft am gleichen Tag.",
+"audio": {
+"file": "sendung/2026-11-11-t_11.mp3",
+"hash": "3e37cea3e5f0347e",
+"dur": 19.2
+}
+},
+{
+"name": "Schluss",
+"say": "Das war die Sendung vom Aktien-Radar. Die Quellen findest du in der App bei jeder Aktie, den ganzen Text über den Knopf Als Text. Bis morgen.",
+"audio": {
+"file": "sendung/2026-11-11-t_12.mp3",
+"hash": "cc4bc23e3e69d9dd",
+"dur": 11.5
+}
+}
+],
+"dur": 445.4,
+"full": {
+"file": "sendung/2026-11-11-t_full.mp3",
+"dur": 445.3,
+"marks": [
+[
+0,
+0.0
+],
+[
+1,
+29.5
+],
+[
+2,
+72.7
+],
+[
+3,
+106.1
+],
+[
+4,
+148.7
+],
+[
+5,
+188.3
+],
+[
+6,
+227.3
+],
+[
+7,
+272.0
+],
+[
+8,
+306.7
+],
+[
+9,
+339.5
+],
+[
+10,
+379.6
+],
+[
+11,
+414.7
+],
+[
+12,
+433.9
+]
+]
+}
+},
+{
 "id": "2026-11-10-t",
 "kind": "tag",
 "date": "2026-11-10",
@@ -2494,175 +2688,10 @@
 }
 ],
 "dur": 725.6
-},
-{
-"id": "2026-10-26-t",
-"kind": "tag",
-"date": "2026-10-26",
-"title": "Morgen-Sendung, Montag, sechsundzwanzigsten Oktober",
-"generated_at": "2026-10-26T21:50:15Z",
-"writer": "Gemini (Gratis-Kontingent) 10 Firmen, Rest Vorlage",
-"chapters": [
-{
-"name": "Begrüssung",
-"say": "Guten Morgen und willkommen zur Sendung vom Aktien-Radar, heute Montag, sechsundzwanzigsten Oktober. Zuerst ein kurzer Blick auf den Markt, dann die Firmen aus deiner Liste mit neuen Meldungen zu Produkten, Partnern und Projekten, danach Andere Aktien mit Chancen, die Quartalszahlen dieser Woche und zum Schluss ein Begriff zum Lernen. Kurz vorweg: Alles stammt aus gesammelten Daten und Schlagzeilen, Beträge nenne ich in Dollar. Das ist keine Anlageberatung.",
-"audio": {
-"file": "sendung/2026-10-26-t_00.mp3",
-"hash": "4814d752c49f34c4",
-"dur": 32.0
-}
-},
-{
-"name": "Markt kurz",
-"say": "Der Markt kurz. Der S und P fünfhundert, der Index der fünfhundert grossen US-Firmen, stand zuletzt bei plus null Komma sieben Prozent gegenüber dem Vortag. In deiner Liste am stärksten: Siemens Energy mit plus sechs Komma fünf Prozent, Arm mit plus sechs Komma zwei Prozent und Rolls-Royce mit plus fünf Komma sieben Prozent. Am schwächsten: Robinhood mit minus zwei Komma drei Prozent und Meta mit minus eins Komma neun Prozent. Zum Thema Zölle meldet Reuters, dass die USA und Kanada laut Quellen an einer Vereinbarung zur Lockerung der Stahl- und Autozölle arbeiten. Zum Thema Wall Street meldet Reuters, dass die Aktien im Plus enden, da der Börsengangsantrag von Anthropic den KI-Aktien Auftrieb gibt.",
-"audio": {
-"file": "sendung/2026-10-26-t_01.mp3",
-"hash": "f96bb4fa9808f1b9",
-"dur": 52.8
-}
-},
-{
-"name": "Meta",
-"sym": "META",
-"say": "Zur Aktie Meta. Meta plant ein Aktienangebot im Wert von fünfunddreissig Milliarden Dollar, um den KI-Ausbau voranzutreiben. Zudem strebt Meta einen Gesamtplan von fünfundneunzig Milliarden Dollar an, um Kapital für KI-Investitionen zu sammeln. Das neue Meta-Convertible-Aktienangebot könnte dabei eine Rendite von mehr als sechs Prozent erzielen. Meine Einordnung aus diesen Meldungen: Sie könnten Meta eher stärken. Das war Meta.",
-"audio": {
-"file": "sendung/2026-10-26-t_02.mp3",
-"hash": "afd6d97446104e4f",
-"dur": 34.1
-}
-},
-{
-"name": "Microsoft",
-"sym": "MSFT",
-"say": "Zur Aktie Microsoft. Microsoft bietet rund sechzigtausend Mitarbeitern freiwillige Übernahmen beziehungsweise Buyout-Angebote an. Microsoft strebt diese Entlassungen an, um die Kosten für den KI-Ausbau zu senken. Mit diesen Buyouts rüstet Microsoft seine Belegschaft für den Bereich der künstlichen Intelligenz um. Meine Einordnung aus diesen Meldungen: Sie könnten Microsoft eher stärken. Das war Microsoft.",
-"audio": {
-"file": "sendung/2026-10-26-t_03.mp3",
-"hash": "289126a752f5bfce",
-"dur": 31.6
-}
-},
-{
-"name": "Amazon",
-"sym": "AMZN",
-"say": "Zur Aktie Amazon. Amazon hat für das dritte Quartal 2026 verschiedene Ankündigungen von neuen Geräten bis hin zu KI-Durchbrüchen gemacht. Der anhaltende KI-Boom bringt die Cloud-Sparte AWS von Amazon an die Kapazitätsgrenze. Zudem steht UPS wegen der Automatisierungs- und Ausstiegsstrategie von Amazon vor einem Gewinntest. Meine Einordnung aus diesen Meldungen: Sie könnten Amazon eher stärken. Das war Amazon.",
-"audio": {
-"file": "sendung/2026-10-26-t_04.mp3",
-"hash": "7f74303ef0a0659f",
-"dur": 34.5
-}
-},
-{
-"name": "SK Hynix",
-"sym": "HY9H.MU",
-"say": "Zur Aktie SK Hynix. SK Hynix steht vor einer der grössten Sonderausschüttungen der Chipbranche. SK Hynix plant angeblich eine Sonderdividende in Höhe von zwölf Milliarden Dollar aus der Kioxia-Investition. Die SK-Hynix-Aktie erholt sich im Zuge dieser Meldungen. Meine Einordnung aus diesen Meldungen: Sie könnten SK Hynix eher stärken. Das war SK Hynix.",
-"audio": {
-"file": "sendung/2026-10-26-t_05.mp3",
-"hash": "a9b3dd2d912839fb",
-"dur": 29.9
-}
-},
-{
-"name": "Bloom Energy",
-"sym": "BE",
-"say": "Zur Aktie Bloom Energy. Bloom Energy boomt aktuell mit Rekordergebnissen und verbesserten Aussichten. Die Meinungen von Analysten zu Industriegüteraktien wie Bloom Energy sind jedoch gemischt. Dennoch taucht Bloom Energy in aktuellen Investment-Highlights als wichtiger Sektor jenseits des reinen KI-Booms auf. Meine Einordnung aus diesen Meldungen: Sie könnten Bloom Energy eher stärken. Das war Bloom Energy.",
-"audio": {
-"file": "sendung/2026-10-26-t_06.mp3",
-"hash": "59a0dd354a48cb8b",
-"dur": 31.7
-}
-},
-{
-"name": "Intel",
-"sym": "INTC",
-"say": "Zur Aktie Intel. Intel übernimmt Classiq, um gemeinsam eine Full-Stack-Quantencomputing-Plattform zu schaffen. Darüber hinaus beschleunigt Intel gemeinsam mit Partnern wie Cisco, Dell, HPE und Microsoft die Rechenzentrumsautomatisierung. Intel profitiert zudem von Markttrends wie der Flip-Chip-Technologie für KI und 3D-Paketierung. Meine Einordnung aus diesen Meldungen: Sie könnten Intel eher stärken. Das war Intel.",
-"audio": {
-"file": "sendung/2026-10-26-t_07.mp3",
-"hash": "12704d35bdee79fc",
-"dur": 33.9
-}
-},
-{
-"name": "Andere Aktien mit Chancen",
-"say": "Jetzt Andere Aktien mit Chancen. Das sind Aktien, die nicht auf deiner Liste sind. Bedingung: mindestens acht Analysten, ein durchschnittliches Kursziel mindestens dreissig Prozent über dem Kurs, und eine frische Meldung zu einem Produkt, einem Partner oder einem Auftrag. Das ist keine Kaufempfehlung.",
-"audio": {
-"file": "sendung/2026-10-26-t_08.mp3",
-"hash": "8e596fb7a1452bc2",
-"dur": 21.7
-}
-},
-{
-"name": "Chance: Oracle",
-"sym": "ORCL",
-"say": "Zur Aktie Oracle. Einundvierzig Analysten verfolgen Oracle. Ihr durchschnittliches Kursziel liegt bei zweihundertfünfunddreissig Dollar und achtzig Cent, das sind siebenundachtzig Komma eins Prozent über dem aktuellen Kurs von einhundertsechsundzwanzig Dollar und sechs Cent. Oracle führt neue KI-gestützte Fusion-Anwendungen ein, um Setups, Konfigurationen und Arbeitsabläufe in den Bereichen Lieferkette und Kundenerfahrung zu beschleunigen. Diese Cloud- und KI-Produkte sind für Oracle wichtig, um Unternehmen effizientere Software-Lösungen anzubieten und das Geschäft im Bereich künstlicher Intelligenz auszubauen. Die genaue Begründung der Analysten steht nicht in den Daten; das Kursziel ist ein Durchschnitt, keine Garantie. Das war Oracle.",
-"audio": {
-"file": "sendung/2026-10-26-t_09.mp3",
-"hash": "297e00c84d38a41f",
-"dur": 53.2
-}
-},
-{
-"name": "Chance: Axon Enterprise",
-"sym": "AXON",
-"say": "Zur Aktie Axon Enterprise. neunzehn Analysten verfolgen Axon Enterprise. Ihr durchschnittliches Kursziel liegt bei sechshundertachtzig Dollar, das sind sechzig Komma zwei Prozent über dem aktuellen Kurs von vierhundertfünfundzwanzig Dollar. Axon Enterprise hat die Body fünf Kamera enthüllt, ein neues Produkt für den Bereich der Behörden- und Sicherheitsausrüstung. Diese Produktneueinführung ist für Axon wichtig, da sie das technologische Angebot für Kunden modernisiert und die Marktposition im Bereich der Körperkameras stärken soll. Die genaue Begründung der Analysten steht nicht in den Daten; das Kursziel ist ein Durchschnitt, keine Garantie. Das war Axon Enterprise.",
-"audio": {
-"file": "sendung/2026-10-26-t_10.mp3",
-"hash": "79c28f2ab42de537",
-"dur": 49.9
-}
-},
-{
-"name": "Chance: Akamai Technologies",
-"sym": "AKAM",
-"say": "Zur Aktie Akamai Technologies. Zweiundzwanzig Analysten verfolgen Akamai Technologies. Ihr durchschnittliches Kursziel liegt bei einhundertvierundfünfzig Dollar und sechsundneunzig Cent, das sind siebenundfünfzig Komma drei Prozent über dem aktuellen Kurs von achtundneunzig Dollar und fünfzig Cent. Bei Akamai Technologies schwillt das Auftragsbuch an, wodurch die Aktie für eine Wachstuzsbeschleunigung positioniert ist. Ein volles Auftragsbuch ist für Akamai wichtig, da es auf eine hohe Nachfrage nach den Dienstleistungen im Bereich Cloud- und Sicherheitsinfrastruktur hindeutet. Die genaue Begründung der Analysten steht nicht in den Daten; das Kursziel ist ein Durchschnitt, keine Garantie. Das war Akamai Technologies.",
-"audio": {
-"file": "sendung/2026-10-26-t_11.mp3",
-"hash": "fb3eab9e3b4ee2af",
-"dur": 51.4
-}
-},
-{
-"name": "Chance: Generac",
-"sym": "GNRC",
-"say": "Zur Aktie Generac. achtzehn Analysten verfolgen Generac. Ihr durchschnittliches Kursziel liegt bei zweihundertsechsundachtzig Dollar, das sind einundfünfzig Komma vier Prozent über dem aktuellen Kurs von einhundertneunundachtzig Dollar. Generac steht vor den Ergebnissen des dritten Quartals, wobei Marktbeobachter prüfen, ob ein Amazon-KI-Deal zu einem starken Ergebnis beitragen kann. Eine Partnerschaft oder Verbindung im Bereich KI mit einem Giganten wie Amazon könnte für Generac wichtig sein, um vom aktuellen Infrastruktur- und Energiebedarf für Rechenzentren zu profitieren. Die genaue Begründung der Analysten steht nicht in den Daten; das Kursziel ist ein Durchschnitt, keine Garantie. Das war Generac.",
-"audio": {
-"file": "sendung/2026-10-26-t_12.mp3",
-"hash": "1047d46f4e6ef636",
-"dur": 50.3
-}
-},
-{
-"name": "Quartalszahlen diese Woche",
-"say": "Quartalszahlen diese Woche. Diese Firmen aus deiner Liste melden ihre Quartalszahlen. Zur Aktie Corning: Zahlen Dienstag, am siebenundzwanzigsten Oktober. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von null Dollar und achtundachtzig Cent. Beim Umsatz erwarten sie rund fünf Milliarden Dollar. Zur Aktie Robinhood: Zahlen Dienstag, am siebenundzwanzigsten Oktober. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von null Dollar und vierundsechzig Cent. Beim Umsatz erwarten sie rund eins Komma vier Milliarden Dollar. Zur Aktie Seagate Technology: Zahlen Dienstag, am siebenundzwanzigsten Oktober. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von sieben Dollar und dreiundvierzig Cent. Beim Umsatz erwarten sie rund vier Komma zwei Milliarden Dollar. Zur Aktie Samsung Electronics: Zahlen Mittwoch, am achtundzwanzigsten Oktober. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von zehn Dollar und fünfunddreissig Cent. Beim Umsatz erwarten sie rund einhundertsiebenundvierzig Komma acht Milliarden Dollar. Zur Aktie UBS: Zahlen Mittwoch, am achtundzwanzigsten Oktober. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von null Dollar und einundneunzig Cent. Beim Umsatz erwarten sie rund dreizehn Komma eins Milliarden Dollar. Zur Aktie GE Vernova: Zahlen Mittwoch, am achtundzwanzigsten Oktober. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von vier Dollar. Beim Umsatz erwarten sie rund zwölf Milliarden Dollar. Zur Aktie Microsoft: Zahlen Mittwoch, am achtundzwanzigsten Oktober. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von vier Dollar und zweiundsiebzig Cent. Beim Umsatz erwarten sie rund neunzig Komma sieben Milliarden Dollar. Zur Aktie ServiceNow: Zahlen Mittwoch, am achtundzwanzigsten Oktober. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von ein Dollar und zwei Cent. Beim Umsatz erwarten sie rund vier Komma eins Milliarden Dollar. Zur Aktie BYD: Zahlen Donnerstag, am neunundzwanzigsten Oktober. Beim Umsatz erwarten sie rund vierunddreissig Komma sechs Milliarden Dollar. Zur Aktie Amazon: Zahlen Donnerstag, am neunundzwanzigsten Oktober. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von ein Dollar und neunundneunzig Cent. Beim Umsatz erwarten sie rund zweihundertzwei Komma zwei Milliarden Dollar. Zur Aktie Intel: Zahlen Donnerstag, am neunundzwanzigsten Oktober. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von null Dollar und vierzig Cent. Beim Umsatz erwarten sie rund sechzehn Komma fünf Milliarden Dollar.",
-"audio": {
-"file": "sendung/2026-10-26-t_13.mp3",
-"hash": "82154db7ef8090db",
-"dur": 193.1
-}
-},
-{
-"name": "Begriff: Prognose",
-"say": "Zum Lernen, der Begriff des Tages: Prognose. Viele Firmen geben bei den Quartalszahlen eine Prognose, auf Englisch Guidance, für die nächsten Monate. Oft bewegt die Prognose den Kurs stärker als die Zahlen selbst, weil die Börse in die Zukunft schaut.",
-"audio": {
-"file": "sendung/2026-10-26-t_14.mp3",
-"hash": "ad88ebbb2f3e5ce3",
-"dur": 18.4
-}
-},
-{
-"name": "Schluss",
-"say": "Das war die Sendung vom Aktien-Radar. Die Quellen findest du in der App bei jeder Aktie, den ganzen Text über den Knopf Als Text. Bis morgen.",
-"audio": {
-"file": "sendung/2026-10-26-t_15.mp3",
-"hash": "cc4bc23e3e69d9dd",
-"dur": 11.4
-}
 }
 ],
-"dur": 729.9
-}
-],
-"generated_at": "2026-11-10T05:29:41Z",
+"generated_at": "2026-11-11T05:26:24Z",
 "voice": "de-CH-LeniNeural",
 "source": "Yahoo Finance, SEC EDGAR, Schlagzeilen (Google News u.a.); Text: Gemini Gratis-Kontingent oder Vorlage",
-"audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@170bc2c6f6b315d8918aaf92c369104530f936d4/data/audio/"
+"audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@9f9fe0b8c4d2c0d746a8f21f00fe205a129a12e1/data/audio/"
 }
