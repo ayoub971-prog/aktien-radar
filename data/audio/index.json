@@ -331,27 +331,29 @@
   },
   "BKW.SW": {
    "file": "BKW.SW.mp3",
-   "hash": "13d0042b7a299766",
-   "th": "ddbcff7a2840e0ff",
-   "id": "0c9bd77dd1",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
+   "hash": "77d12652faf2d423",
+   "th": "ce5bc4c9e3043c25",
+   "engine": "gemini",
+   "id": "f79b28785d",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
    "br": 24,
-   "text": "Die Aktie der BKW AG stand zuletzt im Fokus der Anleger und notiert aktuell über der wichtigen einhundert-Tage-Linie. Trotz herausfordernder Produktionsbedingungen und einer schwachen Stromproduktion im dritten Quartal hat das Unternehmen seine Prognose für das Geschäftsjahr bestätigt. Diese Bestätigung der Ziele trotz schwieriger Rahmenbedingungen wird von Marktbeobachtern als positiv gewertet, während die schwache Produktion das Ergebnis belastet. Laut Daten von Yahoo Finance liegt das mittlere Kursziel der Analysten bei einhundertvierundsiebzig Dollar, was einem erwarteten Aufwärtspotenzial von elf Komma eins Prozent entspricht. Die Spanne der Analysteneinschätzungen reicht dabei von einem tiefen Kursziel von einhundertvierzig Dollar bis zu einem hohen Ziel von zweihundertsieben Dollar. Im Konsens der Analysten überwiegen die neutralen bis positiven Einschätzungen, wobei es auch Verkaufsempfehlungen gibt. Widersprüchliche Meldungen zur Unternehmenslage liegen derzeit nicht vor. Dies stellt keine Anlageberatung dar.",
-   "dur": 71.4,
-   "at": "2026-11-10T23:52:45Z"
+   "text": "Die Aktie der BKW AG zeigt sich an der Börse derzeit gefragt und konnte sich zuletzt über der einhundert-Tage-Linie behaupten. Trotz herausfordernder Bedingungen in der Stromproduktion, die das Unternehmen im dritten Quartal belasteten, hat die BKW AG ihre Prognose offiziell bestätigt. Die schwache Produktionsleistung bleibt jedoch ein Risikofaktor für die operative Entwicklung. Analysten bewerten die Aktie derzeit differenziert: Von den beobachteten Experten raten zwei zum Kauf, drei zum Halten und einer zum Verkauf, während jeweils ein Analyst eine starke Kauf- beziehungsweise Verkaufsempfehlung ausspricht. Das durchschnittliche Kursziel liegt bei einhundertvierundsiebzig Dollar, wobei die Spanne zwischen einhundertvierzig Dollar und zweihundertsieben Dollar reicht. Beim aktuellen Kurs von einhundertsechsundfünfzig Dollar zeigt sich das Marktinteresse an der Aktie, auch wenn die schwierigen Rahmenbedingungen in der Stromerzeugung das Geschäft weiterhin dämpfen. Es liegen keine Berichte über Insider-Transaktionen oder strategische Aussagen des Managements vor. Dies stellt keine Anlageberatung dar.",
+   "dur": 67.0,
+   "at": "2026-11-11T06:33:07Z"
   },
   "UBSG.SW": {
    "file": "UBSG.SW.mp3",
-   "hash": "3249737df53d1ff2",
-   "th": "47e5d5ad8968d19e",
-   "id": "e45c4bf796",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
+   "hash": "e441573ac49f4d00",
+   "th": "e142c69482708b4a",
+   "engine": "gemini",
+   "id": "235b6cd07a",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
    "br": 24,
-   "text": "UBS Group zeigt sich laut Finanzen.ch gefragt und verzeichnet am Handelsverlauf Kursgewinne. Der US-Finanznachrichtendienst Bloomberg.com berichtet, dass die UBS als Europas grösster Aktienbulle bis zum Ende des Jahres 2027 einen Zuwachs von dreizehn Prozent erwartet. Zudem meldet Finanzen.ch, dass der Üetlihof vor dem Verkauf steht und der norwegische Staatsfonds den Bürokomplex mit Mieterin UBS abgeben möchte. Auf der angebots- und analyseseitigen Ebene stuft die UBS laut Yahoo Finance Carlyle herab, da schwache Fondsrenditen die Wachstumsziele für 2028 gefährden, und senkt zudem das Kursziel für Take-Two aufgrund geringerer Buchungen. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Zu den Analysten-Bewertungen gehört laut Finanzen.ch eine neutrale Einstufung für Infineon sowie eine Kaufempfehlung für Hannover Rück und GEA Group durch die UBS AG. Das durchschnittliche Kursziel der Analysten liegt bei vierundfünfzig Komma sieben fünf Dollar. Zurück zu UBS Group: Die Firma ist im Berichtszeitraum stark in Analysen und Marktprognosen eingebunden. Als wichtige Kennzahlen werden das durchschnittliche Kursziel von vierundfünfzig Komma sieben fünf Dollar, das höchste Kursziel von dreiundsiebzig Komma eins eins Dollar sowie das niedrigste Kursziel von einundvierzig Komma vier zwei Dollar genannt. Insider-Käufe oder -Verkäufe wurden in den offiziellen Meldungen nicht verzeichnet. Aussagen von Chefs direkt aus dem Management liegen in den aktuellen Berichten nicht vor. Keine Anlageberatung.",
-   "dur": 113.8,
-   "at": "2026-11-10T21:18:22Z"
+   "text": "Die UBS Group steht aktuell im Fokus der Finanzmärkte. Laut dem US-Finanznachrichtendienst Bloomberg erwartet das Unternehmen bis Ende 2027 einen Zuwachs von dreizehn Prozent. Auch in der Schweiz zeigt sich die Aktie gefragt, während der Norwegische Staatsfonds plant, den Bürokomplex Üetlihof zu verkaufen, in dem die UBS als Mieterin ansässig ist. Analysten bewerten die Aktie derzeit mehrheitlich positiv. Laut Daten von Yahoo Finance liegt das durchschnittliche Kursziel bei vierundfünfzig Komma sieben fünf Dollar, was einem Aufwärtspotenzial von zehn Komma acht Prozent entspricht. Insgesamt gibt es neun Kaufempfehlungen, acht Halteempfehlungen und drei Verkaufsempfehlungen. Die UBS AG selbst hat zudem Bewertungen für andere Unternehmen abgegeben, darunter eine Kaufempfehlung für Hannover Rück und eine neutrale Einstufung für Infineon. Es handelt sich hierbei um keine Anlageberatung.",
+   "dur": 56.2,
+   "at": "2026-11-11T06:33:54Z"
   },
   "MSFT": {
    "file": "MSFT.mp3",
@@ -379,15 +381,16 @@
   },
   "013A.F": {
    "file": "013A.F.mp3",
-   "hash": "494b0b92cca5ce6d",
-   "th": "efff288312667aa2",
-   "id": "892faaf756",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
+   "hash": "9d5fbea302af1327",
+   "th": "ac1bc23733771149",
+   "engine": "gemini",
+   "id": "ef69850c3a",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
    "br": 24,
-   "text": "Bei JD.com deuten laut dem Finanzportal Investing.com Canada Optionen auf eine mögliche Kursbewegung von fünf Komma sieben Prozent hin. Das Finanzportal Yahoo Finance, welches Meldungen und Analystenbewertungen bündelt, meldete zudem, dass die Aktie von JD.com zuletzt an Wert verlor, während der Gesamtmarkt zulegte. Bei den Analysten gibt es neue Einschatzungen. Barclays bestätigte die Einstufung auf Übergewichten und senkte das Kursziel auf achtunddreissig Dollar. B of A Securities bestätigte die Einstufung auf Kaufen und senkte das Kursziel auf siebenunddreissig Dollar. Susquehanna bestätigte die Einstufung auf Neutral und senkte das Kursziel auf dreissig Dollar. Als positive Neuigkeit bietet JD.com laut einer Meldung von Mayer Brown gemeinsam mit CECONOMY das erste Rechtsmittel mit gleichberechtigtem Zugang im Rahmen der FSR an.",
-   "dur": 63.0,
-   "at": "2026-11-10T17:36:54Z"
+   "text": "Beim chinesischen E-Commerce-Unternehmen JD.com ist die Stimmung derzeit gemischt. Während die kanadische Tageszeitung The Globe and Mail berichtet, dass Morgan Stanley an einer Verkaufsempfehlung festhält, deuten Optionen laut Investing.com auf eine mögliche Kursbewegung von fünf Komma sieben Prozent nach der Veröffentlichung der kommenden Quartalszahlen hin. Ein weiterer Punkt ist die Zusammenarbeit mit CECONOMY, bei der JD.com das erste Rechtsmittel mit gleichberechtigtem Zugang im Rahmen der FSR anbietet. Die Aktie verzeichnete zuletzt Kursrückgänge, obwohl der Gesamtmarkt zulegen konnte. Analysten sind uneins: Barclays bewertet die Aktie mit Übergewichten und einem Kursziel von achtunddreissig Dollar, B of A Securities empfiehlt den Kauf bei einem Kursziel von siebenunddreissig Dollar, während Susquehanna die Aktie neutral mit einem Kursziel von dreissig Dollar einstuft. Dies stellt keine Anlageberatung dar.",
+   "dur": 60.8,
+   "at": "2026-11-11T06:34:38Z"
   },
   "NVDA": {
    "file": "NVDA.mp3",
@@ -463,15 +466,15 @@
   },
   "ABBN.SW": {
    "file": "ABBN.SW.mp3",
-   "hash": "e4f0c8f57e38614b",
-   "th": "2c15256c4eb47655",
-   "id": "ab1f8bc6d9",
+   "hash": "3fa60862c27c4d9c",
+   "th": "c2ae4091d30a17f9",
+   "id": "122002fa41",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Bei ABB gibt es Neuigkeiten zum Robotik-Geschäft. Wie das Finanzportal Yahoo Finance berichtet, haben ABB und Softbank die Gespräche über eine Übernahme wieder aufgenommen, nachdem diese zuvor in China blockiert worden war. Um den Deal doch noch zu ermöglichen, erwägen beide Unternehmen laut der Plattform Seeking Alpha eine Ausgliederung des China-Geschäfts. Diese Nachricht sorgte an der Börse für Bewegung: Laut dem Portal Traders Union legte die Aktie von ABB um etwa zwei bis zwei Komma fünf Prozent zu. Ein Rückschlag bleibt jedoch die ursprüngliche Blockade durch die chinesischen Behörden. Analysten blicken differenziert auf den Titel: Es gibt derzeit zwei starke Kaufempfehlungen, fünf Kaufempfehlungen, zwanzig Halteempfehlungen sowie zwei Verkaufsempfehlungen. Das durchschnittliche Kursziel liegt bei einhundert Dollar, was einem Potenzial von neunzehn Komma drei Prozent entspricht. Operativ ist ABB gut positioniert, etwa im Bereich der mobilen Roboter-Middleware für das Jahr 2026 oder bei der Automatisierung von Elektrofahrzeugen und Chips. Der aktuelle Kurs der Aktie notiert bei vierundachtzig Komma null fünf Dollar.",
-   "dur": 82.9,
-   "at": "2026-11-10T23:25:49Z"
+   "text": "ABB und Softbank nehmen ihre Gespräche wieder auf, nachdem eine geplante Übernahme in China zuvor blockiert wurde. Um den Robotik-Deal dennoch zu retten, erwägen die beiden Unternehmen nun eine Ausgliederung des China-Geschäfts. Diese Nachricht sorgte an der Börse für Bewegung, und die Aktie von ABB konnte um mehr als zwei Prozent zulegen. Operativ profitiert ABB aktuell von der steigenden Nachfrage nach Künstlicher Intelligenz und Cloud-Lösungen im Bereich der mobilen Roboter-Middleware, wo bis 2030 ein jährliches Marktwachstum von achtzehn Komma sechs Prozent erwartet wird. Zudem treibt das Unternehmen die Automatisierung in der Chip- und Elektrofahrzeugindustrie voran, einem Markt mit einem prognostizierten Volumen von eins Komma sieben Milliarden Dollar bis 2030. Analysten blicken differenziert auf den Titel: Während das durchschnittliche Kursziel bei rund einhundert Dollar liegt, was einem Aufwärtspotenzial von neunzehn Komma fünf Prozent entspricht, reicht die Spanne der Einschätzungen von einundachtzig Komma vier zwei Dollar bis einhundertsiebzehn Dollar. Der aktuelle Kurs notiert bei vierundachtzig Komma null fünf Dollar. Im Konsens von siebenundzwanzig Analysten überwiegen die neutralen Haltungen, während es auch Kaufempfehlungen gibt.",
+   "dur": 87.9,
+   "at": "2026-11-11T06:34:45Z"
   },
   "STX": {
    "file": "STX.mp3",
@@ -487,15 +490,15 @@
   },
   "MU": {
    "file": "MU.mp3",
-   "hash": "ab40a3ac482d737e",
-   "th": "765e3cdbfd27c0c0",
-   "id": "a05d308fce",
+   "hash": "55057f20ef581197",
+   "th": "43d1c7aa619bdb05",
+   "id": "1ca58078bd",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Bei Micron Technology zeigt sich im kurzen Uberblick, dass die Aktie im Vormonat einen Ruckgang von siebzehn Prozent verzeichnete, rund zweiundvierzig Prozent unter ihrem Hochststand notiert und kurzlich im Zuge einer breiten Technologie-Rallye eine Erholung erlebte. Laut Yahoo Finance liegt das durchschnittliche Kursziel der Analysten bei rund eintausendfünfhundertzweiundsechzig Dollar, gestust von uberwiegend positiven Kaufempfehlungen. Zudem stehen Diskussionen uber die Zyklizitat des Marktes fur Speicherchips und mogliche langfristige Vertrage zur Ertragsstabilitat im Fokus. Zu den Risiken weist die kanadische Tageszeitung The Globe and Mail darauf hin, dass die Aktie deutlich unter ihrem Hochststand steht und Beobachter vor zyklischen Risiken warnen, wahrend eine Plattform von Seeking Alpha auf eine Herabstufung verweist. Laut den Daten von Yahoo Finance raten neun Analysten zum starken Kauf, fünfundvierzig zum Kauf und vier zum Halten. Das Analysehaus Rosenblatt bestatigte seine Kaufempfehlung mit einem Kursziel von rund eintausendneunhundert Dollar. Needham halt ebenfalls an der Kaufempfehlung mit einem Kursziel von rund eintausendsechshundertfünfzig Dollar fest. DA Davidson erhohte das Kursziel auf rund dreitausend Dollar. Mizuho passte das Kursziel auf rund eintausendvierhundert Dollar nach oben an, und Morgan Stanley bestatigte seine Ubergewichten-Einstufung mit einem Kursziel von rund eintausendzweihundert Dollar. Was macht das Unternehmen gerade? Der iShares MSCI USA Momentum Factor ETF nahm Micron Technology neu in sein Portfolio auf. Zudem wird das Unternehmen im Zusammenhang mit potenziellen Vertragen zur Sicherung der Ertragsstabilitat und mit Anwendungen im Bereich Robotik genannt. Abwertend wirkt dagegen, dass ETFs zeitweise als Nettoverkaufer auftraten und die Sorge vor einer zyklischen Klippe im Chipmarkt besteht.",
-   "dur": 131.2,
-   "at": "2026-11-10T14:51:23Z"
+   "text": "Bei Micron Technology zeigt sich derzeit ein sehr gemischtes Bild. Die Aktie stand in den vergangenen Wochen unter erheblichem Druck und verzeichnete deutliche Kursverluste, wobei Berichte von einem Rückgang um siebzehn Prozent innerhalb eines Monats bis hin zu vierzig Prozent seit Oktober sprechen. Belastend wirkten dabei zyklische Marktrisiken, Schwierigkeiten bei Projekten in Taiwan sowie die Entscheidung der Bank of America, Micron von ihrer Liste der Top-Aktien zu streichen. Auch Verkäufe durch das Investmentteam von Trump sorgten für Aufmerksamkeit. Demgegenüber steht eine optimistische Einschätzung vieler Analysten. Der Konsens umfasst neun starke Käufe und fünfundvierzig Kaufempfehlungen bei einem durchschnittlichen Kursziel von eintausendfünfhundertzweiundsechzig Dollar. Goldman Sachs stuft die Aktie als klaren Kauf ein, und Häuser wie Rosenblatt oder Needham bestätigen ihre hohen Kursziele. Operativ setzt das Unternehmen auf strategische Impulse: Ab dem neunten Dezember startet ein Aktienrückkaufprogramm im Volumen von fünfunddreissig Milliarden Dollar. Zudem investierte Micron eine Milliarde Dollar in Anthropic. Während einige Marktbeobachter die Aktie aufgrund der aktuellen Bewertung als spottbillig und kaufenswert betrachten, warnen andere vor einer zyklischen Klippe.",
+   "dur": 91.0,
+   "at": "2026-11-11T06:34:56Z"
   },
   "DRO.AX": {
    "file": "DRO.AX.mp3",
@@ -510,10 +513,10 @@
    "at": "2026-11-10T18:33:51Z"
   }
  },
- "status": "quota: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, h",
- "checked_at": "2026-11-10T23:53:02Z",
+ "status": "ok",
+ "checked_at": "2026-11-11T06:34:56Z",
  "quota_until": 1794355051.3461266,
- "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@9f9fe0b8c4d2c0d746a8f21f00fe205a129a12e1/data/audio/",
+ "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@9944fb40afd6986ac5dca92fce24a59f4caa11c4/data/audio/",
  "extra": {
   "intro": {
    "file": "_intro.mp3",
