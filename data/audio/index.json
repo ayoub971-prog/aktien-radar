@@ -54,28 +54,29 @@
   },
   "ASML": {
    "file": "ASML.mp3",
-   "hash": "021c9766c1b079ee",
-   "th": "23979f29886c08f8",
-   "id": "09dbc317a9",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
-   "br": 24,
-   "text": "ASML Holding hat seine Prognose fur das Jahr 2026 erhoeht, weil die starke Nachfrage nach kuenstlicher Intelligenz die Kapazitatserweiterung beschleunigt, wie das Finanzportal Yahoo Finance berichtet. Laut dem Portal Investing.com Deutsch stieg die Aktie um fünf Komma drei Prozent, was durch Aktienrueckkaufe und eine breite Chip-Rally angetrieben wurde. Demgegenueber meldete Yahoo Finance, dass die Aktie im letzten Monat um zwanzig Prozent gefallen ist, da das Wachstum im Bereich der kuenstlichen Intelligenz auf Ausfuehrungsrisiken traf. Die kanadische Tageszeitung The Globe and Mail berichtete zudem, dass die Aktie wieder auf die Beine kam. Bei den Analysten hat JP Morgan die Einstufung auf Uebergewichten belassen und das Kursziel auf zweitausenddreihundertfünfzig Dollar angepasst, sowie zuvor ein Ziel von zweitausendvierhundert Dollar genannt. Wells Fargo bestaetigte ebenfalls die Einstufung auf Uebergewichten mit einem Kursziel von zweitausendfünfhundert Dollar, waehrend RBC Capital die Einstufung auf Besser als Markt mit Kurszielen von zweitausendeinhundert Dollar beziehungsweise zweitausend Dollar bestaetigte. Das Unternehmen meldete Transaktionen im Rahmen seines aktuellen Aktienrueckkaufprogramms, waehrend ETFs am sechsten November Nettoverkaeufer von ASML waren. Das durchschnittliche Kursziel liegt bei zweitausendeinhundertzweiundvierzig Dollar.",
-   "dur": 96.9,
-   "at": "2026-11-10T19:29:26Z"
-  },
-  "INTC": {
-   "file": "INTC.mp3",
-   "hash": "72272f13f36d1068",
-   "th": "fff98a42ac050184",
+   "hash": "7cf1e79b4c8ae8bc",
+   "th": "e37518ea95b548b8",
    "engine": "gemini",
-   "id": "294a275ec6",
+   "id": "140219aa12",
    "voice": "Kore",
    "model": "gemini-2.5-flash-preview-tts",
    "br": 24,
-   "text": "Intel geriet im Zuge eines schrumpfenden PC-Marktes und einer nachlassenden Chip-Rallye unter Verkaufsdruck, was die Aussichten fuer das vierte Quartal truebt. Belastend wirkt zudem, dass ETFs als Nettoverkaeufer der Aktie auftraten und Konkurrenten wie AMD beim Umsatz aufgeholt haben. Positiv werten Beobachter die Kooperation von Intel mit Altera zur Sensorintegration fuer Edge- und physische KI sowie die Zusammenarbeit mit DataKrypto fuer verschluesselte Ausfuehrung in KI-Infrastrukturen. RBC Capital Markets stellt zudem in Aussicht, dass die Staerke im Rechenzentrumsbereich die PC-Schwaeche ausgleichen und im Jahr 2027 zu Wachstum fuehren kann. Analysten zeigen sich mit vierzehn Kauf-, vierunddreissig Halte- und einer Verkaufsempfehlung sowie zwei starken Kaufempfehlungen gemischt gestimmt. Das durchschnittliche Kursziel liegt bei einundneunzig Komma eins zwei Dollar, waehrend das hoechste Kursziel bei einhundertsechzig Dollar verortet wird. Verschiedene Haeuser wie die UBS, Freedom Broker, JP Morgan, Citigroup, TD Cowen und DA Davidson haben ihre Ratings und Kursziele zwischen siebzig Dollar und einhundert Dollar angepasst.",
-   "dur": 65.5,
-   "at": "2026-11-10T20:21:52Z"
+   "text": "ASML Holding zeigt an den Markten gemischte Bewegungen und zieht Aufmerksamkeit auf sich. Laut Yahoo Finance, einem Finanzportal, das Meldungen und Analystenbewertungen bundelt, wurde das Unternehmen vom Halbleiterfonds iShares PHLX SOX Semiconductor neu in das Portfolio aufgenommen. Investing.com Deutsch meldete zudem einen Kursanstieg von vier Komma eins Prozent, da Sorgen rund um kunstliche Intelligenz nach der US-Wahl abklingen. Auf der anderen Seite berichtet Yahoo Finance Singapore, dass die Aktie nach einem starken Kursplus von einhundertfünfundzwanzig Prozent moglicherweise bereits auf Perfektion bewertet sein könnte. Zudem traten ETFs laut Yahoo Finance als Nettoverkäufer der Aktie auf. Blockchain News merkt an, dass Verkäufer die Dynamik weiterhin kontrollieren, auch wenn sich der Kurs uber der kurzfristigen Trendunterstützung hält. Analysten blicken uberwiegend positiv auf das Unternehmen. Laut Yahoo Finance gibt es im Konsens achtunddreissig Kaufen-, sieben starke Kaufen-, zwei Halten- und eine Verkaufsempfehlung. Das durchschnittliche Kursziel der siebzehn erfassten Analysten liegt bei zweitausendeinhundertsiebenundzwanzig Dollar, mit einem Hochstwert von zweitausendachthundertachtzehn Dollar und einem Tiefstwert von achthundertachtundfünfzig Dollar. Zu den wichtigen Kennzahlen zählt das durchschnittliche Kursziel von zweitausendeinhundertsiebenundzwanzig Dollar, welches den von Experten im Mittel erwarteten Wert darstellt. Das maximale Kursziel markiert mit zweitausendachthundertachtzehn Dollar die optimistischste Erwartung. Bei den Widersprüchen stehen sich positive Kursimpulse durch nachlassende KI-Sorgen und die Aufnahme in Indizes auf der einen Seite sowie Verkäufe durch ETFs und anhaltender Verkaufsdruck laut Blockchain News auf der anderen Seite gegenuber.",
+   "dur": 108.3,
+   "at": "2026-11-12T13:54:03Z"
+  },
+  "INTC": {
+   "file": "INTC.mp3",
+   "hash": "b11eba342fac1d7e",
+   "th": "4a0c7d6c74d3d6cf",
+   "engine": "gemini",
+   "id": "0a49d27c16",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
+   "br": 24,
+   "text": "Intel: Die Aktie von Intel geriet im November 2026 im Zuge von Turbulenzen im Halbleitersektor und einem Einbruch nach Berichten uber Verflechtungen mit Unternehmen im Umfeld eines mutmasslichen chinesischen Spions unter Druck, zeigte jedoch zeitweise Kursgewinne infolge einer breiteren Chip-Rallye und SoftBank-Finanzierungen. Laut Yahoo Finance kaufte der Chef Aktien im Wert von rund neun Komma sieben Millionen Dollar, kurz nachdem der Kurs um neunundzwanzig Prozent eingebrochen war. Ausserdem weisen TradingView auf Verbindungen zu einer mit einem Spion in Verbindung stehenden Firma sowie Risiken von siebenundachtzig Millionen Aktien nach einem SoftBank-Deal laut Yahoo Finanzen Deutschland hin. Das von Yahoo Finance ausgewiesene Konsensrating für Intel setzt das durchschnittliche Kursziel der Analysten auf neunzig Komma sechs fünf Dollar, mit Einzelbewertungen von Instituten wie der UBS, Freedom Broker, JP Morgan, Citigroup, TD Cowen und DA Davidson. Die Firma verzeichnete Kursgewinne auf einer breiteren Chip-Rallye, angetrieben durch die Nachfrage nach Infrastruktur für kunstliche Intelligenz, und stieg nach der Bekanntgabe von SoftBank, rund sieben Komma vier Milliarden Dollar uber Intel-Aktien aufgenommen zu haben, wahrend Berichte uber Verflechtungen mit einem mutmasslichen chinesischen Spion abwertend wirkten. Wichtige Kennzahlen sind das durchschnittliche Kursziel von rund neunzig Komma sechs fünf Dollar. Zu den Insider-Aktivitäten wird gemäss SEC-Daten und Meldungen ein Kauf von Lip Bu Tan im Wert von rund neun Komma sieben Millionen Dollar im November 2026 aufgefuhrt.",
+   "dur": 90.9,
+   "at": "2026-11-12T13:55:09Z"
   },
   "PLTR": {
    "file": "PLTR.mp3",
@@ -277,15 +278,16 @@
   },
   "RYCEY": {
    "file": "RYCEY.mp3",
-   "hash": "82f70a480f6b050c",
-   "th": "5859237e695d4320",
-   "id": "baee13a8df",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
+   "hash": "28c646dfc2236bfb",
+   "th": "d73e80e530607cae",
+   "engine": "gemini",
+   "id": "16fa719eff",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
    "br": 24,
-   "text": "Die Aktie von Rolls-Royce zeigt sich in aktuellen Berichten überwiegend von einer freundlichen Seite. Laut Finanzen.ch verzeichnete das Papier an mehreren Handelstagen Kursgewinne und bewegt sich laut boerse.de über der zwanzig-Tage-Linie. Unternehmensseitig arbeitet der Bereich Submarines mit INFINITY zusammen, um neue Fähigkeiten für die britische Verteidigung zu entwickeln. Zudem zählt die Aktie laut London Insider zu den meistgekauften Werten auf einer grossen britischen Plattform. Während die Bank of America Securities das Kursziel aufgrund niedrigerer Flugstundenerwartungen gesenkt hat, hält sie weiterhin am Kaufrating fest. Der Analystenkonsens bei Yahoo Finance umfasst drei Kaufempfehlungen und zwei starke Kaufempfehlungen bei einem durchschnittlichen Kursziel von neunundzwanzig Komma vier neun Dollar. Operativ gibt es positive Signale durch ein EPS-Upgrade für die Jahre 2026 mit einem Plus von neunzehn Komma vier Prozent und 2027 mit einem Plus von zwanzig Komma fünf Prozent. Während Finanzen.ch von einer positiven Entwicklung berichtet, warnt Yahoo Finance UK vor einem möglichen Kursrückgang von zwanzig Prozent im November. Dies stellt keine Anlageberatung dar.",
-   "dur": 87.2,
-   "at": "2026-11-10T23:25:29Z"
+   "text": "Rolls-Royce zeigt sich in den aktuellen Meldungen von einer starken Seite. Laut Yahoo Finance UK hat das Unternehmen ein beschleunigtes Aktienrückkaufprogramm mit einem Volumen von bis zu zwei Milliarden Dollar gestartet und gleichzeitig seine Gewinnprognose für das Jahr 2026 bestätigt, die zwischen vier Komma sieben und rund sechs Komma fünf Milliarden Dollar liegen soll. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Aufseiten der Analysten gibt es viel Zustimmung. Laut Finanzen.net bewertet JP Morgan Chase & Co. die Aktie mit einem Uebergewicht, während Jefferies & Company Inc. sowie RBC laut Marketscreener ihre Kaufempfehlungen bekräftigen. Laut Yahoo Finance bewerten insgesamt fünf Analysten die Aktie mit Kaufen oder stark Kaufen, wobei das durchschnittliche Kursziel bei rund neunundzwanzig Komma zwei vier Dollar liegt. Zurück zu Rolls-Royce: Was macht die Firma gerade? Aufwertend wirkt vor allem das genannte Aktienrückkaufprogramm, welches laut Yahoo Finance UK von Jefferies begruesst wird, da es auf schnellere Barrenditen für die Aktionäre setzt. Abwertende Meldungen zu konkreten Projekten oder Produkten gibt es aktuell nicht. Bei den wichtigen Kennzahlen sticht die bestätigte Gewinnprognose für das Jahr 2026 hervor, während Marketscreener zudem ein Upgrade beim Gewinn je Aktie von plus neunzehn Komma vier Prozent für 2026 und plus zwanzig Komma fünf Prozent für 2027 meldet. Insider-Käufe oder -Verkäufe wurden in den offiziellen Daten und Meldungen für diesen Zeitraum nicht erwähnt. Aussagen von Chefs oder dem Management liegen in den aktuellen Berichten nicht vor. Widersprüche zwischen den verschiedenen Quellen lassen sich in den Daten nicht erkennen. Keine Anlageberatung.",
+   "dur": 96.9,
+   "at": "2026-11-12T13:56:03Z"
   },
   "GEV": {
    "file": "GEV.mp3",
@@ -337,27 +339,27 @@
   },
   "BKW.SW": {
    "file": "BKW.SW.mp3",
-   "hash": "52dfbbc7aaeb76ec",
-   "th": "be97567820d1111b",
-   "id": "654e8b6bb0",
+   "hash": "04c39b2e55da8f8c",
+   "th": "1b5f537be6d6e129",
+   "id": "5531932d2f",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "BKW AG: Im aktuellen Berichtszeitraum zeigte sich die Aktie von BKW abwechselnd mit Kursgewinnen und Kursverlusten. Laut Finanzen.ch, einem Schweizer Finanzportal, gab es sowohl Tage im Minusbereich als auch freundlichere Phasen mit Kursen im Plus. Das Unternehmen sieht sich laut Berichten von MarketScreener, einem Finanzportal, mit herausfordernden Produktionsbedingungen im dritten Quartal konfrontiert. Investing.com Canada, ebenfalls ein Finanzportal, berichtet in einer Telefonkonferenz zum dritten Quartal von Belastungen durch eine schwache Produktion. Trotz dieser schwierigen Bedingungen bei der Stromproduktion wurde die bisherige Prognose laut Finanzen.ch von der Gesellschaft bestätigt. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Betreffend der Analystenbewertungen berichtet Yahoo Finance, ein Finanzportal, welches Meldungen und Analystenbewertungen bündelt, von insgesamt sieben Analysten, die sich wie folgt positionieren: Es gibt eins starke Kaufempfehlung, zwei reguläre Kaufempfehlungen, drei Halteempfehlungen, eins Verkaufsempfehlung sowie eins starke Verkaufsempfehlung. Das durchschnittliche Kursziel liegt bei zweihundertsieben Dollar, während das höchste Kursziel bei zweihundertsiebenundvierzig Dollar und das niedrigste Kursziel bei einhundertsiebenundsechzig Dollar angesiedelt sind. Daraus ergibt sich ein errechnetes Aufwärtspotenzial von zwölf Komma acht Prozent. Was die geschäftliche Aktivität betrifft, so blickt das Unternehmen auf eine schwierige Stromproduktion im dritten Quartal, was das operative Umfeld laut den Berichten prägt. Es wurden in den aktuellen Daten keine Insiderkäufe oder -verkäufe gemeldet. Vonseiten der Unternehmensführung oder des Managements wurden in den vorliegenden Berichten keine direkten Zitate oder Aussagen gemacht. Widersprüchliche Angaben zwischen den verschiedenen Quellen sind nicht vorhanden. Keine Anlageberatung.",
-   "dur": 134.9,
-   "at": "2026-11-12T02:00:53Z"
+   "text": "BKW AG: Der Schweizer Energiekonzern stand zuletzt im Fokus verschiedener Finanzmedien. Laut finanzen.ch, einem Schweizer Finanzportal, verzeichnete die Aktie im Berichtszeitraum schwankende Kurse und gewann unter anderem am Donnerstagmittag an Fahrt. Zurück zu BKW AG: Belastet wurde die Situation im dritten Quartal 2026 durch eine schwache Produktion beziehungsweise schwierige Produktionsbedingungen, wie Investing.com Canada, ein Finanzportal, berichtet. Dennoch bestätigte das Unternehmen seine Prognose. Als weiteres Risiko gilt laut finanzen.ch, dass der Energiekonzern aus dem MSCI Global Standard Index fällt. Auf der positiven Seite merkt boerse.de, ein deutsches Börsenportal, an, dass die Aktie über der einhundert-Tage-Linie notiert. Yahoo Finance meldet ein von sechs Analysten ermitteltes durchschnittliches Kursziel von einhundertzweiundsiebzig Dollar, wobei das Konsensrating aus eins starken Kauf, zwei Käufen, drei Halten, eins Verkauf und eins starken Verkauf besteht. In den vorliegenden Meldungen wurden keine rechtlichen Probleme gefunden. Wichtige Kennzahlen umfassen neben dem durchschnittlichen Kursziel von einhundertzweiundsiebzig Dollar auch das Höchstziel von zweihundertfünf Dollar sowie das Tiefstziel von einhundertneununddreissig Dollar. Zu Insider-Käufen und -Verkäufen liegen in den Berichten keine Daten vor. Aussagen des Managements wurden in den Meldungen direkt nicht spezifiziert, jedoch wurde die Unternehmensprognose trotz schwieriger Stromproduktion beibehalten. Widersprüche zwischen den Berichten traten nicht auf. Keine Anlageberatung.",
+   "dur": 117.8,
+   "at": "2026-11-12T13:56:15Z"
   },
   "UBSG.SW": {
    "file": "UBSG.SW.mp3",
-   "hash": "c2d5123b5414118b",
-   "th": "5de1a8916f221939",
-   "id": "edf3c80a74",
+   "hash": "2d7b51012d301112",
+   "th": "dc00f553304dc6d5",
+   "id": "2d1b1571f8",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "UBS Group: Laut Bloomberg.com, einem US-Finanznachrichtendienst, erwartet UBS Group als Europas grosster Aktienbulle einen Zuwachs von dreizehn Prozent bis zum Ende des Jahres 2027. Gemass finanzen.ch, einem Schweizer Finanzportal, zeigt sich die Aktie von UBS Group in mehreren Handelssitzungen gestärkt und gefragt. TradingView, eine Chart- und Börsenplattform, meldet zudem eine Kurszielsenkung für die Aktie von UBS Group auf dreiundfünfzig Komma zwei drei Dollar. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Zu den Analysten-Bewertungen: Yahoo Finance, ein Finanzportal, das Meldungen und Analystenbewertungen bündelt, verzeichnet im Konsens sieben Kaufempfehlungen, acht Halten-Empfehlungen, zwei Verkaufsempfehlungen, zwei starke Kaufempfehlungen und eins starke Verkaufsempfehlung. TradingView, eine Chart- und Börsenplattform, berichtet über ein gesenktes Kursziel für die Namensaktien von UBS Group auf dreiundfünfzig Komma zwei drei Dollar, was ein Aufwärtspotenzial von acht Prozent bedeutet. Die Bank hat in Analysen verschiedene Einstufungen vorgenommen, darunter eine Kaufempfehlung für Siemens Energy sowie neutrale Noten für Henkel, Infineon und Brenntag. Was die Firma gerade macht: Bloomberg.com meldet, dass UBS Group als Europas grosster Aktienbulle einen Zuwachs von dreizehn Prozent bis Ende 2027 erwartet, während Yahoo Finance meldet, dass Kelley Hart als Finanzberaterin zu UBS in Westport, Connecticut, gewechselt ist. Zu den wichtigen Kennzahlen wird das Kursziel von dreiundfünfzig Komma zwei drei Dollar sowie das durchschnittliche Kursziel von vierundfünfzig Komma eins vier Dollar genannt. In den vorliegenden Meldungen und bei den Insider-Daten wurden keine Insider-Käufe oder -Verkäufe erwähnt. Bei den Chefs und dem Management liegen keine spezifischen Aussagen vor. Keine Anlageberatung.",
-   "dur": 134.5,
-   "at": "2026-11-12T02:01:04Z"
+   "text": "UBS Group startet mit einem kurzen Überblick in die aktuellen Berichte. Laut Bloomberg.com erwartet UBS einen Zuwachs von dreizehn Prozent bis Ende 2027. Finanzen.ch berichtet über verschiedene Kursbewegungen der Aktie, während Yahoo Finance meldet, dass UBS für die kanadische Wirtschaft eine verstärkte Erholung in den Jahren 2027 bis 2028 erwartet, obwohl arbeits- und handelspolitische Herausforderungen bestehen bleiben. Zu den Risiken und dem rechtlichen Bereich: Finanzen.net berichtet über eine Verkaufsempfehlung der UBS AG für die Aktie von Vodafone Group. In den vorliegenden Meldungen wurden ansonsten keine weiteren Risiken oder rechtlichen Probleme gefunden. Bei den Analystenbewertungen zeigt sich laut Yahoo Finance ein Konsens aus sieben mal Kaufen, acht mal Halten, zwei mal Verkaufen, zwei mal Stark Kaufen und eins mal Stark Verkaufen bei insgesamt siebzehn Analysten, wobei ein durchschnittliches Kursziel von rund vierundfünfzig Dollar und ein erwartetes Aufwärtspotenzial von zehn Prozent genannt werden. Zurück zu UBS Group: Was macht die Firma gerade? Laut CNBC TV18 hat UBS ein Netzteil in seine Key Call-Liste für die Region APAC aufgenommen und sieht ein Aufwärtspotenzial von siebenunddreissig Prozent. Zudem meldet Yahoo Finance den Neuzugang von Kelley Hart als Finanzberaterin in Westport, Connecticut, während Finanzen.net und finanzen.ch zeitweise Kursrückgänge und Verläufe im Minus vermelden. Zu den wichtigsten Kennzahlen gehört ein durchschnittliches Kursziel von rund vierundfünfzig Dollar, ein maximales Kursziel von rund zweiundsiebzig Dollar sowie ein von UBS erwarteter kanadischer Leitzins von drei Komma fünf Prozent bis Ende 2028. Insider-Käufe und -Verkäufe wurden in den vorliegenden Meldungen nicht erwähnt. Was sagen die Chefs? Laut Yahoo Finance teilt das Management mit, dass die Bank of Canada die Zinsen bis Ende 2028 um einhundert Basispunkte anheben könnte. Widersprüche zwischen den Quellen wurden in den Berichten nicht festgestellt.",
+   "dur": 151.1,
+   "at": "2026-11-12T13:56:28Z"
   },
   "MSFT": {
    "file": "MSFT.mp3",
@@ -385,15 +387,15 @@
   },
   "013A.F": {
    "file": "013A.F.mp3",
-   "hash": "dc1d2ef92f59ab13",
-   "th": "92257897babd4ac0",
-   "id": "3bfc39d7b8",
+   "hash": "2796e0cdac2a966a",
+   "th": "e961bc1e98249e9f",
+   "id": "3b3af2ede5",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "JD.com zeigt sich in den aktuellen Marktdaten mit unterschiedlichen Impulsen. Laut The Globe and Mail, einer kanadischen Tageszeitung, hält Morgan Stanley an seinem Verkaufsrating für die Aktie fest. Zudem berichtet das Finanzportal Yahoo Finance, dass das Papier kürzlich gesunken ist, obwohl der breite Markt Gewinne verzeichnete. Auf der anderen Seite meldet Investing.com Canada, dass am Markt gehandelte Optionen auf eine mögliche Kursbewegung von rund fünf Komma sieben Prozent im Zuge des bevorstehenden Ergebnisberichts hindeuten. Bei den Analystenbewertungen gibt es verschiedene Einschätzungen: Barclays bestätigte das Rating Übergewichten und senkte das Kursziel auf achtunddreissig Dollar, B of A Securities bestätigte die Einstufung Kaufen bei einem reduzierten Kursziel von siebenunddreissig Dollar, und Susquehanna behielt das Neutral-Rating bei, während das Kursziel auf dreissig Dollar angepasst wurde. Als aufwertender Faktor wird die vom Markt erwartete Kursbewegung von fünf Komma sieben Prozent um die Quartalszahlen genannt, während der Kursrückgang bei steigendem Gesamtmarkt als abwertender Aspekt auffällt. Wichtige Kennzahlen umfassen eben diese erwartete Kursbewegung von fünf Komma sieben Prozent, welche die anstehende Volatilität rund um den Ergebnisbericht unterstreicht.",
-   "dur": 90.6,
-   "at": "2026-11-12T02:01:13Z"
+   "text": "JD.com steht aktuell im Blickpunkt von Investoren und Analysten. Laut der Mitteilung der Firma selbst hat JD.com das freiwillige öffentliche Übernahmeangebot von CECONOMY abgeschlossen und hält nun eine Beteiligung von neunundfünfzig Komma acht Prozent. Wie das Finanzportal MarketScreener Schweiz berichtet, vill JD.com mit diesem Deal den europäischen Online-Elektronikhandel anführen. Zudem meldet Yahoo Finance, dass JD.com während der Singles'-Day-Aktion mehr als fünfzig Millionen KI-Produkte verkauft hat. Das Finanzportal Investing.com Deutsch ergänzt, dass Optionen auf eine Kursbewegung von fünf Komma sieben Prozent nach den anstehenden Quartalszahlen hindeuten. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden, ausser dass die kanadische Tageszeitung The Globe and Mail berichtet, dass Morgan Stanley bei ihrem Verkaufsrating für JD.com bleibt. Bei den Analysten-Bewertungen zeigt sich ein gemischtes Bild: Laut Yahoo Finance hat Barclays die Einstufung Uebergewichten bestätigt und das Kursziel auf achtunddreissig Dollar gesenkt, nachdem zuvor ein Kursziel von einundvierzig Dollar galt. B of A Securities bestätigte das Rating Kaufen und senkte das Kursziel von achtunddreissig Dollar auf siebenunddreissig Dollar. Susquehanna bestätigte die neutrale Einstufung und reduzierte das Kursziel von fünfunddreissig Dollar auf dreissig Dollar. Zurück zu JD.com: Das Unternehmen treibt seine Expansion voran und schliesst eine grosse Übernahme ab, während gleichzeitig starke Verkaufszahlen im Bereich der KI-Produkte gemeldet wurden. Zu den wichtigen Kennzahlen gehört die Übernahmesumme für CECONOMY in Höhe von rund eintausendvierhundertfünfundachtzig,siebenundvierzig Millionen Dollar für den erworbenen Anteil von neunundfünfzig Komma acht Prozent, was die strategische Ausrichtung des Konzerns unterstreicht. Insider-Käufe oder -Verkäufe wurden in den aktuellen Meldungen nicht verzeichnet, und auch Aussagen des Managements liegen für diesen Berichtszeitraum nicht vor. Widersprüche zwischen den berücksichtigenden Nachrichtenquellen gibt es keine.",
+   "dur": 147.5,
+   "at": "2026-11-12T13:56:40Z"
   },
   "NVDA": {
    "file": "NVDA.mp3",
@@ -409,15 +411,15 @@
   },
   "1211.HK": {
    "file": "1211.HK.mp3",
-   "hash": "55794917c98da016",
-   "th": "e794edd3effedc95",
-   "id": "4a48d56478",
+   "hash": "fa149f0c2b5cb858",
+   "th": "cda31e6bb9fee3c8",
+   "id": "47c271c454",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Die vorliegenden Berichte zeichnen ein gemischtes Bild für BYD. Laut TradingView, einer Chart- und Börsenplattform, stieg der Umsatz um achtundzwanzig Komma zwei Prozent, die bereinigte EBITDA-Marge erhöhte sich auf dreizehn Prozent und die Einsparungen liegen weiterhin im Plan. Gleichzeitig meldet marketscreener.com, ein Finanzportal, dass einige Tang-SUVs mit falschen Felgen ausgestattet wurden. Zudem geriet die Aktie laut boerse.de, einem deutschen Börsenportal, unter die zwanzig-Tage-Linie und zeigte Kursabschläge. Bei den Analystenbewertungen zeigt sich eine überwiegend positive Haltung. Laut Yahoo Finance, einem Finanzportal, das Meldungen und Analystenbewertungen bündelt, gibt es insgesamt achtundzwanzig Kaufempfehlungen und vier Halteempfehlungen, während keine Verkaufsempfehlungen vorliegen. Das durchschnittliche Kursziel liegt bei dreizehn Komma fünf sechs Dollar, mit einem Höchstwert von siebzehn Komma eins neun Dollar und einem Tiefstwert von sieben Komma sechs vier Dollar. Laut The Globe and Mail, einer kanadischen Tageszeitung, hat zudem CLSA eine Kaufempfehlung ausgesprochen. Was die operative Entwicklung betrifft, punktet das Unternehmen mit einem Umsatzplus von achtundzwanzig Komma zwei Prozent und einer bereinigten EBITDA-Marge von dreizehn Prozent laut TradingView, während die fehlerhaften Felgen bei einigen Tang-SUVs einen negativen Punkt darstellen. Zu den wichtigen Kennzahlen gehört das Umsatzwachstum von achtundzwanzig Komma zwei Prozent, welches das prozentuale Wachstum des Umsatzes im Vergleich zur Vorperiode misst und wichtig für die Beurteilung der Geschäftsausweitung ist. Die bereinigte EBITDA-Marge liegt bei dreizehn Prozent und misst die operative Rentabilität vor Zinsen, Steuern und Abschreibungen im Verhältnis zum Umsatz.",
-   "dur": 123.5,
-   "at": "2026-11-12T02:01:23Z"
+   "text": "BYD steht aktuell im Fokus verschiedener Medien und Analystenberichte. Die kanadische Tageszeitung The Globe and Mail berichtet, dass BYD eine Kaufempfehlung von CLSA erhaelt. Das Schweizer Finanzportal finanzen.ch meldet, dass chinesische Hersteller wie BYD die IAA erobern. Die Chart- und Boersenplattform TradingView teilt mit, dass der Gewinn von BYD um achtundzwanzig Prozent gestiegen ist und die Umsaetze um achtundzwanzig Komma zwei Prozent zulegten, waehrend die bereinigte EBITDA-Marge bei dreizehn Prozent liegt. Zu den beobachteten Entwicklungen gehoert, dass finanzen.ch am Mittwochnachmittag Abschlaege bei der Aktie verzeichnete. Marketscreener berichtet, dass einige Tang-SUVs mit falschen Felgen ausgestattet waren. Laut boerse.de geriet die BYD-Aktie unter die zwanzig-Tage-Linie und die achtunddreissig-Tage-Linie, und Wallstreet Online meldet Verluste im ueberwiegend schwachen Autosektor. Bei den Analystenbewertungen nennt Seeking Alpha ein Rating-Upgrade, und CLSA stuft die Aktie laut The Globe and Mail ebenfalls mit einem Kauf ein. Yahoo Finance buendelt den Konsens mit sechs starken Kaufempfehlungen, zweiundzwanzig Kaufempfehlungen und vier Halteempfehlungen. BYD profitiert laut Inv3st von der Elektrifizierungswelle bei der COP31 und verzeichnet laut Seeking Alpha starke weltweite Autoverkaeufe, waehrend Marketscreener die erwaehnten Probleme mit falschen Felgen bei einigen Tang-SUVs auffuehrt. Wichtige Kennzahlen unterstreichen mit dem Gewinnanstieg um achtundzwanzig Prozent sowie dem Umsatzzuwachs um achtundzwanzig Komma zwei Prozent die operative Entwicklung.",
+   "dur": 119.1,
+   "at": "2026-11-12T13:56:50Z"
   },
   "SHL.DE": {
    "file": "SHL.DE.mp3",
@@ -517,9 +519,9 @@
   }
  },
  "status": "ok",
- "checked_at": "2026-11-12T12:54:56Z",
+ "checked_at": "2026-11-12T13:56:50Z",
  "quota_until": 1794355051.3461266,
- "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@f09bbaee538c6e1202ce1b58952c32c1b3cbc593/data/audio/",
+ "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@f3bb5ed035205a413b6e0aedde7d0325f433d599/data/audio/",
  "extra": {
   "intro": {
    "file": "_intro.mp3",
