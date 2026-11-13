@@ -1,6 +1,200 @@
 {
 "episodes": [
 {
+"id": "2026-11-13-t",
+"kind": "tag",
+"date": "2026-11-13",
+"title": "Morgen-Sendung, Freitag, dreizehnten November",
+"generated_at": "2026-11-13T12:29:52Z",
+"writer": "Gemini (Gratis-Kontingent) 8 Firmen, Rest Vorlage",
+"chapters": [
+{
+"name": "Begrüssung",
+"say": "Guten Morgen und willkommen zur Sendung vom Aktien-Radar, heute Freitag, dreizehnten November. Zuerst ein kurzer Blick auf den Markt, dann die Firmen aus deiner Liste mit neuen Meldungen zu Produkten, Partnern und Projekten, danach die Quartalszahlen dieser Woche und zum Schluss ein Begriff zum Lernen. Kurz vorweg: Alles stammt aus gesammelten Daten und Schlagzeilen, Beträge nenne ich in Dollar. Das ist keine Anlageberatung.",
+"audio": {
+"file": "sendung/2026-11-13-t_00.mp3",
+"hash": "7718db85b65cea2b",
+"dur": 29.9
+}
+},
+{
+"name": "Markt kurz",
+"say": "Der Markt kurz. Der S und P fünfhundert, der Index der fünfhundert grossen US-Firmen, stand zuletzt bei minus null Komma vier Prozent gegenüber dem Vortag. In deiner Liste am stärksten: Broadcom mit plus fünf Komma fünf Prozent, GE Vernova mit plus eins Komma drei Prozent, BKW mit plus eins Prozent. Am schwächsten: SoftBank mit minus fünf Komma sechs Prozent, Oklo mit minus fünf Komma fünf Prozent. Zum Thema Zölle meldet The Globe and Mail: Die Amerikaner haben gesprochen, und Trumps Handelskrieg gegen Kanada könnte Geschichte sein. Zum Thema Exportkontrollen meldet CNBC: Der Nvidia-Skandal lockt Handelsminister Lutnick an, der sich Berichten zufolge bereit erklärt, über Chipverkäufe in China auszusagen.",
+"audio": {
+"file": "sendung/2026-11-13-t_01.mp3",
+"hash": "aa99ed731ee9a2a0",
+"dur": 55.5
+}
+},
+{
+"name": "Nvidia",
+"sym": "NVDA",
+"say": "Zur Aktie Nvidia. Anleger wägen aktuell den Abgang von CEO Jensen Huang ab. Dennoch verzeichnete Nvidia Rekordkäufe zur Eröffnungsstunde, da Investoren den Rückgang kaufen. Die Nvidia Aktie bewegte sich nach den Nachrichten kaum. Nvidia bewältigt damit die Nachfolgefrage. Ob das Nvidia stärkt oder schwächt, ist aus den Meldungen noch unklar. Das war Nvidia.",
+"audio": {
+"file": "sendung/2026-11-13-t_02.mp3",
+"hash": "7177c9879fc5a31c",
+"dur": 29.5
+}
+},
+{
+"name": "Microsoft",
+"sym": "MSFT",
+"say": "Zur Aktie Microsoft. Das Unternehmen arbeitet mit einem neuen KI-Modell daran, dass Schotter den Klimawandel bekämpfen könnte. Zudem gibt es eine neue Partnerschaft mit Cerebras, um über OpenAI hinaus zu diversifizieren. Microsoft kooperiert ausserdem mit FPT, welche als Gewinner des Microsoft Malaysia Partner of the Year 2026 ausgezeichnet wurden. Meine Einordnung aus diesen Meldungen: Sie könnten Microsoft eher stärken. Das war Microsoft.",
+"audio": {
+"file": "sendung/2026-11-13-t_03.mp3",
+"hash": "2e23f5cb0858dfe8",
+"dur": 36.5
+}
+},
+{
+"name": "Applied Materials",
+"sym": "AMAT",
+"say": "Zur Aktie Applied Materials. Das Unternehmen prognostiziert aufgrund der starken Nachfrage nach KI-Chips einen über den Schätzungen liegenden Quartalsumsatz. Applied Materials übertraf zudem die Ziele für das vierte Quartal des Geschäftsjahres aufgrund starker Chip-Gear-Verkäufe. Applied Materials plant ausserdem, die Produktion bis 2028 zu verdoppeln. Meine Einordnung aus diesen Meldungen: Sie könnten Applied Materials eher stärken. Das war Applied Materials.",
+"audio": {
+"file": "sendung/2026-11-13-t_04.mp3",
+"hash": "b2a6c6516744c816",
+"dur": 37.5
+}
+},
+{
+"name": "Broadcom",
+"sym": "AVGO",
+"say": "Zur Aktie Broadcom. Die Broadcom Aktien steigen, da kundenspezifische KI-Chips nach einer Nvidia Umstellung an Attraktivität gewinnen. Broadcom erhält nach dem Ausscheiden eines rivalisierenden CEO eine neue KI-Eröffnung. Analyst Tom Lee sieht die Broadcom Aktien an der Spitze einer Chip-Rallye. Meine Einordnung aus diesen Meldungen: Sie könnten Broadcom eher stärken. Das war Broadcom.",
+"audio": {
+"file": "sendung/2026-11-13-t_05.mp3",
+"hash": "6504cdb2b331ac9d",
+"dur": 29.7
+}
+},
+{
+"name": "Rolls-Royce",
+"sym": "RYCEY",
+"say": "Zur Aktie Rolls-Royce. Die Neunmonatsbestellungen für Rolls-Royce sind gestiegen und das Unternehmen bestätigt die Prognose für das Geschäftsjahr sechsundzwanzig. Rolls-Royce startet zudem ein beschleunigtes Aktienrückkaufprogramm im Wert von bis zu rund zwei Milliarden Dollar. Die Triebwerksbestellungen bei Rolls-Royce sind stark angestiegen. Meine Einordnung aus diesen Meldungen: Sie könnten Rolls-Royce eher stärken. Das war Rolls-Royce.",
+"audio": {
+"file": "sendung/2026-11-13-t_06.mp3",
+"hash": "e9878b9a8ad6fa69",
+"dur": 32.5
+}
+},
+{
+"name": "Intel",
+"sym": "INTC",
+"say": "Zur Aktie Intel. Intel und RadixArk arbeiten zusammen, um offene KI-Inferenz auf Intel Plattformen voranzutreiben. Intel trat zudem dem SGLang-Konsortium von LMSYS Org bei, um Open-Source-KI-Inferenz voranzutreiben. Intel verzeichnete im Handel Kursrückgänge, während der CEO-Abgang eines Konkurrenten für Unruhe sorgte. Ob das Intel stärkt oder schwächt, ist aus den Meldungen noch unklar. Das war Intel.",
+"audio": {
+"file": "sendung/2026-11-13-t_07.mp3",
+"hash": "2d6bd6066fffb1f1",
+"dur": 34.3
+}
+},
+{
+"name": "Meta",
+"sym": "META",
+"say": "Zur Aktie Meta gibt es neue Meldungen. Die neuen Vereinbarungen von Meta bringen saubere Fertigung in die Lieferketten von Rechenzentren. Meta schloss sich zudem dem SGLang-Konsortium an, um Open-Source-KI-Inferenz voranzutreiben. Diskutiert wird im Markt ausserdem ein ausserbilanzieller KI-Deal von Meta im Wert von siebenundzwanzig Milliarden Dollar. Diese Entwicklungen sind für die Aktie von Bedeutung, da sie die strategische Ausrichtung und die Partnerschaften des Unternehmens betreffen. Das war Meta.",
+"audio": {
+"file": "sendung/2026-11-13-t_08.mp3",
+"hash": "0315dbdd2c7db5b6",
+"dur": 37.1
+}
+},
+{
+"name": "Siemens Energy",
+"sym": "SMEGF",
+"say": "Zur Aktie von Siemens Energy gibt es ebenfalls Neuigkeiten. Die Siemens Energy Aktie kann Rekordzahlen vorweisen und zahlt eine Dividende. Ausserdem gibt es bei Siemens Energy einen neuen Namen. Der Handelsstart zeigte sich mit einem leichten Plus. Solche Nachrichten können für die Einschätzung der wirtschaftlichen Verfassung des Unternehmens wichtig sein. Das war Siemens Energy.",
+"audio": {
+"file": "sendung/2026-11-13-t_09.mp3",
+"hash": "0334750d439fa7b5",
+"dur": 27.8
+}
+},
+{
+"name": "Quartalszahlen diese Woche",
+"say": "Kommen wir zu den Quartalszahlen dieser Woche. In diesem Zeitraum sind für deine Aktien keine Quartalszahlen angekündigt.",
+"audio": {
+"file": "sendung/2026-11-13-t_10.mp3",
+"hash": "bbc2dd8fc222fb2b",
+"dur": 9.4
+}
+},
+{
+"name": "Begriff: Volatilität",
+"say": "Zum Lernen, der Begriff des Tages: Volatilität. Volatilität beschreibt, wie stark ein Kurs schwankt. Eine volatile Aktie kann an einem Tag zehn Prozent steigen oder fallen. Mehr Schwankung heisst mehr Chance, aber auch mehr Risiko.",
+"audio": {
+"file": "sendung/2026-11-13-t_11.mp3",
+"hash": "0bd2337a80eb5ce4",
+"dur": 19.2
+}
+},
+{
+"name": "Schluss",
+"say": "Das war die Sendung vom Aktien-Radar. Die Quellen findest du in der App bei jeder Aktie, den ganzen Text über den Knopf Als Text. Bis morgen.",
+"audio": {
+"file": "sendung/2026-11-13-t_12.mp3",
+"hash": "cc4bc23e3e69d9dd",
+"dur": 11.5
+}
+}
+],
+"dur": 390.4,
+"full": {
+"file": "sendung/2026-11-13-t_full.mp3",
+"dur": 390.3,
+"marks": [
+[
+0,
+0.0
+],
+[
+1,
+29.9
+],
+[
+2,
+85.4
+],
+[
+3,
+114.9
+],
+[
+4,
+151.4
+],
+[
+5,
+188.9
+],
+[
+6,
+218.6
+],
+[
+7,
+251.1
+],
+[
+8,
+285.4
+],
+[
+9,
+322.5
+],
+[
+10,
+350.3
+],
+[
+11,
+359.7
+],
+[
+12,
+378.9
+]
+]
+}
+},
+{
 "id": "2026-11-12-t",
 "kind": "tag",
 "date": "2026-11-12",
@@ -2551,176 +2745,10 @@
 ]
 ]
 }
-},
-{
-"id": "2026-10-28-t",
-"kind": "tag",
-"date": "2026-10-28",
-"title": "Morgen-Sendung, Mittwoch, achtundzwanzigsten Oktober",
-"generated_at": "2026-10-28T21:48:17Z",
-"writer": "Gemini (Gratis-Kontingent) 6 Firmen, Rest Vorlage",
-"chapters": [
-{
-"name": "Begrüssung",
-"say": "Guten Morgen und willkommen zur Sendung vom Aktien-Radar, heute Mittwoch, achtundzwanzigsten Oktober. Zuerst ein kurzer Blick auf den Markt, dann die Firmen aus deiner Liste mit neuen Meldungen zu Produkten, Partnern und Projekten, danach die Quartalszahlen dieser Woche und zum Schluss ein Begriff zum Lernen. Kurz vorweg: Alles stammt aus gesammelten Daten und Schlagzeilen, Beträge nenne ich in Dollar. Das ist keine Anlageberatung.",
-"audio": {
-"file": "sendung/2026-10-28-t_00.mp3",
-"hash": "edc0016057d8e909",
-"dur": 30.0
-}
-},
-{
-"name": "Markt kurz",
-"say": "Der Markt kurz. Der S und P fünfhundert, der Index der fünfhundert grossen US-Firmen, stand zuletzt bei plus null Komma drei Prozent gegenüber dem Vortag. In deiner Liste am stärksten: SK Hynix mit plus zehn Komma sieben Prozent, Samsung Electronics mit plus neun Prozent, Micron mit plus fünf Komma neun Prozent. Am schwächsten: Robinhood mit minus drei Komma drei Prozent, ServiceNow mit minus drei Prozent. Zum Thema Zinsen meldet Handelsblatt: Dow Jones, S&P fünfhundert, Nasdaq: US-Börsen schliessen leicht im Plus – Anleger halten sich zurück. Zum Thema Zinsen meldet Reuters: Die Wall Street endet im Plus, da die Fed den Leitzins stabil hält und der Fokus auf den Gewinnen liegt.",
-"audio": {
-"file": "sendung/2026-10-28-t_01.mp3",
-"hash": "6f9a2b36041c2976",
-"dur": 53.8
-}
-},
-{
-"name": "SK Hynix",
-"sym": "HY9H.MU",
-"say": "Zur Aktie SK Hynix. Der Speicherchip-Hersteller SK Hynix hat im dritten Quartal seine Ziele übertroffen und einen Rekordgewinn verzeichnet. Ausserdem lieferte SK Hynix grossartige Neuigkeiten für Micron-Investoren. Die Gewinne von SK Hynix steigen angesichts der stark steigenden Nachfrage nach KI-Chips. Meine Einordnung aus diesen Meldungen: Sie könnten SK Hynix eher stärken. Das war SK Hynix.",
-"audio": {
-"file": "sendung/2026-10-28-t_02.mp3",
-"hash": "e48a2c8dbbe50660",
-"dur": 32.7
-}
-},
-{
-"name": "Microsoft",
-"sym": "MSFT",
-"say": "Zur Aktie Microsoft. Der Technologiekonzern Microsoft ist stark ins neue Geschäftsjahr gestartet. Die entsprechenden Ergebnisse von Microsoft stehen auf der Investor-Relations-Website zur Verfügung. Zudem stand Microsoft im Fokus von Berichten über KI-Investoren gemeinsam mit Meta und Google. Meine Einordnung aus diesen Meldungen: Sie könnten Microsoft eher stärken. Das war Microsoft.",
-"audio": {
-"file": "sendung/2026-10-28-t_03.mp3",
-"hash": "771891a9aa4259c1",
-"dur": 30.8
-}
-},
-{
-"name": "Robinhood",
-"sym": "HOOD",
-"say": "Zur Aktie Robinhood. Robinhood wird sich laut Analysen auf Prognosemärkten und neuen Angeboten erholen. Die neue Kette von Robinhood steigert die Krypto-Einnahmen trotz fehlendem Gewinn im dritten Quartal. Zusätzlich hat Ripple den Deal mit Robinhood auf RLUSD, Prime Brokerage und Treasury Services erweitert. Meine Einordnung aus diesen Meldungen: Sie könnten Robinhood eher stärken. Das war Robinhood.",
-"audio": {
-"file": "sendung/2026-10-28-t_04.mp3",
-"hash": "7401d2f8c8f68685",
-"dur": 31.6
-}
-},
-{
-"name": "UBS",
-"sym": "UBSG.SW",
-"say": "Zur Aktie UBS. Die UBS hat ein Rekord-Investment-Bank-Quartal im dritten Quartal verzeichnet. Dennoch waren UBS-Investoren nach den Drittquartalszahlen auf dem Rückzug. Die UBS veröffentlichte ausserdem eine Analyse mit einer Buy-Note für die Deutsche Bank-Aktie und bewertet Welltower mit einem Kaufrating. Meine Einordnung aus diesen Meldungen: Sie könnten UBS eher stärken. Das war UBS.",
-"audio": {
-"file": "sendung/2026-10-28-t_05.mp3",
-"hash": "e1c2a980e79171b5",
-"dur": 31.1
-}
-},
-{
-"name": "Meta",
-"sym": "META",
-"say": "Zur Aktie Meta. Mark Zuckerbergs Meta-Plattformen meldeten das erste Mal seit 2012 einen negativen freien Cashflow. Meta arbeitet mit fünf US-Universitäten zusammen, um medizinische und wissenschaftliche Durchbrüche zu beschleunigen. Zusätzlich enthüllte Meta den Investoren seine Hardware-Strategie. Meine Einordnung aus diesen Meldungen: Sie könnten Meta eher stärken. Das war Meta.",
-"audio": {
-"file": "sendung/2026-10-28-t_06.mp3",
-"hash": "f3b8bcc53ba5764f",
-"dur": 31.7
-}
-},
-{
-"name": "GE Vernova",
-"sym": "GEV",
-"say": "Zur Aktie GE Vernova. GE Vernova treibt den Netzausbau mit einem neun-Milliarden-Dollar-Trench-Deal und der Übernahme der Trench Group voran, womit GE Vernova auch die Umsatzprognose anhebt. Die Bestellungen von GE Vernova zeigen, dass die Nachfrage nach KI-Energie weiterhin hoch ist. Zwar wurden laut Berichten neue Bestellungen verpasst, aber die Übernahme und die Prognoseanhebung stützen das Geschäft. Meine Einordnung aus diesen Meldungen: Sie könnten GE Vernova eher stärken. Das war GE Vernova.",
-"audio": {
-"file": "sendung/2026-10-28-t_07.mp3",
-"hash": "92811f84e44adca4",
-"dur": 38.0
-}
-},
-{
-"name": "Quartalszahlen diese Woche",
-"say": "Quartalszahlen diese Woche. Diese Firmen aus deiner Liste melden ihre Quartalszahlen. Zur Aktie Samsung Electronics: Zahlen Mittwoch, am achtundzwanzigsten Oktober. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von zehn Dollar und dreiundzwanzig Cent. Beim Umsatz erwarten sie rund einhundertsechsundvierzig Komma zwei Milliarden Dollar. Zur Aktie UBS: Zahlen Mittwoch, am achtundzwanzigsten Oktober. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von null Dollar und neunundachtzig Cent. Beim Umsatz erwarten sie rund dreizehn Milliarden Dollar. Zur Aktie GE Vernova: Zahlen Mittwoch, am achtundzwanzigsten Oktober. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von sechs Dollar und vierundfünfzig Cent. Beim Umsatz erwarten sie rund vierzehn Milliarden Dollar. Zur Aktie Microsoft: Zahlen Mittwoch, am achtundzwanzigsten Oktober. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von vier Dollar und zweiundsiebzig Cent. Beim Umsatz erwarten sie rund neunzig Komma sieben Milliarden Dollar. Zur Aktie ServiceNow: Zahlen Mittwoch, am achtundzwanzigsten Oktober. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von ein Dollar und zwei Cent. Beim Umsatz erwarten sie rund vier Komma eins Milliarden Dollar. Zur Aktie BYD: Zahlen Donnerstag, am neunundzwanzigsten Oktober. Beim Umsatz erwarten sie rund vierunddreissig Komma sechs Milliarden Dollar. Zur Aktie Amazon: Zahlen Donnerstag, am neunundzwanzigsten Oktober. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von ein Dollar und neunundneunzig Cent. Beim Umsatz erwarten sie rund zweihundertzwei Komma zwei Milliarden Dollar. Zur Aktie Intel: Zahlen Donnerstag, am neunundzwanzigsten Oktober. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von null Dollar und vierzig Cent. Beim Umsatz erwarten sie rund sechzehn Komma fünf Milliarden Dollar.",
-"audio": {
-"file": "sendung/2026-10-28-t_08.mp3",
-"hash": "04fd2856bdc90691",
-"dur": 142.0
-}
-},
-{
-"name": "Begriff: Hochstufung und Abstufung",
-"say": "Zum Lernen, der Begriff des Tages: Hochstufung und Abstufung. Wenn eine Bank ihre Empfehlung verbessert, zum Beispiel von Halten auf Kaufen, heisst das Hochstufung. Das Gegenteil ist eine Abstufung. Solche Änderungen bewegen den Kurs oft am gleichen Tag.",
-"audio": {
-"file": "sendung/2026-10-28-t_09.mp3",
-"hash": "3e37cea3e5f0347e",
-"dur": 19.2
-}
-},
-{
-"name": "Schluss",
-"say": "Das war die Sendung vom Aktien-Radar. Die Quellen findest du in der App bei jeder Aktie, den ganzen Text über den Knopf Als Text. Bis morgen.",
-"audio": {
-"file": "sendung/2026-10-28-t_10.mp3",
-"hash": "cc4bc23e3e69d9dd",
-"dur": 11.5
-}
 }
 ],
-"dur": 452.4,
-"full": {
-"file": "sendung/2026-10-28-t_full.mp3",
-"dur": 452.3,
-"marks": [
-[
-0,
-0.0
-],
-[
-1,
-30.0
-],
-[
-2,
-83.8
-],
-[
-3,
-116.5
-],
-[
-4,
-147.3
-],
-[
-5,
-178.9
-],
-[
-6,
-210.0
-],
-[
-7,
-241.7
-],
-[
-8,
-279.7
-],
-[
-9,
-421.7
-],
-[
-10,
-440.9
-]
-]
-}
-}
-],
-"generated_at": "2026-11-12T13:04:45Z",
+"generated_at": "2026-11-13T12:29:52Z",
 "voice": "de-CH-LeniNeural",
 "source": "Yahoo Finance, SEC EDGAR, Schlagzeilen (Google News u.a.); Text: Gemini Gratis-Kontingent oder Vorlage",
-"audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@01c366683cfe2711bdbfd87854a66a6a90d17c57/data/audio/"
+"audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@fc1c816f070c07d4a611bbb3db9e2dd7a2a177fb/data/audio/"
 }
