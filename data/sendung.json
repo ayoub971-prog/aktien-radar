@@ -1,6 +1,215 @@
 {
 "episodes": [
 {
+"id": "2026-11-14-w",
+"kind": "woche",
+"date": "2026-11-14",
+"title": "Wochenrückblick, Samstag, vierzehnten November",
+"generated_at": "2026-11-14T07:53:41Z",
+"writer": "Gemini (Gratis-Kontingent) 9 Firmen, Rest Vorlage",
+"chapters": [
+{
+"name": "Begrüssung",
+"say": "Willkommen zum Wochenrückblick vom Aktien-Radar, heute Samstag, vierzehnten November. Wir gehen deine Aktien einzeln durch: Kurs der Woche in Dollar, neue Bewertungen von Banken und die wichtigsten Firmen-Meldungen. Danach der Kalender der Quartalszahlen für nächste Woche und ein Begriff zum Lernen. Kurz vorweg: Alles stammt aus gesammelten Daten und Schlagzeilen, Beträge nenne ich in Dollar. Das ist keine Anlageberatung.",
+"audio": {
+"file": "sendung/2026-11-14-w_00.mp3",
+"hash": "7194bb0fc45edb34",
+"dur": 30.6
+}
+},
+{
+"name": "Nvidia",
+"sym": "NVDA",
+"say": "Zur Aktie Nvidia. Nvidia bereitet sich auf den ersten Bericht des KI-Chipherstellers ohne Jensen Huang vor, da Jensen Huang gerade von Nvidia zurückgetreten ist. Der Rücktritt von Jensen Huang beschäftigt die Anleger und wirft Fragen über die Zukunft von Nvidia auf. Zudem steht eine enge Verbindung zwischen Nvidia und einer Firma von Lutnicks Söhnen im Fokus von Fragen zu einem Spionageskandal. Die Nvidia-Aktie steigt nur wenige Zentimeter, da die Anleger weiterhin den Abgang von Jensen Huang abwägen. Dies könnte schwächen, da der unvorhergesehene Abgang des Chefs und Fragen to Skandalen Unsicherheit bringen. Der Kurs von Nvidia veränderte sich in den letzten fünf Handelstagen um minus zwei Komma null Prozent auf einhundertzweiundsechzig Dollar und fünfundachtzig Cent. Das war Nvidia.",
+"audio": {
+"file": "sendung/2026-11-14-w_01.mp3",
+"hash": "5fb6713eee533f1b",
+"dur": 56.8
+}
+},
+{
+"name": "Microsoft",
+"sym": "MSFT",
+"say": "Zur Aktie Microsoft. Ein neuer Ausfall des Microsoft-Dienstes hat dem Software-Riesen Microsoft ein blaues Auge verpasst. Ausserdem gibt es eine neue Microsoft-Partnerschaft mit Cerebras und eine fünfjährige strategische Partnerschaft zwischen der Ohio State University und Microsoft. Diese Partnerschaft soll Innovationen in den Bereichen klinische Versorgung, Bildung und Forschung beschleunigen. Microsoft muss sich zusätzlich neuer Konkurrenz durch Anthropic bei Bürosoftware stellen. Dies könnte stärken, da neue Partnerschaften und Innovationen die Geschäfte antreiben, auch wenn Dienstausfälle stören. Der Kurs von Microsoft veränderte sich in den letzten fünf Handelstagen um plus null Komma zwei Prozent auf fünfhundertdreiundzwanzig Dollar und achtundachtzig Cent. Diese Woche gab es zu Microsoft keine neuen Bewertungen von Banken in den Daten. Das war Microsoft.",
+"audio": {
+"file": "sendung/2026-11-14-w_02.mp3",
+"hash": "8decb8242248532f",
+"dur": 63.5
+}
+},
+{
+"name": "Applied Materials",
+"sym": "AMAT",
+"say": "Zur Aktie Applied Materials. Applied Materials übertraf die Ziele für das vierte Quartal des Geschäftsjahres aufgrund starker Chip-Gear-Verkäufe. Ausserdem prognostiziert Applied Materials aufgrund der starken Nachfrage nach KI-Chips einen über den Schätzungen liegenden Quartalsumsatz. Die Aktie von Applied Materials rutscht zwar nach Rekordergebnissen im vierten Quartal ab, wird aber durch die starke Nachfrage nach Speicherchips und Advanced Packaging unterstützt. Dies könnte stärken, da Rekordergebnisse und starke Nachfrage nach Chips wichtige Geschäftstreiber sind. Der Kurs von Applied Materials veränderte sich in den letzten fünf Handelstagen um minus zwei Komma sieben Prozent auf dreihundertsiebzig Dollar und fünfzig Cent. Das war Applied Materials.",
+"audio": {
+"file": "sendung/2026-11-14-w_03.mp3",
+"hash": "f0bb3b177ac48369",
+"dur": 56.0
+}
+},
+{
+"name": "Broadcom",
+"sym": "AVGO",
+"say": "Zur Aktie Broadcom. Broadcom trägt zum VM API Open Source-Projekt zur Cloud Native Computing Foundation bei. Anthropic liefert grossartige Neuigkeiten für Investoren von Broadcom, während Anleger auf Broadcom reagieren können, wenn Nvidia-Konkurrenten an Aufmerksamkeit gewinnen. Aktien von Broadcom und anderen stehen möglicherweise vor neuen US-Prüfungen. Zudem wurde Broadcom von Redburn aufgrund begrenzten Neubewertungspotenzials auf Neutral herabgestuft. Dies könnte unklar sein, da positive Open Source-Beiträge und KI-Themen auf Gegenwind durch Herabstufungen und Prüfungen treffen. Der Kurs von Broadcom veränderte sich in den letzten fünf Handelstagen um minus vier Komma acht Prozent auf dreihundertsiebenundvierzig Dollar und ein Cent. Das war Broadcom.",
+"audio": {
+"file": "sendung/2026-11-14-w_04.mp3",
+"hash": "3fc375a180ae713c",
+"dur": 58.6
+}
+},
+{
+"name": "Meta",
+"sym": "META",
+"say": "Zur Aktie Meta. Die neuen Vereinbarungen von Meta bringen saubere Fertigung in die Lieferketten von Rechenzentren. Meta testet zudem eine Prognosemarkt-App für Mitarbeiter, und die Aktie von Meta Platforms verzeichnet Kursbewegungen. Form Energy holt die Meta-Veteranen Lori Goler und Jon McNeill in den Vorstand, während Oklo und Centrus die Kraftstoffversorgung für das Aurora-Kraftwerk in Ohio sichern. Dies könnte stärken, da saubere Energievereinbarungen für Rechenzentren und neue Mitarbeiter wichtige Impulse für Meta liefern. Der Kurs von Meta veränderte sich in den letzten fünf Handelstagen um plus zwei Komma neun Prozent auf sechshunderteinundvierzig Dollar und neunundsechzig Cent. Diese Woche gab es zu Meta keine neuen Bewertungen von Banken in den Daten. Das war Meta.",
+"audio": {
+"file": "sendung/2026-11-14-w_05.mp3",
+"hash": "05979f49feee9ed8",
+"dur": 58.2
+}
+},
+{
+"name": "Intel",
+"sym": "INTC",
+"say": "Zur Aktie Intel. Intel und RadixArk arbeiten zusammen, um offene KI-Inferenz auf Intel-Plattformen voranzutreiben. Intel steigt auf einer breiteren Chip-Rallye, da die Nachfrage nach KI-Infrastruktur die Halbleiteraktien ankurbelt. Die Warnung des Intel-CEOs bietet zudem ein Signal fuer Investoren im Jahr 2027. Gleichzeitig machen moegliche Branchenentwicklungen wie der Ausstieg von Chef Huang Chip-Aktien nervoes, wovon auch Intel betroffen ist. Dies koennte staerken, da neue Kooperationen bei offener KI und die Nachfrage nach KI-Infrastruktur Intel unterstuetzen. Der Kurs von Intel veränderte sich in den letzten fünf Handelstagen um minus zwei Komma fünf Prozent auf neunundfünfzig Dollar und sechsundsechzig Cent. Meine Einordnung aus diesen Meldungen: Sie könnten Intel eher stärken. Das war Intel.",
+"audio": {
+"file": "sendung/2026-11-14-w_06.mp3",
+"hash": "9aedb3112b3a7459",
+"dur": 62.2
+}
+},
+{
+"name": "Siemens Energy",
+"sym": "SMEGF",
+"say": "Zur Aktie Siemens Energy. Siemens Energy meldet ein Rekordjahr und strebt bis 2030 eine Marge von zwanzig bis zweiundzwanzig Prozent an. Die Siemens Energy AG verzeichnete im vierten Quartal Rekordergebnisse. Dies fuehrte zu einem Kursfeuerwerk bei Siemens Energy und der Feier von Deutschlands neuem Energie-Giganten. Siemens Energy rutscht zwar im Geschaeftsjahr 2026 bei einigen Metriken ab, bleibt aber auf Kurs. Dies koennte staerken, da Rekordergebnisse und ambitionierte Margenziele die Finanzkraft von Siemens Energy untermauern. Der Kurs von Siemens Energy veränderte sich in den letzten fünf Handelstagen um minus zwei Komma Kult Prozent auf einhundertsiebenundvierzig Dollar und fünfundsechzig Cent. Diese Woche gab es zu Siemens Energy keine neuen Bewertungen von Banken in den Daten. Meine Einordnung aus diesen Meldungen: Sie könnten Siemens Energy eher stärken. Das war Siemens Energy.",
+"audio": {
+"file": "sendung/2026-11-14-w_07.mp3",
+"hash": "a92754c5b5767a19",
+"dur": 68.3
+}
+},
+{
+"name": "Taiwan Semiconductor",
+"sym": "TSM",
+"say": "Zur Aktie Taiwan Semiconductor. Der Kurs von Taiwan Semiconductor veränderte sich in den letzten fünf Handelstagen um minus eins Komma sieben Prozent auf dreihundertachtundneunzig Dollar und dreiundsiebzig Cent. Diese Woche gab es zu Taiwan Semiconductor keine neuen Bewertungen von Banken in den Daten. Yahoo Finance meldet am dreizehnten November: TSMC steht vor grossen Sicherheitsrisiken, da Hacker Bitcoin fordern. Seeking Alpha meldet am dreizehnten November: TSMC: Anleger sind vor möglichen Schocks gut geschützt. Yahoo Finance meldet am elften November: Lohnt es sich angesichts der bullischen Ansichten der Wall Street, in TSMC (TSM) zu investieren?. Ob diese Meldungen Taiwan Semiconductor stärken oder schwächen, lässt sich aus den Schlagzeilen allein nicht sicher sagen. Das war Taiwan Semiconductor.",
+"audio": {
+"file": "sendung/2026-11-14-w_08.mp3",
+"hash": "2253cc6e827ba064",
+"dur": 62.8
+}
+},
+{
+"name": "Samsung Electronics",
+"sym": "005930.KS",
+"say": "Zur Aktie Samsung Electronics. Samsung strebt die Uebernahme des Rechenzentrumslieferanten Modine an, wobei Samsung ueber die Uebernahme des Rechenzentrumskühlungsunternehmens Modine verhandelt. Modine ist ein Anbieter von Rechenzentrumskuehlung, dessen Aktienkurs nach den Samsung-Gespraechen stark anstieg. Modine ist als Lieferant wichtig, weil Samsung seine Praesenz im Bereich Rechenzentren und Kuehlung ausbauen moechte. Dies koennte staerken, da eine solche strategische Uebernahme Samsung im wichtigen Rechenzentrumsmarkt staerken kann. Der Kurs von Samsung Electronics veränderte sich in den letzten fünf Handelstagen um minus ein Komma null Prozent auf einhundertvierundfünfzig Dollar und sechs Cent. Diese Woche gab es zu Samsung Electronics keine neuen Bewertungen von Banken in den Daten. Meine Einordnung aus diesen Meldungen: Sie könnten Samsung Electronics eher stärken. Das war Samsung Electronics.",
+"audio": {
+"file": "sendung/2026-11-14-w_09.mp3",
+"hash": "4f0b17e8f48e8488",
+"dur": 64.9
+}
+},
+{
+"name": "Berkshire Hathaway",
+"sym": "BRK-B",
+"say": "Zur Aktie Berkshire Hathaway. Warren Buffetts Nachfolger Greg Abel hat ueber fünfunddreissig Prozent des dreihundertneunundfünfzig Milliarden Dollar schweren Portfolios von Berkshire Hathaway in nur zwei unbestreitbare Gewinner investiert. Greg Abels Berkshire Hathaway besitzt zudem siebenunddreissig Prozent eines Unternehmens, weshalb die Aktie auch fuer Privatanleger ein Kauf ist. Berkshire Hathaway veroeffentlichte ausserdem eine Pressemitteilung, und es gibt Vergleiche zur Performance von Nvidia ueber fünfzehn Jahre. Dies koennte staerken, da die Konzentration auf Top-Gewinner durch das Management die Werthaltigkeit von Berkshire Hathaway untermauert. Der Kurs von Berkshire Hathaway veränderte sich in den letzten fünf Handelstagen um plus null Komma fünf Prozent auf fünfhundertzweiundneunzig Dollar und vierundneunzig Cent. Diese Woche gab es zu Berkshire Hathaway keine neuen Bewertungen von Banken in den Daten. Meine Einordnung aus diesen Meldungen: Sie könnten Berkshire Hathaway eher stärken. Das war Berkshire Hathaway.",
+"audio": {
+"file": "sendung/2026-11-14-w_10.mp3",
+"hash": "ae2dc72864b00e0b",
+"dur": 73.2
+}
+},
+{
+"name": "Quartalszahlen nächste Woche",
+"say": "Quartalszahlen nächste Woche. Diese Firmen aus deiner Liste melden ihre Quartalszahlen. Zur Aktie JD.com: Zahlen Dienstag, am siebzehnten November. Beim Umsatz erwarten sie rund dreihundertzweiundvierzig Komma vier Milliarden Dollar. Zur Aktie Nvidia: Zahlen Dienstag, am siebzehnten November. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von zwei Dollar und siebenundvierzig Cent. Beim Umsatz erwarten sie rund einhundertacht Komma sieben Milliarden Dollar.",
+"audio": {
+"file": "sendung/2026-11-14-w_11.mp3",
+"hash": "3f31bb1edfa7beb8",
+"dur": 37.7
+}
+},
+{
+"name": "Begriff: Marge",
+"say": "Zum Lernen, der Begriff des Tages: Marge. Die Marge sagt, wie viel vom Umsatz als Gewinn übrig bleibt. Eine Marge von zwanzig Prozent heisst: von hundert Dollar Umsatz bleiben zwanzig Dollar Gewinn. Steigende Margen gelten als gutes Zeichen.",
+"audio": {
+"file": "sendung/2026-11-14-w_12.mp3",
+"hash": "8df4969c29cf4a63",
+"dur": 19.3
+}
+},
+{
+"name": "Schluss",
+"say": "Das war der Wochenrückblick vom Aktien-Radar. Die Quellen findest du in der App bei jeder Aktie, den ganzen Text über den Knopf Als Text. Bis nächste Woche.",
+"audio": {
+"file": "sendung/2026-11-14-w_13.mp3",
+"hash": "a47779957ec83468",
+"dur": 12.4
+}
+}
+],
+"dur": 724.5,
+"full": {
+"file": "sendung/2026-11-14-w_full.mp3",
+"dur": 724.6,
+"marks": [
+[
+0,
+0.0
+],
+[
+1,
+30.6
+],
+[
+2,
+87.4
+],
+[
+3,
+150.9
+],
+[
+4,
+206.9
+],
+[
+5,
+265.5
+],
+[
+6,
+323.7
+],
+[
+7,
+385.9
+],
+[
+8,
+454.2
+],
+[
+9,
+517.0
+],
+[
+10,
+581.9
+],
+[
+11,
+655.1
+],
+[
+12,
+692.8
+],
+[
+13,
+712.1
+]
+]
+}
+},
+{
 "id": "2026-11-13-t",
 "kind": "tag",
 "date": "2026-11-13",
@@ -2551,204 +2760,10 @@
 ]
 ]
 }
-},
-{
-"id": "2026-10-29-t",
-"kind": "tag",
-"date": "2026-10-29",
-"title": "Morgen-Sendung, Donnerstag, neunundzwanzigsten Oktober",
-"generated_at": "2026-10-29T11:58:24Z",
-"writer": "Gemini (Gratis-Kontingent) 8 Firmen, Rest Vorlage",
-"chapters": [
-{
-"name": "Begrüssung",
-"say": "Guten Morgen und willkommen zur Sendung vom Aktien-Radar, heute Donnerstag, neunundzwanzigsten Oktober. Zuerst ein kurzer Blick auf den Markt, dann die Firmen aus deiner Liste mit neuen Meldungen zu Produkten, Partnern und Projekten, danach die Quartalszahlen dieser Woche und zum Schluss ein Begriff zum Lernen. Kurz vorweg: Alles stammt aus gesammelten Daten und Schlagzeilen, Beträge nenne ich in Dollar. Das ist keine Anlageberatung.",
-"audio": {
-"file": "sendung/2026-10-29-t_00.mp3",
-"hash": "d1dd909ee110e803",
-"dur": 30.3
-}
-},
-{
-"name": "Markt kurz",
-"say": "Der Markt kurz. Der S und P fünfhundert, der Index der fünfhundert grossen US-Firmen, stand zuletzt bei plus null Komma drei Prozent gegenüber dem Vortag. In deiner Liste am stärksten: Micron mit plus fünf Komma neun Prozent, Applied Materials mit plus fünf Komma eins Prozent, SoftBank mit plus vier Komma acht Prozent. Am schwächsten: Samsung Electronics mit minus vier Komma eins Prozent, Robinhood mit minus drei Komma drei Prozent. Zum Thema Schweizer Börse meldet Cash: Börsen-Ticker: SMI zieht weiter an. Zum Thema Schweizer Börse meldet Cash: Börsen-Ticker: SMI hält sich auf Rekordniveau.",
-"audio": {
-"file": "sendung/2026-10-29-t_01.mp3",
-"hash": "f923dac4925774e5",
-"dur": 48.7
-}
-},
-{
-"name": "Microsoft",
-"sym": "MSFT",
-"say": "Zur Aktie Microsoft. Der Technologiekonzern ist stark ins neue Geschäftsjahr gestartet und hat ein starkes Quartal vorgelegt. Dabei hat Microsoft mehr investiert und zugleich den Gewinn erhöht. Die Ergebnisse sind auf der Investor-Relations-Website verfügbar. Meine Einordnung aus diesen Meldungen: Sie könnten Microsoft eher stärken. Das war Microsoft.",
-"audio": {
-"file": "sendung/2026-10-29-t_02.mp3",
-"hash": "4b89708466c43bfc",
-"dur": 28.8
-}
-},
-{
-"name": "SK Hynix",
-"sym": "HY9H.MU",
-"say": "Zur Aktie SK Hynix. Der Speicherchip-Hersteller SK Hynix hat seine Q3-Ziele übertroffen und Rekordergebnisse für das dritte Quartal erzielt. Ausserdem hat SK Hynix grossartige Neuigkeiten für Micron-Investoren überbracht. Die Nachfrage nach KI-Speichern sorgt für positive Impulse. Meine Einordnung aus diesen Meldungen: Sie könnten SK Hynix eher stärken. Das war SK Hynix.",
-"audio": {
-"file": "sendung/2026-10-29-t_03.mp3",
-"hash": "288c35025b681646",
-"dur": 32.4
-}
-},
-{
-"name": "ServiceNow",
-"sym": "NOW",
-"say": "Zur Aktie ServiceNow. ServiceNow hat die Control Tower Alliance gestartet, um Unternehmen bei der sicheren KI-Einführung zu unterstützen. Zudem vereinheitlicht Stagwell die Mitarbeitererfahrung auf der ServiceNow AI-Plattform. Ausserdem arbeiten ServiceNow und OpenAI gemeinsam an der Beschleunigung von Unternehmens-KI. Meine Einordnung aus diesen Meldungen: Sie könnten ServiceNow eher stärken. Das war ServiceNow.",
-"audio": {
-"file": "sendung/2026-10-29-t_04.mp3",
-"hash": "b477a6f1d75a430c",
-"dur": 32.4
-}
-},
-{
-"name": "UBS",
-"sym": "UBSG.SW",
-"say": "Zur Aktie UBS. UBS-Investoren haben nach den Drittquartalszahlen den Rückzug angetreten. Die Gewinnmitteilung der UBS Group AG zeigt ein Rekord-Investment-Bank-Quartal. Ausserdem hat die UBS eine neue Analyse mit einer Buy-Note für die Deutsche Bank-Aktie veröffentlicht. Ob das UBS stärkt oder schwächt, ist aus den Meldungen noch unklar. Das war UBS.",
-"audio": {
-"file": "sendung/2026-10-29-t_05.mp3",
-"hash": "0f3a6d614a96b729",
-"dur": 29.2
-}
-},
-{
-"name": "GE Vernova",
-"sym": "GEV",
-"say": "Zur Aktie GE Vernova. GE Vernova treibt den Netzausbau mit einem neun-Milliarden-Dollar-Trench-Deal voran und hat die Umsatzprognose angehoben. Gleichzeitig übernimmt GE Vernova die Trench Group. Die Bestellungen sind gestiegen, da die Nachfrage nach KI-Energie hoch bleibt. Meine Einordnung aus diesen Meldungen: Sie könnten GE Vernova eher stärken. Das war GE Vernova.",
-"audio": {
-"file": "sendung/2026-10-29-t_06.mp3",
-"hash": "c529e41fa5bd5d10",
-"dur": 29.4
-}
-},
-{
-"name": "Meta",
-"sym": "META",
-"say": "Zur Aktie Meta. Meta hat zum ersten Mal seit 2012 einen negativen freien Cashflow gemeldet und den Investoren eine Hardware-Strategie enthüllt. Zusätzlich arbeitet Meta mit fünf US-Universitäten zusammen, um medizinische und wissenschaftliche Durchbrüche zu beschleunigen. Es gibt einen Cash-Burn und höhere Investitionsabschreibungen in Höhe von vierzehn Milliarden Dollar. Meine Einordnung aus diesen Meldungen: Sie könnten Meta eher schwächen. Das war Meta.",
-"audio": {
-"file": "sendung/2026-10-29-t_07.mp3",
-"hash": "7d877b0d2e0d6350",
-"dur": 35.7
-}
-},
-{
-"name": "Robinhood",
-"sym": "HOOD",
-"say": "Zur Aktie Robinhood. Robinhood sieht, dass sich die Gewohnheiten von Privatanlegern ändern, während der Aktienhandel abkühlt. Laut Bernstein soll sich Robinhood jedoch auf Prognosemärkte und neue Angebote erholen. Ausserdem hat Robinhoods neue Kette die Krypto-Einnahmen gesteigert. Ob das Robinhood stärkt oder schwächt, ist aus den Meldungen noch unklar. Das war Robinhood.",
-"audio": {
-"file": "sendung/2026-10-29-t_08.mp3",
-"hash": "84bb75ae0b179d87",
-"dur": 29.5
-}
-},
-{
-"name": "Samsung Electronics",
-"sym": "005930.KS",
-"say": "Zur Aktie Samsung Electronics. Samsungs Chipgewinn hat zu einem weiteren Rekordquartal beigetragen, obwohl der Gewinn von Samsung-Chips die Schätzungen verfehlt hat, die zuvor durch wiederauflebende KI-Hoffnung angehoben wurden. Samsung-Aktien sind zudem aufgrund fehlender Details zu den Anlegerrenditen abgerutscht. Ausserdem wurden neue aktiengebundene Anleihetranchen im Wert von zwanzig Milliarden KRW eingeführt. Das war Samsung Electronics.",
-"audio": {
-"file": "sendung/2026-10-29-t_09.mp3",
-"hash": "2fc77363e8d3e4f8",
-"dur": 33.7
-}
-},
-{
-"name": "Quartalszahlen diese Woche",
-"say": "Quartalszahlen diese Woche. Diese Firmen aus deiner Liste melden ihre Quartalszahlen. Zur Aktie Samsung Electronics: Zahlen Donnerstag, am neunundzwanzigsten Oktober. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von elf Dollar und fünfundzwanzig Cent. Beim Umsatz erwarten sie rund einhundertdreiundfünfzig Komma eins Milliarden Dollar. Zur Aktie BYD: Zahlen Donnerstag, am neunundzwanzigsten Oktober. Beim Umsatz erwarten sie rund sechsunddreissig Komma eins Milliarden Dollar. Zur Aktie Amazon: Zahlen Donnerstag, am neunundzwanzigsten Oktober. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von ein Dollar und neunundneunzig Cent. Beim Umsatz erwarten sie rund zweihundertzwei Komma drei Milliarden Dollar. Zur Aktie Intel: Zahlen Donnerstag, am neunundzwanzigsten Oktober. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von null Dollar und vierzig Cent. Beim Umsatz erwarten sie rund sechzehn Komma fünf Milliarden Dollar.",
-"audio": {
-"file": "sendung/2026-10-29-t_10.mp3",
-"hash": "5976abe451db1612",
-"dur": 73.4
-}
-},
-{
-"name": "Begriff: Dividende",
-"say": "Zum Lernen, der Begriff des Tages: Dividende. Eine Dividende ist ein Teil des Gewinns, den die Firma an ihre Aktionäre auszahlt, meist pro Quartal oder einmal im Jahr. Wachstumsfirmen zahlen oft keine Dividende, weil sie das Geld wieder investieren.",
-"audio": {
-"file": "sendung/2026-10-29-t_11.mp3",
-"hash": "854a0edfb5548d56",
-"dur": 18.9
-}
-},
-{
-"name": "Schluss",
-"say": "Das war die Sendung vom Aktien-Radar. Die Quellen findest du in der App bei jeder Aktie, den ganzen Text über den Knopf Als Text. Bis morgen.",
-"audio": {
-"file": "sendung/2026-10-29-t_12.mp3",
-"hash": "cc4bc23e3e69d9dd",
-"dur": 11.5
-}
 }
 ],
-"dur": 433.9,
-"full": {
-"file": "sendung/2026-10-29-t_full.mp3",
-"dur": 434.0,
-"marks": [
-[
-0,
-0.0
-],
-[
-1,
-30.3
-],
-[
-2,
-79.0
-],
-[
-3,
-107.8
-],
-[
-4,
-140.2
-],
-[
-5,
-172.6
-],
-[
-6,
-201.8
-],
-[
-7,
-231.2
-],
-[
-8,
-266.9
-],
-[
-9,
-296.4
-],
-[
-10,
-330.1
-],
-[
-11,
-403.5
-],
-[
-12,
-422.4
-]
-]
-}
-}
-],
-"generated_at": "2026-11-13T12:29:52Z",
+"generated_at": "2026-11-14T07:53:41Z",
 "voice": "de-CH-LeniNeural",
 "source": "Yahoo Finance, SEC EDGAR, Schlagzeilen (Google News u.a.); Text: Gemini Gratis-Kontingent oder Vorlage",
-"audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@514dd814db85255fc14f4e3895634ad505d279d3/data/audio/"
+"audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@3f51ba4df1f897b72aea5d76bc031a200d373410/data/audio/"
 }
