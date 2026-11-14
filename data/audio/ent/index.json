@@ -5,80 +5,80 @@
 "dur": 30.5
 },
 "potenzial_OKLO.mp3": {
-"h": "f01277c396d33259",
-"dur": 37.6
+"h": "7049c584943ce869",
+"dur": 38.1
 },
 "potenzial_005930.KS.mp3": {
-"h": "d9d922c54f649f92",
-"dur": 41.7
+"h": "215e28245739e72a",
+"dur": 44.3
 },
 "potenzial_FLEX.mp3": {
-"h": "6b1dce568cf9f970",
-"dur": 34.1
+"h": "8339798ff4f13a25",
+"dur": 35.0
 },
 "potenzial_NRG.mp3": {
-"h": "9b7fef755275aba3",
-"dur": 36.1
+"h": "5f33bff4bf2d63ce",
+"dur": 35.5
 },
 "potenzial_ORCL.mp3": {
-"h": "35af4fb9dd94b17d",
-"dur": 36.9
+"h": "373345b6b5e5a266",
+"dur": 41.3
 },
 "potenzial_COHR.mp3": {
-"h": "abac4c1f3b9f3506",
-"dur": 35.6
+"h": "743b8bc24f56a6c1",
+"dur": 36.0
 },
 "potenzial_WDC.mp3": {
-"h": "54f95dfca150f25b",
-"dur": 36.1
+"h": "f2baa6eff1d12725",
+"dur": 39.4
 },
 "potenzial_MU.mp3": {
-"h": "151354cdfdbcb02b",
-"dur": 41.4
+"h": "12b83e5fadcb921f",
+"dur": 44.8
 },
 "potenzial_SNDK.mp3": {
-"h": "d639653c7279c61b",
-"dur": 38.5
+"h": "4b3c38d93206fc53",
+"dur": 43.5
 },
 "potenzial_AMAT.mp3": {
-"h": "e8400c5fa578cd3c",
-"dur": 41.8
+"h": "1c7d1486faba09c1",
+"dur": 43.2
 },
 "potenzial_AXON.mp3": {
-"h": "e98dcc97bd5c02cc",
-"dur": 36.6
+"h": "2e962021f667c0ef",
+"dur": 40.8
 },
 "potenzial_AVGO.mp3": {
-"h": "9a760c771717e9a5",
-"dur": 43.9
+"h": "048ca0a501f62dff",
+"dur": 45.0
 },
 "wachstum__intro.mp3": {
 "h": "c921ef2c435ea029",
 "dur": 24.7
 },
 "wachstum_MRNA.mp3": {
-"h": "d1236ea6250ffece",
-"dur": 39.2
+"h": "f8ef104691d55fb7",
+"dur": 38.8
 },
 "wachstum_VEEV.mp3": {
-"h": "67031316a3fb62ec",
-"dur": 30.7
+"h": "0d0f75ea8f4a21d9",
+"dur": 34.0
 },
 "wachstum_PTC.mp3": {
-"h": "dd840bd568a31398",
-"dur": 37.9
+"h": "9d09a99c623f7c38",
+"dur": 36.3
 },
 "wachstum_ACN.mp3": {
-"h": "7e8b1fa02f8faa01",
-"dur": 32.6
+"h": "ca2eb9f3ca238f9d",
+"dur": 31.9
 },
 "wachstum_RVTY.mp3": {
-"h": "30a2a585e58f356e",
-"dur": 30.1
+"h": "d06fad45879ff9c2",
+"dur": 30.6
 },
 "wachstum_EL.mp3": {
-"h": "35b1b6943fe1854d",
-"dur": 35.8
+"h": "345c3bb1a3ba3ada",
+"dur": 36.8
 },
 "zahlen__intro.mp3": {
 "h": "65abbcac08891f1c",
@@ -89,606 +89,606 @@
 "dur": 24.9
 },
 "dn_latest.mp3": {
-"h": "84c4d73aab2d96cd",
-"dur": 124.3
+"h": "d9994491527a25a5",
+"dur": 112.4
 },
 "dn_TSM.mp3": {
-"h": "5a4ea3fdff652499",
-"dur": 73.3
+"h": "9ca6f1a75a560b48",
+"dur": 61.3
 },
 "dn_NVDA.mp3": {
-"h": "18774edce2307d15",
-"dur": 80.4
+"h": "e908c3ed0ac9437c",
+"dur": 52.6
 },
 "dn_005930_KS.mp3": {
-"h": "153497e68b169b81",
-"dur": 74.8
-},
-"dn_HY9H_MU.mp3": {
-"h": "2793ca1344d754e1",
-"dur": 68.1
-},
-"dn_AVGO.mp3": {
-"h": "ca34c6f7b7496574",
-"dur": 65.2
-},
-"dn_ASML.mp3": {
-"h": "a27461d6c6e4a1ef",
-"dur": 69.5
-},
-"dn_INTC.mp3": {
-"h": "b9d60aebb98c5f11",
-"dur": 72.9
-},
-"dn_MSFT.mp3": {
-"h": "52e8fa9e404e5eb2",
-"dur": 67.4
-},
-"dn_PLTR.mp3": {
-"h": "f28c0c2f7ff56acf",
-"dur": 66.5
-},
-"dn_IBM.mp3": {
-"h": "b522040e1a27ea0b",
-"dur": 65.0
-},
-"dn_OEF.mp3": {
-"h": "ca46a2bf90633674",
-"dur": 59.0
-},
-"dn_NOW.mp3": {
-"h": "51d86aa305033ef9",
-"dur": 71.0
-},
-"dn_META.mp3": {
-"h": "4238dc7559f99329",
-"dur": 71.7
-},
-"dn_AMZN.mp3": {
-"h": "b2548e8c65020603",
-"dur": 67.3
-},
-"dn_MRVL.mp3": {
-"h": "148a37a16baec7fe",
-"dur": 70.2
-},
-"dn_SFTBY.mp3": {
-"h": "496873220953219a",
-"dur": 82.6
-},
-"dn_GLW.mp3": {
-"h": "192aaa9c044955e0",
-"dur": 73.8
-},
-"dn_AMAT.mp3": {
-"h": "a645f47fe5449988",
-"dur": 72.6
-},
-"dn_ARM.mp3": {
-"h": "4bab9c1eff27d577",
-"dur": 59.2
-},
-"dn_HOOD.mp3": {
-"h": "2d8f1c2777c610ab",
-"dur": 78.4
-},
-"dn_BE.mp3": {
-"h": "e331a177bdfd85c3",
-"dur": 74.5
-},
-"dn_HYLN.mp3": {
-"h": "3745cef5b06aa0dd",
-"dur": 78.5
-},
-"dn_SMEGF.mp3": {
-"h": "2e0b0c8e16246de5",
-"dur": 62.8
-},
-"dn_OKLO.mp3": {
-"h": "9bebab7167445a7c",
+"h": "0ce0c054632580c3",
 "dur": 64.7
 },
+"dn_HY9H_MU.mp3": {
+"h": "b699075256718374",
+"dur": 63.5
+},
+"dn_AVGO.mp3": {
+"h": "dbaefe4961aaf933",
+"dur": 51.3
+},
+"dn_ASML.mp3": {
+"h": "96e1a15869c5d375",
+"dur": 81.2
+},
+"dn_INTC.mp3": {
+"h": "b0ae79a4a2770b42",
+"dur": 75.9
+},
+"dn_MSFT.mp3": {
+"h": "b834b322218193e3",
+"dur": 70.6
+},
+"dn_PLTR.mp3": {
+"h": "6f4f46d873f4aa74",
+"dur": 68.2
+},
+"dn_IBM.mp3": {
+"h": "b1c229e13614b01a",
+"dur": 82.2
+},
+"dn_OEF.mp3": {
+"h": "fe14c0691cb33137",
+"dur": 49.9
+},
+"dn_NOW.mp3": {
+"h": "0f85293a5663e076",
+"dur": 60.7
+},
+"dn_META.mp3": {
+"h": "dd62328b6d7c7be2",
+"dur": 46.8
+},
+"dn_AMZN.mp3": {
+"h": "93d7a5c1cbdc1b12",
+"dur": 39.4
+},
+"dn_MRVL.mp3": {
+"h": "5c0b30d45a7a81fd",
+"dur": 72.6
+},
+"dn_SFTBY.mp3": {
+"h": "5a7901f475fe44d4",
+"dur": 63.0
+},
+"dn_GLW.mp3": {
+"h": "2f24f51678e8d790",
+"dur": 67.0
+},
+"dn_AMAT.mp3": {
+"h": "16da5b6c7858e6cc",
+"dur": 82.0
+},
+"dn_ARM.mp3": {
+"h": "55b94cc52b711594",
+"dur": 79.4
+},
+"dn_HOOD.mp3": {
+"h": "4f3c04423995dbd3",
+"dur": 74.3
+},
+"dn_BE.mp3": {
+"h": "9cb4f46fadacedfd",
+"dur": 65.7
+},
+"dn_HYLN.mp3": {
+"h": "6eae32b345912086",
+"dur": 86.1
+},
+"dn_SMEGF.mp3": {
+"h": "75a6cff574893873",
+"dur": 70.8
+},
+"dn_OKLO.mp3": {
+"h": "bd225afad79a3da8",
+"dur": 70.7
+},
 "dn_RYCEY.mp3": {
-"h": "b0fb5926319aef3a",
-"dur": 74.7
+"h": "0907c438ceab8c34",
+"dur": 74.5
 },
 "dn_GEV.mp3": {
-"h": "4ff6e8dfcd437e06",
-"dur": 79.1
+"h": "97d59f99c9975a80",
+"dur": 67.2
 },
 "dn_GE.mp3": {
-"h": "552aa01d1db4bcf0",
-"dur": 80.2
+"h": "48ad2ddadc404b8b",
+"dur": 44.2
 },
 "dn_013A_F.mp3": {
-"h": "48ff5cf94b30e3c2",
-"dur": 85.2
+"h": "9563a8cd933a822e",
+"dur": 65.8
 },
 "dn_BRK_B.mp3": {
-"h": "3402a1073d327bf6",
-"dur": 80.7
+"h": "d2e050f7e702b404",
+"dur": 62.9
 },
 "dn_0VR3_L.mp3": {
-"h": "5b223c494dfc7e1e",
-"dur": 65.3
+"h": "ac0e49fb3c1e412f",
+"dur": 63.7
 },
 "dn_BKW_SW.mp3": {
-"h": "b7cb1179a9304a90",
-"dur": 50.6
+"h": "e4376ae83fb751e2",
+"dur": 39.0
 },
 "dn_UBSG_SW.mp3": {
-"h": "98f0e71583d0240b",
-"dur": 41.6
+"h": "dd5f95f84b009e23",
+"dur": 53.2
 },
 "dn_1211_HK.mp3": {
-"h": "2b60ab5c5da6e7f8",
-"dur": 57.7
+"h": "5d224db58ad0836b",
+"dur": 63.4
 },
 "dn_BNTX.mp3": {
-"h": "ecae87f361007b24",
-"dur": 59.3
-},
-"dn_ABBN_SW.mp3": {
-"h": "0910630d7d808911",
-"dur": 44.3
-},
-"dn_STX.mp3": {
-"h": "4b8790868a31bba5",
-"dur": 71.9
-},
-"dn_MU.mp3": {
-"h": "bfc6c15f7276680c",
-"dur": 70.9
-},
-"dm_latest.mp3": {
-"h": "49428694c67d47c2",
-"dur": 213.3
-},
-"dm_Z_lle.mp3": {
-"h": "5c346cff46f22e67",
-"dur": 94.0
-},
-"dm_Zinsen.mp3": {
-"h": "bd9f0ad361ec112a",
-"dur": 101.3
-},
-"dm_SNB.mp3": {
-"h": "5ff52743ddea6a48",
-"dur": 88.5
-},
-"dm_KI_Chips.mp3": {
-"h": "e348fca7060bcea6",
-"dur": 94.1
-},
-"dm_Exportkontrollen.mp3": {
-"h": "c0d0b2e18ea0dc8a",
-"dur": 98.7
-},
-"dm_Wall_Street.mp3": {
-"h": "c82013822e89be42",
-"dur": 58.4
-},
-"dm_Schweizer_B_rse.mp3": {
-"h": "33a13f4adc4ea743",
-"dur": 75.2
-},
-"zahlen_BA.mp3": {
-"h": "2a7835a103742161",
+"h": "5a77c85eca513986",
 "dur": 66.6
 },
+"dn_ABBN_SW.mp3": {
+"h": "02753d8197917001",
+"dur": 97.0
+},
+"dn_STX.mp3": {
+"h": "bd3fed7df2847efe",
+"dur": 72.3
+},
+"dn_MU.mp3": {
+"h": "ceaeb94f6ec40027",
+"dur": 71.3
+},
+"dm_latest.mp3": {
+"h": "63aaf4b6c3950b2e",
+"dur": 205.6
+},
+"dm_Z_lle.mp3": {
+"h": "7ec9ed3a8b6a7a21",
+"dur": 74.6
+},
+"dm_Zinsen.mp3": {
+"h": "cd6bd21204d5beac",
+"dur": 86.4
+},
+"dm_SNB.mp3": {
+"h": "de4d36014ad917c7",
+"dur": 87.9
+},
+"dm_KI_Chips.mp3": {
+"h": "ca997c97d8f65d4b",
+"dur": 100.5
+},
+"dm_Exportkontrollen.mp3": {
+"h": "c3650af7849ff864",
+"dur": 93.2
+},
+"dm_Wall_Street.mp3": {
+"h": "0ec5c7dd0509bbeb",
+"dur": 89.6
+},
+"dm_Schweizer_B_rse.mp3": {
+"h": "7ce332960a81a471",
+"dur": 59.9
+},
+"zahlen_BA.mp3": {
+"h": "8c09e82abcc56f9c",
+"dur": 70.5
+},
 "gegenteil_BA.mp3": {
-"h": "e7ac530af3f1a092",
-"dur": 47.1
+"h": "7a3f6f210ca0893e",
+"dur": 43.9
 },
 "zahlen_CNC.mp3": {
-"h": "2b8fa01950c89568",
+"h": "f4c73755fbf92376",
 "dur": 68.3
 },
 "zahlen_CINF.mp3": {
-"h": "84c5b6bca2201586",
-"dur": 46.3
+"h": "cd5449d36663c9e8",
+"dur": 47.4
 },
 "gegenteil_HOOD.mp3": {
-"h": "f570a1fff702037d",
+"h": "2b5088ad355aac9a",
 "dur": 50.8
 },
 "potenzial_NVDA.mp3": {
-"h": "694f9bebc04dcfb7",
-"dur": 56.2
+"h": "21223ff3e6159c5e",
+"dur": 37.5
 },
 "zahlen_OKE.mp3": {
-"h": "00551490071ed9f3",
-"dur": 40.3
+"h": "de02f87d2b3e36f5",
+"dur": 40.2
 },
 "zahlen_VICI.mp3": {
-"h": "35c605d0699b67d6",
-"dur": 69.3
+"h": "2ceec03d1774cf5d",
+"dur": 70.8
 },
 "gegenteil_VICI.mp3": {
-"h": "980157cf793ec6d7",
-"dur": 45.6
+"h": "a6ebd1c4e1cb9765",
+"dur": 45.7
 },
 "gegenteil_FFIV.mp3": {
-"h": "b92c2e332b096062",
-"dur": 28.9
+"h": "4e3cfc766f0dac39",
+"dur": 28.6
 },
 "zahlen_MGM.mp3": {
-"h": "fed90696fa2bd46d",
-"dur": 78.4
+"h": "86a1893f046a720f",
+"dur": 77.8
 },
 "gegenteil_MGM.mp3": {
 "h": "a3d0536743c8faf5",
 "dur": 52.5
 },
 "gegenteil_005930.KS.mp3": {
-"h": "bd1be24e16cd765d",
-"dur": 52.2
+"h": "235082989589e753",
+"dur": 51.6
 },
 "gegenteil_GOOGL.mp3": {
-"h": "58d4ae6b4ec9907a",
-"dur": 49.8
+"h": "7e881f04f6d699e9",
+"dur": 49.4
 },
 "potenzial_MRVL.mp3": {
-"h": "797727310e47e60f",
-"dur": 49.9
+"h": "06a04d913d9548e4",
+"dur": 55.7
 },
 "wachstum_HAS.mp3": {
-"h": "fbd101f5eeb16058",
-"dur": 29.2
+"h": "07be9790fca91ff4",
+"dur": 30.3
 },
 "potenzial_JBL.mp3": {
-"h": "4fc1bf5b0b41f586",
-"dur": 31.8
+"h": "847f9f591adaf541",
+"dur": 33.9
 },
 "potenzial_STX.mp3": {
-"h": "5a3e2b7db56493be",
-"dur": 41.0
+"h": "5058451c0e22d022",
+"dur": 45.2
 },
 "zahlen_KIM.mp3": {
-"h": "88a1138f8fe7f56e",
+"h": "9e620a0c9623a968",
 "dur": 44.6
 },
 "gegenteil_SNDK.mp3": {
-"h": "5faf05b3ce27643e",
-"dur": 33.6
+"h": "fcc8788652db657a",
+"dur": 28.7
 },
 "dn_WNRG_SW.mp3": {
-"h": "6fb827a48ec4cd87",
-"dur": 63.0
+"h": "d7c888fec00205a1",
+"dur": 77.7
 },
 "potenzial_CIEN.mp3": {
-"h": "53be37878262a294",
-"dur": 33.6
+"h": "2756a77a10d927ae",
+"dur": 35.1
 },
 "wachstum_BIIB.mp3": {
-"h": "63a801f42b080d88",
-"dur": 37.2
+"h": "a7e8a23408ef5327",
+"dur": 36.8
 },
 "wachstum_TYL.mp3": {
-"h": "6aece677f01b4c6f",
-"dur": 34.8
+"h": "d4482a7ca565d293",
+"dur": 35.3
 },
 "zahlen_COIN.mp3": {
-"h": "381ebe5b7641340f",
-"dur": 69.0
+"h": "4422232be1bf2635",
+"dur": 68.0
 },
 "zahlen_WY.mp3": {
-"h": "63ea7a3b511f8ffd",
-"dur": 66.0
+"h": "255066c6c5c4b35a",
+"dur": 68.6
 },
 "gegenteil_INTC.mp3": {
-"h": "1228623100e64708",
-"dur": 36.3
+"h": "be3945b07101ff65",
+"dur": 36.7
 },
 "gegenteil_RDDT.mp3": {
-"h": "b8db8a5ec9d6887c",
-"dur": 33.2
+"h": "9b60248b9be73ebd",
+"dur": 32.4
 },
 "potenzial_TER.mp3": {
-"h": "86c6d2cb5809b645",
-"dur": 33.3
+"h": "96eabfaa61603249",
+"dur": 36.6
 },
 "dn_DRO_AX.mp3": {
-"h": "3ac658e4e54a5ad0",
-"dur": 59.6
+"h": "983cdc565d3b6736",
+"dur": 47.4
 },
 "potenzial_LITE.mp3": {
-"h": "f1d3b3ef56158382",
-"dur": 41.9
+"h": "93df0f68eae9e3aa",
+"dur": 43.3
 },
 "potenzial_LRCX.mp3": {
-"h": "5ebe66a71afaec56",
+"h": "20ef40b78e6db88a",
 "dur": 37.0
 },
 "wachstum_CBOE.mp3": {
-"h": "8cc9af3fbdfc296f",
-"dur": 36.4
+"h": "e7b2143009647ffc",
+"dur": 36.7
 },
 "gegenteil_LITE.mp3": {
-"h": "b1e3c4cd3495939a",
-"dur": 28.8
+"h": "49fb35375431f0b1",
+"dur": 29.4
 },
 "gegenteil_MRVL.mp3": {
-"h": "d970b8ee454ae352",
-"dur": 42.8
+"h": "634b7ffeb53d8cf5",
+"dur": 42.1
 },
 "zahlen_DOC.mp3": {
-"h": "612c7f7b144b1a49",
-"dur": 67.3
+"h": "0cd0d588c825d4e5",
+"dur": 68.3
 },
 "zahlen_CLX.mp3": {
-"h": "2930ef1bc5c12a81",
+"h": "cbe0f4f56638cfa1",
 "dur": 42.3
 },
 "zahlen_ECHO.mp3": {
-"h": "b4043071dce5912e",
-"dur": 64.7
+"h": "7cfb61c707b46fc9",
+"dur": 66.8
 },
 "zahlen_BNTX.mp3": {
-"h": "b0f583b79a6bc30f",
-"dur": 60.2
+"h": "7430e6f8894c857f",
+"dur": 66.8
 },
 "zahlen_MOS.mp3": {
-"h": "b8f4321230350f00",
-"dur": 68.3
+"h": "2a67739ea6fe08f4",
+"dur": 68.8
 },
 "zahlen_UBER.mp3": {
-"h": "f89ef238fc7848a5",
-"dur": 67.3
+"h": "37f9cf2860639b3e",
+"dur": 67.7
 },
 "zahlen_SWK.mp3": {
-"h": "3c8f1863afa960b5",
-"dur": 69.1
+"h": "958d3e8cb97f22f7",
+"dur": 69.6
 },
 "zahlen_SMCI.mp3": {
-"h": "57d70a50be7ba309",
-"dur": 69.4
+"h": "09cf99a5f89273b5",
+"dur": 70.7
 },
 "gegenteil_MOS.mp3": {
-"h": "ace93ee880de727f",
-"dur": 52.3
+"h": "7fa044c76766a8a3",
+"dur": 49.0
 },
 "gegenteil_UBER.mp3": {
-"h": "dbac952a2ed8248a",
-"dur": 45.0
+"h": "db7bfa888451b6d3",
+"dur": 44.9
 },
 "potenzial_FIX.mp3": {
-"h": "638d80e796146e49",
-"dur": 42.9
+"h": "6125ff3b41493acc",
+"dur": 42.2
 },
 "potenzial_VRT.mp3": {
-"h": "21e8ca98cc3172cc",
-"dur": 34.9
+"h": "4cf1b980664301ac",
+"dur": 35.1
 },
 "potenzial_DELL.mp3": {
-"h": "232af8d130e5065c",
-"dur": 35.5
+"h": "bbed2525460b3342",
+"dur": 37.7
 },
 "wachstum_BBY.mp3": {
-"h": "6ddf1766502340b2",
-"dur": 28.7
+"h": "9487098033b0fcfe",
+"dur": 29.2
 },
 "wachstum_HCA.mp3": {
-"h": "9ef99ff7d1395e6d",
-"dur": 33.1
+"h": "237f7694c42fa113",
+"dur": 35.3
 },
 "wachstum_MCK.mp3": {
-"h": "2a8dba1e6c3d7e1d",
-"dur": 33.1
+"h": "ebd310dd0179de18",
+"dur": 33.4
 },
 "wachstum_KR.mp3": {
-"h": "6c4092a8a243f761",
-"dur": 30.5
-},
-"gegenteil_DELL.mp3": {
-"h": "6307562c27ffee4c",
-"dur": 25.5
+"h": "037b7aa05b54b071",
+"dur": 29.6
 },
 "zahlen_VMRK.mp3": {
-"h": "93a2c01e4b67ea41",
-"dur": 70.8
+"h": "d587faf3ee683d60",
+"dur": 70.1
 },
 "zahlen_ALL.mp3": {
-"h": "0c8d140be281165b",
+"h": "e7994592413f6fc7",
 "dur": 43.5
 },
 "zahlen_AFL.mp3": {
-"h": "cf1b607d54f2f17a",
-"dur": 41.5
+"h": "59ab0ebc33028a02",
+"dur": 41.6
 },
 "gegenteil_VMRK.mp3": {
-"h": "642b1d52bcbdbf71",
-"dur": 47.7
+"h": "176b11ba7a449c7a",
+"dur": 47.1
 },
 "wachstum_VLTO.mp3": {
-"h": "a27e38322c9d84ef",
-"dur": 30.2
+"h": "456796cea1ff7f70",
+"dur": 31.5
 },
 "zahlen_CPT.mp3": {
-"h": "a43bebe2cab07ad1",
+"h": "7d26f30a7a1de0a6",
 "dur": 69.6
 },
 "zahlen_WYNN.mp3": {
-"h": "2a91ffa3335adb6e",
+"h": "083d581a82f42a96",
 "dur": 51.7
 },
 "gegenteil_WYNN.mp3": {
-"h": "731beb4b304f0d90",
+"h": "d67ed70fc9e1d6f4",
 "dur": 51.7
 },
 "potenzial_GNRC.mp3": {
-"h": "6d523499ee350873",
-"dur": 34.3
+"h": "53390b256bff4673",
+"dur": 34.6
 },
 "wachstum_VTRS.mp3": {
-"h": "21a534baa4de13cf",
-"dur": 28.0
+"h": "110c38b777f78239",
+"dur": 30.4
 },
 "wachstum_MTD.mp3": {
-"h": "a8ec800d12792d2f",
-"dur": 39.0
+"h": "d57e6c735b12ba73",
+"dur": 39.7
 },
 "zahlen_CHTR.mp3": {
-"h": "02e276187d829973",
-"dur": 73.3
+"h": "082097bc057d6264",
+"dur": 72.1
 },
 "zahlen_MRNA.mp3": {
-"h": "245d06488a10a6d2",
-"dur": 66.0
+"h": "517cc07e4f56d37c",
+"dur": 68.4
 },
 "gegenteil_AXON.mp3": {
-"h": "70b2288b461ebde7",
-"dur": 46.4
+"h": "81b5b13fc019cdcd",
+"dur": 47.0
 },
 "gegenteil_FIS.mp3": {
-"h": "6216309a63ae5f63",
+"h": "445df9c43f3e7c94",
 "dur": 48.7
 },
 "gegenteil_CHTR.mp3": {
-"h": "fe0ed8767c264d61",
-"dur": 50.0
+"h": "2191cf73bb6244a3",
+"dur": 49.4
 },
 "gegenteil_NOW.mp3": {
-"h": "55b1099d2c0981f2",
-"dur": 43.9
+"h": "eb9788520f40d186",
+"dur": 45.1
 },
 "gegenteil_GOOG.mp3": {
-"h": "411941dcf977cf5f",
-"dur": 44.3
+"h": "852fd3c91f40912c",
+"dur": 44.4
 },
 "gegenteil_FTNT.mp3": {
-"h": "93be19465d65975b",
-"dur": 22.0
+"h": "1a94c6b2551a5c85",
+"dur": 21.0
 },
 "zahlen_VST.mp3": {
-"h": "f228f334e0e2de4b",
-"dur": 41.1
+"h": "c07c7dc47ca7a3e9",
+"dur": 41.0
 },
 "potenzial_HOOD.mp3": {
-"h": "9f3b546409c283fb",
-"dur": 41.9
+"h": "5e8b4a98d9b653dd",
+"dur": 42.6
 },
 "potenzial_NOW.mp3": {
-"h": "880a95c93e8ea054",
-"dur": 39.3
+"h": "56c8f037b48d80f0",
+"dur": 40.5
 },
 "wachstum_APP.mp3": {
-"h": "f013fbf4a5d72b56",
-"dur": 32.1
+"h": "1e64f64cbd31f22c",
+"dur": 31.3
 },
 "wachstum_ULTA.mp3": {
-"h": "9db197042ba6912c",
-"dur": 31.7
+"h": "ce9c75878cb8cfc9",
+"dur": 32.2
 },
 "wachstum_IDXX.mp3": {
-"h": "0d81a1bb0a89e410",
-"dur": 35.2
+"h": "6c5a288e554b28b8",
+"dur": 34.4
 },
 "wachstum_CDW.mp3": {
-"h": "ea9ac6ed9b1f93b6",
-"dur": 31.2
+"h": "64cfac675d51d9a1",
+"dur": 32.0
 },
 "zahlen_NRG.mp3": {
-"h": "3538f840e72f0722",
-"dur": 68.5
+"h": "ac2b3a8cd246291c",
+"dur": 68.1
 },
 "gegenteil_DDOG.mp3": {
-"h": "342b60550abdc5e1",
-"dur": 22.5
+"h": "09fa24782ab21303",
+"dur": 21.6
 },
 "gegenteil_XYL.mp3": {
-"h": "c232704dc9765b5d",
-"dur": 52.8
+"h": "d3bc083ccd0628d4",
+"dur": 53.1
 },
 "zahlen_SKYD.mp3": {
-"h": "6032890b1cb382ee",
-"dur": 65.8
+"h": "10c4a91f0b67bd71",
+"dur": 70.0
 },
 "zahlen_TTWO.mp3": {
-"h": "12e86c05c5ce3147",
-"dur": 76.7
+"h": "b16047641a1ecfd6",
+"dur": 76.2
 },
 "gegenteil_COIN.mp3": {
-"h": "1159efb0ecaff8d6",
-"dur": 30.2
+"h": "d449fecf2d504b82",
+"dur": 31.3
 },
 "potenzial_1211.HK.mp3": {
-"h": "923968ee6654f2a0",
-"dur": 45.0
+"h": "dcba1d73a3894b7a",
+"dur": 46.1
 },
 "zahlen_EQIX.mp3": {
-"h": "115aa4064f291ecf",
-"dur": 43.0
+"h": "d43ae1b79a9b4687",
+"dur": 42.8
 },
 "gegenteil_NVDA.mp3": {
-"h": "07050f6da32f4202",
-"dur": 36.4
+"h": "453817d4f39eaa7b",
+"dur": 35.6
 },
 "potenzial_SMCI.mp3": {
-"h": "0cddd51a259ad107",
-"dur": 39.2
+"h": "18f4d826fe5e044a",
+"dur": 40.0
 },
 "wachstum_SWKS.mp3": {
-"h": "2a2a82b8ad5adc9a",
+"h": "6b1878fec66601a8",
 "dur": 40.9
 },
 "wachstum_OKTA.mp3": {
-"h": "30d15f72c6633cb8",
-"dur": 30.0
+"h": "38be3076522f69f3",
+"dur": 30.4
 },
 "wachstum_GDDY.mp3": {
-"h": "1160179bfcbf9692",
-"dur": 27.0
+"h": "e7dec71f726b8c2d",
+"dur": 29.9
 },
 "wachstum_LLY.mp3": {
-"h": "6829bd69be034cf4",
-"dur": 33.9
+"h": "ac74b1a38a508281",
+"dur": 33.3
 },
 "zahlen_BIIB.mp3": {
-"h": "6808357bc8605748",
-"dur": 42.8
+"h": "4fca8f43fafe1e64",
+"dur": 42.4
 },
 "gegenteil_SW.mp3": {
-"h": "5d944788a43f8f4e",
-"dur": 48.6
+"h": "710b8f513b343f14",
+"dur": 48.0
 },
 "potenzial_GLW.mp3": {
-"h": "708820c8eaf0374c",
+"h": "91d39141895c7ae6",
 "dur": 37.7
 },
 "potenzial_BE.mp3": {
-"h": "3275574fc3d05f4b",
-"dur": 46.1
+"h": "9bfa630c58ade255",
+"dur": 46.2
 },
 "wachstum_ROP.mp3": {
-"h": "5888bf9cb449ab29",
-"dur": 39.3
+"h": "51e487366a512672",
+"dur": 42.8
 },
 "wachstum_MO.mp3": {
-"h": "9651078847fa539e",
-"dur": 30.5
+"h": "f959295142f775a7",
+"dur": 30.9
 },
 "wachstum_CCI.mp3": {
-"h": "8a31f023ed1b7197",
-"dur": 31.2
+"h": "5f3485e378b3a109",
+"dur": 30.7
 },
 "wachstum_FISV.mp3": {
-"h": "2aa2015c73a15e8d",
-"dur": 35.6
-},
-"wachstum_FDS.mp3": {
-"h": "215a25d54a415f2a",
-"dur": 37.4
+"h": "75ef5d6ee2d7d765",
+"dur": 35.9
 },
 "gegenteil_SFTBY.mp3": {
-"h": "7d860e68ab41b352",
-"dur": 27.5
+"h": "ba0400a617645e52",
+"dur": 27.4
 },
 "gegenteil_MAA.mp3": {
-"h": "47d998a2fe63de69",
-"dur": 59.3
+"h": "fdd3497f1d9d7cdc",
+"dur": 59.4
+},
+"wachstum_GILD.mp3": {
+"h": "b8c6564d7f71d0f0",
+"dur": 32.1
+},
+"gegenteil_TER.mp3": {
+"h": "9ba835efca818f3f",
+"dur": 20.9
 }
 },
 "voice": "de-CH-LeniNeural",
-"checked_at": "2026-11-13T20:12:52Z"
+"checked_at": "2026-11-14T01:52:16Z"
 }
