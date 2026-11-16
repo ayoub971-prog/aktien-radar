@@ -1,6 +1,200 @@
 {
 "episodes": [
 {
+"id": "2026-11-16-t",
+"kind": "tag",
+"date": "2026-11-16",
+"title": "Morgen-Sendung, Montag, sechzehnten November",
+"generated_at": "2026-11-16T13:02:03Z",
+"writer": "Gemini (Gratis-Kontingent) 8 Firmen, Rest Vorlage",
+"chapters": [
+{
+"name": "Begrüssung",
+"say": "Guten Morgen und willkommen zur Sendung vom Aktien-Radar, heute Montag, sechzehnten November. Zuerst ein kurzer Blick auf den Markt, dann die Firmen aus deiner Liste mit neuen Meldungen zu Produkten, Partnern und Projekten, danach die Quartalszahlen dieser Woche und zum Schluss ein Begriff zum Lernen. Kurz vorweg: Alles stammt aus gesammelten Daten und Schlagzeilen, Beträge nenne ich in Dollar. Das ist keine Anlageberatung.",
+"audio": {
+"file": "sendung/2026-11-16-t_00.mp3",
+"hash": "063a28853d0a54b0",
+"dur": 29.9
+}
+},
+{
+"name": "Markt kurz",
+"say": "Der Markt kurz. Der S und P fünfhundert, der Index der fünfhundert grossen US-Firmen, stand zuletzt bei minus null Komma vier Prozent gegenüber dem Vortag. In deiner Liste am stärksten: Meta mit plus zwei Komma neun Prozent, ServiceNow mit plus eins Komma sechs Prozent, BKW mit plus eins Komma vier Prozent. Am schwächsten: Hyliion mit minus acht Komma zwei Prozent, SoftBank mit minus sieben Komma eins Prozent. Zum Thema Wall Street meldet investrends.ch: Anthropic: Der grösste Börsengang der Geschichte steht bevor. Zum Thema SNB meldet investrends.ch: Starker Dollar, nur leichte Inflation in der Schweiz: Wartet die SNB ab mit der Zinswende?",
+"audio": {
+"file": "sendung/2026-11-16-t_01.mp3",
+"hash": "e06f88b483aa37c8",
+"dur": 53.1
+}
+},
+{
+"name": "Nvidia",
+"sym": "NVDA",
+"say": "Zur Aktie Nvidia. Nvidia steht vor der Veroeffentlichung seiner Quartalszahlen, waehrend gleichzeitig der Boersengang von Anthropic ansteht. Es gibt Berichte ueber einen Spionageskandal, der Nvidia direkt betrifft und Fragen aufwirft. Zudem sehen Analysten nun AMD als neuen Sieger im Chipmarkt an, was die Position von Nvidia herausfordert. Meine Einordnung aus diesen Meldungen: Sie könnten Nvidia eher schwächen. Das war Nvidia.",
+"audio": {
+"file": "sendung/2026-11-16-t_02.mp3",
+"hash": "7cbc341dce7c4536",
+"dur": 33.3
+}
+},
+{
+"name": "Microsoft",
+"sym": "MSFT",
+"say": "Zur Aktie Microsoft. Microsoft hat einen neuen KI-Deal abgeschlossen, der die Basis seiner Chiplieferanten erweitert. Zudem wurde Founderz AI als Microsoft Partner des Jahres 2026 im Bereich Trainingsservices ausgezeichnet. Ein technischer Ausfall des Microsoft-Dienstes sorgte jedoch zuletzt fuer negative Schlagzeilen. Meine Einordnung aus diesen Meldungen: Sie könnten Microsoft eher stärken. Das war Microsoft.",
+"audio": {
+"file": "sendung/2026-11-16-t_03.mp3",
+"hash": "b2c2cac783e160bf",
+"dur": 34.5
+}
+},
+{
+"name": "Intel",
+"sym": "INTC",
+"say": "Zur Aktie Intel. Intel leidet unter einer allgemeinen Marktschwaeche bei Chip-Aktien und verzeichnete Kursverluste. Die fünf Milliarden Dollar Partnerwette von Intel wird durch aktuelle Entwicklungen bei Nvidia in Frage gestellt. Analysten sehen zudem AMD derzeit als den klareren Gewinner im Vergleich zu Intel. Meine Einordnung aus diesen Meldungen: Sie könnten Intel eher schwächen. Das war Intel.",
+"audio": {
+"file": "sendung/2026-11-16-t_04.mp3",
+"hash": "0294abf98d2ec8b6",
+"dur": 30.5
+}
+},
+{
+"name": "Meta",
+"sym": "META",
+"say": "Zur Aktie Meta. Meta sieht sich wachsender Konkurrenz durch Google und Warby Parker im Bereich der Alltagsbrillen ausgesetzt. Intern testet Meta derzeit eine Prognosemarkt-App fuer seine Mitarbeiter. Weitere operative Details oder neue Produktlaunches wurden in den aktuellen Meldungen nicht genannt. Ob das Meta stärkt oder schwächt, ist aus den Meldungen noch unklar. Das war Meta.",
+"audio": {
+"file": "sendung/2026-11-16-t_05.mp3",
+"hash": "1f27cf6d54789755",
+"dur": 30.6
+}
+},
+{
+"name": "Amazon",
+"sym": "AMZN",
+"say": "Zur Aktie Amazon. Ein Raketenausfall hat vierzig Satelliten von Amazon zerstoert, was den Breitbandausbau des Unternehmens gefaehrdet. Positiv ist, dass Amazon seinen ersten verbindlichen Gewerkschaftsvertrag in Nordamerika abgeschlossen hat. Zudem wurde Amazon als Kunde fuer das Projekt Matador genannt. Ob das Amazon stärkt oder schwächt, ist aus den Meldungen noch unklar. Das war Amazon.",
+"audio": {
+"file": "sendung/2026-11-16-t_06.mp3",
+"hash": "77af773bc87e77d6",
+"dur": 31.2
+}
+},
+{
+"name": "Samsung Electronics",
+"sym": "005930.KS",
+"say": "Zur Aktie Samsung Electronics. Samsung Electronics baut seine Kompetenz bei KI-Chips aus und plant nun den Bau eigener Rechenzentren. Das Unternehmen befindet sich zudem in Verhandlungen zur Uebernahme von Modine, einem Spezialisten fuer Rechenzentrumskuehlung. Ausserdem wurden neue Produkte von Samsung Electronics vor der CES 2027 offiziell ausgezeichnet. Meine Einordnung aus diesen Meldungen: Sie könnten Samsung Electronics eher stärken. Das war Samsung Electronics.",
+"audio": {
+"file": "sendung/2026-11-16-t_07.mp3",
+"hash": "22dea2eee1a43de7",
+"dur": 38.0
+}
+},
+{
+"name": "Applied Materials",
+"sym": "AMAT",
+"say": "Zur Aktie Applied Materials. Applied Materials konnte im vierten Quartal Rekordergebnisse erzielen. Der Ausblick fuer Applied Materials bleibt dank der Nachfrage nach Speicherchips und Advanced Packaging positiv. Trotz einer UBS-Kurszielsenkung aufgrund der Bewertung erhielt Applied Materials eine neue Kaufempfehlung. Meine Einordnung aus diesen Meldungen: Sie könnten Applied Materials eher stärken. Das war Applied Materials.",
+"audio": {
+"file": "sendung/2026-11-16-t_08.mp3",
+"hash": "b2f683f83b80caf3",
+"dur": 34.3
+}
+},
+{
+"name": "Berkshire Hathaway",
+"sym": "BRK-B",
+"say": "Zur Aktie Berkshire Hathaway. Berkshire Hathaway verzeichnet weiterhin einen Rekordlauf bei den Aktienkursen. Warren Buffett bleibt der grosste Einzelaktionaer von Berkshire Hathaway, wobei sein Anteil durch Rueckkaeufe stillschweigend weiter ausgebaut wird. Meine Einordnung aus diesen Meldungen: Sie konnten Berkshire Hathaway eher starken. Das war Berkshire Hathaway.",
+"audio": {
+"file": "sendung/2026-11-16-t_09.mp3",
+"hash": "5b75fda722236817",
+"dur": 28.1
+}
+},
+{
+"name": "Quartalszahlen diese Woche",
+"say": "Quartalszahlen diese Woche. Diese Firmen aus deiner Liste melden ihre Quartalszahlen. Zur Aktie JD.com: Zahlen Dienstag, am siebzehnten November. Beim Umsatz erwarten sie rund dreihundertzweiundvierzig Komma vier Milliarden Dollar. Zur Aktie Nvidia: Zahlen Dienstag, am siebzehnten November. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von zwei Dollar und siebenundvierzig Cent. Beim Umsatz erwarten sie rund einhundertacht Komma sieben Milliarden Dollar.",
+"audio": {
+"file": "sendung/2026-11-16-t_10.mp3",
+"hash": "a096b749e064cfd6",
+"dur": 37.5
+}
+},
+{
+"name": "Begriff: Freier Cashflow",
+"say": "Zum Lernen, der Begriff des Tages: Freier Cashflow. Der freie Cashflow ist das Geld, das nach allen Ausgaben und Investitionen wirklich übrig bleibt. Damit kann eine Firma Schulden abbauen, Aktien zurückkaufen oder Dividenden zahlen.",
+"audio": {
+"file": "sendung/2026-11-16-t_11.mp3",
+"hash": "362fff8fc4ef59e0",
+"dur": 17.9
+}
+},
+{
+"name": "Schluss",
+"say": "Das war die Sendung vom Aktien-Radar. Die Quellen findest du in der App bei jeder Aktie, den ganzen Text über den Knopf Als Text. Bis morgen.",
+"audio": {
+"file": "sendung/2026-11-16-t_12.mp3",
+"hash": "cc4bc23e3e69d9dd",
+"dur": 11.5
+}
+}
+],
+"dur": 410.4,
+"full": {
+"file": "sendung/2026-11-16-t_full.mp3",
+"dur": 410.2,
+"marks": [
+[
+0,
+0.0
+],
+[
+1,
+29.9
+],
+[
+2,
+83.0
+],
+[
+3,
+116.3
+],
+[
+4,
+150.8
+],
+[
+5,
+181.3
+],
+[
+6,
+211.9
+],
+[
+7,
+243.1
+],
+[
+8,
+281.1
+],
+[
+9,
+315.4
+],
+[
+10,
+343.5
+],
+[
+11,
+381.0
+],
+[
+12,
+398.9
+]
+]
+}
+},
+{
 "id": "2026-11-14-w",
 "kind": "woche",
 "date": "2026-11-14",
@@ -2566,204 +2760,10 @@
 ]
 ]
 }
-},
-{
-"id": "2026-10-30-t",
-"kind": "tag",
-"date": "2026-10-30",
-"title": "Morgen-Sendung, Freitag, dreissigsten Oktober",
-"generated_at": "2026-10-30T05:12:39Z",
-"writer": "Gemini (Gratis-Kontingent) 8 Firmen, Rest Vorlage",
-"chapters": [
-{
-"name": "Begrüssung",
-"say": "Guten Morgen und willkommen zur Sendung vom Aktien-Radar, heute Freitag, dreissigsten Oktober. Zuerst ein kurzer Blick auf den Markt, dann die Firmen aus deiner Liste mit neuen Meldungen zu Produkten, Partnern und Projekten, danach die Quartalszahlen dieser Woche und zum Schluss ein Begriff zum Lernen. Kurz vorweg: Alles stammt aus gesammelten Daten und Schlagzeilen, Beträge nenne ich in Dollar. Das ist keine Anlageberatung.",
-"audio": {
-"file": "sendung/2026-10-30-t_00.mp3",
-"hash": "bc129a9485db51db",
-"dur": 29.7
-}
-},
-{
-"name": "Markt kurz",
-"say": "Der Markt kurz. Der S und P fünfhundert, der Index der fünfhundert grossen US-Firmen, stand zuletzt bei minus null Komma drei Prozent gegenüber dem Vortag. In deiner Liste am stärksten: GE Aerospace mit plus vier Prozent, Siemens Energy mit plus drei Komma sechs Prozent, UBS mit plus zwei Komma neun Prozent. Am schwächsten: ServiceNow mit minus sechsundzwanzig Komma neun Prozent, Marvell mit minus dreizehn Komma zwei Prozent. Zum Thema Zinsen meldet Bloomberg.com: Asiatische Aktien unter Druck, Zufluchtsangebot beflügelt Anleihen: Markets Wrap. Zum Thema Wall Street meldet Reuters: Die Wall Street endet im Minus, da Umsatzausfälle bei Alphabet die Investitionsunruhe bei KI wieder aufleben lassen.",
-"audio": {
-"file": "sendung/2026-10-30-t_01.mp3",
-"hash": "03eff81734bd1317",
-"dur": 55.8
-}
-},
-{
-"name": "Microsoft",
-"sym": "MSFT",
-"say": "Zur Aktie Microsoft. Microsoft meldet, dass sich Azure beschleunigt und ein starkes Quartal die Aktien erholt. Ausserdem hilft lokales Know-how Gemeinden dabei, das Beste aus neuen Technologien zu machen. Die Microsoft-Ergebnisse und der KI-Ausbau bleiben jedoch unter Beobachtung der Anleger. Zur Aktie Microsoft gibt es insgesamt positive Berichte zum Cloud-Geschäft. Meine Einordnung aus diesen Meldungen: Sie könnten Microsoft eher stärken. Das war Microsoft.",
-"audio": {
-"file": "sendung/2026-10-30-t_02.mp3",
-"hash": "2665c16302bf9b52",
-"dur": 36.4
-}
-},
-{
-"name": "ServiceNow",
-"sym": "NOW",
-"say": "Zur Aktie ServiceNow. Softwareaktien geraten insgesamt unter Druck, da ServiceNow hohe Erwartungen der Anleger verfehlt. Die ServiceNow-Aktie verzeichnete einen starken Kursrückgang an einem schwachen Tag. Ausserdem gibt es eine Untersuchungsmitteilung von SueWallSt zu ServiceNow. Zur Aktie ServiceNow zeigen die aktuellen Meldungen vor allem negative Reaktionen. Meine Einordnung aus diesen Meldungen: Sie könnten ServiceNow eher schwächen. Das war ServiceNow.",
-"audio": {
-"file": "sendung/2026-10-30-t_03.mp3",
-"hash": "2666d921c869def4",
-"dur": 35.7
-}
-},
-{
-"name": "Amazon",
-"sym": "AMZN",
-"say": "Zur Aktie Amazon. Amazon verzeichnet einen AWS-Auftragsbestand in Höhe von fünfhundertachtundsiebzig Milliarden Dollar, der schneller als der Umsatz wächst. Ausserdem hat Constellation zwanzig-Jahres-Verträge mit Amazon und Google unterzeichnet. Amazon investiert ausserdem viel in künstliche Intelligenz und setzt auf den Börsengang von Anthropic. Zur Aktie Amazon zeigen diese Grossaufträge und die Cloud-Entwicklung wichtige geschäftliche Fortschritte. Meine Einordnung aus diesen Meldungen: Sie könnten Amazon eher stärken. Das war Amazon.",
-"audio": {
-"file": "sendung/2026-10-30-t_04.mp3",
-"hash": "a7e316f632d3628b",
-"dur": 41.8
-}
-},
-{
-"name": "Intel",
-"sym": "INTC",
-"say": "Zur Aktie Intel. Intel sagt, dass es jeden erschwinglichen Laptop-Chip verkauft, den es herstellen kann. Dennoch stürzt die Intel-Aktie nach Enttäuschung über die Prognose ab. Zu den Belastungen zählen auch eine Fabrikexplosion in Israel und eine generelle PC-Schwäche. Zur Aktie Intel überwiegen die negativen Nachrichten deutlich. Meine Einordnung aus diesen Meldungen: Sie könnten Intel eher schwächen. Das war Intel.",
-"audio": {
-"file": "sendung/2026-10-30-t_05.mp3",
-"hash": "221363216957413c",
-"dur": 32.3
-}
-},
-{
-"name": "Samsung Electronics",
-"sym": "005930.KS",
-"say": "Zur Aktie Samsung Electronics. Der Chipgewinn von Samsung sorgt für ein weiteres Rekordquartal, obwohl die Gewinne die durch KI-Hoffnungen angehobenen Schätzungen verfehlt haben. Samsung Securities führt im Rahmen des Shelf-Programms neue aktiengebundene Anleihetranchen im Wert von zwanzig Milliarden KRW ein. Zur Aktie Samsung Electronics zeigt sich trotz verfehlter Schätzungen ein profitables Geschäft. Meine Einordnung aus diesen Meldungen: Sie könnten Samsung Electronics eher stärken. Das war Samsung Electronics.",
-"audio": {
-"file": "sendung/2026-10-30-t_06.mp3",
-"hash": "81c7eb6b4a6cdf03",
-"dur": 38.9
-}
-},
-{
-"name": "Meta",
-"sym": "META",
-"say": "Zur Aktie Meta. Meta arbeitet mit CNIB zusammen, um blinde, taubblinde oder sehbehinderte Kanadier zu unterstützen. Ausserdem gibt es eine wichtige SEC-Mitteilung zu einem Vertrag und einer Statutenänderung bei Meta Platforms. Zur Aktie Meta unterstreichen diese Meldungen soziale Initiativen und offizielle Dokumente. Meine Einordnung aus diesen Meldungen: Sie könnten Meta eher stärken. Das war Meta.",
-"audio": {
-"file": "sendung/2026-10-30-t_07.mp3",
-"hash": "065a986ecc4a2ea8",
-"dur": 32.0
-}
-},
-{
-"name": "Marvell",
-"sym": "MRVL",
-"say": "Kommen wir zur Aktie von Marvell. Aktuellen Berichten zufolge steht das Unternehmen kurz vor einem Mega-Deal zur Übernahme von Lumentum. Investoren reagieren intensiv auf diese Gerüchte, da der Zukauf als strategischer Vorstoss im Bereich der Künstlichen Intelligenz gewertet wird. Analysten erkennen zwar die strategische Logik hinter diesem Schritt, warnen jedoch gleichzeitig vor einer möglichen Überzahlung. Ob dieser geplante Grossdeal das Unternehmen langfristig stärken oder schwächen wird, bleibt nach den vorliegenden Meldungen noch abzuwarten.",
-"audio": {
-"file": "sendung/2026-10-30-t_08.mp3",
-"hash": "945eea1b67c931e1",
-"dur": 38.0
-}
-},
-{
-"name": "UBS",
-"sym": "UBSG.SW",
-"say": "Weiter geht es mit der Aktie der UBS. Die Grossbank hat in Naples im US-Bundesstaat Florida ein neu renoviertes Büro eröffnet. Zudem hat die UBS ihre Kaufempfehlung für Brinker International bekräftigt, da sie dort eine anhaltende Umsatzdynamik beobachtet. Diese Meldungen unterstreichen sowohl die operativen Aktivitäten als auch die Rolle der UBS als Analystenhaus. Aus den vorliegenden Informationen lassen sich solide Impulse für das Unternehmen ableiten.",
-"audio": {
-"file": "sendung/2026-10-30-t_09.mp3",
-"hash": "2671d29717865bc9",
-"dur": 34.8
-}
-},
-{
-"name": "Quartalszahlen diese Woche",
-"say": "Ein Blick auf die Quartalszahlen in dieser Woche. Nach den vorliegenden Daten sind für die von Ihnen beobachteten Aktien in diesem Zeitraum keine Quartalsergebnisse angekündigt.",
-"audio": {
-"file": "sendung/2026-10-30-t_10.mp3",
-"hash": "c9544f35aa123bfa",
-"dur": 12.4
-}
-},
-{
-"name": "Begriff: Volatilität",
-"say": "Zum Lernen, der Begriff des Tages: Volatilität. Volatilität beschreibt, wie stark ein Kurs schwankt. Eine volatile Aktie kann an einem Tag zehn Prozent steigen oder fallen. Mehr Schwankung heisst mehr Chance, aber auch mehr Risiko.",
-"audio": {
-"file": "sendung/2026-10-30-t_11.mp3",
-"hash": "0bd2337a80eb5ce4",
-"dur": 19.2
-}
-},
-{
-"name": "Schluss",
-"say": "Das war die Sendung vom Aktien-Radar. Die Quellen findest du in der App bei jeder Aktie, den ganzen Text über den Knopf Als Text. Bis morgen.",
-"audio": {
-"file": "sendung/2026-10-30-t_12.mp3",
-"hash": "cc4bc23e3e69d9dd",
-"dur": 11.5
-}
 }
 ],
-"dur": 418.5,
-"full": {
-"file": "sendung/2026-10-30-t_full.mp3",
-"dur": 418.6,
-"marks": [
-[
-0,
-0.0
-],
-[
-1,
-29.7
-],
-[
-2,
-85.5
-],
-[
-3,
-121.9
-],
-[
-4,
-157.6
-],
-[
-5,
-199.4
-],
-[
-6,
-231.7
-],
-[
-7,
-270.6
-],
-[
-8,
-302.6
-],
-[
-9,
-340.6
-],
-[
-10,
-375.4
-],
-[
-11,
-387.8
-],
-[
-12,
-407.0
-]
-]
-}
-}
-],
-"generated_at": "2026-11-14T07:53:41Z",
+"generated_at": "2026-11-16T13:02:03Z",
 "voice": "de-CH-LeniNeural",
 "source": "Yahoo Finance, SEC EDGAR, Schlagzeilen (Google News u.a.); Text: Gemini Gratis-Kontingent oder Vorlage",
-"audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@037e2e55eb6f088ffa956176fd56e88a94bc82fb/data/audio/"
+"audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@149fa829561534d3caacd76e54f8bc6e9d4e44cf/data/audio/"
 }
