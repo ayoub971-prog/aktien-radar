@@ -29,16 +29,16 @@
   },
   "HY9H.MU": {
    "file": "HY9H.MU.mp3",
-   "hash": "852a4df608dc4e43",
-   "th": "ca01f577c5af3972",
+   "hash": "9f6f902e0f534aff",
+   "th": "988a3246deb51175",
    "engine": "gemini",
-   "id": "5e58189174",
+   "id": "5164d28344",
    "voice": "Kore",
    "model": "gemini-2.5-flash-preview-tts",
    "br": 24,
-   "text": "Bei SK Hynix gibt es wichtige Neuigkeiten. Das Unternehmen plant eine Investition von eins Milliarde Dollar in die südkoreanische Chip-Lieferkette. Zudem geriet die Aktie unter Druck und verzeichnete Kursrückgänge, unter anderem belastet durch sinkende Prognosen und Markttrends, während das Unternehmen mit einer Kartellrechtsklage wegen angeblicher DRAM-Preisabsprachen konfrontiert wird. Zu den Analystenbewertungen berichtet TradingView, dass die Dynamik der Aktie schwach ist, aber Analystenziele und der Optimismus bezüglich HBM4 die Debatte prägen. Was macht die Firma gerade? Laut Investing.com plant SK Hynix eine Investition im Umfang von eins Milliarde Dollar über fünf Jahre zur Unterstützung von Chiplieferanten. MarketScreener Deutschland meldet zudem die Eröffnung eines gemeinsam getragenen Chip-Testzentrums in Yongin im Mai. Auf der abwertenden Seite berichtet boerse.de, dass die Aktien starke Kursverluste verzeichneten und Tiefstände erreichten. Als wichtige Kennzahl wird ein Kursziel von einhundertfünfzig Dollar genannt, was den von Analysten prognostizierten zukünftigen Aktienkurs beschreibt. Insider-Käufe oder -Verkäufe wurden in den Meldungen nicht erwähnt. Aussagen von Chefs liegen in den aktuellen Daten nicht vor. Widersprüche zwischen den verschiedenen Quellen wurden nicht festgestellt.",
-   "dur": 76.9,
-   "at": "2026-11-17T14:26:46Z"
+   "text": "SK Hynix steht aktuell stark im Fokus der Maerkte. Laut TradingView fielen die Aktien von SK Hynix um zwei Prozent, waehrend eine DRAM-Preisabsprachenklage voranschritt. Wie Yahoo Finance meldet, plant SK Hynix eine Investition von eins Milliarde Dollar in die südkoreanische Chip-Lieferkette. Zudem ist die Aktie von SK Hynix in einem Monat laut Yahoo Finance um sechzehn Prozent gefallen. In den vorliegenden Meldungen wurden Risiken und rechtliche Probleme gefunden, darunter eine voranschreitende DRAM-Preisabsprachenklage, die laut Yahoo Finance nicht abgewiesen werden konnte, sowie eine von GF Securities ausgesprochene Warnung vor einem Ueberangebot und einer gesenkten NAND-Preisprognose, was laut boerse.de zu einem neuen Sechs-Monats-Tief fuehrte. Bezueglich der Analysten bewerteten laut Blockchain News die Ziele der Analysten und der Optimismus von HBM4 weiterhin die Debatte, obwohl die Dynamik schwach ist. Zurueck zu SK Hynix und der Frage, was die Firma gerade macht: Als aufwertend wird genannt, dass SK Hynix laut Yahoo Finance plant, ueber einen Zeitraum von fuenf Jahren eins Milliarde Dollar auszugeben, um Chiplieferanten zu unterstuetzen. Als abwertend gelten die erwaehnten Klagen und die Warnung vor einem Ueberangebot. Unter den wichtigen Kennzahlen wird eine Marge von achtzig Prozent genannt, wobei die Marge anzeigt, wie viel Gewinn nach Abzug der Kosten verbleibt und die Profitabilitaet misst. Insider-Kaeufe oder -Verkaeufe wurden in den Meldungen nicht direkt ueber offizielle Pflichtmitteilungen der Boersenaufsicht genannt. Aussagen von Chefs oder dem Management liegen in den Daten nicht vor. Zu den Widerspruechen gibt es keine abweichenden Berichte.",
+   "dur": 101.5,
+   "at": "2026-11-17T22:38:17Z"
   },
   "AVGO": {
    "file": "AVGO.mp3",
@@ -192,27 +192,29 @@
   },
   "ARM": {
    "file": "ARM.mp3",
-   "hash": "8ab0f35ba653873d",
-   "th": "a34c39acc791c93d",
-   "id": "df8a2713e2",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
+   "hash": "b21092a54d6e8ae9",
+   "th": "3479d23d5733e2a8",
+   "engine": "gemini",
+   "id": "2499717853",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
    "br": 24,
-   "text": "Arm Holdings steht derzeit im Fokus der Finanzmedien, da Spekulationen über einen möglichen Wechsel von Firmenchef Rene Haas zu Nvidia die Aktie belasten. Laut dem Arm Newsroom arbeitet das Unternehmen gleichzeitig an neuen Partnerschaften und baut sein Ökosystem aus. In den vorliegenden Meldungen wurden keine rechtlichen Probleme gefunden, abgesehen von Kursrückgängen infolge der personellen Spekulationen. Zu den Analystenbewertungen gehören Neueinschätzungen mit verschiedenen Kurszielen. Laut Yahoo Finance liegt das durchschnittliche Kursziel der insgesamt vierzig Analysten bei rund zweihundertzweiundsiebzig Dollar, wobei Häuser wie die UBS ein Kursziel von rund zweihundertsiebzig Dollar nennen und die Einstufung auf Kaufen belassen. JP Morgan bestätigt ebenfalls das Votum Übergewichten und senkt das Kursziel auf rund zweihundertfünfundvierzig Dollar. TD Cowen nennt ein Kursziel von rund zweihundertfünfzig Dollar, RBC Capital rund dreihundert Dollar, Barclays rund dreihundertfünfundzwanzig Dollar und Wells Fargo rund zweihundertfünfundfünfzig Dollar. Zurück zu Arm Holdings: Was macht die Firma gerade? Laut Arm Newsroom treibt das Unternehmen die Kooperation mit Google Cloud für TPU-Infrastruktur voran, während sich Oracle Cloud Infrastructure dem Arm-AGI-CPU-Ökosystem anschliesst und das Portfolio um den Arm Cortex-M42 zur Beschleunigung von Edge-KI erweitert wird. Als belastend bewertet Yahoo Finance hingegen Berichte über mögliche Abwerbungen von Führungskräften durch Nvidia. Wichtige Kennzahlen sind das durchschnittliche Kursziel von rund zweihundertzweiundsiebzig Dollar, das höchste Kursziel von rund fünfhundert Dollar sowie das tiefste Kursziel von rund einhundertfünfundzwanzig Dollar. Bei den Insideraktivitäten zeigt sich, dass Finanzchef Jason Child im September 2026 im Rahmen geplanter Verkaufspläne Aktien im Wert von rund drei Komma eins Millionen Dollar veräussert hat.",
-   "dur": 135.6,
-   "at": "2026-11-15T08:02:39Z"
+   "text": "Arm Holdings: Die Aktie von Arm Holdings verzeichnete im November 2026 deutliche Kursbewegungen, darunter zeitweise Verluste von rund sieben Prozent, gefolgt von Erholungen. Laut Yahoo Finance sorgten zudem Medienberichte fuer Aufmerksamkeit, wonach der Firmenchef Rene Haas als potenzieller Nachfolger bei Nvidia gehandelt wird. Im operativen Geschaeft meldet der Arm Newsroom Fortschritte wie die allgemeine Verfuegbarkeit von Microsoft Azure Cobalt zweihundert-VMs sowie eine Zusammenarbeit mit Google Cloud. Zurueck zu Arm Holdings: Die Aktie geriet im Zuge eines allgemeinen Marktausverkaufs und Berichten ueber eine thetwaige Abwanderung des Firmenchefs zeitweise stark unter Druck. Die Analysten-Bewertungen zeigen ein ueberwiegend positives Bild: Die UBS bewertet die Aktie mit Kaufen und einem Kursziel von zweihundertsiebzig Dollar, JP Morgan bewertet das Papier mit Uebergewichten und einem Kursziel von zweihundertfünfundvierzig Dollar. TD Cowen fuehrt die Aktie mit Kaufen und einem Kursziel von zweihundertfünfzig Dollar, waehrend RBC Capital ein Kursziel von dreihundert Dollar bei der Einstufung als besser als der Markt ansetzt. Barclays bestaetigt die Einstufung auf Uebergewichten mit einem Kursziel von dreihundertfünfundzwanzig Dollar, und Wells Fargo nennt ein Kursziel von zweihundertfünfundfünfzig Dollar bei gleicher Einstufung. Der Analystenkonsens bei Yahoo Finance listet insgesamt acht starke Kaeufe, achtundzwanzig Kaeufe, vierzehn Halteempfehlungen und eins Verkauf bei einem durchschnittlichen Kursziel von zweihundertzweiundsiebzig Dollar. Was die Firma gerade macht, zeigt sich in den aufwertenden Meldungen: Neben den Azure-VMs und der Google-Cloud-Partnerschaft treibt das Unternehmen seine Projekte voran, und TradingView meldet einen starken Anstieg der Lizenzeinnahmen um fünfzig Prozent als Signal fuer eine robuste KI-gesteuerte Nachfrage. Demgegenueber steht als abwertender Faktor die Diskussion um die Nachfolge von Jensen Huang bei Nvidia, die Arm-Chef Rene Haas in den Fokus bringt und das Unternehmen belasten koennte. Wichtige Kennzahlen umfassen das durchschnittliche Kursziel der Analysten von zweihundertzweiundsiebzig Dollar sowie das Lizenzeinnahmen-Wachstum von plus fünfzig Prozent. Bei den Widerspruechen berichten Portale wie Wallstreet Online ueber zeitweise mehr als sieben Prozent Kursverlust, waehrend Finanzen.net im gleichen Zeitraum Kursanstiege und Erholungen am Abend meldet.",
+   "dur": 141.8,
+   "at": "2026-11-17T22:39:33Z"
   },
   "HOOD": {
    "file": "HOOD.mp3",
-   "hash": "cb7954c0e5b703fc",
-   "th": "dd9fa67fb7f6e174",
-   "id": "c716785bad",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
+   "hash": "4817c1f883158998",
+   "th": "f4765f8a1bded046",
+   "engine": "gemini",
+   "id": "6ab119bbc6",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
    "br": 24,
-   "text": "Robinhood Markets steht derzeit im Fokus verschiedener Meldungen und Analystenberichte. Laut Reuters prüft der Oberste Gerichtshof der USA eine Investorenklage zum Börsengang des Unternehmens aus dem Jahr 2021. Zudem meldet Yahoo Finance, dass Robinhood im Oktober achtundzwanzig Komma neun Millionen finanzierte Kunden zählte, während die Aktie zeitweise durch eine Krypto-Flaute belastet wurde. Als Risiken und rechtliche Punkte sind neben dem Verfahren vor dem Obersten Gerichtshof ein Rückgang des Kryptovolumens um achtundvierzig Prozent und ein Minus von dreiundvierzig Prozent bei den Erträgen aus der Wertpapierleihe zu nennen. Zurück zu Robinhood Markets: Mehrere Analysehäuser haben ihre Kursziele angepasst, bleiben der Aktie aber mehrheitlich positiv gestimmt. So bestätigte Goldman Sachs die Bewertung Kaufen mit einem Kursziel von einhundertachtundzwanzig Dollar, Truist Securities empfiehlt den Kauf mit einem Kursziel von einhundertdreiundzwanzig Dollar, Cantor Fitzgerald führt die Aktie mit Übergewichten und einem Kursziel von einhundertzwanzig Dollar, Barclays stuft sie mit Übergewichten und einhundertfünfzehn Dollar ein, JP Morgan bewertet sie neutral mit einem Kursziel von einhundertvierzehn Dollar und Wells Fargo führt sie mit Marktgewichten und einem Kursziel von einhundert Dollar. Operativ plant das Unternehmen laut Handelsblatt, Finanzwerte über eine eigene Blockchain zu verkaufen, und profitiert von stark gestiegenen Prognosewetten sowie Margin-Salden von dreiundzwanzig Milliarden Dollar, während die sinkenden Krypto- und Wertpapierleihe-Volumina belasten.",
-   "dur": 108.2,
-   "at": "2026-11-15T08:02:44Z"
+   "text": "Robinhood Markets erlebt derzeit eine volatile Phase an den Börsen. Laut Yahoo Finance steht die Aktie unter Druck, da Konkurrenzängste durch den geplanten Markteintritt von Kalshi in den Aktienhandel und Krypto-Rückgänge die Einnahmen belasten. Hinzu kommen rechtliche Sorgen: Ein ehemaliger Mitarbeiter bekannte sich in einem Insiderhandelsfall und wegen Überweisungsbetrugs bei Krypto-Futures schuldig, und auch der Oberste Gerichtshof befasst sich mit einem Verfahren zur IPO-Offenlegung aus dem Jahr 2021. Zudem gefährdet der Widerstand von Senatoren das prognostizierte Marktwachstum im Bereich der Vorhersagemärkte. Analysten äussern sich trotz gesenkter Kursziele überwiegend positiv und bestätigen ihre Kaufempfehlungen. Das Konsensurteil umfasst zahlreiche Kauf- und stark Kaufen-Empfehlungen. Laut Yahoo Finance liegt das durchschnittliche Kursziel der Analysten bei einhundertsiebenundzwanzig Dollar, wobei Evercore ISI den Ausverkauf als zu weit gegangen bewertet. Widersprüchliche Einschätzungen gibt es bezüglich der Bewertung des Ausverkaufs: Während Evercore ISI besagt, dass der Ausverkauf zu weit gegangen ist, zeigen andere Aussichten einen überverkauften Zustand, bei dem der Abwärtstrend nach der Bedrohung intakt ist.",
+   "dur": 75.8,
+   "at": "2026-11-17T22:40:25Z"
   },
   "WNRG.SW": {
    "file": "WNRG.SW.mp3",
@@ -325,39 +327,39 @@
   },
   "0VR3.L": {
    "file": "0VR3.L.mp3",
-   "hash": "75deb4edf33fe428",
-   "th": "e00841b4f1083b01",
-   "id": "f1e264b58b",
+   "hash": "c74ac30ff4c61166",
+   "th": "327afa5d2f71f4a2",
+   "id": "71aba7585b",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "ZKB Gold ETF: In den aktuellen Berichten zeigt sich das Edelmetall stark unter Druck. Laut dem Schweizer Finanzportal finanzen.ch ist der Goldpreis auf den tiefsten Stand seit Oktober 2025 gefallen. Ein starker Dollar und anhaltende Sorgen vor Zinserhoehungen der US-Notenbank belasten das Metall gemaess derselben Quelle stark, wie finanzen.ch meldet. Auch das deutsche Boersenportal Wallstreet Online berichtet von Kursbewegungen und nennt einen Goldpreis von rund dreitausendachthunderteinundsiebzig Dollar bei einem leichten Plus von rund null Komma vier Prozent, waehrend die indische Wirtschaftszeitung The Economic Times gleichzeitig vor dem schlimmsten Jahr fuer Gold seit 2015 warnt. Zurueck zu ZKB Gold ETF: In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Zu den Analysten-Bewertungen liegen aktuell keine konkreten Einstufungen vor. Was die Marktlage betrifft, so berichten Medien wie die indische Wirtschaftszeitung The Economic Times, dass Edelmetallhaendler weiterhin auf eine Marke von rund viertausend Dollar hoffen. Demgegenueber steht die negative Entwicklung, dass laut dem Finanzportal Yahoo Finance der Goldpreis den niedrigsten Stand seit ueber einem Jahr erreicht hat. Zu den wichtigen Kennzahlen ist der Goldpreis bei rund dreitausendachthunderteinundsiebzig Dollar sowie das neue Jahrestief von rund dreitausendachthundertdreiundfünfzig Dollar zu nennen; diese Kurse spiegeln den Wert des Edelmetalls wider und sind fuer Investoren von zentraler Bedeutung. Insider-Kaeufe oder Verkaeufe wurden in den Meldungen nicht verzeichnet. Aussagen von Chefs oder dem Management liegen ebenfalls nicht vor.",
-   "dur": 117.4,
-   "at": "2026-11-17T14:28:05Z"
+   "text": "ZKB Gold ETF: Der vorliegende Marktbericht stützt sich auf aktuelle Meldungen verschiedener Finanzportale und Nachrichtenagenturen. Laut CNBC, einem US-Wirtschaftssender, bewegt sich der Goldpreis im Rahmen täglicher Marktberichte. Das deutsche Börsenportal Wallstreet Online meldet einen zwischenzeitlich festeren Goldpreis von aktuell dreitausendachthunderteinundsiebzig,zweiundvierzig USD. Zurück zu ZKB Gold ETF: Portale wie finanzen.ch, ein Schweizer Finanzportal, weisen darauf hin, dass der Goldpreis unter anderem wegen eines starken Dollars und Zinssorgen unter Druck gerät und auf den tiefsten Stand seit Oktober 2025 gefallen ist, wobei der Abwärtstrend anhält. Als wesentliche Kennzahl wird der Goldpreis aktuell mit dreitausendachthunderteinundsiebzig,zweiundvierzig USD genannt, gemäss der Meldung von Wallstreet Online. Analysten-Bewertungen, Insider-Käufe oder -Verkäufe sowie Aussagen von Unternehmenschefs wurden in den berücksichtigten Daten nicht aufgeführt. Widersprüche zwischen den berücksichtigten Quellen lassen sich nicht feststellen.",
+   "dur": 77.8,
+   "at": "2026-11-17T22:40:31Z"
   },
   "BKW.SW": {
    "file": "BKW.SW.mp3",
-   "hash": "f486bb575ba766e0",
-   "th": "e64da25824ac9157",
-   "id": "4f15746352",
+   "hash": "ae5239938de9949a",
+   "th": "101a43782719e156",
+   "id": "dbc1deaf6e",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Bei der BKW Aktie trennten sich Anleger vermehrt von den Papieren, was zu Kursverlusten führte. Laut dem Schweizer Finanzportal finanzen.ch zeigte sich die Aktie mit negativen Vorzeichen. Zudem berichtete das Schweizer Portal Blick, dass die BKW AG den Rabatt auf Aktien für Angestellte abgeschafft hat. Zu den Analystenbewertungen gibt es laut Yahoo Finance im Konsens von sechs Analysten Einschätzungen mit einem durchschnittlichen Kursziel von einhundertsiebzig Dollar, was einem Aufwärtspotenzial von dreizehn Komma acht Prozent entspricht. Als wichtige Kennzahl ist dieses durchschnittliche Kursziel zu nennen, welches anzeigt, wo Analysten den fairen Wert der Aktie in der Zukunft sehen.",
-   "dur": 48.5,
-   "at": "2026-11-17T14:28:16Z"
+   "text": "Bei der BKW AG berichten verschiedene Portale wie finanzen.ch und boerse.de über Kursverluste, wodurch das Papier unter die einhundert-Tage-Linie gerutscht ist. Laut Yahoo Finance liegt der Analystenkonsens bei zwei Kaufempfehlungen, drei Halteeinstufungen, einer Verkaufsempfehlung sowie jeweils einer Einstufung als stark kaufen und stark verkaufen. Das durchschnittliche Kursziel bewegt sich bei rund einhundertsiebzig Dollar, wobei die Spanne von rund einhundertsiebenunddreissig Dollar bis zu rund zweihundertzwei Dollar reicht. Operativ sorgt eine Meldung des Blick für Gesprächsstoff, wonach die BKW den Rabatt auf Aktien für Angestellte abschafft.",
+   "dur": 46.2,
+   "at": "2026-11-17T22:40:34Z"
   },
   "UBSG.SW": {
    "file": "UBSG.SW.mp3",
-   "hash": "c3c74cf067392a47",
-   "th": "7f325ae7577f4863",
-   "id": "d20c09742f",
+   "hash": "9dd263485b6e2015",
+   "th": "f130479cde5f3df3",
+   "id": "335169070b",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "UBS Group: Die vorliegenden Berichte zeigen ein abwechslungsreiches Bild für die Bankengruppe. Laut Yahoo Finance, einem Finanzportal, das Meldungen und Analystenbewertungen bündelt, schätzt die UBS die Schwellenländer als agil ein und stellt positive Zuwächse für das Jahr 2027 in Aussicht. TradingView, eine Chart- und Börsenplattform, meldet zudem, dass die UBS ihren Anteil auf fünf Komma fünf Prozent erhöht hat und Operationen in Ungarn plant. Auf der Schattenseite berichtet Finanzen.net, ein deutsches Finanzportal, von einer Kurszielsenkung bei Nvidia infolge von Streitigkeiten um die Unternehmensspitze. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Bei den Analysten-Bewertungen zeigt sich ein gemischtes Bild: Die UBS vergibt für Unternehmen wie Nvidia, SpaceX und Peabody Energy Kaufempfehlungen, während Brenntag SE und Amrize AG neutral eingestuft werden. Die Netwealth Group wurde ebenfalls mit einem angepassten Kursziel bedacht. Im Durchschnitt sehen Analysten ein mittleres Kursziel von rund vierundfünfzig Dollar. Zurück zu UBS Group: Operativ ist die Bank stark in Konferenzen eingebunden, wie etwa die Biopharma-Konferenz, auf der Unternehmen Einblicke in ihre Pipelines gaben. Wichtige Kennzahlen wie das durchschnittliche Kursziel verdeutlichen die Erwartungen des Marktes. Insider-Käufe oder -Verkäufe wurden in den aktuellen Meldungen nicht verzeichnet. Aussagen von Führungskräften direkt zur Unternehmensstrategie abseits der Konferenzen liegen für diesen Zeitraum nicht vor.",
-   "dur": 111.1,
-   "at": "2026-11-16T23:12:18Z"
+   "text": "Die UBS Group steht derzeit wegen Portfolioanpassungen und regulatorischer Hürden im Fokus. So hat der aktivistische Investor Cevian rund ein Viertel seiner Anteile abgestossen, wie die Finanz und Wirtschaft berichtet, was den Kurs belastete. Zudem stellt sich die Grossbank laut finanzen.ch im Streit um strengere Schweizer Kapitalregeln offenbar auf eine Niederlage ein. Auf der Analystenseite nennt Yahoo Finance ein durchschnittliches Kursziel von dreiundfünfzig Komma neun Dollar bei insgesamt siebzehn analysierenden Experten, während Finanzen.net eine Verkaufsempfehlung führt. Das höchste Kursziel liegt bei einundsiebzig Komma vier eins Dollar und das tiefste bei vierzig Komma vier fünf Dollar. Positiv hebt sich hervor, dass die UBS globale Konferenzen veranstaltet, auf denen Firmen wie AbCellera, Viatris und Cogent Biosciences Einblicke in ihre Studien geben. Konzernchef Sergio Ermotti äusserte sich laut Yahoo Finance zu grossen wirtschaftlichen Vorteilen durch Künstliche Intelligenz, warnte jedoch gleichzeitig, dass die US-Politik eine Verlangsamung des Ausbaus auslösen könnte.",
+   "dur": 77.7,
+   "at": "2026-11-17T22:40:42Z"
   },
   "MSFT": {
    "file": "MSFT.mp3",
@@ -385,39 +387,39 @@
   },
   "013A.F": {
    "file": "013A.F.mp3",
-   "hash": "4ffcd5448ae4278e",
-   "th": "a29e8a86d7a60977",
-   "id": "2dc7c0e1aa",
+   "hash": "89dc9e13ce3a54ef",
+   "th": "d900317cac3cf4a2",
+   "id": "aad01f9d8e",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "JD.com: Zu den wichtigsten Entwicklungen gehört laut der japanischen Wirtschaftszeitung Nikkei Asia, dass JD.com die Übernahme des deutschen Haushaltsgerätehändlers für rund eins Komma fünf Milliarden Dollar abgeschlossen hat. Die Tech Times berichtet ergänzend, dass die Europäische Union die Transaktion unter der Bedingung genehmigt hat, die Logistik für Rivalen zu öffnen. Das Finanzportal Yahoo Finance Singapore weist darauf hin, dass im Vorfeld der Quartalszahlen vor allem E-Commerce-Schwäche und das KI-Wachstum im Fokus stehen. Als Risiken und Belastungen verweist das deutsche Börsenportal boerse.de auf eine Abstufung durch den BOTSI-Advisor von Rang dreihundertfünfundsiebzig. In den vorliegenden Meldungen wurden ansonsten keine weiteren rechtlichen Probleme gefunden. Zu den Analystenbewertungen: Barclays bestätigt das Rating Übergewichten und setzt das Kursziel auf achtunddreissig Dollar. B of A Securities bestätigt das Rating Kaufen mit einem Kursziel von siebenunddreissig Dollar. Susquehanna bestätigt die Einstufung Neutral bei einem Kursziel von dreissig Dollar. Die genannte Chart- und Börsenplattform TradingView berichtet zudem, dass Anleger und Beobachter wie Burry die Aktie als unterbewertet einschätzen. Zurück zu JD.com: Operativ schliesst das Unternehmen die Übernahme des MediaMarkt-Eigentümers Ceconomy ab, wobei eine Beteiligung von etwa sechzig Prozent erworben wurde, während die genannte Chart- und Börsenplattform TradingView den Beitritt von Zara-Marken sowie einen Fonds im Volumen von fünfzig Millionen Dollar meldet. Als abwertend gilt hingegen, dass die EU-Vorgaben die Logistik für Wettbewerber öffnen. Zu den wichtigsten Kennzahlen ist der Übernahmewert von rund eins Komma fünf Milliarden Dollar zu nennen, der die Grösse der Transaktion verdeutlicht. Insider-Käufe oder -Verkäufe wurden in den offiziellen Meldungen dieses Berichtszeitraums nicht verzeichnet. Aussagen von Chefs oder dem Management lagen in den Berichten keine vor. Widersprüche zwischen den Quellen konnten nicht festgestellt werden. Keine Anlageberatung.",
-   "dur": 145.7,
-   "at": "2026-11-17T05:14:58Z"
+   "text": "JD.com steht im Fokus der Finanzmärkte nach der Vorlage der jüngsten Quartalszahlen. Laut Yahoo Finance, einem Finanzportal, das Meldungen und Analystenbewertungen bündelt, kehrte JD.com im dritten Quartal zum Umsatzwachstum zurück und steigerte den Umsatz um drei Komma fünf Prozent auf sechsundvierzig Komma zwei Milliarden Dollar. Gleichzeitig meldeten verschiedene Quellen wie Investing.com Deutsch, dass der Gewinn um vierundvierzig Prozent stieg, während andere Berichte von Yahoo Finance und MarketScreener Schweiz darauf hinwiesen, dass der Gewinn je Aktie die Schätzungen verfehlte und der Cashflow Sorgen bereitet. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Zu den Analysten-Bewertungen: Barclays bestätigte die Einstufung auf Übergewichten und senkte das Kursziel auf achtunddreissig Dollar. B of A Securities bestätigte die Einstufung auf Kaufen und senkte das Kursziel auf siebenunddreissig Dollar. Susquehanna bestätigte die Einstufung auf Neutral und senkte das Kursziel auf dreissig Dollar. Zurück zu JD.com: Was macht die Firma gerade? Aufwertend wirkt, dass JD.com zum Umsatzwachstum zurückkehrte, die Margen ausweiten konnte und Gewinnerwartungen durch Kostensenkungen übertraf. Abwertend wirkt jedoch, dass die Aktie nach den Zahlen nachgab, weil Anleger das Wachstum als schleppend empfanden und chinesische Aktien insgesamt an Gunst verloren haben. Als wichtige Kennzahl ist der Umsatz von sechsundvierzig Komma zwei Milliarden Dollar zu nennen, welcher den Gesamtumsatz zeigt und für die Beurteilung der Grösse zentral ist. Insider-Käufe oder -Verkäufe wurden in den offiziellen Daten nicht verzeichnet. Aussagen von Chefs liegen in den Berichten keine vor. Bei den Widersprüchen stehen sich Meldungen gegenüber, wonach der Gewinn stark gestiegen sei, während andere Quellen betonen, dass der Gewinn je Aktie die Erwartungen verfehlt habe. Keine Anlageberatung.",
+   "dur": 137.4,
+   "at": "2026-11-17T22:41:07Z"
   },
   "NVDA": {
    "file": "NVDA.mp3",
-   "hash": "8c3fe433465a782f",
-   "th": "39cbae28160524a9",
-   "id": "c4b2301fe7",
+   "hash": "452ccde60dd0f3b5",
+   "th": "e60e106a5701cdc9",
+   "id": "fc28680add",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Nvidia erlebt derzeit turbulente Zeiten an der Boerse. Laut dem SPIEGEL, einem deutschen Nachrichtenmagazin, buessten die Aktien des Unternehmens nach dem Ruecktritt von Vorstandschef Jensen Huang stark an Wert ein. Ergaenzend berichtet das Wall Street Journal, eine US-Wirtschaftszeitung, dass dem Ruecktritt interne Vorbereitungen zur Absetzung sowie eine Spionageaffaere vorausgingen. Die Nachrichten sorgten fuer deutliche Kursverluste und Verunsicherung unter den Anlegern, waehrend Konkurrenten wie AMD und Broadcom von diesen Entwicklungen profitieren konnten. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden, abgesehen von den erwaehnten Berichten zur Spionageaffaere und dem Chefwechsel. Analysten reagierten prompt auf die Krise. So stuft Melius Research die Aktie nun auf Halten herab und senkt das Kursziel auf einhundertfünfundachtzig Dollar. Auch andere Analysehaeuser wie DA Davidson und die Bank of America haben ihre Kursziele deutlich nach unten korrigiert. Zurueck zu Nvidia: Die Firma kaempft aktuell mit den Folgen des Managementwechsels, waehrend Konkurrenten versuchen, Marktanteile zu gewinnen. Zu den wichtigen Kennzahlen gehoert das von Yahoo Finance genannte durchschnittliche Kursziel von rund zweihundertachtundsiebzig Dollar, das jedoch von vielen Instituten gesenkt wurde. Bei den Insidern gab es in den letzten Monaten verschiedene Verkaeufe, darunter Transaktionen von Finanzchefin Colette Kress im Wert von rund sieben Komma sechs Millionen Dollar sowie groessere Verkaeufe durch Verwaltungsrat Mark A Stevens. Generell ist zu beachten, dass Insider-Verkaeufe oft weniger aussagekraeftig sind als Kaeuefe, da sie beispielsweise steuerlich motiviert oder ueber langfristige Plaene im Voraus geregelt sein koennen. Aussagen von aktuellen Chefs wurden in den Meldungen nicht direkt zitiert. Es gibt derzeit keine nennenswerten Widersprueche zwischen den berichtenden Medien, da der Fokus einheitlich auf dem Chefwechsel und den Kursverlusten liegt. Keine Anlageberatung.",
-   "dur": 138.4,
-   "at": "2026-11-15T08:03:35Z"
+   "text": "Nvidia steht im Fokus der Finanzmärkte wegen aktueller Geschäftszahlen und personeller Veränderungen. Laut Yahoo Finance, einem Finanzportal, das Meldungen und Analystenbewertungen bündelt, hat Nvidia im dritten Quartal starkes Wachstum gemeldet und einen Umsatz von einhundertfünfzehn Komma acht Milliarden Dollar erzielt. Die Prognose für das kommende Geschäft beläuft sich auf einhundertdreissig Milliarden Dollar, schliesst jedoch Verkäufe von Chips nach China aus. Zudem gab es den ersten Ergebnisbericht nach dem Abgang von Jensen Huang. Zu den Risiken wird über Führungsunsicherheiten, eine Spionage-Affäre um den ehemaligen Chef Jensen Huang sowie versteckte Risiken des KI-Booms berichtet, was rechtlich relevant ist. Das Konsensrating setzt sich laut Yahoo Finance aus siebenundvierzig Mal Kaufen, vierzehn Mal Halten, zwei Mal Verkaufen, elf Mal Stark Kaufen und null Mal Stark Verkaufen zusammen, und das durchschnittliche Kursziel von fünfundfünfzig Analysten liegt bei zweihundertfünfundsechzig Dollar, was ein Aufwärtspotenzial von siebzig Komma sechs Prozent bedeutet. Zu den jüngsten Bewertungen gehören Melius Research mit Halten und einem Kursziel von einhundertfünfundachtzig Dollar, DA Davidson mit Kaufen und zweihundert Dollar, Craig-Hallum mit Halten und einhundertachtzig Dollar, B of A Securities mit Kaufen und zweihundertachtzig Dollar, BMO Capital mit Besser als Markt und zweihundertvierzig Dollar sowie Baird mit Neutral und zweihundert Dollar. Aktuell hat Nvidia das Engagement mit Lieferkettenpartnern zur Unterstützung des Aufbaus der KI-Infrastruktur erweitert, während die Ausklammerung der China-Chipverkäufe und Berichte über Kurseinbrüche und Führungsunsicherheiten nach dem Weggang von Jensen Huang abwertend wirken. Als wichtige Kennzahl ist der Umsatz von einhundertfünfzehn Komma acht Milliarden Dollar genannt, welcher die Erwartungen der Wall Street schlug. Bei den Widersprüchen wird einerseits diskutiert, ob Jensen Huang zu Nvidia zurückkehren könnte, wobei der Vorstandsvorsitzende erklärte, Nvidia werde ihn nicht wieder einstellen, während Jensen Huang selbst äusserte, es wäre ihm eine Ehre, als Chef zurückzukehren. Keine Anlageberatung.",
+   "dur": 147.9,
+   "at": "2026-11-17T22:41:28Z"
   },
   "1211.HK": {
    "file": "1211.HK.mp3",
-   "hash": "3b6f2f96512cd2d1",
-   "th": "776237385550aaa9",
-   "id": "c0e75fd761",
+   "hash": "6913b620fd4e7a68",
+   "th": "8790dbd7a6d9c0ad",
+   "id": "980a81bd40",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Die Aktie von BYD verzeichnet ein neues zwölf-Monats-Tief und rutscht unter den kurzfristigen Trend. Zu den Belastungsfaktoren gehört, dass die US-Gewerkschaft UAW den Kongress vor chinesischen Autoherstellern gewarnt und Massnahmen gefordert hat, damit China keinen festen Fuss fasst. Zudem trennte sich Cathie Woods ARK laut Investing.com von BYD-Aktien, und der Konkurrent Geely übertrifft laut AutoNext.co den BYD Seagull in China fast viermal zu eins. Operativ expandiert BYD hingegen und führt laut MarketScreener die Luxusmarke Denza in Indien ein, um dort gegen Mercedes und Toyota anzutreten, wodurch das Unternehmen laut Cartoq in der Lage sein wird, deutlich mehr Elektroautos in Indien zu verkaufen. Der Analystenkonsens umfasst sechs starke Käufe, zweiundzwanzig Käufe, vier Halten und null Verkäufe. Das durchschnittliche Kursziel liegt bei rund dreizehn Komma fünf neun Dollar, mit einem Höchstwert von rund siebzehn Komma zwei Dollar und einem Tiefstwert von rund sieben Komma sechs vier Dollar.",
-   "dur": 75.7,
-   "at": "2026-11-17T14:28:29Z"
+   "text": "BYD steht derzeit an den Boersen unter Druck, nachdem das Schweizer Finanzportal finanzen.ch und das Boersenportal boerse.de berichten, dass sich Investoren vermehrt von der Aktie trennen und diese ein neues zwölf-Monats-Tief erreicht hat. Als Belastung und Risiko wird zudem genannt, dass die US-Gewerkschaft UAW laut Yahoo Finance den Kongress vor chinesischen Automobilherstellern gewarnt hat, damit China keinen Fuss fasst. Auf der operativen Seite treibt BYD seine internationale Praesenz voran. Yahoo Finance meldet die Einfuhrung des neuen Elektro-SUV Atto drei Evo mit einer einhundert-kW-Konfiguration, und MarketScreener berichtet uber den Start der Luxusmarke Denza in Indien. Demgegenueber stehen Berichte von AutoNext.co, wonach der Geely EX2 den BYD Seagull in China fast viermal zu eins bei den Verkaufszahlen ubertrifft, sowie Hinweise von Blockchain News auf sinkende Notierungen. Von insgesamt zweiunddreissig Analysten wird laut Yahoo Finance ein durchschnittliches Kursziel von rund dreizehn Komma fünf neun Dollar genannt. Bei den Insidern hat der Fonds ARK von Cathie Wood laut Investing.com BYD-Aktien verkauft.",
+   "dur": 85.6,
+   "at": "2026-11-17T22:41:36Z"
   },
   "SHL.DE": {
    "file": "SHL.DE.mp3",
@@ -469,15 +471,15 @@
   },
   "ABBN.SW": {
    "file": "ABBN.SW.mp3",
-   "hash": "e450588e59a260ab",
-   "th": "6b28ddf74e42be8f",
-   "id": "ac58f138e2",
+   "hash": "1aa291c23c8b459f",
+   "th": "bd29a98e74c90779",
+   "id": "182c35910f",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "Das Finanzportal Yahoo Finance und weitere Medien berichten über Neuigkeiten zur Aktie von ABB. CNBC TV18 meldet, dass ABB India im dritten Quartal einen Nettogewinnanstieg von acht Prozent sowie ein Umsatzwachstum von neunzehn Prozent verzeichnete, gestuetzt durch Rekordauftraege. Laut MarketScreener Schweiz geht ABB zudem eine Partnerschaft zur Entwicklung von Weiterbildungs- und Schulungsprogrammen in Singapur ein, waehrend Yahoo Finance berichtet, dass das Unternehmen eine Methan-Detektionstechnologie fuer zukuenftige Marsmissionen weiterentwickeln will. Zu den berücksichtigten Meldungen und Risiken: Investing.com berichtet, dass ABB India im dritten Quartal 2026 den Gewinn je Aktie verfehlte, woraufhin die Aktie um zwei Komma fünf Prozent abrutschte. Zudem meldet boerse.de eine Abstufung beim BOTSI-Advisor. Analysten von Yahoo Finance bündeln den Konsens mit zwei starken Kaufempfehlungen, fünf Kaeufen, zwanzig Halteempfehlungen, eins Verkauf und eins starken Verkauf. Laut NDTV Profit hat Motilal Oswal das Rating fuer ABB India nach den Quartalszahlen verbessert und den Zielpreis erhoeht, da das Unternehmen alle Erwartungen erfuellte. HDFC Securities hat ebenfalls neue Zielpreise veröffentlicht. In den vorliegenden Meldungen wurden keine Insider-Kaeufe oder -Verkaeufe genannt.",
-   "dur": 100.5,
-   "at": "2026-11-17T14:28:44Z"
+   "text": "ABB zeigt an den Maerkten ein gemischtes Bild aus innovativen Projekten, Partnerschaften und einigen operativen Huerden. Laut dem Finanzportal marketscreener.com treibt das Unternehmen die Methan-Detektionstechnologie fur zukuenftige Marsmissionen voran und schliesst zudem laut MarketScreener Schweiz eine Partnerschaft zur Entwicklung von Weiterbildungs- und Schulungsprogrammen in Singapur ab. Yahoo Finance verweist zudem auf den globalen Markt fur automatisierte Nietsysteme und intelligente Fabriken. Auf der Gegenseite steht laut dem Portal Traders Union ein gewisser Verkaufsdruck an den Boersen. Als Risiken oder Belastungen werden genannt, dass ABB India im drei. Quartal 2026 laut Investing.com den Gewinn je Aktie verfehlte, was zu Kursrueckgaengen von zwei Komma fünf Prozent fuhrte, und dass Business Standard auf kurzfristigen Gegenwind bei den Margen hinweist. Analysten bewerten die Aktie laut Yahoo Finance mit einem Konsens von siebenundzwanzig Analysten und einem durchschnittlichen Kursziel von neunundneunzig Dollar, was ein Kurspotenzial von +zweiundzwanzig Komma drei Prozent eroeffnet. Das hoechste Kursziel liegt bei einhundertsiebzehn Dollar und das tiefste bei achtzig Komma acht fünf Dollar. Das Analysehaus Bernstein vergab ein neutrales Rating, waehrend Motilal Oswal die Einstufung und das Kursziel fur ABB India anpasste.",
+   "dur": 98.3,
+   "at": "2026-11-17T22:41:48Z"
   },
   "STX": {
    "file": "STX.mp3",
@@ -505,21 +507,21 @@
   },
   "DRO.AX": {
    "file": "DRO.AX.mp3",
-   "hash": "fcde82f1b4cabb3b",
-   "th": "192367078af7f0c9",
-   "id": "ef93f328b5",
+   "hash": "f09a5ed609e089ab",
+   "th": "eed6ed46800f989f",
+   "id": "58770bbe97",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "DroneShield Limited steht heute im Fokus der Finanzberichterstattung. Das Finanzportal Investing.com India berichtet uber einen Kursrückgang der Aktie von DroneShield Limited, während Market Index ChartWatch-Analysen meldet. Laut Yahoo Finance bewerten insgesamt vier Analysten den Titel, wobei zwei Analysten zum Kauf raten, eins Analyst zum Halten rät und eins Analyst zum Verkaufen rät. Das durchschnittliche Kursziel liegt bei eins Komma drei zwei Dollar, was ein Aufwärtspotenzial von sechsundachtzig Komma neun Prozent bedeutet. Das durchschnittliche Kursziel zeigt dabei, wo Analysten den fairen Wert der Aktie sehen, und das Aufwärtspotenzial misst den prozentualen Spielraum nach oben bis zu diesem Ziel.",
-   "dur": 51.6,
-   "at": "2026-11-17T05:15:32Z"
+   "text": "Die Aktie von DroneShield Limited hat ein neues Jahrestief erreicht, wobei das Ende der Abwaertsbewegung vorerst nicht in Sicht ist. Zudem berichtet Global Banking & Finance Review, dass die Aktie von DroneShield Limited in einer Sitzung um fünf Komma vier Prozent nachgab. Ergaenzend meldet TheBull.com.au, dass die Aktien von DroneShield Limited einen neuen Tiefststand verzeichneten, da die Marktkapitalisierung unter rund sechshundertdreiundsiebzig Komma fünf Millionen Dollar sank. Zu den Analysten-Bewertungen gibt Yahoo Finance an, dass insgesamt vier Analysten die Aktie beobachten. Dabei raten zwei zum Kaufen, eins zum Halten und eins zum Verkaufen. Das durchschnittliche Kursziel liegt bei rund eins Komma drei zwei Dollar, waehrend das hoechste Kursziel bei eins Komma sieben fünf Dollar und das niedrigste bei null Komma acht vier Dollar liegt. Daraus ergibt sich ein Aufwaertspotenzial von +fünfundachtzig Komma eins Prozent. Wichtige Kennzahlen umfassen neben dem durchschnittlichen Kursziel von eins Komma drei zwei Dollar auch das Aufwaertspotenzial von +fünfundachtzig Komma eins Prozent, was die Erwartungen der Analysten widerspiegelt.",
+   "dur": 79.9,
+   "at": "2026-11-17T22:41:53Z"
   }
  },
  "status": "ok",
- "checked_at": "2026-11-17T14:28:44Z",
+ "checked_at": "2026-11-17T22:41:53Z",
  "quota_until": 1794814691.6312885,
- "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@6bcd0a270ddfa466fbd1a1131d4177fa82c25fdf/data/audio/",
+ "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@c63483fa98f16b80c1f74a0fc4f4508b64435d59/data/audio/",
  "extra": {
   "intro": {
    "file": "_intro.mp3",
