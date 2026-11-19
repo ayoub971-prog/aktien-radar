@@ -1,6 +1,200 @@
 {
 "episodes": [
 {
+"id": "2026-11-19-t",
+"kind": "tag",
+"date": "2026-11-19",
+"title": "Morgen-Sendung, Donnerstag, neunzehnten November",
+"generated_at": "2026-11-19T13:42:54Z",
+"writer": "Gemini (Gratis-Kontingent) 8 Firmen, Rest Vorlage",
+"chapters": [
+{
+"name": "Begrüssung",
+"say": "Guten Morgen und willkommen zur Sendung vom Aktien-Radar, heute Donnerstag, neunzehnten November. Zuerst ein kurzer Blick auf den Markt, dann die Firmen aus deiner Liste mit neuen Meldungen zu Produkten, Partnern und Projekten, danach die Quartalszahlen dieser Woche und zum Schluss ein Begriff zum Lernen. Kurz vorweg: Alles stammt aus gesammelten Daten und Schlagzeilen, Beträge nenne ich in Dollar. Das ist keine Anlageberatung.",
+"audio": {
+"file": "sendung/2026-11-19-t_00.mp3",
+"hash": "c8060b369ed41cc7",
+"dur": 30.0
+}
+},
+{
+"name": "Markt kurz",
+"say": "Der Markt kurz. Der S und P fünfhundert, der Index der fünfhundert grossen US-Firmen, stand zuletzt bei minus null Komma zwei Prozent gegenüber dem Vortag. In deiner Liste am stärksten waren SK Hynix mit plus vier Komma vier Prozent, Amazon mit plus drei Komma acht Prozent und Broadcom mit plus drei Komma sechs Prozent. Am schwächsten entwickelten sich SoftBank mit minus vier Komma acht Prozent und Nvidia mit minus zwei Komma neun Prozent. Zum Thema KI-Chips meldet The Globe and Mail, dass Halbleiter-Ausverkäufe und diese Chip-Aktien mit künstlicher Intelligenz nach Käufen schreien, bevor sie parabolisch werden. Zum Thema Exportkontrollen berichtet CNBC über wichtige Erkenntnisse aus dem Treffen von Trump, Xi und Putin und wie China auf strengere Chip-Exportkontrollen reagiert.",
+"audio": {
+"file": "sendung/2026-11-19-t_01.mp3",
+"hash": "8a20c58c8c62e6e9",
+"dur": 58.9
+}
+},
+{
+"name": "Nvidia",
+"sym": "NVDA",
+"say": "Zur Aktie Nvidia. Es gibt ein Fünfhundert-Milliarden-Dollar-Versprechen ohne Geldfluss, was ein neues Risiko für Nvidia bedeuten könnte. Präsident Trump schlug vor, dass Nvidias Blackwell-Chips später nach China gehen könnten. Nvidia schlägt zwar bei den Zahlen, aber die Aktien fallen auf Probe wegen China-Chip-Bordsteinen. Nvidia wird zudem von Cathie Wood verkauft. Ob das Nvidia stärkt oder schwächt, ist aus den Meldungen noch unklar. Das war Nvidia.",
+"audio": {
+"file": "sendung/2026-11-19-t_02.mp3",
+"hash": "5d568d1908531879",
+"dur": 35.0
+}
+},
+{
+"name": "Microsoft",
+"sym": "MSFT",
+"say": "Zur Aktie Microsoft. Microsoft und Intel vertiefen ihre Zusammenarbeit, um eine differenzierte Azure-Infrastruktur bereitzustellen. Ein gemeldeter Fünfhundert-Millionen-Dollar-KI-Deal von Microsoft löst eine Warnung des Kongresses aus. Ausserdem steigen die Konsolenpartner Microsoft und Sony dank GTA-VI-Umsätzen von über eins Komma sechs Milliarden Dollar. Die Microsoft-KI-Kooperation beschäftigt auch die Aktionäre von NICE. Meine Einordnung aus diesen Meldungen: Sie könnten Microsoft eher stärken. Das war Microsoft.",
+"audio": {
+"file": "sendung/2026-11-19-t_03.mp3",
+"hash": "245216f1528b0867",
+"dur": 41.3
+}
+},
+{
+"name": "Intel",
+"sym": "INTC",
+"say": "Zur Aktie Intel. Intel steigt nach einem Chip-Durchbruch und gewinnt den ersten externen Kunden für fortschrittliche 18A-Chips. Microsoft und Intel vertiefen ihre Zusammenarbeit für eine Azure-Infrastruktur. Der Packaging-Deal mit Microsoft bedeutet neue Impulse für Intel Foundry. Die Chipbranche ist im Plus und Intel gewinnt deutlich. Meine Einordnung aus diesen Meldungen: Sie könnten Intel eher stärken. Das war Intel.",
+"audio": {
+"file": "sendung/2026-11-19-t_04.mp3",
+"hash": "51fa8ae3317961ad",
+"dur": 34.4
+}
+},
+{
+"name": "Meta",
+"sym": "META",
+"say": "Zur Aktie Meta. Meta legt eine neue Aktienstruktur wegen rechtlicher Anfechtungen von Aktionären vorerst auf Eis. Der Plan, Mark Zuckerberg eine neue Aktiengattung zu geben, wurde gestoppt. Meta begrüsst zudem Loblaw als ersten kanadischen Einzelhandelspartner von Muse. Meta pausiert somit den Zuckerberg-Aktienplan während des Rechtsstreits. Meine Einordnung aus diesen Meldungen: Sie könnten Meta eher stärken. Das war Meta.",
+"audio": {
+"file": "sendung/2026-11-19-t_05.mp3",
+"hash": "4e1c8ce334585665",
+"dur": 35.0
+}
+},
+{
+"name": "Amazon",
+"sym": "AMZN",
+"say": "Zur Aktie Amazon. Amazon investiert Milliarden mit Fokus auf Indien, James Bond und Logistik. Eine Siebzehn-Milliarden-Dollar-Wette von Amazon auf einen Rechenzentrumsknotenpunkt in Ohio ist durch Wähler gefährdet, da die Gegenreaktion Amazon dort am härtesten trifft. TikTok Shop tritt zudem mit einer neuen Strategie gegen Amazon und Walmart an. Ein Produktdatenplan steht ebenfalls im Fokus von Amazon. Ob das Amazon stärkt oder schwächt, ist aus den Meldungen noch unklar. Das war Amazon.",
+"audio": {
+"file": "sendung/2026-11-19-t_06.mp3",
+"hash": "bd190fcc1c3c536b",
+"dur": 39.3
+}
+},
+{
+"name": "UBS",
+"sym": "UBSG.SW",
+"say": "Zur Aktie UBS. Die UBS-Aktie schüttelt die Schwere des Vortags ab und blickt im Year Ahead 2027 auf robuste Märkte. Die UBS AG bewertet Volkswagen mit Neutral und Continental mit Buy. Zudem hat die UBS das Rating von SOLV Energy aufgrund starken Auftragswachstums angehoben. Meine Einordnung aus diesen Meldungen: Sie könnten UBS eher stärken. Das war UBS.",
+"audio": {
+"file": "sendung/2026-11-19-t_07.mp3",
+"hash": "eb22f5ce62a6e84e",
+"dur": 31.7
+}
+},
+{
+"name": "Berkshire Hathaway",
+"sym": "BRK-B",
+"say": "Zur Aktie Berkshire Hathaway. Berkshire gibt eine neue Sechshundertneunundachtzig-Millionen-Dollar-Beteiligung an einer grossen Technologieaktie bekannt. Berkshire erhöht zudem seine Beteiligung an Lennar und verdoppelt damit die US-Wohnimmobilienwette. Der Bericht zum dritten Quartal gibt Einblicke in das Versicherungsgeschäft von Berkshire Hathaway. Meine Einordnung aus diesen Meldungen: Sie könnten Berkshire Hathaway eher stärken. Das war Berkshire Hathaway.",
+"audio": {
+"file": "sendung/2026-11-19-t_08.mp3",
+"hash": "11970cd3697cdb6e",
+"dur": 34.5
+}
+},
+{
+"name": "Arm",
+"sym": "ARM",
+"say": "Zur Aktie Arm. Der Vorstand von Nvidia hat Berichten zufolge eine Personalagentur beauftragt, den Chef von Arm namens Rene Haas anzusprechen. Zudem veraendert das Wachstum von KI-Rechenzentren die Gruende fuer eine Investition in das Unternehmen. Auf Ebene der Fuehrungskraefte gab es ebenfalls Bewegungen: CFO Jason Child und Rechtschef Spencer Collins erwarben Aktien durch Vesting, wobei Teile davon fuer Steuern einbehalten wurden, waehrend der Chefarchitekt von Arm Holdings Aktien im Wert von eins Million Dollar verkauft hat. Das war Arm.",
+"audio": {
+"file": "sendung/2026-11-19-t_09.mp3",
+"hash": "aad4e83c7e7253a2",
+"dur": 40.1
+}
+},
+{
+"name": "Quartalszahlen diese Woche",
+"say": "Kommen wir zu den Quartalszahlen dieser Woche. In diesem Zeitraum sind für deine Aktien keine Quartalszahlen angekündigt.",
+"audio": {
+"file": "sendung/2026-11-19-t_10.mp3",
+"hash": "bbc2dd8fc222fb2b",
+"dur": 9.4
+}
+},
+{
+"name": "Begriff: Gewinn je Aktie",
+"say": "Zum Lernen, der Begriff des Tages: Gewinn je Aktie. Der Gewinn je Aktie, auf Englisch E P S, ist der Gewinn der Firma geteilt durch die Zahl ihrer Aktien. Bei Quartalszahlen vergleicht man ihn mit der Erwartung der Analysten. Liegt er darüber, ist das eine positive Überraschung.",
+"audio": {
+"file": "sendung/2026-11-19-t_11.mp3",
+"hash": "98360e3703db646f",
+"dur": 20.4
+}
+},
+{
+"name": "Schluss",
+"say": "Das war die Sendung vom Aktien-Radar. Die Quellen findest du in der App bei jeder Aktie, den ganzen Text über den Knopf Als Text. Bis morgen.",
+"audio": {
+"file": "sendung/2026-11-19-t_12.mp3",
+"hash": "cc4bc23e3e69d9dd",
+"dur": 11.5
+}
+}
+],
+"dur": 421.5,
+"full": {
+"file": "sendung/2026-11-19-t_full.mp3",
+"dur": 421.6,
+"marks": [
+[
+0,
+0.0
+],
+[
+1,
+30.0
+],
+[
+2,
+88.9
+],
+[
+3,
+123.9
+],
+[
+4,
+165.2
+],
+[
+5,
+199.6
+],
+[
+6,
+234.6
+],
+[
+7,
+273.9
+],
+[
+8,
+305.6
+],
+[
+9,
+340.1
+],
+[
+10,
+380.2
+],
+[
+11,
+389.6
+],
+[
+12,
+410.0
+]
+]
+}
+},
+{
 "id": "2026-11-18-t",
 "kind": "tag",
 "date": "2026-11-18",
@@ -2551,204 +2745,10 @@
 ]
 ]
 }
-},
-{
-"id": "2026-11-03-t",
-"kind": "tag",
-"date": "2026-11-03",
-"title": "Morgen-Sendung, Dienstag, dritten November",
-"generated_at": "2026-11-03T05:23:08Z",
-"writer": "Gemini (Gratis-Kontingent) 8 Firmen, Rest Vorlage",
-"chapters": [
-{
-"name": "Begrüssung",
-"say": "Guten Morgen und willkommen zur Sendung vom Aktien-Radar, heute Dienstag, dritten November. Zuerst ein kurzer Blick auf den Markt, dann die Firmen aus deiner Liste mit neuen Meldungen zu Produkten, Partnern und Projekten, danach die Quartalszahlen dieser Woche und zum Schluss ein Begriff zum Lernen. Kurz vorweg: Alles stammt aus gesammelten Daten und Schlagzeilen, Beträge nenne ich in Dollar. Das ist keine Anlageberatung.",
-"audio": {
-"file": "sendung/2026-11-03-t_00.mp3",
-"hash": "9e1ae07bdeabd114",
-"dur": 29.5
-}
-},
-{
-"name": "Markt kurz",
-"say": "Der Markt kurz. Der S und P fünfhundert, der Index der fünfhundert grossen US-Firmen, stand zuletzt bei minus null Komma fünf Prozent gegenüber dem Vortag. In deiner Liste am stärksten: SK Hynix mit plus sechs Komma drei Prozent, GE Aerospace mit plus vier Komma sechs Prozent, Siemens Energy mit plus zwei Komma neun Prozent. Am schwächsten: Marvell mit minus zwölf Komma sieben Prozent, Intel mit minus acht Komma acht Prozent. Zum Thema Zinsen meldet WSJ: Asiatische Aktien gehen zurück, da der Appetit auf riskante Anlagen nachlässt. Zum Thema Exportkontrollen meldet The Information: Wie Schmuggler teure Speicherchips aus Südkorea nach China bringen.",
-"audio": {
-"file": "sendung/2026-11-03-t_01.mp3",
-"hash": "87f3c28892739a11",
-"dur": 52.0
-}
-},
-{
-"name": "Palantir",
-"sym": "PLTR",
-"say": "Zur Aktie Palantir. Der Softwarehersteller verzeichnete ein Umsatzwachstum von sechsundneunzig Prozent auf zwei Komma drei Milliarden Dollar. Laut Firmenchef Alex Karp ist die Nachfrage nach KI-Lösungen bei Palantir derzeit deutlich groesser, als das Unternehmen bedienen kann. Investoren beobachten die weitere Entwicklung bei Palantir nun sehr genau. Meine Einordnung aus diesen Meldungen lautet: Sie koennten Palantir eher staerken. Das war Palantir.",
-"audio": {
-"file": "sendung/2026-11-03-t_02.mp3",
-"hash": "08b3bd4eb6ed4747",
-"dur": 34.2
-}
-},
-{
-"name": "Marvell",
-"sym": "MRVL",
-"say": "Zur Aktie Marvell. Marvell plant die Uebernahme von Lumentum in einem Deal im Wert von einhundertfünfzehn Milliarden Dollar. Aktionäre von Marvell und Lumentum kritisieren das Angebot jedoch scharf und bezeichnen es als Schrottangebot. Der Markt reagierte negativ auf die Nachricht ueber diesen historischen Deal von Marvell. Meine Einordnung aus diesen Meldungen lautet: Sie koennten Marvell eher schwaechen. Das war Marvell.",
-"audio": {
-"file": "sendung/2026-11-03-t_03.mp3",
-"hash": "d0dfd21a16ddb9c9",
-"dur": 32.1
-}
-},
-{
-"name": "Intel",
-"sym": "INTC",
-"say": "Zur Aktie Intel. Intel kaempft aktuell mit einer enttaeuschenden Prognose und einem Produktionsausfall. Aufgrund dieser Entwicklungen gibt es nun Untersuchungen zu potenziellen Wertpapieranspruechen gegen Intel. Die Lage fuer das Unternehmen bleibt angespannt, da der Kursrueckgang weiter anhaelt. Meine Einordnung aus diesen Meldungen lautet: Sie koennten Intel eher schwaechen. Das war Intel.",
-"audio": {
-"file": "sendung/2026-11-03-t_04.mp3",
-"hash": "a5afe2f5f7ca38d7",
-"dur": 29.2
-}
-},
-{
-"name": "Amazon",
-"sym": "AMZN",
-"say": "Zur Aktie Amazon. Amazon investiert in diesem Jahr rund zweihundertzwanzig Milliarden Dollar in den Bereich Kuenstliche Intelligenz. Ein geplantes Rechenzentrum von Amazon im Wert von zwei Milliarden Dollar ist zudem durch politische Infrastrukturmassnahmen gefaehrdet. Trotz der hohen Investitionen gibt es weiterhin Kaufempfehlungen fuer Amazon. Ob das Amazon staerkt oder schwaecht, ist aus den Meldungen noch unklar. Das war Amazon.",
-"audio": {
-"file": "sendung/2026-11-03-t_05.mp3",
-"hash": "0dcebf9570adffbb",
-"dur": 33.0
-}
-},
-{
-"name": "UBS",
-"sym": "UBSG.SW",
-"say": "Zur Aktie UBS. Die UBS hat ihre Prognose fuer weltweite KI-Ausgaben im Jahr 2027 auf eins Komma vier Billionen Dollar angehoben. Gleichzeitig warnt die Bank vor einer neuen Normalitaet durch erhoehte Volatitaet an den Maerkten. Zudem analysiert die UBS laufend verschiedene Unternehmen und passt deren Kursziele an. Ob das UBS staerkt oder schwaecht, ist aus den Meldungen noch unklar. Das war UBS.",
-"audio": {
-"file": "sendung/2026-11-03-t_06.mp3",
-"hash": "a755011f0b8aacd7",
-"dur": 33.3
-}
-},
-{
-"name": "Meta",
-"sym": "META",
-"say": "Zur Aktie Meta. Meta prueft derzeit die Aufnahme neuer Schulden, um das Wachstum weiter zu finanzieren. Starinvestor Bill Ackman zeigt sich optimistisch und setzt auf die Aktie von Meta. Dennoch beobachten Investoren die hohen Investitionsausgaben bei Meta mit einer gewissen Sorge. Ob das Meta staerkt oder schwaecht, ist aus den Meldungen noch unklar. Das war Meta.",
-"audio": {
-"file": "sendung/2026-11-03-t_07.mp3",
-"hash": "9cf0d0b7dfafa396",
-"dur": 29.0
-}
-},
-{
-"name": "Microsoft",
-"sym": "MSFT",
-"say": "Zur Aktie Microsoft. Microsoft erweitert die Zusammenarbeit mit Lumen, um gemeinsam KI-faehige Netzwerke fuer Unternehmen anzubieten. Zudem arbeitet Microsoft mit Estee Lauder an neuen KI- und Datentools. Diese Partnerschaften unterstreichen die strategische Ausrichtung von Microsoft im KI-Sektor. Meine Einordnung aus diesen Meldungen lautet: Sie koennten Microsoft eher staerken. Das war Microsoft.",
-"audio": {
-"file": "sendung/2026-11-03-t_08.mp3",
-"hash": "b312d0c560d9cc88",
-"dur": 32.5
-}
-},
-{
-"name": "Nvidia",
-"sym": "NVDA",
-"say": "Zur Aktie Nvidia. Nvidia steht kurz vor der Präsentation der Zahlen für das abgelaufene Jahresviertel. Analysten vergleichen das Umsatzwachstum von Nvidia hypothetisch mit anderen Technologieunternehmen. Die Aktie von Nvidia zeigt sich derzeit volatil und steht unter Beobachtung der Anleger. Ob das Nvidia stärkt oder schwächt, ist aus den Meldungen noch unklar. Das war Nvidia.",
-"audio": {
-"file": "sendung/2026-11-03-t_09.mp3",
-"hash": "c9b1c0c94c4eb37f",
-"dur": 29.4
-}
-},
-{
-"name": "Quartalszahlen diese Woche",
-"say": "Quartalszahlen diese Woche. Diese Firmen aus deiner Liste melden ihre Quartalszahlen. Zur Aktie BioNTech: Zahlen Dienstag, am dritten November. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von null Dollar und sechsundsiebzig Cent. Beim Umsatz erwarten sie rund eins Milliarden Dollar. Zur Aktie Arm: Zahlen Mittwoch, am vierten November. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von null Dollar und achtundvierzig Cent. Beim Umsatz erwarten sie rund eins Komma vier Milliarden Dollar. Zur Aktie Oklo: Zahlen Freitag, am sechsten November. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von minus null Dollar und sechsundzwanzig Cent. Beim Umsatz erwarten sie rund eins Komma eins Millionen Dollar. Zur Aktie Berkshire Hathaway: Zahlen Samstag, am siebten November. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von sechs Dollar und vierzehn Cent.",
-"audio": {
-"file": "sendung/2026-11-03-t_10.mp3",
-"hash": "b0bbf991e0a2f624",
-"dur": 69.5
-}
-},
-{
-"name": "Begriff: Aktienrückkauf",
-"say": "Zum Lernen, der Begriff des Tages: Aktienrückkauf. Bei einem Aktienrückkauf kauft die Firma eigene Aktien an der Börse zurück. Dadurch gibt es weniger Aktien, und der Gewinn verteilt sich auf weniger Stücke. Das stützt oft den Kurs.",
-"audio": {
-"file": "sendung/2026-11-03-t_11.mp3",
-"hash": "f90c52b498b72857",
-"dur": 17.7
-}
-},
-{
-"name": "Schluss",
-"say": "Das war die Sendung vom Aktien-Radar. Die Quellen findest du in der App bei jeder Aktie, den ganzen Text über den Knopf Als Text. Bis morgen.",
-"audio": {
-"file": "sendung/2026-11-03-t_12.mp3",
-"hash": "cc4bc23e3e69d9dd",
-"dur": 11.5
-}
 }
 ],
-"dur": 432.9,
-"full": {
-"file": "sendung/2026-11-03-t_full.mp3",
-"dur": 432.8,
-"marks": [
-[
-0,
-0.0
-],
-[
-1,
-29.5
-],
-[
-2,
-81.5
-],
-[
-3,
-115.7
-],
-[
-4,
-147.8
-],
-[
-5,
-177.0
-],
-[
-6,
-210.0
-],
-[
-7,
-243.3
-],
-[
-8,
-272.3
-],
-[
-9,
-304.8
-],
-[
-10,
-334.2
-],
-[
-11,
-403.7
-],
-[
-12,
-421.4
-]
-]
-}
-}
-],
-"generated_at": "2026-11-18T13:19:03Z",
+"generated_at": "2026-11-19T13:42:54Z",
 "voice": "de-CH-LeniNeural",
 "source": "Yahoo Finance, SEC EDGAR, Schlagzeilen (Google News u.a.); Text: Gemini Gratis-Kontingent oder Vorlage",
-"audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@fcc7537e4ebd7aad19b41934f106bb6d39b31bdc/data/audio/"
+"audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@2333f9b6f3f6847a36fc6902d51ab220c4cca306/data/audio/"
 }
