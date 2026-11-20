@@ -1,6 +1,241 @@
 {
 "episodes": [
 {
+"id": "n-2026-11-20-t",
+"kind": "tag",
+"show": "ent",
+"date": "2026-11-20",
+"title": "Zum Nachdenken, Freitag, zwanzigsten November",
+"generated_at": "2026-11-20T02:45:42Z",
+"writer": "Vorlage aus den Daten, Redakteur-KI (Gemini Gratis-Kontingent) mit Faktencheck",
+"chapters": [
+{
+"name": "Begrüssung",
+"say": "Willkommen zu Zum Nachdenken vom Aktien-Radar, heute Freitag, zwanzigsten November. Hier geht es nicht um deine eigenen Aktien, sondern um auffällige Aktien ausserhalb deiner Liste: die grössten Gewinner, Aktien mit grossem Potenzial laut vielen Analysten, schlecht bewertete Aktien und grosse Verlierer. Alles stammt aus gesammelten Daten von Yahoo Finance, Beträge nenne ich in Dollar. Das ist keine Anlageberatung, sondern Stoff zum Nachdenken.",
+"audio": {
+"file": "nachdenken/n-2026-11-20-t_00.mp3",
+"hash": "a53714f15fca3cc0",
+"dur": 31.5
+}
+},
+{
+"name": "Die grössten Gewinner",
+"say": "Zuerst die grössten Gewinner. Das sind Aktien, deren Kurs in den letzten drei Monaten am stärksten gestiegen ist.",
+"audio": {
+"file": "nachdenken/n-2026-11-20-t_01.mp3",
+"hash": "3523a65efc3383a5",
+"dur": 8.3
+}
+},
+{
+"name": "Gewinner: Okta",
+"sym": "OKTA",
+"say": "Zur Aktie Okta. Okta kostet im Moment zweihundertsechs Dollar und fünfundachtzig Cent. Der Kurs von Okta veränderte sich im letzten Monat um plus null Komma acht Prozent und in drei Monaten um plus vierundvierzig Komma sieben Prozent. Dreiundvierzig Analysten haben für Okta ein durchschnittliches Kursziel von zweihundertvierzehn Dollar und zweiundsiebzig Cent, das sind plus drei Komma acht Prozent gegenüber dem aktuellen Kurs. Yahoo Finance meldete am neunzehnten November, dass die Kurse von Okta um acht Komma eins vier Prozent gestiegen sind, während sich die Cybersecurity Rally in den zweiten Tag fortsetzt. Das war Okta.",
+"audio": {
+"file": "nachdenken/n-2026-11-20-t_02.mp3",
+"hash": "e381bc443cd1def1",
+"dur": 46.0
+}
+},
+{
+"name": "Gewinner: Moderna",
+"sym": "MRNA",
+"say": "Zur Aktie Moderna. Moderna kostet im Moment einhundertneunundneunzig Dollar und dreiunddreissig Cent. Der Kurs von Moderna veränderte sich im letzten Monat um minus achtzehn Komma sieben Prozent und in drei Monaten um plus fünfunddreissig Komma sechs Prozent. Neunzehn Analysten haben für Moderna ein durchschnittliches Kursziel von einhundertvierundsechzig Dollar und dreiundfünfzig Cent, das sind minus siebzehn Komma fünf Prozent gegenüber dem aktuellen Kurs. Bei den letzten Quartalszahlen meldete Moderna einen Gewinn je Aktie von null Dollar und achtunddreissig Cent, erwartet waren minus ein Dollar und fünfundzwanzig Cent. Yahoo Finance meldete am neunzehnten November: Ob das Impfstoffgeschäft seine nächste Wachstumsphase finanzieren kann. Das war Moderna.",
+"audio": {
+"file": "nachdenken/n-2026-11-20-t_03.mp3",
+"hash": "e386578d9a7a3aea",
+"dur": 55.6
+}
+},
+{
+"name": "Andere Aktien mit Chancen",
+"say": "Jetzt Andere Aktien mit Chancen. Bedingung: mindestens acht Analysten, ein durchschnittliches Kursziel mindestens dreissig Prozent über dem Kurs, und eine frische Meldung zu einem Produkt, einem Partner oder einem Auftrag. Das ist keine Kaufempfehlung.",
+"audio": {
+"file": "nachdenken/n-2026-11-20-t_04.mp3",
+"hash": "89cd21b9f087f2cc",
+"dur": 18.1
+}
+},
+{
+"name": "Chance: Lumentum",
+"sym": "LITE",
+"say": "Zur Aktie Lumentum. Lumentum kostet im Moment fünfhundertfünfunddreissig Dollar und fünfzehn Cent. Der Kurs von Lumentum veränderte sich im letzten Monat um minus dreiunddreissig Prozent und in drei Monaten um minus sechsunddreissig Komma vier Prozent. Fünfundzwanzig Analysten haben für Lumentum ein durchschnittliches Kursziel von eintausendvierundsechzig Dollar und fünfundsiebzig Cent, das sind plus neunundneunzig Prozent gegenüber dem aktuellen Kurs. Die Bank B. Riley Securities hat Lumentum abgestuft, neue Empfehlung Neutral. Bei den letzten Quartalszahlen meldete Lumentum einen Gewinn je Aktie von vier Dollar und siebenundfünfzig Cent, erwartet waren vier Dollar und zweiundzwanzig Cent. Yahoo Finance meldete am neunzehnten November: Marvell Aktie erhält fairen Wert Schnitt, da Analysten sich über Lumentum Deal uneinig sind. Das war Lumentum.",
+"audio": {
+"file": "nachdenken/n-2026-11-20-t_05.mp3",
+"hash": "cda87334570849c4",
+"dur": 63.3
+}
+},
+{
+"name": "Chance: Super Micro Computer",
+"sym": "SMCI",
+"say": "Zur Aktie Super Micro Computer. Super Micro Computer kostet im Moment dreiundzwanzig Dollar und vierundachtzig Cent. Der Kurs von Super Micro Computer veränderte sich im letzten Monat um minus dreiunddreissig Prozent und in drei Monaten um minus zweiunddreissig Komma zwei Prozent. Fünfzehn Analysten haben für Super Micro Computer ein durchschnittliches Kursziel von dreiundvierzig Dollar und sechzig Cent, das sind plus zweiundachtzig Komma neun Prozent gegenüber dem aktuellen Kurs. Bei den letzten Quartalszahlen meldete Super Micro Computer einen Gewinn je Aktie von ein Dollar und einundachtzig Cent, erwartet waren ein Dollar und dreiundzwanzig Cent. Yahoo Finance meldete am achtzehnten November: Supermicro stellt bedeutenden Durchbruch in der KI Technologie mit AMD Chips vor. Das war Super Micro Computer.",
+"audio": {
+"file": "nachdenken/n-2026-11-20-t_06.mp3",
+"hash": "63404c5e0b86bebf",
+"dur": 60.3
+}
+},
+{
+"name": "Chance: Vertiv",
+"sym": "VRT",
+"say": "Zur Aktie Vertiv. Vertiv kostet im Moment einhundertvierundachtzig Dollar und neunundneunzig Cent. Der Kurs von Vertiv veränderte sich im letzten Monat um minus vier Komma fünf Prozent und in drei Monaten um minus fünfundzwanzig Komma acht Prozent. Dreissig Analysten haben für Vertiv ein durchschnittliches Kursziel von dreihundertvierunddreissig Dollar und neunundzwanzig Cent, das sind plus achtzig Komma sieben Prozent gegenüber dem aktuellen Kurs. Yahoo Finance meldete am neunzehnten November: Solenis und Vertiv partnern, um das Flüssigkühlungsmanagement für KI Rechenzentren voranzutreiben. Das war Vertiv.",
+"audio": {
+"file": "nachdenken/n-2026-11-20-t_07.mp3",
+"hash": "17ab091001348303",
+"dur": 46.4
+}
+},
+{
+"name": "Schlecht bewertete Aktien",
+"say": "Nun zu schlecht bewerteten Aktien. Hier haben Banken ihre Empfehlung gesenkt, oder das durchschnittliche Kursziel liegt unter dem aktuellen Kurs.",
+"audio": {
+"file": "nachdenken/n-2026-11-20-t_08.mp3",
+"hash": "4bf83ee86411fcdb",
+"dur": 10.8
+}
+},
+{
+"name": "Schlecht bewertet: Fidelity National Information Services",
+"sym": "FIS",
+"say": "Zur Aktie Fidelity National Information Services. Fidelity National Information Services kostet im Moment fünfundzwanzig Dollar und vierundneunzig Cent. Der Kurs von Fidelity National Information Services veränderte sich im letzten Monat um minus achtundzwanzig Komma acht Prozent und in drei Monaten um minus siebenunddreissig Komma drei Prozent. Dreiundzwanzig Analysten haben für Fidelity National Information Services ein durchschnittliches Kursziel von vierunddreissig Dollar und siebzig Cent, das sind plus dreiunddreissig Komma acht Prozent gegenüber dem aktuellen Kurs. Die Bank Argus Research hat Fidelity National Information Services abgestuft, neue Empfehlung Halten. Die Bank RBC Capital hat Fidelity National Information Services abgestuft, neue Empfehlung Wie der Sektor. Bei den letzten Quartalszahlen meldete Fidelity National Information Services einen Gewinn je Aktie von ein Dollar und einundsechzig Cent, erwartet waren ein Dollar und sechzig Cent. Yahoo Finance meldete am achtzehnten November: Erfahren Sie, warum der Bullenfall für die FIS Aktie sich nach der Splitit Partnerschaft ändern könnte. Das war Fidelity National Information Services.",
+"audio": {
+"file": "nachdenken/n-2026-11-20-t_09.mp3",
+"hash": "99637711c7fc3f6c",
+"dur": 86.8
+}
+},
+{
+"name": "Schlecht bewertet: Reddit",
+"sym": "RDDT",
+"say": "Zur Aktie Reddit. Reddit kostet im Moment neunundachtzig Dollar und achtundachtzig Cent. Der Kurs von Reddit veränderte sich im letzten Monat um minus neununddreissig Komma sechs Prozent und in drei Monaten um minus achtunddreissig Komma sechs Prozent. Neunundzwanzig Analysten haben für Reddit ein durchschnittliches Kursziel von einhundertachtundvierzig Dollar und sechsundvierzig Cent, das sind plus fünfundsechzig Komma zwei Prozent gegenüber dem aktuellen Kurs. Die Bank Evercore ISI Group hat Reddit abgestuft, neue Empfehlung Im Rahmen. Die Bank Loop Capital hat Reddit abgestuft, neue Empfehlung Halten. Yahoo Finance meldete am neunzehnten November: Wie Investoren auf die Suchverkehr Warnung von Reddit reagieren. Das war Reddit.",
+"audio": {
+"file": "nachdenken/n-2026-11-20-t_10.mp3",
+"hash": "0bb87ca93a5ef724",
+"dur": 55.1
+}
+},
+{
+"name": "Grosse Verlierer",
+"say": "Zum Schluss die grossen Verlierer. Das sind Aktien, die im letzten Monat am stärksten gefallen sind.",
+"audio": {
+"file": "nachdenken/n-2026-11-20-t_11.mp3",
+"hash": "ff26c6de6f640649",
+"dur": 7.8
+}
+},
+{
+"name": "Verlierer: Coinbase Global",
+"sym": "COIN",
+"say": "Zur Aktie Coinbase Global. Coinbase Global kostet im Moment einhundertacht Dollar und siebenundachtzig Cent. Der Kurs von Coinbase Global veränderte sich im letzten Monat um minus fünfunddreissig Komma drei Prozent und in drei Monaten um minus vierzig Komma sieben Prozent. Vierunddreissig Analysten haben für Coinbase Global ein durchschnittliches Kursziel von einhundertfünfundneunzig Dollar, das sind plus neunundsiebzig Komma eins Prozent gegenüber dem aktuellen Kurs. Die Bank Morgan Stanley hat Coinbase Global abgestuft, neue Empfehlung Untergewichten. Yahoo Finance meldete am neunzehnten November: Coinbase führt US Krypto Spot Marge ein mit einem Haken von zehn Millionen Dollar. Das war Coinbase Global.",
+"audio": {
+"file": "nachdenken/n-2026-11-20-t_12.mp3",
+"hash": "4534a5a24c593276",
+"dur": 52.7
+}
+},
+{
+"name": "Verlierer: Datadog",
+"sym": "DDOG",
+"say": "Zur Aktie Datadog. Datadog kostet im Moment einhundertsechsundsechzig Dollar und sechsundvierzig Cent. Der Kurs von Datadog veränderte sich im letzten Monat um minus vierunddreissig Komma acht Prozent und in drei Monaten um minus neunundzwanzig Komma eins Prozent. Achtundvierzig Analysten haben für Datadog ein durchschnittliches Kursziel von zweihundertneunundsechzig Dollar und fünfundsechzig Cent, das sind plus zweiundsechzig Prozent gegenüber dem aktuellen Kurs. Bei den letzten Quartalszahlen meldete Datadog einen Gewinn je Aktie von null Dollar und einundachtzig Cent, erwartet waren null Dollar und vierundsechzig Cent. Yahoo Finance meldete am achtzehnten November: Datadog Finanzchef sieht KI als Treiber für Cloud Nachfrage und nennt den Wachstumsausblick konservativ. Das war Datadog.",
+"audio": {
+"file": "nachdenken/n-2026-11-20-t_13.mp3",
+"hash": "110cff9bc49a1eb9",
+"dur": 59.2
+}
+},
+{
+"name": "Begriff: Prognose",
+"say": "Zum Lernen, der Begriff: Prognose. Viele Firmen geben bei den Quartalszahlen eine Prognose, auf Englisch Guidance, für die nächsten Monate. Oft bewegt die Prognose den Kurs stärker als die Zahlen selbst, weil die Börse in die Zukunft schaut.",
+"audio": {
+"file": "nachdenken/n-2026-11-20-t_14.mp3",
+"hash": "c2e9abeaf9a7a6e7",
+"dur": 17.8
+}
+},
+{
+"name": "Schluss",
+"say": "Das war Zum Nachdenken vom Aktien-Radar. Die Listen findest du in der App auf der Seite Entdecken, den ganzen Text über den Knopf Als Text. Denk daran: Das ist keine Anlageberatung. Bis zum nächsten Mal.",
+"audio": {
+"file": "nachdenken/n-2026-11-20-t_15.mp3",
+"hash": "c0eb227ac2742f5b",
+"dur": 16.4
+}
+}
+],
+"dur": 636.1,
+"full": {
+"file": "nachdenken/n-2026-11-20-t_full.mp3",
+"dur": 636.1,
+"marks": [
+[
+0,
+0.0
+],
+[
+1,
+31.5
+],
+[
+2,
+39.8
+],
+[
+3,
+85.8
+],
+[
+4,
+141.4
+],
+[
+5,
+159.5
+],
+[
+6,
+222.8
+],
+[
+7,
+283.1
+],
+[
+8,
+329.5
+],
+[
+9,
+340.3
+],
+[
+10,
+427.1
+],
+[
+11,
+482.2
+],
+[
+12,
+490.0
+],
+[
+13,
+542.7
+],
+[
+14,
+601.9
+],
+[
+15,
+619.7
+]
+]
+}
+},
+{
 "id": "n-2026-11-19-t",
 "kind": "tag",
 "show": "ent",
@@ -3054,245 +3289,10 @@
 ]
 ]
 }
-},
-{
-"id": "n-2026-11-04-t",
-"kind": "tag",
-"show": "ent",
-"date": "2026-11-04",
-"title": "Zum Nachdenken, Mittwoch, vierten November",
-"generated_at": "2026-11-04T22:33:32Z",
-"writer": "Vorlage aus den Daten, Redakteur-KI (Gemini Gratis-Kontingent) mit Faktencheck",
-"chapters": [
-{
-"name": "Begrüssung",
-"say": "Willkommen zu Zum Nachdenken vom Aktien-Radar, heute Mittwoch, vierten November. Hier geht es nicht um deine eigenen Aktien, sondern um auffällige Aktien ausserhalb deiner Liste: die grössten Gewinner, Aktien mit grossem Potenzial laut vielen Analysten, schlecht bewertete Aktien und grosse Verlierer. Alles stammt aus gesammelten Daten von Yahoo Finance, Beträge nenne ich in Dollar. Das ist keine Anlageberatung, sondern Stoff zum Nachdenken.",
-"audio": {
-"file": "nachdenken/n-2026-11-04-t_00.mp3",
-"hash": "e139fcaa1ab4c4c2",
-"dur": 31.3
-}
-},
-{
-"name": "Die grössten Gewinner",
-"say": "Zuerst die grössten Gewinner. Das sind Aktien, deren Kurs in den letzten drei Monaten am stärksten gestiegen ist.",
-"audio": {
-"file": "nachdenken/n-2026-11-04-t_01.mp3",
-"hash": "3523a65efc3383a5",
-"dur": 8.3
-}
-},
-{
-"name": "Gewinner: Moderna",
-"sym": "MRNA",
-"say": "Zur Aktie Moderna. Moderna kostet im Moment zweihundertachtundfünfzig Dollar und achtunddreissig Cent. Der Kurs von Moderna veränderte sich im letzten Monat um plus siebenunddreissig Komma acht Prozent und in drei Monaten um plus dreihundertsechsunddreissig Komma sieben Prozent. Neunzehn Analysten haben für Moderna ein durchschnittliches Kursziel von einhundertachtunddreissig Dollar und siebenunddreissig Cent, das sind minus sechsundvierzig Komma vier Prozent gegenüber dem aktuellen Kurs. Die Bank William Blair hat Moderna abgestuft, neue Empfehlung Wie der Markt. Yahoo Finance meldete am vierten November: Welche Daten könnten die Moderna Aktie am meisten bewegen?. Das war Moderna.",
-"audio": {
-"file": "nachdenken/n-2026-11-04-t_02.mp3",
-"hash": "a696814128306ed0",
-"dur": 50.8
-}
-},
-{
-"name": "Gewinner: Accenture",
-"sym": "ACN",
-"say": "Zur Aktie Accenture. Accenture kostet im Moment zweihundertvierundsechzig Dollar und siebenundzwanzig Cent. Der Kurs von Accenture veränderte sich im letzten Monat um plus sechsunddreissig Komma sechs Prozent und in drei Monaten um plus fünfzig Komma vier Prozent. Vierundzwanzig Analysten haben für Accenture ein durchschnittliches Kursziel von zweihundertneunundzwanzig Dollar und vierundsiebzig Cent, das sind minus dreizehn Komma eins Prozent gegenüber dem aktuellen Kurs. Die Bank Baird hat Accenture abgestuft, neue Empfehlung Neutral. Yahoo Finance meldete am vierten November: Accenture gegen Oracle: Welche Technologie Aktie ist im Jahr 2027 der bessere Kauf?. Das war Accenture.",
-"audio": {
-"file": "nachdenken/n-2026-11-04-t_03.mp3",
-"hash": "41528a300bb50363",
-"dur": 53.2
-}
-},
-{
-"name": "Andere Aktien mit Chancen",
-"say": "Jetzt Andere Aktien mit Chancen. Bedingung: mindestens acht Analysten, ein durchschnittliches Kursziel mindestens dreissig Prozent über dem Kurs, und eine frische Meldung zu einem Produkt, einem Partner oder einem Auftrag. Das ist keine Kaufempfehlung.",
-"audio": {
-"file": "nachdenken/n-2026-11-04-t_04.mp3",
-"hash": "89cd21b9f087f2cc",
-"dur": 18.1
-}
-},
-{
-"name": "Chance: Flex",
-"sym": "FLEX",
-"say": "Zur Aktie Flex. Flex kostet im Moment siebenundsiebzig Dollar und vierundzwanzig Cent. Der Kurs von Flex veränderte sich im letzten Monat um minus sechsunddreissig Komma vier Prozent und in drei Monaten um minus sechsunddreissig Komma drei Prozent. Zehn Analysten haben für Flex ein durchschnittliches Kursziel von einhundertsechsundfünfzig Dollar und fünfzig Cent, das sind plus einhundertzwei Komma sechs Prozent gegenüber dem aktuellen Kurs. Bei den letzten Quartalszahlen meldete Flex einen Gewinn je Aktie von ein Dollar und achtzehn Cent, erwartet waren ein Dollar und fünf Cent. Yahoo Finance meldete am zweiten November: Kann der EPC Power Deal von Flex den Vorsprung beim Wachstum von KI Rechenzentren vertiefen?. Das war Flex.",
-"audio": {
-"file": "nachdenken/n-2026-11-04-t_05.mp3",
-"hash": "1355cb42f7e99e88",
-"dur": 54.9
-}
-},
-{
-"name": "Chance: Oracle",
-"sym": "ORCL",
-"say": "Zur Aktie Oracle. Oracle kostet im Moment einhundertdreiundzwanzig Dollar und dreiundsiebzig Cent. Der Kurs von Oracle veränderte sich im letzten Monat um minus vierzehn Komma fünf Prozent und in drei Monaten um minus fünfzehn Komma acht Prozent. Neununddreissig Analysten haben für Oracle ein durchschnittliches Kursziel von zweihundertfünfunddreissig Dollar und sechsundvierzig Cent, das sind plus neunzig Komma drei Prozent gegenüber dem aktuellen Kurs. Die Bank Stephens & Co. hat Oracle hochgestuft, neue Empfehlung Übergewichten. Yahoo Finance meldete am vierten November: Aktienmarkt heute, vierter November: Oracle fällt nach abgesagtem sieben Milliarden Dollar Tencent Chip Leasing Deal. Das war Oracle.",
-"audio": {
-"file": "nachdenken/n-2026-11-04-t_06.mp3",
-"hash": "125320b3bcb23f87",
-"dur": 53.4
-}
-},
-{
-"name": "Chance: Akamai Technologies",
-"sym": "AKAM",
-"say": "Zur Aktie Akamai Technologies. Akamai Technologies kostet im Moment fünfundachtzig Dollar und dreiundneunzig Cent. Der Kurs von Akamai Technologies veränderte sich im letzten Monat um minus zwanzig Komma neun Prozent und in drei Monaten um minus zweiundzwanzig Komma drei Prozent. Zweiundzwanzig Analysten haben für Akamai Technologies ein durchschnittliches Kursziel von einhundertvierundfünfzig Dollar und vierundzwanzig Cent, das sind plus neunundsiebzig Komma fünf Prozent gegenüber dem aktuellen Kurs. Die Bank Raymond James hat Akamai Technologies hochgestuft, neue Empfehlung Stark kaufen. Yahoo Finance meldete am zweiten November: MazeBolt startet native Akamai Integration und beweist DDoS Resilienz gegen bekannte und KI getriebene Angriffe. Das war Akamai Technologies.",
-"audio": {
-"file": "nachdenken/n-2026-11-04-t_07.mp3",
-"hash": "83adb4eadddd46a1",
-"dur": 58.9
-}
-},
-{
-"name": "Schlecht bewertete Aktien",
-"say": "Nun zu schlecht bewerteten Aktien. Hier haben Banken ihre Empfehlung gesenkt, oder das durchschnittliche Kursziel liegt unter dem aktuellen Kurs.",
-"audio": {
-"file": "nachdenken/n-2026-11-04-t_08.mp3",
-"hash": "4bf83ee86411fcdb",
-"dur": 10.8
-}
-},
-{
-"name": "Schlecht bewertet: Xylem",
-"sym": "XYL",
-"say": "Zur Aktie Xylem. Xylem kostet im Moment einhunderteins Dollar und fünf Cent. Der Kurs von Xylem veränderte sich im letzten Monat um minus drei Komma vier Prozent und in drei Monaten um minus sechzehn Prozent. Sechzehn Analysten haben für Xylem ein durchschnittliches Kursziel von einhundertfünfundzwanzig Dollar und vierundvierzig Cent, das sind plus vierundzwanzig Komma eins Prozent gegenüber dem aktuellen Kurs. Die Bank Argus Research hat Xylem abgestuft, neue Empfehlung Halten. Die Bank Barclays hat Xylem abgestuft, neue Empfehlung Marktgewichten. Bei den letzten Quartalszahlen meldete Xylem einen Gewinn je Aktie von ein Dollar und vierundvierzig Cent, erwartet waren ein Dollar und fünfundvierzig Cent. Das war Xylem.",
-"audio": {
-"file": "nachdenken/n-2026-11-04-t_09.mp3",
-"hash": "b0f8439d36c6730a",
-"dur": 55.6
-}
-},
-{
-"name": "Schlecht bewertet: Reddit",
-"sym": "RDDT",
-"say": "Zur Aktie Reddit. Reddit kostet im Moment einhunderteins Dollar und neunundachtzig Cent. Der Kurs von Reddit veränderte sich im letzten Monat um minus einunddreissig Komma sechs Prozent und in drei Monaten um minus siebenunddreissig Prozent. Neunundzwanzig Analysten haben für Reddit ein durchschnittliches Kursziel von einhundertvierundfünfzig Dollar und fünfzehn Cent, das sind plus einundfünfzig Komma drei Prozent gegenüber dem aktuellen Kurs. Die Bank Evercore ISI Group hat Reddit abgestuft, neue Empfehlung Im Rahmen. Die Bank Loop Capital hat Reddit abgestuft, neue Empfehlung Halten. Bei den letzten Quartalszahlen meldete Reddit einen Gewinn je Aktie von ein Dollar und vierzig Cent, erwartet waren ein Dollar und dreiunddreissig Cent. Yahoo Finance meldete am vierten November: Reddit beginnt Suche nach Werbeanzeigen Test. Das war Reddit.",
-"audio": {
-"file": "nachdenken/n-2026-11-04-t_10.mp3",
-"hash": "84fe77248d347e41",
-"dur": 62.9
-}
-},
-{
-"name": "Grosse Verlierer",
-"say": "Zum Schluss die grossen Verlierer. Das sind Aktien, die im letzten Monat am stärksten gefallen sind.",
-"audio": {
-"file": "nachdenken/n-2026-11-04-t_11.mp3",
-"hash": "ff26c6de6f640649",
-"dur": 7.8
-}
-},
-{
-"name": "Verlierer: Lumentum",
-"sym": "LITE",
-"say": "Zur Aktie Lumentum. Lumentum kostet im Moment sechshundertsechsundzwanzig Dollar und fünfundsiebzig Cent. Der Kurs von Lumentum veränderte sich im letzten Monat um minus vierundvierzig Komma sieben Prozent und in drei Monaten um minus neunundzwanzig Komma sechs Prozent. Sechsundzwanzig Analysten haben für Lumentum ein durchschnittliches Kursziel von eintausendeinhundertzehn Dollar und sieben Cent, das sind plus siebenundsiebzig Komma eins Prozent gegenüber dem aktuellen Kurs. Die Bank B. Riley Securities hat Lumentum abgestuft, neue Empfehlung Neutral. Bei den letzten Quartalszahlen meldete Lumentum einen Gewinn je Aktie von vier Dollar und siebenundfünfzig Cent, erwartet waren vier Dollar und zweiundzwanzig Cent. Yahoo Finance meldete am vierten November: Lumentum fällt auf siebenhundertfünfzig Dollar bei Marvells Angebot im Wert von achthundertzwanzig Dollar. Sein Bericht vom fünften November testet den Boden. Das war Lumentum.",
-"audio": {
-"file": "nachdenken/n-2026-11-04-t_12.mp3",
-"hash": "92d5334c73a66b46",
-"dur": 68.9
-}
-},
-{
-"name": "Verlierer: Coherent",
-"sym": "COHR",
-"say": "Zur Aktie Coherent. Coherent kostet im Moment einhundertfünfundneunzig Dollar und neun Cent. Der Kurs von Coherent veränderte sich im letzten Monat um minus zweiundvierzig Komma drei Prozent und in drei Monaten um minus achtundvierzig Komma fünf Prozent. Fünfundzwanzig Analysten haben für Coherent ein durchschnittliches Kursziel von dreihundertsiebenundachtzig Dollar und achtzig Cent, das sind plus achtundneunzig Komma acht Prozent gegenüber dem aktuellen Kurs. Yahoo Finance meldete am vierten November: Coherent Aktie erholt sich von der Untergangsstimmung bei KI Rechenzentren. Das war Coherent.",
-"audio": {
-"file": "nachdenken/n-2026-11-04-t_13.mp3",
-"hash": "2784f990834237e9",
-"dur": 44.8
-}
-},
-{
-"name": "Begriff: Marge",
-"say": "Zum Lernen, der Begriff: Marge. Die Marge sagt, wie viel vom Umsatz als Gewinn übrig bleibt. Eine Marge von zwanzig Prozent heisst: von hundert Dollar Umsatz bleiben zwanzig Dollar Gewinn. Steigende Margen gelten als gutes Zeichen.",
-"audio": {
-"file": "nachdenken/n-2026-11-04-t_14.mp3",
-"hash": "fa530c37fb130b73",
-"dur": 18.8
-}
-},
-{
-"name": "Schluss",
-"say": "Das war Zum Nachdenken vom Aktien-Radar. Die Listen findest du in der App auf der Seite Entdecken, den ganzen Text über den Knopf Als Text. Denk daran: Das ist keine Anlageberatung. Bis zum nächsten Mal.",
-"audio": {
-"file": "nachdenken/n-2026-11-04-t_15.mp3",
-"hash": "c0eb227ac2742f5b",
-"dur": 16.4
-}
 }
 ],
-"dur": 614.9,
-"full": {
-"file": "nachdenken/n-2026-11-04-t_full.mp3",
-"dur": 614.9,
-"marks": [
-[
-0,
-0.0
-],
-[
-1,
-31.3
-],
-[
-2,
-39.6
-],
-[
-3,
-90.4
-],
-[
-4,
-143.6
-],
-[
-5,
-161.7
-],
-[
-6,
-216.6
-],
-[
-7,
-270.0
-],
-[
-8,
-328.9
-],
-[
-9,
-339.7
-],
-[
-10,
-395.3
-],
-[
-11,
-458.2
-],
-[
-12,
-466.0
-],
-[
-13,
-534.9
-],
-[
-14,
-579.7
-],
-[
-15,
-598.5
-]
-]
-}
-}
-],
-"generated_at": "2026-11-19T21:11:29Z",
+"generated_at": "2026-11-20T02:45:42Z",
 "voice": "de-CH-LeniNeural",
 "source": "Yahoo Finance, SEC EDGAR, Schlagzeilen (Google News u.a.); Text: Gemini Gratis-Kontingent oder Vorlage",
-"audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@367afca2f5e00611cc88e05a2e1108b3bbd540ce/data/audio/"
+"audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@2bac6a1d67b2669553a529f6170da8c6a96f22fb/data/audio/"
 }
