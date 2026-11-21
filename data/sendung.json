@@ -1,6 +1,215 @@
 {
 "episodes": [
 {
+"id": "2026-11-21-w",
+"kind": "woche",
+"date": "2026-11-21",
+"title": "Wochenrückblick, Samstag, einundzwanzigsten November",
+"generated_at": "2026-11-21T15:07:24Z",
+"writer": "Gemini (Gratis-Kontingent) 10 Firmen, Rest Vorlage",
+"chapters": [
+{
+"name": "Begrüssung",
+"say": "Willkommen zum Wochenrückblick vom Aktien-Radar, heute Samstag, einundzwanzigsten November. Wir gehen deine Aktien einzeln durch: Kurs der Woche in Dollar, neue Bewertungen von Banken und die wichtigsten Firmen-Meldungen. Danach der Kalender der Quartalszahlen für nächste Woche und ein Begriff zum Lernen. Kurz vorweg: Alles stammt aus gesammelten Daten und Schlagzeilen, Beträge nenne ich in Dollar. Das ist keine Anlageberatung.",
+"audio": {
+"file": "sendung/2026-11-21-w_00.mp3",
+"hash": "372edc2dafa9a2aa",
+"dur": 30.7
+}
+},
+{
+"name": "Nvidia",
+"sym": "NVDA",
+"say": "Zur Aktie Nvidia. Die Buchhaltung von Nvidia steht im Mittelpunkt von Ermittlungen der US-Börsenaufsicht SEC. Nvidia gerät zusammen mit anderen Firmen unter Druck, während klassische Chips an Grenzen stossen und Quantenrechner ansetzen. Zudem warnt ein Experte vor riskanten Deals von Nvidia, die an vergangene Abstürze erinnern. Der Kurs von Nvidia veränderte sich in den letzten fünf Handelstagen um minus vierzehn Prozent auf einhundertfünfundzwanzig Dollar und dreiundfünfzig Cent. Diese Woche gab es zu Nvidia keine neuen Bewertungen von Banken in den Daten. Meine Einordnung aus diesen Meldungen: Sie könnten Nvidia eher schwächen. Das war Nvidia.",
+"audio": {
+"file": "sendung/2026-11-21-w_01.mp3",
+"hash": "7458bb078c2f852e",
+"dur": 46.7
+}
+},
+{
+"name": "Microsoft",
+"sym": "MSFT",
+"say": "Zur Aktie Microsoft. Microsoft und Intel vertiefen ihre Zusammenarbeit, um eine differenzierte Azure-Infrastruktur bereitzustellen. Ausserdem starten Microsoft und Organisationen aus allen Branchen die AI Transparency Initiative, um das Vertrauen in KI-Modelle und -Agenten zu stärken. Schliesslich hat Microsoft die Unterstützung von NATO RESTRICTED-Workloads in Cloud- und KI-Infrastrukturdiensten genehmigt. Der Kurs von Microsoft veränderte sich in den letzten fünf Handelstagen um minus zwei Komma sieben Prozent auf vierhundertvierundachtzig Dollar und zweiundfünfzig Cent. Diese Woche gab es zu Microsoft keine neuen Bewertungen von Banken in den Daten. Das war Microsoft.",
+"audio": {
+"file": "sendung/2026-11-21-w_02.mp3",
+"hash": "252558392430d286",
+"dur": 50.8
+}
+},
+{
+"name": "Meta",
+"sym": "META",
+"say": "Zur Aktie Meta. Googles Gemini-Aufgaben gelten als Herausforderer für Metas Muse im KI-Kampf. Aktionäre haben Mark Zuckerberg in die Knie gezwungen, woraufhin Meta einen neuen Aktienplan beziehungsweise eine neue Aktienstruktur pausiert hat. Diese Massnahme erfolgt aufgrund rechtlicher Anfechtungen und eines Rechtsstreits mit Investoren. Der Kurs von Meta veränderte sich in den letzten fünf Handelstagen um minus fünf Komma neun Prozent auf fünfhundertsechzig Dollar und vierundachtzig Cent. Diese Woche gab es zu Meta keine neuen Bewertungen von Banken in den Daten. Ob das Meta stärkt oder schwächt, ist aus den Meldungen noch unklar. Das war Meta.",
+"audio": {
+"file": "sendung/2026-11-21-w_03.mp3",
+"hash": "3089644653019eda",
+"dur": 49.1
+}
+},
+{
+"name": "Intel",
+"sym": "INTC",
+"say": "Zur Aktie Intel. Intel verzeichnet einen Chip-Durchbruch und gewinnt den ersten externen Kunden für fortschrittliche 18A-Chips. Microsoft und Intel vertiefen ihre gemeinsame Zusammenarbeit, um eine differenzierte Azure-Infrastruktur bereitzustellen. Der genaue Produktzyklus und die Bewertung entscheiden nun über den nächsten Schritt bei Intel, während gleichzeitig eine weitere Entlassungsrunde gestartet wird. Der Kurs von Intel veränderte sich in den letzten fünf Handelstagen um minus sieben Komma neun Prozent auf einundfünfzig Dollar und achtundzwanzig Cent. Diese Woche gab es zu Intel keine neuen Bewertungen von Banken in den Daten. Meine Einordnung aus diesen Meldungen: Sie könnten Intel eher stärken. Das war Intel.",
+"audio": {
+"file": "sendung/2026-11-21-w_04.mp3",
+"hash": "bac45a95c806c2e8",
+"dur": 53.0
+}
+},
+{
+"name": "Amazon",
+"sym": "AMZN",
+"say": "Zur Aktie Amazon. Amazon und Big Tech geben weiterhin viel für künstliche Intelligenz aus. ScaleCapacity hat eine mehrjährige strategische Kooperationsvereinbarung mit AWS unterzeichnet, um die Akzeptanz von Amazon Connect bei Kunden zu beschleunigen. Zudem wurde das Kursziel für Amazon aufgrund des Anthropic-Anteilswerts erhöht. Der Kurs von Amazon veränderte sich in den letzten fünf Handelstagen um minus vier Komma eins Prozent auf zweihundertsechsundvierzig Dollar und zweiundachtzig Cent. Diese Woche gab es zu Amazon keine neuen Bewertungen von Banken in den Daten. Meine Einordnung aus diesen Meldungen: Sie könnten Amazon eher stärken. Das war Amazon.",
+"audio": {
+"file": "sendung/2026-11-21-w_05.mp3",
+"hash": "73b4255e2ef6d4f8",
+"dur": 50.4
+}
+},
+{
+"name": "UBS",
+"sym": "UBSG.SW",
+"say": "Zur Aktie UBS. Die UBS weist darauf hin, dass Rohstoffinvestitionen trotz gesunkener Ölangebotsprämie stabil bleiben. Die UBS hat die Aktienbewertung von Bill.com im Zusammenhang mit einer TPG-Übernahmevereinbarung herabgestuft. Ausserdem forderte die UBS McKesson und bekräftigte eine Kaufempfehlung für StandardAero. Der Kurs von UBS veränderte sich in den letzten fünf Handelstagen um minus drei Komma sieben Prozent auf vierundvierzig Dollar und fünf Cent. Diese Woche gab es zu UBS keine neuen Bewertungen von Banken in den Daten. Ob das UBS stärkt oder schwächt, ist aus den Meldungen noch unklar. Das war UBS.",
+"audio": {
+"file": "sendung/2026-11-21-w_06.mp3",
+"hash": "546da4f61af13728",
+"dur": 48.1
+}
+},
+{
+"name": "Micron",
+"sym": "MU",
+"say": "Zur Aktie Micron. Micron steht zusammen mit Intel und Nvidia unter Druck, während klassische Chips an Grenzen stossen. Die Micron-Aktie bricht ein, während gleichzeitig ein riesiger Auftragsbestand von einhundertfünfzig Milliarden Dollar und ein Vertragskatalog für das Jahr 2027 im Fokus stehen. Purpose Investments hat ausserdem einen neuen Purpose Micron Yield Shares ETF eingeführt. Der Kurs von Micron veränderte sich in den letzten fünf Handelstagen um minus siebzehn Komma sieben Prozent auf fünfhundertvierundneunzig Dollar und einundfünfzig Cent. Diese Woche gab es zu Micron keine neuen Bewertungen von Banken in den Daten. Das durchschnittliche Kursziel für Micron liegt bei eintausendfünfhunderteinundsechzig Dollar und einundneunzig Cent. Ob das Micron stärkt oder schwächt, ist aus den Meldungen noch unklar. Das war Micron.",
+"audio": {
+"file": "sendung/2026-11-21-w_07.mp3",
+"hash": "666542c44da06efd",
+"dur": 62.4
+}
+},
+{
+"name": "Taiwan Semiconductor",
+"sym": "TSM",
+"say": "Zur Aktie Taiwan Semiconductor. Taiwan Semiconductor Manufacturing unterbricht fortgeschrittene Chiplieferungen nach China. TSMC verschärft die Beschränkungen für chinesische Chipdesigner und die chinesische KI-Chip-Produktion als Reaktion auf neue US-Vorschriften beziehungsweise US-Exportregeln. Die Aktie gerät im Zuge dieser Entwicklungen und Marktbewegungen unter Druck. Der Kurs von Taiwan Semiconductor veränderte sich in den letzten fünf Handelstagen um minus vierzehn Komma sechs Prozent auf dreihundertachtzehn Dollar und einundsiebzig Cent. Diese Woche gab es zu Taiwan Semiconductor keine neuen Bewertungen von Banken in den Daten. Das durchschnittliche Kursziel für Taiwan Semiconductor liegt bei fünfhundertsechsundachtzig Dollar und neunundsechzig Cent. Meine Einordnung aus diesen Meldungen: Sie könnten Taiwan Semiconductor eher schwächen. Das war Taiwan Semiconductor.",
+"audio": {
+"file": "sendung/2026-11-21-w_08.mp3",
+"hash": "913b76abe9cdca83",
+"dur": 65.4
+}
+},
+{
+"name": "Berkshire Hathaway",
+"sym": "BRK-B",
+"say": "Zur Aktie Berkshire Hathaway. Warren Buffetts Nachfolger Greg Abel hat einen grossen Teil des Portfolios von Berkshire Hathaway in KI-Aktien investiert. Berkshire Hathaway hat zudem beim Übernahme-Spezialisten Bending Spoons aus Mailand nachgelegt. Ausserdem gibt Berkshire eine neue Technologie-Beteiligung bekannt. Der Kurs von Berkshire Hathaway veränderte sich in den letzten fünf Handelstagen um minus vier Komma zwei Prozent auf fünfhundertsiebzig Dollar. Diese Woche gab es zu Berkshire Hathaway keine neuen Bewertungen von Banken in den Daten. Das durchschnittliche Kursziel für Berkshire Hathaway liegt bei fünfhundertvierundsechzig Dollar und siebenundsechzig Cent. Meine Einordnung aus diesen Meldungen: Sie könnten Berkshire Hathaway eher stärken. Das war Berkshire Hathaway.",
+"audio": {
+"file": "sendung/2026-11-21-w_09.mp3",
+"hash": "b2bfca001502b079",
+"dur": 57.7
+}
+},
+{
+"name": "Palantir",
+"sym": "PLTR",
+"say": "Zur Aktie Palantir. Palantir verzeichnet Bundesabkommen und wachsende Beziehungen, während Investoren stark nach Palantir Technologies suchen. Palantir Technologies hat ein neues KI-Signal von einem wichtigen Plattformpartner erhalten. Zu den Meldungen gehören zudem regulatorische Formular-einhundertvierundvierzig-Einreichungen für Palantir. Der Kurs von Palantir veränderte sich in den letzten fünf Handelstagen um minus elf Prozent auf einhundertdreiundvierzig Dollar und neunundvierzig Cent. Diese Woche gab es zu Palantir keine neuen Bewertungen von Banken in den Daten. Das durchschnittliche Kursziel für Palantir liegt bei zweihundertzweiundzwanzig Dollar und neunzig Cent. Meine Einordnung aus diesen Meldungen: Sie könnten Palantir eher stärken. Das war Palantir.",
+"audio": {
+"file": "sendung/2026-11-21-w_10.mp3",
+"hash": "5b0441cc888fdc7d",
+"dur": 56.8
+}
+},
+{
+"name": "Quartalszahlen nächste Woche",
+"say": "Quartalszahlen nächste Woche. In diesem Zeitraum sind für deine Aktien keine Quartalszahlen angekündigt.",
+"audio": {
+"file": "sendung/2026-11-21-w_11.mp3",
+"hash": "d9e7b51e5b58a12f",
+"dur": 8.8
+}
+},
+{
+"name": "Begriff: Insiderkauf",
+"say": "Zum Lernen, der Begriff des Tages: Insiderkauf. Wenn Chefs oder Verwaltungsräte eigene Aktien ihrer Firma kaufen, nennt man das Insiderkauf. In den USA müssen sie das bei der Börsenaufsicht S E C melden. Käufe gelten oft als Zeichen von Vertrauen.",
+"audio": {
+"file": "sendung/2026-11-21-w_12.mp3",
+"hash": "d65c03bda99712ee",
+"dur": 20.5
+}
+},
+{
+"name": "Schluss",
+"say": "Das war der Wochenrückblick vom Aktien-Radar. Die Quellen findest du in der App bei jeder Aktie, den ganzen Text über den Knopf Als Text. Bis nächste Woche.",
+"audio": {
+"file": "sendung/2026-11-21-w_13.mp3",
+"hash": "a47779957ec83468",
+"dur": 12.4
+}
+}
+],
+"dur": 612.8,
+"full": {
+"file": "sendung/2026-11-21-w_full.mp3",
+"dur": 613.0,
+"marks": [
+[
+0,
+0.0
+],
+[
+1,
+30.7
+],
+[
+2,
+77.4
+],
+[
+3,
+128.2
+],
+[
+4,
+177.3
+],
+[
+5,
+230.3
+],
+[
+6,
+280.7
+],
+[
+7,
+328.8
+],
+[
+8,
+391.2
+],
+[
+9,
+456.6
+],
+[
+10,
+514.3
+],
+[
+11,
+571.1
+],
+[
+12,
+579.9
+],
+[
+13,
+600.4
+]
+]
+}
+},
+{
 "id": "2026-11-20-t",
 "kind": "tag",
 "date": "2026-11-20",
@@ -2551,204 +2760,10 @@
 ]
 ]
 }
-},
-{
-"id": "2026-11-05-t",
-"kind": "tag",
-"date": "2026-11-05",
-"title": "Morgen-Sendung, Donnerstag, fünften November",
-"generated_at": "2026-11-05T05:26:50Z",
-"writer": "Vorlage aus den Daten",
-"chapters": [
-{
-"name": "Begrüssung",
-"say": "Guten Morgen und willkommen zur Sendung vom Aktien-Radar, heute Donnerstag, fünften November. Zuerst ein kurzer Blick auf den Markt, dann die Firmen aus deiner Liste mit neuen Meldungen zu Produkten, Partnern und Projekten, danach die Quartalszahlen dieser Woche und zum Schluss ein Begriff zum Lernen. Kurz vorweg: Alles stammt aus gesammelten Daten und Schlagzeilen, Beträge nenne ich in Dollar. Das ist keine Anlageberatung.",
-"audio": {
-"file": "sendung/2026-11-05-t_00.mp3",
-"hash": "81d9f2d8326fd576",
-"dur": 29.7
-}
-},
-{
-"name": "Markt kurz",
-"say": "Der Markt kurz. Der S und P fünfhundert, der Index der fünfhundert grossen US-Firmen, stand zuletzt bei plus eins Komma sechs Prozent gegenüber dem Vortag. In deiner Liste am stärksten: DroneShield Limited mit plus neun Komma fünf Prozent, Microsoft mit plus sechs Komma sieben Prozent, Amazon mit plus sechs Komma eins Prozent. Am schwächsten: GE Vernova mit minus neun Komma drei Prozent, Seagate Technology mit minus acht Komma eins Prozent. Zum Thema Wall Street meldet Reuters: Wall Street schliesst höher, nachdem die Demokraten den Kongress gewonnen haben; Datencenter-Aktien fallen. Zum Thema Zölle meldet Morningstar: Der Wahlsieg der Demokraten weckt Kanadas Hoffnungen auf eine Zollerleichterung in den USA.",
-"audio": {
-"file": "sendung/2026-11-05-t_01.mp3",
-"hash": "a451c8e1e5228537",
-"dur": 54.5
-}
-},
-{
-"name": "Microsoft",
-"sym": "MSFT",
-"say": "Zur Aktie von Microsoft. Yahoo Finance meldete am fünften November, dass der Aktienkurs von IREN fällt, da das Unternehmen laut einem Bericht für Verzögerungen bei den KI-Ausgaben von Microsoft verantwortlich sein soll, während sich Anleger verstärkt auf die Erträge konzentrieren. Seeking Alpha berichtete am vierten November, dass Microsoft um sieben Prozent stieg und ein neues zweiundfünfzig-Wochen-Hoch erreichte. Zudem bezifferte AIMG am vierten November den Markt für KI-Governance-Plattformen bis 2030 auf zwölf Komma fünf Milliarden Dollar, wobei Microsoft neben Databricks und Salesforce als einer der Marktführer genannt wird. Ob diese Meldungen Microsoft nachhaltig beeinflussen, lässt sich aus den Schlagzeilen allein nicht abschliessend beurteilen.",
-"audio": {
-"file": "sendung/2026-11-05-t_02.mp3",
-"hash": "6f1e0189892bb3cc",
-"dur": 54.0
-}
-},
-{
-"name": "Amazon",
-"sym": "AMZN",
-"say": "Zur Aktie von Amazon. The Globe and Mail berichtete am vierten November, dass CEO Andy Jassy positive Nachrichten für Investoren überbracht hat. Gleichzeitig meldete Yahoo Finance am selben Tag, dass Beschäftigte im Grossraum Toronto gemeinsam mit der Gewerkschaft Unifor für bessere Arbeitsbedingungen kämpfen. Zudem wurde thematisiert, dass die Amazon-Aktie nach der Veröffentlichung der Gewinne fiel, was bei Anlegern Fragen zur weiteren Entwicklung aufwirft. Ob diese Nachrichten die Aktie insgesamt stärken oder schwächen, lässt sich anhand der Schlagzeilen nicht sicher sagen.",
-"audio": {
-"file": "sendung/2026-11-05-t_03.mp3",
-"hash": "0fd5f784741d3bd1",
-"dur": 41.1
-}
-},
-{
-"name": "Palantir",
-"sym": "PLTR",
-"say": "Zur Aktie von Palantir. Investing.com berichtete am fünften November über einen Aktienverkauf der Direktorin Lauren Friedman im Wert von zweihundertzweiundfünfzigtausendneunhunderteinundachtzig Dollar. Yahoo Finance meldete am vierten November, dass Palantir ein Wachstum von dreiundneunzig Prozent bei einer operativen Marge von zweiundsechzig Prozent verzeichnete, wobei die Nachfrage nach sogenannter KI-Souveränität im Fokus steht. Gleichzeitig fielen die Aktien um vier Komma vier Prozent, da die Prognosen einen weiteren sequenziellen Umsatzschritt von fünfzehn Prozent erfordern. Ob diese Meldungen Palantir stärken oder schwächen, lässt sich aus den Schlagzeilen allein nicht sicher sagen.",
-"audio": {
-"file": "sendung/2026-11-05-t_04.mp3",
-"hash": "7c5829a0c93e2869",
-"dur": 48.8
-}
-},
-{
-"name": "Meta",
-"sym": "META",
-"say": "Zur Aktie von Meta. Yahoo Finance berichtete am fünften November, dass der Verkauf von US-Anleihen durch Meta Aufträge im Wert von achtundfünfzig Milliarden Dollar einbrachte und das Unternehmen nun in Europa aktiv wird. Am selben Tag wurde gemeldet, dass der COO Javier Olivan Unternehmensaktien im Wert von neunhundertsiebenundsechzigtausendzweihundertsechsundachtzig Dollar verkaufte. Zudem gab es Berichte über die Rechenzentrumspolitik des Unternehmens. Ob diese Meldungen Meta stärken oder schwächen, lässt sich aus den Schlagzeilen allein nicht sicher sagen.",
-"audio": {
-"file": "sendung/2026-11-05-t_05.mp3",
-"hash": "1b0fc82eb059f960",
-"dur": 40.8
-}
-},
-{
-"name": "Arm",
-"sym": "ARM",
-"say": "Zur Aktie von Arm. CNBC TV18 meldete am fünften November, dass die Aktien von Arm Holdings um über fünf Prozent fielen, da die Umsatzprognose für KI-Rechenzentren die Erwartungen kaum übertraf. Investor's Business Daily berichtete am vierten November, dass Arm zwar die vierteljährlichen Ziele beim Rechenzentrumsgeschäft übertraf, der Aktienkurs dennoch nachgab. Der Arm Newsroom gab am vierten November ein Rekordergebnis für das zweite Quartal mit einem Gesamtumsatz von eins Komma vier Milliarden Dollar bekannt. Ob diese Meldungen Arm stärken oder schwächen, lässt sich aus den Schlagzeilen allein nicht sicher sagen.",
-"audio": {
-"file": "sendung/2026-11-05-t_06.mp3",
-"hash": "29edcfb93a0d8ebc",
-"dur": 45.3
-}
-},
-{
-"name": "UBS",
-"sym": "UBSG.SW",
-"say": "Zur Aktie von UBS. Cash berichtete am fünften November, dass die Aktie nach einem Kurssprung und Spekulationen um einen Deal mit Morgan Stanley im Fokus der Investoren steht. Yahoo Finance warnte am vierten November, dass steigende Hypothekenzinsen die Erholung der britischen Hausbaubranche gefährden könnten. Zudem meldete marketscreener.com am vierten November, dass der Schweizer Gesetzgeber Berichten zufolge versucht, die zusätzlichen Kapitalanforderungen für die UBS-Gruppe zu mildern. Ob diese Meldungen UBS stärken oder schwächen, lässt sich aus den Schlagzeilen allein nicht sicher sagen.",
-"audio": {
-"file": "sendung/2026-11-05-t_07.mp3",
-"hash": "f1c996d2265f2991",
-"dur": 42.4
-}
-},
-{
-"name": "Intel",
-"sym": "INTC",
-"say": "Kommen wir zur Aktie von Intel. Am vierten November gab es unterschiedliche Nachrichten zum Unternehmen. Während Intel das stärkste Wachstum im Bereich der Rechenzentren seit fünfzehn Jahren verzeichnete und damit Hoffnungen auf ein Comeback weckte, trat der Konzern zudem dem Semiconductor Pathways Fund bei, um die Ausbildung von Ingenieuren in den USA zu fördern. Gleichzeitig zeigt sich ein Insider-Effekt: Der CEO Lip Bu Tan hat Intel-Aktien im Wert von neun Komma sieben Millionen Dollar erworben. Trotz dieser operativen Fortschritte notiert die Aktie aktuell mit einem Minus von drei Komma acht Prozent bei achtundfünfzig Komma zwei sieben Dollar. Ob diese Entwicklungen das Unternehmen langfristig stützen, bleibt abzuwarten.",
-"audio": {
-"file": "sendung/2026-11-05-t_08.mp3",
-"hash": "c7e73b144a70c119",
-"dur": 51.1
-}
-},
-{
-"name": "Nvidia",
-"sym": "NVDA",
-"say": "Blicken wir auf Nvidia. Das Unternehmen steht aktuell im Fokus von Berichten über ein mögliches hartes Durchgreifen der Demokraten gegen KI-Rechenzentren. Trotz dieser regulatorischen Unsicherheiten und einer Thematik um ein Durchgreifen im Rechenzentrumsbereich diskutieren Berichte, warum die Aktie solchen Belastungen standhalten könnte. Zudem wird betont, dass Investoren im Bereich der künstlichen Intelligenz weiterhin auf Nvidia und entsprechende Anwendungsaktien setzen könnten. Die Aktie notiert derzeit bei zweihundert Dollar, was einem Rückgang von drei Komma zwei Prozent entspricht.",
-"audio": {
-"file": "sendung/2026-11-05-t_09.mp3",
-"hash": "4281f2cefe550abb",
-"dur": 41.6
-}
-},
-{
-"name": "Quartalszahlen diese Woche",
-"say": "Quartalszahlen diese Woche. Diese Firmen aus deiner Liste melden ihre Quartalszahlen. Zur Aktie Oklo: Zahlen Freitag, am sechsten November. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von minus null Dollar und sechsundzwanzig Cent. Beim Umsatz erwarten sie rund eins Komma eins Millionen Dollar. Zur Aktie Berkshire Hathaway: Zahlen Samstag, am siebten November. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von sechs Dollar und vierzehn Cent.",
-"audio": {
-"file": "sendung/2026-11-05-t_10.mp3",
-"hash": "787ab959311529eb",
-"dur": 36.9
-}
-},
-{
-"name": "Begriff: Gewinn je Aktie",
-"say": "Zum Lernen, der Begriff des Tages: Gewinn je Aktie. Der Gewinn je Aktie, auf Englisch E P S, ist der Gewinn der Firma geteilt durch die Zahl ihrer Aktien. Bei Quartalszahlen vergleicht man ihn mit der Erwartung der Analysten. Liegt er darüber, ist das eine positive Überraschung.",
-"audio": {
-"file": "sendung/2026-11-05-t_11.mp3",
-"hash": "98360e3703db646f",
-"dur": 20.4
-}
-},
-{
-"name": "Schluss",
-"say": "Das war die Sendung vom Aktien-Radar. Die Quellen findest du in der App bei jeder Aktie, den ganzen Text über den Knopf Als Text. Bis morgen.",
-"audio": {
-"file": "sendung/2026-11-05-t_12.mp3",
-"hash": "cc4bc23e3e69d9dd",
-"dur": 11.5
-}
 }
 ],
-"dur": 518.1,
-"full": {
-"file": "sendung/2026-11-05-t_full.mp3",
-"dur": 518.2,
-"marks": [
-[
-0,
-0.0
-],
-[
-1,
-29.7
-],
-[
-2,
-84.2
-],
-[
-3,
-138.2
-],
-[
-4,
-179.3
-],
-[
-5,
-228.1
-],
-[
-6,
-268.9
-],
-[
-7,
-314.2
-],
-[
-8,
-356.6
-],
-[
-9,
-407.7
-],
-[
-10,
-449.3
-],
-[
-11,
-486.2
-],
-[
-12,
-506.6
-]
-]
-}
-}
-],
-"generated_at": "2026-11-20T13:25:43Z",
+"generated_at": "2026-11-21T15:07:24Z",
 "voice": "de-CH-LeniNeural",
 "source": "Yahoo Finance, SEC EDGAR, Schlagzeilen (Google News u.a.); Text: Gemini Gratis-Kontingent oder Vorlage",
-"audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@d95935af5d1ba76f8f320f60ca480c30b77c90d6/data/audio/"
+"audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@4fa8e73f691544ea5c6d0dc724419f1a6c8cb0f2/data/audio/"
 }
