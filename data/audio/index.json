@@ -387,15 +387,16 @@
   },
   "013A.F": {
    "file": "013A.F.mp3",
-   "hash": "480bedae8bb2f3a4",
-   "th": "ce83364f33fb6361",
-   "id": "0b56914219",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
+   "hash": "8ba03601ea04661d",
+   "th": "afa8a67a2f8452fc",
+   "engine": "gemini",
+   "id": "f670115774",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
    "br": 24,
-   "text": "JD.com: Im Fokus stehen aktuelle Entwicklungen und Analysteneinschätzungen zu dem Handelskonzern. Laut Investing.com hat das Analysehaus Susquehanna das Kursziel für die JD.com-Aktie aufgrund von Effizienzsteigerungen auf achtundzwanzig Dollar angehoben. Die Plattform Seeking Alpha berichtet, dass die Expansion von Joybuy und eine schlankere Wachstumsstrategie eine deutliche Neubewertung der Aktie unterstützen könnten. Zurück zu JD.com: Ynetnews berichtet, dass eine Übernahme durch JD.com den deutschen Elektronikhandel mit billigen Geräten und verlorenen Arbeitsplätzen erschüttert, während Seeking Alpha die Frage aufwirft, ob es sich um einen tiefen Wert oder eine kaputte Einzelhandelsgeschichte handelt. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Zu den Analysten-Bewertungen: Susquehanna bewertet die Aktie neutral und nennt ein Kursziel von achtundzwanzig Dollar, nachdem zuvor ein Kursziel von dreissig Dollar genannt wurde. Nomura behält laut MarketScreener Schweiz eine Kaufempfehlung bei. Barclays bestätigt die Einstufung als Übergewichten und senkt das Kursziel auf achtunddreissig Dollar. B of A Securities bestätigt die Einstufung als Kaufen und senkt das Kursziel auf siebenunddreissig Dollar. Was die Firma gerade macht: Laut Seeking Alpha treibt JD.com die Expansion von Joybuy voran und verfolgt eine schlankere Wachstumsstrategie, was aufwertend wirkt. Auf der abwertenden Seite steht laut Ynetnews die Erschütterung des deutschen Elektronikhandels durch eine Übernahme sowie die Diskussion bei Seeking Alpha über eine mögliche kaputte Einzelhandelsgeschichte. Als wichtige Kennzahl ist das neue Kursziel von Susquehanna in Höhe von achtundzwanzig Dollar zu nennen, das aufgrund von Effizienzsteigerungen angepasst wurde. Insider-Käufe oder -Verkäufe wurden in den Meldungen nicht erwähnt. Aussagen von Chefs liegen für diesen Zeitraum nicht vor. Keine Anlageberatung.",
-   "dur": 140.2,
-   "at": "2026-11-23T01:04:11Z"
+   "text": "Beim Unternehmen JD.com zeigen aktuelle Meldungen ein gemischtes Bild für Anlegerinnen und Anleger. Laut dem Finanzportal Yahoo Finance suchen Investoren intensiv nach JD.com. Gleichzeitig berichtet Ynetnews, dass eine Übernahme von JD.com den deutschen Elektronikhandel erschüttert und Diskussionen über billige Geräte sowie verlorene Arbeitsplätze auslöst, was für die Aktie von Bedeutung sein kann. Auf der Risikoseite hat das deutsche Börsenportal boerse.de gemeldet, dass der BOTSI-Advisor JD.com von Rang dreihundertneunzig abgestuft hat. Bei den Analystenbewertungen gab es ebenfalls Anpassungen. Barclays bestätigte die Einstufung auf Übergewichten und senkte das Kursziel auf achtunddreissig Dollar. B of A Securities bestätigte die Einstufung auf Kaufen und senkte das Kursziel auf siebenunddreissig Dollar. Susquehanna bestätigte die Einstufung auf Neutral und senkte das Kursziel auf dreissig Dollar. Weitere Kennzahlen, Insider-Aktivitäten oder Aussagen von Unternehmenschefs wurden in den vorliegenden Berichten nicht genannt.",
+   "dur": 68.9,
+   "at": "2026-11-23T16:04:27Z"
   },
   "NVDA": {
    "file": "NVDA.mp3",
@@ -519,9 +520,9 @@
   }
  },
  "status": "ok",
- "checked_at": "2026-11-23T07:49:13Z",
+ "checked_at": "2026-11-23T16:04:27Z",
  "quota_until": 1795249473.4961078,
- "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@5a30b691351b0dd4785917078e490d3f2e1dd5b4/data/audio/",
+ "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@7c76e1a8d9f60df3db48d946673d15c8f94d6871/data/audio/",
  "extra": {
   "intro": {
    "file": "_intro.mp3",
