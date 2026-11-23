@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T01:04:23Z",
+ "generated_at": "2026-11-23T07:49:15Z",
  "intro": "Willkommen beim Aktien-Radar, deinem Überblick über die neuesten Meldungen. Heute geht es um 39 Aktien aus deiner Liste. Alles stammt aus den gesammelten Meldungen und Analystendaten, nichts ist erfunden. Keine Anlageberatung.",
  "outro": "Das war der Aktien-Radar-Überblick. Die Quellen und Details findest du in der App bei jeder Aktie. Keine Anlageberatung.",
  "segments": [
@@ -32,26 +32,26 @@
   {
    "symbol": "005930.KS",
    "name": "Samsung Electronics",
-   "text": "Samsung Electronics steht derzeit im Fokus von Marktbeobachtern und Investoren. Laut Yahoo Finance steht Apple kurz vor einem langfristigen DRAM-Liefervertrag mit Samsung Electronics. Gleichzeitig berichtet Yahoo Finance, dass Samsung und TSMC einige Chiplieferungen an chinesische Kunden gestoppt haben, da die USA ihre Exportbeschränkungen verschärfen. Auf der Risikoseite meldet Yahoo Finance, dass Samsung Electronics im Zuge eines Ausverkaufs an den Börsen einen Kursrückgang von rund sieben Prozent verzeichnete. Zudem haben Samsung und TSMC Berichten zufolge aufgrund neuer US-Exportbestimmungen einige Chiplieferungen an chinesische Kunden ausgesetzt. Zurück zu Samsung Electronics: Die Analystenbewertungen zeigen ein positives Bild. Das Konsensrating von fünfunddreissig Analysten bei Yahoo Finance lautet auf Kaufen beziehungsweise Stark Kaufen. Dan Niles warnt laut TradingView, dass die zwanzig-fache Umsatzbewertung von Anthropic Samsung und Hynix wie Schnäppchen aussehen lässt. Das Unternehmen ist operativ aktiv und hat ein neues Betaprogramm für One UI neun.fünf gestartet. Wichtige Kennzahlen umfassen das durchschnittliche Kursziel von dreihundertzweiundfünfzig Dollar sowie den Rückgang der Aktie von -sieben Prozent.",
-   "id": "476c176066",
-   "generated_at": "2026-11-23T00:55:57Z",
+   "text": "Samsung Electronics verzeichnete an den Borsen spürbare Kursrückgänge, was im Zuge eines allgemeinen Technologie- und KI-Ausverkaufs geschah. Gleichzeitig steht Apple laut Berichten kurz vor einem langfristigen Liefervertrag für DRAM-Speicherchips mit dem Unternehmen, was für die künftige Nachfrage von Bedeutung sein kann. Zudem musste das Unternehmen nach verschärften US-Exportbeschränkungen einige Chiplieferungen nach China vorübergehend stoppen. Laut Yahoo Finance bewerten insgesamt achtundvierzig Analysten die Aktie mit Kaufen oder Stark Kaufen, während keine Verkaufsempfehlungen vorliegen. Das durchschnittliche Kursziel der Analysten liegt bei dreihundertneunundvierzig Dollar. Operativ hat das Unternehmen ein Betaprogramm für One UI neun.fünf gestartet. Auf der abwertenden Seite steht der Aktienkurs-Rückgang um -sieben Prozent.",
+   "id": "af4d849221",
+   "generated_at": "2026-11-23T07:41:26Z",
    "audio": {
     "file": "005930.KS.mp3",
-    "hash": "ad69f189c8cf3e48",
-    "dur": 78.1,
+    "hash": "7beb9993d2491207",
+    "dur": 49.8,
     "engine": "gemini"
    }
   },
   {
    "symbol": "HY9H.MU",
    "name": "SK Hynix",
-   "text": "SK Hynix wandelt eine Kioxia-Anleihe um und wird damit zum grössten Anteilseigner des Rivalen, wie Bloomberg.com berichtet. Zudem verzeichneten die Aktien von SK Hynix Kursverluste im Zuge eines breiteren Ausverkaufs bei Künstlicher-Intelligenz- und Chip-Werten, so TradingView. Ausserdem präsentierte das Unternehmen auf der Konferenz Supercomputing 2026 seine Technologievision für das KI-Ökosystem rund um Speicherchips, laut einer Mitteilung von SK hynix. Zu den Risiken meldet Yahoo Finance, dass sich SK Hynix einer erneuten Prüfung und dem Vorwärtskommen einer Klage wegen angeblicher RAM-Preismanipulationen ausgesetzt sieht, gemeinsam mit Samsung und Micron. Ausserdem verzeichnete die Aktie Kursrückgänge und erreichte ein neues Sechs-Monats-Tief, wie boerse.de berichtet. Zurück zu SK Hynix: Sorgen um sinkende NAND-Preise für das Jahr 2027 und ein allgemeiner Ausverkauf bei KI-Aktien belasteten die Kurse ebenfalls. Das Unternehmen baut seine Marktposition durch die Umwandlung einer Anleihe aus, um grösster Aktionär von Kioxia zu werden. Ausserdem setzt Coatue Management auf die Aktie von SK Hynix, da die Nachfrage nach HBM-Chips anzieht, laut Barchart.com. Demgegenüber litten der südkoreanische Aktienmarkt und Schwergewichte wie SK Hynix unter einem durch die Wall Street ausgelösten KI-Ausverkauf, und Marktforscher wie TrendForce äusserten sich pessimistischer zu den NAND-Preisen für das Jahr 2027. Als wichtige Kennzahl wird eine Marge von achtzig Prozent genannt, laut TradingView, wobei die Marge zeigt, wie viel Prozent vom Umsatz nach Abzug der Kosten als Gewinn übrig bleiben, was für die Profitabilität wichtig ist.",
-   "id": "d3c6bd8ee2",
-   "generated_at": "2026-11-23T00:55:57Z",
+   "text": "SK Hynix wandelt eine Anleihe um, um der grösste Aktionär des Konkurrenten Kioxia zu werden. Zudem präsentierte das Unternehmen auf der Supercomputing 2026 seine Technologievision für das KI-Ökosystem. Gleichzeitig geriet die Aktie im Zuge allgemeiner Marktverluste und sinkender Technologiekurse unter Druck und erreichte ein neues Sechs-Monats-Tief. Belastend wirken zudem eine erneute Prüfung im Rahmen einer DRAM-Klage sowie pessimistischere Aussichten von TrendForce für die NAND-Preise im Jahr 2027. Auf der positiven Seite setzt Coatue Management auf SK Hynix, da die Nachfrage nach HBM-Speicherchips zunimmt. Als wichtige Kennzahl wird eine Marge von achtzig Prozent genannt, was im Zusammenhang mit der Marktposition bei HBM-Chips steht.",
+   "id": "9a44e519ce",
+   "generated_at": "2026-11-23T07:41:26Z",
    "audio": {
     "file": "HY9H.MU.mp3",
-    "hash": "6bbae8ab5d554198",
-    "dur": 114.5,
+    "hash": "12dcba925e272752",
+    "dur": 52.1,
     "engine": "gemini"
    }
   },
@@ -253,13 +253,13 @@
   {
    "symbol": "HOOD",
    "name": "Robinhood Markets",
-   "text": "Robinhood Markets steht derzeit im Fokus von Medien und Analysten, nachdem die Aktie deutliche Kursrückgänge verzeichnet hat und neue strategische sowie rechtliche Fragen aufkommen. Laut dem Finanzportal Investing.com Deutsch fiel die Aktie auf ein neues Fünfundfünfzig-Wochen-Tief bei dreiundsechzig Komma vier sechs Dollar. Den vorliegenden Meldungen zufolge sehen sich Anleger mit Herausforderungen konfrontiert, da Aktionäre eine Überprüfung der Stimmrechtsvertretungspraktiken fordern, während die Börsenaufsicht SEC die Aufsicht lockert. In den vorliegenden Meldungen wurden ansonsten keine weiteren gravierenden rechtlichen Probleme gefunden. Analysten blicken überwiegend positiv auf das Unternehmen. Laut Yahoo Finance empfehlen fünfundzwanzig Analysten die Aktie zum Kaufen, sechs zum starken Kaufen, sechs zum Halten und eins zum Verkauf. Das durchschnittliche Kursziel liegt bei einhundertsechsundzwanzig Dollar. Die US-Bank Truist Securities bestätigte ihr Kaufurteil und senkte das Kursziel auf einhundertdreiundzwanzig Dollar. Cantor Fitzgerald stufte die Aktie ebenfalls als übergewichtet ein und passte das Kursziel auf einhundertzwanzig Dollar an. JP Morgan hält an der neutralen Einschätzung fest und nennt ein Kursziel von einhundertvierzehn Dollar. Goldman Sachs bestätigte das Kaufrating bei einem Kursziel von einhundertachtundzwanzig Dollar. Barclays bestätigte die Übergewichtung und senkte das Ziel auf einhundertfünfzehn Dollar. Wells Fargo behielt die Marktgewichtung bei und setzte das Kursziel auf einhundert Dollar. Zurück zu Robinhood Markets: Das Unternehmen profitiert laut Barchart.com von grundlegend positiven Aussichten trotz Konkurrenzängsten, während Yahoo Finance gleichzeitig auf künftige Rivalen wie geplante Prognosemärkte von Coinbase verweist. Zu den wichtigen Kennzahlen zählt das durchschnittliche Kursziel von einhundertsechsundzwanzig Dollar sowie ein von Yahoo Finance ausgewiesenes Aufwärtspotenzial von rund einhundertzwei Komma sechs Prozent. Bei den Insidern gab es mehrere Verkäufe: Verwaltungsrat Baiju Bhatt veräusserte Aktien im Wert von rund vier Komma acht Millionen Dollar, Chief Legal Officer Daniel Martin Jr Gallagher verkaufte Aktien für rund achthundertfünfzigtausend Dollar und Chief Accounting Officer Dara Bazzano trennte sich von Aktien im Wert von rund dreihunderteinundachtzigtausend Dollar. Solche Insider-Verkäufe sind oft weniger aussagekräftig als Käufe, da sie häufig steuerlich motiviert oder über vorab festgelegte Pläne abgewickelt werden. Hinsichtlich möglicher Widersprüche berichten einige Portale, dass die Aussichten trotz der Konkurrenz durch Kalshi positiv bewertet werden, während andere den anhaltenden Kurssturz betonen. Keine Anlageberatung.",
+   "text": "Robinhood Markets steht derzeit im Fokus von Medien und Analysten, nachdem die Aktie deutliche Kursrückgänge verzeichnet hat und neue strategische sowie rechtliche Fragen aufkommen. Laut dem Finanzportal Investing.com Deutsch fiel die Aktie auf ein neues zweiundfünfzig-Wochen-Tief bei dreiundsechzig Komma vier sechs Dollar. Den vorliegenden Meldungen zufolge sehen sich Anleger mit Herausforderungen konfrontiert, da Aktionäre eine Überprüfung der Abstimmungspraktiken fordern, während die US-Börsenaufsicht SEC die Aufsicht lockert. Analysten blicken überwiegend positiv auf das Unternehmen. Laut Yahoo Finance empfehlen fünfundzwanzig Analysten die Aktie zum Kaufen, sechs zum starken Kaufen, sechs zum Halten und eins zum Verkaufen. Das durchschnittliche Kursziel liegt bei einhundertsechsundzwanzig Dollar. Die Bank Truist Securities bestätigte ihr Rating auf Kaufen und senkte das Kursziel auf einhundertdreiundzwanzig Dollar. Cantor Fitzgerald stufte die Aktie als übergewichten ein und passte das Kursziel auf einhundertzwanzig Dollar an. JP Morgan hält an der neutralen Einschätzung fest und nennt ein Kursziel von einhundertvierzehn Dollar. Goldman Sachs bestätigte das Rating Kaufen bei einem Kursziel von einhundertachtundzwanzig Dollar. Barclays bestätigte die Einstufung als übergewichten und senkte das Ziel auf einhundertfünfzehn Dollar. Wells Fargo behielt die Marktgewichtung bei und setzte das Kursziel auf einhundert Dollar. Zurück zu Robinhood Markets: Das Unternehmen profitiert laut Barchart.com von grundlegend positiven Aussichten trotz Konkurrenzängsten, während Yahoo Finance gleichzeitig auf künftige Rivalen wie geplante Prognosemärkte von Coinbase bis Mitte 2027 verweist. Zu den wichtigen Kennzahlen zählt das durchschnittliche Kursziel von einhundertsechsundzwanzig Dollar bei insgesamt dreissig beobachtenden Analysten. Bei den Insidern gab es bedeutende Verkäufe durch Direktoren und Führungskräfte, wie etwa den Verkauf von Aktien im Wert von vier Komma acht Millionen Dollar durch Direktor Baiju Bhatt, wodurch er seine Beteiligung um vierundneunzig Prozent reduzierte. Hinsichtlich möglicher Widersprüche berichten einige Portale, dass die Aussichten trotz der Kalshi-Bedrohung positiv bewertet werden, während andere den Kurssturz betonen.",
    "id": "27f53f462f",
    "generated_at": "2026-11-23T00:55:57Z",
    "audio": {
     "file": "HOOD.mp3",
-    "hash": "4f9e6f83d6fa6937",
-    "dur": 149.7,
+    "hash": "1a0bec5e59642131",
+    "dur": 140.7,
     "engine": "gemini"
    }
   },
@@ -331,13 +331,13 @@
   {
    "symbol": "RYCEY",
    "name": "Rolls-Royce",
-   "text": "Rolls-Royce: Bei Rolls-Royce gibt es neue Entwicklungen und Marktdaten. Gemass einer Mitteilung der Firma hat das Unternehmen einen Grossauftrag uber acht Trent eintausend XE Langstreckentriebwerke von Royal Brunei Airlines erhalten. Zusatzlich treibt das Unternehmen laut Traders Union zusatzliche Aktienruckkaufe voran, wahrend finanzen.ch zeitweise Kursabschlage und Verkaufe durch Investoren beobachtete. Als Risiken werden ein Aktienruckgang von drei Komma eins Prozent sowie technischer Unterstutzungsdruck genannt. Zurück zu Rolls-Royce: Laut Yahoo Finance UK umfasst das Konsensrating der Analysten zwei starke Kaufe und drei Kaufe, ohne Halte- oder Verkaufsempfehlungen. Das durchschnittliche Kursziel liegt bei zweiundzwanzig Komma eins Dollar, mit einem hohen Ziel von vierundzwanzig Komma drei Dollar und einem tiefen Ziel von zwanzig Komma fünf Dollar. Operativ stutzen der Grossauftrag, Aktienruckkaufe sowie bestaetigte Gewinnprognosen und robuste Aktivitaten in der zivilen Luft- und Raumfahrt die Dynamik des Unternehmens. Bei den Kennzahlen wird ein aktueller Aktienkurs von siebzehn Komma null neun Dollar genannt. Zu den Widerspruchen in den Berichten: Yahoo Finance UK meldet einen Kursanstieg von fünfzehn Prozent entgegen dem Markttrend der Wall Street, wahrend Traders Union gleichzeitig auf eine anhaltende Abwartsbewegung unter Unterstutzungsdruck verweist.",
-   "id": "d359b96309",
-   "generated_at": "2026-11-20T13:56:28Z",
+   "text": "Rolls-Royce hat von Royal Brunei Airlines einen Grossauftrag uber acht Trent eintausend XE-Triebwerke fur Langstreckenflugzeuge erhalten. Laut Berichten haben sich die Aktien zu einem Spiel im Bereich der kunstlichen Intelligenz entwickelt, und verbesserte Unternehmensprognosen stutzen die Sektorstarke. Auf der anderen Seite verweisen Finanzportale auf zwischenzeitliche Kursverluste, einen Aktienruckgang von drei Komma eins Prozent sowie den Umstand, dass die Aktie unter die zweihundert-Tage-Linie gefallen ist und technischem Abwärtsdruck unterliegt. Zu den Analystenbewertungen liegen insgesamt fünf positive Einschatzungen vor, aufgeteilt in drei Kaufempfehlungen und zwei starke Kaufempfehlungen, wahrend Halte- und Verkaufsempfehlungen nicht verzeichnet sind. Zurück zu Rolls-Royce: Das durchschnittliche Kursziel der Analysten liegt bei zweiundzwanzig Komma eins Dollar, mit einem erwarteten Kurspotenzial von rund vierunddreissig Komma sieben Prozent. Aufwertend wirkt der genannte Grossauftrag der Royal Brunei Airlines sowie verbesserte Unternehmensprognosen. Als wichtige Kennzahl wird das Kursziel von durchschnittlich zweiundzwanzig Komma eins Dollar genannt. Bei einigen Meldungen gab es leichte Widerspruche bezuglich des genauen Kursverlaufs an bestimmten Handelstagen, da einige Quellen von Verlusten und andere von einem Plus am Nachmittag berichteten.",
+   "id": "2f3de02967",
+   "generated_at": "2026-11-23T07:41:26Z",
    "audio": {
     "file": "RYCEY.mp3",
-    "hash": "255ed0ec5f9dfb7a",
-    "dur": 95.6,
+    "hash": "2c1262b50f653f75",
+    "dur": 90.5,
     "engine": "edge"
    }
   },
@@ -409,39 +409,39 @@
   {
    "symbol": "BKW.SW",
    "name": "BKW AG",
-   "text": "BKW AG: Nach den vorliegenden Berichten gibt es verschiedene Entwicklungen rund um die Aktie. Laut Yahoo Finance, einem Finanzportal, das Meldungen und Analystenbewertungen bundelt, sieht die BKW-Aktie nach einem Ruckgang um neunundzwanzig Prozent immer noch teuer aus. Laut finanzen.ch, einem Schweizer Finanzportal, zeigte sich die Aktie an Handelstagen zeitweise auf grunem Terrain, verlief an anderen Tagen jedoch mit angezogener Handbremse oder tendierte schwacher. Zudem berichtete finanzen.ch, dass sich Anleger zeitweise vermehrt von BKW trennten. Zurück zu BKW AG: Zu den Analysten-Bewertungen: Laut Yahoo Finance gibt es von sechs Analysten ein durchschnittliches Kursziel von einhundertsiebzig Dollar sowie ein Aufwärtspotenzial von sechzehn Komma vier Prozent. Aufwertend ist zu erwaehnen, dass sich die Aktie laut finanzen.ch zeitweise auf grunem Terrain bewegte. Abwertend wirkte laut finanzen.ch, dass sich Anleger zeitweise vermehrt von BKW trennten und das Papier an Nachmittagen schwacher tendierte. Zu den wichtigen Kennzahlen: Der Kursruckgang betrug minus neunundzwanzig Prozent, was die Talfahrt der Aktie verdeutlicht. Das durchschnittliche Kursziel liegt bei einhundertsiebzig Dollar, und das Aufwärtspotenzial wird auf sechzehn Komma vier Prozent beziffert.",
-   "id": "e67613b523",
-   "generated_at": "2026-11-23T00:55:57Z",
+   "text": "BKW AG: Die Aktie der BKW verzeichnete einen Ruckgang um neunundzwanzig Prozent, wird dabei von Analysten aber weiterhin als teuer eingestuft. Gemass Berichten zeigte sich das Papier an Handelstagen zeitweise auf grunem Terrain, tendierte aber auch schwacher und geriet unter die achtunddreissig-Tage-Linie. Als Risiken und negative Aspekte ist zu nennen, dass die BKW AG Namenaktie unter die achtunddreissig-Tage-Linie gefallen ist und trotz des Kursruckgangs von neunundzwanzig Prozent teuer erscheint. Zu den Analystenbewertungen liegt das durchschnittliche Kursziel bei einhundertsiebzig Dollar, mit einem hohsten Kursziel von zweihundertdrei Dollar und einem tiefsten Kursziel von einhundertsiebenunddreissig Dollar. Zurück zu BKW AG: Der Konsens umfasst insgesamt sechs Empfehlungen und weist ein Aufwärtspotenzial von sechzehn Komma vier Prozent aus. Zur aktuellen Unternehmenssituation belasst der BOTSI-Advisor die BKW AG Namenaktie weiter auf einer bestimmten Position, wahrend andere Berichte melden, dass sich Anleger am Mittag vermehrt von BKW trennten und die Aktie zeitweise mit angezogener Handbremse unterwegs war. Wichtige Kennzahlen umfassen den Kursruckgang von neunundzwanzig Prozent sowie das durchschnittliche Kursziel von einhundertsiebzig Dollar als Prognose der Analysten. Bei den Widerspruchen berichtet ein Finanzportal einerseits von BKW am Mittag auf grunem Terrain, wahrend ein anderer Bericht desselben Portals erwahnt, dass sich Anleger am Mittag vermehrt von BKW trennten.",
+   "id": "09424cb962",
+   "generated_at": "2026-11-23T07:41:26Z",
    "audio": {
     "file": "BKW.SW.mp3",
-    "hash": "bbda1214b429df2d",
-    "dur": 90.6,
+    "hash": "f0b32a48cb436250",
+    "dur": 101.5,
     "engine": "edge"
    }
   },
   {
    "symbol": "UBSG.SW",
    "name": "UBS Group",
-   "text": "UBS Group: Die Aktie geriet in den vergangenen Tagen stark unter Druck, fiel auf ein Fünf-Monate-Tief und entwickelte sich laut dem Schweizer Finanzportal Cash zur schwächsten Aktie im Leitindex SMI während dieser Woche. Ausserdem berichtete das Finanzportal, dass allgemeine Sorgen um Zinssätze und Technologiewerte sowie eine angeschlagene Marktstimmung die Notierungen belasteten. Zurück zu UBS Group: Laut dem Finanzportal TradingView prüft das Unternehmen derzeit, europäische Arbeitsplätze nach Indien zu verlagern, um mögliche Kosteneinsparungen zu erzielen. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Bei den Analystenbewertungen zeigt sich ein gemischtes Bild. Laut den Daten von Yahoo Finance empfehlen sieben Analysten den Kauf, acht raten zum Halten, zwei zum Verkauf, zwei zum starken Kauf und einer zum starken Verkauf, während das durchschnittliche Kursziel bei rund vierundfünfzig Dollar liegt. Die Deutsche Börse stufte das Papier laut Finanzen.net kürzlich auf Verkaufen ab, hob dabei jedoch das Kursziel auf einundsiebzig Komma fünf Dollar an. Die Firma selbst zeigt sich aktiv: Neben den Überlegungen zur Jobverlagerung nach Indien veräusserte der norwegische Staatsfonds laut dem Portal finanzen.ch das Zürcher Areal Üetlihof, während andere Stimmen dem Unternehmen laut Cash das grösste Kurspotenzial im Markt zuschreiben. Als wichtigste Kennzahl ist das von Yahoo Finance genannte durchschnittliche Kursziel von vierundfünfzig Komma zwei sechs Dollar zu nennen, welches das erwartete Niveau der Analysten widerspiegelt. Insider-Käufe oder -Verkäufe wurden in den aktuellen Meldungen nicht verzeichnet. Bei den Aussagen der Chefs kündigte das Management laut Yahoo Finance an, im kommenden Februar die neue Strategie nach der Übernahme der Credit Suisse sowie Einzelheiten zu Kapital- und Rückkaufprioritäten bekannt zu geben, was laut Berichten für mehr Klarheit bei Anlegern sorgen könnte. Keine Anlageberatung.",
-   "id": "ae58f36c7f",
-   "generated_at": "2026-11-23T00:55:57Z",
+   "text": "UBS Group steht derzeit im Fokus der Finanzmärkte, da die Aktie stark unter Druck geriet und auf ein Funf-Monate-Tief gefallen ist. Laut dem Schweizer Finanzportal Cash entwickelte sich das Papier zur schlechtesten Aktie im Schweizer Leitindex in dieser Woche, wahrend sich Anleger vermehrt von ihren Bestanden trennten. Auch die Schweizer Finanzzeitung Finanz und Wirtschaft berichtet von Kursverlusten im Zuge allgemeiner Markt- und Zinssorgen. Bei den Analystenbewertungen zeigt sich ein gemischtes Bild: Laut Yahoo Finance liegt das durchschnittliche Kursziel der Experten bei vierundfünfzig Komma zwei sechs Dollar. Das Analysten-Konsensbild umfasst neben acht Halteempfehlungen auch zwei starke Kaufe, sieben Kaufe, zwei Verkaufe und eins starken Verkauf. Zurück zu UBS Group: So stufte UBS die Aktie der Deutschen Borse auf Verkaufs ab und hob gleichzeitig das Kursziel an, wahrend fur andere Werte wie Nu Holdings eine Kaufempfehlung ausgesprochen wurde. Was die Geschaftstatigkeit der UBS Group betrifft, gibt es sowohl aufwertende als auch abwertende Nachrichten. Auf der einen Seite plant das Unternehmen laut TradingView, europaische Arbeitsplatze nach Indien zu verlagern, was moglicherweise Kosteneinsparungen bringen soll. Auf der anderen Seite belasten die jüngsten Kursverluste und das Marktumfeld die Stimmung. Wichtige Kennzahlen unterstreichen die Lage: Das von Yahoo Finance ausgewiesene mittlere Kursziel von vierundfünfzig Komma zwei sechs Dollar zeigt das theoretische Potenzial vom aktuellen Kursniveau auf. Laut einer Mitteilung uber Yahoo Finance wird das Management im kommenden Februar die neue Strategie nach der Ubernahme der Credit Suisse sowie konkrete Prioritaten beim Kapital und bei Aktienruckkaufen prasentieren, was fur mehr Transparenz sorgen konnte.",
+   "id": "92e4ba8383",
+   "generated_at": "2026-11-23T07:41:26Z",
    "audio": {
     "file": "UBSG.SW.mp3",
-    "hash": "c757d4ad9f8c8a0c",
-    "dur": 137.7,
+    "hash": "103e888a174ab635",
+    "dur": 121.1,
     "engine": "edge"
    }
   },
   {
    "symbol": "1211.HK",
    "name": "BYD",
-   "text": "BYD steht derzeit im Zentrum intensiver Marktbeobachtungen, wie Berichte von Yahoo Finance und weiteren Portalen zeigen. Im kurzen Uberblick fallt auf, dass BYD weltweite Markteinfuhrungen wie den ATTO drei EVO vorantreibt, wahrend gleichzeitig ein niederlandisches Gericht den Verkauf bestimmter SUV-Modelle in der Europaischen Union blockiert hat. Laut Blockchain News sehen sich Analysten zudem mit gesenkten Kurszielen und starkem Verkaufsdruck konfrontiert. Zu den rechtlichen Risiken gehort der genannte Designstreit in Europa, zudem verzeichnete die Aktie laut boerse.de neue Zwolf-Monats-Tiefs. Zu den Analysten-Bewertungen berichtet Yahoo Finance, dass ein Konsens aus Analysten vorliegt, der uberwiegend zum Kaufen tendiert. Zurück zu BYD: Das durchschnittliche Kursziel liegt bei rund dreizehn Komma vier sieben Dollar. Das Unternehmen treibt operative Projekte voran, wobei als aufwertend laut JournalArta die Markteinfuhrung eines neuen SUV mit wegklappbarem Lenkrad und laut NTG24 das Wachstum trotz Handelsbarrieren gelten. Als abwertend werten Beobachter wie boerse.de die neuen Tiefstande der Aktie sowie das europaische Verkaufsverbot fur SUVs wegen Designverletzungen, wie Investing.com meldet. Bei den Kennzahlen wird der aktuelle Aktienkurs von BYD mit rund sieben Komma neun fünf Dollar beziffert, wahrend das durchschnittliche Kursziel der Analysten bei rund dreizehn Komma vier sieben Dollar liegt. Aussagen von Unternehmenschefs liegen in den aktuellen Berichten nicht vor. Beuglich der Widerspruche berichten verschiedene Quellen unterschiedlich uber den Intraday-Verlauf der Aktie, wobei finanzen.ch sowohl Phasen des Ausbremsens als auch Phasen beschrieb, in denen BYD am Nachmittag Boden gutmacht.",
-   "id": "27e1aa7bb2",
-   "generated_at": "2026-11-22T19:46:03Z",
+   "text": "BYD gerat derzeit stark unter Druck, wie verschiedene aktuelle Berichte zeigen. Laut der britischen Wirtschaftszeitung Financial Times hat BYD nach einem Gerichtsurteil in den Niederlanden einen schweren Schlag erlitten, da der Verkauf eines SUV in der Europäischen Union wegen einer Designkopie eines Land Rover Defender untersagt wurde. Zudem meldet das Portal Ariva, dass die Vereinigten Staaten erwägen, Autos aus China zu verbannen. Das deutsche Börsenportal boerse.de berichtet darüber hinaus, dass die BYD-Aktie ein neues Zwolfmonatstief erreicht hat und die Aktie von BYD Electronic auf ein neues Dreijahrestief gefallen ist. Blockchain News weist darauf hin, dass Analysten ihre Kursziele gesenkt haben, da die Dynamik nachlässt und die Verkäufer die Kontrolle behalten. Zurück zu BYD: Auf der Analystenseite zeigt sich laut dem Finanzportal Yahoo Finance ein mehrheitlich positives Bild mit sechs starken Kaufempfehlungen, zweiundzwanzig normalen Kaufempfehlungen und vier Halteempfehlungen, während niemand zum Verkauf rät. Das durchschnittliche Kursziel liegt bei rund dreizehn Komma fünf Dollar. Gleichzeitig baut BYD seine Position aus, indem es weltweit das Modell ATTO drei EVO einführt und laut JournalArta einen neuen SUV mit einem wegklappbaren Lenkrad auf den Markt bringt. Dem stehen jedoch die genannten Verkaufsverbote in Europa und mögliche politische Hürden in den Vereinigten Staaten gegenüber. Bei den wichtigen Kennzahlen sticht das durchschnittliche Kursziel von rund dreizehn Komma fünf Dollar hervor, welches anzeigt, wo die Aktie laut Experten in den kommenden Monaten stehen könnte. Widersprüche zeigen sich vor allem zwischen der Einschätzung einzelner Experten, die die Aktie als unterbewertet betrachten, und der Realität an der Börse mit neuen Tiefstständen.",
+   "id": "da5d98c657",
+   "generated_at": "2026-11-23T07:41:26Z",
    "audio": {
     "file": "1211.HK.mp3",
-    "hash": "3a9b0747e1d64e04",
-    "dur": 125.6,
+    "hash": "a7c71eb946b53fca",
+    "dur": 124.5,
     "engine": "edge"
    }
   },
@@ -524,5 +524,5 @@
   "dur": 10.2,
   "engine": "edge"
  },
- "audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@b03e753b9bea68b0342f0f116943aaed1512a41a/data/audio/"
+ "audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@2628d90a6d5fe4d30463f9b8e0d6c0c3bf8d01ce/data/audio/"
 }
