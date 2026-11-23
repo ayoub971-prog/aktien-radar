@@ -1,6 +1,200 @@
 {
 "episodes": [
 {
+"id": "2026-11-23-t",
+"kind": "tag",
+"date": "2026-11-23",
+"title": "Morgen-Sendung, Montag, dreiundzwanzigsten November",
+"generated_at": "2026-11-23T15:09:15Z",
+"writer": "Vorlage aus den Daten",
+"chapters": [
+{
+"name": "Begrüssung",
+"say": "Guten Morgen und willkommen zur Sendung vom Aktien-Radar, heute Montag, dreiundzwanzigsten November. Zuerst ein kurzer Blick auf den Markt, dann die Firmen aus deiner Liste mit neuen Meldungen zu Produkten, Partnern und Projekten, danach die Quartalszahlen dieser Woche und zum Schluss ein Begriff zum Lernen. Kurz vorweg: Alles stammt aus gesammelten Daten und Schlagzeilen, Beträge nenne ich in Dollar. Das ist keine Anlageberatung.",
+"audio": {
+"file": "sendung/2026-11-23-t_00.mp3",
+"hash": "027a785e4fc7ab29",
+"dur": 30.2
+}
+},
+{
+"name": "Markt kurz",
+"say": "Der Markt kurz. Der S und P fünfhundert, der Index der fünfhundert grossen US-Firmen, stand zuletzt bei minus drei Komma sieben Prozent gegenüber dem Vortag. In deiner Liste am stärksten: SK Hynix mit plus acht Komma drei Prozent, DroneShield Limited mit plus zwei Komma neun Prozent, BKW mit plus null Komma vier Prozent. Am schwächsten: SoftBank mit minus siebzehn Komma drei Prozent, Bloom Energy mit minus fünfzehn Komma drei Prozent. Zum Thema SNB meldet Finanz und Wirtschaft: SNB-Vizepräsident: Achten vor Zinsentscheid auf Zweitrundeneffekte. Zum Thema Schweizer Börse meldet Cash: Börsen-Ticker: Das aktuelle Marktgeschehen im Überblick.",
+"audio": {
+"file": "sendung/2026-11-23-t_01.mp3",
+"hash": "fd428eb33b058571",
+"dur": 52.0
+}
+},
+{
+"name": "Nvidia",
+"sym": "NVDA",
+"say": "Zur Aktie Nvidia. Handelsblatt meldet am zweiundzwanzigsten November: Nvidia-Skandal: Hatte Alice Huang Kontakte zu Chipschmugglern?. Reuters meldet am zwanzigsten November: EXKLUSIV: Laut Quellen steht die Buchhaltung von Nvidia im Mittelpunkt der Ermittlungen der US-Börsenaufsicht SEC. Spiegel meldet am zwanzigsten November: Nvidia: US-Börsenaufsicht ermittelt gegen Chip-Riesen. Ob diese Meldungen Nvidia stärken oder schwächen, lässt sich aus den Schlagzeilen allein nicht sicher sagen. Das war Nvidia.",
+"audio": {
+"file": "sendung/2026-11-23-t_02.mp3",
+"hash": "1579ac830d7a9c69",
+"dur": 38.4
+}
+},
+{
+"name": "Meta",
+"sym": "META",
+"say": "Zur Aktie Meta. Investing.com UK meldet am dreiundzwanzigsten November: Form vier Meta Platforms Inc. Für: dreiundzwanzigsten November Von Investing.com. Yahoo Finance meldet am dreiundzwanzigsten November: Nach dem Blockbuster-Börsengang von Anthropic möchte OpenAI, dass sich die KI-Konkurrenten auf Entwicklungsgrenzen einigen, während Meta einen kontrollierten Ansatz fordert. Investing.com UK meldet am zweiundzwanzigsten November: Form vier Meta Platforms Inc. Für: zweiundzwanzigsten November Von Investing.com. Ob diese Meldungen Meta stärken oder schwächen, lässt sich aus den Schlagzeilen allein nicht sicher sagen. Das war Meta.",
+"audio": {
+"file": "sendung/2026-11-23-t_03.mp3",
+"hash": "ea051df87d63f5a1",
+"dur": 53.7
+}
+},
+{
+"name": "Amazon",
+"sym": "AMZN",
+"say": "Zur Aktie Amazon. Financial Times meldet am einundzwanzigsten November: Amazon schliesst einen sieben Komma fünf-Milliarden-Dollar-Deal zum Kauf des KI-Start-ups Decart ab. Yahoo Finance meldet am zweiundzwanzigsten November: Es ist Gier: Zohran Mamdani kritisiert Amazon wegen neuer fünf-Dollar-Gebührenerhöhung in NYC. Wird Ihre nächste Bestellung bald teurer?. Yahoo Finance meldet am zweiundzwanzigsten November: Der Start von ULA Vulcan endet für Amazons Satelliten-Internet-Ambitionen in einer Katastrophe. Ob diese Meldungen Amazon stärken oder schwächen, lässt sich aus den Schlagzeilen allein nicht sicher sagen. Das war Amazon.",
+"audio": {
+"file": "sendung/2026-11-23-t_04.mp3",
+"hash": "940e1cd9bb057852",
+"dur": 49.9
+}
+},
+{
+"name": "Intel",
+"sym": "INTC",
+"say": "Zur Aktie Intel. The Globe and Mail meldet am zweiundzwanzigsten November: Intel gibt an, gerade seinen ersten Kunden für seinen fortschrittlichsten Chipherstellungsprozess gewonnen zu haben. Die Aktie liegt immer noch mehr als sechzig Prozent unter ihrem Rekord vom Juni. Yahoo Finance meldet am dreiundzwanzigsten November: NVDA-, INTC-, MU- und AMD-Chip-Aktien steigen: Dan Ives sagt: Bären fühlen sich bestätigt, aber die KI-Welle ist nicht aufzuhalten. Barchart.com meldet am zweiundzwanzigsten November: Intel hat gerade seinen ersten 18A-P-Chip-Kunden gewonnen. Was das für die INTC-Aktie bedeutet. Ob diese Meldungen Intel stärken oder schwächen, lässt sich aus den Schlagzeilen allein nicht sicher sagen. Das war Intel.",
+"audio": {
+"file": "sendung/2026-11-23-t_05.mp3",
+"hash": "048d28f6270a2a3e",
+"dur": 57.7
+}
+},
+{
+"name": "Microsoft",
+"sym": "MSFT",
+"say": "Zur Aktie Microsoft. TheStreet meldet am zweiundzwanzigsten November: Die Bank of America sendet ein starkes Signal an Microsoft-Aktieninvestoren. Livemint meldet am zweiundzwanzigsten November: Microsoft überarbeitet das Azure-Vergütungsmodell: Wer erhält zusätzliche Aktien und wer muss auf die Probe gestellt werden? Folgendes ändert sich. Yahoo Finance meldet am einundzwanzigsten November: Hat die Microsoft-KI-Partnerschaft gerade die Investitionserzählung von Danaher (DHR) verändert?. Ob diese Meldungen Microsoft stärken oder schwächen, lässt sich aus den Schlagzeilen allein nicht sicher sagen. Das war Microsoft.",
+"audio": {
+"file": "sendung/2026-11-23-t_06.mp3",
+"hash": "000cb36a938b4736",
+"dur": 48.9
+}
+},
+{
+"name": "Broadcom",
+"sym": "AVGO",
+"say": "Zur Aktie Broadcom. TheStreet meldet am zweiundzwanzigsten November: Googles Chipplan 2027 ist eine schlechte Nachricht für Broadcom. Yahoo Finance meldet am zweiundzwanzigsten November: Hier erfahren Sie, was eine Investition von eintausend Dollar in Broadcom-Aktien bis 2035 wert sein könnte. Investing.com Nigeria meldet am zweiundzwanzigsten November: Formular vier Broadcom Inc. Für: zweiundzwanzigsten November Von Investing.com. Ob diese Meldungen Broadcom stärken oder schwächen, lässt sich aus den Schlagzeilen allein nicht sicher sagen. Das war Broadcom.",
+"audio": {
+"file": "sendung/2026-11-23-t_07.mp3",
+"hash": "4e07a595d8ebefd6",
+"dur": 48.1
+}
+},
+{
+"name": "Micron",
+"sym": "MU",
+"say": "Zur Aktie Micron. Yahoo Finance meldet am dreiundzwanzigsten November: NVDA-, INTC-, MU- und AMD-Chip-Aktien steigen: Dan Ives sagt: „Bären fühlen sich bestätigt“, aber die KI-Welle ist nicht aufzuhalten. Investing.com Canada meldet am einundzwanzigsten November: Form vier Micron Technology Inc. Für: einundzwanzigsten November Von Investing.com. FinanzNachrichten.de meldet am einundzwanzigsten November: Intel, Micron und Nvidia unter Druck. Ob diese Meldungen Micron stärken oder schwächen, lässt sich aus den Schlagzeilen allein nicht sicher sagen. Das war Micron.",
+"audio": {
+"file": "sendung/2026-11-23-t_08.mp3",
+"hash": "a21b223050da7bc7",
+"dur": 48.9
+}
+},
+{
+"name": "SK Hynix",
+"sym": "HY9H.MU",
+"say": "Zur Aktie SK Hynix. Barchart.com meldet am einundzwanzigsten November: Coatue Management setzt auf die Aktie von SK hynix, da die Nachfrage nach HBM-Chips steigt. Investing.com Australia meldet am zwanzigsten November: Warum rutscht die Aktie von SK hynix ADR heute ab? Von Investing.com. MLQ.ai meldet am zweiundzwanzigsten November: Masayoshi Son von SoftBank prüfte eine Übernahme von SK Hynix im Wert von eins Billion US-Dollar, bevor er sie auf Eis legte. Ob diese Meldungen SK Hynix stärken oder schwächen, lässt sich aus den Schlagzeilen allein nicht sicher sagen. Das war SK Hynix.",
+"audio": {
+"file": "sendung/2026-11-23-t_09.mp3",
+"hash": "3bdaaa61908a4264",
+"dur": 50.5
+}
+},
+{
+"name": "Quartalszahlen diese Woche",
+"say": "Kommen wir zu den Quartalszahlen dieser Woche. In diesem Zeitraum sind für deine Aktien keine Quartalszahlen angekündigt.",
+"audio": {
+"file": "sendung/2026-11-23-t_10.mp3",
+"hash": "bbc2dd8fc222fb2b",
+"dur": 9.4
+}
+},
+{
+"name": "Begriff: Prognose",
+"say": "Zum Lernen, der Begriff des Tages: Prognose. Viele Firmen geben bei den Quartalszahlen eine Prognose, auf Englisch Guidance, für die nächsten Monate. Oft bewegt die Prognose den Kurs stärker als die Zahlen selbst, weil die Börse in die Zukunft schaut.",
+"audio": {
+"file": "sendung/2026-11-23-t_11.mp3",
+"hash": "ad88ebbb2f3e5ce3",
+"dur": 18.5
+}
+},
+{
+"name": "Schluss",
+"say": "Das war die Sendung vom Aktien-Radar. Die Quellen findest du in der App bei jeder Aktie, den ganzen Text über den Knopf Als Text. Bis morgen.",
+"audio": {
+"file": "sendung/2026-11-23-t_12.mp3",
+"hash": "cc4bc23e3e69d9dd",
+"dur": 11.5
+}
+}
+],
+"dur": 517.7,
+"full": {
+"file": "sendung/2026-11-23-t_full.mp3",
+"dur": 517.6,
+"marks": [
+[
+0,
+0.0
+],
+[
+1,
+30.2
+],
+[
+2,
+82.2
+],
+[
+3,
+120.6
+],
+[
+4,
+174.3
+],
+[
+5,
+224.2
+],
+[
+6,
+281.9
+],
+[
+7,
+330.8
+],
+[
+8,
+378.9
+],
+[
+9,
+427.8
+],
+[
+10,
+478.3
+],
+[
+11,
+487.7
+],
+[
+12,
+506.2
+]
+]
+}
+},
+{
 "id": "2026-11-21-w",
 "kind": "woche",
 "date": "2026-11-21",
@@ -2566,204 +2760,10 @@
 ]
 ]
 }
-},
-{
-"id": "2026-11-06-t",
-"kind": "tag",
-"date": "2026-11-06",
-"title": "Morgen-Sendung, Freitag, sechsten November",
-"generated_at": "2026-11-06T05:26:25Z",
-"writer": "Gemini (Gratis-Kontingent) 8 Firmen, Rest Vorlage",
-"chapters": [
-{
-"name": "Begrüssung",
-"say": "Guten Morgen und willkommen zur Sendung vom Aktien-Radar, heute Freitag, sechsten November. Zuerst ein kurzer Blick auf den Markt, dann die Firmen aus deiner Liste mit neuen Meldungen zu Produkten, Partnern und Projekten, danach die Quartalszahlen dieser Woche und zum Schluss ein Begriff zum Lernen. Kurz vorweg: Alles stammt aus gesammelten Daten und Schlagzeilen, Beträge nenne ich in Dollar. Das ist keine Anlageberatung.",
-"audio": {
-"file": "sendung/2026-11-06-t_00.mp3",
-"hash": "86b2168782a077ce",
-"dur": 29.6
-}
-},
-{
-"name": "Markt kurz",
-"say": "Der Markt kurz. Der S und P fünfhundert, der Index der fünfhundert grossen US-Firmen, stand zuletzt bei minus vier Komma vier Prozent gegenüber dem Vortag. In deiner Liste am stärksten: JD.com mit plus eins Prozent, SPDR MSCI World Energy ETF mit plus null Komma neun Prozent, BKW mit plus null Komma neun Prozent. Am schwächsten: Micron mit minus siebzehn Komma fünf Prozent, Marvell mit minus sechzehn Komma vier Prozent. Zum Thema Wall Street meldet Reuters: Nasdaq verzeichnet den grössten täglichen Rückgang seit neunzehn Monaten aufgrund von Ängsten vor KI-Regulierungen. Zum Thema Wall Street meldet Reuters: Telefone „explodieren“ an der Wall Street, während die „Dampfwalze“ für den KI-Handel auftaucht.",
-"audio": {
-"file": "sendung/2026-11-06-t_01.mp3",
-"hash": "434cb6264e5ab260",
-"dur": 56.4
-}
-},
-{
-"name": "Microsoft",
-"sym": "MSFT",
-"say": "Zur Aktie von Microsoft. Das KI-Rechenzentrumsunternehmen IREN hat die Auslieferung von Microsoft-KI-Technologien verzögert und Änderungen an einem Projekt in Texas vorgenommen. Gleichzeitig baut Microsoft seine Cloud-Präsenz durch eine neue Rechenzentrumsregion in Südostasien drei in Malaysia aus. Zudem verschärft der Konzern die Aufsicht über Neocloud-Rechenzentrumsprojekte. Die Aktie von Microsoft steht zudem im Fokus der Bank of America. Ob diese Entwicklungen die Aktie stärken oder schwächen, bleibt aufgrund der unterschiedlichen Meldungen abzuwarten.",
-"audio": {
-"file": "sendung/2026-11-06-t_02.mp3",
-"hash": "56edbad8a45daa57",
-"dur": 42.0
-}
-},
-{
-"name": "Arm",
-"sym": "ARM",
-"say": "Zur Aktie von Arm. Die Aktien von Arm Holdings schlossen deutlich tiefer, da die Umsatzprognose für den Bereich KI-Rechenzentren die Markterwartungen kaum übertreffen konnte. Trotz einer Verdoppelung der Lizenzgebühren für Rechenzentren geriet die Aktie unter Druck. Im Zuge eines breiten Ausverkaufs bei Chip-Aktien und eines allgemeinen US-Börsencrashes verfehlte Arm zudem eine wichtige Kennzahl. Diese Nachrichten könnten die Aktie von Arm eher belasten.",
-"audio": {
-"file": "sendung/2026-11-06-t_03.mp3",
-"hash": "f3407574a41be518",
-"dur": 32.7
-}
-},
-{
-"name": "Nvidia",
-"sym": "NVDA",
-"say": "Zur Aktie von Nvidia. Nvidia steht aktuell im Kontext des hohen Strombedarfs durch den KI-Boom sowie im Fokus von Anlegern, die sich aus dem Technologiesektor zurückziehen. Das Unternehmen Box stellte auf der BoxWorks 2026 neue KI-Werkzeuge sowie eine Partnerschaft mit Nvidia vor. Die Aktie von Nvidia verzeichnete einen Kursrückgang von über neun Prozent, bedingt durch Ängste rund um Rechenzentren und die Korrekturphase der Nasdaq. Zudem prüft Nvidia Möglichkeiten, durch die Nutzung von Telekommunikationsstandorten von Apollo bestehende Moratorien für Rechenzentren zu umgehen.",
-"audio": {
-"file": "sendung/2026-11-06-t_04.mp3",
-"hash": "5f6b11ae260fa38c",
-"dur": 43.7
-}
-},
-{
-"name": "Amazon",
-"sym": "AMZN",
-"say": "Zur Aktie von Amazon. Amazon fordert Google Shopping mit direkten Produkt-Feeds heraus und könnte laut Analysen von einer langsameren Erweiterung der KI-Rechenzentren profitieren. Ein neuer Deal mit GNRC erhöht zudem die Umsatztransparenz im Rechenzentrumsbereich. Amazon wird weiterhin als führend im Bereich der Cloud-KI angesehen, weshalb Anleger die kommenden Entwicklungen genau beobachten sollten. Diese Meldungen könnten die Aktie von Amazon eher stützen.",
-"audio": {
-"file": "sendung/2026-11-06-t_05.mp3",
-"hash": "c11d5c44755ec7b9",
-"dur": 34.7
-}
-},
-{
-"name": "Meta",
-"sym": "META",
-"say": "Zur Aktie von Meta. Meta hat ein Form 8K veröffentlicht und das Unternehmen Conductor erworben, während neue US-KI-Regulierungen die Erträge belasten könnten. Gemeinsam mit Partnern geht Meta zudem juristisch gegen ein neues kalifornisches Gesetz für soziale Medien für Jugendliche vor. Die Aktien von Meta Platforms gaben nach, da hohe Investitionen in den KI-Bereich den Cashflow belasten. Diese Unsicherheiten und der Gegenwind beim KI-Ausbau könnten die Aktie von Meta eher schwächen.",
-"audio": {
-"file": "sendung/2026-11-06-t_06.mp3",
-"hash": "f245a3d19a8f6ffd",
-"dur": 36.1
-}
-},
-{
-"name": "Micron",
-"sym": "MU",
-"say": "Zur Aktie von Micron. Im Rahmen von Telefonkonferenzen bei Ecopro wurden Bestellungen bei Micron sowie Recycling-Themen diskutiert. Micron musste den Betrieb einer Fabrik in Taiwan aufgrund von Forderungen der Arbeiter einstellen. Die Aktie von Micron Technology stürzte daraufhin im Zuge eines allgemeinen Chip-Ausverkaufs massiv ab. Der Mangel an Speicherchips führt bei Micron derzeit zu deutlichen negativen Auswirkungen. Diese Nachrichten könnten die Aktie von Micron eher schwächen.",
-"audio": {
-"file": "sendung/2026-11-06-t_07.mp3",
-"hash": "a29cdb97f4e6cab6",
-"dur": 36.3
-}
-},
-{
-"name": "Intel",
-"sym": "INTC",
-"say": "Kommen wir zur Aktie von Intel. Das Unternehmen steht unter Druck, da schwache Umsatzaussichten für das vierte Quartal infolge eines branchenweiten Chip-Ausverkaufs belasten. Der aktuelle Kursrutsch wird von Marktbeobachtern mit der schwierigen Marktlage aus dem Jahr 2000 verglichen. Zudem sorgen Ängste vor einer strengeren KI-Regulierung für eine negative Stimmung im gesamten Chip-Sektor, was Intel zusätzlich unter Druck setzt. Gleichzeitig gibt es Meldungen über Neuigkeiten von Oracle, die für Intel-Investoren von Bedeutung sein könnten. Zusammenfassend deuten diese Nachrichten auf ein eher herausforderndes Umfeld für den Konzern hin.",
-"audio": {
-"file": "sendung/2026-11-06-t_08.mp3",
-"hash": "704e9ff4d5944d19",
-"dur": 44.8
-}
-},
-{
-"name": "Palantir",
-"sym": "PLTR",
-"say": "Ein Blick auf die Aktie von Palantir. Obwohl das Unternehmen gerade sein bestes Wachstumsquartal aller Zeiten verzeichnete, reagierten Anleger mit Verkäufen. Dies geschieht in einem Marktumfeld, in dem die Wall Street derzeit verstärkt Gewinne bei Software-Unternehmen mit KI-Fokus mitnimmt, was den Kurs von Palantir unter Druck setzt. Auf operativer Ebene gibt es jedoch positive Nachrichten: AmeriLife arbeitet künftig mit Palantir zusammen, um eine KI-Plattform bereitzustellen. Diese Partnerschaft unterstreicht die operative Relevanz des Unternehmens, auch wenn die kurzfristigen Auswirkungen auf den Aktienkurs durch die aktuelle Marktstimmung überlagert werden.",
-"audio": {
-"file": "sendung/2026-11-06-t_09.mp3",
-"hash": "c207d9b47748154b",
-"dur": 47.3
-}
-},
-{
-"name": "Quartalszahlen diese Woche",
-"say": "Quartalszahlen diese Woche. Diese Firmen aus deiner Liste melden ihre Quartalszahlen. Zur Aktie Oklo: Zahlen Freitag, am sechsten November. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von minus null Dollar und sechsundzwanzig Cent. Beim Umsatz erwarten sie rund eins Komma eins Millionen Dollar. Zur Aktie Berkshire Hathaway: Zahlen Samstag, am siebten November. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von sechs Dollar und vierzehn Cent.",
-"audio": {
-"file": "sendung/2026-11-06-t_10.mp3",
-"hash": "787ab959311529eb",
-"dur": 36.9
-}
-},
-{
-"name": "Begriff: Umsatz",
-"say": "Zum Lernen, der Begriff des Tages: Umsatz. Der Umsatz ist alles Geld, das eine Firma mit ihren Produkten einnimmt, bevor Kosten abgezogen werden. Wächst der Umsatz schnell, verkauft die Firma mehr. Ob sie damit auch Geld verdient, zeigt erst der Gewinn.",
-"audio": {
-"file": "sendung/2026-11-06-t_11.mp3",
-"hash": "0efcf82133716178",
-"dur": 19.9
-}
-},
-{
-"name": "Schluss",
-"say": "Das war die Sendung vom Aktien-Radar. Die Quellen findest du in der App bei jeder Aktie, den ganzen Text über den Knopf Als Text. Bis morgen.",
-"audio": {
-"file": "sendung/2026-11-06-t_12.mp3",
-"hash": "cc4bc23e3e69d9dd",
-"dur": 11.5
-}
 }
 ],
-"dur": 471.9,
-"full": {
-"file": "sendung/2026-11-06-t_full.mp3",
-"dur": 471.7,
-"marks": [
-[
-0,
-0.0
-],
-[
-1,
-29.6
-],
-[
-2,
-86.0
-],
-[
-3,
-128.0
-],
-[
-4,
-160.7
-],
-[
-5,
-204.4
-],
-[
-6,
-239.1
-],
-[
-7,
-275.2
-],
-[
-8,
-311.5
-],
-[
-9,
-356.3
-],
-[
-10,
-403.6
-],
-[
-11,
-440.5
-],
-[
-12,
-460.4
-]
-]
-}
-}
-],
-"generated_at": "2026-11-21T15:07:24Z",
+"generated_at": "2026-11-23T15:09:15Z",
 "voice": "de-CH-LeniNeural",
 "source": "Yahoo Finance, SEC EDGAR, Schlagzeilen (Google News u.a.); Text: Gemini Gratis-Kontingent oder Vorlage",
-"audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@0bc372971188b39e2139e4a31755997b04149575/data/audio/"
+"audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@5a30b691351b0dd4785917078e490d3f2e1dd5b4/data/audio/"
 }
