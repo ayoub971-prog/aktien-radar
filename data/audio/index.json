@@ -29,16 +29,16 @@
   },
   "HY9H.MU": {
    "file": "HY9H.MU.mp3",
-   "hash": "12dcba925e272752",
-   "th": "ff1ce3f6191047d4",
+   "hash": "4acea822308a74fa",
+   "th": "ea7625fe9f7c91ee",
    "engine": "gemini",
-   "id": "9a44e519ce",
+   "id": "de0afb77a4",
    "voice": "Kore",
    "model": "gemini-2.5-flash-preview-tts",
    "br": 24,
-   "text": "SK Hynix wandelt eine Anleihe um, um der grösste Aktionär des Konkurrenten Kioxia zu werden. Zudem präsentierte das Unternehmen auf der Supercomputing 2026 seine Technologievision für das KI-Ökosystem. Gleichzeitig geriet die Aktie im Zuge allgemeiner Marktverluste und sinkender Technologiekurse unter Druck und erreichte ein neues Sechs-Monats-Tief. Belastend wirken zudem eine erneute Prüfung im Rahmen einer DRAM-Klage sowie pessimistischere Aussichten von TrendForce für die NAND-Preise im Jahr 2027. Auf der positiven Seite setzt Coatue Management auf SK Hynix, da die Nachfrage nach HBM-Speicherchips zunimmt. Als wichtige Kennzahl wird eine Marge von achtzig Prozent genannt, was im Zusammenhang mit der Marktposition bei HBM-Chips steht.",
-   "dur": 52.1,
-   "at": "2026-11-23T07:47:23Z"
+   "text": "SK Hynix verzeichnete an den Börsen deutliche Kursrückgänge und Kursstürze im Zuge eines allgemeinen Marktausverkaufs bei Künstlicher Intelligenz. Das Unternehmen plant, durch die Umwandlung einer Anleihe der grösste Anteilseigner des Konkurrenten Kioxia zu werden. Auf der Konferenz Supercomputing 2026 präsentierte SK Hynix seine Technologievision für das KI-Ökosystem rund um Speicherchips. Laut boerse.de verzeichnete die SK Hynix-Aktie ein neues sechs-Monats-Tief. Laut Yahoo Finance steht die Aktie nach einer erneuten Prüfung einer DRAM-Klage unter Druck. Laut stock3 hat Goldman die Kursziele für Samsung und SK Hynix deutlich gesenkt. SK Hynix präsentierte seine Technologievision für das KI-Ökosystem rund um Speicherchips auf der Supercomputing 2026 und steht vor der Umwandlung einer Anleihe, um der grösste Anteilseigner des Rivalen Kioxia zu werden. Als belastend wird gewertet, dass TrendForce eine rückläufige Einschätzung für die NAND-Preise im Jahr 2027 veröffentlicht hat. Zu den wichtigen Kennzahlen gehört die operative Marge von achtzig Prozent aufgrund starker Geschäftsergebnisse im Quartal, wobei die operative Marge anzeigt, wie viel Gewinn vom Umsatz nach Abzug der Kosten übrig bleibt, was die Ertragskraft misst. In den vorliegenden Meldungen wurden keine Insider-Käufe oder Insider-Verkäufe genannt. In den vorliegenden Meldungen wurden keine Aussagen von Chefs genannt.",
+   "dur": 97.5,
+   "at": "2026-11-24T02:56:39Z"
   },
   "AVGO": {
    "file": "AVGO.mp3",
@@ -92,15 +92,16 @@
   },
   "IBM": {
    "file": "IBM.mp3",
-   "hash": "05163c4ad25bb43c",
-   "th": "4e91063d99c89410",
-   "id": "e7bdf1c965",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
+   "hash": "edb27d3fd509f8a6",
+   "th": "89dd4dde918396ad",
+   "engine": "gemini",
+   "id": "cd87a890c4",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
    "br": 24,
-   "text": "IBM: Die Aktie des Technologiekonzerns stand zuletzt im Fokus verschiedener Marktberichte und strategischer Initiativen. Laut Yahoo Finance verzeichnete die Aktie seit dem letzten Gewinnbericht einen Rückgang von elf Komma zwei Prozent und liegt im laufenden Jahr etwa dreiundzwanzig Prozent im Minus. Das deutsche Börsenportal boerse.de meldet zudem, dass die Notierung unter die einhundert-Tage-Linie gefallen ist. Andererseits berichtet Yahoo Finance, dass die IBM-Aktie basierend auf Neuigkeiten zur Quantenplattform möglicherweise siebenundzwanzig Prozent unter ihrem fairen Wert gehandelt wird. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Analysten haben ihre Einschätzungen und Kursziele angepasst: Jefferies bestätigt das Rating Kaufen mit einem Kursziel von zweihundertachtzig Dollar. Die UBS hält an ihrer neutralen Einstufung fest und setzt das Kursziel auf zweihundertdreiundvierzig Dollar. Die Citigroup bestätigt die Kaufempfehlung bei einem Kursziel von zweihundertachtzig Dollar. Morgan Stanley bewertet das Papier mit Marktgewichten und einem Kursziel von zweihundertvierzig Dollar. BMO Capital führt die Einstufung Wie der Markt bei einem Kursziel von zweihundertfünfundsechzig Dollar fort, während Barclays mit der Einstufung Übergewichten ein Kursziel von zweihundertsiebenundsiebzig Dollar anpeilt. Zurück zu IBM: Operativ treibt das Unternehmen verschiedene Projekte voran. So arbeitet IBM mit AMD zur Beschleunigung der Quantenfehlerkorrektur und mit NVIDIA und Fermilab an modularer Quantencomputer-Entwicklung. Keine Anlageberatung.",
-   "dur": 113.4,
-   "at": "2026-11-21T04:04:57Z"
+   "text": "Laut Yahoo Finance ist der Aktienkurs von IBM seit dem letzten Gewinnbericht um elf Komma zwei Prozent gesunken. Laut The Globe and Mail bieten Analysten Einblicke in Technologieunternehmen, während sich die Aktie laut Finanzen.net am Freitagabend fester zeigte. Das durchschnittliche Kursziel liegt bei zweihundertsechzig Dollar, während Analystenhäuser wie Jefferies ein Kursziel von zweihundertachtzig Dollar, die UBS von zweihundertdreiundvierzig Dollar, die Citigroup von zweihundertachtzig Dollar, Morgan Stanley von zweihundertvierzig Dollar, BMO Capital von zweihundertfünfundsechzig Dollar und Barclays von zweihundertsiebenundsiebzig Dollar nennen. Das Unternehmen arbeitet laut eigenen Angaben mit Axis Max Life Insurance zusammen, um die Datenbanksicherheit zu stärken, und hat zudem Lightwell Access auf dem Microsoft Marketplace eröffnet. Das durchschnittliche Kursziel dient als wichtiger Indikator für die Markterwartungen. Aus den Pflichtmeldungen der US-Börsenaufsicht SEC geht hervor, dass Robert David Thomas als Senior Vice President Aktien im Wert von rund fünf Komma acht Millionen Dollar verkauft hat.",
+   "dur": 68.6,
+   "at": "2026-11-24T02:57:25Z"
   },
   "NOW": {
    "file": "NOW.mp3",
@@ -267,15 +268,16 @@
   },
   "OKLO": {
    "file": "OKLO.mp3",
-   "hash": "e594f94bb0cc5be3",
-   "th": "7102206f60c143b5",
-   "id": "ea029052a0",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
+   "hash": "e7f7e9755218032f",
+   "th": "96a05b4b287f5474",
+   "engine": "gemini",
+   "id": "5f89108945",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
    "br": 24,
-   "text": "Oklo steht aktuell im Fokus verschiedener Berichte. Laut marketscreener.com hat Guggenheim das Unternehmen von Halten auf Kaufen hochgestuft und ein Kursziel von achtunddreissig Dollar genannt, begründet durch Fortschritte bei der Umsetzung. Zudem schloss Oklo laut Investing.com Deutsch einen wichtigen Liefervertrag zur Urananreicherung mit Centrus Energy für sein Werk in Ohio ab. Die Aktie stand jedoch auch unter Druck und verzeichnete Kursrückgänge, was unter anderem mit Insiderverkäufen zusammenhing. Hinsichtlich der Risiken wird in den Meldungen auf eine gewisse Volatilität hingewiesen, und Blockchain News merkt an, dass der Abwärtstrend intakt ist. Zu den Analystenbewertungen gibt es verschiedene Einschätzungen: Canaccord Genuity bestätigt die Einstufung Kaufen mit einem Kursziel von sechsundsechzig Dollar, Wedbush bewertet die Aktie als Besser als Markt mit sechsunddreissig Dollar, HC Wainwright & Co. sieht das Kursziel bei neunzig Dollar, B. Riley Securities bei einundsechzig Dollar, während TD Cowen die Aktie mit Halten und einem Kursziel von sechsundzwanzig Dollar neu aufnahm und Truist Securities ebenfalls auf Halten mit einunddreissig Dollar stuft. Operativ zeigt sich das Unternehmen positiv durch die Freigabe des Energieministeriums und den neuen Uranvertrag, dem allerdings Insiderverkäufe gegenüberstehen.",
-   "dur": 93.3,
-   "at": "2026-11-20T14:07:41Z"
+   "text": "Oklo steht laut der kanadischen Tageszeitung The Globe and Mail seit ihrem SPAC-Debüt im Blickpunkt der Anleger. Wie die Chart- und Börsenplattform TradingView berichtet, hat das Energieministerium Groves-eins genehmigt und Oklo hat Termine für Aurora und Meta festgelegt. Laut dem Finanzportal Yahoo Finance verzeichnete die Aktie kürzlich einen Kursanstieg von zwölf Prozent. Zu den Risiken ist zu erwähnen, dass die Oklo-Aktie laut dem Finanzportal Investing.com unter Druck stand, nachdem Insiderverkäufe und Marktschwäche ein Upgrade des Analysehauses Guggenheim dämpften. Auf der Analystenseite sehen Experten laut Yahoo Finance ein Konsens-Kursziel von durchschnittlich fünfundfünfzig Komma vier drei Dollar mit einem Aufwärtspotenzial von einhundertsechsundsechzig Komma neun Prozent. Das Analysehaus Guggenheim stufte die Aktie auf Kaufen mit einem Kursziel von achtunddreissig Dollar hoch, begründet mit Fortschritten bei der Umsetzung. Truist Securities führt die Aktie mit Halten und einem Kursziel von einunddreissig Dollar. TD Cowen bewertet sie ebenfalls mit Halten bei einem Kursziel von sechsundzwanzig Dollar. B. Riley Securities empfiehlt die Aktie mit Kaufen und einem Kursziel von einundsechzig Dollar. HC Wainwright & Co. sieht die Aktie bei Kaufen mit einem Kursziel von neunzig Dollar. Wedbush bewertet sie mit Besser als Markt und einem Kursziel von sechsunddreissig Dollar. Canaccord Genuity bestätigt die Kaufempfehlung mit einem Kursziel von sechsundsechzig Dollar. Was die Firma gerade macht: Oklo strebt laut TradingView an, das Aurora-Werk in den Jahren 2028 bis 2029 in Betrieb zu nehmen. Abwertend wirkte laut Investing.com jedoch der Kursdruck durch Insiderverkäufe und eine allgemeine Marktschwäche. Zu den wichtigen Kennzahlen gehört der Kursanstieg von zuletzt zwölf Prozent, was das kurzfristige Marktinteresse zeigt. Das durchschnittliche Kursziel liegt bei fünfundfünfzig Komma vier drei Dollar, während das höchste Kursziel bei einhundert Dollar und das niedrigste bei vierzehn Dollar angesiedelt ist.",
+   "dur": 124.8,
+   "at": "2026-11-24T02:58:38Z"
   },
   "RYCEY": {
    "file": "RYCEY.mp3",
@@ -351,15 +353,15 @@
   },
   "UBSG.SW": {
    "file": "UBSG.SW.mp3",
-   "hash": "103e888a174ab635",
-   "th": "69f8849279a727dc",
-   "id": "92e4ba8383",
+   "hash": "6d55eb806fe72c61",
+   "th": "1348783704249c84",
+   "id": "c326a6249f",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "UBS Group steht derzeit im Fokus der Finanzmärkte, da die Aktie stark unter Druck geriet und auf ein Funf-Monate-Tief gefallen ist. Laut dem Schweizer Finanzportal Cash entwickelte sich das Papier zur schlechtesten Aktie im Schweizer Leitindex in dieser Woche, wahrend sich Anleger vermehrt von ihren Bestanden trennten. Auch die Schweizer Finanzzeitung Finanz und Wirtschaft berichtet von Kursverlusten im Zuge allgemeiner Markt- und Zinssorgen. Bei den Analystenbewertungen zeigt sich ein gemischtes Bild: Laut Yahoo Finance liegt das durchschnittliche Kursziel der Experten bei vierundfünfzig Komma zwei sechs Dollar. Das Analysten-Konsensbild umfasst neben acht Halteempfehlungen auch zwei starke Kaufe, sieben Kaufe, zwei Verkaufe und eins starken Verkauf. So stufte UBS die Aktie der Deutschen Borse auf Verkaufs ab und hob gleichzeitig das Kursziel an, wahrend fur andere Werte wie Nu Holdings eine Kaufempfehlung ausgesprochen wurde. Was die Geschaftstatigkeit der UBS Group betrifft, gibt es sowohl aufwertende als auch abwertende Nachrichten. Auf der einen Seite plant das Unternehmen laut TradingView, europaische Arbeitsplatze nach Indien zu verlagern, was moglicherweise Kosteneinsparungen bringen soll. Auf der anderen Seite belasten die jüngsten Kursverluste und das Marktumfeld die Stimmung. Wichtige Kennzahlen unterstreichen die Lage: Das von Yahoo Finance ausgewiesene mittlere Kursziel von vierundfünfzig Komma zwei sechs Dollar zeigt das theoretische Potenzial vom aktuellen Kursniveau auf. Laut einer Mitteilung uber Yahoo Finance wird das Management im kommenden Februar die neue Strategie nach der Ubernahme der Credit Suisse sowie konkrete Prioritaten beim Kapital und bei Aktienruckkaufen prasentieren, was fur mehr Transparenz sorgen konnte.",
-   "dur": 121.1,
-   "at": "2026-11-23T07:49:03Z"
+   "text": "UBS Group steht derzeit im Fokus von Medien und Analysten, da das Finanzinstitut die Integration der Credit Suisse vorantreibt. Laut TradingView wird UBS Group im Zuge dieser fortschreitenden Integration die Kapitalziele überarbeiten. Zudem kündigte das Unternehmen laut Yahoo Finance an, im Februar die Strategie nach der Credit Suisse vorzulegen. Auf der Analystenseite liegt das durchschnittliche Kursziel laut Yahoo Finance bei vierundfünfzig Komma zwei drei Dollar. Die Aktie stand in den Berichten verschiedener Medien wie Cash und Finanz und Wirtschaft unter Druck, fiel auf ein Fünf-Monate-Tief und verzeichnete Kursverluste, zeigte sich an einzelnen Handelstagen zeitweise jedoch auch wieder stärker. Zu den wichtigsten Kennzahlen gehört neben dem mittleren Kursziel von vierundfünfzig Komma zwei drei Dollar auch ein Höchstkursziel von einundsiebzig Komma vier fünf Dollar sowie ein tiefstes Kursziel von sechsundvierzig Komma vier vier Dollar. Insider-Transaktionen wurden in den aktuellen Berichten nicht genannt.",
+   "dur": 70.1,
+   "at": "2026-11-24T02:58:46Z"
   },
   "MSFT": {
    "file": "MSFT.mp3",
@@ -387,16 +389,15 @@
   },
   "013A.F": {
    "file": "013A.F.mp3",
-   "hash": "8ba03601ea04661d",
-   "th": "afa8a67a2f8452fc",
-   "engine": "gemini",
-   "id": "f670115774",
-   "voice": "Kore",
-   "model": "gemini-2.5-flash-preview-tts",
+   "hash": "2495e9bc44db559f",
+   "th": "b4443933f64e4473",
+   "id": "adb0bf4c3a",
+   "voice": "de-CH-LeniNeural",
+   "engine": "edge",
    "br": 24,
-   "text": "Beim Unternehmen JD.com zeigen aktuelle Meldungen ein gemischtes Bild für Anlegerinnen und Anleger. Laut dem Finanzportal Yahoo Finance suchen Investoren intensiv nach JD.com. Gleichzeitig berichtet Ynetnews, dass eine Übernahme von JD.com den deutschen Elektronikhandel erschüttert und Diskussionen über billige Geräte sowie verlorene Arbeitsplätze auslöst, was für die Aktie von Bedeutung sein kann. Auf der Risikoseite hat das deutsche Börsenportal boerse.de gemeldet, dass der BOTSI-Advisor JD.com von Rang dreihundertneunzig abgestuft hat. Bei den Analystenbewertungen gab es ebenfalls Anpassungen. Barclays bestätigte die Einstufung auf Übergewichten und senkte das Kursziel auf achtunddreissig Dollar. B of A Securities bestätigte die Einstufung auf Kaufen und senkte das Kursziel auf siebenunddreissig Dollar. Susquehanna bestätigte die Einstufung auf Neutral und senkte das Kursziel auf dreissig Dollar. Weitere Kennzahlen, Insider-Aktivitäten oder Aussagen von Unternehmenschefs wurden in den vorliegenden Berichten nicht genannt.",
-   "dur": 68.9,
-   "at": "2026-11-23T16:04:27Z"
+   "text": "JD.com zeigt sich in den aktuellen Berichten mit verschiedenen Entwicklungen. Laut dem US-Wirtschaftsmagazin Forbes wird über das Vermögen von Liu Qiangdong im Tech-Bereich berichtet. Zudem meldet Ynetnews, dass eine Übernahme durch JD.com den deutschen Elektronikhandel erschüttert und dort Sorgen über billige Geräte sowie verlorene Arbeitsplätze auslöst. Bei den Risiken und rechtlichen Aspekten zeigt sich, dass Ynetnews diese Bedenken im deutschen Einzelhandel aufgreift. Zu den Analysten-Bewertungen gibt es mehrere Einschätzungen: Barclays bestätigt die Einstufung Übergewichten mit einem Kursziel von achtunddreissig Dollar. B of A Securities bestätigt die Empfehlung Kaufen und setzt das Kursziel auf siebenunddreissig Dollar. Susquehanna bestätigt die neutrale Haltung mit einem Kursziel von dreissig Dollar. Zurück zu JD.com: Als aufwertender Punkt wird die genannte Übernahme im deutschen Elektronikhandel angeführt, während boerse.de als abwertenden Aspekt eine Abstufung des BOTSI-Advisors von Rang dreihundertneunzig meldet. In den vorliegenden Meldungen wurden keine Insider-Käufe oder Verkäufe sowie keine Aussagen von Chefs gefunden. Widersprüche zwischen den Quellen treten in den Berichten nicht auf.",
+   "dur": 87.3,
+   "at": "2026-11-24T02:59:00Z"
   },
   "NVDA": {
    "file": "NVDA.mp3",
@@ -508,21 +509,21 @@
   },
   "DRO.AX": {
    "file": "DRO.AX.mp3",
-   "hash": "1901705889eff133",
-   "th": "a34d500a2595f187",
-   "id": "ddcc3a83b5",
+   "hash": "4e925c2447397b3d",
+   "th": "fe74e7cbcb206186",
+   "id": "761dcca4aa",
    "voice": "de-CH-LeniNeural",
    "engine": "edge",
    "br": 24,
-   "text": "DroneShield Limited steht heute im Fokus der Berichterstattung. Das Trading-Ratgeberportal Traders Union berichtet ueber aktuelle Neuigkeiten zum Aktienkurs des Unternehmens. Laut Yahoo Finance gibt es von insgesamt vier Analysten zwei Kaufempfehlungen, eins Halteempfehlung und eins Verkaufsempfehlung. Das durchschnittliche Kursziel liegt bei eins Komma drei zwei Dollar, waehrend das hoechste Kursziel eins Komma sieben fünf Dollar und das tiefste Kursziel null Komma acht vier Dollar betragen. Daraus ergibt sich ein Kurspotenzial von +achtundachtzig Komma sieben Prozent.",
-   "dur": 40.3,
-   "at": "2026-11-20T13:13:50Z"
+   "text": "DroneShield Limited meldet laut dem Finanzportal MarketScreener Schweiz die anfängliche Einsatzfähigkeit seines Anti-Drohnen-Angebots. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Zu den Analysten-Bewertungen bei DroneShield Limited meldet Yahoo Finance insgesamt zwei Kauf-Empfehlungen, eins Halten-Empfehlung sowie eins Verkauf-Empfehlung. Das durchschnittliche Kursziel liegt bei eins Komma drei Dollar, während das hohe Kursziel bei eins Komma sieben zwei Dollar und das tiefe Kursziel bei null Komma acht drei Dollar liegen. Daraus ergibt sich ein erwartetes Kurspotenzial von +achtzig Komma neun Prozent. Aufwertend ist zu erwähnen, dass MarketScreener Schweiz über die anfängliche Einsatzfähigkeit des Anti-Drohnen-Angebots berichtet, während abwertende Meldungen aktuell nicht vorliegen. Zu den wichtigen Kennzahlen gehört das durchschnittliche Kursziel von eins Komma drei Dollar, welches den von Analysten erwarteten mittleren Aktienkurs anzeigt, sowie das erwartete Kurspotenzial von +achtzig Komma neun Prozent, das den aktuellen Kurs mit dem durchschnittlichen Ziel vergleicht. Insider-Käufe oder Insider-Verkäufe sowie Aussagen von Chefs liegen in den aktuellen Meldungen nicht vor und Widersprüche zwischen den Quellen gibt es derzeit keine.",
+   "dur": 86.7,
+   "at": "2026-11-24T02:59:12Z"
   }
  },
  "status": "ok",
- "checked_at": "2026-11-23T16:04:27Z",
+ "checked_at": "2026-11-24T02:59:12Z",
  "quota_until": 1795249473.4961078,
- "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@1688552c8bab43bb0447694c45a6e262f253e5b4/data/audio/",
+ "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@fd217c3369c3133ab3cd773811e8274bdf970aff/data/audio/",
  "extra": {
   "intro": {
    "file": "_intro.mp3",
