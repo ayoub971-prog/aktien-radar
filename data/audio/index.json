@@ -343,16 +343,16 @@
   },
   "BKW.SW": {
    "file": "BKW.SW.mp3",
-   "hash": "419fcdb063677271",
-   "th": "fbc409c27d5dd89c",
+   "hash": "26391f2b0b2e5562",
+   "th": "a41596170ff85d46",
    "engine": "gemini",
-   "id": "99ff309fef",
+   "id": "b19229eb52",
    "voice": "Kore",
    "model": "gemini-2.5-flash-preview-tts",
    "br": 24,
-   "text": "BKW AG: Die jüngsten Meldungen zeigen verschiedene Entwicklungen rund um den Energie- und Infrastrukturkonzern. Laut finanzen.ch verzeichnete die Aktie an mehreren Handelstagen Gewinne und zeigte sich mit positiven Vorzeichen. Zugleich berichtet Yahoo Finance, dass die Aktie nach einem Rückgang um neunundzwanzig Prozent von einigen Beobachtern weiterhin als teuer eingestuft wird. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden, jedoch merkt boerse.de an, dass der Titel unter der achtunddreissig-Tage-Linie notiert. Zu den Analysten-Bewertungen teilt Yahoo Finance mit, dass von insgesamt acht erfassten Analysten zwei zum Kaufen, drei zum Halten, eins zum Verkaufen, eins zum starken Kaufen und eins zum starken Verkaufen raten. Das durchschnittliche Kursziel beläuft sich auf rund zweihundertdrei Dollar, während das höchste Kursziel bei rund zweihundertzweiundvierzig Dollar und das tiefste bei rund einhundertvierundsechzig Dollar liegt. Was die Firma gerade macht, zeigt sich an Erweiterungen: Laut MarketScreener Schweiz übernimmt BKW das Windparkprojekt Schwerte in Deutschland, und gemäss finanzen.ch wurde zudem das Frankfurter Architekturbüro Schmidt Plöcker übernommen. Zurück zu BKW AG: Bei den Kennzahlen sticht das von Analysten genannte durchschnittliche Kursziel von rund zweihundertdrei Dollar hervor, welches den erwarteten mittleren Aktienkurs in der Zukunft beschreibt. Insider-Käufe oder -Verkäufe wurden in den aktuellen Meldungen nicht verzeichnet. Aussagen von Chefs oder dem Management liegen ebenfalls nicht vor. Widersprüche zwischen den verschiedenen Quellen gibt es in den Berichten keine.",
-   "dur": 101.1,
-   "at": "2026-11-25T00:15:14Z"
+   "text": "BKW AG: Die Berichterstattung über den Energie- und Infrastrukturkonzern zeigt in den vergangenen Handelstagen ein gemischtes Bild an der Börse, wie das Schweizer Finanzportal finanzen.ch in mehreren Meldungen vermeldet. Dabei bewegte sich der Kurs phasenweise im grünen Terrain, notierte zwischendurch aber auch auf rotem Terrain. In den vorliegenden Meldungen wurden keine Risiken oder rechtlichen Probleme gefunden. Zu den Analysten-Bewertungen mit Begründung: Laut Yahoo Finance liegt das durchschnittliche Kursziel der Aktie bei einhundertzweiundsiebzig Dollar, mit einem geschätzten Aufwärtspotenzial von rund fünfzehn Komma eins Prozent. Das Spektrum der Kursziele reicht von einem tiefsten Wert von rund einhundertachtunddreissig Dollar bis zu einem höchsten Wert von rund zweihundertfünf Dollar. Was die Firma gerade macht, zeigt sich an aktuellen Expansionsschritten: Laut finanzen.ch übernimmt das Unternehmen einen Windpark in Nordrhein-Westfalen. Zudem meldet finanzen.ch, dass der Energie- und Infrastrukturkonzern das Frankfurter Architekturbüro Schmidt Plöcker übernommen hat, was auf der Habenseite verbucht werden kann. Zurück zu BKW AG: Wichtige Kennzahlen umfassen neben dem mittleren Kursziel und dem Aufwärtspotenzial auch das von Yahoo Finance genannte Analystenfeld von sechs Experten, die in ihrer Gesamtheit eine Konsensempfehlung abgeben. Insider-Käufe und -Verkäufe wurden in den aktuellen Daten nicht verzeichnet. Aussagen von Chefs oder dem Management liegen für diesen Zeitraum nicht vor. Es wurden keine widersprüchlichen Aussagen festgestellt.",
+   "dur": 92.7,
+   "at": "2026-11-25T15:39:31Z"
   },
   "UBSG.SW": {
    "file": "UBSG.SW.mp3",
@@ -416,15 +416,16 @@
   },
   "1211.HK": {
    "file": "1211.HK.mp3",
-   "hash": "b93ac3c3fcd4a7c7",
-   "th": "de0d26ce893ef321",
-   "id": "05a4045578",
-   "voice": "de-CH-LeniNeural",
-   "engine": "edge",
+   "hash": "03932d4ae191d661",
+   "th": "19a4723b12c49c09",
+   "engine": "gemini",
+   "id": "462f0c30d1",
+   "voice": "Kore",
+   "model": "gemini-2.5-flash-preview-tts",
    "br": 24,
-   "text": "BYD steht derzeit im Fokus von Gerichtsverfahren und Expansionsplänen in Europa. Ein niederländisches Gericht hat den Verkauf des SUV-Modells Ti7 in der Europäischen Union untersagt, da eine Ähnlichkeit zum Land-Rover-Defender vorliegt. Zudem prüfen die USA mögliche Verbannungen von Autos aus China, was das Unternehmen ebenfalls treffen könnte. Analysten blicken überwiegend positiv auf BYD. Von insgesamt fünfundzwanzig Analysten raten achtundzwanzig zum Kaufen, vier zum Halten und null zum Verkaufen. Das durchschnittliche Kursziel liegt bei dreizehn Komma vier sieben Dollar, mit einem Höchstwert von siebzehn Komma eins sieben Dollar und einem Tiefstwert von sieben Komma sechs drei Dollar. Operativ treibt der Konzern seine Europa-Pläne stark voran. BYD führt exklusive Verhandlungen über den Kauf des Ineos-Automobilwerks im französischen Hambach und könnte dadurch der erste chinesische Automobilhersteller mit einer eigenen Fabrik in Europa werden. Zudem legen die Zulassungszahlen der Elektroautos des Unternehmens in Europa kräftig zu und setzen Verbrenner unter Druck. Belastend wirken hingegen der gerichtliche Verkaufsstopp des Ti7-Modells sowie die Ankündigung von Jaguar Land Rover, seine Designs nach dem EU-Stopp streng zu schützen.",
-   "dur": 91.1,
-   "at": "2026-11-25T05:34:34Z"
+   "text": "BYD: Die Aktie steht aktuell im Fokus der Berichterstattung. Laut dem Wall Street Journal fielen die Aktien von BYD, nachdem ein niederländisches Gericht den Verkauf des SUV-Modells Ti7 in der Europäischen Union untersagt hatte. Grund dafür sind Design-Ähnlichkeiten zum Land Rover Defender. Der Spiegel meldet ebenfalls Kursrückgänge infolge dieses EU-Verkaufsverbots, während Ariva zudem auf mögliche Diskussionen über Verbote von Autos aus China in den Vereinigten Staaten hinweist. In den vorliegenden Meldungen wurden keine weiteren schwerwiegenden Risiken oder rechtlichen Probleme gefunden. Laut Yahoo Finance liegt das durchschnittliche Kursziel der Analysten bei rund dreizehn Komma vier sieben Dollar, wobei von insgesamt zweiunddreissig bewertenden Analysten die Mehrheit zum Kaufen rät und keine Verkaufsempfehlungen ausgesprochen wurden. Zurück zu BYD: Das Unternehmen treibt seine Expansionspläne in Europa kräftig voran. Laut Yahoo Finance führt BYD exklusive Gespräche mit Ineos über die Übernahme der Autofabrik im französischen Hambach, womit das Unternehmen voraussichtlich als erster chinesischer Hersteller ein bestehendes Werk in Europa erwerben würde. Zudem legen die Zulassungszahlen von BYD-Elektroautos in Europa laut finanzen.ch stark zu. Zu den wichtigen Kennzahlen gehört das von Analysten auf rund dreizehn Komma vier sieben Dollar bezifferte mittlere Kursziel, welches ein theoretisches Aufwärtspotenzial von rund zweiundachtzig Komma zwei Prozent gegenüber dem aktuellen Kurs signalisiert. Insider-Käufe oder -Verkäufe wurden in den aktuellen Daten nicht separat ausgewiesen. Aussagen von Unternehmenschefs liegen für diese Berichtsperiode nicht vor. Bezüglich Widersprüchen gibt es in den vorliegenden Meldungen keine wesentlichen Differenzen zwischen den verschiedenen Medienberichten.",
+   "dur": 108.2,
+   "at": "2026-11-25T15:40:43Z"
   },
   "SHL.DE": {
    "file": "SHL.DE.mp3",
@@ -524,9 +525,9 @@
   }
  },
  "status": "ok",
- "checked_at": "2026-11-25T05:34:34Z",
+ "checked_at": "2026-11-25T15:40:43Z",
  "quota_until": 1795249473.4961078,
- "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@feb8690bd40cabd3afff757b978df7e6b89dc8bd/data/audio/",
+ "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@9b30ba47d70f3ad2730f8302185132e5c26cbf32/data/audio/",
  "extra": {
   "intro": {
    "file": "_intro.mp3",
