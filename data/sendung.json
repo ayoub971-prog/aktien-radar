@@ -1,6 +1,200 @@
 {
 "episodes": [
 {
+"id": "2026-11-26-t",
+"kind": "tag",
+"date": "2026-11-26",
+"title": "Morgen-Sendung, Donnerstag, sechsundzwanzigsten November",
+"generated_at": "2026-11-26T14:11:25Z",
+"writer": "Gemini (Gratis-Kontingent) 8 Firmen, Rest Vorlage",
+"chapters": [
+{
+"name": "Begrüssung",
+"say": "Guten Morgen und willkommen zur Sendung vom Aktien-Radar, heute Donnerstag, sechsundzwanzigsten November. Zuerst ein kurzer Blick auf den Markt, dann die Firmen aus deiner Liste mit neuen Meldungen zu Produkten, Partnern und Projekten, danach die Quartalszahlen dieser Woche und zum Schluss ein Begriff zum Lernen. Kurz vorweg: Alles stammt aus gesammelten Daten und Schlagzeilen, Beträge nenne ich in Dollar. Das ist keine Anlageberatung.",
+"audio": {
+"file": "sendung/2026-11-26-t_00.mp3",
+"hash": "6782471186fa8272",
+"dur": 30.4
+}
+},
+{
+"name": "Markt kurz",
+"say": "Der Markt kurz. Der S und P fünfhundert, der Index der fünfhundert grossen US-Firmen, stand zuletzt bei minus null Komma drei Prozent gegenüber dem Vortag. In deiner Liste am stärksten: Hyliion mit plus vier Komma zwei Prozent, Meta mit plus drei Komma vier Prozent, IBM mit plus drei Komma drei Prozent. Am schwächsten: SK Hynix mit minus elf Komma eins Prozent, SoftBank mit minus sechs Komma fünf Prozent. Zum Thema KI-Chips meldet Handelsblatt: Nikkei, Kospi, Topix: Asiens Börsen stabilisieren sich – KI- und Chipaktien steigen teilweise stark. Zum Thema Zinsen meldet Finanz und Wirtschaft: Zinsen und Devisen: Labile Lage an den Börsen lässt Anleihenrenditen sinken.",
+"audio": {
+"file": "sendung/2026-11-26-t_01.mp3",
+"hash": "b3a9b339b7408437",
+"dur": 54.8
+}
+},
+{
+"name": "Nvidia",
+"sym": "NVDA",
+"say": "Zur Aktie Nvidia. Kioxia und Nvidia arbeiten zusammen, um die effektive Speicherkapazität mit hoher Bandbreite mit SSDs zu erweitern. Ausserdem legt Nvidia eine acht Jahre alte Investorenklage auf zweihundertneunzig Millionen Dollar bei. Nvidia arbeitet somit an neuen Produktkooperationen, während im Kongress und bei Exportbeschränkungen über Nvidia diskutiert wird. Meine Einordnung aus diesen Meldungen: Sie könnten Nvidia eher stärken. Das war Nvidia.",
+"audio": {
+"file": "sendung/2026-11-26-t_02.mp3",
+"hash": "6defa8b966725e87",
+"dur": 35.9
+}
+},
+{
+"name": "Amazon",
+"sym": "AMZN",
+"say": "Zur Aktie Amazon. MegazoneCloud eröffnet sein Amazon Quick Center of Excellence, um Unternehmensdaten in autonome Massnahmen umzuwandeln. In Zusammenarbeit mit Amazon bringt Duracell zudem mit Power Playland on the Pier Weihnachtszauber nach Chicago. Amazon äussert sich zudem skeptisch zu Musks Plänen für eine Million KI-Satelliten. Meine Einordnung aus diesen Meldungen: Sie könnten Amazon eher stärken. Das war Amazon.",
+"audio": {
+"file": "sendung/2026-11-26-t_03.mp3",
+"hash": "0fbace1e8c6d4b6a",
+"dur": 33.7
+}
+},
+{
+"name": "Meta",
+"sym": "META",
+"say": "Zur Aktie Meta. Laut Meta steigert der KI-Agent Muse die Conversions für Werbetreibende und erteilt bereits einundfünfzig Prozent der AI-Agent-Bestellungen. Meta gibt an, dass Muse bereit für den Black Friday ist. Meta treibt damit seine KI-Strategie mit neuen Agenten-Produkten voran. Meine Einordnung aus diesen Meldungen: Sie könnten Meta eher stärken. Das war Meta.",
+"audio": {
+"file": "sendung/2026-11-26-t_04.mp3",
+"hash": "c916b2d1b3a51514",
+"dur": 30.7
+}
+},
+{
+"name": "Microsoft",
+"sym": "MSFT",
+"say": "Zur Aktie Microsoft. Microsoft treibt zusammen mit Firmen wie Cisco, Huawei, HPE und Nokia die Cloud-Automatisierung im Bereich der softwaredefinierten Netzwerke voran. Gleichzeitig belasten KI-Investitionen und geänderte Regelungen für Greencard-Einreichungen nach Massenentlassungen den freien Cashflow von Microsoft. Microsoft setzt stark auf Cloud-Projekte, kämpft aber mit regulatorischen und finanziellen Hürden. Ob das Microsoft stärkt oder schwächt, ist aus den Meldungen noch unklar. Das war Microsoft.",
+"audio": {
+"file": "sendung/2026-11-26-t_05.mp3",
+"hash": "01c8c526648fffce",
+"dur": 39.6
+}
+},
+{
+"name": "Palantir",
+"sym": "PLTR",
+"say": "Zur Aktie Palantir. Palantir verzeichnet Kursbewegungen, während Peter Thiel Palantir-Aktien im Wert von einhundertzweiundzwanzig Komma drei Millionen Dollar kauft. Palantir steht im Fokus von Insiderkäufen inmitten der allgemeinen KI-Volatilität. Konkrete neue Produktmeldungen oder Aufträge liegen für Palantir in den Schlagzeilen jedoch nicht vor. Ob das Palantir stärkt oder schwächt, ist aus den Meldungen noch unklar. Das war Palantir.",
+"audio": {
+"file": "sendung/2026-11-26-t_06.mp3",
+"hash": "cf65c91b445d678c",
+"dur": 34.5
+}
+},
+{
+"name": "Micron",
+"sym": "MU",
+"say": "Zur Aktie Micron. Micron Technology rutscht im Zuge allgemeiner Kursrückgänge bei Chipwerten ab. Zu neuen Produkten, Partnern oder Aufträgen von Micron gibt es in den aktuellen Meldungen keine Details. Die Schlagzeilen zu Micron sind daher zu dünn für eine positive Einordnung. Ob das Micron stärkt oder schwächt, ist aus den Meldungen noch unklar. Das war Micron.",
+"audio": {
+"file": "sendung/2026-11-26-t_07.mp3",
+"hash": "336dd9ce2bc034cb",
+"dur": 28.8
+}
+},
+{
+"name": "UBS",
+"sym": "UBSG.SW",
+"say": "Zur Aktie UBS. Die UBS Group AG erwirbt einen Anteil von fünf Komma zwei Prozent am Bergbaugiganten Sibanye-Stillwater. Zudem bringt die UBS Los Angeles zur Art Basel Miami Beach mit LA in MIA, verankert durch Alex Israels Werk Traffic. Das war UBS.",
+"audio": {
+"file": "sendung/2026-11-26-t_08.mp3",
+"hash": "88ed383d4da70198",
+"dur": 22.6
+}
+},
+{
+"name": "Taiwan Semiconductor",
+"sym": "TSM",
+"say": "Zur Aktie Taiwan Semiconductor. Taiwan Semiconductor erwaegt ein dreitausend Hektar grosses Aggieland-Gelaende fuer eine Chipfabrik im Wert von zweiundzwanzig Komma sechs Milliarden Dollar. Trump reist nach Arizona, um die Computerchip-Fabriken von Taiwan Semiconductor zu erweitern. Taiwan Semiconductor setzt damit massiv auf den Ausbau seiner Fabriken und sendet ein starkes KI-Signal. Das war Taiwan Semiconductor.",
+"audio": {
+"file": "sendung/2026-11-26-t_09.mp3",
+"hash": "d3fd80692977f7aa",
+"dur": 32.7
+}
+},
+{
+"name": "Quartalszahlen diese Woche",
+"say": "Kommen wir zu den Quartalszahlen dieser Woche. In diesem Zeitraum sind für deine Aktien keine Quartalszahlen angekündigt.",
+"audio": {
+"file": "sendung/2026-11-26-t_10.mp3",
+"hash": "bbc2dd8fc222fb2b",
+"dur": 9.4
+}
+},
+{
+"name": "Begriff: Dividende",
+"say": "Zum Lernen, der Begriff des Tages: Dividende. Eine Dividende ist ein Teil des Gewinns, den die Firma an ihre Aktionäre auszahlt, meist pro Quartal oder einmal im Jahr. Wachstumsfirmen zahlen oft keine Dividende, weil sie das Geld wieder investieren.",
+"audio": {
+"file": "sendung/2026-11-26-t_11.mp3",
+"hash": "854a0edfb5548d56",
+"dur": 18.9
+}
+},
+{
+"name": "Schluss",
+"say": "Das war die Sendung vom Aktien-Radar. Die Quellen findest du in der App bei jeder Aktie, den ganzen Text über den Knopf Als Text. Bis morgen.",
+"audio": {
+"file": "sendung/2026-11-26-t_12.mp3",
+"hash": "cc4bc23e3e69d9dd",
+"dur": 11.5
+}
+}
+],
+"dur": 383.5,
+"full": {
+"file": "sendung/2026-11-26-t_full.mp3",
+"dur": 383.5,
+"marks": [
+[
+0,
+0.0
+],
+[
+1,
+30.4
+],
+[
+2,
+85.2
+],
+[
+3,
+121.1
+],
+[
+4,
+154.8
+],
+[
+5,
+185.5
+],
+[
+6,
+225.1
+],
+[
+7,
+259.6
+],
+[
+8,
+288.4
+],
+[
+9,
+311.0
+],
+[
+10,
+343.7
+],
+[
+11,
+353.1
+],
+[
+12,
+372.0
+]
+]
+}
+},
+{
 "id": "2026-11-25-t",
 "kind": "tag",
 "date": "2026-11-25",
@@ -2551,204 +2745,10 @@
 ]
 ]
 }
-},
-{
-"id": "2026-11-10-t",
-"kind": "tag",
-"date": "2026-11-10",
-"title": "Morgen-Sendung, Dienstag, zehnten November",
-"generated_at": "2026-11-10T05:29:41Z",
-"writer": "Vorlage aus den Daten",
-"chapters": [
-{
-"name": "Begrüssung",
-"say": "Guten Morgen und willkommen zur Sendung vom Aktien-Radar, heute Dienstag, zehnten November. Zuerst ein kurzer Blick auf den Markt, dann die Firmen aus deiner Liste mit neuen Meldungen zu Produkten, Partnern und Projekten, danach die Quartalszahlen dieser Woche und zum Schluss ein Begriff zum Lernen. Kurz vorweg: Alles stammt aus gesammelten Daten und Schlagzeilen, Beträge nenne ich in Dollar. Das ist keine Anlageberatung.",
-"audio": {
-"file": "sendung/2026-11-10-t_00.mp3",
-"hash": "7f35a0b0967759f0",
-"dur": 29.8
-}
-},
-{
-"name": "Markt kurz",
-"say": "Der Markt kurz. Der S und P fünfhundert, der Index der fünfhundert grossen US-Firmen, stand zuletzt bei plus zwei Komma drei Prozent gegenüber dem Vortag. In deiner Liste am stärksten: Oklo mit plus vierzehn Prozent, Bloom Energy mit plus elf Komma neun Prozent, Siemens Energy mit plus elf Komma sieben Prozent. Am schwächsten: Nvidia mit minus vier Komma drei Prozent, JD.com mit minus zwei Komma fünf Prozent. Zum Thema Wall Street meldet CNBC: Die Aktien der SoftBank Group steigen um elf Prozent, da asiatische Technologiewerte nach der Erholung an der Wall Street steigen. Zum Thema Wall Street meldet CNBC: Die Aktien der SoftBank Group steigen um elf Prozent, da asiatische Technologieaktien die Erholung der Wall Street verfolgen.",
-"audio": {
-"file": "sendung/2026-11-10-t_01.mp3",
-"hash": "9192817912d66038",
-"dur": 57.2
-}
-},
-{
-"name": "Nvidia",
-"sym": "NVDA",
-"say": "Zur Aktie Nvidia. Investor's Business Daily meldet am neunten November: Nvidia-Vorstand leitet Untersuchung im Spionagefall von CEO Jensen Huang ein. Die Aktie fällt. Yahoo Finance meldet am zehnten November: Laut Trump ermittelt das FBI gegen Nvidia-Chef Huang wegen China-Skandals. Yahoo Finance meldet am zehnten November: Der CEO von Nvidia gibt die Affäre zu, während das Unternehmen eine Untersuchung zu Spionagevorwürfen einleitet. Ob diese Meldungen Nvidia stärken oder schwächen, lässt sich aus den Schlagzeilen allein nicht sicher sagen. Das war Nvidia.",
-"audio": {
-"file": "sendung/2026-11-10-t_02.mp3",
-"hash": "43c0d9d802b3b1a4",
-"dur": 44.6
-}
-},
-{
-"name": "Berkshire Hathaway",
-"sym": "BRK-B",
-"say": "Zur Aktie Berkshire Hathaway. The Globe and Mail meldet am neunten November: Berkshire kaufte weiterhin Aktien zurück, als die Aktien neue Rekorde erreichten. Das verrät Ihnen der gezahlte Preis. WSJ meldet am neunten November: Der Quartalsgewinn von Berkshire Hathaway sinkt, nachdem die Investitionsgewinne zurückgegangen sind. Business Insider Deutschland meldet am neunten November: Berkshire Hathaway holt auf: Was die neuen Zahlen Anlegern verraten. Ob diese Meldungen Berkshire Hathaway stärken oder schwächen, lässt sich aus den Schlagzeilen allein nicht sicher sagen. Das war Berkshire Hathaway.",
-"audio": {
-"file": "sendung/2026-11-10-t_03.mp3",
-"hash": "290084271f00f481",
-"dur": 46.6
-}
-},
-{
-"name": "Amazon",
-"sym": "AMZN",
-"say": "Zur Aktie Amazon. Seeking Alpha meldet am neunten November: Amazon und Microsoft gehören zu den Hyperscalern, die von einer Verlangsamung des Rechenzentrums profitieren: Ives (AMZN:NASDAQ). Yahoo Finance meldet am neunten November: Andy Jassy hat gerade fantastische Neuigkeiten für Amazon-Aktieninvestoren bekannt gegeben. Yahoo Finance meldet am neunten November: Feedvisor erweitert die Agentic Commerce-Plattform, um auf die wachsende Amazon-Geschäftsnachfrage zu reagieren. Ob diese Meldungen Amazon stärken oder schwächen, lässt sich aus den Schlagzeilen allein nicht sicher sagen. Das war Amazon.",
-"audio": {
-"file": "sendung/2026-11-10-t_04.mp3",
-"hash": "3e49f799a0cd7f9c",
-"dur": 46.6
-}
-},
-{
-"name": "Broadcom",
-"sym": "AVGO",
-"say": "Zur Aktie Broadcom. Broadcom meldet am neunten November: Broadcom trägt zum VM API Open Source-Projekt zur Cloud Native Computing Foundation bei. Seeking Alpha meldet am neunten November: Broadcom steigt um neun Prozent angesichts der Erholung der KI- und Chip-Aktien (AVGO:NASDAQ). Yahoo Finance Singapore meldet am neunten November: Broadcom-Aktien steigen um acht Komma zwei Prozent, da Anleger den Leitfaden zum KI-Umsatz in Höhe von einundzwanzig Komma sieben Milliarden Dollar im Auge haben. Ob diese Meldungen Broadcom stärken oder schwächen, lässt sich aus den Schlagzeilen allein nicht sicher sagen. Das war Broadcom.",
-"audio": {
-"file": "sendung/2026-11-10-t_05.mp3",
-"hash": "8fbe8df379a85686",
-"dur": 49.2
-}
-},
-{
-"name": "UBS",
-"sym": "UBSG.SW",
-"say": "Zur Aktie UBS. Yahoo Finance meldet am zehnten November: UBS: drei wichtige Erkenntnisse für langfristige Anleger. Investing.com UK meldet am neunten November: Danaher auf der UBS Global Healthcare Conference: Wachstumsplan nimmt Gestalt an Von Investing.com. Investing.com meldet am neunten November: Legrand-Aktien legen zu, da UBS ein beschleunigtes Wachstum von Rechenzentren sieht. Ob diese Meldungen UBS stärken oder schwächen, lässt sich aus den Schlagzeilen allein nicht sicher sagen. Das war UBS.",
-"audio": {
-"file": "sendung/2026-11-10-t_06.mp3",
-"hash": "e88865b84cc61163",
-"dur": 43.2
-}
-},
-{
-"name": "Microsoft",
-"sym": "MSFT",
-"say": "Zur Aktie Microsoft. Investing.com India meldet am neunten November: Form vier Microsoft Corporation: Satya Nadella (Direktor, CEO) Für: sechsten November Von Investing.com. Seeking Alpha meldet am neunten November: Microsoft, Oracle und SAP gelten als „KI-Gewinner“ unter den Softwareunternehmen: Oppenheimer (MSFT:NASDAQ). Investing.com UK meldet am neunten November: Northern Trust und Microsoft setzen KI-Agenten ein, um die Onboarding-Zeit zu verkürzen Von Investing.com. Ob diese Meldungen Microsoft stärken oder schwächen, lässt sich aus den Schlagzeilen allein nicht sicher sagen. Das war Microsoft.",
-"audio": {
-"file": "sendung/2026-11-10-t_07.mp3",
-"hash": "1734c572472f70f9",
-"dur": 54.4
-}
-},
-{
-"name": "Meta",
-"sym": "META",
-"say": "Zur Aktie Meta. The Globe and Mail meldet am neunten November: Meta Platforms-Aktie: Handelt es sich bei sechshundertfünfzig Dollar um ein Schnäppchen?. The Globe and Mail meldet am neunten November: Oklo ist gegenüber seinem Höchststand um sechsundachtzig Prozent gesunken. Werden die Aktien steigen, wenn Metas Reaktor online geht?. MarketScreener Deutschland meldet am neunten November: Meta Platforms bringt das KI-Modell Muse Ember auf den Markt. Ob diese Meldungen Meta stärken oder schwächen, lässt sich aus den Schlagzeilen allein nicht sicher sagen. Das war Meta.",
-"audio": {
-"file": "sendung/2026-11-10-t_08.mp3",
-"hash": "6c627f3f38b2ca5e",
-"dur": 43.9
-}
-},
-{
-"name": "Siemens Energy",
-"sym": "SMEGF",
-"say": "Zur Aktie Siemens Energy. Zawya meldet am neunten November: AIQ und Siemens Energy geben Zusammenarbeit bekannt, um autonome digitale Fähigkeiten für die Energie- und Prozessindustrie voranzutreiben. The Financial Express meldet am achten November: Lernen Sie die Aerospace-Aktie kennen, die GE, Siemens und Rolls-Royce mit Deals im Wert von dreitausendzweihundert Cr. Rs beliefert. WELT meldet am neunten November: Siemens Energy-Aktie: Es geht wieder stark bergauf. Ob diese Meldungen Siemens Energy stärken oder schwächen, lässt sich aus den Schlagzeilen allein nicht sicher sagen. Das war Siemens Energy.",
-"audio": {
-"file": "sendung/2026-11-10-t_09.mp3",
-"hash": "24901a466bcfeafd",
-"dur": 46.8
-}
-},
-{
-"name": "Quartalszahlen diese Woche",
-"say": "Quartalszahlen diese Woche. Diese Firmen aus deiner Liste melden ihre Quartalszahlen. Zur Aktie Hyliion: Zahlen Dienstag, am zehnten November. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von minus null Dollar und sieben Cent. Beim Umsatz erwarten sie rund vier Komma acht Millionen Dollar. Zur Aktie SoftBank: Zahlen Dienstag, am zehnten November. Beim Umsatz erwarten sie rund eintausendneunhundertzweiundneunzig Komma fünf Milliarden Dollar. Zur Aktie Siemens Energy: Zahlen Mittwoch, am elften November. Beim Umsatz erwarten sie rund zwölf Komma sieben Milliarden Dollar. Zur Aktie Applied Materials: Zahlen Donnerstag, am zwölften November. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von vier Dollar und sechs Cent. Beim Umsatz erwarten sie rund zehn Komma drei Milliarden Dollar.",
-"audio": {
-"file": "sendung/2026-11-10-t_10.mp3",
-"hash": "55edc236eabd7da1",
-"dur": 63.8
-}
-},
-{
-"name": "Begriff: Marktkapitalisierung",
-"say": "Zum Lernen, der Begriff des Tages: Marktkapitalisierung. Die Marktkapitalisierung ist der Börsenwert einer Firma: Aktienkurs mal Zahl der Aktien. Sie zeigt, wie gross eine Firma an der Börse ist, nicht wie viel sie verdient.",
-"audio": {
-"file": "sendung/2026-11-10-t_11.mp3",
-"hash": "fd2d7e9460f7ac4a",
-"dur": 17.6
-}
-},
-{
-"name": "Schluss",
-"say": "Das war die Sendung vom Aktien-Radar. Die Quellen findest du in der App bei jeder Aktie, den ganzen Text über den Knopf Als Text. Bis morgen.",
-"audio": {
-"file": "sendung/2026-11-10-t_12.mp3",
-"hash": "cc4bc23e3e69d9dd",
-"dur": 11.5
-}
 }
 ],
-"dur": 555.2,
-"full": {
-"file": "sendung/2026-11-10-t_full.mp3",
-"dur": 555.1,
-"marks": [
-[
-0,
-0.0
-],
-[
-1,
-29.8
-],
-[
-2,
-87.0
-],
-[
-3,
-131.6
-],
-[
-4,
-178.2
-],
-[
-5,
-224.8
-],
-[
-6,
-274.0
-],
-[
-7,
-317.2
-],
-[
-8,
-371.6
-],
-[
-9,
-415.5
-],
-[
-10,
-462.3
-],
-[
-11,
-526.1
-],
-[
-12,
-543.7
-]
-]
-}
-}
-],
-"generated_at": "2026-11-25T14:47:30Z",
+"generated_at": "2026-11-26T14:11:25Z",
 "voice": "de-CH-LeniNeural",
 "source": "Yahoo Finance, SEC EDGAR, Schlagzeilen (Google News u.a.); Text: Gemini Gratis-Kontingent oder Vorlage",
-"audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@c57a606db8ef7cd6db3f213cbd47e87d5ea97a82/data/audio/"
+"audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@3f91d706bfca1a153665f7508cc4d17cfedb89ae/data/audio/"
 }
