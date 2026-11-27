@@ -1,6 +1,200 @@
 {
 "episodes": [
 {
+"id": "2026-11-27-t",
+"kind": "tag",
+"date": "2026-11-27",
+"title": "Morgen-Sendung, Freitag, siebenundzwanzigsten November",
+"generated_at": "2026-11-27T14:08:57Z",
+"writer": "Gemini (Gratis-Kontingent) 8 Firmen, Rest Vorlage",
+"chapters": [
+{
+"name": "Begrüssung",
+"say": "Guten Morgen und willkommen zur Sendung vom Aktien-Radar, heute Freitag, siebenundzwanzigsten November. Zuerst ein kurzer Blick auf den Markt, dann die Firmen aus deiner Liste mit neuen Meldungen zu Produkten, Partnern und Projekten, danach die Quartalszahlen dieser Woche und zum Schluss ein Begriff zum Lernen. Kurz vorweg: Alles stammt aus gesammelten Daten und Schlagzeilen, Beträge nenne ich in Dollar. Das ist keine Anlageberatung.",
+"audio": {
+"file": "sendung/2026-11-27-t_00.mp3",
+"hash": "1813c85fb06071db",
+"dur": 30.1
+}
+},
+{
+"name": "Markt kurz",
+"say": "Der Markt kurz. Der S und P fünfhundert, der Index der fünfhundert grossen US-Firmen, stand zuletzt bei minus null Komma drei Prozent gegenüber dem Vortag. In deiner Liste am stärksten: SK Hynix mit plus fünf Komma drei Prozent, DroneShield Limited mit plus vier Komma sieben Prozent, Hyliion mit plus vier Komma zwei Prozent. Am schwächsten: SoftBank mit minus sechs Komma fünf Prozent, Micron mit minus vier Komma sechs Prozent. Zum Thema Zölle meldet Bloomberg.com: Zwei Jahre nach Trumps Zollerklärung versucht Kanada, weiterzumachen. Zum Thema Exportkontrollen meldet The New York Times: Nvidia stoppt Verkäufe nach Südostasien, da die USA die Beschränkungen für China verschärfen.",
+"audio": {
+"file": "sendung/2026-11-27-t_01.mp3",
+"hash": "95e68d87782273b4",
+"dur": 53.7
+}
+},
+{
+"name": "Nvidia",
+"sym": "NVDA",
+"say": "Zur Aktie Nvidia. Singapur muss noch bestätigen, ob Nvidia die Lieferungen fortgeschrittener Chips gestoppt hat. Die Nvidia Aktie erholt sich nach Nvidia Chef Drama, da eine SpaceX Investition Aufmerksamkeit erregt. Singapur muss laut dem stellvertretenden Ministerpräsidenten die Berichte über Nvidia noch prüfen. Ob das Nvidia stärkt oder schwächt, ist aus den Meldungen noch unklar. Das war Nvidia.",
+"audio": {
+"file": "sendung/2026-11-27-t_02.mp3",
+"hash": "d442c8286ffa4040",
+"dur": 31.3
+}
+},
+{
+"name": "Amazon",
+"sym": "AMZN",
+"say": "Zur Aktie Amazon. Die deutsche Gewerkschaft Ver.di ruft am Black Friday zum Streik auf Amazon Websites auf. Amazon hat versucht, Musks Plan für eins Million KI Satelliten zu vereiteln, doch der FCC Vorsitzende gab SpaceX grünes Licht. Amazon und Walmart kämpfen ausserdem um den einhundertvierundzwanzig Milliarden Dollar Weihnachtseinkaufsmarkt. Meine Einordnung aus diesen Meldungen: Sie könnten Amazon eher stärken. Das war Amazon.",
+"audio": {
+"file": "sendung/2026-11-27-t_03.mp3",
+"hash": "cd5f870734c8e883",
+"dur": 34.9
+}
+},
+{
+"name": "UBS",
+"sym": "UBSG.SW",
+"say": "Zur Aktie UBS. Die UBS hat ein neues Rating zur adidas Aktie veröffentlicht und Swatch hat in Zürich die Führung übernommen, während die UBS die Aktie nicht mehr zum Verkauf einstuft. Zudem bekräftigt die UBS ihr Kaufrating für Entegris und gibt einen Ausblick auf Schwellenländeraktien. Meine Einordnung aus diesen Meldungen: Sie könnten UBS eher stärken. Das war UBS.",
+"audio": {
+"file": "sendung/2026-11-27-t_04.mp3",
+"hash": "d9b5b84e20e85ebf",
+"dur": 28.8
+}
+},
+{
+"name": "Broadcom",
+"sym": "AVGO",
+"say": "Zur Aktie Broadcom. Broadcom könnte laut Berichten der grösste Gewinner der Umstellung auf benutzerdefinierte KI Chips werden. Broadcom sinkt innerhalb einer Woche auf ein zweiundfünfzig Wochen Tief, da Google Berichten zufolge die TPU Bestellungen kürzt. Die fünf grossen Deals von Broadcom kosten einhundertsiebenundfünfzig Komma sechs Milliarden US Dollar, wobei VMware allein fünfundfünfzig Prozent ausmachte. Ob das Broadcom stärkt oder schwächt, ist aus den Meldungen noch unklar. Das war Broadcom.",
+"audio": {
+"file": "sendung/2026-11-27-t_05.mp3",
+"hash": "0986d7a6bdabf97c",
+"dur": 38.1
+}
+},
+{
+"name": "Micron",
+"sym": "MU",
+"say": "Zur Aktie Micron. Microns fünfzig Milliarden Dollar Investition in Taiwan birgt ein neues Arbeitsrisiko. Micron hat sich Kundenzusagen in Höhe von zweiunddreissig Milliarden US Dollar gesichert. Bei Micron bleibt es trotz der Diskussionen über ein nahendes Speichermaximum schwierig, das Geschäft abzuschreiben. Meine Einordnung aus diesen Meldungen: Sie könnten Micron eher stärken. Das war Micron.",
+"audio": {
+"file": "sendung/2026-11-27-t_06.mp3",
+"hash": "47f6c18e7dfbdcff",
+"dur": 31.1
+}
+},
+{
+"name": "Meta",
+"sym": "META",
+"say": "Zur Aktie Meta. Die steigenden Investitionsausgaben von Meta Platforms belasten den freien Cashflow im Rahmen von Monetarisierungsdebatten. Die Meta Aktie hält sich bei sechshundertzehn US Dollar, da Muse einundfünfzig Prozent der KI Einkaufsbestellungen entgegennimmt. Tröstlich für Meta ist, dass die Aktie auch aus Aussichten auf eine Amazon Partnerschaft profitiert. Meine Einordnung aus diesen Meldungen: Sie könnten Meta eher stärken. Das war Meta.",
+"audio": {
+"file": "sendung/2026-11-27-t_07.mp3",
+"hash": "85dc93fd450a7e90",
+"dur": 34.7
+}
+},
+{
+"name": "Microsoft",
+"sym": "MSFT",
+"say": "Zur Aktie Microsoft. Microsoft Aktien fallen leicht, während Nadella auf günstigere interne KI Modelle setzt. Microsoft steht wegen einer drohenden Gewinn Erosion durch Abschreibungen und KI Investitionen unter Druck. Ausserdem gestaltet ein Cloud Inferenz Deal von Microsoft mit Cerebras die KI Strategie der Firma neu. Meine Einordnung aus diesen Meldungen: Sie könnten Microsoft eher stärken. Das war Microsoft.",
+"audio": {
+"file": "sendung/2026-11-27-t_08.mp3",
+"hash": "2727973fc3b226e0",
+"dur": 33.6
+}
+},
+{
+"name": "Siemens Energy",
+"sym": "SMEGF",
+"say": "Zur Aktie von Siemens Energy gibt es neue Nachrichten. Das Unternehmen hat einen wichtigen Vertrag zur Wiederbelebung des venezolanischen Stromnetzes unterzeichnet. Nach diesem Energieabkommen mit Venezuela stiegen die Aktien von Siemens Energy um drei Prozent. Insgesamt geht es fuer die Aktie damit wieder stark bergauf. Das war die Zusammenfassung zu Siemens Energy.",
+"audio": {
+"file": "sendung/2026-11-27-t_09.mp3",
+"hash": "45c528eecbfe0fa9",
+"dur": 27.0
+}
+},
+{
+"name": "Quartalszahlen diese Woche",
+"say": "Kommen wir zu den Quartalszahlen dieser Woche. In diesem Zeitraum sind für deine Aktien keine Quartalszahlen angekündigt.",
+"audio": {
+"file": "sendung/2026-11-27-t_10.mp3",
+"hash": "bbc2dd8fc222fb2b",
+"dur": 9.4
+}
+},
+{
+"name": "Begriff: Volatilität",
+"say": "Zum Lernen, der Begriff des Tages: Volatilität. Volatilität beschreibt, wie stark ein Kurs schwankt. Eine volatile Aktie kann an einem Tag zehn Prozent steigen oder fallen. Mehr Schwankung heisst mehr Chance, aber auch mehr Risiko.",
+"audio": {
+"file": "sendung/2026-11-27-t_11.mp3",
+"hash": "0bd2337a80eb5ce4",
+"dur": 19.2
+}
+},
+{
+"name": "Schluss",
+"say": "Das war die Sendung vom Aktien-Radar. Die Quellen findest du in der App bei jeder Aktie, den ganzen Text über den Knopf Als Text. Bis morgen.",
+"audio": {
+"file": "sendung/2026-11-27-t_12.mp3",
+"hash": "cc4bc23e3e69d9dd",
+"dur": 11.5
+}
+}
+],
+"dur": 383.4,
+"full": {
+"file": "sendung/2026-11-27-t_full.mp3",
+"dur": 383.5,
+"marks": [
+[
+0,
+0.0
+],
+[
+1,
+30.1
+],
+[
+2,
+83.8
+],
+[
+3,
+115.1
+],
+[
+4,
+150.0
+],
+[
+5,
+178.8
+],
+[
+6,
+216.9
+],
+[
+7,
+248.0
+],
+[
+8,
+282.7
+],
+[
+9,
+316.3
+],
+[
+10,
+343.3
+],
+[
+11,
+352.7
+],
+[
+12,
+371.9
+]
+]
+}
+},
+{
 "id": "2026-11-26-t",
 "kind": "tag",
 "date": "2026-11-26",
@@ -2551,204 +2745,10 @@
 ]
 ]
 }
-},
-{
-"id": "2026-11-11-t",
-"kind": "tag",
-"date": "2026-11-11",
-"title": "Morgen-Sendung, Mittwoch, elften November",
-"generated_at": "2026-11-11T05:26:24Z",
-"writer": "Gemini (Gratis-Kontingent) 8 Firmen, Rest Vorlage",
-"chapters": [
-{
-"name": "Begrüssung",
-"say": "Guten Morgen und willkommen zur Sendung vom Aktien-Radar, heute Mittwoch, elften November. Zuerst ein kurzer Blick auf den Markt, dann die Firmen aus deiner Liste mit neuen Meldungen zu Produkten, Partnern und Projekten, danach die Quartalszahlen dieser Woche und zum Schluss ein Begriff zum Lernen. Kurz vorweg: Alles stammt aus gesammelten Daten und Schlagzeilen, Beträge nenne ich in Dollar. Das ist keine Anlageberatung.",
-"audio": {
-"file": "sendung/2026-11-11-t_00.mp3",
-"hash": "a2d6fb9b07dea022",
-"dur": 29.5
-}
-},
-{
-"name": "Markt kurz",
-"say": "Der Markt kurz. Der S und P fünfhundert, der Index der fünfhundert grossen US-Firmen, stand zuletzt bei minus null Komma vier Prozent gegenüber dem Vortag. In deiner Liste am stärksten: Samsung Electronics mit plus vier Komma sieben Prozent, Broadcom mit plus drei Komma neun Prozent, Taiwan Semiconductor mit plus zwei Prozent. Am schwächsten: Oklo mit minus sechs Komma fünf Prozent, Nvidia mit minus fünf Komma fünf Prozent. Zum Thema Exportkontrollen meldet Reuters: Nvidia steht wegen China-Chip-Beziehungen und CEO-Affäre vor einer verschärften Prüfung.",
-"audio": {
-"file": "sendung/2026-11-11-t_01.mp3",
-"hash": "e9dcfc5d1b129c52",
-"dur": 43.2
-}
-},
-{
-"name": "Nvidia",
-"sym": "NVDA",
-"say": "Zur Aktie Nvidia. Der Chiphersteller Nvidia steht derzeit wegen eines Spionageskandals um den Firmenchef Huang unter Druck, bei dem sogar das FBI ermittelt. Trotz dieser negativen Schlagzeilen bleibt Nvidia ein zentraler Akteur in der Branche. Anleger beobachten die Entwicklung bei Nvidia genau, da die Unsicherheit um die Führungsperson die Stimmung belastet. Meine Einordnung aus diesen Meldungen: Sie könnten Nvidia eher schwächen. Das war Nvidia.",
-"audio": {
-"file": "sendung/2026-11-11-t_02.mp3",
-"hash": "6a42366a01954b06",
-"dur": 33.4
-}
-},
-{
-"name": "Microsoft",
-"sym": "MSFT",
-"say": "Zur Aktie Microsoft. Microsoft hat eine neue strategische Partnerschaft mit der Ohio State University geschlossen, um Innovationen in der Forschung und Bildung voranzutreiben. Zudem arbeitet Microsoft gemeinsam mit IBM an einer neuen Plattform für KI-Agenten, die speziell für industrielle Transformationen entwickelt wurde. Trotz der Konkurrenz durch neue Office-Software-Angebote von Anthropic bleibt Microsoft operativ durch diese Kooperationen aktiv. Meine Einordnung aus diesen Meldungen: Sie könnten Microsoft eher stärken. Das war Microsoft.",
-"audio": {
-"file": "sendung/2026-11-11-t_03.mp3",
-"hash": "716d31e54772226b",
-"dur": 42.6
-}
-},
-{
-"name": "SoftBank",
-"sym": "SFTBY",
-"say": "Zur Aktie SoftBank. Die SoftBank verzeichnet einen Verlust von sieben Milliarden Dollar, was unter anderem auf gestiegene Kosten bei US-Rechenzentrumsprojekten zurückzuführen ist. Dennoch plant die SoftBank gemeinsam mit Grab eine Investition von eins Komma neun Milliarden Dollar in die KI-Infrastruktur in Malaysia. Zudem hat die SoftBank die Gespräche mit ABB wieder aufgenommen, nachdem eine frühere Übernahme in China blockiert wurde. Meine Einordnung aus diesen Meldungen: Sie könnten SoftBank eher schwächen. Das war SoftBank.",
-"audio": {
-"file": "sendung/2026-11-11-t_04.mp3",
-"hash": "9f40b891320f2977",
-"dur": 39.6
-}
-},
-{
-"name": "Amazon",
-"sym": "AMZN",
-"say": "Zur Aktie Amazon. Amazon hat neue Überwachungstechnologien vorgestellt, darunter eine fliegende Drohne und einen Roboter für den Einsatz in Häusern und Unternehmen. Das Unternehmen steht zudem vor der Frage, wie sich die massiven KI-Investitionen in Höhe von eins Komma zwei Billionen US-Dollar langfristig auszahlen werden. Amazon bleibt dabei ein wichtiger Marktplatz, auf dem auch Bestseller wie das Buch von Mark Moses neue Rekorde erzielen. Ob das Amazon stärkt oder schwächt, ist aus den Meldungen noch unklar. Das war Amazon.",
-"audio": {
-"file": "sendung/2026-11-11-t_05.mp3",
-"hash": "f4919bf9edcc11d5",
-"dur": 39.0
-}
-},
-{
-"name": "Taiwan Semiconductor",
-"sym": "TSM",
-"say": "Zur Aktie Taiwan Semiconductor. Der Chiphersteller Taiwan Semiconductor meldete für Oktober einen Umsatzanstieg von neunundfünfzig Komma sieben Prozent auf dreihundertsiebenundsechzig Komma vier sieben Milliarden NT$, getrieben durch die hohe Nachfrage nach KI-Chips. Taiwan Semiconductor profitiert dabei massgeblich von Aufträgen grosser Kunden wie Nvidia und Apple. Zusätzlich investiert Taiwan Semiconductor nun auch direkt in die KI-Unternehmen Anthropic und OpenAI. Meine Einordnung aus diesen Meldungen: Sie könnten Taiwan Semiconductor eher stärken. Das war Taiwan Semiconductor.",
-"audio": {
-"file": "sendung/2026-11-11-t_06.mp3",
-"hash": "f1ab32157abb65e1",
-"dur": 44.7
-}
-},
-{
-"name": "Intel",
-"sym": "INTC",
-"say": "Zur Aktie Intel. Intel arbeitet aktuell mit Altera an neuen Lösungen zur Sensorintegration zusammen. Während das PC-Geschäft im vierten Quartal schwächelt, setzt Intel auf Wachstum im Bereich der Rechenzentren ab dem Jahr 2027. Analysten beobachten bei Intel genau, wie sich diese strategische Neuausrichtung gegen die Konkurrenz behaupten kann. Ob das Intel stärkt oder schwächt, ist aus den Meldungen noch unklar. Das war Intel.",
-"audio": {
-"file": "sendung/2026-11-11-t_07.mp3",
-"hash": "1521eb35b950ecce",
-"dur": 34.7
-}
-},
-{
-"name": "UBS",
-"sym": "UBSG.SW",
-"say": "Zur Aktie UBS. Die Grossbank hat sich zu den globalen KI-Investitionen geäussert und wertet den jüngsten Ausverkauf als eine reine Neupositionierung am Markt, während im Jahr 2028 Ausgaben in Höhe von eins Komma fünf Billionen Dollar erwartet werden. Zudem hat die UBS ihre Einschätzungen zu verschiedenen Unternehmen angepasst und dabei die Kursziele für Take-Two sowie für AST SpaceMobile nach unten korrigiert. Das war UBS.",
-"audio": {
-"file": "sendung/2026-11-11-t_08.mp3",
-"hash": "5878256947a164ca",
-"dur": 32.8
-}
-},
-{
-"name": "GE Vernova",
-"sym": "GEV",
-"say": "Zur Aktie GE Vernova. Das Unternehmen investiert vierunddreissig Komma fünf Millionen Dollar in die Erweiterung seiner Anlage in Shreveport, um die Produktion von Transformatoren für die wachsende Netzinfrastruktur zu steigern. Im Bereich der Technologie konnte GE Vernova zudem wichtige Meilensteine bei der Entwicklung von Wasserstofffähigkeiten für Gasturbinen erreichen. Belastend wirkte sich hingegen aus, dass die Aktien von GE Vernova nach einer Überarbeitung der Projektpläne für US-Rechenzentren durch SoftBank unter Druck gerieten. Das war GE Vernova.",
-"audio": {
-"file": "sendung/2026-11-11-t_09.mp3",
-"hash": "5ebfeaccc6f2ceb9",
-"dur": 40.1
-}
-},
-{
-"name": "Quartalszahlen diese Woche",
-"say": "Quartalszahlen diese Woche. Diese Firmen aus deiner Liste melden ihre Quartalszahlen. Zur Aktie Siemens Energy: Zahlen Mittwoch, am elften November. Beim Umsatz erwarten sie rund zwölf Komma sieben Milliarden Dollar. Zur Aktie Applied Materials: Zahlen Donnerstag, am zwölften November. Die Analysten erwarten im Schnitt einen Gewinn je Aktie von vier Dollar und sechs Cent. Beim Umsatz erwarten sie rund zehn Komma drei Milliarden Dollar.",
-"audio": {
-"file": "sendung/2026-11-11-t_10.mp3",
-"hash": "1ffc883749ea37de",
-"dur": 35.1
-}
-},
-{
-"name": "Begriff: Hochstufung und Abstufung",
-"say": "Zum Lernen, der Begriff des Tages: Hochstufung und Abstufung. Wenn eine Bank ihre Empfehlung verbessert, zum Beispiel von Halten auf Kaufen, heisst das Hochstufung. Das Gegenteil ist eine Abstufung. Solche Änderungen bewegen den Kurs oft am gleichen Tag.",
-"audio": {
-"file": "sendung/2026-11-11-t_11.mp3",
-"hash": "3e37cea3e5f0347e",
-"dur": 19.2
-}
-},
-{
-"name": "Schluss",
-"say": "Das war die Sendung vom Aktien-Radar. Die Quellen findest du in der App bei jeder Aktie, den ganzen Text über den Knopf Als Text. Bis morgen.",
-"audio": {
-"file": "sendung/2026-11-11-t_12.mp3",
-"hash": "cc4bc23e3e69d9dd",
-"dur": 11.5
-}
 }
 ],
-"dur": 445.4,
-"full": {
-"file": "sendung/2026-11-11-t_full.mp3",
-"dur": 445.3,
-"marks": [
-[
-0,
-0.0
-],
-[
-1,
-29.5
-],
-[
-2,
-72.7
-],
-[
-3,
-106.1
-],
-[
-4,
-148.7
-],
-[
-5,
-188.3
-],
-[
-6,
-227.3
-],
-[
-7,
-272.0
-],
-[
-8,
-306.7
-],
-[
-9,
-339.5
-],
-[
-10,
-379.6
-],
-[
-11,
-414.7
-],
-[
-12,
-433.9
-]
-]
-}
-}
-],
-"generated_at": "2026-11-26T14:11:25Z",
+"generated_at": "2026-11-27T14:08:57Z",
 "voice": "de-CH-LeniNeural",
 "source": "Yahoo Finance, SEC EDGAR, Schlagzeilen (Google News u.a.); Text: Gemini Gratis-Kontingent oder Vorlage",
-"audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@7b4f549e7e1895babf712fa5dbecd002773f30ae/data/audio/"
+"audio_base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@3eb368507923c29e0e741ed96d728577c1ed8f48/data/audio/"
 }
