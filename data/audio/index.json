@@ -522,7 +522,7 @@
  "status": "ok",
  "checked_at": "2026-11-27T23:37:38Z",
  "quota_until": 1795249473.4961078,
- "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@d5f8421705f63fa8b5a540da3d4d85eb25612832/data/audio/",
+ "base": "https://cdn.jsdelivr.net/gh/ayoub971-prog/aktien-radar@683c2dfa80f4bb7e85b5748a138e5dd5f1b7a3ef/data/audio/",
  "extra": {
   "intro": {
    "file": "_intro.mp3",
